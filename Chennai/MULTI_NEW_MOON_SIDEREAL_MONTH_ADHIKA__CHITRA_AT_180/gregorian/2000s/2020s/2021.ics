@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210425063023
+SEQUENCE:20210504084007
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -6293,8 +6293,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:सोममृगशीर्ष-पुण्यकालः
-DTSTART;VALUE=DATE:20210222
-DTEND;VALUE=DATE:20210223
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210222T000000
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210222T105624
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/sOmamRg
  azIrSa-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYoga
@@ -6302,9 +6302,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  .com/jyotisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_
  only/sOmamRgazIrSa-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations Amri
  taSiddhiYogaDays
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -6706,8 +6703,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:गुरुपुष्य-पुण्यकालः
-DTSTART;VALUE=DATE:20210225
-DTEND;VALUE=DATE:20210226
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210225T000000
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210225T131600
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/gurupuS
  ya-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDays
@@ -6715,9 +6712,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  /jyotisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only
  /gurupuSya-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhi
  YogaDays
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -9567,8 +9561,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:शनिरोहिणी-पुण्यकालः
-DTSTART;VALUE=DATE:20210320
-DTEND;VALUE=DATE:20210321
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210320T000000
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210320T164409
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/zanirOh
  iNI-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDay
@@ -9576,9 +9570,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  m/jyotisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_onl
  y/zanirOhiNI-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSidd
  hiYogaDays
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -10698,8 +10689,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आदित्यहस्त-पुण्यकालः
-DTSTART;VALUE=DATE:20210328
-DTEND;VALUE=DATE:20210329
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210328T173434
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210329T000000
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/Adityah
  asta-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDa
@@ -10707,9 +10698,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  om/jyotisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_on
  ly/Adityahasta-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSi
  ddhiYogaDays
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -12629,8 +12617,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:भौमाश्विनी-पुण्यकालः
-DTSTART;VALUE=DATE:20210413
-DTEND;VALUE=DATE:20210414
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210413T000000
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210413T141801
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/bhaumAz
  vinI-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDa
@@ -12638,9 +12626,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  om/jyotisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_on
  ly/bhaumAzvinI-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSi
  ddhiYogaDays
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -15033,8 +15018,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:बुधानुराधा-पुण्यकालः
-DTSTART;VALUE=DATE:20210428
-DTEND;VALUE=DATE:20210429
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210428T171137
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210429T000000
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/budhAnu
  rAdhA-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaD
@@ -15042,9 +15027,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  com/jyotisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_o
  nly/budhAnurAdhA-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations Amrita
  SiddhiYogaDays
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -15514,8 +15496,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:सोमश्रावणी-पुण्यकालः
-DTSTART;VALUE=DATE:20210503
-DTEND;VALUE=DATE:20210504
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210503T082051
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210504T000000
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/sOmazrA
  vaNI-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDa
@@ -15523,9 +15505,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  om/jyotisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_on
  ly/sOmazrAvaNI-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSi
  ddhiYogaDays
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -17916,8 +17895,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आदित्यहस्त-पुण्यकालः
-DTSTART;VALUE=DATE:20210523
-DTEND;VALUE=DATE:20210524
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210523T000000
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210523T121101
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/Adityah
  asta-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDa
@@ -17925,9 +17904,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  om/jyotisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_on
  ly/Adityahasta-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSi
  ddhiYogaDays
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -19286,8 +19262,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:सोमश्रावणी-पुण्यकालः
-DTSTART;VALUE=DATE:20210531
-DTEND;VALUE=DATE:20210601
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210531T000000
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210531T160012
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/sOmazrA
  vaNI-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDa
@@ -19295,9 +19271,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  om/jyotisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_on
  ly/sOmazrAvaNI-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSi
  ddhiYogaDays
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -22202,8 +22175,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:बुधानुराधा-पुण्यकालः
-DTSTART;VALUE=DATE:20210623
-DTEND;VALUE=DATE:20210624
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210623T000000
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210623T114640
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/budhAnu
  rAdhA-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaD
@@ -22211,9 +22184,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  com/jyotisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_o
  nly/budhAnurAdhA-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations Amrita
  SiddhiYogaDays
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -26713,8 +26683,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:भृगुरेवती-पुण्यकालः
-DTSTART;VALUE=DATE:20210730
-DTEND;VALUE=DATE:20210731
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210730T000000
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210730T140017
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/bhRgurE
  vatI-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDa
@@ -26722,9 +26692,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  om/jyotisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_on
  ly/bhRgurEvatI-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSi
  ddhiYogaDays
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -27723,15 +27690,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:रविपुष्ययोग-पुण्यकालः
-DTSTART;VALUE=DATE:20210808
-DTEND;VALUE=DATE:20210809
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210808T000000
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210808T091703
 DESCRIPTION:When Pushya nakshatra falls on a Sunday\, it is a special pu
  ṇyakālaḥ.<br/><br/>## Details<br/>- [Edit config file](https://github
  .com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/descript
  ion_only/ravipuSyayOga-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -34772,8 +34736,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:सोममृगशीर्ष-पुण्यकालः
-DTSTART;VALUE=DATE:20210927
-DTEND;VALUE=DATE:20210928
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210927T173847
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210928T000000
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/sOmamRg
  azIrSa-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYoga
@@ -34781,9 +34745,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  .com/jyotisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_
  only/sOmamRgazIrSa-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations Amri
  taSiddhiYogaDays
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -38837,8 +38798,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:गुरुपुष्य-पुण्यकालः
-DTSTART;VALUE=DATE:20211028
-DTEND;VALUE=DATE:20211029
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211028T093834
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211029T000000
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/gurupuS
  ya-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDays
@@ -38846,9 +38807,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  /jyotisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only
  /gurupuSya-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhi
  YogaDays
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -42707,8 +42665,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:सोममृगशीर्ष-पुण्यकालः
-DTSTART;VALUE=DATE:20211122
-DTEND;VALUE=DATE:20211123
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211122T000000
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211122T104059
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/sOmamRg
  azIrSa-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYoga
@@ -42716,9 +42674,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  .com/jyotisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_
  only/sOmamRgazIrSa-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations Amri
  taSiddhiYogaDays
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -45721,8 +45676,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:शनिरोहिणी-पुण्यकालः
-DTSTART;VALUE=DATE:20211218
-DTEND;VALUE=DATE:20211219
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211218T000000
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211218T134609
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/zanirOh
  iNI-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDay
@@ -45730,9 +45685,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  m/jyotisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_onl
  y/zanirOhiNI-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSidd
  hiYogaDays
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
