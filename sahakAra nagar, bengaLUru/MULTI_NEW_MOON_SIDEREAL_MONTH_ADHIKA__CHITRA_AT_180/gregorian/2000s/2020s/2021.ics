@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210508075659
+SEQUENCE:20210508075938
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -4401,6 +4401,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:प्रतापसिंह-मृत्युः #४२४
+DTSTART;VALUE=DATE:20210208
+DTEND;VALUE=DATE:20210209
+DESCRIPTION:Event occured on 1597-02-08 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. Maharana Pratap passes away due to in
+ juries in a hunting accident at Chawand.<br/><br/>11 years earlier\, he'd 
+ reconquered all of mewar from Mogols\, except Ajmer\, Chittorgarh & Mandal
+ garh.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
+ isham/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/01/29/pratA
+ pasiMha-mRtyuH.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:सेङ्गालिपुरम्-मुत्तण्ण
  ावाळ्-आराधना #१२८
 DTSTART;VALUE=DATE:20210208
@@ -4728,6 +4747,25 @@ DESCRIPTION:- Indian civil date: 1942-11-22\, Islamic: 1442-06-28 Jumādā
  ककालः**—09:40-11:07  \n___________________\n- **शूलम
  ्**—दक्षिणा दिक् (►14:29)\; **परिहा
  रः**–तैलम्  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:गजपतिनैकशिला-दुर्ग-ग्रह
+ णम् #५६१
+DTSTART;VALUE=DATE:20210211
+DTEND;VALUE=DATE:20210212
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/02/02/gajapati
+ nA_ekashilAdurga-grahaNam.toml)<br/>- Tags: <br/><br/><br/><br/>## Details
+ <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
+ er/mahApuruSha/xatra-later/julian/day/02/02/gajapatinA_ekashilAdurga-graha
+ Nam.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5522,9 +5560,12 @@ DTSTART;VALUE=DATE:20210217
 DTEND;VALUE=DATE:20210218
 DESCRIPTION:Event occured on 1883-02-17 (gregorian). On this day died the 
  selfless patriot Vasudev Balwant Phadke\, who single handedly tried to res
- ist the might of British Empire.<br/><br/>## Details<br/>- [Edit config fi
- le](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xatra-l
- ater/gregorian/day/02/17/phaDke-vAsudevo_mRtaH.toml)<br/>- Tags:
+ ist the might of British Empire. Phadke was transported to jail at Aden\, 
+ but escaped from the prison by taking the door off from its hinges on 13 F
+ ebruary 1883. He was soon recaptured and then went on a hunger strike\, dy
+ ing on 17 February 1883.<br/><br/>## Details<br/>- [Edit config file](http
+ s://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xatra-later/gre
+ gorian/day/02/17/phaDke-vAsudevo_mRtaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8414,6 +8455,26 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:प्रतापसिंह-शासनारम्भः #४
+ ४९
+DTSTART;VALUE=DATE:20210311
+DTEND;VALUE=DATE:20210312
+DESCRIPTION:Event occured on 1572-03-11 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. Mewar nobles support Maharana Pratap 
+ for the throne & force Jagmal (9th son of udayasiMha who died a couple of 
+ days ago) to step down. Jagmal departs to serve Mughals.<br/><br/>## Detai
+ ls<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/ma
+ ster/mahApuruSha/xatra-later/julian/day/03/01/pratApasiMha-shAsanArambhaH.
+ toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:माघः-11-29\,कुम्भः-शतभिषक्🌛
  🌌◢◣कुम्भः-पूर्वप्रोष्ठपदा
  -11-28🌌🌞◢◣तपस्यः-12-23🪐🌞शुक्रः
@@ -9650,6 +9711,25 @@ DESCRIPTION:- Indian civil date: 1942-12-30\, Islamic: 1442-08-07 Shaʿbā
  ककालः**—15:27-16:57  \n___________________\n- **शूलम
  ्**—प्रतीची दिक् (►11:14)\; **परिहा
  रः**–गुडम्  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:गजपतिन-लख्नौति-दुर्ग-ग्र
+ हणम् #७७६
+DTSTART;VALUE=DATE:20210321
+DTEND;VALUE=DATE:20210322
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/03/14/gajapati
+ nA_lakhnauti-grahaNam.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/
+ >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/m
+ ahApuruSha/xatra-later/julian/day/03/14/gajapatinA_lakhnauti-grahaNam.toml
+ )<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14128,6 +14208,24 @@ DESCRIPTION:The Shukla-paksha Ekadashi of chaitra month is known as kāmad
  ā-ekādaśī.<br/><br/>## Details<br/>- [Edit config file](https://github
  .com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/descripti
  on_only/kAmadA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:तुघ्रलखान-पलायनम् #७७७
+DTSTART;VALUE=DATE:20210423
+DTEND;VALUE=DATE:20210424
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/04/16/tughrala
+ -khAna-palAyanam.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [E
+ dit config file](https://github.com/jyotisham/adyatithi/blob/master/mahApu
+ ruSha/xatra-later/julian/day/04/16/tughrala-khAna-palAyanam.toml)<br/>- Ta
+ gs:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -28613,6 +28711,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अलबोय-युद्धम् #३५२
+DTSTART;VALUE=DATE:20210815
+DTEND;VALUE=DATE:20210816
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/08/05/alaboya-
+ yuddham.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit confi
+ g file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xat
+ ra-later/julian/day/08/05/alaboya-yuddham.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:अव्यङ्ग-सप्तमी
 DTSTART;VALUE=DATE:20210815
 DTEND;VALUE=DATE:20210816
@@ -40810,6 +40925,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:शुक्रेश्वर-पर्वत-जयः #३५
+ ४
+DTSTART;VALUE=DATE:20211112
+DTEND;VALUE=DATE:20211113
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/11/02/shukresh
+ vara-parvata-jayaH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahA
+ puruSha/xatra-later/julian/day/11/02/shukreshvara-parvata-jayaH.toml)<br/>
+ - Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:त्रेतायुगादिः
 DTSTART;VALUE=DATE:20211112
 DTEND;VALUE=DATE:20211113
@@ -43827,6 +43961,25 @@ DESCRIPTION:Event occured on 1659-12-03 (gregorian). Julian date was conve
  <br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham
  /adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/11/23/afzal-khAn
  a-vadhAt_13_dinam.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:जयपाल-पराजयः पुरुषपुरे #
+ १०२०
+DTSTART;VALUE=DATE:20211203
+DTEND;VALUE=DATE:20211204
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/11/27/jayapAla
+ -parAjayaH_puruShapure.toml)<br/>- Tags: Shivaji<br/><br/><br/><br/>## Det
+ ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/
+ master/mahApuruSha/xatra-later/julian/day/11/27/jayapAla-parAjayaH_puruSha
+ pure.toml)<br/>- Tags: Shivaji
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
