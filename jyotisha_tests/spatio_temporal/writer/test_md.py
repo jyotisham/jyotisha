@@ -1,7 +1,7 @@
 import logging
 import os
 
-from doc_curation.md_helper import MdFile
+from doc_curation.md.file import MdFile
 
 from jyotisha.panchaanga.spatio_temporal.periodical import Panchaanga
 from jyotisha.panchaanga.writer import md

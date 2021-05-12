@@ -7,7 +7,7 @@ import os
 import shutil
 
 import toml
-from doc_curation.md_helper import MdFile
+from doc_curation.md.file import MdFile
 
 import jyotisha
 from indic_transliteration import xsanscript
