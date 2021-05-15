@@ -7,6 +7,7 @@ import os
 import shutil
 
 import toml
+from doc_curation.md import library
 from doc_curation.md.file import MdFile
 
 import jyotisha
@@ -43,10 +44,10 @@ def dump_ics_md_pair(panchaanga, period_str):
   monthly_md_file = MdFile(file_path=monthly_file_path)
   monthly_md_file.set_title_from_filename(dry_run=False, transliteration_target=None)
   monthly_md_file.split_to_bits(source_script=None, dry_run=False, indexed_title_pattern=None)
-  MdFile.apply_function(fn=MdFile.split_to_bits, dir_path=monthly_dir, frontmatter_type=MdFile.TOML, source_script=None, dry_run=False, indexed_title_pattern=None)
+  library.apply_function(fn=MdFile.split_to_bits, dir_path=monthly_dir, frontmatter_type=MdFile.TOML, source_script=None, dry_run=False, indexed_title_pattern=None)
   logging.info("%s exists? %s", monthly_dir, os.path.exists(monthly_dir))
 
-  MdFile.fix_index_files(dir_path=output_dir, transliteration_target=None, dry_run=False)
+  library.fix_index_files(dir_path=output_dir, transliteration_target=None, dry_run=False)
 
 
 def dump_detailed(year, city, year_type, computation_system=ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180):
@@ -64,7 +65,7 @@ def dump_summary(year, city, script=xsanscript.DEVANAGARI, computation_system=Co
   os.makedirs(os.path.dirname(out_path), exist_ok=True)
   with codecs.open(out_path + ".toml", "w") as fp:
     toml.dump(year_table, fp)
-  MdFile.fix_index_files(dir_path=output_dir, transliteration_target=None, dry_run=False)
+  library.fix_index_files(dir_path=output_dir, transliteration_target=None, dry_run=False)
 
   computation_params = get_computation_parameters_md(panchaanga=panchaanga, scripts=[script])
   out_path_md = out_path + "_summary.md"
