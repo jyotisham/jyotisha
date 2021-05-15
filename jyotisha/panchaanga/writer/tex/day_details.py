@@ -166,7 +166,7 @@ def get_tithi_data_str(daily_panchaanga, scripts, time_format):
                           24 * (tithi_end_jd - daily_panchaanga.jd_sunrise)).to_string(format='gg-pp'),
                         time.Hour(24 * (tithi_end_jd - jd)).to_string(
                           format=time_format))
-      if iTithi == 2:
-          tithi_data_str += '\\avamA{}'
+    if iTithi == 2:
+      tithi_data_str += '\\avamA{}'
 
   return tithi_data_str
