@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210515182518
+SEQUENCE:20210518195311
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -11954,6 +11954,25 @@ DESCRIPTION:- Indian civil date: 1943-01-17\, Islamic: 1442-08-24 Shaʿbā
  *गुलिककालः**—10:50-12:21  \n___________________\n- **
  शूलम्**—उदीची दिक् (►12:46)\; **परि
  हारः**–क्षीरम्  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:गोवा-हिन्दुक-बाल-ग्रहणाद
+ ेशः #४६२
+DTSTART;VALUE=DATE:20210407
+DTEND;VALUE=DATE:20210408
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/03/28/govA-hin
+ du-bAla-grahaNAdeshaH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/
+ >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/m
+ ahApuruSha/xatra-later/julian/day/03/28/govA-hindu-bAla-grahaNAdeshaH.toml
+ )<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -32111,6 +32130,26 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:गोवा-मन्दिर-निरोधः #४५२
+DTSTART;VALUE=DATE:20210908
+DTEND;VALUE=DATE:20210909
+DESCRIPTION:Event occured on 1569-09-08 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. Portuguese viceroy De Noroha ordered 
+ - "No Hindu Temples should be erected in any territories of my King & temp
+ les shouldn't be repaired w/o my Permission."<br/><br/>The report of activ
+ ities of Franciscans state that 300 Hindu temples were destroyed by them i
+ n Bardez region (Goa).<br/><br/>## Details<br/>- [Edit config file](https:
+ //github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xatra-later/julia
+ n/day/08/29/govA-mandira-nirodhaH.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:तिरुच्चॆन्दूर् मुरुगऩ् 
  आवणित् तिरुविऴा 8म् नाळ्—पच
  ्चै चात्ति अलङ्कारम्
@@ -43334,6 +43373,25 @@ DESCRIPTION:- Indian civil date: 1943-09-06\, Islamic: 1443-04-21 Rabīʿ
  06:27-07:52  \n___________________\n- **शूलम्**—प्रा
  ची दिक् (►09:28)\; **परिहारः**–दधि  \n
  ___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:गोवायां बन्धीनाम् प्रेत
+ ीकरणम् #२९०
+DTSTART;VALUE=DATE:20211127
+DTEND;VALUE=DATE:20211128
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/11/16/govAyAM_
+ bandhInAm_pretIkaraNam.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br
+ />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
+ mahApuruSha/xatra-later/julian/day/11/16/govAyAM_bandhInAm_pretIkaraNam.to
+ ml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
