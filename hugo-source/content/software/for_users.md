@@ -18,18 +18,26 @@ For detailed examples and help, please see individual module files - especially 
   - Calendar generation projects such as those under this folder - [jyotisha/panchaanga/writer/generation_project](https://github.com/jyotisham/jyotisha/tree/master/jyotisha/panchaanga/writer/generation_project)
 - Command line usage - can be invoked via some shell scripts at [karthik's panchaanga repo](https://github.com/karthikraman/panchangam). But these often go out of date - so you might need to debug them. See [this issue](https://github.com/jyotisham/jyotisha/issues/10).
 
-#### Sample code to generate Markdown panchaanga
+#### Sample code to output panchaanga
 ```python
+# Produce a panchaanga
 from jyotisha.panchaanga.spatio_temporal import City, annual, periodical
 from jyotisha.panchaanga.temporal import ComputationSystem
 from jyotisha.panchaanga.temporal.time import Date
 city = City('Chennai', "13:05:24", "80:16:12", "Asia/Calcutta")
 panchaanga = annual.get_panchaanga_for_civil_year(city=city, year=2021, computation_system=ComputationSystem.TEST, allow_precomputed=False)
 
+## Markdown
 from jyotisha.panchaanga.writer import md
 from doc_curation.md.file import MdFile
 md_file = MdFile(file_path="/some/path.md")
 md_file.dump_to_file(metadata={"title": str(2019)}, md=md.make_md(panchaanga=panchaanga), dry_run=False)
+
+## Tex
+from jyotisha.panchaanga.writer.tex.daily_tex_writer import emit
+from indic_transliteration import sanscript
+emit(panchaanga,
+     output_stream=open("/some/path.tex", 'w'), languages=["sa", "ta"], scripts=[sanscript.DEVANAGARI, sanscript.TAMIL])
 ```
 
 
