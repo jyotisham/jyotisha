@@ -9,6 +9,8 @@ The code itself is capable of typical (amAnta, chitra-at-180 ayanAMsha, अस�
 
 For a survey of similar software, see [here](https://jyotisham.github.io/astronomy/).
 
+## User guide
+See separate [page here](for_users/).
 
 ## Accuracy status
 It is very important to note that this is an *approximate* panchaanga,
