@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210518195523
+SEQUENCE:20210520205111
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -790,6 +790,25 @@ DESCRIPTION:- Indian civil date: 1942-10-19\, Islamic: 1442-05-25 Jumādā
  —13:51-15:16\; **गुलिककालः**—06:48-08:12  \n________
  ___________\n- **शूलम्**—प्राची दिक् (►0
  9:48)\; **परिहारः**–दधि  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:बाजीरावेण कान्होजि-रक्ष
+ णम् #३०१
+DTSTART;VALUE=DATE:20210109
+DTEND;VALUE=DATE:20210110
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/01/09/bAjIr
+ AveNa_kAnhoji-raxaNam.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/
+ >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/m
+ ahApuruSha/xatra-later/gregorian/day/01/09/bAjIrAveNa_kAnhoji-raxaNam.toml
+ )<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2293,6 +2312,23 @@ DESCRIPTION:- Indian civil date: 1942-11-01\, Islamic: 1442-06-07 Jumādā
  ___________________\n- **शूलम्**—दक्षिणा दि
  क् (►14:24)\; **परिहारः**–तैलम्  \n_______
  ____________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:केल्वा-दुर्ग-जयः #२८२
+DTSTART;VALUE=DATE:20210121
+DTEND;VALUE=DATE:20210122
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/01/10/kelvA-du
+ rga-jayaH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/x
+ atra-later/julian/day/01/10/kelvA-durga-jayaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3918,6 +3954,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:तारापुर-दुर्ग-जयः #२८२
+DTSTART;VALUE=DATE:20210203
+DTEND;VALUE=DATE:20210204
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/02/03/tArAp
+ ura-durga-jayaH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Ed
+ it config file](https://github.com/jyotisham/adyatithi/blob/master/mahApur
+ uSha/xatra-later/gregorian/day/02/03/tArApura-durga-jayaH.toml)<br/>- Tags
+ :
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:पौषः-10-22\,तुला-स्वाती🌛🌌◢◣
  मकरः-श्रवणः-10-22🌌🌞◢◣तपः-11-16🪐🌞
  गुरुः
@@ -5128,6 +5182,24 @@ DESCRIPTION:- Indian civil date: 1942-11-25\, Islamic: 1442-07-02 Rajab\n-
  ालः**—15:27-16:54  \n___________________\n- **शूलम्**—
  प्रतीची दिक् (►11:24)\; **परिहारः**
  –गुडम्  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अशेरि-दुर्ग-जयः #२८२
+DTSTART;VALUE=DATE:20210214
+DTEND;VALUE=DATE:20210215
+DESCRIPTION:Event occured on 1739-02-14 (gregorian). After the capture of 
+ Tarapur\, the provisions to Portuguese were cut off\, & the Portuguese for
+ ce at Asheri surrendered without a fight. Asheri Fort was finally under Ma
+ ratha Control.<br/><br/>Context:<br/><br/>## Details<br/>- [Edit config fi
+ le](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xatra-l
+ ater/gregorian/day/02/14/asheri-durga-jayaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12118,6 +12190,23 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  onfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/
  monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
  tam EkadashiVratam
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:जल-दुर्ग-जयः #२८४
+DTSTART;VALUE=DATE:20210408
+DTEND;VALUE=DATE:20210409
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/03/28/jala-dur
+ ga-jayaH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit conf
+ ig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xa
+ tra-later/julian/day/03/28/jala-durga-jayaH.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -24693,6 +24782,30 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:आङ्ग्रॆ-कान्होजी-मृत्यु
+ ः #२९२
+DTSTART;VALUE=DATE:20210714
+DTEND;VALUE=DATE:20210715
+DESCRIPTION:Event occured on 1729-07-14 (gregorian). Death of Maratha Navy
+  Admiral Kanhoji Angre. During his undefeated reign\, his navy controlled 
+ west coast\, prevented entry of slave trade in India\, fully succeeded in 
+ keeping British\, Dutch\, Portuguese at bay. 30 June 1729 (new style) is w
+ rongly noted as the day in some books.<br/><br/>॥श्री॥ श्
+ री शाहू-नृपती-प्रित्या तुको
+ जी-तनुजन्मना कान्होजी-सरखे
+ लस्य मुद्रा जयति सर्वदा॥<br/><br
+ />## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatit
+ hi/blob/master/mahApuruSha/xatra-later/gregorian/day/07/14/AngrE-kAnhojI-m
+ RtyuH.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:अमरनीति नायऩार् (६) गुरुप
  ूजै
 DTSTART;VALUE=DATE:20210714
@@ -26503,30 +26616,6 @@ DESCRIPTION:- Indian civil date: 1943-05-04\, Islamic: 1442-12-16 Ḏū al
  लः**—14:00-15:35  \n___________________\n- **शूलम्**—प
  ्राची दिक् (►09:29)\; **परिहारः**–द
  धि  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:आङ्ग्रॆ-कान्होजी-मृत्यु
- ः #२९२
-DTSTART;VALUE=DATE:20210726
-DTEND;VALUE=DATE:20210727
-DESCRIPTION:Event occured on 1729-07-26 (gregorian). Julian date was conve
- rted to Gregorian in this reckoning. Death anniversary of Maratha Navy Adm
- iral Kanhoji Angre. During his undefeated reign\, his navy controlled west
-  coast\, prevented entry of slave trade in India\, fully succeeded in keep
- ing British\, Dutch\, Portuguese at bay.<br/><br/>॥श्री॥ श
- ्री शाहू-नृपती-प्रित्या तुक
- ोजी-तनुजन्मना कान्होजी-सरख
- ेलस्य मुद्रा जयति सर्वदा॥<br/>
- <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
- tithi/blob/master/mahApuruSha/xatra-later/julian/day/07/15/AngrE-kAnhojI-m
- RtyuH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
