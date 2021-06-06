@@ -22,11 +22,11 @@ def test_panchanga_chennai_2019():
   orig_md_file = os.path.join(TEST_DATA_PATH, 'Chennai-2019-devanagari.md.txt')
   current_md_output = os.path.join(TEST_DATA_PATH, 'Chennai-2019-devanagari.md.txt.local')
   md_file = MdFile(file_path=current_md_output)
-  md_file.dump_to_file(metadata={"title": str(2019)}, md=md.make_md(panchaanga=panchaanga_2019), dry_run=False)
+  md_file.dump_to_file(metadata={"title": str(2019)}, content=md.make_md(panchaanga=panchaanga_2019), dry_run=False)
   if not os.path.exists(orig_md_file):
     logging.warning("%s not present. Assuming that it was deliberately deleted to update test files.", orig_md_file)
     md_file = MdFile(file_path=orig_md_file)
-    md_file.dump_to_file(metadata={"title": str(2019)}, md=md.make_md(panchaanga=panchaanga_2019), dry_run=False)
+    md_file.dump_to_file(metadata={"title": str(2019)}, content=md.make_md(panchaanga=panchaanga_2019), dry_run=False)
     
 
   with open(orig_md_file) as orig_tex:
