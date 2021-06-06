@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210526104458
+SEQUENCE:20210606223953
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -5209,6 +5209,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:बाजीराव उदयपुरे #२८६
+DTSTART;VALUE=DATE:20210214
+DTEND;VALUE=DATE:20210215
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/02/03/bhAjI-rA
+ va_udayapure.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSh
+ a/xatra-later/julian/day/02/03/bhAjI-rAva_udayapure.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:तानाजी-वीर-गतिः #३५१
 DTSTART;VALUE=DATE:20210214
 DTEND;VALUE=DATE:20210215
@@ -9120,6 +9137,25 @@ DESCRIPTION:- Indian civil date: 1942-12-24\, Islamic: 1442-08-01 Shaʿbā
  59-12:28\; **गुलिककालः**—13:58-15:27  \n______________
  _____\n- **शूलम्**—प्राची दिक् (►09:41)\
  ; **परिहारः**–दधि  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:बाजीराव-जयसिंह-मेलनम् #२
+ ८६
+DTSTART;VALUE=DATE:20210315
+DTEND;VALUE=DATE:20210316
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/03/04/bhAjI-rA
+ va-jayasiMha-melanam.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>
+ - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/ma
+ hApuruSha/xatra-later/julian/day/03/04/bhAjI-rAva-jayasiMha-melanam.toml)<
+ br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18417,6 +18453,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:बाजीरावेण षट्षष्टि-द्वी
+ प-ग्रहणम् #२८४
+DTSTART;VALUE=DATE:20210524
+DTEND;VALUE=DATE:20210525
+DESCRIPTION:Event occured on 1737-05-24 (gregorian). On Saturday at 11 p.m
+ . the Mahrattas captured a water-tower in Thana creek and entered Salçett
+ e. On April 6 and 7\,  the Mahratta troops practically occupied the whole 
+ island.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/05/24/
+ bAjIrAveNa_ShaTshaShTi-dvIpa-grahaNam.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:सोम-प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210524T183651
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210524T192208
@@ -18778,6 +18833,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:गुयाना-विस्मर-हत्याः #५७
+DTSTART;VALUE=DATE:20210526
+DTEND;VALUE=DATE:20210527
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/05/26/guyAn
+ A-vismara-hatyAH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [E
+ dit config file](https://github.com/jyotisham/adyatithi/blob/master/mahApu
+ ruSha/xatra-later/gregorian/day/05/26/guyAnA-vismara-hatyAH.toml)<br/>- Ta
+ gs:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:काञ्ची जगद्गुरु श्री-चन्
  द्रशेखरेन्द्र सरस्वती ७ जय
  न्ती #१२८
@@ -18878,6 +18951,25 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Vaiśākhaḥ (lunar) mont
  h (Sūryodayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config fi
  le](https://github.com/jyotisham/adyatithi/blob/master/devatA/umA/lunar_mo
  nth/tithi/02/15/sampat-gaurI-vratam.toml)<br/>- Tags: LessCommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:शबरीगिरि-देवस्थान-नाशः #
+ ७१
+DTSTART;VALUE=DATE:20210526
+DTEND;VALUE=DATE:20210527
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/05/26/shaba
+ rImala-devasthANa-nAshaH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<
+ br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/maste
+ r/mahApuruSha/xatra-later/gregorian/day/05/26/shabarImala-devasthANa-nAsha
+ H.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19326,14 +19418,12 @@ SUMMARY:कृष्णदेवरायस्य रायचूरु-
  जयः #५०१
 DTSTART;VALUE=DATE:20210529
 DTEND;VALUE=DATE:20210530
-DESCRIPTION:Event occured on 1520-05-29 (gregorian). Julian date was conve
- rted to Gregorian in this reckoning. Ismail Adil Shah  of  Muslim  Bijapur
-   seized  the  fortress of Raichur\, southwest of Hyderabad\, then faced a
- siege by Krishnadeva Raya of Hindu Vijayana-gar. The Bijapuri army was rou
- ted and Raichur fell to Krishnadeva Raya.<br/><br/>## Details<br/>- [Edit 
- config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSh
- a/xatra-later/julian/day/05/19/kRShNadevarAyasya_rAyachUru-jayaH.toml)<br/
- >- Tags:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/05/19/kRShNade
+ varAyasya_rAyachUru-jayaH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details
+ <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
+ er/mahApuruSha/xatra-later/julian/day/05/19/kRShNadevarAyasya_rAyachUru-ja
+ yaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
