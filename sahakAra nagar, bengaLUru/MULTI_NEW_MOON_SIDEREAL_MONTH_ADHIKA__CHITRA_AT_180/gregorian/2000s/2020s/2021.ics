@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210606223953
+SEQUENCE:20210609144738
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -20412,6 +20412,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:मुण्ड-बीर्स-मृत्युः #१२१
+DTSTART;VALUE=DATE:20210609
+DTEND;VALUE=DATE:20210610
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/06/09/muNDa
+ -bIrsa-mRtyuH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruS
+ ha/xatra-later/gregorian/day/06/09/muNDa-bIrsa-mRtyuH.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:वैशाखः-02-30\,वृषभः-रोहिणी🌛
  🌌◢◣वृषभः-मृगशीर्षम्-02-27🌌🌞◢
  ◣शुक्रः-03-21🪐🌞गुरुः
@@ -20644,6 +20661,27 @@ DESCRIPTION:- Indian civil date: 1943-03-21\, Islamic: 1442-11-01 Ḏū al
  32-09:07  \n___________________\n- **शूलम्**—प्रती
  ची दिक् (►11:02)\; **परिहारः**–गुडम
  ्  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अहिल्या-बायि-जन्म #२९६
+DTSTART;VALUE=DATE:20210611
+DTEND;VALUE=DATE:20210612
+DESCRIPTION:Event occured on 1725-06-11 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. Ahilyabai was born on May 31 1725 to 
+ Patil Mankoji Shinde. She was a widow who became Malwa's greatest queen. D
+ efended our country & personally led armies into battle. Never plundered a
+ nyone. Developed Malwa into a prosperous kingdom. Rebuilt temples destroye
+ d by "peaceful" people. Built Dharmashalas at Tirthas. Patronized arts.<br
+ /><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ad
+ yatithi/blob/master/mahApuruSha/xatra-later/julian/day/05/31/ahilyA-bAyi-j
+ anma.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -46998,6 +47036,27 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/m
  ahApuruSha/xatra-later/gregorian/day/12/24/holkara-rAjaghaTTa-sandhiH.toml
  )<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:मुण्ड-प्रेतजन्मदिन-युद्
+ धम् #१२२
+DTSTART;VALUE=DATE:20211224
+DTEND;VALUE=DATE:20211225
+DESCRIPTION:Event occured on 1899-12-24 (gregorian). On Christmas eve of 1
+ 899\, acting on a carefully laid plan\, Mundas\, led by the anti-British a
+ nd anti-Missionary apostate Birsa\, attacked police stations and shot arro
+ ws into churches in many parts of the districts of Ranchi and Singhbhum. S
+ avada Mission Hata\, Muru Mission Hata\, Borjo Mission hata were attacked.
+ <br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham
+ /adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/12/24/muNDa-c
+ hristmas-attacks.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
