@@ -20,6 +20,9 @@ from sanskrit_data.schema import common
 
 class TithiFestivalAssigner(FestivalAssigner):
   def assign_all(self):
+    self.assign_solar_sidereal_amaavaasyaa()
+    self.assign_amaavaasya_soma()
+    self.assign_amaavaasya_vyatiipaata()
     self.assign_chandra_darshanam()
     self.assign_chaturthi_vratam()
     self.assign_shasthi_vratam()
@@ -28,9 +31,6 @@ class TithiFestivalAssigner(FestivalAssigner):
     self.assign_mahaadvaadashii()
     self.assign_pradosha_vratam()
     self.assign_vaarunii_trayodashi()
-    self.assign_solar_sidereal_amaavaasyaa()
-    self.assign_amaavaasya_soma()
-    self.assign_amaavaasya_vyatiipaata()
   
   def assign_chaturthi_vratam(self):
     if "vikaTa-mahAgaNapati_saGkaTahara-caturthI-vratam" not in self.rules_collection.name_to_rule:
@@ -453,7 +453,8 @@ class TithiFestivalAssigner(FestivalAssigner):
   def assign_chandra_darshanam(self):
     if 'candra-darzanam' not in self.rules_collection.name_to_rule:
       return
-    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
+    d = self.panchaanga.duration_prior_padding
+    while d < self.panchaanga.duration + self.panchaanga.duration_prior_padding:
       day_panchaanga = self.daily_panchaangas[d]
       # Chandra Darshanam
       if day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == 1 or day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == 2:
@@ -464,12 +465,17 @@ class TithiFestivalAssigner(FestivalAssigner):
           if tithi_sunset == 1:
             fest = FestivalInstance(name='candra-darzanam', interval=self.daily_panchaangas[d+1].get_interval(interval_id="pradosha"))
             self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[d+1].date)
+            
+            d += 25
           else:
             fest = FestivalInstance(name='candra-darzanam', interval=day_panchaanga.get_interval(interval_id="pradosha"))
             self.panchaanga.add_festival_instance(festival_instance=fest, date=day_panchaanga.date)
+            d += 25
         elif tithi_sunset_tmrw == 2:
           fest = FestivalInstance(name='candra-darzanam', interval=self.daily_panchaangas[d+1].get_interval(interval_id="pradosha"))
           self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[d+1].date)
+          d += 25
+      d += 1
 
   def assign_vaarunii_trayodashi(self):
     if 'vAruNI~trayOdazI' not in self.rules_collection.name_to_rule:
