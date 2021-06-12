@@ -31,7 +31,7 @@ panchaanga = annual.get_panchaanga_for_civil_year(city=city, year=2021, computat
 from jyotisha.panchaanga.writer import md
 from doc_curation.md.file import MdFile
 md_file = MdFile(file_path="/some/path.md")
-md_file.dump_to_file(metadata={"title": str(2019)}, md=md.make_md(panchaanga=panchaanga), dry_run=False)
+md_file.dump_to_file(metadata={"title": str(2019)}, content=md.make_md(panchaanga=panchaanga), dry_run=False)
 
 ## Tex
 from jyotisha.panchaanga.writer.tex.daily_tex_writer import emit
