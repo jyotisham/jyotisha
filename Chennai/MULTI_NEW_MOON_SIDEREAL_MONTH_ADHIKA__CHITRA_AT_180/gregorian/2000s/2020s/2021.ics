@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210612191905
+SEQUENCE:20210618121914
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -1097,6 +1097,28 @@ DESCRIPTION:Observed on Jyeṣṭhā nakshatra of Dhanuḥ (sidereal solar
  le](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/ALvAr/s
  idereal_solar_month/nakshatra/09/18/toNDaraDippoDiyAzhvAr_tirunakSattiram.
  toml)<br/>- Tags: MahapurushaEvents AzhwarJayanti
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:वेलु-तम्ब्य्-उद्घोषणम् #
+ २१५
+DTSTART;VALUE=DATE:20210111
+DTEND;VALUE=DATE:20210112
+DESCRIPTION:Event occured on 1806-01-11 (gregorian). Kundara Proclamation 
+ by Velu Thambi Dalawa\, the Prime Minister/Diwan (Dalava) to King Balarama
+  Varma of Travancore. It was an open call to arms\, exhorting the common p
+ eople to rise up against the British and to overthrow them. There was a ma
+ ssive response to his rallying call.<br/><br/>The Dalawa had to commit sui
+ cide on exile later at Mannadi near Adoor.<br/><br/>## Details<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruS
+ ha/xatra-later/gregorian/day/01/11/velu-tamby-udghoShaNam.toml)<br/>- Tags
+ :
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25443,6 +25465,23 @@ DESCRIPTION:Observed on Śukla-Navamī tithi of Āṣāḍhaḥ (lunar) mo
  nth (Sūryodayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config 
  file](https://github.com/jyotisham/adyatithi/blob/master/devatA/shakti/lun
  ar_month/tithi/04/09/aindrI-durgA-pUjA.toml)<br/>- Tags: SpecialPuja
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:हम्मीरदेवो मृतः #७२०
+DTSTART;VALUE=DATE:20210718
+DTEND;VALUE=DATE:20210719
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/07/10/hammIra-
+ devo_mRtaH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit co
+ nfig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/
+ xatra-later/julian/day/07/10/hammIra-devo_mRtaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
