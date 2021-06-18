@@ -78,10 +78,12 @@ class EclipticFestivalAssigner(FestivalAssigner):
       if jd_eclipse_solar_start > self.panchaanga.jd_end + 1:
         break
       else:
-        fday = int(floor(jd) - floor(self.daily_panchaangas[0].julian_day_start))
-        if (jd < self.daily_panchaangas[fday].jd_sunrise):
-          fday -= 1
-        if (jd_eclipse_solar_start) == 0.0 or jd_eclipse_solar_end == 0.0:
+        fday = int(floor(jd_eclipse_solar_end) - floor(self.daily_panchaangas[0].julian_day_start))
+        if (jd_eclipse_solar_start < self.daily_panchaangas[fday].jd_sunrise):
+          jd_eclipse_solar_start = self.daily_panchaangas[fday].jd_sunrise
+        if jd_eclipse_solar_end > self.daily_panchaangas[fday].jd_sunset:
+          jd_eclipse_solar_end = self.daily_panchaangas[fday].jd_sunset
+        if jd_eclipse_solar_start == 0.0 or jd_eclipse_solar_end == 0.0:
           # Move towards the next eclipse... at least the next new
           # moon (>=25 days away)
           jd += MIN_DAYS_NEXT_ECLIPSE
