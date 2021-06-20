@@ -78,7 +78,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
       if jd_eclipse_solar_start > self.panchaanga.jd_end + 1:
         break
       else:
-        fday = int(floor(jd_eclipse_solar_end) - floor(self.daily_panchaangas[0].julian_day_start))
+        fday = int(jd_eclipse_solar_end - self.daily_panchaangas[0].julian_day_start)
         if (jd_eclipse_solar_start < self.daily_panchaangas[fday].jd_sunrise):
           jd_eclipse_solar_start = self.daily_panchaangas[fday].jd_sunrise
         if jd_eclipse_solar_end > self.daily_panchaangas[fday].jd_sunset:
