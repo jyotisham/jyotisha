@@ -120,3 +120,23 @@ def get_panchaanga_for_year(city, year, year_type, computation_system, allow_pre
     return get_panchaanga_for_kali_year(city=city, year=year, computation_system=computation_system, allow_precomputed=allow_precomputed)
   elif year_type == era.ERA_SHAKA:
     return get_panchaanga_for_shaka_year(city=city, year=year, computation_system=computation_system, allow_precomputed=allow_precomputed)
+
+
+def get_panchaanga_for_given_dates(city, start_date, end_date, precomputed_json_dir="~/Documents/jyotisha",
+                                  computation_system: ComputationSystem = None, allow_precomputed=True):
+  fname = os.path.expanduser('%s/%s__%s-%s__%s.json' % (precomputed_json_dir, city.name, start_date, end_date, computation_system))
+  if os.path.isfile(fname) and allow_precomputed:
+    fn = lambda: get_panchaanga_for_given_dates(city=city, start_date=start_date, end_date=end_date,
+                                                precomputed_json_dir=precomputed_json_dir,
+                                                computation_system=computation_system, allow_precomputed=False)
+    panchaanga = load_panchaanga(fname=fname, fallback_fn=fn)
+    return panchaanga
+  else:
+    logging.info('No precomputed data available. Computing panchaanga...\n')
+    panchaanga = periodical.Panchaanga(city=city, start_date=start_date, end_date=end_date, computation_system=computation_system)
+    logging.info('Writing computed panchaanga to %s...\n' % fname)
+
+    panchaanga.dump_to_file(filename=fname)
+    return panchaanga
+
+
