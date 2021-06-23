@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210623155313
+SEQUENCE:20210623160015
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -32341,8 +32341,8 @@ DTSTART;VALUE=DATE:20210908
 DTEND;VALUE=DATE:20210909
 DESCRIPTION:Event occured on 1569-09-08 (gregorian). Julian date was conve
  rted to Gregorian in this reckoning. Portuguese viceroy De Noroha ordered 
- - "No Hindu Temples should be erected in any territories of my King & temp
- les shouldn't be repaired w/o my Permission."<br/><br/>The report of activ
+ - 'No Hindu Temples should be erected in any territories of my King & temp
+ les shouldn't be repaired w/o my Permission.'<br/><br/>The report of activ
  ities of Franciscans state that 300 Hindu temples were destroyed by them i
  n Bardez region (Goa).<br/><br/>## Details<br/>- [Edit config file](https:
  //github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xatra-later/julia
