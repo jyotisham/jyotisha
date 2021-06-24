@@ -118,7 +118,7 @@ class ComputationSystem(JsonObject):
 
 def get_kauNdinyAyana_bhAskara_gRhya_computation_system():
   computation_system = deepcopy(ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180)
-  computation_system.festival_options.repos = [RulesRepo(name="gRhya/general")]
+  computation_system.festival_options.repos = [RulesRepo(name="gRhya/general"), RulesRepo(name="gRhya/Apastamba")]
   computation_system.festival_options.aparaahna_as_second_half = True
   computation_system.festival_options.prefer_eight_fold_day_division = True
   return computation_system
