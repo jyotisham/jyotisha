@@ -423,11 +423,15 @@ The preceptor, son of Mahādeva, who lived on the banks of river Vegavati, known
 
 pārvaṇavratam on the eve of darśa-sthālīpākaḥ.
 
-पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।
+###### गृहस्थव्रतम्
+पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।  
 
 'अबहुवादी स्यात्। सत्यं विवदिषेत्। अध एवैतां रात्रिं शयीयाताम्। तौ खलु जाग्रन्-मिश्राव् एवैतां रात्रिं विहरेयाताम् इतिहास-मिश्रेण वा केनचिद् वा। जुगुप्सेयातां त्व् एवाव्रत्येभ्यः कर्मभ्यः।' 
 
 परेद्युर् होमाय सम्भारसम्भरणादयो व्यवस्थाः कार्याः।
+
+###### प्रायश्चित्तार्थम् अपि किञ्चन् व्रतम्
+"पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा" इत्य् आपस्तम्बधर्मसूत्रेषु।
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-vratam_30.toml)
@@ -484,7 +488,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- चाक्किय नायऩार् (३३) गुरुपूजै, दर्शेष्टिः, स्थालीपाकः
+- चाक्किय नायऩार् (३३) गुरुपूजै, दर्शेष्टिः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, स्थालीपाकः
 ##### चाक्किय नायऩार् (३३) गुरुपूजै
 
 Observed on Pūrvāṣāḍhā nakshatra of Dhanuḥ (sidereal solar) month (Prātaḥ/paraviddha). 
@@ -500,6 +504,15 @@ Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurv
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_month/tithi/00/01/darsheShTiH.toml)
+- Tags: MonthlyFestivals
+
+
+##### पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्
+
+Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा ' इत्य् आपस्तम्बधर्मसूत्रेषु।
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)
 - Tags: MonthlyFestivals
 
 
@@ -1297,7 +1310,7 @@ Pradosha Vratam. Fast during the day and perform śivapūjā in Pradosha Kala.
 
 ##### तैत्तिरीय-उत्सर्गो रोहिण्याम्
 
-Observed on Rohiṇī nakshatra of Pauṣaḥ (lunar) month (Sūryodayaḥ/puurvaviddha). #### आपस्तम्बसूत्रेषु
+Observed on Rohiṇī nakshatra of Pauṣaḥ (lunar) month (Sūryodayaḥ/puurvaviddha). ###### आपस्तम्बसूत्रेषु
 तैषीपक्षस्य रोहिण्यां पौर्णमास्यां वोत्सर्गः ८  
 अभिप्यन्ते +++(=प्रार्थयन्ते [स्नानादिकं सहैव कर्तुं])+++ वान्योन्यम् १६
 
@@ -1459,11 +1472,15 @@ Son of Śivayya of Śrīśaila, known as Manganna, held that position by his dir
 
 pārvaṇavratam on the eve of pūrṇa-sthālīpākaḥ.
 
-गृहस्थैः 'पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः'। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।
+###### गृहस्थव्रतम्
+पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।  
 
 'अबहुवादी स्यात्। सत्यं विवदिषेत्। अध एवैतां रात्रिं शयीयाताम्। तौ खलु जाग्रन्-मिश्राव् एवैतां रात्रिं विहरेयाताम् इतिहास-मिश्रेण वा केनचिद् वा। जुगुप्सेयातां त्व् एवाव्रत्येभ्यः कर्मभ्यः।' 
 
 परेद्युर् होमाय सम्भारसम्भरणादयो व्यवस्थाः कार्याः।
+
+###### प्रायश्चित्तार्थम् अपि किञ्चन् व्रतम्
+"पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा" इत्य् आपस्तम्बधर्मसूत्रेषु।
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/relative_event/sthAlIpAkaH_16/offset__-1/pArvaNa-vratam_15.toml)
@@ -1559,7 +1576,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- कपाली तॆप्पोत्सवम्, तैत्तिरीय-उत्सर्गः पौर्णमास्याम्, पूर्णमासेष्टिः, पूर्णिमा-व्रतम्, बदरी ज्योतिर्मठ-प्रतिष्ठापन-जयन्ती #२५०४, शाकम्भरी-जयन्ती, शृङ्गेरी शारदामठ-प्रतिष्ठापन-जयन्ती #२५०२, स्थालीपाकः
+- कपाली तॆप्पोत्सवम्, तैत्तिरीय-उत्सर्गः पौर्णमास्याम्, पार्वण-प्रायश्चित्तावकाशः दर्शे, पूर्णमासेष्टिः, पूर्णिमा-व्रतम्, बदरी ज्योतिर्मठ-प्रतिष्ठापन-जयन्ती #२५०४, शाकम्भरी-जयन्ती, शृङ्गेरी शारदामठ-प्रतिष्ठापन-जयन्ती #२५०२, स्थालीपाकः
 ##### बदरी ज्योतिर्मठ-प्रतिष्ठापन-जयन्ती #२५०४
 
 Observed on Paurṇamāsī tithi of Pauṣaḥ (lunar) month (Sūryodayaḥ/puurvaviddha). The event occurred in 2616 (Kali era).  
@@ -1577,6 +1594,15 @@ Adi Shankara founded Jyotir Mutt, Badarinath in Rakshasa year Totakacharya as fi
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/temples/Tamil/relative_event/taippUcam/offset__01/kapAlI_teppOtsavam~3.toml)
 - Tags: TamilnaduTempleFestivals
+
+
+##### पार्वण-प्रायश्चित्तावकाशः दर्शे
+
+Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा ' इत्य् आपस्तम्बधर्मसूत्रेषु।
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAshaH_16.toml)
+- Tags: MonthlyFestivals
 
 
 ##### पूर्णमासेष्टिः
@@ -1608,7 +1634,7 @@ Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/
 
 ##### तैत्तिरीय-उत्सर्गः पौर्णमास्याम्
 
-Observed on Paurṇamāsī tithi of Pauṣaḥ (lunar) month (Sūryodayaḥ/puurvaviddha). #### आपस्तम्बसूत्रेषु
+Observed on Paurṇamāsī tithi of Pauṣaḥ (lunar) month (Sūryodayaḥ/puurvaviddha). ###### आपस्तम्बसूत्रेषु
 तैषीपक्षस्य रोहिण्यां पौर्णमास्यां वोत्सर्गः ८  
 अभिप्यन्ते +++(=प्रार्थयन्ते [स्नानादिकं सहैव कर्तुं])+++ वान्योन्यम् १६
 
@@ -2532,11 +2558,15 @@ A rare combination of Pausha masa, Shravana nakshatra, Vyatipata yoga and Monday
 
 pārvaṇavratam on the eve of darśa-sthālīpākaḥ.
 
-पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।
+###### गृहस्थव्रतम्
+पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।  
 
 'अबहुवादी स्यात्। सत्यं विवदिषेत्। अध एवैतां रात्रिं शयीयाताम्। तौ खलु जाग्रन्-मिश्राव् एवैतां रात्रिं विहरेयाताम् इतिहास-मिश्रेण वा केनचिद् वा। जुगुप्सेयातां त्व् एवाव्रत्येभ्यः कर्मभ्यः।' 
 
 परेद्युर् होमाय सम्भारसम्भरणादयो व्यवस्थाः कार्याः।
+
+###### प्रायश्चित्तार्थम् अपि किञ्चन् व्रतम्
+"पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा" इत्य् आपस्तम्बधर्मसूत्रेषु।
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-vratam_30.toml)
@@ -2650,13 +2680,22 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- दर्शेष्टिः, श्यामळानवरात्र-आरम्भः, स्थालीपाकः
+- दर्शेष्टिः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, श्यामळानवरात्र-आरम्भः, स्थालीपाकः
 ##### दर्शेष्टिः
 
 Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_month/tithi/00/01/darsheShTiH.toml)
+- Tags: MonthlyFestivals
+
+
+##### पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्
+
+Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा ' इत्य् आपस्तम्बधर्मसूत्रेषु।
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)
 - Tags: MonthlyFestivals
 
 
@@ -3888,11 +3927,15 @@ Observed on Paurṇamāsī tithi of Māghaḥ (lunar) month (Prāktanāruṇoday
 
 pārvaṇavratam on the eve of pūrṇa-sthālīpākaḥ.
 
-गृहस्थैः 'पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः'। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।
+###### गृहस्थव्रतम्
+पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।  
 
 'अबहुवादी स्यात्। सत्यं विवदिषेत्। अध एवैतां रात्रिं शयीयाताम्। तौ खलु जाग्रन्-मिश्राव् एवैतां रात्रिं विहरेयाताम् इतिहास-मिश्रेण वा केनचिद् वा। जुगुप्सेयातां त्व् एवाव्रत्येभ्यः कर्मभ्यः।' 
 
 परेद्युर् होमाय सम्भारसम्भरणादयो व्यवस्थाः कार्याः।
+
+###### प्रायश्चित्तार्थम् अपि किञ्चन् व्रतम्
+"पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा" इत्य् आपस्तम्बधर्मसूत्रेषु।
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/relative_event/sthAlIpAkaH_16/offset__-1/pArvaNa-vratam_15.toml)
@@ -3965,7 +4008,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- काञ्ची ५१ जगद्गुरु श्री-विद्यातीर्थेन्द्र सरस्वती आराधना #६३४, कुम्भमाघोत्सवः, पूर्णमासेष्टिः, स्थालीपाकः
+- काञ्ची ५१ जगद्गुरु श्री-विद्यातीर्थेन्द्र सरस्वती आराधना #६३४, कुम्भमाघोत्सवः, पार्वण-प्रायश्चित्तावकाशः दर्शे, पूर्णमासेष्टिः, स्थालीपाकः
 ##### काञ्ची ५१ जगद्गुरु श्री-विद्यातीर्थेन्द्र सरस्वती आराधना #६३४
 
 Observed on Kṛṣṇa-Prathamā tithi of Māghaḥ (lunar) month (Aparāhṇaḥ/vyaapti). The event occurred in 4486 (Kali era).  
@@ -4011,6 +4054,15 @@ Observed on Maghā nakshatra of Kumbhaḥ (sidereal solar) month (Sūryodayaḥ/
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/general/sidereal_solar_month/nakshatra/11/10/mAci~magham.toml)
 - Tags: TamilnaduTempleFestivals CommonFestivals
+
+
+##### पार्वण-प्रायश्चित्तावकाशः दर्शे
+
+Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा ' इत्य् आपस्तम्बधर्मसूत्रेषु।
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAshaH_16.toml)
+- Tags: MonthlyFestivals
 
 
 ##### पूर्णमासेष्टिः
@@ -4893,11 +4945,15 @@ Observed on Amāvāsyā tithi of Māghaḥ (lunar) month (Sūryodayaḥ/puurvavi
 
 pārvaṇavratam on the eve of darśa-sthālīpākaḥ.
 
-पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।
+###### गृहस्थव्रतम्
+पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।  
 
 'अबहुवादी स्यात्। सत्यं विवदिषेत्। अध एवैतां रात्रिं शयीयाताम्। तौ खलु जाग्रन्-मिश्राव् एवैतां रात्रिं विहरेयाताम् इतिहास-मिश्रेण वा केनचिद् वा। जुगुप्सेयातां त्व् एवाव्रत्येभ्यः कर्मभ्यः।' 
 
 परेद्युर् होमाय सम्भारसम्भरणादयो व्यवस्थाः कार्याः।
+
+###### प्रायश्चित्तार्थम् अपि किञ्चन् व्रतम्
+"पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा" इत्य् आपस्तम्बधर्मसूत्रेषु।
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-vratam_30.toml)
@@ -4960,7 +5016,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- काञ्ची ६७ जगद्गुरु श्री-महादेवेन्द्र सरस्वती ५ आराधना #११२, दर्शेष्टिः, पयोव्रत-आरम्भः, स्थालीपाकः
+- काञ्ची ६७ जगद्गुरु श्री-महादेवेन्द्र सरस्वती ५ आराधना #११२, दर्शेष्टिः, पयोव्रत-आरम्भः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, स्थालीपाकः
 ##### दर्शेष्टिः
 
 Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 
@@ -4992,6 +5048,15 @@ Preceptor by name Mahādevendra adorning Pīṭha attained siddhi on the first d
   - Punya Shloka Manjari
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/12/01/kAJcI_67_jagadguru_zrI~mahAdEvEndra_sarasvatI_5_ArAdhanA.toml)
 - Tags: KanchiAradhanaDays CommonFestivals
+
+
+##### पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्
+
+Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा ' इत्य् आपस्तम्बधर्मसूत्रेषु।
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)
+- Tags: MonthlyFestivals
 
 
 ##### पयोव्रत-आरम्भः
@@ -5982,11 +6047,15 @@ Observed on Paurṇamāsī tithi of Phālgunaḥ (lunar) month (Aparāhṇaḥ/v
 
 pārvaṇavratam on the eve of pūrṇa-sthālīpākaḥ.
 
-गृहस्थैः 'पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः'। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।
+###### गृहस्थव्रतम्
+पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।  
 
 'अबहुवादी स्यात्। सत्यं विवदिषेत्। अध एवैतां रात्रिं शयीयाताम्। तौ खलु जाग्रन्-मिश्राव् एवैतां रात्रिं विहरेयाताम् इतिहास-मिश्रेण वा केनचिद् वा। जुगुप्सेयातां त्व् एवाव्रत्येभ्यः कर्मभ्यः।' 
 
 परेद्युर् होमाय सम्भारसम्भरणादयो व्यवस्थाः कार्याः।
+
+###### प्रायश्चित्तार्थम् अपि किञ्चन् व्रतम्
+"पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा" इत्य् आपस्तम्बधर्मसूत्रेषु।
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/relative_event/sthAlIpAkaH_16/offset__-1/pArvaNa-vratam_15.toml)
@@ -6056,7 +6125,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- उमा-कपालीश्वर-दर्शनम्, कपाली विडैयाऱ्ऱि तॊडक्कम्, चैतन्य-महाप्रभु-जयन्ती #५३४, पूर्णमासेष्टिः, पूर्णिमा-व्रतम्, मीनोत्तरफाल्गुनोत्सवः, विषुवदिनम्, स्थालीपाकः, होलि
+- उमा-कपालीश्वर-दर्शनम्, कपाली विडैयाऱ्ऱि तॊडक्कम्, चैतन्य-महाप्रभु-जयन्ती #५३४, पार्वण-प्रायश्चित्तावकाशः दर्शे, पूर्णमासेष्टिः, पूर्णिमा-व्रतम्, मीनोत्तरफाल्गुनोत्सवः, विषुवदिनम्, स्थालीपाकः, होलि
 ##### चैतन्य-महाप्रभु-जयन्ती #५३४
 
 Observed on Paurṇamāsī tithi of Phālgunaḥ (lunar) month (Sūryodayaḥ/puurvaviddha). The event occurred in 4586 (Kali era).  
@@ -6092,6 +6161,15 @@ Festival of colours is celebrated today.
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/temples/Tamil/relative_event/kar2pagAmbAL%E2%80%93kapAlIzvarar_tirukkalyANam/offset__01/kapAlI_viDaiyAr2r2i_toDakkam.toml)
 - Tags: TamilnaduTempleFestivals
+
+
+##### पार्वण-प्रायश्चित्तावकाशः दर्शे
+
+Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा ' इत्य् आपस्तम्बधर्मसूत्रेषु।
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAshaH_16.toml)
+- Tags: MonthlyFestivals
 
 
 ##### पूर्णमासेष्टिः
@@ -7043,11 +7121,15 @@ For instance, in Devi Atharvashirsha, it is said bhaumāśvinyāṃ mahādêvī-
 
 pārvaṇavratam on the eve of darśa-sthālīpākaḥ.
 
-पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।
+###### गृहस्थव्रतम्
+पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।  
 
 'अबहुवादी स्यात्। सत्यं विवदिषेत्। अध एवैतां रात्रिं शयीयाताम्। तौ खलु जाग्रन्-मिश्राव् एवैतां रात्रिं विहरेयाताम् इतिहास-मिश्रेण वा केनचिद् वा। जुगुप्सेयातां त्व् एवाव्रत्येभ्यः कर्मभ्यः।' 
 
 परेद्युर् होमाय सम्भारसम्भरणादयो व्यवस्थाः कार्याः।
+
+###### प्रायश्चित्तार्थम् अपि किञ्चन् व्रतम्
+"पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा" इत्य् आपस्तम्बधर्मसूत्रेषु।
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-vratam_30.toml)
@@ -7095,7 +7177,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- काञ्ची १५ जगद्गुरु श्री-गङ्गाधरेन्द्र सरस्वती आराधना #१६९१, काञ्ची २७ जगद्गुरु श्री-चिद्विलासेन्द्र सरस्वती आराधना #१४४३, काञ्ची ५२ जगद्गुरु श्री-शङ्करानन्देन्द्र सरस्वती आराधना #६०३, चन्द्र-दर्शनम्, दर्शेष्टिः, युगादिः, वसन्तनवरात्र-आरम्भः, वैधृति-श्राद्धम्, श्वेत-कल्पादिः, स्थालीपाकः
+- काञ्ची १५ जगद्गुरु श्री-गङ्गाधरेन्द्र सरस्वती आराधना #१६९१, काञ्ची २७ जगद्गुरु श्री-चिद्विलासेन्द्र सरस्वती आराधना #१४४३, काञ्ची ५२ जगद्गुरु श्री-शङ्करानन्देन्द्र सरस्वती आराधना #६०३, चन्द्र-दर्शनम्, दर्शेष्टिः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, युगादिः, वसन्तनवरात्र-आरम्भः, वैधृति-श्राद्धम्, श्वेत-कल्पादिः, स्थालीपाकः
 ##### चन्द्र-दर्शनम्
 - 18:17→19:04
 
@@ -7186,6 +7268,15 @@ He, as per the suggestions of the Sāyaṇa Mādhava, having commissioned the ei
   - Punya Shloka Manjari
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/01/01/kAJcI_52_jagadguru_zrI~zaGkarAnandEndra_sarasvatI_ArAdhanA.toml)
 - Tags: KanchiAradhanaDays
+
+
+##### पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्
+
+Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा ' इत्य् आपस्तम्बधर्मसूत्रेषु।
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)
+- Tags: MonthlyFestivals
 
 
 ##### स्थालीपाकः
@@ -8499,11 +8590,15 @@ Observed on Paurṇamāsī tithi of Caitraḥ (lunar) month (Aparāhṇaḥ/vyaa
 
 pārvaṇavratam on the eve of pūrṇa-sthālīpākaḥ.
 
-गृहस्थैः 'पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः'। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।
+###### गृहस्थव्रतम्
+पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।  
 
 'अबहुवादी स्यात्। सत्यं विवदिषेत्। अध एवैतां रात्रिं शयीयाताम्। तौ खलु जाग्रन्-मिश्राव् एवैतां रात्रिं विहरेयाताम् इतिहास-मिश्रेण वा केनचिद् वा। जुगुप्सेयातां त्व् एवाव्रत्येभ्यः कर्मभ्यः।' 
 
 परेद्युर् होमाय सम्भारसम्भरणादयो व्यवस्थाः कार्याः।
+
+###### प्रायश्चित्तार्थम् अपि किञ्चन् व्रतम्
+"पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा" इत्य् आपस्तम्बधर्मसूत्रेषु।
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/relative_event/sthAlIpAkaH_16/offset__-1/pArvaNa-vratam_15.toml)
@@ -8567,7 +8662,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- काञ्ची ६० जगद्गुरु श्री-अद्वैतात्मप्रकाशेन्द्र सरस्वती आराधना #३१६, तिरुक्कुऱिप्पुत् तॊण्ड नायऩार् (१८) गुरुपूजै, पूर्णमासेष्टिः, मधु-मासः, विष्णुपदी-पुण्यकालः, स्थालीपाकः
+- काञ्ची ६० जगद्गुरु श्री-अद्वैतात्मप्रकाशेन्द्र सरस्वती आराधना #३१६, तिरुक्कुऱिप्पुत् तॊण्ड नायऩार् (१८) गुरुपूजै, पार्वण-प्रायश्चित्तावकाशः दर्शे, पूर्णमासेष्टिः, मधु-मासः, विष्णुपदी-पुण्यकालः, स्थालीपाकः
 ##### काञ्ची ६० जगद्गुरु श्री-अद्वैतात्मप्रकाशेन्द्र सरस्वती आराधना #३१६
 
 Observed on Kṛṣṇa-Dvitīyā tithi of Caitraḥ (lunar) month (Aparāhṇaḥ/vyaapti). The event occurred in 4805 (Kali era).  
@@ -8591,6 +8686,15 @@ Then, son of Paraśurāma on the banks of river Vaśiṣṭha, well-versed in sc
 
 ##### मधु-मासः
 - →14:25
+##### पार्वण-प्रायश्चित्तावकाशः दर्शे
+
+Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा ' इत्य् आपस्तम्बधर्मसूत्रेषु।
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAshaH_16.toml)
+- Tags: MonthlyFestivals
+
+
 ##### पूर्णमासेष्टिः
 
 Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 
@@ -9490,11 +9594,15 @@ Observed on Amāvāsyā tithi of Caitraḥ (lunar) month (Aparāhṇaḥ/vyaapti
 
 pārvaṇavratam on the eve of darśa-sthālīpākaḥ.
 
-पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।
+###### गृहस्थव्रतम्
+पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।  
 
 'अबहुवादी स्यात्। सत्यं विवदिषेत्। अध एवैतां रात्रिं शयीयाताम्। तौ खलु जाग्रन्-मिश्राव् एवैतां रात्रिं विहरेयाताम् इतिहास-मिश्रेण वा केनचिद् वा। जुगुप्सेयातां त्व् एवाव्रत्येभ्यः कर्मभ्यः।' 
 
 परेद्युर् होमाय सम्भारसम्भरणादयो व्यवस्थाः कार्याः।
+
+###### प्रायश्चित्तार्थम् अपि किञ्चन् व्रतम्
+"पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा" इत्य् आपस्तम्बधर्मसूत्रेषु।
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-vratam_30.toml)
@@ -9549,7 +9657,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अग्निनक्षत्र-आरम्भः, कृत्तिका-व्रतम्, चिऱुत्तॊण्ड नायऩार् (३५) गुरुपूजै, दर्शेष्टिः, पराशर-महर्षि-जयन्ती, वैशाख-मास-आरम्भः, स्थालीपाकः
+- अग्निनक्षत्र-आरम्भः, कृत्तिका-व्रतम्, चिऱुत्तॊण्ड नायऩार् (३५) गुरुपूजै, दर्शेष्टिः, पराशर-महर्षि-जयन्ती, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, वैशाख-मास-आरम्भः, स्थालीपाकः
 ##### अग्निनक्षत्र-आरम्भः
 
 
@@ -9584,6 +9692,15 @@ Observed on Kṛttikā nakshatra of every (sidereal solar) month (Sūryāstamaya
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/kaumAra/sidereal_solar_month/nakshatra/00/03/kRttikA-vratam.toml)
 - Tags: SpecialVratam
+
+
+##### पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्
+
+Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा ' इत्य् आपस्तम्बधर्मसूत्रेषु।
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)
+- Tags: MonthlyFestivals
 
 
 ##### पराशर-महर्षि-जयन्ती
@@ -10784,11 +10901,15 @@ Observed on Viśākhā nakshatra of Vṛṣabhaḥ (sidereal solar) month (Prāt
 
 pārvaṇavratam on the eve of pūrṇa-sthālīpākaḥ.
 
-गृहस्थैः 'पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः'। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।
+###### गृहस्थव्रतम्
+पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।  
 
 'अबहुवादी स्यात्। सत्यं विवदिषेत्। अध एवैतां रात्रिं शयीयाताम्। तौ खलु जाग्रन्-मिश्राव् एवैतां रात्रिं विहरेयाताम् इतिहास-मिश्रेण वा केनचिद् वा। जुगुप्सेयातां त्व् एवाव्रत्येभ्यः कर्मभ्यः।' 
 
 परेद्युर् होमाय सम्भारसम्भरणादयो व्यवस्थाः कार्याः।
+
+###### प्रायश्चित्तार्थम् अपि किञ्चन् व्रतम्
+"पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा" इत्य् आपस्तम्बधर्मसूत्रेषु।
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/relative_event/sthAlIpAkaH_16/offset__-1/pArvaNa-vratam_15.toml)
@@ -10899,7 +11020,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- काञ्ची जगद्गुरु श्री-चन्द्रशेखरेन्द्र सरस्वती ७ जयन्ती #१२६, पूर्णमासेष्टिः, स्थालीपाकः
+- काञ्ची जगद्गुरु श्री-चन्द्रशेखरेन्द्र सरस्वती ७ जयन्ती #१२६, पार्वण-प्रायश्चित्तावकाशः दर्शे, पूर्णमासेष्टिः, स्थालीपाकः
 ##### काञ्ची जगद्गुरु श्री-चन्द्रशेखरेन्द्र सरस्वती ७ जयन्ती #१२६
 
 Observed on Anūrādhā nakshatra of Vṛṣabhaḥ (sidereal solar) month (Prātaḥ/paraviddha). The event occurred in 4995 (Kali era).  
@@ -10908,6 +11029,15 @@ Observed on Anūrādhā nakshatra of Vṛṣabhaḥ (sidereal solar) month (Prā
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/sidereal_solar_month/nakshatra/02/17/kAJcI_jagadguru_zrI~candrazEkharEndra_sarasvatI_7_jayantI.toml)
 - Tags: MahapurushaEvents CommonFestivals
+
+
+##### पार्वण-प्रायश्चित्तावकाशः दर्शे
+
+Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा ' इत्य् आपस्तम्बधर्मसूत्रेषु।
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAshaH_16.toml)
+- Tags: MonthlyFestivals
 
 
 ##### पूर्णमासेष्टिः
@@ -11881,11 +12011,15 @@ ___________________
 
 pārvaṇavratam on the eve of darśa-sthālīpākaḥ.
 
-पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।
+###### गृहस्थव्रतम्
+पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।  
 
 'अबहुवादी स्यात्। सत्यं विवदिषेत्। अध एवैतां रात्रिं शयीयाताम्। तौ खलु जाग्रन्-मिश्राव् एवैतां रात्रिं विहरेयाताम् इतिहास-मिश्रेण वा केनचिद् वा। जुगुप्सेयातां त्व् एवाव्रत्येभ्यः कर्मभ्यः।' 
 
 परेद्युर् होमाय सम्भारसम्भरणादयो व्यवस्थाः कार्याः।
+
+###### प्रायश्चित्तार्थम् अपि किञ्चन् व्रतम्
+"पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा" इत्य् आपस्तम्बधर्मसूत्रेषु।
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-vratam_30.toml)
@@ -12009,7 +12143,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- करवीर-व्रतम्, चन्द्र-दर्शनम्, दर्शेष्टिः, पुन्नाग-गौरी-व्रतम्, भद्र-चतुष्टय-व्रतम्, शृङ्गेरी ३२ जगद्गुरु श्री-नृसिंह भारती आराधना, स्थालीपाकः
+- करवीर-व्रतम्, चन्द्र-दर्शनम्, दर्शेष्टिः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, पुन्नाग-गौरी-व्रतम्, भद्र-चतुष्टय-व्रतम्, शृङ्गेरी ३२ जगद्गुरु श्री-नृसिंह भारती आराधना, स्थालीपाकः
 ##### भद्र-चतुष्टय-व्रतम्
 
 Observed on Śukla-Prathamā tithi of Jyaiṣṭhaḥ (lunar) month (Sūryodayaḥ/puurvaviddha). 
@@ -12055,6 +12189,15 @@ Observed on Śukla-Prathamā tithi of Jyaiṣṭhaḥ (lunar) month (Sūryodaya�
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/03/01/karavIra-vratam.toml)
 - Tags: SpecialVratam
+
+
+##### पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्
+
+Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा ' इत्य् आपस्तम्बधर्मसूत्रेषु।
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)
+- Tags: MonthlyFestivals
 
 
 ##### पुन्नाग-गौरी-व्रतम्
@@ -13261,11 +13404,15 @@ Observed on Paurṇamāsī tithi of Jyaiṣṭhaḥ (lunar) month (Sūryodayaḥ
 
 pārvaṇavratam on the eve of pūrṇa-sthālīpākaḥ.
 
-गृहस्थैः 'पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः'। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।
+###### गृहस्थव्रतम्
+पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।  
 
 'अबहुवादी स्यात्। सत्यं विवदिषेत्। अध एवैतां रात्रिं शयीयाताम्। तौ खलु जाग्रन्-मिश्राव् एवैतां रात्रिं विहरेयाताम् इतिहास-मिश्रेण वा केनचिद् वा। जुगुप्सेयातां त्व् एवाव्रत्येभ्यः कर्मभ्यः।' 
 
 परेद्युर् होमाय सम्भारसम्भरणादयो व्यवस्थाः कार्याः।
+
+###### प्रायश्चित्तार्थम् अपि किञ्चन् व्रतम्
+"पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा" इत्य् आपस्तम्बधर्मसूत्रेषु।
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/relative_event/sthAlIpAkaH_16/offset__-1/pArvaNa-vratam_15.toml)
@@ -13340,7 +13487,16 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- पूर्णमासेष्टिः, स्थालीपाकः
+- पार्वण-प्रायश्चित्तावकाशः दर्शे, पूर्णमासेष्टिः, स्थालीपाकः
+##### पार्वण-प्रायश्चित्तावकाशः दर्शे
+
+Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा ' इत्य् आपस्तम्बधर्मसूत्रेषु।
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAshaH_16.toml)
+- Tags: MonthlyFestivals
+
+
 ##### पूर्णमासेष्टिः
 
 Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 
@@ -14171,11 +14327,15 @@ Observed on Amāvāsyā tithi of Jyaiṣṭhaḥ (lunar) month (Sūryodayaḥ/pu
 
 pārvaṇavratam on the eve of darśa-sthālīpākaḥ.
 
-पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।
+###### गृहस्थव्रतम्
+पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।  
 
 'अबहुवादी स्यात्। सत्यं विवदिषेत्। अध एवैतां रात्रिं शयीयाताम्। तौ खलु जाग्रन्-मिश्राव् एवैतां रात्रिं विहरेयाताम् इतिहास-मिश्रेण वा केनचिद् वा। जुगुप्सेयातां त्व् एवाव्रत्येभ्यः कर्मभ्यः।' 
 
 परेद्युर् होमाय सम्भारसम्भरणादयो व्यवस्थाः कार्याः।
+
+###### प्रायश्चित्तार्थम् अपि किञ्चन् व्रतम्
+"पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा" इत्य् आपस्तम्बधर्मसूत्रेषु।
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-vratam_30.toml)
@@ -14221,7 +14381,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- काञ्ची २५ जगद्गुरु श्री-सच्चिदानन्दघनेन्द्र सरस्वती आराधना #१४७२, चिदम्बरे रजत ऋषभ वाहनम्, दर्शेष्टिः, वाराही-नवरात्र-आरम्भः, स्थालीपाकः
+- काञ्ची २५ जगद्गुरु श्री-सच्चिदानन्दघनेन्द्र सरस्वती आराधना #१४७२, चिदम्बरे रजत ऋषभ वाहनम्, दर्शेष्टिः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, वाराही-नवरात्र-आरम्भः, स्थालीपाकः
 ##### चिदम्बरे रजत ऋषभ वाहनम्
 
 
@@ -14260,6 +14420,15 @@ The noble son of Śrīkṛṣṇa of Śrīmuṣṇa by name Śivasāmbha who wen
   - Punya Shloka Manjari
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/04/01/kAJcI_25_jagadguru_zrI~saccidAnandaghanEndra_sarasvatI_ArAdhanA.toml)
 - Tags: KanchiAradhanaDays
+
+
+##### पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्
+
+Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा ' इत्य् आपस्तम्बधर्मसूत्रेषु।
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)
+- Tags: MonthlyFestivals
 
 
 ##### स्थालीपाकः
@@ -15419,11 +15588,15 @@ Observed on Paurṇamāsī tithi of Āṣāḍhaḥ (lunar) month (Aparāhṇa�
 
 pārvaṇavratam on the eve of pūrṇa-sthālīpākaḥ.
 
-गृहस्थैः 'पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः'। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।
+###### गृहस्थव्रतम्
+पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।  
 
 'अबहुवादी स्यात्। सत्यं विवदिषेत्। अध एवैतां रात्रिं शयीयाताम्। तौ खलु जाग्रन्-मिश्राव् एवैतां रात्रिं विहरेयाताम् इतिहास-मिश्रेण वा केनचिद् वा। जुगुप्सेयातां त्व् एवाव्रत्येभ्यः कर्मभ्यः।' 
 
 परेद्युर् होमाय सम्भारसम्भरणादयो व्यवस्थाः कार्याः।
+
+###### प्रायश्चित्तार्थम् अपि किञ्चन् व्रतम्
+"पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा" इत्य् आपस्तम्बधर्मसूत्रेषु।
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/relative_event/sthAlIpAkaH_16/offset__-1/pArvaNa-vratam_15.toml)
@@ -15516,7 +15689,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- काञ्ची ५४ जगद्गुरु श्री-व्यासाचल महादेवेन्द्र सरस्वती आराधना #५१३, पूर्णमासेष्टिः, सर्वनदी-रजस्वला, स्थालीपाकः
+- काञ्ची ५४ जगद्गुरु श्री-व्यासाचल महादेवेन्द्र सरस्वती आराधना #५१३, पार्वण-प्रायश्चित्तावकाशः दर्शे, पूर्णमासेष्टिः, सर्वनदी-रजस्वला, स्थालीपाकः
 ##### काञ्ची ५४ जगद्गुरु श्री-व्यासाचल महादेवेन्द्र सरस्वती आराधना #५१३
 
 Observed on Kṛṣṇa-Prathamā tithi of Āṣāḍhaḥ (lunar) month (Aparāhṇaḥ/vyaapti). The event occurred in 4608 (Kali era).  
@@ -15535,6 +15708,15 @@ Born as the son of Kāmeśvara and Kamalāmbā of Kāñci, the one named Kupanna
   - Punya Shloka Manjari
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/04/16/kAJcI_54_jagadguru_zrI~vyAsAcala_mahAdEvEndra_sarasvatI_ArAdhanA.toml)
 - Tags: KanchiAradhanaDays
+
+
+##### पार्वण-प्रायश्चित्तावकाशः दर्शे
+
+Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा ' इत्य् आपस्तम्बधर्मसूत्रेषु।
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAshaH_16.toml)
+- Tags: MonthlyFestivals
 
 
 ##### पूर्णमासेष्टिः
@@ -16440,11 +16622,15 @@ He, Soma, initiated with the title Bodhendra by the preceptor Paraśivendra ador
 
 pārvaṇavratam on the eve of darśa-sthālīpākaḥ.
 
-पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।
+###### गृहस्थव्रतम्
+पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।  
 
 'अबहुवादी स्यात्। सत्यं विवदिषेत्। अध एवैतां रात्रिं शयीयाताम्। तौ खलु जाग्रन्-मिश्राव् एवैतां रात्रिं विहरेयाताम् इतिहास-मिश्रेण वा केनचिद् वा। जुगुप्सेयातां त्व् एवाव्रत्येभ्यः कर्मभ्यः।' 
 
 परेद्युर् होमाय सम्भारसम्भरणादयो व्यवस्थाः कार्याः।
+
+###### प्रायश्चित्तार्थम् अपि किञ्चन् व्रतम्
+"पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा" इत्य् आपस्तम्बधर्मसूत्रेषु।
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-vratam_30.toml)
@@ -16493,7 +16679,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- आषाढ-स्नानपूर्तिः, काञ्ची ४१ जगद्गुरु श्री-गङ्गाधरेन्द्र सरस्वती २ आराधना #१०७०, गुरुपुष्य-पुण्यकालः, दर्शेष्टिः, दीप-पूजा, पति-सञ्जीवनी-व्रतम्, व्यतीपात-श्राद्धम्, स्थालीपाकः
+- आषाढ-स्नानपूर्तिः, काञ्ची ४१ जगद्गुरु श्री-गङ्गाधरेन्द्र सरस्वती २ आराधना #१०७०, गुरुपुष्य-पुण्यकालः, दर्शेष्टिः, दीप-पूजा, पति-सञ्जीवनी-व्रतम्, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, व्यतीपात-श्राद्धम्, स्थालीपाकः
 ##### आषाढ-स्नानपूर्तिः
 
 Observed on Amāvāsyā tithi of Āṣāḍhaḥ (lunar) month (Sūryodayaḥ/puurvaviddha). 
@@ -16553,6 +16739,15 @@ Appanna, son of Umeśabhaṭṭa, on the banks of river Bhīmā, engrossed in Ś
   - Punya Shloka Manjari
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/05/01/kAJcI_41_jagadguru_zrI~gaGgAdharEndra_sarasvatI_2_ArAdhanA.toml)
 - Tags: KanchiAradhanaDays
+
+
+##### पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्
+
+Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा ' इत्य् आपस्तम्बधर्मसूत्रेषु।
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)
+- Tags: MonthlyFestivals
 
 
 ##### पति-सञ्जीवनी-व्रतम्
@@ -16901,7 +17096,7 @@ Observed on Śukla-Pañcamī tithi of Śrāvaṇaḥ (lunar) month (Sūryodaya�
 
 ##### तैत्तिरीय-उपाकर्म हस्ते
 
-Observed on Hastaḥ nakshatra of Śrāvaṇaḥ (lunar) month (Sūryodayaḥ/puurvaviddha). #### आपस्तम्बसूत्रेषु
+Observed on Hastaḥ nakshatra of Śrāvaṇaḥ (lunar) month (Sūryodayaḥ/puurvaviddha). ###### आपस्तम्बसूत्रेषु
 (आर्तव)श्रवणा(पूर्व)पक्ष ओषधीषु जातासु हस्तेन पौर्णमास्यां वा ऽध्यायोपाकर्म।  
 अग्नेर् उपसमाधानाद्य्-आज्यभागान्ते ऽन्वारब्धेषु +++(शिष्येषु)+++ काण्ड-ऋषिभ्यो जुहोति,  
 सदसस्पतये, सावित्र्या, ऋग्वेदाय यजुर्वेदाय सामवेदायाथर्वणवेदायेति हुत्वा उपहोमो,  
@@ -17662,7 +17857,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- ऋग्वेद-उपाकर्म, काञ्ची २० जगद्गुरु श्री-मूकशङ्करेन्द्र सरस्वती आराधना #१५८३, गायत्री-जयन्ती, नारिकेल-पूर्णिमा, पार्वणव्रतम् पूर्णिमायाम्, पूर्णिमा-व्रतम्, यजुर्वेद-उपाकर्म, रक्षाबन्धनम्, वैखानस-महर्षि-जयन्ती, संस्कृत-दिवसः, सर्प-बलि-प्रारम्भः, हयग्रीव-जयन्ती
+- ऋग्वेद-उपाकर्म, काञ्ची २० जगद्गुरु श्री-मूकशङ्करेन्द्र सरस्वती आराधना #१५८३, गायत्री-जयन्ती, नारिकेल-पूर्णिमा, पार्वणव्रतम् पूर्णिमायाम्, पूर्णिमा-व्रतम्, यजुर्वेद-उपाकर्म, रक्षाबन्धनम्, वैखानस-महर्षि-जयन्ती, श्रावण्युपवासः प्रायश्चित्तार्थः, संस्कृत-दिवसः, सर्प-बलि-प्रारम्भः, हयग्रीव-जयन्ती
 ##### ऋग्वेद-उपाकर्म
 
 Observed on Śravaṇaḥ nakshatra of Śrāvaṇaḥ (lunar) month (Sūryodayaḥ/paraviddha). 
@@ -17732,11 +17927,15 @@ Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) month (Sūryodayaḥ/
 
 pārvaṇavratam on the eve of pūrṇa-sthālīpākaḥ.
 
-गृहस्थैः 'पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः'। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।
+###### गृहस्थव्रतम्
+पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।  
 
 'अबहुवादी स्यात्। सत्यं विवदिषेत्। अध एवैतां रात्रिं शयीयाताम्। तौ खलु जाग्रन्-मिश्राव् एवैतां रात्रिं विहरेयाताम् इतिहास-मिश्रेण वा केनचिद् वा। जुगुप्सेयातां त्व् एवाव्रत्येभ्यः कर्मभ्यः।' 
 
 परेद्युर् होमाय सम्भारसम्भरणादयो व्यवस्थाः कार्याः।
+
+###### प्रायश्चित्तार्थम् अपि किञ्चन् व्रतम्
+"पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा" इत्य् आपस्तम्बधर्मसूत्रेषु।
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/relative_event/sthAlIpAkaH_16/offset__-1/pArvaNa-vratam_15.toml)
@@ -17786,6 +17985,15 @@ Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) month (Sūryodayaḥ/
 - Tags: LessCommonFestivals
 
 
+##### श्रावण्युपवासः प्रायश्चित्तार्थः
+
+Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) month (Sūryodayaḥ/puurvaviddha). श्रावण्यां पौर्णमास्यां तिलभक्ष उपोष्य वा श्वोभूते महानदम् उदकम् उपस्पृश्य सावित्र्या समित्-सहस्रम् आदध्याज् जपेद् वा इत्य् आपस्तम्बधर्मसूत्रेषु।
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/05/15/shrAvaNy-upavAsaH.toml)
+- Tags: LessCommonFestivals
+
+
 ##### वैखानस-महर्षि-जयन्ती
 
 Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) month (Sūryodayaḥ/puurvaviddha). 
@@ -17797,7 +18005,7 @@ Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) month (Sūryodayaḥ/
 
 ##### यजुर्वेद-उपाकर्म
 
-Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) month (Sūryodayaḥ/puurvaviddha). #### आपस्तम्बसूत्रेषु
+Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) month (Sūryodayaḥ/puurvaviddha). ###### आपस्तम्बसूत्रेषु
 (आर्तव)श्रवणा(पूर्व)पक्ष ओषधीषु जातासु हस्तेन पौर्णमास्यां वा ऽध्यायोपाकर्म।  
 अग्नेर् उपसमाधानाद्य्-आज्यभागान्ते ऽन्वारब्धेषु +++(शिष्येषु)+++ काण्ड-ऋषिभ्यो जुहोति,  
 सदसस्पतये, सावित्र्या, ऋग्वेदाय यजुर्वेदाय सामवेदायाथर्वणवेदायेति हुत्वा उपहोमो,  
@@ -17855,7 +18063,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- आडि-वॆळ्ळिक्किऴमै, काञ्ची जगद्गुरु श्री-जयेन्द्र सरस्वती जयन्ती #८५, गायत्री-जपः, पूर्णमासेष्टिः, स्थालीपाकः
+- आडि-वॆळ्ळिक्किऴमै, काञ्ची जगद्गुरु श्री-जयेन्द्र सरस्वती जयन्ती #८५, गायत्री-जपः, पार्वण-प्रायश्चित्तावकाशः दर्शे, पूर्णमासेष्टिः, सहस्रगायत्रीजपः प्रायश्चित्तार्थः, स्थालीपाकः
 ##### आडि-वॆळ्ळिक्किऴमै
 
 Very widely celebrated in Tamil Nadu temples, Fridays in the month of āḍi are special for propitiating Shakti Devi.
@@ -17884,6 +18092,15 @@ Observed on Śraviṣṭhā nakshatra of Karkaṭaḥ (sidereal solar) month (Pr
 - Tags: MahapurushaEvents CommonFestivals
 
 
+##### पार्वण-प्रायश्चित्तावकाशः दर्शे
+
+Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा ' इत्य् आपस्तम्बधर्मसूत्रेषु।
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAshaH_16.toml)
+- Tags: MonthlyFestivals
+
+
 ##### पूर्णमासेष्टिः
 
 Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 
@@ -17891,6 +18108,15 @@ Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)
 - Tags: MonthlyFestivals
+
+
+##### सहस्रगायत्रीजपः प्रायश्चित्तार्थः
+
+Observed on Kṛṣṇa-Prathamā tithi of Śrāvaṇaḥ (lunar) month (Sūryodayaḥ/puurvaviddha). श्रावण्यां पौर्णमास्यां तिलभक्ष उपोष्य वा श्वोभूते महानदम् उदकम् उपस्पृश्य सावित्र्या समित्-सहस्रम् आदध्याज् जपेद् वा इत्य् आपस्तम्बधर्मसूत्रेषु।
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/05/16/sahasra-gAyatrI-japaH.toml)
+- Tags: LessCommonFestivals
 
 
 ##### स्थालीपाकः
@@ -19017,11 +19243,15 @@ Observed on Maghā nakshatra of Siṃhaḥ (sidereal solar) month (Prātaḥ/par
 
 pārvaṇavratam on the eve of darśa-sthālīpākaḥ.
 
-पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।
+###### गृहस्थव्रतम्
+पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।  
 
 'अबहुवादी स्यात्। सत्यं विवदिषेत्। अध एवैतां रात्रिं शयीयाताम्। तौ खलु जाग्रन्-मिश्राव् एवैतां रात्रिं विहरेयाताम् इतिहास-मिश्रेण वा केनचिद् वा। जुगुप्सेयातां त्व् एवाव्रत्येभ्यः कर्मभ्यः।' 
 
 परेद्युर् होमाय सम्भारसम्भरणादयो व्यवस्थाः कार्याः।
+
+###### प्रायश्चित्तार्थम् अपि किञ्चन् व्रतम्
+"पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा" इत्य् आपस्तम्बधर्मसूत्रेषु।
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-vratam_30.toml)
@@ -19096,7 +19326,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- चन्द्र-दर्शनम्, तिरुच्चॆन्दूर् मुरुगऩ् आवणित् तिरुविऴा 8म् नाळ्—पच्चै चात्ति अलङ्कारम्, दर्शेष्टिः, मृगशीर्ष-व्रतम्, स्थालीपाकः
+- चन्द्र-दर्शनम्, तिरुच्चॆन्दूर् मुरुगऩ् आवणित् तिरुविऴा 8म् नाळ्—पच्चै चात्ति अलङ्कारम्, दर्शेष्टिः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, मृगशीर्ष-व्रतम्, स्थालीपाकः
 ##### चन्द्र-दर्शनम्
 - 18:17→19:04
 
@@ -19128,6 +19358,15 @@ Observed on Śukla-Prathamā tithi of Bhādrapadaḥ (lunar) month (Sūryodaya�
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/06/01/mRgazIrSa-vratam.toml)
 - Tags: SpecialVratam
+
+
+##### पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्
+
+Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा ' इत्य् आपस्तम्बधर्मसूत्रेषु।
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)
+- Tags: MonthlyFestivals
 
 
 ##### स्थालीपाकः
@@ -20296,11 +20535,15 @@ This preceptor (Śrī Bhagavannāma Bodhendra) under the directions of Śrī Vi�
 
 pārvaṇavratam on the eve of pūrṇa-sthālīpākaḥ.
 
-गृहस्थैः 'पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः'। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।
+###### गृहस्थव्रतम्
+पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।  
 
 'अबहुवादी स्यात्। सत्यं विवदिषेत्। अध एवैतां रात्रिं शयीयाताम्। तौ खलु जाग्रन्-मिश्राव् एवैतां रात्रिं विहरेयाताम् इतिहास-मिश्रेण वा केनचिद् वा। जुगुप्सेयातां त्व् एवाव्रत्येभ्यः कर्मभ्यः।' 
 
 परेद्युर् होमाय सम्भारसम्भरणादयो व्यवस्थाः कार्याः।
+
+###### प्रायश्चित्तार्थम् अपि किञ्चन् व्रतम्
+"पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा" इत्य् आपस्तम्बधर्मसूत्रेषु।
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/relative_event/sthAlIpAkaH_16/offset__-1/pArvaNa-vratam_15.toml)
@@ -20357,7 +20600,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- उपाङ्ग-ललिता-गौरी-व्रतम्, उमा-महेश्वर-व्रतम्, दिक्पाल-पूजा, पूर्णमासेष्टिः, पूर्णिमा-व्रतम्, महालय-पक्ष-आरम्भः, यतिचातुर्मास्यव्रत-समापनम्, विश्वरूप-यात्रा, स्थालीपाकः
+- उपाङ्ग-ललिता-गौरी-व्रतम्, उमा-महेश्वर-व्रतम्, दिक्पाल-पूजा, पार्वण-प्रायश्चित्तावकाशः दर्शे, पूर्णमासेष्टिः, पूर्णिमा-व्रतम्, महालय-पक्ष-आरम्भः, यतिचातुर्मास्यव्रत-समापनम्, विश्वरूप-यात्रा, स्थालीपाकः
 ##### दिक्पाल-पूजा
 
 Observed on Paurṇamāsī tithi of Bhādrapadaḥ (lunar) month (Sūryodayaḥ/puurvaviddha). Spend this day in Badarikashramam
@@ -20374,6 +20617,15 @@ Observed on Kṛṣṇa-Prathamā tithi of Bhādrapadaḥ (lunar) month (Aparāh
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/lunar_month/tithi/06/16/mahAlaya-pakSa-ArambhaH.toml)
 - Tags: SpecialPeriodStart
+
+
+##### पार्वण-प्रायश्चित्तावकाशः दर्शे
+
+Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा ' इत्य् आपस्तम्बधर्मसूत्रेषु।
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAshaH_16.toml)
+- Tags: MonthlyFestivals
 
 
 ##### पूर्णमासेष्टिः
@@ -21517,11 +21769,15 @@ A very special yoga, for doing Pitru Shraddha during Mahalaya Paksham. A man tha
 
 pārvaṇavratam on the eve of darśa-sthālīpākaḥ.
 
-पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।
+###### गृहस्थव्रतम्
+पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।  
 
 'अबहुवादी स्यात्। सत्यं विवदिषेत्। अध एवैतां रात्रिं शयीयाताम्। तौ खलु जाग्रन्-मिश्राव् एवैतां रात्रिं विहरेयाताम् इतिहास-मिश्रेण वा केनचिद् वा। जुगुप्सेयातां त्व् एवाव्रत्येभ्यः कर्मभ्यः।' 
 
 परेद्युर् होमाय सम्भारसम्भरणादयो व्यवस्थाः कार्याः।
+
+###### प्रायश्चित्तार्थम् अपि किञ्चन् व्रतम्
+"पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा" इत्य् आपस्तम्बधर्मसूत्रेषु।
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-vratam_30.toml)
@@ -21601,7 +21857,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अग्रसेन-महाराज-जयन्ती, आदित्यहस्त-पुण्यकालः, गृहदेवी-पूजा, दर्शेष्टिः, दौहित्र-प्रतिपत्, शरन्नवरात्र-आरम्भः, स्तनवृद्धि-गौरी-व्रतम्, स्थालीपाकः
+- अग्रसेन-महाराज-जयन्ती, आदित्यहस्त-पुण्यकालः, गृहदेवी-पूजा, दर्शेष्टिः, दौहित्र-प्रतिपत्, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, शरन्नवरात्र-आरम्भः, स्तनवृद्धि-गौरी-व्रतम्, स्थालीपाकः
 ##### आदित्यहस्त-पुण्यकालः
 
 When Hasta nakshatra falls on a Sunday, it is a special puṇyakālaḥ. When Rohini nakshatra falls on a Saturday, it is a special puṇyakālaḥ. In the cyclic rotation of time, along with the bad combinations of grahas and nakshatras that indicate the probability of upcoming difficulties, good combinations that grant benefits in multiples also arise. Among such good combinations are the Amrita Siddhi yogas of certain weekdays and nakshatras. They are Sunday-Hasta, Monday-Mrigashirsha, Tuesday-Ashvini, Wednesday-Anuradha, Thursday-Pushya, Friday-Revati, Saturday-Rohini. Good deeds performed on such yogas become especially strong in protecting and nourishing us.
@@ -21653,6 +21909,15 @@ Observed on Śukla-Prathamā tithi of Āśvayujaḥ (lunar) month (Sūryodayaḥ
   - Nilamata Puranam
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/shakti/lunar_month/tithi/07/01/gRhadEvI-pUjA.toml)
 - Tags: LessCommonFestivals
+
+
+##### पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्
+
+Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा ' इत्य् आपस्तम्बधर्मसूत्रेषु।
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)
+- Tags: MonthlyFestivals
 
 
 ##### स्तनवृद्धि-गौरी-व्रतम्
@@ -22839,11 +23104,15 @@ Observed on Paurṇamāsī tithi of Āśvayujaḥ (lunar) month (Sūryodayaḥ/p
 
 pārvaṇavratam on the eve of pūrṇa-sthālīpākaḥ.
 
-गृहस्थैः 'पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः'। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।
+###### गृहस्थव्रतम्
+पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।  
 
 'अबहुवादी स्यात्। सत्यं विवदिषेत्। अध एवैतां रात्रिं शयीयाताम्। तौ खलु जाग्रन्-मिश्राव् एवैतां रात्रिं विहरेयाताम् इतिहास-मिश्रेण वा केनचिद् वा। जुगुप्सेयातां त्व् एवाव्रत्येभ्यः कर्मभ्यः।' 
 
 परेद्युर् होमाय सम्भारसम्भरणादयो व्यवस्थाः कार्याः।
+
+###### प्रायश्चित्तार्थम् अपि किञ्चन् व्रतम्
+"पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा" इत्य् आपस्तम्बधर्मसूत्रेषु।
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/relative_event/sthAlIpAkaH_16/offset__-1/pArvaNa-vratam_15.toml)
@@ -22927,7 +23196,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अप्पय्य-दीक्षित-जयन्ती #५०१, जयावाप्ति-व्रतम्, पूर्णमासेष्टिः, सप्तम-अपरपक्ष-आरम्भः, स्थालीपाकः
+- अप्पय्य-दीक्षित-जयन्ती #५०१, जयावाप्ति-व्रतम्, पार्वण-प्रायश्चित्तावकाशः दर्शे, पूर्णमासेष्टिः, सप्तम-अपरपक्ष-आरम्भः, स्थालीपाकः
 ##### अप्पय्य-दीक्षित-जयन्ती #५०१
 
 Observed on Kṛṣṇa-Prathamā tithi of Kanyā (sidereal solar) month (Prātaḥ/paraviddha). The event occurred in 4620 (Kali era).  
@@ -22947,6 +23216,15 @@ Observed on Kṛṣṇa-Prathamā tithi of Āśvayujaḥ (lunar) month (Sūryoda
   - Chaturvarga Chintamani
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/07/16/jayAvApti-vratam.toml)
 - Tags: SpecialVratam
+
+
+##### पार्वण-प्रायश्चित्तावकाशः दर्शे
+
+Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा ' इत्य् आपस्तम्बधर्मसूत्रेषु।
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAshaH_16.toml)
+- Tags: MonthlyFestivals
 
 
 ##### पूर्णमासेष्टिः
@@ -24008,11 +24286,15 @@ Observed on Kṛṣṇa-Caturdaśī tithi of Āśvayujaḥ (lunar) month (Sūryo
 
 pārvaṇavratam on the eve of darśa-sthālīpākaḥ.
 
-पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।
+###### गृहस्थव्रतम्
+पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।  
 
 'अबहुवादी स्यात्। सत्यं विवदिषेत्। अध एवैतां रात्रिं शयीयाताम्। तौ खलु जाग्रन्-मिश्राव् एवैतां रात्रिं विहरेयाताम् इतिहास-मिश्रेण वा केनचिद् वा। जुगुप्सेयातां त्व् एवाव्रत्येभ्यः कर्मभ्यः।' 
 
 परेद्युर् होमाय सम्भारसम्भरणादयो व्यवस्थाः कार्याः।
+
+###### प्रायश्चित्तार्थम् अपि किञ्चन् व्रतम्
+"पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा" इत्य् आपस्तम्बधर्मसूत्रेषु।
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-vratam_30.toml)
@@ -24092,7 +24374,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- आग्रयण-होमः द्राविडेषु, कमला-जयन्ती, केदार-गौरी-व्रतम्, गोवर्धन-पूजा, दर्शेष्टिः, विक्रमादित्य-पट्टाभिषेकः, श्रीराम-पट्टाभिषेकः, सोमवती अमावास्या, स्थालीपाकः
+- आग्रयण-होमः द्राविडेषु, कमला-जयन्ती, केदार-गौरी-व्रतम्, गोवर्धन-पूजा, दर्शेष्टिः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, विक्रमादित्य-पट्टाभिषेकः, श्रीराम-पट्टाभिषेकः, सोमवती अमावास्या, स्थालीपाकः
 ##### आग्रयण-होमः द्राविडेषु
 
 Observed on Amāvāsyā tithi of Tulā (sidereal solar) month (Sūryodayaḥ/puurvaviddha). Perform homa with fresh rice from paddy.
@@ -24138,6 +24420,15 @@ Observed on Amāvāsyā tithi of Āśvayujaḥ (lunar) month (Sūryodayaḥ/puur
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/shakti/lunar_month/tithi/07/30/kamalA~jayantI.toml)
 - Tags: Dashamahavidya
+
+
+##### पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्
+
+Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा ' इत्य् आपस्तम्बधर्मसूत्रेषु।
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)
+- Tags: MonthlyFestivals
 
 
 ##### सोमवती अमावास्या
@@ -25421,11 +25712,15 @@ Observed on Apabharaṇī nakshatra of Tulā (sidereal solar) month (Prātaḥ/p
 
 pārvaṇavratam on the eve of pūrṇa-sthālīpākaḥ.
 
-गृहस्थैः 'पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः'। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।
+###### गृहस्थव्रतम्
+पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।  
 
 'अबहुवादी स्यात्। सत्यं विवदिषेत्। अध एवैतां रात्रिं शयीयाताम्। तौ खलु जाग्रन्-मिश्राव् एवैतां रात्रिं विहरेयाताम् इतिहास-मिश्रेण वा केनचिद् वा। जुगुप्सेयातां त्व् एवाव्रत्येभ्यः कर्मभ्यः।' 
 
 परेद्युर् होमाय सम्भारसम्भरणादयो व्यवस्थाः कार्याः।
+
+###### प्रायश्चित्तार्थम् अपि किञ्चन् व्रतम्
+"पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा" इत्य् आपस्तम्बधर्मसूत्रेषु।
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/relative_event/sthAlIpAkaH_16/offset__-1/pArvaNa-vratam_15.toml)
@@ -25500,7 +25795,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- इडङ्कऴि नायऩार् (५२) गुरुपूजै, काञ्ची ६४ जगद्गुरु श्री-चन्द्रशेखरेन्द्र सरस्वती ५ आराधना #१६९, कृत्तिका-व्रतम्, नवम-अपरपक्ष-आरम्भः, पूर्णमासेष्टिः, स्थालीपाकः
+- इडङ्कऴि नायऩार् (५२) गुरुपूजै, काञ्ची ६४ जगद्गुरु श्री-चन्द्रशेखरेन्द्र सरस्वती ५ आराधना #१६९, कृत्तिका-व्रतम्, नवम-अपरपक्ष-आरम्भः, पार्वण-प्रायश्चित्तावकाशः दर्शे, पूर्णमासेष्टिः, स्थालीपाकः
 ##### इडङ्कऴि नायऩार् (५२) गुरुपूजै
 
 Observed on Kṛttikā nakshatra of Tulā (sidereal solar) month (Prātaḥ/paraviddha). 
@@ -25546,6 +25841,15 @@ Observed on Kṛṣṇa-Prathamā tithi of Kārttikaḥ (lunar) month (Aparāh�
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/08/16/navama-aparapakSa-ArambhaH.toml)
 - Tags: SpecialPeriodStart
+
+
+##### पार्वण-प्रायश्चित्तावकाशः दर्शे
+
+Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा ' इत्य् आपस्तम्बधर्मसूत्रेषु।
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAshaH_16.toml)
+- Tags: MonthlyFestivals
 
 
 ##### पूर्णमासेष्टिः
@@ -26523,11 +26827,15 @@ Observed on Amāvāsyā tithi of Kārttikaḥ (lunar) month (Sūryodayaḥ/puurv
 
 pārvaṇavratam on the eve of darśa-sthālīpākaḥ.
 
-पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।
+###### गृहस्थव्रतम्
+पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।  
 
 'अबहुवादी स्यात्। सत्यं विवदिषेत्। अध एवैतां रात्रिं शयीयाताम्। तौ खलु जाग्रन्-मिश्राव् एवैतां रात्रिं विहरेयाताम् इतिहास-मिश्रेण वा केनचिद् वा। जुगुप्सेयातां त्व् एवाव्रत्येभ्यः कर्मभ्यः।' 
 
 परेद्युर् होमाय सम्भारसम्भरणादयो व्यवस्थाः कार्याः।
+
+###### प्रायश्चित्तार्थम् अपि किञ्चन् व्रतम्
+"पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा" इत्य् आपस्तम्बधर्मसूत्रेषु।
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-vratam_30.toml)
@@ -26589,7 +26897,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- काञ्ची १८ जगद्गुरु श्री-योगतिलक सुरेन्द्र सरस्वती आराधना #१६३५, दर्शेष्टिः, बुधानुराधा-पुण्यकालः, वनदुर्गानवरात्र-आरम्भः, स्थालीपाकः
+- काञ्ची १८ जगद्गुरु श्री-योगतिलक सुरेन्द्र सरस्वती आराधना #१६३५, दर्शेष्टिः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, बुधानुराधा-पुण्यकालः, वनदुर्गानवरात्र-आरम्भः, स्थालीपाकः
 ##### बुधानुराधा-पुण्यकालः
 - →08:09
 
@@ -26633,6 +26941,15 @@ The austere preceptor Surendra after defeating boldly in debate the materialist 
   - Punya Shloka Manjari
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/09/01/kAJcI_18_jagadguru_zrI~yOgatilaka_surEndra_sarasvatI_ArAdhanA.toml)
 - Tags: KanchiAradhanaDays
+
+
+##### पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्
+
+Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा ' इत्य् आपस्तम्बधर्मसूत्रेषु।
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)
+- Tags: MonthlyFestivals
 
 
 ##### स्थालीपाकः
@@ -27609,11 +27926,15 @@ Observed on Paurṇamāsī tithi of Mārgaśīrṣaḥ (lunar) month (Pradoṣa�
 
 pārvaṇavratam on the eve of pūrṇa-sthālīpākaḥ.
 
-गृहस्थैः 'पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः'। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।
+###### गृहस्थव्रतम्
+पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।  
 
 'अबहुवादी स्यात्। सत्यं विवदिषेत्। अध एवैतां रात्रिं शयीयाताम्। तौ खलु जाग्रन्-मिश्राव् एवैतां रात्रिं विहरेयाताम् इतिहास-मिश्रेण वा केनचिद् वा। जुगुप्सेयातां त्व् एवाव्रत्येभ्यः कर्मभ्यः।' 
 
 परेद्युर् होमाय सम्भारसम्भरणादयो व्यवस्थाः कार्याः।
+
+###### प्रायश्चित्तार्थम् अपि किञ्चन् व्रतम्
+"पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा" इत्य् आपस्तम्बधर्मसूत्रेषु।
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/relative_event/sthAlIpAkaH_16/offset__-1/pArvaNa-vratam_15.toml)
@@ -27677,7 +27998,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अन्नपूर्णा-जयन्ती, आग्रयण-होमः द्राविडेषु, काञ्ची १३ जगद्गुरु श्री-सच्चिद्घनेन्द्र सरस्वती आराधना #१७४८, त्रिपुर-भैरवी-जयन्ती, पूर्णमासेष्टिः, पूर्णिमा-व्रतम्, मार्गशीर्ष-पूर्णिमा, सर्प-बल्युत्सर्जनम्, स्थालीपाकः
+- अन्नपूर्णा-जयन्ती, आग्रयण-होमः द्राविडेषु, काञ्ची १३ जगद्गुरु श्री-सच्चिद्घनेन्द्र सरस्वती आराधना #१७४८, त्रिपुर-भैरवी-जयन्ती, पार्वण-प्रायश्चित्तावकाशः दर्शे, पूर्णमासेष्टिः, पूर्णिमा-व्रतम्, मार्गशीर्ष-पूर्णिमा, सर्प-बल्युत्सर्जनम्, स्थालीपाकः
 ##### आग्रयण-होमः द्राविडेषु
 
 Observed on Paurṇamāsī tithi of Vṛścikaḥ (sidereal solar) month (Sūryodayaḥ/puurvaviddha). Perform homa with fresh rice from paddy.
@@ -27733,6 +28054,15 @@ Observed on Paurṇamāsī tithi of Mārgaśīrṣaḥ (lunar) month (Sūryodaya
   - Vaidikasri Dec 2016
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/09/15/mArgazIrSa-pUrNimA.toml)
 - Tags: PurnimaDays
+
+
+##### पार्वण-प्रायश्चित्तावकाशः दर्शे
+
+Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा ' इत्य् आपस्तम्बधर्मसूत्रेषु।
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAshaH_16.toml)
+- Tags: MonthlyFestivals
 
 
 ##### पूर्णमासेष्टिः
@@ -28655,11 +28985,15 @@ The preceptor, son of Mahādeva, who lived on the banks of river Vegavati, known
 
 pārvaṇavratam on the eve of darśa-sthālīpākaḥ.
 
-पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।
+###### गृहस्थव्रतम्
+पक्षान्ता उपवस्तव्याः, पक्षादयो ऽभियष्टव्याः। किञ्च - 'अथापराह्ण एवाप्लुत्यौपवसथिकं दम्पती भुञ्जीयातां यद् एनयोः काम्यं स्यात्- सर्पिर् मिश्रं स्यात् कुशलेन'।  
 
 'अबहुवादी स्यात्। सत्यं विवदिषेत्। अध एवैतां रात्रिं शयीयाताम्। तौ खलु जाग्रन्-मिश्राव् एवैतां रात्रिं विहरेयाताम् इतिहास-मिश्रेण वा केनचिद् वा। जुगुप्सेयातां त्व् एवाव्रत्येभ्यः कर्मभ्यः।' 
 
 परेद्युर् होमाय सम्भारसम्भरणादयो व्यवस्थाः कार्याः।
+
+###### प्रायश्चित्तार्थम् अपि किञ्चन् व्रतम्
+"पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा" इत्य् आपस्तम्बधर्मसूत्रेषु।
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-vratam_30.toml)
@@ -28716,13 +29050,22 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- दर्शेष्टिः, श्री-हनूमत्-जयन्ती, सूर्य-ग्रहणं (केतुग्रस्त), स्थालीपाकः
+- दर्शेष्टिः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, श्री-हनूमत्-जयन्ती, सूर्य-ग्रहणं (केतुग्रस्त), स्थालीपाकः
 ##### दर्शेष्टिः
 
 Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_month/tithi/00/01/darsheShTiH.toml)
+- Tags: MonthlyFestivals
+
+
+##### पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्
+
+Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्ष उपोष्य वा श्वोभूत उदकमुपस्पृश्य सावित्रीं प्राणायामशः सहस्रकृत्व आवर्तयेद् अप्राणायामशो वा ' इत्य् आपस्तम्बधर्मसूत्रेषु।
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)
 - Tags: MonthlyFestivals
 
 
