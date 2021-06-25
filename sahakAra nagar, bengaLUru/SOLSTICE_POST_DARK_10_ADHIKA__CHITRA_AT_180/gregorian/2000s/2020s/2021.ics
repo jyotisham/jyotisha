@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210624103828
+SEQUENCE:20210625121016
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -838,6 +838,29 @@ DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
  https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_mon
  th/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:पार्वण-प्रायश्चित्तावक
+ ाशः पौर्णमास्याम्
+DTSTART;VALUE=DATE:20210113
+DTEND;VALUE=DATE:20210114
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+ rvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्
+ ष उपोष्य वा श्वोभूत उदकमुपस
+ ्पृश्य सावित्रीं प्राणायाम
+ शः सहस्रकृत्व आवर्तयेद् अप
+ ्राणायामशो वा ' इत्य् आपस्तम
+ ्बधर्मसूत्रेषु।<br/><br/>## Details<br/>- [E
+ dit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/
+ Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)<br/
+ >- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1816,6 +1839,29 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:पार्वण-प्रायश्चित्तावक
+ ाशः दर्शे
+DTSTART;VALUE=DATE:20210129
+DTEND;VALUE=DATE:20210130
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
+  (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभ
+ क्ष उपोष्य वा श्वोभूत उदकमु
+ पस्पृश्य सावित्रीं प्राणाय
+ ामशः सहस्रकृत्व आवर्तयेद् 
+ अप्राणायामशो वा ' इत्य् आपस्
+ तम्बधर्मसूत्रेषु।<br/><br/>## Details<br
+ />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
+ gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAshaH_16.to
+ ml)<br/>- Tags: MonthlyFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:पूर्णमासेष्टिः
 DTSTART;VALUE=DATE:20210129
 DTEND;VALUE=DATE:20210130
@@ -2696,6 +2742,29 @@ DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
  https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_mon
  th/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:पार्वण-प्रायश्चित्तावक
+ ाशः पौर्णमास्याम्
+DTSTART;VALUE=DATE:20210212
+DTEND;VALUE=DATE:20210213
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+ rvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्
+ ष उपोष्य वा श्वोभूत उदकमुपस
+ ्पृश्य सावित्रीं प्राणायाम
+ शः सहस्रकृत्व आवर्तयेद् अप
+ ्राणायामशो वा ' इत्य् आपस्तम
+ ्बधर्मसूत्रेषु।<br/><br/>## Details<br/>- [E
+ dit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/
+ Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)<br/
+ >- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3740,6 +3809,29 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:पार्वण-प्रायश्चित्तावक
+ ाशः दर्शे
+DTSTART;VALUE=DATE:20210228
+DTEND;VALUE=DATE:20210301
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
+  (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभ
+ क्ष उपोष्य वा श्वोभूत उदकमु
+ पस्पृश्य सावित्रीं प्राणाय
+ ामशः सहस्रकृत्व आवर्तयेद् 
+ अप्राणायामशो वा ' इत्य् आपस्
+ तम्बधर्मसूत्रेषु।<br/><br/>## Details<br
+ />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
+ gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAshaH_16.to
+ ml)<br/>- Tags: MonthlyFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:पूर्णमासेष्टिः
 DTSTART;VALUE=DATE:20210228
 DTEND;VALUE=DATE:20210301
@@ -4687,6 +4779,29 @@ DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
  https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_mon
  th/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:पार्वण-प्रायश्चित्तावक
+ ाशः पौर्णमास्याम्
+DTSTART;VALUE=DATE:20210314
+DTEND;VALUE=DATE:20210315
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+ rvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्
+ ष उपोष्य वा श्वोभूत उदकमुपस
+ ्पृश्य सावित्रीं प्राणायाम
+ शः सहस्रकृत्व आवर्तयेद् अप
+ ्राणायामशो वा ' इत्य् आपस्तम
+ ्बधर्मसूत्रेषु।<br/><br/>## Details<br/>- [E
+ dit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/
+ Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)<br/
+ >- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5672,6 +5787,29 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:पार्वण-प्रायश्चित्तावक
+ ाशः दर्शे
+DTSTART;VALUE=DATE:20210329
+DTEND;VALUE=DATE:20210330
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
+  (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभ
+ क्ष उपोष्य वा श्वोभूत उदकमु
+ पस्पृश्य सावित्रीं प्राणाय
+ ामशः सहस्रकृत्व आवर्तयेद् 
+ अप्राणायामशो वा ' इत्य् आपस्
+ तम्बधर्मसूत्रेषु।<br/><br/>## Details<br
+ />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
+ gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAshaH_16.to
+ ml)<br/>- Tags: MonthlyFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:पूर्णमासेष्टिः
 DTSTART;VALUE=DATE:20210329
 DTEND;VALUE=DATE:20210330
@@ -6614,6 +6752,29 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:पार्वण-प्रायश्चित्तावक
+ ाशः पौर्णमास्याम्
+DTSTART;VALUE=DATE:20210412
+DTEND;VALUE=DATE:20210413
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+ rvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्
+ ष उपोष्य वा श्वोभूत उदकमुपस
+ ्पृश्य सावित्रीं प्राणायाम
+ शः सहस्रकृत्व आवर्तयेद् अप
+ ्राणायामशो वा ' इत्य् आपस्तम
+ ्बधर्मसूत्रेषु।<br/><br/>## Details<br/>- [E
+ dit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/
+ Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)<br/
+ >- Tags: MonthlyFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210412
 DTEND;VALUE=DATE:20210413
@@ -7514,6 +7675,29 @@ DESCRIPTION:- Indian civil date: 1943-02-07\, Islamic: 1442-09-15 Ramaḍ
  **—12:17-13:50  \n___________________\n- **शूलम्**—उदी
  ची दिक् (►11:02)\; **परिहारः**–क्षी
  रम्  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:पार्वण-प्रायश्चित्तावक
+ ाशः दर्शे
+DTSTART;VALUE=DATE:20210427
+DTEND;VALUE=DATE:20210428
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
+  (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभ
+ क्ष उपोष्य वा श्वोभूत उदकमु
+ पस्पृश्य सावित्रीं प्राणाय
+ ामशः सहस्रकृत्व आवर्तयेद् 
+ अप्राणायामशो वा ' इत्य् आपस्
+ तम्बधर्मसूत्रेषु।<br/><br/>## Details<br
+ />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
+ gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAshaH_16.to
+ ml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8450,6 +8634,29 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:पार्वण-प्रायश्चित्तावक
+ ाशः पौर्णमास्याम्
+DTSTART;VALUE=DATE:20210512
+DTEND;VALUE=DATE:20210513
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+ rvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्
+ ष उपोष्य वा श्वोभूत उदकमुपस
+ ्पृश्य सावित्रीं प्राणायाम
+ शः सहस्रकृत्व आवर्तयेद् अप
+ ्राणायामशो वा ' इत्य् आपस्तम
+ ्बधर्मसूत्रेषु।<br/><br/>## Details<br/>- [E
+ dit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/
+ Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)<br/
+ >- Tags: MonthlyFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210512
 DTEND;VALUE=DATE:20210513
@@ -9333,6 +9540,29 @@ DESCRIPTION:- Indian civil date: 1943-03-06\, Islamic: 1442-10-15 Shawwāl
  ___________\n- **शूलम्**—दक्षिणा दिक् (
  ►14:23)\; **परिहारः**–तैलम्  \n_______________
  ____\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:पार्वण-प्रायश्चित्तावक
+ ाशः दर्शे
+DTSTART;VALUE=DATE:20210527
+DTEND;VALUE=DATE:20210528
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
+  (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभ
+ क्ष उपोष्य वा श्वोभूत उदकमु
+ पस्पृश्य सावित्रीं प्राणाय
+ ामशः सहस्रकृत्व आवर्तयेद् 
+ अप्राणायामशो वा ' इत्य् आपस्
+ तम्बधर्मसूत्रेषु।<br/><br/>## Details<br
+ />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
+ gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAshaH_16.to
+ ml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10276,6 +10506,29 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:पार्वण-प्रायश्चित्तावक
+ ाशः पौर्णमास्याम्
+DTSTART;VALUE=DATE:20210611
+DTEND;VALUE=DATE:20210612
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+ rvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्
+ ष उपोष्य वा श्वोभूत उदकमुपस
+ ्पृश्य सावित्रीं प्राणायाम
+ शः सहस्रकृत्व आवर्तयेद् अप
+ ्राणायामशो वा ' इत्य् आपस्तम
+ ्बधर्मसूत्रेषु।<br/><br/>## Details<br/>- [E
+ dit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/
+ Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)<br/
+ >- Tags: MonthlyFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210611
 DTEND;VALUE=DATE:20210612
@@ -11116,6 +11369,29 @@ DESCRIPTION:- Indian civil date: 1943-04-04\, Islamic: 1442-11-15 Ḏū al
  ___________\n- **शूलम्**—प्रतीची दिक् (
  ►11:05)\; **परिहारः**–गुडम्  \n_______________
  ____\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:पार्वण-प्रायश्चित्तावक
+ ाशः दर्शे
+DTSTART;VALUE=DATE:20210625
+DTEND;VALUE=DATE:20210626
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
+  (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभ
+ क्ष उपोष्य वा श्वोभूत उदकमु
+ पस्पृश्य सावित्रीं प्राणाय
+ ामशः सहस्रकृत्व आवर्तयेद् 
+ अप्राणायामशो वा ' इत्य् आपस्
+ तम्बधर्मसूत्रेषु।<br/><br/>## Details<br
+ />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
+ gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAshaH_16.to
+ ml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12048,6 +12324,29 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:पार्वण-प्रायश्चित्तावक
+ ाशः पौर्णमास्याम्
+DTSTART;VALUE=DATE:20210710
+DTEND;VALUE=DATE:20210711
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+ rvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्
+ ष उपोष्य वा श्वोभूत उदकमुपस
+ ्पृश्य सावित्रीं प्राणायाम
+ शः सहस्रकृत्व आवर्तयेद् अप
+ ्राणायामशो वा ' इत्य् आपस्तम
+ ्बधर्मसूत्रेषु।<br/><br/>## Details<br/>- [E
+ dit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/
+ Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)<br/
+ >- Tags: MonthlyFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210710
 DTEND;VALUE=DATE:20210711
@@ -12908,6 +13207,29 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:पार्वण-प्रायश्चित्तावक
+ ाशः दर्शे
+DTSTART;VALUE=DATE:20210724
+DTEND;VALUE=DATE:20210725
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
+  (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभ
+ क्ष उपोष्य वा श्वोभूत उदकमु
+ पस्पृश्य सावित्रीं प्राणाय
+ ामशः सहस्रकृत्व आवर्तयेद् 
+ अप्राणायामशो वा ' इत्य् आपस्
+ तम्बधर्मसूत्रेषु।<br/><br/>## Details<br
+ />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
+ gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAshaH_16.to
+ ml)<br/>- Tags: MonthlyFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:पूर्णमासेष्टिः
 DTSTART;VALUE=DATE:20210724
 DTEND;VALUE=DATE:20210725
@@ -12915,6 +13237,29 @@ DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
  ile](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/luna
  r_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:सहस्रगायत्रीजपः प्रायश
+ ्चित्तार्थः
+DTSTART;VALUE=DATE:20210724
+DTEND;VALUE=DATE:20210725
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of Śrāvaṇaḥ (lun
+ ar) month (Sūryodayaḥ/puurvaviddha). श्रावण्यां प
+ ौर्णमास्यां तिलभक्ष उपोष्य
+  वा श्वोभूते महानदम् उदकम् उ
+ पस्पृश्य सावित्र्या समित्-
+ सहस्रम् आदध्याज् जपेद् वा इ
+ त्य् आपस्तम्बधर्मसूत्रेषु
+ ।<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
+ ham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/05/16/sahasra-
+ gAyatrI-japaH.toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12933,6 +13278,29 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) mon
  g file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba
  /lunar_month/tithi/05/15/sarpa-bali-prArambhaH.toml)<br/>- Tags: LessCommo
  nFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:श्रावण्युपवासः प्रायश्
+ चित्तार्थः
+DTSTART;VALUE=DATE:20210724
+DTEND;VALUE=DATE:20210725
+DESCRIPTION:Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) mon
+ th (Sūryodayaḥ/puurvaviddha). श्रावण्यां पौर
+ ्णमास्यां तिलभक्ष उपोष्य व
+ ा श्वोभूते महानदम् उदकम् उप
+ स्पृश्य सावित्र्या समित्-स
+ हस्रम् आदध्याज् जपेद् वा इत
+ ्य् आपस्तम्बधर्मसूत्रेषु।<
+ br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
+ adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/05/15/shrAvaNy-upa
+ vAsaH.toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13970,6 +14338,29 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:पार्वण-प्रायश्चित्तावक
+ ाशः पौर्णमास्याम्
+DTSTART;VALUE=DATE:20210809
+DTEND;VALUE=DATE:20210810
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+ rvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्
+ ष उपोष्य वा श्वोभूत उदकमुपस
+ ्पृश्य सावित्रीं प्राणायाम
+ शः सहस्रकृत्व आवर्तयेद् अप
+ ्राणायामशो वा ' इत्य् आपस्तम
+ ्बधर्मसूत्रेषु।<br/><br/>## Details<br/>- [E
+ dit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/
+ Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)<br/
+ >- Tags: MonthlyFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210809
 DTEND;VALUE=DATE:20210810
@@ -14809,6 +15200,29 @@ DESCRIPTION:- Indian civil date: 1943-06-01\, Islamic: 1443-01-14 Al-Muḥ
  ककालः**—13:54-15:27  \n___________________\n- **शूलम
  ्**—प्राची दिक् (►09:29)\; **परिहार
  ः**–दधि  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:पार्वण-प्रायश्चित्तावक
+ ाशः दर्शे
+DTSTART;VALUE=DATE:20210823
+DTEND;VALUE=DATE:20210824
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
+  (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभ
+ क्ष उपोष्य वा श्वोभूत उदकमु
+ पस्पृश्य सावित्रीं प्राणाय
+ ामशः सहस्रकृत्व आवर्तयेद् 
+ अप्राणायामशो वा ' इत्य् आपस्
+ तम्बधर्मसूत्रेषु।<br/><br/>## Details<br
+ />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
+ gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAshaH_16.to
+ ml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15758,6 +16172,29 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:पार्वण-प्रायश्चित्तावक
+ ाशः पौर्णमास्याम्
+DTSTART;VALUE=DATE:20210907
+DTEND;VALUE=DATE:20210908
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+ rvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्
+ ष उपोष्य वा श्वोभूत उदकमुपस
+ ्पृश्य सावित्रीं प्राणायाम
+ शः सहस्रकृत्व आवर्तयेद् अप
+ ्राणायामशो वा ' इत्य् आपस्तम
+ ्बधर्मसूत्रेषु।<br/><br/>## Details<br/>- [E
+ dit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/
+ Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)<br/
+ >- Tags: MonthlyFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210907
 DTEND;VALUE=DATE:20210908
@@ -16621,6 +17058,29 @@ DESCRIPTION:- Indian civil date: 1943-06-30\, Islamic: 1443-02-13 Ṣafar\
  ालः**—12:12-13:42  \n___________________\n- **शूलम्**—
  उदीची दिक् (►11:00)\; **परिहारः**–क
  ्षीरम्  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:पार्वण-प्रायश्चित्तावक
+ ाशः दर्शे
+DTSTART;VALUE=DATE:20210921
+DTEND;VALUE=DATE:20210922
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
+  (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभ
+ क्ष उपोष्य वा श्वोभूत उदकमु
+ पस्पृश्य सावित्रीं प्राणाय
+ ामशः सहस्रकृत्व आवर्तयेद् 
+ अप्राणायामशो वा ' इत्य् आपस्
+ तम्बधर्मसूत्रेषु।<br/><br/>## Details<br
+ />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
+ gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAshaH_16.to
+ ml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17638,6 +18098,29 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:पार्वण-प्रायश्चित्तावक
+ ाशः पौर्णमास्याम्
+DTSTART;VALUE=DATE:20211007
+DTEND;VALUE=DATE:20211008
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+ rvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्
+ ष उपोष्य वा श्वोभूत उदकमुपस
+ ्पृश्य सावित्रीं प्राणायाम
+ शः सहस्रकृत्व आवर्तयेद् अप
+ ्राणायामशो वा ' इत्य् आपस्तम
+ ्बधर्मसूत्रेषु।<br/><br/>## Details<br/>- [E
+ dit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/
+ Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)<br/
+ >- Tags: MonthlyFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20211007
 DTEND;VALUE=DATE:20211008
@@ -18495,6 +18978,29 @@ DESCRIPTION:- Indian civil date: 1943-07-29\, Islamic: 1443-03-14 Rabīʿ
  36  \n___________________\n- **शूलम्**—दक्षिणा 
  दिक् (►14:00)\; **परिहारः**–तैलम्  \n_
  __________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:पार्वण-प्रायश्चित्तावक
+ ाशः दर्शे
+DTSTART;VALUE=DATE:20211021
+DTEND;VALUE=DATE:20211022
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
+  (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभ
+ क्ष उपोष्य वा श्वोभूत उदकमु
+ पस्पृश्य सावित्रीं प्राणाय
+ ामशः सहस्रकृत्व आवर्तयेद् 
+ अप्राणायामशो वा ' इत्य् आपस्
+ तम्बधर्मसूत्रेषु।<br/><br/>## Details<br
+ />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
+ gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAshaH_16.to
+ ml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19460,6 +19966,29 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:पार्वण-प्रायश्चित्तावक
+ ाशः पौर्णमास्याम्
+DTSTART;VALUE=DATE:20211105
+DTEND;VALUE=DATE:20211106
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+ rvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्
+ ष उपोष्य वा श्वोभूत उदकमुपस
+ ्पृश्य सावित्रीं प्राणायाम
+ शः सहस्रकृत्व आवर्तयेद् अप
+ ्राणायामशो वा ' इत्य् आपस्तम
+ ्बधर्मसूत्रेषु।<br/><br/>## Details<br/>- [E
+ dit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/
+ Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)<br/
+ >- Tags: MonthlyFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20211105
 DTEND;VALUE=DATE:20211106
@@ -20396,6 +20925,29 @@ DESCRIPTION:- Indian civil date: 1943-08-29\, Islamic: 1443-04-14 Rabīʿ
  ालः**—06:24-07:49  \n___________________\n- **शूलम्**—
  प्राची दिक् (►09:26)\; **परिहारः**–
  दधि  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:पार्वण-प्रायश्चित्तावक
+ ाशः दर्शे
+DTSTART;VALUE=DATE:20211120
+DTEND;VALUE=DATE:20211121
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
+  (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभ
+ क्ष उपोष्य वा श्वोभूत उदकमु
+ पस्पृश्य सावित्रीं प्राणाय
+ ामशः सहस्रकृत्व आवर्तयेद् 
+ अप्राणायामशो वा ' इत्य् आपस्
+ तम्बधर्मसूत्रेषु।<br/><br/>## Details<br
+ />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
+ gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAshaH_16.to
+ ml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21366,6 +21918,29 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:पार्वण-प्रायश्चित्तावक
+ ाशः पौर्णमास्याम्
+DTSTART;VALUE=DATE:20211205
+DTEND;VALUE=DATE:20211206
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+ rvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्
+ ष उपोष्य वा श्वोभूत उदकमुपस
+ ्पृश्य सावित्रीं प्राणायाम
+ शः सहस्रकृत्व आवर्तयेद् अप
+ ्राणायामशो वा ' इत्य् आपस्तम
+ ्बधर्मसूत्रेषु।<br/><br/>## Details<br/>- [E
+ dit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/
+ Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)<br/
+ >- Tags: MonthlyFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20211205
 DTEND;VALUE=DATE:20211206
@@ -22160,7 +22735,7 @@ SUMMARY:तैत्तिरीय-उत्सर्गो रोहि
 DTSTART;VALUE=DATE:20211218
 DTEND;VALUE=DATE:20211219
 DESCRIPTION:Observed on Rohiṇī nakshatra of Pauṣaḥ (lunar) month (S
- ūryodayaḥ/puurvaviddha). #### आपस्तम्बसूत्र
+ ūryodayaḥ/puurvaviddha). ###### आपस्तम्बसूत्र
  ेषु<br/>तैषीपक्षस्य रोहिण्या
  ं पौर्णमास्यां वोत्सर्गः ८  
  <br/>अभिप्यन्ते +++(=प्रार्थयन्त
@@ -22239,6 +22814,29 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:पार्वण-प्रायश्चित्तावक
+ ाशः दर्शे
+DTSTART;VALUE=DATE:20211219
+DTEND;VALUE=DATE:20211220
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
+  (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभ
+ क्ष उपोष्य वा श्वोभूत उदकमु
+ पस्पृश्य सावित्रीं प्राणाय
+ ामशः सहस्रकृत्व आवर्तयेद् 
+ अप्राणायामशो वा ' इत्य् आपस्
+ तम्बधर्मसूत्रेषु।<br/><br/>## Details<br
+ />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
+ gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAshaH_16.to
+ ml)<br/>- Tags: MonthlyFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:पूर्णमासेष्टिः
 DTSTART;VALUE=DATE:20211219
 DTEND;VALUE=DATE:20211220
@@ -22278,18 +22876,18 @@ SUMMARY:तैत्तिरीय-उत्सर्गः पौर्
 DTSTART;VALUE=DATE:20211219
 DTEND;VALUE=DATE:20211220
 DESCRIPTION:Observed on Paurṇamāsī tithi of Pauṣaḥ (lunar) month (
- Sūryodayaḥ/puurvaviddha). #### आपस्तम्बसूत्र
- ेषु<br/>तैषीपक्षस्य रोहिण्या
- ं पौर्णमास्यां वोत्सर्गः ८  
- <br/>अभिप्यन्ते +++(=प्रार्थयन्त
- े [स्नानादिकं सहैव कर्तुं])+++ 
- वान्योन्यम् १६<br/><br/>… एवं पार
- ायण+++(=यथारुच्यध्ययनमिति के
- चित्)+++समाप्तौ च - काण्डादि द
- ूर्वारोपणोदधि-धावनवर्जम् २
- ४<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
- ham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/10/15/taittirI
- ya-utsargaH_paurNamAsyAm.toml)<br/>- Tags: CommonFestivals
+ Sūryodayaḥ/puurvaviddha). ###### आपस्तम्बसूत्
+ रेषु<br/>तैषीपक्षस्य रोहिण्य
+ ां पौर्णमास्यां वोत्सर्गः 
+ ८  <br/>अभिप्यन्ते +++(=प्रार्थयन
+ ्ते [स्नानादिकं सहैव कर्तुं]
+ )+++ वान्योन्यम् १६<br/><br/>… एवं प
+ ारायण+++(=यथारुच्यध्ययनमिति 
+ केचित्)+++समाप्तौ च - काण्डादि
+  दूर्वारोपणोदधि-धावनवर्जम्
+  २४<br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/10/15/tait
+ tirIya-utsargaH_paurNamAsyAm.toml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
