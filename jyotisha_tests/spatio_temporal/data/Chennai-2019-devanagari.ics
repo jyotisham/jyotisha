@@ -330,6 +330,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (caturdaśī)
+DTSTART;VALUE=DATE:20190104
+DTEND;VALUE=DATE:20190105
+DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of every (lunar) mon
+ th (Āśvinaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar
+ _month/tithi/00/29/pancha-parva-4.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Tôṇḍaraḍippôḍiyāḽvār Tirunakṣattiram
 DTSTART;VALUE=DATE:20190104
 DTEND;VALUE=DATE:20190105
@@ -458,6 +474,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
  gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-vratam_30.to
  ml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (amāvāsyā)
+DTSTART;VALUE=DATE:20190105
+DTEND;VALUE=DATE:20190106
+DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Āśvina
+ ḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file](https://git
+ hub.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/tithi
+ /00/30/pancha-parva-1.toml)<br/>- Tags: Pancha Parva
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1790,6 +1822,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:devī-parva-10
+DTSTART;VALUE=DATE:20190120
+DTEND;VALUE=DATE:20190121
+DESCRIPTION:Observed on Paurṇamāsī tithi of Pauṣaḥ (lunar) month (
+ Āśvinaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file](htt
+ ps://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_mon
+ th/tithi/10/15/devi-parva-10.toml)<br/>- Tags: Devi Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:kāñcī 8 jagadguru śrī-kaivalyānandayogendra sarasvatī ārā
  dhanā #1990
 DTSTART;VALUE=DATE:20190120
@@ -1835,6 +1883,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  r/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master
  /gRhya/general/relative_event/sthAlIpAkaH_16/offset__-1/pArvaNa-vratam_15.
  toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (pūrṇimā)
+DTSTART;VALUE=DATE:20190120
+DTEND;VALUE=DATE:20190121
+DESCRIPTION:Observed on Paurṇamāsī tithi of every (lunar) month (Āśv
+ inaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file](https://
+ github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/ti
+ thi/00/15/pancha-parva-2.toml)<br/>- Tags: Pancha Parva
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2607,6 +2671,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (aṣṭamī)
+DTSTART;VALUE=DATE:20190127
+DTEND;VALUE=DATE:20190128
+DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of every (lunar) mon
+ th (Āśvinaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar
+ _month/tithi/00/23/pancha-parva-3.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:pauṣa-aṣṭakā-pūrvedyuḥ
 DTSTART;VALUE=DATE:20190127
 DTEND;VALUE=DATE:20190128
@@ -3106,6 +3186,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (caturdaśī)
+DTSTART;VALUE=DATE:20190202
+DTEND;VALUE=DATE:20190203
+DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of every (lunar) mon
+ th (Āśvinaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar
+ _month/tithi/00/29/pancha-parva-4.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:śani-pradoṣa-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190202T180625
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190202T185641
@@ -3160,6 +3256,22 @@ DESCRIPTION:- Indian civil date: 1940-11-14\, Islamic: 1440-05-27 Jumādā
  Gulikakālaḥ**—15:14-16:40  \n___________________\n- **Śūlam**—Pra
  tīchī Dik (►11:13)\; **Parihāraḥ**–Guḍam  \n___________________
  \n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (caturdaśī)
+DTSTART;VALUE=DATE:20190203
+DTEND;VALUE=DATE:20190204
+DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of every (lunar) mon
+ th (Āśvinaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar
+ _month/tithi/00/29/pancha-parva-4.toml)<br/>- Tags: Pancha Parva
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3253,6 +3365,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
  gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-vratam_30.to
  ml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (amāvāsyā)
+DTSTART;VALUE=DATE:20190204
+DTEND;VALUE=DATE:20190205
+DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Āśvina
+ ḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file](https://git
+ hub.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/tithi
+ /00/30/pancha-parva-1.toml)<br/>- Tags: Pancha Parva
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4908,6 +5036,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:devī-parva-11
+DTSTART;VALUE=DATE:20190218
+DTEND;VALUE=DATE:20190219
+DESCRIPTION:Observed on Śukla-Caturdaśī tithi of Māghaḥ (lunar) mont
+ h (Āśvinaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file](
+ https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_
+ month/tithi/11/14/devi-parva-11.toml)<br/>- Tags: Devi Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Naṭarājar Mahābhiṣekam
 DTSTART;VALUE=DATE:20190218
 DTEND;VALUE=DATE:20190219
@@ -4917,6 +5061,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  ><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisha
  m/adyatithi/blob/master/temples/Tamil/sidereal_solar_month/tithi/11/14/naT
  arAjar_mahAbhiSEkam~6.toml)<br/>- Tags: TamilnaduTempleFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (pūrṇimā)
+DTSTART;VALUE=DATE:20190218
+DTEND;VALUE=DATE:20190219
+DESCRIPTION:Observed on Paurṇamāsī tithi of every (lunar) month (Āśv
+ inaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file](https://
+ github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/ti
+ thi/00/15/pancha-parva-2.toml)<br/>- Tags: Pancha Parva
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5027,8 +5187,8 @@ DTEND;VALUE=DATE:20190220
 DESCRIPTION:Observed on Paurṇamāsī tithi of Māghaḥ (lunar) month (S
  ūryodayaḥ/puurvaviddha). Goddess Lalita is 3rd of the Dasha Maha Vidyas
  .<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisha
- m/adyatithi/blob/master/devatA/shakti/lunar_month/tithi/11/15/lalitA~jayan
- tI.toml)<br/>- Tags: CommonFestivals Dashamahavidya
+ m/adyatithi/blob/master/devatA/dashamahAvidyA/lunar_month/tithi/11/15/lali
+ tA~jayantI.toml)<br/>- Tags: CommonFestivals Dashamahavidya
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5732,6 +5892,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (aṣṭamī)
+DTSTART;VALUE=DATE:20190226
+DTEND;VALUE=DATE:20190227
+DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of every (lunar) mon
+ th (Āśvinaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar
+ _month/tithi/00/23/pancha-parva-3.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Māghaḥ-11-24\,Vṛścikaḥ-Jyeṣṭhā🌛🌌◢◣Kumbhaḥ
  -Śatabhiṣak-11-15🌌🌞◢◣Tapasyaḥ-12-09🪐🌞Budhaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190227T062945
@@ -6185,6 +6361,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (caturdaśī)
+DTSTART;VALUE=DATE:20190304
+DTEND;VALUE=DATE:20190305
+DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of every (lunar) mon
+ th (Āśvinaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar
+ _month/tithi/00/29/pancha-parva-4.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:somaśrāvaṇī-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190303T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190304T120826
@@ -6273,6 +6465,22 @@ DESCRIPTION:Do upavāsam (at least do not take salt) and pray to Lord Shiv
  a (Vaidyanatha Swami).<br/><br/>## Details<br/>- [Edit config file](https:
  //github.com/jyotisham/adyatithi/blob/master/tamil/description_only/mAci~c
  evvAy.toml)<br/>- Tags: MonthWeekdayFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (amāvāsyā)
+DTSTART;VALUE=DATE:20190305
+DTEND;VALUE=DATE:20190306
+DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Āśvina
+ ḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file](https://git
+ hub.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/tithi
+ /00/30/pancha-parva-1.toml)<br/>- Tags: Pancha Parva
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6402,6 +6610,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
  gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-vratam_30.to
  ml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (amāvāsyā)
+DTSTART;VALUE=DATE:20190306
+DTEND;VALUE=DATE:20190307
+DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Āśvina
+ ḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file](https://git
+ hub.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/tithi
+ /00/30/pancha-parva-1.toml)<br/>- Tags: Pancha Parva
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7866,6 +8090,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (pūrṇimā)
+DTSTART;VALUE=DATE:20190320
+DTEND;VALUE=DATE:20190321
+DESCRIPTION:Observed on Paurṇamāsī tithi of every (lunar) month (Āśv
+ inaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file](https://
+ github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/ti
+ thi/00/15/pancha-parva-2.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:tapasya-māsaḥ/śiśiraṛtuḥ
 DTSTART;VALUE=DATE:20190319
 DTEND;VALUE=DATE:20190321
@@ -8554,6 +8794,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (aṣṭamī)
+DTSTART;VALUE=DATE:20190327
+DTEND;VALUE=DATE:20190328
+DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of every (lunar) mon
+ th (Āśvinaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar
+ _month/tithi/00/23/pancha-parva-3.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:phālguna-aṣṭakā-pūrvedyuḥ
 DTSTART;VALUE=DATE:20190327
 DTEND;VALUE=DATE:20190328
@@ -8626,6 +8882,22 @@ DESCRIPTION:- Indian civil date: 1941-01-07\, Islamic: 1440-07-21 Rajab\n-
  Gulikakālaḥ**—09:12-10:43  \n___________________\n- **Śūlam**—Dak
  ṣiṇā Dik (►14:15)\; **Parihāraḥ**–Tailam  \n__________________
  _\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (aṣṭamī)
+DTSTART;VALUE=DATE:20190328
+DTEND;VALUE=DATE:20190329
+DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of every (lunar) mon
+ th (Āśvinaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar
+ _month/tithi/00/23/pancha-parva-3.toml)<br/>- Tags: Pancha Parva
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8822,6 +9094,22 @@ DESCRIPTION:- Indian civil date: 1941-01-10\, Islamic: 1440-07-24 Rajab\n-
  ḥ**—12:13-13:44\; **Gulikakālaḥ**—15:15-16:46  \n________________
  ___\n- **Śūlam**—Pratīchī Dik (►11:00)\; **Parihāraḥ**–Guḍa
  m  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:devī-parva-12
+DTSTART;VALUE=DATE:20190331
+DTEND;VALUE=DATE:20190401
+DESCRIPTION:Observed on Kṛṣṇa-Ekādaśī tithi of Phālgunaḥ (luna
+ r) month (Āśvinaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config
+  file](https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva
+ /lunar_month/tithi/12/26/devi-parva-12.toml)<br/>- Tags: Devi Parva
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9127,6 +9415,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (caturdaśī)
+DTSTART;VALUE=DATE:20190403
+DTEND;VALUE=DATE:20190404
+DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of every (lunar) mon
+ th (Āśvinaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar
+ _month/tithi/00/29/pancha-parva-4.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Phālgunaḥ-12-29\,Mīnaḥ-Uttaraproṣṭhapadā🌛🌌◢◣M
  īnaḥ-Revatī-12-21🌌🌞◢◣Madhuḥ-01-15🪐🌞Guruḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190404T060700
@@ -9203,6 +9507,22 @@ DESCRIPTION:Observed on Amāvāsyā tithi of Phālgunaḥ (lunar) month (A
  yanātha-Dīkṣitīyam<br/>- [Edit config file](https://github.com/jyotis
  ham/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tithi/12/30/manvA
  diH~%28raivataH~%5B5%5D%29.toml)<br/>- Tags: ManvadiDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (amāvāsyā)
+DTSTART;VALUE=DATE:20190404
+DTEND;VALUE=DATE:20190405
+DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Āśvina
+ ḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file](https://git
+ hub.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/tithi
+ /00/30/pancha-parva-1.toml)<br/>- Tags: Pancha Parva
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10286,8 +10606,8 @@ DTEND;VALUE=DATE:20190414
 DESCRIPTION:Observed on Śukla-Navamī tithi of Caitraḥ (lunar) month (M
  adhyāhnaḥ/puurvaviddha). Goddess Mahatara is 2nd of the Dasha Maha Vidy
  as.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
- ham/adyatithi/blob/master/devatA/shakti/lunar_month/tithi/01/09/mahAtArA~j
- ayantI.toml)<br/>- Tags: Dashamahavidya
+ ham/adyatithi/blob/master/devatA/dashamahAvidyA/lunar_month/tithi/01/09/ma
+ hAtArA~jayantI.toml)<br/>- Tags: Dashamahavidya
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10962,6 +11282,22 @@ DESCRIPTION:Observed on Śukla-Caturdaśī tithi of Caitraḥ (lunar) mont
  erences<br/>  - Smriti Kaustubham p.90<br/>- [Edit config file](https://gi
  thub.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tith
  i/01/14/nRsiMha-dOlOtsavaH.toml)<br/>- Tags: LessCommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (pūrṇimā)
+DTSTART;VALUE=DATE:20190418
+DTEND;VALUE=DATE:20190419
+DESCRIPTION:Observed on Paurṇamāsī tithi of every (lunar) month (Āśv
+ inaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file](https://
+ github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/ti
+ thi/00/15/pancha-parva-2.toml)<br/>- Tags: Pancha Parva
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11769,6 +12105,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (aṣṭamī)
+DTSTART;VALUE=DATE:20190426
+DTEND;VALUE=DATE:20190427
+DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of every (lunar) mon
+ th (Āśvinaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar
+ _month/tithi/00/23/pancha-parva-3.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Caitraḥ-01-23\,Makaraḥ-Śravaṇaḥ🌛🌌◢◣Meṣaḥ-A
  śvinī-01-14🌌🌞◢◣Mādhavaḥ-02-08🪐🌞Śaniḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190427T055345
@@ -12181,6 +12533,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:devī-parva-1
+DTSTART;VALUE=DATE:20190502
+DTEND;VALUE=DATE:20190503
+DESCRIPTION:Observed on Kṛṣṇa-Trayodaśī tithi of Caitraḥ (lunar)
+  month (Āśvinaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config f
+ ile](https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/l
+ unar_month/tithi/01/28/devi-parva-1.toml)<br/>- Tags: Devi Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:matsya-jayantī
 DTSTART;VALUE=DATE:20190502
 DTEND;VALUE=DATE:20190503
@@ -12326,6 +12694,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (caturdaśī)
+DTSTART;VALUE=DATE:20190503
+DTEND;VALUE=DATE:20190504
+DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of every (lunar) mon
+ th (Āśvinaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar
+ _month/tithi/00/29/pancha-parva-4.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Caitraḥ-01-30\,Meṣaḥ-Aśvinī🌛🌌◢◣Meṣaḥ-Apabhar
  aṇī-01-21🌌🌞◢◣Mādhavaḥ-02-15🪐🌞Śaniḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190504T055044
@@ -12434,6 +12818,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
  gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-vratam_30.to
  ml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (amāvāsyā)
+DTSTART;VALUE=DATE:20190504
+DTEND;VALUE=DATE:20190505
+DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Āśvina
+ ḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file](https://git
+ hub.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/tithi
+ /00/30/pancha-parva-1.toml)<br/>- Tags: Pancha Parva
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12802,6 +13202,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:devī-parva-2
+DTSTART;VALUE=DATE:20190507
+DTEND;VALUE=DATE:20190508
+DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Vaiśākhaḥ (lunar) m
+ onth (Āśvinaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config fil
+ e](https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lun
+ ar_month/tithi/02/03/devi-parva-2.toml)<br/>- Tags: Devi Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:kṛtayugādiḥ
 DTSTART;VALUE=DATE:20190507
 DTEND;VALUE=DATE:20190508
@@ -12883,8 +13299,8 @@ DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Vaiśākhaḥ (lunar) m
  onth (Sūryodayaḥ/puurvaviddha). Goddess Raja Matangi is 9th of the Dash
  a Maha Vidyas.<br/><br/>## Details<br/>- References<br/>  - Kielhorn (1897
  )\; Ashtanga Panchangam<br/>- [Edit config file](https://github.com/jyotis
- ham/adyatithi/blob/master/devatA/shakti/lunar_month/tithi/02/03/rAja-mAtaG
- gI~jayantI.toml)<br/>- Tags: Dashamahavidya LessCommonFestivals
+ ham/adyatithi/blob/master/devatA/dashamahAvidyA/lunar_month/tithi/02/03/rA
+ ja-mAtaGgI~jayantI.toml)<br/>- Tags: Dashamahavidya LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12945,8 +13361,8 @@ DESCRIPTION:Observed on Śukla-Caturthī tithi of Vaiśākhaḥ (lunar) mo
  nth (Madhyarātriḥ/puurvaviddha). Goddess Bagalamukhi is 8th of the Dash
  a Maha Vidyas.<br/><br/>## Details<br/>- References<br/>  - Ashtanga Panch
  angam<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob
- /master/devatA/shakti/lunar_month/tithi/02/04/bagalAmukhI~jayantI.toml)<br
- />- Tags: Dashamahavidya
+ /master/devatA/dashamahAvidyA/lunar_month/tithi/02/04/bagalAmukhI~jayantI.
+ toml)<br/>- Tags: Dashamahavidya
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14115,8 +14531,8 @@ DTEND;VALUE=DATE:20190519
 DESCRIPTION:Observed on Paurṇamāsī tithi of Vaiśākhaḥ (lunar) mont
  h (Sūryodayaḥ/puurvaviddha). Goddess Chinnamasta is 6th of the Dasha Ma
  ha Vidyas.<br/><br/>## Details<br/>- [Edit config file](https://github.com
- /jyotisham/adyatithi/blob/master/devatA/shakti/lunar_month/tithi/02/15/chi
- nnamastA~jayantI.toml)<br/>- Tags: Dashamahavidya
+ /jyotisham/adyatithi/blob/master/devatA/dashamahAvidyA/lunar_month/tithi/0
+ 2/15/chinnamastA~jayantI.toml)<br/>- Tags: Dashamahavidya
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14188,6 +14604,22 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of every (lunar) month (Sūry
  atyanarayana.<br/><br/>## Details<br/>- [Edit config file](https://github.
  com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/00/
  15/pUrNimA~vratam.toml)<br/>- Tags: MonthlyFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (pūrṇimā)
+DTSTART;VALUE=DATE:20190518
+DTEND;VALUE=DATE:20190519
+DESCRIPTION:Observed on Paurṇamāsī tithi of every (lunar) month (Āśv
+ inaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file](https://
+ github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/ti
+ thi/00/15/pancha-parva-2.toml)<br/>- Tags: Pancha Parva
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15016,6 +15448,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (aṣṭamī)
+DTSTART;VALUE=DATE:20190526
+DTEND;VALUE=DATE:20190527
+DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of every (lunar) mon
+ th (Āśvinaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar
+ _month/tithi/00/23/pancha-parva-3.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:vaidhṛti-śrāddham
 DTSTART;VALUE=DATE:20190526
 DTEND;VALUE=DATE:20190527
@@ -15480,6 +15928,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (caturdaśī)
+DTSTART;VALUE=DATE:20190601
+DTEND;VALUE=DATE:20190602
+DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of every (lunar) mon
+ th (Āśvinaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar
+ _month/tithi/00/29/pancha-parva-4.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Vaiśākhaḥ-02-29\,Meṣaḥ-Kṛttikā🌛🌌◢◣Vṛṣabha
  ḥ-Rohiṇī-02-19🌌🌞◢◣Śukraḥ-03-13🪐🌞Bhānuḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190602T054507
@@ -15555,6 +16019,22 @@ DESCRIPTION:Observed on Kṛttikā nakshatra of every (sidereal solar) mon
  >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/d
  evatA/kaumAra/sidereal_solar_month/nakshatra/00/03/kRttikA-vratam.toml)<br
  />- Tags: SpecialVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (amāvāsyā)
+DTSTART;VALUE=DATE:20190602
+DTEND;VALUE=DATE:20190603
+DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Āśvina
+ ḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file](https://git
+ hub.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/tithi
+ /00/30/pancha-parva-1.toml)<br/>- Tags: Pancha Parva
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16520,8 +17000,8 @@ DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Jyaiṣṭhaḥ (lunar
  ) month (Sūryodayaḥ/puurvaviddha). Goddess Dhumavati is 7th of the Dash
  a Maha Vidyas.<br/><br/>## Details<br/>- References<br/>  - http://hindupa
  d.com/dhumavati-jayanti-maa-dhumavathi-jayanthi/<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/blob/master/devatA/shakti/lunar_mon
- th/tithi/03/08/dhUmAvatI~jayantI.toml)<br/>- Tags: Dashamahavidya
+ https://github.com/jyotisham/adyatithi/blob/master/devatA/dashamahAvidyA/l
+ unar_month/tithi/03/08/dhUmAvatI~jayantI.toml)<br/>- Tags: Dashamahavidya
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16621,6 +17101,22 @@ DESCRIPTION:Observed on Śukla-Navamī tithi of Jyaiṣṭhaḥ (lunar) mo
  kās<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
  sham/adyatithi/blob/master/devatA/shakti/lunar_month/tithi/03/09/brahmANI-
  pUjA.toml)<br/>- Tags: SpecialPuja
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:devī-parva-3
+DTSTART;VALUE=DATE:20190611
+DTEND;VALUE=DATE:20190612
+DESCRIPTION:Observed on Śukla-Daśamī tithi of Jyaiṣṭhaḥ (lunar) m
+ onth (Āśvinaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config fil
+ e](https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lun
+ ar_month/tithi/03/10/devi-parva-3.toml)<br/>- Tags: Devi Parva
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17302,6 +17798,22 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Jyaiṣṭhaḥ (lunar) mo
  - Vaidyanātha-Dīkṣitīyam<br/>- [Edit config file](https://github.com/
  jyotisham/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tithi/03/15
  /manvAdiH~%28bhautyaH~%5B14%5D%29.toml)<br/>- Tags: ManvadiDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (pūrṇimā)
+DTSTART;VALUE=DATE:20190616
+DTEND;VALUE=DATE:20190617
+DESCRIPTION:Observed on Paurṇamāsī tithi of every (lunar) month (Āśv
+ inaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file](https://
+ github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/ti
+ thi/00/15/pancha-parva-2.toml)<br/>- Tags: Pancha Parva
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18045,6 +18557,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (aṣṭamī)
+DTSTART;VALUE=DATE:20190625
+DTEND;VALUE=DATE:20190626
+DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of every (lunar) mon
+ th (Āśvinaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar
+ _month/tithi/00/23/pancha-parva-3.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:tindukāṣṭamī
 DTSTART;VALUE=DATE:20190625
 DTEND;VALUE=DATE:20190626
@@ -18566,6 +19094,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (caturdaśī)
+DTSTART;VALUE=DATE:20190701
+DTEND;VALUE=DATE:20190702
+DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of every (lunar) mon
+ th (Āśvinaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar
+ _month/tithi/00/29/pancha-parva-4.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:somamṛgaśīrṣa-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190701T092316
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190701T235957
@@ -18682,6 +19226,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
  gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-vratam_30.to
  ml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (amāvāsyā)
+DTSTART;VALUE=DATE:20190702
+DTEND;VALUE=DATE:20190703
+DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Āśvina
+ ḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file](https://git
+ hub.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/tithi
+ /00/30/pancha-parva-1.toml)<br/>- Tags: Pancha Parva
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20351,6 +20911,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (pūrṇimā)
+DTSTART;VALUE=DATE:20190716
+DTEND;VALUE=DATE:20190717
+DESCRIPTION:Observed on Paurṇamāsī tithi of every (lunar) month (Āśv
+ inaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file](https://
+ github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/ti
+ thi/00/15/pancha-parva-2.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:veṅkaṭācale pūrṇimā-garuḍa-sevā
 DTSTART;VALUE=DATE:20190716
 DTEND;VALUE=DATE:20190717
@@ -21051,6 +21627,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (aṣṭamī)
+DTSTART;VALUE=DATE:20190724
+DTEND;VALUE=DATE:20190725
+DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of every (lunar) mon
+ th (Āśvinaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar
+ _month/tithi/00/23/pancha-parva-3.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Āṣāḍhaḥ-04-23\,Meṣaḥ-Aśvinī🌛🌌◢◣Karkaṭa
  ḥ-Puṣyaḥ-04-09🌌🌞◢◣Nabhaḥ-05-03🪐🌞Guruḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190725T055621
@@ -21322,6 +21914,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:devī-parva-4
+DTSTART;VALUE=DATE:20190728
+DTEND;VALUE=DATE:20190729
+DESCRIPTION:Observed on Kṛṣṇa-Dvādaśī tithi of Āṣāḍhaḥ (l
+ unar) month (Āśvinaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/devIpa
+ rva/lunar_month/tithi/04/27/devi-parva-4.toml)<br/>- Tags: Devi Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:sarva-kāmikā-ekādaśī
 DTSTART;VALUE=DATE:20190728
 DTEND;VALUE=DATE:20190729
@@ -21536,6 +22144,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (caturdaśī)
+DTSTART;VALUE=DATE:20190730
+DTEND;VALUE=DATE:20190731
+DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of every (lunar) mon
+ th (Āśvinaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar
+ _month/tithi/00/29/pancha-parva-4.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Āṣāḍhaḥ-04-29\,Mithunam-Punarvasuḥ🌛🌌◢◣Karkaṭ
  aḥ-Puṣyaḥ-04-15🌌🌞◢◣Nabhaḥ-05-09🪐🌞Budhaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190731T055738
@@ -21645,6 +22269,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
  gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-vratam_30.to
  ml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (amāvāsyā)
+DTSTART;VALUE=DATE:20190731
+DTEND;VALUE=DATE:20190801
+DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Āśvina
+ ḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file](https://git
+ hub.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/tithi
+ /00/30/pancha-parva-1.toml)<br/>- Tags: Pancha Parva
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23217,6 +23857,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (pūrṇimā)
+DTSTART;VALUE=DATE:20190814
+DTEND;VALUE=DATE:20190815
+DESCRIPTION:Observed on Paurṇamāsī tithi of every (lunar) month (Āśv
+ inaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file](https://
+ github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/ti
+ thi/00/15/pancha-parva-2.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:veṅkaṭācale pūrṇimā-garuḍa-sevā
 DTSTART;VALUE=DATE:20190814
 DTEND;VALUE=DATE:20190815
@@ -24315,8 +24971,8 @@ DTEND;VALUE=DATE:20190824
 DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Śrāvaṇaḥ (l
  unar) month (Niśīthaḥ/paraviddha). Goddess Mahakali is 1st of the Dash
  a Maha Vidyas.<br/><br/>## Details<br/>- [Edit config file](https://github
- .com/jyotisham/adyatithi/blob/master/devatA/shakti/lunar_month/tithi/05/23
- /mahAkAlI~jayantI.toml)<br/>- Tags: Dashamahavidya
+ .com/jyotisham/adyatithi/blob/master/devatA/dashamahAvidyA/lunar_month/tit
+ hi/05/23/mahAkAlI~jayantI.toml)<br/>- Tags: Dashamahavidya
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24347,6 +25003,22 @@ SUMMARY:nabho-māsaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190822T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190823T153203
 DESCRIPTION:
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (aṣṭamī)
+DTSTART;VALUE=DATE:20190823
+DTEND;VALUE=DATE:20190824
+DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of every (lunar) mon
+ th (Āśvinaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar
+ _month/tithi/00/23/pancha-parva-3.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -24975,6 +25647,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (caturdaśī)
+DTSTART;VALUE=DATE:20190828
+DTEND;VALUE=DATE:20190829
+DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of every (lunar) mon
+ th (Āśvinaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar
+ _month/tithi/00/29/pancha-parva-4.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:pradoṣa-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190828T181923
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190828T190602
@@ -25076,6 +25764,38 @@ DESCRIPTION:Observed on Āśreṣā nakshatra of Siṃhaḥ (sidereal sola
  ile](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanA
  r/sidereal_solar_month/nakshatra/05/09/atipatta_nAyan2Ar_%2841%29_gurupUja
  i.toml)<br/>- Tags: NayanarGurupujai
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:devī-parva-5
+DTSTART;VALUE=DATE:20190829
+DTEND;VALUE=DATE:20190830
+DESCRIPTION:Observed on Amāvāsyā tithi of Śrāvaṇaḥ (lunar) month 
+ (Āśvinaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_mo
+ nth/tithi/05/30/devi-parva-5.toml)<br/>- Tags: Devi Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (amāvāsyā)
+DTSTART;VALUE=DATE:20190829
+DTEND;VALUE=DATE:20190830
+DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Āśvina
+ ḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file](https://git
+ hub.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/tithi
+ /00/30/pancha-parva-1.toml)<br/>- Tags: Pancha Parva
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25995,6 +26715,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:devī-parva-6
+DTSTART;VALUE=DATE:20190905
+DTEND;VALUE=DATE:20190906
+DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Bhādrapadaḥ (lunar)
+  month (Āśvinaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config f
+ ile](https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/l
+ unar_month/tithi/06/08/devi-parva-6.toml)<br/>- Tags: Devi Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:kukkuṭī-vratam
 DTSTART;VALUE=DATE:20190905
 DTEND;VALUE=DATE:20190906
@@ -26579,8 +27315,9 @@ DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Bhādrapadaḥ (lunar)
  sha Maha Vidyas.<br/><br/>udyadinadyutimindukirīṭām tuṅgakucāṃ na
  yanatrayayuktām|  <br/>smeramukhīṃ varadāṅkuśapāśābhītikarām 
  prabhaje bhuvaneśīm||<br/><br/><br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/blob/master/devatA/shakti/luna
- r_month/tithi/06/12/bhuvanEzvarI~jayantI.toml)<br/>- Tags: Dashamahavidya
+ ile](https://github.com/jyotisham/adyatithi/blob/master/devatA/dashamahAvi
+ dyA/lunar_month/tithi/06/12/bhuvanEzvarI~jayantI.toml)<br/>- Tags: Dashama
+ havidya
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26998,6 +27735,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  r/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master
  /gRhya/general/relative_event/sthAlIpAkaH_16/offset__-1/pArvaNa-vratam_15.
  toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (pūrṇimā)
+DTSTART;VALUE=DATE:20190913
+DTEND;VALUE=DATE:20190914
+DESCRIPTION:Observed on Paurṇamāsī tithi of every (lunar) month (Āśv
+ inaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file](https://
+ github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/ti
+ thi/00/15/pancha-parva-2.toml)<br/>- Tags: Pancha Parva
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -27903,6 +28656,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (aṣṭamī)
+DTSTART;VALUE=DATE:20190921
+DTEND;VALUE=DATE:20190922
+DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of every (lunar) mon
+ th (Āśvinaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar
+ _month/tithi/00/23/pancha-parva-3.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Puraṭṭāchi Chanikkiḽamai
 DTSTART;VALUE=DATE:20190921
 DTEND;VALUE=DATE:20190922
@@ -28540,6 +29309,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (caturdaśī)
+DTSTART;VALUE=DATE:20190927
+DTEND;VALUE=DATE:20190928
+DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of every (lunar) mon
+ th (Āśvinaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar
+ _month/tithi/00/29/pancha-parva-4.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:śastrahatacaturdaśī
 DTSTART;VALUE=DATE:20190927
 DTEND;VALUE=DATE:20190928
@@ -28691,6 +29476,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
  gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-vratam_30.to
  ml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (amāvāsyā)
+DTSTART;VALUE=DATE:20190928
+DTEND;VALUE=DATE:20190929
+DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Āśvina
+ ḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file](https://git
+ hub.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/tithi
+ /00/30/pancha-parva-1.toml)<br/>- Tags: Pancha Parva
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30487,6 +31288,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (pūrṇimā)
+DTSTART;VALUE=DATE:20191013
+DTEND;VALUE=DATE:20191014
+DESCRIPTION:Observed on Paurṇamāsī tithi of every (lunar) month (Āśv
+ inaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file](https://
+ github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/ti
+ thi/00/15/pancha-parva-2.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:vālmīki-maharṣi-jayantī
 DTSTART;VALUE=DATE:20191013
 DTEND;VALUE=DATE:20191014
@@ -31374,6 +32191,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (aṣṭamī)
+DTSTART;VALUE=DATE:20191021
+DTEND;VALUE=DATE:20191022
+DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of every (lunar) mon
+ th (Āśvinaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar
+ _month/tithi/00/23/pancha-parva-3.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Āśvayujaḥ-07-24\,Karkaṭaḥ-Puṣyaḥ🌛🌌◢◣Tulā-Ci
  trā-07-05🌌🌞◢◣Iṣaḥ-07-30🪐🌞Maṅgalaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191022T060341
@@ -31829,6 +32662,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:devī-parva-7
+DTSTART;VALUE=DATE:20191026
+DTEND;VALUE=DATE:20191027
+DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of Āśvayujaḥ (lu
+ nar) month (Āśvinaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit conf
+ ig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/devIpar
+ va/lunar_month/tithi/07/29/devi-parva-7.toml)<br/>- Tags: Devi Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:dhana-trayodaśī
 DTSTART;VALUE=DATE:20191026
 DTEND;VALUE=DATE:20191027
@@ -31889,6 +32738,22 @@ DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of every (lunar) mon
  br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/maste
  r/devatA/shaiva/lunar_month/tithi/00/29/mAsazivarAtriH.toml)<br/>- Tags: M
  onthlyFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (caturdaśī)
+DTSTART;VALUE=DATE:20191026
+DTEND;VALUE=DATE:20191027
+DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of every (lunar) mon
+ th (Āśvinaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar
+ _month/tithi/00/29/pancha-parva-4.toml)<br/>- Tags: Pancha Parva
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -32037,6 +32902,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
  gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-vratam_30.to
  ml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (amāvāsyā)
+DTSTART;VALUE=DATE:20191027
+DTEND;VALUE=DATE:20191028
+DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Āśvina
+ ḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file](https://git
+ hub.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/tithi
+ /00/30/pancha-parva-1.toml)<br/>- Tags: Pancha Parva
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -32232,8 +33113,8 @@ DTEND;VALUE=DATE:20191029
 DESCRIPTION:Observed on Amāvāsyā tithi of Āśvayujaḥ (lunar) month (
  Sūryodayaḥ/puurvaviddha). Goddess Kamala is 10th of the Dasha Maha Vidy
  as.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
- ham/adyatithi/blob/master/devatA/shakti/lunar_month/tithi/07/30/kamalA~jay
- antI.toml)<br/>- Tags: Dashamahavidya
+ ham/adyatithi/blob/master/devatA/dashamahAvidyA/lunar_month/tithi/07/30/ka
+ malA~jayantI.toml)<br/>- Tags: Dashamahavidya
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -33067,6 +33948,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:devī-parva-8
+DTSTART;VALUE=DATE:20191105
+DTEND;VALUE=DATE:20191106
+DESCRIPTION:Observed on Śukla-Navamī tithi of Kārttikaḥ (lunar) month
+  (Āśvinaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file](h
+ ttps://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_m
+ onth/tithi/08/09/devi-parva-8.toml)<br/>- Tags: Devi Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:guru-saṅkrāntiḥ
 DTSTART;VALUE=DATE:20191104
 DTEND;VALUE=DATE:20191105
@@ -33763,6 +34660,22 @@ DESCRIPTION:Observed on Śukla-Caturdaśī tithi of Kārttikaḥ (lunar) m
  akhaNDE paJcatriMzO.adhyAyaH<br/>- [Edit config file](https://github.com/j
  yotisham/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/08/14/ma
  NikarNikA-snAnam_or_vaikuNTha-caturdazI.toml)<br/>- Tags: SpecialSnanam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (pūrṇimā)
+DTSTART;VALUE=DATE:20191111
+DTEND;VALUE=DATE:20191112
+DESCRIPTION:Observed on Paurṇamāsī tithi of every (lunar) month (Āśv
+ inaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file](https://
+ github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/ti
+ thi/00/15/pancha-parva-2.toml)<br/>- Tags: Pancha Parva
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -34863,6 +35776,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (aṣṭamī)
+DTSTART;VALUE=DATE:20191119
+DTEND;VALUE=DATE:20191120
+DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of every (lunar) mon
+ th (Āśvinaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar
+ _month/tithi/00/23/pancha-parva-3.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Kārttikaḥ-08-23\,Siṃhaḥ-Maghā🌛🌌◢◣Vṛścikaḥ-V
  iśākhā-08-04🌌🌞◢◣Ūrjaḥ-08-28🪐🌞Budhaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191120T061320
@@ -35479,6 +36408,38 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (amāvāsyā)
+DTSTART;VALUE=DATE:20191125
+DTEND;VALUE=DATE:20191126
+DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Āśvina
+ ḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file](https://git
+ hub.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/tithi
+ /00/30/pancha-parva-1.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (caturdaśī)
+DTSTART;VALUE=DATE:20191125
+DTEND;VALUE=DATE:20191126
+DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of every (lunar) mon
+ th (Āśvinaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar
+ _month/tithi/00/29/pancha-parva-4.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Kārttikaḥ-08-30\,Vṛścikaḥ-Viśākhā🌛🌌◢◣Vṛści
  kaḥ-Anūrādhā-08-10🌌🌞◢◣Sahaḥ-09-04🪐🌞Maṅgalaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191126T061613
@@ -36024,6 +36985,22 @@ DESCRIPTION:Observed on Śukla-Caturthī tithi of Mārgaśīrṣaḥ (luna
  r) month (Sūryodayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit co
  nfig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/umA/l
  unar_month/tithi/09/04/badarI-gaurI-vratam.toml)<br/>- Tags: SpecialVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:devī-parva-9
+DTSTART;VALUE=DATE:20191130
+DTEND;VALUE=DATE:20191201
+DESCRIPTION:Observed on Śukla-Pañcamī tithi of Mārgaśīrṣaḥ (luna
+ r) month (Āśvinaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config
+  file](https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva
+ /lunar_month/tithi/09/05/devi-parva-9.toml)<br/>- Tags: Devi Parva
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -37065,6 +38042,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (pūrṇimā)
+DTSTART;VALUE=DATE:20191211
+DTEND;VALUE=DATE:20191212
+DESCRIPTION:Observed on Paurṇamāsī tithi of every (lunar) month (Āśv
+ inaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file](https://
+ github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/ti
+ thi/00/15/pancha-parva-2.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Sarvālaya Dīpam
 DTSTART;VALUE=DATE:20191211
 DTEND;VALUE=DATE:20191212
@@ -37318,8 +38311,8 @@ DTEND;VALUE=DATE:20191213
 DESCRIPTION:Observed on Paurṇamāsī tithi of Mārgaśīrṣaḥ (lunar)
   month (Sūryodayaḥ/puurvaviddha). Goddess Tripura Bhairavi is 5th of th
  e Dasha Maha Vidyas.<br/><br/>## Details<br/>- [Edit config file](https://
- github.com/jyotisham/adyatithi/blob/master/devatA/shakti/lunar_month/tithi
- /09/15/tripura~bhairavI~jayantI.toml)<br/>- Tags: Dashamahavidya
+ github.com/jyotisham/adyatithi/blob/master/devatA/dashamahAvidyA/lunar_mon
+ th/tithi/09/15/tripura~bhairavI~jayantI.toml)<br/>- Tags: Dashamahavidya
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -37852,6 +38845,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (aṣṭamī)
+DTSTART;VALUE=DATE:20191219
+DTEND;VALUE=DATE:20191220
+DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of every (lunar) mon
+ th (Āśvinaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar
+ _month/tithi/00/23/pancha-parva-3.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Mārgaśīrṣaḥ-09-24\,Kanyā-Hastaḥ🌛🌌◢◣Dhanuḥ-M
  ūlā-09-05🌌🌞◢◣Sahaḥ-09-28🪐🌞Śukraḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191220T062911
@@ -38288,6 +39297,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (caturdaśī)
+DTSTART;VALUE=DATE:20191224
+DTEND;VALUE=DATE:20191225
+DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of every (lunar) mon
+ th (Āśvinaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar
+ _month/tithi/00/29/pancha-parva-4.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Mārgaśīrṣaḥ-09-29\,Vṛścikaḥ-Jyeṣṭhā🌛🌌◢◣
  Dhanuḥ-Mūlā-09-10🌌🌞◢◣Sahasyaḥ-10-04🪐🌞Budhaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191225T063137
@@ -38399,6 +39424,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
  gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-vratam_30.to
  ml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pañca-parva-pūjā (amāvāsyā)
+DTSTART;VALUE=DATE:20191225
+DTEND;VALUE=DATE:20191226
+DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Āśvina
+ ḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file](https://git
+ hub.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/tithi
+ /00/30/pancha-parva-1.toml)<br/>- Tags: Pancha Parva
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE

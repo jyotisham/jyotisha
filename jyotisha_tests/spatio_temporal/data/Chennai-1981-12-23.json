@@ -84,6 +84,16 @@
           "name": "devatA/shakti"
         },
         {
+          "base_url": "https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva",
+          "jsonClass": "RulesRepo",
+          "name": "devatA/devIparva"
+        },
+        {
+          "base_url": "https://github.com/jyotisham/adyatithi/blob/master/devatA/dashamahAvidyA",
+          "jsonClass": "RulesRepo",
+          "name": "devatA/dashamahAvidyA"
+        },
+        {
           "base_url": "https://github.com/jyotisham/adyatithi/blob/master/devatA/umA",
           "jsonClass": "RulesRepo",
           "name": "devatA/umA"
