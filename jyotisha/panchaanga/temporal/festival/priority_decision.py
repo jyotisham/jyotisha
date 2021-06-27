@@ -31,15 +31,23 @@ def decide_paraviddha(p0, p1, target_anga, kaala):
       d1_angas.start == target_anga and d1_angas.end == target_anga):
     # Incident at kaala on two consecutive days; so take second
     fday = 1
+  elif d0_angas.start == target_anga and d0_angas.end == target_anga and d1_angas.start == target_anga:
+    # Incident on day 1, and touching day 2
+    if d1_angas.interval.name in ['प्रातः']:
+      fday = 0
+    else:
+      fday = 1
   elif d0_angas.start == target_anga and d0_angas.end == target_anga:
-    # Incident only on day 1, maybe just touching day 2
     fday = 0
   elif d0_angas.end == target_anga:
     fday = 0
   elif d1_angas.start == target_anga:
-    fday = 0
+    if d1_angas.interval.name in ['प्रातः']:
+      fday = 0
+    else:
+      fday = 1
   elif d0_angas.start == target_anga and d0_angas.end == next_anga:
-    if d0_angas.interval.name in ['aparaahna']:
+    if d0_angas.interval.name in ['अपराह्णः']:
       fday = 0
     else:
       # Example when this branch is active: 2019 'madhurakavi AzhvAr tirunakSattiram': sidereal_solar_month 1, nakshatra 14 paraviddha praatah.
