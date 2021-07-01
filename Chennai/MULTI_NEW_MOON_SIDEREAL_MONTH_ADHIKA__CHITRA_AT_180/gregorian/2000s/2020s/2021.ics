@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210628112610
+SEQUENCE:20210701082738
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -24123,24 +24123,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पाल्कर-नेतुः शुद्धिः #३४
- ५
-DTSTART;VALUE=DATE:20210629
-DTEND;VALUE=DATE:20210630
-DESCRIPTION:Event occured on 1676-06-29 (gregorian). AShADha k4 Netaji pAl
- kar's prAyashcitta and readmission to the hindu fold. https://twitter.com/
- ColonelGerard/status/876548420269334528<br/><br/>## Details<br/>- [Edit co
- nfig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/
- xatra-later/gregorian/day/06/29/pAlkara-netuH_shuddhiH.toml)<br/>- Tags:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-21\,कुम्भः-पूर्व
  प्रोष्ठपदा🌛🌌◢◣मिथुनम्-आर
  ्द्रा-03-16🌌🌞◢◣शुचिः-04-10🪐🌞बुध
@@ -24275,16 +24257,16 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मदनलाल आङ्ग्लेयं घ्नन्त
- ि #११२
+SUMMARY:मदनलाल आङ्ग्लेयं हन्ति #
+ ११२
 DTSTART;VALUE=DATE:20210701
 DTEND;VALUE=DATE:20210702
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/07/01/madan
- alAla_AngleyaM_ghnanti.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
- mahApuruSha/xatra-later/gregorian/day/07/01/madanalAla_AngleyaM_ghnanti.to
- ml)<br/>- Tags:
+ alAla_AngleyaM_hanti.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>
+ - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/ma
+ hApuruSha/xatra-later/gregorian/day/07/01/madanalAla_AngleyaM_hanti.toml)<
+ br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
