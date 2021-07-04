@@ -1,5 +1,6 @@
 import logging
 import sys
+import re
 from datetime import datetime
 from math import floor
 
@@ -21,9 +22,10 @@ from sanskrit_data.schema import common
 class TithiFestivalAssigner(FestivalAssigner):
   def assign_all(self):
     self.assign_solar_sidereal_amaavaasyaa()
-    self.assign_amaavaasya_soma()
     self.assign_amaavaasya_vyatiipaata()
     self.assign_chandra_darshanam()
+    self.assign_bodhaayana_amaavaasyaa()
+    self.assign_amaavaasyaa_soma()
     self.assign_chaturthi_vratam()
     self.assign_shasthi_vratam()
     self.assign_vishesha_saptami()
@@ -417,7 +419,7 @@ class TithiFestivalAssigner(FestivalAssigner):
 
     self.panchaanga.delete_festival(fest_id='sidereal_solar_month_amAvAsyA')
 
-  def assign_amaavaasya_soma(self):
+  def assign_amaavaasyaa_soma(self):
     if 'sOmavatI_amAvAsyA' not in self.rules_collection.name_to_rule:
       return
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
@@ -476,6 +478,15 @@ class TithiFestivalAssigner(FestivalAssigner):
           self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[d+1].date)
           d += 25
       d += 1
+
+  def assign_bodhaayana_amaavaasyaa(self):
+    chandra_darshanam_days = list(self.panchaanga.festival_id_to_days['candra-darzanam'])
+    for cdd in chandra_darshanam_days:
+      ama_fest = [val for key, val in self.panchaanga.daily_panchaanga_for_date(cdd - 1).festival_id_to_instance.items() if 'amAvAsyA' in key]
+      if ama_fest:
+        # We have amAvAsyA preceding chandra darshanam. Therefore, the previous day must be assigned as bOdhAayana
+        bodhaayana_fest = re.sub('amAvAsyA.*', 'amAvAsyA', 'bOdhAyana ' + ama_fest[0].name)
+        self.panchaanga.add_festival(fest_id=bodhaayana_fest, date=self.panchaanga.daily_panchaanga_for_date(cdd - 2).date)
 
   def assign_vaarunii_trayodashi(self):
     if 'vAruNI~trayOdazI' not in self.rules_collection.name_to_rule:
