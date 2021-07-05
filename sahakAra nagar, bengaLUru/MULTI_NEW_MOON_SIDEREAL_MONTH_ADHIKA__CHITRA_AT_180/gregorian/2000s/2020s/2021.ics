@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210703042653
+SEQUENCE:20210705134210
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -9026,6 +9026,19 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:बोधायन माघ-अमावास्या
+DTSTART;VALUE=DATE:20210312
+DTEND;VALUE=DATE:20210313
+DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:कॊच्चॆङ्गट् चोऴ नायऩार् 
  (५९) गुरुपूजै
 DTSTART;VALUE=DATE:20210312
@@ -16964,22 +16977,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पञ्च-पर्व-पूजा (चतुर्दशी)
-DTSTART;VALUE=DATE:20210509
-DTEND;VALUE=DATE:20210510
-DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of every (lunar) mon
- th (Āśvinaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file]
- (https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar
- _month/tithi/00/29/pancha-parva-4.toml)<br/>- Tags: Pancha Parva
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210509T183253
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210509T191839
@@ -21204,6 +21201,19 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:बोधायन वैशाख-अमावास्या
+DTSTART;VALUE=DATE:20210609
+DTEND;VALUE=DATE:20210610
+DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:मुण्ड-बीर्स-मृत्युः #१२१
 DTSTART;VALUE=DATE:20210609
 DTEND;VALUE=DATE:20210610
@@ -24596,6 +24606,43 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:मनोज-पाण्डेय-वीरगतिः #२२
+DTSTART;VALUE=DATE:20210703
+DTEND;VALUE=DATE:20210704
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/07/03/manoj
+ a-pANDeya-vIragatiH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mah
+ ApuruSha/xatra-later/gregorian/day/07/03/manoja-pANDeya-vIragatiH.toml)<br
+ />- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:व्याघ्रपर्वताक्रमणारम्
+ भः #२२
+DTSTART;VALUE=DATE:20210703
+DTEND;VALUE=DATE:20210704
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/07/03/vyAgh
+ ra-parvata-AkramaNArambhaH.toml)<br/>- Tags: <br/><br/><br/><br/>## Detail
+ s<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mas
+ ter/mahApuruSha/xatra-later/gregorian/day/07/03/vyAghra-parvata-AkramaNAra
+ mbhaH.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-25\,मेषः-अश्विनी
  🌛🌌◢◣मिथुनम्-आर्द्रा-03-20🌌🌞◢
  ◣शुचिः-04-14🪐🌞भानुः
@@ -24927,6 +24974,25 @@ DESCRIPTION:- Indian civil date: 1943-04-16\, Islamic: 1442-11-27 Ḏū al
  13\; **गुलिककालः**—10:49-12:24  \n___________________\
  n- **शूलम्**—उदीची दिक् (►12:50)\; **प
  रिहारः**–क्षीरम्  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:बात्रा-विक्रम-वीरगतिः #२
+ २
+DTSTART;VALUE=DATE:20210707
+DTEND;VALUE=DATE:20210708
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/07/07/bAtra
+ -vikrama-vIragatiH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahA
+ puruSha/xatra-later/gregorian/day/07/07/bAtra-vikrama-vIragatiH.toml)<br/>
+ - Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -37375,6 +37441,20 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:बोधायन (भाद्रपद) महालय अम
+ ावास्या
+DTSTART;VALUE=DATE:20211005
+DTEND;VALUE=DATE:20211006
+DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:गजच्छाया-योगः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211006T010802
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211006T163521
@@ -45913,6 +45993,20 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:बोधायन कार्त्तिक-अमावास
+ ्या
+DTSTART;VALUE=DATE:20211203
+DTEND;VALUE=DATE:20211204
+DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:जयपाल-पराजयः पुरुषपुरे #
  १०२०
 DTSTART;VALUE=DATE:20211203
@@ -47164,6 +47258,44 @@ DESCRIPTION:Observed on Vyatīpātaḥ yoga of every (sidereal solar) mont
  />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
  devatA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham.toml)<br/>-
   Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ज़ोरावरसिंह-मृत्युः #१८०
+DTSTART;VALUE=DATE:20211212
+DTEND;VALUE=DATE:20211213
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/12/12/zorAv
+ ara-siMha-mRtyuH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [E
+ dit config file](https://github.com/jyotisham/adyatithi/blob/master/mahApu
+ ruSha/xatra-later/gregorian/day/12/12/zorAvara-siMha-mRtyuH.toml)<br/>- Ta
+ gs:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ज़ोरावरसिंहेन तक्लाकोटग
+ ्रहणम् #१८०
+DTSTART;VALUE=DATE:20211212
+DTEND;VALUE=DATE:20211213
+DESCRIPTION:Event occured on 1841-12-12 (gregorian). On this day died the 
+ Kahluria Rajput general Zorawar Singh (under Gulab Singh) on his remarkabl
+ e Tibetan expedition\, captured Taklakot fort in Tibet near mAnasasarovara
+  and Mt KailAsa - just 15 miles from nepAl.<br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuru
+ Sha/xatra-later/gregorian/day/12/12/zorAvara-siMheNa_taklakoTa-grahaNam.to
+ ml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
