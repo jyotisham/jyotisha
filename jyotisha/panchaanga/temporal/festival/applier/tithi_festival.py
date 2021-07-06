@@ -487,6 +487,13 @@ class TithiFestivalAssigner(FestivalAssigner):
         # We have amAvAsyA preceding chandra darshanam. Therefore, the previous day must be assigned as bOdhAayana
         bodhaayana_fest = re.sub('amAvAsyA.*', 'amAvAsyA', 'bOdhAyana ' + ama_fest[0].name)
         self.panchaanga.add_festival(fest_id=bodhaayana_fest, date=self.panchaanga.daily_panchaanga_for_date(cdd - 2).date)
+        self.panchaanga.add_festival(fest_id='bOdhAyana-iSTiH', date=self.panchaanga.daily_panchaanga_for_date(cdd - 1).date)
+      else:
+        for key, val in dict(self.panchaanga.daily_panchaanga_for_date(cdd - 2).festival_id_to_instance).items():
+          if 'amAvAsyA' in key:
+            fest_id = key
+            self.panchaanga.delete_festival_date(fest_id=fest_id, date=self.panchaanga.daily_panchaanga_for_date(cdd - 2).date)
+            self.panchaanga.add_festival(fest_id='sarva-' + fest_id, date=self.panchaanga.daily_panchaanga_for_date(cdd - 2).date)
 
   def assign_vaarunii_trayodashi(self):
     if 'vAruNI~trayOdazI' not in self.rules_collection.name_to_rule:
