@@ -450,21 +450,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:mārgaśīrṣa-amāvāsyā
-DTSTART;VALUE=DATE:20190105
-DTEND;VALUE=DATE:20190106
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/mArg
- azIrSa-amAvAsyA.toml)<br/>- Tags: AmavasyaDays
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:pārvaṇavratam amāvāsyāyām
 DTSTART;VALUE=DATE:20190105
 DTEND;VALUE=DATE:20190106
@@ -490,6 +475,19 @@ DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Āśvina
  ḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file](https://git
  hub.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/tithi
  /00/30/pancha-parva-1.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sarva-mārgaśīrṣa-amāvāsyā
+DTSTART;VALUE=DATE:20190105
+DTEND;VALUE=DATE:20190106
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3327,19 +3325,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:mauni (pauṣa/makara) amāvāsyā (alabhyam–puṣkalā)
-DTSTART;VALUE=DATE:20190204
-DTEND;VALUE=DATE:20190205
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:pārvaṇavratam amāvāsyāyām
 DTSTART;VALUE=DATE:20190204
 DTEND;VALUE=DATE:20190205
@@ -3402,6 +3387,19 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  om/jyotisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_on
  ly/sOmazrAvaNI-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSi
  ddhiYogaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sarva-mauni (pauṣa/makara) amāvāsyā (alabhyam–puṣkalā)
+DTSTART;VALUE=DATE:20190204
+DTEND;VALUE=DATE:20190205
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6537,21 +6535,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:māgha-amāvāsyā (alabhyam–śatabhiṣak)
-DTSTART;VALUE=DATE:20190306
-DTEND;VALUE=DATE:20190307
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/mAgh
- a-amAvAsyA.toml)<br/>- Tags: AmavasyaDays
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:māgha-snānapūrtiḥ
 DTSTART;VALUE=DATE:20190306
 DTEND;VALUE=DATE:20190307
@@ -6613,6 +6596,19 @@ DESCRIPTION:Observed on Amāvāsyā tithi of Māghaḥ (lunar) month (Sūr
  # Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/
  blob/master/mahApuruSha/sangIta-kRt/lunar_month/tithi/11/30/purandaradAsa-
  ArAdhanA.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sarva-māgha-amāvāsyā (alabhyam–śatabhiṣak)
+DTSTART;VALUE=DATE:20190306
+DTEND;VALUE=DATE:20190307
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9484,12 +9480,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:phālguna-amāvāsyā (alabhyam–puṣkalā)
+SUMMARY:sarva-phālguna-amāvāsyā (alabhyam–puṣkalā)
 DTSTART;VALUE=DATE:20190404
 DTEND;VALUE=DATE:20190405
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/phAl
- guna-amAvAsyA.toml)<br/>- Tags: AmavasyaDays
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12722,24 +12716,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:caitra-amāvāsyā
-DTSTART;VALUE=DATE:20190504
-DTEND;VALUE=DATE:20190505
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/cait
- ra-amAvAsyA.toml)<br/>- Tags: AmavasyaDays<br/><br/><br/><br/>## Details<b
- r/>- References<br/>  - Skanda Puranam<br/>- [Edit config file](https://gi
- thub.com/jyotisham/adyatithi/blob/master/time_focus/monthly/amAvAsyA/descr
- iption_only/caitra-amAvAsyA.toml)<br/>- Tags: AmavasyaDays
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:kāñcī 47 jagadguru śrī-candraśekharendra sarasvatī 3 ārād
  hanā #854
 DTSTART;VALUE=DATE:20190504
@@ -12786,6 +12762,19 @@ DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Āśvina
  ḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file](https://git
  hub.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/tithi
  /00/30/pancha-parva-1.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sarva-caitra-amāvāsyā
+DTSTART;VALUE=DATE:20190504
+DTEND;VALUE=DATE:20190505
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16053,6 +16042,19 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:bodhāyana-iṣṭiḥ
+DTSTART;VALUE=DATE:20190603
+DTEND;VALUE=DATE:20190604
+DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:pārvaṇavratam amāvāsyāyām
 DTSTART;VALUE=DATE:20190603
 DTEND;VALUE=DATE:20190604
@@ -19167,21 +19169,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:jyaiṣṭha-amāvāsyā (alabhyam–ārdrā\, puṣkalā)
-DTSTART;VALUE=DATE:20190702
-DTEND;VALUE=DATE:20190703
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/jyai
- STha-amAvAsyA.toml)<br/>- Tags: AmavasyaDays
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:pārvaṇavratam amāvāsyāyām
 DTSTART;VALUE=DATE:20190702
 DTEND;VALUE=DATE:20190703
@@ -19207,6 +19194,19 @@ DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Āśvina
  ḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file](https://git
  hub.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/tithi
  /00/30/pancha-parva-1.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sarva-jyaiṣṭha-amāvāsyā (alabhyam–ārdrā\, puṣkalā)
+DTSTART;VALUE=DATE:20190702
+DTEND;VALUE=DATE:20190703
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22170,19 +22170,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:āṣāḍha (karkaṭa) amāvāsyā (alabhyam–punarvasuḥ)
-DTSTART;VALUE=DATE:20190731
-DTEND;VALUE=DATE:20190801
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:kāñcī 38 jagadguru śrī-abhinavaśaṅkarendra sarasvatī ār
  ādhanā #1180
 DTSTART;VALUE=DATE:20190731
@@ -22250,6 +22237,20 @@ DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Āśvina
  ḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file](https://git
  hub.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/tithi
  /00/30/pancha-parva-1.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sarva-āṣāḍha (karkaṭa) amāvāsyā (alabhyam–punarvasu
+ ḥ)
+DTSTART;VALUE=DATE:20190731
+DTEND;VALUE=DATE:20190801
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25862,6 +25863,19 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:bodhāyana-iṣṭiḥ
+DTSTART;VALUE=DATE:20190830
+DTEND;VALUE=DATE:20190831
+DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:darbha-saṅgrahaḥ
 DTSTART;VALUE=DATE:20190830
 DTEND;VALUE=DATE:20190831
@@ -29367,21 +29381,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:(bhādrapada) mahālaya amāvāsyā
-DTSTART;VALUE=DATE:20190928
-DTEND;VALUE=DATE:20190929
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/%28b
- hAdrapada%29_mahAlaya_amAvAsyA.toml)<br/>- Tags: AmavasyaDays
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:aśvaśiro-deva-pūjā
 DTSTART;VALUE=DATE:20190928
 DTEND;VALUE=DATE:20190929
@@ -29408,37 +29407,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
  b/master/time_focus/special-tithis/description_only/gajacchAyA-yOgaH.toml)
  <br/>- Tags: RareDays Combinations
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:mahālaya-pakṣaḥ
-DTSTART;VALUE=DATE:20190913
-DTEND;VALUE=DATE:20190929
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/devatA/pitR/description_only/mahAlaya-pakSaH.toml
- )<br/>- Tags: SpecialPeriod
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:mahālaya-pakṣa-samāpanam
-DTSTART;VALUE=DATE:20190928
-DTEND;VALUE=DATE:20190929
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/devatA/pitR/relative_event/%28bhAdrapada%29_mahAl
- aya_amAvAsyA/offset__00/mahAlaya-pakSa-samApanam.toml)<br/>- Tags: Special
- PeriodEnd CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -29486,6 +29454,19 @@ DESCRIPTION:Perform special puja and naivedyam (e.g. tilānnam) to Lord Ve
  nkateshwara.<br/><br/>## Details<br/>- [Edit config file](https://github.c
  om/jyotisham/adyatithi/blob/master/tamil/description_only/puraTTAci~can2ik
  kizhamai.toml)<br/>- Tags: MonthWeekdayFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sarva-(bhādrapada) mahālaya amāvāsyā
+DTSTART;VALUE=DATE:20190928
+DTEND;VALUE=DATE:20190929
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -32802,21 +32783,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:āśvayuja-amāvāsyā
-DTSTART;VALUE=DATE:20191027
-DTEND;VALUE=DATE:20191028
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/Azva
- yuja-amAvAsyA.toml)<br/>- Tags: AmavasyaDays
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:dīpāvalī/lakṣmī-kubera-pūjā
 DTSTART;VALUE=DATE:20191027
 DTEND;VALUE=DATE:20191028
@@ -32923,27 +32889,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:saptama-aparapakṣaḥ
-DTSTART;VALUE=DATE:20191013
-DTEND;VALUE=DATE:20191028
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/general/description_only/saptama-aparapakSaH.toml
- )<br/>- Tags: SpecialPeriod
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:saptama-aparapakṣa-samāpanam
+SUMMARY:sarva-āśvayuja-amāvāsyā
 DTSTART;VALUE=DATE:20191027
 DTEND;VALUE=DATE:20191028
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/general/relative_event/Azvayuja-amAvAsyA/offset__
- 00/saptama-aparapakSa-samApanam.toml)<br/>- Tags: SpecialPeriodEnd
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -36480,21 +36429,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:kārttika-amāvāsyā (alabhyam–anūrādhā\, puṣkalā)
-DTSTART;VALUE=DATE:20191126
-DTEND;VALUE=DATE:20191127
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/kArt
- tika-amAvAsyA.toml)<br/>- Tags: AmavasyaDays
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:kārttika-snānapūrtiḥ
 DTSTART;VALUE=DATE:20191126
 DTEND;VALUE=DATE:20191127
@@ -36502,36 +36436,6 @@ DESCRIPTION:Observed on Amāvāsyā tithi of Kārttikaḥ (lunar) month (S
  ūryodayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
  https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tit
  hi/08/30/kArttika-snAnapUrtiH.toml)<br/>- Tags: SpecialSnanam
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:navama-aparapakṣaḥ
-DTSTART;VALUE=DATE:20191112
-DTEND;VALUE=DATE:20191127
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/general/description_only/navama-aparapakSaH.toml)
- <br/>- Tags: SpecialPeriod
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:navama-aparapakṣa-samāpanam
-DTSTART;VALUE=DATE:20191126
-DTEND;VALUE=DATE:20191127
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/general/relative_event/kArttika-amAvAsyA/offset__
- 00/navama-aparapakSa-samApanam.toml)<br/>- Tags: SpecialPeriodEnd
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -36550,6 +36454,19 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
  gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-vratam_30.to
  ml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sarva-kārttika-amāvāsyā (alabhyam–anūrādhā\, puṣkalā)
+DTSTART;VALUE=DATE:20191126
+DTEND;VALUE=DATE:20191127
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -39378,21 +39295,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:mārgaśīrṣa-amāvāsyā
-DTSTART;VALUE=DATE:20191225
-DTEND;VALUE=DATE:20191226
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/mArg
- azIrSa-amAvAsyA.toml)<br/>- Tags: AmavasyaDays
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:pārvaṇavratam amāvāsyāyām
 DTSTART;VALUE=DATE:20191225
 DTEND;VALUE=DATE:20191226
@@ -39418,6 +39320,19 @@ DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Āśvina
  ḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file](https://git
  hub.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/tithi
  /00/30/pancha-parva-1.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sarva-mārgaśīrṣa-amāvāsyā
+DTSTART;VALUE=DATE:20191225
+DTEND;VALUE=DATE:20191226
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
