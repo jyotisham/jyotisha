@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210711120630
+SEQUENCE:20210711210309
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -1665,13 +1665,13 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210114T180810
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210114T185855
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  ><br/>श्वेताम्बरः श्वेतविभूषण
- श्च श्वेतद्युतिर्दण्डधरो द
- ्विबाहुः।  <br/>चन्द्रोऽमृतात
- ्मा वरदः किरीटी मयि प्रसादं 
- विदधातु देवः॥<br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/deva
- tA/graha/description_only/candra-darzanam.toml)<br/>- Tags: ChandraDarshan
- am
+ श्च  <br/>श्वेतद्युतिर्दण्डधर
+ ो द्विबाहुः।  <br/>चन्द्रोऽमृत
+ ात्मा वरदः किरीटी  <br/>मयि प्र
+ सादं विदधातु देवः॥<br/><br/><br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/devatA/graha/description_only/candra-darzanam.toml)<br/>- Tags: C
+ handraDarshanam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -5408,13 +5408,13 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210213T182124
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210213T191103
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  ><br/>श्वेताम्बरः श्वेतविभूषण
- श्च श्वेतद्युतिर्दण्डधरो द
- ्विबाहुः।  <br/>चन्द्रोऽमृतात
- ्मा वरदः किरीटी मयि प्रसादं 
- विदधातु देवः॥<br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/deva
- tA/graha/description_only/candra-darzanam.toml)<br/>- Tags: ChandraDarshan
- am
+ श्च  <br/>श्वेतद्युतिर्दण्डधर
+ ो द्विबाहुः।  <br/>चन्द्रोऽमृत
+ ात्मा वरदः किरीटी  <br/>मयि प्र
+ सादं विदधातु देवः॥<br/><br/><br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/devatA/graha/description_only/candra-darzanam.toml)<br/>- Tags: C
+ handraDarshanam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -9371,13 +9371,13 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210314T182639
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210314T191455
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  ><br/>श्वेताम्बरः श्वेतविभूषण
- श्च श्वेतद्युतिर्दण्डधरो द
- ्विबाहुः।  <br/>चन्द्रोऽमृतात
- ्मा वरदः किरीटी मयि प्रसादं 
- विदधातु देवः॥<br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/deva
- tA/graha/description_only/candra-darzanam.toml)<br/>- Tags: ChandraDarshan
- am
+ श्च  <br/>श्वेतद्युतिर्दण्डधर
+ ो द्विबाहुः।  <br/>चन्द्रोऽमृत
+ ात्मा वरदः किरीटी  <br/>मयि प्र
+ सादं विदधातु देवः॥<br/><br/><br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/devatA/graha/description_only/candra-darzanam.toml)<br/>- Tags: C
+ handraDarshanam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -13460,13 +13460,13 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210413T182848
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210413T191538
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  ><br/>श्वेताम्बरः श्वेतविभूषण
- श्च श्वेतद्युतिर्दण्डधरो द
- ्विबाहुः।  <br/>चन्द्रोऽमृतात
- ्मा वरदः किरीटी मयि प्रसादं 
- विदधातु देवः॥<br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/deva
- tA/graha/description_only/candra-darzanam.toml)<br/>- Tags: ChandraDarshan
- am
+ श्च  <br/>श्वेतद्युतिर्दण्डधर
+ ो द्विबाहुः।  <br/>चन्द्रोऽमृत
+ ात्मा वरदः किरीटी  <br/>मयि प्र
+ सादं विदधातु देवः॥<br/><br/><br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/devatA/graha/description_only/candra-darzanam.toml)<br/>- Tags: C
+ handraDarshanam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -14386,6 +14386,29 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:ऋषीणां दमनकपूजा
+DTSTART;VALUE=DATE:20210419
+DTEND;VALUE=DATE:20210420
+DESCRIPTION:Observed on Śukla-Saptamī tithi of Caitraḥ (lunar) month (
+ Sūryodayaḥ/puurvaviddha). Perform pūjā to ṛṣis using damanaka (dh
+ avana) flowers.<br/><br/>दमनकपूजोक्ता हेमा
+ द्रौ देवीपुराणे—  <br/>एकादश्य
+ ाम् ऋषेः पूजा कार्या सार्वो
+ पहारिकी ।  <br/>धनवान्पुत्रवान
+ ्कान्त ऋषिलोके महीयते ।<br/><br/><
+ br/><br/>## Details<br/>- References<br/>  - Smriti Kaustubham p.101<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gen
+ eral/lunar_month/tithi/01/07/RSINAM~damanakapUjA.toml)<br/>- Tags: LessCom
+ monFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:अव्रङ्गज़ेबो हिन्दुकशाल
  ानाशम् आदिशत् #३५२
 DTSTART;VALUE=DATE:20210419
@@ -14409,6 +14432,29 @@ SUMMARY:मधु-मासः
 DTSTART;VALUE=DATE:20210419
 DTEND;VALUE=DATE:20210420
 DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:सूर्यस्य दमनकपूजा
+DTSTART;VALUE=DATE:20210419
+DTEND;VALUE=DATE:20210420
+DESCRIPTION:Observed on Śukla-Saptamī tithi of Caitraḥ (lunar) month (
+ Sūryodayaḥ/puurvaviddha). Perform pūjā to sūryā using damanaka (dha
+ vana) flowers.<br/><br/>भास्करस्य तु सप्तम
+ ्यां पूजां दमनकादिभिः ।  <br/>क
+ ृत्वा प्राप्नोति भोगादीन् 
+ विगतारिर्महातपाः ।  <br/>मदनरत
+ ्ने देवीपुराणे (स्मृतिकौस्
+ तुभे)<br/><br/><br/><br/>## Details<br/>- References<br/>  - Smrit
+ i Kaustubham p.94<br/>- [Edit config file](https://github.com/jyotisham/ad
+ yatithi/blob/master/devatA/graha/lunar_month/tithi/01/07/sUryasya~damanaka
+ pUjA.toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14977,6 +15023,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:श्रीकृष्णदोलोत्सवः
+DTSTART;VALUE=DATE:20210423
+DTEND;VALUE=DATE:20210424
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/01/11/zrIkRSNa
+ dOlOtsavaH.toml)<br/>- Tags: LessCommonFestivals<br/><br/><br/><br/>## Det
+ ails<br/>- References<br/>  - Smriti Kaustubham p.101<br/>- [Edit config f
+ ile](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/l
+ unar_month/tithi/01/11/zrIkRSNadOlOtsavaH.toml)<br/>- Tags: LessCommonFest
+ ivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:चैत्रः-01-12\,सिंहः-पूर्वफल्
  गुनी🌛🌌◢◣मेषः-अश्विनी-01-11🌌🌞
  ◢◣माधवः-02-05🪐🌞शनिः
@@ -15168,6 +15233,31 @@ DESCRIPTION:Vasantotsava is an annual festival conducted for three days (T
  b.com/jyotisham/adyatithi/blob/master/temples/venkaTAchala/relative_event/
  vEGkaTAcalE_vasantOtsava-samApanam/offset__-2/vEGkaTAcalE_vasantOtsava-Ara
  mbhaH.toml)<br/>- Tags: AndhraTempleFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:विष्णु-दमनकोत्सवः
+DTSTART;VALUE=DATE:20210424
+DTEND;VALUE=DATE:20210425
+DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Caitraḥ (lunar) month
+  (Sūryodayaḥ/puurvaviddha). Perform pūjā to viṣṇus using damanaka
+  (dhavana) flowers.<br/><br/>चैत्रे मासि तथा व
+ िष्णोः कार्यो दमनकोत्सवः।  <
+ br/>वैष्णवैर्विष्णुभक्त्या च
+  जनतानन्दवर्धनः॥  <br/>देवानन्
+ दसमुद्भूता दिव्या दमनमञ्जर
+ ी।  <br/>निवेद्या विष्णवे भक्त
+ ्या सर्वपुण्यफलेप्सुभिः॥<br/
+ ><br/><br/><br/>## Details<br/>- References<br/>  - Smriti Kaustubham p.10
+ 1<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mas
+ ter/devatA/vaiShNava/lunar_month/tithi/01/12/viSNu-damanakOtsavaH.toml)<br
+ />- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17539,13 +17629,13 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210513T183351
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210513T191928
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  ><br/>श्वेताम्बरः श्वेतविभूषण
- श्च श्वेतद्युतिर्दण्डधरो द
- ्विबाहुः।  <br/>चन्द्रोऽमृतात
- ्मा वरदः किरीटी मयि प्रसादं 
- विदधातु देवः॥<br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/deva
- tA/graha/description_only/candra-darzanam.toml)<br/>- Tags: ChandraDarshan
- am
+ श्च  <br/>श्वेतद्युतिर्दण्डधर
+ ो द्विबाहुः।  <br/>चन्द्रोऽमृत
+ ात्मा वरदः किरीटी  <br/>मयि प्र
+ सादं विदधातु देवः॥<br/><br/><br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/devatA/graha/description_only/candra-darzanam.toml)<br/>- Tags: C
+ handraDarshanam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -21548,13 +21638,13 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210611T184208
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210611T192706
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  ><br/>श्वेताम्बरः श्वेतविभूषण
- श्च श्वेतद्युतिर्दण्डधरो द
- ्विबाहुः।  <br/>चन्द्रोऽमृतात
- ्मा वरदः किरीटी मयि प्रसादं 
- विदधातु देवः॥<br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/deva
- tA/graha/description_only/candra-darzanam.toml)<br/>- Tags: ChandraDarshan
- am
+ श्च  <br/>श्वेतद्युतिर्दण्डधर
+ ो द्विबाहुः।  <br/>चन्द्रोऽमृत
+ ात्मा वरदः किरीटी  <br/>मयि प्र
+ सादं विदधातु देवः॥<br/><br/><br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/devatA/graha/description_only/candra-darzanam.toml)<br/>- Tags: C
+ handraDarshanam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -21585,9 +21675,9 @@ DESCRIPTION:Observed on Śukla-Prathamā tithi of Jyaiṣṭhaḥ (lunar)
  rs and then offer them in archanā.<br/><br/>करवीर विषा
  वास नमस्ते भानुवल्लभ।  <br/>मौ
  लिमण्डन दुर्गादि देवानां स
- ततं प्रिय<br/><br/><br/><br/>## Details<br/>- [Edit config
-  file](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_mo
- nth/tithi/03/01/karavIra-vratam.toml)<br/>- Tags: SpecialVratam
+ ततं प्रिय॥<br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/general/lunar
+ _month/tithi/03/01/karavIra-vratam.toml)<br/>- Tags: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25531,13 +25621,13 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210711T184647
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210711T193155
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  ><br/>श्वेताम्बरः श्वेतविभूषण
- श्च श्वेतद्युतिर्दण्डधरो द
- ्विबाहुः।  <br/>चन्द्रोऽमृतात
- ्मा वरदः किरीटी मयि प्रसादं 
- विदधातु देवः॥<br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/deva
- tA/graha/description_only/candra-darzanam.toml)<br/>- Tags: ChandraDarshan
- am
+ श्च  <br/>श्वेतद्युतिर्दण्डधर
+ ो द्विबाहुः।  <br/>चन्द्रोऽमृत
+ ात्मा वरदः किरीटी  <br/>मयि प्र
+ सादं विदधातु देवः॥<br/><br/><br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/devatA/graha/description_only/candra-darzanam.toml)<br/>- Tags: C
+ handraDarshanam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -29455,13 +29545,13 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210810T183939
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210810T192542
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  ><br/>श्वेताम्बरः श्वेतविभूषण
- श्च श्वेतद्युतिर्दण्डधरो द
- ्विबाहुः।  <br/>चन्द्रोऽमृतात
- ्मा वरदः किरीटी मयि प्रसादं 
- विदधातु देवः॥<br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/deva
- tA/graha/description_only/candra-darzanam.toml)<br/>- Tags: ChandraDarshan
- am
+ श्च  <br/>श्वेतद्युतिर्दण्डधर
+ ो द्विबाहुः।  <br/>चन्द्रोऽमृत
+ ात्मा वरदः किरीटी  <br/>मयि प्र
+ सादं विदधातु देवः॥<br/><br/><br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/devatA/graha/description_only/candra-darzanam.toml)<br/>- Tags: C
+ handraDarshanam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -33660,13 +33750,13 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210908T182222
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210908T190941
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  ><br/>श्वेताम्बरः श्वेतविभूषण
- श्च श्वेतद्युतिर्दण्डधरो द
- ्विबाहुः।  <br/>चन्द्रोऽमृतात
- ्मा वरदः किरीटी मयि प्रसादं 
- विदधातु देवः॥<br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/deva
- tA/graha/description_only/candra-darzanam.toml)<br/>- Tags: ChandraDarshan
- am
+ श्च  <br/>श्वेतद्युतिर्दण्डधर
+ ो द्विबाहुः।  <br/>चन्द्रोऽमृत
+ ात्मा वरदः किरीटी  <br/>मयि प्र
+ सादं विदधातु देवः॥<br/><br/><br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/devatA/graha/description_only/candra-darzanam.toml)<br/>- Tags: C
+ handraDarshanam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -37829,13 +37919,13 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211007T180207
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211007T185049
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  ><br/>श्वेताम्बरः श्वेतविभूषण
- श्च श्वेतद्युतिर्दण्डधरो द
- ्विबाहुः।  <br/>चन्द्रोऽमृतात
- ्मा वरदः किरीटी मयि प्रसादं 
- विदधातु देवः॥<br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/deva
- tA/graha/description_only/candra-darzanam.toml)<br/>- Tags: ChandraDarshan
- am
+ श्च  <br/>श्वेतद्युतिर्दण्डधर
+ ो द्विबाहुः।  <br/>चन्द्रोऽमृत
+ ात्मा वरदः किरीटी  <br/>मयि प्र
+ सादं विदधातु देवः॥<br/><br/><br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/devatA/graha/description_only/candra-darzanam.toml)<br/>- Tags: C
+ handraDarshanam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -42123,13 +42213,13 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211106T174755
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211106T183759
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  ><br/>श्वेताम्बरः श्वेतविभूषण
- श्च श्वेतद्युतिर्दण्डधरो द
- ्विबाहुः।  <br/>चन्द्रोऽमृतात
- ्मा वरदः किरीटी मयि प्रसादं 
- विदधातु देवः॥<br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/deva
- tA/graha/description_only/candra-darzanam.toml)<br/>- Tags: ChandraDarshan
- am
+ श्च  <br/>श्वेतद्युतिर्दण्डधर
+ ो द्विबाहुः।  <br/>चन्द्रोऽमृत
+ ात्मा वरदः किरीटी  <br/>मयि प्र
+ सादं विदधातु देवः॥<br/><br/><br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/devatA/graha/description_only/candra-darzanam.toml)<br/>- Tags: C
+ handraDarshanam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -46377,13 +46467,13 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211205T174822
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211205T183919
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  ><br/>श्वेताम्बरः श्वेतविभूषण
- श्च श्वेतद्युतिर्दण्डधरो द
- ्विबाहुः।  <br/>चन्द्रोऽमृतात
- ्मा वरदः किरीटी मयि प्रसादं 
- विदधातु देवः॥<br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/deva
- tA/graha/description_only/candra-darzanam.toml)<br/>- Tags: ChandraDarshan
- am
+ श्च  <br/>श्वेतद्युतिर्दण्डधर
+ ो द्विबाहुः।  <br/>चन्द्रोऽमृत
+ ात्मा वरदः किरीटी  <br/>मयि प्र
+ सादं विदधातु देवः॥<br/><br/><br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/devatA/graha/description_only/candra-darzanam.toml)<br/>- Tags: C
+ handraDarshanam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
