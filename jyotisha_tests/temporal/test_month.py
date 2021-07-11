@@ -36,7 +36,8 @@ def test_MultiFullMoonAssigner():
 
 
 def test_SolsticePostDark10AdhikaAssigner():
-  """See comment in SolsticePostDark10AdhikaAssigner for a convenient list of verified solsticial lunar months."""
+  """See https://vishvasa.github.io/jyotiSham/history/kauNDinyAyana/
+ for a convenient list of verified solsticial lunar months."""
   panchaanga = daily.DailyPanchaanga(
     city=chennai, date=Date(2019, 12, 1), computation_system=ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180)
   assert panchaanga.lunar_month_sunrise.index == 10.5

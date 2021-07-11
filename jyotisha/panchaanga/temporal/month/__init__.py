@@ -92,27 +92,7 @@ class SolsticePostDark10AdhikaAssigner(LunarMonthAssigner):
   
   Since the day's tithi varies by location, adhika-mAsa decision too can potentially vary by location. Instead, we use the actual tithi independent of location for our computation here.
   
-  Solstice vs tithi Data: 
-  2013-06-21 ??-13
-  2013-12-22 ??-20
-  2014-06-21 ??-24
-  2014-12-22 10-30 (अधिकः)
-  2015-06-22 05-06
-  2015-12-22 11-12
-  2016-06-21 05-16
-  2016-12-21 11-23
-  2017-06-21 04-27 (अधिकः)
-  2017-12-22 11-04
-  2018-06-21 05-09
-  2018-12-22 11-15
-  2019-06-22 05-20
-  2019-12-22 10-26 (अधिकः)
-  2020-06-21 04-30 (नाधिकः! गतायनारम्भे ऽधिकमासात्।)
-  2020-12-21 11-07
-  2021-06-21 05-11
-  2021-12-22 11-18
-  2022-06-22 05-23
-  2022-12-22 10-28 (अधिकः)
+  Solstice vs tithi Data : See https://vishvasa.github.io/jyotiSham/history/kauNDinyAyana/
   """
 
   @classmethod
