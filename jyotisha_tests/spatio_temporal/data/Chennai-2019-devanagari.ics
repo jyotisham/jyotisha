@@ -683,11 +683,11 @@ SUMMARY:candra-darśanam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190107T175311
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190107T184400
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
- ><br/>śvetāmbaraḥ śvetavibhūṣaṇaśca śvetadyutirdaṇḍadharo 
- dvibāhuḥ|  <br/>candro'mṛtātmā varadaḥ kirīṭī mayi prasāda
- ṃ vidadhātu devaḥ||<br/><br/><br/><br/>## Details<br/>- [Edit config 
- file](https://github.com/jyotisham/adyatithi/blob/master/devatA/graha/desc
- ription_only/candra-darzanam.toml)<br/>- Tags: ChandraDarshanam
+ ><br/>śvetāmbaraḥ śvetavibhūṣaṇaśca  <br/>śvetadyutirdaṇḍa
+ dharo dvibāhuḥ|  <br/>candro'mṛtātmā varadaḥ kirīṭī  <br/>may
+ i prasādaṃ vidadhātu devaḥ||<br/><br/><br/><br/>## Details<br/>- [Ed
+ it config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/
+ graha/description_only/candra-darzanam.toml)<br/>- Tags: ChandraDarshanam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -3628,11 +3628,11 @@ SUMMARY:candra-darśanam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190206T180800
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190206T185759
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
- ><br/>śvetāmbaraḥ śvetavibhūṣaṇaśca śvetadyutirdaṇḍadharo 
- dvibāhuḥ|  <br/>candro'mṛtātmā varadaḥ kirīṭī mayi prasāda
- ṃ vidadhātu devaḥ||<br/><br/><br/><br/>## Details<br/>- [Edit config 
- file](https://github.com/jyotisham/adyatithi/blob/master/devatA/graha/desc
- ription_only/candra-darzanam.toml)<br/>- Tags: ChandraDarshanam
+ ><br/>śvetāmbaraḥ śvetavibhūṣaṇaśca  <br/>śvetadyutirdaṇḍa
+ dharo dvibāhuḥ|  <br/>candro'mṛtātmā varadaḥ kirīṭī  <br/>may
+ i prasādaṃ vidadhātu devaḥ||<br/><br/><br/><br/>## Details<br/>- [Ed
+ it config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/
+ graha/description_only/candra-darzanam.toml)<br/>- Tags: ChandraDarshanam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -6811,11 +6811,11 @@ SUMMARY:candra-darśanam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190308T181512
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190308T190344
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
- ><br/>śvetāmbaraḥ śvetavibhūṣaṇaśca śvetadyutirdaṇḍadharo 
- dvibāhuḥ|  <br/>candro'mṛtātmā varadaḥ kirīṭī mayi prasāda
- ṃ vidadhātu devaḥ||<br/><br/><br/><br/>## Details<br/>- [Edit config 
- file](https://github.com/jyotisham/adyatithi/blob/master/devatA/graha/desc
- ription_only/candra-darzanam.toml)<br/>- Tags: ChandraDarshanam
+ ><br/>śvetāmbaraḥ śvetavibhūṣaṇaśca  <br/>śvetadyutirdaṇḍa
+ dharo dvibāhuḥ|  <br/>candro'mṛtātmā varadaḥ kirīṭī  <br/>may
+ i prasādaṃ vidadhātu devaḥ||<br/><br/><br/><br/>## Details<br/>- [Ed
+ it config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/
+ graha/description_only/candra-darzanam.toml)<br/>- Tags: ChandraDarshanam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -9628,11 +9628,11 @@ SUMMARY:candra-darśanam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190406T181731
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190406T190436
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
- ><br/>śvetāmbaraḥ śvetavibhūṣaṇaśca śvetadyutirdaṇḍadharo 
- dvibāhuḥ|  <br/>candro'mṛtātmā varadaḥ kirīṭī mayi prasāda
- ṃ vidadhātu devaḥ||<br/><br/><br/><br/>## Details<br/>- [Edit config 
- file](https://github.com/jyotisham/adyatithi/blob/master/devatA/graha/desc
- ription_only/candra-darzanam.toml)<br/>- Tags: ChandraDarshanam
+ ><br/>śvetāmbaraḥ śvetavibhūṣaṇaśca  <br/>śvetadyutirdaṇḍa
+ dharo dvibāhuḥ|  <br/>candro'mṛtātmā varadaḥ kirīṭī  <br/>may
+ i prasādaṃ vidadhātu devaḥ||<br/><br/><br/><br/>## Details<br/>- [Ed
+ it config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/
+ graha/description_only/candra-darzanam.toml)<br/>- Tags: ChandraDarshanam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -10423,6 +10423,26 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:ṛṣīṇāṃ damanakapūjā
+DTSTART;VALUE=DATE:20190412
+DTEND;VALUE=DATE:20190413
+DESCRIPTION:Observed on Śukla-Saptamī tithi of Caitraḥ (lunar) month (
+ Sūryodayaḥ/puurvaviddha). Perform pūjā to ṛṣis using damanaka (dh
+ avana) flowers.<br/><br/>damanakapūjoktā hemādrau devīpurāṇe—  <b
+ r/>ekādaśyām ṛṣeḥ pūjā kāryā sārvopahārikī |  <br/>dhanav
+ ānputravānkānta ṛṣiloke mahīyate |<br/><br/><br/><br/>## Details<b
+ r/>- References<br/>  - Smriti Kaustubham p.101<br/>- [Edit config file](h
+ ttps://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tith
+ i/01/07/RSINAM~damanakapUjA.toml)<br/>- Tags: LessCommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Gaṇanātha Nāyanār (37) Gurupūjai
 DTSTART;VALUE=DATE:20190412
 DTEND;VALUE=DATE:20190413
@@ -10431,6 +10451,27 @@ DESCRIPTION:Observed on Ārdrā nakshatra of Mīnaḥ (sidereal solar) mon
  ttps://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/side
  real_solar_month/nakshatra/12/06/gaNanAtha_nAyan2Ar_%2837%29_gurupUjai.tom
  l)<br/>- Tags: NayanarGurupujai
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sūryasya damanakapūjā
+DTSTART;VALUE=DATE:20190412
+DTEND;VALUE=DATE:20190413
+DESCRIPTION:Observed on Śukla-Saptamī tithi of Caitraḥ (lunar) month (
+ Sūryodayaḥ/puurvaviddha). Perform pūjā to sūryā using damanaka (dha
+ vana) flowers.<br/><br/>bhāskarasya tu saptamyāṃ pūjāṃ damanakādi
+ bhiḥ |  <br/>kṛtvā prāpnoti bhogādīn vigatārirmahātapāḥ |  <b
+ r/>madanaratne devīpurāṇe (smṛtikaustubhe)<br/><br/><br/><br/>## Det
+ ails<br/>- References<br/>  - Smriti Kaustubham p.94<br/>- [Edit config fi
+ le](https://github.com/jyotisham/adyatithi/blob/master/devatA/graha/lunar_
+ month/tithi/01/07/sUryasya~damanakapUjA.toml)<br/>- Tags: LessCommonFestiv
+ als
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10846,6 +10887,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:śrīkṛṣṇadolotsavaḥ
+DTSTART;VALUE=DATE:20190415
+DTEND;VALUE=DATE:20190416
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/01/11/zrIkRSNa
+ dOlOtsavaH.toml)<br/>- Tags: LessCommonFestivals<br/><br/><br/><br/>## Det
+ ails<br/>- References<br/>  - Smriti Kaustubham p.101<br/>- [Edit config f
+ ile](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/l
+ unar_month/tithi/01/11/zrIkRSNadOlOtsavaH.toml)<br/>- Tags: LessCommonFest
+ ivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Caitraḥ-01-12\,Siṃhaḥ-Pūrvaphalgunī🌛🌌◢◣Meṣaḥ
  -Aśvinī-01-03🌌🌞◢◣Madhuḥ-01-27🪐🌞Maṅgalaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190416T055931
@@ -10991,6 +11051,28 @@ DESCRIPTION:The Shukla-paksha Ekadashi of chaitra month is known as kāmad
  ā-ekādaśī.<br/><br/>## Details<br/>- [Edit config file](https://github
  .com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/descripti
  on_only/kAmadA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:viṣṇu-damanakotsavaḥ
+DTSTART;VALUE=DATE:20190416
+DTEND;VALUE=DATE:20190417
+DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Caitraḥ (lunar) month
+  (Sūryodayaḥ/puurvaviddha). Perform pūjā to viṣṇus using damanaka
+  (dhavana) flowers.<br/><br/>caitre māsi tathā viṣṇoḥ kāryo daman
+ akotsavaḥ|  <br/>vaiṣṇavairviṣṇubhaktyā ca janatānandavardhana
+ ḥ||  <br/>devānandasamudbhūtā divyā damanamañjarī|  <br/>nivedyā 
+ viṣṇave bhaktyā sarvapuṇyaphalepsubhiḥ||<br/><br/><br/><br/>## De
+ tails<br/>- References<br/>  - Smriti Kaustubham p.101<br/>- [Edit config 
+ file](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/
+ lunar_month/tithi/01/12/viSNu-damanakOtsavaH.toml)<br/>- Tags: LessCommonF
+ estivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13035,11 +13117,11 @@ SUMMARY:candra-darśanam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190506T182124
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190506T190720
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
- ><br/>śvetāmbaraḥ śvetavibhūṣaṇaśca śvetadyutirdaṇḍadharo 
- dvibāhuḥ|  <br/>candro'mṛtātmā varadaḥ kirīṭī mayi prasāda
- ṃ vidadhātu devaḥ||<br/><br/><br/><br/>## Details<br/>- [Edit config 
- file](https://github.com/jyotisham/adyatithi/blob/master/devatA/graha/desc
- ription_only/candra-darzanam.toml)<br/>- Tags: ChandraDarshanam
+ ><br/>śvetāmbaraḥ śvetavibhūṣaṇaśca  <br/>śvetadyutirdaṇḍa
+ dharo dvibāhuḥ|  <br/>candro'mṛtātmā varadaḥ kirīṭī  <br/>may
+ i prasādaṃ vidadhātu devaḥ||<br/><br/><br/><br/>## Details<br/>- [Ed
+ it config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/
+ graha/description_only/candra-darzanam.toml)<br/>- Tags: ChandraDarshanam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -16260,11 +16342,11 @@ SUMMARY:candra-darśanam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190604T182919
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190604T191415
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
- ><br/>śvetāmbaraḥ śvetavibhūṣaṇaśca śvetadyutirdaṇḍadharo 
- dvibāhuḥ|  <br/>candro'mṛtātmā varadaḥ kirīṭī mayi prasāda
- ṃ vidadhātu devaḥ||<br/><br/><br/><br/>## Details<br/>- [Edit config 
- file](https://github.com/jyotisham/adyatithi/blob/master/devatA/graha/desc
- ription_only/candra-darzanam.toml)<br/>- Tags: ChandraDarshanam
+ ><br/>śvetāmbaraḥ śvetavibhūṣaṇaśca  <br/>śvetadyutirdaṇḍa
+ dharo dvibāhuḥ|  <br/>candro'mṛtātmā varadaḥ kirīṭī  <br/>may
+ i prasādaṃ vidadhātu devaḥ||<br/><br/><br/><br/>## Details<br/>- [Ed
+ it config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/
+ graha/description_only/candra-darzanam.toml)<br/>- Tags: ChandraDarshanam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -16294,9 +16376,9 @@ DESCRIPTION:Observed on Śukla-Prathamā tithi of Jyaiṣṭhaḥ (lunar)
  month (Sūryodayaḥ/puurvaviddha). Perform puja of karavīra plants/flowe
  rs and then offer them in archanā.<br/><br/>karavīra viṣāvāsa namast
  e bhānuvallabha|  <br/>maulimaṇḍana durgādi devānāṃ satataṃ pr
- iya<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.
- com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/03/01/karavI
- ra-vratam.toml)<br/>- Tags: SpecialVratam
+ iya||<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://githu
+ b.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/03/01/kara
+ vIra-vratam.toml)<br/>- Tags: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19436,11 +19518,11 @@ SUMMARY:candra-darśanam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190704T183548
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190704T192052
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
- ><br/>śvetāmbaraḥ śvetavibhūṣaṇaśca śvetadyutirdaṇḍadharo 
- dvibāhuḥ|  <br/>candro'mṛtātmā varadaḥ kirīṭī mayi prasāda
- ṃ vidadhātu devaḥ||<br/><br/><br/><br/>## Details<br/>- [Edit config 
- file](https://github.com/jyotisham/adyatithi/blob/master/devatA/graha/desc
- ription_only/candra-darzanam.toml)<br/>- Tags: ChandraDarshanam
+ ><br/>śvetāmbaraḥ śvetavibhūṣaṇaśca  <br/>śvetadyutirdaṇḍa
+ dharo dvibāhuḥ|  <br/>candro'mṛtātmā varadaḥ kirīṭī  <br/>may
+ i prasādaṃ vidadhātu devaḥ||<br/><br/><br/><br/>## Details<br/>- [Ed
+ it config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/
+ graha/description_only/candra-darzanam.toml)<br/>- Tags: ChandraDarshanam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -22531,11 +22613,11 @@ SUMMARY:candra-darśanam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190802T183221
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190802T191800
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
- ><br/>śvetāmbaraḥ śvetavibhūṣaṇaśca śvetadyutirdaṇḍadharo 
- dvibāhuḥ|  <br/>candro'mṛtātmā varadaḥ kirīṭī mayi prasāda
- ṃ vidadhātu devaḥ||<br/><br/><br/><br/>## Details<br/>- [Edit config 
- file](https://github.com/jyotisham/adyatithi/blob/master/devatA/graha/desc
- ription_only/candra-darzanam.toml)<br/>- Tags: ChandraDarshanam
+ ><br/>śvetāmbaraḥ śvetavibhūṣaṇaśca  <br/>śvetadyutirdaṇḍa
+ dharo dvibāhuḥ|  <br/>candro'mṛtātmā varadaḥ kirīṭī  <br/>may
+ i prasādaṃ vidadhātu devaḥ||<br/><br/><br/><br/>## Details<br/>- [Ed
+ it config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/
+ graha/description_only/candra-darzanam.toml)<br/>- Tags: ChandraDarshanam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -26027,11 +26109,11 @@ SUMMARY:candra-darśanam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190831T181722
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190831T190419
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
- ><br/>śvetāmbaraḥ śvetavibhūṣaṇaśca śvetadyutirdaṇḍadharo 
- dvibāhuḥ|  <br/>candro'mṛtātmā varadaḥ kirīṭī mayi prasāda
- ṃ vidadhātu devaḥ||<br/><br/><br/><br/>## Details<br/>- [Edit config 
- file](https://github.com/jyotisham/adyatithi/blob/master/devatA/graha/desc
- ription_only/candra-darzanam.toml)<br/>- Tags: ChandraDarshanam
+ ><br/>śvetāmbaraḥ śvetavibhūṣaṇaśca  <br/>śvetadyutirdaṇḍa
+ dharo dvibāhuḥ|  <br/>candro'mṛtātmā varadaḥ kirīṭī  <br/>may
+ i prasādaṃ vidadhātu devaḥ||<br/><br/><br/><br/>## Details<br/>- [Ed
+ it config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/
+ graha/description_only/candra-darzanam.toml)<br/>- Tags: ChandraDarshanam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -29765,11 +29847,11 @@ SUMMARY:candra-darśanam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190930T175621
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190930T184444
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
- ><br/>śvetāmbaraḥ śvetavibhūṣaṇaśca śvetadyutirdaṇḍadharo 
- dvibāhuḥ|  <br/>candro'mṛtātmā varadaḥ kirīṭī mayi prasāda
- ṃ vidadhātu devaḥ||<br/><br/><br/><br/>## Details<br/>- [Edit config 
- file](https://github.com/jyotisham/adyatithi/blob/master/devatA/graha/desc
- ription_only/candra-darzanam.toml)<br/>- Tags: ChandraDarshanam
+ ><br/>śvetāmbaraḥ śvetavibhūṣaṇaśca  <br/>śvetadyutirdaṇḍa
+ dharo dvibāhuḥ|  <br/>candro'mṛtātmā varadaḥ kirīṭī  <br/>may
+ i prasādaṃ vidadhātu devaḥ||<br/><br/><br/><br/>## Details<br/>- [Ed
+ it config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/
+ graha/description_only/candra-darzanam.toml)<br/>- Tags: ChandraDarshanam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -33192,11 +33274,11 @@ SUMMARY:candra-darśanam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191029T173956
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191029T182936
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
- ><br/>śvetāmbaraḥ śvetavibhūṣaṇaśca śvetadyutirdaṇḍadharo 
- dvibāhuḥ|  <br/>candro'mṛtātmā varadaḥ kirīṭī mayi prasāda
- ṃ vidadhātu devaḥ||<br/><br/><br/><br/>## Details<br/>- [Edit config 
- file](https://github.com/jyotisham/adyatithi/blob/master/devatA/graha/desc
- ription_only/candra-darzanam.toml)<br/>- Tags: ChandraDarshanam
+ ><br/>śvetāmbaraḥ śvetavibhūṣaṇaśca  <br/>śvetadyutirdaṇḍa
+ dharo dvibāhuḥ|  <br/>candro'mṛtātmā varadaḥ kirīṭī  <br/>may
+ i prasādaṃ vidadhātu devaḥ||<br/><br/><br/><br/>## Details<br/>- [Ed
+ it config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/
+ graha/description_only/candra-darzanam.toml)<br/>- Tags: ChandraDarshanam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -36721,11 +36803,11 @@ SUMMARY:candra-darśanam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191128T173554
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191128T182644
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
- ><br/>śvetāmbaraḥ śvetavibhūṣaṇaśca śvetadyutirdaṇḍadharo 
- dvibāhuḥ|  <br/>candro'mṛtātmā varadaḥ kirīṭī mayi prasāda
- ṃ vidadhātu devaḥ||<br/><br/><br/><br/>## Details<br/>- [Edit config 
- file](https://github.com/jyotisham/adyatithi/blob/master/devatA/graha/desc
- ription_only/candra-darzanam.toml)<br/>- Tags: ChandraDarshanam
+ ><br/>śvetāmbaraḥ śvetavibhūṣaṇaśca  <br/>śvetadyutirdaṇḍa
+ dharo dvibāhuḥ|  <br/>candro'mṛtātmā varadaḥ kirīṭī  <br/>may
+ i prasādaṃ vidadhātu devaḥ||<br/><br/><br/><br/>## Details<br/>- [Ed
+ it config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/
+ graha/description_only/candra-darzanam.toml)<br/>- Tags: ChandraDarshanam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -39553,11 +39635,11 @@ SUMMARY:candra-darśanam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191227T174650
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191227T183749
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
- ><br/>śvetāmbaraḥ śvetavibhūṣaṇaśca śvetadyutirdaṇḍadharo 
- dvibāhuḥ|  <br/>candro'mṛtātmā varadaḥ kirīṭī mayi prasāda
- ṃ vidadhātu devaḥ||<br/><br/><br/><br/>## Details<br/>- [Edit config 
- file](https://github.com/jyotisham/adyatithi/blob/master/devatA/graha/desc
- ription_only/candra-darzanam.toml)<br/>- Tags: ChandraDarshanam
+ ><br/>śvetāmbaraḥ śvetavibhūṣaṇaśca  <br/>śvetadyutirdaṇḍa
+ dharo dvibāhuḥ|  <br/>candro'mṛtātmā varadaḥ kirīṭī  <br/>may
+ i prasādaṃ vidadhātu devaḥ||<br/><br/><br/><br/>## Details<br/>- [Ed
+ it config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/
+ graha/description_only/candra-darzanam.toml)<br/>- Tags: ChandraDarshanam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
