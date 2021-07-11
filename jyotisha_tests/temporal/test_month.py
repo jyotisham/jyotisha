@@ -36,18 +36,10 @@ def test_MultiFullMoonAssigner():
 
 
 def test_SolsticePostDark10AdhikaAssigner():
-  panchaanga = daily.DailyPanchaanga(
-    city=chennai, date=Date(2020, 12, 16), computation_system=ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180)
-  assert panchaanga.lunar_month_sunrise.index == 11
-
-  panchaanga = daily.DailyPanchaanga(
-    city=chennai, date=Date(2020, 12, 15), computation_system=ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180)
-  assert panchaanga.lunar_month_sunrise.index == 11
-
+  """See comment in SolsticePostDark10AdhikaAssigner for a convenient list of verified solsticial lunar months."""
   panchaanga = daily.DailyPanchaanga(
     city=chennai, date=Date(2019, 12, 1), computation_system=ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180)
   assert panchaanga.lunar_month_sunrise.index == 10.5
-
 
   # Though this month contained a solstice on amAvAsyA, it is not intercalary since the preceding solstice was intercalary.
   panchaanga = daily.DailyPanchaanga(
@@ -63,4 +55,24 @@ def test_SolsticePostDark10AdhikaAssigner():
   panchaanga = daily.DailyPanchaanga(
     city=chennai, date=Date(2020, 10, 3), computation_system=ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180)
   assert panchaanga.lunar_month_sunrise.index == 8
+
+  panchaanga = daily.DailyPanchaanga(
+    city=chennai, date=Date(2020, 12, 15), computation_system=ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180)
+  assert panchaanga.lunar_month_sunrise.index == 11
+
+  panchaanga = daily.DailyPanchaanga(
+    city=chennai, date=Date(2020, 12, 16), computation_system=ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180)
+  assert panchaanga.lunar_month_sunrise.index == 11
+
+  panchaanga = daily.DailyPanchaanga(
+    city=chennai, date=Date(2021, 7, 11), computation_system=ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180)
+  assert panchaanga.lunar_month_sunrise.index == 6
+
+  panchaanga = daily.DailyPanchaanga(
+    city=chennai, date=Date(2022, 1, 1), computation_system=ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180)
+  assert panchaanga.lunar_month_sunrise.index == 11
+
+  panchaanga = daily.DailyPanchaanga(
+    city=chennai, date=Date(2022, 12, 21), computation_system=ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180)
+  assert panchaanga.lunar_month_sunrise.index == 10.5
 

@@ -12,14 +12,14 @@ parser = argparse.ArgumentParser(description='panchAnga generator.')
 parser.add_argument('--year', type=int, default=today.year, nargs='?')
 args = parser.parse_args()
 year = args.year
-# year = 2021
+# year = 2017
 
 # bengaLUru
-# Usered by https://t.me/bengaluru_panchaanga
+# Used by https://t.me/bengaluru_panchaanga
 generation_project.dump_detailed(year=year, city=bengaLUru, year_type=era.ERA_GREGORIAN, computation_system=temporal.get_kauNdinyAyana_bhAskara_gRhya_computation_system())
 generation_project.dump_detailed(year=year, city=bengaLUru, year_type=era.ERA_GREGORIAN)
 
 # chennai
 # Requested for bAlAsubrahmaNya's father. And kArtik potentially.
-chennai = spatio_temporal.City.get_city_from_db("Chennai")
-generation_project.dump_detailed(year=year, city=chennai, year_type=era.ERA_GREGORIAN)
+# chennai = spatio_temporal.City.get_city_from_db("Chennai")
+# generation_project.dump_detailed(year=year, city=chennai, year_type=era.ERA_GREGORIAN)

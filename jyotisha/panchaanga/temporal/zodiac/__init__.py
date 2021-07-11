@@ -266,7 +266,7 @@ class AngaSpanFinder(JsonObject):
     return jd_start
 
   @timebudget
-  def find(self, jd1: float, jd2: float, target_anga_id: int) -> Optional[Interval]:
+  def find(self, jd1: float, jd2: float, target_anga_id: int) -> Optional[AngaSpan]:
     """Computes anga spans for sunrise_day_angas such as tithi, nakshatra, yoga
         and karana.
 
