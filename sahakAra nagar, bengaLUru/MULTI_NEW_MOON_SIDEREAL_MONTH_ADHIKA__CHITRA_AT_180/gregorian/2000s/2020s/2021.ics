@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210713070143
+SEQUENCE:20210713221407
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -34413,6 +34413,25 @@ DESCRIPTION:Observed on Śukla-Ṣaṣṭhī tithi of Bhādrapadaḥ (luna
  nfig file](https://github.com/jyotisham/adyatithi/blob/master/general/luna
  r_month/tithi/06/06/manthana-SaSThI.toml)<br/>- Tags: LessCommonFestivals 
  SpecialPuja
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:राधाविनोदपालेन +उषापुत्
+ ररक्षा #७३
+DTSTART;VALUE=DATE:20210912
+DTEND;VALUE=DATE:20210913
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/09/12/rAdhA
+ vinoda-pAlena_uShuShAputra-raxA.toml)<br/>- Tags: <br/><br/><br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/mahApuruSha/xatra-later/gregorian/day/09/12/rAdhAvinoda-pAlena_uS
+ huShAputra-raxA.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
