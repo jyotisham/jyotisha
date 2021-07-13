@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210711210309
+SEQUENCE:20210713070143
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -9661,6 +9661,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:रत्नपुर-युद्धम् #३१५
+DTSTART;VALUE=DATE:20210315
+DTEND;VALUE=DATE:20210316
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/03/04/ratnapur
+ a-yuddham.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/x
+ atra-later/julian/day/03/04/ratnapura-yuddham.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:फाल्गुनः-12-03\,मेषः-अश्विनी
  🌛🌌◢◣मीनः-पूर्वप्रोष्ठपदा-1
  2-03🌌🌞◢◣तपस्यः-12-27🪐🌞मङ्गलः
@@ -14053,6 +14070,27 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  >- References<br/>  - Smriti Kaustubham p.92--93<br/>- [Edit config file](
  https://github.com/jyotisham/adyatithi/blob/master/devatA/misc-fauna/lunar
  _month/tithi/01/05/haya-pUjA.toml)<br/>- Tags: LessCommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:जाट-राजारामो हतः #३३३
+DTSTART;VALUE=DATE:20210417
+DTEND;VALUE=DATE:20210418
+DESCRIPTION:Event occured on 1688-04-17 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. Rajaram Jat died in a battle near Bij
+ al at the hands of a Mughal musketeer.<br/><br/>Earlier that year\, Rajara
+ m made his 2nd attempt at the tomb of Akbar in Agra. The Jats took away th
+ e precious stones of the building\, took away carpets\, gold & silver vess
+ els\, lamps\, etc. & damaged the building. Akbar’s bones were dragged ou
+ t & thrown in the fire and burnt!<br/><br/>## Details<br/>- [Edit config f
+ ile](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xatra-
+ later/julian/day/04/07/jATa-rAjArAmo_hataH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23351,6 +23389,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:राजपुत्रेभ्यो मालव-गुजर
+ ात-समर्पणम् #३११
+DTSTART;VALUE=DATE:20210622
+DTEND;VALUE=DATE:20210623
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/06/11/rAjaputr
+ ebhyo_mAlava-gujarAta-samarpaNam.toml)<br/>- Tags: <br/><br/><br/><br/>## 
+ Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/bl
+ ob/master/mahApuruSha/xatra-later/julian/day/06/11/rAjaputrebhyo_mAlava-gu
+ jarAta-samarpaNam.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:रामलक्ष्मण-द्वादशी
 DTSTART;VALUE=DATE:20210622
 DTEND;VALUE=DATE:20210623
@@ -27805,6 +27862,25 @@ DESCRIPTION:Observed on Kṛṣṇa-Dvitīyā tithi of Āṣāḍhaḥ (lu
  ्॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://gith
  ub.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/
  04/17/azUnyazayana-vratam~1.toml)<br/>- Tags: SpecialVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:दुर्गादासेन मार्वार-राज-
+ रक्षा #३४२
+DTSTART;VALUE=DATE:20210725
+DTEND;VALUE=DATE:20210726
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/07/15/durgAdAs
+ ena_mArvAra-rAja-raxA.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/
+ >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/m
+ ahApuruSha/xatra-later/julian/day/07/15/durgAdAsena_mArvAra-rAja-raxA.toml
+ )<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -37261,6 +37337,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:दुर्गादासो मृतः #३०३
+DTSTART;VALUE=DATE:20211003
+DTEND;VALUE=DATE:20211004
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/09/22/durgAdAs
+ o_mRtaH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit confi
+ g file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xat
+ ra-later/julian/day/09/22/durgAdAso_mRtaH.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:गजच्छाया-योगः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211003T223013
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211004T032342
@@ -40187,6 +40280,23 @@ DESCRIPTION:tulārāśiṃ gate sūrye pūrvasmin bhṛguvāsare<br/><br/>
  ## Details<br/>- References<br/>  - Skanda Puranam<br/>- [Edit config file
  ](https://github.com/jyotisham/adyatithi/blob/master/devatA/kaumAra/descri
  ption_only/bhRguvAra-subrahmaNya-vratam.toml)<br/>- Tags: SpecialVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:जसवन्त-सिंहो मृतः #३४३
+DTSTART;VALUE=DATE:20211022
+DTEND;VALUE=DATE:20211023
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/10/12/jasavant
+ a-siMho_mRtaH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruS
+ ha/xatra-later/julian/day/10/12/jasavanta-siMho_mRtaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
