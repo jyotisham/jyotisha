@@ -12,8 +12,8 @@ def test_serializability():
 
 def test_get_best_transliterated_name():
   options = FestivalOptions()
-  rules_collection = rules.RulesCollection.get_cached(repos_tuple=tuple(options.repos), julian_handling=options.julian_handling)
-
+  rules_collection = rules.RulesCollection.get_cached(repos_tuple=tuple(options.repos),
+                                                      julian_handling=options.julian_handling)
 
   fest = festival.FestivalInstance(name="sarva-saphalA-EkAdazI", ordinal=1000)
   name = fest.get_best_transliterated_name(languages=["sa"], scripts=[sanscript.DEVANAGARI],
@@ -31,6 +31,6 @@ def test_get_best_transliterated_name():
   assert name["text"] == "रामानुज-जन्म-नक्षत्रम्"
 
   fest = festival.FestivalInstance(name='undu~madakkaLir2r2an2')
-  name = fest.get_best_transliterated_name(languages=["sa", "ta"], scripts=[sanscript.IAST],
+  name = fest.get_best_transliterated_name(languages=["sa", "ta"], scripts=[sanscript.ISO],
                                            fest_details_dict=rules_collection.name_to_rule)
-  assert name["text"] == "Undu~Madakkaḻir̂r̂an"
+  assert name["text"] == "Undu~Madakkaḷiṟṟaṉ"

@@ -8,7 +8,7 @@ import sys
 from icalendar import Calendar, Timezone
 
 import jyotisha
-from indic_transliteration import xsanscript as sanscript
+from indic_transliteration import sanscript
 
 import jyotisha.panchaanga.spatio_temporal.annual
 import jyotisha.panchaanga.temporal
@@ -71,7 +71,7 @@ def main():
   if len(sys.argv) >= 7:
     scripts = sys.argv[6].split(",")
   else:
-    scripts = [sanscript.IAST]  # Default language is IAST for writing calendar
+    scripts = [sanscript.ISO]  # Default language is ISO for writing calendar
 
   city = City(city_name, latitude, longitude, tz)
 

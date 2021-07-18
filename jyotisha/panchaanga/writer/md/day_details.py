@@ -5,7 +5,7 @@ import logging
 from io import StringIO
 from math import ceil
 
-from indic_transliteration import xsanscript as sanscript
+from indic_transliteration import sanscript
 from jyotisha.panchaanga.temporal import AngaType, era
 from jyotisha.panchaanga.temporal import names, interval
 from jyotisha.panchaanga.temporal.festival import rules

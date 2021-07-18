@@ -10,7 +10,7 @@ Key Features
    (using ``gen_ics.sh`` or ``ics.py``)
 
 The PDFs and ICS are best generated using a Devanagari (and Tamil)
-scripts, though IAST works as well (mostly).
+scripts, though ISO works as well (mostly).
 
 Dependencies
 ~~~~~~~~~~~~

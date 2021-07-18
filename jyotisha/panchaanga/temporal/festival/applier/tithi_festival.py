@@ -17,7 +17,7 @@ from pytz import timezone as tz
 from scipy.optimize import brentq
 
 from sanskrit_data.schema import common
-
+from indic_transliteration import sanscript
 
 class TithiFestivalAssigner(FestivalAssigner):
   def assign_all(self):
@@ -54,7 +54,7 @@ class TithiFestivalAssigner(FestivalAssigner):
         _m = day_panchaanga.lunar_month_sunrise.index
         if floor(_m) != _m:
           _m = 13  # Adhika masa
-        chaturthi_name = names.NAMES['SANKATAHARA_CHATURTHI_NAMES']['sa']['hk'][_m] + '-mahAgaNapati_'
+        chaturthi_name = names.NAMES['SANKATAHARA_CHATURTHI_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][_m] + '-mahAgaNapati_'
 
         if tithi_moonrise == 19:
           # otherwise yesterday would have already been assigned
@@ -387,15 +387,15 @@ class TithiFestivalAssigner(FestivalAssigner):
       # Get Name
       if day_panchaanga.lunar_month_sunrise.index == 6:
         pref = '(%s) mahAlaya ' % (
-          names.get_chandra_masa(day_panchaanga.lunar_month_sunrise.index, 'hk', visarga=False))
+          names.get_chandra_masa(day_panchaanga.lunar_month_sunrise.index, sanscript.roman.HK_DRAVIDIAN, visarga=False))
       elif day_panchaanga.solar_sidereal_date_sunset.month == 4:
         pref = '%s (karkaTa) ' % (
-          names.get_chandra_masa(day_panchaanga.lunar_month_sunrise.index, 'hk', visarga=False))
+          names.get_chandra_masa(day_panchaanga.lunar_month_sunrise.index, sanscript.roman.HK_DRAVIDIAN, visarga=False))
       elif day_panchaanga.solar_sidereal_date_sunset.month == 10:
         pref = 'mauni (%s/makara) ' % (
-          names.get_chandra_masa(day_panchaanga.lunar_month_sunrise.index,  'hk', visarga=False))
+          names.get_chandra_masa(day_panchaanga.lunar_month_sunrise.index,  sanscript.roman.HK_DRAVIDIAN, visarga=False))
       else:
-        pref = names.get_chandra_masa(day_panchaanga.lunar_month_sunrise.index,  'hk',
+        pref = names.get_chandra_masa(day_panchaanga.lunar_month_sunrise.index,  sanscript.roman.HK_DRAVIDIAN,
                                       visarga=False) + '-'
 
       apraahna_interval = day_panchaanga.get_interval("अपराह्णः")
@@ -407,9 +407,9 @@ class TithiFestivalAssigner(FestivalAssigner):
       elif 24 in ama_nakshatra_today and day_panchaanga.lunar_month_sunrise.index == 10:
         suff = ' (alabhyam–zatabhiSak)'
       elif ama_nakshatra_today[0] in [15, 16, 17, 6, 7, 8, 23, 24, 25]:
-        suff = ' (alabhyam–%s)' % names.NAMES['NAKSHATRA_NAMES']['sa']['hk'][ama_nakshatra_today[0]]
+        suff = ' (alabhyam–%s)' % names.NAMES['NAKSHATRA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][ama_nakshatra_today[0]]
       elif ama_nakshatra_today[1] in [15, 16, 17, 6, 7, 8, 23, 24, 25]:
-        suff = ' (alabhyam–%s)' % names.NAMES['NAKSHATRA_NAMES']['sa']['hk'][ama_nakshatra_today[1]]
+        suff = ' (alabhyam–%s)' % names.NAMES['NAKSHATRA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][ama_nakshatra_today[1]]
       if day_panchaanga.date.get_weekday() in [1, 2, 4]:
         if suff == '':
           suff = ' (alabhyam–puSkalA)'

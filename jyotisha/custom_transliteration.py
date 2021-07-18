@@ -4,7 +4,7 @@
 import logging
 import re
 
-from indic_transliteration import xsanscript as sanscript, language_code_to_script, xsanscript
+from indic_transliteration import sanscript, language_code_to_script
 
 logging.basicConfig(
   level=logging.DEBUG,
@@ -26,12 +26,12 @@ def romanise(iast_text):
   return roman_text.lower()
 
 
-def tr(text, script, titled=True, source_script=sanscript.HK):
+def tr(text, script, titled=True, source_script=sanscript.roman.HK_DRAVIDIAN):
   """
   
   NOTE: Please don't put your custom tex/ md/ ics whatever code here and pollute core library functions. Wrap this in your own functions if you must. Functions should be atomic."""
   if script == 'hk':
-    script = sanscript.HK
+    script = sanscript.roman.HK_DRAVIDIAN
   if text == '':
     return ''
   # TODO: Fix this ugliness.
@@ -43,7 +43,7 @@ def tr(text, script, titled=True, source_script=sanscript.HK):
   if script == sanscript.TAMIL:
     transliterated_text = sanscript.SCHEMES[sanscript.TAMIL].apply_roman_numerals(transliterated_text)
     # transliterated_text = clean_tamil_Na(transliterated_text)
-  if script == 'iast':
+  if script.startswith('iast'):
     transliterated_text = transliterated_text.replace('ṉ', 'n')
     caret_accent = '̂'
     for _match in re.findall(caret_accent + '.', transliterated_text):
@@ -136,6 +136,6 @@ def transliterate_from_language(text, language, script):
     transliterated_text = tr(text, script)
   else:
     source_script = language_code_to_script[language]
-    transliterated_text = xsanscript.transliterate(text, source_script, script)
+    transliterated_text = sanscript.transliterate(text, source_script, script)
   return transliterated_text
 

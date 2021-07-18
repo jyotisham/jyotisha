@@ -2,7 +2,7 @@
 #  -*- coding: utf-8 -*-
 import logging
 
-from indic_transliteration import xsanscript as sanscript
+from indic_transliteration import sanscript
 
 from jyotisha.panchaanga.temporal.names.init_names_auto import init_names_auto
 
@@ -26,9 +26,9 @@ if __name__ == '__main__':
         amin = 0  # min anga for VARA alone is 0, rest 1
       else:
         amin = 1
-      for num in range(amin, len(NAMES[anga]['sa']['hk'])):
+      for num in range(amin, len(NAMES[anga]['sa'][sanscript.roman.HK_DRAVIDIAN])):
         line = '| %d' % (num)
         for script in sorted(list(NAMES[anga]['sa'].keys())):
-          line += ' | ' + sanscript.transliterate(NAMES[anga]['sa']['hk'][num], sanscript.HK, script)
+          line += ' | ' + sanscript.transliterate(NAMES[anga]['sa'][sanscript.roman.HK_DRAVIDIAN][num], sanscript.roman.HK_DRAVIDIAN, script)
         f.write(line + ' |\n')
       f.write('\n\n')

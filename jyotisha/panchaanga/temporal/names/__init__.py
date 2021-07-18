@@ -2,7 +2,7 @@ import swisseph as swe
 
 # These are present in http://www.astro.com/swisseph/swephprg.htm#_Toc471829094 but not in the swe python module.
 import jyotisha
-from indic_transliteration import xsanscript
+from indic_transliteration import sanscript
 from jyotisha.custom_transliteration import tr
 from jyotisha.panchaanga.temporal.names.init_names_auto import init_names_auto
 
@@ -23,16 +23,16 @@ def get_ekaadashii_name(paksha, lmonth):
   """
   if paksha == "shukla":
     if lmonth == int(lmonth):
-      return "%s-EkAdazI" % NAMES["SHUKLA_EKADASHI_NAMES"]["sa"]["hk"][lmonth]
+      return "%s-EkAdazI" % NAMES["SHUKLA_EKADASHI_NAMES"]["sa"][sanscript.roman.HK_DRAVIDIAN][lmonth]
     else:
       # adhika mAsam
-      return "%s-EkAdazI" % NAMES["SHUKLA_EKADASHI_NAMES"]["sa"]["hk"][13]
+      return "%s-EkAdazI" % NAMES["SHUKLA_EKADASHI_NAMES"]["sa"][sanscript.roman.HK_DRAVIDIAN][13]
   elif paksha == "krishna":
     if lmonth == int(lmonth):
-      return "%s-EkAdazI" % NAMES["KRISHNA_EKADASHI_NAMES"]["sa"]["hk"][lmonth]
+      return "%s-EkAdazI" % NAMES["KRISHNA_EKADASHI_NAMES"]["sa"][sanscript.roman.HK_DRAVIDIAN][lmonth]
     else:
       # adhika mAsam
-      return "%s-EkAdazI" % NAMES["KRISHNA_EKADASHI_NAMES"]["sa"]["hk"][13]
+      return "%s-EkAdazI" % NAMES["KRISHNA_EKADASHI_NAMES"]["sa"][sanscript.roman.HK_DRAVIDIAN][13]
 
 
 def get_chandra_masa(month, script, visarga=True):
@@ -48,7 +48,7 @@ def get_chandra_masa(month, script, visarga=True):
       return "%s-(%s)" % (NAMES["CHANDRA_MASA_NAMES"]["sa"][script][int(month) + 1][:-1], tr("adhika", script, titled=False))
 
 
-def get_month_name_en(month_number, month_type, script=xsanscript.IAST):
+def get_month_name_en(month_number, month_type, script=sanscript.ISO):
   from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
   if month_number == 0:
     return "every"
@@ -151,10 +151,10 @@ python_to_devanaagarii = {
 
 devanaagarii_to_python = {python_to_devanaagarii[x]: x for x in python_to_devanaagarii }
 
-sa_to_tamil = dict(**NAMES["SA_TO_TAMIL"], **{xsanscript.transliterate(x, xsanscript.DEVANAGARI, xsanscript.HK):NAMES["SA_TO_TAMIL"][x] for x  in NAMES["SA_TO_TAMIL"]})
+sa_to_tamil = dict(**NAMES["SA_TO_TAMIL"], **{sanscript.transliterate(x, sanscript.DEVANAGARI, sanscript.roman.HK_DRAVIDIAN):NAMES["SA_TO_TAMIL"][x] for x  in NAMES["SA_TO_TAMIL"]})
 
 
-def translate_or_transliterate(text, script, source_script=xsanscript.HK):
+def translate_or_transliterate(text, script, source_script=sanscript.roman.HK_DRAVIDIAN):
   if script == "tamil":
     if text in sa_to_tamil:
       return sa_to_tamil[text]

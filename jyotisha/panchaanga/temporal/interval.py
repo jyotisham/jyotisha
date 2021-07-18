@@ -5,7 +5,7 @@ from numbers import Number
 
 import methodtools
 
-from indic_transliteration import xsanscript
+from indic_transliteration import sanscript
 from jyotisha.panchaanga.temporal import names
 from jyotisha.util import default_if_none
 from sanskrit_data.schema import common
@@ -50,7 +50,7 @@ default_if_none(time.ist_timezone.julian_day_to_local_time_str(jd=self.jd_end), 
       end_time = ''
     return "%s\\RIGHTarrow{}%s" % (start_time, end_time)
 
-  def to_hour_text(self, tz, script=xsanscript.IAST, reference_date=None):
+  def to_hour_text(self, tz, script=sanscript.ISO, reference_date=None):
     if self.jd_start is not None:
       start_time = '%s' % default_if_none(tz.julian_day_to_local_time(julian_day=self.jd_start).get_hour_str(reference_date=reference_date), "")
     else:
@@ -60,10 +60,10 @@ default_if_none(time.ist_timezone.julian_day_to_local_time_str(jd=self.jd_end), 
     else:
       end_time = ''
     hour_text = "%s►%s" % (start_time, end_time)
-    return xsanscript.transliterate(hour_text, _from=xsanscript.IAST, _to=script)
+    return sanscript.transliterate(hour_text, _from=sanscript.ISO, _to=script)
 
   def to_hour_md(self, tz, script, reference_date=None):
-    name = names.translate_or_transliterate(text=self.name, source_script=xsanscript.DEVANAGARI, script=script)
+    name = names.translate_or_transliterate(text=self.name, source_script=sanscript.DEVANAGARI, script=script)
     return "**%s**—%s-%s" % (name, default_if_none(tz.julian_day_to_local_time(julian_day=self.jd_start).get_hour_str(reference_date=reference_date), "?"),
                              default_if_none(tz.julian_day_to_local_time(julian_day=self.jd_end).get_hour_str(reference_date=reference_date), "?"))
 

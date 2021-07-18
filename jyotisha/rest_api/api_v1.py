@@ -53,7 +53,7 @@ class KaalaHandler(Resource):
   get_parser = reqparse.RequestParser()
   get_parser.add_argument('timezone', type=str, default='Asia/Calcutta', help='Example: Asia/Calcutta', location='args',
                           required=True)
-  get_parser.add_argument('encoding', type=str, default='devanagari', help='Example: iast, devanagari, kannada, tamil',
+  get_parser.add_argument('encoding', type=str, default='devanagari', help='Example: iso, devanagari, kannada, tamil',
                           location='args',
                           required=True)
   get_parser.add_argument('format', type=str, default='hh:mm:ss*', help='Example: hh:mm:ss*, hh:mm', location='args',

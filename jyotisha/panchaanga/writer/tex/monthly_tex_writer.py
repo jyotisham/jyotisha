@@ -6,7 +6,7 @@ import os.path
 import sys
 from datetime import datetime
 
-from indic_transliteration import xsanscript as sanscript
+from indic_transliteration import sanscript
 
 from jyotisha.panchaanga.temporal import names
 from jyotisha.panchaanga.temporal.time import Timezone, Hour

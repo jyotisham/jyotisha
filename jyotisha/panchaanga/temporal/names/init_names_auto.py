@@ -4,12 +4,12 @@ import codecs
 import logging
 import os
 
-from indic_transliteration import xsanscript as xsanscript
+from indic_transliteration import sanscript
 
 logging.basicConfig(level=logging.DEBUG,
                     format="%(levelname)s: %(asctime)s {%(filename)s:%(lineno)d}: %(message)s ")
 
-scripts = [xsanscript.HK, xsanscript.IAST, xsanscript.TAMIL, xsanscript.TELUGU, xsanscript.GRANTHA, xsanscript.MALAYALAM]
+scripts = [sanscript.roman.HK_DRAVIDIAN, sanscript.ISO, sanscript.TAMIL, sanscript.TELUGU, sanscript.GRANTHA, sanscript.MALAYALAM]
 
 
 def init_names_auto(fname=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'festival/data/period_names/translation_table.json')):
@@ -27,12 +27,12 @@ def init_names_auto(fname=os.path.join(os.path.dirname(os.path.dirname(__file__)
         # Vara Names follow zero indexing, rest don't
         names_dict[dictionary]['sa'].insert(0, 'अस्पष्टम्')
 
-      names_dict[dictionary]['sa'] = {xsanscript.DEVANAGARI: names_dict[dictionary]['sa']}
+      names_dict[dictionary]['sa'] = {sanscript.DEVANAGARI: names_dict[dictionary]['sa']}
       for scr in scripts:
-        names_dict[dictionary]['sa'][scr] = [xsanscript.transliterate(name, xsanscript.DEVANAGARI, scr).title() if scr == xsanscript.IAST else xsanscript.transliterate(name, xsanscript.DEVANAGARI, scr) for name in
-                                       names_dict[dictionary]['sa'][xsanscript.DEVANAGARI]]
+        names_dict[dictionary]['sa'][scr] = [sanscript.transliterate(name, sanscript.DEVANAGARI, scr).title() if scr == sanscript.ISO else sanscript.transliterate(name, sanscript.DEVANAGARI, scr) for name in
+                                       names_dict[dictionary]['sa'][sanscript.DEVANAGARI]]
     #   
-    #   new_names_dict[dictionary] = {"sa": names_dict[dictionary]['sa'][xsanscript.HK]}
+    #   new_names_dict[dictionary] = {"sa": names_dict[dictionary]['sa'][sanscript.roman.HK]}
     # with codecs.open(fname + ".new",  "w") as f:
     #   json.dump(new_names_dict, f, ensure_ascii=False, indent=2)
     return names_dict

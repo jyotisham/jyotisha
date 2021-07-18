@@ -2,7 +2,7 @@ from datetime import timedelta
 
 from icalendar import Calendar, Alarm, Event
 
-from indic_transliteration import xsanscript as sanscript
+from indic_transliteration import sanscript
 from jyotisha.panchaanga.temporal import names
 from jyotisha.panchaanga.writer.ics import util
 from jyotisha.panchaanga.writer.md.day_details import day_summary

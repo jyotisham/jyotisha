@@ -14,7 +14,7 @@ from timebudget import timebudget
 from jyotisha import custom_transliteration
 from jyotisha.panchaanga.temporal import names
 from sanskrit_data.schema import common
-from indic_transliteration import xsanscript
+from indic_transliteration import sanscript
 
 def transliterate_quoted_text(text, script):
   transliterated_text = text
@@ -248,7 +248,7 @@ class HinduCalendarEvent(common.JsonObject):
     description_dict['references'] = summary.get_references_md(self)
 
     if self.shlokas is not None:
-      description_dict['shlokas'] = xsanscript.transliterate(self.shlokas.replace("\n", "  \n"), xsanscript.DEVANAGARI, script)
+      description_dict['shlokas'] = sanscript.transliterate(self.shlokas.replace("\n", "  \n"), sanscript.DEVANAGARI, script)
     else:
       description_dict['shlokas'] = ''
 

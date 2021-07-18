@@ -5,6 +5,7 @@ import methodtools
 from jyotisha.panchaanga.temporal import names
 
 from sanskrit_data.schema import common
+from indic_transliteration import sanscript
 
 NAME_TO_TYPE = {}
 
@@ -93,7 +94,7 @@ class Anga(common.JsonObject):
   def get_cached(self, index, anga_type_id):
     return Anga(index=index, anga_type_id=anga_type_id)
 
-  def get_name(self, script="hk"):
+  def get_name(self, script=sanscript.roman.HK_DRAVIDIAN):
     name_dict = NAME_TO_TYPE[self.anga_type_id].names_dict
     if self.anga_type_id == AngaType.SIDEREAL_MONTH.name:
       return names.get_chandra_masa(month=self.index, script=script)

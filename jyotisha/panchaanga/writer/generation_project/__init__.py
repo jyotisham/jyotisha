@@ -56,7 +56,7 @@ def dump_detailed(year, city, year_type, computation_system=ComputationSystem.MU
   dump_ics_md_pair(panchaanga=panchaanga, period_str="%s/%04d" % (year_type, year))
 
 
-def dump_summary(year, city, script=xsanscript.DEVANAGARI, computation_system=ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180, allow_precomputed=False):
+def dump_summary(year, city, script=sanscript.DEVANAGARI, computation_system=ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180, allow_precomputed=False):
   year_type = era.ERA_GREGORIAN
   logging.info("Generating summary panchaanga for %s year %d (%s), with computation system %s ", city.name, year, year_type, str(computation_system))
   panchaanga = annual.get_panchaanga_for_year(city=city, year=year, computation_system=computation_system, year_type=year_type, allow_precomputed=allow_precomputed)

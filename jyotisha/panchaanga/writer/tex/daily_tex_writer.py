@@ -8,7 +8,7 @@ import sys
 from datetime import datetime
 from math import ceil
 
-from indic_transliteration import xsanscript as sanscript
+from indic_transliteration import sanscript
 from pytz import timezone as tz
 
 import jyotisha

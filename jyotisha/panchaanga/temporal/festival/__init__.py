@@ -2,7 +2,7 @@ import logging
 import re
 import sys
 
-from indic_transliteration import sanscript, language_code_to_script, xsanscript
+from indic_transliteration import sanscript, language_code_to_script
 from jyotisha import custom_transliteration
 from jyotisha.util import default_if_none
 from sanskrit_data.schema import common
@@ -32,13 +32,13 @@ class FestivalInstance(common.JsonObject):
     if self.interval is None:
       return name
     else:
-      return "%s (%s)" % (name, self.interval.to_hour_text(script=sanscript.IAST, tz=timezone, reference_date=reference_date))
+      return "%s (%s)" % (name, self.interval.to_hour_text(script=sanscript.ISO, tz=timezone, reference_date=reference_date))
 
   def get_human_names(self, fest_details_dict):
     from jyotisha.panchaanga.temporal.festival import rules
     fest_details = fest_details_dict.get(self.name, rules.HinduCalendarEvent(id=self.name))
     if fest_details.names is None:
-      sa_name = xsanscript.transliterate(self.name.replace("~", " "), sanscript.HK, sanscript.DEVANAGARI)
+      sa_name = sanscript.transliterate(self.name.replace("~", " "), sanscript.roman.HK_DRAVIDIAN, sanscript.DEVANAGARI)
       sa_name = rules.inverse_clean_id(sa_name)
       fest_details.names = {"sa": [sa_name]}
     import copy
@@ -79,7 +79,7 @@ class FestivalInstance(common.JsonObject):
     else:
       return name
 
-  def get_full_title(self, fest_details_dict, languages=["sa"], scripts=[xsanscript.DEVANAGARI]):
+  def get_full_title(self, fest_details_dict, languages=["sa"], scripts=[sanscript.DEVANAGARI]):
     name_details = self.get_best_transliterated_name(languages=languages, scripts=scripts, fest_details_dict=fest_details_dict)
     ordinal_str = " #%s" % custom_transliteration.tr(str(self.ordinal), script=name_details["script"]) if self.ordinal is not None else ""
     return "%s%s" % (name_details["text"].replace("~", "-"), ordinal_str)
