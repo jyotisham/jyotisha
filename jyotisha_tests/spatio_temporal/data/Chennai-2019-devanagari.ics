@@ -29747,13 +29747,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:stanavṛddhi-gaurī-vratam
+SUMMARY:stanyavṛddhi-gaurī-vratam
 DTSTART;VALUE=DATE:20190929
 DTEND;VALUE=DATE:20190930
 DESCRIPTION:Observed on Śukla-Prathamā tithi of Āśvayujaḥ (lunar) mo
  nth (Sūryodayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config 
  file](https://github.com/jyotisham/adyatithi/blob/master/devatA/umA/lunar_
- month/tithi/07/01/stanavRddhi-gaurI-vratam.toml)<br/>- Tags: SpecialVratam
+ month/tithi/07/01/stanyavRddhi-gaurI-vratam.toml)<br/>- Tags: SpecialVrata
+ m
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
