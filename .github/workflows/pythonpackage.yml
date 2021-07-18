@@ -85,3 +85,9 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./hugo-source/build_github
+      - name: Upload package
+        uses: pypa/gh-action-pypi-publish@master
+        with:
+          user: __token__
+          skip_existing: true
+          password: ${{ secrets.PYPI_API_TOKEN }}
