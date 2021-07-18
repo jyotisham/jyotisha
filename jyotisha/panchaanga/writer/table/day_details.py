@@ -1,4 +1,4 @@
-from indic_transliteration import xsanscript
+from indic_transliteration import sanscript
 from jyotisha.panchaanga.spatio_temporal import City
 from jyotisha.panchaanga.temporal import names, AngaType, era
 from jyotisha.panchaanga.temporal.festival import rules

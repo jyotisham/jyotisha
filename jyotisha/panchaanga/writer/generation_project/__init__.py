@@ -11,7 +11,7 @@ from doc_curation.md import library
 from doc_curation.md.file import MdFile
 
 import jyotisha
-from indic_transliteration import xsanscript
+from indic_transliteration import sanscript
 from jyotisha.panchaanga.spatio_temporal import annual
 from jyotisha.panchaanga.temporal import ComputationSystem, era
 from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
