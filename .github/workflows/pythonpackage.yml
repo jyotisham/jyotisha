@@ -50,6 +50,8 @@ jobs:
       - name: Build package
         run: |
           python -m pip install .
+          pip install setuptools wheel twine
+          python setup.py bdist_wheel
       - name: Build test
         run: |
           python -c "import jyotisha"
@@ -57,6 +59,12 @@ jobs:
         run: |
           pip install pytest
           pytest jyotisha_tests
+      - name: Upload package
+        uses: pypa/gh-action-pypi-publish@master
+        with:
+          user: __token__
+          skip_existing: true
+          password: ${{ secrets.PYPI_API_TOKEN }}
       - name: Regenerate calendars
         run: |
           python -m "jyotisha.panchaanga.writer.generation_project"
@@ -85,9 +93,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./hugo-source/build_github
-      - name: Upload package
-        uses: pypa/gh-action-pypi-publish@master
-        with:
-          user: __token__
-          skip_existing: true
-          password: ${{ secrets.PYPI_API_TOKEN }}
