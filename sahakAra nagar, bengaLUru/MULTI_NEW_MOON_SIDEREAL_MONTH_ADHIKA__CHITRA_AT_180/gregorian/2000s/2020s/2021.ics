@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210719095335
+SEQUENCE:20210723092929
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -28138,6 +28138,25 @@ DESCRIPTION:- Indian civil date: 1943-05-06\, Islamic: 1442-12-18 Ḏū al
  गुलिककालः**—10:51-12:26  \n___________________\n- **
  शूलम्**—उदीची दिक् (►12:51)\; **परि
  हारः**–क्षीरम्  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:फ़तेह्-सिंह-निष्कासनम् #१
+ ००
+DTSTART;VALUE=DATE:20210728
+DTEND;VALUE=DATE:20210729
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/07/28/fateh
+ -siMha-niShkAsanam.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahA
+ puruSha/xatra-later/gregorian/day/07/28/fateh-siMha-niShkAsanam.toml)<br/>
+ - Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
