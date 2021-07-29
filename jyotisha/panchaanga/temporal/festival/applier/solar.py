@@ -206,8 +206,8 @@ class SolarFestivalAssigner(FestivalAssigner):
             self.panchaanga.add_festival(fest_id='agninakSatra-ArambhaH', date=self.daily_panchaangas[d].date + 1)
       if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 2 and self.daily_panchaangas[d].solar_sidereal_date_sunset.day > 10:
         if agni_jd_end is not None:
-          if self.daily_panchaangas[d].jd_sunset < agni_jd_end < self.daily_panchaangas[d + 1].jd_sunset:
-            self.panchaanga.add_festival(fest_id='agninakSatra-samApanam', date=self.daily_panchaangas[d].date + 1)
+          if self.daily_panchaangas[d].jd_sunrise < agni_jd_end < self.daily_panchaangas[d + 1].jd_sunrise:
+            self.panchaanga.add_festival(fest_id='agninakSatra-samApanam', date=self.daily_panchaangas[d].date)
 
   def assign_month_day_kaaradaiyan(self):
     if 'kAraDaiyAn2_nOn2bu' not in self.rules_collection.name_to_rule:
