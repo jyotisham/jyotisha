@@ -8207,6 +8207,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:āmra-kusuma-prāśanam
+DTSTART;VALUE=DATE:20190321
+DTEND;VALUE=DATE:20190322
+DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of Phālgunaḥ (lunar
+ ) month (Sūryōdayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit co
+ nfig file](https://github.com/jyotisham/adyatithi/blob/master/general/luna
+ r_month/tithi/12/16/Amra-kusuma-prAshanam.toml)<br/>- Tags: SpecialPuja Co
+ mmonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:caitanya-mahāprabhu-jayantī #534
 DTSTART;VALUE=DATE:20190321
 DTEND;VALUE=DATE:20190322
@@ -10640,10 +10657,14 @@ SUMMARY:śrīrāmanavamī
 DTSTART;VALUE=DATE:20190413
 DTEND;VALUE=DATE:20190414
 DESCRIPTION:Observed on Śukla-Navamī tithi of Caitraḥ (lunar) month (M
- adhyāhnaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/lunar_
- month/tithi/01/09/zrIrAmanavamI.toml)<br/>- Tags: Dashavataram CommonFesti
- vals
+ adhyāhnaḥ/puurvaviddha). <br/><br/>caitraśuklanavamyāṁ tu madhyāhn
+ ē raghunandanaḥ।  <br/>daśānanavadhākāṅkṣī jajñē rāmaḥ 
+ svayaṁ hariḥ॥  <br/>avatāradinē puṇyē harimuddiśya bhaktitaḥ
+ ।  <br/>upavāsādi yat kiñcittadānantyāya kalpatē॥<br/><br/><br/>
+ <br/>## Details<br/>- References<br/>  - Vaidyanatha Dikshitiyam (SVR) p.6
+ 2<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mas
+ ter/devatA/vaiShNava/lunar_month/tithi/01/09/zrIrAmanavamI.toml)<br/>- Tag
+ s: Dashavataram CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12017,6 +12038,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:varāha-jayantī
+DTSTART;VALUE=DATE:20190423
+DTEND;VALUE=DATE:20190424
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/lakShmI/lunar_month/tithi/01/20/varAha~jay
+ antI.toml)<br/>- Tags: Dashavataram<br/><br/><br/><br/>## Details<br/>- Re
+ ferences<br/>  - Vaidyanatha Dikshitiyam (SVR) p.62<br/>- [Edit config fil
+ e](https://github.com/jyotisham/adyatithi/blob/master/devatA/lakShmI/lunar
+ _month/tithi/01/20/varAha~jayantI.toml)<br/>- Tags: Dashavataram
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Caitraḥ-01-20\,Dhanuḥ-Mūlā🌛🌌◢◣Mēṣaḥ-Aśvinī-
  01-11🌌🌞◢◣Mādhavaḥ-02-05🪐🌞Budhaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190424T055512
@@ -12052,26 +12091,6 @@ DESCRIPTION:- Indian civil date: 1941-02-04\, Islamic: 1440-08-18 Shaʿbā
  laḥ**—12:07-13:40\; **Yamaghaṇṭaḥ**—07:28-09:01\; **Gulikakāl
  aḥ**—10:34-12:07  \n___________________\n- **Śūlam**—Udīchī Dik 
  (►12:32)\; **Parihāraḥ**–Kṣīram  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lakṣmī-varāha-jayantī
-DTSTART;VALUE=DATE:20190424
-DTEND;VALUE=DATE:20190425
-DESCRIPTION:Observed on Kr̥Ṣṇa-Pañcamī tithi of Caitraḥ (lunar) m
- onth (Sūryōdayaḥ/puurvaviddha). <br/><br/>jitaṁ jitaṁ tē'jita yaj
- ñabhāvana trayīṁ tanuṁ svāṁ paridhunvatē namaḥ।  <br/>yadr
- ōmagartēṣu nililyuraddhayastasmai namaḥ kāraṇasūkarāya tē॥3-
- 13-35॥  <br/>—śrīmadbhāgavatē mahāpurāṇē tr̥tīyēskandhē t
- rayōdaśē'dhyāyē<br/><br/><br/><br/>## Details<br/>- [Edit config file
- ](https://github.com/jyotisham/adyatithi/blob/master/devatA/lakShmI/lunar_
- month/tithi/01/20/lakSmI-varAha~jayantI.toml)<br/>- Tags: Dashavataram
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12621,10 +12640,14 @@ DTEND;VALUE=DATE:20190503
 DESCRIPTION:Observed on Kr̥Ṣṇa-Trayōdaśī tithi of Caitraḥ (lunar
  ) month (Aparāhṇaḥ/puurvaviddha). <br/><br/>satyavratōpadēśāya ji
  hmamīnasvarūpadhr̥k।  <br/>pralayābdhikr̥tāvāsa gr̥hāṇārghya
- ṁ namō'stu tē॥<br/><br/><br/><br/>## Details<br/>- References<br/>  
- - Kielhorn (1897)<br/>- [Edit config file](https://github.com/jyotisham/ad
- yatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/01/28/matsya~jayant
- I.toml)<br/>- Tags: Dashavataram
+ ṁ namō'stu tē॥  <br/>  <br/>caitrē māsyasitē pakṣē trayōdaśy
+ āṁ tithau vibhuḥ।  <br/>udabhūnmatsyarūpēṇa rakṣārthamavan
+ ērhariḥ॥   <br/>avatāradinē puṇyē harimuddiśya bhaktitaḥ।  
+ <br/>upavāsādi yat kiñcittadānantyāya kalpatē॥<br/><br/><br/><br/>
+ ## Details<br/>- References<br/>  - Vaidyanatha Dikshitiyam (SVR) p.62<br/
+ >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/d
+ evatA/vaiShNava/lunar_month/tithi/01/28/matsya~jayantI.toml)<br/>- Tags: D
+ ashavataram
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13255,10 +13278,34 @@ SUMMARY:balarāma-jayantī
 DTSTART;VALUE=DATE:20190507
 DTEND;VALUE=DATE:20190508
 DESCRIPTION:Observed on Śukla-Tr̥Tīyā tithi of Vaiśākhaḥ (lunar) m
- onth (Sūryōdayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit confi
- g file](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNav
- a/lunar_month/tithi/02/03/balarAma~jayantI.toml)<br/>- Tags: Dashavataram 
- LessCommonFestivals
+ onth (Sūryōdayaḥ/puurvaviddha). Jayanti of Balarama.<br/><br/>vaiśāk
+ ha śuklapakṣē tr̥tīyāyāṁ halāyudhaḥ।  <br/>saṅkarṣaṇ
+ ō balō jajñē rāmaḥ kr̥ṣṇāgrajō hariḥ॥  <br/>avatāradin
+ ē puṇyē harimuddiśya bhaktitaḥ।  <br/>upavāsādi yat kiñcittad
+ ānantyāya kalpatē॥<br/><br/><br/><br/>## Details<br/>- References<br/
+ >  - Vaidyanatha Dikshitiyam (SVR) p.62<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tit
+ hi/02/03/balarAma~jayantI.toml)<br/>- Tags: Dashavataram LessCommonFestiva
+ ls
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:candana-pūjā
+DTSTART;VALUE=DATE:20190507
+DTEND;VALUE=DATE:20190508
+DESCRIPTION:Observed on Śukla-Tr̥Tīyā tithi of Vaiśākhaḥ (lunar) m
+ onth (Madhyāhnaḥ/paraviddha). <br/><br/>yaḥ karōti tr̥tīyāyāṁ 
+ kr̥ṣṇaṁ candana-bhūṣitam।  <br/>vaiśākhasya sitē pakṣē s
+ a yātyacyutamaṁndiram॥<br/><br/><br/><br/>## Details<br/>- References
+ <br/>  - Dharma Sindhu p.38<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/blob/master/general/lunar_month/tithi/02/03/candana-pUjA
+ .toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13310,45 +13357,6 @@ DESCRIPTION:Observed on Rōhiṇī nakshatra of Mēṣaḥ (sidereal solar
  le](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr
  /sidereal_solar_month/nakshatra/01/04/maGgaiyarkkaraciyAr_nAyan2Ar_%2857%2
  9_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:pārthiva-kalpādiḥ
-DTSTART;VALUE=DATE:20190507
-DTEND;VALUE=DATE:20190508
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tithi/02/03/pArthi
- va-kalpAdiH.toml)<br/>- Tags: KalpadiDays<br/><br/><br/><br/>## Details<br
- />- References<br/>  - Smriti Kaustubham p.87--88<br/>- [Edit config file]
- (https://github.com/jyotisham/adyatithi/blob/master/time_focus/yugAdiH/lun
- ar_month/tithi/02/03/pArthiva-kalpAdiH.toml)<br/>- Tags: KalpadiDays
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:paraśurāma-jayantī
-DTSTART;VALUE=DATE:20190507
-DTEND;VALUE=DATE:20190508
-DESCRIPTION:Observed on Śukla-Tr̥Tīyā tithi of Vaiśākhaḥ (lunar) m
- onth (Madhyāhnaḥ/puurvaviddha). <br/><br/>vaiśākhasya sitē pakṣē 
- tr̥tīyāyāṁ punarvasau।  <br/>niśāyāḥ prathamē yāmē rāmāk
- hyaḥ samayē hariḥ॥  <br/>svōccagaiḥ ṣaḍgrahairyuktē mithun
- ē rāhusaṁsthitē।  <br/>rēṇukāyāstu yō garbhādavatīrṇō ha
- riḥ svayam॥<br/><br/><br/><br/>## Details<br/>- References<br/>  - Nir
- naya Sindhu p.66<br/>- [Edit config file](https://github.com/jyotisham/ady
- atithi/blob/master/devatA/vaiShNava/lunar_month/tithi/02/03/parazurAma~jay
- antI.toml)<br/>- Tags: Dashavataram
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14485,10 +14493,14 @@ SUMMARY:nr̥siṁha-jayantī
 DTSTART;VALUE=DATE:20190517
 DTEND;VALUE=DATE:20190518
 DESCRIPTION:Observed on Śukla-Caturdaśī tithi of Vaiśākhaḥ (lunar) 
- month (Sūryāstamayaḥ/puurvaviddha). Monday Swati?<br/><br/>## Details<
- br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/maste
- r/devatA/vaiShNava/lunar_month/tithi/02/14/nRsiMha~jayantI.toml)<br/>- Tag
- s: Dashavataram CommonFestivals
+ month (Sūryāstamayaḥ/puurvaviddha). Monday Swati?<br/><br/>vaiśākhē
+  śuklapakṣē tu caturdaśyāminē'stagē।  <br/>udbabhūvāsuradvē
+ ṣī nr̥siṁhō bhaktavatsalaḥ॥  <br/>avatāradinē puṇyē harimu
+ ddiśya bhaktitaḥ।  <br/>upavāsādi yat kiñcittadānantyāya kalpat
+ ē॥<br/><br/><br/><br/>## Details<br/>- References<br/>  - Vaidyanatha D
+ ikshitiyam (SVR) p.62<br/>- [Edit config file](https://github.com/jyotisha
+ m/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/02/14/nRsiMha~j
+ ayantI.toml)<br/>- Tags: Dashavataram CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14840,16 +14852,16 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:kāñcī jagadguru śrī-candraśēkharēndra sarasvatī 7 jayant
- ī #126
+SUMMARY:kāñcī 68 jagadguru śrī-candraśēkharēndra sarasvatī 7 jaya
+ ntī #126
 DTSTART;VALUE=DATE:20190519
 DTEND;VALUE=DATE:20190520
 DESCRIPTION:Observed on Anūrādhā nakshatra of Vr̥Ṣabhaḥ (sidereal 
  solar) month (Prātaḥ/paraviddha). The event occurred in 4995 (Kali era)
  .  <br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/j
  yotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/sidereal_solar_mon
- th/nakshatra/02/17/kAJcI_jagadguru_zrI~candrazEkharEndra_sarasvatI_7_jayan
- tI.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
+ th/nakshatra/02/17/kAJcI_68_jagadguru_zrI~candrazEkharEndra_sarasvatI_7_ja
+ yantI.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15083,6 +15095,24 @@ DESCRIPTION:Observed on Mūlā nakshatra of Vr̥Ṣabhaḥ (sidereal solar
  le](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr
  /sidereal_solar_month/nakshatra/02/19/muruga_nAyan2Ar_%2815%29_gurupUjai.t
  oml)<br/>- Tags: NayanarGurupujai
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pārthiva-kalpādiḥ
+DTSTART;VALUE=DATE:20190521
+DTEND;VALUE=DATE:20190522
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tithi/02/18/pArthi
+ va-kalpAdiH.toml)<br/>- Tags: KalpadiDays<br/><br/><br/><br/>## Details<br
+ />- References<br/>  - Smriti Kaustubham p.87--88<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/blob/master/time_focus/yugAdiH/lun
+ ar_month/tithi/02/18/pArthiva-kalpAdiH.toml)<br/>- Tags: KalpadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19021,10 +19051,14 @@ DTSTART;VALUE=DATE:20190629
 DTEND;VALUE=DATE:20190630
 DESCRIPTION:Observed on Kr̥Ṣṇa-Dvādaśī tithi of Jyaiṣṭhaḥ (l
  unar) month (Sāyāhnaḥ/puurvaviddha). Danam of Brahma puranam<br/><br/>
- ## Details<br/>- References<br/>  - Kielhorn (1897)<br/>- [Edit config fil
- e](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/lun
- ar_month/tithi/03/27/kUrma~jayantI.toml)<br/>- Tags: Dashavataram LessComm
- onFestivals
+ jyēṣṭhamāsē tathā kr̥ṣṇadvādaśyāṁ bhagavānajaḥ।  <b
+ r/>mandaraṁ pr̥ṣṭhataḥ kr̥tvā kūrmarūpī harirdadhau॥  <br/
+ >avatāradinē puṇyē harimuddiśya bhaktitaḥ।  <br/>upavāsādi yat
+  kiñcittadānantyāya kalpatē॥<br/><br/><br/><br/>## Details<br/>- Ref
+ erences<br/>  - Vaidyanatha Dikshitiyam (SVR) p.62<br/>- [Edit config file
+ ](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/luna
+ r_month/tithi/03/27/kUrma~jayantI.toml)<br/>- Tags: Dashavataram LessCommo
+ nFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23008,23 +23042,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:kalki-jayantī
-DTSTART;VALUE=DATE:20190805
-DTEND;VALUE=DATE:20190806
-DESCRIPTION:Observed on Śukla-Ṣaṣṭhī tithi of Śrāvaṇaḥ (luna
- r) month (Sūryāstamayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edi
- t config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/v
- aiShNava/lunar_month/tithi/05/06/kalki~jayantI.toml)<br/>- Tags: Dashavata
- ram
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:nāga-pañcamī
 DTSTART;VALUE=DATE:20190805
 DTEND;VALUE=DATE:20190806
@@ -25156,10 +25173,14 @@ SUMMARY:śrīkr̥ṣṇajanmāṣṭamī
 DTSTART;VALUE=DATE:20190823
 DTEND;VALUE=DATE:20190824
 DESCRIPTION:Observed on Kr̥Ṣṇa-Aṣṭamī tithi of Śrāvaṇaḥ (l
- unar) month (Niśīthaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit co
- nfig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiSh
- Nava/lunar_month/tithi/05/23/zrIkRSNajanmASTamI.toml)<br/>- Tags: Dashavat
- aram CommonFestivals
+ unar) month (Niśīthaḥ/paraviddha). <br/><br/>māsi tu śrāvaṇē'ṣ
+ ṭamyāṁ niśīthē kr̥ṣṇapakṣakē।  <br/>prājāpatyasaṁyuk
+ tē kr̥ṣṇaṁ dēvakyajījanat॥  <br/>avatāradinē puṇyē harimu
+ ddiśya bhaktitaḥ।  <br/>upavāsādi yat kiñcittadānantyāya kalpat
+ ē॥<br/><br/><br/><br/>## Details<br/>- References<br/>  - Vaidyanatha D
+ ikshitiyam (SVR) p.62<br/>- [Edit config file](https://github.com/jyotisha
+ m/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/05/23/zrIkRSNaj
+ anmASTamI.toml)<br/>- Tags: Dashavataram CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26219,6 +26240,27 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:kalki-jayantī
+DTSTART;VALUE=DATE:20190831
+DTEND;VALUE=DATE:20190901
+DESCRIPTION:Observed on Śukla-Dvitīyā tithi of Bhādrapadaḥ (lunar) m
+ onth (Sūryāstamayaḥ/puurvaviddha). <br/><br/>māsi bhādrapadē śukla
+ dvitīyāyāṁ janārdanaḥ।  <br/>mlēcchākrāntē kalāvantē kalki
+ rūpō bhaviṣyati॥  <br/>avatāradinē puṇyē harimuddiśya bhaktita
+ ḥ।  <br/>upavāsādi yat kiñcittadānantyāya kalpatē॥<br/><br/><b
+ r/><br/>## Details<br/>- References<br/>  - Vaidyanatha Dikshitiyam (SVR) 
+ p.62<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/
+ master/devatA/vaiShNava/lunar_month/tithi/06/02/kalki~jayantI.toml)<br/>- 
+ Tags: Dashavataram
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:mr̥gaśīrṣa-vratam
 DTSTART;VALUE=DATE:20190831
 DTEND;VALUE=DATE:20190901
@@ -26430,22 +26472,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/temples/Tamil/relative_event/tiruccendUr_AvaNit_t
  iruvizhA_nir2aivu/offset__-3/tiruccendUr_murugan2_AvaNit_tiruvizhA_%23%239
  %23%23m_nAL.toml)<br/>- Tags: TamilnaduTempleFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:varāha-jayantī
-DTSTART;VALUE=DATE:20190901
-DTEND;VALUE=DATE:20190902
-DESCRIPTION:Observed on Śukla-Tr̥Tīyā tithi of Bhādrapadaḥ (lunar) 
- month (Aparāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNa
- va/lunar_month/tithi/06/03/varAha~jayantI.toml)<br/>- Tags: Dashavataram
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -27554,10 +27580,14 @@ DTSTART;VALUE=DATE:20190910
 DTEND;VALUE=DATE:20190911
 DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Bhādrapadaḥ (lunar) 
  month (Madhyāhnaḥ/puurvaviddha). Wednesday Shravana \; Vamana Jayanti\;
-  Shravana Dvadashi\; Vijaya Dvadashi\; Shakra Dvadashi<br/><br/>## Details
- <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
- er/devatA/vaiShNava/lunar_month/tithi/06/12/vAmana~jayantI.toml)<br/>- Tag
- s: Dashavataram CommonFestivals
+  Shravana Dvadashi\; Vijaya Dvadashi\; Shakra Dvadashi<br/><br/>māsi bhā
+ drapadē śukladvādaśyāṁ vāmanō vibhuḥ।  <br/>adityāṁ kāśy
+ apājjajñē niyantuṁ balimōjasā॥  <br/>avatāradinē puṇyē harim
+ uddiśya bhaktitaḥ।  <br/>upavāsādi yat kiñcittadānantyāya kalpat
+ ē॥<br/><br/><br/><br/>## Details<br/>- References<br/>  - Vaidyanatha D
+ ikshitiyam (SVR) p.62<br/>- [Edit config file](https://github.com/jyotisha
+ m/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/06/12/vAmana~ja
+ yantI.toml)<br/>- Tags: Dashavataram CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -29581,6 +29611,37 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
  b/master/time_focus/special-tithis/description_only/gajacchAyA-yOgaH.toml)
  <br/>- Tags: RareDays Combinations
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mahālaya-pakṣaḥ
+DTSTART;VALUE=DATE:20190913
+DTEND;VALUE=DATE:20190929
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/description_only/mahAlaya-pakSaH.toml
+ )<br/>- Tags: SpecialPeriod
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mahālaya-pakṣa-samāpanam
+DTSTART;VALUE=DATE:20190928
+DTEND;VALUE=DATE:20190929
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/relative_event/sarva-%28bhAdrapada%29
+ _mahAlaya_amAvAsyA/offset__00/mahAlaya-pakSa-samApanam.toml)<br/>- Tags: S
+ pecialPeriodEnd CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -33059,6 +33120,37 @@ DESCRIPTION:Observed on Kr̥Ṣṇa-Caturdaśī tithi of Āśvayujaḥ (lu
  mani<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/
  master/devatA/pitR/lunar_month/tithi/07/29/prEta-caturdazI.toml)<br/>- Tag
  s: LessCommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:saptama-aparapakṣaḥ
+DTSTART;VALUE=DATE:20191013
+DTEND;VALUE=DATE:20191028
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/description_only/saptama-aparapakSaH.toml
+ )<br/>- Tags: SpecialPeriod
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:saptama-aparapakṣa-samāpanam
+DTSTART;VALUE=DATE:20191027
+DTEND;VALUE=DATE:20191028
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/relative_event/sarva-Azvayuja-amAvAsy
+ A/offset__00/saptama-aparapakSa-samApanam.toml)<br/>- Tags: SpecialPeriodE
+ nd
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -36633,6 +36725,37 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:navama-aparapakṣaḥ
+DTSTART;VALUE=DATE:20191112
+DTEND;VALUE=DATE:20191127
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/description_only/navama-aparapakSaH.toml)
+ <br/>- Tags: SpecialPeriod
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:navama-aparapakṣa-samāpanam
+DTSTART;VALUE=DATE:20191126
+DTEND;VALUE=DATE:20191127
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/relative_event/sarva-kArttika-amAvAsy
+ A/offset__00/navama-aparapakSa-samApanam.toml)<br/>- Tags: SpecialPeriodEn
+ d
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:pārvaṇavratam amāvāsyāyām
 DTSTART;VALUE=DATE:20191126
 DTEND;VALUE=DATE:20191127
@@ -38514,6 +38637,28 @@ DESCRIPTION:Observed on day 28 of Vr̥Ścikaḥ (sidereal solar) month (S
  /jyotisham/adyatithi/blob/master/mahApuruSha/vaiShNava-misc/sidereal_solar
  _month/day/08/28/nArAyaNIyaM~jayantI.toml)<br/>- Tags: OtherJayantis Commo
  nFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:paraśurāma-jayantī
+DTSTART;VALUE=DATE:20191214
+DTEND;VALUE=DATE:20191215
+DESCRIPTION:Observed on Kr̥Ṣṇa-Dvitīyā tithi of Mārgaśīrṣaḥ 
+ (lunar) month (Sūryōdayaḥ/puurvaviddha). Jayanti of Parashurama\, who 
+ incarnated to destroy Dushta Kshatriyas.<br/><br/>mārgaśīrṣē dvitīy
+ āyāṁ kr̥ṣṇapakṣē tu bhārgavaḥ।  <br/>duṣṭakṣatriyav
+ idvēṣī rāmō'bhūttāpasāgraṇīḥ।  <br/>avatāradinē puṇyē
+  harimuddiśya bhaktitaḥ।  <br/>upavāsādi yat kiñcittadānantyāya 
+ kalpatē॥<br/><br/><br/><br/>## Details<br/>- References<br/>  - Vaidyan
+ atha Dikshitiyam (SVR) p.62<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/09/17/par
+ azurAma~jayantI~2.toml)<br/>- Tags: Dashavataram
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
