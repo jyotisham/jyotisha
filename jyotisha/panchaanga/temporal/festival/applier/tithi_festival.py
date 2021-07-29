@@ -33,6 +33,7 @@ class TithiFestivalAssigner(FestivalAssigner):
     self.assign_mahaadvaadashii()
     self.assign_pradosha_vratam()
     self.assign_vaarunii_trayodashi()
+    self.assign_bharanii_yamaarchana()
   
   def assign_chaturthi_vratam(self):
     if "vikaTa-mahAgaNapati_saGkaTahara-caturthI-vratam" not in self.rules_collection.name_to_rule:
@@ -450,6 +451,22 @@ class TithiFestivalAssigner(FestivalAssigner):
               zodiac.AngaType.NAKSHATRA).index in [
                1, 6, 9, 22, 23]):
           festival_name = 'vyatIpAta-yOgaH (alabhyam)'
+          self.panchaanga.add_festival(fest_id=festival_name, date=day_panchaanga.date)
+
+  def assign_bharanii_yamaarchana(self):
+    if 'bharanii_yamaarchana' not in self.rules_collection.name_to_rule:
+      return
+    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
+      day_panchaanga = self.daily_panchaangas[d]
+      # चतुर्थी भरणीयोगः शनैश्चरदिने यदि ।
+      # तदाभ्यर्च्य यमं देवं मुच्यते सर्वकिल्विषैः ॥
+      tithi_sunset = NakshatraDivision(day_panchaanga.jd_sunset, ayanaamsha_id=self.ayanaamsha_id).get_anga(
+        zodiac.AngaType.TITHI).index
+      nakshatra_sunset = NakshatraDivision(day_panchaanga.jd_sunset, ayanaamsha_id=self.ayanaamsha_id).get_anga(
+        zodiac.AngaType.NAKSHATRA).index
+      if day_panchaanga.date.get_weekday() == 6 and (day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index in [4, 19] or tithi_sunset in [4, 19]):
+        if day_panchaanga.sunrise_day_angas.nakshatra_at_sunrise.index == 2 or  nakshatra_sunset == 2:
+          festival_name = 'bharaNI-yamArcanA'
           self.panchaanga.add_festival(fest_id=festival_name, date=day_panchaanga.date)
 
   def assign_chandra_darshanam(self):
