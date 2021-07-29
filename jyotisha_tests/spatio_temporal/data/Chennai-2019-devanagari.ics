@@ -14642,6 +14642,32 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:kr̥ttikāvaiṣākhōtsavaḥ
+DTSTART;VALUE=DATE:20190518
+DTEND;VALUE=DATE:20190519
+DESCRIPTION:Observed on Viśākhā nakshatra of Vr̥Ṣabhaḥ (sidereal s
+ olar) month (Sūryōdayaḥ/puurvaviddha). Special puja for Subrahmanya Sw
+ ami in temples. Birth of Subrahmanya Swami. Worship Him with red flowers.<
+ br/><br/>सूर्ये वृषभराशौ कृत्तिक
+ ासु सति\, चन्द्रमसि च विपरीत
+ दिशि विशाखासु सत्य् आचर्यत
+ े सुब्रह्मण्यजन्मोत्सवः (प
+ ूर्वं श्रवण-कार्त्तिकोत्सव
+ े जातानां षण्णाम् बालानाम् 
+ कृत्तिकाभिर् वर्ध्यमाननाम
+ ् एकीकरणेन पार्वत्या)।<br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/devatA/kaumAra/sidereal_solar_month/nakshatra/02/16/kRttikA-vaizA
+ khOtsavaH.toml)<br/>- Tags: TamilnaduTempleFestivals CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Nammāḻvār Tirunakṣattiram
 DTSTART;VALUE=DATE:20190518
 DTEND;VALUE=DATE:20190519
