@@ -276,10 +276,9 @@ class SolarFestivalAssigner(FestivalAssigner):
         self.panchaanga.delete_festival_date(fest_id='vyatIpAta-zrAddham', date=date)
         festival_name = 'mahAdhanurvyatIpAta-zrAddham'
         self.panchaanga.add_festival(fest_id=festival_name, date=date)
-      elif self.panchaanga.date_str_to_panchaanga[date.get_date_str()].solar_sidereal_date_sunset.month == 6:
+      elif self.panchaanga.date_str_to_panchaanga[date.get_date_str()].lunar_month_sunrise.index == 6:
         self.panchaanga.delete_festival_date(fest_id='vyatIpAta-zrAddham', date=date)
-        festival_name = 'mahAvyatIpAta-zrAddham'
-        self.panchaanga.add_festival(fest_id=festival_name, date=date)
+        self.panchaanga.add_festival(fest_id='mahAvyatIpAta-zrAddham', date=date)
 
   def assign_gajachhaya_yoga(self):
 
