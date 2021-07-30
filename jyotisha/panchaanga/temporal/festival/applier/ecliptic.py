@@ -17,8 +17,10 @@ class EclipticFestivalAssigner(FestivalAssigner):
     self.set_jupiter_transits()
     self.compute_solar_eclipses()
     self.compute_lunar_eclipses()
-    # self.compute_conjunctions(Graha.SATURN, Graha.JUPITER)
-    # self.compute_conjunctions(Graha.VENUS, Graha.SUN, 10)
+    # for graha1 in [Graha.MOON, Graha.JUPITER, Graha.VENUS, Graha.MERCURY, Graha.MARS, Graha.SATURN, Graha.RAHU]:
+    #   for graha2 in [Graha.MOON, Graha.JUPITER, Graha.VENUS, Graha.MERCURY, Graha.MARS, Graha.SATURN, Graha.RAHU]:
+    #     if graha1 > graha2:
+    #       self.compute_conjunctions(graha1, graha2)
 
   def compute_conjunctions(self, Graha1, Graha2, delta=0.0):
     # Compute the time of conjunction between Graha1 and Graha2
