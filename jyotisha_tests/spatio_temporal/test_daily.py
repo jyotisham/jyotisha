@@ -43,7 +43,7 @@ def test_solar_day():
     city=chennai, julian_day=time.utc_gregorian_to_jd(Date(2018, 1, 14)))
   assert panchaanga.solar_sidereal_date_sunset.day == 1
   assert panchaanga.solar_sidereal_date_sunset.month == 10
-  assert panchaanga.solar_sidereal_date_sunset.month_transition == 2458132.8291680976
+  numpy.testing.assert_approx_equal(panchaanga.solar_sidereal_date_sunset.month_transition, 2458132.8291680976)
 
   panchaanga = daily.DailyPanchaanga.from_city_and_julian_day(
     city=chennai, julian_day=time.utc_gregorian_to_jd(Date(2018, 2, 12)))

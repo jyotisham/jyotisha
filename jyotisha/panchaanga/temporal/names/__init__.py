@@ -6,15 +6,8 @@ from indic_transliteration import sanscript
 from jyotisha.custom_transliteration import tr
 from jyotisha.panchaanga.temporal.names.init_names_auto import init_names_auto
 
-SIDM_TRUE_PUSHYA = 29
-SIDM_TRUE_MULA = 35
-
 
 def get_ayanaamsha_name(ayanaamsha_id):
-  if ayanaamsha_id == SIDM_TRUE_MULA:
-    return "true mula"
-  if ayanaamsha_id == SIDM_TRUE_PUSHYA:
-    return "true pushya"
   return swe.get_ayanamsa_name(ayanaamsha_id)
 
 
