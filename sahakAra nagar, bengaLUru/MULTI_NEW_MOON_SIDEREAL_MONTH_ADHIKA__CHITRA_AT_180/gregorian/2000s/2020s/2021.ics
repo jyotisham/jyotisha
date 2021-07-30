@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210723092929
+SEQUENCE:20210730091030
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -53,6 +53,31 @@ DESCRIPTION:- Indian civil date: 1942-10-11\, Islamic: 1442-05-17 Jumādā
  36\; **गुलिककालः**—08:10-09:34  \n___________________\
  n- **शूलम्**—प्रतीची दिक् (►11:15)\; *
  *परिहारः**–गुडम्  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:परशुराम-जयन्ती
+DTSTART;VALUE=DATE:20210101
+DTEND;VALUE=DATE:20210102
+DESCRIPTION:Observed on Kr̥Ṣṇa-Dvitīyā tithi of Mārgaśīrṣaḥ 
+ (lunar) month (Sūryōdayaḥ/puurvaviddha). Jayanti of Parashurama\, who 
+ incarnated to destroy Dushta Kshatriyas.<br/><br/>मार्गशीर
+ ्षे द्वितीयायां कृष्णपक्षे
+  तु भार्गवः।  <br/>दुष्टक्षत्र
+ ियविद्वेषी रामोऽभूत्तापसा
+ ग्रणीः।  <br/>अवतारदिने पुण्ये
+  हरिमुद्दिश्य भक्तितः।  <br/>उ
+ पवासादि यत् किञ्चित्तदानन्
+ त्याय कल्पते॥<br/><br/><br/><br/>## Details<br/>- 
+ References<br/>  - Vaidyanatha Dikshitiyam (SVR) p.62<br/>- [Edit config f
+ ile](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/l
+ unar_month/tithi/09/17/parazurAma~jayantI~2.toml)<br/>- Tags: Dashavataram
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -930,7 +955,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210110T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210110T004117
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210110T004118
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
@@ -1751,8 +1776,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मकर-सङ्क्रमण-पुण्यकालः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210114T075216
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210114T155216
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210114T075217
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210114T155217
 DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -2257,8 +2282,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:विष्णुपदी-पुण्यकालः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210119T194549
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210120T083349
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210119T194550
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210120T083350
 DESCRIPTION:Viṣṇupadī Punyakala.<br/><br/>सङ्क्रान्
  तिस्नानाकरणे प्रत्यवायमाह 
  शातातपः—  <br/>सूर्यसङ्क्रमणे 
@@ -2877,7 +2902,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210125T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210125T052335
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210125T052336
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
@@ -4555,7 +4580,7 @@ DESCRIPTION:- Indian civil date: 1942-11-18\, Islamic: 1442-06-24 Jumādā
  नक्षत्रम्** — श्रविष्ठा►  \n______
  _____________\n- 🌛+🌞**योगः** — व्याघातः►
  13:57\; हर्षणः►  \n- २|🌛-🌞|**करणम्** — 
- बवः►17:35\; बालवः►28:47*\; कौलवः►  \n- 
+ बवः►17:36\; बालवः►28:47*\; कौलवः►  \n- 
  🌌🌛- **चन्द्राष्टम-राशिः**—वृ
  षभः  \n___________________\n- 🌞-🪐 **मूढग्रहा
  ः** - बुधः (-3.31° → -1.14°)\, शनैश्चरः (12.
@@ -4624,13 +4649,13 @@ DESCRIPTION:- Indian civil date: 1942-11-19\, Islamic: 1442-06-25 Jumādā
  यणम्\n- 🌛**चान्द्रमानम्** — हेम
  न्तऋतुः पौषः\n___________________\n\n\n## खचक
  ्रस्थितिः\n- |🌞-🌛|**तिथिः** — कृ
- ष्ण-द्वादशी►27:19*\; कृष्ण-त्रयो
+ ष्ण-द्वादशी►27:20*\; कृष्ण-त्रयो
  दशी►  \n- 🌌🌛**नक्षत्रम्** — मूला
  ►15:19\; पूर्वाषाढा► (धनुः)  \n- 🌌🌞*
  *सौर-नक्षत्रम्** — श्रविष्ठा
  ►  \n___________________\n- 🌛+🌞**योगः** — हर्ष
  णः►11:27\; वज्रम्►  \n- २|🌛-🌞|**करणम
- ्** — कौलवः►16:02\; तैतिलः►27:19*\; गर
+ ्** — कौलवः►16:02\; तैतिलः►27:20*\; गर
  ः►  \n- 🌌🌛- **चन्द्राष्टम-राशिः*
  *—वृषभः  \n___________________\n- 🌞-🪐 **मूढग्
  रहाः** - बुधः (-1.14° → 1.06°)\, शनैश्चर
@@ -4669,7 +4694,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210208T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210208T102450
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210208T102451
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
@@ -5189,7 +5214,7 @@ DESCRIPTION:- Indian civil date: 1942-11-23\, Islamic: 1442-06-29 Jumādā
  🌌🌞**सौर-नक्षत्रम्** — श्रविष
  ्ठा►  \n___________________\n- 🌛+🌞**योगः** — प
  रिघः►26:16*\; शिवः►  \n- २|🌛-🌞|**करणम
- ्** — किंस्तुघ्नः►12:28\; बवः►24:29*\;
+ ्** — किंस्तुघ्नः►12:29\; बवः►24:29*\;
   बालवः►  \n- 🌌🌛- **चन्द्राष्टम-र
  ाशिः**—कर्कटः  \n___________________\n- 🌞-🪐 **
  मूढग्रहाः** - बुधः (7.55° → 9.58°)\, गु
@@ -5244,8 +5269,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:कुम्भ-रवि-सङ्क्रमण-विष्ण
  ुपदी-पुण्यकालः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210212T142936
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210213T031736
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210212T142937
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210213T031737
 DESCRIPTION:Kumbha-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala. Perform d
  anam of hay\, grass\, food and pure water to cows.<br/><br/>कुम्
  भप्रवेशे दानं तु गवं अम्बु त
@@ -6078,7 +6103,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:तपो-मासः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210218T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210218T161356
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210218T161357
 DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -6123,7 +6148,7 @@ DESCRIPTION:- Indian civil date: 1942-11-30\, Islamic: 1442-07-07 Rajab\n-
  शुक्ल-अष्टमी►  \n- 🌌🌛**नक्षत्र
  म्** — कृत्तिका►29:55*\; रोहिणी► (
  वृषभः)  \n- 🌌🌞**सौर-नक्षत्रम्** 
- — श्रविष्ठा►11:18\; शतभिषक्►  \n____
+ — श्रविष्ठा►11:19\; शतभिषक्►  \n____
  _______________\n- 🌛+🌞**योगः** — इन्द्रः►2
  8:28*\; वैधृतिः►  \n- २|🌛-🌞|**करणम्** 
  — वणिजः►10:58\; विष्टिः►24:17*\; बवः
@@ -6738,7 +6763,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:सोममृगशीर्ष-पुण्यकालः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210222T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210222T105624
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210222T105625
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/sOmamRg
  azIrSa-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYoga
@@ -6954,7 +6979,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210224T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210224T001026
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210224T001027
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
@@ -7164,7 +7189,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:गुरुपुष्य-पुण्यकालः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210225T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210225T131600
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210225T131601
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/gurupuS
  ya-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDays
@@ -8081,6 +8106,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:मधुगिरि-ग्रहणम् #२५४
+DTSTART;VALUE=DATE:20210304
+DTEND;VALUE=DATE:20210305
+DESCRIPTION:Event occured on 1767-03-04 (gregorian). peshvA mAdhavarAv's f
+ orces captured madhugiri in one day (to the astonishment of the enemy) fro
+ m haidar ali. Hyder Ali had imprisoned Rani of Bednur & her son in that fo
+ rt. Madhavrao rescued them & sent them to Pune for protection.<br/><br/>##
+  Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/b
+ lob/master/mahApuruSha/xatra-later/gregorian/day/03/04/madhugiri-grahaNam.
+ toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:यशोदा-जयन्ती
 DTSTART;VALUE=DATE:20210304
 DTEND;VALUE=DATE:20210305
@@ -8625,7 +8669,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210309T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210309T205509
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210309T205510
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
@@ -10117,8 +10161,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मेष-विषु-पुण्यकालः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210320T110727
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210320T190727
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210320T110728
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210320T190728
 DESCRIPTION:Meṣa-Viṣu Punyakala.<br/><br/>सङ्क्रान्
  तिस्नानाकरणे प्रत्यवायमाह 
  शातातपः—  <br/>सूर्यसङ्क्रमणे 
@@ -10175,7 +10219,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:तपस्य-मासः/शिशिरऋतुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210320T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210320T150727
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210320T150728
 DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -10201,7 +10245,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:शनिरोहिणी-पुण्यकालः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210320T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210320T164409
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210320T164410
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/zanirOh
  iNI-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDay
@@ -10818,7 +10862,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210325T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210325T153042
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210325T153043
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
@@ -11347,7 +11391,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आदित्यहस्त-पुण्यकालः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210328T173434
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210328T173435
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210329T000000
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/Adityah
@@ -11628,6 +11672,23 @@ DESCRIPTION:- Indian civil date: 1943-01-08\, Islamic: 1442-08-15 Shaʿbā
  ___________________\n- **शूलम्**—प्राची दिक
  ् (►09:35)\; **परिहारः**–दधि  \n________________
  ___\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:आम्र-कुसुम-प्राशनम्
+DTSTART;VALUE=DATE:20210329
+DTEND;VALUE=DATE:20210330
+DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of Phālgunaḥ (lunar
+ ) month (Sūryōdayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit co
+ nfig file](https://github.com/jyotisham/adyatithi/blob/master/general/luna
+ r_month/tithi/12/16/Amra-kusuma-prAshanam.toml)<br/>- Tags: SpecialPuja Co
+ mmonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12071,13 +12132,13 @@ DESCRIPTION:- Indian civil date: 1943-01-12\, Islamic: 1442-08-19 Shaʿbā
  मानम्** — शिशिरऋतुः फाल्गुनः
  \n___________________\n\n\n## खचक्रस्थितिः\n- |
  🌞-🌛|**तिथिः** — कृष्ण-पञ्चमी►08:
- 15\; कृष्ण-षष्ठी►29:58*\; कृष्ण-सप्
+ 15\; कृष्ण-षष्ठी►29:59*\; कृष्ण-सप्
  तमी►  \n- 🌌🌛**नक्षत्रम्** — ज्ये
  ष्ठा►27:42*\; मूला► (धनुः)  \n- 🌌🌞**स
  ौर-नक्षत्रम्** — रेवती►  \n___________
  ________\n- 🌛+🌞**योगः** — व्यतीपातः►23
  :37\; वरीयान्►  \n- २|🌛-🌞|**करणम्** — 
- तैतिलः►08:15\; गरः►19:03\; वणिजः►29:58*\
+ तैतिलः►08:15\; गरः►19:03\; वणिजः►29:59*\
  ; विष्टिः►  \n- 🌌🌛- **चन्द्राष्ट
  म-राशिः**—वृषभः  \n___________________\n- 🌞-
  🪐 **मूढग्रहाः** - शुक्रः (-1.71° → -1.
@@ -12740,7 +12801,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210408T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210408T083837
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210408T083838
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
@@ -13492,8 +13553,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मेष-सङ्क्रमण-पुण्यकालः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210413T221740
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210414T061740
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210413T221741
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210414T061741
 DESCRIPTION:Meṣa-Saṅkramaṇa Punyakala.<br/><br/>सङ्क्र
  ान्तिस्नानाकरणे प्रत्यवाय
  माह शातातपः—  <br/>सूर्यसङ्क्र
@@ -14504,8 +14565,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:विष्णुपदी-पुण्यकालः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210419T193923
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210420T082723
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210419T193924
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210420T082724
 DESCRIPTION:Viṣṇupadī Punyakala.<br/><br/>सङ्क्रान्
  तिस्नानाकरणे प्रत्यवायमाह 
  शातातपः—  <br/>सूर्यसङ्क्रमणे 
@@ -14785,10 +14846,17 @@ SUMMARY:श्रीरामनवमी
 DTSTART;VALUE=DATE:20210421
 DTEND;VALUE=DATE:20210422
 DESCRIPTION:Observed on Śukla-Navamī tithi of Caitraḥ (lunar) month (M
- adhyāhnaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/lunar_
- month/tithi/01/09/zrIrAmanavamI.toml)<br/>- Tags: Dashavataram CommonFesti
- vals
+ adhyāhnaḥ/puurvaviddha). <br/><br/>चैत्रशुक्लनव
+ म्यां तु मध्याह्ने रघुनन्द
+ नः।  <br/>दशाननवधाकाङ्क्षी जज्
+ ञे रामः स्वयं हरिः॥  <br/>अवतार
+ दिने पुण्ये हरिमुद्दिश्य भ
+ क्तितः।  <br/>उपवासादि यत् किञ
+ ्चित्तदानन्त्याय कल्पते॥<br/
+ ><br/><br/><br/>## Details<br/>- References<br/>  - Vaidyanatha Dikshitiya
+ m (SVR) p.62<br/>- [Edit config file](https://github.com/jyotisham/adyatit
+ hi/blob/master/devatA/vaiShNava/lunar_month/tithi/01/09/zrIrAmanavamI.toml
+ )<br/>- Tags: Dashavataram CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14914,7 +14982,7 @@ DESCRIPTION:- Indian civil date: 1943-02-03\, Islamic: 1442-09-11 Ramaḍ
  त्रम्** — मघा►07:40\; पूर्वफल्गु
  नी► (सिंहः)  \n- 🌌🌞**सौर-नक्षत्र
  म्** — अश्विनी►  \n___________________\n- 🌛+🌞*
- *योगः** — वृद्धिः►14:36\; ध्रुवः► 
+ *योगः** — वृद्धिः►14:37\; ध्रुवः► 
   \n- २|🌛-🌞|**करणम्** — वणिजः►10:47\; व
  िष्टिः►21:48\; बवः►  \n- 🌌🌛- **चन्द्
  राष्टम-राशिः**—मकरः  \n___________________
@@ -16047,7 +16115,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:बुधानुराधा-पुण्यकालः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210428T171137
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210428T171138
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210429T000000
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/budhAnu
@@ -16335,21 +16403,28 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:लक्ष्मी-वराह-जयन्ती
+SUMMARY:वराह-जयन्ती
 DTSTART;VALUE=DATE:20210501
 DTEND;VALUE=DATE:20210502
 DESCRIPTION:Observed on Kr̥Ṣṇa-Pañcamī tithi of Caitraḥ (lunar) m
- onth (Sūryōdayaḥ/puurvaviddha). <br/><br/>जितं जितं 
+ onth (Aparāhṇaḥ/puurvaviddha). <br/><br/>जितं जितं 
  तेऽजित यज्ञभावन त्रयीं तनु
  ं स्वां परिधुन्वते नमः।  <br/>य
  द्रोमगर्तेषु निलिल्युरद्ध
  यस्तस्मै नमः कारणसूकराय ते
  ॥३-१३-३५॥  <br/>—श्रीमद्भागवते 
  महापुराणे तृतीयेस्कन्धे त्
- रयोदशेऽध्याये<br/><br/><br/><br/>## Details<br/>
- - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/de
- vatA/lakShmI/lunar_month/tithi/01/20/lakSmI-varAha~jayantI.toml)<br/>- Tag
- s: Dashavataram
+ रयोदशेऽध्याये  <br/>  <br/>चैत्रकृ
+ ष्णे तु पञ्चम्यां जज्ञे नार
+ ायणः स्वयम्।  <br/>भुवं वराहरू
+ पेण शृङ्गाभ्यामुदधेर्जलात
+ ्॥  <br/>अवतारदिने पुण्ये हरिम
+ ुद्दिश्य भक्तितः।  <br/>उपवासा
+ दि यत् किञ्चित्तदानन्त्याय
+  कल्पते॥<br/><br/><br/><br/>## Details<br/>- References<br/>
+   - Vaidyanatha Dikshitiyam (SVR) p.62<br/>- [Edit config file](https://gi
+ thub.com/jyotisham/adyatithi/blob/master/devatA/lakShmI/lunar_month/tithi/
+ 01/20/varAha~jayantI.toml)<br/>- Tags: Dashavataram
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16541,7 +16616,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:सोमश्रावणी-पुण्यकालः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210503T082051
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210503T082052
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210504T000000
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/sOmazrA
@@ -17103,10 +17178,18 @@ DESCRIPTION:Observed on Kr̥Ṣṇa-Trayōdaśī tithi of Caitraḥ (lunar
  ) month (Aparāhṇaḥ/puurvaviddha). <br/><br/>सत्यव्रत
  ोपदेशाय जिह्ममीनस्वरूपधृक
  ्।  <br/>प्रलयाब्धिकृतावास गृह
- ाणार्घ्यं नमोऽस्तु ते॥<br/><br/><b
- r/><br/>## Details<br/>- References<br/>  - Kielhorn (1897)<br/>- [Edit co
- nfig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiSh
- Nava/lunar_month/tithi/01/28/matsya~jayantI.toml)<br/>- Tags: Dashavataram
+ ाणार्घ्यं नमोऽस्तु ते॥  <br/>  <br
+ />चैत्रे मास्यसिते पक्षे त्र
+ योदश्यां तिथौ विभुः।  <br/>उदभ
+ ून्मत्स्यरूपेण रक्षार्थमव
+ नेर्हरिः॥   <br/>अवतारदिने पुण
+ ्ये हरिमुद्दिश्य भक्तितः।  <
+ br/>उपवासादि यत् किञ्चित्तदा
+ नन्त्याय कल्पते॥<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Vaidyanatha Dikshitiyam (SVR) p.62<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/va
+ iShNava/lunar_month/tithi/01/28/matsya~jayantI.toml)<br/>- Tags: Dashavata
+ ram
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17777,10 +17860,37 @@ SUMMARY:बलराम-जयन्ती
 DTSTART;VALUE=DATE:20210514
 DTEND;VALUE=DATE:20210515
 DESCRIPTION:Observed on Śukla-Tr̥Tīyā tithi of Vaiśākhaḥ (lunar) m
- onth (Sūryōdayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit confi
- g file](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNav
- a/lunar_month/tithi/02/03/balarAma~jayantI.toml)<br/>- Tags: Dashavataram 
- LessCommonFestivals
+ onth (Sūryōdayaḥ/puurvaviddha). Jayanti of Balarama.<br/><br/>वै
+ शाख शुक्लपक्षे तृतीयायां ह
+ लायुधः।  <br/>सङ्कर्षणो बलो जज
+ ्ञे रामः कृष्णाग्रजो हरिः॥  
+ <br/>अवतारदिने पुण्ये हरिमुद्
+ दिश्य भक्तितः।  <br/>उपवासादि 
+ यत् किञ्चित्तदानन्त्याय कल
+ ्पते॥<br/><br/><br/><br/>## Details<br/>- References<br/>  - Vai
+ dyanatha Dikshitiyam (SVR) p.62<br/>- [Edit config file](https://github.co
+ m/jyotisham/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/02/03
+ /balarAma~jayantI.toml)<br/>- Tags: Dashavataram LessCommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:चन्दन-पूजा
+DTSTART;VALUE=DATE:20210514
+DTEND;VALUE=DATE:20210515
+DESCRIPTION:Observed on Śukla-Tr̥Tīyā tithi of Vaiśākhaḥ (lunar) m
+ onth (Madhyāhnaḥ/paraviddha). <br/><br/>यः करोति तृ
+ तीयायां कृष्णं चन्दन-भूषित
+ म्।  <br/>वैशाखस्य सिते पक्षे स 
+ यात्यच्युतमंन्दिरम्॥<br/><br/><br/
+ ><br/>## Details<br/>- References<br/>  - Dharma Sindhu p.38<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/blob/master/general/lun
+ ar_month/tithi/02/03/candana-pUjA.toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17824,48 +17934,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पार्थिव-कल्पादिः
-DTSTART;VALUE=DATE:20210514
-DTEND;VALUE=DATE:20210515
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tithi/02/03/pArthi
- va-kalpAdiH.toml)<br/>- Tags: KalpadiDays<br/><br/><br/><br/>## Details<br
- />- References<br/>  - Smriti Kaustubham p.87--88<br/>- [Edit config file]
- (https://github.com/jyotisham/adyatithi/blob/master/time_focus/yugAdiH/lun
- ar_month/tithi/02/03/pArthiva-kalpAdiH.toml)<br/>- Tags: KalpadiDays
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:परशुराम-जयन्ती
-DTSTART;VALUE=DATE:20210514
-DTEND;VALUE=DATE:20210515
-DESCRIPTION:Observed on Śukla-Tr̥Tīyā tithi of Vaiśākhaḥ (lunar) m
- onth (Madhyāhnaḥ/puurvaviddha). <br/><br/>वैशाखस्य स
- िते पक्षे तृतीयायां पुनर्व
- सौ।  <br/>निशायाः प्रथमे यामे र
- ामाख्यः समये हरिः॥  <br/>स्वोच
- ्चगैः षड्ग्रहैर्युक्ते मिथ
- ुने राहुसंस्थिते।  <br/>रेणुका
- यास्तु यो गर्भादवतीर्णो हर
- िः स्वयम्॥<br/><br/><br/><br/>## Details<br/>- Reference
- s<br/>  - Nirnaya Sindhu p.66<br/>- [Edit config file](https://github.com/
- jyotisham/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/02/03/p
- arazurAma~jayantI.toml)<br/>- Tags: Dashavataram
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:राज-मातङ्गी-जयन्ती
 DTSTART;VALUE=DATE:20210514
 DTEND;VALUE=DATE:20210515
@@ -17886,8 +17954,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:वृषभ-रवि-सङ्क्रमण-विष्णु
  पदी-पुण्यकालः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210514T164432
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210515T053232
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210514T164433
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210515T053233
 DESCRIPTION:Vṛṣabha-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala.<br/>
  <br/>सङ्क्रान्तिस्नानाकरणे प
  ्रत्यवायमाह शातातपः—  <br/>सूर
@@ -19026,7 +19094,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आदित्यहस्त-पुण्यकालः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210523T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210523T121101
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210523T121102
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/Adityah
  asta-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDa
@@ -19093,7 +19161,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210523T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210523T115948
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210523T115949
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
@@ -19458,14 +19526,47 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:कृत्तिकावैषाखोत्सवः
+DTSTART;VALUE=DATE:20210525
+DTEND;VALUE=DATE:20210526
+DESCRIPTION:Observed on Viśākhā nakshatra of Vr̥Ṣabhaḥ (sidereal s
+ olar) month (Sūryōdayaḥ/puurvaviddha). Special puja for Subrahmanya Sw
+ ami in temples. Birth of Subrahmanya Swami. Worship Him with red flowers.<
+ br/><br/>सूर्ये वृषभराशौ कृत्तिक
+ ासु सति\, चन्द्रमसि च विपरीत
+ दिशि विशाखासु सत्य् आचर्यत
+ े सुब्रह्मण्यजन्मोत्सवः (प
+ ूर्वं श्रवण-कार्त्तिकोत्सव
+ े जातानां षण्णाम् बालानाम् 
+ कृत्तिकाभिर् वर्ध्यमाननाम
+ ् एकीकरणेन पार्वत्या)।<br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/devatA/kaumAra/sidereal_solar_month/nakshatra/02/16/kRttikA-vaizA
+ khOtsavaH.toml)<br/>- Tags: TamilnaduTempleFestivals CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:नृसिंह-जयन्ती
 DTSTART;VALUE=DATE:20210525
 DTEND;VALUE=DATE:20210526
 DESCRIPTION:Observed on Śukla-Caturdaśī tithi of Vaiśākhaḥ (lunar) 
- month (Sūryāstamayaḥ/puurvaviddha). Monday Swati?<br/><br/>## Details<
- br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/maste
- r/devatA/vaiShNava/lunar_month/tithi/02/14/nRsiMha~jayantI.toml)<br/>- Tag
- s: Dashavataram CommonFestivals
+ month (Sūryāstamayaḥ/puurvaviddha). Monday Swati?<br/><br/>वैश
+ ाखे शुक्लपक्षे तु चतुर्दश्
+ यामिनेऽस्तगे।  <br/>उद्बभूवास
+ ुरद्वेषी नृसिंहो भक्तवत्सल
+ ः॥  <br/>अवतारदिने पुण्ये हरिम
+ ुद्दिश्य भक्तितः।  <br/>उपवासा
+ दि यत् किञ्चित्तदानन्त्याय
+  कल्पते॥<br/><br/><br/><br/>## Details<br/>- References<br/>
+   - Vaidyanatha Dikshitiyam (SVR) p.62<br/>- [Edit config file](https://gi
+ thub.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tith
+ i/02/14/nRsiMha~jayantI.toml)<br/>- Tags: Dashavataram CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19548,7 +19649,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कृत्तिकावैषाखोत्सवः
+SUMMARY:वैकाचि विशाखम्
 DTSTART;VALUE=DATE:20210525
 DTEND;VALUE=DATE:20210526
 DESCRIPTION:Observed on Viśākhā nakshatra of Vr̥Ṣabhaḥ (sidereal s
@@ -19719,17 +19820,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची जगद्गुरु श्री-चन्
- द्रशेखरेन्द्र सरस्वती ७ जय
- न्ती #१२८
+SUMMARY:काञ्ची ६८ जगद्गुरु श्री-
+ चन्द्रशेखरेन्द्र सरस्वती ७
+  जयन्ती #१२८
 DTSTART;VALUE=DATE:20210526
 DTEND;VALUE=DATE:20210527
 DESCRIPTION:Observed on Anūrādhā nakshatra of Vr̥Ṣabhaḥ (sidereal 
  solar) month (Prātaḥ/paraviddha). The event occurred in 4995 (Kali era)
  .  <br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/j
  yotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/sidereal_solar_mon
- th/nakshatra/02/17/kAJcI_jagadguru_zrI~candrazEkharEndra_sarasvatI_7_jayan
- tI.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
+ th/nakshatra/02/17/kAJcI_68_jagadguru_zrI~candrazEkharEndra_sarasvatI_7_ja
+ yantI.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20019,7 +20120,7 @@ DESCRIPTION:- Indian civil date: 1943-03-07\, Islamic: 1442-10-16 Shawwāl
  खः\n___________________\n\n\n## खचक्रस्थितिः\n
  - |🌞-🌛|**तिथिः** — कृष्ण-द्वितीय
  ा►09:36\; कृष्ण-तृतीया►  \n- 🌌🌛**नक
- ्षत्रम्** — मूला►20:00\; पूर्वाष
+ ्षत्रम्** — मूला►20:01\; पूर्वाष
  ाढा► (धनुः)  \n- 🌌🌞**सौर-नक्षत्र
  म्** — रोहिणी►  \n___________________\n- 🌛+🌞**
  योगः** — साध्यः►14:54\; शुभः►  \n- २|
@@ -20051,6 +20152,36 @@ DESCRIPTION:- Indian civil date: 1943-03-07\, Islamic: 1442-10-16 Shawwāl
  ___________\n- **शूलम्**—प्रतीची दिक् (
  ►11:00)\; **परिहारः**–गुडम्  \n_______________
  ____\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अग्निनक्षत्रम्
+DTSTART;VALUE=DATE:20210504
+DTEND;VALUE=DATE:20210529
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/nakShatra/description_only/agninakSatr
+ am.toml)<br/>- Tags: SpecialPeriod
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अग्निनक्षत्र-समापनम्
+DTSTART;VALUE=DATE:20210528
+DTEND;VALUE=DATE:20210529
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/nakShatra/description_only/agninakSatr
+ a-samApanam.toml)<br/>- Tags: SpecialPeriodEnd
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20109,6 +20240,24 @@ DESCRIPTION:Observed on Kr̥Ṣṇa-Dvitīyā tithi of Vaiśākhaḥ (luna
   danam of vīṇā\, music<br/><br/>## Details<br/>- [Edit config file](ht
  tps://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/RShi/lunar_mo
  nth/tithi/02/17/nArada~jayantI.toml)<br/>- Tags: LessCommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:पार्थिव-कल्पादिः
+DTSTART;VALUE=DATE:20210528
+DTEND;VALUE=DATE:20210529
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tithi/02/18/pArthi
+ va-kalpAdiH.toml)<br/>- Tags: KalpadiDays<br/><br/><br/><br/>## Details<br
+ />- References<br/>  - Smriti Kaustubham p.87--88<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/blob/master/time_focus/yugAdiH/lun
+ ar_month/tithi/02/18/pArthiva-kalpAdiH.toml)<br/>- Tags: KalpadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20244,36 +20393,6 @@ DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
  ithi/blob/master/devatA/gaNapati/description_only/Ekadanta-mahAgaNapati_sa
  GkaTahara-caturthI-vratam.toml)<br/>- Tags: MonthlyVratam SankataharaChatu
  rthiVratam
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:अग्निनक्षत्रम्
-DTSTART;VALUE=DATE:20210504
-DTEND;VALUE=DATE:20210530
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/nakShatra/description_only/agninakSatr
- am.toml)<br/>- Tags: SpecialPeriod
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:अग्निनक्षत्र-समापनम्
-DTSTART;VALUE=DATE:20210529
-DTEND;VALUE=DATE:20210530
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/nakShatra/description_only/agninakSatr
- a-samApanam.toml)<br/>- Tags: SpecialPeriodEnd
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20491,7 +20610,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:सोमश्रावणी-पुण्यकालः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210531T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210531T160012
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210531T160013
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/sOmazrA
  vaNI-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDa
@@ -20999,7 +21118,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210606T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210606T125556
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210606T125557
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
@@ -21463,6 +21582,24 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
  gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-vratam_30.to
  ml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:रघुनाथराव-बन्धनम् #२५३
+DTSTART;VALUE=DATE:20210610
+DTEND;VALUE=DATE:20210611
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/06/10/raghu
+ nAtha-rAva-bandhanam.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>
+ - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/ma
+ hApuruSha/xatra-later/gregorian/day/06/10/raghunAtha-rAva-bandhanam.toml)<
+ br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22111,7 +22248,7 @@ DESCRIPTION:- Indian civil date: 1943-03-25\, Islamic: 1442-11-05 Ḏū al
  षत्रम्** — मृगशीर्षम्►  \n____________
  _______\n- 🌛+🌞**योगः** — व्याघातः►08:57\
  ; हर्षणः►  \n- २|🌛-🌞|**करणम्** — बव
- ः►10:49\; बालवः►22:57\; कौलवः►  \n- 🌌🌛- 
+ ः►10:50\; बालवः►22:57\; कौलवः►  \n- 🌌🌛- 
  **चन्द्राष्टम-राशिः**—मकरः  \n__
  _________________\n- 🌞-🪐 **मूढग्रहाः** - बुध
  ः (5.91° → 7.33°)\n- 🌞-🪐 **अमूढग्रहाः** - 
@@ -22918,8 +23055,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:दक्षिणायन-पुण्यकालः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210620T210208
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210621T090208
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210620T210209
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210621T090209
 DESCRIPTION:Dakṣiṇāyana Punyakala.<br/><br/>सङ्क्रान
  ्तिस्नानाकरणे प्रत्यवायमा
  ह शातातपः—  <br/>सूर्यसङ्क्रमण
@@ -23135,7 +23272,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210621T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210621T184610
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210621T184611
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
@@ -23233,7 +23370,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:शुक्र-मासः/उत्तरायणम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210621T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210621T090208
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210621T090209
 DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -23542,7 +23679,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:बुधानुराधा-पुण्यकालः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210623T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210623T114640
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210623T114641
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/budhAnu
  rAdhA-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaD
@@ -25036,7 +25173,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210706T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210706T050940
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210706T050941
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
@@ -25064,10 +25201,17 @@ DTSTART;VALUE=DATE:20210706
 DTEND;VALUE=DATE:20210707
 DESCRIPTION:Observed on Kr̥Ṣṇa-Dvādaśī tithi of Jyaiṣṭhaḥ (l
  unar) month (Sāyāhnaḥ/puurvaviddha). Danam of Brahma puranam<br/><br/>
- ## Details<br/>- References<br/>  - Kielhorn (1897)<br/>- [Edit config fil
- e](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/lun
- ar_month/tithi/03/27/kUrma~jayantI.toml)<br/>- Tags: Dashavataram LessComm
- onFestivals
+ ज्येष्ठमासे तथा कृष्णद्वाद
+ श्यां भगवानजः।  <br/>मन्दरं पृ
+ ष्ठतः कृत्वा कूर्मरूपी हरि
+ र्दधौ॥  <br/>अवतारदिने पुण्ये 
+ हरिमुद्दिश्य भक्तितः।  <br/>उप
+ वासादि यत् किञ्चित्तदानन्त
+ ्याय कल्पते॥<br/><br/><br/><br/>## Details<br/>- Ref
+ erences<br/>  - Vaidyanatha Dikshitiyam (SVR) p.62<br/>- [Edit config file
+ ](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/luna
+ r_month/tithi/03/27/kUrma~jayantI.toml)<br/>- Tags: Dashavataram LessCommo
+ nFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25219,14 +25363,14 @@ DESCRIPTION:- Indian civil date: 1943-04-17\, Islamic: 1442-11-28 Ḏū al
  🌛**चान्द्रमानम्** — ग्रीष्मऋ
  तुः ज्यैष्ठः\n___________________\n\n\n## खचक
  ्रस्थितिः\n- |🌞-🌛|**तिथिः** — कृ
- ष्ण-चतुर्दशी►29:16*\; अमावास्या
+ ष्ण-चतुर्दशी►29:17*\; अमावास्या
  ►  \n- 🌌🌛**नक्षत्रम्** — मृगशीर्
  षम्►20:56\; आर्द्रा► (मिथुनम्)  \n- 
  🌌🌞**सौर-नक्षत्रम्** — पुनर्व
  सुः►  \n___________________\n- 🌛+🌞**योगः** — व
  ृद्धिः►16:15\; ध्रुवः►  \n- २|🌛-🌞|**
- करणम्** — विष्टिः►16:21\; शकुनिः
- ►29:16*\; चतुष्पात्►  \n- 🌌🌛- **चन्द
+ करणम्** — विष्टिः►16:22\; शकुनिः
+ ►29:17*\; चतुष्पात्►  \n- 🌌🌛- **चन्द
  ्राष्टम-राशिः**—वृश्चिकः  \n- 
  🌞-🪐 **अमूढग्रहाः** - शनैश्चरः (1
  54.13° → 155.15°)\, शुक्रः (-27.03° → -27.29°)\, ग
@@ -26389,8 +26533,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:कर्कट-सङ्क्रमण-पुण्यकाल
  ः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210716T042929
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210716T162929
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210716T042930
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210716T162930
 DESCRIPTION:Karkaṭa-Saṅkramaṇa Punyakala.<br/><br/>सङ्क्
  रान्तिस्नानाकरणे प्रत्यवा
  यमाह शातातपः—  <br/>सूर्यसङ्क्
@@ -26928,6 +27072,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:माधवरावो भवति प्रधानमन्
+ त्री #२६०
+DTSTART;VALUE=DATE:20210720
+DTEND;VALUE=DATE:20210721
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/07/20/mAdha
+ varAvo_bhavati_pradhAnamantrI.toml)<br/>- Tags: <br/><br/><br/><br/>## Det
+ ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/
+ master/mahApuruSha/xatra-later/gregorian/day/07/20/mAdhavarAvo_bhavati_pra
+ dhAnamantrI.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:सर्व-शयन-एकादशी
 DTSTART;VALUE=DATE:20210720
 DTEND;VALUE=DATE:20210721
@@ -27030,7 +27193,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210721T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210721T003539
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210721T003540
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
@@ -27263,8 +27426,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:विष्णुपदी-पुण्यकालः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210722T133223
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210723T022023
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210722T133224
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210723T022024
 DESCRIPTION:Viṣṇupadī Punyakala.<br/><br/>सङ्क्रान्
  तिस्नानाकरणे प्रत्यवायमाह 
  शातातपः—  <br/>सूर्यसङ्क्रमणे 
@@ -27287,7 +27450,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:शुचि-मासः/ग्रीष्मऋतुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210722T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210722T195623
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210722T195624
 DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -27452,6 +27615,26 @@ DESCRIPTION:Event occured on 1856-07-23 (gregorian). AshADha k1  lokamAnya
   bhAlagangAdhara Tilak born.<br/><br/>## Details<br/>- [Edit config file](
  https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xatra-later
  /gregorian/day/07/23/lokamAnya-tiLako_jAtaH.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:लोकमान्य-तिलक-जन्म #१६५
+DTSTART;VALUE=DATE:20210723
+DTEND;VALUE=DATE:20210724
+DESCRIPTION:Event occured on 1856-07-23 (gregorian). On this day was born 
+ the great genius\, teacher\, nationalist\, journalist and activist - Bal G
+ angadhar Tilak. He was homeschooled for many years. He popularized the sva
+ deshI movement and gaNeshotsava-s. He went on to author excellent Indologi
+ cal research articles (eg. The Orion) in the midst of financial and politi
+ cal stress.<br/><br/>## Details<br/>- [Edit config file](https://github.co
+ m/jyotisham/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/07
+ /23/lokamAnya-tilaka-janma.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -28300,7 +28483,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:भृगुरेवती-पुण्यकालः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210730T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210730T140017
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210730T140018
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/bhRgurE
  vatI-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDa
@@ -28372,7 +28555,7 @@ DESCRIPTION:- Indian civil date: 1943-05-09\, Islamic: 1442-12-21 Ḏū al
  बालवः►18:46\; कौलवः►  \n- 🌌🌛- **चन्द
  ्राष्टम-राशिः**—कन्या  \n_____________
  ______\n- 🌞-🪐 **मूढग्रहाः** - बुधः (1.77°
-  → 0.63°)\n- 🌞-🪐 **अमूढग्रहाः** - मङ्
+  → 0.64°)\n- 🌞-🪐 **अमूढग्रहाः** - मङ्
  गलः (-22.69° → -22.36°)\, गुरुः (158.32° → 159.39°
  )\, शनैश्चरः (177.70° → 178.73°)\, शुक्रः 
  (-32.74° → -32.97°)\n___________________\n\n\n## दिनमान-
@@ -28438,14 +28621,14 @@ DESCRIPTION:- Indian civil date: 1943-05-10\, Islamic: 1442-12-22 Ḏū al
  तुः आषाढः\n___________________\n\n\n## खचक्रस
  ्थितिः\n- |🌞-🌛|**तिथिः** — कृष्ण-
  अष्टमी►07:56\; कृष्ण-नवमी►  \n- 🌌🌛
- **नक्षत्रम्** — अपभरणी►19:33\; कृत
+ **नक्षत्रम्** — अपभरणी►19:34\; कृत
  ्तिका► (वृषभः)  \n- 🌌🌞**सौर-नक्ष
  त्रम्** — पुष्यः►  \n___________________\n- 🌛
  +🌞**योगः** — गण्डः►21:56\; वृद्धिः
  ►  \n- २|🌛-🌞|**करणम्** — कौलवः►07:56\; 
  तैतिलः►21:11\; गरः►  \n- 🌌🌛- **चन्द्
  राष्टम-राशिः**—तुला  \n___________________
- \n- 🌞-🪐 **मूढग्रहाः** - बुधः (0.63° → -
+ \n- 🌞-🪐 **मूढग्रहाः** - बुधः (0.64° → -
  0.49°)\n- 🌞-🪐 **अमूढग्रहाः** - मङ्गल
  ः (-22.36° → -22.03°)\, शुक्रः (-32.97° → -33.21°)\,
   गुरुः (159.39° → 160.46°)\, शनैश्चरः (178.7
@@ -29362,7 +29545,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:रविपुष्ययोग-पुण्यकालः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210808T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210808T091703
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210808T091704
 DESCRIPTION:When Pushya nakshatra falls on a Sunday\, it is a special pu
  ṇyakālaḥ.<br/><br/>## Details<br/>- [Edit config file](https://github
  .com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/descript
@@ -30044,23 +30227,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कल्कि-जयन्ती
-DTSTART;VALUE=DATE:20210813
-DTEND;VALUE=DATE:20210814
-DESCRIPTION:Observed on Śukla-Ṣaṣṭhī tithi of Śrāvaṇaḥ (luna
- r) month (Sūryāstamayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edi
- t config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/v
- aiShNava/lunar_month/tithi/05/06/kalki~jayantI.toml)<br/>- Tags: Dashavata
- ram
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:नाग-पञ्चमी
 DTSTART;VALUE=DATE:20210813
 DTEND;VALUE=DATE:20210814
@@ -30463,7 +30629,7 @@ DESCRIPTION:- Indian civil date: 1943-05-25\, Islamic: 1443-01-07 Al-Muḥ
   अनूराधा►27:00*\; ज्येष्ठा► (वृश
  ्चिकः)  \n- 🌌🌞**सौर-नक्षत्रम्** 
  — आश्रेषा►24:49*\; मघा►  \n___________________\n
- - 🌛+🌞**योगः** — इन्द्रः►26:51*\; वैध
+ - 🌛+🌞**योगः** — इन्द्रः►26:52*\; वैध
  ृतिः►  \n- २|🌛-🌞|**करणम्** — बवः►07:
  45\; बालवः►18:41\; कौलवः►29:35*\; तैतिल
  ः►  \n- 🌌🌛- **चन्द्राष्टम-राशिः*
@@ -30557,8 +30723,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:सिंह-रवि-सङ्क्रमण-विष्णु
  पदी-पुण्यकालः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210816T182507
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210817T071307
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210816T182508
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210817T071308
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/sankrAnti/description_only/siMha-ravi-
  saGkramaNa-viSNupadI-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFesti
@@ -30880,7 +31046,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210819T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210819T063256
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210819T063257
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
@@ -32589,10 +32755,17 @@ SUMMARY:श्रीकृष्णजन्माष्टमी
 DTSTART;VALUE=DATE:20210830
 DTEND;VALUE=DATE:20210831
 DESCRIPTION:Observed on Kr̥Ṣṇa-Aṣṭamī tithi of Śrāvaṇaḥ (l
- unar) month (Niśīthaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit co
- nfig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiSh
- Nava/lunar_month/tithi/05/23/zrIkRSNajanmASTamI.toml)<br/>- Tags: Dashavat
- aram CommonFestivals
+ unar) month (Niśīthaḥ/paraviddha). <br/><br/>मासि तु श
+ ्रावणेऽष्टम्यां निशीथे कृष
+ ्णपक्षके।  <br/>प्राजापत्यसंय
+ ुक्ते कृष्णं देवक्यजीजनत्॥
+   <br/>अवतारदिने पुण्ये हरिमुद
+ ्दिश्य भक्तितः।  <br/>उपवासादि
+  यत् किञ्चित्तदानन्त्याय क
+ ल्पते॥<br/><br/><br/><br/>## Details<br/>- References<br/>  - 
+ Vaidyanatha Dikshitiyam (SVR) p.62<br/>- [Edit config file](https://github
+ .com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/05
+ /23/zrIkRSNajanmASTamI.toml)<br/>- Tags: Dashavataram CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -32989,7 +33162,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210903T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210903T135837
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210903T135838
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
@@ -33679,6 +33852,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:माधवरावो हत्यायत्नाद् र
+ क्षितः #२५२
+DTSTART;VALUE=DATE:20210907
+DTEND;VALUE=DATE:20210908
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/09/07/mAdha
+ varAvo_hatyA-prayatnad_raxitaH.toml)<br/>- Tags: <br/><br/><br/><br/>## De
+ tails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob
+ /master/mahApuruSha/xatra-later/gregorian/day/09/07/mAdhavarAvo_hatyA-pray
+ atnad_raxitaH.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:मृगशीर्ष-व्रतम्
 DTSTART;VALUE=DATE:20210907
 DTEND;VALUE=DATE:20210908
@@ -33885,6 +34077,30 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:कल्कि-जयन्ती
+DTSTART;VALUE=DATE:20210908
+DTEND;VALUE=DATE:20210909
+DESCRIPTION:Observed on Śukla-Dvitīyā tithi of Bhādrapadaḥ (lunar) m
+ onth (Sūryāstamayaḥ/puurvaviddha). <br/><br/>मासि भाद्
+ रपदे शुक्लद्वितीयायां जनार
+ ्दनः।  <br/>म्लेच्छाक्रान्ते क
+ लावन्ते कल्किरूपो भविष्यति
+ ॥  <br/>अवतारदिने पुण्ये हरिमु
+ द्दिश्य भक्तितः।  <br/>उपवासाद
+ ि यत् किञ्चित्तदानन्त्याय 
+ कल्पते॥<br/><br/><br/><br/>## Details<br/>- References<br/> 
+  - Vaidyanatha Dikshitiyam (SVR) p.62<br/>- [Edit config file](https://git
+ hub.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi
+ /06/02/kalki~jayantI.toml)<br/>- Tags: Dashavataram
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:तिरुच्चॆन्दूर् मुरुगऩ् 
  आवणित् तिरुविऴा 8म् नाळ्—पच
  ्चै चात्ति अलङ्कारम्
@@ -34023,22 +34239,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/temples/Tamil/relative_event/tiruccendUr_AvaNit_t
  iruvizhA_nir2aivu/offset__-3/tiruccendUr_murugan2_AvaNit_tiruvizhA_%23%239
  %23%23m_nAL.toml)<br/>- Tags: TamilnaduTempleFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:वराह-जयन्ती
-DTSTART;VALUE=DATE:20210909
-DTEND;VALUE=DATE:20210910
-DESCRIPTION:Observed on Śukla-Tr̥Tīyā tithi of Bhādrapadaḥ (lunar) 
- month (Aparāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNa
- va/lunar_month/tithi/06/03/varAha~jayantI.toml)<br/>- Tags: Dashavataram
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -34302,7 +34502,7 @@ DESCRIPTION:- Indian civil date: 1943-06-21\, Islamic: 1443-02-04 Ṣafar\
  ः\n___________________\n\n\n## खचक्रस्थितिः\n- |
  🌞-🌛|**तिथिः** — शुक्ल-षष्ठी►17:21\
  ; शुक्ल-सप्तमी►  \n- 🌌🌛**नक्षत्
- रम्** — विशाखा►09:47\; अनूराधा► (व
+ रम्** — विशाखा►09:48\; अनूराधा► (व
  ृश्चिकः)  \n- 🌌🌞**सौर-नक्षत्रम
  ्** — पूर्वफल्गुनी►  \n___________________\n
  - 🌛+🌞**योगः** — वैधृतिः►11:38\; विष
@@ -35196,7 +35396,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210917T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210917T134817
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210917T134818
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
@@ -35263,10 +35463,18 @@ DTSTART;VALUE=DATE:20210917
 DTEND;VALUE=DATE:20210918
 DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Bhādrapadaḥ (lunar) 
  month (Madhyāhnaḥ/puurvaviddha). Wednesday Shravana \; Vamana Jayanti\;
-  Shravana Dvadashi\; Vijaya Dvadashi\; Shakra Dvadashi<br/><br/>## Details
- <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
- er/devatA/vaiShNava/lunar_month/tithi/06/12/vAmana~jayantI.toml)<br/>- Tag
- s: Dashavataram CommonFestivals
+  Shravana Dvadashi\; Vijaya Dvadashi\; Shakra Dvadashi<br/><br/>मास
+ ि भाद्रपदे शुक्लद्वादश्यां
+  वामनो विभुः।  <br/>अदित्यां का
+ श्यपाज्जज्ञे नियन्तुं बलिम
+ ोजसा॥  <br/>अवतारदिने पुण्ये ह
+ रिमुद्दिश्य भक्तितः।  <br/>उपव
+ ासादि यत् किञ्चित्तदानन्त्
+ याय कल्पते॥<br/><br/><br/><br/>## Details<br/>- Refere
+ nces<br/>  - Vaidyanatha Dikshitiyam (SVR) p.62<br/>- [Edit config file](h
+ ttps://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/lunar_m
+ onth/tithi/06/12/vAmana~jayantI.toml)<br/>- Tags: Dashavataram CommonFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -36151,8 +36359,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:तुला-विषु-पुण्यकालः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210922T205103
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210923T045103
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210922T205104
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210923T045104
 DESCRIPTION:Tulā-Viṣu Punyakala.<br/><br/>सङ्क्रान्
  तिस्नानाकरणे प्रत्यवायमाह 
  शातातपः—  <br/>सूर्यसङ्क्रमणे 
@@ -36493,6 +36701,19 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:भरणी-यमार्चना
+DTSTART;VALUE=DATE:20210925
+DTEND;VALUE=DATE:20210926
+DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:दिक्पाल-पूजा
 DTSTART;VALUE=DATE:20210925
 DTEND;VALUE=DATE:20210926
@@ -36715,7 +36936,7 @@ DESCRIPTION:- Indian civil date: 1943-07-05\, Islamic: 1443-02-19 Ṣafar\
  ्** — हस्तः►  \n___________________\n- 🌛+🌞**यो
  गः** — सिद्धिः►16:45\; व्यतीपातः
  ►  \n- २|🌛-🌞|**करणम्** — वणिजः►15:43\; 
- विष्टिः►29:01*\; बवः►  \n- 🌌🌛- **चन्
+ विष्टिः►29:02*\; बवः►  \n- 🌌🌛- **चन्
  द्राष्टम-राशिः**—तुला  \n_____________
  ______\n- 🌞-🪐 **मूढग्रहाः** - मङ्गलः (
  -3.66° → -3.34°)\n- 🌞-🪐 **अमूढग्रहाः** - ब
@@ -36773,7 +36994,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:सोममृगशीर्ष-पुण्यकालः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210927T173847
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210927T173848
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210928T000000
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/sOmamRg
@@ -37156,6 +37377,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:माधव-रावान्तिमादेशः #२४९
+DTSTART;VALUE=DATE:20210930
+DTEND;VALUE=DATE:20211001
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/09/30/mAdha
+ va-rAvAntimAdeshaH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahA
+ puruSha/xatra-later/gregorian/day/09/30/mAdhava-rAvAntimAdeshaH.toml)<br/>
+ - Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:सुमङ्गला-नवमी
 DTSTART;VALUE=DATE:20210930
 DTEND;VALUE=DATE:20211001
@@ -37401,8 +37640,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:गजच्छाया-योगः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211003T223013
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211004T032342
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211003T223014
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211004T032343
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/special-tithis/description_only/gajacc
  hAyA-yOgaH.toml)<br/>- Tags: RareDays Combinations<br/><br/><br/><br/>## D
@@ -37417,7 +37656,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211003T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211003T050513
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211003T050514
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
@@ -37699,8 +37938,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:गजच्छाया-योगः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211006T010802
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211006T163521
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211006T010803
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211006T163522
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/special-tithis/description_only/gajacc
  hAyA-yOgaH.toml)<br/>- Tags: RareDays Combinations<br/><br/><br/><br/>## D
@@ -37882,37 +38121,6 @@ SUMMARY:बोधायन-इष्टिः
 DTSTART;VALUE=DATE:20211006
 DTEND;VALUE=DATE:20211007
 DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:महालय-पक्षः
-DTSTART;VALUE=DATE:20210921
-DTEND;VALUE=DATE:20211007
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/devatA/pitR/description_only/mahAlaya-pakSaH.toml
- )<br/>- Tags: SpecialPeriod
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:महालय-पक्ष-समापनम्
-DTSTART;VALUE=DATE:20211006
-DTEND;VALUE=DATE:20211007
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/devatA/pitR/relative_event/%28bhAdrapada%29_mahAl
- aya_amAvAsyA/offset__00/mahAlaya-pakSa-samApanam.toml)<br/>- Tags: Special
- PeriodEnd CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -38230,7 +38438,7 @@ DESCRIPTION:- Indian civil date: 1943-07-16\, Islamic: 1443-03-01 Rabīʿ
  वयुजः\n___________________\n\n\n## खचक्रस्थि
  तिः\n- |🌞-🌛|**तिथिः** — शुक्ल-द्व
  ितीया►10:48\; शुक्ल-तृतीया►  \n- 🌌
- 🌛**नक्षत्रम्** — स्वाती►18:56\; व
+ 🌛**नक्षत्रम्** — स्वाती►18:57\; व
  िशाखा► (तुला)  \n- 🌌🌞**सौर-नक्षत
  ्रम्** — हस्तः►  \n___________________\n- 🌛+🌞*
  *योगः** — विष्कम्भः►21:58\; प्रीत
@@ -39358,13 +39566,13 @@ DESCRIPTION:- Indian civil date: 1943-07-24\, Islamic: 1443-03-09 Rabīʿ
  चान्द्रमानम्** — शरदृतुः आश्
  वयुजः\n___________________\n\n\n## खचक्रस्थि
  तिः\n- |🌞-🌛|**तिथिः** — शुक्ल-एका
- दशी►17:37\; शुक्ल-द्वादशी►  \n- 🌌🌛
+ दशी►17:38\; शुक्ल-द्वादशी►  \n- 🌌🌛
  **नक्षत्रम्** — श्रविष्ठा►09:19\; 
  शतभिषक्► (कुम्भः)  \n- 🌌🌞**सौर-न
  क्षत्रम्** — चित्रा►  \n__________________
  _\n- 🌛+🌞**योगः** — गण्डः►22:35\; वृद्
  धिः►  \n- २|🌛-🌞|**करणम्** — विष्टि
- ः►17:37\; बवः►29:35*\; बालवः►  \n- 🌌🌛- **च
+ ः►17:38\; बवः►29:35*\; बालवः►  \n- 🌌🌛- **च
  न्द्राष्टम-राशिः**—कर्कटः  \n_
  __________________\n- 🌞-🪐 **मूढग्रहाः** - बु
  धः (12.12° → 13.50°)\, मङ्गलः (2.59° → 2.92°)\n- 
@@ -39588,8 +39796,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:तुला-सङ्क्रमण-पुण्यकालः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211017T084051
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211017T164051
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211017T084052
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211017T164052
 DESCRIPTION:Tulā-Saṅkramaṇa Punyakala. Perform danam of rice/wheat/gr
  ains and cow ghee/curd etc.<br/><br/>तुलाप्रवेशे ध
  ान्यानां गोरसानामपीष्टदम्"
@@ -40468,7 +40676,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:इष-मासः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211023T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211023T102108
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211023T102109
 DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -40549,8 +40757,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:विष्णुपदी-पुण्यकालः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211023T035708
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211023T164508
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211023T035709
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211023T164509
 DESCRIPTION:Viṣṇupadī Punyakala.<br/><br/>सङ्क्रान्
  तिस्नानाकरणे प्रत्यवायमाह 
  शातातपः—  <br/>सूर्यसङ्क्रमणे 
@@ -41013,7 +41221,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:गुरुपुष्य-पुण्यकालः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211028T093834
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211028T093835
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211029T000000
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/gurupuS
@@ -41460,7 +41668,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211101T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211101T185826
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211101T185828
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
@@ -42099,6 +42307,37 @@ DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Āśvina
  ḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config file](https://git
  hub.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/tithi
  /00/30/pancha-parva-1.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:सप्तम-अपरपक्षः
+DTSTART;VALUE=DATE:20211021
+DTEND;VALUE=DATE:20211105
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/description_only/saptama-aparapakSaH.toml
+ )<br/>- Tags: SpecialPeriod
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:सप्तम-अपरपक्ष-समापनम्
+DTSTART;VALUE=DATE:20211104
+DTEND;VALUE=DATE:20211105
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/relative_event/sarva-Azvayuja-amAvAsy
+ A/offset__00/saptama-aparapakSa-samApanam.toml)<br/>- Tags: SpecialPeriodE
+ nd
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -43080,6 +43319,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:माधव-रावस्यात्मसमर्पणम
+ ् #२५९
+DTSTART;VALUE=DATE:20211112
+DTEND;VALUE=DATE:20211113
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/11/12/mAdha
+ va-rAvasyAtma-samarpaNam.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<
+ br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/maste
+ r/mahApuruSha/xatra-later/gregorian/day/11/12/mAdhava-rAvasyAtma-samarpaNa
+ m.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:शुक्रेश्वर-पर्वत-जयः #३५
  ४
 DTSTART;VALUE=DATE:20211112
@@ -43406,7 +43664,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211115T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211115T125746
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211115T125747
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
@@ -43794,8 +44052,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:वृश्चिक-रवि-सङ्क्रमण-विष
  ्णुपदी-पुण्यकालः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211116T060903
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211116T185703
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211116T060904
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211116T185704
 DESCRIPTION:Vṛśchika-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala. Do d
  anam of deepam.<br/><br/>सङ्क्रान्तिस्नान
  ाकरणे प्रत्यवायमाह शातातपः
@@ -44034,13 +44292,11 @@ BEGIN:VEVENT
 SUMMARY:माधव-राव-क्षयः #२४९
 DTSTART;VALUE=DATE:20211118
 DTEND;VALUE=DATE:20211119
-DESCRIPTION:Event occured on 1772-11-18 (gregorian). The young but bold an
- d astute visionary\, peshvA mAdhava rAv\, died of tuberculosis at his favo
- urite Ganesha Chintamani Temple\, Theur. Aged 28.  "And the plains of Pani
- pat were not more fatal to the Maratha Empire than the early end of this e
- xcellent prince…"<br/><br/>## Details<br/>- [Edit config file](https://g
- ithub.com/jyotisham/adyatithi/blob/master/mahApuruSha/xatra-later/gregoria
- n/day/11/18/mAdhava-rAva-kSayaH.toml)<br/>- Tags:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/11/18/mAdha
+ va-rAva-kSayaH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuru
+ Sha/xatra-later/gregorian/day/11/18/mAdhava-rAva-kSayaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -44896,7 +45152,7 @@ DESCRIPTION:- Indian civil date: 1943-09-01\, Islamic: 1443-04-16 Rabīʿ
  रस्थितिः\n- |🌞-🌛|**तिथिः** — कृष
  ्ण-तृतीया►22:27\; कृष्ण-चतुर्थी
  ►  \n- 🌌🌛**नक्षत्रम्** — मृगशीर्
- षम्►10:40\; आर्द्रा► (मिथुनम्)  \n- 
+ षम्►10:41\; आर्द्रा► (मिथुनम्)  \n- 
  🌌🌞**सौर-नक्षत्रम्** — अनूराध
  ा►  \n___________________\n- 🌛+🌞**योगः** — साध
  ्यः►  \n- २|🌛-🌞|**करणम्** — वणिजः►
@@ -44965,7 +45221,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ऊर्ज-मासः/शरदृतुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211122T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211122T080342
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211122T080343
 DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -45034,7 +45290,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:सोममृगशीर्ष-पुण्यकालः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211122T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211122T104059
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211122T104100
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/sOmamRg
  azIrSa-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYoga
@@ -46007,7 +46263,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211201T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211201T073754
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211201T073755
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
@@ -46437,36 +46693,6 @@ DESCRIPTION:Observed on Amāvāsyā tithi of Kārttikaḥ (lunar) month (S
  ūryōdayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file]
  (https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/ti
  thi/08/30/kArttika-snAnapUrtiH.toml)<br/>- Tags: SpecialSnanam
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:नवम-अपरपक्षः
-DTSTART;VALUE=DATE:20211119
-DTEND;VALUE=DATE:20211205
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/general/description_only/navama-aparapakSaH.toml)
- <br/>- Tags: SpecialPeriod
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:नवम-अपरपक्ष-समापनम्
-DTSTART;VALUE=DATE:20211204
-DTEND;VALUE=DATE:20211205
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/general/relative_event/kArttika-amAvAsyA/offset__
- 00/navama-aparapakSa-samApanam.toml)<br/>- Tags: SpecialPeriodEnd
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -47913,7 +48139,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211215T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211215T061048
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211215T061049
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
@@ -47984,7 +48210,7 @@ DESCRIPTION:- Indian civil date: 1943-09-25\, Islamic: 1443-05-11 Jumādā
  n\n## दिनमान-कालविभागाः\n- 🌅**सूर
  ्योदयः**—06:38-12:15🌞️-17:52🌇  \n- 🌛**चन्
  द्रोदयः**—15:50\; **चन्द्रास्तमय
- ः**—04:53(+1)  \n___________________\n- 🌞⚝भट्टभास
+ ः**—04:52(+1)  \n___________________\n- 🌞⚝भट्टभास
  ्कर-मते वीर्यवन्तः— **प्रातः
  **—06:38-08:02\; **साङ्गवः**—09:26-10:50\; **मध्
  याह्नः**—12:15-13:39\; **अपराह्णः**—15:03-
@@ -48257,7 +48483,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:शनिरोहिणी-पुण्यकालः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211218T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211218T134609
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211218T134611
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/zanirOh
  iNI-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDay
@@ -48742,6 +48968,31 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:परशुराम-जयन्ती
+DTSTART;VALUE=DATE:20211221
+DTEND;VALUE=DATE:20211222
+DESCRIPTION:Observed on Kr̥Ṣṇa-Dvitīyā tithi of Mārgaśīrṣaḥ 
+ (lunar) month (Sūryōdayaḥ/puurvaviddha). Jayanti of Parashurama\, who 
+ incarnated to destroy Dushta Kshatriyas.<br/><br/>मार्गशीर
+ ्षे द्वितीयायां कृष्णपक्षे
+  तु भार्गवः।  <br/>दुष्टक्षत्र
+ ियविद्वेषी रामोऽभूत्तापसा
+ ग्रणीः।  <br/>अवतारदिने पुण्ये
+  हरिमुद्दिश्य भक्तितः।  <br/>उ
+ पवासादि यत् किञ्चित्तदानन्
+ त्याय कल्पते॥<br/><br/><br/><br/>## Details<br/>- 
+ References<br/>  - Vaidyanatha Dikshitiyam (SVR) p.62<br/>- [Edit config f
+ ile](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/l
+ unar_month/tithi/09/17/parazurAma~jayantI~2.toml)<br/>- Tags: Dashavataram
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:रमण-महर्षि-जयन्ती #१४३
 DTSTART;VALUE=DATE:20211221
 DTEND;VALUE=DATE:20211222
@@ -48762,7 +49013,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:सहो-मासः/दक्षिणायनम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211221T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211221T212917
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211221T212919
 DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -48790,8 +49041,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:उत्तरायण-पुण्यकालः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211221T212917
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211222T052917
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211221T212919
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211222T052919
 DESCRIPTION:Uttarāyaṇa Punyakala.<br/><br/>सङ्क्रान्
  तिस्नानाकरणे प्रत्यवायमाह 
  शातातपः—  <br/>सूर्यसङ्क्रमणे 
@@ -49687,7 +49938,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211230T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211230T185807
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211230T185809
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
@@ -49771,7 +50022,7 @@ DESCRIPTION:- Indian civil date: 1943-10-10\, Islamic: 1443-05-26 Jumādā
  िकः)  \n- 🌌🌞**सौर-नक्षत्रम्** — प
  ूर्वाषाढा►  \n___________________\n- 🌛+🌞**यो
  गः** — शूलः►17:56\; गण्डः►  \n- २|🌛-🌞|
- **करणम्** — तैतिलः►10:40\; गरः►21:00\; 
+ **करणम्** — तैतिलः►10:40\; गरः►21:01\; 
  वणिजः►  \n- 🌌🌛- **चन्द्राष्टम-र
  ाशिः**—मेषः  \n- 🌞-🪐 **अमूढग्रहा
  ः** - शनैश्चरः (-32.24° → -31.33°)\, मङ्गल
