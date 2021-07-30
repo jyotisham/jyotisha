@@ -39,6 +39,14 @@ def tr(text, script, titled=True, source_script=sanscript.roman.HK_DRAVIDIAN):
   transliterated_text = sanscript.transliterate(data=t, _from=source_script, _to=script).replace('C', 'Ch').replace('c', 'ch')
   if titled:
     transliterated_text = transliterated_text.title()
+        # for sep in [' ', '\t', '\n']:
+    #   text_parts = transliterated_text.split(sep)
+    #   if len(text_parts) > 1:
+    #     new_transliterated_text = ''
+    #     for x in text_parts:
+    #       if len(x) > 1:
+    #         transliterated_text = sep.join([(x[0].upper() + x[1:]) for x in text_parts])
+    #       else:
 
   if script == sanscript.TAMIL:
     transliterated_text = sanscript.SCHEMES[sanscript.TAMIL].apply_roman_numerals(transliterated_text)
