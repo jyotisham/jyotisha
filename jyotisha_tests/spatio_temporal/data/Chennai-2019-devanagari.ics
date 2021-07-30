@@ -6475,6 +6475,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:māgha-yama-tarpaṇam
+DTSTART;VALUE=DATE:20190305
+DTEND;VALUE=DATE:20190306
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/lunar_month/tithi/11/29/yamatarpaNam.
+ toml)<br/>- Tags: CommonFestivals<br/><br/><br/><br/>## Details<br/>- Refe
+ rences<br/>  - Naradiya Puranam\, Adhyaaya 123<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/lunar_month/t
+ ithi/11/29/yamatarpaNam.toml)<br/>- Tags: CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Māghaḥ-11-30\,Kumbhaḥ-Śatabhiṣak🌛🌌◢◣Kumbhaḥ-P
  ūrvaprōṣṭhapadā-11-22🌌🌞◢◣Tapasyaḥ-12-16🪐🌞Budhaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190306T062552
@@ -12461,10 +12479,12 @@ SUMMARY:sarva-varūthinī-ēkādaśī
 DTSTART;VALUE=DATE:20190430
 DTEND;VALUE=DATE:20190501
 DESCRIPTION:The Krishna-paksha Ekadashi of chaitra month is known as varū
- thinī-ēkādaśī.<br/><br/>## Details<br/>- [Edit config file](https://g
- ithub.com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/desc
- ription_only/varUthinI-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVra
- tam
+ thinī-ēkādaśī.<br/><br/>pakṣē pakṣē ca kartavyamēkādaśyāmup
+ ōṣaṇam।  <br/>yadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimāt
+ manaḥ।  <br/>ēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥<b
+ r/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/j
+ yotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_onl
+ y/varUthinI-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15906,8 +15926,8 @@ DTSTART;VALUE=DATE:20190530
 DTEND;VALUE=DATE:20190531
 DESCRIPTION:The Krishna-paksha Ekadashi of vaiśākha month is known as ap
  arā-ēkādaśī.<br/><br/>## Details<br/>- [Edit config file](https://git
- hub.com/jyotisham/adyatithi/blob/master/devatA/shakti/description_only/apa
- rA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ hub.com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/descri
+ ption_only/aparA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23262,23 +23282,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Chundaramūrtti Nāyaṉār (63) Gurupūjai
-DTSTART;VALUE=DATE:20190807
-DTEND;VALUE=DATE:20190808
-DESCRIPTION:Observed on Svātī nakshatra of Karkaṭaḥ (sidereal solar)
-  month (Prātaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config fil
- e](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/
- sidereal_solar_month/nakshatra/04/15/cundaramUrtti_nAyan2Ar_%2863%29_gurup
- Ujai.toml)<br/>- Tags: NayanarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:dvādaśa-saptamī
 DTSTART;VALUE=DATE:20190807
 DTEND;VALUE=DATE:20190808
@@ -23321,6 +23324,23 @@ DESCRIPTION:Observed on Śukla-Saptamī tithi of Śrāvaṇaḥ (lunar) mo
  nth (Sūryōdayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config
   file](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_mo
  nth/tithi/05/07/pApanAzanI~saptamI.toml)<br/>- Tags: LessCommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sundaramūrtti Nāyaṉār (63) Gurupūjai/Tiruvāḍi Svāti
+DTSTART;VALUE=DATE:20190807
+DTEND;VALUE=DATE:20190808
+DESCRIPTION:Observed on Svātī nakshatra of Karkaṭaḥ (sidereal solar)
+  month (Prātaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config fil
+ e](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/
+ sidereal_solar_month/nakshatra/04/15/sundaramUrtti_nAyan2Ar_%2863%29_gurup
+ Ujai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24582,10 +24602,14 @@ SUMMARY:aśūnyaśayana-vratam
 DTSTART;VALUE=DATE:20190817
 DTEND;VALUE=DATE:20190818
 DESCRIPTION:Observed on Kr̥Ṣṇa-Dvitīyā tithi of Śrāvaṇaḥ (lun
- ar) month (Chandrōdayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit
-  config file](https://github.com/jyotisham/adyatithi/blob/master/general/l
- unar_month/tithi/05/17/azUnyazayana-vratam~2.toml)<br/>- Tags: SpecialVrat
- am
+ ar) month (Chandrōdayaḥ/puurvaviddha). Lord Mahavishnu sleeps with Godd
+ ess Mahalakshmi on this day. Do Puja by placing the God/Goddess on a new b
+ ed with pillow/blanket. Do danam of same after puja.<br/><br/>lakṣmyā v
+ iyujyatē dēva na kadācit yatō bhavān।  <br/>tathā kalatrasambandh
+ ō dēva mā mē viyujyatām॥<br/><br/><br/><br/>## Details<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/vai
+ ShNava/lunar_month/tithi/05/17/azUnyazayana-vratam~2.toml)<br/>- Tags: Spe
+ cialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24830,23 +24854,14 @@ DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
  hipped as hēramba-mahāgaṇapatiḥ. Fast during the day and pray to Gan
  esha after moonrise\, as follows:<br/><br/>gaṇādhipastvaṁ dēvēśa c
  aturthyāṁ pūjitō mayā।  <br/>kaṣṭānmāṁ mōcayēśāna sarv
- amiṣṭaṁ ca dēhi mē॥<br/><br/><br/><br/>## Details<br/>- [Edit co
- nfig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/gaNap
- ati/description_only/hEramba-mahAgaNapati_mahAsaGkaTahara-caturthI-vratam.
- toml)<br/>- Tags: MonthlyVratam SankataharaChaturthiVratam
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:hēramba-mahāgaṇapati saṅkaṭahara-caturthī-vratam
-DTSTART;VALUE=DATE:20190819
-DTEND;VALUE=DATE:20190820
-DESCRIPTION:
+ amiṣṭaṁ ca dēhi mē॥  <br/>  <br/>śrāvaṇakr̥ṣṇacaturthy
+ āṁ prārabhya kr̥ṣṇacaturthīṣu yāvajjīvamēkaviṁśativarṣ
+ āṇi ēkavarṣaṁ vā saṅkaṭacaturthīvrataṁ kāryam॥  <br/>a
+ śaktau prativarṣaṁ śrāvaṇacaturthyāmēva kāryam॥<br/><br/><br
+ /><br/>## Details<br/>- References<br/>  - Dharma Sindhu p.56<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/gaN
+ apati/description_only/hEramba-mahAgaNapati_mahAsaGkaTahara-caturthI-vrata
+ m.toml)<br/>- Tags: MonthlyVratam SankataharaChaturthiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26090,10 +26105,10 @@ SUMMARY:darbha-saṅgrahaḥ
 DTSTART;VALUE=DATE:20190830
 DTEND;VALUE=DATE:20190831
 DESCRIPTION:Observed on Amāvāsyā tithi of Siṁhaḥ (sidereal solar) m
- onth (Madhyāhnaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config
-  file](https://github.com/jyotisham/adyatithi/blob/master/devatA/misc-flor
- a/sidereal_solar_month/tithi/05/30/darbha-saGgrahaH.toml)<br/>- Tags: Spec
- ialDays
+ onth (Sūryōdayaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config 
+ file](https://github.com/jyotisham/adyatithi/blob/master/devatA/misc-flora
+ /sidereal_solar_month/tithi/05/30/darbha-saGgrahaH.toml)<br/>- Tags: Speci
+ alDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -28304,10 +28319,14 @@ SUMMARY:aśūnyaśayana-vratam
 DTSTART;VALUE=DATE:20190915
 DTEND;VALUE=DATE:20190916
 DESCRIPTION:Observed on Kr̥Ṣṇa-Dvitīyā tithi of Bhādrapadaḥ (lun
- ar) month (Chandrōdayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit
-  config file](https://github.com/jyotisham/adyatithi/blob/master/general/l
- unar_month/tithi/06/17/azUnyazayana-vratam~3.toml)<br/>- Tags: SpecialVrat
- am
+ ar) month (Chandrōdayaḥ/puurvaviddha). Lord Mahavishnu sleeps with Godd
+ ess Mahalakshmi on this day. Do Puja by placing the God/Goddess on a new b
+ ed with pillow/blanket. Do danam of same after puja.<br/><br/>lakṣmyā v
+ iyujyatē dēva na kadācit yatō bhavān।  <br/>tathā kalatrasambandh
+ ō dēva mā mē viyujyatām॥<br/><br/><br/><br/>## Details<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/vai
+ ShNava/lunar_month/tithi/06/17/azUnyazayana-vratam~3.toml)<br/>- Tags: Spe
+ cialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -29121,6 +29140,26 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:avidhavā-navamī
+DTSTART;VALUE=DATE:20190923
+DTEND;VALUE=DATE:20190924
+DESCRIPTION:Observed on Kr̥Ṣṇa-Navamī tithi of Bhādrapadaḥ (lunar
+ ) month (Sūryōdayaḥ/puurvaviddha). In honour of Avidhavaas (in the fam
+ ily)\, by holding a feast for Suvasinis and Kanyas.<br/><br/>bharturagrē 
+ mr̥tā nārī sahadāhēna vā mr̥tā।  <br/>tasyāḥ sthānē niyuñ
+ jīta vipraiḥ saha suvāsinīm॥<br/><br/><br/><br/>## Details<br/>- [E
+ dit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA
+ /shakti/lunar_month/tithi/06/24/avidhavA-navamI.toml)<br/>- Tags: SpecialP
+ uja CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:dakṣiṇa-viṣuva-dinam
 DTSTART;VALUE=DATE:20190923
 DTEND;VALUE=DATE:20190924
@@ -29158,26 +29197,6 @@ SUMMARY:nabhasya-māsaḥ/varṣar̥tuḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190922T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190923T132009
 DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:sumaṅgalā-navamī
-DTSTART;VALUE=DATE:20190923
-DTEND;VALUE=DATE:20190924
-DESCRIPTION:Observed on Kr̥Ṣṇa-Navamī tithi of Bhādrapadaḥ (lunar
- ) month (Sūryōdayaḥ/puurvaviddha). In honour of Sumangalas (in the fam
- ily)\, by holding a feast for Suvasinis and Kanyas.<br/><br/>bharturagrē 
- mr̥tā nārī sahadāhēna vā mr̥tā।  <br/>tasyāḥ sthānē niyuñ
- jīta vipraiḥ saha suvāsinīm॥<br/><br/><br/><br/>## Details<br/>- [E
- dit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA
- /shakti/lunar_month/tithi/06/24/sumaGgalA~navamI.toml)<br/>- Tags: Special
- Puja CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -31782,10 +31801,14 @@ SUMMARY:aśūnyaśayana-vratam
 DTSTART;VALUE=DATE:20191015
 DTEND;VALUE=DATE:20191016
 DESCRIPTION:Observed on Kr̥Ṣṇa-Dvitīyā tithi of Āśvayujaḥ (luna
- r) month (Chandrōdayaḥ/puurvaviddha). <br/><br/>## Details<br/>- Refere
- nces<br/>  - Purushartha Chintamani<br/>- [Edit config file](https://githu
- b.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/07/17/azUn
- yazayana-vratam~4.toml)<br/>- Tags: SpecialVratam
+ r) month (Chandrōdayaḥ/puurvaviddha). Lord Mahavishnu sleeps with Godde
+ ss Mahalakshmi on this day. Do Puja by placing the God/Goddess on a new be
+ d with pillow/blanket. Do danam of same after puja.<br/><br/>lakṣmyā vi
+ yujyatē dēva na kadācit yatō bhavān।  <br/>tathā kalatrasambandhō
+  dēva mā mē viyujyatām॥<br/><br/><br/><br/>## Details<br/>- [Edit co
+ nfig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiSh
+ Nava/lunar_month/tithi/07/17/azUnyazayana-vratam~4.toml)<br/>- Tags: Speci
+ alVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -32006,19 +32029,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:mahāvyatīpāta-śrāddham
-DTSTART;VALUE=DATE:20191017
-DTEND;VALUE=DATE:20191018
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:tulā-saṅkramaṇa-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191017T203117
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191018T043114
@@ -32050,6 +32060,23 @@ DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
  Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devat
  A/gaNapati/description_only/vakratuNDa-mahAgaNapati_saGkaTahara-caturthI-v
  ratam.toml)<br/>- Tags: MonthlyVratam SankataharaChaturthiVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:vyatīpāta-śrāddham
+DTSTART;VALUE=DATE:20191017
+DTEND;VALUE=DATE:20191018
+DESCRIPTION:Observed on Vyatīpātaḥ yoga of every (sidereal solar) mont
+ h (Aparāhṇaḥ/vyaapti). Vyatipata Shraddha day.<br/><br/>## Details<br
+ />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
+ devatA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham.toml)<br/>-
+  Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -35483,6 +35510,27 @@ DESCRIPTION:- Indian civil date: 1941-08-23\, Islamic: 1441-03-16 Rabīʿ
   **Gulikakālaḥ**—09:01-10:27  \n___________________\n- **Śūlam**—
  Dakṣiṇā Dik (►13:47)\; **Parihāraḥ**–Tailam  \n_______________
  ____\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:aśūnyaśayana-vratam
+DTSTART;VALUE=DATE:20191114
+DTEND;VALUE=DATE:20191115
+DESCRIPTION:Observed on Kr̥Ṣṇa-Dvitīyā tithi of Kārttikaḥ (lunar
+ ) month (Chandrōdayaḥ/puurvaviddha). Lord Mahavishnu sleeps with Goddes
+ s Mahalakshmi on this day. Do Puja by placing the God/Goddess on a new bed
+  with pillow/blanket. Do danam of same after puja.<br/><br/>lakṣmyā viy
+ ujyatē dēva na kadācit yatō bhavān।  <br/>tathā kalatrasambandhō 
+ dēva mā mē viyujyatām॥<br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShN
+ ava/lunar_month/tithi/08/17/azUnyazayana-vratam~5.toml)<br/>- Tags: Specia
+ lVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
