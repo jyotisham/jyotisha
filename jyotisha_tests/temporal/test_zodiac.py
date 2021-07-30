@@ -7,7 +7,7 @@ from jyotisha.panchaanga.temporal.zodiac.angas import AngaType
 
 def test_get_ayanaamsha():
   ayanaamsha = zodiac.Ayanamsha.singleton(ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180)
-  assert ayanaamsha.get_offset(2458434.083333251) == 24.094859396693067
+  numpy.testing.assert_approx_equal(ayanaamsha.get_offset(2458434.083333251), 24.094859396693067)
 
 
 def disabled_test_swe_ayanaamsha_api():
@@ -55,17 +55,17 @@ def test_get_anga_span_solar_month():
   numpy.testing.assert_array_almost_equal(span_finder.find(jd1=2458222.0333434483-32, jd2=2458222.0333434483 + 4, target_anga_id=12,).to_tuple(), (2458192.24785228, 2458222.6026552585), decimal=3)
 
   jd2 = time.ist_timezone.local_time_to_julian_day(time.Date(2020, 4, 16))
-  assert span_finder.find(jd1=jd2-32, jd2=jd2, target_anga_id=1).to_tuple() == (2458953.109659805, None)
+  numpy.testing.assert_array_almost_equal(numpy.array(span_finder.find(jd1=jd2-32, jd2=jd2, target_anga_id=1).to_tuple(), dtype=numpy.float), numpy.array((2458953.10966, None), dtype=numpy.float), decimal=4)
 
-  assert span_finder.find(jd1=2458133.0189002366-32, jd2=2458133.0189002366, target_anga_id=10).to_tuple() == (2458132.8291680976, None)
+  numpy.testing.assert_array_almost_equal(numpy.array(span_finder.find(jd1=2458133.0189002366-32, jd2=2458133.0189002366, target_anga_id=10).to_tuple(), dtype=numpy.float), numpy.array((2458132.8291680976, None), dtype=numpy.float), decimal=4)
 
 
 def test_get_anga_span_tithi():
   span_finder = AngaSpanFinder.get_cached(anga_type=AngaType.TITHI, ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
 
-  assert span_finder.find(jd1=2458102.5, jd2=2458108.5, target_anga_id=30).to_tuple() == (2458104.6663699686, 2458105.771125107)
-  
-  assert span_finder.find(jd1=2444959.54042, jd2=2444963.54076, target_anga_id=27).to_tuple() == (2444960.4924699212, 2444961.599213224)
+  numpy.testing.assert_array_almost_equal(span_finder.find(jd1=2458102.5, jd2=2458108.5, target_anga_id=30).to_tuple(), (2458104.6663699686, 2458105.771125107))
+
+  numpy.testing.assert_array_almost_equal(span_finder.find(jd1=2444959.54042, jd2=2444963.54076, target_anga_id=27).to_tuple(), (2444960.4924699212, 2444961.599213224))
 
 
 def test_get_tithis_in_period():
