@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210730210447
+SEQUENCE:20210801103947
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -28729,10 +28729,10 @@ DTSTART;VALUE=DATE:20210801
 DTEND;VALUE=DATE:20210802
 DESCRIPTION:Event occured on 1678-08-01 (gregorian). Julian date was conve
  rted to Gregorian in this reckoning. After 14 months of obstinate defence 
- by the Siddi Abdulla Khan general of Adil Shah\, Vellore fort fell after a
-  contagion broke out there.<br/><br/>## Details<br/>- [Edit config file](h
- ttps://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xatra-later/
- julian/day/07/22/vellUru-durga-grahaNam.toml)<br/>- Tags:
+ by the Siddi Abdulla Khan general of Adil Shah\, Vellore fort fell to marA
+ Tha-s after a contagion broke out there.<br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha
+ /xatra-later/julian/day/07/22/vellUru-durga-grahaNam.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -36728,26 +36728,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:भरणी-यमार्चना
-DTSTART;VALUE=DATE:20210925
-DTEND;VALUE=DATE:20210926
-DESCRIPTION:Bharani Nakshatram & Chaturthi tithi falling on a Saturday.<br
- /><br/>चतुर्थी भरणीयोगः शनैश्च
- रदिने यदि।  <br/>तदाभ्यर्च्य य
- मं देवं मुच्यते सर्वकिल्वि
- षैः॥<br/><br/><br/><br/>## Details<br/>- References<br/>  - Purush
- artha Chintamani p.62<br/>- [Edit config file](https://github.com/jyotisha
- m/adyatithi/blob/master/time_focus/special-tithis/description_only/bharaNI
- -yamArcanA.toml)<br/>- Tags: RareDays Combinations
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:दिक्पाल-पूजा
 DTSTART;VALUE=DATE:20210925
 DTEND;VALUE=DATE:20210926
@@ -42683,10 +42663,12 @@ BEGIN:VEVENT
 SUMMARY:यम/भ्रातृ-द्वितीया
 DTSTART;VALUE=DATE:20211106
 DTEND;VALUE=DATE:20211107
-DESCRIPTION:Observed on Śukla-Dvitīyā tithi of Kārttikaḥ (lunar) mon
- th (Madhyāhnaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_mont
- h/tithi/08/02/yama_or_bhrAtR-dvitIyA.toml)<br/>- Tags: CommonFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/08/02/yama_or_bhrAtR-dv
+ itIyA.toml)<br/>- Tags: CommonFestivals<br/><br/><br/><br/>## Details<br/>
+ - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/ge
+ neral/lunar_month/tithi/08/02/yama_or_bhrAtR-dvitIyA.toml)<br/>- Tags: Com
+ monFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
