@@ -30,7 +30,8 @@ def dump_bengaluru_history():
   # for year in range(1950, 2020):
   #   dump_summary(year=year, city=city)
   for year in range(2010, 2023):
-    dump_summary(year=year, city=city,computation_system=temporal.get_kauNdinyAyana_bhAskara_gRhya_computation_system(), allow_precomputed=False)
+    # dump_summary(year=year, city=city,computation_system=temporal.get_kauNdinyAyana_bhAskara_gRhya_computation_system(), allow_precomputed=False)
+    dump_summary(year=year, city=city, allow_precomputed=False)
 
 
 if __name__ == '__main__':
