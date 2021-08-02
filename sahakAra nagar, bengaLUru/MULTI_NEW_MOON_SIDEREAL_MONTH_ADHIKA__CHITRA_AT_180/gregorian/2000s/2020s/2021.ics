@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210801103947
+SEQUENCE:20210802221223
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -13564,6 +13564,24 @@ DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
  b/master/devatA/graha/description_only/candra-darzanam.toml)<br/>- Tags: C
  handraDarshanam
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:जलियन्वालाबाघ-हत्या #१०२
+DTSTART;VALUE=DATE:20210413
+DTEND;VALUE=DATE:20210414
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/04/13/jaliy
+ anvAlA-bAgh-hatyA.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [
+ Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahAp
+ uruSha/xatra-later/gregorian/day/04/13/jaliyanvAlA-bAgh-hatyA.toml)<br/>- 
+ Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -37090,6 +37108,23 @@ DESCRIPTION:- Indian civil date: 1943-07-06\, Islamic: 1443-02-20 Ṣafar\
  ___________\n- **शूलम्**—उदीची दिक् (►10:5
  8)\; **परिहारः**–क्षीरम्  \n________________
  ___\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ईरम-हत्या #७९
+DTSTART;VALUE=DATE:20210928
+DTEND;VALUE=DATE:20210929
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/09/28/Irama
+ -hatyA.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit config
+  file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xatr
+ a-later/gregorian/day/09/28/Irama-hatyA.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
