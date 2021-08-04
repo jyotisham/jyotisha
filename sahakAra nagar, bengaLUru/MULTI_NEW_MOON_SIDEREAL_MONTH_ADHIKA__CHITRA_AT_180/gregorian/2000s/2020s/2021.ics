@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210802221223
+SEQUENCE:20210804070617
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -29152,6 +29152,25 @@ DESCRIPTION:- Indian civil date: 1943-05-14\, Islamic: 1442-12-26 Ḏū al
  51  \n___________________\n- **शूलम्**—दक्षिणा 
  दिक् (►14:30)\; **परिहारः**–तैलम्  \n_
  __________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:काश्मीर-पार्थक्यापाकरण
+ म् #२
+DTSTART;VALUE=DATE:20210805
+DTEND;VALUE=DATE:20210806
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/08/05/artic
+ le-370-abrogation.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [
+ Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahAp
+ uruSha/xatra-later/gregorian/day/08/05/article-370-abrogation.toml)<br/>- 
+ Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
