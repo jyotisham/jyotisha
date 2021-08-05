@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210804070617
+SEQUENCE:20210805130155
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -2446,6 +2446,25 @@ DESCRIPTION:- Indian civil date: 1942-11-01\, Islamic: 1442-06-07 Jumādā
  ___________________\n- **शूलम्**—दक्षिणा दि
  क् (►14:24)\; **परिहारः**–तैलम्  \n_______
  ____________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:जयपुरे महाराष्ट्रकहत्य
+ ा #२६९
+DTSTART;VALUE=DATE:20210121
+DTEND;VALUE=DATE:20210122
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/01/10/jayapure
+ _mahArAShTraka-hatyA.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>
+ - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/ma
+ hApuruSha/xatra-later/julian/day/01/10/jayapure_mahArAShTraka-hatyA.toml)<
+ br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
