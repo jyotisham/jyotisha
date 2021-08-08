@@ -211,8 +211,21 @@ class SolarFestivalAssigner(FestivalAssigner):
             self.panchaanga.add_festival(fest_id='agninakSatra-samApanam', date=self.daily_panchaangas[d].date)
 
   def assign_garbhottam(self):
+    if 'garbhOTTam-Arambham' not in self.rules_collection.name_to_rule:
+      return
     finder = zodiac.AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=zodiac.AngaType.SOLAR_NAKSH)
     anga = finder.find(jd1 = self.panchaanga.jd_start, jd2=self.panchaanga.jd_end, target_anga_id=20)
+
+    if anga is None:
+      logging.warning('No Garbhottam found in this panchaanga interval!')
+      return
+    if anga.jd_start is None:
+      logging.warning('No Garbhottam start found in this panchaanga interval!')
+      return
+    if anga.jd_end is None:
+      logging.warning('No Garbhottam end found in this panchaanga interval!')
+      return
+
     fday = int(floor(anga.jd_start) - floor(self.daily_panchaangas[0].julian_day_start))
     if (anga.jd_start < self.daily_panchaangas[fday].jd_sunrise):
       fday -= 1
