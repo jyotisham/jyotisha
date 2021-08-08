@@ -34,7 +34,7 @@ class SolarFestivalAssigner(FestivalAssigner):
     self.assign_vishesha_vyatipata()
     self.assign_agni_nakshatra()
     self.assign_garbhottam()
-    self.assign_padmaka_yoga()
+    # self.assign_padmaka_yoga()
 
 
   def assign_pitr_dina(self):
