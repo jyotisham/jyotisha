@@ -85,10 +85,13 @@ class VaraFestivalAssigner(FestivalAssigner):
       return 
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       # BUDHASHTAMI
-      if self.daily_panchaangas[d].date.get_weekday() == 3 and (self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise.index % 15) == 8:
-        if self.daily_panchaangas[d].lunar_month_sunrise.index == 11 and self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise.index == 8:
+      if self.daily_panchaangas[d].date.get_weekday() == 3 and self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise.index == 8:
+        if self.daily_panchaangas[d].lunar_month_sunrise.index == 11:
           # Pausha Shukla Ashtami + Budha vasara
           self.panchaanga.add_festival(fest_id='mahAbhadrA~budhASTamI', date=self.daily_panchaangas[d].date)
+        elif self.daily_panchaangas[d].lunar_month_sunrise.index in [1, 5, 6, 7, 8]:
+          # सायाह्नकाले चैत्रमासे श्रावणादिमासचतुष्टये कृष्णपक्षे च न ग्राह्या ॥
+          pass
         else:
           self.panchaanga.add_festival(fest_id='budhASTamI', date=self.daily_panchaangas[d].date)
 
