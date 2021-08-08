@@ -513,6 +513,9 @@ class TithiFestivalAssigner(FestivalAssigner):
   def assign_bodhaayana_amaavaasyaa(self):
     chandra_darshanam_days = list(self.panchaanga.festival_id_to_days['candra-darzanam'])
     for cdd in chandra_darshanam_days:
+      if 'darsheShTiH' in self.panchaanga.daily_panchaanga_for_date(cdd).festival_id_to_instance.keys():
+        self.panchaanga.add_festival(fest_id='bOdhAyana-iSTiH', date=self.panchaanga.daily_panchaanga_for_date(cdd - 1).date)
+
       ama_fest = [val for key, val in self.panchaanga.daily_panchaanga_for_date(cdd - 1).festival_id_to_instance.items() if 'amAvAsyA' in key]
       if ama_fest:
         # We have amAvAsyA preceding chandra darshanam. Therefore, the previous day must be assigned as bOdhAayana
