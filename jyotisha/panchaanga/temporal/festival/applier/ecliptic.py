@@ -81,9 +81,14 @@ class EclipticFestivalAssigner(FestivalAssigner):
         break
       else:
         fday = int(jd_eclipse_solar_end - self.daily_panchaangas[0].julian_day_start)
+        suff = 'a'
         if (jd_eclipse_solar_start < self.daily_panchaangas[fday].jd_sunrise):
+          # Grastodaya
+          suff = 'Odaya'
           jd_eclipse_solar_start = self.daily_panchaangas[fday].jd_sunrise
         if jd_eclipse_solar_end > self.daily_panchaangas[fday].jd_sunset:
+          # Grastastamana
+          suff = 'Astamana'
           jd_eclipse_solar_end = self.daily_panchaangas[fday].jd_sunset
         if jd_eclipse_solar_start == 0.0 or jd_eclipse_solar_end == 0.0:
           # Move towards the next eclipse... at least the next new
@@ -92,10 +97,10 @@ class EclipticFestivalAssigner(FestivalAssigner):
           continue
         if abs (Graha.singleton(Graha.SUN).get_longitude(jd_eclipse_solar_end) - Graha.singleton(Graha.RAHU).get_longitude(
             jd_eclipse_solar_end)) < 5:
-          grasta = 'rAhugrasta'
+          grasta = 'rAhugrast'
         else:
-          grasta = 'kEtugrasta'
-        solar_eclipse_str = 'sUrya-grahaNaM~(' + grasta + ')'
+          grasta = 'kEtugrast'
+        solar_eclipse_str = 'sUrya-grahaNaM~(' + grasta + suff + ')'
         if self.daily_panchaangas[fday].date.get_weekday() == 0:
           solar_eclipse_str = '★cUDAmaNi-' + solar_eclipse_str
         fest = FestivalInstance(name=solar_eclipse_str, interval=Interval(jd_start=jd_eclipse_solar_start, jd_end=jd_eclipse_solar_end))
