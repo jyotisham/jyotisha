@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210808104159
+SEQUENCE:20210808110246
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -46484,6 +46484,23 @@ DESCRIPTION:Observed on Kr̥Ṣṇa-Caturdaśī tithi of every (lunar) mon
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:प्रदोष-व्रतम्
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211202T174736
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211202T183830
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
+  तु  ये  कुर्याच्छ्रद्धया  यु
+ ताः।  <br/>न  भवेत्  तस्य  दारिद्
+ र्यं  जन्मान्तरशतेष्वपि॥<br/><
+ br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/pr
+ adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
