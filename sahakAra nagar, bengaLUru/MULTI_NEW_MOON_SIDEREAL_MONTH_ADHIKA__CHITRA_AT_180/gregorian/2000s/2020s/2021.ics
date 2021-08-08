@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210805130155
+SEQUENCE:20210808103622
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -505,27 +505,6 @@ DESCRIPTION:Event occured on 1008-01-06 (gregorian). Julian date was conve
   [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mah
  ApuruSha/xatra-later/julian/day/12/31/AnandapAla-parAjitiH.toml)<br/>- Tag
  s:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:बुधाष्टमी
-DTSTART;VALUE=DATE:20210106
-DTEND;VALUE=DATE:20210107
-DESCRIPTION:aṣṭamī tithi on a Wednesday is as sacred as a solar eclip
- se.<br/><br/>अमावस्या तु सोमेन सप्त
- मी भानुना सह।  <br/>चतुर्थी भूम
- िपुत्रेण सोमपुत्रेण चाष्टम
- ी।  <br/>चतस्रस्तिथयस्त्वेताः 
- सूर्यग्रहणसन्निभाः॥<br/><br/><br/><b
- r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
- thi/blob/master/time_focus/tithi-vara-combinations/description_only/budhAS
- TamI.toml)<br/>- Tags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1512,6 +1491,25 @@ DESCRIPTION:- Indian civil date: 1942-10-23\, Islamic: 1442-05-29 Jumādā
  गुलिककालः**—11:03-12:28  \n___________________\n- **
  शूलम्**—उदीची दिक् (►12:51)\; **परि
  हारः**–क्षीरम्  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अवरङ्गज़ेबः पण्ढरपुरमन्
+ दिरम् अनाशयत् #३१६
+DTSTART;VALUE=DATE:20210113
+DTEND;VALUE=DATE:20210114
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/01/02/avrangaz
+ ebaH_paNDharapura-mandiram_anAshayat.toml)<br/>- Tags: <br/><br/><br/><br/
+ >## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatith
+ i/blob/master/mahApuruSha/xatra-later/julian/day/01/02/avrangazebaH_paNDha
+ rapura-mandiram_anAshayat.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20834,27 +20832,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:बुधाष्टमी
-DTSTART;VALUE=DATE:20210602
-DTEND;VALUE=DATE:20210603
-DESCRIPTION:aṣṭamī tithi on a Wednesday is as sacred as a solar eclip
- se.<br/><br/>अमावस्या तु सोमेन सप्त
- मी भानुना सह।  <br/>चतुर्थी भूम
- िपुत्रेण सोमपुत्रेण चाष्टम
- ी।  <br/>चतस्रस्तिथयस्त्वेताः 
- सूर्यग्रहणसन्निभाः॥<br/><br/><br/><b
- r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
- thi/blob/master/time_focus/tithi-vara-combinations/description_only/budhAS
- TamI.toml)<br/>- Tags: RareDays Combinations
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:पञ्च-पर्व-पूजा (अष्टमी)
 DTSTART;VALUE=DATE:20210602
 DTEND;VALUE=DATE:20210603
@@ -36836,6 +36813,31 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:भरणी-यमार्चना
+DTSTART;VALUE=DATE:20210925
+DTEND;VALUE=DATE:20210926
+DESCRIPTION:Bharani Nakshatram & Chaturthi tithi falling on a Saturday.<br
+ /><br/>भरण्यान्तु चतुर्थ्यान्त
+ ु शनैश्चरदिने यमम्।  <br/>पूजय
+ न् सप्तजन्मोत्थैर्मुच्यते 
+ पातकैर्नरः॥ (कूर्मपुराणम्\, 
+ हेमाद्रौ)  <br/>  <br/>चतुर्थी भरणी
+ योगः शनैश्चरदिने यदि।  <br/>तद
+ ाभ्यर्च्य यमं देवं मुच्यते 
+ सर्वकिल्विषैः॥<br/><br/><br/><br/>## Details<b
+ r/>- References<br/>  - Purushartha Chintamani p.62<br/>- [Edit config fil
+ e](https://github.com/jyotisham/adyatithi/blob/master/time_focus/special-t
+ ithis/description_only/yamacaturthI-vratam.toml)<br/>- Tags: RareDays Comb
+ inations
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:भाद्रपदः-06-20\,वृषभः-कृत्ति
  का🌛🌌◢◣कन्या-उत्तरफल्गुनी-0
  6-10🌌🌞◢◣इषः-07-04🪐🌞भानुः
@@ -37325,27 +37327,6 @@ DESCRIPTION:Observed on Kr̥Ṣṇa-Aṣṭamī tithi of Bhādrapadaḥ (l
  /jyotisham/adyatithi/blob/master/general/lunar_month/tithi/06/23/azOkASTam
  I-vrata-ArambhaH.toml)<br/>- Tags: SpecialVratam VratamStart SpecialPeriod
  Start
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:बुधाष्टमी
-DTSTART;VALUE=DATE:20210929
-DTEND;VALUE=DATE:20210930
-DESCRIPTION:aṣṭamī tithi on a Wednesday is as sacred as a solar eclip
- se.<br/><br/>अमावस्या तु सोमेन सप्त
- मी भानुना सह।  <br/>चतुर्थी भूम
- िपुत्रेण सोमपुत्रेण चाष्टम
- ी।  <br/>चतस्रस्तिथयस्त्वेताः 
- सूर्यग्रहणसन्निभाः॥<br/><br/><br/><b
- r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
- thi/blob/master/time_focus/tithi-vara-combinations/description_only/budhAS
- TamI.toml)<br/>- Tags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -39069,27 +39050,6 @@ DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Āśvayujaḥ (lunar)
  ig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/shakti/
  lunar_month/tithi/07/08/bhadrakALI-pUjA.toml)<br/>- Tags: LessCommonFestiv
  als
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:बुधाष्टमी
-DTSTART;VALUE=DATE:20211013
-DTEND;VALUE=DATE:20211014
-DESCRIPTION:aṣṭamī tithi on a Wednesday is as sacred as a solar eclip
- se.<br/><br/>अमावस्या तु सोमेन सप्त
- मी भानुना सह।  <br/>चतुर्थी भूम
- िपुत्रेण सोमपुत्रेण चाष्टम
- ी।  <br/>चतस्रस्तिथयस्त्वेताः 
- सूर्यग्रहणसन्निभाः॥<br/><br/><br/><b
- r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
- thi/blob/master/time_focus/tithi-vara-combinations/description_only/budhAS
- TamI.toml)<br/>- Tags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
