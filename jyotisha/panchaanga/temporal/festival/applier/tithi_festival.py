@@ -368,7 +368,7 @@ class TithiFestivalAssigner(FestivalAssigner):
       if tithi_sunset_tmrw == 13:
         # Let's worry about assigning this tomorrow!
         continue
-      if tithi_sunset in [12, 13] and tithi_sunset_tmrw > 13:
+      if tithi_sunset in [12, 13] and tithi_sunset_tmrw in [14, 0]:
         fday = d
       elif tithi_sunset in [12, 13] and tithi_sunset_tmrw == 13:
         fday = d + 1
