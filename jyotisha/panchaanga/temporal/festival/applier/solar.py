@@ -33,6 +33,7 @@ class SolarFestivalAssigner(FestivalAssigner):
     self.assign_month_day_mesha_sankraanti()
     self.assign_vishesha_vyatipata()
     self.assign_agni_nakshatra()
+    self.assign_garbhottam()
 
 
   def assign_pitr_dina(self):
@@ -208,6 +209,19 @@ class SolarFestivalAssigner(FestivalAssigner):
         if agni_jd_end is not None:
           if self.daily_panchaangas[d].jd_sunrise < agni_jd_end < self.daily_panchaangas[d + 1].jd_sunrise:
             self.panchaanga.add_festival(fest_id='agninakSatra-samApanam', date=self.daily_panchaangas[d].date)
+
+  def assign_garbhottam(self):
+    finder = zodiac.AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=zodiac.AngaType.SOLAR_NAKSH)
+    anga = finder.find(jd1 = self.panchaanga.jd_start, jd2=self.panchaanga.jd_end, target_anga_id=20)
+    fday = int(floor(anga.jd_start) - floor(self.daily_panchaangas[0].julian_day_start))
+    if (anga.jd_start < self.daily_panchaangas[fday].jd_sunrise):
+      fday -= 1
+    self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='garbhOTTam-Arambham', interval=Interval(jd_start=anga.jd_start, jd_end=None)), date=self.daily_panchaangas[fday].date)
+
+    fday = int(floor(anga.jd_end) - floor(self.daily_panchaangas[0].julian_day_start))
+    if (anga.jd_end < self.daily_panchaangas[fday].jd_sunrise):
+      fday -= 1
+    self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='garbhOTTam-muDivu', interval=Interval(jd_start=None, jd_end=anga.jd_end)), date=self.daily_panchaangas[fday].date)
 
   def assign_month_day_kaaradaiyan(self):
     if 'kAraDaiyAn2_nOn2bu' not in self.rules_collection.name_to_rule:
