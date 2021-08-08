@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210808204934
+SEQUENCE:20210808231739
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -19260,6 +19260,26 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:मधुसूदन-पूजा
+DTSTART;VALUE=DATE:20210523
+DTEND;VALUE=DATE:20210524
+DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Vaiśākhaḥ (lunar) m
+ onth (Sūryōdayaḥ/puurvaviddha). <br/><br/>वैशाखमासि 
+ द्वादश्यां पूजयेन्मधुसूदन
+ म्।  <br/>अग्निष्टोममवाप्नोति 
+ सोमलोकं च गच्छति॥ (महाभारते 
+ दानधर्मे)<br/><br/><br/><br/>## Details<br/>- [Edit config
+  file](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava
+ /lunar_month/tithi/02/12/madhusUdana-pUjA.toml)<br/>- Tags: SpecialVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:परशुराम-द्वादशी
 DTSTART;VALUE=DATE:20210523
 DTEND;VALUE=DATE:20210524
@@ -29530,6 +29550,23 @@ DESCRIPTION:Observed on Amāvāsyā tithi of Āṣāḍhaḥ (lunar) month
   (Sūryōdayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config fi
  le](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month
  /tithi/04/30/ASADha-snAnapUrtiH.toml)<br/>- Tags: SpecialSnanam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अर्धोदय-पुण्यकालः
+DTSTART;VALUE=DATE:20210808
+DTEND;VALUE=DATE:20210809
+DESCRIPTION:A rare combination of Pausha masa\, Shravana nakshatra\, Vyati
+ pata yoga and Sunday.<br/><br/>## Details<br/>- [Edit config file](https:/
+ /github.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/d
+ escription_only/ardhOdaya-puNyakAlaH.toml)<br/>- Tags: RareDays Combinatio
+ ns
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -44401,12 +44438,13 @@ SUMMARY:मणिकर्णिका-स्नानम्/वैकु
 DTSTART;VALUE=DATE:20211118
 DTEND;VALUE=DATE:20211119
 DESCRIPTION:Observed on Śukla-Caturdaśī tithi of Kārttikaḥ (lunar) m
- onth (Sūryōdayaḥ/puurvaviddha). Perform snānam at maṇikarṇikā gh
- at in Varanasi. Perform BhagavadGita Parayanam\, Vishnu Sahasranama Paraya
- nam.<br/><br/>## Details<br/>- References<br/>  - skAnda mahApurANe vaiSNa
- vakhaNDE paJcatriMzO.adhyAyaH<br/>- [Edit config file](https://github.com/
- jyotisham/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/08/14/m
- aNikarNikA-snAnam_or_vaikuNTha-caturdazI.toml)<br/>- Tags: SpecialSnanam
+ onth (Prāktanāruṇōdayaḥ/puurvaviddha). Perform snānam at maṇikar
+ ṇikā ghat in Varanasi. Perform BhagavadGita Parayanam\, Vishnu Sahasran
+ ama Parayanam.<br/><br/>## Details<br/>- References<br/>  - skAnda mahApur
+ ANe vaiSNavakhaNDE paJcatriMzO.adhyAyaH<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tit
+ hi/08/14/maNikarNikA-snAnam_or_vaikuNTha-caturdazI.toml)<br/>- Tags: Speci
+ alSnanam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
