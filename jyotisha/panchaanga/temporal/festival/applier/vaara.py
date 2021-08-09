@@ -148,8 +148,7 @@ class VaraFestivalAssigner(FestivalAssigner):
     if 'AyuSmad-bava-saumya-saMyOgaH' not in self.rules_collection.name_to_rule:
       return
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
-
-      # AYUSHMAN BHAVA SAUMYA
+      # AYUSHMAN BAVA SAUMYA
       if self.daily_panchaangas[d].date.get_weekday() == 3 and NakshatraDivision(self.daily_panchaangas[d].jd_sunrise, ayanaamsha_id=self.ayanaamsha_id).get_anga(
           zodiac.AngaType.YOGA).index == 3:
         if NakshatraDivision(self.daily_panchaangas[d].jd_sunrise, ayanaamsha_id=self.ayanaamsha_id).get_anga(
