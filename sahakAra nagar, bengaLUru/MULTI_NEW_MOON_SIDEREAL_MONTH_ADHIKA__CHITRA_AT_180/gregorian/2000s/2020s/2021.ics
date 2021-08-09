@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210808231739
+SEQUENCE:20210809210033
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -34777,6 +34777,27 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:पद्मक-योगः
+DTSTART;VALUE=DATE:20210912
+DTEND;VALUE=DATE:20210913
+DESCRIPTION:A very special yōga\, when Shashti and Saptami conjoin on a S
+ unday\, bestowing the merit of a crore solar eclipses.<br/><br/>षष्
+ ठी च सप्तमी चैव वारश्चेदंशु
+ मालिनः।  <br/>योगोऽयं पद्मको न
+ ाम सूर्यकोटिग्रहैः समः॥ (नि
+ र्णयसिन्धौ पृ २४)<br/><br/><br/><br/>## Detail
+ s<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mas
+ ter/time_focus/special-tithis/description_only/padmaka-yOgaH-2.toml)<br/>-
+  Tags: RareDays Combinations
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:राधाविनोदपालेन +उषापुत्
  ररक्षा #७३
 DTSTART;VALUE=DATE:20210912
@@ -44462,6 +44483,28 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Kārttikaḥ (lunar) month
  aidyanātha-Dīkṣitīyam<br/>- [Edit config file](https://github.com/jyo
  tisham/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tithi/08/15/ma
  nvAdiH~%28dharmaH~%5B11%5D%29.toml)<br/>- Tags: ManvadiDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:पद्मक-योगः
+DTSTART;VALUE=DATE:20211119
+DTEND;VALUE=DATE:20211119
+DESCRIPTION:When the Sun is transiting through viśākhā\, and the moon\,
+  through kr̥ttikā\, a very special  padmaka yōga occurs\, that is more 
+ difficult to obtain than puṣkara.<br/><br/>विशाखासु य
+ दा भानुः कृत्तिकासु च चन्द्
+ रमाः।  <br/>स योगः पद्मको नाम पु
+ ष्करेष्वपि दुर्लभः॥ (स्मृत
+ िकौस्तुभे पृ ४०६)<br/><br/><br/><br/>## Detail
+ s<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mas
+ ter/time_focus/special-tithis/description_only/padmaka-yOgaH-3.toml)<br/>-
+  Tags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
