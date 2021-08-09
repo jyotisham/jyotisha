@@ -35297,6 +35297,26 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:padmaka-yōgaḥ
+DTSTART;VALUE=DATE:20191112
+DTEND;VALUE=DATE:20191113
+DESCRIPTION:When the Sun is transiting through viśākhā\, and the moon\,
+  through kr̥ttikā\, a very special  padmaka yōga occurs\, that is more 
+ difficult to obtain than puṣkara.<br/><br/>viśākhāsu yadā bhānuḥ 
+ kr̥ttikāsu ca candramāḥ।  <br/>sa yōgaḥ padmakō nāma puṣkar
+ ēṣvapi durlabhaḥ॥ (smr̥tikaustubhē pr̥ 406)<br/><br/><br/><br/>#
+ # Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/
+ blob/master/time_focus/special-tithis/description_only/padmaka-yOgaH-3.tom
+ l)<br/>- Tags: RareDays Combinations
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:vēṅkaṭācalē pūrṇimā-garuḍa-sēvā
 DTSTART;VALUE=DATE:20191112
 DTEND;VALUE=DATE:20191113

@@ -26381,7 +26381,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- आग्रयण-होमः द्राविडेषु, कार्त्तिक-पूर्णिमा-स्नानम्, कार्त्तिक-मास-अन्तिमत्रयतिथि-व्रत-समापनम्, चातुर्मास्यव्रत-समापनम्, निऩ्ऱचीर् नॆडुमाऱ नायऩार् (४८) गुरुपूजै, पार्वणव्रतम् पूर्णिमायाम्, पूर्णिमा-व्रतम्, भीष्म-पञ्चक-व्रत-समापनम्, मन्वादिः-(धर्मः-[११]), महा-अन्नाभिषेकः, वेङ्कटाचले पूर्णिमा-गरुड-सेवा, श्री-गोविन्द भगवत्पाद आराधना
+- आग्रयण-होमः द्राविडेषु, कार्त्तिक-पूर्णिमा-स्नानम्, कार्त्तिक-मास-अन्तिमत्रयतिथि-व्रत-समापनम्, चातुर्मास्यव्रत-समापनम्, निऩ्ऱचीर् नॆडुमाऱ नायऩार् (४८) गुरुपूजै, पद्मक-योगः, पार्वणव्रतम् पूर्णिमायाम्, पूर्णिमा-व्रतम्, भीष्म-पञ्चक-व्रत-समापनम्, मन्वादिः-(धर्मः-[११]), महा-अन्नाभिषेकः, वेङ्कटाचले पूर्णिमा-गरुड-सेवा, श्री-गोविन्द भगवत्पाद आराधना
 ##### आग्रयण-होमः द्राविडेषु
 
 Observed on Paurṇamāsī tithi of Tulā (sidereal solar) month (Sūryōdayaḥ/puurvaviddha). Perform hōma with fresh rice from paddy.
@@ -26488,6 +26488,20 @@ Observed on Paurṇamāsī tithi of every (lunar) month (Sūryōdayaḥ/puurvavi
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/00/15/pUrNimA~vratam.toml)
 - Tags: MonthlyFestivals
+
+
+##### पद्मक-योगः
+
+When the Sun is transiting through viśākhā, and the moon, through kr̥ttikā, a very special  padmaka yōga occurs, that is more difficult to obtain than puṣkara.
+
+विशाखासु यदा भानुः कृत्तिकासु च चन्द्रमाः।  
+स योगः पद्मको नाम पुष्करेष्वपि दुर्लभः॥ (स्मृतिकौस्तुभे पृ ४०६)
+
+
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/special-tithis/description_only/padmaka-yOgaH-3.toml)
+- Tags: RareDays Combinations
 
 
 ##### वेङ्कटाचले पूर्णिमा-गरुड-सेवा
