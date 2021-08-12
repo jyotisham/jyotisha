@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210812065049
+SEQUENCE:20210812070315
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -39170,6 +39170,24 @@ DESCRIPTION:Observed on Śukla-Saptamī tithi of Āśvayujaḥ (lunar) mon
  ya\, next day eat<br/><br/>## Details<br/>- [Edit config file](https://git
  hub.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/07/07/pa
  trikA-pravEza-pUjA.toml)<br/>- Tags: SpecialPuja
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:राजेन्द्रलाल-वीरगतिः #७५
+DTSTART;VALUE=DATE:20211012
+DTEND;VALUE=DATE:20211013
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/10/12/rAjen
+ dralAla-vIragatiH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [
+ Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahAp
+ uruSha/xatra-later/gregorian/day/10/12/rAjendralAla-vIragatiH.toml)<br/>- 
+ Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
