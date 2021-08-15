@@ -37,7 +37,6 @@ Pyswisseph is a thin wrapper around the C++ code.
 
 - [Official py Docs](https://astrorigin.com/pyswisseph/pydoc/index.html) - not [unsupported docs](http://pythonhosted.org/pyswisseph/swisseph-module.html).
 - [swisseph docs](http://www.astro.com/swisseph/swephprg.htm)
-- Install the latest library: `sudo pip3 install git+https://github.com/astrorigin/pyswisseph@master -U`
 
 ## Deployment
 - [api.vedavaapi.org/jyotisha](http://api.vedavaapi.org/jyotisha)

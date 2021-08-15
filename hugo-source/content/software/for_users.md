@@ -5,11 +5,12 @@ title = "For users"
 For detailed examples and help, please see individual module files - especially test files in this package.
 
 ## Installation or upgrade:
-- Install the pyswisseph library specially as described below.
+- Install the pyswisseph library specially as described in the [contribution section](../contributing/).
 - Install the jyotisha package
   -  (Prefer this to get the latest code:)`sudo pip install git+https://github.com/jyotisham/jyotisha/@master -U`
   - `sudo pip install jyotisha -U`
 - [Web](https://pypi.python.org/pypi/jyotisha).
+
 
 ## Usage
 ### Simple invocation
