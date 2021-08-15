@@ -542,7 +542,7 @@ class TithiFestivalAssigner(FestivalAssigner):
           if day_panchaanga.date.get_weekday() == 6:
             vtr_name = 'mahA' + vtr_name
             if NakshatraDivision(day_panchaanga.jd_sunrise, ayanaamsha_id=self.ayanaamsha_id).get_anga(
-                zodiac.AngaType.NAKSHATRA).index == 23:
+                zodiac.AngaType.YOGA).index == 23:
               vtr_name = 'mahA' + vtr_name
           self.panchaanga.add_festival(fest_id=vtr_name, date=day_panchaanga.date)
 
