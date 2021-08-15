@@ -241,11 +241,6 @@ class SolarFestivalAssigner(FestivalAssigner):
     if 'kAraDaiyAn2_nOn2bu' not in self.rules_collection.name_to_rule:
       return
     for d, daily_panchaanga in enumerate(self.daily_panchaangas):
-      ####################
-      # Festival details #
-      ####################
-
-      # KARADAIYAN NOMBU
       if daily_panchaanga.solar_sidereal_date_sunset.month == 12 and daily_panchaanga.solar_sidereal_date_sunset.day == 1:
         festival_name = 'kAraDaiyAn2 nOn2bu'
         if NakshatraDivision(daily_panchaanga.jd_sunrise - (1 / 15.0) * (daily_panchaanga.jd_sunrise - self.daily_panchaangas[d - 1].jd_sunrise),
@@ -347,6 +342,8 @@ class SolarFestivalAssigner(FestivalAssigner):
         self.panchaanga.add_festival(fest_id='mahAvyatIpAta-zrAddham', date=date)
 
   def assign_gajachhaya_yoga(self):
+    if 'gajacchAyA-yOgaH' not in self.rules_collection.name_to_rule:
+      return 
     self._assign_yoga('gajacchAyA-yOgaH', [(zodiac.AngaType.SOLAR_NAKSH, 13), (zodiac.AngaType.NAKSHATRA, 10), (zodiac.AngaType.TITHI, 28)],
                       jd_start=self.panchaanga.jd_start, jd_end=self.panchaanga.jd_end)
     self._assign_yoga('gajacchAyA-yOgaH', [(zodiac.AngaType.SOLAR_NAKSH, 13), (zodiac.AngaType.NAKSHATRA, 13), (zodiac.AngaType.TITHI, 30)],
@@ -358,7 +355,7 @@ class SolarFestivalAssigner(FestivalAssigner):
     for d, daily_panchaanga in enumerate(self.daily_panchaangas):
       # यदा विष्टिर्व्यतीपातो भानुवारस्तथैव च॥
       # पद्मको नाम योगोयमयनादेश्चतुर्गुणः॥ (धर्मसिन्धौ पृ ३००)
-      VISHTI = [8, 15, 22, 29, 36, 43, 50, 57]
+      VISHTI = list(range(8, 60, 7))
       sunrise_zodiac = NakshatraDivision(daily_panchaanga.jd_sunrise, ayanaamsha_id=self.computation_system.ayanaamsha_id)
       sunset_zodiac = NakshatraDivision(daily_panchaanga.jd_sunset, ayanaamsha_id=self.computation_system.ayanaamsha_id)
       if daily_panchaanga.date.get_weekday() == 0 and \
@@ -366,7 +363,6 @@ class SolarFestivalAssigner(FestivalAssigner):
          sunset_zodiac.get_anga(zodiac.AngaType.YOGA).index == 17) and \
         (sunrise_zodiac.get_anga(zodiac.AngaType.KARANA).index in VISHTI or \
          sunset_zodiac.get_anga(zodiac.AngaType.KARANA).index in VISHTI):
-        # TODO: Check for overlap between VISHTI & Vyatipata!
         if sunrise_zodiac.get_anga(zodiac.AngaType.KARANA).index in VISHTI:
           karana_ID = sunrise_zodiac.get_anga(zodiac.AngaType.KARANA).index
         elif sunset_zodiac.get_anga(zodiac.AngaType.KARANA).index in VISHTI:
@@ -392,7 +388,7 @@ class SolarFestivalAssigner(FestivalAssigner):
       # 4th pada of vyatipatam, 1st pada of Amavasya, 2nd pada of Shravana, Suryodaya, Somavasara = Mahodayam
       sunrise_zodiac = NakshatraDivision(daily_panchaanga.jd_sunrise, ayanaamsha_id=self.computation_system.ayanaamsha_id)
       sunset_zodiac = NakshatraDivision(daily_panchaanga.jd_sunset, ayanaamsha_id=self.computation_system.ayanaamsha_id)
-      if daily_panchaanga.lunar_month_sunrise.index in [10, 11] and daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == 30 or tithi.get_tithi(daily_panchaanga.jd_sunrise).index == 30:
+      if daily_panchaanga.lunar_month_sunrise.index in [10, 11] and (daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == 30 or tithi.get_tithi(daily_panchaanga.jd_sunrise).index == 30):
         if sunrise_zodiac.get_anga(zodiac.AngaType.YOGA).index == 17 or \
             sunset_zodiac.get_anga(zodiac.AngaType.YOGA).index == 17 and \
             sunrise_zodiac.get_anga(zodiac.AngaType.NAKSHATRA).index == 22 or \
@@ -406,7 +402,6 @@ class SolarFestivalAssigner(FestivalAssigner):
             self.panchaanga.add_festival(fest_id=festival_name, date=self.daily_panchaangas[d].date)
             # logging.debug('* %d-%02d-%02d> %s!' % (y, m, dt, festival_name))
       
-
 
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])
