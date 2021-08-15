@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210815134014
+SEQUENCE:20210815225541
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -11023,9 +11023,17 @@ SUMMARY:सर्व-आमलकी-एकादशी
 DTSTART;VALUE=DATE:20210325
 DTEND;VALUE=DATE:20210326
 DESCRIPTION:The Shukla-paksha Ekadashi of phālguna month is known as āma
- lakī-ēkādaśī.<br/><br/>## Details<br/>- [Edit config file](https://gi
- thub.com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/descr
- iption_only/AmalakI-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ lakī-ēkādaśī.<br/><br/>फाल्गुने मासि शु
+ क्लायामेकादश्यां जनार्दनः
+ ।  <br/>वसत्यामलकीवृक्षे लक्ष्
+ म्या सह जगत्पतिः॥  <br/>तत्र सम
+ ्पूज्य देवेशं शक्त्या कुर्
+ यात् प्रदक्षिणाम्।  <br/>उपोष्
+ य विधिवत् कल्पं विष्णुलोके 
+ महीयते॥ (नृसिंहपरिचर्या)<br/><br
+ /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/Amal
+ akI-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16201,12 +16209,12 @@ BEGIN:VEVENT
 SUMMARY:श्री-हनूमत्-जयन्ती
 DTSTART;VALUE=DATE:20210427
 DTEND;VALUE=DATE:20210428
-DESCRIPTION:Observed on Paurṇamāsī tithi of Caitraḥ (lunar) month (S
- ūryōdayaḥ/puurvaviddha). Hanuman born from Kaikeyi part of Payasam tak
- en by Vulture and eaten by Anjana Devi<br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShN
- ava/lunar_month/tithi/01/15/zrI~hanUmat~jayantI~2.toml)<br/>- Tags: LessCo
- mmonFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/01/15/zrI~hanU
+ mat~jayantI~2.toml)<br/>- Tags: LessCommonFestivals<br/><br/><br/><br/>## 
+ Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/bl
+ ob/master/devatA/vaiShNava/lunar_month/tithi/01/15/zrI~hanUmat~jayantI~2.t
+ oml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23568,10 +23576,19 @@ SUMMARY:सर्व-पाण्डव-निर्जला-एकाद
 DTSTART;VALUE=DATE:20210621
 DTEND;VALUE=DATE:20210622
 DESCRIPTION:The Shukla-paksha Ekadashi of jyaiṣṭha month is known as n
- irjalā-ēkādaśī.<br/><br/>## Details<br/>- [Edit config file](https://
- github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/des
- cription_only/pANDava-nirjalA-EkAdazI.toml)<br/>- Tags: MonthlyVratam Ekad
- ashiVratam
+ irjalā-ēkādaśī.<br/><br/>वृषस्थे मिथुनस्
+ थेऽर्के शुक्ला ह्येकादशी भ
+ वेत्।  <br/>ज्येष्ठे मासि प्रय
+ त्नेन सोपोष्या जलवर्जिता॥  <
+ br/>स्नाने चाचमने चैव वर्जयेन
+ ्नोदकं बुधः॥  <br/>संवत्सरस्य 
+ मध्ये एकादश्यो भवन्त्युत।  <
+ br/>तासां फलमवाप्नोति अत्र मे 
+ नास्ति संशयः॥ (हेमाद्रौ-महा
+ भारते व्यासवचनम्)<br/><br/><br/><br/>## Deta
+ ils<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/m
+ aster/time_focus/monthly/ekAdashI/description_only/pANDava-nirjalA-EkAdazI
+ .toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23928,11 +23945,12 @@ SUMMARY:दुर्गन्ध-दौर्भाग्य-नाशक-
  त्रयोदशी
 DTSTART;VALUE=DATE:20210623
 DTEND;VALUE=DATE:20210624
-DESCRIPTION:Observed on Śukla-Trayōdaśī tithi of Jyaiṣṭhaḥ (luna
- r) month (Sūryōdayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit c
- onfig file](https://github.com/jyotisham/adyatithi/blob/master/general/lun
- ar_month/tithi/03/13/durgandha-daurbhAgya-nAzaka-trayOdazI.toml)<br/>- Tag
- s: LessCommonFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/03/13/durgandha-daurbhA
+ gya-nAzaka-trayOdazI.toml)<br/>- Tags: LessCommonFestivals<br/><br/><br/><
+ br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyat
+ ithi/blob/master/general/lunar_month/tithi/03/13/durgandha-daurbhAgya-nAza
+ ka-trayOdazI.toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25043,10 +25061,13 @@ SUMMARY:शीतलाष्टमी
 DTSTART;VALUE=DATE:20210702
 DTEND;VALUE=DATE:20210703
 DESCRIPTION:Observed on Kr̥Ṣṇa-Aṣṭamī tithi of Jyaiṣṭhaḥ (
- lunar) month (Sūryōdayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Ed
- it config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/
- shakti/lunar_month/tithi/03/23/zItalASTamI.toml)<br/>- Tags: LessCommonFes
- tivals
+ lunar) month (Sūryōdayaḥ/puurvaviddha). <br/><br/>वन्देऽ
+ हं शीतलां देवीं रासभस्थां द
+ िगम्बराम्।  <br/>मार्जनीकलशोप
+ ेतां शूर्पालङ्कृतमस्तकाम्
+ ॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.
+ com/jyotisham/adyatithi/blob/master/devatA/shakti/lunar_month/tithi/03/23/
+ zItalASTamI.toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -29675,23 +29696,6 @@ DESCRIPTION:Observed on Amāvāsyā tithi of Āṣāḍhaḥ (lunar) month
   (Sūryōdayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config fi
  le](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month
  /tithi/04/30/ASADha-snAnapUrtiH.toml)<br/>- Tags: SpecialSnanam
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:अर्धोदय-पुण्यकालः
-DTSTART;VALUE=DATE:20210808
-DTEND;VALUE=DATE:20210809
-DESCRIPTION:A rare combination of Pausha masa\, Shravana nakshatra\, Vyati
- pata yoga and Sunday.<br/><br/>## Details<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/d
- escription_only/ardhOdaya-puNyakAlaH.toml)<br/>- Tags: RareDays Combinatio
- ns
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -39894,16 +39898,19 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:विजयदशमी
+SUMMARY:विजयादशमी
 DTSTART;VALUE=DATE:20211015
 DTEND;VALUE=DATE:20211016
 DESCRIPTION:Observed on Śukla-Daśamī tithi of Āśvayujaḥ (lunar) mon
  th (Sūryōdayaḥ/puurvaviddha). Arjuna wins over all Kauravas and Karna<
  br/>Sri Rama's army built tents on ocean bank before crossing on Shravana 
- star (AnandaRamayanam)<br/>Best day for AksharaaBhyaasam<br/><br/>## Detai
- ls<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/ma
- ster/general/lunar_month/tithi/07/10/vijayadazamI.toml)<br/>- Tags: Common
- Festivals
+ star (AnandaRamayanam)<br/>Best day for AksharaaBhyaasam<br/><br/>आश
+ ्विनस्य सिते पक्षे दशम्यां 
+ तारकोदये।  <br/>स कालो विजयो ज्
+ ञेयः सर्वकार्यार्थसिद्धये
+ ॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.
+ com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/07/10/vijaya
+ dazamI.toml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
