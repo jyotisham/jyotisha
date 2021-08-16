@@ -1,5 +1,7 @@
 import logging
 
+import regex
+
 from indic_transliteration import sanscript
 from jyotisha import custom_transliteration
 from jyotisha.panchaanga.temporal import AngaType, names
@@ -27,6 +29,7 @@ def describe_fest(rule, include_images, include_shlokas, include_url, is_brief, 
   blurb = get_timing_summary(rule)
   # Get the URL
   description_string = get_description_str_with_shlokas(include_shlokas, rule, script)
+  description_string = regex.sub("\n## ", "\n%s " % header_md, "\n" + description_string).lstrip()
   if include_images:
     if rule.image is not None:
       image_string = '![](https://github.com/jyotisham/adyatithi/blob/master/images/%s)\n\n' % rule.image
@@ -36,7 +39,7 @@ def describe_fest(rule, include_images, include_shlokas, include_url, is_brief, 
     final_description_string = blurb
   else:
       final_description_string = ''
-  final_description_string += description_string
+  final_description_string += "\n\n" + description_string
   if include_images:
     final_description_string += image_string
   url = rule.get_url()
