@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210815225458
+SEQUENCE:20210816105410
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -374,10 +374,10 @@ SUMMARY:माघ-अष्टका-श्राद्धम्
 DTSTART;VALUE=DATE:20210106
 DTEND;VALUE=DATE:20210107
 DESCRIPTION:Observed on Kr̥Ṣṇa-Aṣṭamī tithi of Māghaḥ (lunar)
-  month (Aparāhṇaḥ/vyaapti). <br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/luna
- r_month/tithi/11/23/mAgha-aSTakA-zrAddham.toml)<br/>- Tags: ShannavatiTarp
- anaDays
+  month (Aparāhṇaḥ/vyaapti). <br/><br/><br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
+ neral/lunar_month/tithi/11/23/mAgha-aSTakA-zrAddham.toml)<br/>- Tags: Shan
+ navatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -835,9 +835,9 @@ SUMMARY:दर्शेष्टिः
 DTSTART;VALUE=DATE:20210113
 DTEND;VALUE=DATE:20210114
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_mon
- th/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
+ /lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -852,15 +852,15 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
 DTSTART;VALUE=DATE:20210113
 DTEND;VALUE=DATE:20210114
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्
- ष उपोष्य वा श्वोभूत उदकमुपस
- ्पृश्य सावित्रीं प्राणायाम
- शः सहस्रकृत्व आवर्तयेद् अप
- ्राणायामशो वा ' इत्य् आपस्तम
- ्बधर्मसूत्रेषु।<br/><br/>## Details<br/>- [E
- dit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/
- Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)<br/
- >- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा तिल
+ भक्ष उपोष्य वा श्वोभूत उदकम
+ ुपस्पृश्य सावित्रीं प्राणा
+ यामशः सहस्रकृत्व आवर्तयेद्
+  अप्राणायामशो वा ' इत्य् आपस
+ ्तम्बधर्मसूत्रेषु।<br/><br/>## Details
+ <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
+ er/gRhya/Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.
+ toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -874,11 +874,12 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210113
 DTEND;VALUE=DATE:20210114
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ri
- tual\, involving the offering of haviṣyānna to agni\, with the offering
-  being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/luna
- r_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important fort
+ nightly ritual\, involving the offering of haviṣyānna to agni\, with th
+ e offering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
+ neral/lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1844,15 +1845,15 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
 DTSTART;VALUE=DATE:20210129
 DTEND;VALUE=DATE:20210130
 DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभ
- क्ष उपोष्य वा श्वोभूत उदकमु
- पस्पृश्य सावित्रीं प्राणाय
- ामशः सहस्रकृत्व आवर्तयेद् 
- अप्राणायामशो वा ' इत्य् आपस्
- तम्बधर्मसूत्रेषु।<br/><br/>## Details<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
- gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAshaH_16.to
- ml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा त
+ िलभक्ष उपोष्य वा श्वोभूत उद
+ कमुपस्पृश्य सावित्रीं प्रा
+ णायामशः सहस्रकृत्व आवर्तये
+ द् अप्राणायामशो वा ' इत्य् आ
+ पस्तम्बधर्मसूत्रेषु।<br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAs
+ haH_16.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1866,9 +1867,10 @@ SUMMARY:पूर्णमासेष्टिः
 DTSTART;VALUE=DATE:20210129
 DTEND;VALUE=DATE:20210130
 DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/luna
- r_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
+ neral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFest
+ ivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1882,11 +1884,12 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210129
 DTEND;VALUE=DATE:20210130
 DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnight
- ly ritual\, involving the offering of haviṣyānna to agni\, with the off
- ering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
- /lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important
+  fortnightly ritual\, involving the offering of haviṣyānna to agni\, wi
+ th the offering being cooked on the fire itself.<br/><br/>## Details<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRh
+ ya/general/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: Monthl
+ yFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2739,9 +2742,9 @@ SUMMARY:दर्शेष्टिः
 DTSTART;VALUE=DATE:20210212
 DTEND;VALUE=DATE:20210213
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_mon
- th/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
+ /lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2756,15 +2759,15 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
 DTSTART;VALUE=DATE:20210212
 DTEND;VALUE=DATE:20210213
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्
- ष उपोष्य वा श्वोभूत उदकमुपस
- ्पृश्य सावित्रीं प्राणायाम
- शः सहस्रकृत्व आवर्तयेद् अप
- ्राणायामशो वा ' इत्य् आपस्तम
- ्बधर्मसूत्रेषु।<br/><br/>## Details<br/>- [E
- dit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/
- Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)<br/
- >- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा तिल
+ भक्ष उपोष्य वा श्वोभूत उदकम
+ ुपस्पृश्य सावित्रीं प्राणा
+ यामशः सहस्रकृत्व आवर्तयेद्
+  अप्राणायामशो वा ' इत्य् आपस
+ ्तम्बधर्मसूत्रेषु।<br/><br/>## Details
+ <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
+ er/gRhya/Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.
+ toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2778,11 +2781,12 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210212
 DTEND;VALUE=DATE:20210213
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ri
- tual\, involving the offering of haviṣyānna to agni\, with the offering
-  being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/luna
- r_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important fort
+ nightly ritual\, involving the offering of haviṣyānna to agni\, with th
+ e offering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
+ neral/lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3814,15 +3818,15 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
 DTSTART;VALUE=DATE:20210228
 DTEND;VALUE=DATE:20210301
 DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभ
- क्ष उपोष्य वा श्वोभूत उदकमु
- पस्पृश्य सावित्रीं प्राणाय
- ामशः सहस्रकृत्व आवर्तयेद् 
- अप्राणायामशो वा ' इत्य् आपस्
- तम्बधर्मसूत्रेषु।<br/><br/>## Details<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
- gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAshaH_16.to
- ml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा त
+ िलभक्ष उपोष्य वा श्वोभूत उद
+ कमुपस्पृश्य सावित्रीं प्रा
+ णायामशः सहस्रकृत्व आवर्तये
+ द् अप्राणायामशो वा ' इत्य् आ
+ पस्तम्बधर्मसूत्रेषु।<br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAs
+ haH_16.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3836,9 +3840,10 @@ SUMMARY:पूर्णमासेष्टिः
 DTSTART;VALUE=DATE:20210228
 DTEND;VALUE=DATE:20210301
 DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/luna
- r_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
+ neral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFest
+ ivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3852,11 +3857,12 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210228
 DTEND;VALUE=DATE:20210301
 DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnight
- ly ritual\, involving the offering of haviṣyānna to agni\, with the off
- ering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
- /lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important
+  fortnightly ritual\, involving the offering of haviṣyānna to agni\, wi
+ th the offering being cooked on the fire itself.<br/><br/>## Details<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRh
+ ya/general/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: Monthl
+ yFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4776,9 +4782,9 @@ SUMMARY:दर्शेष्टिः
 DTSTART;VALUE=DATE:20210314
 DTEND;VALUE=DATE:20210315
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_mon
- th/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
+ /lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4793,15 +4799,15 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
 DTSTART;VALUE=DATE:20210314
 DTEND;VALUE=DATE:20210315
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्
- ष उपोष्य वा श्वोभूत उदकमुपस
- ्पृश्य सावित्रीं प्राणायाम
- शः सहस्रकृत्व आवर्तयेद् अप
- ्राणायामशो वा ' इत्य् आपस्तम
- ्बधर्मसूत्रेषु।<br/><br/>## Details<br/>- [E
- dit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/
- Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)<br/
- >- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा तिल
+ भक्ष उपोष्य वा श्वोभूत उदकम
+ ुपस्पृश्य सावित्रीं प्राणा
+ यामशः सहस्रकृत्व आवर्तयेद्
+  अप्राणायामशो वा ' इत्य् आपस
+ ्तम्बधर्मसूत्रेषु।<br/><br/>## Details
+ <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
+ er/gRhya/Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.
+ toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4815,11 +4821,12 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210314
 DTEND;VALUE=DATE:20210315
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ri
- tual\, involving the offering of haviṣyānna to agni\, with the offering
-  being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/luna
- r_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important fort
+ nightly ritual\, involving the offering of haviṣyānna to agni\, with th
+ e offering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
+ neral/lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5792,15 +5799,15 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
 DTSTART;VALUE=DATE:20210329
 DTEND;VALUE=DATE:20210330
 DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभ
- क्ष उपोष्य वा श्वोभूत उदकमु
- पस्पृश्य सावित्रीं प्राणाय
- ामशः सहस्रकृत्व आवर्तयेद् 
- अप्राणायामशो वा ' इत्य् आपस्
- तम्बधर्मसूत्रेषु।<br/><br/>## Details<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
- gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAshaH_16.to
- ml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा त
+ िलभक्ष उपोष्य वा श्वोभूत उद
+ कमुपस्पृश्य सावित्रीं प्रा
+ णायामशः सहस्रकृत्व आवर्तये
+ द् अप्राणायामशो वा ' इत्य् आ
+ पस्तम्बधर्मसूत्रेषु।<br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAs
+ haH_16.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5814,9 +5821,10 @@ SUMMARY:पूर्णमासेष्टिः
 DTSTART;VALUE=DATE:20210329
 DTEND;VALUE=DATE:20210330
 DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/luna
- r_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
+ neral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFest
+ ivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5830,11 +5838,12 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210329
 DTEND;VALUE=DATE:20210330
 DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnight
- ly ritual\, involving the offering of haviṣyānna to agni\, with the off
- ering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
- /lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important
+  fortnightly ritual\, involving the offering of haviṣyānna to agni\, wi
+ th the offering being cooked on the fire itself.<br/><br/>## Details<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRh
+ ya/general/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: Monthl
+ yFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6740,9 +6749,9 @@ SUMMARY:दर्शेष्टिः
 DTSTART;VALUE=DATE:20210412
 DTEND;VALUE=DATE:20210413
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_mon
- th/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
+ /lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6757,15 +6766,15 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
 DTSTART;VALUE=DATE:20210412
 DTEND;VALUE=DATE:20210413
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्
- ष उपोष्य वा श्वोभूत उदकमुपस
- ्पृश्य सावित्रीं प्राणायाम
- शः सहस्रकृत्व आवर्तयेद् अप
- ्राणायामशो वा ' इत्य् आपस्तम
- ्बधर्मसूत्रेषु।<br/><br/>## Details<br/>- [E
- dit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/
- Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)<br/
- >- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा तिल
+ भक्ष उपोष्य वा श्वोभूत उदकम
+ ुपस्पृश्य सावित्रीं प्राणा
+ यामशः सहस्रकृत्व आवर्तयेद्
+  अप्राणायामशो वा ' इत्य् आपस
+ ्तम्बधर्मसूत्रेषु।<br/><br/>## Details
+ <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
+ er/gRhya/Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.
+ toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6779,11 +6788,12 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210412
 DTEND;VALUE=DATE:20210413
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ri
- tual\, involving the offering of haviṣyānna to agni\, with the offering
-  being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/luna
- r_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important fort
+ nightly ritual\, involving the offering of haviṣyānna to agni\, with th
+ e offering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
+ neral/lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7689,15 +7699,15 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
 DTSTART;VALUE=DATE:20210427
 DTEND;VALUE=DATE:20210428
 DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभ
- क्ष उपोष्य वा श्वोभूत उदकमु
- पस्पृश्य सावित्रीं प्राणाय
- ामशः सहस्रकृत्व आवर्तयेद् 
- अप्राणायामशो वा ' इत्य् आपस्
- तम्बधर्मसूत्रेषु।<br/><br/>## Details<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
- gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAshaH_16.to
- ml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा त
+ िलभक्ष उपोष्य वा श्वोभूत उद
+ कमुपस्पृश्य सावित्रीं प्रा
+ णायामशः सहस्रकृत्व आवर्तये
+ द् अप्राणायामशो वा ' इत्य् आ
+ पस्तम्बधर्मसूत्रेषु।<br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAs
+ haH_16.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7711,9 +7721,10 @@ SUMMARY:पूर्णमासेष्टिः
 DTSTART;VALUE=DATE:20210427
 DTEND;VALUE=DATE:20210428
 DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/luna
- r_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
+ neral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFest
+ ivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7727,11 +7738,12 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210427
 DTEND;VALUE=DATE:20210428
 DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnight
- ly ritual\, involving the offering of haviṣyānna to agni\, with the off
- ering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
- /lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important
+  fortnightly ritual\, involving the offering of haviṣyānna to agni\, wi
+ th the offering being cooked on the fire itself.<br/><br/>## Details<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRh
+ ya/general/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: Monthl
+ yFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8622,9 +8634,9 @@ SUMMARY:दर्शेष्टिः
 DTSTART;VALUE=DATE:20210512
 DTEND;VALUE=DATE:20210513
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_mon
- th/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
+ /lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8639,15 +8651,15 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
 DTSTART;VALUE=DATE:20210512
 DTEND;VALUE=DATE:20210513
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्
- ष उपोष्य वा श्वोभूत उदकमुपस
- ्पृश्य सावित्रीं प्राणायाम
- शः सहस्रकृत्व आवर्तयेद् अप
- ्राणायामशो वा ' इत्य् आपस्तम
- ्बधर्मसूत्रेषु।<br/><br/>## Details<br/>- [E
- dit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/
- Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)<br/
- >- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा तिल
+ भक्ष उपोष्य वा श्वोभूत उदकम
+ ुपस्पृश्य सावित्रीं प्राणा
+ यामशः सहस्रकृत्व आवर्तयेद्
+  अप्राणायामशो वा ' इत्य् आपस
+ ्तम्बधर्मसूत्रेषु।<br/><br/>## Details
+ <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
+ er/gRhya/Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.
+ toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8661,11 +8673,12 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210512
 DTEND;VALUE=DATE:20210513
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ri
- tual\, involving the offering of haviṣyānna to agni\, with the offering
-  being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/luna
- r_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important fort
+ nightly ritual\, involving the offering of haviṣyānna to agni\, with th
+ e offering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
+ neral/lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9554,15 +9567,15 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
 DTSTART;VALUE=DATE:20210527
 DTEND;VALUE=DATE:20210528
 DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभ
- क्ष उपोष्य वा श्वोभूत उदकमु
- पस्पृश्य सावित्रीं प्राणाय
- ामशः सहस्रकृत्व आवर्तयेद् 
- अप्राणायामशो वा ' इत्य् आपस्
- तम्बधर्मसूत्रेषु।<br/><br/>## Details<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
- gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAshaH_16.to
- ml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा त
+ िलभक्ष उपोष्य वा श्वोभूत उद
+ कमुपस्पृश्य सावित्रीं प्रा
+ णायामशः सहस्रकृत्व आवर्तये
+ द् अप्राणायामशो वा ' इत्य् आ
+ पस्तम्बधर्मसूत्रेषु।<br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAs
+ haH_16.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9576,9 +9589,10 @@ SUMMARY:पूर्णमासेष्टिः
 DTSTART;VALUE=DATE:20210527
 DTEND;VALUE=DATE:20210528
 DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/luna
- r_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
+ neral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFest
+ ivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9592,11 +9606,12 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210527
 DTEND;VALUE=DATE:20210528
 DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnight
- ly ritual\, involving the offering of haviṣyānna to agni\, with the off
- ering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
- /lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important
+  fortnightly ritual\, involving the offering of haviṣyānna to agni\, wi
+ th the offering being cooked on the fire itself.<br/><br/>## Details<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRh
+ ya/general/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: Monthl
+ yFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10494,9 +10509,9 @@ SUMMARY:दर्शेष्टिः
 DTSTART;VALUE=DATE:20210611
 DTEND;VALUE=DATE:20210612
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_mon
- th/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
+ /lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10511,15 +10526,15 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
 DTSTART;VALUE=DATE:20210611
 DTEND;VALUE=DATE:20210612
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्
- ष उपोष्य वा श्वोभूत उदकमुपस
- ्पृश्य सावित्रीं प्राणायाम
- शः सहस्रकृत्व आवर्तयेद् अप
- ्राणायामशो वा ' इत्य् आपस्तम
- ्बधर्मसूत्रेषु।<br/><br/>## Details<br/>- [E
- dit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/
- Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)<br/
- >- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा तिल
+ भक्ष उपोष्य वा श्वोभूत उदकम
+ ुपस्पृश्य सावित्रीं प्राणा
+ यामशः सहस्रकृत्व आवर्तयेद्
+  अप्राणायामशो वा ' इत्य् आपस
+ ्तम्बधर्मसूत्रेषु।<br/><br/>## Details
+ <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
+ er/gRhya/Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.
+ toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10533,11 +10548,12 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210611
 DTEND;VALUE=DATE:20210612
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ri
- tual\, involving the offering of haviṣyānna to agni\, with the offering
-  being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/luna
- r_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important fort
+ nightly ritual\, involving the offering of haviṣyānna to agni\, with th
+ e offering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
+ neral/lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11342,11 +11358,11 @@ SUMMARY:सर्प-बलि-प्रारम्भः
 DTSTART;VALUE=DATE:20210624
 DTEND;VALUE=DATE:20210625
 DESCRIPTION:Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) mon
- th (Sūryōdayaḥ/puurvaviddha). Offer bali to serpents on (from) this da
- y\, in the night after sthālīpāka.<br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamb
- a/lunar_month/tithi/05/15/sarpa-bali-prArambhaH.toml)<br/>- Tags: LessComm
- onFestivals
+ th (Sūryōdayaḥ/puurvaviddha). <br/><br/>Offer bali to serpents on (fro
+ m) this day\, in the night after sthālīpāka.<br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhy
+ a/Apastamba/lunar_month/tithi/05/15/sarpa-bali-prArambhaH.toml)<br/>- Tags
+ : LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11361,15 +11377,15 @@ SUMMARY:श्रावण्युपवासः प्रायश्
 DTSTART;VALUE=DATE:20210624
 DTEND;VALUE=DATE:20210625
 DESCRIPTION:Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) mon
- th (Sūryōdayaḥ/puurvaviddha). श्रावण्यां पौर
- ्णमास्यां तिलभक्ष उपोष्य व
- ा श्वोभूते महानदम् उदकम् उप
- स्पृश्य सावित्र्या समित्-स
- हस्रम् आदध्याज् जपेद् वा इत
- ्य् आपस्तम्बधर्मसूत्रेषु।<
- br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
- adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/05/15/shrAvaNy-upa
- vAsaH.toml)<br/>- Tags: LessCommonFestivals
+ th (Sūryōdayaḥ/puurvaviddha). <br/><br/>श्रावण्यां
+  पौर्णमास्यां तिलभक्ष उपोष
+ ्य वा श्वोभूते महानदम् उदकम
+ ् उपस्पृश्य सावित्र्या समि
+ त्-सहस्रम् आदध्याज् जपेद् व
+ ा इत्य् आपस्तम्बधर्मसूत्रे
+ षु।<br/><br/>## Details<br/>- [Edit config file](https://github.com/
+ jyotisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/05/15/sh
+ rAvaNy-upavAsaH.toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11476,15 +11492,15 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
 DTSTART;VALUE=DATE:20210625
 DTEND;VALUE=DATE:20210626
 DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभ
- क्ष उपोष्य वा श्वोभूत उदकमु
- पस्पृश्य सावित्रीं प्राणाय
- ामशः सहस्रकृत्व आवर्तयेद् 
- अप्राणायामशो वा ' इत्य् आपस्
- तम्बधर्मसूत्रेषु।<br/><br/>## Details<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
- gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAshaH_16.to
- ml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा त
+ िलभक्ष उपोष्य वा श्वोभूत उद
+ कमुपस्पृश्य सावित्रीं प्रा
+ णायामशः सहस्रकृत्व आवर्तये
+ द् अप्राणायामशो वा ' इत्य् आ
+ पस्तम्बधर्मसूत्रेषु।<br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAs
+ haH_16.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11498,9 +11514,10 @@ SUMMARY:पूर्णमासेष्टिः
 DTSTART;VALUE=DATE:20210625
 DTEND;VALUE=DATE:20210626
 DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/luna
- r_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
+ neral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFest
+ ivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11515,15 +11532,15 @@ SUMMARY:सहस्रगायत्रीजपः प्रायश
 DTSTART;VALUE=DATE:20210625
 DTEND;VALUE=DATE:20210626
 DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of Śrāvaṇaḥ (lun
- ar) month (Sūryōdayaḥ/puurvaviddha). श्रावण्यां 
- पौर्णमास्यां तिलभक्ष उपोष्
- य वा श्वोभूते महानदम् उदकम् 
- उपस्पृश्य सावित्र्या समित्
- -सहस्रम् आदध्याज् जपेद् वा इ
- त्य् आपस्तम्बधर्मसूत्रेषु
- ।<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
- ham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/05/16/sahasra-
- gAyatrI-japaH.toml)<br/>- Tags: LessCommonFestivals
+ ar) month (Sūryōdayaḥ/puurvaviddha). <br/><br/>श्रावण्
+ यां पौर्णमास्यां तिलभक्ष उ
+ पोष्य वा श्वोभूते महानदम् उ
+ दकम् उपस्पृश्य सावित्र्या 
+ समित्-सहस्रम् आदध्याज् जपे
+ द् वा इत्य् आपस्तम्बधर्मसू
+ त्रेषु।<br/><br/>## Details<br/>- [Edit config file](https:/
+ /github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/ti
+ thi/05/16/sahasra-gAyatrI-japaH.toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11537,11 +11554,12 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210625
 DTEND;VALUE=DATE:20210626
 DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnight
- ly ritual\, involving the offering of haviṣyānna to agni\, with the off
- ering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
- /lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important
+  fortnightly ritual\, involving the offering of haviṣyānna to agni\, wi
+ th the offering being cooked on the fire itself.<br/><br/>## Details<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRh
+ ya/general/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: Monthl
+ yFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11669,10 +11687,10 @@ SUMMARY:ऋग्वेद-उपाकर्म
 DTSTART;VALUE=DATE:20210627
 DTEND;VALUE=DATE:20210628
 DESCRIPTION:Observed on Śravaṇaḥ nakshatra of Śrāvaṇaḥ (lunar) 
- month (Sūryōdayaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config
-  file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lu
- nar_month/nakshatra/05/22/RgvEda-upAkarma.toml)<br/>- Tags: CommonFestival
- s
+ month (Sūryōdayaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [E
+ dit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/
+ general/lunar_month/nakshatra/05/22/RgvEda-upAkarma.toml)<br/>- Tags: Comm
+ onFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12445,9 +12463,9 @@ SUMMARY:दर्शेष्टिः
 DTSTART;VALUE=DATE:20210710
 DTEND;VALUE=DATE:20210711
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_mon
- th/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
+ /lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12462,15 +12480,15 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
 DTSTART;VALUE=DATE:20210710
 DTEND;VALUE=DATE:20210711
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्
- ष उपोष्य वा श्वोभूत उदकमुपस
- ्पृश्य सावित्रीं प्राणायाम
- शः सहस्रकृत्व आवर्तयेद् अप
- ्राणायामशो वा ' इत्य् आपस्तम
- ्बधर्मसूत्रेषु।<br/><br/>## Details<br/>- [E
- dit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/
- Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)<br/
- >- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा तिल
+ भक्ष उपोष्य वा श्वोभूत उदकम
+ ुपस्पृश्य सावित्रीं प्राणा
+ यामशः सहस्रकृत्व आवर्तयेद्
+  अप्राणायामशो वा ' इत्य् आपस
+ ्तम्बधर्मसूत्रेषु।<br/><br/>## Details
+ <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
+ er/gRhya/Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.
+ toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12484,11 +12502,12 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210710
 DTEND;VALUE=DATE:20210711
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ri
- tual\, involving the offering of haviṣyānna to agni\, with the offering
-  being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/luna
- r_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important fort
+ nightly ritual\, involving the offering of haviṣyānna to agni\, with th
+ e offering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
+ neral/lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13328,15 +13347,15 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
 DTSTART;VALUE=DATE:20210724
 DTEND;VALUE=DATE:20210725
 DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभ
- क्ष उपोष्य वा श्वोभूत उदकमु
- पस्पृश्य सावित्रीं प्राणाय
- ामशः सहस्रकृत्व आवर्तयेद् 
- अप्राणायामशो वा ' इत्य् आपस्
- तम्बधर्मसूत्रेषु।<br/><br/>## Details<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
- gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAshaH_16.to
- ml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा त
+ िलभक्ष उपोष्य वा श्वोभूत उद
+ कमुपस्पृश्य सावित्रीं प्रा
+ णायामशः सहस्रकृत्व आवर्तये
+ द् अप्राणायामशो वा ' इत्य् आ
+ पस्तम्बधर्मसूत्रेषु।<br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAs
+ haH_16.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13350,9 +13369,10 @@ SUMMARY:पूर्णमासेष्टिः
 DTSTART;VALUE=DATE:20210724
 DTEND;VALUE=DATE:20210725
 DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/luna
- r_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
+ neral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFest
+ ivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13366,11 +13386,12 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210724
 DTEND;VALUE=DATE:20210725
 DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnight
- ly ritual\, involving the offering of haviṣyānna to agni\, with the off
- ering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
- /lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important
+  fortnightly ritual\, involving the offering of haviṣyānna to agni\, wi
+ th the offering being cooked on the fire itself.<br/><br/>## Details<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRh
+ ya/general/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: Monthl
+ yFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14329,9 +14350,9 @@ SUMMARY:दर्शेष्टिः
 DTSTART;VALUE=DATE:20210809
 DTEND;VALUE=DATE:20210810
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_mon
- th/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
+ /lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14346,15 +14367,15 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
 DTSTART;VALUE=DATE:20210809
 DTEND;VALUE=DATE:20210810
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्
- ष उपोष्य वा श्वोभूत उदकमुपस
- ्पृश्य सावित्रीं प्राणायाम
- शः सहस्रकृत्व आवर्तयेद् अप
- ्राणायामशो वा ' इत्य् आपस्तम
- ्बधर्मसूत्रेषु।<br/><br/>## Details<br/>- [E
- dit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/
- Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)<br/
- >- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा तिल
+ भक्ष उपोष्य वा श्वोभूत उदकम
+ ुपस्पृश्य सावित्रीं प्राणा
+ यामशः सहस्रकृत्व आवर्तयेद्
+  अप्राणायामशो वा ' इत्य् आपस
+ ्तम्बधर्मसूत्रेषु।<br/><br/>## Details
+ <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
+ er/gRhya/Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.
+ toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14368,11 +14389,12 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210809
 DTEND;VALUE=DATE:20210810
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ri
- tual\, involving the offering of haviṣyānna to agni\, with the offering
-  being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/luna
- r_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important fort
+ nightly ritual\, involving the offering of haviṣyānna to agni\, with th
+ e offering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
+ neral/lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15216,15 +15238,15 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
 DTSTART;VALUE=DATE:20210823
 DTEND;VALUE=DATE:20210824
 DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभ
- क्ष उपोष्य वा श्वोभूत उदकमु
- पस्पृश्य सावित्रीं प्राणाय
- ामशः सहस्रकृत्व आवर्तयेद् 
- अप्राणायामशो वा ' इत्य् आपस्
- तम्बधर्मसूत्रेषु।<br/><br/>## Details<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
- gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAshaH_16.to
- ml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा त
+ िलभक्ष उपोष्य वा श्वोभूत उद
+ कमुपस्पृश्य सावित्रीं प्रा
+ णायामशः सहस्रकृत्व आवर्तये
+ द् अप्राणायामशो वा ' इत्य् आ
+ पस्तम्बधर्मसूत्रेषु।<br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAs
+ haH_16.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15238,9 +15260,10 @@ SUMMARY:पूर्णमासेष्टिः
 DTSTART;VALUE=DATE:20210823
 DTEND;VALUE=DATE:20210824
 DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/luna
- r_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
+ neral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFest
+ ivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15254,11 +15277,12 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210823
 DTEND;VALUE=DATE:20210824
 DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnight
- ly ritual\, involving the offering of haviṣyānna to agni\, with the off
- ering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
- /lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important
+  fortnightly ritual\, involving the offering of haviṣyānna to agni\, wi
+ th the offering being cooked on the fire itself.<br/><br/>## Details<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRh
+ ya/general/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: Monthl
+ yFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16161,9 +16185,9 @@ SUMMARY:दर्शेष्टिः
 DTSTART;VALUE=DATE:20210907
 DTEND;VALUE=DATE:20210908
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_mon
- th/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
+ /lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16178,15 +16202,15 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
 DTSTART;VALUE=DATE:20210907
 DTEND;VALUE=DATE:20210908
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्
- ष उपोष्य वा श्वोभूत उदकमुपस
- ्पृश्य सावित्रीं प्राणायाम
- शः सहस्रकृत्व आवर्तयेद् अप
- ्राणायामशो वा ' इत्य् आपस्तम
- ्बधर्मसूत्रेषु।<br/><br/>## Details<br/>- [E
- dit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/
- Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)<br/
- >- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा तिल
+ भक्ष उपोष्य वा श्वोभूत उदकम
+ ुपस्पृश्य सावित्रीं प्राणा
+ यामशः सहस्रकृत्व आवर्तयेद्
+  अप्राणायामशो वा ' इत्य् आपस
+ ्तम्बधर्मसूत्रेषु।<br/><br/>## Details
+ <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
+ er/gRhya/Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.
+ toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16200,11 +16224,12 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210907
 DTEND;VALUE=DATE:20210908
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ri
- tual\, involving the offering of haviṣyānna to agni\, with the offering
-  being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/luna
- r_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important fort
+ nightly ritual\, involving the offering of haviṣyānna to agni\, with th
+ e offering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
+ neral/lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16335,10 +16360,10 @@ SUMMARY:सामवेद-उपाकर्म
 DTSTART;VALUE=DATE:20210909
 DTEND;VALUE=DATE:20210910
 DESCRIPTION:Observed on Hastaḥ nakshatra of Siṁhaḥ (sidereal solar) 
- month (Sūryōdayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/
- sidereal_solar_month/nakshatra/05/13/sAmavEda-upAkarma.toml)<br/>- Tags: C
- ommonFestivals
+ month (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhy
+ a/general/sidereal_solar_month/nakshatra/05/13/sAmavEda-upAkarma.toml)<br/
+ >- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17076,15 +17101,15 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
 DTSTART;VALUE=DATE:20210921
 DTEND;VALUE=DATE:20210922
 DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभ
- क्ष उपोष्य वा श्वोभूत उदकमु
- पस्पृश्य सावित्रीं प्राणाय
- ामशः सहस्रकृत्व आवर्तयेद् 
- अप्राणायामशो वा ' इत्य् आपस्
- तम्बधर्मसूत्रेषु।<br/><br/>## Details<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
- gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAshaH_16.to
- ml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा त
+ िलभक्ष उपोष्य वा श्वोभूत उद
+ कमुपस्पृश्य सावित्रीं प्रा
+ णायामशः सहस्रकृत्व आवर्तये
+ द् अप्राणायामशो वा ' इत्य् आ
+ पस्तम्बधर्मसूत्रेषु।<br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAs
+ haH_16.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17098,9 +17123,10 @@ SUMMARY:पूर्णमासेष्टिः
 DTSTART;VALUE=DATE:20210921
 DTEND;VALUE=DATE:20210922
 DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/luna
- r_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
+ neral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFest
+ ivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17114,11 +17140,12 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210921
 DTEND;VALUE=DATE:20210922
 DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnight
- ly ritual\, involving the offering of haviṣyānna to agni\, with the off
- ering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
- /lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important
+  fortnightly ritual\, involving the offering of haviṣyānna to agni\, wi
+ th the offering being cooked on the fire itself.<br/><br/>## Details<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRh
+ ya/general/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: Monthl
+ yFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18074,9 +18101,9 @@ SUMMARY:दर्शेष्टिः
 DTSTART;VALUE=DATE:20211007
 DTEND;VALUE=DATE:20211008
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_mon
- th/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
+ /lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18091,15 +18118,15 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
 DTSTART;VALUE=DATE:20211007
 DTEND;VALUE=DATE:20211008
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्
- ष उपोष्य वा श्वोभूत उदकमुपस
- ्पृश्य सावित्रीं प्राणायाम
- शः सहस्रकृत्व आवर्तयेद् अप
- ्राणायामशो वा ' इत्य् आपस्तम
- ्बधर्मसूत्रेषु।<br/><br/>## Details<br/>- [E
- dit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/
- Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)<br/
- >- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा तिल
+ भक्ष उपोष्य वा श्वोभूत उदकम
+ ुपस्पृश्य सावित्रीं प्राणा
+ यामशः सहस्रकृत्व आवर्तयेद्
+  अप्राणायामशो वा ' इत्य् आपस
+ ्तम्बधर्मसूत्रेषु।<br/><br/>## Details
+ <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
+ er/gRhya/Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.
+ toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18113,11 +18140,12 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20211007
 DTEND;VALUE=DATE:20211008
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ri
- tual\, involving the offering of haviṣyānna to agni\, with the offering
-  being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/luna
- r_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important fort
+ nightly ritual\, involving the offering of haviṣyānna to agni\, with th
+ e offering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
+ neral/lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18886,11 +18914,11 @@ SUMMARY:आग्रयण-होमः द्राविडेषु
 DTSTART;VALUE=DATE:20211020
 DTEND;VALUE=DATE:20211021
 DESCRIPTION:Observed on Paurṇamāsī tithi of Tulā (sidereal solar) mon
- th (Sūryōdayaḥ/puurvaviddha). Perform hōma with fresh rice from paddy
- .<br/><br/>## Details<br/>- References<br/>  - Vaidikasri Nov 2017<br/>- [
- Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya
- /general/sidereal_solar_month/tithi/07/15/AgrayaNa~hOmaH~draviDadeshe~1.to
- ml)<br/>- Tags: SpecialPuja
+ th (Sūryōdayaḥ/puurvaviddha). <br/><br/>Perform hōma with fresh rice 
+ from paddy.<br/><br/>## Details<br/>- References<br/>  - Vaidikasri Nov 20
+ 17<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/ma
+ ster/gRhya/general/sidereal_solar_month/tithi/07/15/AgrayaNa~hOmaH~draviDa
+ deshe~1.toml)<br/>- Tags: SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18923,11 +18951,11 @@ SUMMARY:सर्प-बल्युत्सर्जनम्
 DTSTART;VALUE=DATE:20211020
 DTEND;VALUE=DATE:20211021
 DESCRIPTION:Observed on Paurṇamāsī tithi of Mārgaśīrṣaḥ (lunar)
-  month (Sūryōdayaḥ/puurvaviddha). Offer final bali to serpents on to t
- his day\, in the night after sthālīpāka.<br/><br/>## Details<br/>- [Edi
- t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Ap
- astamba/lunar_month/tithi/09/15/sarpa-bali-utsarjanam.toml)<br/>- Tags: Le
- ssCommonFestivals
+  month (Sūryōdayaḥ/puurvaviddha). <br/><br/>Offer final bali to serpen
+ ts on to this day\, in the night after sthālīpāka.<br/><br/>## Details<
+ br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/maste
+ r/gRhya/Apastamba/lunar_month/tithi/09/15/sarpa-bali-utsarjanam.toml)<br/>
+ - Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19000,15 +19028,15 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
 DTSTART;VALUE=DATE:20211021
 DTEND;VALUE=DATE:20211022
 DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभ
- क्ष उपोष्य वा श्वोभूत उदकमु
- पस्पृश्य सावित्रीं प्राणाय
- ामशः सहस्रकृत्व आवर्तयेद् 
- अप्राणायामशो वा ' इत्य् आपस्
- तम्बधर्मसूत्रेषु।<br/><br/>## Details<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
- gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAshaH_16.to
- ml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा त
+ िलभक्ष उपोष्य वा श्वोभूत उद
+ कमुपस्पृश्य सावित्रीं प्रा
+ णायामशः सहस्रकृत्व आवर्तये
+ द् अप्राणायामशो वा ' इत्य् आ
+ पस्तम्बधर्मसूत्रेषु।<br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAs
+ haH_16.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19022,9 +19050,10 @@ SUMMARY:पूर्णमासेष्टिः
 DTSTART;VALUE=DATE:20211021
 DTEND;VALUE=DATE:20211022
 DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/luna
- r_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
+ neral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFest
+ ivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19038,11 +19067,12 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20211021
 DTEND;VALUE=DATE:20211022
 DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnight
- ly ritual\, involving the offering of haviṣyānna to agni\, with the off
- ering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
- /lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important
+  fortnightly ritual\, involving the offering of haviṣyānna to agni\, wi
+ th the offering being cooked on the fire itself.<br/><br/>## Details<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRh
+ ya/general/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: Monthl
+ yFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19868,11 +19898,11 @@ SUMMARY:आग्रयण-होमः द्राविडेषु
 DTSTART;VALUE=DATE:20211104
 DTEND;VALUE=DATE:20211105
 DESCRIPTION:Observed on Amāvāsyā tithi of Tulā (sidereal solar) month 
- (Sūryōdayaḥ/puurvaviddha). Perform hōma with fresh rice from paddy.<b
- r/><br/>## Details<br/>- References<br/>  - Vaidikasri Nov 2017<br/>- [Edi
- t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
- neral/sidereal_solar_month/tithi/07/30/AgrayaNa~hOmaH~draviDadeshe~2.toml)
- <br/>- Tags: SpecialPuja
+ (Sūryōdayaḥ/puurvaviddha). <br/><br/>Perform hōma with fresh rice fro
+ m paddy.<br/><br/>## Details<br/>- References<br/>  - Vaidikasri Nov 2017<
+ br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/maste
+ r/gRhya/general/sidereal_solar_month/tithi/07/30/AgrayaNa~hOmaH~draviDades
+ he~2.toml)<br/>- Tags: SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19963,9 +19993,9 @@ SUMMARY:दर्शेष्टिः
 DTSTART;VALUE=DATE:20211105
 DTEND;VALUE=DATE:20211106
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_mon
- th/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
+ /lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19980,15 +20010,15 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
 DTSTART;VALUE=DATE:20211105
 DTEND;VALUE=DATE:20211106
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्
- ष उपोष्य वा श्वोभूत उदकमुपस
- ्पृश्य सावित्रीं प्राणायाम
- शः सहस्रकृत्व आवर्तयेद् अप
- ्राणायामशो वा ' इत्य् आपस्तम
- ्बधर्मसूत्रेषु।<br/><br/>## Details<br/>- [E
- dit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/
- Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)<br/
- >- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा तिल
+ भक्ष उपोष्य वा श्वोभूत उदकम
+ ुपस्पृश्य सावित्रीं प्राणा
+ यामशः सहस्रकृत्व आवर्तयेद्
+  अप्राणायामशो वा ' इत्य् आपस
+ ्तम्बधर्मसूत्रेषु।<br/><br/>## Details
+ <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
+ er/gRhya/Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.
+ toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20002,11 +20032,12 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20211105
 DTEND;VALUE=DATE:20211106
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ri
- tual\, involving the offering of haviṣyānna to agni\, with the offering
-  being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/luna
- r_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important fort
+ nightly ritual\, involving the offering of haviṣyānna to agni\, with th
+ e offering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
+ neral/lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20830,11 +20861,11 @@ SUMMARY:आग्रयण-होमः द्राविडेषु
 DTSTART;VALUE=DATE:20211119
 DTEND;VALUE=DATE:20211120
 DESCRIPTION:Observed on Paurṇamāsī tithi of Vr̥Ścikaḥ (sidereal so
- lar) month (Sūryōdayaḥ/puurvaviddha). Perform hōma with fresh rice fr
- om paddy.<br/><br/>## Details<br/>- References<br/>  - Vaidikasri Nov 2017
- <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
- er/gRhya/general/sidereal_solar_month/tithi/08/15/AgrayaNa~hOmaH~draviDade
- she~3.toml)<br/>- Tags: SpecialPuja
+ lar) month (Sūryōdayaḥ/puurvaviddha). <br/><br/>Perform hōma with fre
+ sh rice from paddy.<br/><br/>## Details<br/>- References<br/>  - Vaidikasr
+ i Nov 2017<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/gRhya/general/sidereal_solar_month/tithi/08/15/AgrayaNa~hOmaH
+ ~draviDadeshe~3.toml)<br/>- Tags: SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20868,18 +20899,18 @@ SUMMARY:तैत्तिरीय-उत्सर्गः पौर्
 DTSTART;VALUE=DATE:20211119
 DTEND;VALUE=DATE:20211120
 DESCRIPTION:Observed on Paurṇamāsī tithi of Pauṣaḥ (lunar) month (
- Sūryōdayaḥ/puurvaviddha). ###### आपस्तम्बसूत्
- रेषु<br/>तैषीपक्षस्य रोहिण्य
- ां पौर्णमास्यां वोत्सर्गः 
- ८  <br/>अभिप्यन्ते +++(=प्रार्थयन
- ्ते [स्नानादिकं सहैव कर्तुं]
- )+++ वान्योन्यम् १६<br/><br/>… एवं प
- ारायण+++(=यथारुच्यध्ययनमिति 
- केचित्)+++समाप्तौ च - काण्डादि
-  दूर्वारोपणोदधि-धावनवर्जम्
-  २४<br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
- otisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/10/15/tait
- tirIya-utsargaH_paurNamAsyAm.toml)<br/>- Tags: CommonFestivals
+ Sūryōdayaḥ/puurvaviddha). <br/><br/>## आपस्तम्बसू
+ त्रेषु<br/>तैषीपक्षस्य रोहिण
+ ्यां पौर्णमास्यां वोत्सर्ग
+ ः ८  <br/>अभिप्यन्ते +++(=प्रार्थय
+ न्ते [स्नानादिकं सहैव कर्तु
+ ं])+++ वान्योन्यम् १६<br/><br/>… एवं 
+ पारायण+++(=यथारुच्यध्ययनमिति
+  केचित्)+++समाप्तौ च - काण्डाद
+ ि दूर्वारोपणोदधि-धावनवर्जम
+ ् २४<br/><br/>## Details<br/>- [Edit config file](https://github.com
+ /jyotisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/10/15/t
+ aittirIya-utsargaH_paurNamAsyAm.toml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20951,15 +20982,15 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
 DTSTART;VALUE=DATE:20211120
 DTEND;VALUE=DATE:20211121
 DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभ
- क्ष उपोष्य वा श्वोभूत उदकमु
- पस्पृश्य सावित्रीं प्राणाय
- ामशः सहस्रकृत्व आवर्तयेद् 
- अप्राणायामशो वा ' इत्य् आपस्
- तम्बधर्मसूत्रेषु।<br/><br/>## Details<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
- gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAshaH_16.to
- ml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा त
+ िलभक्ष उपोष्य वा श्वोभूत उद
+ कमुपस्पृश्य सावित्रीं प्रा
+ णायामशः सहस्रकृत्व आवर्तये
+ द् अप्राणायामशो वा ' इत्य् आ
+ पस्तम्बधर्मसूत्रेषु।<br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAs
+ haH_16.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20973,9 +21004,10 @@ SUMMARY:पूर्णमासेष्टिः
 DTSTART;VALUE=DATE:20211120
 DTEND;VALUE=DATE:20211121
 DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/luna
- r_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
+ neral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFest
+ ivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20989,11 +21021,12 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20211120
 DTEND;VALUE=DATE:20211121
 DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnight
- ly ritual\, involving the offering of haviṣyānna to agni\, with the off
- ering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
- /lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important
+  fortnightly ritual\, involving the offering of haviṣyānna to agni\, wi
+ th the offering being cooked on the fire itself.<br/><br/>## Details<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRh
+ ya/general/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: Monthl
+ yFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21008,18 +21041,18 @@ SUMMARY:तैत्तिरीय-उत्सर्गो रोहि
 DTSTART;VALUE=DATE:20211120
 DTEND;VALUE=DATE:20211121
 DESCRIPTION:Observed on Rōhiṇī nakshatra of Pauṣaḥ (lunar) month (
- Sūryōdayaḥ/puurvaviddha). ###### आपस्तम्बसूत्
- रेषु<br/>तैषीपक्षस्य रोहिण्य
- ां पौर्णमास्यां वोत्सर्गः 
- ८  <br/>अभिप्यन्ते +++(=प्रार्थयन
- ्ते [स्नानादिकं सहैव कर्तुं]
- )+++ वान्योन्यम् १६<br/><br/>… एवं प
- ारायण+++(=यथारुच्यध्ययनमिति 
- केचित्)+++समाप्तौ च - काण्डादि
-  दूर्वारोपणोदधि-धावनवर्जम्
-  २४<br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
- otisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/nakshatra/10/04/
- taittirIya-utsargo_rohiNyAm.toml)<br/>- Tags: CommonFestivals
+ Sūryōdayaḥ/puurvaviddha). <br/><br/>## आपस्तम्बसू
+ त्रेषु<br/>तैषीपक्षस्य रोहिण
+ ्यां पौर्णमास्यां वोत्सर्ग
+ ः ८  <br/>अभिप्यन्ते +++(=प्रार्थय
+ न्ते [स्नानादिकं सहैव कर्तु
+ ं])+++ वान्योन्यम् १६<br/><br/>… एवं 
+ पारायण+++(=यथारुच्यध्ययनमिति
+  केचित्)+++समाप्तौ च - काण्डाद
+ ि दूर्वारोपणोदधि-धावनवर्जम
+ ् २४<br/><br/>## Details<br/>- [Edit config file](https://github.com
+ /jyotisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/nakshatra/10/
+ 04/taittirIya-utsargo_rohiNyAm.toml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21847,11 +21880,11 @@ SUMMARY:आग्रयण-होमः द्राविडेषु
 DTSTART;VALUE=DATE:20211204
 DTEND;VALUE=DATE:20211205
 DESCRIPTION:Observed on Amāvāsyā tithi of Vr̥Ścikaḥ (sidereal solar
- ) month (Sūryōdayaḥ/puurvaviddha). Perform hōma with fresh rice from 
- paddy.<br/><br/>## Details<br/>- References<br/>  - Vaidikasri Nov 2017<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
- gRhya/general/sidereal_solar_month/tithi/08/30/AgrayaNa~hOmaH~draviDadeshe
- ~4.toml)<br/>- Tags: SpecialPuja
+ ) month (Sūryōdayaḥ/puurvaviddha). <br/><br/>Perform hōma with fresh 
+ rice from paddy.<br/><br/>## Details<br/>- References<br/>  - Vaidikasri N
+ ov 2017<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/bl
+ ob/master/gRhya/general/sidereal_solar_month/tithi/08/30/AgrayaNa~hOmaH~dr
+ aviDadeshe~4.toml)<br/>- Tags: SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21943,9 +21976,9 @@ SUMMARY:दर्शेष्टिः
 DTSTART;VALUE=DATE:20211205
 DTEND;VALUE=DATE:20211206
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_mon
- th/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
+ /lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21960,15 +21993,15 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
 DTSTART;VALUE=DATE:20211205
 DTEND;VALUE=DATE:20211206
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभक्
- ष उपोष्य वा श्वोभूत उदकमुपस
- ्पृश्य सावित्रीं प्राणायाम
- शः सहस्रकृत्व आवर्तयेद् अप
- ्राणायामशो वा ' इत्य् आपस्तम
- ्बधर्मसूत्रेषु।<br/><br/>## Details<br/>- [E
- dit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/
- Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)<br/
- >- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा तिल
+ भक्ष उपोष्य वा श्वोभूत उदकम
+ ुपस्पृश्य सावित्रीं प्राणा
+ यामशः सहस्रकृत्व आवर्तयेद्
+  अप्राणायामशो वा ' इत्य् आपस
+ ्तम्बधर्मसूत्रेषु।<br/><br/>## Details
+ <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
+ er/gRhya/Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.
+ toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21982,11 +22015,12 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20211205
 DTEND;VALUE=DATE:20211206
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ri
- tual\, involving the offering of haviṣyānna to agni\, with the offering
-  being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/luna
- r_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important fort
+ nightly ritual\, involving the offering of haviṣyānna to agni\, with th
+ e offering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
+ neral/lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22830,15 +22864,15 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
 DTSTART;VALUE=DATE:20211219
 DTEND;VALUE=DATE:20211220
 DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). 'पर्वणि वा तिलभ
- क्ष उपोष्य वा श्वोभूत उदकमु
- पस्पृश्य सावित्रीं प्राणाय
- ामशः सहस्रकृत्व आवर्तयेद् 
- अप्राणायामशो वा ' इत्य् आपस्
- तम्बधर्मसूत्रेषु।<br/><br/>## Details<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
- gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAshaH_16.to
- ml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा त
+ िलभक्ष उपोष्य वा श्वोभूत उद
+ कमुपस्पृश्य सावित्रीं प्रा
+ णायामशः सहस्रकृत्व आवर्तये
+ द् अप्राणायामशो वा ' इत्य् आ
+ पस्तम्बधर्मसूत्रेषु।<br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAs
+ haH_16.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22852,9 +22886,10 @@ SUMMARY:पूर्णमासेष्टिः
 DTSTART;VALUE=DATE:20211219
 DTEND;VALUE=DATE:20211220
 DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/luna
- r_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
+ neral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFest
+ ivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22868,11 +22903,12 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20211219
 DTEND;VALUE=DATE:20211220
 DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnight
- ly ritual\, involving the offering of haviṣyānna to agni\, with the off
- ering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
- /lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important
+  fortnightly ritual\, involving the offering of haviṣyānna to agni\, wi
+ th the offering being cooked on the fire itself.<br/><br/>## Details<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRh
+ ya/general/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: Monthl
+ yFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23360,10 +23396,10 @@ SUMMARY:माघ-अष्टका-श्राद्धम्
 DTSTART;VALUE=DATE:20211227
 DTEND;VALUE=DATE:20211228
 DESCRIPTION:Observed on Kr̥Ṣṇa-Aṣṭamī tithi of Māghaḥ (lunar)
-  month (Aparāhṇaḥ/vyaapti). <br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/luna
- r_month/tithi/11/23/mAgha-aSTakA-zrAddham.toml)<br/>- Tags: ShannavatiTarp
- anaDays
+  month (Aparāhṇaḥ/vyaapti). <br/><br/><br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
+ neral/lunar_month/tithi/11/23/mAgha-aSTakA-zrAddham.toml)<br/>- Tags: Shan
+ navatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
