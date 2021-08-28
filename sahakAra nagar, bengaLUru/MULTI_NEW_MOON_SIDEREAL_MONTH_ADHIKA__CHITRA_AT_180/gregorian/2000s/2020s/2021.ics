@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210816105455
+SEQUENCE:20210828172926
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -9616,6 +9616,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:नवशेर-युद्धम् #१९८
+DTSTART;VALUE=DATE:20210314
+DTEND;VALUE=DATE:20210315
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/03/14/nava-
+ shera-yuddham.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruS
+ ha/xatra-later/gregorian/day/03/14/nava-shera-yuddham.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:पार्वण-प्रायश्चित्तावक
  ाशः पौर्णमास्याम्
 DTSTART;VALUE=DATE:20210314
@@ -13460,6 +13477,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अवरङ्गज़ेबो जज़ियादण्डम् 
+ आदिशति #३४२
+DTSTART;VALUE=DATE:20210412
+DTEND;VALUE=DATE:20210413
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/04/02/awrangaz
+ ebo_jaziya-daNDam_Adishati.toml)<br/>- Tags: <br/><br/><br/><br/>## Detail
+ s<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mas
+ ter/mahApuruSha/xatra-later/julian/day/04/02/awrangazebo_jaziya-daNDam_Adi
+ shati.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:दर्शेष्टिः
 DTSTART;VALUE=DATE:20210412
 DTEND;VALUE=DATE:20210413
@@ -16497,6 +16533,25 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  massacre-2006.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit
   config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruS
  ha/xatra-later/gregorian/day/04/30/DoDa-massacre-2006.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:जमरूद-युद्धे हरिसिंहो मृ
+ तः #१८४
+DTSTART;VALUE=DATE:20210430
+DTEND;VALUE=DATE:20210501
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/04/30/jamar
+ Uda-yuddhe_hari-siMho_mRtaH.toml)<br/>- Tags: <br/><br/><br/><br/>## Detai
+ ls<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/ma
+ ster/mahApuruSha/xatra-later/gregorian/day/04/30/jamarUda-yuddhe_hari-siMh
+ o_mRtaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21065,6 +21120,25 @@ DESCRIPTION:- Indian civil date: 1943-03-12\, Islamic: 1442-10-21 Shawwāl
  ककालः**—10:42-12:17  \n___________________\n- **शूलम
  ्**—उदीची दिक् (►12:43)\; **परिहारः*
  *–क्षीरम्  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:हरिसिंहेनाटक-ग्रहणम् #२०
+ ३
+DTSTART;VALUE=DATE:20210602
+DTEND;VALUE=DATE:20210603
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/06/02/khAls
+ a-sainyena_mUlasthAna-grahaNam.toml)<br/>- Tags: <br/><br/><br/><br/>## De
+ tails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob
+ /master/mahApuruSha/xatra-later/gregorian/day/06/02/khAlsa-sainyena_mUlast
+ hAna-grahaNam.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26421,6 +26495,28 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:हरिसिंहेनाटक-ग्रहणम् #२०
+ ८
+DTSTART;VALUE=DATE:20210713
+DTEND;VALUE=DATE:20210714
+DESCRIPTION:Event occured on 1813-07-13 (gregorian). <br/><br/>On this day
+ \, Hari Singh Nalwa and  Dewan Mokham Chand at the head of about 21k khAls
+ a troops routed Fateh khAn of the afghAn durrAni empire\, successfully def
+ ending aTTock fort which had been obtained by raNajIt singh's tact.<br/><b
+ r/>Amritsar\, Lahore\, and other large cities across the Sikh Empire were 
+ illuminated for two months afterwards in rejoicing over the victory. Fateh
+  Khan ran back to kAbul.<br/><br/>## Details<br/>- [Edit config file](http
+ s://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xatra-later/gre
+ gorian/day/07/13/harisiMhena_aTaka-grahaNam.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:माणिक्कवाचकर् गुरुपूजै
 DTSTART;VALUE=DATE:20210713
 DTEND;VALUE=DATE:20210714
@@ -30242,6 +30338,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:राक्षसभुवन-युद्धम् #२५८
+DTSTART;VALUE=DATE:20210810
+DTEND;VALUE=DATE:20210811
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/08/10/rAxas
+ a-bhuvana-yuddham.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [
+ Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahAp
+ uruSha/xatra-later/gregorian/day/08/10/rAxasa-bhuvana-yuddham.toml)<br/>- 
+ Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:सत्यनारायण-जयन्ती
 DTSTART;VALUE=DATE:20210810
 DTEND;VALUE=DATE:20210811
@@ -31666,23 +31780,6 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
  sham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/pr
  adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:राक्षसभुवन-युद्धम् #३५८
-DTSTART;VALUE=DATE:20210820
-DTEND;VALUE=DATE:20210821
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/08/10/rAxasa-b
- huvana-yuddham.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edi
- t config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuru
- Sha/xatra-later/julian/day/08/10/rAxasa-bhuvana-yuddham.toml)<br/>- Tags:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -33140,6 +33237,23 @@ DESCRIPTION:Observed on Kr̥Ṣṇa-Aṣṭamī tithi of Śrāvaṇaḥ (l
  ttps://github.com/jyotisham/adyatithi/blob/master/time_focus/yugAdiH/lunar
  _month/tithi/05/23/manvAdiH~%28dakSaH~%5B9%5D%29.toml)<br/>- Tags: Manvadi
  Days
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:नारायणरावो हतः #२४८
+DTSTART;VALUE=DATE:20210830
+DTEND;VALUE=DATE:20210831
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/08/30/nArAy
+ aNa-rAvo_hataH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuru
+ Sha/xatra-later/gregorian/day/08/30/nArAyaNa-rAvo_hataH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
