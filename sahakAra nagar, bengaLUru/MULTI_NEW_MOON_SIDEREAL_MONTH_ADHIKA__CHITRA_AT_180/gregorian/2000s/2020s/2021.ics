@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210828172926
+SEQUENCE:20210831091719
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -33421,6 +33421,23 @@ DESCRIPTION:Observed on Kr̥Ṣṇa-Navamī tithi of Śrāvaṇaḥ (lunar
  - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/de
  vatA/shakti/lunar_month/tithi/05/24/caNDikA-pUjA.toml)<br/>- Tags: Special
  Puja
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:घाशीरामो हतः #२३०
+DTSTART;VALUE=DATE:20210831
+DTEND;VALUE=DATE:20210901
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/08/31/ghAsh
+ IrAmo_hataH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha
+ /xatra-later/gregorian/day/08/31/ghAshIrAmo_hataH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
