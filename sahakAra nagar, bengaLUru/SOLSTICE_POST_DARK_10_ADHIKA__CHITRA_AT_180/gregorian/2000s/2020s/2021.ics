@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210831144330
+SEQUENCE:20210904194806
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -11462,22 +11462,6 @@ DESCRIPTION:- Indian civil date: 1943-04-04\, Islamic: 1442-11-15 Ḏū al
  ___________\n- **शूलम्**—प्रतीची दिक् (
  ►11:05)\; **परिहारः**–गुडम्  \n_______________
  ____\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:गायत्री-जपः
-DTSTART;VALUE=DATE:20210625
-DTEND;VALUE=DATE:20210626
-DESCRIPTION:Perform 1008 Gayatri Japa.<br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
- /relative_event/yajurvEda-upAkarma/offset__01/gAyatrI-japaH.toml)<br/>- Ta
- gs: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
