@@ -23163,6 +23163,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:ēkaviṁśati-divasa-gaṇapati-vrata-ārambhaḥ
+DTSTART;VALUE=DATE:20190804
+DTEND;VALUE=DATE:20190805
+DESCRIPTION:Observed on Śukla-Caturthī tithi of Śrāvaṇaḥ (lunar) m
+ onth (Madhyāhnaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [E
+ dit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA
+ /gaNapati/lunar_month/tithi/05/04/EkaviMzati-divasa-gaNapati-vrata-Arambha
+ H.toml)<br/>- Tags: SpecialPeriodStart
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:dūrvā-gaṇapati-vratam
 DTSTART;VALUE=DATE:20190804
 DTEND;VALUE=DATE:20190805
@@ -24601,22 +24618,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:gāyatrī-japaḥ
-DTSTART;VALUE=DATE:20190816
-DTEND;VALUE=DATE:20190817
-DESCRIPTION:Perform 1008 Gayatri Japa.<br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
- /relative_event/yajurvEda-upAkarma/offset__01/gAyatrI-japaH.toml)<br/>- Ta
- gs: CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:kāñcī jagadguru śrī-jayēndra sarasvatī jayantī #85
 DTSTART;VALUE=DATE:20190816
 DTEND;VALUE=DATE:20190817
@@ -25430,6 +25431,38 @@ DESCRIPTION:- Indian civil date: 1941-06-02\, Islamic: 1440-12-22 Ḏū al
  -15:16\; **Gulikakālaḥ**—06:00-07:33  \n___________________\n- **Śū
  lam**—Prāchī Dik (►09:18)\; **Parihāraḥ**–Dadhi  \n____________
  _______\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ēkaviṁśati-divasa-gaṇapati-vratam
+DTSTART;VALUE=DATE:20190803
+DTEND;VALUE=DATE:20190825
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/gaNapati/description_only/EkaviMzati-divas
+ a-gaNapati-vratam.toml)<br/>- Tags: SpecialPeriod
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ēkaviṁśati-divasa-gaṇapati-vrata-samāpanam
+DTSTART;VALUE=DATE:20190824
+DTEND;VALUE=DATE:20190825
+DESCRIPTION:End of the 21-day Ganapati Vratam.<br/><br/>## Details<br/>- [
+ Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devat
+ A/gaNapati/relative_event/EkaviMzati-divasa-gaNapati-vrata-ArambhaH/offset
+ __20/EkaviMzati-divasa-gaNapati-vrata-samApanam.toml)<br/>- Tags: SpecialP
+ eriodEnd
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
