@@ -4,7 +4,7 @@ scipy
 pandas
 sanskrit_data
 doc_curation
-indic_transliteration==2.2.5
+indic_transliteration
 icalendar
 convertdate
 pytz
