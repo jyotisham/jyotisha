@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210905145239
+SEQUENCE:20210905212052
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -5690,18 +5690,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:वरकुन्द-चतुर्थी
+SUMMARY:शान्ता वरकुन्द-चतुर्थी
 DTSTART;VALUE=DATE:20210215
 DTEND;VALUE=DATE:20210216
-DESCRIPTION:Observed on Śukla-Caturthī tithi of Māghaḥ (lunar) month 
- (Pradōṣaḥ/puurvaviddha). <br/><br/>माघशुक्लचतु
- र्थ्यां तु कुन्दपुष्पैः सद
- ाशिवम्।  <br/>सम्पूज्य यो हि नक
- ्ताऽऽशी सम्प्राप्नोति श्रि
- यं नरः॥<br/><br/><br/><br/>## Details<br/>- References<br/>  -
-  Nirnaya Sindhu 162<br/>- [Edit config file](https://github.com/jyotisham/
- adyatithi/blob/master/devatA/gaNapati/lunar_month/tithi/11/04/varakunda-ca
- turthI.toml)<br/>- Tags: SpecialPuja
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/gaNapati/lunar_month/tithi/11/04/varakunda
+ -caturthI.toml)<br/>- Tags: SpecialPuja<br/><br/><br/><br/>## Details<br/>
+ - References<br/>  - Nirnaya Sindhu 162<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/blob/master/devatA/gaNapati/lunar_month/tith
+ i/11/04/varakunda-caturthI.toml)<br/>- Tags: SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -34967,11 +34964,12 @@ BEGIN:VEVENT
 SUMMARY:श्रीविनायक-चतुर्थी
 DTSTART;VALUE=DATE:20210910
 DTEND;VALUE=DATE:20210911
-DESCRIPTION:Observed on Śukla-Caturthī tithi of Bhādrapadaḥ (lunar) m
- onth (Madhyāhnaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [E
- dit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA
- /gaNapati/lunar_month/tithi/06/04/zrIvinAyaka-caturthI.toml)<br/>- Tags: C
- ommonFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/gaNapati/lunar_month/tithi/06/04/zrIvinAya
+ ka-caturthI.toml)<br/>- Tags: CommonFestivals<br/><br/><br/><br/>## Detail
+ s<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mas
+ ter/devatA/gaNapati/lunar_month/tithi/06/04/zrIvinAyaka-caturthI.toml)<br/
+ >- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -48035,12 +48033,12 @@ BEGIN:VEVENT
 SUMMARY:सुखा-अङ्गारक-चतुर्थी
 DTSTART;VALUE=DATE:20211207
 DTEND;VALUE=DATE:20211208
-DESCRIPTION:chaturthī tithi on a Tuesday is as sacred as a solar eclipse.
-  When it occurs in śuklapakṣa\, it is called sukhā. Good day for doing
-  puja of Ganesha/Subrahmanya with naivedyam of modakam/millet flour respec
- tively.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
- otisham/adyatithi/blob/master/time_focus/tithi-vara-combinations/descripti
- on_only/sukhA~aGgAraka-caturthI.toml)<br/>- Tags: RareDays Combinations
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/tithi-vara-combinations/description_on
+ ly/sukhA~aGgAraka-caturthI.toml)<br/>- Tags: RareDays Combinations<br/><br
+ /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/tithi-vara-combinations/description_on
+ ly/sukhA~aGgAraka-caturthI.toml)<br/>- Tags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
