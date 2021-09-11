@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210911065855
+SEQUENCE:20210911100553
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -37031,6 +37031,25 @@ DESCRIPTION:Tulā-Viṣu Punyakala.<br/><br/>सङ्क्रान्
  ><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyo
  tisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/tulA-vi
  Su-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:वन-रक्षक-वैष्णव-हत्या #२९
+ १
+DTSTART;VALUE=DATE:20210922
+DTEND;VALUE=DATE:20210923
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/general-tropical/julian/day/09/11/van
+ a-raxaka-vaiShNava-hatyA.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<
+ br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/maste
+ r/mahApuruSha/general-tropical/julian/day/09/11/vana-raxaka-vaiShNava-haty
+ A.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
