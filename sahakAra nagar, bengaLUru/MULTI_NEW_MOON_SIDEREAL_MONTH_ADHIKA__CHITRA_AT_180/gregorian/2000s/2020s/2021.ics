@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210912065005
+SEQUENCE:20210913060127
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -18055,6 +18055,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:२००८ वर्षे जयपुरे विस्फो
+ टाः #१३
+DTSTART;VALUE=DATE:20210513
+DTEND;VALUE=DATE:20210514
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/05/13/jaipu
+ r-blasts-2008.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruS
+ ha/xatra-later/gregorian/day/05/13/jaipur-blasts-2008.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:मङ्गैयर्क्करचियार् नाय
  ऩार् (५७) गुरुपूजै
 DTSTART;VALUE=DATE:20210513
@@ -28573,6 +28591,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:२००८ वर्षे कर्णावत्यां व
+ िस्फोटाः #१३
+DTSTART;VALUE=DATE:20210726
+DTEND;VALUE=DATE:20210727
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/07/26/ahmed
+ AbAd-blasts-2008.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [E
+ dit config file](https://github.com/jyotisham/adyatithi/blob/master/mahApu
+ ruSha/xatra-later/gregorian/day/07/26/ahmedAbAd-blasts-2008.toml)<br/>- Ta
+ gs:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:काञ्ची जगद्गुरु श्री-जये
  न्द्र सरस्वती जयन्ती #८७
 DTSTART;VALUE=DATE:20210726
@@ -35463,11 +35500,11 @@ SUMMARY:२००८ वर्षे देहल्यां विस्
  फोटाः #१३
 DTSTART;VALUE=DATE:20210913
 DTEND;VALUE=DATE:20210914
-DESCRIPTION:Event occured on 2008-09-13 (gregorian). <br/><br/>Five synchr
- onised bomb blasts that took place within a span of few minutes. Carried o
- ut by Indian Mujahideen.<br/><br/>## Details<br/>- [Edit config file](http
- s://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xatra-later/gre
- gorian/day/09/13/delhi-blasts-2008.toml)<br/>- Tags:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/09/13/delhi
+ -blasts-2008.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSh
+ a/xatra-later/gregorian/day/09/13/delhi-blasts-2008.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
