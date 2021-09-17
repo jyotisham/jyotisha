@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210913060127
+SEQUENCE:20210917094243
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -36167,13 +36167,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:विश्वकर्मा-जयन्ती
+SUMMARY:विश्वकर्म-जयन्ती
 DTSTART;VALUE=DATE:20210917
 DTEND;VALUE=DATE:20210918
 DESCRIPTION:Observed on day 1 of Kanyā (sidereal solar) month (Sūryōday
  aḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit config file
  ](https://github.com/jyotisham/adyatithi/blob/master/general/sidereal_sola
- r_month/day/06/01/vizvakarmA~jayantI.toml)<br/>- Tags: OtherJayantis
+ r_month/day/06/01/vizvakarma~jayantI.toml)<br/>- Tags: OtherJayantis
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
