@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210917094243
+SEQUENCE:20210919114436
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -9511,6 +9511,27 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:पयोव्रत-आरम्भः
+DTSTART;VALUE=DATE:20210314
+DTEND;VALUE=DATE:20210315
+DESCRIPTION:Observed on Śukla-Prathamā tithi of Phālgunaḥ (lunar) mon
+ th (Sūryōdayaḥ/puurvaviddha). <br/><br/>payōvratam observed by Aditi 
+ Devi begins today.<br/><br/>फाल्गुनस्यामले प
+ क्षे द्वादशाहं पयोव्रतम्।  <
+ br/>अर्चयेदरविन्दाक्षं भक्त्
+ या परमयाऽऽन्वितः॥<br/><br/><br/><br/>## De
+ tails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob
+ /master/general/lunar_month/tithi/12/01/aditi-payOvrata-ArambhaH.toml)<br/
+ >- Tags: VratamStart SpecialPeriodStart
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:चन्द्र-दर्शनम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210314T182639
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210314T191455
@@ -9644,27 +9665,6 @@ DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
  <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
  er/gRhya/Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.
  toml)<br/>- Tags: MonthlyFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:पयोव्रत-आरम्भः
-DTSTART;VALUE=DATE:20210314
-DTEND;VALUE=DATE:20210315
-DESCRIPTION:Observed on Śukla-Prathamā tithi of Phālgunaḥ (lunar) mon
- th (Sūryōdayaḥ/puurvaviddha). <br/><br/>payōvratam observed by Aditi 
- Devi begins today.<br/><br/>फाल्गुनस्यामले प
- क्षे द्वादशाहं पयोव्रतम्।  <
- br/>अर्चयेदरविन्दाक्षं भक्त्
- या परमयाऽऽन्वितः॥<br/><br/><br/><br/>## De
- tails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob
- /master/general/lunar_month/tithi/12/01/payOvrata-ArambhaH.toml)<br/>- Tag
- s: VratamStart SpecialPeriodStart
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11162,6 +11162,40 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अदिति-पयोव्रतम्
+DTSTART;VALUE=DATE:20210314
+DTEND;VALUE=DATE:20210327
+DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:पयोव्रत-समापनम्
+DTSTART;VALUE=DATE:20210326
+DTEND;VALUE=DATE:20210327
+DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Phālgunaḥ (lunar) mo
+ nth (Sūryōdayaḥ/puurvaviddha). <br/><br/>payōvratam observed by Aditi
+  Devi ends today.<br/><br/>फाल्गुनस्यामले प
+ क्षे द्वादशाहं पयोव्रतम्।  <
+ br/>अर्चयेदरविन्दाक्षं भक्त्
+ या परमयाऽऽन्वितः॥<br/><br/><br/><br/>## De
+ tails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob
+ /master/general/lunar_month/tithi/12/12/aditi-payOvrata-samApanam.toml)<br
+ />- Tags: VratamEnd SpecialPeriodEnd
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:होल्कर-मल्हर-जन्म #३२८
 DTSTART;VALUE=DATE:20210326
 DTEND;VALUE=DATE:20210327
@@ -11240,46 +11274,6 @@ DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Phālgunaḥ (lunar) mo
  dit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA
  /vaiShNava/lunar_month/tithi/12/12/narasiMha-dvAdazI.toml)<br/>- Tags: Spe
  cialVratam
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:पयोव्रतम्
-DTSTART;VALUE=DATE:20210314
-DTEND;VALUE=DATE:20210327
-DESCRIPTION:payōvratam observed by Aditi Devi begins today.<br/><br/>फ
- ाल्गुनस्यामले पक्षे द्वादश
- ाहं पयोव्रतम्।  <br/>अर्चयेदरव
- िन्दाक्षं भक्त्या परमयाऽऽन
- ्वितः॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/blob/master/general/description_onl
- y/payOvratam.toml)<br/>- Tags: Vratam SpecialPeriod
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:पयोव्रत-समापनम्
-DTSTART;VALUE=DATE:20210326
-DTEND;VALUE=DATE:20210327
-DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Phālgunaḥ (lunar) mo
- nth (Sūryōdayaḥ/puurvaviddha). <br/><br/>payōvratam observed by Aditi
-  Devi ends today.<br/><br/>फाल्गुनस्यामले प
- क्षे द्वादशाहं पयोव्रतम्। 
- अर्चयेदरविन्दाक्षं भक्त्य
- ा परमया।अ।अन्वितः॥<br/><br/><br/><br/>##
-  Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/b
- lob/master/general/lunar_month/tithi/12/12/payOvrata-samApanam.toml)<br/>-
-  Tags: VratamEnd SpecialPeriodEnd
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -36378,6 +36372,27 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:पयोव्रत-आरम्भः
+DTSTART;VALUE=DATE:20210918
+DTEND;VALUE=DATE:20210919
+DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Bhādrapadaḥ (lunar) 
+ month (Sūryōdayaḥ/puurvaviddha). <br/><br/>payōvratam in chāturmāsy
+ am begins today.<br/><br/>प्रद्युम्न तव तुष
+ ्ट्यर्थं प्रोष्टपद्यां तृत
+ ीयके।  <br/>निर्विघ्नं कुरु दे
+ वेश करिष्येऽहं पयोव्रतम्॥<br
+ /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/blob/master/general/lunar_month/tithi/06/12/payOvrata-Ar
+ ambhaH.toml)<br/>- Tags: VratamEnd SpecialPeriodEnd CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:पुरट्टाचि चऩिक्किऴमै
 DTSTART;VALUE=DATE:20210918
 DTEND;VALUE=DATE:20210919
@@ -37475,18 +37490,18 @@ SUMMARY:भरणी-यमार्चना
 DTSTART;VALUE=DATE:20210925
 DTEND;VALUE=DATE:20210926
 DESCRIPTION:Bharani Nakshatram & Chaturthi tithi falling on a Saturday.<br
- /><br/>भरण्यान्तु चतुर्थ्यान्त
- ु शनैश्चरदिने यमम्।  <br/>पूजय
- न् सप्तजन्मोत्थैर्मुच्यते 
- पातकैर्नरः॥ (कूर्मपुराणम्\, 
- हेमाद्रौ)  <br/>  <br/>चतुर्थी भरणी
- योगः शनैश्चरदिने यदि।  <br/>तद
- ाभ्यर्च्य यमं देवं मुच्यते 
- सर्वकिल्विषैः॥<br/><br/><br/><br/>## Details<b
- r/>- References<br/>  - Purushartha Chintamani p.62<br/>- [Edit config fil
- e](https://github.com/jyotisham/adyatithi/blob/master/time_focus/special-t
- ithis/description_only/yamacaturthI-vratam.toml)<br/>- Tags: RareDays Comb
- inations
+ /><br/>भरण्यां तु चतुर्थ्यां तु 
+ शनैश्चरदिने यमम्।  <br/>पूजयन्
+  सप्तजन्मोत्थैर्मुच्यते पा
+ तकैर्नरः॥ (कूर्मपुराणम्\, हे
+ माद्रौ)  <br/>  <br/>चतुर्थी भरणीयो
+ गः शनैश्चरदिने यदि।  <br/>तदाऽ
+ भ्यर्च्य यमं देवं मुच्यते स
+ र्वकिल्विषैः॥<br/><br/><br/><br/>## Details<br/>
+ - References<br/>  - Purushartha Chintamani p.62<br/>- [Edit config file](
+ https://github.com/jyotisham/adyatithi/blob/master/time_focus/special-tith
+ is/description_only/yamacaturthI-vratam.toml)<br/>- Tags: RareDays Combina
+ tions
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -40531,6 +40546,49 @@ DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Āśvayujaḥ (lunar) m
  /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/general/lunar_month/tithi/07/12/dvidala-vrata-Ara
  mbhaH.toml)<br/>- Tags: VratamStart SpecialPeriodStart CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:द्विदल-व्रतम्
+DTSTART;VALUE=DATE:20210918
+DTEND;VALUE=DATE:20211018
+DESCRIPTION:अनिरुद्ध सुरैर्वन्द्य 
+ द्विदलव्रतमुत्तमम्।  <br/>करो
+ म्यहमिषेमासे निर्विघ्नं कु
+ रु मे प्रभो॥<br/><br/><br/><br/>## Details<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/general/d
+ escription_only/payOvratam.toml)<br/>- Tags: Vratam SpecialPeriod CommonFe
+ stivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:पयोव्रत-समापनम्
+DTSTART;VALUE=DATE:20211017
+DTEND;VALUE=DATE:20211018
+DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Āśvayujaḥ (lunar) m
+ onth (Sūryōdayaḥ/puurvaviddha). <br/><br/>श्रीप्रद्
+ युम्न नमस्तुभ्यं मासमारभ्य
+  यत्कृतम्।  <br/>इष्टदो भव सर्व
+ ेश गृहीत्वा तु पयोव्रतम्॥  <br
+ />इदं व्रतं मया देव कृतं प्री
+ त्यै तव प्रभो।  <br/>न्यूनं सम्
+ पूर्णतां यातु त्वत्प्रसादा
+ ज्जनार्दन॥<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/blob/master/general/lun
+ ar_month/tithi/07/12/payOvrata-samApanam.toml)<br/>- Tags: VratamStart Spe
+ cialPeriodStart CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
