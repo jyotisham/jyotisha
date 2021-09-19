@@ -5578,6 +5578,22 @@ ___________________
 
 #### उत्सवाः
 - काञ्ची ६७ जगद्गुरु श्री-महादेवेन्द्र सरस्वती ५ आराधना #११२, दर्शेष्टिः, पयोव्रत-आरम्भः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, स्थालीपाकः
+##### पयोव्रत-आरम्भः
+
+Observed on Śukla-Prathamā tithi of Phālgunaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
+
+payōvratam observed by Aditi Devi begins today.
+
+फाल्गुनस्यामले पक्षे द्वादशाहं पयोव्रतम्।  
+अर्चयेदरविन्दाक्षं भक्त्या परमयाऽऽन्वितः॥
+
+
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/12/01/aditi-payOvrata-ArambhaH.toml)
+- Tags: VratamStart SpecialPeriodStart
+
+
 ##### दर्शेष्टिः
 
 Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 
@@ -5624,22 +5640,6 @@ Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurv
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)
 - Tags: MonthlyFestivals
-
-
-##### पयोव्रत-आरम्भः
-
-Observed on Śukla-Prathamā tithi of Phālgunaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
-
-payōvratam observed by Aditi Devi begins today.
-
-फाल्गुनस्यामले पक्षे द्वादशाहं पयोव्रतम्।  
-अर्चयेदरविन्दाक्षं भक्त्या परमयाऽऽन्वितः॥
-
-
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/12/01/payOvrata-ArambhaH.toml)
-- Tags: VratamStart SpecialPeriodStart
 
 
 ##### स्थालीपाकः
@@ -6437,6 +6437,22 @@ ___________________
 
 #### उत्सवाः
 - कपाली अऱुपत्तु मूवर्, नरसिंह-द्वादशी, पयोव्रत-समापनम्, वेङ्कटाचले प्लवोत्सवः, सोम-प्रदोष-व्रतम्, हरिवासरः
+##### पयोव्रत-समापनम्
+
+Observed on Śukla-Dvādaśī tithi of Phālgunaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
+
+payōvratam observed by Aditi Devi ends today.
+
+फाल्गुनस्यामले पक्षे द्वादशाहं पयोव्रतम्।  
+अर्चयेदरविन्दाक्षं भक्त्या परमयाऽऽन्वितः॥
+
+
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/12/12/aditi-payOvrata-samApanam.toml)
+- Tags: VratamEnd SpecialPeriodEnd
+
+
 ##### हरिवासरः
 - →02:06
 
@@ -6478,21 +6494,6 @@ Observed on Śukla-Dvādaśī tithi of Phālgunaḥ (lunar) month (Sūryōdaya�
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/12/12/narasiMha-dvAdazI.toml)
 - Tags: SpecialVratam
-
-
-##### पयोव्रत-समापनम्
-
-Observed on Śukla-Dvādaśī tithi of Phālgunaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
-
-payōvratam observed by Aditi Devi ends today.
-
-फाल्गुनस्यामले पक्षे द्वादशाहं पयोव्रतम्। अर्चयेदरविन्दाक्षं भक्त्या परमया।अ।अन्वितः॥
-
-
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/12/12/payOvrata-samApanam.toml)
-- Tags: VratamEnd SpecialPeriodEnd
 
 
 ##### सोम-प्रदोष-व्रतम्
@@ -22677,7 +22678,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अनन्त-द्वादशी, दधि-व्रत-समापनम्, भुवनेश्वरी-जयन्ती, वामन-जयन्ती, विजया/श्रवण-महाद्वादशी, हरिवासरः
+- अनन्त-द्वादशी, दधि-व्रत-समापनम्, पयोव्रत-आरम्भः, भुवनेश्वरी-जयन्ती, वामन-जयन्ती, विजया/श्रवण-महाद्वादशी, हरिवासरः
 ##### अनन्त-द्वादशी
 
 Observed on Śukla-Dvādaśī tithi of Bhādrapadaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -22742,6 +22743,22 @@ The first quarter of dvādaśī tithi is not suitable for breaking fast (pāra�
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml)
 - Tags: MonthlyVratam EkadashiVratam
+
+
+##### पयोव्रत-आरम्भः
+
+Observed on Śukla-Dvādaśī tithi of Bhādrapadaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
+
+payōvratam in chāturmāsyam begins today.
+
+प्रद्युम्न तव तुष्ट्यर्थं प्रोष्टपद्यां तृतीयके।  
+निर्विघ्नं कुरु देवेश करिष्येऽहं पयोव्रतम्॥
+
+
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/06/12/payOvrata-ArambhaH.toml)
+- Tags: VratamEnd SpecialPeriodEnd CommonFestivals
 
 
 ##### वामन-जयन्ती
@@ -23388,7 +23405,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अङ्गारकी विघ्नराज-महागणपति सङ्कटहर-चतुर्थी-व्रतम्, कजरी-तृतीया, कन्या-रवि-सङ्क्रमण-षडशीति-पुण्यकालः, गौरी-व्रतम्, भौमाश्विनी-पुण्यकालः, विश्वकर्मा-जयन्ती
+- अङ्गारकी विघ्नराज-महागणपति सङ्कटहर-चतुर्थी-व्रतम्, कजरी-तृतीया, कन्या-रवि-सङ्क्रमण-षडशीति-पुण्यकालः, गौरी-व्रतम्, भौमाश्विनी-पुण्यकालः, विश्वकर्म-जयन्ती
 ##### अङ्गारकी विघ्नराज-महागणपति सङ्कटहर-चतुर्थी-व्रतम्
 
 
@@ -23461,14 +23478,14 @@ Kanyā-Ravi-Saṅkramaṇa-Ṣaḍaśīti Punyakala. Perform danam of clothes/pl
 - Tags: SunSankranti CommonFestivals
 
 
-##### विश्वकर्मा-जयन्ती
+##### विश्वकर्म-जयन्ती
 
 Observed on day 1 of Kanyā (sidereal solar) month (Sūryōdayaḥ/puurvaviddha). 
 
 
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/general/sidereal_solar_month/day/06/01/vizvakarmA~jayantI.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/general/sidereal_solar_month/day/06/01/vizvakarma~jayantI.toml)
 - Tags: OtherJayantis
 
 
@@ -25601,7 +25618,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- द्विदल-व्रत-आरम्भः, नरचिङ्गमुऩैयरैय नायऩार् (४०) गुरुपूजै
+- द्विदल-व्रत-आरम्भः, नरचिङ्गमुऩैयरैय नायऩार् (४०) गुरुपूजै, पयोव्रत-समापनम्
 ##### द्विदल-व्रत-आरम्भः
 
 Observed on Śukla-Dvādaśī tithi of Āśvayujaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -25625,6 +25642,22 @@ Observed on Śatabhiṣak nakshatra of Kanyā (sidereal solar) month (Prātaḥ/
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatra/06/24/naraciGgamun2aiyaraiya_nAyan2Ar_%2840%29_gurupUjai.toml)
 - Tags: NayanarGurupujai
+
+
+##### पयोव्रत-समापनम्
+
+Observed on Śukla-Dvādaśī tithi of Āśvayujaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
+
+श्रीप्रद्युम्न नमस्तुभ्यं मासमारभ्य यत्कृतम्।  
+इष्टदो भव सर्वेश गृहीत्वा तु पयोव्रतम्॥  
+इदं व्रतं मया देव कृतं प्रीत्यै तव प्रभो।  
+न्यूनं सम्पूर्णतां यातु त्वत्प्रसादाज्जनार्दन॥
+
+
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/07/12/payOvrata-samApanam.toml)
+- Tags: VratamStart SpecialPeriodStart CommonFestivals
 
 
 

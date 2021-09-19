@@ -6724,6 +6724,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:payōvrata-ārambhaḥ
+DTSTART;VALUE=DATE:20190307
+DTEND;VALUE=DATE:20190308
+DESCRIPTION:Observed on Śukla-Prathamā tithi of Phālgunaḥ (lunar) mon
+ th (Sūryōdayaḥ/puurvaviddha). <br/><br/>payōvratam observed by Aditi 
+ Devi begins today.<br/><br/>phālgunasyāmalē pakṣē dvādaśāhaṁ pa
+ yōvratam।  <br/>arcayēdaravindākṣaṁ bhaktyā paramayā''nvitaḥ
+ ॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.
+ com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/12/01/aditi-
+ payOvrata-ArambhaH.toml)<br/>- Tags: VratamStart SpecialPeriodStart
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:darśēṣṭiḥ
 DTSTART;VALUE=DATE:20190307
 DTEND;VALUE=DATE:20190308
@@ -6774,25 +6793,6 @@ DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
  <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
  er/gRhya/Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.
  toml)<br/>- Tags: MonthlyFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:payōvrata-ārambhaḥ
-DTSTART;VALUE=DATE:20190307
-DTEND;VALUE=DATE:20190308
-DESCRIPTION:Observed on Śukla-Prathamā tithi of Phālgunaḥ (lunar) mon
- th (Sūryōdayaḥ/puurvaviddha). <br/><br/>payōvratam observed by Aditi 
- Devi begins today.<br/><br/>phālgunasyāmalē pakṣē dvādaśāhaṁ pa
- yōvratam।  <br/>arcayēdaravindākṣaṁ bhaktyā paramayā''nvitaḥ
- ॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.
- com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/12/01/payOvr
- ata-ArambhaH.toml)<br/>- Tags: VratamStart SpecialPeriodStart
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7775,6 +7775,38 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:aditi-payōvratam
+DTSTART;VALUE=DATE:20190306
+DTEND;VALUE=DATE:20190319
+DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:payōvrata-samāpanam
+DTSTART;VALUE=DATE:20190318
+DTEND;VALUE=DATE:20190319
+DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Phālgunaḥ (lunar) mo
+ nth (Sūryōdayaḥ/puurvaviddha). <br/><br/>payōvratam observed by Aditi
+  Devi ends today.<br/><br/>phālgunasyāmalē pakṣē dvādaśāhaṁ pay
+ ōvratam।  <br/>arcayēdaravindākṣaṁ bhaktyā paramayā''nvitaḥ
+ ॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.
+ com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/12/12/aditi-
+ payOvrata-samApanam.toml)<br/>- Tags: VratamEnd SpecialPeriodEnd
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:harivāsaraḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190317T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190318T020614
@@ -7819,43 +7851,6 @@ DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Phālgunaḥ (lunar) mo
  dit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA
  /vaiShNava/lunar_month/tithi/12/12/narasiMha-dvAdazI.toml)<br/>- Tags: Spe
  cialVratam
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:payōvratam
-DTSTART;VALUE=DATE:20190306
-DTEND;VALUE=DATE:20190319
-DESCRIPTION:payōvratam observed by Aditi Devi begins today.<br/><br/>phā
- lgunasyāmalē pakṣē dvādaśāhaṁ payōvratam।  <br/>arcayēdaravi
- ndākṣaṁ bhaktyā paramayā''nvitaḥ॥<br/><br/><br/><br/>## Details
- <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
- er/general/description_only/payOvratam.toml)<br/>- Tags: Vratam SpecialPer
- iod
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:payōvrata-samāpanam
-DTSTART;VALUE=DATE:20190318
-DTEND;VALUE=DATE:20190319
-DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Phālgunaḥ (lunar) mo
- nth (Sūryōdayaḥ/puurvaviddha). <br/><br/>payōvratam observed by Aditi
-  Devi ends today.<br/><br/>phālgunasyāmalē pakṣē dvādaśāhaṁ pay
- ōvratam। arcayēdaravindākṣaṁ bhaktyā paramayā।a।anvitaḥ
- ॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.
- com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/12/12/payOvr
- ata-samApanam.toml)<br/>- Tags: VratamEnd SpecialPeriodEnd
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -27823,6 +27818,26 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:payōvrata-ārambhaḥ
+DTSTART;VALUE=DATE:20190910
+DTEND;VALUE=DATE:20190911
+DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Bhādrapadaḥ (lunar) 
+ month (Sūryōdayaḥ/puurvaviddha). <br/><br/>payōvratam in chāturmāsy
+ am begins today.<br/><br/>pradyumna tava tuṣṭyarthaṁ prōṣṭapady
+ āṁ tr̥tīyakē।  <br/>nirvighnaṁ kuru dēvēśa kariṣyē'haṁ p
+ ayōvratam॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https
+ ://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/06
+ /12/payOvrata-ArambhaH.toml)<br/>- Tags: VratamEnd SpecialPeriodEnd Common
+ Festivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:vāmana-jayantī
 DTSTART;VALUE=DATE:20190910
 DTEND;VALUE=DATE:20190911
@@ -28734,13 +28749,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:viśvakarmā-jayantī
+SUMMARY:viśvakarma-jayantī
 DTSTART;VALUE=DATE:20190917
 DTEND;VALUE=DATE:20190918
 DESCRIPTION:Observed on day 1 of Kanyā (sidereal solar) month (Sūryōday
  aḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit config file
  ](https://github.com/jyotisham/adyatithi/blob/master/general/sidereal_sola
- r_month/day/06/01/vizvakarmA~jayantI.toml)<br/>- Tags: OtherJayantis
+ r_month/day/06/01/vizvakarma~jayantI.toml)<br/>- Tags: OtherJayantis
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -31418,6 +31433,44 @@ DESCRIPTION:Observed on Śatabhiṣak nakshatra of Kanyā (sidereal solar)
  config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSh
  a/nAyanAr/sidereal_solar_month/nakshatra/06/24/naraciGgamun2aiyaraiya_nAya
  n2Ar_%2840%29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:dvidala-vratam
+DTSTART;VALUE=DATE:20190909
+DTEND;VALUE=DATE:20191011
+DESCRIPTION:aniruddha surairvandya dvidalavratamuttamam।  <br/>karōmyah
+ amiṣēmāsē nirvighnaṁ kuru mē prabhō॥<br/><br/><br/><br/>## Deta
+ ils<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/m
+ aster/general/description_only/payOvratam.toml)<br/>- Tags: Vratam Special
+ Period CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:payōvrata-samāpanam
+DTSTART;VALUE=DATE:20191010
+DTEND;VALUE=DATE:20191011
+DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Āśvayujaḥ (lunar) m
+ onth (Sūryōdayaḥ/puurvaviddha). <br/><br/>śrīpradyumna namastubhya
+ ṁ māsamārabhya yatkr̥tam।  <br/>iṣṭadō bhava sarvēśa gr̥hī
+ tvā tu payōvratam॥  <br/>idaṁ vrataṁ mayā dēva kr̥taṁ prītya
+ i tava prabhō।  <br/>nyūnaṁ sampūrṇatāṁ yātu tvatprasādājja
+ nārdana॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https:/
+ /github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/07/1
+ 2/payOvrata-samApanam.toml)<br/>- Tags: VratamStart SpecialPeriodStart Com
+ monFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
