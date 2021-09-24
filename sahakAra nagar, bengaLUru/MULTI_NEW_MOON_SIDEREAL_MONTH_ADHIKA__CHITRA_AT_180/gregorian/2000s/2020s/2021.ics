@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210924072437
+SEQUENCE:20210924072548
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -32460,6 +32460,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:लक्ष्मणानन्द-सरस्वती-बल
+ िदानम् #१३
+DTSTART;VALUE=DATE:20210823
+DTEND;VALUE=DATE:20210824
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/08/23/laxma
+ NAnanda-sarasvatI-balidAnam.toml)<br/>- Tags: <br/><br/><br/><br/>## Detai
+ ls<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/ma
+ ster/mahApuruSha/xatra-later/gregorian/day/08/23/laxmaNAnanda-sarasvatI-ba
+ lidAnam.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:पार्वण-प्रायश्चित्तावक
  ाशः दर्शे
 DTSTART;VALUE=DATE:20210823
@@ -37282,25 +37301,6 @@ DESCRIPTION:Observed on Kr̥Ṣṇa-Tr̥Tīyā tithi of Bhādrapadaḥ (lu
  r/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master
  /general/lunar_month/tithi/06/18/kajarI~tRtIyA.toml)<br/>- Tags: SpecialVr
  atam
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:लक्ष्मणानन्द-सरस्वती-बल
- िदानम् #१९
-DTSTART;VALUE=DATE:20210924
-DTEND;VALUE=DATE:20210925
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/09/24/laxma
- NAnanda-sarasvatI-balidAnam.toml)<br/>- Tags: <br/><br/><br/><br/>## Detai
- ls<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/ma
- ster/mahApuruSha/xatra-later/gregorian/day/09/24/laxmaNAnanda-sarasvatI-ba
- lidAnam.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
