@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210924071102
+SEQUENCE:20210924072437
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -37243,15 +37243,11 @@ BEGIN:VEVENT
 SUMMARY:अक्षरधाम-हत्या #१९
 DTSTART;VALUE=DATE:20210924
 DTEND;VALUE=DATE:20210925
-DESCRIPTION:Event occured on 2002-09-24 (gregorian). <br/><br/>On 24 Septe
- mber 2002\, Murtaza Hafiz Yasin and Ashraf Ali Mohammad Farooq attacked th
- e Swaminarayan Akshardham complex at Gandhinagar\, Gujarat\, India. They k
- illed 30 people and injured more than 80. National Security Guards interve
- ned and ended the siege the next day\, killing both attackers. This was sh
- ortly after the Godhra burning of Hindu pilgrims and the subsequent riots.
- <br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham
- /adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/09/24/akShara
- dhAma-hatyA.toml)<br/>- Tags:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/09/24/akSha
+ radhAma-hatyA.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruS
+ ha/xatra-later/gregorian/day/09/24/akSharadhAma-hatyA.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
