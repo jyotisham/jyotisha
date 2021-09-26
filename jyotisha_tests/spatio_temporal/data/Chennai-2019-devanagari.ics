@@ -33204,15 +33204,12 @@ BEGIN:VEVENT
 SUMMARY:(yama)-dīpa-trayōdaśī
 DTSTART;VALUE=DATE:20191026
 DTEND;VALUE=DATE:20191027
-DESCRIPTION:Observed on Kr̥Ṣṇa-Trayōdaśī tithi of Āśvayujaḥ (l
- unar) month (Sūryōdayaḥ/puurvaviddha). <br/><br/>Do dānaṁ of dīpam
- \, light deepam outside the house.<br/><br/>āśvinasyāsitē pakṣē tra
- yōdaśyāṁ niśāmukhē।  <br/>yamadīpaṁ bahirdadyāt apamr̥tyurv
- inaśyati॥  <br/>mr̥tyunā pāśadaṇḍābhyāṁ kālēna śyāmayā
-  saha।  <br/>trayōdaśyāṁ dīpadānāt sūryajaḥ prīyatāṁ mama
- ॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.
- com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/07/28/%28yam
- a%29-dIpa-trayOdazI.toml)<br/>- Tags: CommonFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/07/28/%28yama%29-dIpa-t
+ rayOdazI.toml)<br/>- Tags: CommonFestivals<br/><br/><br/><br/>## Details<b
+ r/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master
+ /general/lunar_month/tithi/07/28/%28yama%29-dIpa-trayOdazI.toml)<br/>- Tag
+ s: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -33406,12 +33403,12 @@ BEGIN:VEVENT
 SUMMARY:dīpōtsava-caturdaśī/yama-tarpaṇam
 DTSTART;VALUE=DATE:20191027
 DTEND;VALUE=DATE:20191028
-DESCRIPTION:Observed on Kr̥Ṣṇa-Caturdaśī tithi of Āśvayujaḥ (lu
- nar) month (Sūryōdayaḥ/puurvaviddha). <br/><br/>Perform Tarpana to Yam
- adharmaraja (even those with father). jīvatpitā'pi kurvīta tarpaṇaṁ
-  yamabhīṣmayōḥ<br/><br/>## Details<br/>- [Edit config file](https://
- github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/07/29
- /dIpOtsava-caturdazI_or_yama-tarpaNam.toml)<br/>- Tags: CommonFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/07/29/dIpOtsava-caturda
+ zI_or_yama-tarpaNam.toml)<br/>- Tags: CommonFestivals<br/><br/><br/><br/>#
+ # Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/
+ blob/master/general/lunar_month/tithi/07/29/dIpOtsava-caturdazI_or_yama-ta
+ rpaNam.toml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -33476,12 +33473,13 @@ BEGIN:VEVENT
 SUMMARY:prēta-caturdaśī
 DTSTART;VALUE=DATE:20191027
 DTEND;VALUE=DATE:20191028
-DESCRIPTION:Observed on Kr̥Ṣṇa-Caturdaśī tithi of Āśvayujaḥ (lu
- nar) month (Sūryōdayaḥ/puurvaviddha). <br/><br/>Perform Deepa Danam fo
- r Yamadharmaraja in evening<br/><br/>## Details<br/>- References<br/>  - V
- rata Chudamani<br/>- [Edit config file](https://github.com/jyotisham/adyat
- ithi/blob/master/devatA/pitR/lunar_month/tithi/07/29/prEta-caturdazI.toml)
- <br/>- Tags: LessCommonFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/lunar_month/tithi/07/29/prEta-caturda
+ zI.toml)<br/>- Tags: LessCommonFestivals<br/><br/><br/><br/>## Details<br/
+ >- References<br/>  - Vrata Chudamani<br/>  - Smriti Kaustubha p. 371<br/>
+ - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/de
+ vatA/pitR/lunar_month/tithi/07/29/prEta-caturdazI.toml)<br/>- Tags: LessCo
+ mmonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
