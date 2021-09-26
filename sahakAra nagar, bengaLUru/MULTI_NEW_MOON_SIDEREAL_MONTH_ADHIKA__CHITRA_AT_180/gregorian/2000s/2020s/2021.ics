@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210926145546
+SEQUENCE:20210926150045
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -40766,24 +40766,6 @@ DESCRIPTION:- Indian civil date: 1943-07-27\, Islamic: 1443-03-12 Rabīʿ
  —12:04-13:32  \n___________________\n- **शूलम्**—उदी
  ची दिक् (►10:54)\; **परिहारः**–क्षी
  रम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:अपत्य-नीराजनम्
-DTSTART;VALUE=DATE:20211019
-DTEND;VALUE=DATE:20211020
-DESCRIPTION:Observed on Paurṇamāsī tithi of Āśvayujaḥ (lunar) mont
- h (Niśīthaḥ/puurvaviddha). <br/><br/>Eldest children are given gifts o
- n this day (and nīrājanam is performed\, too).<br/><br/>## Details<br/>-
-  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gen
- eral/lunar_month/tithi/07/15/apatya-nIrAjanam.toml)<br/>- Tags: LessCommon
- Festivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
