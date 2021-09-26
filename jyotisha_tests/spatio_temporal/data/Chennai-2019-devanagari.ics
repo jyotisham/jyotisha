@@ -30712,9 +30712,9 @@ DTSTART;VALUE=DATE:20191005
 DTEND;VALUE=DATE:20191006
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Āśvayujaḥ (lunar) mon
  th (Sūryōdayaḥ/puurvaviddha). <br/><br/>Pooja of Kapila cow\, eat only
-  Panchagavya\, next day eat<br/><br/>## Details<br/>- [Edit config file](h
- ttps://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tith
- i/07/07/patrikA-pravEza-pUjA.toml)<br/>- Tags: SpecialPuja
+  Panchagavya\, and break fast the next day.<br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/general/
+ lunar_month/tithi/07/07/patrikA-pravEza-pUjA.toml)<br/>- Tags: SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -31657,6 +31657,24 @@ DESCRIPTION:- Indian civil date: 1941-07-21\, Islamic: 1441-02-13 Ṣafar\
  laḥ**—16:19-17:48\; **Yamaghaṇṭaḥ**—11:55-13:23\; **Gulikakāl
  aḥ**—14:51-16:19  \n___________________\n- **Śūlam**—Pratīchī Di
  k (►10:44)\; **Parihāraḥ**–Guḍam  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:apatya-nīrājanam
+DTSTART;VALUE=DATE:20191013
+DTEND;VALUE=DATE:20191014
+DESCRIPTION:Observed on Paurṇamāsī tithi of Āśvayujaḥ (lunar) mont
+ h (Niśīthaḥ/puurvaviddha). <br/><br/>Eldest children are given gifts o
+ n this day (and nīrājanam is performed\, too).<br/><br/>## Details<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gen
+ eral/lunar_month/tithi/07/15/apatya-nIrAjanam.toml)<br/>- Tags: LessCommon
+ Festivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
