@@ -496,16 +496,16 @@ class TithiFestivalAssigner(FestivalAssigner):
         # if tithi_sunset <= 2 and tithi_sunset_tmrw != 2:
         if tithi_sunset <= 2:
           if tithi_sunset == 1:
-            fest = FestivalInstance(name='candra-darzanam', interval=self.daily_panchaangas[d+1].get_interval(interval_id="pradosha"))
+            fest = FestivalInstance(name='candra-darzanam', interval=Interval(jd_start=self.daily_panchaangas[d+1].jd_sunset, jd_end=self.daily_panchaangas[d+1].jd_moonset))
             self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[d+1].date)
             
             d += 25
           else:
-            fest = FestivalInstance(name='candra-darzanam', interval=day_panchaanga.get_interval(interval_id="pradosha"))
-            self.panchaanga.add_festival_instance(festival_instance=fest, date=day_panchaanga.date)
+            fest = FestivalInstance(name='candra-darzanam', interval=Interval(jd_start=self.daily_panchaangas[d].jd_sunset, jd_end=self.daily_panchaangas[d].jd_moonset))
+            self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[d].date)
             d += 25
         elif tithi_sunset_tmrw == 2:
-          fest = FestivalInstance(name='candra-darzanam', interval=self.daily_panchaangas[d+1].get_interval(interval_id="pradosha"))
+          fest = FestivalInstance(name='candra-darzanam', interval=Interval(jd_start=self.daily_panchaangas[d+1].jd_sunset, jd_end=self.daily_panchaangas[d+1].jd_moonset))
           self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[d+1].date)
           d += 25
       d += 1
