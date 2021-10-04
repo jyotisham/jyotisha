@@ -163,7 +163,7 @@ def stream_daylength_based_periods(daily_panchaanga, output_stream, time_format)
   sayamsandhya_start = time.Hour(
     24 * (daily_panchaanga.day_length_based_periods.fifteen_fold_division.saayam_sandhyaa.jd_start - jd)).to_string(format=time_format)
   sayamsandhya_end = time.Hour(
-    24 * (daily_panchaanga.day_length_based_periods.fifteen_fold_division.pradosha.jd_end - jd)).to_string(format=time_format)
+    24 * (daily_panchaanga.day_length_based_periods.fifteen_fold_division.saayam_sandhyaa.jd_end - jd)).to_string(format=time_format)
   ratriyama1 = time.Hour(24 * (daily_panchaanga.day_length_based_periods.eight_fold_division.raatri_yaama[0].jd_end - jd)).to_string(
     format=time_format)
   shayana_time_end = time.Hour(24 * (daily_panchaanga.day_length_based_periods.eight_fold_division.shayana.jd_start - jd)).to_string(
