@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210926210907
+SEQUENCE:20211004222734
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -987,7 +987,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210110T180555
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210110T185646
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210110T194116
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
@@ -1694,7 +1694,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चन्द्र-दर्शनम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210114T180810
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210114T185855
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210114T192418
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  ><br/>श्वेताम्बरः श्वेतविभूषण
  श्च  <br/>श्वेतद्युतिर्दण्डधर
@@ -3140,7 +3140,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210126T181422
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210126T190445
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210126T194850
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
@@ -4870,7 +4870,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210209T182006
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210209T190956
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210209T195331
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
@@ -5470,7 +5470,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चन्द्र-दर्शनम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210213T182124
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210213T191103
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210213T195009
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  ><br/>श्वेताम्बरः श्वेतविभूषण
  श्च  <br/>श्वेतद्युतिर्दण्डधर
@@ -7094,7 +7094,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210224T182409
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210224T191318
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210224T195617
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
@@ -8902,7 +8902,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210310T182615
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210310T191443
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210310T195707
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
@@ -9534,7 +9534,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चन्द्र-दर्शनम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210314T182639
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210314T191455
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210314T191921
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  ><br/>श्वेताम्बरः श्वेतविभूषण
  श्च  <br/>श्वेतद्युतिर्दण्डधर
@@ -11285,7 +11285,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210326T182731
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210326T191511
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210326T195655
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
@@ -13091,7 +13091,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210409T182827
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210409T191527
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210409T195635
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
@@ -13728,7 +13728,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चन्द्र-दर्शनम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210413T182848
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210413T191538
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210413T193636
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  ><br/>श्वेताम्बरः श्वेतविभूषण
  श्च  <br/>श्वेतद्युतिर्दण्डधर
@@ -15603,7 +15603,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:शनि-प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210424T183006
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210424T191626
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210424T195659
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.  Pradosha vratam is even more special\, when if falls on 
  a Monday/Saturday.<br/><br/>प्रदोषे  शिवपूजा
@@ -17481,7 +17481,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210509T183253
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210509T191839
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210509T195841
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
@@ -18033,7 +18033,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चन्द्र-दर्शनम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210513T183351
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210513T191928
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210513T200011
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  ><br/>श्वेताम्बरः श्वेतविभूषण
  श्च  <br/>श्वेतद्युतिर्दण्डधर
@@ -19745,7 +19745,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:सोम-प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210524T183651
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210524T192208
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210524T200146
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala. Pradosha vratam is even more special\, when if falls on a
   Monday/Saturday.<br/><br/>प्रदोषे  शिवपूजां
@@ -21615,7 +21615,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:सोम-प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210607T184059
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210607T192600
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210607T200524
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala. Pradosha vratam is even more special\, when if falls on a
   Monday/Saturday.<br/><br/>प्रदोषे  शिवपूजां
@@ -22180,7 +22180,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चन्द्र-दर्शनम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210611T184208
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210611T192706
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210611T193655
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  ><br/>श्वेताम्बरः श्वेतविभूषण
  श्च  <br/>श्वेतद्युतिर्दण्डधर
@@ -23897,7 +23897,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210622T184450
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210622T192946
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210622T200905
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
@@ -25732,7 +25732,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210707T184645
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210707T193148
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210707T201114
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
@@ -26223,7 +26223,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चन्द्र-दर्शनम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210711T184647
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210711T193155
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210711T195752
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  ><br/>श्वेताम्बरः श्वेतविभूषण
  श्च  <br/>श्वेतद्युतिर्दण्डधर
@@ -27725,7 +27725,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210721T184553
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210721T193115
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210721T201057
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
@@ -29631,7 +29631,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210805T184144
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210805T192736
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210805T200743
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
@@ -30299,7 +30299,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चन्द्र-दर्शनम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210810T183939
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210810T192542
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210810T200651
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  ><br/>श्वेताम्बरः श्वेतविभूषण
  श्च  <br/>श्वेतद्युतिर्दण्डधर
@@ -31817,7 +31817,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210820T183433
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210820T192101
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210820T200140
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
@@ -34036,7 +34036,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:शनि-प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210904T182507
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210904T191215
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210904T195329
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.  Pradosha vratam is even more special\, when if falls on 
  a Monday/Saturday.<br/><br/>प्रदोषे  शिवपूजा
@@ -34711,7 +34711,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चन्द्र-दर्शनम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210908T182222
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210908T190941
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210908T192854
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  ><br/>श्वेताम्बरः श्वेतविभूषण
  श्च  <br/>श्वेतद्युतिर्दण्डधर
@@ -36430,7 +36430,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:शनि-प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210918T181515
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210918T190303
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210918T194452
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.  Pradosha vratam is even more special\, when if falls on 
  a Monday/Saturday.<br/><br/>प्रदोषे  शिवपूजा
@@ -38592,7 +38592,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:सोम-प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211004T180404
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211004T185238
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211004T193508
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala. Pradosha vratam is even more special\, when if falls on a
   Monday/Saturday.<br/><br/>प्रदोषे  शिवपूजां
@@ -39028,7 +39028,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चन्द्र-दर्शनम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211007T180207
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211007T185049
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211007T185247
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  ><br/>श्वेताम्बरः श्वेतविभूषण
  श्च  <br/>श्वेतद्युतिर्दण्डधर
@@ -40701,7 +40701,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:सोम-प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211018T175535
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211018T184449
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211018T192754
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala. Pradosha vratam is even more special\, when if falls on a
   Monday/Saturday.<br/><br/>प्रदोषे  शिवपूजां
@@ -42677,7 +42677,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211102T174903
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211102T183857
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211102T192237
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
@@ -43476,7 +43476,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चन्द्र-दर्शनम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211106T174755
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211106T183759
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211106T192001
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  ><br/>श्वेताम्बरः श्वेतविभूषण
  श्च  <br/>श्वेतद्युतिर्दण्डधर
@@ -44927,7 +44927,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211116T174617
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211116T183644
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211116T192052
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
@@ -47392,7 +47392,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211202T174736
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211202T183830
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211202T192301
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
@@ -47842,7 +47842,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चन्द्र-दर्शनम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211205T174822
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211205T183919
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211205T190358
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  ><br/>श्वेताम्बरः श्वेतविभूषण
  श्च  <br/>श्वेतद्युतिर्दण्डधर
@@ -49293,7 +49293,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211216T175224
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211216T184329
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211216T192811
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
@@ -51103,7 +51103,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211231T180004
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211231T185107
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211231T193546
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
