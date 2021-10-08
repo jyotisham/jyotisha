@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20211004222734
+SEQUENCE:20211008094812
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -30945,6 +30945,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:स्कर्दु-द्रोहः #७३
+DTSTART;VALUE=DATE:20210814
+DTEND;VALUE=DATE:20210815
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/08/14/skard
+ u-vidrohaH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit co
+ nfig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/
+ xatra-later/gregorian/day/08/14/skardu-vidrohaH.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:सुन्दरमूर्त्ति नायऩार् (
  ६३) गुरुपूजै/तिरुवाडि स्वात
  ि
@@ -40254,13 +40271,12 @@ SUMMARY:थ्रोचि-दुर्गे गोरक्ष-सैन
  िक-निघातः #७४
 DTSTART;VALUE=DATE:20211015
 DTEND;VALUE=DATE:20211016
-DESCRIPTION:Event occured on 1947-10-15 (gregorian). <br/><br/>the Muslim 
- Major Nasrullah Khan who murdered all Hindu Gorkha soldiers of his own bat
- talion went to the garrison of Raghubir Thapa. After killing all the Gorkh
- as\, Major Nasrullah khan gave the Pakistani invaders a rousing welcome an
- d joined their ranks<br/><br/>## Details<br/>- [Edit config file](https://
- github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xatra-later/gregori
- an/day/10/15/throchi-durge_goraxa-sainika-nighAtaH.toml)<br/>- Tags:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/10/15/throc
+ hi-durge_goraxa-sainika-nighAtaH.toml)<br/>- Tags: <br/><br/><br/><br/>## 
+ Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/bl
+ ob/master/mahApuruSha/xatra-later/gregorian/day/10/15/throchi-durge_goraxa
+ -sainika-nighAtaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -42012,6 +42028,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:राजेन्द्रसिंह-वीरगतिः #७
+ ४
+DTSTART;VALUE=DATE:20211027
+DTEND;VALUE=DATE:20211028
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/10/27/rAjen
+ dra-siMha-vIragatiH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mah
+ ApuruSha/xatra-later/gregorian/day/10/27/rAjendra-siMha-vIragatiH.toml)<br
+ />- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:शिवराजो दिण्डोर्यां जयत
  ि #३५१
 DTSTART;VALUE=DATE:20211027
@@ -42408,6 +42443,23 @@ DESCRIPTION:- Indian civil date: 1943-08-09\, Islamic: 1443-03-24 Rabīʿ
  ___________\n- **शूलम्**—प्रतीची दिक् (
  ►10:53)\; **परिहारः**–गुडम्  \n_______________
  ____\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:गिल्जित-द्रोहः #७४
+DTSTART;VALUE=DATE:20211031
+DTEND;VALUE=DATE:20211101
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/10/31/gilgi
+ t-vidrohaH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit co
+ nfig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/
+ xatra-later/gregorian/day/10/31/gilgit-vidrohaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
