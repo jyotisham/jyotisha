@@ -36,7 +36,7 @@ def tr(text, script, titled=True, source_script=sanscript.roman.HK_DRAVIDIAN):
     return ''
   # TODO: Fix this ugliness.
   t = text.replace('~', '##~##')  # Simple fix to prevent transliteration of ~
-  transliterated_text = sanscript.transliterate(data=t, _from=source_script, _to=script).replace('C', 'Ch').replace('c', 'ch')
+  transliterated_text = sanscript.transliterate(data=t, _from=source_script, _to=script, togglers={'##'}).replace('C', 'Ch').replace('c', 'ch')
   if titled:
     transliterated_text = transliterated_text.title()
         # for sep in [' ', '\t', '\n']:

@@ -593,7 +593,7 @@
         "name": "प्रातःसन्ध्यावन्दनकालः"
       },
       "pradosha": {
-        "jd_end": 2444962.0458,
+        "jd_end": 2444962.0769,
         "jd_start": 2444962.0104,
         "jsonClass": "Interval",
         "name": "प्रदोषः"
@@ -647,7 +647,7 @@
         "name": "सायाह्नः"
       },
       "saayam_sandhyaa": {
-        "jd_end": 2444962.0104,
+        "jd_end": 2444962.0458,
         "jd_start": 2444961.9792,
         "jsonClass": "Interval",
         "name": "सायंसन्ध्यावन्दनकालः"

@@ -124,10 +124,13 @@ class FifteenFoldDivision(common.JsonObject):
 
     self.praatas_sandhyaa = get_interval(start_jd=jd_previous_sunset, end_jd=jd_sunrise, part_index=14, num_parts=15) + get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=range(0,4), num_parts=15)
     self.maadhyaahnika_sandhyaa = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=range(5,13), num_parts=15)
-    self.saayam_sandhyaa = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=14, num_parts=15)
+    self.saayam_sandhyaa = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=14, num_parts=15) + get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=0, num_parts=15)
 
-    # pradOSo.astamayAdUrdhvaM ghaTikAdvayamiShyatE (tithyAdi tattvam, Vrat Parichay p. 25 Gita Press).
-    self.pradosha = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=0, num_parts=15)
+    # प्रदोषोस्तमयादूर्ध्वं घटिकाद्व्यमिष्यते॥
+    # प्रदोषोस्तमयादूर्ध्वं घटिकात्रयमिष्यते॥
+    # पुरुषार्थचिन्तामणौ अस्तमयादूर्ध्वं यामार्धकालः प्रदोषः इति सिद्धान्तितम्।
+    # घटिकाद्व्यत्रयादिवचनानां यामार्धान्तर्गतप्रथमघटिकाद्वयादिप्राशस्त्यपरत्वं च प्रतिपादितम्॥
+    self.pradosha = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=0, num_parts=8)
     self.madhyaraatri = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=2, num_parts=5)
     self.nishiitha = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=7, num_parts=15)
 
