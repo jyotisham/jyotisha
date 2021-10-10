@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20211008095613
+SEQUENCE:20211010104618
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -30950,9 +30950,9 @@ DTSTART;VALUE=DATE:20210814
 DTEND;VALUE=DATE:20210815
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/08/14/skard
- u-vidrohaH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit co
- nfig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/
- xatra-later/gregorian/day/08/14/skardu-vidrohaH.toml)<br/>- Tags:
+ u-drohaH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit conf
+ ig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xa
+ tra-later/gregorian/day/08/14/skardu-drohaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
