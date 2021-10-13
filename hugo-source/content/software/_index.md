@@ -3,7 +3,7 @@ title = "+Software"
 +++
 
 ## Intro
-A package to do various panchaanga (traditional vedic astronomical / astrological) calculations, produce calendars. It is backed by the pretty big [adyatithi events database](https://github.com/jyotisham/adyatithi).
+[Jyotisha](https://github.com/jyotisham/jyotisha) is a package to do various panchaanga (traditional vedic astronomical / astrological) calculations, produce calendars. It is backed by the pretty big [adyatithi events database](https://github.com/jyotisham/adyatithi).
 
 The code itself is capable of typical (amAnta, chitra-at-180 ayanAMsha, असङ्क्रान्तिमासोऽधिकः ) based calculation as well as the ancient but now uncommon [tropical lunisolar system](https://vvasuki.github.io/jyotiSham/history/kauNDinyAyana/). 
 
@@ -13,18 +13,13 @@ For a survey of similar software, see [here](https://jyotisham.github.io/astrono
 See separate [page here](for_users/).
 
 ## Accuracy status
-It is very important to note that this is an *approximate* panchaanga,
-automatically generated, without the careful oversight of learned
-scholars who have the depth of knowledge to resolve the exact dates for
-occurrences of different festivals. The best use of this panchaanga is as an
-approximate guide (95% of the events are also probably spot on) — when
-in doubt, consult only your own panchaanga!
+It is very important to note that this is an *approximate* panchaanga,  automatically generated, without the careful oversight of learned scholars who have the depth of knowledge to resolve the exact dates for occurrences of different festivals. The best use of this panchaanga is as an approximate guide (95% of the events are also probably spot on) — when in doubt, consult only your own panchaanga!
 
 Kartik has primarily restricted his testing to Chennai, Mumbai, London and Palo Alto.
 
 ## Development status
 - Active
-- There is also a multiplatform-targetted Kotlin project at [jyotisha-kotlin](https://github.com/jyotisham/jyotisha-kotlin) which merits attention."
+- There is also a multiplatform-targetted Kotlin project at [jyotisha-kotlin](https://github.com/jyotisham/jyotisha-kotlin) which merits attention.
 
 ## Credits by kArtik
 > Sincere thanks to the creators of pyswisseph, without which I could not
