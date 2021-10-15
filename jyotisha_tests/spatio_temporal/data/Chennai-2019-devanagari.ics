@@ -30835,17 +30835,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:kāñcī 19 jagadguru śrī-mārtāṇḍa vidyāghanēndra sarasv
- atī ārādhanā #1622
+SUMMARY:kāñcī 19 jagadguru śrī-mārtaṇḍa vidyāghanēndra sarasva
+ tī ārādhanā #1622
 DTSTART;VALUE=DATE:20191006
 DTEND;VALUE=DATE:20191007
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/07/09/
- kAJcI_19_jagadguru_zrI~mArtANDa_vidyAghanEndra_sarasvatI_ArAdhanA.toml)<br
+ kAJcI_19_jagadguru_zrI~mArtaNDa_vidyAghanEndra_sarasvatI_ArAdhanA.toml)<br
  />- Tags: KanchiAradhanaDays<br/><br/><br/><br/>## Details<br/>- Reference
  s<br/>  - Punya Shloka Manjari<br/>- [Edit config file](https://github.com
  /jyotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lunar_month/tith
- i/07/09/kAJcI_19_jagadguru_zrI~mArtANDa_vidyAghanEndra_sarasvatI_ArAdhanA.
+ i/07/09/kAJcI_19_jagadguru_zrI~mArtaNDa_vidyAghanEndra_sarasvatI_ArAdhanA.
  toml)<br/>- Tags: KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -31202,7 +31202,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:vijayādaśamī
+SUMMARY:vijayadaśamī
 DTSTART;VALUE=DATE:20191008
 DTEND;VALUE=DATE:20191009
 DESCRIPTION:Observed on Śukla-Daśamī tithi of Āśvayujaḥ (lunar) mon
@@ -36144,9 +36144,8 @@ DTSTART;VALUE=DATE:20191116
 DTEND;VALUE=DATE:20191117
 DESCRIPTION:End of Tula Kaveri Snanam. Also known as ta:kaḍaimugam.<br/>
  <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
- tithi/blob/master/devatA/nadI/relative_event/kRttikA-maNDala-pArAyaNa-Aram
- bhaH/offset__-1/tulA-kAvErI-snAna-samApanam.toml)<br/>- Tags: TamilnaduTem
- pleFestivals
+ tithi/blob/master/devatA/nadI/relative_event/muDavan2_muzhukku/offset__-1/
+ tulA-kAvErI-snAna-samApanam.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
