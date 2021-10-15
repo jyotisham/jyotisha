@@ -12,7 +12,7 @@ Such betrayal by almost all the Muslim soldiers in the Maharaja’s army led to 
 - Tags: 
 
 
-### विजयादशमी
+### विजयदशमी
 
 Observed on Śukla-Daśamī tithi of Āśvayujaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
 

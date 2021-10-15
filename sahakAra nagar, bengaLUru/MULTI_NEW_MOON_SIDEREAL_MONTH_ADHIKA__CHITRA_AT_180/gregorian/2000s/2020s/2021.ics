@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20211015134401
+SEQUENCE:20211015184725
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -39982,17 +39982,17 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:काञ्ची १९ जगद्गुरु श्री-
- मार्ताण्ड विद्याघनेन्द्र स
- रस्वती आराधना #१६२४
+ मार्तण्ड विद्याघनेन्द्र सर
+ स्वती आराधना #१६२४
 DTSTART;VALUE=DATE:20211014
 DTEND;VALUE=DATE:20211015
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/07/09/
- kAJcI_19_jagadguru_zrI~mArtANDa_vidyAghanEndra_sarasvatI_ArAdhanA.toml)<br
+ kAJcI_19_jagadguru_zrI~mArtaNDa_vidyAghanEndra_sarasvatI_ArAdhanA.toml)<br
  />- Tags: KanchiAradhanaDays<br/><br/><br/><br/>## Details<br/>- Reference
  s<br/>  - Punya Shloka Manjari<br/>- [Edit config file](https://github.com
  /jyotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lunar_month/tith
- i/07/09/kAJcI_19_jagadguru_zrI~mArtANDa_vidyAghanEndra_sarasvatI_ArAdhanA.
+ i/07/09/kAJcI_19_jagadguru_zrI~mArtaNDa_vidyAghanEndra_sarasvatI_ArAdhanA.
  toml)<br/>- Tags: KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -40286,7 +40286,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:विजयादशमी
+SUMMARY:विजयदशमी
 DTSTART;VALUE=DATE:20211015
 DTEND;VALUE=DATE:20211016
 DESCRIPTION:Observed on Śukla-Daśamī tithi of Āśvayujaḥ (lunar) mon
@@ -44697,44 +44697,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:तुला-कावेरी-स्नानम्
-DTSTART;VALUE=DATE:20211017
-DTEND;VALUE=DATE:20211116
-DESCRIPTION:Perform snānam in Kaveri during this month.<br/><br/>षट
- ्षष्टिकोटितीर्थानि द्विसप
- ्तभुवनेषु च।  <br/>केशवस्याऽऽज
- ्ञया यान्ति तुलामासे मरुद्
- वृधम्॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/blob/master/devatA/nadI/description
- _only/tulA-kAvErI-snAnam.toml)<br/>- Tags: TamilnaduTempleFestivals Specia
- lPeriod
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:तुला-कावेरी-स्नान-समापनम
- ्
-DTSTART;VALUE=DATE:20211115
-DTEND;VALUE=DATE:20211116
-DESCRIPTION:End of Tula Kaveri Snanam. Also known as ta:kaḍaimugam.<br/>
- <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
- tithi/blob/master/devatA/nadI/relative_event/kRttikA-maNDala-pArAyaNa-Aram
- bhaH/offset__-1/tulA-kAvErI-snAna-samApanam.toml)<br/>- Tags: TamilnaduTem
- pleFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:तुलसी-विवाहः
 DTSTART;VALUE=DATE:20211115
 DTEND;VALUE=DATE:20211116
@@ -44988,6 +44950,43 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
  sham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/pr
  adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:तुला-कावेरी-स्नानम्
+DTSTART;VALUE=DATE:20211017
+DTEND;VALUE=DATE:20211117
+DESCRIPTION:Perform snānam in Kaveri during this month.<br/><br/>षट
+ ्षष्टिकोटितीर्थानि द्विसप
+ ्तभुवनेषु च।  <br/>केशवस्याऽऽज
+ ्ञया यान्ति तुलामासे मरुद्
+ वृधम्॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](
+ https://github.com/jyotisham/adyatithi/blob/master/devatA/nadI/description
+ _only/tulA-kAvErI-snAnam.toml)<br/>- Tags: TamilnaduTempleFestivals Specia
+ lPeriod
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:तुला-कावेरी-स्नान-समापनम
+ ्
+DTSTART;VALUE=DATE:20211116
+DTEND;VALUE=DATE:20211117
+DESCRIPTION:End of Tula Kaveri Snanam. Also known as ta:kaḍaimugam.<br/>
+ <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
+ tithi/blob/master/devatA/nadI/relative_event/muDavan2_muzhukku/offset__-1/
+ tulA-kAvErI-snAna-samApanam.toml)<br/>- Tags: TamilnaduTempleFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
