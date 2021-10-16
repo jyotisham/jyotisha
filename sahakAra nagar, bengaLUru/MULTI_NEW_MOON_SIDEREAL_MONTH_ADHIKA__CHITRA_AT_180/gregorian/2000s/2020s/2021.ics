@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20211016181305
+SEQUENCE:20211016190026
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -866,10 +866,18 @@ SUMMARY:सर्व-सफला-एकादशी
 DTSTART;VALUE=DATE:20210109
 DTEND;VALUE=DATE:20210110
 DESCRIPTION:The Krishna-paksha Ekadashi of mārgaśīrṣa month is known 
- as saphalā-ēkādaśī.<br/><br/>## Details<br/>- [Edit config file](http
- s://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI
- /description_only/saphalA-EkAdazI.toml)<br/>- Tags: MonthlyVratam Ekadashi
- Vratam
+ as saphalā-ēkādaśī.<br/><br/>पक्षे पक्षे च क
+ र्तव्यमेकादश्यामुपोषणम्।  
+ <br/>यदीच्छेद्विष्णुसायुज्यं
+  श्रियं सन्ततिमात्मनः।  <br/>ए
+ कादश्यां न भुञ्जीत पक्षयोर
+ ुभयोरपि॥  <br/>  <br/>एकादश्यां नि
+ राहारः स्थित्वाऽहमपरेहनि। 
+  <br/>भोक्ष्यामि पुण्डरीकाक्ष 
+ शरणं मे भवाच्युत॥<br/><br/><br/><br/>## Deta
+ ils<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/m
+ aster/time_focus/monthly/ekAdashI/description_only/saphalA-EkAdazI.toml)<b
+ r/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -941,22 +949,12 @@ BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210110T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210110T004117
-DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
- king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
- धस्य व्रतेनानेन केशव।  <br/>प्
- रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
- ितीये तिथिनिर्णयकाण्डे विष
- ्णुधर्मे---  <br/>असम्भाष्यांस्
- तु सम्भाष्य तुलस्यतसिकादलम
- ्।  <br/>द्वादश्यामच्युतफलम् आ
- गस्त्यं पत्रमेव वा।   <br/>आमलक
- ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
- onfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/
- monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
- tam EkadashiVratam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
+ vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
+ ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
+ )<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -2798,9 +2796,18 @@ SUMMARY:सर्व-पुत्रदा-एकादशी
 DTSTART;VALUE=DATE:20210124
 DTEND;VALUE=DATE:20210125
 DESCRIPTION:The Shukla-paksha Ekadashi of pauṣa month is known as putrad
- ā-ēkādaśī.<br/><br/>## Details<br/>- [Edit config file](https://githu
- b.com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/descript
- ion_only/putradA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ ā-ēkādaśī.<br/><br/>पक्षे पक्षे च कर्त
+ व्यमेकादश्यामुपोषणम्।  <br/>य
+ दीच्छेद्विष्णुसायुज्यं श्
+ रियं सन्ततिमात्मनः।  <br/>एकाद
+ श्यां न भुञ्जीत पक्षयोरुभय
+ ोरपि॥  <br/>  <br/>एकादश्यां निराह
+ ारः स्थित्वाऽहमपरेहनि।  <br/>भ
+ ोक्ष्यामि पुण्डरीकाक्ष शरण
+ ं मे भवाच्युत॥<br/><br/><br/><br/>## Details<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/tim
+ e_focus/monthly/ekAdashI/description_only/putradA-EkAdazI.toml)<br/>- Tags
+ : MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2932,22 +2939,12 @@ BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210125T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210125T052335
-DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
- king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
- धस्य व्रतेनानेन केशव।  <br/>प्
- रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
- ितीये तिथिनिर्णयकाण्डे विष
- ्णुधर्मे---  <br/>असम्भाष्यांस्
- तु सम्भाष्य तुलस्यतसिकादलम
- ्।  <br/>द्वादश्यामच्युतफलम् आ
- गस्त्यं पत्रमेव वा।   <br/>आमलक
- ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
- onfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/
- monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
- tam EkadashiVratam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
+ vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
+ ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
+ )<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -4659,10 +4656,18 @@ SUMMARY:स्मार्त-षट्तिला-एकादशी
 DTSTART;VALUE=DATE:20210207
 DTEND;VALUE=DATE:20210208
 DESCRIPTION:The Krishna-paksha Ekadashi of pauṣa month is known as ṣa
- ṭtilā-ēkādaśī.<br/><br/>## Details<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/de
- scription_only/SaTtilA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVra
- tam
+ ṭtilā-ēkādaśī.<br/><br/>पक्षे पक्षे च कर
+ ्तव्यमेकादश्यामुपोषणम्।  <br
+ />यदीच्छेद्विष्णुसायुज्यं 
+ श्रियं सन्ततिमात्मनः।  <br/>एक
+ ादश्यां न भुञ्जीत पक्षयोरु
+ भयोरपि॥  <br/>  <br/>एकादश्यां निर
+ ाहारः स्थित्वाऽहमपरेहनि।  <b
+ r/>भोक्ष्यामि पुण्डरीकाक्ष श
+ रणं मे भवाच्युत॥<br/><br/><br/><br/>## Details
+ <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
+ er/time_focus/monthly/ekAdashI/description_only/SaTtilA-EkAdazI.toml)<br/>
+ - Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4733,22 +4738,12 @@ BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210208T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210208T102450
-DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
- king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
- धस्य व्रतेनानेन केशव।  <br/>प्
- रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
- ितीये तिथिनिर्णयकाण्डे विष
- ्णुधर्मे---  <br/>असम्भाष्यांस्
- तु सम्भाष्य तुलस्यतसिकादलम
- ्।  <br/>द्वादश्यामच्युतफलम् आ
- गस्त्यं पत्रमेव वा।   <br/>आमलक
- ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
- onfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/
- monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
- tam EkadashiVratam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
+ vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
+ ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
+ )<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -4797,10 +4792,18 @@ SUMMARY:वैष्णव-षट्तिला-एकादशी
 DTSTART;VALUE=DATE:20210208
 DTEND;VALUE=DATE:20210209
 DESCRIPTION:The Krishna-paksha Ekadashi of pauṣa month is known as ṣa
- ṭtilā-ēkādaśī.<br/><br/>## Details<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/de
- scription_only/SaTtilA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVra
- tam
+ ṭtilā-ēkādaśī.<br/><br/>पक्षे पक्षे च कर
+ ्तव्यमेकादश्यामुपोषणम्।  <br
+ />यदीच्छेद्विष्णुसायुज्यं 
+ श्रियं सन्ततिमात्मनः।  <br/>एक
+ ादश्यां न भुञ्जीत पक्षयोरु
+ भयोरपि॥  <br/>  <br/>एकादश्यां निर
+ ाहारः स्थित्वाऽहमपरेहनि।  <b
+ r/>भोक्ष्यामि पुण्डरीकाक्ष श
+ रणं मे भवाच्युत॥<br/><br/><br/><br/>## Details
+ <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
+ er/time_focus/monthly/ekAdashI/description_only/SaTtilA-EkAdazI.toml)<br/>
+ - Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7036,22 +7039,12 @@ BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210224T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210224T001026
-DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
- king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
- धस्य व्रतेनानेन केशव।  <br/>प्
- रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
- ितीये तिथिनिर्णयकाण्डे विष
- ्णुधर्मे---  <br/>असम्भाष्यांस्
- तु सम्भाष्य तुलस्यतसिकादलम
- ्।  <br/>द्वादश्यामच्युतफलम् आ
- गस्त्यं पत्रमेव वा।   <br/>आमलक
- ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
- onfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/
- monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
- tam EkadashiVratam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
+ vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
+ ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
+ )<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -8751,22 +8744,12 @@ BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210309T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210309T205509
-DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
- king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
- धस्य व्रतेनानेन केशव।  <br/>प्
- रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
- ितीये तिथिनिर्णयकाण्डे विष
- ्णुधर्मे---  <br/>असम्भाष्यांस्
- तु सम्भाष्य तुलस्यतसिकादलम
- ्।  <br/>द्वादश्यामच्युतफलम् आ
- गस्त्यं पत्रमेव वा।   <br/>आमलक
- ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
- onfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/
- monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
- tam EkadashiVratam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
+ vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
+ ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
+ )<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -8813,9 +8796,18 @@ SUMMARY:सर्व-विजया-एकादशी
 DTSTART;VALUE=DATE:20210309
 DTEND;VALUE=DATE:20210310
 DESCRIPTION:The Krishna-paksha Ekadashi of māgha month is known as vijay
- ā-ēkādaśī.<br/><br/>## Details<br/>- [Edit config file](https://githu
- b.com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/descript
- ion_only/vijayA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ ā-ēkādaśī.<br/><br/>पक्षे पक्षे च कर्त
+ व्यमेकादश्यामुपोषणम्।  <br/>य
+ दीच्छेद्विष्णुसायुज्यं श्
+ रियं सन्ततिमात्मनः।  <br/>एकाद
+ श्यां न भुञ्जीत पक्षयोरुभय
+ ोरपि॥  <br/>  <br/>एकादश्यां निराह
+ ारः स्थित्वाऽहमपरेहनि।  <br/>भ
+ ोक्ष्यामि पुण्डरीकाक्ष शरण
+ ं मे भवाच्युत॥<br/><br/><br/><br/>## Details<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/tim
+ e_focus/monthly/ekAdashI/description_only/vijayA-EkAdazI.toml)<br/>- Tags:
+  MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10981,22 +10973,12 @@ BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210325T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210325T153042
-DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
- king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
- धस्य व्रतेनानेन केशव।  <br/>प्
- रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
- ितीये तिथिनिर्णयकाण्डे विष
- ्णुधर्मे---  <br/>असम्भाष्यांस्
- तु सम्भाष्य तुलस्यतसिकादलम
- ्।  <br/>द्वादश्यामच्युतफलम् आ
- गस्त्यं पत्रमेव वा।   <br/>आमलक
- ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
- onfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/
- monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
- tam EkadashiVratam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
+ vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
+ ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
+ )<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -11061,18 +11043,12 @@ BEGIN:VEVENT
 SUMMARY:सर्व-आमलकी-एकादशी
 DTSTART;VALUE=DATE:20210325
 DTEND;VALUE=DATE:20210326
-DESCRIPTION:The Shukla-paksha Ekadashi of phālguna month is known as āma
- lakī-ēkādaśī.<br/><br/>फाल्गुने मासि शु
- क्लायामेकादश्यां जनार्दनः
- ।  <br/>वसत्यामलकीवृक्षे लक्ष्
- म्या सह जगत्पतिः॥  <br/>तत्र सम
- ्पूज्य देवेशं शक्त्या कुर्
- यात् प्रदक्षिणाम्।  <br/>उपोष्
- य विधिवत् कल्पं विष्णुलोके 
- महीयते॥ (नृसिंहपरिचर्या)<br/><br
- /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/Amal
- akI-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ akI-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><
+ br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyat
+ ithi/blob/master/time_focus/monthly/ekAdashI/description_only/AmalakI-EkAd
+ azI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12839,10 +12815,18 @@ SUMMARY:सर्व-पापमोचनी-एकादशी
 DTSTART;VALUE=DATE:20210407
 DTEND;VALUE=DATE:20210408
 DESCRIPTION:The Krishna-paksha Ekadashi of phālguna month is known as pā
- pamōchanī-ēkādaśī.<br/><br/>## Details<br/>- [Edit config file](http
- s://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI
- /description_only/pApamOcanI-EkAdazI.toml)<br/>- Tags: MonthlyVratam Ekada
- shiVratam
+ pamōchanī-ēkādaśī.<br/><br/>पक्षे पक्षे च क
+ र्तव्यमेकादश्यामुपोषणम्।  
+ <br/>यदीच्छेद्विष्णुसायुज्यं
+  श्रियं सन्ततिमात्मनः।  <br/>ए
+ कादश्यां न भुञ्जीत पक्षयोर
+ ुभयोरपि॥  <br/>  <br/>एकादश्यां नि
+ राहारः स्थित्वाऽहमपरेहनि। 
+  <br/>भोक्ष्यामि पुण्डरीकाक्ष 
+ शरणं मे भवाच्युत॥<br/><br/><br/><br/>## Deta
+ ils<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/m
+ aster/time_focus/monthly/ekAdashI/description_only/pApamOcanI-EkAdazI.toml
+ )<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12955,22 +12939,12 @@ BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210408T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210408T083837
-DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
- king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
- धस्य व्रतेनानेन केशव।  <br/>प्
- रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
- ितीये तिथिनिर्णयकाण्डे विष
- ्णुधर्मे---  <br/>असम्भाष्यांस्
- तु सम्भाष्य तुलस्यतसिकादलम
- ्।  <br/>द्वादश्यामच्युतफलम् आ
- गस्त्यं पत्रमेव वा।   <br/>आमलक
- ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
- onfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/
- monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
- tam EkadashiVratam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
+ vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
+ ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
+ )<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -15327,9 +15301,18 @@ SUMMARY:सर्व-कामदा-एकादशी
 DTSTART;VALUE=DATE:20210423
 DTEND;VALUE=DATE:20210424
 DESCRIPTION:The Shukla-paksha Ekadashi of chaitra month is known as kāmad
- ā-ēkādaśī.<br/><br/>## Details<br/>- [Edit config file](https://githu
- b.com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/descript
- ion_only/kAmadA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ ā-ēkādaśī.<br/><br/>पक्षे पक्षे च कर्त
+ व्यमेकादश्यामुपोषणम्।  <br/>य
+ दीच्छेद्विष्णुसायुज्यं श्
+ रियं सन्ततिमात्मनः।  <br/>एकाद
+ श्यां न भुञ्जीत पक्षयोरुभय
+ ोरपि॥  <br/>  <br/>एकादश्यां निराह
+ ारः स्थित्वाऽहमपरेहनि।  <br/>भ
+ ोक्ष्यामि पुण्डरीकाक्ष शरण
+ ं मे भवाच्युत॥<br/><br/><br/><br/>## Details<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/tim
+ e_focus/monthly/ekAdashI/description_only/kAmadA-EkAdazI.toml)<br/>- Tags:
+  MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15496,22 +15479,12 @@ BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210424T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210424T031409
-DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
- king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
- धस्य व्रतेनानेन केशव।  <br/>प्
- रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
- ितीये तिथिनिर्णयकाण्डे विष
- ्णुधर्मे---  <br/>असम्भाष्यांस्
- तु सम्भाष्य तुलस्यतसिकादलम
- ्।  <br/>द्वादश्यामच्युतफलम् आ
- गस्त्यं पत्रमेव वा।   <br/>आमलक
- ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
- onfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/
- monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
- tam EkadashiVratam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
+ vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
+ ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
+ )<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -17185,22 +17158,12 @@ BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;VALUE=DATE:20210507
 DTEND;VALUE=DATE:20210507
-DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
- king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
- धस्य व्रतेनानेन केशव।  <br/>प्
- रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
- ितीये तिथिनिर्णयकाण्डे विष
- ्णुधर्मे---  <br/>असम्भाष्यांस्
- तु सम्भाष्य तुलस्यतसिकादलम
- ्।  <br/>द्वादश्यामच्युतफलम् आ
- गस्त्यं पत्रमेव वा।   <br/>आमलक
- ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
- onfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/
- monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
- tam EkadashiVratam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
+ vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
+ ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
+ )<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17219,10 +17182,13 @@ DESCRIPTION:The Krishna-paksha Ekadashi of chaitra month is known as varū
  यदीच्छेद्विष्णुसायुज्यं श
  ्रियं सन्ततिमात्मनः।  <br/>एका
  दश्यां न भुञ्जीत पक्षयोरुभ
- योरपि॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAd
- ashI/description_only/varUthinI-EkAdazI.toml)<br/>- Tags: MonthlyVratam Ek
- adashiVratam
+ योरपि॥  <br/>  <br/>एकादश्यां निरा
+ हारः स्थित्वाऽहमपरेहनि।  <br/>
+ भोक्ष्यामि पुण्डरीकाक्ष शर
+ णं मे भवाच्युत॥<br/><br/><br/><br/>## Details<br
+ />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
+ time_focus/monthly/ekAdashI/description_only/varUthinI-EkAdazI.toml)<br/>-
+  Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19474,22 +19440,12 @@ BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210523T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210523T115948
-DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
- king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
- धस्य व्रतेनानेन केशव।  <br/>प्
- रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
- ितीये तिथिनिर्णयकाण्डे विष
- ्णुधर्मे---  <br/>असम्भाष्यांस्
- तु सम्भाष्य तुलस्यतसिकादलम
- ्।  <br/>द्वादश्यामच्युतफलम् आ
- गस्त्यं पत्रमेव वा।   <br/>आमलक
- ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
- onfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/
- monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
- tam EkadashiVratam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
+ vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
+ ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
+ )<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -19620,9 +19576,18 @@ SUMMARY:वैष्णव-मोहिनी-एकादशी
 DTSTART;VALUE=DATE:20210523
 DTEND;VALUE=DATE:20210524
 DESCRIPTION:The Shukla-paksha Ekadashi of vaiśākha month is known as mō
- hinī-ēkādaśī.<br/><br/>## Details<br/>- [Edit config file](https://gi
- thub.com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/descr
- iption_only/mOhinI-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ hinī-ēkādaśī.<br/><br/>पक्षे पक्षे च कर्
+ तव्यमेकादश्यामुपोषणम्।  <br/>
+ यदीच्छेद्विष्णुसायुज्यं श
+ ्रियं सन्ततिमात्मनः।  <br/>एका
+ दश्यां न भुञ्जीत पक्षयोरुभ
+ योरपि॥  <br/>  <br/>एकादश्यां निरा
+ हारः स्थित्वाऽहमपरेहनि।  <br/>
+ भोक्ष्यामि पुण्डरीकाक्ष शर
+ णं मे भवाच्युत॥<br/><br/><br/><br/>## Details<br
+ />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
+ time_focus/monthly/ekAdashI/description_only/mOhinI-EkAdazI.toml)<br/>- Ta
+ gs: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21482,22 +21447,12 @@ BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210606T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210606T125556
-DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
- king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
- धस्य व्रतेनानेन केशव।  <br/>प्
- रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
- ितीये तिथिनिर्णयकाण्डे विष
- ्णुधर्मे---  <br/>असम्भाष्यांस्
- तु सम्भाष्य तुलस्यतसिकादलम
- ्।  <br/>द्वादश्यामच्युतफलम् आ
- गस्त्यं पत्रमेव वा।   <br/>आमलक
- ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
- onfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/
- monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
- tam EkadashiVratam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
+ vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
+ ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
+ )<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -21511,10 +21466,18 @@ DESCRIPTION:The Krishna-paksha Ekadashi of vaiśākha month is known as ap
  arā-ēkādaśī.<br/><br/>अपरासेवनाद् राजन
  ् विपाप्मा भवति ध्रुवम्।  <br/>
  कूटसाक्ष्यं मानकूटं तुलाकू
- टं करोति च॥<br/><br/><br/><br/>## Details<br/>- [Edit co
- nfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/m
- onthly/ekAdashI/description_only/aparA-EkAdazI.toml)<br/>- Tags: MonthlyVr
- atam EkadashiVratam
+ टं करोति च॥  <br/>  <br/>पक्षे पक्षे
+  च कर्तव्यमेकादश्यामुपोषणम
+ ्।  <br/>यदीच्छेद्विष्णुसायुज
+ ्यं श्रियं सन्ततिमात्मनः।  <
+ br/>एकादश्यां न भुञ्जीत पक्षय
+ ोरुभयोरपि॥  <br/>  <br/>एकादश्यां 
+ निराहारः स्थित्वाऽहमपरेहन
+ ि।  <br/>भोक्ष्यामि पुण्डरीकाक
+ ्ष शरणं मे भवाच्युत॥<br/><br/><br/><br/>
+ ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/time_focus/monthly/ekAdashI/description_only/aparA-EkAdazI.to
+ ml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23648,22 +23611,12 @@ BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210621T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210621T184610
-DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
- king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
- धस्य व्रतेनानेन केशव।  <br/>प्
- रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
- ितीये तिथिनिर्णयकाण्डे विष
- ्णुधर्मे---  <br/>असम्भाष्यांस्
- तु सम्भाष्य तुलस्यतसिकादलम
- ्।  <br/>द्वादश्यामच्युतफलम् आ
- गस्त्यं पत्रमेव वा।   <br/>आमलक
- ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
- onfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/
- monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
- tam EkadashiVratam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
+ vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
+ ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
+ )<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -23729,20 +23682,12 @@ SUMMARY:सर्व-पाण्डव-निर्जला-एकाद
  शी
 DTSTART;VALUE=DATE:20210621
 DTEND;VALUE=DATE:20210622
-DESCRIPTION:The Shukla-paksha Ekadashi of jyaiṣṭha month is known as n
- irjalā-ēkādaśī.<br/><br/>वृषस्थे मिथुनस्
- थेऽर्के शुक्ला ह्येकादशी भ
- वेत्।  <br/>ज्येष्ठे मासि प्रय
- त्नेन सोपोष्या जलवर्जिता॥  <
- br/>स्नाने चाचमने चैव वर्जयेन
- ्नोदकं बुधः॥  <br/>संवत्सरस्य 
- मध्ये एकादश्यो भवन्त्युत।  <
- br/>तासां फलमवाप्नोति अत्र मे 
- नास्ति संशयः॥ (हेमाद्रौ-महा
- भारते व्यासवचनम्)<br/><br/><br/><br/>## Deta
- ils<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/m
- aster/time_focus/monthly/ekAdashI/description_only/pANDava-nirjalA-EkAdazI
- .toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/pAND
+ ava-nirjalA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br
+ /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/pAND
+ ava-nirjalA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25483,10 +25428,18 @@ SUMMARY:सर्व-योगिनी-एकादशी
 DTSTART;VALUE=DATE:20210705
 DTEND;VALUE=DATE:20210706
 DESCRIPTION:The Krishna-paksha Ekadashi of jyaiṣṭha month is known as 
- yōginī-ēkādaśī.<br/><br/>## Details<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/de
- scription_only/yOginI-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVrat
- am
+ yōginī-ēkādaśī.<br/><br/>पक्षे पक्षे च कर
+ ्तव्यमेकादश्यामुपोषणम्।  <br
+ />यदीच्छेद्विष्णुसायुज्यं 
+ श्रियं सन्ततिमात्मनः।  <br/>एक
+ ादश्यां न भुञ्जीत पक्षयोरु
+ भयोरपि॥  <br/>  <br/>एकादश्यां निर
+ ाहारः स्थित्वाऽहमपरेहनि।  <b
+ r/>भोक्ष्यामि पुण्डरीकाक्ष श
+ रणं मे भवाच्युत॥<br/><br/><br/><br/>## Details
+ <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
+ er/time_focus/monthly/ekAdashI/description_only/yOginI-EkAdazI.toml)<br/>-
+  Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25573,22 +25526,12 @@ BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210706T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210706T050940
-DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
- king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
- धस्य व्रतेनानेन केशव।  <br/>प्
- रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
- ितीये तिथिनिर्णयकाण्डे विष
- ्णुधर्मे---  <br/>असम्भाष्यांस्
- तु सम्भाष्य तुलस्यतसिकादलम
- ्।  <br/>द्वादश्यामच्युतफलम् आ
- गस्त्यं पत्रमेव वा।   <br/>आमलक
- ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
- onfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/
- monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
- tam EkadashiVratam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
+ vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
+ ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
+ )<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -27521,20 +27464,12 @@ BEGIN:VEVENT
 SUMMARY:सर्व-शयन-एकादशी
 DTSTART;VALUE=DATE:20210720
 DTEND;VALUE=DATE:20210721
-DESCRIPTION:The Shukla-paksha Ekadashi of āṣāḍha month is known as 
- śayana-ēkādaśī. Lord Vishnu goes to sleep for four months beginning t
- oday.<br/><br/>त्वयि सुप्ते जगन्नाथे
-  जगत्सुप्तं भवेदिदम्॥  <br/>वि
- बुद्धे त्वयि बुद्ध्येत सर्
- वमेतच्चराचरम्॥  <br/>वासुदेव ज
- गद्योने प्राप्तेयं द्वादशी
-  तव।  <br/>भुजङ्गशयनेऽब्धौ च सु
- खं स्वपिहि माधव॥  <br/>इयं तु द्
- वादशी देव शयनार्थं विनिर्म
- िता।<br/><br/><br/><br/>## Details<br/>- [Edit config file](https:
- //github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/d
- escription_only/zayana-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVra
- tam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/zaya
+ na-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/blob/master/time_focus/monthly/ekAdashI/description_only/zayana-EkAdaz
+ I.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -27621,22 +27556,12 @@ BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210721T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210721T003539
-DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
- king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
- धस्य व्रतेनानेन केशव।  <br/>प्
- रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
- ितीये तिथिनिर्णयकाण्डे विष
- ्णुधर्मे---  <br/>असम्भाष्यांस्
- तु सम्भाष्य तुलस्यतसिकादलम
- ्।  <br/>द्वादश्यामच्युतफलम् आ
- गस्त्यं पत्रमेव वा।   <br/>आमलक
- ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
- onfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/
- monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
- tam EkadashiVratam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
+ vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
+ ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
+ )<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -29473,22 +29398,12 @@ BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;VALUE=DATE:20210804
 DTEND;VALUE=DATE:20210804
-DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
- king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
- धस्य व्रतेनानेन केशव।  <br/>प्
- रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
- ितीये तिथिनिर्णयकाण्डे विष
- ्णुधर्मे---  <br/>असम्भाष्यांस्
- तु सम्भाष्य तुलस्यतसिकादलम
- ्।  <br/>द्वादश्यामच्युतफलम् आ
- गस्त्यं पत्रमेव वा।   <br/>आमलक
- ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
- onfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/
- monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
- tam EkadashiVratam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
+ vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
+ ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
+ )<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -29502,10 +29417,18 @@ SUMMARY:सर्व-कामिका-एकादशी
 DTSTART;VALUE=DATE:20210804
 DTEND;VALUE=DATE:20210805
 DESCRIPTION:The Krishna-paksha Ekadashi of āṣāḍha month is known as 
- kāmikā-ēkādaśī.<br/><br/>## Details<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/de
- scription_only/kAmikA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVrat
- am
+ kāmikā-ēkādaśī.<br/><br/>पक्षे पक्षे च कर
+ ्तव्यमेकादश्यामुपोषणम्।  <br
+ />यदीच्छेद्विष्णुसायुज्यं 
+ श्रियं सन्ततिमात्मनः।  <br/>एक
+ ादश्यां न भुञ्जीत पक्षयोरु
+ भयोरपि॥  <br/>  <br/>एकादश्यां निर
+ ाहारः स्थित्वाऽहमपरेहनि।  <b
+ r/>भोक्ष्यामि पुण्डरीकाक्ष श
+ रणं मे भवाच्युत॥<br/><br/><br/><br/>## Details
+ <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
+ er/time_focus/monthly/ekAdashI/description_only/kAmikA-EkAdazI.toml)<br/>-
+  Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -31563,10 +31486,18 @@ SUMMARY:सर्व-पवित्रोपान-एकादशी
 DTSTART;VALUE=DATE:20210818
 DTEND;VALUE=DATE:20210819
 DESCRIPTION:The Shukla-paksha Ekadashi of śravaṇa month is known as pav
- itrōpāna-ēkādaśī.<br/><br/>## Details<br/>- [Edit config file](https
- ://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/
- description_only/pavitrOpAna-EkAdazI.toml)<br/>- Tags: MonthlyVratam Ekada
- shiVratam
+ itrōpāna-ēkādaśī.<br/><br/>पक्षे पक्षे च क
+ र्तव्यमेकादश्यामुपोषणम्।  
+ <br/>यदीच्छेद्विष्णुसायुज्यं
+  श्रियं सन्ततिमात्मनः।  <br/>ए
+ कादश्यां न भुञ्जीत पक्षयोर
+ ुभयोरपि॥  <br/>  <br/>एकादश्यां नि
+ राहारः स्थित्वाऽहमपरेहनि। 
+  <br/>भोक्ष्यामि पुण्डरीकाक्ष 
+ शरणं मे भवाच्युत॥<br/><br/><br/><br/>## Deta
+ ils<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/m
+ aster/time_focus/monthly/ekAdashI/description_only/pavitrOpAna-EkAdazI.tom
+ l)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -31675,22 +31606,12 @@ BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210819T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210819T063256
-DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
- king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
- धस्य व्रतेनानेन केशव।  <br/>प्
- रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
- ितीये तिथिनिर्णयकाण्डे विष
- ्णुधर्मे---  <br/>असम्भाष्यांस्
- तु सम्भाष्य तुलस्यतसिकादलम
- ्।  <br/>द्वादश्यामच्युतफलम् आ
- गस्त्यं पत्रमेव वा।   <br/>आमलक
- ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
- onfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/
- monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
- tam EkadashiVratam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
+ vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
+ ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
+ )<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -33846,22 +33767,12 @@ BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210903T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210903T135837
-DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
- king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
- धस्य व्रतेनानेन केशव।  <br/>प्
- रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
- ितीये तिथिनिर्णयकाण्डे विष
- ्णुधर्मे---  <br/>असम्भाष्यांस्
- तु सम्भाष्य तुलस्यतसिकादलम
- ्।  <br/>द्वादश्यामच्युतफलम् आ
- गस्त्यं पत्रमेव वा।   <br/>आमलक
- ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
- onfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/
- monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
- tam EkadashiVratam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
+ vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
+ ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
+ )<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -33873,9 +33784,18 @@ DTSTART;VALUE=DATE:20210903
 DTEND;VALUE=DATE:20210904
 DESCRIPTION:The Krishna-paksha Ekadashi of śravaṇa month is known as aj
  ā-ēkādaśī. Satya Harishchandra performed this to get back family and 
- kingdom.<br/><br/>## Details<br/>- [Edit config file](https://github.com/j
- yotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_onl
- y/ajA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ kingdom.<br/><br/>पक्षे पक्षे च कर्तव्
+ यमेकादश्यामुपोषणम्।  <br/>यदी
+ च्छेद्विष्णुसायुज्यं श्रि
+ यं सन्ततिमात्मनः।  <br/>एकादश्
+ यां न भुञ्जीत पक्षयोरुभयोर
+ पि॥  <br/>  <br/>एकादश्यां निराहार
+ ः स्थित्वाऽहमपरेहनि।  <br/>भोक
+ ्ष्यामि पुण्डरीकाक्ष शरणं 
+ मे भवाच्युत॥<br/><br/><br/><br/>## Details<br/>- [Ed
+ it config file](https://github.com/jyotisham/adyatithi/blob/master/time_fo
+ cus/monthly/ekAdashI/description_only/ajA-EkAdazI.toml)<br/>- Tags: Monthl
+ yVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -36110,22 +36030,12 @@ BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210917T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210917T134817
-DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
- king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
- धस्य व्रतेनानेन केशव।  <br/>प्
- रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
- ितीये तिथिनिर्णयकाण्डे विष
- ्णुधर्मे---  <br/>असम्भाष्यांस्
- तु सम्भाष्य तुलस्यतसिकादलम
- ्।  <br/>द्वादश्यामच्युतफलम् आ
- गस्त्यं पत्रमेव वा।   <br/>आमलक
- ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
- onfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/
- monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
- tam EkadashiVratam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
+ vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
+ ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
+ )<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -36153,15 +36063,12 @@ BEGIN:VEVENT
 SUMMARY:सर्व-परिवर्तिनी-एकादशी
 DTSTART;VALUE=DATE:20210917
 DTEND;VALUE=DATE:20210918
-DESCRIPTION:The Shukla-paksha Ekadashi of bhādrapada month is known as pa
- rivartinī-ēkādaśī. Sideways turn inside sleep of Lord Vishnu midway a
- fter Shayana Ekadashi.<br/><br/>वासुदेव जगन्ना
- थ प्राप्तेयं द्वादशी तव।  <br/>
- पार्श्वेन परिवर्तस्व सुखं 
- स्वपिहि माधव॥<br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time
- _focus/monthly/ekAdashI/description_only/parivartinI-EkAdazI.toml)<br/>- T
- ags: MonthlyVratam EkadashiVratam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/pari
+ vartinI-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><b
+ r/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/a
+ dyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/parivart
+ inI-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -38331,10 +38238,18 @@ DTSTART;VALUE=DATE:20211002
 DTEND;VALUE=DATE:20211003
 DESCRIPTION:The Krishna-paksha Ekadashi of bhādrapada month is known as i
  ndirā-ēkādaśī. Indrasena's son did Ekadashi and as a result he was sh
- ifted from hell to heaven.<br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdas
- hI/description_only/indirA-EkAdazI.toml)<br/>- Tags: MonthlyVratam Ekadash
- iVratam
+ ifted from hell to heaven.<br/><br/>पक्षे पक्षे च 
+ कर्तव्यमेकादश्यामुपोषणम्
+ ।  <br/>यदीच्छेद्विष्णुसायुज्
+ यं श्रियं सन्ततिमात्मनः।  <br/
+ >एकादश्यां न भुञ्जीत पक्षयो
+ रुभयोरपि॥  <br/>  <br/>एकादश्यां न
+ िराहारः स्थित्वाऽहमपरेहनि
+ ।  <br/>भोक्ष्यामि पुण्डरीकाक्
+ ष शरणं मे भवाच्युत॥<br/><br/><br/><br/>## 
+ Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/bl
+ ob/master/time_focus/monthly/ekAdashI/description_only/indirA-EkAdazI.toml
+ )<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -38437,22 +38352,12 @@ BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211003T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211003T050513
-DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
- king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
- धस्य व्रतेनानेन केशव।  <br/>प्
- रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
- ितीये तिथिनिर्णयकाण्डे विष
- ्णुधर्मे---  <br/>असम्भाष्यांस्
- तु सम्भाष्य तुलस्यतसिकादलम
- ्।  <br/>द्वादश्यामच्युतफलम् आ
- गस्त्यं पत्रमेव वा।   <br/>आमलक
- ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
- onfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/
- monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
- tam EkadashiVratam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
+ vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
+ ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
+ )<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -40404,22 +40309,12 @@ BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;VALUE=DATE:20211016
 DTEND;VALUE=DATE:20211016
-DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
- king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
- धस्य व्रतेनानेन केशव।  <br/>प्
- रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
- ितीये तिथिनिर्णयकाण्डे विष
- ्णुधर्मे---  <br/>असम्भाष्यांस्
- तु सम्भाष्य तुलस्यतसिकादलम
- ्।  <br/>द्वादश्यामच्युतफलम् आ
- गस्त्यं पत्रमेव वा।   <br/>आमलक
- ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
- onfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/
- monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
- tam EkadashiVratam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
+ vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
+ ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
+ )<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -40449,10 +40344,18 @@ SUMMARY:सर्व-पापाङ्कुशा-एकादशी
 DTSTART;VALUE=DATE:20211016
 DTEND;VALUE=DATE:20211017
 DESCRIPTION:The Shukla-paksha Ekadashi of āśvayuja month is known as pā
- pāṅkuśā-ēkādaśī.<br/><br/>## Details<br/>- [Edit config file](htt
- ps://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdash
- I/description_only/pApAGkuzA-EkAdazI.toml)<br/>- Tags: MonthlyVratam Ekada
- shiVratam
+ pāṅkuśā-ēkādaśī.<br/><br/>पक्षे पक्षे च क
+ र्तव्यमेकादश्यामुपोषणम्।  
+ <br/>यदीच्छेद्विष्णुसायुज्यं
+  श्रियं सन्ततिमात्मनः।  <br/>ए
+ कादश्यां न भुञ्जीत पक्षयोर
+ ुभयोरपि॥  <br/>  <br/>एकादश्यां नि
+ राहारः स्थित्वाऽहमपरेहनि। 
+  <br/>भोक्ष्यामि पुण्डरीकाक्ष 
+ शरणं मे भवाच्युत॥<br/><br/><br/><br/>## Deta
+ ils<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/m
+ aster/time_focus/monthly/ekAdashI/description_only/pApAGkuzA-EkAdazI.toml)
+ <br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -42628,22 +42531,12 @@ BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211101T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211101T185826
-DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
- king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
- धस्य व्रतेनानेन केशव।  <br/>प्
- रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
- ितीये तिथिनिर्णयकाण्डे विष
- ्णुधर्मे---  <br/>असम्भाष्यांस्
- तु सम्भाष्य तुलस्यतसिकादलम
- ्।  <br/>द्वादश्यामच्युतफलम् आ
- गस्त्यं पत्रमेव वा।   <br/>आमलक
- ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
- onfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/
- monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
- tam EkadashiVratam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
+ vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
+ ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
+ )<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -42671,9 +42564,18 @@ SUMMARY:सर्व-रमा-एकादशी
 DTSTART;VALUE=DATE:20211101
 DTEND;VALUE=DATE:20211102
 DESCRIPTION:The Krishna-paksha Ekadashi of āśvayuja month is known as ra
- mā-ēkādaśī.<br/><br/>## Details<br/>- [Edit config file](https://gith
- ub.com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/descrip
- tion_only/ramA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ mā-ēkādaśī.<br/><br/>पक्षे पक्षे च कर्त
+ व्यमेकादश्यामुपोषणम्।  <br/>य
+ दीच्छेद्विष्णुसायुज्यं श्
+ रियं सन्ततिमात्मनः।  <br/>एकाद
+ श्यां न भुञ्जीत पक्षयोरुभय
+ ोरपि॥  <br/>  <br/>एकादश्यां निराह
+ ारः स्थित्वाऽहमपरेहनि।  <br/>भ
+ ोक्ष्यामि पुण्डरीकाक्ष शरण
+ ं मे भवाच्युत॥<br/><br/><br/><br/>## Details<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/tim
+ e_focus/monthly/ekAdashI/description_only/ramA-EkAdazI.toml)<br/>- Tags: M
+ onthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -44644,22 +44546,12 @@ BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211115T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211115T125746
-DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
- king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
- धस्य व्रतेनानेन केशव।  <br/>प्
- रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
- ितीये तिथिनिर्णयकाण्डे विष
- ्णुधर्मे---  <br/>असम्भाष्यांस्
- तु सम्भाष्य तुलस्यतसिकादलम
- ्।  <br/>द्वादश्यामच्युतफलम् आ
- गस्त्यं पत्रमेव वा।   <br/>आमलक
- ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
- onfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/
- monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
- tam EkadashiVratam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
+ vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
+ ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
+ )<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -44721,9 +44613,18 @@ SUMMARY:सर्व-उत्थान-एकादशी
 DTSTART;VALUE=DATE:20211115
 DTEND;VALUE=DATE:20211116
 DESCRIPTION:The Shukla-paksha Ekadashi of kārttika month is known as utth
- āna-ēkādaśī.<br/><br/>## Details<br/>- [Edit config file](https://git
- hub.com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/descri
- ption_only/utthAna-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ āna-ēkādaśī.<br/><br/>पक्षे पक्षे च कर्
+ तव्यमेकादश्यामुपोषणम्।  <br/>
+ यदीच्छेद्विष्णुसायुज्यं श
+ ्रियं सन्ततिमात्मनः।  <br/>एका
+ दश्यां न भुञ्जीत पक्षयोरुभ
+ योरपि॥  <br/>  <br/>एकादश्यां निरा
+ हारः स्थित्वाऽहमपरेहनि।  <br/>
+ भोक्ष्यामि पुण्डरीकाक्ष शर
+ णं मे भवाच्युत॥<br/><br/><br/><br/>## Details<br
+ />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
+ time_focus/monthly/ekAdashI/description_only/utthAna-EkAdazI.toml)<br/>- T
+ ags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -47254,9 +47155,18 @@ SUMMARY:सर्व-उत्पन्ना-एकादशी
 DTSTART;VALUE=DATE:20211130
 DTEND;VALUE=DATE:20211201
 DESCRIPTION:The Krishna-paksha Ekadashi of kārttika month is known as utp
- annā-ēkādaśī.<br/><br/>## Details<br/>- [Edit config file](https://gi
- thub.com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/descr
- iption_only/utpannA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ annā-ēkādaśī.<br/><br/>पक्षे पक्षे च कर्
+ तव्यमेकादश्यामुपोषणम्।  <br/>
+ यदीच्छेद्विष्णुसायुज्यं श
+ ्रियं सन्ततिमात्मनः।  <br/>एका
+ दश्यां न भुञ्जीत पक्षयोरुभ
+ योरपि॥  <br/>  <br/>एकादश्यां निरा
+ हारः स्थित्वाऽहमपरेहनि।  <br/>
+ भोक्ष्यामि पुण्डरीकाक्ष शर
+ णं मे भवाच्युत॥<br/><br/><br/><br/>## Details<br
+ />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
+ time_focus/monthly/ekAdashI/description_only/utpannA-EkAdazI.toml)<br/>- T
+ ags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -47327,22 +47237,12 @@ BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211201T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211201T073754
-DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
- king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
- धस्य व्रतेनानेन केशव।  <br/>प्
- रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
- ितीये तिथिनिर्णयकाण्डे विष
- ्णुधर्मे---  <br/>असम्भाष्यांस्
- तु सम्भाष्य तुलस्यतसिकादलम
- ्।  <br/>द्वादश्यामच्युतफलम् आ
- गस्त्यं पत्रमेव वा।   <br/>आमलक
- ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
- onfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/
- monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
- tam EkadashiVratam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
+ vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
+ ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
+ )<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -49102,14 +49002,12 @@ BEGIN:VEVENT
 SUMMARY:कैशिक-एकादशी
 DTSTART;VALUE=DATE:20211214
 DTEND;VALUE=DATE:20211215
-DESCRIPTION:The Shukla-paksha Ekadashi of vr̥śchikamāsa is also celebra
- ted as kaiśika-ēkādaśī. Kaisika Puranam\, consisting of 82 shlokas de
- scribes the story of ta:nampāḍuvāṉ and a rākṣasa who attained muk
- ti by nāmasaṅkīrtanam and the fruits of ta:nampāḍuvān's nāmasaṅ
- kīrtanam\, respectively!<br/><br/>## Details<br/>- [Edit config file](htt
- ps://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdash
- I/description_only/kaizika-EkAdazI.toml)<br/>- Tags: MonthlyVratam Ekadash
- iVratam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/kaiz
+ ika-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><
+ br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyat
+ ithi/blob/master/time_focus/monthly/ekAdashI/description_only/kaizika-EkAd
+ azI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -49123,10 +49021,18 @@ SUMMARY:सर्व-मोक्षदा-एकादशी
 DTSTART;VALUE=DATE:20211214
 DTEND;VALUE=DATE:20211215
 DESCRIPTION:The Shukla-paksha Ekadashi of mārgaśīrṣa month is known a
- s mōkṣadā-ēkādaśī.<br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdas
- hI/description_only/mOkSadA-EkAdazI.toml)<br/>- Tags: MonthlyVratam Ekadas
- hiVratam
+ s mōkṣadā-ēkādaśī.<br/><br/>पक्षे पक्षे च 
+ कर्तव्यमेकादश्यामुपोषणम्
+ ।  <br/>यदीच्छेद्विष्णुसायुज्
+ यं श्रियं सन्ततिमात्मनः।  <br/
+ >एकादश्यां न भुञ्जीत पक्षयो
+ रुभयोरपि॥  <br/>  <br/>एकादश्यां न
+ िराहारः स्थित्वाऽहमपरेहनि
+ ।  <br/>भोक्ष्यामि पुण्डरीकाक्
+ ष शरणं मे भवाच्युत॥<br/><br/><br/><br/>## 
+ Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/bl
+ ob/master/time_focus/monthly/ekAdashI/description_only/mOkSadA-EkAdazI.tom
+ l)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -49243,22 +49149,12 @@ BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211215T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211215T061048
-DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
- king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
- धस्य व्रतेनानेन केशव।  <br/>प्
- रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
- ितीये तिथिनिर्णयकाण्डे विष
- ्णुधर्मे---  <br/>असम्भाष्यांस्
- तु सम्भाष्य तुलस्यतसिकादलम
- ्।  <br/>द्वादश्यामच्युतफलम् आ
- गस्त्यं पत्रमेव वा।   <br/>आमलक
- ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
- onfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/
- monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
- tam EkadashiVratam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
+ vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
+ ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
+ )<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -51069,22 +50965,12 @@ BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211230T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211230T185807
-DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
- king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
- धस्य व्रतेनानेन केशव।  <br/>प्
- रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
- ितीये तिथिनिर्णयकाण्डे विष
- ्णुधर्मे---  <br/>असम्भाष्यांस्
- तु सम्भाष्य तुलस्यतसिकादलम
- ्।  <br/>द्वादश्यामच्युतफलम् आ
- गस्त्यं पत्रमेव वा।   <br/>आमलक
- ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
- onfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/
- monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
- tam EkadashiVratam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
+ vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
+ ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
+ )<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -51117,10 +51003,18 @@ SUMMARY:सर्व-सफला-एकादशी
 DTSTART;VALUE=DATE:20211230
 DTEND;VALUE=DATE:20211231
 DESCRIPTION:The Krishna-paksha Ekadashi of mārgaśīrṣa month is known 
- as saphalā-ēkādaśī.<br/><br/>## Details<br/>- [Edit config file](http
- s://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI
- /description_only/saphalA-EkAdazI.toml)<br/>- Tags: MonthlyVratam Ekadashi
- Vratam
+ as saphalā-ēkādaśī.<br/><br/>पक्षे पक्षे च क
+ र्तव्यमेकादश्यामुपोषणम्।  
+ <br/>यदीच्छेद्विष्णुसायुज्यं
+  श्रियं सन्ततिमात्मनः।  <br/>ए
+ कादश्यां न भुञ्जीत पक्षयोर
+ ुभयोरपि॥  <br/>  <br/>एकादश्यां नि
+ राहारः स्थित्वाऽहमपरेहनि। 
+  <br/>भोक्ष्यामि पुण्डरीकाक्ष 
+ शरणं मे भवाच्युत॥<br/><br/><br/><br/>## Deta
+ ils<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/m
+ aster/time_focus/monthly/ekAdashI/description_only/saphalA-EkAdazI.toml)<b
+ r/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
