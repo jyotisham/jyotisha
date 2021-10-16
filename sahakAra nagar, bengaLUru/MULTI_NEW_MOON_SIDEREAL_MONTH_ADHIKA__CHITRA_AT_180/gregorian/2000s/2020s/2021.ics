@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20211016115539
+SEQUENCE:20211016175447
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -40453,6 +40453,25 @@ DESCRIPTION:The Shukla-paksha Ekadashi of āśvayuja month is known as pā
  ps://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdash
  I/description_only/pApAGkuzA-EkAdazI.toml)<br/>- Tags: MonthlyVratam Ekada
  shiVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:वीर-पाण्ड्य-कट्ट-ब्रह्मो
+  हतः #२२२
+DTSTART;VALUE=DATE:20211016
+DTEND;VALUE=DATE:20211017
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/10/16/vIra-
+ pANDya-kaTTa-brahmo_hataH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details
+ <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
+ er/mahApuruSha/xatra-later/gregorian/day/10/16/vIra-pANDya-kaTTa-brahmo_ha
+ taH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
