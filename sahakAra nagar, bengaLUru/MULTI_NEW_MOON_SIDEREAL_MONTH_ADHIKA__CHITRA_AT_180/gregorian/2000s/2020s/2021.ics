@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20211016175633
+SEQUENCE:20211016181305
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -41745,6 +41745,23 @@ DESCRIPTION:Observed on Kr̥Ṣṇa-Caturthī tithi of Āśvayujaḥ (luna
  />- References<br/>  - Kielhorn (1897)<br/>- [Edit config file](https://gi
  thub.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/07/19/k
  araka-caturthI.toml)<br/>- Tags: SpecialPuja
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:मरुत्-पाण्ड्य-हत्या #२२०
+DTSTART;VALUE=DATE:20211024
+DTEND;VALUE=DATE:20211025
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/10/24/marut
+ -pANDya-hatyA.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruS
+ ha/xatra-later/gregorian/day/10/24/marut-pANDya-hatyA.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
