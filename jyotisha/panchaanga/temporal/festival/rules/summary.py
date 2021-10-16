@@ -29,7 +29,7 @@ def describe_fest(rule, include_images, include_shlokas, include_url, is_brief, 
   blurb = get_timing_summary(rule)
   # Get the URL
   description_string = get_description_str_with_shlokas(include_shlokas, rule, script)
-  description_string = regex.sub("\n## ", "\n%s " % header_md, "\n" + description_string).lstrip()
+  description_string = regex.sub("\n##", "\n%s" % header_md, "\n" + description_string).lstrip()
   if include_images:
     if rule.image is not None:
       image_string = '![](https://github.com/jyotisham/adyatithi/blob/master/images/%s)\n\n' % rule.image
