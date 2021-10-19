@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20211016221048
+SEQUENCE:20211019182252
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -1795,14 +1795,12 @@ SUMMARY:पानीयपथे पराजितिर् हिन्
  दुकानाम् #२६०
 DTSTART;VALUE=DATE:20210114
 DTEND;VALUE=DATE:20210115
-DESCRIPTION:Event occured on 1761-01-14 (gregorian). <br/><br/>Sad anniver
- sary of 3rd battle of pAnIpat where ahmed shAh abdAli defeated the starvin
- g\, outmaneouvred\, civilian heavy Maratha forces under the 31 yr old sadA
- shivarAv bhAu with the bold 19 year old vishvAs rAv\, with cataclysmic eff
- ects accross India (including the loss of star generals and rise of Hyder 
- ali).<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
- isham/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/01/14/pA
- nIyapathe_parAjitir_hindukAnAm.toml)<br/>- Tags:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/01/14/pAnIy
+ apathe_parAjitir_hindukAnAm.toml)<br/>- Tags: <br/><br/><br/><br/>## Detai
+ ls<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/ma
+ ster/mahApuruSha/xatra-later/gregorian/day/01/14/pAnIyapathe_parAjitir_hin
+ dukAnAm.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -40324,6 +40322,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:कुञ्जपुर-युद्धम् #२२२
+DTSTART;VALUE=DATE:20211016
+DTEND;VALUE=DATE:20211017
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/10/16/kunja
+ pura-yuddham.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSh
+ a/xatra-later/gregorian/day/10/16/kunjapura-yuddham.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:पुरट्टाचि चऩिक्किऴमै
 DTSTART;VALUE=DATE:20211016
 DTEND;VALUE=DATE:20211017
@@ -41952,12 +41967,12 @@ SUMMARY:कृष्णदेवराय-मरणम् #४९२
 DTSTART;VALUE=DATE:20211027
 DTEND;VALUE=DATE:20211028
 DESCRIPTION:Event occured on 1529-10-27 (gregorian). Julian date was conve
- rted to Gregorian in this reckoning. <br/><br/>Great emperor kRShNadevarAy
- a died. An inscription in Honehalli near Tumkur records this. There was a 
- lunar eclipse on the day. कार्त्तिक-पूर्णि
- मा.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
- otisham/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/10/17/kRS
- hNadevarAya-mRtyuH.toml)<br/>- Tags:
+ rted to Gregorian in this reckoning. <br/><br/>On this day died shrI-kRShN
+ adeva-rAya\, who ruled vijayanagara at its peak.<br/><br/>An inscription i
+ n Honehalli near Tumkur records this. Saka 1451 Virodhi Kartika Shuddha Po
+ urnima\, lunar eclipse.<br/><br/>## Details<br/>- [Edit config file](https
+ ://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xatra-later/juli
+ an/day/10/17/kRShNadevarAya-mRtyuH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -49339,6 +49354,25 @@ DESCRIPTION:- Indian civil date: 1943-09-26\, Islamic: 1443-05-12 Jumādā
  ालः**—08:02-09:27  \n___________________\n- **शूलम्**—
  प्रतीची दिक् (►11:08)\; **परिहारः**
  –गुडम्  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:बुन्देल-गोविन्द-राव-वीरग
+ तिः #२६१
+DTSTART;VALUE=DATE:20211217
+DTEND;VALUE=DATE:20211218
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/12/17/bunde
+ la-govinda-rAvo-hataH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/
+ >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/m
+ ahApuruSha/xatra-later/gregorian/day/12/17/bundela-govinda-rAvo-hataH.toml
+ )<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
