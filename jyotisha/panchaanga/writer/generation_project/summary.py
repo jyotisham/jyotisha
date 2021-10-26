@@ -3,6 +3,12 @@ from jyotisha.panchaanga.spatio_temporal import City
 from jyotisha.panchaanga.writer.generation_project import dump_summary
 
 
+def dump_delhi_history():
+  c = City.get_city_from_db(name="Delhi")
+  for year in range(1150, 1251):
+    dump_summary(year=year, city=c)
+
+
 def dump_mysore_history():
   maisUru = City.get_city_from_db(name="Mysore")
   # dump_summary(year=1797, city=maisUru)
@@ -35,4 +41,4 @@ def dump_bengaluru_history():
 
 
 if __name__ == '__main__':
-  dump_bengaluru_history()
+  dump_delhi_history()
