@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20211024104426
+SEQUENCE:20211026153822
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -1619,14 +1619,10 @@ SUMMARY:श्री-हनूमत्-जयन्ती
 DTSTART;VALUE=DATE:20210113
 DTEND;VALUE=DATE:20210114
 DESCRIPTION:Observed on Amāvāsyā tithi of Dhanuḥ (sidereal solar) mon
- th (Sūryōdayaḥ/puurvaviddha). <br/><br/>आश्विनस्या
- सिते पक्षे भूतायां च महानिश
- ि।  <br/>भौमवारेऽञ्जनादेवी हनू
- मन्तमजीजनत्॥ (व्रतरत्नाकरम
- ्)<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
- .com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/sidereal_solar_month
- /tithi/09/30/zrI~hanUmat~jayantI~1.toml)<br/>- Tags: OtherAvatarams Common
- Festivals
+ th (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Ed
+ it config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/
+ vaiShNava/sidereal_solar_month/tithi/09/30/zrI~hanUmat~jayantI~1.toml)<br/
+ >- Tags: OtherAvatarams CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -39019,37 +39015,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:महालय-पक्षः
-DTSTART;VALUE=DATE:20210921
-DTEND;VALUE=DATE:20211008
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/devatA/pitR/description_only/mahAlaya-pakSaH.toml
- )<br/>- Tags: SpecialPeriod
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:महालय-पक्ष-समापनम्
-DTSTART;VALUE=DATE:20211007
-DTEND;VALUE=DATE:20211008
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/devatA/pitR/relative_event/mahAlaya-pakSa-Arambha
- H/offset__16/mahAlaya-pakSa-samApanam.toml)<br/>- Tags: SpecialPeriodEnd C
- ommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:पार्वण-प्रायश्चित्तावक
  ाशः पौर्णमास्याम्
 DTSTART;VALUE=DATE:20211007
@@ -40234,10 +40199,9 @@ DESCRIPTION:Observed on Śukla-Daśamī tithi of Āśvayujaḥ (lunar) mon
  />आश्विनस्य सिते पक्षे दशम्य
  ां तारकोदये।  <br/>स कालो विजयो 
  ज्ञेयः सर्वकार्यार्थसिद्ध
- ये॥ (ज्योतिर्निबन्धः)<br/><br/><br/><b
- r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
- thi/blob/master/general/lunar_month/tithi/07/10/vijayadazamI.toml)<br/>- T
- ags: CommonFestivals
+ ये॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/07/10/
+ vijayadazamI.toml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -43384,13 +43348,10 @@ DTSTART;VALUE=DATE:20211105
 DTEND;VALUE=DATE:20211106
 DESCRIPTION:Observed on Śukla-Prathamā tithi of Kārttikaḥ (lunar) mon
  th (Madhyāhnaḥ/puurvaviddha). <br/><br/>Commemoration of Govardhana Lee
- la of Krishna. Offer naivedyam to Lord Krishna.<br/><br/>गोवर्
- धन धराधार गोकुलत्राणकारक।  <
- br/>विष्णुबाहुकृतोच्छ्राय गव
- ां कोटिप्रदो भव॥<br/><br/><br/><br/>## Details
- <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
- er/devatA/vaiShNava/lunar_month/tithi/08/01/gOvardhana-pUjA.toml)<br/>- Ta
- gs: PuranaEvents CommonFestivals
+ la of Krishna. Offer naivedyam to Lord Krishna.<br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/deva
+ tA/vaiShNava/lunar_month/tithi/08/01/gOvardhana-pUjA.toml)<br/>- Tags: Pur
+ anaEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
