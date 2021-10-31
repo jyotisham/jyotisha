@@ -79,7 +79,7 @@ class City(JsonObject):
     return city
 
   def get_transliterated_name(self, script):
-    if self.name_hk is not None:
+    if self.name_hk is not None and self.name_hk != "":
       return custom_transliteration.tr(self.name_hk, script)
     else:
       return self.name
