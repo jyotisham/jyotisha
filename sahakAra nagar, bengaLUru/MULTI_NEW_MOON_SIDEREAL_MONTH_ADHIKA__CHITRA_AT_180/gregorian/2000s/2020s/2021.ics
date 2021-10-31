@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20211026161104
+SEQUENCE:20211031170941
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -38634,7 +38634,9 @@ SUMMARY:बोधायन (भाद्रपद) महालय अम
  ावास्या
 DTSTART;VALUE=DATE:20211005
 DTEND;VALUE=DATE:20211006
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/bOdh
+ Ayana_%28bhAdrapada%29_mahAlaya_amAvAsyA.toml)<br/>- Tags: AmavasyaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
