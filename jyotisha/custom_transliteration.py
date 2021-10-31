@@ -30,8 +30,9 @@ def tr(text, script, titled=True, source_script=sanscript.roman.HK_DRAVIDIAN):
   """
   
   NOTE: Please don't put your custom tex/ md/ ics whatever code here and pollute core library functions. Wrap this in your own functions if you must. Functions should be atomic."""
-  if script == 'hk':
+  if script in ['hk', 'itrans']:
     script = sanscript.roman.HK_DRAVIDIAN
+    titled = False
   if text == '':
     return ''
   # TODO: Fix this ugliness.
@@ -144,6 +145,6 @@ def transliterate_from_language(text, language, script):
     transliterated_text = tr(text, script)
   else:
     source_script = language_code_to_script[language]
-    transliterated_text = sanscript.transliterate(text, source_script, script)
+    transliterated_text = sanscript.transliterate(data=text, _from=source_script, _to=script, togglers={'##'})
   return transliterated_text
 
