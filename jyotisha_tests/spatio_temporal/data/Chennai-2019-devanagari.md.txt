@@ -492,6 +492,9 @@ Observed on Amāvāsyā tithi of every (lunar) month (Āśvinaḥ/paraviddha).
 
 Observed on Amāvāsyā tithi of Dhanuḥ (sidereal solar) month (Sūryōdayaḥ/puurvaviddha). 
 
+आश्विनस्यासिते पक्षे भूतायां च महानिशि।  
+भौमवारेऽञ्जनादेवी हनूमन्तमजीजनत्॥ (व्रतरत्नाकरम्)
+
 
 
 ###### Details
@@ -24664,7 +24667,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अश्वशिरो-देव-पूजा, गजच्छाया-योगः, पञ्च-पर्व-पूजा (अमावास्या), पार्वणव्रतम् अमावास्यायाम्, पुरट्टाचि-चऩिक्किऴमै, महालय-पक्ष-समापनम्, शृङ्गेरी ३४ जगद्गुरु श्री-चन्द्रशेखर भारती आराधना, सर्व-(भाद्रपद) महालय अमावास्या, सुजन्मप्राप्ति-व्रतम्
+- अश्वशिरो-देव-पूजा, गजच्छाया-योगः, पञ्च-पर्व-पूजा (अमावास्या), पार्वणव्रतम् अमावास्यायाम्, पुरट्टाचि-चऩिक्किऴमै, शृङ्गेरी ३४ जगद्गुरु श्री-चन्द्रशेखर भारती आराधना, सर्व-(भाद्रपद) महालय अमावास्या, सुजन्मप्राप्ति-व्रतम्
 ##### अश्वशिरो-देव-पूजा
 
 Observed on Amāvāsyā tithi of Bhādrapadaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -24697,17 +24700,6 @@ A very special yōga, for doing Pitru Shraddha during Mahalaya Paksham. A man th
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/special-tithis/description_only/gajacchAyA-yOgaH.toml)
 - Tags: RareDays Combinations
-
-
-##### महालय-पक्ष-समापनम्
-
-
-
-
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/relative_event/sarva-%28bhAdrapada%29_mahAlaya_amAvAsyA/offset__00/mahAlaya-pakSa-samApanam.toml)
-- Tags: SpecialPeriodEnd CommonFestivals
 
 
 ##### पार्वणव्रतम् अमावास्यायाम्
@@ -24969,7 +24961,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- चन्द्र-दर्शनम्, वैधृति-श्राद्धम्
+- चन्द्र-दर्शनम्, महालय-पक्ष-समापनम्, वैधृति-श्राद्धम्
 ##### चन्द्र-दर्शनम्
 - 17:56→19:22
 
@@ -24987,6 +24979,17 @@ Have darshan of Moon today, chanting the following shloka
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/graha/description_only/candra-darzanam.toml)
 - Tags: ChandraDarshanam
+
+
+##### महालय-पक्ष-समापनम्
+
+
+
+
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/relative_event/mahAlaya-pakSa-ArambhaH/offset__16/mahAlaya-pakSa-samApanam.toml)
+- Tags: SpecialPeriodEnd CommonFestivals
 
 
 ##### वैधृति-श्राद्धम्
@@ -25716,7 +25719,7 @@ Sri Rama's army built tents on ocean bank before crossing on Shravana star (Anan
 Best day for AksharaaBhyaasam
 
 आश्विनस्य सिते पक्षे दशम्यां तारकोदये।  
-स कालो विजयो ज्ञेयः सर्वकार्यार्थसिद्धये॥
+स कालो विजयो ज्ञेयः सर्वकार्यार्थसिद्धये॥ (ज्योतिर्निबन्धः)
 
 
 
@@ -27779,6 +27782,11 @@ Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurv
 Observed on Śukla-Prathamā tithi of Kārttikaḥ (lunar) month (Madhyāhnaḥ/puurvaviddha). 
 
 Commemoration of Govardhana Leela of Krishna. Offer naivedyam to Lord Krishna.
+
+गोवर्धन धराधार गोकुलत्राणकारक।  
+विष्णुबाहुकृतोच्छ्राय गवां कोटिप्रदो भव॥
+
+
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/08/01/gOvardhana-pUjA.toml)
@@ -33063,6 +33071,9 @@ sthālīpakaḥ is an important fortnightly ritual, involving the offering of ha
 ##### श्री-हनूमत्-जयन्ती
 
 Observed on Amāvāsyā tithi of Dhanuḥ (sidereal solar) month (Sūryōdayaḥ/puurvaviddha). 
+
+आश्विनस्यासिते पक्षे भूतायां च महानिशि।  
+भौमवारेऽञ्जनादेवी हनूमन्तमजीजनत्॥ (व्रतरत्नाकरम्)
 
 
 
