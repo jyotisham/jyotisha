@@ -23,7 +23,8 @@ class TithiFestivalAssigner(FestivalAssigner):
   def assign_all(self):
     self.assign_solar_sidereal_amaavaasyaa()
     self.assign_amaavaasya_vyatiipaata()
-    self.assign_chandra_darshanam()
+    # Force computation of chandra darshanam for bodhayana amavasya's sake
+    self.assign_chandra_darshanam(force_computation=True)
     self.assign_bodhaayana_amaavaasyaa()
     self.assign_amaavaasyaa_soma()
     self.assign_chaturthi_vratam()
@@ -483,8 +484,8 @@ class TithiFestivalAssigner(FestivalAssigner):
         festival_name = 'vAjapEyaphala-snAna-yOgaH'
         self.panchaanga.add_festival(fest_id=festival_name, date=day_panchaanga.date)
 
-  def assign_chandra_darshanam(self):
-    if 'candra-darzanam' not in self.rules_collection.name_to_rule:
+  def assign_chandra_darshanam(self, force_computation=False):
+    if 'candra-darzanam' not in self.rules_collection.name_to_rule and not force_computation:
       return
     d = self.panchaanga.duration_prior_padding
     while d < self.panchaanga.duration + self.panchaanga.duration_prior_padding:
@@ -528,6 +529,8 @@ class TithiFestivalAssigner(FestivalAssigner):
             fest_id = key
             self.panchaanga.delete_festival_date(fest_id=fest_id, date=self.panchaanga.daily_panchaanga_for_date(cdd - 2).date)
             self.panchaanga.add_festival(fest_id='sarva-' + fest_id, date=self.panchaanga.daily_panchaanga_for_date(cdd - 2).date)
+    if 'candra-darzanam' not in self.rules_collection.name_to_rule:
+      self.panchaanga.delete_festival(fest_id='candra-darzanam')
 
   def assign_vaarunii_trayodashi(self):
     if 'vAruNI~trayOdazI' not in self.rules_collection.name_to_rule:

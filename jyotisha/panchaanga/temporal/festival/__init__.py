@@ -38,7 +38,7 @@ class FestivalInstance(common.JsonObject):
     from jyotisha.panchaanga.temporal.festival import rules
     fest_details = fest_details_dict.get(self.name, rules.HinduCalendarEvent(id=self.name))
     if fest_details.names is None:
-      sa_name = sanscript.transliterate(self.name.replace("~", " "), sanscript.roman.HK_DRAVIDIAN, sanscript.DEVANAGARI)
+      sa_name = sanscript.transliterate(self.name.replace("~", " "), sanscript.roman.HK_DRAVIDIAN, sanscript.DEVANAGARI, togglers={'##'})
       sa_name = rules.inverse_clean_id(sa_name)
       fest_details.names = {"sa": [sa_name]}
     import copy

@@ -501,10 +501,12 @@ SUMMARY:śrī-hanūmat-jayantī
 DTSTART;VALUE=DATE:20190105
 DTEND;VALUE=DATE:20190106
 DESCRIPTION:Observed on Amāvāsyā tithi of Dhanuḥ (sidereal solar) mon
- th (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Ed
- it config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/
- vaiShNava/sidereal_solar_month/tithi/09/30/zrI~hanUmat~jayantI~1.toml)<br/
- >- Tags: OtherAvatarams CommonFestivals
+ th (Sūryōdayaḥ/puurvaviddha). <br/><br/>āśvinasyāsitē pakṣē bh
+ ūtāyāṁ ca mahāniśi।  <br/>bhaumavārē'ñjanādēvī hanūmantama
+ jījanat॥ (vrataratnākaram)<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiS
+ hNava/sidereal_solar_month/tithi/09/30/zrI~hanUmat~jayantI~1.toml)<br/>- T
+ ags: OtherAvatarams CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -29878,37 +29880,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:mahālaya-pakṣaḥ
-DTSTART;VALUE=DATE:20190913
-DTEND;VALUE=DATE:20190929
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/devatA/pitR/description_only/mahAlaya-pakSaH.toml
- )<br/>- Tags: SpecialPeriod
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:mahālaya-pakṣa-samāpanam
-DTSTART;VALUE=DATE:20190928
-DTEND;VALUE=DATE:20190929
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/devatA/pitR/relative_event/sarva-%28bhAdrapada%29
- _mahAlaya_amAvAsyA/offset__00/mahAlaya-pakSa-samApanam.toml)<br/>- Tags: S
- pecialPeriodEnd CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:pārvaṇavratam amāvāsyāyām
 DTSTART;VALUE=DATE:20190928
 DTEND;VALUE=DATE:20190929
@@ -30270,6 +30241,37 @@ DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
  er/devatA/graha/description_only/candra-darzanam.toml)<br/>- Tags: Chandra
  Darshanam
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mahālaya-pakṣaḥ
+DTSTART;VALUE=DATE:20190913
+DTEND;VALUE=DATE:20191001
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/description_only/mahAlaya-pakSaH.toml
+ )<br/>- Tags: SpecialPeriod
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mahālaya-pakṣa-samāpanam
+DTSTART;VALUE=DATE:20190930
+DTEND;VALUE=DATE:20191001
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/relative_event/mahAlaya-pakSa-Arambha
+ H/offset__16/mahAlaya-pakSa-samApanam.toml)<br/>- Tags: SpecialPeriodEnd C
+ ommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -31177,10 +31179,10 @@ DESCRIPTION:Observed on Śukla-Daśamī tithi of Āśvayujaḥ (lunar) mon
  and Karna<br/>Sri Rama's army built tents on ocean bank before crossing on
   Shravana star (AnandaRamayanam)<br/>Best day for AksharaaBhyaasam<br/><br
  />āśvinasya sitē pakṣē daśamyāṁ tārakōdayē।  <br/>sa kālō
-  vijayō jñēyaḥ sarvakāryārthasiddhayē॥<br/><br/><br/><br/>## Det
- ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/
- master/general/lunar_month/tithi/07/10/vijayadazamI.toml)<br/>- Tags: Comm
- onFestivals
+  vijayō jñēyaḥ sarvakāryārthasiddhayē॥ (jyōtirnibandhaḥ)<br/>
+ <br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
+ isham/adyatithi/blob/master/general/lunar_month/tithi/07/10/vijayadazamI.t
+ oml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -33620,10 +33622,12 @@ DTSTART;VALUE=DATE:20191028
 DTEND;VALUE=DATE:20191029
 DESCRIPTION:Observed on Śukla-Prathamā tithi of Kārttikaḥ (lunar) mon
  th (Madhyāhnaḥ/puurvaviddha). <br/><br/>Commemoration of Govardhana Lee
- la of Krishna. Offer naivedyam to Lord Krishna.<br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/deva
- tA/vaiShNava/lunar_month/tithi/08/01/gOvardhana-pUjA.toml)<br/>- Tags: Pur
- anaEvents CommonFestivals
+ la of Krishna. Offer naivedyam to Lord Krishna.<br/><br/>gōvardhana dhar
+ ādhāra gōkulatrāṇakāraka।  <br/>viṣṇubāhukr̥tōcchrāya gav
+ āṁ kōṭipradō bhava॥<br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShN
+ ava/lunar_month/tithi/08/01/gOvardhana-pUjA.toml)<br/>- Tags: PuranaEvents
+  CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -40201,10 +40205,12 @@ SUMMARY:śrī-hanūmat-jayantī
 DTSTART;VALUE=DATE:20191226
 DTEND;VALUE=DATE:20191227
 DESCRIPTION:Observed on Amāvāsyā tithi of Dhanuḥ (sidereal solar) mon
- th (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Ed
- it config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/
- vaiShNava/sidereal_solar_month/tithi/09/30/zrI~hanUmat~jayantI~1.toml)<br/
- >- Tags: OtherAvatarams CommonFestivals
+ th (Sūryōdayaḥ/puurvaviddha). <br/><br/>āśvinasyāsitē pakṣē bh
+ ūtāyāṁ ca mahāniśi।  <br/>bhaumavārē'ñjanādēvī hanūmantama
+ jījanat॥ (vrataratnākaram)<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiS
+ hNava/sidereal_solar_month/tithi/09/30/zrI~hanUmat~jayantI~1.toml)<br/>- T
+ ags: OtherAvatarams CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
