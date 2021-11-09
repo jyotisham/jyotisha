@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20211107193932
+SEQUENCE:20211109204855
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -43642,6 +43642,24 @@ DESCRIPTION:- Indian civil date: 1943-08-16\, Islamic: 1443-04-01 Rabīʿ
  21  \n___________________\n- **शूलम्**—प्रतीची 
  दिक् (►10:54)\; **परिहारः**–गुडम्  \n_
  __________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:गोरक्षा-पर-मारणम् #५५
+DTSTART;VALUE=DATE:20211107
+DTEND;VALUE=DATE:20211108
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/11/07/go-ra
+ xA-para-mAraNam.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Ed
+ it config file](https://github.com/jyotisham/adyatithi/blob/master/mahApur
+ uSha/xatra-later/gregorian/day/11/07/go-raxA-para-mAraNam.toml)<br/>- Tags
+ :
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
