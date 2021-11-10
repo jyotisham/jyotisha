@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20211109204855
+SEQUENCE:20211110135759
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -24649,6 +24649,25 @@ DESCRIPTION:- Indian civil date: 1943-04-06\, Islamic: 1442-11-17 Ḏū al
  गुलिककालः**—15:34-17:10  \n___________________\n- **
  शूलम्**—प्रतीची दिक् (►11:06)\; **प
  रिहारः**–गुडम्  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:जेढे-कान्होजी-प्रलोभनम् 
+ #२६२
+DTSTART;VALUE=DATE:20210627
+DTEND;VALUE=DATE:20210628
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/06/16/jeDhe-kA
+ nhojI-pralobhanam.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [
+ Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahAp
+ uruSha/xatra-later/julian/day/06/16/jeDhe-kAnhojI-pralobhanam.toml)<br/>- 
+ Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
