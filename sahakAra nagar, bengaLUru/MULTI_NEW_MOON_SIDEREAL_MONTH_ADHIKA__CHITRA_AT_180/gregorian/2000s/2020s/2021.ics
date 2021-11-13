@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20211112212937
+SEQUENCE:20211113170215
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -3754,6 +3754,23 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  i-mAraNam.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit con
  fig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/x
  atra-later/gregorian/day/01/30/gAndhi-mAraNam.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:हसन-निज़ामि-रोधः #९३
+DTSTART;VALUE=DATE:20210130
+DTEND;VALUE=DATE:20210131
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/01/30/hasan
+ -nizAmi-rodhaH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuru
+ Sha/xatra-later/gregorian/day/01/30/hasan-nizAmi-rodhaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
