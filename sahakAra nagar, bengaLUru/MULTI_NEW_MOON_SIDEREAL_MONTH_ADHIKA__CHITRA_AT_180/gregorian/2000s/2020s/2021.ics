@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20211114111302
+SEQUENCE:20211114122542
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -44489,6 +44489,26 @@ DESCRIPTION:Observed on Śatabhiṣak nakshatra of Tulā (sidereal solar)
  onfig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha
  /ALvAr/sidereal_solar_month/nakshatra/07/24/pEyAzhvAr_tirunakSattiram.toml
  )<br/>- Tags: MahapurushaEvents AzhwarJayanti
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:पून्तानं-जयन्ती #१०३७
+DTSTART;VALUE=DATE:20211113
+DTEND;VALUE=DATE:20211114
+DESCRIPTION:Observed on Śatabhiṣak nakshatra of Tulā (sidereal solar) 
+ month (Sūryōdayaḥ/puurvaviddha). The event occurred in 985 (Gregorian 
+ era).  <br/><br/><br/>On this day (starting from his coronation year)\, rA
+ jarAja choLa is commemorated by offerings to shiva and the poor - especial
+ ly at the tanjAvUjr bRhadIshvara temple. This event is aka ‘Sathaya Vizh
+ a’.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
+ isham/adyatithi/blob/master/mahApuruSha/xatra/sidereal_solar_month/nakshat
+ ra/07/24/rAjarAja-chola-dAnotsavaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
