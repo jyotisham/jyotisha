@@ -34733,6 +34733,26 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pūntānaṁ-jayantī #1035
+DTSTART;VALUE=DATE:20191107
+DTEND;VALUE=DATE:20191108
+DESCRIPTION:Observed on Śatabhiṣak nakshatra of Tulā (sidereal solar) 
+ month (Sūryōdayaḥ/puurvaviddha). The event occurred in 985 (Gregorian 
+ era).  <br/><br/><br/>On this day (starting from his coronation year)\, rA
+ jarAja choLa is commemorated by offerings to shiva and the poor - especial
+ ly at the tanjAvUjr bRhadIshvara temple. This event is aka ‘Sathaya Vizh
+ a’.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
+ isham/adyatithi/blob/master/mahApuruSha/xatra/sidereal_solar_month/nakshat
+ ra/07/24/rAjarAja-chola-dAnotsavaH.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Kārttikaḥ-08-11\,Mīnaḥ-Pūrvaprōṣṭhapadā🌛🌌◢◣
  Tulā-Viśākhā-07-22🌌🌞◢◣Ūrjaḥ-08-16🪐🌞Śukraḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191108T060818
@@ -35575,6 +35595,24 @@ DESCRIPTION:When the Sun is transiting through viśākhā\, and the moon\,
  # Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/
  blob/master/time_focus/special-tithis/description_only/padmaka-yOgaH-3.tom
  l)<br/>- Tags: RareDays Combinations
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:tiruvanantapura-dēvāyatana-pravēśa-ghōṣaṇā #84
+DTSTART;VALUE=DATE:20191111
+DTEND;VALUE=DATE:20191112
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/general-tropical/gregorian/day/11/12/
+ travencore-temple-entry-proclamation.toml)<br/>- Tags: <br/><br/><br/><br/
+ >## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatith
+ i/blob/master/mahApuruSha/general-tropical/gregorian/day/11/12/travencore-
+ temple-entry-proclamation.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
