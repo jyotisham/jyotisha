@@ -4290,10 +4290,10 @@ SUMMARY:ratha-saptamī
 DTSTART;VALUE=DATE:20190212
 DTEND;VALUE=DATE:20190213
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Māghaḥ (lunar) month (
- Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit c
- onfig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/grah
- a/lunar_month/tithi/11/07/ratha-saptamI.toml)<br/>- Tags: SpecialPuja Maha
- purushaEvents CommonFestivals
+ Prāktanāruṇōdayaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/dev
+ atA/graha/lunar_month/tithi/11/07/ratha-saptamI.toml)<br/>- Tags: SpecialP
+ uja MahapurushaEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6233,16 +6233,16 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:kāñcī jagadguru śrī-śaṅkara vijayēndra sarasvatī jayant
- ī #51
+SUMMARY:kāñcī 70 jagadguru śrī-śaṅkara vijayēndra sarasvatī jaya
+ ntī #51
 DTSTART;VALUE=DATE:20190303
 DTEND;VALUE=DATE:20190304
 DESCRIPTION:Observed on Uttarāṣāḍhā nakshatra of Kumbhaḥ (siderea
  l solar) month (Prātaḥ/paraviddha). The event occurred in 5069 (Kali er
  a).  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://
  github.com/jyotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/sidere
- al_solar_month/nakshatra/11/21/kAJcI_jagadguru_zrI~zaGkara_vijayEndra_sara
- svatI_jayantI.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
+ al_solar_month/nakshatra/11/21/kAJcI_70_jagadguru_zrI~zaGkara_vijayEndra_s
+ arasvatI_jayantI.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24583,15 +24583,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:kāñcī jagadguru śrī-jayēndra sarasvatī jayantī #85
+SUMMARY:kāñcī 69 jagadguru śrī-jayēndra sarasvatī jayantī #85
 DTSTART;VALUE=DATE:20190816
 DTEND;VALUE=DATE:20190817
 DESCRIPTION:Observed on Śraviṣṭhā nakshatra of Karkaṭaḥ (siderea
  l solar) month (Prātaḥ/paraviddha). The event occurred in 5036 (Kali er
  a).  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://
  github.com/jyotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/sidere
- al_solar_month/nakshatra/04/23/kAJcI_jagadguru_zrI~jayEndra_sarasvatI_jaya
- ntI.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
+ al_solar_month/nakshatra/04/23/kAJcI_69_jagadguru_zrI~jayEndra_sarasvatI_j
+ ayantI.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -33054,6 +33054,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:dhanvantari-jayantī
+DTSTART;VALUE=DATE:20191025
+DTEND;VALUE=DATE:20191026
+DESCRIPTION:Observed on Kr̥Ṣṇa-Trayōdaśī tithi of Āśvayujaḥ (l
+ unar) month (Pradōṣaḥ/puurvaviddha). <br/><br/>Dhanvantari Jayanti (b
+ orn as Divodaas King of Kaashi) as per Brahmanda-Puraana (Dvadashi?)<br/><
+ br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyat
+ ithi/blob/master/devatA/vaiShNava/lunar_month/tithi/07/28/dhanvantari~jaya
+ ntI.toml)<br/>- Tags: CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:gōvatsa-dvādaśī
 DTSTART;VALUE=DATE:20191025
 DTEND;VALUE=DATE:20191026
@@ -33230,24 +33248,6 @@ DESCRIPTION:Observed on Kr̥Ṣṇa-Trayōdaśī tithi of Āśvayujaḥ (l
  jarat\; Lakshmi pooja<br/><br/>## Details<br/>- [Edit config file](https:/
  /github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/07/2
  8/dhana-trayOdazI.toml)<br/>- Tags: CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:dhanvantari-jayantī
-DTSTART;VALUE=DATE:20191026
-DTEND;VALUE=DATE:20191027
-DESCRIPTION:Observed on Kr̥Ṣṇa-Trayōdaśī tithi of Āśvayujaḥ (l
- unar) month (Sūryōdayaḥ/puurvaviddha). <br/><br/>Dhanvantari Jayanti (
- born as Divodaas King of Kaashi) as per Brahmanda-Puraana (Dvadashi?)<br/>
- <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
- tithi/blob/master/devatA/vaiShNava/lunar_month/tithi/07/28/dhanvantari~jay
- antI.toml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -34733,6 +34733,26 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pūntānaṁ-jayantī #1035
+DTSTART;VALUE=DATE:20191107
+DTEND;VALUE=DATE:20191108
+DESCRIPTION:Observed on Śatabhiṣak nakshatra of Tulā (sidereal solar) 
+ month (Sūryōdayaḥ/puurvaviddha). The event occurred in 985 (Gregorian 
+ era).  <br/><br/><br/>On this day (starting from his coronation year)\, rA
+ jarAja choLa is commemorated by offerings to shiva and the poor - especial
+ ly at the tanjAvUjr bRhadIshvara temple. This event is aka ‘Sathaya Vizh
+ a’.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
+ isham/adyatithi/blob/master/mahApuruSha/xatra/sidereal_solar_month/nakshat
+ ra/07/24/rAjarAja-chola-dAnotsavaH.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Kārttikaḥ-08-11\,Mīnaḥ-Pūrvaprōṣṭhapadā🌛🌌◢◣
  Tulā-Viśākhā-07-22🌌🌞◢◣Ūrjaḥ-08-16🪐🌞Śukraḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191108T060818
@@ -35127,14 +35147,13 @@ BEGIN:VEVENT
 SUMMARY:kārttika-māsa-antimatrayatithi-vrata-ārambhaḥ
 DTSTART;VALUE=DATE:20191110
 DTEND;VALUE=DATE:20191111
-DESCRIPTION:Observed on Śukla-Trayōdaśī tithi of Kārttikaḥ (lunar) 
- month (Sūryōdayaḥ/puurvaviddha). <br/><br/>Last three days of kārttik
- a-māsaḥ. anantaphaladam! Perform Shiva/Vishnu Puja\, Bhagavata Parayana
- m\, BhagavadGita Parayanam\, Vishnu Sahasranama Parayanam etc.<br/><br/>##
-  Details<br/>- References<br/>  - skAnda mahApurANe vaiSNavakhaNDE SaDtriM
- zO.adhyAyaH<br/>- [Edit config file](https://github.com/jyotisham/adyatith
- i/blob/master/general/lunar_month/tithi/08/13/kArttika-mAsa-antimatrayatit
- hi-vrata-ArambhaH.toml)<br/>- Tags: LessCommonFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/08/13/kArttika-mAsa-ant
+ imatrayatithi-vrata-ArambhaH.toml)<br/>- Tags: LessCommonFestivals<br/><br
+ /><br/><br/>## Details<br/>- References<br/>  - skAnda mahApurANe vaiSNava
+ khaNDE SaDtriMzO.adhyAyaH<br/>- [Edit config file](https://github.com/jyot
+ isham/adyatithi/blob/master/general/lunar_month/tithi/08/13/kArttika-mAsa-
+ antimatrayatithi-vrata-ArambhaH.toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -35575,6 +35594,24 @@ DESCRIPTION:When the Sun is transiting through viśākhā\, and the moon\,
  # Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/
  blob/master/time_focus/special-tithis/description_only/padmaka-yOgaH-3.tom
  l)<br/>- Tags: RareDays Combinations
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:tiruvanantapura-dēvāyatana-pravēśa-ghōṣaṇā #84
+DTSTART;VALUE=DATE:20191111
+DTEND;VALUE=DATE:20191112
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/general-tropical/gregorian/day/11/12/
+ travencore-temple-entry-proclamation.toml)<br/>- Tags: <br/><br/><br/><br/
+ >## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatith
+ i/blob/master/mahApuruSha/general-tropical/gregorian/day/11/12/travencore-
+ temple-entry-proclamation.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
