@@ -232,7 +232,7 @@ def get_description_tex(festival_instance, fest_details_dict, script):
     logging.warning(fest_id)
     return '{}{}{}{}{} %%EMPTY DESCRIPTION!'
   else:
-    desc['detailed'] = desc['detailed'].replace('&', '\\&').replace('\n', '\\\\').replace('\\\\\\\\', '\\\\')
+    desc['detailed'] = desc['detailed'].replace('&', '\\&').replace('\n', '\\\\').replace('\\\\\\\\', '\\\\').replace('## ', '')
     desc['detailed'] = desc['detailed'][:1].capitalize() + desc['detailed'][1:]
     desc['shlokas'] = desc['shlokas'].replace('\n', '\\\\').replace('\\\\\\\\', '\\\\').replace('\\\\  \\\\', '\\\\\\smallskip ')
     desc['references'] = desc['references'].replace('- References\n  ', '')
