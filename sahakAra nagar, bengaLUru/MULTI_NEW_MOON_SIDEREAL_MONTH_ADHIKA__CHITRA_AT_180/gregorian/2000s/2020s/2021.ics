@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20211124180257
+SEQUENCE:20211124184906
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -46595,10 +46595,12 @@ SUMMARY:डार्विन-विकास-वाद-ग्रन्थ
 DTSTART;VALUE=DATE:20211124
 DTEND;VALUE=DATE:20211125
 DESCRIPTION:Event occured on 1859-11-24 (gregorian). <br/><br/>Charles Dar
- win's 'On the origin of species' was published in England to great acclaim
- .<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisha
- m/adyatithi/blob/master/mahApuruSha/sci-tech/gregorian/day/11/24/darwin_or
- igin-of-species.toml)<br/>- Tags:
+ win's 'On the origin of species' (On the Origin of Species by Means of Nat
+ ural Selection\, or the Preservation of Favoured Races in the Struggle for
+  Life) was published in England to great acclaim.<br/><br/>## Details<br/>
+ - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/ma
+ hApuruSha/sci-tech/gregorian/day/11/24/darwin_origin-of-species.toml)<br/>
+ - Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
