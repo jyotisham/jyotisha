@@ -138,7 +138,7 @@ def set_constants():
   ComputationSystem.DEFAULT = ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180
 
   festival_options = FestivalOptions()
-  festival_options.repos = [r for r in festival_options.repos if r.name != "mahApuruSha/xatra-later"]
+  festival_options.repos = [r for r in festival_options.repos if r.name not in ["mahApuruSha/xatra-later", "mahApuruSha/sci-tech"]]
   ComputationSystem.TEST = ComputationSystem(lunar_month_assigner_type=LunarMonthAssigner.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA, ayanaamsha_id=Ayanamsha.CHITRA_AT_180, festival_options=festival_options)
 
   

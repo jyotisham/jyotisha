@@ -129,9 +129,9 @@
           "name": "mahApuruSha/RShi"
         },
         {
-          "base_url": "https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/general-indic",
+          "base_url": "https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/general-indic-non-tropical",
           "jsonClass": "RulesRepo",
-          "name": "mahApuruSha/general-indic"
+          "name": "mahApuruSha/general-indic-non-tropical"
         },
         {
           "base_url": "https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha",
@@ -139,9 +139,19 @@
           "name": "mahApuruSha/kAnchI-maTha"
         },
         {
-          "base_url": "https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/general-tropical",
+          "base_url": "https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/general-indic-tropical",
           "jsonClass": "RulesRepo",
-          "name": "mahApuruSha/general-tropical"
+          "name": "mahApuruSha/general-indic-tropical"
+        },
+        {
+          "base_url": "https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/general",
+          "jsonClass": "RulesRepo",
+          "name": "mahApuruSha/general"
+        },
+        {
+          "base_url": "https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/sci-tech",
+          "jsonClass": "RulesRepo",
+          "name": "mahApuruSha/sci-tech"
         },
         {
           "base_url": "https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/zRGgErI-maTha",
