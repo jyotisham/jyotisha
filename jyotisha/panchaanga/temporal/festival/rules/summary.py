@@ -116,13 +116,17 @@ def get_timing_summary(rule):
         blurb += 'Julian date was %s in this reckoning. ' % (rule.timing.julian_handling)
       return blurb
     month = ' of %s (%s) month' % (rule.timing.get_month_name_en(script=sanscript.ISO), rule.timing.month_type.replace("_month", "").replace("_", " "))
+    if rule.timing.month_number == 0:
+      if rule.timing.anga_type in ['yoga', 'nakshatra']:
+        month = ''
+        angam = 'every occurrence of '
   if rule.timing is not None and rule.timing.anga_type is not None:
     if rule.timing.anga_type in ['tithi', 'yoga', 'nakshatra']:
-      angam = 'Observed on '
+      angam = 'Observed on ' + angam
       anga_type = AngaType.from_name(name=rule.timing.anga_type)
       angam += '%s %s' % (anga_type.names_dict[sanscript.ISO][rule.timing.anga_number], rule.timing.anga_type)
     elif rule.timing.anga_type == 'day':
-      angam = 'Observed on '
+      angam = 'Observed on ' + angam
       angam += 'day %d' % rule.timing.anga_number
   else: # No timing or anga_type
     if rule.description is None:
