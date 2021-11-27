@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20211127070218
+SEQUENCE:20211127085453
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -373,7 +373,7 @@ BEGIN:VEVENT
 SUMMARY:माघ-अष्टका-श्राद्धम्
 DTSTART;VALUE=DATE:20210106
 DTEND;VALUE=DATE:20210107
-DESCRIPTION:Observed on Kr̥Ṣṇa-Aṣṭamī tithi of Māghaḥ (lunar)
+DESCRIPTION:Observed on Kr̥ṣṇa-aṣṭamī tithi of Māghaḥ (lunar)
   month (Aparāhṇaḥ/vyaapti). <br/><br/><br/><br/>## Details<br/>- [Edi
  t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
  neral/lunar_month/tithi/11/23/mAgha-aSTakA-zrAddham.toml)<br/>- Tags: Shan
@@ -834,7 +834,7 @@ BEGIN:VEVENT
 SUMMARY:दर्शेष्टिः
 DTSTART;VALUE=DATE:20210113
 DTEND;VALUE=DATE:20210114
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+DESCRIPTION:Observed on Śukla-prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
  fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
  /lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
@@ -851,7 +851,7 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
  ाशः पौर्णमास्याम्
 DTSTART;VALUE=DATE:20210113
 DTEND;VALUE=DATE:20210114
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+DESCRIPTION:Observed on Śukla-prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा तिल
  भक्ष उपोष्य वा श्वोभूत उदकम
  ुपस्पृश्य सावित्रीं प्राणा
@@ -873,7 +873,7 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210113
 DTEND;VALUE=DATE:20210114
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+DESCRIPTION:Observed on Śukla-prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important fort
  nightly ritual\, involving the offering of haviṣyānna to agni\, with th
  e offering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edi
@@ -1844,7 +1844,7 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
  ाशः दर्शे
 DTSTART;VALUE=DATE:20210129
 DTEND;VALUE=DATE:20210130
-DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
+DESCRIPTION:Observed on Kr̥ṣṇa-prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा त
  िलभक्ष उपोष्य वा श्वोभूत उद
  कमुपस्पृश्य सावित्रीं प्रा
@@ -1866,7 +1866,7 @@ BEGIN:VEVENT
 SUMMARY:पूर्णमासेष्टिः
 DTSTART;VALUE=DATE:20210129
 DTEND;VALUE=DATE:20210130
-DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
+DESCRIPTION:Observed on Kr̥ṣṇa-prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
  t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
  neral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFest
@@ -1883,7 +1883,7 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210129
 DTEND;VALUE=DATE:20210130
-DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
+DESCRIPTION:Observed on Kr̥ṣṇa-prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important
   fortnightly ritual\, involving the offering of haviṣyānna to agni\, wi
  th the offering being cooked on the fire itself.<br/><br/>## Details<br/>-
@@ -2741,7 +2741,7 @@ BEGIN:VEVENT
 SUMMARY:दर्शेष्टिः
 DTSTART;VALUE=DATE:20210212
 DTEND;VALUE=DATE:20210213
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+DESCRIPTION:Observed on Śukla-prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
  fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
  /lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
@@ -2758,7 +2758,7 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
  ाशः पौर्णमास्याम्
 DTSTART;VALUE=DATE:20210212
 DTEND;VALUE=DATE:20210213
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+DESCRIPTION:Observed on Śukla-prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा तिल
  भक्ष उपोष्य वा श्वोभूत उदकम
  ुपस्पृश्य सावित्रीं प्राणा
@@ -2780,7 +2780,7 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210212
 DTEND;VALUE=DATE:20210213
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+DESCRIPTION:Observed on Śukla-prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important fort
  nightly ritual\, involving the offering of haviṣyānna to agni\, with th
  e offering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edi
@@ -3817,7 +3817,7 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
  ाशः दर्शे
 DTSTART;VALUE=DATE:20210228
 DTEND;VALUE=DATE:20210301
-DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
+DESCRIPTION:Observed on Kr̥ṣṇa-prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा त
  िलभक्ष उपोष्य वा श्वोभूत उद
  कमुपस्पृश्य सावित्रीं प्रा
@@ -3839,7 +3839,7 @@ BEGIN:VEVENT
 SUMMARY:पूर्णमासेष्टिः
 DTSTART;VALUE=DATE:20210228
 DTEND;VALUE=DATE:20210301
-DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
+DESCRIPTION:Observed on Kr̥ṣṇa-prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
  t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
  neral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFest
@@ -3856,7 +3856,7 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210228
 DTEND;VALUE=DATE:20210301
-DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
+DESCRIPTION:Observed on Kr̥ṣṇa-prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important
   fortnightly ritual\, involving the offering of haviṣyānna to agni\, wi
  th the offering being cooked on the fire itself.<br/><br/>## Details<br/>-
@@ -4794,7 +4794,7 @@ BEGIN:VEVENT
 SUMMARY:दर्शेष्टिः
 DTSTART;VALUE=DATE:20210314
 DTEND;VALUE=DATE:20210315
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+DESCRIPTION:Observed on Śukla-prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
  fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
  /lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
@@ -4811,7 +4811,7 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
  ाशः पौर्णमास्याम्
 DTSTART;VALUE=DATE:20210314
 DTEND;VALUE=DATE:20210315
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+DESCRIPTION:Observed on Śukla-prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा तिल
  भक्ष उपोष्य वा श्वोभूत उदकम
  ुपस्पृश्य सावित्रीं प्राणा
@@ -4833,7 +4833,7 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210314
 DTEND;VALUE=DATE:20210315
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+DESCRIPTION:Observed on Śukla-prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important fort
  nightly ritual\, involving the offering of haviṣyānna to agni\, with th
  e offering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edi
@@ -5811,7 +5811,7 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
  ाशः दर्शे
 DTSTART;VALUE=DATE:20210329
 DTEND;VALUE=DATE:20210330
-DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
+DESCRIPTION:Observed on Kr̥ṣṇa-prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा त
  िलभक्ष उपोष्य वा श्वोभूत उद
  कमुपस्पृश्य सावित्रीं प्रा
@@ -5833,7 +5833,7 @@ BEGIN:VEVENT
 SUMMARY:पूर्णमासेष्टिः
 DTSTART;VALUE=DATE:20210329
 DTEND;VALUE=DATE:20210330
-DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
+DESCRIPTION:Observed on Kr̥ṣṇa-prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
  t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
  neral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFest
@@ -5850,7 +5850,7 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210329
 DTEND;VALUE=DATE:20210330
-DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
+DESCRIPTION:Observed on Kr̥ṣṇa-prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important
   fortnightly ritual\, involving the offering of haviṣyānna to agni\, wi
  th the offering being cooked on the fire itself.<br/><br/>## Details<br/>-
@@ -6761,7 +6761,7 @@ BEGIN:VEVENT
 SUMMARY:दर्शेष्टिः
 DTSTART;VALUE=DATE:20210412
 DTEND;VALUE=DATE:20210413
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+DESCRIPTION:Observed on Śukla-prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
  fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
  /lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
@@ -6778,7 +6778,7 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
  ाशः पौर्णमास्याम्
 DTSTART;VALUE=DATE:20210412
 DTEND;VALUE=DATE:20210413
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+DESCRIPTION:Observed on Śukla-prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा तिल
  भक्ष उपोष्य वा श्वोभूत उदकम
  ुपस्पृश्य सावित्रीं प्राणा
@@ -6800,7 +6800,7 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210412
 DTEND;VALUE=DATE:20210413
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+DESCRIPTION:Observed on Śukla-prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important fort
  nightly ritual\, involving the offering of haviṣyānna to agni\, with th
  e offering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edi
@@ -7711,7 +7711,7 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
  ाशः दर्शे
 DTSTART;VALUE=DATE:20210427
 DTEND;VALUE=DATE:20210428
-DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
+DESCRIPTION:Observed on Kr̥ṣṇa-prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा त
  िलभक्ष उपोष्य वा श्वोभूत उद
  कमुपस्पृश्य सावित्रीं प्रा
@@ -7733,7 +7733,7 @@ BEGIN:VEVENT
 SUMMARY:पूर्णमासेष्टिः
 DTSTART;VALUE=DATE:20210427
 DTEND;VALUE=DATE:20210428
-DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
+DESCRIPTION:Observed on Kr̥ṣṇa-prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
  t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
  neral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFest
@@ -7750,7 +7750,7 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210427
 DTEND;VALUE=DATE:20210428
-DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
+DESCRIPTION:Observed on Kr̥ṣṇa-prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important
   fortnightly ritual\, involving the offering of haviṣyānna to agni\, wi
  th the offering being cooked on the fire itself.<br/><br/>## Details<br/>-
@@ -8646,7 +8646,7 @@ BEGIN:VEVENT
 SUMMARY:दर्शेष्टिः
 DTSTART;VALUE=DATE:20210512
 DTEND;VALUE=DATE:20210513
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+DESCRIPTION:Observed on Śukla-prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
  fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
  /lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
@@ -8663,7 +8663,7 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
  ाशः पौर्णमास्याम्
 DTSTART;VALUE=DATE:20210512
 DTEND;VALUE=DATE:20210513
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+DESCRIPTION:Observed on Śukla-prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा तिल
  भक्ष उपोष्य वा श्वोभूत उदकम
  ुपस्पृश्य सावित्रीं प्राणा
@@ -8685,7 +8685,7 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210512
 DTEND;VALUE=DATE:20210513
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+DESCRIPTION:Observed on Śukla-prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important fort
  nightly ritual\, involving the offering of haviṣyānna to agni\, with th
  e offering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edi
@@ -9579,7 +9579,7 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
  ाशः दर्शे
 DTSTART;VALUE=DATE:20210527
 DTEND;VALUE=DATE:20210528
-DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
+DESCRIPTION:Observed on Kr̥ṣṇa-prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा त
  िलभक्ष उपोष्य वा श्वोभूत उद
  कमुपस्पृश्य सावित्रीं प्रा
@@ -9601,7 +9601,7 @@ BEGIN:VEVENT
 SUMMARY:पूर्णमासेष्टिः
 DTSTART;VALUE=DATE:20210527
 DTEND;VALUE=DATE:20210528
-DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
+DESCRIPTION:Observed on Kr̥ṣṇa-prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
  t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
  neral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFest
@@ -9618,7 +9618,7 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210527
 DTEND;VALUE=DATE:20210528
-DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
+DESCRIPTION:Observed on Kr̥ṣṇa-prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important
   fortnightly ritual\, involving the offering of haviṣyānna to agni\, wi
  th the offering being cooked on the fire itself.<br/><br/>## Details<br/>-
@@ -10534,7 +10534,7 @@ BEGIN:VEVENT
 SUMMARY:दर्शेष्टिः
 DTSTART;VALUE=DATE:20210611
 DTEND;VALUE=DATE:20210612
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+DESCRIPTION:Observed on Śukla-prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
  fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
  /lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
@@ -10551,7 +10551,7 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
  ाशः पौर्णमास्याम्
 DTSTART;VALUE=DATE:20210611
 DTEND;VALUE=DATE:20210612
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+DESCRIPTION:Observed on Śukla-prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा तिल
  भक्ष उपोष्य वा श्वोभूत उदकम
  ुपस्पृश्य सावित्रीं प्राणा
@@ -10573,7 +10573,7 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210611
 DTEND;VALUE=DATE:20210612
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+DESCRIPTION:Observed on Śukla-prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important fort
  nightly ritual\, involving the offering of haviṣyānna to agni\, with th
  e offering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edi
@@ -11501,7 +11501,7 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
  ाशः दर्शे
 DTSTART;VALUE=DATE:20210625
 DTEND;VALUE=DATE:20210626
-DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
+DESCRIPTION:Observed on Kr̥ṣṇa-prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा त
  िलभक्ष उपोष्य वा श्वोभूत उद
  कमुपस्पृश्य सावित्रीं प्रा
@@ -11523,7 +11523,7 @@ BEGIN:VEVENT
 SUMMARY:पूर्णमासेष्टिः
 DTSTART;VALUE=DATE:20210625
 DTEND;VALUE=DATE:20210626
-DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
+DESCRIPTION:Observed on Kr̥ṣṇa-prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
  t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
  neral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFest
@@ -11541,7 +11541,7 @@ SUMMARY:सहस्रगायत्रीजपः प्रायश
  ्चित्तार्थः
 DTSTART;VALUE=DATE:20210625
 DTEND;VALUE=DATE:20210626
-DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of Śrāvaṇaḥ (lun
+DESCRIPTION:Observed on Kr̥ṣṇa-prathamā tithi of Śrāvaṇaḥ (lun
  ar) month (Sūryōdayaḥ/puurvaviddha). <br/><br/>श्रावण्
  यां पौर्णमास्यां तिलभक्ष उ
  पोष्य वा श्वोभूते महानदम् उ
@@ -11563,7 +11563,7 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210625
 DTEND;VALUE=DATE:20210626
-DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
+DESCRIPTION:Observed on Kr̥ṣṇa-prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important
   fortnightly ritual\, involving the offering of haviṣyānna to agni\, wi
  th the offering being cooked on the fire itself.<br/><br/>## Details<br/>-
@@ -12472,7 +12472,7 @@ BEGIN:VEVENT
 SUMMARY:दर्शेष्टिः
 DTSTART;VALUE=DATE:20210710
 DTEND;VALUE=DATE:20210711
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+DESCRIPTION:Observed on Śukla-prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
  fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
  /lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
@@ -12489,7 +12489,7 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
  ाशः पौर्णमास्याम्
 DTSTART;VALUE=DATE:20210710
 DTEND;VALUE=DATE:20210711
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+DESCRIPTION:Observed on Śukla-prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा तिल
  भक्ष उपोष्य वा श्वोभूत उदकम
  ुपस्पृश्य सावित्रीं प्राणा
@@ -12511,7 +12511,7 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210710
 DTEND;VALUE=DATE:20210711
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+DESCRIPTION:Observed on Śukla-prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important fort
  nightly ritual\, involving the offering of haviṣyānna to agni\, with th
  e offering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edi
@@ -13356,7 +13356,7 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
  ाशः दर्शे
 DTSTART;VALUE=DATE:20210724
 DTEND;VALUE=DATE:20210725
-DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
+DESCRIPTION:Observed on Kr̥ṣṇa-prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा त
  िलभक्ष उपोष्य वा श्वोभूत उद
  कमुपस्पृश्य सावित्रीं प्रा
@@ -13378,7 +13378,7 @@ BEGIN:VEVENT
 SUMMARY:पूर्णमासेष्टिः
 DTSTART;VALUE=DATE:20210724
 DTEND;VALUE=DATE:20210725
-DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
+DESCRIPTION:Observed on Kr̥ṣṇa-prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
  t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
  neral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFest
@@ -13395,7 +13395,7 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210724
 DTEND;VALUE=DATE:20210725
-DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
+DESCRIPTION:Observed on Kr̥ṣṇa-prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important
   fortnightly ritual\, involving the offering of haviṣyānna to agni\, wi
  th the offering being cooked on the fire itself.<br/><br/>## Details<br/>-
@@ -14359,7 +14359,7 @@ BEGIN:VEVENT
 SUMMARY:दर्शेष्टिः
 DTSTART;VALUE=DATE:20210809
 DTEND;VALUE=DATE:20210810
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+DESCRIPTION:Observed on Śukla-prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
  fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
  /lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
@@ -14376,7 +14376,7 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
  ाशः पौर्णमास्याम्
 DTSTART;VALUE=DATE:20210809
 DTEND;VALUE=DATE:20210810
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+DESCRIPTION:Observed on Śukla-prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा तिल
  भक्ष उपोष्य वा श्वोभूत उदकम
  ुपस्पृश्य सावित्रीं प्राणा
@@ -14398,7 +14398,7 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210809
 DTEND;VALUE=DATE:20210810
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+DESCRIPTION:Observed on Śukla-prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important fort
  nightly ritual\, involving the offering of haviṣyānna to agni\, with th
  e offering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edi
@@ -15247,7 +15247,7 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
  ाशः दर्शे
 DTSTART;VALUE=DATE:20210823
 DTEND;VALUE=DATE:20210824
-DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
+DESCRIPTION:Observed on Kr̥ṣṇa-prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा त
  िलभक्ष उपोष्य वा श्वोभूत उद
  कमुपस्पृश्य सावित्रीं प्रा
@@ -15269,7 +15269,7 @@ BEGIN:VEVENT
 SUMMARY:पूर्णमासेष्टिः
 DTSTART;VALUE=DATE:20210823
 DTEND;VALUE=DATE:20210824
-DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
+DESCRIPTION:Observed on Kr̥ṣṇa-prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
  t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
  neral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFest
@@ -15286,7 +15286,7 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210823
 DTEND;VALUE=DATE:20210824
-DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
+DESCRIPTION:Observed on Kr̥ṣṇa-prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important
   fortnightly ritual\, involving the offering of haviṣyānna to agni\, wi
  th the offering being cooked on the fire itself.<br/><br/>## Details<br/>-
@@ -16194,7 +16194,7 @@ BEGIN:VEVENT
 SUMMARY:दर्शेष्टिः
 DTSTART;VALUE=DATE:20210907
 DTEND;VALUE=DATE:20210908
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+DESCRIPTION:Observed on Śukla-prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
  fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
  /lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
@@ -16211,7 +16211,7 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
  ाशः पौर्णमास्याम्
 DTSTART;VALUE=DATE:20210907
 DTEND;VALUE=DATE:20210908
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+DESCRIPTION:Observed on Śukla-prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा तिल
  भक्ष उपोष्य वा श्वोभूत उदकम
  ुपस्पृश्य सावित्रीं प्राणा
@@ -16233,7 +16233,7 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210907
 DTEND;VALUE=DATE:20210908
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+DESCRIPTION:Observed on Śukla-prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important fort
  nightly ritual\, involving the offering of haviṣyānna to agni\, with th
  e offering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edi
@@ -17110,7 +17110,7 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
  ाशः दर्शे
 DTSTART;VALUE=DATE:20210921
 DTEND;VALUE=DATE:20210922
-DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
+DESCRIPTION:Observed on Kr̥ṣṇa-prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा त
  िलभक्ष उपोष्य वा श्वोभूत उद
  कमुपस्पृश्य सावित्रीं प्रा
@@ -17132,7 +17132,7 @@ BEGIN:VEVENT
 SUMMARY:पूर्णमासेष्टिः
 DTSTART;VALUE=DATE:20210921
 DTEND;VALUE=DATE:20210922
-DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
+DESCRIPTION:Observed on Kr̥ṣṇa-prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
  t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
  neral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFest
@@ -17149,7 +17149,7 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210921
 DTEND;VALUE=DATE:20210922
-DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
+DESCRIPTION:Observed on Kr̥ṣṇa-prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important
   fortnightly ritual\, involving the offering of haviṣyānna to agni\, wi
  th the offering being cooked on the fire itself.<br/><br/>## Details<br/>-
@@ -18123,7 +18123,7 @@ BEGIN:VEVENT
 SUMMARY:दर्शेष्टिः
 DTSTART;VALUE=DATE:20211007
 DTEND;VALUE=DATE:20211008
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+DESCRIPTION:Observed on Śukla-prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
  fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
  /lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
@@ -18140,7 +18140,7 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
  ाशः पौर्णमास्याम्
 DTSTART;VALUE=DATE:20211007
 DTEND;VALUE=DATE:20211008
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+DESCRIPTION:Observed on Śukla-prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा तिल
  भक्ष उपोष्य वा श्वोभूत उदकम
  ुपस्पृश्य सावित्रीं प्राणा
@@ -18162,7 +18162,7 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20211007
 DTEND;VALUE=DATE:20211008
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+DESCRIPTION:Observed on Śukla-prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important fort
  nightly ritual\, involving the offering of haviṣyānna to agni\, with th
  e offering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edi
@@ -19050,7 +19050,7 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
  ाशः दर्शे
 DTSTART;VALUE=DATE:20211021
 DTEND;VALUE=DATE:20211022
-DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
+DESCRIPTION:Observed on Kr̥ṣṇa-prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा त
  िलभक्ष उपोष्य वा श्वोभूत उद
  कमुपस्पृश्य सावित्रीं प्रा
@@ -19072,7 +19072,7 @@ BEGIN:VEVENT
 SUMMARY:पूर्णमासेष्टिः
 DTSTART;VALUE=DATE:20211021
 DTEND;VALUE=DATE:20211022
-DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
+DESCRIPTION:Observed on Kr̥ṣṇa-prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
  t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
  neral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFest
@@ -19089,7 +19089,7 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20211021
 DTEND;VALUE=DATE:20211022
-DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
+DESCRIPTION:Observed on Kr̥ṣṇa-prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important
   fortnightly ritual\, involving the offering of haviṣyānna to agni\, wi
  th the offering being cooked on the fire itself.<br/><br/>## Details<br/>-
@@ -20015,7 +20015,7 @@ BEGIN:VEVENT
 SUMMARY:दर्शेष्टिः
 DTSTART;VALUE=DATE:20211105
 DTEND;VALUE=DATE:20211106
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+DESCRIPTION:Observed on Śukla-prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
  fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
  /lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
@@ -20032,7 +20032,7 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
  ाशः पौर्णमास्याम्
 DTSTART;VALUE=DATE:20211105
 DTEND;VALUE=DATE:20211106
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+DESCRIPTION:Observed on Śukla-prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा तिल
  भक्ष उपोष्य वा श्वोभूत उदकम
  ुपस्पृश्य सावित्रीं प्राणा
@@ -20054,7 +20054,7 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20211105
 DTEND;VALUE=DATE:20211106
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+DESCRIPTION:Observed on Śukla-prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important fort
  nightly ritual\, involving the offering of haviṣyānna to agni\, with th
  e offering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edi
@@ -20883,7 +20883,7 @@ BEGIN:VEVENT
 SUMMARY:आग्रयण-होमः द्राविडेषु
 DTSTART;VALUE=DATE:20211119
 DTEND;VALUE=DATE:20211120
-DESCRIPTION:Observed on Paurṇamāsī tithi of Vr̥Ścikaḥ (sidereal so
+DESCRIPTION:Observed on Paurṇamāsī tithi of Vr̥ścikaḥ (sidereal so
  lar) month (Sūryōdayaḥ/puurvaviddha). <br/><br/>Perform hōma with fre
  sh rice from paddy.<br/><br/>## Details<br/>- References<br/>  - Vaidikasr
  i Nov 2017<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
@@ -21004,7 +21004,7 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
  ाशः दर्शे
 DTSTART;VALUE=DATE:20211120
 DTEND;VALUE=DATE:20211121
-DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
+DESCRIPTION:Observed on Kr̥ṣṇa-prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा त
  िलभक्ष उपोष्य वा श्वोभूत उद
  कमुपस्पृश्य सावित्रीं प्रा
@@ -21026,7 +21026,7 @@ BEGIN:VEVENT
 SUMMARY:पूर्णमासेष्टिः
 DTSTART;VALUE=DATE:20211120
 DTEND;VALUE=DATE:20211121
-DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
+DESCRIPTION:Observed on Kr̥ṣṇa-prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
  t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
  neral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFest
@@ -21043,7 +21043,7 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20211120
 DTEND;VALUE=DATE:20211121
-DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
+DESCRIPTION:Observed on Kr̥ṣṇa-prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important
   fortnightly ritual\, involving the offering of haviṣyānna to agni\, wi
  th the offering being cooked on the fire itself.<br/><br/>## Details<br/>-
@@ -21902,7 +21902,7 @@ BEGIN:VEVENT
 SUMMARY:आग्रयण-होमः द्राविडेषु
 DTSTART;VALUE=DATE:20211204
 DTEND;VALUE=DATE:20211205
-DESCRIPTION:Observed on Amāvāsyā tithi of Vr̥Ścikaḥ (sidereal solar
+DESCRIPTION:Observed on Amāvāsyā tithi of Vr̥ścikaḥ (sidereal solar
  ) month (Sūryōdayaḥ/puurvaviddha). <br/><br/>Perform hōma with fresh 
  rice from paddy.<br/><br/>## Details<br/>- References<br/>  - Vaidikasri N
  ov 2017<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/bl
@@ -22011,7 +22011,7 @@ BEGIN:VEVENT
 SUMMARY:दर्शेष्टिः
 DTSTART;VALUE=DATE:20211205
 DTEND;VALUE=DATE:20211206
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+DESCRIPTION:Observed on Śukla-prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
  fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
  /lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
@@ -22028,7 +22028,7 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
  ाशः पौर्णमास्याम्
 DTSTART;VALUE=DATE:20211205
 DTEND;VALUE=DATE:20211206
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+DESCRIPTION:Observed on Śukla-prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा तिल
  भक्ष उपोष्य वा श्वोभूत उदकम
  ुपस्पृश्य सावित्रीं प्राणा
@@ -22050,7 +22050,7 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20211205
 DTEND;VALUE=DATE:20211206
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
+DESCRIPTION:Observed on Śukla-prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important fort
  nightly ritual\, involving the offering of haviṣyānna to agni\, with th
  e offering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edi
@@ -22899,7 +22899,7 @@ SUMMARY:पार्वण-प्रायश्चित्तावक
  ाशः दर्शे
 DTSTART;VALUE=DATE:20211219
 DTEND;VALUE=DATE:20211220
-DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
+DESCRIPTION:Observed on Kr̥ṣṇa-prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>'पर्वणि वा त
  िलभक्ष उपोष्य वा श्वोभूत उद
  कमुपस्पृश्य सावित्रीं प्रा
@@ -22921,7 +22921,7 @@ BEGIN:VEVENT
 SUMMARY:पूर्णमासेष्टिः
 DTSTART;VALUE=DATE:20211219
 DTEND;VALUE=DATE:20211220
-DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
+DESCRIPTION:Observed on Kr̥ṣṇa-prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
  t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
  neral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFest
@@ -22938,7 +22938,7 @@ BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20211219
 DTEND;VALUE=DATE:20211220
-DESCRIPTION:Observed on Kr̥Ṣṇa-Prathamā tithi of every (lunar) month
+DESCRIPTION:Observed on Kr̥ṣṇa-prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>sthālīpakaḥ is an important
   fortnightly ritual\, involving the offering of haviṣyānna to agni\, wi
  th the offering being cooked on the fire itself.<br/><br/>## Details<br/>-
@@ -23431,7 +23431,7 @@ BEGIN:VEVENT
 SUMMARY:माघ-अष्टका-श्राद्धम्
 DTSTART;VALUE=DATE:20211227
 DTEND;VALUE=DATE:20211228
-DESCRIPTION:Observed on Kr̥Ṣṇa-Aṣṭamī tithi of Māghaḥ (lunar)
+DESCRIPTION:Observed on Kr̥ṣṇa-aṣṭamī tithi of Māghaḥ (lunar)
   month (Aparāhṇaḥ/vyaapti). <br/><br/><br/><br/>## Details<br/>- [Edi
  t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
  neral/lunar_month/tithi/11/23/mAgha-aSTakA-zrAddham.toml)<br/>- Tags: Shan
