@@ -29,7 +29,7 @@ def init_names_auto(fname=os.path.join(os.path.dirname(os.path.dirname(__file__)
 
       names_dict[dictionary]['sa'] = {sanscript.DEVANAGARI: names_dict[dictionary]['sa']}
       def _title(string):
-        return string[:1].title() + string[1:]
+        return '-'.join([(x[:1].upper() + x[1:]) for x in string.split('-')])
       for scr in scripts:
         if scr == sanscript.ISO:
           names_dict[dictionary]['sa'][scr] = [_title(sanscript.transliterate(name, sanscript.DEVANAGARI, scr)) for name in names_dict[dictionary]['sa'][sanscript.DEVANAGARI]]
