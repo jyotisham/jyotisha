@@ -28,13 +28,14 @@ def init_names_auto(fname=os.path.join(os.path.dirname(os.path.dirname(__file__)
         names_dict[dictionary]['sa'].insert(0, 'अस्पष्टम्')
 
       names_dict[dictionary]['sa'] = {sanscript.DEVANAGARI: names_dict[dictionary]['sa']}
+      def _title(string):
+        return string[:1].title() + string[1:]
       for scr in scripts:
-        names_dict[dictionary]['sa'][scr] = [sanscript.transliterate(name, sanscript.DEVANAGARI, scr).title() if scr == sanscript.ISO else sanscript.transliterate(name, sanscript.DEVANAGARI, scr) for name in
-                                       names_dict[dictionary]['sa'][sanscript.DEVANAGARI]]
-    #   
-    #   new_names_dict[dictionary] = {"sa": names_dict[dictionary]['sa'][sanscript.roman.HK]}
-    # with codecs.open(fname + ".new",  "w") as f:
-    #   json.dump(new_names_dict, f, ensure_ascii=False, indent=2)
+        if scr == sanscript.ISO:
+          names_dict[dictionary]['sa'][scr] = [_title(sanscript.transliterate(name, sanscript.DEVANAGARI, scr)) for name in names_dict[dictionary]['sa'][sanscript.DEVANAGARI]]
+        else:
+          names_dict[dictionary]['sa'][scr] = [sanscript.transliterate(name, sanscript.DEVANAGARI, scr) for name in names_dict[dictionary]['sa'][sanscript.DEVANAGARI]]
+
     return names_dict
 
 if __name__ == '__main__':
