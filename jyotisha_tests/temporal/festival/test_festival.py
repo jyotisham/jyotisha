@@ -33,4 +33,4 @@ def test_get_best_transliterated_name():
   fest = festival.FestivalInstance(name='undu~madakkaLir2r2an2')
   name = fest.get_best_transliterated_name(languages=["sa", "ta"], scripts=[sanscript.ISO],
                                            fest_details_dict=rules_collection.name_to_rule)
-  assert name["text"] == "Undu~Madakkaḷiṟṟaṉ"
+  assert name["text"] == "Undu~Madakkaḷiṟṟan"
