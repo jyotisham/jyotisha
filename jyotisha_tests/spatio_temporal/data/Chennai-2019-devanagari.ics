@@ -4545,10 +4545,10 @@ SUMMARY:madhva-navamī
 DTSTART;VALUE=DATE:20190214
 DTEND;VALUE=DATE:20190215
 DESCRIPTION:Observed on Śukla-Navamī tithi of Māghaḥ (lunar) month (S
- ūryōdayaḥ/puurvaviddha). <br/><br/>Brahmaikyam of Madhvacharya<br/><br
- />## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatit
- hi/blob/master/mahApuruSha/mAdhva-misc/lunar_month/tithi/11/09/madhva-nava
- mI.toml)<br/>- Tags: MahapurushaEvents
+ ūryōdayaḥ/puurvaviddha). <br/><br/>dehatyAga of madhvAchArya.<br/><br/
+ >## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatith
+ i/blob/master/mahApuruSha/mAdhva-misc/lunar_month/tithi/11/09/madhva-navam
+ I.toml)<br/>- Tags: MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -36476,6 +36476,25 @@ DESCRIPTION:- Indian civil date: 1941-08-29\, Islamic: 1441-03-22 Rabīʿ
  ghaṇṭaḥ**—07:38-09:03\; **Gulikakālaḥ**—10:29-11:54  \n______
  _____________\n- **Śūlam**—Udīchī Dik (►12:17)\; **Parihāraḥ**
  –Kṣīram  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ārumukha-Nāvalar-Gurupūjai #141
+DTSTART;VALUE=DATE:20191120
+DTEND;VALUE=DATE:20191121
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/general-indic-non-tropical/sidereal_s
+ olar_month/nakshatra/08/10/Arumukha-nAvalar-gurupUjai.toml)<br/>- Tags: Na
+ yanarGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](http
+ s://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/general-indic-n
+ on-tropical/sidereal_solar_month/nakshatra/08/10/Arumukha-nAvalar-gurupUja
+ i.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
