@@ -16,7 +16,7 @@ def test_describe_fest():
     if summary_md != expected_md:
       with codecs.open(expected_md_file + ".local", "w", "utf-8") as g:
         g.write(summary_md)
-    assert summary_md == f.read()
+    assert summary_md == expected_md
 
   expected_md_file = os.path.join(os.path.dirname(__file__), 'data/throchi-durge_goraxa-sainika-nighAtaH.md')
   with codecs.open(expected_md_file, "r", "utf-8") as f:
