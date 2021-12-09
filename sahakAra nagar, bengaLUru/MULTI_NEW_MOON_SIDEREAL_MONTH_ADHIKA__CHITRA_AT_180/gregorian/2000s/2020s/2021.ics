@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20211205164119
+SEQUENCE:20211209175353
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -46504,25 +46504,6 @@ DESCRIPTION:chaturthī tithi on a Tuesday is as sacred as a solar eclipse.
  ः॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://gith
  ub.com/jyotisham/adyatithi/blob/master/time_focus/tithi-vara-combinations/
  description_only/aGgAraka-caturthI.toml)<br/>- Tags: RareDays Combinations
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:भाग्य-नगरे मरून्मत्तोपप
- ्लवः १९७९ #४२
-DTSTART;VALUE=DATE:20211123
-DTEND;VALUE=DATE:20211124
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/11/23/bhAgy
- anagare_marUnmattoplavaH_1979.toml)<br/>- Tags: <br/><br/><br/><br/>## Det
- ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/
- master/mahApuruSha/xatra-later/gregorian/day/11/23/bhAgyanagare_marUnmatto
- plavaH_1979.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
