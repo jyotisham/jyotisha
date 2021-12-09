@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20211209193435
+SEQUENCE:20211209233228
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -21950,6 +21950,24 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
  gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-vratam_30.to
  ml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:रघुनाथराव-बन्धनम् #३७
+DTSTART;VALUE=DATE:20210610
+DTEND;VALUE=DATE:20210611
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/06/10/rAmag
+ Rhe_uShNIShi-vidrohaH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/
+ >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/m
+ ahApuruSha/xatra-later/gregorian/day/06/10/rAmagRhe_uShNIShi-vidrohaH.toml
+ )<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
