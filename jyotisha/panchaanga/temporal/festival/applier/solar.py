@@ -301,7 +301,7 @@ class SolarFestivalAssigner(FestivalAssigner):
       anga_list.append(anga)
     if yoga_happens:
       jd_start, jd_end = max([x.jd_start for x in anga_list]), min([x.jd_end for x in anga_list])
-      if jd_start > jd_end:
+      if jd_start > jd_end or jd_start > self.panchaanga.jd_end:
         msg = ' + '.join(['%s %d' % (intersect_list[i][0], intersect_list[i][1]) for i in range(len(intersect_list))])
         logging.debug('No %s Yoga involving %s in the span %s!' % (msg, yoga_name, Interval(jd_start=jd_start_in, jd_end=jd_end_in)))
       else:
