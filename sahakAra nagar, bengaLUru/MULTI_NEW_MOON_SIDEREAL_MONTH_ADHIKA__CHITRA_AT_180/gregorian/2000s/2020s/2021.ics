@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20211209233228
+SEQUENCE:20211211113300
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -4763,6 +4763,24 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
  /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
  )<br/>- Tags: MonthlyVratam EkadashiVratam
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:केरल-रामसिंह-हत्या #७४
+DTSTART;VALUE=DATE:20210208
+DTEND;VALUE=DATE:20210209
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/02/08/keral
+ a-rAmasiMha-hatyA.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [
+ Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahAp
+ uruSha/xatra-later/gregorian/day/02/08/kerala-rAmasiMha-hatyA.toml)<br/>- 
+ Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
