@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20211211115610
+SEQUENCE:20211212074211
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -42375,6 +42375,26 @@ DESCRIPTION:Observed on Kr̥ṣṇa-Aṣṭamī tithi of Āśvayujaḥ (lu
  r/>- References<br/>  - Krutyasaara samucchayam<br/>- [Edit config file](h
  ttps://github.com/jyotisham/adyatithi/blob/master/devatA/lakShmI/lunar_mon
  th/tithi/07/23/mahAlakSmI-vratam.toml)<br/>- Tags: SpecialVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:निर्मलेन चतुर्दशानाम् उ
+ त्तमानां शिखराणां जयः #२
+DTSTART;VALUE=DATE:20211029
+DTEND;VALUE=DATE:20211030
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/general-indic-tropical/gregorian/day/
+ 10/29/nirmalena_chaturdashAnAm_uttamAnAM_shikharANAM_jayaH.toml)<br/>- Tag
+ s: <br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.
+ com/jyotisham/adyatithi/blob/master/mahApuruSha/general-indic-tropical/gre
+ gorian/day/10/29/nirmalena_chaturdashAnAm_uttamAnAM_shikharANAM_jayaH.toml
+ )<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
