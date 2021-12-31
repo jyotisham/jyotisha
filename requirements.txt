@@ -3,7 +3,7 @@ astropy
 scipy
 pandas
 sanskrit_data
-doc_curation
+doc-curation==0.1.6
 indic_transliteration
 icalendar
 convertdate
