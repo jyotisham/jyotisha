@@ -92,10 +92,10 @@ def decide_puurvaviddha(p0, p1, target_anga, kaala):
   return FestivalDecision.from_details(boundary_angas_list=[d0_angas, d1_angas], fday=fday, panchaangas=[p0, p1])
 
 
-def decide_aparaahna_vyaapti(p0, p1, target_anga, ayanaamsha_id, kaala):
+def decide_vyaapti(p0, p1, target_anga, ayanaamsha_id, kaala):
   (d0_angas, d1_angas) = get_2_day_interval_boundary_angas(kaala=kaala, anga_type=target_anga.get_type(), p0=p0, p1=p1)
-  if kaala not in ['अपराह्णः']:
-    raise ValueError(kaala)
+  # if kaala not in ['अपराह्णः']:
+  #   raise ValueError(kaala)
 
   prev_anga = target_anga - 1
   next_anga = target_anga + 1
@@ -154,6 +154,6 @@ def decide(p0, p1, target_anga, kaala, priority, ayanaamsha_id):
   elif priority == 'puurvaviddha':
     decision = decide_puurvaviddha(p0=p0, p1=p1, target_anga=target_anga, kaala=kaala)
   elif priority == 'vyaapti':
-    decision = decide_aparaahna_vyaapti(p0=p0, p1=p1, target_anga=target_anga, kaala=kaala, ayanaamsha_id=ayanaamsha_id)
+    decision = decide_vyaapti(p0=p0, p1=p1, target_anga=target_anga, kaala=kaala, ayanaamsha_id=ayanaamsha_id)
   return decision
 
