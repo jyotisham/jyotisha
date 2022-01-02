@@ -114,6 +114,14 @@ def test_get_anga_data_1981_12_23():
   assert angas == [16, 17]
 
 
+def test_get_pancha_paxi_activities():
+  city = City.get_city_from_db('Chennai')
+  from jyotisha.panchaanga.temporal import zodiac
+  panchaanga = daily.DailyPanchaanga(city=city, date=Date(year=2022, month=1, day=2))
+  paxi_activities = panchaanga.get_pancha_paxi_activities()
+  assert paxi_activities.cock[0].name == 1
+  assert paxi_activities.cock[23].name == 4
+
 def test_get_lagna_data():
   city = City.get_city_from_db('Chennai') 
   from jyotisha.panchaanga.temporal import zodiac
