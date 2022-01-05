@@ -5,7 +5,7 @@ import os
 import sys
 from pathlib import Path
 
-import methodtools
+import methodtools, functools
 import regex
 import toml
 from curation_utils import file_helper
@@ -287,6 +287,7 @@ def get_festival_rules_map(dir_path, julian_handling, repo=None):
 
 DATA_ROOT = os.path.join(os.path.dirname(__file__), "../data")
 _ADYATITHI_REPOS_PATH = os.path.join(DATA_ROOT, "repos.toml")
+_PANCHA_PAXIN_PATH = os.path.join(DATA_ROOT, "pancha-paxin")
 
 
 class RulesRepo(common.JsonObject):
@@ -429,6 +430,23 @@ def load_repos():
 
 load_repos()
 
+
+@functools.lru_cache()
+def get_pancha_paxi_names_table():
+  names_path = os.path.join(_PANCHA_PAXIN_PATH, "names.toml")
+  with codecs.open(names_path, "r") as fp:
+    pancha_paxin_names = toml.load(fp)
+    return pancha_paxin_names
+
+
+@functools.lru_cache()
+def get_pancha_paxi_activities_table(weekday_id, paxa_id):
+  pancha_paxin_names = get_pancha_paxi_names_table()
+  table_path = os.path.join(_PANCHA_PAXIN_PATH, "paxa", pancha_paxin_names["table_ids"][str(paxa_id)][str(weekday_id)])
+  import pandas
+  activities_table = pandas.read_csv(table_path)
+  return activities_table
+  
 
 
 if __name__ == '__main__':

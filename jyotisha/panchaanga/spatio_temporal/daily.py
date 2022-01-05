@@ -116,6 +116,23 @@ class DayAngas(common.JsonObject):
     return anga_data_str
 
 
+class PaxiActivities(common.JsonObject):
+  def __init__(self):
+    super().__init__()
+    self.cock = []
+    self.crow = []
+    self.owl = []
+    self.peacock = []
+    self.vulture = []
+
+  def add_activity_interval(self, bird, activity_interval):
+    activity_intervals = getattr(self, bird)
+    if len(activity_intervals) > 0 and activity_intervals[-1].name == activity_interval.name:
+      activity_intervals[-1].jd_end = activity_interval.jd_end
+    else:
+      activity_intervals.append(activity_interval)
+
+
 # This class is not named Panchangam in order to be able to disambiguate from annual.Panchangam in serialized objects.
 class DailyPanchaanga(common.JsonObject):
   """This class enables the construction of a panchaanga.
@@ -148,6 +165,7 @@ class DailyPanchaanga(common.JsonObject):
 
     self.lagna_data = None
     self.sunrise_day_angas = None
+    self.paxi_activities = None
 
     self.solar_sidereal_date_sunset = None
 
@@ -170,6 +188,8 @@ class DailyPanchaanga(common.JsonObject):
       self.set_lunar_month_sunrise(month_assigner=lunar_month_assigner, previous_day_panchaanga=previous_day_panchaanga)
       self.set_mauDhyas()
 
+    if self.computation_system.festival_options.set_pancha_paxi_activities:
+      self.get_pancha_paxi_activities()
 
   def __repr__(self):
     return "%s %s" % (repr(self.date), repr(self.city))
@@ -412,6 +432,28 @@ class DailyPanchaanga(common.JsonObject):
         self.lagna_data.append((lagna, lagna_end_time))
     return self.lagna_data
 
+
+  def get_pancha_paxi_activities(self):
+    if self.paxi_activities is not None:
+      return self.paxi_activities
+    self.paxi_activities = PaxiActivities()
+    from jyotisha.panchaanga.temporal.festival import rules
+    paxa_id = int((self.sunrise_day_angas.tithi_at_sunrise.index - 1) / 15) + 1
+    activities_table = rules.get_pancha_paxi_activities_table(weekday_id=self.date.get_weekday(), paxa_id=paxa_id)
+
+    from jyotisha.panchaanga.temporal import interval   
+    for bird in ["cock", "crow", "owl", "peacock", "vulture"]:
+      activities = activities_table[bird]
+      
+      for i in range(0, 120):
+        activity_interval = interval.get_interval(start_jd=self.jd_sunrise, end_jd=self.jd_sunset, num_parts=120, part_index=i, name=activities[i])
+        self.paxi_activities.add_activity_interval(bird=bird, activity_interval=activity_interval)
+      
+      for i in range(120, 240):
+        activity_interval = interval.get_interval(start_jd=self.jd_sunset, end_jd=self.jd_next_sunrise, num_parts=120, part_index=i - 120, name=activities[i])
+        self.paxi_activities.add_activity_interval(bird=bird, activity_interval=activity_interval)
+    
+    return self.paxi_activities
 
   def day_has_conjunction(self, body1, body2, gap=None):
     if gap is None:
