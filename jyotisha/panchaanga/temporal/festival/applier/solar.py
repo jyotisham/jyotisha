@@ -81,13 +81,22 @@ class SolarFestivalAssigner(FestivalAssigner):
         punya_kaala_str = SANKRANTI_PUNYAKALA_NAMES[self.daily_panchaangas[d + 1].solar_sidereal_date_sunset.month] + '-puNyakAlaH'
         jd_transition = self.daily_panchaangas[d].solar_sidereal_date_sunset.month_transition
         # TODO: convert carefully to relative nadikas!
-        punya_kaala_start_jd = jd_transition - PUNYA_KAALA[self.daily_panchaangas[d + 1].solar_sidereal_date_sunset.month][0] * 1/60
-        punya_kaala_end_jd = jd_transition + PUNYA_KAALA[self.daily_panchaangas[d + 1].solar_sidereal_date_sunset.month][1] * 1/60
-        if punya_kaala_start_jd < self.daily_panchaangas[d].julian_day_start:
-          fday = d - 1
-        else:
+        # punya_kaala_start_jd = jd_transition - PUNYA_KAALA[self.daily_panchaangas[d + 1].solar_sidereal_date_sunset.month][0] * 1/60
+        # punya_kaala_end_jd = jd_transition + PUNYA_KAALA[self.daily_panchaangas[d + 1].solar_sidereal_date_sunset.month][1] * 1/60
+        # if punya_kaala_start_jd < self.daily_panchaangas[d].julian_day_start:
+        #   fday = d - 1
+        # else:
+        #   fday = d
+        # self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=punya_kaala_str, interval=Interval(jd_start=punya_kaala_start_jd, jd_end=punya_kaala_end_jd)), date=self.daily_panchaangas[fday].date)
+        
+        if jd_transition < self.daily_panchaangas[d].jd_sunset:
           fday = d
-        self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=punya_kaala_str, interval=Interval(jd_start=punya_kaala_start_jd, jd_end=punya_kaala_end_jd)), date=self.daily_panchaangas[fday].date)
+        else:
+          if self.daily_panchaangas[d + 1].solar_sidereal_date_sunset.month == 4:
+            fday = d # Previous day only for Kataka Sankramana
+          else:
+            fday = d + 1
+        self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=punya_kaala_str), date=self.daily_panchaangas[fday].date)
 
 
   def assign_tropical_sankranti_punyakaala(self):
@@ -129,14 +138,23 @@ class SolarFestivalAssigner(FestivalAssigner):
         punya_kaala_str = TROPICAL_SANKRANTI_PUNYAKALA_NAMES[self.daily_panchaangas[d + 1].tropical_date_sunset.month] + '-puNyakAlaH'
         jd_transition = self.daily_panchaangas[d].tropical_date_sunset.month_transition
         # TODO: convert carefully to relative nadikas!
-        punya_kaala_start_jd = jd_transition - PUNYA_KAALA[self.daily_panchaangas[d + 1].tropical_date_sunset.month][0] * 1/60
-        punya_kaala_end_jd = jd_transition + PUNYA_KAALA[self.daily_panchaangas[d + 1].tropical_date_sunset.month][1] * 1/60
-        if punya_kaala_start_jd < self.daily_panchaangas[d].julian_day_start:
-          fday = d - 1
-        else:
-          fday = d
-        self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=punya_kaala_str, interval=Interval(jd_start=punya_kaala_start_jd, jd_end=punya_kaala_end_jd)), date=self.daily_panchaangas[fday].date)
+        # punya_kaala_start_jd = jd_transition - PUNYA_KAALA[self.daily_panchaangas[d + 1].tropical_date_sunset.month][0] * 1/60
+        # punya_kaala_end_jd = jd_transition + PUNYA_KAALA[self.daily_panchaangas[d + 1].tropical_date_sunset.month][1] * 1/60
+        # if self.daily_panchaangas[d].solar_sidereal_date_sunset.month_transition > self.daily_panchaangas[d].day_length_based_periods.fifteen_fold_division.vaidhaatra.jd_end:
+        # if punya_kaala_start_jd < self.daily_panchaangas[d].julian_day_start:
+        #   fday = d - 1
+        # else:
+        #   fday = d
+        # self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=punya_kaala_str, interval=Interval(jd_start=punya_kaala_start_jd, jd_end=punya_kaala_end_jd)), date=self.daily_panchaangas[fday].date)
 
+        if jd_transition < self.daily_panchaangas[d].jd_sunset:
+          fday = d
+        else:
+          if self.daily_panchaangas[d + 1].tropical_date_sunset.month == 4:
+            fday = d # Previous day only for Dakshinayana
+          else:
+            fday = d + 1
+        self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=punya_kaala_str), date=self.daily_panchaangas[fday].date)
 
   def assign_tropical_sankranti(self):
     if 'mESa-viSu-puNyakAlaH' not in self.rules_collection.name_to_rule:
