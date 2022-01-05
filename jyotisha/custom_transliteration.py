@@ -45,7 +45,7 @@ def tr(text, script, titled=True, source_script=sanscript.roman.HK_DRAVIDIAN):
     # transliterated_text = clean_tamil_Na(transliterated_text)
   if script.startswith('iast') or script.startswith('iso'):
     transliterated_text = transliterated_text.replace('ṉ', 'n')
-    for accent_char in ['◌̥', '̂']:
+    for accent_char in ['◌̥', '̂', '̥']:
       for _match in re.findall(accent_char + '.', transliterated_text):
         transliterated_text = transliterated_text.replace(_match, _match.lower())
   if script == 'telugu' or script == sanscript.TELUGU:
