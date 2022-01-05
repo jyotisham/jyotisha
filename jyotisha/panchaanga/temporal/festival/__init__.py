@@ -29,7 +29,7 @@ class FestivalInstance(common.JsonObject):
     if self.ordinal is not None:
       name = name + " #%s" % int(self.ordinal)
 
-    if self.interval is None:
+    if self.interval is None or self._show_interval() is False:
       return name
     else:
       return "%s (%s)" % (name, self.interval.to_hour_text(script=sanscript.ISO, tz=timezone, reference_date=reference_date))
