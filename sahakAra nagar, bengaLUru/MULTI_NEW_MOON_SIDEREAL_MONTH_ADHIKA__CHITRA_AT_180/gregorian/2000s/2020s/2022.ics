@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220105211012
+SEQUENCE:20220106100920
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -45796,6 +45796,23 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  va-rAva-kSayaH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edi
  t config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuru
  Sha/xatra-later/gregorian/day/11/18/mAdhava-rAva-kSayaH.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:रेज़ाङ्ग-ला-युद्धम् #६०
+DTSTART;VALUE=DATE:20221118
+DTEND;VALUE=DATE:20221119
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/11/18/rezAn
+ g-lA-yuddham.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSh
+ a/xatra-later/gregorian/day/11/18/rezAng-lA-yuddham.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
