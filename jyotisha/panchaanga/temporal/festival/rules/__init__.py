@@ -1,11 +1,10 @@
 import codecs
-import copy
 import logging
 import os
 import sys
 from pathlib import Path
 
-import methodtools, functools
+import methodtools
 import regex
 import toml
 from curation_utils import file_helper
@@ -429,25 +428,6 @@ def load_repos():
 
 
 load_repos()
-
-
-@functools.lru_cache()
-def get_pancha_paxi_names_table():
-  names_path = os.path.join(_PANCHA_PAXIN_PATH, "names.toml")
-  with codecs.open(names_path, "r") as fp:
-    pancha_paxin_names = toml.load(fp)
-    return pancha_paxin_names
-
-
-@functools.lru_cache()
-def get_pancha_paxi_activities_table(weekday_id, paxa_id):
-  pancha_paxin_names = get_pancha_paxi_names_table()
-  table_path = os.path.join(_PANCHA_PAXIN_PATH, "paxa", pancha_paxin_names["table_ids"][str(paxa_id)][str(weekday_id)])
-  import pandas
-  activities_table = pandas.read_csv(table_path)
-  return activities_table
-  
-
 
 if __name__ == '__main__':
   # dump_repos()
