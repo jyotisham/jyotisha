@@ -62,7 +62,13 @@ def print_year_details(daily_panchaanga, output_stream, script):
   # Why include Islamic date? Hindus are today in close contact with muslim societies and are impacted by their calendric reckoning (eg. spikes in anti-hindu violence during ramadan https://swarajyamag.com/politics/behind-the-spikes-in-islamic-terror-during-ramzan , frenzies after Friday jumma etc..). It is the job of a good panchaanga to inform it's user about predictable (spiritual and other) situations in his surroundings.
   islamic_date = daily_panchaanga.date.to_islamic_date()
   islamic_month_name = daily_panchaanga.get_month_str(month_type=RulesRepo.ISLAMIC_MONTH_DIR, script=None)
-  sidereal_month_name = daily_panchaanga.get_month_str(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, language="ta", script=script)
+  sidereal_month_name = "सं- %s, तं- %s, म- %s, प- %s, अ- %s" % (
+    daily_panchaanga.get_month_str(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, language=None, script=script),
+    daily_panchaanga.get_month_str(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, language="ta", script=script),
+    daily_panchaanga.get_month_str(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, language="ml", script=script),
+    daily_panchaanga.get_month_str(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, language="pa", script=script),
+    daily_panchaanga.get_month_str(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, language="as", script=script),
+  )
   print("- Indian civil date: %s, Islamic: %s %s, 🌌🌞: %s" % (
   daily_panchaanga.date.to_indian_civil_date().get_date_str(), islamic_date.get_date_str(), islamic_month_name, sidereal_month_name),
         file=output_stream)
@@ -193,13 +199,13 @@ def add_raahu_yama_gulika_info(daily_panchaanga, output_stream, script):
 def add_shuula_info(daily_panchaanga, output_stream, script):
   tz = daily_panchaanga.city.get_timezone_obj()
   shulam_end_jd = daily_panchaanga.jd_sunrise + (daily_panchaanga.jd_sunset - daily_panchaanga.jd_sunrise) * (
-      names.SHULAM[daily_panchaanga.date.get_weekday()][1] / 30)
+      names.SHULAM[daily_panchaanga.date.get_weekday()]["end_muhuurta"] / 30)
   print('- **%s**—%s (►%s); **%s**–%s  ' % (
     translate_or_transliterate('शूलम्', script, source_script=sanscript.DEVANAGARI),
-    translate_or_transliterate(names.SHULAM[daily_panchaanga.date.get_weekday()][0], script, source_script=sanscript.DEVANAGARI),
+    translate_or_transliterate(names.SHULAM[daily_panchaanga.date.get_weekday()]["dik"], script, source_script=sanscript.DEVANAGARI),
     tz.julian_day_to_local_time(shulam_end_jd).get_hour_str(),
     translate_or_transliterate('परिहारः', script, source_script=sanscript.DEVANAGARI),
-    translate_or_transliterate(names.SHULAM[daily_panchaanga.date.get_weekday()][2], script, source_script=sanscript.DEVANAGARI)),
+    translate_or_transliterate(names.SHULAM[daily_panchaanga.date.get_weekday()]["parihaara"], script, source_script=sanscript.DEVANAGARI)),
         file=output_stream)
 
 

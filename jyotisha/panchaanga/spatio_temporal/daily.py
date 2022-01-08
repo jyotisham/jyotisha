@@ -357,8 +357,8 @@ class DailyPanchaanga(common.JsonObject):
     if month_type == RulesRepo.SIDEREAL_SOLAR_MONTH_DIR:
       if language is None:
         return names.NAMES['RASHI_NAMES']['sa'][script][self.solar_sidereal_date_sunset.month]
-      elif language == "ta":
-        return translate_or_transliterate(names.NAMES['SIDEREAL_SOLAR_MONTH_NAMES']["ta"][self.solar_sidereal_date_sunset.month - 1], source_script=sanscript.DEVANAGARI, script=script)
+      else:
+        return translate_or_transliterate(names.NAMES['SIDEREAL_SOLAR_MONTH_NAMES'][language][self.solar_sidereal_date_sunset.month - 1], source_script=sanscript.DEVANAGARI, script=script)
     elif month_type == RulesRepo.LUNAR_MONTH_DIR:
       return names.get_chandra_masa(month=self.lunar_month_sunrise.index, script=script)
     elif month_type == RulesRepo.TROPICAL_MONTH_DIR:

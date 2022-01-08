@@ -12,14 +12,14 @@ logging.basicConfig(level=logging.DEBUG,
 scripts = [sanscript.roman.HK_DRAVIDIAN, sanscript.ISO, sanscript.TAMIL, sanscript.TELUGU, sanscript.GRANTHA, sanscript.MALAYALAM]
 
 
-def init_names_auto(fname=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'festival/data/period_names/translation_table.json')):
+def init_names_auto(fname=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'festival/data/period_names/misc_names.toml')):
   """Read various nakShatra, samvatsara, mAsa and such names from a file return a dict with all of that.
 
   :returns a dict like { "YEAR_NAMES": {"hk": } ...}
   """
   with open(fname) as f:
-    import json
-    names_dict = json.load(f)
+    import toml
+    names_dict = toml.load(f)
     for dictionary in names_dict:
       if dictionary in ("SHUULAM", "SA_TO_TAMIL", "ARAB_MONTH_NAMES", "TIPU_ABJAD_MONTH_NAMES", "TIPU_ABTATH_MONTH_NAMES", "SIDEREAL_SOLAR_MONTH_NAMES", "GRAHA_NAMES"):
         continue
