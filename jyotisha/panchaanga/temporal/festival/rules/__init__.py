@@ -286,7 +286,6 @@ def get_festival_rules_map(dir_path, julian_handling, repo=None):
 
 DATA_ROOT = os.path.join(os.path.dirname(__file__), "../data")
 _ADYATITHI_REPOS_PATH = os.path.join(DATA_ROOT, "repos.toml")
-_PANCHA_PAXIN_PATH = os.path.join(DATA_ROOT, "pancha-paxin")
 
 
 class RulesRepo(common.JsonObject):

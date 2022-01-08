@@ -4,7 +4,8 @@ import os
 
 import toml
 
-from jyotisha.panchaanga.temporal.festival.rules import _PANCHA_PAXIN_PATH
+from jyotisha.panchaanga.temporal.festival.rules import DATA_ROOT
+_PANCHA_PAXIN_PATH = os.path.join(DATA_ROOT, "pancha-paxin")
 
 
 @functools.lru_cache()
