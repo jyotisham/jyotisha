@@ -3,6 +3,7 @@
 import logging
 import sys
 from math import floor, modf
+from indic_transliteration import sanscript
 
 import methodtools
 from scipy.optimize import brentq
@@ -350,9 +351,12 @@ class DailyPanchaanga(common.JsonObject):
       return self.date
 
   @methodtools.lru_cache(maxsize=None)
-  def get_month_str(self, month_type, script):
+  def get_month_str(self, month_type, script, language=None):
     if month_type == RulesRepo.SIDEREAL_SOLAR_MONTH_DIR:
-      return names.NAMES['RASHI_NAMES']['sa'][script][self.solar_sidereal_date_sunset.month]
+      if language is None:
+        return names.NAMES['RASHI_NAMES']['sa'][script][self.solar_sidereal_date_sunset.month]
+      elif language == "ta":
+        return translate_or_transliterate(names.NAMES['SIDEREAL_SOLAR_MONTH_NAMES']["ta"][self.solar_sidereal_date_sunset.month - 1], source_script=sanscript.TAMIL, script=script)
     elif month_type == RulesRepo.LUNAR_MONTH_DIR:
       return names.get_chandra_masa(month=self.lunar_month_sunrise.index, script=script)
     elif month_type == RulesRepo.TROPICAL_MONTH_DIR:

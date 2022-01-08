@@ -61,9 +61,10 @@ def day_summary(d, panchaanga, script, subsection_md):
 def print_year_details(daily_panchaanga, output_stream, script):
   # Why include Islamic date? Hindus are today in close contact with muslim societies and are impacted by their calendric reckoning (eg. spikes in anti-hindu violence during ramadan https://swarajyamag.com/politics/behind-the-spikes-in-islamic-terror-during-ramzan , frenzies after Friday jumma etc..). It is the job of a good panchaanga to inform it's user about predictable (spiritual and other) situations in his surroundings.
   islamic_date = daily_panchaanga.date.to_islamic_date()
-  islamic_month_name = names.NAMES["ARAB_MONTH_NAMES"]["ar"][islamic_date.month - 1]
-  print("- Indian civil date: %s, Islamic: %s %s" % (
-  daily_panchaanga.date.to_indian_civil_date().get_date_str(), islamic_date.get_date_str(), islamic_month_name),
+  islamic_month_name = daily_panchaanga.get_month_str(month_type=RulesRepo.ISLAMIC_MONTH_DIR, script=None)
+  sidereal_month_name = daily_panchaanga.get_month_str(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, language="ta", script=script)
+  print("- Indian civil date: %s, Islamic: %s %s, 🌌🌞: %s" % (
+  daily_panchaanga.date.to_indian_civil_date().get_date_str(), islamic_date.get_date_str(), islamic_month_name, sidereal_month_name),
         file=output_stream)
   samvatsara_lunar = daily_panchaanga.get_samvatsara(month_type=RulesRepo.LUNAR_MONTH_DIR).get_name(script=script)
   samvatsara_sidereal = daily_panchaanga.get_samvatsara(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR).get_name(
