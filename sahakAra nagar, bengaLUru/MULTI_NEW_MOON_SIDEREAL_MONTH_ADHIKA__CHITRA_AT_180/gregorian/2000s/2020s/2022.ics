@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220108102808
+SEQUENCE:20220112080516
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -1215,15 +1215,12 @@ SUMMARY:वेलु-तम्ब्य्-उद्घोषणम् #
  २१६
 DTSTART;VALUE=DATE:20220111
 DTEND;VALUE=DATE:20220112
-DESCRIPTION:Event occured on 1806-01-11 (gregorian). <br/><br/>Kundara Pro
- clamation by Velu Thambi Dalawa\, the Prime Minister/Diwan (Dalava) to Kin
- g Balarama Varma of Travancore. It was an open call to arms\, exhorting th
- e common people to rise up against the British and to overthrow them. Ther
- e was a massive response to his rallying call.<br/><br/>The Dalawa had to 
- commit suicide on exile later at Mannadi near Adoor.<br/><br/>## Details<b
- r/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master
- /mahApuruSha/xatra-later/gregorian/day/01/11/velu-tamby-udghoShaNam.toml)<
- br/>- Tags:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/01/11/velu-
+ tamby-udghoShaNam.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [
+ Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahAp
+ uruSha/xatra-later/gregorian/day/01/11/velu-tamby-udghoShaNam.toml)<br/>- 
+ Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
