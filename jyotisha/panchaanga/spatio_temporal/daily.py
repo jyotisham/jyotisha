@@ -4,6 +4,9 @@ import logging
 import sys
 from math import floor, modf
 
+from jyotisha.panchaanga.temporal.festival.rules import pancha_paxi
+from indic_transliteration import sanscript
+
 import methodtools
 from scipy.optimize import brentq
 from timebudget import timebudget
@@ -350,9 +353,12 @@ class DailyPanchaanga(common.JsonObject):
       return self.date
 
   @methodtools.lru_cache(maxsize=None)
-  def get_month_str(self, month_type, script):
+  def get_month_str(self, month_type, script, language=None):
     if month_type == RulesRepo.SIDEREAL_SOLAR_MONTH_DIR:
-      return names.NAMES['RASHI_NAMES']['sa'][script][self.solar_sidereal_date_sunset.month]
+      if language is None:
+        return names.NAMES['RASHI_NAMES']['sa'][script][self.solar_sidereal_date_sunset.month]
+      else:
+        return translate_or_transliterate(names.NAMES['SIDEREAL_SOLAR_MONTH_NAMES'][language][self.solar_sidereal_date_sunset.month - 1], source_script=sanscript.DEVANAGARI, script=script)
     elif month_type == RulesRepo.LUNAR_MONTH_DIR:
       return names.get_chandra_masa(month=self.lunar_month_sunrise.index, script=script)
     elif month_type == RulesRepo.TROPICAL_MONTH_DIR:
@@ -439,7 +445,7 @@ class DailyPanchaanga(common.JsonObject):
     self.paxi_activities = PaxiActivities()
     from jyotisha.panchaanga.temporal.festival import rules
     paxa_id = int((self.sunrise_day_angas.tithi_at_sunrise.index - 1) / 15) + 1
-    activities_table = rules.get_pancha_paxi_activities_table(weekday_id=self.date.get_weekday(), paxa_id=paxa_id)
+    activities_table = pancha_paxi.get_activities_table(weekday_id=self.date.get_weekday(), paxa_id=paxa_id)
 
     from jyotisha.panchaanga.temporal import interval   
     for bird in ["cock", "crow", "owl", "peacock", "vulture"]:

@@ -55,11 +55,13 @@ jobs:
         run: |
           python -c "import jyotisha"
       - name: Test with pytest
+        id: pytest
         run: |
           pip install pytest
           pytest jyotisha_tests
       - name: Upload package
         uses: pypa/gh-action-pypi-publish@master
+        if: ${{ github.event_name != 'pull_request' && steps.pytest.conclusion == 'success'}}
         with:
           user: __token__
           skip_existing: true
