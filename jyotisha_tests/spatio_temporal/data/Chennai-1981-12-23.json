@@ -1004,6 +1004,16 @@
         "jsonClass": "AngaSpan"
       }
     ],
+    "solar_raashis_with_ends": [
+      {
+        "anga": {
+          "anga_type_id": "SIDEREAL_MONTH",
+          "index": 9,
+          "jsonClass": "Anga"
+        },
+        "jsonClass": "AngaSpan"
+      }
+    ],
     "tithi_at_sunrise": {
       "anga_type_id": "TITHI",
       "index": 27,

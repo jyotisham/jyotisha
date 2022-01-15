@@ -161,10 +161,15 @@ def print_khachakra_stithi(daily_panchaanga, output_stream, script, subsection_m
                                                                             reference_jd=daily_panchaanga.julian_day_start)
   chandrashtama_rashi_data_str, rashi_data_str = get_raashi_data_str(daily_panchaanga, script)
   print('- 🌌🌛%s (%s)  ' % (nakshatra_data_str, rashi_data_str), file=output_stream)
+  
   solar_nakshatra_str = daily_panchaanga.sunrise_day_angas.get_anga_data_str(anga_type=AngaType.SOLAR_NAKSH,
                                                                              script=script,
                                                                              reference_jd=daily_panchaanga.julian_day_start)
-  print('- 🌌🌞%s  ' % (solar_nakshatra_str), file=output_stream)
+  solar_raashi_str = daily_panchaanga.sunrise_day_angas.get_anga_data_str(anga_type=AngaType.SIDEREAL_MONTH,
+                                                                          script=script,
+                                                                          reference_jd=daily_panchaanga.julian_day_start)
+  print('- 🌌🌞%s  \n  - %s ' % (solar_nakshatra_str, solar_raashi_str), file=output_stream)
+  
   print("___________________", file=output_stream)
   yoga_data_str = daily_panchaanga.sunrise_day_angas.get_anga_data_str(anga_type=AngaType.YOGA, script=script,
                                                                        reference_jd=daily_panchaanga.julian_day_start)
