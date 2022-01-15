@@ -113,7 +113,6 @@ class NakshatraAssigner(PeriodicPanchaangaApplier):
       t_start = daily_panchaanga.jd_sunrise
       t_end = daily_panchaanga.jd_sunset
       n = daily_panchaanga.date.get_weekday()
-      logging.debug(n)
       tyaajya_start = t_start + (t_end - t_start) / 60 * (TYAJYA_START_VASARA[n - 1])
       tyaajya_end = t_start + (t_end - t_start) / 60 * (TYAJYA_START_VASARA[n - 1] + 4)
       self.panchaanga.tyajyam_data[d]['VASARA'] += [(tyaajya_start, tyaajya_end)]
