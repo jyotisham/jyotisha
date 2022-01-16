@@ -64,7 +64,7 @@ def get_description_str_with_shlokas(include_shlokas, rule, script):
         descriptions["en"] = get_english_description(description_string, rule)
       else:
         descriptions[language] = rule.description[language]
-  description_items = sorted(descriptions.items(), key=lambda pair: ["en", "sa", "ta"].index(pair[0]))
+  description_items = sorted(descriptions.items(), key=lambda pair: {"en": 0, "sa": 1, "ta": 2, "kn": 3}.get(pair[0], 99))
   description_string = "\n\n".join([x[1].strip() for x in description_items])
   if rule.shlokas is not None and include_shlokas:
     shlokas = sanscript.transliterate(rule.shlokas.strip().replace("\n", "  \n"), sanscript.DEVANAGARI, script)
