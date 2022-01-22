@@ -84,7 +84,7 @@ def emit(panchaanga, time_format="hh:mm", languages=None, scripts=None, output_s
 
     karana_data_str = get_karaNa_data_str(daily_panchaanga, scripts, time_format)
 
-    gulika, rahu, yama, raatri_gulika, raatri_yama = get_raahu_yama_gulika_strings(daily_panchaanga, time_format)
+    gulika, rahu, yama, raatri_gulika, raatri_yama, durmuhurta1, durmuhurta2 = get_raahu_yama_gulika_strings(daily_panchaanga, time_format)
 
     if daily_panchaanga.solar_sidereal_date_sunset.month == 1:
       # Flip the year name for the remaining days
