@@ -26,7 +26,7 @@ def day_summary(d, panchaanga, script, subsection_md):
   solar_position = "%s-%s" % (daily_panchaanga.get_month_str(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, script=script), names.NAMES['NAKSHATRA_NAMES']['sa'][script][daily_panchaanga.sunrise_day_angas.solar_nakshatras_with_ends[0].anga.index])
   lunar_month_str = daily_panchaanga.get_month_str(month_type=RulesRepo.LUNAR_MONTH_DIR, script=script)
   vaara = names.NAMES['VARA_NAMES']['sa'][script][daily_panchaanga.date.get_weekday()]
-  title = '%s-%s,%s🌛🌌◢◣%s-%s🌌🌞◢◣%s-%s🪐🌞%s' % (
+  title = '%s-%s  ,  %s🌛🌌  ,  %s-%s🌞🌌  ,  %s-%s🌞🪐  ,  %s' % (
     lunar_month_str, str(daily_panchaanga.get_date(month_type=RulesRepo.LUNAR_MONTH_DIR)), lunar_position,
     solar_position, str(daily_panchaanga.solar_sidereal_date_sunset), daily_panchaanga.get_month_str(month_type=RulesRepo.TROPICAL_MONTH_DIR, script=script),
     str(daily_panchaanga.tropical_date_sunset), vaara)
