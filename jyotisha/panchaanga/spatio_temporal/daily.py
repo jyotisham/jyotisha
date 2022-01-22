@@ -47,6 +47,7 @@ class DayAngas(common.JsonObject):
     self.karanas_with_ends = None
     self.solar_nakshatras_with_ends = None
     self.raashis_with_ends = None
+    self.solar_raashis_with_ends = None
 
   def get_angas_with_ends(self, anga_type):
     anga_spans = []
@@ -62,6 +63,8 @@ class DayAngas(common.JsonObject):
       anga_spans = self.karanas_with_ends
     elif anga_type == AngaType.SOLAR_NAKSH:
       anga_spans = self.solar_nakshatras_with_ends
+    elif anga_type == AngaType.SIDEREAL_MONTH:
+      anga_spans = self.solar_raashis_with_ends
     return anga_spans
 
   def find_anga_span(self, anga):
@@ -105,7 +108,8 @@ class DayAngas(common.JsonObject):
 
   def get_anga_data_str(self, anga_type, script, reference_jd):
     anga_data_str = ''
-    for anga_span in self.get_angas_with_ends(anga_type=anga_type):
+    angas_with_ends = self.get_angas_with_ends(anga_type=anga_type)
+    for anga_span in angas_with_ends:
       (anga_ID, anga_end_jd) = (anga_span.anga.index, anga_span.jd_end)
       anga = anga_type.names_dict[script][anga_ID]
       if anga_end_jd is None:
@@ -250,6 +254,8 @@ class DailyPanchaanga(common.JsonObject):
       self.sunrise_day_angas.karanas_with_ends = AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=zodiac.AngaType.KARANA).get_all_angas_in_period(jd1=self.jd_sunrise, jd2=self.jd_next_sunrise)
       
       self.sunrise_day_angas.raashis_with_ends = AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=zodiac.AngaType.RASHI).get_all_angas_in_period(jd1=self.jd_sunrise, jd2=self.jd_next_sunrise)
+      self.sunrise_day_angas.solar_raashis_with_ends = AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=zodiac.AngaType.SIDEREAL_MONTH).get_all_angas_in_period(jd1=self.jd_sunrise, jd2=self.jd_next_sunrise)
+      
       self.sunrise_day_angas.solar_nakshatras_with_ends = AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=zodiac.AngaType.SOLAR_NAKSH).get_all_angas_in_period(jd1=self.jd_sunrise, jd2=self.jd_next_sunrise)
 
   def get_interval(self, interval_id):

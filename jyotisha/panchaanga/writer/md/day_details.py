@@ -26,7 +26,7 @@ def day_summary(d, panchaanga, script, subsection_md):
   solar_position = "%s-%s" % (daily_panchaanga.get_month_str(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, script=script), names.NAMES['NAKSHATRA_NAMES']['sa'][script][daily_panchaanga.sunrise_day_angas.solar_nakshatras_with_ends[0].anga.index])
   lunar_month_str = daily_panchaanga.get_month_str(month_type=RulesRepo.LUNAR_MONTH_DIR, script=script)
   vaara = names.NAMES['VARA_NAMES']['sa'][script][daily_panchaanga.date.get_weekday()]
-  title = '%s-%s,%s🌛🌌◢◣%s-%s🌌🌞◢◣%s-%s🪐🌞%s' % (
+  title = '%s-%s  ,  %s🌛🌌  ,  %s-%s🌞🌌  ,  %s-%s🌞🪐  ,  %s' % (
     lunar_month_str, str(daily_panchaanga.get_date(month_type=RulesRepo.LUNAR_MONTH_DIR)), lunar_position,
     solar_position, str(daily_panchaanga.solar_sidereal_date_sunset), daily_panchaanga.get_month_str(month_type=RulesRepo.TROPICAL_MONTH_DIR, script=script),
     str(daily_panchaanga.tropical_date_sunset), vaara)
@@ -161,10 +161,15 @@ def print_khachakra_stithi(daily_panchaanga, output_stream, script, subsection_m
                                                                             reference_jd=daily_panchaanga.julian_day_start)
   chandrashtama_rashi_data_str, rashi_data_str = get_raashi_data_str(daily_panchaanga, script)
   print('- 🌌🌛%s (%s)  ' % (nakshatra_data_str, rashi_data_str), file=output_stream)
+  
   solar_nakshatra_str = daily_panchaanga.sunrise_day_angas.get_anga_data_str(anga_type=AngaType.SOLAR_NAKSH,
                                                                              script=script,
                                                                              reference_jd=daily_panchaanga.julian_day_start)
-  print('- 🌌🌞%s  ' % (solar_nakshatra_str), file=output_stream)
+  solar_raashi_str = daily_panchaanga.sunrise_day_angas.get_anga_data_str(anga_type=AngaType.SIDEREAL_MONTH,
+                                                                          script=script,
+                                                                          reference_jd=daily_panchaanga.julian_day_start)
+  print('- 🌌🌞%s  \n  - %s ' % (solar_nakshatra_str, solar_raashi_str), file=output_stream)
+  
   print("___________________", file=output_stream)
   yoga_data_str = daily_panchaanga.sunrise_day_angas.get_anga_data_str(anga_type=AngaType.YOGA, script=script,
                                                                        reference_jd=daily_panchaanga.julian_day_start)
