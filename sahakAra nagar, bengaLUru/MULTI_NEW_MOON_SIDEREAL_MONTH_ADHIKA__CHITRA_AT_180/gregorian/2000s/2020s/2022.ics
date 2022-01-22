@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220122100252
+SEQUENCE:20220122102050
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -2233,6 +2233,24 @@ DTEND;VALUE=DATE:20220118
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/temples/Tamil/relative_event/taippUcam/offset__00
  /kapAlI_teppOtsavam~2.toml)<br/>- Tags: TamilnaduTempleFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:कुमार-व्यास-जयन्ती #१२९
+DTSTART;VALUE=DATE:20220117
+DTEND;VALUE=DATE:20220118
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/general-indic-non-tropical/lunar_mont
+ h/tithi/10/15/kumAra-vyAsa-jayantI.toml)<br/>- Tags: OtherJayantis<br/><br
+ /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/general-indic-non-tropical/lunar_mont
+ h/tithi/10/15/kumAra-vyAsa-jayantI.toml)<br/>- Tags: OtherJayantis
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
