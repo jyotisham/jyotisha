@@ -243,10 +243,20 @@ class EightFoldDivision(common.JsonObject):
     YAMAGHANTA_SLICES_NIGHT = [0, 6, 5, 4, 3, 2, 1]
     GULIKAKALA_SLICES = [6, 5, 4, 3, 2, 1, 0]
     GULIKAKALA_SLICES_NIGHT = [2, 1, 0, 6, 5, 4, 3]
+    DURMUHURTA1 = (13, 8, 3, 7, 5, 3, 1)
+    DURMUHURTA2 = (None, 11, 21, None, 11, 8, 2)
     self.raahu = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset,
                               part_index=RAHUKALA_SLICES[weekday], num_parts=8)
     self.yama = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset,
                              part_index=YAMAGHANTA_SLICES[weekday], num_parts=8)
+    self.durmuhurta1 = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset,
+                             part_index=DURMUHURTA1[weekday], num_parts=15)
+    if DURMUHURTA2[weekday] is None:
+      self.durmuhurta2 = None
+    elif DURMUHURTA2[weekday] > 15:
+      self.durmuhurta2 = get_interval(start_jd=jd_sunset, end_jd=jd_sunrise, part_index=DURMUHURTA2[weekday] - 15, num_parts=15)
+    else:
+      self.durmuhurta2 = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=DURMUHURTA2[weekday], num_parts=15)
     self.gulika = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset,
                                part_index=GULIKAKALA_SLICES[weekday], num_parts=8)
     self.raatri_gulika = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise,

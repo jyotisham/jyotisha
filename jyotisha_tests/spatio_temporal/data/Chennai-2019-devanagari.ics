@@ -2548,22 +2548,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:bahula-pañcamī
-DTSTART;VALUE=DATE:20190125
-DTEND;VALUE=DATE:20190126
-DESCRIPTION:Observed on Kr̥ṣṇa-Pañcamī tithi of Pauṣaḥ (lunar) 
- month (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gene
- ral/lunar_month/tithi/10/20/bahula-paJcamI.toml)<br/>- Tags: SpecialPuja
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Chaṇḍēśvara Nāyanār (19) Gurupūjai
 DTSTART;VALUE=DATE:20190125
 DTEND;VALUE=DATE:20190126
@@ -2599,16 +2583,16 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:tyāgarāja-ārādhanā #172
+SUMMARY:tyāgarāja-ārādhanā/bahula-pañcamī #172
 DTSTART;VALUE=DATE:20190125
 DTEND;VALUE=DATE:20190126
 DESCRIPTION:Observed on Kr̥ṣṇa-Pañcamī tithi of Pauṣaḥ (lunar) 
- month (Sūryōdayaḥ/puurvaviddha). The event occurred in 4948 (Kali era)
- .  <br/><br/><br/>kāmakrōdhādirahitaṁ rāmabhaktaśirōmaṇim।  <b
- r/>tyāgarājaguruṁ vandē saṅgītābdhiṁ kalānidhim॥<br/><br/><b
- r/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/a
- dyatithi/blob/master/mahApuruSha/sangIta-kRt/lunar_month/tithi/10/20/tyAga
- rAja-ArAdhanA.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
+ month (Aparāhṇaḥ/vyaapti). The event occurred in 4948 (Kali era).  <b
+ r/><br/><br/>kāmakrōdhādirahitaṁ rāmabhaktaśirōmaṇim।  <br/>ty
+ āgarājaguruṁ vandē saṅgītābdhiṁ kalānidhim॥<br/><br/><br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/blob/master/mahApuruSha/sangIta-kRt/lunar_month/tithi/10/20/tyAgarAja-
+ ArAdhanA.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6753,13 +6737,13 @@ BEGIN:VEVENT
 SUMMARY:purandaradāsa-ārādhanā #455
 DTSTART;VALUE=DATE:20190306
 DTEND;VALUE=DATE:20190307
-DESCRIPTION:Observed on Amāvāsyā tithi of Māghaḥ (lunar) month (Sūr
- yōdayaḥ/puurvaviddha). The event occurred in 4665 (Kali era).  <br/><br
- /><br/>manmanōbhīṣṭavaradaṁ sarvābhīṣṭaphalapradam।  <br/>
- purandaraguruṁ vandē dāsaśrēṣṭhaṁ dayānidhim॥<br/><br/><br/
- ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
- atithi/blob/master/mahApuruSha/sangIta-kRt/lunar_month/tithi/11/30/puranda
- radAsa-ArAdhanA.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
+DESCRIPTION:Observed on Amāvāsyā tithi of Māghaḥ (lunar) month (Apar
+ āhṇaḥ/vyaapti). The event occurred in 4665 (Kali era).  <br/><br/><br
+ />manmanōbhīṣṭavaradaṁ sarvābhīṣṭaphalapradam।  <br/>puran
+ daraguruṁ vandē dāsaśrēṣṭhaṁ dayānidhim॥<br/><br/><br/><br/
+ >## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatith
+ i/blob/master/mahApuruSha/sangIta-kRt/lunar_month/tithi/11/30/purandaradAs
+ a-ArAdhanA.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18308,11 +18292,11 @@ SUMMARY:vidyāraṇya-svāmi-ārādhanā #628
 DTSTART;VALUE=DATE:20190615
 DTEND;VALUE=DATE:20190616
 DESCRIPTION:Observed on Śukla-Trayōdaśī tithi of Jyaiṣṭhaḥ (luna
- r) month (Sūryōdayaḥ/puurvaviddha). The event occurred in 4493 (Kali e
- ra).  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lunar
- _month/tithi/03/13/vidyAraNya~svAmI~ArAdhanA.toml)<br/>- Tags: Mahapurusha
- Events
+ r) month (Aparāhṇaḥ/vyaapti). The event occurred in 4493 (Kali era). 
+  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://gith
+ ub.com/jyotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lunar_mont
+ h/tithi/03/13/vidyAraNya~svAmI~ArAdhanA.toml)<br/>- Tags: MahapurushaEvent
+ s
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25279,13 +25263,12 @@ SUMMARY:śrī-rāghavēndra-svāmi-ārādhanā #348
 DTSTART;VALUE=DATE:20190817
 DTEND;VALUE=DATE:20190818
 DESCRIPTION:Observed on Kr̥ṣṇa-Dvitīyā tithi of Śrāvaṇaḥ (lun
- ar) month (Sūryōdayaḥ/puurvaviddha). The event occurred in 4773 (Kali 
- era).  <br/><br/><br/>pūjyāya rāghavēndrāya satyadharmaratāya ca। 
-  <br/>bhajatāṁ kalpavr̥kṣāya namatāṁ kāmadhēnavē॥<br/><br/>
- <br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham
- /adyatithi/blob/master/mahApuruSha/mAdhva-misc/lunar_month/tithi/05/17/zrI
- ~rAghavEndra~svAmI~ArAdhanA.toml)<br/>- Tags: MahapurushaEvents CommonFest
- ivals
+ ar) month (Aparāhṇaḥ/vyaapti). The event occurred in 4773 (Kali era).
+   <br/><br/><br/>pūjyāya rāghavēndrāya satyadharmaratāya ca।  <br/
+ >bhajatāṁ kalpavr̥kṣāya namatāṁ kāmadhēnavē॥<br/><br/><br/>
+ <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
+ tithi/blob/master/mahApuruSha/mAdhva-misc/lunar_month/tithi/05/17/zrI~rAgh
+ avEndra~svAmI~ArAdhanA.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE

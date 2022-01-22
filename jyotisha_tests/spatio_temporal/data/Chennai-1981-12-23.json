@@ -372,6 +372,12 @@
         "jsonClass": "Interval",
         "name": "दिनान्तम्"
       },
+      "durmuhurta1": {
+        "jd_end": 2444961.7919,
+        "jd_start": 2444961.7607,
+        "jsonClass": "Interval",
+        "name": "दुर्मुहूर्तः १"
+      },
       "gulika": {
         "jd_end": 2444961.7763,
         "jd_start": 2444961.7178,
