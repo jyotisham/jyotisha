@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220122093446
+SEQUENCE:20220122100252
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -3019,6 +3019,28 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:त्यागराज-आराधना/बहुल-पञ्
+ चमी #१७५
+DTSTART;VALUE=DATE:20220122
+DTEND;VALUE=DATE:20220123
+DESCRIPTION:Observed on Kr̥ṣṇa-Pañcamī tithi of Pauṣaḥ (lunar) 
+ month (Aparāhṇaḥ/vyaapti). The event occurred in 4948 (Kali era).  <b
+ r/><br/><br/>कामक्रोधादिरहितं रामभ
+ क्तशिरोमणिम्।  <br/>त्यागराजग
+ ुरुं वन्दे सङ्गीताब्धिं कल
+ ानिधिम्॥<br/><br/><br/><br/>## Details<br/>- [Edit config 
+ file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/sangI
+ ta-kRt/lunar_month/tithi/10/20/tyAgarAja-ArAdhanA.toml)<br/>- Tags: Mahapu
+ rushaEvents CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:पौषः-10-20  \,  कन्या-उत्तरफल्
  गुनी🌛🌌  \,  मकरः-उत्तराषाढा-10-1
  0🌞🌌  \,  तपः-11-04🌞🪐  \,  भानुः
@@ -3095,22 +3117,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:बहुल-पञ्चमी
-DTSTART;VALUE=DATE:20220123
-DTEND;VALUE=DATE:20220124
-DESCRIPTION:Observed on Kr̥ṣṇa-Pañcamī tithi of Pauṣaḥ (lunar) 
- month (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gene
- ral/lunar_month/tithi/10/20/bahula-paJcamI.toml)<br/>- Tags: SpecialPuja
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:चण्डेश्वर नायऩार् (१९) गु
  रुपूजै
 DTSTART;VALUE=DATE:20220123
@@ -3120,27 +3126,6 @@ DESCRIPTION:Observed on Uttaraphalgunī nakshatra of Makaraḥ (sidereal s
  Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahAp
  uruSha/nAyanAr/sidereal_solar_month/nakshatra/10/12/caNDEzvara_nAyan2Ar_%2
  819%29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:त्यागराज-आराधना #१७५
-DTSTART;VALUE=DATE:20220123
-DTEND;VALUE=DATE:20220124
-DESCRIPTION:Observed on Kr̥ṣṇa-Pañcamī tithi of Pauṣaḥ (lunar) 
- month (Sūryōdayaḥ/puurvaviddha). The event occurred in 4948 (Kali era)
- .  <br/><br/><br/>कामक्रोधादिरहितं रा
- मभक्तशिरोमणिम्।  <br/>त्यागरा
- जगुरुं वन्दे सङ्गीताब्धिं 
- कलानिधिम्॥<br/><br/><br/><br/>## Details<br/>- [Edit c
- onfig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha
- /sangIta-kRt/lunar_month/tithi/10/20/tyAgarAja-ArAdhanA.toml)<br/>- Tags: 
- MahapurushaEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8466,15 +8451,15 @@ BEGIN:VEVENT
 SUMMARY:पुरन्दरदास-आराधना #४५८
 DTSTART;VALUE=DATE:20220302
 DTEND;VALUE=DATE:20220303
-DESCRIPTION:Observed on Amāvāsyā tithi of Māghaḥ (lunar) month (Sūr
- yōdayaḥ/puurvaviddha). The event occurred in 4665 (Kali era).  <br/><br
- /><br/>मन्मनोभीष्टवरदं सर्वाभी
- ष्टफलप्रदम्।  <br/>पुरन्दरगुर
- ुं वन्दे दासश्रेष्ठं दयानि
- धिम्॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](htt
- ps://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/sangIta-kRt/lu
- nar_month/tithi/11/30/purandaradAsa-ArAdhanA.toml)<br/>- Tags: Mahapurusha
- Events CommonFestivals
+DESCRIPTION:Observed on Amāvāsyā tithi of Māghaḥ (lunar) month (Apar
+ āhṇaḥ/vyaapti). The event occurred in 4665 (Kali era).  <br/><br/><br
+ />मन्मनोभीष्टवरदं सर्वाभीष
+ ्टफलप्रदम्।  <br/>पुरन्दरगुरु
+ ं वन्दे दासश्रेष्ठं दयानिध
+ िम्॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https:
+ //github.com/jyotisham/adyatithi/blob/master/mahApuruSha/sangIta-kRt/lunar
+ _month/tithi/11/30/purandaradAsa-ArAdhanA.toml)<br/>- Tags: MahapurushaEve
+ nts CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23351,11 +23336,11 @@ SUMMARY:विद्यारण्य-स्वामि-आराधन
 DTSTART;VALUE=DATE:20220612
 DTEND;VALUE=DATE:20220613
 DESCRIPTION:Observed on Śukla-Trayōdaśī tithi of Jyaiṣṭhaḥ (luna
- r) month (Sūryōdayaḥ/puurvaviddha). The event occurred in 4493 (Kali e
- ra).  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lunar
- _month/tithi/03/13/vidyAraNya~svAmI~ArAdhanA.toml)<br/>- Tags: Mahapurusha
- Events
+ r) month (Aparāhṇaḥ/vyaapti). The event occurred in 4493 (Kali era). 
+  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://gith
+ ub.com/jyotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lunar_mont
+ h/tithi/03/13/vidyAraNya~svAmI~ArAdhanA.toml)<br/>- Tags: MahapurushaEvent
+ s
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -32033,14 +32018,14 @@ SUMMARY:श्री-राघवेन्द्र-स्वामि-आ
 DTSTART;VALUE=DATE:20220813
 DTEND;VALUE=DATE:20220814
 DESCRIPTION:Observed on Kr̥ṣṇa-Dvitīyā tithi of Śrāvaṇaḥ (lun
- ar) month (Sūryōdayaḥ/puurvaviddha). The event occurred in 4773 (Kali 
- era).  <br/><br/><br/>पूज्याय राघवेन्द्र
- ाय सत्यधर्मरताय च।  <br/>भजतां 
- कल्पवृक्षाय नमतां कामधेनवे
- ॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.
- com/jyotisham/adyatithi/blob/master/mahApuruSha/mAdhva-misc/lunar_month/ti
- thi/05/17/zrI~rAghavEndra~svAmI~ArAdhanA.toml)<br/>- Tags: MahapurushaEven
- ts CommonFestivals
+ ar) month (Aparāhṇaḥ/vyaapti). The event occurred in 4773 (Kali era).
+   <br/><br/><br/>पूज्याय राघवेन्द्रा
+ य सत्यधर्मरताय च।  <br/>भजतां क
+ ल्पवृक्षाय नमतां कामधेनवे॥
+ <br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com
+ /jyotisham/adyatithi/blob/master/mahApuruSha/mAdhva-misc/lunar_month/tithi
+ /05/17/zrI~rAghavEndra~svAmI~ArAdhanA.toml)<br/>- Tags: MahapurushaEvents 
+ CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
