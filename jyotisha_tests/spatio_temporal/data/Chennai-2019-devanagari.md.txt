@@ -1391,7 +1391,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- तै-वॆळ्ळिक्किऴमै, तैत्तिरीय-उत्सर्गो रोहिण्याम्, पापनाशिनी-महाद्वादशी, प्रदोष-व्रतम्, हरिवासरः
+- तै-वॆळ्ळिक्किऴमै, तैत्तिरीय-उत्सर्गो रोहिण्याम्, पापनाशिनी-महाद्वादशी, हरिवासरः
 ##### हरिवासरः
 - →04:05
 
@@ -1427,23 +1427,6 @@ Dvadashi tithi, combined with Rohini nakshatra.
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/dvAdashI/description_only/pApanAzinI~mahAdvAdazI.toml)
 - Tags: RareDays Combinations
-
-
-##### प्रदोष-व्रतम्
-- 17:59→19:34
-
-
-
-Pradosha Vratam. Fast during the day and perform śivapūjā in Pradosha Kala.
-
-प्रदोषे  शिवपूजां  तु  ये  कुर्याच्छ्रद्धया  युताः।  
-न  भवेत्  तस्य  दारिद्र्यं  जन्मान्तरशतेष्वपि॥
-
-
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/pradOSa-vratam.toml)
-- Tags: MonthlyVratam PradoshaVratam
 
 
 ##### तैत्तिरीय-उत्सर्गो रोहिण्याम्
@@ -1514,7 +1497,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अरिवाट्टाय नायऩार् (१२) गुरुपूजै, कण्णप्प नायऩार् (९) गुरुपूजै, कपाली तॆप्पोत्सवम्
+- अरिवाट्टाय नायऩार् (१२) गुरुपूजै, कण्णप्प नायऩार् (९) गुरुपूजै, कपाली तॆप्पोत्सवम्, शनि-प्रदोष-व्रतम्
 ##### अरिवाट्टाय नायऩार् (१२) गुरुपूजै
 
 Observed on Ārdrā nakshatra of Makaraḥ (sidereal solar) month (Prātaḥ/paraviddha). 
@@ -1546,6 +1529,23 @@ Observed on Mr̥gaśīrṣam nakshatra of Makaraḥ (sidereal solar) month (Prā
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/temples/Tamil/relative_event/taippUcam/offset__-1/kapAlI_teppOtsavam~1.toml)
 - Tags: TamilnaduTempleFestivals
+
+
+##### शनि-प्रदोष-व्रतम्
+- 17:59→19:34
+
+
+
+Pradosha Vratam. Fast during the day and perform śivapūjā in Pradosha Kala.  Pradosha vratam is even more special, when if falls on a Monday/Saturday.
+
+प्रदोषे  शिवपूजां  तु  ये  कुर्याच्छ्रद्धया  युताः।  
+न  भवेत्  तस्य  दारिद्र्यं  जन्मान्तरशतेष्वपि॥
+
+
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/zani-pradOSa-vratam.toml)
+- Tags: MonthlyVratam PradoshaVratam
 
 
 
@@ -11938,7 +11938,29 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- निमिषाम्बा-जयन्ती, मीऩाक्षी तिरुक्कल्याणम्, वेङ्कटाचले पद्मावती-परिणयम् (अश्व-वाहनम्), श्री-वासवी-जयन्ती
+- काञ्ची १ जगद्गुरु श्री-आदि-शङ्कर भगवत्पाद आराधना #२४९५, निमिषाम्बा-जयन्ती, मीऩाक्षी तिरुक्कल्याणम्, वेङ्कटाचले पद्मावती-परिणयम् (अश्व-वाहनम्), श्री-वासवी-जयन्ती
+##### काञ्ची १ जगद्गुरु श्री-आदि-शङ्कर भगवत्पाद आराधना #२४९५
+
+Observed on Śukla-Ēkādaśī tithi of Vaiśākhaḥ (lunar) month (Aparāhṇaḥ/vyaapti). The event occurred in 2626 (Kali era).  
+
+
+Born as an aṁśa of Lord Maheśa (Śiva), the sweet or lucid instructor of the principles of non-dualism, the Sun in dispelling the dense darkness (the great delusion), the preceptor of the six cults, merged in Supreme in the thirty-second year of his life span, in the Kali era 2625 on the eleventh day of the bright fortnight in the month of Vṛṣabha of the year Raktākṣi. This venerable Śri Śaṅkarābhagavatpāda established the Advaita school everywhere after winning over the scholars (of rival schools) through commentarial works on Brahmasūtra etc. His native is Kerala; belonged to Nampūthiri group; father was Śivaguru, mother Āryāmbā, preceptor - Śri Govindabhagavatpāda, life span - 32 years; realisation - on the eleventh day of the bright fortnight of the month Vṛṣabha in the year Raktākṣi of Kali era - 2625 in Kāñci itself.
+
+महेशांशाज्जातो मधुरम् उपदिष्टाद्वयनयो  
+महामोहध्वान्तप्रशमनरविः षण्मतगुरुः।  
+फले (३२) स्वस्मिन् स्वायुष्यपि शरचराब्देऽपि (२६२५) च कलेः  
+विलिल्ये रक्ताक्षिण्यधिवृषसितैकादशि परे॥४॥  
+—पुण्यश्लोकमञ्जरी
+
+
+
+###### Details
+- References
+  - www.kamakoti.org
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/02/11/kAJcI_1_jagadguru_zrI~Adi-zaGkara_bhagavatpAda_ArAdhanA.toml)
+- Tags: KanchiAradhanaDays CommonFestivals
+
+
 ##### मीऩाक्षी तिरुक्कल्याणम्
 
 Observed on Uttaraphalgunī nakshatra of Mēṣaḥ (sidereal solar) month (Madhyāhnaḥ/puurvaviddha). 
@@ -14788,7 +14810,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अलर्मेल्मङ्गापुरे प्लवोत्सव-प्रारम्भः, काञ्ची १ जगद्गुरु श्री-आदि-शङ्कर भगवत्पाद आराधना #२४९५, सर्व-पाण्डव-निर्जला-एकादशी, हरिवासरः
+- अलर्मेल्मङ्गापुरे प्लवोत्सव-प्रारम्भः, सर्व-पाण्डव-निर्जला-एकादशी, हरिवासरः
 ##### अलर्मेल्मङ्गापुरे प्लवोत्सव-प्रारम्भः
 
 
@@ -14824,28 +14846,6 @@ The first quarter of dvādaśī tithi is not suitable for breaking fast (pāra�
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml)
 - Tags: MonthlyVratam EkadashiVratam
-
-
-##### काञ्ची १ जगद्गुरु श्री-आदि-शङ्कर भगवत्पाद आराधना #२४९५
-
-Observed on Śukla-Ēkādaśī tithi of Vr̥ṣabhaḥ (sidereal solar) month (Aparāhṇaḥ/vyaapti). The event occurred in 2626 (Kali era).  
-
-
-Born as an aṁśa of Lord Maheśa (Śiva), the sweet or lucid instructor of the principles of non-dualism, the Sun in dispelling the dense darkness (the great delusion), the preceptor of the six cults, merged in Supreme in the thirty-second year of his life span, in the Kali era 2625 on the eleventh day of the bright fortnight in the month of Vṛṣabha of the year Raktākṣi. This venerable Śri Śaṅkarābhagavatpāda established the Advaita school everywhere after winning over the scholars (of rival schools) through commentarial works on Brahmasūtra etc. His native is Kerala; belonged to Nampūthiri group; father was Śivaguru, mother Āryāmbā, preceptor - Śri Govindabhagavatpāda, life span - 32 years; realisation - on the eleventh day of the bright fortnight of the month Vṛṣabha in the year Raktākṣi of Kali era - 2625 in Kāñci itself.
-
-महेशांशाज्जातो मधुरम् उपदिष्टाद्वयनयो  
-महामोहध्वान्तप्रशमनरविः षण्मतगुरुः।  
-फले (३२) स्वस्मिन् स्वायुष्यपि शरचराब्देऽपि (२६२५) च कलेः  
-विलिल्ये रक्ताक्षिण्यधिवृषसितैकादशि परे॥४॥  
-—पुण्यश्लोकमञ्जरी
-
-
-
-###### Details
-- References
-  - www.kamakoti.org
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/sidereal_solar_month/tithi/02/11/kAJcI_1_jagadguru_zrI~Adi-zaGkara_bhagavatpAda_ArAdhanA.toml)
-- Tags: KanchiAradhanaDays CommonFestivals
 
 
 ##### सर्व-पाण्डव-निर्जला-एकादशी
