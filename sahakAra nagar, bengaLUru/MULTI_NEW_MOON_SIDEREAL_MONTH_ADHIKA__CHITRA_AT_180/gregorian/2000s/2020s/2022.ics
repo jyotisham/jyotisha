@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220129190604
+SEQUENCE:20220129191817
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -3805,24 +3805,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:शनि-प्रदोष-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220129T181537
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220129T194954
-DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
- n Pradosha Kala.  Pradosha vratam is even more special\, when if falls on 
- a Monday/Saturday.<br/><br/>प्रदोषे  शिवपूजा
- ं  तु  ये  कुर्याच्छ्रद्धया  य
- ुताः।  <br/>न  भवेत्  तस्य  दारिद
- ्र्यं  जन्मान्तरशतेष्वपि॥<br
- /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
- otisham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only
- /zani-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:पौषः-10-28  \,  धनुः-पूर्वाषाढ
  ा🌛🌌  \,  मकरः-श्रवणः-10-17🌞🌌  \,  तप
  ः-11-11🌞🪐  \,  भानुः
@@ -3945,6 +3927,23 @@ DESCRIPTION:Observed on Kr̥ṣṇa-Caturdaśī tithi of every (lunar) mon
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:प्रदोष-व्रतम्
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220130T181604
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220130T195016
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
+  तु  ये  कुर्याच्छ्रद्धया  यु
+ ताः।  <br/>न  भवेत्  तस्य  दारिद्
+ र्यं  जन्मान्तरशतेष्वपि॥<br/><
+ br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/pr
+ adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
