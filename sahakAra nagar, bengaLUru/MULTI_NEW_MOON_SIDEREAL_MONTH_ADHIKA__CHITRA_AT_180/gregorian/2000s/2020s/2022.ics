@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220125073226
+SEQUENCE:20220129190604
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -18727,6 +18727,28 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:काञ्ची १ जगद्गुरु श्री-आ
+ दि-शङ्कर भगवत्पाद आराधना #२४
+ ९८
+DTSTART;VALUE=DATE:20220512
+DTEND;VALUE=DATE:20220513
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/02/11/
+ kAJcI_1_jagadguru_zrI~Adi-zaGkara_bhagavatpAda_ArAdhanA.toml)<br/>- Tags: 
+ KanchiAradhanaDays CommonFestivals<br/><br/><br/><br/>## Details<br/>- Ref
+ erences<br/>  - www.kamakoti.org<br/>- [Edit config file](https://github.c
+ om/jyotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lunar_month/ti
+ thi/02/11/kAJcI_1_jagadguru_zrI~Adi-zaGkara_bhagavatpAda_ArAdhanA.toml)<br
+ />- Tags: KanchiAradhanaDays CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:मीऩाक्षी तिरुक्कल्याणम
  ्
 DTSTART;VALUE=DATE:20220512
@@ -22834,28 +22856,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  m/adyatithi/blob/master/general/lunar_month/tithi/03/10/dazaharA_or_gaGgAv
  ataraNam_or_dazapApaharA~dazamI.toml)<br/>- Tags: OtherJayantis CommonFest
  ivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:काञ्ची १ जगद्गुरु श्री-आ
- दि-शङ्कर भगवत्पाद आराधना #२४
- ९८
-DTSTART;VALUE=DATE:20220610
-DTEND;VALUE=DATE:20220611
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/sidereal_solar_month/tit
- hi/02/11/kAJcI_1_jagadguru_zrI~Adi-zaGkara_bhagavatpAda_ArAdhanA.toml)<br/
- >- Tags: KanchiAradhanaDays CommonFestivals<br/><br/><br/><br/>## Details<
- br/>- References<br/>  - www.kamakoti.org<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/sider
- eal_solar_month/tithi/02/11/kAJcI_1_jagadguru_zrI~Adi-zaGkara_bhagavatpAda
- _ArAdhanA.toml)<br/>- Tags: KanchiAradhanaDays CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
