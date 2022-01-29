@@ -370,7 +370,11 @@ class TithiFestivalAssigner(FestivalAssigner):
         # Let's worry about assigning this tomorrow!
         continue
       if tithi_sunset in [12, 13] and tithi_sunset_tmrw in [14, 0]:
-        fday = d
+        jd_pradosha_end_today = day_panchaanga.day_length_based_periods.fifteen_fold_division.pradosha.jd_end
+        if day_panchaanga.sunrise_day_angas.get_anga_at_jd(jd=jd_pradosha_end_today, anga_type=AngaType.TITHI) % 15 == 12:
+          fday = d + 1
+        else:
+          fday = d
       elif tithi_sunset in [12, 13] and tithi_sunset_tmrw == 13:
         fday = d + 1
       if fday is not None:
