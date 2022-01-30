@@ -36,6 +36,7 @@ class TithiFestivalAssigner(FestivalAssigner):
     self.assign_vaarunii_trayodashi()
     self.assign_yama_chaturthi()
     self.assign_vajapeyaphala_snana_yoga()
+    self.assign_mahaa_paurnamii()
   
   def assign_chaturthi_vratam(self):
     if "vikaTa-mahAgaNapati_saGkaTahara-caturthI-vratam" not in self.rules_collection.name_to_rule:
@@ -461,6 +462,26 @@ class TithiFestivalAssigner(FestivalAssigner):
           festival_name = 'vyatIpAta-yOgaH (alabhyam)'
           self.panchaanga.add_festival(fest_id=festival_name, date=day_panchaanga.date)
 
+
+  def assign_mahaa_paurnamii(self):
+    if 'mahAcaitrI-yOgaH' not in self.rules_collection.name_to_rule:
+      return
+    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
+      day_panchaanga = self.daily_panchaangas[d]
+
+      tithi_sunset = NakshatraDivision(day_panchaanga.jd_sunset, ayanaamsha_id=self.ayanaamsha_id).get_anga(
+        zodiac.AngaType.TITHI).index
+
+      if day_panchaanga.date.get_weekday() == 4 and (day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == 15 or tithi_sunset == 15):
+        # PURNIMA on a Thursday
+        lunar_month = day_panchaanga.lunar_month_sunrise.index
+        lunar_month_nakshatra = [None, 14, 16, 18, 20, 22, 25, 1, 3, 5, 8, 10, 11]
+        fest_yoga_names = [None,  "caitrI", "vaizAkhI", "jyaiSThI", "ASADhI", "zrAvaNI", "bhAdrapadI", "AzvayujI", "kArtikI", "mArgazIrSI", "pauSI", "mAghI", "phAlgunI"]
+        if (day_panchaanga.sunrise_day_angas.nakshatra_at_sunrise.index == lunar_month_nakshatra[lunar_month] and day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == 15) or \
+            (tithi_sunset == 15 and NakshatraDivision(day_panchaanga.jd_sunset, ayanaamsha_id=self.ayanaamsha_id).get_anga(zodiac.AngaType.NAKSHATRA).index == lunar_month_nakshatra[lunar_month]):
+          festival_name = 'mahA-%s-yOgaH' % fest_yoga_names[lunar_month]
+          self.panchaanga.add_festival(fest_id=festival_name, date=day_panchaanga.date)
+
   def assign_yama_chaturthi(self):
     if 'yamacaturthI-vratam' not in self.rules_collection.name_to_rule:
       return
@@ -478,8 +499,8 @@ class TithiFestivalAssigner(FestivalAssigner):
           self.panchaanga.add_festival(fest_id=festival_name, date=day_panchaanga.date)
 
   def assign_vajapeyaphala_snana_yoga(self):
-    # if 'vAjapEyaphala-snAna-yOgaH' not in self.rules_collection.name_to_rule:
-    #   return
+    if 'vAjapEyaphala-snAna-yOgaH' not in self.rules_collection.name_to_rule:
+      return
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       day_panchaanga = self.daily_panchaangas[d]
       # पुनर्वसुबुधोपेता चैत्रे मासि सिताष्टमी।

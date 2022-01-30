@@ -24809,6 +24809,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:mahāśrāvaṇī-yōgaḥ
+DTSTART;VALUE=DATE:20190815
+DTEND;VALUE=DATE:20190816
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/special-tithis/description_only/mahA-z
+ rAvaNI-yOgaH.toml)<br/>- Tags: RareDays Combinations<br/><br/><br/><br/>##
+  Details<br/>- References<br/>  - Smriti Muktaphalam Shraddha Kanda Uttara
+ bhaga<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob
+ /master/time_focus/special-tithis/description_only/mahA-zrAvaNI-yOgaH.toml
+ )<br/>- Tags: RareDays Combinations
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:nārikēla-pūrṇimā
 DTSTART;VALUE=DATE:20190815
 DTEND;VALUE=DATE:20190816
@@ -39535,6 +39554,25 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Mārgaśīrṣaḥ (lunar)
  asri Dec 2016<br/>- [Edit config file](https://github.com/jyotisham/adyati
  thi/blob/master/general/lunar_month/tithi/09/15/mArgazIrSa-pUrNimA.toml)<b
  r/>- Tags: PurnimaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mahāmārgaśīrṣī-yōgaḥ
+DTSTART;VALUE=DATE:20191212
+DTEND;VALUE=DATE:20191213
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/special-tithis/description_only/mahA-m
+ ArgazIrSI-yOgaH.toml)<br/>- Tags: RareDays Combinations<br/><br/><br/><br/
+ >## Details<br/>- References<br/>  - Smriti Muktaphalam Shraddha Kanda Utt
+ arabhaga<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/b
+ lob/master/time_focus/special-tithis/description_only/mahA-mArgazIrSI-yOga
+ H.toml)<br/>- Tags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
