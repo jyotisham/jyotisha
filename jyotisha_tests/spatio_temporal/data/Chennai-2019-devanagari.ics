@@ -1660,22 +1660,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:pradōṣa-vratam
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190118T175913
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190118T193416
-DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
- n Pradosha Kala.<br/><br/>pradōṣē  śivapūjāṁ  tu  yē  kuryācchr
- addhayā  yutāḥ।  <br/>na  bhavēt  tasya  dāridryaṁ  janmāntara
- śatēṣvapi॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoS
- ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
- aVratam
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:taittirīya-utsargō rōhiṇyām
 DTSTART;VALUE=DATE:20190118
 DTEND;VALUE=DATE:20190119
@@ -1811,6 +1795,23 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:śani-pradōṣa-vratam
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190119T175948
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190119T193442
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.  Pradosha vratam is even more special\, when if falls on 
+ a Monday/Saturday.<br/><br/>pradōṣē  śivapūjāṁ  tu  yē  kuryācc
+ hraddhayā  yutāḥ।  <br/>na  bhavēt  tasya  dāridryaṁ  janmāntar
+ aśatēṣvapi॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](h
+ ttps://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/prado
+ Sha/description_only/zani-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam P
+ radoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -14394,6 +14395,27 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:kāñcī 1 jagadguru śrī-ādi-śaṅkara bhagavatpāda ārādhan
+ ā #2495
+DTSTART;VALUE=DATE:20190514
+DTEND;VALUE=DATE:20190515
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/02/11/
+ kAJcI_1_jagadguru_zrI~Adi-zaGkara_bhagavatpAda_ArAdhanA.toml)<br/>- Tags: 
+ KanchiAradhanaDays CommonFestivals<br/><br/><br/><br/>## Details<br/>- Ref
+ erences<br/>  - www.kamakoti.org<br/>- [Edit config file](https://github.c
+ om/jyotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lunar_month/ti
+ thi/02/11/kAJcI_1_jagadguru_zrI~Adi-zaGkara_bhagavatpAda_ArAdhanA.toml)<br
+ />- Tags: KanchiAradhanaDays CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Mīnākṣī Tirukkalyāṇam
 DTSTART;VALUE=DATE:20190514
 DTEND;VALUE=DATE:20190515
@@ -17944,27 +17966,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
  /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
  )<br/>- Tags: MonthlyVratam EkadashiVratam
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:kāñcī 1 jagadguru śrī-ādi-śaṅkara bhagavatpāda ārādhan
- ā #2495
-DTSTART;VALUE=DATE:20190613
-DTEND;VALUE=DATE:20190614
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/sidereal_solar_month/tit
- hi/02/11/kAJcI_1_jagadguru_zrI~Adi-zaGkara_bhagavatpAda_ArAdhanA.toml)<br/
- >- Tags: KanchiAradhanaDays CommonFestivals<br/><br/><br/><br/>## Details<
- br/>- References<br/>  - www.kamakoti.org<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/sider
- eal_solar_month/tithi/02/11/kAJcI_1_jagadguru_zrI~Adi-zaGkara_bhagavatpAda
- _ArAdhanA.toml)<br/>- Tags: KanchiAradhanaDays CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24799,6 +24800,25 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/05/15/
  kAJcI_20_jagadguru_zrI~mUkazaGkarEndra_sarasvatI_ArAdhanA.toml)<br/>- Tags
  : KanchiAradhanaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mahāśrāvaṇī-yōgaḥ
+DTSTART;VALUE=DATE:20190815
+DTEND;VALUE=DATE:20190816
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/special-tithis/description_only/mahA-z
+ rAvaNI-yOgaH.toml)<br/>- Tags: RareDays Combinations<br/><br/><br/><br/>##
+  Details<br/>- References<br/>  - Smriti Muktaphalam Shraddha Kanda Uttara
+ bhaga<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob
+ /master/time_focus/special-tithis/description_only/mahA-zrAvaNI-yOgaH.toml
+ )<br/>- Tags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -39534,6 +39554,25 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Mārgaśīrṣaḥ (lunar)
  asri Dec 2016<br/>- [Edit config file](https://github.com/jyotisham/adyati
  thi/blob/master/general/lunar_month/tithi/09/15/mArgazIrSa-pUrNimA.toml)<b
  r/>- Tags: PurnimaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mahāmārgaśīrṣī-yōgaḥ
+DTSTART;VALUE=DATE:20191212
+DTEND;VALUE=DATE:20191213
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/special-tithis/description_only/mahA-m
+ ArgazIrSI-yOgaH.toml)<br/>- Tags: RareDays Combinations<br/><br/><br/><br/
+ >## Details<br/>- References<br/>  - Smriti Muktaphalam Shraddha Kanda Utt
+ arabhaga<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/b
+ lob/master/time_focus/special-tithis/description_only/mahA-mArgazIrSI-yOga
+ H.toml)<br/>- Tags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE

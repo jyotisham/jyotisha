@@ -111,7 +111,7 @@ class FifteenFoldDivision(common.JsonObject):
   "दे॒वस्य॑ सवि॒तुᳶ प्रा॒तᳶ प्र॑स॒वᳶ प्रा॒णः" इत्यादेर् ब्राह्मणस्य भाष्ये सायणो विभागम् इमम् इच्छति।(See comments under TbSayanaMuhuurta.)
   
   """
-  def __init__(self, jd_previous_sunset, jd_sunrise, jd_sunset, jd_next_sunrise):
+  def __init__(self, jd_previous_sunset, jd_sunrise, jd_sunset, jd_next_sunrise, weekday):
     super(FifteenFoldDivision, self).__init__()
     self.preceding_arunodaya = get_interval(start_jd=jd_previous_sunset, end_jd=jd_sunrise, part_index=[13, 14], num_parts=15)
     # Technically, the following is preceding braahma
@@ -192,6 +192,17 @@ class FifteenFoldDivision(common.JsonObject):
     self.succeeding_braahma = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=13, num_parts=15)
     self.naabhasvata = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=14, num_parts=15)
 
+    DURMUHURTA1 = (13, 8, 3, 7, 5, 3, 1)
+    DURMUHURTA2 = (None, 11, 21, None, 11, 8, 2)
+    self.durmuhurta1 = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset,
+                             part_index=DURMUHURTA1[weekday], num_parts=15)
+    if DURMUHURTA2[weekday] is None:
+      self.durmuhurta2 = None
+    elif DURMUHURTA2[weekday] > 15:
+      self.durmuhurta2 = get_interval(start_jd=jd_sunset, end_jd=jd_sunrise, part_index=DURMUHURTA2[weekday] - 15, num_parts=15)
+    else:
+      self.durmuhurta2 = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=DURMUHURTA2[weekday], num_parts=15)
+
     self.tb_muhuurtas = None
     self.compute_tb_muhuurtas(jd_sunrise=jd_sunrise, jd_sunset=jd_sunset)
 
@@ -243,20 +254,10 @@ class EightFoldDivision(common.JsonObject):
     YAMAGHANTA_SLICES_NIGHT = [0, 6, 5, 4, 3, 2, 1]
     GULIKAKALA_SLICES = [6, 5, 4, 3, 2, 1, 0]
     GULIKAKALA_SLICES_NIGHT = [2, 1, 0, 6, 5, 4, 3]
-    DURMUHURTA1 = (13, 8, 3, 7, 5, 3, 1)
-    DURMUHURTA2 = (None, 11, 21, None, 11, 8, 2)
     self.raahu = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset,
                               part_index=RAHUKALA_SLICES[weekday], num_parts=8)
     self.yama = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset,
                              part_index=YAMAGHANTA_SLICES[weekday], num_parts=8)
-    self.durmuhurta1 = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset,
-                             part_index=DURMUHURTA1[weekday], num_parts=15)
-    if DURMUHURTA2[weekday] is None:
-      self.durmuhurta2 = None
-    elif DURMUHURTA2[weekday] > 15:
-      self.durmuhurta2 = get_interval(start_jd=jd_sunset, end_jd=jd_sunrise, part_index=DURMUHURTA2[weekday] - 15, num_parts=15)
-    else:
-      self.durmuhurta2 = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=DURMUHURTA2[weekday], num_parts=15)
     self.gulika = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset,
                                part_index=GULIKAKALA_SLICES[weekday], num_parts=8)
     self.raatri_gulika = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise,
@@ -303,7 +304,7 @@ class DayLengthBasedPeriods(common.JsonObject):
     self.aparaahna = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=1, num_parts=2)
     self.raatrimaana = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=0, num_parts=1)
     self.eight_fold_division = EightFoldDivision(jd_sunrise=jd_sunrise, jd_sunset=jd_sunset, jd_next_sunrise=jd_next_sunrise, weekday=weekday)
-    self.fifteen_fold_division = FifteenFoldDivision(jd_previous_sunset=jd_previous_sunset, jd_sunrise=jd_sunrise, jd_sunset=jd_sunset, jd_next_sunrise=jd_next_sunrise)
+    self.fifteen_fold_division = FifteenFoldDivision(jd_previous_sunset=jd_previous_sunset, jd_sunrise=jd_sunrise, jd_sunset=jd_sunset, jd_next_sunrise=jd_next_sunrise, weekday=weekday)
 
     for attr_name, obj in self.__dict__.items():
       if isinstance(obj, Interval):

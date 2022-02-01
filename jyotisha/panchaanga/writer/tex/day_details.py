@@ -58,7 +58,20 @@ def get_raahu_yama_gulika_strings(daily_panchaanga, time_format):
       format=time_format),
     time.Hour(24 * (daily_panchaanga.day_length_based_periods.eight_fold_division.raatri_gulika.jd_end - jd)).to_string(
       format=time_format))
-  return gulika, rahu, yama, raatri_gulika, raatri_yama
+  durmuhurta1 = '%s--%s' % (
+    time.Hour(24 * (daily_panchaanga.day_length_based_periods.fifteen_fold_division.durmuhurta1.jd_start - jd)).to_string(
+      format=time_format),
+    time.Hour(24 * (daily_panchaanga.day_length_based_periods.fifteen_fold_division.durmuhurta1.jd_end - jd)).to_string(
+      format=time_format))
+  if daily_panchaanga.day_length_based_periods.fifteen_fold_division.durmuhurta2 is None:
+    durmuhurta2 = None
+  else:
+    durmuhurta2 = '%s--%s' % (
+      time.Hour(24 * (daily_panchaanga.day_length_based_periods.fifteen_fold_division.durmuhurta2.jd_start - jd)).to_string(
+        format=time_format),
+      time.Hour(24 * (daily_panchaanga.day_length_based_periods.fifteen_fold_division.durmuhurta2.jd_end - jd)).to_string(
+        format=time_format))
+  return gulika, rahu, yama, raatri_gulika, raatri_yama, durmuhurta1, durmuhurta2
 
 
 def get_karaNa_data_str(daily_panchaanga, scripts, time_format):

@@ -407,10 +407,8 @@ class SolarFestivalAssigner(FestivalAssigner):
       sunrise_zodiac = NakshatraDivision(daily_panchaanga.jd_sunrise, ayanaamsha_id=self.computation_system.ayanaamsha_id)
       sunset_zodiac = NakshatraDivision(daily_panchaanga.jd_sunset, ayanaamsha_id=self.computation_system.ayanaamsha_id)
       if daily_panchaanga.lunar_month_sunrise.index in [10, 11] and (daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == 30 or tithi.get_tithi(daily_panchaanga.jd_sunrise).index == 30):
-        if sunrise_zodiac.get_anga(zodiac.AngaType.YOGA).index == 17 or \
-            sunset_zodiac.get_anga(zodiac.AngaType.YOGA).index == 17 and \
-            sunrise_zodiac.get_anga(zodiac.AngaType.NAKSHATRA).index == 22 or \
-            sunset_zodiac.get_anga(zodiac.AngaType.NAKSHATRA).index == 22:
+        if (sunrise_zodiac.get_anga(zodiac.AngaType.YOGA).index == 17 or sunset_zodiac.get_anga(zodiac.AngaType.YOGA).index == 17) and \
+            (sunrise_zodiac.get_anga(zodiac.AngaType.NAKSHATRA).index == 22 or  sunset_zodiac.get_anga(zodiac.AngaType.NAKSHATRA).index == 22):
           if daily_panchaanga.date.get_weekday() == 1:
             festival_name = 'mahOdaya-puNyakAlaH'
             self.panchaanga.add_festival(fest_id=festival_name, date=self.daily_panchaangas[d].date)
