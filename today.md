@@ -10,8 +10,10 @@ unicode_script = "devanagari"
 
 
 <script source="javascript">
-{
-  const today = new Date();
+
+function setIst() {
+  let today = new Date();
+  console.log(today);
   let year = today.getFullYear();
   let decade = Math.floor(year / 10);
   let month = today.getMonth() + 1;
@@ -22,4 +24,5 @@ unicode_script = "devanagari"
   document.getElementById("blr_kaundinyAyana").href = `/jyotisha/output/sahakAra-nagar-bengaLUru/SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_AT_180/gregorian/2000s/${dateSuffix}/`;
   document.getElementById("blr_common").href = `/jyotisha/output/sahakAra-nagar-bengaLUru/MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_AT_180/gregorian/2000s/${dateSuffix}/`;
 }
+setIst();
 </script>
