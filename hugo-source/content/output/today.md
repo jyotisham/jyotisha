@@ -5,7 +5,7 @@ unicode_script = "devanagari"
 
 ## बॆङ्गळूरु-नगरस्य
 - <a id="blr_kaundinyAyana">कौण्डिन्यायन-मानम्</a>
-- <a id="blr_common">साधारण-भ्रान्त-मानम्</a>
+- <a id="blr_common">साधारण-सौर-नक्षत्र-मूल-मानम्</a>
 
 
 
