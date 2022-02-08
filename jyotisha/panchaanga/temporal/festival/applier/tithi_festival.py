@@ -181,6 +181,16 @@ class TithiFestivalAssigner(FestivalAssigner):
           if day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == 7:
             self.panchaanga.add_festival(fest_id='mahAjayA~saptamI', date=day_panchaanga.date)
 
+  def assign_vishesha_ashtami(self):
+    if 'jayantI~aSTamI' in self.rules_collection.name_to_rule:
+      for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
+        day_panchaanga = self.daily_panchaangas[d]
+        # SPECIAL ASHTAMIs
+        if day_panchaanga.lunar_month_sunrise.index == 10 and NakshatraDivision(day_panchaanga.jd_sunrise, ayanaamsha_id=self.ayanaamsha_id).get_anga(
+            zodiac.AngaType.NAKSHATRA).index == 2 and \
+            day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == 8:
+          self.panchaanga.add_festival(fest_id='jayantI~aSTamI', date=day_panchaanga.date)
+
   def assign_ekaadashii_vratam(self):
     if "ajA-EkAdazI" not in self.rules_collection.name_to_rule:
       return 
