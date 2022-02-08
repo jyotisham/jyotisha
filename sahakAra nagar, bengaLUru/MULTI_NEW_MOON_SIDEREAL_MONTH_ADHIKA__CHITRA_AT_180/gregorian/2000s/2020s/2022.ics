@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220202133950
+SEQUENCE:20220208202146
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -5140,24 +5140,6 @@ DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Māghaḥ (lunar) mont
   - Vaidikasri Feb 2016<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/mahApuruSha/xatra/lunar_month/tithi/11/08/bhISmAS
  TamI.toml)<br/>- Tags: SpecialPuja CommonFestivals CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:केरल-रामसिंह-हत्या #७५
-DTSTART;VALUE=DATE:20220208
-DTEND;VALUE=DATE:20220209
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/02/08/keral
- a-rAmasiMha-hatyA.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [
- Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahAp
- uruSha/xatra-later/gregorian/day/02/08/kerala-rAmasiMha-hatyA.toml)<br/>- 
- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10821,6 +10803,24 @@ DESCRIPTION:Observed on Kr̥ṣṇa-Prathamā tithi of Phālgunaḥ (lunar
  - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/ge
  neral/lunar_month/tithi/12/16/Amra-kusuma-prAshanam.toml)<br/>- Tags: Spec
  ialPuja CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:देहली-पादरक्ष-विक्रेत्त
+ ्रुपद्रवः #२९३
+DTSTART;VALUE=DATE:20220319
+DTEND;VALUE=DATE:20220320
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/03/08/delhi-sh
+ oe-seller-riot.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuru
+ Sha/xatra-later/julian/day/03/08/delhi-shoe-seller-riot.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30164,6 +30164,24 @@ DESCRIPTION:Observed on Śukla-Pañcamī tithi of Śrāvaṇaḥ (lunar) m
  ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/
  master/devatA/vaiShNava/lunar_month/tithi/05/05/garuDa-paJcamI.toml)<br/>-
   Tags: PuranaEvents
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:केरल-रामसिंह-हत्या #७५
+DTSTART;VALUE=DATE:20220802
+DTEND;VALUE=DATE:20220803
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/08/02/keral
+ a-rAmasiMha-hatyA.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [
+ Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahAp
+ uruSha/xatra-later/gregorian/day/08/02/kerala-rAmasiMha-hatyA.toml)<br/>- 
+ Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
