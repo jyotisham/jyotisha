@@ -4445,6 +4445,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:budhāṣṭamī
+DTSTART;VALUE=DATE:20190213
+DTEND;VALUE=DATE:20190214
+DESCRIPTION:aṣṭamī tithi on a Wednesday is as sacred as a solar eclip
+ se.<br/><br/>amāvasyā tu sōmēna saptamī bhānunā saha।  <br/>catur
+ thī bhūmiputrēṇa sōmaputrēṇa cāṣṭamī।  <br/>catasrastitha
+ yastvētāḥ sūryagrahaṇasannibhāḥ॥<br/><br/><br/><br/>## Details
+ <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
+ er/time_focus/tithi-vara-combinations/description_only/budhASTamI.toml)<br
+ />- Tags: RareDays Combinations
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:kr̥ttikā-vratam
 DTSTART;VALUE=DATE:20190213
 DTEND;VALUE=DATE:20190214
@@ -4497,19 +4516,6 @@ DESCRIPTION:Kumbha-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala. Perform d
  sham/adyatithi/blob/master/time_focus/sankrAnti/description_only/kumbha-ra
  vi-saGkramaNa-viSNupadI-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFe
  stivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:mahābhadrā budhāṣṭamī
-DTSTART;VALUE=DATE:20190213
-DTEND;VALUE=DATE:20190214
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
