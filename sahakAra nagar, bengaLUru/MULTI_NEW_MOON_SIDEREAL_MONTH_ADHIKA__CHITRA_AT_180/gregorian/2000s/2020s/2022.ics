@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220208202717
+SEQUENCE:20220208211918
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -5262,6 +5262,27 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:बुधाष्टमी
+DTSTART;VALUE=DATE:20220209
+DTEND;VALUE=DATE:20220210
+DESCRIPTION:aṣṭamī tithi on a Wednesday is as sacred as a solar eclip
+ se.<br/><br/>अमावस्या तु सोमेन सप्त
+ मी भानुना सह।  <br/>चतुर्थी भूम
+ िपुत्रेण सोमपुत्रेण चाष्टम
+ ी।  <br/>चतस्रस्तिथयस्त्वेताः 
+ सूर्यग्रहणसन्निभाः॥<br/><br/><br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/blob/master/time_focus/tithi-vara-combinations/description_only/budhAS
+ TamI.toml)<br/>- Tags: RareDays Combinations
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:कृत्तिका-व्रतम्
 DTSTART;VALUE=DATE:20220209
 DTEND;VALUE=DATE:20220210
@@ -5272,19 +5293,6 @@ DESCRIPTION:Observed on every occurrence of Kr̥ttikā nakshatra (Sūryās
   [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/dev
  atA/kaumAra/sidereal_solar_month/nakshatra/00/03/kRttikA-vratam.toml)<br/>
  - Tags: SpecialVratam
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:महाभद्रा बुधाष्टमी
-DTSTART;VALUE=DATE:20220209
-DTEND;VALUE=DATE:20220210
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
