@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220212221535
+SEQUENCE:20220213080346
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -2369,6 +2369,27 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:तुङ्गभद्रा शृङ्गगिरि शा
+ रदामठ-प्रतिष्ठापन-जयन्ती #२
+ ५०५
+DTSTART;VALUE=DATE:20220117
+DTEND;VALUE=DATE:20220118
+DESCRIPTION:Observed on Paurṇamāsī tithi of Pauṣaḥ (lunar) month (
+ Sūryōdayaḥ/puurvaviddha). The event occurred in 2618 (Kali era).  <br/
+ ><br/><br/>Adi Shankara founded Sharada Mutt\, Shringagiri in Pingala year
+  Sureshwaracharya as first<br/><br/>## Details<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/
+ lunar_month/tithi/10/15/tuGgabhadrA~zRGagirI_zAradAmaTha-pratiSThApana~jay
+ antI.toml)<br/>- Tags: AdiShankaraHistory
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:वेङ्कटाचले पूर्णिमा-गरु
  ड-सेवा
 DTSTART;VALUE=DATE:20220117
@@ -2428,26 +2449,6 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Pauṣaḥ (lunar) month (
  i/<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/ma
  ster/devatA/shakti/lunar_month/tithi/10/15/zAkambharI~jayantI.toml)<br/>- 
  Tags: OtherJayantis
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:शृङ्गेरी शारदामठ-प्रतिष
- ्ठापन-जयन्ती #२५०५
-DTSTART;VALUE=DATE:20220117
-DTEND;VALUE=DATE:20220118
-DESCRIPTION:Observed on Paurṇamāsī tithi of Pauṣaḥ (lunar) month (
- Sūryōdayaḥ/puurvaviddha). The event occurred in 2618 (Kali era).  <br/
- ><br/><br/>Adi Shankara founded Sharada Mutt\, Shringeri in Pingala year S
- ureshwaracharya as first<br/><br/>## Details<br/>- [Edit config file](http
- s://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lu
- nar_month/tithi/10/15/zRGgErI_zAradAmaTha-pratiSThApana~jayantI.toml)<br/>
- - Tags: AdiShankaraHistory
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4758,9 +4759,9 @@ DESCRIPTION:Observed on Śukla-Pañcamī tithi of Māghaḥ (lunar) month
  ्चमीतिथौ।  <br/>रतिकामौ तु सम्
  पूज्य कर्तव्यः सुमहोत्सवः॥
  <br/><br/><br/><br/>## Details<br/>- References<br/>  - Smriti Kaustubham 
- 479<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/m
- aster/devatA/vaiShNava/lunar_month/tithi/11/05/vasanta-zrI-paJcamI.toml)<b
- r/>- Tags: SpecialPuja
+ 479\, Purushartha Chintamani<br/>- [Edit config file](https://github.com/j
+ yotisham/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/11/05/va
+ santa-zrI-paJcamI.toml)<br/>- Tags: SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13856,9 +13857,10 @@ DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Caitraḥ (lunar) mont
  ुमाससमुद्भव।  <br/>पिबामि शोकस
  न्तप्तो मामशोकं सदा कुरु॥  <br
  />-- गरुड-पुराणात्<br/><br/><br/><br/>## Details<b
- r/>- References<br/>  - Vaidikasri Mar 2018<br/>- [Edit config file](https
- ://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/01
- /08/azOkASTamI.toml)<br/>- Tags: LessCommonFestivals
+ r/>- References<br/>  - Purushartha Chintamani (Anandashrama) p. 138<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gen
+ eral/lunar_month/tithi/01/08/azOkASTamI.toml)<br/>- Tags: LessCommonFestiv
+ als
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18300,15 +18302,12 @@ BEGIN:VEVENT
 SUMMARY:शर्करा-सप्तमी
 DTSTART;VALUE=DATE:20220508
 DTEND;VALUE=DATE:20220509
-DESCRIPTION:Observed on Śukla-Saptamī tithi of Vaiśākhaḥ (lunar) mon
- th (Sūryōdayaḥ/puurvaviddha). <br/><br/>Worship Surya Bhagavan in a ve
- ssel (kumbha) filled with sugar\, followed by dānam of the same.<br/><br/
- >शर्करासप्तमी चैव वाजिमेधफ
- लप्रदा।  <br/>सर्वदुःखप्रशमनी 
- सर्वसम्पत्प्रदायिनी॥<br/><br/><br/
- ><br/>## Details<br/>- References<br/>  - Smriti Kaustubham - 112<br/>- [E
- dit config file](https://github.com/jyotisham/adyatithi/blob/master/genera
- l/lunar_month/tithi/02/07/zarkarA-saptamI.toml)<br/>- Tags: SpecialPuja
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/02/07/zarkarA-saptamI.t
+ oml)<br/>- Tags: SpecialPuja<br/><br/><br/><br/>## Details<br/>- Reference
+ s<br/>  - Smriti Kaustubham p.112<br/>- [Edit config file](https://github.
+ com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/02/07/zarkar
+ A-saptamI.toml)<br/>- Tags: SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30522,9 +30521,9 @@ DTSTART;VALUE=DATE:20220804
 DTEND;VALUE=DATE:20220805
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Śrāvaṇaḥ (lunar) mo
  nth (Madhyāhnaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- Ref
- erences<br/>  - Vaidikasri Aug 2016<br/>- [Edit config file](https://githu
- b.com/jyotisham/adyatithi/blob/master/devatA/shakti/lunar_month/tithi/05/0
- 7/zItalA~saptamI.toml)<br/>- Tags: LessCommonFestivals
+ erences<br/>  - Nirnaya Sindhu<br/>- [Edit config file](https://github.com
+ /jyotisham/adyatithi/blob/master/devatA/shakti/lunar_month/tithi/05/07/zIt
+ alA~saptamI.toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -46267,9 +46266,9 @@ DESCRIPTION:Offer Akasha Dipam for this entire month\, in the evening\, on
  मोदराय  नभसि  तुलायां  लोलया  
  सह।  <br/>प्रदीपं  ते  प्रयच्छाम
  ि  नमोऽनन्ताय  वेधसे॥<br/><br/><br/><br/
- >## Details<br/>- References<br/>  - Nirnaya Sindhu 146<br/>- [Edit config
-  file](https://github.com/jyotisham/adyatithi/blob/master/general/descript
- ion_only/AkAzadIpaH.toml)<br/>- Tags: LessCommonFestivals
+ >## Details<br/>- References<br/>  - Purushartha Chintamani p.6<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/general/
+ description_only/AkAzadIpaH.toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
