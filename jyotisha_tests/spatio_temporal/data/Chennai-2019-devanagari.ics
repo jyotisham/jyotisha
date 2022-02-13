@@ -3956,7 +3956,7 @@ DESCRIPTION:Event occured on 0412-02-09 (gregorian). Julian date was conve
  rted to Gregorian in this reckoning. <br/><br/>Roman Polytheist Platonist 
  sage Proclus was born on this day<br/><br/>## Details<br/>- [Edit config f
  ile](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/genera
- l/julian/day/02/08/proklas-janma.toml)<br/>- Tags:
+ l-indic-tropical/julian/day/02/08/proklas-janma.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11645,10 +11645,11 @@ SUMMARY:prōklas-mr̥tyuḥ #1534
 DTSTART;VALUE=DATE:20190417
 DTEND;VALUE=DATE:20190418
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/general/julian/day/04/17/proklas-mRty
- uH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit config fil
- e](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/general/
- julian/day/04/17/proklas-mRtyuH.toml)<br/>- Tags:
+ am/adyatithi/blob/master/mahApuruSha/general-indic-tropical/julian/day/04/
+ 17/proklas-mRtyuH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [
+ Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahAp
+ uruSha/general-indic-tropical/julian/day/04/17/proklas-mRtyuH.toml)<br/>- 
+ Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -37419,7 +37420,17 @@ BEGIN:VEVENT
 SUMMARY:smārta-utpannā-ēkādaśī (gr̥hastha)
 DTSTART;VALUE=DATE:20191122
 DTEND;VALUE=DATE:20191123
-DESCRIPTION:
+DESCRIPTION:The Krishna-paksha Ekadashi of kārttika month is known as utp
+ annā-ēkādaśī.<br/><br/>pakṣē pakṣē ca kartavyamēkādaśyāmup
+ ōṣaṇam।  <br/>yadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimāt
+ manaḥ।  <br/>ēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  
+ <br/>  <br/>adya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  <br
+ />bhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  <br/
+ >pramādādathavā''lasyāddharē kēśava mādhava।  <br/>vratasyāsya 
+ ca vai vighnō na bhavēttvatprasādataḥ॥  <br/>--padmapurāṇē<br/>
+ <br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
+ isham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/u
+ tpannA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -37533,7 +37544,17 @@ BEGIN:VEVENT
 SUMMARY:smārta-utpannā-ēkādaśī (sannyastha)
 DTSTART;VALUE=DATE:20191123
 DTEND;VALUE=DATE:20191124
-DESCRIPTION:
+DESCRIPTION:The Krishna-paksha Ekadashi of kārttika month is known as utp
+ annā-ēkādaśī.<br/><br/>pakṣē pakṣē ca kartavyamēkādaśyāmup
+ ōṣaṇam।  <br/>yadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimāt
+ manaḥ।  <br/>ēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  
+ <br/>  <br/>adya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  <br
+ />bhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  <br/
+ >pramādādathavā''lasyāddharē kēśava mādhava।  <br/>vratasyāsya 
+ ca vai vighnō na bhavēttvatprasādataḥ॥  <br/>--padmapurāṇē<br/>
+ <br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
+ isham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/u
+ tpannA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
