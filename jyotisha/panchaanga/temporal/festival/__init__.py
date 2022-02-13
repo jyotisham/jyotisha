@@ -143,7 +143,7 @@ def get_description(festival_instance, fest_details_dict, script, truncate=True,
   elif re.match('.*-.*-EkAdazI', fest_id) is not None:
     # Handle ekaadashii descriptions differently
     ekad = '-'.join(fest_id.split('-')[1:])  # get rid of sarva etc. prefix!
-    ekad_suff_pos = ekad.find(' (')
+    ekad_suff_pos = ekad.find('_(')
     if ekad_suff_pos != -1:
       # ekad_suff = ekad[ekad_suff_pos + 1:-1]
       ekad = ekad[:ekad_suff_pos]
