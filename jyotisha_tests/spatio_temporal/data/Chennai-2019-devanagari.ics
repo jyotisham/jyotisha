@@ -59,11 +59,13 @@ DESCRIPTION:The Krishna-paksha Ekadashi of mārgaśīrṣa month is known
  as saphalā-ēkādaśī.<br/><br/>pakṣē pakṣē ca kartavyamēkādaśy
  āmupōṣaṇam।  <br/>yadīcchēdviṣṇusāyujyaṁ śriyaṁ santat
  imātmanaḥ।  <br/>ēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi
- ॥  <br/>  <br/>ēkādaśyāṁ nirāhāraḥ sthitvā'hamaparē'hani। 
-  <br/>bhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥<b
- r/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/j
- yotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_onl
- y/saphalA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ ॥  <br/>  <br/>adya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।
+   <br/>bhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥ 
+  <br/>pramādādathavā''lasyāddharē kēśava mādhava।  <br/>vratasy
+ āsya ca vai vighnō na bhavēttvatprasādataḥ॥  <br/>--padmapurāṇ
+ ē<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.c
+ om/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description
+ _only/saphalA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1542,11 +1544,13 @@ DESCRIPTION:The Shukla-paksha Ekadashi of pauṣa month is known as putrad
  ā-ēkādaśī.<br/><br/>pakṣē pakṣē ca kartavyamēkādaśyāmupō
  ṣaṇam।  <br/>yadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimātma
  naḥ।  <br/>ēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  <b
- r/>  <br/>ēkādaśyāṁ nirāhāraḥ sthitvā'hamaparē'hani।  <br/>b
- hōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥<br/><br/
- ><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisha
- m/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/putra
- dA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ r/>  <br/>adya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  <br/>
+ bhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  <br/>p
+ ramādādathavā''lasyāddharē kēśava mādhava।  <br/>vratasyāsya ca
+  vai vighnō na bhavēttvatprasādataḥ॥  <br/>--padmapurāṇē<br/><b
+ r/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
+ ham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/put
+ radA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2224,6 +2228,26 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:tuṅgabhadrā śr̥ṅgagiri śāradāmaṭha-pratiṣṭhāpana-
+ jayantī #2502
+DTSTART;VALUE=DATE:20190121
+DTEND;VALUE=DATE:20190122
+DESCRIPTION:Observed on Paurṇamāsī tithi of Pauṣaḥ (lunar) month (
+ Sūryōdayaḥ/puurvaviddha). The event occurred in 2618 (Kali era).  <br/
+ ><br/><br/>Adi Shankara founded Sharada Mutt\, Shringagiri in Pingala year
+  Sureshwaracharya as first<br/><br/>## Details<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/
+ lunar_month/tithi/10/15/tuGgabhadrA~zRGagirI_zAradAmaTha-pratiSThApana~jay
+ antI.toml)<br/>- Tags: AdiShankaraHistory
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:śākambharī-jayantī
 DTSTART;VALUE=DATE:20190121
 DTEND;VALUE=DATE:20190122
@@ -2246,25 +2270,6 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Pauṣaḥ (lunar) month (
  i/<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/ma
  ster/devatA/shakti/lunar_month/tithi/10/15/zAkambharI~jayantI.toml)<br/>- 
  Tags: OtherJayantis
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:śr̥ṅgērī śāradāmaṭha-pratiṣṭhāpana-jayantī #2502
-DTSTART;VALUE=DATE:20190121
-DTEND;VALUE=DATE:20190122
-DESCRIPTION:Observed on Paurṇamāsī tithi of Pauṣaḥ (lunar) month (
- Sūryōdayaḥ/puurvaviddha). The event occurred in 2618 (Kali era).  <br/
- ><br/><br/>Adi Shankara founded Sharada Mutt\, Shringeri in Pingala year S
- ureshwaracharya as first<br/><br/>## Details<br/>- [Edit config file](http
- s://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lu
- nar_month/tithi/10/15/zRGgErI_zAradAmaTha-pratiSThApana~jayantI.toml)<br/>
- - Tags: AdiShankaraHistory
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3082,11 +3087,13 @@ DESCRIPTION:The Krishna-paksha Ekadashi of pauṣa month is known as ṣa
  ṭtilā-ēkādaśī.<br/><br/>pakṣē pakṣē ca kartavyamēkādaśyām
  upōṣaṇam।  <br/>yadīcchēdviṣṇusāyujyaṁ śriyaṁ santatim
  ātmanaḥ।  <br/>ēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi
- ॥  <br/>  <br/>ēkādaśyāṁ nirāhāraḥ sthitvā'hamaparē'hani। 
-  <br/>bhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥<b
- r/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/j
- yotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_onl
- y/SaTtilA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ ॥  <br/>  <br/>adya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।
+   <br/>bhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥ 
+  <br/>pramādādathavā''lasyāddharē kēśava mādhava।  <br/>vratasy
+ āsya ca vai vighnō na bhavēttvatprasādataḥ॥  <br/>--padmapurāṇ
+ ē<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.c
+ om/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description
+ _only/SaTtilA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4100,9 +4107,10 @@ DESCRIPTION:Observed on Śukla-Pañcamī tithi of Māghaḥ (lunar) month
  i\, Rati Devi and Manmatha with jasmine flowers.<br/><br/>māghamāsē nr
  ̥paśrēṣṭha śuklāyāṁ pañcamītithau।  <br/>ratikāmau tu sam
  pūjya kartavyaḥ sumahōtsavaḥ॥<br/><br/><br/><br/>## Details<br/>- 
- References<br/>  - Smriti Kaustubham 479<br/>- [Edit config file](https://
- github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/lunar_month/ti
- thi/11/05/vasanta-zrI-paJcamI.toml)<br/>- Tags: SpecialPuja
+ References<br/>  - Smriti Kaustubham 479\, Purushartha Chintamani<br/>- [E
+ dit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA
+ /vaiShNava/lunar_month/tithi/11/05/vasanta-zrI-paJcamI.toml)<br/>- Tags: S
+ pecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5007,16 +5015,12 @@ BEGIN:VEVENT
 SUMMARY:tilapadma-dvādaśī/tilōtpatti
 DTSTART;VALUE=DATE:20190217
 DTEND;VALUE=DATE:20190218
-DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Māghaḥ (lunar) month
-  (Sūryōdayaḥ/puurvaviddha). <br/><br/>Mahavishnu created black til by 
- extreme tapaḥ on this day\; light til deepam and offer tilānnam naivēd
- yam.<br/><br/>māghē tu śukladvādaśyāṁ yatō hi bhagavān pura।  
- <br/>tilān utpādayāmāsa tapaḥ kr̥tvā sudāruṇam॥  <br/>tilatai
- lēna dīpāścha dēyāh dēva gr̥hēṣu ca।  <br/>nivēdayēt tilān
- ēva<br/><br/><br/><br/>## Details<br/>- References<br/>  - Vaidikasri Feb
-  2016<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob
- /master/general/lunar_month/tithi/11/12/tilapadma-dvAdazI_or_tilOtpatti.to
- ml)<br/>- Tags: SpecialPuja
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/11/12/tilapadma-dvAdazI
+ _or_tilOtpatti.toml)<br/>- Tags: SpecialPuja<br/><br/><br/><br/>## Details
+ <br/>- References<br/>  - Smriti Kaustubham p.480<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/ti
+ thi/11/12/tilapadma-dvAdazI_or_tilOtpatti.toml)<br/>- Tags: SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6265,11 +6269,13 @@ DESCRIPTION:The Krishna-paksha Ekadashi of māgha month is known as vijay
  ā-ēkādaśī.<br/><br/>pakṣē pakṣē ca kartavyamēkādaśyāmupō
  ṣaṇam।  <br/>yadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimātma
  naḥ।  <br/>ēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  <b
- r/>  <br/>ēkādaśyāṁ nirāhāraḥ sthitvā'hamaparē'hani।  <br/>b
- hōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥<br/><br/
- ><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisha
- m/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/vijay
- A-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ r/>  <br/>adya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  <br/>
+ bhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  <br/>p
+ ramādādathavā''lasyāddharē kēśava mādhava।  <br/>vratasyāsya ca
+  vai vighnō na bhavēttvatprasādataḥ॥  <br/>--padmapurāṇē<br/><b
+ r/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
+ ham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/vij
+ ayA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9311,11 +9317,13 @@ DESCRIPTION:The Krishna-paksha Ekadashi of phālguna month is known as pā
  pamōchanī-ēkādaśī.<br/><br/>pakṣē pakṣē ca kartavyamēkādaśy
  āmupōṣaṇam।  <br/>yadīcchēdviṣṇusāyujyaṁ śriyaṁ santat
  imātmanaḥ।  <br/>ēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi
- ॥  <br/>  <br/>ēkādaśyāṁ nirāhāraḥ sthitvā'hamaparē'hani। 
-  <br/>bhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥<b
- r/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/j
- yotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_onl
- y/pApamOcanI-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ ॥  <br/>  <br/>adya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।
+   <br/>bhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥ 
+  <br/>pramādādathavā''lasyāddharē kēśava mādhava।  <br/>vratasy
+ āsya ca vai vighnō na bhavēttvatprasādataḥ॥  <br/>--padmapurāṇ
+ ē<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.c
+ om/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description
+ _only/pApamOcanI-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9413,11 +9421,13 @@ DESCRIPTION:The Krishna-paksha Ekadashi of phālguna month is known as pā
  pamōchanī-ēkādaśī.<br/><br/>pakṣē pakṣē ca kartavyamēkādaśy
  āmupōṣaṇam।  <br/>yadīcchēdviṣṇusāyujyaṁ śriyaṁ santat
  imātmanaḥ।  <br/>ēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi
- ॥  <br/>  <br/>ēkādaśyāṁ nirāhāraḥ sthitvā'hamaparē'hani। 
-  <br/>bhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥<b
- r/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/j
- yotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_onl
- y/pApamOcanI-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ ॥  <br/>  <br/>adya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।
+   <br/>bhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥ 
+  <br/>pramādādathavā''lasyāddharē kēśava mādhava।  <br/>vratasy
+ āsya ca vai vighnō na bhavēttvatprasādataḥ॥  <br/>--padmapurāṇ
+ ē<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.c
+ om/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description
+ _only/pApamOcanI-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10791,10 +10801,10 @@ DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Caitraḥ (lunar) mont
  yāṁ na tē śōkamavāpnuyuḥ॥  <br/>  <br/>prāśana-mantraḥ---  
  <br/>tvāmaśōka harābhīṣṭa  madhumāsasamudbhava।  <br/>pibāmi 
  śōkasantaptō māmaśōkaṁ sadā kuru॥  <br/>-- garuḍa-purāṇāt
- <br/><br/><br/><br/>## Details<br/>- References<br/>  - Vaidikasri Mar 201
- 8<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mas
- ter/general/lunar_month/tithi/01/08/azOkASTamI.toml)<br/>- Tags: LessCommo
- nFestivals
+ <br/><br/><br/><br/>## Details<br/>- References<br/>  - Purushartha Chinta
+ mani (Anandashrama) p. 138<br/>- [Edit config file](https://github.com/jyo
+ tisham/adyatithi/blob/master/general/lunar_month/tithi/01/08/azOkASTamI.to
+ ml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11130,11 +11140,13 @@ DESCRIPTION:The Shukla-paksha Ekadashi of chaitra month is known as kāmad
  ā-ēkādaśī.<br/><br/>pakṣē pakṣē ca kartavyamēkādaśyāmupō
  ṣaṇam।  <br/>yadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimātma
  naḥ।  <br/>ēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  <b
- r/>  <br/>ēkādaśyāṁ nirāhāraḥ sthitvā'hamaparē'hani।  <br/>b
- hōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥<br/><br/
- ><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisha
- m/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/kAmad
- A-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ r/>  <br/>adya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  <br/>
+ bhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  <br/>p
+ ramādādathavā''lasyāddharē kēśava mādhava।  <br/>vratasyāsya ca
+  vai vighnō na bhavēttvatprasādataḥ॥  <br/>--padmapurāṇē<br/><b
+ r/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
+ ham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/kAm
+ adA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11321,11 +11333,13 @@ DESCRIPTION:The Shukla-paksha Ekadashi of chaitra month is known as kāmad
  ā-ēkādaśī.<br/><br/>pakṣē pakṣē ca kartavyamēkādaśyāmupō
  ṣaṇam।  <br/>yadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimātma
  naḥ।  <br/>ēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  <b
- r/>  <br/>ēkādaśyāṁ nirāhāraḥ sthitvā'hamaparē'hani।  <br/>b
- hōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥<br/><br/
- ><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisha
- m/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/kAmad
- A-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ r/>  <br/>adya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  <br/>
+ bhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  <br/>p
+ ramādādathavā''lasyāddharē kēśava mādhava।  <br/>vratasyāsya ca
+  vai vighnō na bhavēttvatprasādataḥ॥  <br/>--padmapurāṇē<br/><b
+ r/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
+ ham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/kAm
+ adA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12726,11 +12740,13 @@ DESCRIPTION:The Krishna-paksha Ekadashi of chaitra month is known as varū
  thinī-ēkādaśī.<br/><br/>pakṣē pakṣē ca kartavyamēkādaśyāmup
  ōṣaṇam।  <br/>yadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimāt
  manaḥ।  <br/>ēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  
- <br/>  <br/>ēkādaśyāṁ nirāhāraḥ sthitvā'hamaparē'hani।  <br/
- >bhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥<br/><b
- r/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
- ham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/var
- UthinI-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ <br/>  <br/>adya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  <br
+ />bhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  <br/
+ >pramādādathavā''lasyāddharē kēśava mādhava।  <br/>vratasyāsya 
+ ca vai vighnō na bhavēttvatprasādataḥ॥  <br/>--padmapurāṇē<br/>
+ <br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
+ isham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/v
+ arUthinI-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14111,14 +14127,12 @@ BEGIN:VEVENT
 SUMMARY:śarkarā-saptamī
 DTSTART;VALUE=DATE:20190511
 DTEND;VALUE=DATE:20190512
-DESCRIPTION:Observed on Śukla-Saptamī tithi of Vaiśākhaḥ (lunar) mon
- th (Sūryōdayaḥ/puurvaviddha). <br/><br/>Worship Surya Bhagavan in a ve
- ssel (kumbha) filled with sugar\, followed by dānam of the same.<br/><br/
- >śarkarāsaptamī caiva vājimēdhaphalapradā।  <br/>sarvaduḥkhapra
- śamanī sarvasampatpradāyinī॥<br/><br/><br/><br/>## Details<br/>- Ref
- erences<br/>  - Smriti Kaustubham - 112<br/>- [Edit config file](https://g
- ithub.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/02/07/
- zarkarA-saptamI.toml)<br/>- Tags: SpecialPuja
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/02/07/zarkarA-saptamI.t
+ oml)<br/>- Tags: SpecialPuja<br/><br/><br/><br/>## Details<br/>- Reference
+ s<br/>  - Smriti Kaustubham p.112<br/>- [Edit config file](https://github.
+ com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/02/07/zarkar
+ A-saptamI.toml)<br/>- Tags: SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14578,11 +14592,13 @@ DESCRIPTION:The Shukla-paksha Ekadashi of vaiśākha month is known as mō
  hinī-ēkādaśī.<br/><br/>pakṣē pakṣē ca kartavyamēkādaśyāmup
  ōṣaṇam।  <br/>yadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimāt
  manaḥ।  <br/>ēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  
- <br/>  <br/>ēkādaśyāṁ nirāhāraḥ sthitvā'hamaparē'hani।  <br/
- >bhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥<br/><b
- r/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
- ham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/mOh
- inI-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ <br/>  <br/>adya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  <br
+ />bhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  <br/
+ >pramādādathavā''lasyāddharē kēśava mādhava।  <br/>vratasyāsya 
+ ca vai vighnō na bhavēttvatprasādataḥ॥  <br/>--padmapurāṇē<br/>
+ <br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
+ isham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/m
+ OhinI-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16287,17 +16303,12 @@ BEGIN:VEVENT
 SUMMARY:sarva-aparā-ēkādaśī
 DTSTART;VALUE=DATE:20190530
 DTEND;VALUE=DATE:20190531
-DESCRIPTION:The Krishna-paksha Ekadashi of vaiśākha month is known as ap
- arā-ēkādaśī.<br/><br/>aparāsēvanād rājan vipāpmā bhavati dhruva
- m।  <br/>kūṭasākṣyaṁ mānakūṭaṁ tulākūṭaṁ karōti ca
- ॥  <br/>  <br/>pakṣē pakṣē ca kartavyamēkādaśyāmupōṣaṇam
- ।  <br/>yadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimātmanaḥ। 
-  <br/>ēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  <br/>  <br/
- >ēkādaśyāṁ nirāhāraḥ sthitvā'hamaparē'hani।  <br/>bhōkṣy
- āmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥<br/><br/><br/><b
- r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
- thi/blob/master/time_focus/monthly/ekAdashI/description_only/aparA-EkAdazI
- .toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/apar
+ A-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br
+ />## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatit
+ hi/blob/master/time_focus/monthly/ekAdashI/description_only/aparA-EkAdazI.
+ toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17079,9 +17090,9 @@ DTEND;VALUE=DATE:20190607
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/general/lunar_month/tithi/03/03/rambhA~tRtIyA.tom
  l)<br/>- Tags: SpecialVratam<br/><br/><br/><br/>## Details<br/>- Reference
- s<br/>  - Kielhorn (1897)\, Vaidikasri June 2017<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tit
- hi/03/03/rambhA~tRtIyA.toml)<br/>- Tags: SpecialVratam
+ s<br/>  - Smriti Kaustubha p.118<br/>- [Edit config file](https://github.c
+ om/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/03/03/rambhA~
+ tRtIyA.toml)<br/>- Tags: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19564,11 +19575,13 @@ DESCRIPTION:The Krishna-paksha Ekadashi of jyaiṣṭha month is known as
  yōginī-ēkādaśī.<br/><br/>pakṣē pakṣē ca kartavyamēkādaśyām
  upōṣaṇam।  <br/>yadīcchēdviṣṇusāyujyaṁ śriyaṁ santatim
  ātmanaḥ।  <br/>ēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi
- ॥  <br/>  <br/>ēkādaśyāṁ nirāhāraḥ sthitvā'hamaparē'hani। 
-  <br/>bhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥<b
- r/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/j
- yotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_onl
- y/yOginI-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ ॥  <br/>  <br/>adya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।
+   <br/>bhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥ 
+  <br/>pramādādathavā''lasyāddharē kēśava mādhava।  <br/>vratasy
+ āsya ca vai vighnō na bhavēttvatprasādataḥ॥  <br/>--padmapurāṇ
+ ē<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.c
+ om/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description
+ _only/yOginI-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22663,11 +22676,13 @@ DESCRIPTION:The Krishna-paksha Ekadashi of āṣāḍha month is known as
  kāmikā-ēkādaśī.<br/><br/>pakṣē pakṣē ca kartavyamēkādaśyām
  upōṣaṇam।  <br/>yadīcchēdviṣṇusāyujyaṁ śriyaṁ santatim
  ātmanaḥ।  <br/>ēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi
- ॥  <br/>  <br/>ēkādaśyāṁ nirāhāraḥ sthitvā'hamaparē'hani। 
-  <br/>bhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥<b
- r/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/j
- yotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_onl
- y/kAmikA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ ॥  <br/>  <br/>adya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।
+   <br/>bhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥ 
+  <br/>pramādādathavā''lasyāddharē kēśava mādhava।  <br/>vratasy
+ āsya ca vai vighnō na bhavēttvatprasādataḥ॥  <br/>--padmapurāṇ
+ ē<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.c
+ om/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description
+ _only/kAmikA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23949,9 +23964,9 @@ DTSTART;VALUE=DATE:20190807
 DTEND;VALUE=DATE:20190808
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Śrāvaṇaḥ (lunar) mo
  nth (Madhyāhnaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- Ref
- erences<br/>  - Vaidikasri Aug 2016<br/>- [Edit config file](https://githu
- b.com/jyotisham/adyatithi/blob/master/devatA/shakti/lunar_month/tithi/05/0
- 7/zItalA~saptamI.toml)<br/>- Tags: LessCommonFestivals
+ erences<br/>  - Nirnaya Sindhu<br/>- [Edit config file](https://github.com
+ /jyotisham/adyatithi/blob/master/devatA/shakti/lunar_month/tithi/05/07/zIt
+ alA~saptamI.toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24371,11 +24386,13 @@ DESCRIPTION:The Shukla-paksha Ekadashi of śravaṇa month is known as pav
  itrōpāna-ēkādaśī.<br/><br/>pakṣē pakṣē ca kartavyamēkādaśy
  āmupōṣaṇam।  <br/>yadīcchēdviṣṇusāyujyaṁ śriyaṁ santat
  imātmanaḥ।  <br/>ēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi
- ॥  <br/>  <br/>ēkādaśyāṁ nirāhāraḥ sthitvā'hamaparē'hani। 
-  <br/>bhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥<b
- r/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/j
- yotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_onl
- y/pavitrOpAna-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ ॥  <br/>  <br/>adya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।
+   <br/>bhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥ 
+  <br/>pramādādathavā''lasyāddharē kēśava mādhava।  <br/>vratasy
+ āsya ca vai vighnō na bhavēttvatprasādataḥ॥  <br/>--padmapurāṇ
+ ē<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.c
+ om/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description
+ _only/pavitrOpAna-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26242,16 +26259,12 @@ BEGIN:VEVENT
 SUMMARY:smārta-ajā-ēkādaśī
 DTSTART;VALUE=DATE:20190826
 DTEND;VALUE=DATE:20190827
-DESCRIPTION:The Krishna-paksha Ekadashi of śravaṇa month is known as aj
- ā-ēkādaśī. Satya Harishchandra performed this to get back family and 
- kingdom.<br/><br/>pakṣē pakṣē ca kartavyamēkādaśyāmupōṣaṇam
- ।  <br/>yadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimātmanaḥ। 
-  <br/>ēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  <br/>  <br/
- >ēkādaśyāṁ nirāhāraḥ sthitvā'hamaparē'hani।  <br/>bhōkṣy
- āmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥<br/><br/><br/><b
- r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
- thi/blob/master/time_focus/monthly/ekAdashI/description_only/ajA-EkAdazI.t
- oml)<br/>- Tags: MonthlyVratam EkadashiVratam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/ajA-
+ EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
+ ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/time_focus/monthly/ekAdashI/description_only/ajA-EkAdazI.toml
+ )<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26397,16 +26410,12 @@ BEGIN:VEVENT
 SUMMARY:vaiṣṇava-ajā-ēkādaśī
 DTSTART;VALUE=DATE:20190827
 DTEND;VALUE=DATE:20190828
-DESCRIPTION:The Krishna-paksha Ekadashi of śravaṇa month is known as aj
- ā-ēkādaśī. Satya Harishchandra performed this to get back family and 
- kingdom.<br/><br/>pakṣē pakṣē ca kartavyamēkādaśyāmupōṣaṇam
- ।  <br/>yadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimātmanaḥ। 
-  <br/>ēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  <br/>  <br/
- >ēkādaśyāṁ nirāhāraḥ sthitvā'hamaparē'hani।  <br/>bhōkṣy
- āmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥<br/><br/><br/><b
- r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
- thi/blob/master/time_focus/monthly/ekAdashI/description_only/ajA-EkAdazI.t
- oml)<br/>- Tags: MonthlyVratam EkadashiVratam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/ajA-
+ EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
+ ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/time_focus/monthly/ekAdashI/description_only/ajA-EkAdazI.toml
+ )<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -27166,12 +27175,13 @@ SUMMARY:haritālikā-vratam
 DTSTART;VALUE=DATE:20190901
 DTEND;VALUE=DATE:20190902
 DESCRIPTION:Observed on Śukla-Tr̥tīyā tithi of Bhādrapadaḥ (lunar) 
- month (Sūryōdayaḥ/puurvaviddha). <br/><br/>Puja of Gauri-Maheshwara on
-  Vrishabham\, esp. for girls desirous of getting married\, like Goddess Pa
- rvati sought the hand of Maheshwara\, as Himavan's daughter.<br/><br/>## D
- etails<br/>- References<br/>  - Bhavishyottara Puranam<br/>- [Edit config 
- file](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_mon
- th/tithi/06/03/haritAlikA-vratam.toml)<br/>- Tags: SpecialVratam
+ month (Prātaḥ/paraviddha). <br/><br/>Puja of Gauri-Maheshwara on Vrisha
+ bham\, esp. for girls desirous of getting married\, like Goddess Parvati s
+ ought the hand of Maheshwara\, as Himavan's daughter.<br/><br/>bhādrasya 
+ kajalī kr̥ṣṇā śuklā ca haritālikā।<br/><br/><br/><br/>## Deta
+ ils<br/>- References<br/>  - Bhavishyottara Puranam<br/>- [Edit config fil
+ e](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/
+ tithi/06/03/haritAlikA-vratam.toml)<br/>- Tags: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30130,16 +30140,12 @@ BEGIN:VEVENT
 SUMMARY:sarva-indirā-ēkādaśī
 DTSTART;VALUE=DATE:20190925
 DTEND;VALUE=DATE:20190926
-DESCRIPTION:The Krishna-paksha Ekadashi of bhādrapada month is known as i
- ndirā-ēkādaśī. Indrasena's son did Ekadashi and as a result he was sh
- ifted from hell to heaven.<br/><br/>pakṣē pakṣē ca kartavyamēkāda
- śyāmupōṣaṇam।  <br/>yadīcchēdviṣṇusāyujyaṁ śriyaṁ san
- tatimātmanaḥ।  <br/>ēkādaśyāṁ na bhuñjīta pakṣayōrubhayōr
- api॥  <br/>  <br/>ēkādaśyāṁ nirāhāraḥ sthitvā'hamaparē'hani
- ।  <br/>bhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta
- ॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.
- com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/descriptio
- n_only/indirA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/indi
+ rA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/blob/master/time_focus/monthly/ekAdashI/description_only/indirA-EkAdaz
+ I.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -31891,11 +31897,13 @@ DESCRIPTION:The Shukla-paksha Ekadashi of āśvayuja month is known as pā
  pāṅkuśā-ēkādaśī.<br/><br/>pakṣē pakṣē ca kartavyamēkādaś
  yāmupōṣaṇam।  <br/>yadīcchēdviṣṇusāyujyaṁ śriyaṁ santa
  timātmanaḥ।  <br/>ēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrap
- i॥  <br/>  <br/>ēkādaśyāṁ nirāhāraḥ sthitvā'hamaparē'hani।
-   <br/>bhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥<
- br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/
- jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_on
- ly/pApAGkuzA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ i॥  <br/>  <br/>adya sthitvā nirāhāraḥ śvōbhūtē paramēśvara
+ ।  <br/>bhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta
+ ॥  <br/>pramādādathavā''lasyāddharē kēśava mādhava।  <br/>vrat
+ asyāsya ca vai vighnō na bhavēttvatprasādataḥ॥  <br/>--padmapurā
+ ṇē<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://githu
+ b.com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/descript
+ ion_only/pApAGkuzA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -33533,11 +33541,13 @@ DESCRIPTION:The Krishna-paksha Ekadashi of āśvayuja month is known as ra
  mā-ēkādaśī.<br/><br/>pakṣē pakṣē ca kartavyamēkādaśyāmupō
  ṣaṇam।  <br/>yadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimātma
  naḥ।  <br/>ēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  <b
- r/>  <br/>ēkādaśyāṁ nirāhāraḥ sthitvā'hamaparē'hani।  <br/>b
- hōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥<br/><br/
- ><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisha
- m/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/ramA-
- EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ r/>  <br/>adya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  <br/>
+ bhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  <br/>p
+ ramādādathavā''lasyāddharē kēśava mādhava।  <br/>vratasyāsya ca
+  vai vighnō na bhavēttvatprasādataḥ॥  <br/>--padmapurāṇē<br/><b
+ r/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
+ ham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/ram
+ A-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -35512,11 +35522,13 @@ DESCRIPTION:The Shukla-paksha Ekadashi of kārttika month is known as utth
  āna-ēkādaśī.<br/><br/>pakṣē pakṣē ca kartavyamēkādaśyāmupō
  ṣaṇam।  <br/>yadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimātma
  naḥ।  <br/>ēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  <b
- r/>  <br/>ēkādaśyāṁ nirāhāraḥ sthitvā'hamaparē'hani।  <br/>b
- hōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥<br/><br/
- ><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisha
- m/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/utthA
- na-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ r/>  <br/>adya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  <br/>
+ bhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  <br/>p
+ ramādādathavā''lasyāddharē kēśava mādhava।  <br/>vratasyāsya ca
+  vai vighnō na bhavēttvatprasādataḥ॥  <br/>--padmapurāṇē<br/><b
+ r/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
+ ham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/utt
+ hAna-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -36717,9 +36729,9 @@ DESCRIPTION:Offer Akasha Dipam for this entire month\, in the evening\, on
  ṁ  śriyamāpnōti  rūpa-saubhāgya-sampadam॥  <br/>  <br/>dāmōdar
  āya  nabhasi  tulāyāṁ  lōlayā  saha।  <br/>pradīpaṁ  tē  pray
  acchāmi  namō'nantāya  vēdhasē॥<br/><br/><br/><br/>## Details<br/>-
-  References<br/>  - Nirnaya Sindhu 146<br/>- [Edit config file](https://gi
- thub.com/jyotisham/adyatithi/blob/master/general/description_only/AkAzadIp
- aH.toml)<br/>- Tags: LessCommonFestivals
+  References<br/>  - Purushartha Chintamani p.6<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/blob/master/general/description_only/
+ AkAzadIpaH.toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -37542,11 +37554,13 @@ DESCRIPTION:The Krishna-paksha Ekadashi of kārttika month is known as utp
  annā-ēkādaśī.<br/><br/>pakṣē pakṣē ca kartavyamēkādaśyāmup
  ōṣaṇam।  <br/>yadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimāt
  manaḥ।  <br/>ēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  
- <br/>  <br/>ēkādaśyāṁ nirāhāraḥ sthitvā'hamaparē'hani।  <br/
- >bhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥<br/><b
- r/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
- ham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/utp
- annA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ <br/>  <br/>adya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  <br
+ />bhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  <br/
+ >pramādādathavā''lasyāddharē kēśava mādhava।  <br/>vratasyāsya 
+ ca vai vighnō na bhavēttvatprasādataḥ॥  <br/>--padmapurāṇē<br/>
+ <br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
+ isham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/u
+ tpannA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -39062,11 +39076,13 @@ DESCRIPTION:The Shukla-paksha Ekadashi of mārgaśīrṣa month is known a
  s mōkṣadā-ēkādaśī.<br/><br/>pakṣē pakṣē ca kartavyamēkāda
  śyāmupōṣaṇam।  <br/>yadīcchēdviṣṇusāyujyaṁ śriyaṁ san
  tatimātmanaḥ।  <br/>ēkādaśyāṁ na bhuñjīta pakṣayōrubhayōr
- api॥  <br/>  <br/>ēkādaśyāṁ nirāhāraḥ sthitvā'hamaparē'hani
+ api॥  <br/>  <br/>adya sthitvā nirāhāraḥ śvōbhūtē paramēśvara
  ।  <br/>bhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta
- ॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.
- com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/descriptio
- n_only/mOkSadA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ ॥  <br/>pramādādathavā''lasyāddharē kēśava mādhava।  <br/>vrat
+ asyāsya ca vai vighnō na bhavēttvatprasādataḥ॥  <br/>--padmapurā
+ ṇē<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://githu
+ b.com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/descript
+ ion_only/mOkSadA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -40507,11 +40523,13 @@ DESCRIPTION:The Krishna-paksha Ekadashi of mārgaśīrṣa month is known
  as saphalā-ēkādaśī.<br/><br/>pakṣē pakṣē ca kartavyamēkādaśy
  āmupōṣaṇam।  <br/>yadīcchēdviṣṇusāyujyaṁ śriyaṁ santat
  imātmanaḥ।  <br/>ēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi
- ॥  <br/>  <br/>ēkādaśyāṁ nirāhāraḥ sthitvā'hamaparē'hani। 
-  <br/>bhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥<b
- r/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/j
- yotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_onl
- y/saphalA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ ॥  <br/>  <br/>adya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।
+   <br/>bhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥ 
+  <br/>pramādādathavā''lasyāddharē kēśava mādhava।  <br/>vratasy
+ āsya ca vai vighnō na bhavēttvatprasādataḥ॥  <br/>--padmapurāṇ
+ ē<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.c
+ om/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description
+ _only/saphalA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
