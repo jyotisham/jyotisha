@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220213184601
+SEQUENCE:20220213185229
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -7752,7 +7752,23 @@ SUMMARY:स्मार्त-विजया-एकादशी (गृ
  हस्थ)
 DTSTART;VALUE=DATE:20220226
 DTEND;VALUE=DATE:20220227
-DESCRIPTION:
+DESCRIPTION:The Krishna-paksha Ekadashi of māgha month is known as vijay
+ ā-ēkādaśī.<br/><br/>पक्षे पक्षे च कर्त
+ व्यमेकादश्यामुपोषणम्।  <br/>य
+ दीच्छेद्विष्णुसायुज्यं श्
+ रियं सन्ततिमात्मनः।  <br/>एकाद
+ श्यां न भुञ्जीत पक्षयोरुभय
+ ोरपि॥  <br/>  <br/>अद्य स्थित्वा नि
+ राहारः श्वोभूते परमेश्वर।  <
+ br/>भोक्ष्यामि पुण्डरीकाक्ष 
+ शरणं मे भवाच्युत॥  <br/>प्रमाद
+ ादथवाऽऽलस्याद्धरे केशव माध
+ व।  <br/>व्रतस्यास्य च वै विघ्न
+ ो न भवेत्त्वत्प्रसादतः॥  <br/>--
+ पद्मपुराणे<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/
+ monthly/ekAdashI/description_only/vijayA-EkAdazI.toml)<br/>- Tags: Monthly
+ Vratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7903,7 +7919,23 @@ SUMMARY:स्मार्त-विजया-एकादशी (सन
  ्न्यस्थ)
 DTSTART;VALUE=DATE:20220227
 DTEND;VALUE=DATE:20220228
-DESCRIPTION:
+DESCRIPTION:The Krishna-paksha Ekadashi of māgha month is known as vijay
+ ā-ēkādaśī.<br/><br/>पक्षे पक्षे च कर्त
+ व्यमेकादश्यामुपोषणम्।  <br/>य
+ दीच्छेद्विष्णुसायुज्यं श्
+ रियं सन्ततिमात्मनः।  <br/>एकाद
+ श्यां न भुञ्जीत पक्षयोरुभय
+ ोरपि॥  <br/>  <br/>अद्य स्थित्वा नि
+ राहारः श्वोभूते परमेश्वर।  <
+ br/>भोक्ष्यामि पुण्डरीकाक्ष 
+ शरणं मे भवाच्युत॥  <br/>प्रमाद
+ ादथवाऽऽलस्याद्धरे केशव माध
+ व।  <br/>व्रतस्यास्य च वै विघ्न
+ ो न भवेत्त्वत्प्रसादतः॥  <br/>--
+ पद्मपुराणे<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/
+ monthly/ekAdashI/description_only/vijayA-EkAdazI.toml)<br/>- Tags: Monthly
+ Vratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
