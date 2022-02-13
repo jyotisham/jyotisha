@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220213125133
+SEQUENCE:20220213131721
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -7428,11 +7428,13 @@ BEGIN:VEVENT
 SUMMARY:निक्षुभार्क-सप्तमी
 DTSTART;VALUE=DATE:20220223
 DTEND;VALUE=DATE:20220224
-DESCRIPTION:Observed on Kr̥ṣṇa-Saptamī tithi of Māghaḥ (lunar) mo
- nth (Madhyāhnaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- Ref
- erences<br/>  - Bhavisyat Purana<br/>- [Edit config file](https://github.c
- om/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/11/22/nikSubh
- Arka-saptamI.toml)<br/>- Tags: SpecialVratam LessCommonFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/11/22/nikSubhArka-sapta
+ mI.toml)<br/>- Tags: SpecialVratam LessCommonFestivals<br/><br/><br/><br/>
+ ## Details<br/>- References<br/>  - Bhavisyat Purana<br/>- [Edit config fi
+ le](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month
+ /tithi/11/22/nikSubhArka-saptamI.toml)<br/>- Tags: SpecialVratam LessCommo
+ nFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
