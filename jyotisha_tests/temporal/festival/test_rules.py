@@ -11,4 +11,4 @@ def test_rules_dicts():
 
 def test_get_url():
   rule_set = rules.RulesCollection.get_cached(repos_tuple=rules.rule_repos)
-  assert rule_set.tree[rules.RulesRepo.GREGORIAN_MONTH_DIR][rules.RulesRepo.DAY_DIR]["02"]["09"]["proklas-janma"].get_url() == "https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/general/julian/day/02/08/proklas-janma.toml"
+  assert rule_set.tree[rules.RulesRepo.GREGORIAN_MONTH_DIR][rules.RulesRepo.DAY_DIR]["02"]["09"]["proklas-janma"].get_url() == "https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/general-indic-tropical/julian/day/02/08/proklas-janma.toml"
