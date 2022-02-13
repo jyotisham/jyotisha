@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220213084400
+SEQUENCE:20220213123105
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -5033,11 +5033,12 @@ BEGIN:VEVENT
 SUMMARY:रथ-सप्तमी
 DTSTART;VALUE=DATE:20220207
 DTEND;VALUE=DATE:20220208
-DESCRIPTION:Observed on Śukla-Saptamī tithi of Māghaḥ (lunar) month (
- Prāktanāruṇōdayaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>-
-  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/dev
- atA/graha/lunar_month/tithi/11/07/ratha-saptamI.toml)<br/>- Tags: SpecialP
- uja MahapurushaEvents CommonFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/graha/lunar_month/tithi/11/07/ratha-saptam
+ I.toml)<br/>- Tags: SpecialPuja MahapurushaEvents CommonFestivals<br/><br/
+ ><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisha
+ m/adyatithi/blob/master/devatA/graha/lunar_month/tithi/11/07/ratha-saptamI
+ .toml)<br/>- Tags: SpecialPuja MahapurushaEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5146,13 +5147,14 @@ BEGIN:VEVENT
 SUMMARY:भीष्माष्टमी
 DTSTART;VALUE=DATE:20220208
 DTEND;VALUE=DATE:20220209
-DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Māghaḥ (lunar) mont
- h (Madhyāhnaḥ/puurvaviddha). <br/><br/>Bhishma obtained mukti on this d
- ay\; offer tarpana to Bhishma (even those with parents). Brings health\, l
- ong life and harmony in family.<br/><br/>## Details<br/>- References<br/> 
-  - Vaidikasri Feb 2016<br/>- [Edit config file](https://github.com/jyotish
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/mahApuruSha/xatra/lunar_month/tithi/11/08/bhISmAS
- TamI.toml)<br/>- Tags: SpecialPuja CommonFestivals CommonFestivals
+ TamI.toml)<br/>- Tags: SpecialPuja CommonFestivals CommonFestivals<br/><br
+ /><br/><br/>## Details<br/>- References<br/>  - Smriti Kaustubha p.480<br/
+ >  - Laugakshi Smriti<br/>  - Padma Puranam<br/>- [Edit config file](https
+ ://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xatra/lunar_mont
+ h/tithi/11/08/bhISmASTamI.toml)<br/>- Tags: SpecialPuja CommonFestivals Co
+ mmonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5854,7 +5856,12 @@ BEGIN:VEVENT
 SUMMARY:सर्व-जया/भैमी-एकादशी
 DTSTART;VALUE=DATE:20220212
 DTEND;VALUE=DATE:20220213
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/jayA
+ __bhaimI-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><
+ br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
+ adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/jayA__b
+ haimI-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8380,11 +8387,12 @@ BEGIN:VEVENT
 SUMMARY:माघ-स्नानपूर्तिः
 DTSTART;VALUE=DATE:20220302
 DTEND;VALUE=DATE:20220303
-DESCRIPTION:Observed on Amāvāsyā tithi of Māghaḥ (lunar) month (Sūr
- yōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- References<
- br/>  - Vaidikasri Feb 2017<br/>- [Edit config file](https://github.com/jy
- otisham/adyatithi/blob/master/time_focus/misc/lunar_month/tithi/11/30/mAgh
- a-snAnapUrtiH.toml)<br/>- Tags: SpecialSnanam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/misc/lunar_month/tithi/11/30/mAgha-snA
+ napUrtiH.toml)<br/>- Tags: SpecialSnanam<br/><br/><br/><br/>## Details<br/
+ >- References<br/>  - Narada Mahapuranam<br/>- [Edit config file](https://
+ github.com/jyotisham/adyatithi/blob/master/time_focus/misc/lunar_month/tit
+ hi/11/30/mAgha-snAnapUrtiH.toml)<br/>- Tags: SpecialSnanam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18244,10 +18252,13 @@ DTSTART;VALUE=DATE:20220508
 DTEND;VALUE=DATE:20220509
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Vaiśākhaḥ (lunar) mon
  th (Sūryōdayaḥ/puurvaviddha). The event occurred in 4868 (Kali era).  
- <br/><br/><br/><br/><br/>## Details<br/>- References<br/>  - Vaidikasri Ma
- y 2017<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
- b/master/mahApuruSha/sangIta-kRt/lunar_month/tithi/02/07/tyAgarAja~jayantI
- .toml)<br/>- Tags: MahapurushaEvents CommonFestivals
+ <br/><br/><br/>कामक्रोधादिरहितं राम
+ भक्तशिरोमणिम्।  <br/>त्यागराज
+ गुरुं वन्दे सङ्गीताब्धिं क
+ लानिधिम्॥<br/><br/><br/><br/>## Details<br/>- References
+ <br/>  - Vaidikasri May 2017<br/>- [Edit config file](https://github.com/j
+ yotisham/adyatithi/blob/master/mahApuruSha/sangIta-kRt/lunar_month/tithi/0
+ 2/07/tyAgarAja~jayantI.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21410,9 +21421,9 @@ DESCRIPTION:Observed on Amāvāsyā tithi of Vaiśākhaḥ (lunar) month (
  भानौ मुरारे मधुसूदन।  <br/>प्र
  ातः स्नानेन मे नाथ फलदो भव प
  ापहन्॥<br/><br/><br/><br/>## Details<br/>- References<br/>  - 
- Vaidikasri June 2017<br/>- [Edit config file](https://github.com/jyotisham
- /adyatithi/blob/master/time_focus/misc/lunar_month/tithi/02/30/vaizAkha-sn
- AnapUrtiH.toml)<br/>- Tags: SpecialSnanam
+ Smriti Kaustubha p.107<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/misc/lunar_month/tithi/02/30/vaizAkha-
+ snAnapUrtiH.toml)<br/>- Tags: SpecialSnanam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -40507,14 +40518,14 @@ DTEND;VALUE=DATE:20221010
 DESCRIPTION:Observed on Paurṇamāsī tithi of Āśvayujaḥ (lunar) mont
  h (Niśīthaḥ/puurvaviddha). <br/><br/>Have to play Aksha kreeda only on
   this day and Ko-jagarti-Vratam (Lakshmi will ask "who are awake"). Vaalak
- hilya Rushi mentioned Ko-jagarti Vratam<br/><br/>निशीथे वर
- दा लक्ष्मीः को जागर्तीति भा
- षिणी।  <br/>तस्मै वित्तं प्रयच
- ्छामि अक्षैः क्रीडां करोति 
- यः॥<br/><br/><br/><br/>## Details<br/>- References<br/>  - Dharma Si
- ndhu 142<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/b
- lob/master/general/lunar_month/tithi/07/15/kO-jAgarti-vratam.toml)<br/>- T
- ags: SpecialVratam CommonFestivals
+ hilya Rishi also mentioned Ko-jagarti Vratam.<br/><br/>निशीथे 
+ वरदा लक्ष्मीः को जागर्तीति 
+ भाषिणी।  <br/>तस्मै वित्तं प्र
+ यच्छामि अक्षैः क्रीडां करो
+ ति यः॥<br/><br/><br/><br/>## Details<br/>- References<br/>  - Pu
+ rushartha Chintamani p.302<br/>- [Edit config file](https://github.com/jyo
+ tisham/adyatithi/blob/master/general/lunar_month/tithi/07/15/kO-jAgarti-vr
+ atam.toml)<br/>- Tags: SpecialVratam CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -44691,11 +44702,11 @@ DTSTART;VALUE=DATE:20221105
 DTEND;VALUE=DATE:20221106
 DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Kārttikaḥ (lunar) mo
  nth (Sūryōdayaḥ/puurvaviddha). <br/><br/>Avataram of yājñavalkya mah
- arṣi happened on kārttika shukla dwādaśī in ṣatabhiṣak nakṣatr
- am/dhanurlagnam.<br/><br/>वन्देऽहं  मङ्गळात
+ arṣi happened on kārttika shukla dvādaśī in ṣatabhiṣak nakṣatr
+ am/dhanurlagnam.<br/><br/>वन्देऽहं  मङ्गलात
  ्मानं  भास्वन्तं  वेदविग्रह
  म्।  <br/>याज्ञवल्क्यं  मुनिश्
- रेष्ठं  जीष्णुं  हरिहरप्रभम
+ रेष्ठं  जिष्णुं  हरिहरप्रभम
  ्॥  <br/>जितेन्द्रियं  जितक्रो
  धं  सदा  ध्यानपरायणम्।  <br/>आनन
  ्दनिलयं  वन्दे  योगानन्दमुन
@@ -49345,6 +49356,33 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:मार्गशीर्ष-पूर्णिमा
+DTSTART;VALUE=DATE:20221207
+DTEND;VALUE=DATE:20221208
+DESCRIPTION:Observed on Paurṇamāsī tithi of Mārgaśīrṣaḥ (lunar)
+  month (Chandrōdayaḥ/puurvaviddha). <br/><br/>Do dānam of salt\, sunda
+ rarūpatvasiddhyartham!<br/><br/>मार्गशीर्षे शु
+ क्लपञ्चदश्यां मृगशिरोयुता
+ यां चूर्णितलवणस्य सुवर्णेन
+  प्रस्थमेकं चन्द्रोदये ब्र
+ ाह्मणाय प्रतिपादयेत्। अनेन
+  कर्मणा रूपसौभाग्य<br/>लाभो जा
+ यते इति विष्णुनोक्तं सुवर्
+ णसहितचूर्णितलवणदानम्। तत्
+ रापि चंद्रोदयव्यापिन्येव ग
+ ्राह्या।<br/><br/>## Details<br/>- References<br/>  - Smri
+ ti Kaustubha p.306<br/>- [Edit config file](https://github.com/jyotisham/a
+ dyatithi/blob/master/general/lunar_month/tithi/09/15/mArgazIrSa-pUrNimA.to
+ ml)<br/>- Tags: PurnimaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:पार्वणव्रतम् पूर्णिमाय
  ाम्
 DTSTART;VALUE=DATE:20221207
@@ -49544,24 +49582,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/09/16/
  kAJcI_13_jagadguru_zrI~saccidghanEndra_sarasvatI_ArAdhanA.toml)<br/>- Tags
  : KanchiAradhanaDays
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:मार्गशीर्ष-पूर्णिमा
-DTSTART;VALUE=DATE:20221208
-DTEND;VALUE=DATE:20221209
-DESCRIPTION:Observed on Paurṇamāsī tithi of Mārgaśīrṣaḥ (lunar)
-  month (Sūryōdayaḥ/puurvaviddha). <br/><br/>Do dānam of salt\, sundar
- arūpatvasiddhyartham!<br/><br/>## Details<br/>- References<br/>  - Vaidik
- asri Dec 2016<br/>- [Edit config file](https://github.com/jyotisham/adyati
- thi/blob/master/general/lunar_month/tithi/09/15/mArgazIrSa-pUrNimA.toml)<b
- r/>- Tags: PurnimaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
