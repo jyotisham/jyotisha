@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220213215903
+SEQUENCE:20220214081049
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -6118,9 +6118,11 @@ DTEND;VALUE=DATE:20220215
 DESCRIPTION:Event occured on 1739-02-14 (gregorian). <br/><br/>After the c
  apture of Tarapur\, the provisions to Portuguese were cut off\, & the Port
  uguese force at Asheri surrendered without a fight. Asheri Fort was finall
- y under Maratha Control.<br/><br/>Context:<br/><br/>## Details<br/>- [Edit
-  config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruS
- ha/xatra-later/gregorian/day/02/14/asheri-durga-jayaH.toml)<br/>- Tags:
+ y under Maratha Control.<br/><br/>## Context<br/>To stop Portuguese Christ
+ ian atrocities\, the marATha-s had lauched a great campaign.<br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/mahApuruSha/xatra-later/gregorian/day/02/14/asheri-durga-jayaH.to
+ ml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15255,6 +15257,25 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of every (lunar) month (Āśv
  inaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit config file
  ](https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/luna
  r_month/tithi/00/15/pancha-parva-2.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:वासायि-युद्धे प्रथमो जयः
+  #२८५
+DTSTART;VALUE=DATE:20220416
+DTEND;VALUE=DATE:20220417
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/04/05/vAsAy-yu
+ ddhe_prathamo_jayaH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mah
+ ApuruSha/xatra-later/julian/day/04/05/vAsAy-yuddhe_prathamo_jayaH.toml)<br
+ />- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
