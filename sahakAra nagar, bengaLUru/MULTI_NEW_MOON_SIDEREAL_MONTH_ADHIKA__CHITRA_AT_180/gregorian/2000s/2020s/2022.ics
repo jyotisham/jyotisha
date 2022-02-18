@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220218192506
+SEQUENCE:20220218220920
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -41760,6 +41760,25 @@ DESCRIPTION:- Indian civil date: 1944-07-25\, Islamic: 1444-03-21 Rabīʿ
  लः**—13:32-15:00  \n___________________\n- **शूलम्**—प
  ्राची (►09:21)\; **परिहारः**–दधि  \n____
  _______________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:हेमचन्द्रविक्रमादित्य-
+ राज्याभिषेकः #४९६
+DTSTART;VALUE=DATE:20221017
+DTEND;VALUE=DATE:20221018
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/10/07/hemachan
+ dra-vikramAditya-rAjyAbhiShekaH.toml)<br/>- Tags: <br/><br/><br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/mahApuruSha/xatra-later/julian/day/10/07/hemachandra-vikramAditya
+ -rAjyAbhiShekaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
