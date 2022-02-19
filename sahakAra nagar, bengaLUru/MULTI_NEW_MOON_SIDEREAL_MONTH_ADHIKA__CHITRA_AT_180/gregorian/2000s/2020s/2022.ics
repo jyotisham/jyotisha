@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220219134936
+SEQUENCE:20220219151227
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -8293,10 +8293,11 @@ DESCRIPTION:Event occured on 1630-03-01 (gregorian). Julian date was conve
  eat rAjan shivAjI (It was phAlguna k3)\, about whom bhUShaNa wrote<br/>"
  चारौ वर्ण धर्म छोडि  <br/>कलमा न
  ेवाज पढि  <br/>सिवाजी न होतो तौ  <
- br/>सुनति होत सबकी" 🙏🙏<br/><br/>## Details<b
- r/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master
- /mahApuruSha/xatra-later/julian/day/02/19/shivarAjo_jAtaH.toml)<br/>- Tags
- :
+ br/>सुनति होत सबकी" 🙏🙏<br/><br/>Source of th
+ e date are two close contemporary sources: jedhe shekavali and shivabharat
+ .<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisha
+ m/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/02/19/shivarAjo
+ _jAtaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
