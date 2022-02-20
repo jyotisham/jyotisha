@@ -16,7 +16,7 @@ from jyotisha.panchaanga.temporal import time, ComputationSystem, set_constants,
 from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.body import Graha
 from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
-from jyotisha.panchaanga.temporal.interval import DayLengthBasedPeriods, Interval
+from jyotisha.panchaanga.temporal.interval import DayLengthBasedPeriods, Interval, get_interval
 from jyotisha.panchaanga.temporal.month import LunarMonthAssigner
 from jyotisha.panchaanga.temporal.names import translate_or_transliterate
 from jyotisha.panchaanga.temporal.time import Timezone, Date, BasicDate, Hour
@@ -404,6 +404,41 @@ class DailyPanchaanga(common.JsonObject):
       year_index = (self.date.year + year_0_offset)
     return year_index
 
+
+  def get_hora_data(self, debug=False):
+    """Returns the hora data
+
+        Args:
+          debug
+
+        Returns:
+          tuples detailing the end time of each hora, beginning with the one
+          prevailing at sunrise
+        """
+    if self.hora_data is not None:
+      return self.hora_data
+
+    self.hora_data = []
+    if getattr(self, "jd_sunrise", None) is None or self.jd_sunrise is None:
+      self.compute_sun_moon_transitions()
+    
+    HORA_SUNRISE = [Graha.SUN, Graha.MOON, Graha.MARS, Graha.MERCURY, Graha.JUPITER, Graha.VENUS, Graha.SATURN]
+    # HORA_GRAHAS = [Graha.SUN, Graha.VENUS, Graha.MERCURY, Graha.MOON, Graha.SATURN, Graha.JUPITER, Graha.MARS]
+    HORA_GRAHAS = (HORA_SUNRISE * 5)[0::5]
+
+    hora_sunrise = HORA_SUNRISE[self.date.get_weekday()]
+
+    hora_list = [(x + HORA_GRAHAS.index(hora_sunrise)) % 7 for x in range(24)]
+
+    for i, hora in enumerate(hora_list[:12]):
+      hora_end_time = get_interval(start_jd=self.jd_sunrise, end_jd=self.jd_sunset, part_index=i, num_parts=12).jd_end
+      self.hora_data.append((hora, HORA_GRAHAS[hora], hora_end_time))
+
+    for i, hora in enumerate(hora_list[12:]):
+      hora_end_time = get_interval(start_jd=self.jd_sunset, end_jd=self.jd_next_sunrise, part_index=i, num_parts=12).jd_end
+      self.hora_data.append((hora, HORA_GRAHAS[hora], hora_end_time))
+
+    return self.hora_data
 
 
   def get_lagna_data(self, ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, debug=False):

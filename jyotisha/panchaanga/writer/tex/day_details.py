@@ -1,6 +1,7 @@
 import jyotisha
 from jyotisha import custom_transliteration
 from jyotisha.panchaanga.temporal import time, names
+from jyotisha.panchaanga.temporal.body import Graha
 
 
 def get_lagna_data_str(daily_panchaanga, scripts, time_format):
@@ -13,6 +14,20 @@ def get_lagna_data_str(daily_panchaanga, scripts, time_format):
                       time.Hour(24 * (lagna_end_jd - jd)).to_string(
                         format=time_format))
   return lagna_data_str
+
+
+def get_hora_data_str(daily_panchaanga, scripts, time_format):
+  jd = daily_panchaanga.julian_day_start
+  GRAHA_NAMES = {Graha.SUN: 'sUryaH', Graha.MOON: 'candraH', Graha.MARS: 'maGgalaH', Graha.MERCURY: 'budhaH', Graha.JUPITER: 'guruH', Graha.VENUS: 'zukraH', Graha.SATURN: 'zaniH', Graha.RAHU: 'rAhuH'}
+  hora_data_str = jyotisha.custom_transliteration.tr('hOrAH—', scripts[0])
+
+  for hora_ID, hora_graha_name, hora_end_jd in daily_panchaanga.hora_data:
+    hora = jyotisha.custom_transliteration.tr(GRAHA_NAMES[hora_graha_name], scripts[0])
+    hora_data_str = '%s\\hora{%s}{%s} ' % \
+                     (hora_data_str, hora,
+                      time.Hour(24 * (hora_end_jd - jd)).to_string(
+                        format=time_format))
+  return hora_data_str
 
 
 def get_shraaddha_tithi_data_str(daily_panchaanga, scripts, time_format):
