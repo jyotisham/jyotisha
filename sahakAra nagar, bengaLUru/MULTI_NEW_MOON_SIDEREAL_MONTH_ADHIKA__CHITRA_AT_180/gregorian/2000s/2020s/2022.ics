@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220220141647
+SEQUENCE:20220220193720
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -2794,7 +2794,12 @@ BEGIN:VEVENT
 SUMMARY:सहस्य-मासः/हेमन्तऋतुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220120T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220120T080904
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/sahasya-mAs
+ aH__hEmantaRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><b
+ r/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/a
+ dyatithi/blob/master/time_focus/sankrAnti/description_only/sahasya-mAsaH__
+ hEmantaRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -6858,7 +6863,12 @@ BEGIN:VEVENT
 SUMMARY:तपो-मासः
 DTSTART;VALUE=DATE:20220218
 DTEND;VALUE=DATE:20220218
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/tapO-mAsaH.
+ toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><br/><br/>## Detai
+ ls<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/ma
+ ster/time_focus/sankrAnti/description_only/tapO-mAsaH.toml)<br/>- Tags: Su
+ nSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11035,7 +11045,12 @@ BEGIN:VEVENT
 SUMMARY:तपस्य-मासः/शिशिरऋतुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220320T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220320T210323
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/tapasya-mAs
+ aH__ziziraRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><br
+ /><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ad
+ yatithi/blob/master/time_focus/sankrAnti/description_only/tapasya-mAsaH__z
+ iziraRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -15891,7 +15906,12 @@ BEGIN:VEVENT
 SUMMARY:मधु-मासः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220420T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220420T075415
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/madhu-mAsaH
+ .toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><br/><br/>## Deta
+ ils<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/m
+ aster/time_focus/sankrAnti/description_only/madhu-mAsaH.toml)<br/>- Tags: 
+ SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -20313,7 +20333,12 @@ BEGIN:VEVENT
 SUMMARY:माधव-मासः/वसन्तऋतुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220521T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220521T065233
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/mAdhava-mAs
+ aH__vasantaRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><b
+ r/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/a
+ dyatithi/blob/master/time_focus/sankrAnti/description_only/mAdhava-mAsaH__
+ vasantaRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -24687,7 +24712,12 @@ BEGIN:VEVENT
 SUMMARY:शुक्र-मासः/उत्तरायणम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220621T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220621T144349
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/zukra-mAsaH
+ __uttarAyaNam.toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><br/
+ ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
+ atithi/blob/master/time_focus/sankrAnti/description_only/zukra-mAsaH__utta
+ rAyaNam.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -28681,7 +28711,12 @@ BEGIN:VEVENT
 SUMMARY:शुचि-मासः/ग्रीष्मऋतुः
 DTSTART;VALUE=DATE:20220722
 DTEND;VALUE=DATE:20220723
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/zuci-mAsaH_
+ _grISmaRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><br/><
+ br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyat
+ ithi/blob/master/time_focus/sankrAnti/description_only/zuci-mAsaH__grISmaR
+ tuH.toml)<br/>- Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -33517,7 +33552,12 @@ BEGIN:VEVENT
 SUMMARY:नभो-मासः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220823T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220823T084607
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/nabhO-mAsaH
+ .toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><br/><br/>## Deta
+ ils<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/m
+ aster/time_focus/sankrAnti/description_only/nabhO-mAsaH.toml)<br/>- Tags: 
+ SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -38198,7 +38238,12 @@ BEGIN:VEVENT
 SUMMARY:नभस्य-मासः/वर्षऋतुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220923T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220923T063340
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/nabhasya-mA
+ saH__varSaRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><br
+ /><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ad
+ yatithi/blob/master/time_focus/sankrAnti/description_only/nabhasya-mAsaH__
+ varSaRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -42634,7 +42679,12 @@ BEGIN:VEVENT
 SUMMARY:इष-मासः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221023T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221023T160541
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/iSa-mAsaH.t
+ oml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><br/><br/>## Detail
+ s<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mas
+ ter/time_focus/sankrAnti/description_only/iSa-mAsaH.toml)<br/>- Tags: SunS
+ ankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -47311,7 +47361,12 @@ BEGIN:VEVENT
 SUMMARY:ऊर्ज-मासः/शरदृतुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221122T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221122T135028
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/Urja-mAsaH_
+ _zaradRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/blob/master/time_focus/sankrAnti/description_only/Urja-mAsaH__zaradRtu
+ H.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -51229,7 +51284,12 @@ BEGIN:VEVENT
 SUMMARY:सहो-मासः/दक्षिणायनम्
 DTSTART;VALUE=DATE:20221221
 DTEND;VALUE=DATE:20221222
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/sahO-mAsaH_
+ _dakSiNAyanam.toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><br/
+ ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
+ atithi/blob/master/time_focus/sankrAnti/description_only/sahO-mAsaH__dakSi
+ NAyanam.toml)<br/>- Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
