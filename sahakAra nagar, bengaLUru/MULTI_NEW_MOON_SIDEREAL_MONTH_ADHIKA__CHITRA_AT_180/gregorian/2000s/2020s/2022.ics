@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220219151227
+SEQUENCE:20220220082320
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -6990,6 +6990,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:गोखले-बापु-मरणम् #२०४
+DTSTART;VALUE=DATE:20220219
+DTEND;VALUE=DATE:20220220
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/02/19/gokha
+ le-bApu-maraNam.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Ed
+ it config file](https://github.com/jyotisham/adyatithi/blob/master/mahApur
+ uSha/xatra-later/gregorian/day/02/19/gokhale-bApu-maraNam.toml)<br/>- Tags
+ :
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:गोल्वाल्कर-माधवो जातः #१
  १६
 DTSTART;VALUE=DATE:20220219
@@ -7118,24 +7136,6 @@ DESCRIPTION:Observed on Hastaḥ nakshatra of Kumbhaḥ (sidereal solar) m
  nfig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/
  nAyanAr/sidereal_solar_month/nakshatra/11/13/er2ipatta_nAyan2Ar_%287%29_gu
  rupUjai.toml)<br/>- Tags: NayanarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:गोखले-बापु-मरणम् #७६
-DTSTART;VALUE=DATE:20220220
-DTEND;VALUE=DATE:20220221
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/02/20/gokha
- le-bApu-maraNam.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Ed
- it config file](https://github.com/jyotisham/adyatithi/blob/master/mahApur
- uSha/xatra-later/gregorian/day/02/20/gokhale-bApu-maraNam.toml)<br/>- Tags
- :
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
