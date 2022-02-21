@@ -160,31 +160,31 @@ class SolarFestivalAssigner(FestivalAssigner):
     if 'mESa-viSu-puNyakAlaH' not in self.rules_collection.name_to_rule:
       return 
     RTU_MASA_NAMES = {
-        1: "madhu-mAsaH",
-        2: "mAdhava-mAsaH/vasantaRtuH",
-        3: "zukra-mAsaH/uttarAyaNam",
-        4: "zuci-mAsaH/grISmaRtuH",
-        5: "nabhO-mAsaH",
-        6: "nabhasya-mAsaH/varSaRtuH",
-        7: "iSa-mAsaH",
-        8: "Urja-mAsaH/zaradRtuH",
-        9: "sahO-mAsaH/dakSiNAyanam",
-        10: "sahasya-mAsaH/hEmantaRtuH",
-        11: "tapO-mAsaH",
-        12: "tapasya-mAsaH/ziziraRtuH",
+        1: "madhu-mAsaH/vasantaRtuH",
+        2: "mAdhava-mAsaH",
+        3: "zukra-mAsaH/grISmaRtuH",
+        4: "zuci-mAsaH/dakSiNAyanam",
+        5: "nabhO-mAsaH/varSaRtuH",
+        6: "nabhasya-mAsaH",
+        7: "iSa-mAsaH/zaradRtuH",
+        8: "Urja-mAsaH",
+        9: "sahO-mAsaH/hEmantaRtuH",
+        10: "sahasya-mAsaH/uttarAyaNam",
+        11: "tapO-mAsaH/ziziraRtuH",
+        12: "tapasya-mAsaH",
     }
 
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       if self.daily_panchaangas[d].tropical_date_sunset.month_transition is not None:
         jd_transition = self.daily_panchaangas[d].tropical_date_sunset.month_transition
 
-        # Add tropical sankranti
-        masa_name = RTU_MASA_NAMES[(self.daily_panchaangas[d + 1].tropical_date_sunset.month - 2) % 12 + 1]
+        # Addsankranti
+        masa_name = RTU_MASA_NAMES[(self.daily_panchaangas[d + 1].tropical_date_sunset.month - 1) % 12 + 1]
         if jd_transition < self.daily_panchaangas[d].jd_sunrise:
           fday = d - 1
         else:
           fday = d
-        self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=masa_name, interval=Interval(jd_start=None, jd_end=jd_transition)), date=self.daily_panchaangas[fday].date)
+        self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=masa_name, interval=Interval(jd_start=jd_transition, jd_end=None)), date=self.daily_panchaangas[fday].date)
 
 
   def assign_agni_nakshatra(self):

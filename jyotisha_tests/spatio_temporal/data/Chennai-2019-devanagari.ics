@@ -1344,7 +1344,15 @@ BEGIN:VEVENT
 SUMMARY:makara-saṅkramaṇa-puṇyakālaḥ
 DTSTART;VALUE=DATE:20190114
 DTEND;VALUE=DATE:20190115
-DESCRIPTION:
+DESCRIPTION:Makara-Saṅkramaṇa Punyakala.<br/><br/>saṅkrāntisnānāk
+ araṇē pratyavāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇē pu
+ ṇyē na snāyādyadi mānavaḥ।  <br/>saptajanmasu rōgī syād duḥ
+ khabhāgī ca jāyatē॥  <br/>saṅkrāntyāṁ yāni dattāni havyakavy
+ āni mānavaiḥ।  <br/>tāni tasya dadātyarkaḥ saptajanmasu niścita
+ m॥  <br/>(smr̥timuktāphalē āhnika-kāṇḍē-pūrvabhāgaḥ)<br/><
+ br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/blob/master/time_focus/sankrAnti/description_only/makara-sa
+ GkramaNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1956,16 +1964,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sahasya-māsaḥ/hēmantar̥tuḥ
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190119T235957
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190120T142934
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:makara-puṣyōtsavaḥ
 DTSTART;VALUE=DATE:20190120
 DTEND;VALUE=DATE:20190121
@@ -1983,6 +1981,16 @@ DESCRIPTION:Observed on Puṣyaḥ nakshatra of Makaraḥ (sidereal solar)
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:tapō-māsaḥ/śiśirar̥tuḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190120T142934
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190120T235957
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -5185,13 +5193,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:tapō-māsaḥ
-DTSTART;VALUE=DATE:20190217
-DTEND;VALUE=DATE:20190219
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
+SUMMARY:tapasya-māsaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190219T043359
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190218T235957
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/tapasya-mAs
+ aH.toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><br/><br/>## De
+ tails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob
+ /master/time_focus/sankrAnti/description_only/tapasya-mAsaH.toml)<br/>- Ta
+ gs: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -8185,6 +8195,21 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:madhu-māsaḥ/vasantar̥tuḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190321T032827
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190320T235957
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/madhu-mAsaH
+ __vasantaRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><br/
+ ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
+ atithi/blob/master/time_focus/sankrAnti/description_only/madhu-mAsaH__vasa
+ ntaRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:manvādiḥ-(rudraḥ-[12])
 DTSTART;VALUE=DATE:20190320
 DTEND;VALUE=DATE:20190321
@@ -8227,19 +8252,6 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of every (lunar) month (Āśv
  inaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit config file
  ](https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/luna
  r_month/tithi/00/15/pancha-parva-2.toml)<br/>- Tags: Pancha Parva
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:tapasya-māsaḥ/śiśirar̥tuḥ
-DTSTART;VALUE=DATE:20190319
-DTEND;VALUE=DATE:20190321
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11986,10 +11998,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:madhu-māsaḥ
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190419T235957
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190420T142514
-DESCRIPTION:
+SUMMARY:mādhava-māsaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190420T142514
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190420T235957
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/mAdhava-mAs
+ aH.toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><br/><br/>## De
+ tails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob
+ /master/time_focus/sankrAnti/description_only/mAdhava-mAsaH.toml)<br/>- Ta
+ gs: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -15510,16 +15527,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:mādhava-māsaḥ/vasantar̥tuḥ
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190520T235957
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190521T132905
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Muruga Nāyanār (15) Gurupūjai
 DTSTART;VALUE=DATE:20190521
 DTEND;VALUE=DATE:20190522
@@ -15600,6 +15607,21 @@ DESCRIPTION:Observed on Mūlā nakshatra of Vr̥ṣabhaḥ (sidereal solar
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:śukra-māsaḥ/grīṣmar̥tuḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190521T132905
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190521T235957
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/zukra-mAsaH
+ __grISmaRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><br/>
+ <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
+ tithi/blob/master/time_focus/sankrAnti/description_only/zukra-mAsaH__grISm
+ aRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -18966,10 +18988,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:śukra-māsaḥ/uttarāyaṇam
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190620T235957
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190621T212417
-DESCRIPTION:
+SUMMARY:śuci-māsaḥ/dakṣiṇāyanam
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190621T212417
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190621T235957
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/zuci-mAsaH_
+ _dakSiNAyanam.toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><br/
+ ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
+ atithi/blob/master/time_focus/sankrAnti/description_only/zuci-mAsaH__dakSi
+ NAyanam.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -22270,6 +22297,21 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:nabhō-māsaḥ/varṣar̥tuḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190723T082021
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190723T235957
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/nabhO-mAsaH
+ __varSaRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><br/><
+ br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyat
+ ithi/blob/master/time_focus/sankrAnti/description_only/nabhO-mAsaH__varSaR
+ tuH.toml)<br/>- Tags: SunSankranti CommonFestivals
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:viṣṇupadī-puṇyakālaḥ
 DTSTART;VALUE=DATE:20190722
 DTEND;VALUE=DATE:20190723
@@ -22285,16 +22327,6 @@ DESCRIPTION:Viṣṇupadī Punyakala.<br/><br/>saṅkrāntisnānākaraṇ
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:śuci-māsaḥ/grīṣmar̥tuḥ
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190722T235957
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190723T082021
-DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -25839,10 +25871,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:nabhō-māsaḥ
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190822T235957
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190823T153203
-DESCRIPTION:
+SUMMARY:nabhasya-māsaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190823T153203
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190823T235957
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/nabhasya-mA
+ saH.toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/time_focus/sankrAnti/description_only/nabhasya-mAsaH.toml)<br/>- 
+ Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -25991,9 +26028,14 @@ BEGIN:VEVENT
 SUMMARY:nandōtsavaḥ
 DTSTART;VALUE=DATE:20190824
 DTEND;VALUE=DATE:20190825
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/temples/North/relative_event/zrIkRSNajanmASTamI/o
- ffset__01/nandOtsavaH.toml)<br/>- Tags: NorthIndiaTempleFestivals
+DESCRIPTION:Since Lord Krishna was taken by Sri Vasudeva to Gokul in the n
+ ight\, the next day is celebrated as Nandotsava in "Vraja Kshetra"\, which
+  includes a number of places where Lord Krishna enacted his leelas\, inclu
+ ding Mathura\, Kamyavan\, Govardhan\, Gokul\, etc. This festival is widely
+  celebrated in temples as the 2nd of Janmashtami Mahotsav.<br/><br/>## Det
+ ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/
+ master/temples/North/relative_event/zrIkRSNajanmASTamI/offset__01/nandOtsa
+ vaH.toml)<br/>- Tags: NorthIndiaTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30007,10 +30049,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:nabhasya-māsaḥ/varṣar̥tuḥ
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190922T235957
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190923T132009
-DESCRIPTION:
+SUMMARY:iṣa-māsaḥ/śaradr̥tuḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190923T132009
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190923T235957
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/iSa-mAsaH__
+ zaradRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><br/><br
+ />## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatit
+ hi/blob/master/time_focus/sankrAnti/description_only/iSa-mAsaH__zaradRtuH.
+ toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -33489,13 +33536,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:iṣa-māsaḥ
-DTSTART;VALUE=DATE:20191022
-DTEND;VALUE=DATE:20191023
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
+SUMMARY:ūrja-māsaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191023T224940
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191023T235957
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/Urja-mAsaH.
+ toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><br/><br/>## Detai
+ ls<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/ma
+ ster/time_focus/sankrAnti/description_only/Urja-mAsaH.toml)<br/>- Tags: Su
+ nSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -37390,16 +37439,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ūrja-māsaḥ/śaradr̥tuḥ
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191121T235957
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191122T202850
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Meypporuḷ Nāyanār (4) Gurupūjai
 DTSTART;VALUE=DATE:20191122
 DTEND;VALUE=DATE:20191123
@@ -37411,6 +37450,21 @@ DESCRIPTION:Observed on Uttaraphalgunī nakshatra of Vr̥ścikaḥ (sidere
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sahō-māsaḥ/hēmantar̥tuḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191122T202850
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191122T235957
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/sahO-mAsaH_
+ _hEmantaRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><br/>
+ <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
+ tithi/blob/master/time_focus/sankrAnti/description_only/sahO-mAsaH__hEmant
+ aRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -40549,10 +40603,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sahō-māsaḥ/dakṣiṇāyanam
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191221T235957
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191222T094920
-DESCRIPTION:
+SUMMARY:sahasya-māsaḥ/uttarāyaṇam
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191222T094920
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191222T235957
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/sahasya-mAs
+ aH__uttarAyaNam.toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><b
+ r/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/a
+ dyatithi/blob/master/time_focus/sankrAnti/description_only/sahasya-mAsaH__
+ uttarAyaNam.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
