@@ -8,6 +8,7 @@ import methodtools
 import regex
 import toml
 from curation_utils import file_helper
+from sanskrit_data import collection_helper
 from timebudget import timebudget
 
 from jyotisha import custom_transliteration
@@ -383,7 +384,12 @@ class RulesCollection(common.JsonObject):
     if isinstance(anga, Anga):
       anga = anga.index
     try:
-      return self.tree[month_type.lower()][anga_type_id.lower()][month_str]["%02d" % anga]
+      subtree = self.tree[month_type.lower()][anga_type_id.lower()][month_str]["%02d" % anga]
+      tree_out = {}
+      for x, y in subtree.items():
+        if x != collection_helper.LEAVES_KEY:
+          tree_out[x] = y[collection_helper.LEAVES_KEY][0]
+      return tree_out
     except KeyError:
       return {}
 
