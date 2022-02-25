@@ -9,6 +9,7 @@ import shutil
 import toml
 from doc_curation.md import library
 from doc_curation.md.file import MdFile
+from doc_curation.md.library import metadata_helper
 
 import jyotisha
 from indic_transliteration import sanscript
@@ -42,7 +43,7 @@ def dump_ics_md_pair(panchaanga, period_str):
   logging.info("Copying to %s", monthly_file_path)
   shutil.copy(md_file.file_path, monthly_file_path)
   monthly_md_file = MdFile(file_path=monthly_file_path)
-  monthly_md_file.set_title_from_filename(dry_run=False, transliteration_target=None)
+  metadata_helper.set_title_from_filename(md_file=monthly_md_file, dry_run=False, transliteration_target=None)
   monthly_md_file.split_to_bits(source_script=None, dry_run=False, indexed_title_pattern=None)
   library.apply_function(fn=MdFile.split_to_bits, dir_path=monthly_dir, frontmatter_type=MdFile.TOML, source_script=None, dry_run=False, indexed_title_pattern=None)
   logging.info("%s exists? %s", monthly_dir, os.path.exists(monthly_dir))
