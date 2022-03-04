@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220225171854
+SEQUENCE:20220304210728
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -728,6 +728,23 @@ SUMMARY:महाधनुर्व्यतीपात-श्राद
 DTSTART;VALUE=DATE:20220106
 DTEND;VALUE=DATE:20220107
 DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:शुक्ल-चतुर्थी-व्रतम्
+DTSTART;VALUE=DATE:20220106
+DTEND;VALUE=DATE:20220107
+DESCRIPTION:Observed on Śukla-Caturthī tithi of every (lunar) month (Mad
+ hyāhnaḥ/puurvaviddha). <br/><br/>Shukla Chaturthi Vratam for Lord Ganes
+ ha.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
+ ham/adyatithi/blob/master/devatA/gaNapati/lunar_month/tithi/00/04/zukla-ca
+ turthI-vratam.toml)<br/>- Tags: MonthlyVratam ShuklaChaturthiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4625,6 +4642,23 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  - References<br/>  - Nirnaya Sindhu 162<br/>- [Edit config file](https://g
  ithub.com/jyotisham/adyatithi/blob/master/devatA/gaNapati/lunar_month/tith
  i/11/04/varakunda-caturthI.toml)<br/>- Tags: SpecialPuja
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:शुक्ल-चतुर्थी-व्रतम्
+DTSTART;VALUE=DATE:20220204
+DTEND;VALUE=DATE:20220205
+DESCRIPTION:Observed on Śukla-Caturthī tithi of every (lunar) month (Mad
+ hyāhnaḥ/puurvaviddha). <br/><br/>Shukla Chaturthi Vratam for Lord Ganes
+ ha.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
+ ham/adyatithi/blob/master/devatA/gaNapati/lunar_month/tithi/00/04/zukla-ca
+ turthI-vratam.toml)<br/>- Tags: MonthlyVratam ShuklaChaturthiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9022,6 +9056,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:शुक्ल-चतुर्थी-व्रतम्
+DTSTART;VALUE=DATE:20220306
+DTEND;VALUE=DATE:20220307
+DESCRIPTION:Observed on Śukla-Caturthī tithi of every (lunar) month (Mad
+ hyāhnaḥ/puurvaviddha). <br/><br/>Shukla Chaturthi Vratam for Lord Ganes
+ ha.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
+ ham/adyatithi/blob/master/devatA/gaNapati/lunar_month/tithi/00/04/zukla-ca
+ turthI-vratam.toml)<br/>- Tags: MonthlyVratam ShuklaChaturthiVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:फाल्गुनः-12-05  \,  मेषः-अपभरण
  ी🌛🌌  \,  कुम्भः-पूर्वप्रोष्ठ
  पदा-11-23🌞🌌  \,  तपस्यः-12-17🌞🪐  \,  सो
@@ -13348,6 +13399,23 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/tithi-vara-combinations/description_on
  ly/sukhA~aGgAraka-caturthI.toml)<br/>- Tags: RareDays Combinations
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:शुक्ल-चतुर्थी-व्रतम्
+DTSTART;VALUE=DATE:20220405
+DTEND;VALUE=DATE:20220406
+DESCRIPTION:Observed on Śukla-Caturthī tithi of every (lunar) month (Mad
+ hyāhnaḥ/puurvaviddha). <br/><br/>Shukla Chaturthi Vratam for Lord Ganes
+ ha.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
+ ham/adyatithi/blob/master/devatA/gaNapati/lunar_month/tithi/00/04/zukla-ca
+ turthI-vratam.toml)<br/>- Tags: MonthlyVratam ShuklaChaturthiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17849,6 +17917,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:शुक्ल-चतुर्थी-व्रतम्
+DTSTART;VALUE=DATE:20220504
+DTEND;VALUE=DATE:20220505
+DESCRIPTION:Observed on Śukla-Caturthī tithi of every (lunar) month (Mad
+ hyāhnaḥ/puurvaviddha). <br/><br/>Shukla Chaturthi Vratam for Lord Ganes
+ ha.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
+ ham/adyatithi/blob/master/devatA/gaNapati/lunar_month/tithi/00/04/zukla-ca
+ turthI-vratam.toml)<br/>- Tags: MonthlyVratam ShuklaChaturthiVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:वैशाखः-02-04  \,  मिथुनम्-मृगश
  ीर्षम्🌛🌌  \,  मेषः-अपभरणी-01-22🌞
  🌌  \,  माधवः-02-16🌞🪐  \,  गुरुः
@@ -22016,6 +22101,23 @@ DESCRIPTION:Observed on Śukla-Caturthī tithi of Jyaiṣṭhaḥ (lunar)
  ाग्यवृद्धये॥<br/><br/><br/><br/>## Details<br/>- [
  Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devat
  A/umA/lunar_month/tithi/03/04/umA-avatAraH.toml)<br/>- Tags: OtherJayantis
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:शुक्ल-चतुर्थी-व्रतम्
+DTSTART;VALUE=DATE:20220603
+DTEND;VALUE=DATE:20220604
+DESCRIPTION:Observed on Śukla-Caturthī tithi of every (lunar) month (Mad
+ hyāhnaḥ/puurvaviddha). <br/><br/>Shukla Chaturthi Vratam for Lord Ganes
+ ha.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
+ ham/adyatithi/blob/master/devatA/gaNapati/lunar_month/tithi/00/04/zukla-ca
+ turthI-vratam.toml)<br/>- Tags: MonthlyVratam ShuklaChaturthiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26215,6 +26317,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:शुक्ल-चतुर्थी-व्रतम्
+DTSTART;VALUE=DATE:20220703
+DTEND;VALUE=DATE:20220704
+DESCRIPTION:Observed on Śukla-Caturthī tithi of every (lunar) month (Mad
+ hyāhnaḥ/puurvaviddha). <br/><br/>Shukla Chaturthi Vratam for Lord Ganes
+ ha.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
+ ham/adyatithi/blob/master/devatA/gaNapati/lunar_month/tithi/00/04/zukla-ca
+ turthI-vratam.toml)<br/>- Tags: MonthlyVratam ShuklaChaturthiVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:आषाढः-04-05  \,  सिंहः-मघा🌛🌌  \,  
  मिथुनम्-आर्द्रा-03-20🌞🌌  \,  शुच
  िः-04-14🌞🪐  \,  सोमः
@@ -30223,6 +30342,23 @@ DESCRIPTION:Event occured on 1678-08-01 (gregorian). Julian date was conve
  >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/m
  ahApuruSha/xatra-later/julian/day/07/22/vellUru-durga-grahaNam.toml)<br/>-
   Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:शुक्ल-चतुर्थी-व्रतम्
+DTSTART;VALUE=DATE:20220801
+DTEND;VALUE=DATE:20220802
+DESCRIPTION:Observed on Śukla-Caturthī tithi of every (lunar) month (Mad
+ hyāhnaḥ/puurvaviddha). <br/><br/>Shukla Chaturthi Vratam for Lord Ganes
+ ha.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
+ ham/adyatithi/blob/master/devatA/gaNapati/lunar_month/tithi/00/04/zukla-ca
+ turthI-vratam.toml)<br/>- Tags: MonthlyVratam ShuklaChaturthiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -34906,6 +35042,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:शुक्ल-चतुर्थी-व्रतम्
+DTSTART;VALUE=DATE:20220831
+DTEND;VALUE=DATE:20220901
+DESCRIPTION:Observed on Śukla-Caturthī tithi of every (lunar) month (Mad
+ hyāhnaḥ/puurvaviddha). <br/><br/>Shukla Chaturthi Vratam for Lord Ganes
+ ha.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
+ ham/adyatithi/blob/master/devatA/gaNapati/lunar_month/tithi/00/04/zukla-ca
+ turthI-vratam.toml)<br/>- Tags: MonthlyVratam ShuklaChaturthiVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:भाद्रपदः-06-05  \,  तुला-स्वात
  ी🌛🌌  \,  सिंहः-पूर्वफल्गुनी-05-1
  6🌞🌌  \,  नभस्यः-06-10🌞🪐  \,  गुरुः
@@ -39158,6 +39311,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:शुक्ल-चतुर्थी-व्रतम्
+DTSTART;VALUE=DATE:20220929
+DTEND;VALUE=DATE:20220930
+DESCRIPTION:Observed on Śukla-Caturthī tithi of every (lunar) month (Mad
+ hyāhnaḥ/puurvaviddha). <br/><br/>Shukla Chaturthi Vratam for Lord Ganes
+ ha.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
+ ham/adyatithi/blob/master/devatA/gaNapati/lunar_month/tithi/00/04/zukla-ca
+ turthI-vratam.toml)<br/>- Tags: MonthlyVratam ShuklaChaturthiVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:आश्वयुजः-07-05  \,  वृश्चिकः-अ
  नूराधा🌛🌌  \,  कन्या-हस्तः-06-14🌞
  🌌  \,  इषः-07-08🌞🪐  \,  शुक्रः
@@ -42504,6 +42674,33 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:कामाक्षी-जयन्ती
+DTSTART;VALUE=DATE:20221022
+DTEND;VALUE=DATE:20221023
+DESCRIPTION:Observed on Pūrvaphalgunī nakshatra of Tulā (sidereal solar
+ ) month (Prātaḥ/paraviddha). <br/><br/>कान्ता काम-द
+ ुघा करीन्द्र-गमना कामारि-वा
+ माङ्क-गा  <br/>कल्याणी कलितावत
+ ार-सुभगा कस्तूरिका-चर्चिता
+ ।  <br/>कम्पा-तीर-रसाल-मूल-निलया
+  कारुण्य-कल्लोलिनी  <br/>कल्या
+ णानि करोतु मे भगवती काञ्ची-प
+ ुरी-देवता॥  <br/>जय जय जगदम्ब शि
+ वे  <br/>जय जय कामाक्षि जय जयाद्
+ रिसुते।  <br/>जय जय महेशदयिते  <br
+ />जय जय चिद्गगनकौमुदीधारे॥<br/
+ ><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyo
+ tisham/adyatithi/blob/master/devatA/shakti/sidereal_solar_month/nakshatra/
+ 07/11/kAmAkSI-jayantI.toml)<br/>- Tags: CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:वसुदेव-पूजा
 DTSTART;VALUE=DATE:20221022
 DTEND;VALUE=DATE:20221023
@@ -43607,6 +43804,23 @@ DESCRIPTION:Observed on Anūrādhā nakshatra of Tulā (sidereal solar) mo
  fig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/n
  AyanAr/sidereal_solar_month/nakshatra/07/17/pUcalAr_nAyan2Ar_%2856%29_guru
  pUjai.toml)<br/>- Tags: NayanarGurupujai
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:शुक्ल-चतुर्थी-व्रतम्
+DTSTART;VALUE=DATE:20221028
+DTEND;VALUE=DATE:20221029
+DESCRIPTION:Observed on Śukla-Caturthī tithi of every (lunar) month (Mad
+ hyāhnaḥ/puurvaviddha). <br/><br/>Shukla Chaturthi Vratam for Lord Ganes
+ ha.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
+ ham/adyatithi/blob/master/devatA/gaNapati/lunar_month/tithi/00/04/zukla-ca
+ turthI-vratam.toml)<br/>- Tags: MonthlyVratam ShuklaChaturthiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -48241,6 +48455,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:शुक्ल-चतुर्थी-व्रतम्
+DTSTART;VALUE=DATE:20221127
+DTEND;VALUE=DATE:20221128
+DESCRIPTION:Observed on Śukla-Caturthī tithi of every (lunar) month (Mad
+ hyāhnaḥ/puurvaviddha). <br/><br/>Shukla Chaturthi Vratam for Lord Ganes
+ ha.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
+ ham/adyatithi/blob/master/devatA/gaNapati/lunar_month/tithi/00/04/zukla-ca
+ turthI-vratam.toml)<br/>- Tags: MonthlyVratam ShuklaChaturthiVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-05  \,  मकरः-उत
  ्तराषाढा🌛🌌  \,  वृश्चिकः-अनू
  राधा-08-12🌞🌌  \,  सहः-09-07🌞🪐  \,  सोमः
@@ -52040,6 +52271,23 @@ DESCRIPTION:Observed on every occurrence of Śravaṇaḥ nakshatra (Sā
  g file](https://github.com/jyotisham/adyatithi/blob/master/general/siderea
  l_solar_month/nakshatra/00/22/zravaNa-vratam.toml)<br/>- Tags: SpecialVrat
  am
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:शुक्ल-चतुर्थी-व्रतम्
+DTSTART;VALUE=DATE:20221226
+DTEND;VALUE=DATE:20221227
+DESCRIPTION:Observed on Śukla-Caturthī tithi of every (lunar) month (Mad
+ hyāhnaḥ/puurvaviddha). <br/><br/>Shukla Chaturthi Vratam for Lord Ganes
+ ha.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
+ ham/adyatithi/blob/master/devatA/gaNapati/lunar_month/tithi/00/04/zukla-ca
+ turthI-vratam.toml)<br/>- Tags: MonthlyVratam ShuklaChaturthiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
