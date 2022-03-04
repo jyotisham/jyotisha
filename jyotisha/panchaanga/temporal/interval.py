@@ -39,13 +39,13 @@ class Interval(common.JsonObject):
     return "%s: (%s, %s)" % (default_if_none(self.name, "?"), default_if_none(time.ist_timezone.julian_day_to_local_time_str(jd=self.jd_start), "?"),
 default_if_none(time.ist_timezone.julian_day_to_local_time_str(jd=self.jd_end), "?"))
 
-  def to_hour_tex(self, tz, script, reference_date=None):
+  def to_hour_tex(self, tz, script, reference_date=None, time_format='hh:mm'):
     if self.jd_start is not None:
-      start_time = '~%s' % default_if_none(tz.julian_day_to_local_time(julian_day=self.jd_start).get_hour_str(reference_date=reference_date), "")
+      start_time = '~%s' % default_if_none(tz.julian_day_to_local_time(julian_day=self.jd_start).get_hour_str(reference_date=reference_date, format=time_format), "")
     else:
       start_time = ''
     if self.jd_end is not None:
-      end_time = '%s' % default_if_none(tz.julian_day_to_local_time(julian_day=self.jd_end).get_hour_str(reference_date=reference_date), "")
+      end_time = '%s' % default_if_none(tz.julian_day_to_local_time(julian_day=self.jd_end).get_hour_str(reference_date=reference_date, format=time_format), "")
     else:
       end_time = ''
     return "%s\\RIGHTarrow{}%s" % (start_time, end_time)
