@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220306095503
+SEQUENCE:20220306205623
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -8815,6 +8815,30 @@ DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
  b/master/devatA/graha/description_only/candra-darzanam.toml)<br/>- Tags: C
  handraDarshanam
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:काञ्ची ६८ जगद्गुरु श्री-
+ चन्द्रशेखरेन्द्र सरस्वती ७
+  आश्रम-स्वीकार-जयन्ती #११६
+DTSTART;VALUE=DATE:20220304
+DTEND;VALUE=DATE:20220305
+DESCRIPTION:Observed on Uttaraprōṣṭhapadā nakshatra of Kumbhaḥ (si
+ dereal solar) month (Prātaḥ/paraviddha). The event occurred in 5007 (Ka
+ li era).  <br/><br/><br/>jagadguru śrī~chandraśēkharēndra sarasvatī 
+ 7 was inducted into sannyāsāśramam on Friday\, 15th February 1907\, par
+ ābhava year\, kumbha/adhika phālguna māsa kr̥ṣṇa tr̥tīyā bhr̥g
+ uvāsaraḥ uttaraprōṣṭhapadā nakṣatram.<br/><br/>## Details<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mah
+ ApuruSha/kAnchI-maTha/sidereal_solar_month/nakshatra/11/26/kAJcI_68_jagadg
+ uru_zrI~candrazEkharEndra_sarasvatI_7_Azrama-svIkAra-jayantI.toml)<br/>- T
+ ags: MahapurushaEvents CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
