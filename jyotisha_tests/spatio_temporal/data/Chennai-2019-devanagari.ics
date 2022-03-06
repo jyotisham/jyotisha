@@ -6611,7 +6611,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:kr̥ṣṇāṅgāraka-caturdaśī-puṇyakālaḥ/yamatarpaṇam
+SUMMARY:kr̥ṣṇāṅgāraka-caturdaśī-puṇyakālaḥ/yama-tarpaṇam
 DTSTART;VALUE=DATE:20190305
 DTEND;VALUE=DATE:20190306
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
