@@ -7041,6 +7041,29 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:kāñcī 68 jagadguru śrī-candraśēkharēndra sarasvatī 7 āś
+ rama-svīkāra-jayantī #113
+DTSTART;VALUE=DATE:20190308
+DTEND;VALUE=DATE:20190309
+DESCRIPTION:Observed on Uttaraprōṣṭhapadā nakshatra of Kumbhaḥ (si
+ dereal solar) month (Prātaḥ/paraviddha). The event occurred in 5007 (Ka
+ li era).  <br/><br/><br/>jagadguru śrī~chandraśēkharēndra sarasvatī 
+ 7 was inducted into sannyāsāśramam on Friday\, 15th February 1907\, par
+ ābhava year\, kumbha/adhika phālguna māsa kr̥ṣṇa tr̥tīyā bhr̥g
+ uvāsaraḥ uttaraprōṣṭhapadā nakṣatram.<br/><br/>## Details<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mah
+ ApuruSha/kAnchI-maTha/sidereal_solar_month/nakshatra/11/26/kAJcI_68_jagadg
+ uru_zrI~candrazEkharEndra_sarasvatI_7_Azrama-svIkAra-jayantI.toml)<br/>- T
+ ags: MahapurushaEvents CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:phūlērā-dūj
 DTSTART;VALUE=DATE:20190308
 DTEND;VALUE=DATE:20190309
@@ -37797,7 +37820,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:smārta-utpannā-ēkādaśī (sannyastha)
+SUMMARY:smārta-utpannā-ēkādaśī (sannyasta)
 DTSTART;VALUE=DATE:20191123
 DTEND;VALUE=DATE:20191124
 DESCRIPTION:The Krishna-paksha Ekadashi of kārttika month is known as utp
