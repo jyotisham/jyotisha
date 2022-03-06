@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220304213003
+SEQUENCE:20220306093256
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -8250,7 +8250,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:कृष्णाङ्गारक-चतुर्दशी-प
- ुण्यकालः/यमतर्पणम्
+ ुण्यकालः/यम-तर्पणम्
 DTSTART;VALUE=DATE:20220301
 DTEND;VALUE=DATE:20220302
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
