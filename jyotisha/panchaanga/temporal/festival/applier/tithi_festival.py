@@ -259,13 +259,13 @@ class TithiFestivalAssigner(FestivalAssigner):
           self.panchaanga.add_festival(fest_id='smArta-' + names.get_ekaadashii_name(ekaadashii_paksha,
                                                                                      day_panchaanga.lunar_month_sunrise.index) + ' (gRhastha)', date=self.daily_panchaangas[smaarta_ekaadashii_fday].date)
           self.panchaanga.add_festival(fest_id='smArta-' + names.get_ekaadashii_name(ekaadashii_paksha, self.daily_panchaangas[
-            d].lunar_month_sunrise.index) + ' (sannyastha)', date=self.daily_panchaangas[yati_ekaadashii_fday].date)
+            d].lunar_month_sunrise.index) + ' (sannyasta)', date=self.daily_panchaangas[yati_ekaadashii_fday].date)
           self.panchaanga.add_festival(
             fest_id='vaiSNava-' + names.get_ekaadashii_name(ekaadashii_paksha, day_panchaanga.lunar_month_sunrise.index), date=self.daily_panchaangas[vaishnava_ekaadashii_fday].date)
           if day_panchaanga.solar_sidereal_date_sunset.month == 9:
             if ekaadashii_paksha == 'shukla':
               self.panchaanga.add_festival(fest_id='smArta-vaikuNTha-EkAdazI (gRhastha)', date=self.daily_panchaangas[smaarta_ekaadashii_fday].date)
-              self.panchaanga.add_festival(fest_id='smArta-vaikuNTha-EkAdazI (sannyastha)', date=self.daily_panchaangas[yati_ekaadashii_fday].date)
+              self.panchaanga.add_festival(fest_id='smArta-vaikuNTha-EkAdazI (sannyasta)', date=self.daily_panchaangas[yati_ekaadashii_fday].date)
               self.panchaanga.add_festival(fest_id='vaiSNava-vaikuNTha-EkAdazI', date=self.daily_panchaangas[vaishnava_ekaadashii_fday].date)
 
         if yati_ekaadashii_fday == smaarta_ekaadashii_fday == vaishnava_ekaadashii_fday is None:

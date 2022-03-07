@@ -343,10 +343,11 @@ class SolarFestivalAssigner(FestivalAssigner):
         # self.panchaanga.festival_id_to_days[new_yr] = [d]
         self.panchaanga.add_festival(fest_id=new_yr, date=self.daily_panchaangas[d].date)
         self.panchaanga.add_festival(fest_id='paJcAGga-paThanam', date=self.daily_panchaangas[d].date)
-        if daily_panchaanga.solar_sidereal_date_sunset.month_transition is None or daily_panchaanga.solar_sidereal_date_sunset.month_transition < daily_panchaanga.jd_sunrise:
-          self.panchaanga.add_festival(fest_id='viSukkan2i', date=daily_panchaanga.date)
-        else:
-          self.panchaanga.add_festival(fest_id='viSukkan2i', date=self.daily_panchaangas[d + 1].date)
+        self.panchaanga.add_festival(fest_id='viSukkan2i', date=self.daily_panchaangas[d].date)
+        # if daily_panchaanga.solar_sidereal_date_sunset.month_transition is None or daily_panchaanga.solar_sidereal_date_sunset.month_transition < daily_panchaanga.jd_sunrise:
+        #   self.panchaanga.add_festival(fest_id='viSukkan2i', date=daily_panchaanga.date)
+        # else:
+        #   self.panchaanga.add_festival(fest_id='viSukkan2i', date=self.daily_panchaangas[d + 1].date)
 
   def assign_vishesha_vyatipata(self):
     vs_list = copy(self.panchaanga.festival_id_to_days.get('vyatIpAta-zrAddham', []))

@@ -47,10 +47,14 @@ class Hour(JsonObject):
     if format[-1] == '*':
       if hour >= 24:
         suffix = '*'
-    else:
+    elif format[-1] == '+':
       if hour >= 24:
         hour -= 24
         suffix = '(+1)'  # Default notation for times > 23:59
+    else:
+      if hour >= 24:
+        hour -= 24
+        suffix = '*'  # Default notation for times > 23:59
 
     minute = secs // 60
     secs = secs % 60
