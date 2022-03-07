@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220306220709
+SEQUENCE:20220307161526
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -9158,27 +9158,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:यदुगिरिसरे त्र्यम्बकरा
- वो हैदरं जयति #२५१
-DTSTART;VALUE=DATE:20220307
-DTEND;VALUE=DATE:20220308
-DESCRIPTION:Event occured on 1771-03-07 (gregorian). <br/><br/>Moti tAlab 
- / tonnur kere- Melukote battlefield where Trimbak rao Pethe\, uncle to Sad
- ashiv rao\, inflicted a major defeat on Hyder Ali & Tipu on 7 March 1771. 
- Srirangapatna placed under a siege for 6 weeks. Hyder eventually paid a 50
-  lakh indemnity & signed a treaty.<br/><br/>## Details<br/>- [Edit config 
- file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xatra
- -later/gregorian/day/03/07/tryambak-rAvo_haidaram_jayati_yadugiri-sare.tom
- l)<br/>- Tags:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:२००६-वाराणासी-विस्फोटाः 
  #१६
 DTSTART;VALUE=DATE:20220307
@@ -9317,6 +9296,25 @@ DESCRIPTION:Do upavāsam (at least do not take salt) and pray to Lord Shiv
  a (Vaidyanatha Swami).<br/><br/>## Details<br/>- [Edit config file](https:
  //github.com/jyotisham/adyatithi/blob/master/tamil/description_only/mAci~c
  evvAy.toml)<br/>- Tags: MonthWeekdayFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:यदुगिरिसरे त्र्यम्बकरा
+ वो हैदरं जयति #२५१
+DTSTART;VALUE=DATE:20220308
+DTEND;VALUE=DATE:20220309
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/03/08/tryam
+ bak-rAvo_haidaram_jayati_yadugiri-samIpe.toml)<br/>- Tags: <br/><br/><br/>
+ <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
+ tithi/blob/master/mahApuruSha/xatra-later/gregorian/day/03/08/tryambak-rAv
+ o_haidaram_jayati_yadugiri-samIpe.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
