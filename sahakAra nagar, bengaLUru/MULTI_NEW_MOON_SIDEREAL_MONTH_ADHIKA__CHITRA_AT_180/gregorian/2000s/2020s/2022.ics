@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220307194347
+SEQUENCE:20220308071943
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -9305,8 +9305,8 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:यदुगिरिसरे त्र्यम्बकरा
- वो हैदरं जयति #२५१
+SUMMARY:त्र्यम्बकरावो हैदरं जयत
+ ि #२५१
 DTSTART;VALUE=DATE:20220308
 DTEND;VALUE=DATE:20220309
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
