@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220315195551
+SEQUENCE:20220316074145
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -3830,6 +3830,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:प्रतापसिंह-मृत्युः #४२५
+DTSTART;VALUE=DATE:20220129
+DTEND;VALUE=DATE:20220130
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/01/19/pratApas
+ iMha-mRtyuH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha
+ /xatra-later/julian/day/01/19/pratApasiMha-mRtyuH.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:सेङ्गालिपुरम्-मुत्तण्ण
  ावाळ्-आराधना #१२९
 DTSTART;VALUE=DATE:20220129
@@ -5221,25 +5238,6 @@ DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Māghaḥ (lunar) mont
  ig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/shakti/
  lunar_month/tithi/11/08/khODiyAra~mAtA~jayantI.toml)<br/>- Tags: OtherJaya
  ntis
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:प्रतापसिंह-मृत्युः #४२५
-DTSTART;VALUE=DATE:20220208
-DTEND;VALUE=DATE:20220209
-DESCRIPTION:Event occured on 1597-02-08 (gregorian). Julian date was conve
- rted to Gregorian in this reckoning. <br/><br/>Maharana Pratap passes away
-  due to injuries in a hunting accident at Chawand.<br/><br/>11 years earli
- er\, he'd reconquered all of mewar from Mogols\, except Ajmer\, Chittorgar
- h & Mandalgarh.<br/><br/>## Details<br/>- [Edit config file](https://githu
- b.com/jyotisham/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/0
- 1/29/pratApasiMha-mRtyuH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
