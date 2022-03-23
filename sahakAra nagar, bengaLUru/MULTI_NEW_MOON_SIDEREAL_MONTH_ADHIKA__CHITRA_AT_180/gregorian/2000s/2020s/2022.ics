@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220320142551
+SEQUENCE:20220323202757
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -11550,6 +11550,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:भगतसिंहादि-मारणम् #९१
+DTSTART;VALUE=DATE:20220323
+DTEND;VALUE=DATE:20220324
+DESCRIPTION:Event occured on 1931-03-23 (gregorian). <br/><br/>Bhagat Sing
+ h\, Shivaram Rajguru\, and Sukhdev Thapar were executed by the British on 
+ this day.<br/><br/>## Context<br/>The trio was found guilty of killing dep
+ uty police superintendent JP Saunders in 1928\, to avenge the death of Lal
+ a Lajpat Rai.<br/><br/>## Details<br/>- [Edit config file](https://github.
+ com/jyotisham/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/
+ 03/23/bhagata-siMhAdi-mAraNam.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:बुधानुराधा-पुण्यकालः
 DTSTART;VALUE=DATE:20220323
 DTEND;VALUE=DATE:20220324
@@ -11569,7 +11588,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:नन्दिमार्गहत्या #१९
+SUMMARY:नन्दिमार्ग-हत्या #१९
 DTSTART;VALUE=DATE:20220323
 DTEND;VALUE=DATE:20220324
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -11577,24 +11596,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  mArg-massacre.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit
   config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruS
  ha/xatra-later/gregorian/day/03/23/nandimArg-massacre.toml)<br/>- Tags:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:नन्दिमार्गे २४ पण्डिता ह
- ताः #१९
-DTSTART;VALUE=DATE:20220323
-DTEND;VALUE=DATE:20220324
-DESCRIPTION:Event occured on 2003-03-23 (gregorian). <br/><br/>Nadimarg ma
- ssacre of Kashmiri Pandits: 24 killed included toddlers.<br/><br/>## Detai
- ls<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/ma
- ster/mahApuruSha/xatra-later/gregorian/day/03/23/nandimArge_24_paNDitA_hat
- AH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
