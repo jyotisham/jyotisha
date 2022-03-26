@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220325095647
+SEQUENCE:20220326073212
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -11761,6 +11761,25 @@ DESCRIPTION:- Indian civil date: 1944-01-04\, Islamic: 1443-08-21 Shaʿbā
  ालः**—07:54-09:24  \n___________________\n- **शूलम्**—
  प्रतीची (►11:13)\; **परिहारः**–गुड
  म्  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:गणेश-विद्यार्थि-हत्या #९
+ १
+DTSTART;VALUE=DATE:20220325
+DTEND;VALUE=DATE:20220326
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/03/25/gaNes
+ ha-vidyArthi-hatyA.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahA
+ puruSha/xatra-later/gregorian/day/03/25/gaNesha-vidyArthi-hatyA.toml)<br/>
+ - Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
