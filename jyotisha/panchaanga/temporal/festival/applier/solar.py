@@ -118,18 +118,18 @@ class SolarFestivalAssigner(FestivalAssigner):
     PUNYA_KAALA = {1: (10, 10), 2: (16, 16), 3: (0, 60), 4: (30, 0), 5: (16, 16), 6: (0, 60),
                    7: (10, 10), 8: (16, 16), 9: (0, 60), 10: (0, 20), 11: (16, 16), 12: (0, 60)}
     TROPICAL_SANKRANTI_PUNYAKALA_NAMES = {
-        1: "mESa-viSu",
-        2: "viSNupadI",
-        3: "SaDazIti",
-        4: "dakSiNAyana",
-        5: "viSNupadI",
-        6: "SaDazIti",
-        7: "tulA-viSu",
-        8: "viSNupadI",
-        9: "SaDazIti",
-        10: "uttarAyaNa",
-        11: "viSNupadI",
-        12: "SaDazIti",
+        1: "(sAyana)~viSu",
+        2: "(sAyana)~viSNupadI",
+        3: "(sAyana)~SaDazIti",
+        4: "(sAyana)~dakSiNAyana",
+        5: "(sAyana)~viSNupadI",
+        6: "(sAyana)~SaDazIti",
+        7: "(sAyana)~viSu",
+        8: "(sAyana)~viSNupadI",
+        9: "(sAyana)~SaDazIti",
+        10: "(sAyana)~uttarAyaNa",
+        11: "(sAyana)~viSNupadI",
+        12: "(sAyana)~SaDazIti",
     }
 
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
