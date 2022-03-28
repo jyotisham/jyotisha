@@ -76,17 +76,17 @@ class Hour(JsonObject):
       return ('%d-%d' % (gg, pp))
     elif format == 'gg-pp-vv':  # ghatika-pal-vipal
       vv_tot = round(self.hour * 3600 / 0.4)
-      logging.debug(vv_tot)
+      # logging.debug(vv_tot)
       vv = vv_tot % 60
-      logging.debug(vv)
+      # logging.debug(vv)
       vv_tot = (vv_tot - vv) // 60
-      logging.debug(vv_tot)
+      # logging.debug(vv_tot)
       pp = vv_tot % 60
-      logging.debug(pp)
+      # logging.debug(pp)
       vv_tot = (vv_tot - pp) // 60
-      logging.debug(vv_tot)
+      # logging.debug(vv_tot)
       gg = vv_tot
-      logging.debug(gg)
+      # logging.debug(gg)
       return ('%d-%d-%d' % (gg, pp, vv))
     else:
       raise Exception("""Unknown format""")

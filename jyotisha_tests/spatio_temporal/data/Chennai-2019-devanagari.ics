@@ -464,6 +464,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:kamalā-jayantī
+DTSTART;VALUE=DATE:20190105
+DTEND;VALUE=DATE:20190106
+DESCRIPTION:Observed on Amāvāsyā tithi of Mārgaśīrṣaḥ (lunar) mo
+ nth (Madhyarātriḥ/puurvaviddha). <br/><br/>Goddess Kamala is 10th of th
+ e Dasha Maha Vidyas.<br/><br/>## Details<br/>- [Edit config file](https://
+ github.com/jyotisham/adyatithi/blob/master/devatA/dashamahAvidyA/lunar_mon
+ th/tithi/09/30/kamalA~jayantI.toml)<br/>- Tags: Dashamahavidya
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:pārvaṇavratam amāvāsyāyām
 DTSTART;VALUE=DATE:20190105
 DTEND;VALUE=DATE:20190106
@@ -1894,6 +1911,19 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:(sāyana) viṣṇupadī-puṇyakālaḥ
+DTSTART;VALUE=DATE:20190119
+DTEND;VALUE=DATE:20190120
+DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:dēvī-parva-10
 DTSTART;VALUE=DATE:20190120
 DTEND;VALUE=DATE:20190121
@@ -2040,27 +2070,6 @@ DESCRIPTION:Observed on every occurrence of Vaidhr̥tiḥ yoga (Aparāhṇ
  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/deva
  tA/pitR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham.toml)<br/>- Tags
  : MonthlyShraddhaDays ShannavatiTarpanaDays
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:viṣṇupadī-puṇyakālaḥ
-DTSTART;VALUE=DATE:20190119
-DTEND;VALUE=DATE:20190120
-DESCRIPTION:Viṣṇupadī Punyakala.<br/><br/>saṅkrāntisnānākaraṇ
- ē pratyavāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇē puṇyē
-  na snāyādyadi mānavaḥ।  <br/>saptajanmasu rōgī syād duḥkhabh
- āgī ca jāyatē॥  <br/>saṅkrāntyāṁ yāni dattāni havyakavyāni 
- mānavaiḥ।  <br/>tāni tasya dadātyarkaḥ saptajanmasu niścitam॥ 
-  <br/>(smr̥timuktāphalē āhnika-kāṇḍē-pūrvabhāgaḥ)<br/><br/><
- br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
- adyatithi/blob/master/time_focus/sankrAnti/description_only/viSNupadI-puNy
- akAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5304,18 +5313,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ṣaḍaśīti-puṇyakālaḥ
+SUMMARY:(sāyana) ṣaḍaśīti-puṇyakālaḥ
 DTSTART;VALUE=DATE:20190218
 DTEND;VALUE=DATE:20190219
-DESCRIPTION:Ṣaḍaśīti Punyakala.<br/><br/>saṅkrāntisnānākaraṇ
- ē pratyavāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇē puṇyē
-  na snāyādyadi mānavaḥ।  <br/>saptajanmasu rōgī syād duḥkhabh
- āgī ca jāyatē॥  <br/>saṅkrāntyāṁ yāni dattāni havyakavyāni 
- mānavaiḥ।  <br/>tāni tasya dadātyarkaḥ saptajanmasu niścitam॥ 
-  <br/>(smr̥timuktāphalē āhnika-kāṇḍē-pūrvabhāgaḥ)<br/><br/><
- br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
- adyatithi/blob/master/time_focus/sankrAnti/description_only/SaDazIti-puNya
- kAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8436,6 +8437,19 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:(sāyana) viṣu-puṇyakālaḥ
+DTSTART;VALUE=DATE:20190320
+DTEND;VALUE=DATE:20190321
+DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:āmra-kusuma-prāśanam
 DTSTART;VALUE=DATE:20190321
 DTEND;VALUE=DATE:20190322
@@ -8510,27 +8524,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/temples/Tamil/relative_event/kar2pagAmbAL%E2%80%9
  3kapAlIzvarar_tirukkalyANam/offset__01/kapAlI_viDaiyAr2r2i_toDakkam.toml)<
  br/>- Tags: TamilnaduTempleFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:mēṣa-viṣu-puṇyakālaḥ
-DTSTART;VALUE=DATE:20190320
-DTEND;VALUE=DATE:20190321
-DESCRIPTION:Meṣa-Viṣu Punyakala.<br/><br/>saṅkrāntisnānākaraṇē
-  pratyavāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇē puṇyē n
- a snāyādyadi mānavaḥ।  <br/>saptajanmasu rōgī syād duḥkhabhāg
- ī ca jāyatē॥  <br/>saṅkrāntyāṁ yāni dattāni havyakavyāni mā
- navaiḥ।  <br/>tāni tasya dadātyarkaḥ saptajanmasu niścitam॥  <b
- r/>(smr̥timuktāphalē āhnika-kāṇḍē-pūrvabhāgaḥ)<br/><br/><br/
- ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
- atithi/blob/master/time_focus/sankrAnti/description_only/mESa-viSu-puNyakA
- laH.toml)<br/>- Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10377,6 +10370,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:mahātārā-jayantī
+DTSTART;VALUE=DATE:20190408
+DTEND;VALUE=DATE:20190409
+DESCRIPTION:Observed on Śukla-Caturthī tithi of Caitraḥ (lunar) month 
+ (Madhyarātriḥ/puurvaviddha). <br/><br/>Goddess Mahatara is 2nd of the D
+ asha Maha Vidyas.<br/><br/>## Details<br/>- [Edit config file](https://git
+ hub.com/jyotisham/adyatithi/blob/master/devatA/dashamahAvidyA/lunar_month/
+ tithi/01/04/mahAtArA~jayantI.toml)<br/>- Tags: Dashamahavidya
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:manvādiḥ-(uttamaḥ-[3])
 DTSTART;VALUE=DATE:20190408
 DTEND;VALUE=DATE:20190409
@@ -10953,23 +10963,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/01/09/
  kAJcI_43_jagadguru_zrI~AnandaghanEndra_sarasvatI_ArAdhanA.toml)<br/>- Tags
  : KanchiAradhanaDays
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:mahātārā-jayantī
-DTSTART;VALUE=DATE:20190413
-DTEND;VALUE=DATE:20190414
-DESCRIPTION:Observed on Śukla-Navamī tithi of Caitraḥ (lunar) month (M
- adhyāhnaḥ/puurvaviddha). <br/><br/>Goddess Mahatara is 2nd of the Dasha
-  Maha Vidyas.<br/><br/>## Details<br/>- [Edit config file](https://github.
- com/jyotisham/adyatithi/blob/master/devatA/dashamahAvidyA/lunar_month/tith
- i/01/09/mahAtArA~jayantI.toml)<br/>- Tags: Dashamahavidya
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12065,6 +12058,19 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:(sāyana) viṣṇupadī-puṇyakālaḥ
+DTSTART;VALUE=DATE:20190419
+DTEND;VALUE=DATE:20190420
+DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:kāñcī 60 jagadguru śrī-advaitātmaprakāśēndra sarasvatī 
  ārādhanā #316
 DTSTART;VALUE=DATE:20190420
@@ -12167,27 +12173,6 @@ DESCRIPTION:Observed on Svātī nakshatra of Mēṣaḥ (sidereal solar) m
  nfig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/
  nAyanAr/sidereal_solar_month/nakshatra/01/15/tirukkur2ipput_toNDa_nAyan2Ar
  _%2818%29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:viṣṇupadī-puṇyakālaḥ
-DTSTART;VALUE=DATE:20190419
-DTEND;VALUE=DATE:20190420
-DESCRIPTION:Viṣṇupadī Punyakala.<br/><br/>saṅkrāntisnānākaraṇ
- ē pratyavāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇē puṇyē
-  na snāyādyadi mānavaḥ।  <br/>saptajanmasu rōgī syād duḥkhabh
- āgī ca jāyatē॥  <br/>saṅkrāntyāṁ yāni dattāni havyakavyāni 
- mānavaiḥ।  <br/>tāni tasya dadātyarkaḥ saptajanmasu niścitam॥ 
-  <br/>(smr̥timuktāphalē āhnika-kāṇḍē-pūrvabhāgaḥ)<br/><br/><
- br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
- adyatithi/blob/master/time_focus/sankrAnti/description_only/viSNupadI-puNy
- akAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13785,7 +13770,7 @@ SUMMARY:rāja-mātaṅgī-jayantī
 DTSTART;VALUE=DATE:20190507
 DTEND;VALUE=DATE:20190508
 DESCRIPTION:Observed on Śukla-Tr̥tīyā tithi of Vaiśākhaḥ (lunar) m
- onth (Sūryōdayaḥ/puurvaviddha). <br/><br/>Goddess Raja Matangi is 9th 
+ onth (Aparāhṇaḥ/puurvaviddha). <br/><br/>Goddess Raja Matangi is 9th 
  of the Dasha Maha Vidyas.<br/><br/>## Details<br/>- References<br/>  - Kie
  lhorn (1897)\; Ashtanga Panchangam<br/>- [Edit config file](https://github
  .com/jyotisham/adyatithi/blob/master/devatA/dashamahAvidyA/lunar_month/tit
@@ -14980,6 +14965,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:chinnamastā-jayantī
+DTSTART;VALUE=DATE:20190517
+DTEND;VALUE=DATE:20190518
+DESCRIPTION:Observed on Śukla-Caturdaśī tithi of Vaiśākhaḥ (lunar) 
+ month (Madhyarātriḥ/puurvaviddha). <br/><br/>Goddess Chinnamasta is 6th
+  of the Dasha Maha Vidyas.<br/><br/>## Details<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/blob/master/devatA/dashamahAvidyA/lun
+ ar_month/tithi/02/14/chinnamastA~jayantI.toml)<br/>- Tags: Dashamahavidya
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:kāñcī 39 jagadguru śrī-saccidvilāsēndra sarasvatī ārādha
  nā #1147
 DTSTART;VALUE=DATE:20190517
@@ -15112,23 +15114,6 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Vaiśākhaḥ (lunar) mont
  t config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/s
  haiva/lunar_month/tithi/02/15/ardhanArIzvara-vratam.toml)<br/>- Tags: Spec
  ialVratam
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:chinnamastā-jayantī
-DTSTART;VALUE=DATE:20190518
-DTEND;VALUE=DATE:20190519
-DESCRIPTION:Observed on Paurṇamāsī tithi of Vaiśākhaḥ (lunar) mont
- h (Sūryōdayaḥ/puurvaviddha). <br/><br/>Goddess Chinnamasta is 6th of t
- he Dasha Maha Vidyas.<br/><br/>## Details<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/blob/master/devatA/dashamahAvidyA/lunar_mo
- nth/tithi/02/15/chinnamastA~jayantI.toml)<br/>- Tags: Dashamahavidya
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15588,18 +15573,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ṣaḍaśīti-puṇyakālaḥ
+SUMMARY:(sāyana) ṣaḍaśīti-puṇyakālaḥ
 DTSTART;VALUE=DATE:20190520
 DTEND;VALUE=DATE:20190521
-DESCRIPTION:Ṣaḍaśīti Punyakala.<br/><br/>saṅkrāntisnānākaraṇ
- ē pratyavāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇē puṇyē
-  na snāyādyadi mānavaḥ।  <br/>saptajanmasu rōgī syād duḥkhabh
- āgī ca jāyatē॥  <br/>saṅkrāntyāṁ yāni dattāni havyakavyāni 
- mānavaiḥ।  <br/>tāni tasya dadātyarkaḥ saptajanmasu niścitam॥ 
-  <br/>(smr̥timuktāphalē āhnika-kāṇḍē-pūrvabhāgaḥ)<br/><br/><
- br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
- adyatithi/blob/master/time_focus/sankrAnti/description_only/SaDazIti-puNya
- kAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17604,6 +17581,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:dhūmāvatī-jayantī
+DTSTART;VALUE=DATE:20190609
+DTEND;VALUE=DATE:20190610
+DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Jyaiṣṭhaḥ (lunar
+ ) month (Madhyarātriḥ/puurvaviddha). <br/><br/>Goddess Dhumavati is 7th
+  of the Dasha Maha Vidyas.<br/><br/>## Details<br/>- References<br/>  - ht
+ tp://hindupad.com/dhumavati-jayanti-maa-dhumavathi-jayanthi/<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/dash
+ amahAvidyA/lunar_month/tithi/03/08/dhUmAvatI~jayantI.toml)<br/>- Tags: Das
+ hamahavidya
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:kāñcī 23 jagadguru śrī-saccitsukhēndra sarasvatī ārādhan
  ā #1508
 DTSTART;VALUE=DATE:20190609
@@ -17736,25 +17732,6 @@ DESCRIPTION:- Indian civil date: 1941-03-20\, Islamic: 1440-10-06 Shawwāl
  laḥ**—07:21-08:56\; **Yamaghaṇṭaḥ**—10:32-12:08\; **Gulikakāl
  aḥ**—13:44-15:19  \n___________________\n- **Śūlam**—Prāchī (►
  09:09)\; **Parihāraḥ**–Dadhi  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:dhūmāvatī-jayantī
-DTSTART;VALUE=DATE:20190610
-DTEND;VALUE=DATE:20190611
-DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Jyaiṣṭhaḥ (lunar
- ) month (Sūryōdayaḥ/puurvaviddha). <br/><br/>Goddess Dhumavati is 7th 
- of the Dasha Maha Vidyas.<br/><br/>## Details<br/>- References<br/>  - htt
- p://hindupad.com/dhumavati-jayanti-maa-dhumavathi-jayanthi/<br/>- [Edit co
- nfig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/dasha
- mahAvidyA/lunar_month/tithi/03/08/dhUmAvatI~jayantI.toml)<br/>- Tags: Dash
- amahavidya
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19172,18 +19149,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:dakṣiṇāyana-puṇyakālaḥ
+SUMMARY:(sāyana) dakṣiṇāyana-puṇyakālaḥ
 DTSTART;VALUE=DATE:20190621
 DTEND;VALUE=DATE:20190622
-DESCRIPTION:Dakṣiṇāyana Punyakala.<br/><br/>saṅkrāntisnānākara
- ṇē pratyavāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇē puṇ
- yē na snāyādyadi mānavaḥ।  <br/>saptajanmasu rōgī syād duḥkha
- bhāgī ca jāyatē॥  <br/>saṅkrāntyāṁ yāni dattāni havyakavyān
- i mānavaiḥ।  <br/>tāni tasya dadātyarkaḥ saptajanmasu niścitam
- ॥  <br/>(smr̥timuktāphalē āhnika-kāṇḍē-pūrvabhāgaḥ)<br/><b
- r/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
- ham/adyatithi/blob/master/time_focus/sankrAnti/description_only/dakSiNAyan
- a-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22434,6 +22403,19 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:(sāyana) viṣṇupadī-puṇyakālaḥ
+DTSTART;VALUE=DATE:20190722
+DTEND;VALUE=DATE:20190723
+DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:nabhō-māsaḥ/varṣar̥tuḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190723T082021
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190723T235957
@@ -22443,27 +22425,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyat
  ithi/blob/master/time_focus/sankrAnti/description_only/nabhO-mAsaH__varSaR
  tuH.toml)<br/>- Tags: SunSankranti CommonFestivals
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:viṣṇupadī-puṇyakālaḥ
-DTSTART;VALUE=DATE:20190722
-DTEND;VALUE=DATE:20190723
-DESCRIPTION:Viṣṇupadī Punyakala.<br/><br/>saṅkrāntisnānākaraṇ
- ē pratyavāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇē puṇyē
-  na snāyādyadi mānavaḥ।  <br/>saptajanmasu rōgī syād duḥkhabh
- āgī ca jāyatē॥  <br/>saṅkrāntyāṁ yāni dattāni havyakavyāni 
- mānavaiḥ।  <br/>tāni tasya dadātyarkaḥ saptajanmasu niścitam॥ 
-  <br/>(smr̥timuktāphalē āhnika-kāṇḍē-pūrvabhāgaḥ)<br/><br/><
- br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
- adyatithi/blob/master/time_focus/sankrAnti/description_only/viSNupadI-puNy
- akAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -25928,18 +25889,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ṣaḍaśīti-puṇyakālaḥ
+SUMMARY:(sāyana) ṣaḍaśīti-puṇyakālaḥ
 DTSTART;VALUE=DATE:20190822
 DTEND;VALUE=DATE:20190823
-DESCRIPTION:Ṣaḍaśīti Punyakala.<br/><br/>saṅkrāntisnānākaraṇ
- ē pratyavāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇē puṇyē
-  na snāyādyadi mānavaḥ।  <br/>saptajanmasu rōgī syād duḥkhabh
- āgī ca jāyatē॥  <br/>saṅkrāntyāṁ yāni dattāni havyakavyāni 
- mānavaiḥ।  <br/>tāni tasya dadātyarkaḥ saptajanmasu niścitam॥ 
-  <br/>(smr̥timuktāphalē āhnika-kāṇḍē-pūrvabhāgaḥ)<br/><br/><
- br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
- adyatithi/blob/master/time_focus/sankrAnti/description_only/SaDazIti-puNya
- kAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25980,23 +25933,6 @@ DESCRIPTION:Observed on every occurrence of Kr̥ttikā nakshatra (Sūryās
   [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/dev
  atA/kaumAra/sidereal_solar_month/nakshatra/00/03/kRttikA-vratam.toml)<br/>
  - Tags: SpecialVratam
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:mahākālī-jayantī
-DTSTART;VALUE=DATE:20190823
-DTEND;VALUE=DATE:20190824
-DESCRIPTION:Observed on Kr̥ṣṇa-Aṣṭamī tithi of Śrāvaṇaḥ (l
- unar) month (Niśīthaḥ/paraviddha). <br/><br/>Goddess Mahakali is 1st o
- f the Dasha Maha Vidyas.<br/><br/>## Details<br/>- [Edit config file](http
- s://github.com/jyotisham/adyatithi/blob/master/devatA/dashamahAvidyA/lunar
- _month/tithi/05/23/mahAkAlI~jayantI.toml)<br/>- Tags: Dashamahavidya
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -27932,6 +27868,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:mahākālī-jayantī
+DTSTART;VALUE=DATE:20190905
+DTEND;VALUE=DATE:20190906
+DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Bhādrapadaḥ (lunar)
+  month (Madhyarātriḥ/paraviddha). <br/><br/>Goddess Mahakali is 1st of 
+ the Dasha Maha Vidyas.<br/><br/>## Details<br/>- [Edit config file](https:
+ //github.com/jyotisham/adyatithi/blob/master/devatA/dashamahAvidyA/lunar_m
+ onth/tithi/06/08/mahAkAlI~jayantI.toml)<br/>- Tags: Dashamahavidya
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:vaidhr̥ti-śrāddham
 DTSTART;VALUE=DATE:20190905
 DTEND;VALUE=DATE:20190906
@@ -28385,6 +28338,26 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:bhuvanēśvarī-jayantī
+DTSTART;VALUE=DATE:20190909
+DTEND;VALUE=DATE:20190910
+DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Bhādrapadaḥ (lunar) 
+ month (Madhyarātriḥ/puurvaviddha). <br/><br/>Goddess Bhuvaneshwari is 4
+ th of the Dasha Maha Vidyas.<br/><br/>udyadinadyutimindukirīṭām tuṅg
+ akucāṁ nayanatrayayuktām।  <br/>smēramukhīṁ varadāṅkuśapāś
+ ābhītikarām prabhajē bhuvanēśīm॥<br/><br/><br/><br/>## Details<br
+ />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
+ devatA/dashamahAvidyA/lunar_month/tithi/06/12/bhuvanEzvarI~jayantI.toml)<b
+ r/>- Tags: Dashamahavidya
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:kaṭadānōtsavaḥ
 DTSTART;VALUE=DATE:20190909
 DTEND;VALUE=DATE:20190910
@@ -28479,26 +28452,6 @@ DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Bhādrapadaḥ (lunar)
  >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/g
  eneral/lunar_month/tithi/06/12/ananta-dvAdazI.toml)<br/>- Tags: SpecialPuj
  a
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:bhuvanēśvarī-jayantī
-DTSTART;VALUE=DATE:20190910
-DTEND;VALUE=DATE:20190911
-DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Bhādrapadaḥ (lunar) 
- month (Sūryōdayaḥ/puurvaviddha). <br/><br/>Goddess Bhuvaneshwari is 4t
- h of the Dasha Maha Vidyas.<br/><br/>udyadinadyutimindukirīṭām tuṅga
- kucāṁ nayanatrayayuktām।  <br/>smēramukhīṁ varadāṅkuśapāś
- ābhītikarām prabhajē bhuvanēśīm॥<br/><br/><br/><br/>## Details<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
- devatA/dashamahAvidyA/lunar_month/tithi/06/12/bhuvanEzvarI~jayantI.toml)<b
- r/>- Tags: Dashamahavidya
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30165,6 +30118,19 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:(sāyana) viṣu-puṇyakālaḥ
+DTSTART;VALUE=DATE:20190922
+DTEND;VALUE=DATE:20190923
+DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:avidhavā-navamī
 DTSTART;VALUE=DATE:20190923
 DTEND;VALUE=DATE:20190924
@@ -30227,27 +30193,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  />## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatit
  hi/blob/master/time_focus/sankrAnti/description_only/iSa-mAsaH__zaradRtuH.
  toml)<br/>- Tags: SunSankranti CommonFestivals
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:tulā-viṣu-puṇyakālaḥ
-DTSTART;VALUE=DATE:20190922
-DTEND;VALUE=DATE:20190923
-DESCRIPTION:Tulā-Viṣu Punyakala.<br/><br/>saṅkrāntisnānākaraṇē 
- pratyavāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇē puṇyē na
-  snāyādyadi mānavaḥ।  <br/>saptajanmasu rōgī syād duḥkhabhāg
- ī ca jāyatē॥  <br/>saṅkrāntyāṁ yāni dattāni havyakavyāni mā
- navaiḥ।  <br/>tāni tasya dadātyarkaḥ saptajanmasu niścitam॥  <b
- r/>(smr̥timuktāphalē āhnika-kāṇḍē-pūrvabhāgaḥ)<br/><br/><br/
- ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
- atithi/blob/master/time_focus/sankrAnti/description_only/tulA-viSu-puNyakA
- laH.toml)<br/>- Tags: SunSankranti CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -33783,6 +33728,19 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:(sāyana) viṣṇupadī-puṇyakālaḥ
+DTSTART;VALUE=DATE:20191023
+DTEND;VALUE=DATE:20191024
+DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:sarva-ramā-ēkādaśī
 DTSTART;VALUE=DATE:20191024
 DTEND;VALUE=DATE:20191025
@@ -33815,27 +33773,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
  thi/blob/master/time_focus/puShkara/description_only/tAmraparNI-antya-puSk
  ara-ArambhaH.toml)<br/>- Tags: RareDays Pushkara
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:viṣṇupadī-puṇyakālaḥ
-DTSTART;VALUE=DATE:20191023
-DTEND;VALUE=DATE:20191024
-DESCRIPTION:Viṣṇupadī Punyakala.<br/><br/>saṅkrāntisnānākaraṇ
- ē pratyavāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇē puṇyē
-  na snāyādyadi mānavaḥ।  <br/>saptajanmasu rōgī syād duḥkhabh
- āgī ca jāyatē॥  <br/>saṅkrāntyāṁ yāni dattāni havyakavyāni 
- mānavaiḥ।  <br/>tāni tasya dadātyarkaḥ saptajanmasu niścitam॥ 
-  <br/>(smr̥timuktāphalē āhnika-kāṇḍē-pūrvabhāgaḥ)<br/><br/><
- br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
- adyatithi/blob/master/time_focus/sankrAnti/description_only/viSNupadI-puNy
- akAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -34549,23 +34486,6 @@ DESCRIPTION:Observed on Amāvāsyā tithi of Āśvayujaḥ (lunar) month (
  onfig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/umA/
  lunar_month/tithi/07/30/kEdAra-gaurI-vratam.toml)<br/>- Tags: SpecialVrata
  m
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:kamalā-jayantī
-DTSTART;VALUE=DATE:20191028
-DTEND;VALUE=DATE:20191029
-DESCRIPTION:Observed on Amāvāsyā tithi of Āśvayujaḥ (lunar) month (
- Sūryōdayaḥ/puurvaviddha). <br/><br/>Goddess Kamala is 10th of the Dash
- a Maha Vidyas.<br/><br/>## Details<br/>- [Edit config file](https://github
- .com/jyotisham/adyatithi/blob/master/devatA/dashamahAvidyA/lunar_month/tit
- hi/07/30/kamalA~jayantI.toml)<br/>- Tags: Dashamahavidya
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -37767,14 +37687,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Ānāya Nāyanār (13) Gurupūjai
-DTSTART;VALUE=DATE:20191123
-DTEND;VALUE=DATE:20191124
-DESCRIPTION:Observed on Hastaḥ nakshatra of Vr̥ścikaḥ (sidereal sola
- r) month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
- t config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuru
- Sha/nAyanAr/sidereal_solar_month/nakshatra/08/13/An2Aya_nAyan2Ar_%2813%29_
- gurupUjai.toml)<br/>- Tags: NayanarGurupujai
+SUMMARY:(sāyana) ṣaḍaśīti-puṇyakālaḥ
+DTSTART;VALUE=DATE:20191122
+DTEND;VALUE=DATE:20191123
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -37784,18 +37700,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ṣaḍaśīti-puṇyakālaḥ
-DTSTART;VALUE=DATE:20191122
-DTEND;VALUE=DATE:20191123
-DESCRIPTION:Ṣaḍaśīti Punyakala.<br/><br/>saṅkrāntisnānākaraṇ
- ē pratyavāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇē puṇyē
-  na snāyādyadi mānavaḥ।  <br/>saptajanmasu rōgī syād duḥkhabh
- āgī ca jāyatē॥  <br/>saṅkrāntyāṁ yāni dattāni havyakavyāni 
- mānavaiḥ।  <br/>tāni tasya dadātyarkaḥ saptajanmasu niścitam॥ 
-  <br/>(smr̥timuktāphalē āhnika-kāṇḍē-pūrvabhāgaḥ)<br/><br/><
- br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
- adyatithi/blob/master/time_focus/sankrAnti/description_only/SaDazIti-puNya
- kAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+SUMMARY:Ānāya Nāyanār (13) Gurupūjai
+DTSTART;VALUE=DATE:20191123
+DTEND;VALUE=DATE:20191124
+DESCRIPTION:Observed on Hastaḥ nakshatra of Vr̥ścikaḥ (sidereal sola
+ r) month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuru
+ Sha/nAyanAr/sidereal_solar_month/nakshatra/08/13/An2Aya_nAyan2Ar_%2813%29_
+ gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -39801,6 +39713,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:tripura-bhairavī-jayantī
+DTSTART;VALUE=DATE:20191211
+DTEND;VALUE=DATE:20191212
+DESCRIPTION:Observed on Paurṇamāsī tithi of Mārgaśīrṣaḥ (lunar)
+  month (Madhyarātriḥ/puurvaviddha). <br/><br/>Goddess Tripura Bhairavi 
+ is 5th of the Dasha Maha Vidyas.<br/><br/>## Details<br/>- [Edit config fi
+ le](https://github.com/jyotisham/adyatithi/blob/master/devatA/dashamahAvid
+ yA/lunar_month/tithi/09/15/tripura~bhairavI~jayantI.toml)<br/>- Tags: Dash
+ amahavidya
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:vēṅkaṭācalē pūrṇimā-garuḍa-sēvā
 DTSTART;VALUE=DATE:20191211
 DTEND;VALUE=DATE:20191212
@@ -40027,24 +39957,6 @@ DESCRIPTION:Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month
   [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRh
  ya/general/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: Monthl
  yFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:tripura-bhairavī-jayantī
-DTSTART;VALUE=DATE:20191212
-DTEND;VALUE=DATE:20191213
-DESCRIPTION:Observed on Paurṇamāsī tithi of Mārgaśīrṣaḥ (lunar)
-  month (Sūryōdayaḥ/puurvaviddha). <br/><br/>Goddess Tripura Bhairavi i
- s 5th of the Dasha Maha Vidyas.<br/><br/>## Details<br/>- [Edit config fil
- e](https://github.com/jyotisham/adyatithi/blob/master/devatA/dashamahAvidy
- A/lunar_month/tithi/09/15/tripura~bhairavI~jayantI.toml)<br/>- Tags: Dasha
- mahavidya
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -40795,6 +40707,19 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:(sāyana) uttarāyaṇa-puṇyakālaḥ
+DTSTART;VALUE=DATE:20191221
+DTEND;VALUE=DATE:20191222
+DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:gaṇitajña-rāmānuja-janma #132
 DTSTART;VALUE=DATE:20191221
 DTEND;VALUE=DATE:20191222
@@ -40890,27 +40815,6 @@ DESCRIPTION:Observed on day 1 of Sahasyaḥ (tropical) month (Sūryōdaya
  ḥ/puurvaviddha). <br/><br/>Winter solstice.<br/><br/>## Details<br/>- [E
  dit config file](https://github.com/jyotisham/adyatithi/blob/master/time_f
  ocus/Rtu/tropical/day/10/01/uttarAyaNArambhaH.toml)<br/>- Tags:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:uttarāyaṇa-puṇyakālaḥ
-DTSTART;VALUE=DATE:20191221
-DTEND;VALUE=DATE:20191222
-DESCRIPTION:Uttarāyaṇa Punyakala.<br/><br/>saṅkrāntisnānākaraṇē
-  pratyavāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇē puṇyē n
- a snāyādyadi mānavaḥ।  <br/>saptajanmasu rōgī syād duḥkhabhāg
- ī ca jāyatē॥  <br/>saṅkrāntyāṁ yāni dattāni havyakavyāni mā
- navaiḥ।  <br/>tāni tasya dadātyarkaḥ saptajanmasu niścitam॥  <b
- r/>(smr̥timuktāphalē āhnika-kāṇḍē-pūrvabhāgaḥ)<br/><br/><br/
- ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
- atithi/blob/master/time_focus/sankrAnti/description_only/uttarAyaNa-puNyak
- AlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -41168,6 +41072,23 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  tisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/09
  /30/kAJcI_34_jagadguru_zrI~candrazEkharEndra_sarasvatI_2_ArAdhanA.toml)<br
  />- Tags: KanchiAradhanaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:kamalā-jayantī
+DTSTART;VALUE=DATE:20191225
+DTEND;VALUE=DATE:20191226
+DESCRIPTION:Observed on Amāvāsyā tithi of Mārgaśīrṣaḥ (lunar) mo
+ nth (Madhyarātriḥ/puurvaviddha). <br/><br/>Goddess Kamala is 10th of th
+ e Dasha Maha Vidyas.<br/><br/>## Details<br/>- [Edit config file](https://
+ github.com/jyotisham/adyatithi/blob/master/devatA/dashamahAvidyA/lunar_mon
+ th/tithi/09/30/kamalA~jayantI.toml)<br/>- Tags: Dashamahavidya
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
