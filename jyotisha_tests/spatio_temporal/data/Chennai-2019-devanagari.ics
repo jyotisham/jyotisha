@@ -1674,21 +1674,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:harivāsaraḥ
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190117T235957
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190118T040519
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
- vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
- ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
- )<br/>- Tags: MonthlyVratam EkadashiVratam
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:pāpanāśinī-mahādvādaśī
 DTSTART;VALUE=DATE:20190118
 DTEND;VALUE=DATE:20190119
@@ -3085,24 +3070,6 @@ DESCRIPTION:- Indian civil date: 1940-11-11\, Islamic: 1440-05-24 Jumādā
   **Gulikakālaḥ**—09:30-10:56  \n___________________\n- **Śūlam**—
  Dakṣiṇā (►14:16)\; **Parihāraḥ**–Tailam  \n___________________
  \n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:harivāsaraḥ
-DTSTART;VALUE=DATE:20190130
-DTEND;VALUE=DATE:20190131
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
- vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
- ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
- )<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4891,21 +4858,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:harivāsaraḥ
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190215T235957
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190216T162210
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
- vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
- ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
- )<br/>- Tags: MonthlyVratam EkadashiVratam
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:sarva-jayā/bhaimī-ēkādaśī
 DTSTART;VALUE=DATE:20190216
 DTEND;VALUE=DATE:20190217
@@ -6293,21 +6245,6 @@ DESCRIPTION:- Indian civil date: 1940-12-11\, Islamic: 1440-06-24 Jumādā
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:harivāsaraḥ
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190301T235957
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190302T174340
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
- vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
- ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
- )<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -7999,21 +7936,6 @@ DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Phālgunaḥ (lunar) mo
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:harivāsaraḥ
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190317T235957
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190318T020614
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
- vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
- ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
- )<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -14690,21 +14612,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:harivāsaraḥ
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190514T235957
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190515T160008
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
- vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
- ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
- )<br/>- Tags: MonthlyVratam EkadashiVratam
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:sarva-mōhinī-ēkādaśī
 DTSTART;VALUE=DATE:20190515
 DTEND;VALUE=DATE:20190516
@@ -16390,24 +16297,6 @@ DESCRIPTION:Observed on Kr̥ṣṇa-Ēkādaśī tithi of Vaiśākhaḥ (lu
  t config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/s
  hakti/lunar_month/tithi/02/26/bhadrakALI~jayantI.toml)<br/>- Tags: OtherJa
  yantis
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:harivāsaraḥ
-DTSTART;VALUE=DATE:20190529
-DTEND;VALUE=DATE:20190530
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
- vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
- ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
- )<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18107,24 +17996,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:harivāsaraḥ
-DTSTART;VALUE=DATE:20190612
-DTEND;VALUE=DATE:20190613
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
- vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
- ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
- )<br/>- Tags: MonthlyVratam EkadashiVratam
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:sarva-pāṇḍava-nirjalā-ēkādaśī
 DTSTART;VALUE=DATE:20190613
 DTEND;VALUE=DATE:20190614
@@ -19636,21 +19507,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:harivāsaraḥ
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190628T235957
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190629T124116
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
- vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
- ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
- )<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -22901,21 +22757,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:harivāsaraḥ
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190728T235957
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190729T002845
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
- vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
- ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
- )<br/>- Tags: MonthlyVratam EkadashiVratam
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:sōma-pradōṣa-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190729T183330
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190729T195902
@@ -24517,21 +24358,6 @@ DESCRIPTION:- Indian civil date: 1941-05-20\, Islamic: 1440-12-09 Ḏū al
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:harivāsaraḥ
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190810T235957
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190811T170823
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
- vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
- ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
- )<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -30296,21 +30122,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:harivāsaraḥ
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190924T235957
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190925T192520
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
- vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
- ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
- )<br/>- Tags: MonthlyVratam EkadashiVratam
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:sarva-indirā-ēkādaśī
 DTSTART;VALUE=DATE:20190925
 DTEND;VALUE=DATE:20190926
@@ -32054,24 +31865,6 @@ DESCRIPTION:- Indian civil date: 1941-07-17\, Islamic: 1441-02-09 Ṣafar\
  aghaṇṭaḥ**—07:30-08:59\; **Gulikakālaḥ**—10:27-11:56  \n_____
  ______________\n- **Śūlam**—Udīchī (►12:19)\; **Parihāraḥ**–K
  ṣīram  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:harivāsaraḥ
-DTSTART;VALUE=DATE:20191008
-DTEND;VALUE=DATE:20191009
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
- vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
- ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
- )<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -33907,21 +33700,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:harivāsaraḥ
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191024T235957
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191025T033238
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
- vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
- ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
- )<br/>- Tags: MonthlyVratam EkadashiVratam
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:kāmākṣī-jayantī
 DTSTART;VALUE=DATE:20191025
 DTEND;VALUE=DATE:20191026
@@ -35685,21 +35463,6 @@ DESCRIPTION:Observed on Śukla-Ēkādaśī tithi of Kārttikaḥ (lunar) m
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:harivāsaraḥ
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191107T235957
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191108T190000
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
- vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
- ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
- )<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -39262,21 +39025,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:harivāsaraḥ
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191207T235957
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191208T145345
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
- vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
- ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
- )<br/>- Tags: MonthlyVratam EkadashiVratam
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Kārttigai Ñāyiṟṟukkiḻamai
 DTSTART;VALUE=DATE:20191208
 DTEND;VALUE=DATE:20191209
@@ -40732,21 +40480,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:harivāsaraḥ
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191221T235957
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191222T205555
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
- vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
- ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
- )<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
