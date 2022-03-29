@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220327215716
+SEQUENCE:20220329103336
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -1748,21 +1748,6 @@ DESCRIPTION:Event occured on 1964-01-14 (gregorian). <br/><br/>Poush Parbo
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:हरिवासरः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220114T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220114T021459
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
- vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
- ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
- )<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -3820,21 +3805,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:हरिवासरः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220129T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220129T045259
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
- vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
- ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
- )<br/>- Tags: MonthlyVratam EkadashiVratam
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:प्रतापसिंह-मृत्युः #४२५
 DTSTART;VALUE=DATE:20220129
 DTEND;VALUE=DATE:20220130
@@ -5886,24 +5856,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:हरिवासरः
-DTSTART;VALUE=DATE:20220212
-DTEND;VALUE=DATE:20220212
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
- vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
- ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
- )<br/>- Tags: MonthlyVratam EkadashiVratam
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:सर्व-जया/भैमी-एकादशी
 DTSTART;VALUE=DATE:20220212
 DTEND;VALUE=DATE:20220213
@@ -6191,6 +6143,25 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  va_udayapure.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit 
  config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSh
  a/xatra-later/julian/day/02/03/bhAjI-rAva_udayapure.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:कोयम्पुत्तूरु-विस्फोटः #
+ २४
+DTSTART;VALUE=DATE:20220214
+DTEND;VALUE=DATE:20220215
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/02/14/koyam
+ puttUru-visphoTaH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [
+ Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahAp
+ uruSha/xatra-later/gregorian/day/02/14/koyamputtUru-visphoTaH.toml)<br/>- 
+ Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9992,21 +9963,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:हरिवासरः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220314T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220314T182615
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
- vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
- ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
- )<br/>- Tags: MonthlyVratam EkadashiVratam
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:सावित्री-व्रतम्
 DTSTART;VALUE=DATE:20220314
 DTEND;VALUE=DATE:20220315
@@ -10032,6 +9988,34 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/temples/Tamil/relative_event/kar2pagAmbAL%E2%80%9
  3kapAlIzvarar_tirukkalyANam/offset__-3/kapAlI_tEr.toml)<br/>- Tags: Tamiln
  aduTempleFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:मीन-रवि-सङ्क्रमण-षडशीति-
+ पुण्यकालः
+DTSTART;VALUE=DATE:20220314
+DTEND;VALUE=DATE:20220315
+DESCRIPTION:Mīna-Ravi-Saṅkramaṇa-Ṣaḍaśīti Punyakala.<br/><br/>
+ सङ्क्रान्तिस्नानाकरणे प्र
+ त्यवायमाह शातातपः—  <br/>सूर्य
+ सङ्क्रमणे पुण्ये न स्नायाद
+ ्यदि मानवः।  <br/>सप्तजन्मसु र
+ ोगी स्याद् दुःखभागी च जायते
+ ॥  <br/>सङ्क्रान्त्यां यानि दत
+ ्तानि हव्यकव्यानि मानवैः।  <
+ br/>तानि तस्य ददात्यर्कः सप्त
+ जन्मसु निश्चितम्॥  <br/>(स्मृत
+ िमुक्ताफले आह्निक-काण्डे-प
+ ूर्वभागः)<br/><br/><br/><br/>## Details<br/>- [Edit config
+  file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankr
+ Anti/description_only/mIna-ravi-saGkramaNa-SaDazIti-puNyakAlaH.toml)<br/>-
+  Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10271,34 +10255,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/temples/Tamil/relative_event/kar2pagAmbAL%E2%80%9
  3kapAlIzvarar_tirukkalyANam/offset__-2/kapAlI_ar2upattu_mUvar.toml)<br/>- 
  Tags: TamilnaduTempleFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:मीन-रवि-सङ्क्रमण-षडशीति-
- पुण्यकालः
-DTSTART;VALUE=DATE:20220315
-DTEND;VALUE=DATE:20220316
-DESCRIPTION:Mīna-Ravi-Saṅkramaṇa-Ṣaḍaśīti Punyakala.<br/><br/>
- सङ्क्रान्तिस्नानाकरणे प्र
- त्यवायमाह शातातपः—  <br/>सूर्य
- सङ्क्रमणे पुण्ये न स्नायाद
- ्यदि मानवः।  <br/>सप्तजन्मसु र
- ोगी स्याद् दुःखभागी च जायते
- ॥  <br/>सङ्क्रान्त्यां यानि दत
- ्तानि हव्यकव्यानि मानवैः।  <
- br/>तानि तस्य ददात्यर्कः सप्त
- जन्मसु निश्चितम्॥  <br/>(स्मृत
- िमुक्ताफले आह्निक-काण्डे-प
- ूर्वभागः)<br/><br/><br/><br/>## Details<br/>- [Edit config
-  file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankr
- Anti/description_only/mIna-ravi-saGkramaNa-SaDazIti-puNyakAlaH.toml)<br/>-
-  Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12130,24 +12086,6 @@ DESCRIPTION:- Indian civil date: 1944-01-07\, Islamic: 1443-08-24 Shaʿbā
  *गुलिककालः**—13:55-15:26  \n___________________\n- **
  शूलम्**—प्राची (►09:35)\; **परिहार
  ः**–दधि  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:हरिवासरः
-DTSTART;VALUE=DATE:20220328
-DTEND;VALUE=DATE:20220328
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
- vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
- ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
- )<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19138,21 +19076,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:हरिवासरः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220513T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220513T003456
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
- vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
- ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
- )<br/>- Tags: MonthlyVratam EkadashiVratam
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:२००८ वर्षे जयपुरे विस्फो
  टाः #१४
 DTSTART;VALUE=DATE:20220513
@@ -21002,21 +20925,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:हरिवासरः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220526T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220526T170516
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
- vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
- ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
- )<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -25168,21 +25076,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:हरिवासरः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220625T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220625T054002
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
- vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
- ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
- )<br/>- Tags: MonthlyVratam EkadashiVratam
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:कृत्तिका-व्रतम्
 DTSTART;VALUE=DATE:20220625
 DTEND;VALUE=DATE:20220626
@@ -27259,21 +27152,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:हरिवासरः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220710T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220710T193218
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
- vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
- ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
- )<br/>- Tags: MonthlyVratam EkadashiVratam
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:काञ्ची ३१ जगद्गुरु श्री-
  ब्रह्मानन्दघनेन्द्र सरस्व
  ती आराधना #१३५५
@@ -29097,21 +28975,6 @@ DESCRIPTION:Observed on Kr̥ṣṇa-Dvādaśī tithi of Āṣāḍhaḥ (l
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:हरिवासरः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220724T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220724T202255
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
- vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
- ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
- )<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -31393,21 +31256,6 @@ DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Śrāvaṇaḥ (lunar)
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:हरिवासरः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220809T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220809T021420
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
- vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
- ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
- )<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -38179,21 +38027,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:हरिवासरः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220922T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220922T060322
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
- vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
- ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
- )<br/>- Tags: MonthlyVratam EkadashiVratam
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:वन-रक्षक-वैष्णव-हत्या #२९
  २
 DTSTART;VALUE=DATE:20220922
@@ -40319,21 +40152,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:हरिवासरः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221006T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221006T150643
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
- vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
- ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
- )<br/>- Tags: MonthlyVratam EkadashiVratam
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:सर्व-पापाङ्कुशा-एकादशी
 DTSTART;VALUE=DATE:20221006
 DTEND;VALUE=DATE:20221007
@@ -41966,6 +41784,35 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:तुला-सङ्क्रमण-पुण्यकालः
+DTSTART;VALUE=DATE:20221017
+DTEND;VALUE=DATE:20221018
+DESCRIPTION:Tulā-Saṅkramaṇa Punyakala. Perform danam of rice/wheat/gr
+ ains and cow ghee/curd etc.<br/><br/>तुलाप्रवेशे ध
+ ान्यानां गोरसानामपीष्टदम्"
+   <br/>सङ्क्रान्तिस्नानाकरणे प
+ ्रत्यवायमाह शातातपः—  <br/>सूर
+ ्यसङ्क्रमणे पुण्ये न स्नाय
+ ाद्यदि मानवः।  <br/>सप्तजन्मसु
+  रोगी स्याद् दुःखभागी च जायत
+ े॥  <br/>सङ्क्रान्त्यां यानि द
+ त्तानि हव्यकव्यानि मानवैः।
+   <br/>तानि तस्य ददात्यर्कः सप्
+ तजन्मसु निश्चितम्॥  <br/>(स्मृ
+ तिमुक्ताफले आह्निक-काण्डे-
+ पूर्वभागः)<br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sa
+ nkrAnti/description_only/tulA-saGkramaNa-puNyakAlaH.toml)<br/>- Tags: SunS
+ ankranti CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:आश्वयुजः-07-23  \,  कर्कटः-पुष
  ्यः🌛🌌  \,  तुला-चित्रा-07-01🌞🌌  \,  
  इषः-07-26🌞🪐  \,  मङ्गलः
@@ -42151,35 +41998,6 @@ DESCRIPTION:Observed on day 1 of Tulā (sidereal solar) month (Sūryōdaya
  t config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/n
  adI/sidereal_solar_month/day/07/01/tulA-kAvErI-snAna-ArambhaH.toml)<br/>- 
  Tags:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:तुला-सङ्क्रमण-पुण्यकालः
-DTSTART;VALUE=DATE:20221018
-DTEND;VALUE=DATE:20221019
-DESCRIPTION:Tulā-Saṅkramaṇa Punyakala. Perform danam of rice/wheat/gr
- ains and cow ghee/curd etc.<br/><br/>तुलाप्रवेशे ध
- ान्यानां गोरसानामपीष्टदम्"
-   <br/>सङ्क्रान्तिस्नानाकरणे प
- ्रत्यवायमाह शातातपः—  <br/>सूर
- ्यसङ्क्रमणे पुण्ये न स्नाय
- ाद्यदि मानवः।  <br/>सप्तजन्मसु
-  रोगी स्याद् दुःखभागी च जायत
- े॥  <br/>सङ्क्रान्त्यां यानि द
- त्तानि हव्यकव्यानि मानवैः।
-   <br/>तानि तस्य ददात्यर्कः सप्
- तजन्मसु निश्चितम्॥  <br/>(स्मृ
- तिमुक्ताफले आह्निक-काण्डे-
- पूर्वभागः)<br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sa
- nkrAnti/description_only/tulA-saGkramaNa-puNyakAlaH.toml)<br/>- Tags: SunS
- ankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -42420,24 +42238,6 @@ DESCRIPTION:Observed on Kr̥ṣṇa-Dvādaśī tithi of Āśvayujaḥ (lun
  ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
  atithi/blob/master/devatA/misc-fauna/lunar_month/tithi/07/27/gOvatsa-dvAda
  zI.toml)<br/>- Tags: SpecialVratam CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:हरिवासरः
-DTSTART;VALUE=DATE:20221021
-DTEND;VALUE=DATE:20221021
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
- vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
- ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
- )<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -44679,24 +44479,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:हरिवासरः
-DTSTART;VALUE=DATE:20221104
-DTEND;VALUE=DATE:20221104
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
- vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
- ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
- )<br/>- Tags: MonthlyVratam EkadashiVratam
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:सर्व-उत्थान-एकादशी
 DTSTART;VALUE=DATE:20221104
 DTEND;VALUE=DATE:20221105
@@ -46717,6 +46499,34 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:वृश्चिक-रवि-सङ्क्रमण-विष
+ ्णुपदी-पुण्यकालः
+DTSTART;VALUE=DATE:20221116
+DTEND;VALUE=DATE:20221117
+DESCRIPTION:Vṛśchika-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala. Do d
+ anam of deepam.<br/><br/>सङ्क्रान्तिस्नान
+ ाकरणे प्रत्यवायमाह शातातपः
+ —  <br/>सूर्यसङ्क्रमणे पुण्ये 
+ न स्नायाद्यदि मानवः।  <br/>सप्
+ तजन्मसु रोगी स्याद् दुःखभा
+ गी च जायते॥  <br/>सङ्क्रान्त्य
+ ां यानि दत्तानि हव्यकव्यान
+ ि मानवैः।  <br/>तानि तस्य ददात्
+ यर्कः सप्तजन्मसु निश्चितम्
+ ॥  <br/>(स्मृतिमुक्ताफले आह्नि
+ क-काण्डे-पूर्वभागः)<br/><br/><br/><br/>## 
+ Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/bl
+ ob/master/time_focus/sankrAnti/description_only/vRzcika-ravi-saGkramaNa-vi
+ SNupadI-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-23  \,  सिंहः-मघ
  ा🌛🌌  \,  वृश्चिकः-विशाखा-08-01🌞🌌
    \,  ऊर्जः-08-26🌞🪐  \,  गुरुः
@@ -46805,34 +46615,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  />- Tags: CommonFestivals<br/><br/><br/><br/>## Details<br/>- [Edit config
   file](https://github.com/jyotisham/adyatithi/blob/master/tamil/descriptio
  n_only/muDavan2_muzhukku.toml)<br/>- Tags: CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:वृश्चिक-रवि-सङ्क्रमण-विष
- ्णुपदी-पुण्यकालः
-DTSTART;VALUE=DATE:20221117
-DTEND;VALUE=DATE:20221118
-DESCRIPTION:Vṛśchika-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala. Do d
- anam of deepam.<br/><br/>सङ्क्रान्तिस्नान
- ाकरणे प्रत्यवायमाह शातातपः
- —  <br/>सूर्यसङ्क्रमणे पुण्ये 
- न स्नायाद्यदि मानवः।  <br/>सप्
- तजन्मसु रोगी स्याद् दुःखभा
- गी च जायते॥  <br/>सङ्क्रान्त्य
- ां यानि दत्तानि हव्यकव्यान
- ि मानवैः।  <br/>तानि तस्य ददात्
- यर्कः सप्तजन्मसु निश्चितम्
- ॥  <br/>(स्मृतिमुक्ताफले आह्नि
- क-काण्डे-पूर्वभागः)<br/><br/><br/><br/>## 
- Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/bl
- ob/master/time_focus/sankrAnti/description_only/vRzcika-ravi-saGkramaNa-vi
- SNupadI-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -47185,21 +46967,6 @@ DESCRIPTION:Event occured on 1789-11-20 (gregorian). <br/><br/>The Mughal
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:हरिवासरः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221120T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221120T163731
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/hari
- vAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><br/>
- ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
- )<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
