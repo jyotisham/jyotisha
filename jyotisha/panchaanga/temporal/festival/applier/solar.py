@@ -89,8 +89,14 @@ class SolarFestivalAssigner(FestivalAssigner):
         #   fday = d
         # self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=punya_kaala_str, interval=Interval(jd_start=punya_kaala_start_jd, jd_end=punya_kaala_end_jd)), date=self.daily_panchaangas[fday].date)
         
-        if jd_transition < self.daily_panchaangas[d].jd_sunset:
+        # if jd_transition < self.daily_panchaangas[d].jd_sunset:
+        if jd_transition < self.daily_panchaangas[d].day_length_based_periods.fifteen_fold_division.aahneya.jd_end:
           fday = d
+          if self.daily_panchaangas[d + 1].solar_sidereal_date_sunset.month == 10:
+            if jd_transition < self.daily_panchaangas[d].jd_sunset:
+              fday = d
+            else:
+              fday = d + 1
         else:
           if self.daily_panchaangas[d + 1].solar_sidereal_date_sunset.month == 4:
             fday = d # Previous day only for Kataka Sankramana
@@ -147,8 +153,14 @@ class SolarFestivalAssigner(FestivalAssigner):
         #   fday = d
         # self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=punya_kaala_str, interval=Interval(jd_start=punya_kaala_start_jd, jd_end=punya_kaala_end_jd)), date=self.daily_panchaangas[fday].date)
 
-        if jd_transition < self.daily_panchaangas[d].jd_sunset:
+        # if jd_transition < self.daily_panchaangas[d].jd_sunset:
+        if jd_transition < self.daily_panchaangas[d].day_length_based_periods.fifteen_fold_division.aahneya.jd_end:
           fday = d
+          if self.daily_panchaangas[d + 1].tropical_date_sunset.month == 10:
+            if jd_transition < self.daily_panchaangas[d].jd_sunset:
+              fday = d
+            else:
+              fday = d + 1
         else:
           if self.daily_panchaangas[d + 1].tropical_date_sunset.month == 4:
             fday = d # Previous day only for Dakshinayana

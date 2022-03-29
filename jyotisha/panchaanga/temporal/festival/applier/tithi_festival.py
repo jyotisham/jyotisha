@@ -300,7 +300,8 @@ class TithiFestivalAssigner(FestivalAssigner):
           _date.set_time_to_day_start()
           fday_hv = time.utc_gregorian_to_jd(_date) - time.utc_gregorian_to_jd(self.daily_panchaangas[0].date)
           fest = FestivalInstance(name='harivAsaraH', interval=Interval(jd_start=None, jd_end=harivasara_end))
-          self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[int(fday_hv)].date)
+          if harivasara_end > self.daily_panchaangas[smaarta_ekaadashii_fday + 1].jd_sunrise:
+            self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[int(fday_hv)].date)
 
   def assign_mahaadvaadashii(self):
     if 'pakSavardhinI~mahAdvAdazI' not in self.rules_collection.name_to_rule:
