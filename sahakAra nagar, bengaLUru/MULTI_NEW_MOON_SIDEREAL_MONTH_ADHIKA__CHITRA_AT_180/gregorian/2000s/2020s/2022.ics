@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220402075416
+SEQUENCE:20220402075823
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -11294,6 +11294,25 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  Ajo_pIDito_hatash_cha.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/
  >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/m
  ahApuruSha/xatra-later/julian/day/03/11/shambhurAjo_pIDito_hatash_cha.toml
+ )<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:सिर्हिन्दे ऽफ़्घान-पराजय
+ ः #२६४
+DTSTART;VALUE=DATE:20220321
+DTEND;VALUE=DATE:20220322
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/03/21/sirhi
+ nde_afghAna-parAjayaH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/
+ >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/m
+ ahApuruSha/xatra-later/gregorian/day/03/21/sirhinde_afghAna-parAjayaH.toml
  )<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
