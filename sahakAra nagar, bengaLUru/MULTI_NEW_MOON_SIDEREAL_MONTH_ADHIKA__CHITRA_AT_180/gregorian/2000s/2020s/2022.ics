@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220329103923
+SEQUENCE:20220402075416
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -12897,14 +12897,12 @@ SUMMARY:नादिरशाहेन देहल्यां लोक
  हत्या #२८३
 DTSTART;VALUE=DATE:20220402
 DTEND;VALUE=DATE:20220403
-DESCRIPTION:Event occured on 1739-04-02 (gregorian). Julian date was conve
- rted to Gregorian in this reckoning. <br/><br/>9 AM: It was the morning of
-  Holi. A massacre\, horrific beyond any description\, breaks out on the st
- reets of Delhi (started by nAdir shAh).<br/>When it ended several hours la
- ter\, tens of thousands of corpses lay on the streets. Estimates range fro
- m 30000-80000<br/><br/>## Details<br/>- [Edit config file](https://github.
- com/jyotisham/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/03/
- 22/nAdirashAhena_dehalyAM_lokahatyA.toml)<br/>- Tags:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/03/22/nAdirash
+ Ahena_dehalyAM_lokahatyA.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<
+ br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/maste
+ r/mahApuruSha/xatra-later/julian/day/03/22/nAdirashAhena_dehalyAM_lokahaty
+ A.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
