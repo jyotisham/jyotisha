@@ -10726,27 +10726,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:r̥ṣīṇāṁ damanakapūjā
-DTSTART;VALUE=DATE:20190412
-DTEND;VALUE=DATE:20190413
-DESCRIPTION:Observed on Śukla-Saptamī tithi of Caitraḥ (lunar) month (
- Sūryōdayaḥ/puurvaviddha). <br/><br/>Perform pūjā to r̥ṣis using d
- amanaka (dhavana) flowers.<br/><br/>damanakapūjōktā hēmādrau dēvīpu
- rāṇē—  <br/>ēkādaśyām r̥ṣēḥ pūjā kāryā sārvōpahārik
- ī ।  <br/>dhanavānputravānkānta r̥ṣilōkē mahīyatē ।<br/><br
- /><br/><br/>## Details<br/>- References<br/>  - Smriti Kaustubham p.101<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
- general/lunar_month/tithi/01/07/RSINAM~damanakapUjA.toml)<br/>- Tags: Less
- CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Gaṇanātha Nāyanār (37) Gurupūjai
 DTSTART;VALUE=DATE:20190412
 DTEND;VALUE=DATE:20190413
@@ -11125,6 +11104,27 @@ DESCRIPTION:- Indian civil date: 1941-01-25\, Islamic: 1440-08-09 Shaʿbā
  haṇṭaḥ**—10:36-12:09\; **Gulikakālaḥ**—13:41-15:13  \n_______
  ____________\n- **Śūlam**—Prāchī (►09:16)\; **Parihāraḥ**–Dad
  hi  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:r̥ṣīṇāṁ damanakapūjā
+DTSTART;VALUE=DATE:20190415
+DTEND;VALUE=DATE:20190416
+DESCRIPTION:Observed on Śukla-Ēkādaśī tithi of Caitraḥ (lunar) mont
+ h (Sūryōdayaḥ/puurvaviddha). <br/><br/>Perform pūjā to r̥ṣis usin
+ g damanaka (dhavana) flowers.<br/><br/>damanakapūjōktā hēmādrau dēv
+ īpurāṇē—  <br/>ēkādaśyām r̥ṣēḥ pūjā kāryā sārvōpah
+ ārikī ।  <br/>dhanavānputravānkānta r̥ṣilōkē mahīyatē ।<br
+ /><br/><br/><br/>## Details<br/>- References<br/>  - Smriti Kaustubham p.1
+ 01<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/ma
+ ster/general/lunar_month/tithi/01/11/RSINAM~damanakapUjA.toml)<br/>- Tags:
+  LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
