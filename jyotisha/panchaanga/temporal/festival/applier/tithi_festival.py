@@ -485,7 +485,7 @@ class TithiFestivalAssigner(FestivalAssigner):
 
       if day_panchaanga.date.get_weekday() == 4 and (day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == 15 or tithi_sunset == 15):
         # PURNIMA on a Thursday
-        lunar_month = day_panchaanga.lunar_month_sunrise.index
+        lunar_month = int(day_panchaanga.lunar_month_sunrise.index) # to deal with adhika mAsas
         lunar_month_nakshatra = [None, 14, 16, 18, 20, 22, 25, 1, 3, 5, 8, 10, 11]
         fest_yoga_names = [None,  "caitrI", "vaizAkhI", "jyaiSThI", "ASADhI", "zrAvaNI", "bhAdrapadI", "AzvayujI", "kArtikI", "mArgazIrSI", "pauSI", "mAghI", "phAlgunI"]
         if (day_panchaanga.sunrise_day_angas.nakshatra_at_sunrise.index == lunar_month_nakshatra[lunar_month] and day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == 15) or \
