@@ -24981,7 +24981,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अश्वशिरो-देव-पूजा, गजच्छाया-योगः, पञ्च-पर्व-पूजा (अमावास्या), पार्वणव्रतम् अमावास्यायाम्, पुरट्टाचि-चऩिक्किऴमै, शृङ्गेरी ३४ जगद्गुरु श्री-चन्द्रशेखर भारती आराधना, सर्व-(भाद्रपद) महालय अमावास्या, सुजन्मप्राप्ति-व्रतम्
+- अश्वशिरो-देव-पूजा, गजच्छाया-योगः, पञ्च-पर्व-पूजा (अमावास्या), पार्वणव्रतम् अमावास्यायाम्, पुरट्टाचि-चऩिक्किऴमै, महालय-पक्ष-समापनम्, शृङ्गेरी ३४ जगद्गुरु श्री-चन्द्रशेखर भारती आराधना, सर्व-(भाद्रपद) महालय अमावास्या, सुजन्मप्राप्ति-व्रतम्
 ##### अश्वशिरो-देव-पूजा
 
 Observed on Amāvāsyā tithi of Bhādrapadaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -25014,6 +25014,17 @@ A very special yōga, for doing Pitru Shraddha during Mahalaya Paksham. A man th
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/special-tithis/description_only/gajacchAyA-yOgaH.toml)
 - Tags: RareDays Combinations
+
+
+##### महालय-पक्ष-समापनम्
+
+
+
+
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/relative_event/sarva-%28bhAdrapada%29_mahAlaya_amAvAsyA/offset__00/mahAlaya-pakSa-samApanam.toml)
+- Tags: SpecialPeriodEnd CommonFestivals
 
 
 ##### पार्वणव्रतम् अमावास्यायाम्
@@ -25266,7 +25277,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- चन्द्र-दर्शनम्, महालय-पक्ष-समापनम्, वैधृति-श्राद्धम्
+- चन्द्र-दर्शनम्, महालय-पक्ष-तर्पण-पूर्तिः, वैधृति-श्राद्धम्
 ##### चन्द्र-दर्शनम्
 - 17:56→19:22
 
@@ -25286,14 +25297,14 @@ Have darshan of Moon today, chanting the following shloka
 - Tags: ChandraDarshanam
 
 
-##### महालय-पक्ष-समापनम्
+##### महालय-पक्ष-तर्पण-पूर्तिः
 
 
 
 
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/relative_event/mahAlaya-pakSa-ArambhaH/offset__16/mahAlaya-pakSa-samApanam.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/relative_event/mahAlaya-pakSa-ArambhaH/offset__16/mahAlaya-pakSa-tarpaNa-pUrtiH.toml)
 - Tags: SpecialPeriodEnd CommonFestivals
 
 

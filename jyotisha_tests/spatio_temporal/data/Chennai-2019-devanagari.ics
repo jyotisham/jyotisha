@@ -30460,6 +30460,37 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:mahālaya-pakṣaḥ
+DTSTART;VALUE=DATE:20190913
+DTEND;VALUE=DATE:20190929
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/description_only/mahAlaya-pakSaH.toml
+ )<br/>- Tags: SpecialPeriod
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mahālaya-pakṣa-samāpanam
+DTSTART;VALUE=DATE:20190928
+DTEND;VALUE=DATE:20190929
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/relative_event/sarva-%28bhAdrapada%29
+ _mahAlaya_amAvAsyA/offset__00/mahAlaya-pakSa-samApanam.toml)<br/>- Tags: S
+ pecialPeriodEnd CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:pārvaṇavratam amāvāsyāyām
 DTSTART;VALUE=DATE:20190928
 DTEND;VALUE=DATE:20190929
@@ -30814,28 +30845,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:mahālaya-pakṣaḥ
-DTSTART;VALUE=DATE:20190913
-DTEND;VALUE=DATE:20191001
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/devatA/pitR/description_only/mahAlaya-pakSaH.toml
- )<br/>- Tags: SpecialPeriod
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:mahālaya-pakṣa-samāpanam
+SUMMARY:mahālaya-pakṣa-tarpaṇa-pūrtiḥ
 DTSTART;VALUE=DATE:20190930
 DTEND;VALUE=DATE:20191001
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/devatA/pitR/relative_event/mahAlaya-pakSa-Arambha
- H/offset__16/mahAlaya-pakSa-samApanam.toml)<br/>- Tags: SpecialPeriodEnd C
- ommonFestivals
+ H/offset__16/mahAlaya-pakSa-tarpaNa-pUrtiH.toml)<br/>- Tags: SpecialPeriod
+ End CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
