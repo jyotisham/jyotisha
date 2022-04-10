@@ -132,7 +132,8 @@ class EclipticFestivalAssigner(FestivalAssigner):
       suff = 'a'
       if jd_eclipse_lunar_start != 0.0 and jd_eclipse_lunar_end != 0.0:
         # Regular eclipse
-        fday = int(floor(jd_eclipse_lunar_start) - floor(self.panchaanga.jd_start) + 1)
+        # fday = int(floor(jd_eclipse_lunar_start) - floor(self.panchaanga.jd_start) + 1)
+        fday = int(jd_eclipse_lunar_start - self.daily_panchaangas[0].julian_day_start)
       elif jd_eclipse_lunar_start == 0.0:
         # Grastodaya
         suff = 'Odaya'
@@ -142,7 +143,8 @@ class EclipticFestivalAssigner(FestivalAssigner):
         suff = 'Astamana'
         jd_eclipse_lunar_end = self.panchaanga.city.get_setting_time(julian_day_start=jd_eclipse_lunar_start, body=Graha.MOON)
 
-      fday = int(floor(jd_eclipse_lunar_start) - floor(self.panchaanga.jd_start) + 1)
+      # fday = int(floor(jd_eclipse_lunar_start) - floor(self.panchaanga.jd_start) + 1)
+      fday = int(jd_eclipse_lunar_start - self.daily_panchaangas[0].julian_day_start)
       if jd_eclipse_lunar_start < self.daily_panchaangas[fday].jd_sunrise:
         fday -= 1
       
