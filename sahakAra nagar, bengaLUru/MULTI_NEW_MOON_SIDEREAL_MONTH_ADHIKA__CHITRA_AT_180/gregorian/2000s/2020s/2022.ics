@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220402075823
+SEQUENCE:20220410194105
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -13803,29 +13803,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ऋषीणां दमनकपूजा
-DTSTART;VALUE=DATE:20220408
-DTEND;VALUE=DATE:20220409
-DESCRIPTION:Observed on Śukla-Saptamī tithi of Caitraḥ (lunar) month (
- Sūryōdayaḥ/puurvaviddha). <br/><br/>Perform pūjā to r̥ṣis using d
- amanaka (dhavana) flowers.<br/><br/>दमनकपूजोक्ता 
- हेमाद्रौ देवीपुराणे—  <br/>एका
- दश्याम् ऋषेः पूजा कार्या सा
- र्वोपहारिकी ।  <br/>धनवान्पुत्
- रवान्कान्त ऋषिलोके महीयते 
- ।<br/><br/><br/><br/>## Details<br/>- References<br/>  - Smriti Kaustubh
- am p.101<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/b
- lob/master/general/lunar_month/tithi/01/07/RSINAM~damanakapUjA.toml)<br/>-
-  Tags: LessCommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:बाजी-रावो देहलीम् प्राप्
  नोत् #२८५
 DTSTART;VALUE=DATE:20220408
@@ -14195,7 +14172,7 @@ SUMMARY:श्रीरामनवमी
 DTSTART;VALUE=DATE:20220410
 DTEND;VALUE=DATE:20220411
 DESCRIPTION:Observed on Śukla-Navamī tithi of Caitraḥ (lunar) month (M
- adhyāhnaḥ/puurvaviddha). <br/><br/>चैत्रशुक्लनव
+ adhyāhnaḥ/paraviddha). <br/><br/>चैत्रशुक्लनव
  म्यां तु मध्याह्ने रघुनन्द
  नः।  <br/>दशाननवधाकाङ्क्षी जज्
  ञे रामः स्वयं हरिः॥  <br/>अवतार
@@ -14375,6 +14352,29 @@ DESCRIPTION:- Indian civil date: 1944-01-22\, Islamic: 1443-09-10 Ramaḍ
  —09:16-10:48\; **गुलिककालः**—12:20-13:52  \n________
  ___________\n- **शूलम्**—उदीची (►11:07)\; **पर
  िहारः**–क्षीरम्  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ऋषीणां दमनकपूजा
+DTSTART;VALUE=DATE:20220412
+DTEND;VALUE=DATE:20220413
+DESCRIPTION:Observed on Śukla-Ēkādaśī tithi of Caitraḥ (lunar) mont
+ h (Sūryōdayaḥ/puurvaviddha). <br/><br/>Perform pūjā to r̥ṣis usin
+ g damanaka (dhavana) flowers.<br/><br/>दमनकपूजोक्त
+ ा हेमाद्रौ देवीपुराणे—  <br/>ए
+ कादश्याम् ऋषेः पूजा कार्या 
+ सार्वोपहारिकी ।  <br/>धनवान्पु
+ त्रवान्कान्त ऋषिलोके महीयत
+ े ।<br/><br/><br/><br/>## Details<br/>- References<br/>  - Smriti Kaus
+ tubham p.101<br/>- [Edit config file](https://github.com/jyotisham/adyatit
+ hi/blob/master/general/lunar_month/tithi/01/11/RSINAM~damanakapUjA.toml)<b
+ r/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
