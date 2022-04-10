@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220410195535
+SEQUENCE:20220410214456
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -38487,6 +38487,37 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:महालय-पक्षः
+DTSTART;VALUE=DATE:20220910
+DTEND;VALUE=DATE:20220926
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/description_only/mahAlaya-pakSaH.toml
+ )<br/>- Tags: SpecialPeriod
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:महालय-पक्ष-समापनम्
+DTSTART;VALUE=DATE:20220925
+DTEND;VALUE=DATE:20220926
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/relative_event/sarva-%28bhAdrapada%29
+ _mahAlaya_amAvAsyA/offset__00/mahAlaya-pakSa-samApanam.toml)<br/>- Tags: S
+ pecialPeriodEnd CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:पार्वणव्रतम् अमावास्या
  याम्
 DTSTART;VALUE=DATE:20220925
@@ -38703,28 +38734,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:महालय-पक्षः
-DTSTART;VALUE=DATE:20220910
-DTEND;VALUE=DATE:20220927
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/devatA/pitR/description_only/mahAlaya-pakSaH.toml
- )<br/>- Tags: SpecialPeriod
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:महालय-पक्ष-समापनम्
+SUMMARY:महालय-पक्ष-तर्पण-पूर्तिः
 DTSTART;VALUE=DATE:20220926
 DTEND;VALUE=DATE:20220927
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/devatA/pitR/relative_event/mahAlaya-pakSa-Arambha
- H/offset__16/mahAlaya-pakSa-samApanam.toml)<br/>- Tags: SpecialPeriodEnd C
- ommonFestivals
+ H/offset__16/mahAlaya-pakSa-tarpaNa-pUrtiH.toml)<br/>- Tags: SpecialPeriod
+ End CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
