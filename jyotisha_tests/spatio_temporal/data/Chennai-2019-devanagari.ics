@@ -30478,10 +30478,11 @@ BEGIN:VEVENT
 SUMMARY:mahālaya-pakṣa-samāpanam
 DTSTART;VALUE=DATE:20190928
 DTEND;VALUE=DATE:20190929
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/devatA/pitR/relative_event/sarva-%28bhAdrapada%29
- _mahAlaya_amAvAsyA/offset__00/mahAlaya-pakSa-samApanam.toml)<br/>- Tags: S
- pecialPeriodEnd CommonFestivals
+DESCRIPTION:Observed on Amāvāsyā tithi of Bhādrapadaḥ (lunar) month 
+ (Aparāhṇaḥ/vyaapti). <br/><br/><br/><br/>## Details<br/>- [Edit confi
+ g file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/lun
+ ar_month/tithi/06/30/mahAlaya-pakSa-samApanam.toml)<br/>- Tags: SpecialPer
+ iodEnd CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
