@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220412092039
+SEQUENCE:20220413113105
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -14403,6 +14403,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:रणजीतसिंह-सिंहासनारोहण
+ म् #२२१
+DTSTART;VALUE=DATE:20220412
+DTEND;VALUE=DATE:20220413
+DESCRIPTION:Event occured on 1801-04-12 (gregorian). <br/><br/>April 12\, 
+ 1801 a 21 year old Ranjit Singh was crowned the Maharaja of Punjab.<br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/blob/master/mahApuruSha/xatra-later/gregorian/day/04/12/raNajIta-siMha
+ -siMhAsanArohaNam.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:समुद्र-मन्थनम्
 DTSTART;VALUE=DATE:20220412
 DTEND;VALUE=DATE:20220413
@@ -14662,13 +14680,14 @@ SUMMARY:शिवराजो मृतः #३४२
 DTSTART;VALUE=DATE:20220413
 DTEND;VALUE=DATE:20220414
 DESCRIPTION:Event occured on 1680-04-13 (gregorian). Julian date was conve
- rted to Gregorian in this reckoning. <br/><br/>Saturday. Chatrapati died a
- t Raigad.<br/><br/>Contemporary muslim chroniclers like Muhammad Saqi Khan
-  and Khafi Khan declared that he will go to hell. Even Cosme da Guarda\, h
- is admirer\, declared that as a pagan he will go to hell.<br/><br/>## Deta
- ils<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/m
- aster/mahApuruSha/xatra-later/julian/day/04/03/shivarAjo_mRtaH.toml)<br/>-
-  Tags:
+ rted to Gregorian in this reckoning. <br/><br/>Saturday\, day or hours bef
+ ore hanuman jayanti. Chatrapati died at Raigad. Even Samartha Ramadas tone
+ d down celebrations on the next day.<br/><br/>Contemporary muslim chronicl
+ ers like Muhammad Saqi Khan and Khafi Khan declared that he will go to hel
+ l. Even Cosme da Guarda\, his admirer\, declared that as a pagan he will g
+ o to hell.<br/><br/>## Details<br/>- [Edit config file](https://github.com
+ /jyotisham/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/04/03/
+ shivarAjo_mRtaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
