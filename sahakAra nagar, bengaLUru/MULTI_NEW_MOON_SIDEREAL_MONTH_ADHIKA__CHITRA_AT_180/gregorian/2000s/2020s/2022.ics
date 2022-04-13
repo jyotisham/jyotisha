@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220413113105
+SEQUENCE:20220413113637
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -14679,15 +14679,11 @@ BEGIN:VEVENT
 SUMMARY:शिवराजो मृतः #३४२
 DTSTART;VALUE=DATE:20220413
 DTEND;VALUE=DATE:20220414
-DESCRIPTION:Event occured on 1680-04-13 (gregorian). Julian date was conve
- rted to Gregorian in this reckoning. <br/><br/>Saturday\, day or hours bef
- ore hanuman jayanti. Chatrapati died at Raigad. Even Samartha Ramadas tone
- d down celebrations on the next day.<br/><br/>Contemporary muslim chronicl
- ers like Muhammad Saqi Khan and Khafi Khan declared that he will go to hel
- l. Even Cosme da Guarda\, his admirer\, declared that as a pagan he will g
- o to hell.<br/><br/>## Details<br/>- [Edit config file](https://github.com
- /jyotisham/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/04/03/
- shivarAjo_mRtaH.toml)<br/>- Tags:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/04/03/shivarAj
+ o_mRtaH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit confi
+ g file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xat
+ ra-later/julian/day/04/03/shivarAjo_mRtaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
