@@ -30,7 +30,7 @@ class RuleLookupAssigner(FestivalAssigner):
         # Check approx. match
         matched_festivals = []
         for fest_key in self.panchaanga.festival_id_to_days:
-          if fest_key.startswith(rel_festival_name):
+          if rel_festival_name in fest_key:
             matched_festivals += [fest_key]
         if matched_festivals == []:
           logging.error('Relative festival %s not in festival_id_to_days!' % rel_festival_name)
