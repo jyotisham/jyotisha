@@ -85,7 +85,7 @@ class NakshatraAssigner(PeriodicPanchaangaApplier):
       amrita_list += [(amrita_start, amrita_end)]
 
     j = 0
-    for d in range(self.panchaanga.duration + 1):
+    for d in range(self.panchaanga.duration + 2):
       while self.daily_panchaangas[d].jd_sunrise < tyaajya_list[j][0] < self.daily_panchaangas[d + 1].jd_sunrise:
         self.panchaanga.tyajyam_data[d]['NAKSHATRAM'] += [tyaajya_list[j]]
         j += 1
