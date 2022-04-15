@@ -1375,8 +1375,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:makara-saṅkramaṇa-puṇyakālaḥ
-DTSTART;VALUE=DATE:20190114
-DTEND;VALUE=DATE:20190115
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190115T063849
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190115T032853
 DESCRIPTION:Makara-Saṅkramaṇa Punyakala.<br/><br/>saṅkrāntisnānāk
  araṇē pratyavāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇē pu
  ṇyē na snāyādyadi mānavaḥ।  <br/>saptajanmasu rōgī syād duḥ
@@ -1386,9 +1386,26 @@ DESCRIPTION:Makara-Saṅkramaṇa Punyakala.<br/><br/>saṅkrāntisnānāk
  br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
  sham/adyatithi/blob/master/time_focus/sankrAnti/description_only/makara-sa
  GkramaNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ravi-saṅkramaṇa-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190115T063849
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190115T015250
+DESCRIPTION:
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:saṅkramaṇa-dina-pūrvāhṇa-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190115T063849
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190115T121814
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -1897,12 +1914,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(sāyana) viṣṇupadī-puṇyakālaḥ
-DTSTART;VALUE=DATE:20190119
-DTEND;VALUE=DATE:20190120
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190120T080531
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190120T180023
 DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -1989,6 +2003,16 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of every (lunar) month (Āśv
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sāyana-saṅkramaṇa-dina-aparāhṇa-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190120T121949
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190120T180023
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -4528,8 +4552,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kumbha-ravi-saṅkramaṇa-viṣṇupadī-puṇyakālaḥ
-DTSTART;VALUE=DATE:20190212
-DTEND;VALUE=DATE:20190213
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190213T063557
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190213T145354
 DESCRIPTION:Kumbha-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala. Perform d
  anam of hay\, grass\, food and pure water to cows.<br/><br/>kumbhapravēś
  ē dānaṁ tu gavaṁ ambu tr̥ṇasya ca।  <br/>saṅkrāntisnānākar
@@ -4542,9 +4566,16 @@ DESCRIPTION:Kumbha-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala. Perform d
  sham/adyatithi/blob/master/time_focus/sankrAnti/description_only/kumbha-ra
  vi-saGkramaNa-viSNupadI-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFe
  stivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:saṅkramaṇa-dina-pūrvāhṇa-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190213T063557
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190213T122316
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -5266,12 +5297,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(sāyana) ṣaḍaśīti-puṇyakālaḥ
-DTSTART;VALUE=DATE:20190218
-DTEND;VALUE=DATE:20190219
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190219T063338
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190219T181211
 DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -5378,6 +5406,26 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of every (lunar) month (Sūry
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ravi-saṅkramaṇa-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190219T063338
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190219T105753
+DESCRIPTION:
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sāyana-saṅkramaṇa-dina-pūrvāhṇa-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190219T063338
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190219T122250
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -7609,8 +7657,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:mīna-ravi-saṅkramaṇa-ṣaḍaśīti-puṇyakālaḥ
-DTSTART;VALUE=DATE:20190314
-DTEND;VALUE=DATE:20190315
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190315T062015
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190315T181556
 DESCRIPTION:Mīna-Ravi-Saṅkramaṇa-Ṣaḍaśīti Punyakala.<br/><br/>s
  aṅkrāntisnānākaraṇē pratyavāyamāha śātātapaḥ—  <br/>sūry
  asaṅkramaṇē puṇyē na snāyādyadi mānavaḥ।  <br/>saptajanmasu
@@ -7621,9 +7669,26 @@ DESCRIPTION:Mīna-Ravi-Saṅkramaṇa-Ṣaḍaśīti Punyakala.<br/><br/>s
  ://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/descrip
  tion_only/mIna-ravi-saGkramaNa-SaDazIti-puNyakAlaH.toml)<br/>- Tags: SunSa
  nkranti CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ravi-saṅkramaṇa-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190315T062015
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190315T114800
+DESCRIPTION:
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:saṅkramaṇa-dina-pūrvāhṇa-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190315T062015
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190315T121805
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -8360,12 +8425,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(sāyana) viṣu-puṇyakālaḥ
-DTSTART;VALUE=DATE:20190320
-DTEND;VALUE=DATE:20190321
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190321T061613
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190321T072830
 DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -8527,6 +8589,26 @@ DESCRIPTION:Observed on Uttaraphalgunī nakshatra of Mīnaḥ (sidereal so
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ravi-saṅkramaṇa-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190321T061613
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190321T095230
+DESCRIPTION:
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sāyana-saṅkramaṇa-dina-pūrvāhṇa-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190321T061613
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190321T121622
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -10167,23 +10249,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:arundhatī-vrata-ārambhaḥ
-DTSTART;VALUE=DATE:20190407
-DTEND;VALUE=DATE:20190408
-DESCRIPTION:Observed on Śukla-Dvitīyā tithi of Caitraḥ (lunar) month 
- (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit 
- config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/sha
- iva/lunar_month/tithi/01/02/arundhatI-vrata-ArambhaH.toml)<br/>- Tags: Spe
- cialVratam VratamStart SpecialPeriodStart
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:bālēnduvratam
 DTSTART;VALUE=DATE:20190407
 DTEND;VALUE=DATE:20190408
@@ -10242,6 +10307,23 @@ DESCRIPTION:- Indian civil date: 1941-01-18\, Islamic: 1440-08-02 Shaʿbā
  9:07\; **Yamaghaṇṭaḥ**—10:39-12:11\; **Gulikakālaḥ**—13:42-15
  :14  \n___________________\n- **Śūlam**—Prāchī (►09:19)\; **Parih
  āraḥ**–Dadhi  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:arundhatī-vratam
+DTSTART;VALUE=DATE:20190408
+DTEND;VALUE=DATE:20190409
+DESCRIPTION:Observed on Śukla-Tr̥tīyā tithi of Caitraḥ (lunar) month
+  (Madhyāhnaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/sha
+ iva/lunar_month/tithi/01/03/arundhatI-vratam.toml)<br/>- Tags: SpecialVrat
+ am
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10963,8 +11045,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:mēṣa-saṅkramaṇa-puṇyakālaḥ
-DTSTART;VALUE=DATE:20190413
-DTEND;VALUE=DATE:20190414
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190414T095357
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190414T175354
 DESCRIPTION:Meṣa-Saṅkramaṇa Punyakala.<br/><br/>saṅkrāntisnānāk
  araṇē pratyavāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇē pu
  ṇyē na snāyādyadi mānavaḥ।  <br/>saptajanmasu rōgī syād duḥ
@@ -10974,9 +11056,6 @@ DESCRIPTION:Meṣa-Saṅkramaṇa Punyakala.<br/><br/>saṅkrāntisnānāk
  br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
  sham/adyatithi/blob/master/time_focus/sankrAnti/description_only/mESa-saGk
  ramaNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -11000,6 +11079,16 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:ravi-saṅkramaṇa-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190414T072957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190414T181805
+DESCRIPTION:
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:ravipuṣyayōga-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190413T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190414T073844
@@ -11007,6 +11096,16 @@ DESCRIPTION:When Pushya nakshatra falls on a Sunday\, it is a special pu
  ṇyakālaḥ.<br/><br/>## Details<br/>- [Edit config file](https://github
  .com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/descript
  ion_only/ravipuSyayOga-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:saṅkramaṇa-dina-aparāhṇa-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190414T120927
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190414T181805
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -11981,12 +12080,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(sāyana) viṣṇupadī-puṇyakālaḥ
-DTSTART;VALUE=DATE:20190419
-DTEND;VALUE=DATE:20190420
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190420T080120
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190420T181848
 DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -12062,6 +12158,16 @@ DESCRIPTION:Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sāyana-saṅkramaṇa-dina-aparāhṇa-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190420T120800
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190420T181848
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -14612,6 +14718,16 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:saṅkramaṇa-dina-pūrvāhṇa-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190515T054708
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190515T120525
+DESCRIPTION:
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:sarva-mōhinī-ēkādaśī
 DTSTART;VALUE=DATE:20190515
 DTEND;VALUE=DATE:20190516
@@ -14670,8 +14786,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:vr̥ṣabha-ravi-saṅkramaṇa-viṣṇupadī-puṇyakālaḥ
-DTSTART;VALUE=DATE:20190514
-DTEND;VALUE=DATE:20190515
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190515T054708
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190515T170841
 DESCRIPTION:Vṛṣabha-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala.<br/>
  <br/>saṅkrāntisnānākaraṇē pratyavāyamāha śātātapaḥ—  <br/
  >sūryasaṅkramaṇē puṇyē na snāyādyadi mānavaḥ।  <br/>saptaj
@@ -14682,9 +14798,6 @@ DESCRIPTION:Vṛṣabha-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala.<br/>
  (https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/d
  escription_only/vRSabha-ravi-saGkramaNa-viSNupadI-puNyakAlaH.toml)<br/>- T
  ags: SunSankranti CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -15481,12 +15594,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(sāyana) ṣaḍaśīti-puṇyakālaḥ
-DTSTART;VALUE=DATE:20190520
-DTEND;VALUE=DATE:20190521
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190521T132905
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190521T182509
 DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -15545,6 +15655,26 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ravi-saṅkramaṇa-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190521T070511
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190521T182509
+DESCRIPTION:
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sāyana-saṅkramaṇa-dina-aparāhṇa-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190521T120534
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190521T182509
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -18270,8 +18400,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:mithuna-ravi-saṅkramaṇa-ṣaḍaśīti-puṇyakālaḥ
-DTSTART;VALUE=DATE:20190614
-DTEND;VALUE=DATE:20190615
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190615T171837
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190615T183221
 DESCRIPTION:Mithuna-Ravi-Saṅkramaṇa-Ṣaḍaśīti Punyakala. Perform 
  danam of clothes\, food and water.<br/><br/>vastrānnapānadānāni mithun
  ē vihitāni tu।  <br/>saṅkrāntisnānākaraṇē pratyavāyamāha ś
@@ -18283,9 +18413,26 @@ DESCRIPTION:Mithuna-Ravi-Saṅkramaṇa-Ṣaḍaśīti Punyakala. Perform
  />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
  time_focus/sankrAnti/description_only/mithuna-ravi-saGkramaNa-SaDazIti-puN
  yakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ravi-saṅkramaṇa-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190615T105434
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190615T183221
+DESCRIPTION:
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:saṅkramaṇa-dina-aparāhṇa-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190615T120918
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190615T183221
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -19021,12 +19168,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(sāyana) dakṣiṇāyana-puṇyakālaḥ
-DTSTART;VALUE=DATE:20190621
-DTEND;VALUE=DATE:20190622
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190622T054734
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190621T212417
 DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -19043,6 +19187,26 @@ DESCRIPTION:Observed on day 1 of Śuciḥ (tropical) month (Sūryōdayaḥ
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ravi-saṅkramaṇa-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190622T054734
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190622T034811
+DESCRIPTION:
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sāyana-saṅkramaṇa-dina-pūrvāhṇa-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190622T054734
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190622T121053
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -21535,8 +21699,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:karkaṭa-saṅkramaṇa-puṇyakālaḥ
-DTSTART;VALUE=DATE:20190715
-DTEND;VALUE=DATE:20190716
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190716T160930
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190716T183548
 DESCRIPTION:Karkaṭa-Saṅkramaṇa Punyakala.<br/><br/>saṅkrāntisnān
  ākaraṇē pratyavāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇē
   puṇyē na snāyādyadi mānavaḥ।  <br/>saptajanmasu rōgī syād du
@@ -21546,9 +21710,6 @@ DESCRIPTION:Karkaṭa-Saṅkramaṇa Punyakala.<br/><br/>saṅkrāntisnān
  /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
  otisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/karkaT
  a-saGkramaNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -21617,6 +21778,26 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of every (lunar) month (Āśv
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ravi-saṅkramaṇa-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190716T214527
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190716T183548
+DESCRIPTION:
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:saṅkramaṇa-dina-aparāhṇa-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190716T121455
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190716T183548
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -22260,12 +22441,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(sāyana) viṣṇupadī-puṇyakālaḥ
-DTSTART;VALUE=DATE:20190722
-DTEND;VALUE=DATE:20190723
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190723T055546
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190723T144423
 DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -22281,6 +22459,16 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyat
  ithi/blob/master/time_focus/sankrAnti/description_only/nabhO-mAsaH__varSaR
  tuH.toml)<br/>- Tags: SunSankranti CommonFestivals
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sāyana-saṅkramaṇa-dina-pūrvāhṇa-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190723T055546
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190723T121521
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -25268,9 +25456,19 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:saṅkramaṇa-dina-aparāhṇa-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190817T121303
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190817T182543
+DESCRIPTION:
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:siṁha-ravi-saṅkramaṇa-viṣṇupadī-puṇyakālaḥ
-DTSTART;VALUE=DATE:20190816
-DTEND;VALUE=DATE:20190817
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190817T060944
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190817T182543
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/sankrAnti/description_only/siMha-ravi-
  saGkramaNa-viSNupadI-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFesti
@@ -25278,9 +25476,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  .com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only
  /siMha-ravi-saGkramaNa-viSNupadI-puNyakAlaH.toml)<br/>- Tags: SunSankranti
   CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -25716,12 +25911,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(sāyana) ṣaḍaśīti-puṇyakālaḥ
-DTSTART;VALUE=DATE:20190822
-DTEND;VALUE=DATE:20190823
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190823T153203
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190823T182224
 DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -25811,6 +26003,26 @@ DESCRIPTION:Observed on Kr̥ṣṇa-Aṣṭamī tithi of every (lunar) mon
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ravi-saṅkramaṇa-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190823T090800
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190823T182224
+DESCRIPTION:
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sāyana-saṅkramaṇa-dina-aparāhṇa-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190823T121136
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190823T182224
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -29270,8 +29482,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kanyā-ravi-saṅkramaṇa-ṣaḍaśīti-puṇyakālaḥ
-DTSTART;VALUE=DATE:20190916
-DTEND;VALUE=DATE:20190917
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190917T123137
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190917T180534
 DESCRIPTION:Kanyā-Ravi-Saṅkramaṇa-Ṣaḍaśīti Punyakala. Perform d
  anam of clothes/place to live.<br/><br/>kanyāpravēśē vastrāṇāṁ v
  ēśmanāṁ dānamēva ca।  <br/>saṅkrāntisnānākaraṇē pratyavā
@@ -29283,9 +29495,26 @@ DESCRIPTION:Kanyā-Ravi-Saṅkramaṇa-Ṣaḍaśīti Punyakala. Perform d
  # Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/
  blob/master/time_focus/sankrAnti/description_only/kanyA-ravi-saGkramaNa-Sa
  DazIti-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ravi-saṅkramaṇa-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190917T060743
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190917T180534
+DESCRIPTION:
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:saṅkramaṇa-dina-aparāhṇa-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190917T120333
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190917T180534
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -29945,12 +30174,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(sāyana) viṣu-puṇyakālaḥ
-DTSTART;VALUE=DATE:20190922
-DTEND;VALUE=DATE:20190923
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190923T092006
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190923T172012
 DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -30019,6 +30245,26 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  />## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatit
  hi/blob/master/time_focus/sankrAnti/description_only/iSa-mAsaH__zaradRtuH.
  toml)<br/>- Tags: SunSankranti CommonFestivals
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ravi-saṅkramaṇa-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190923T065606
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190923T180114
+DESCRIPTION:
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sāyana-saṅkramaṇa-dina-aparāhṇa-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190923T120123
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190923T180114
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -30676,9 +30922,9 @@ BEGIN:VEVENT
 SUMMARY:dauhitra-pratipat
 DTSTART;VALUE=DATE:20190929
 DTEND;VALUE=DATE:20190930
-DESCRIPTION:Observed on Śukla-Prathamā tithi of Āśvayujaḥ (lunar) mo
- nth (Sūryōdayaḥ/puurvaviddha). <br/><br/>Grandson must seek blessings 
- of his maternal grandparents\, and bestow gifts.<br/><br/>## Details<br/>-
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/lunar_month/tithi/07/01/dauhitra-prat
+ ipat.toml)<br/>- Tags: CommonFestivals<br/><br/><br/><br/>## Details<br/>-
   [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/dev
  atA/pitR/lunar_month/tithi/07/01/dauhitra-pratipat.toml)<br/>- Tags: Commo
  nFestivals
@@ -31588,6 +31834,27 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:vijayadaśamī
+DTSTART;VALUE=DATE:20191007
+DTEND;VALUE=DATE:20191008
+DESCRIPTION:Observed on Śukla-Daśamī tithi of Āśvayujaḥ (lunar) mon
+ th (Pradōṣaḥ/puurvaviddha). <br/><br/>Arjuna wins over all Kauravas a
+ nd Karna<br/>Sri Rama's army built tents on ocean bank before crossing on 
+ Shravana star (AnandaRamayanam)<br/>Best day for AksharaaBhyaasam<br/><br/
+ >āśvinasya sitē pakṣē daśamyāṁ tārakōdayē।  <br/>sa kālō 
+ vijayō jñēyaḥ sarvakāryārthasiddhayē॥ (jyōtirnibandhaḥ)<br/><
+ br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/blob/master/general/lunar_month/tithi/07/10/vijayadazamI.to
+ ml)<br/>- Tags: CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:śarannavarātraḥ
 DTSTART;VALUE=DATE:20190928
 DTEND;VALUE=DATE:20191008
@@ -31762,27 +32029,6 @@ DESCRIPTION:Observed on Śukla-Daśamī tithi of Āśvayujaḥ (lunar) mon
  ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
  atithi/blob/master/mahApuruSha/mAdhva-misc/lunar_month/tithi/07/10/madhvAc
  Arya~jayantI.toml)<br/>- Tags: MahapurushaEvents
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:vijayadaśamī
-DTSTART;VALUE=DATE:20191008
-DTEND;VALUE=DATE:20191009
-DESCRIPTION:Observed on Śukla-Daśamī tithi of Āśvayujaḥ (lunar) mon
- th (Sūryōdayaḥ/puurvaviddha). <br/><br/>Arjuna wins over all Kauravas 
- and Karna<br/>Sri Rama's army built tents on ocean bank before crossing on
-  Shravana star (AnandaRamayanam)<br/>Best day for AksharaaBhyaasam<br/><br
- />āśvinasya sitē pakṣē daśamyāṁ tārakōdayē।  <br/>sa kālō
-  vijayō jñēyaḥ sarvakāryārthasiddhayē॥ (jyōtirnibandhaḥ)<br/>
- <br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
- isham/adyatithi/blob/master/general/lunar_month/tithi/07/10/vijayadazamI.t
- oml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -33045,6 +33291,26 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:ravi-saṅkramaṇa-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191018T060307
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191018T065514
+DESCRIPTION:
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:saṅkramaṇa-dina-pūrvāhṇa-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191018T060307
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191018T115402
+DESCRIPTION:
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:tulā-kāvērī-snāna-ārambhaḥ
 DTSTART;VALUE=DATE:20191018
 DTEND;VALUE=DATE:20191019
@@ -33065,8 +33331,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:tulā-saṅkramaṇa-puṇyakālaḥ
-DTSTART;VALUE=DATE:20191017
-DTEND;VALUE=DATE:20191018
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191018T060307
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191018T043114
 DESCRIPTION:Tulā-Saṅkramaṇa Punyakala. Perform danam of rice/wheat/gr
  ains and cow ghee/curd etc.<br/><br/>tulāpravēśē dhānyānāṁ gōras
  ānāmapīṣṭadam"  <br/>saṅkrāntisnānākaraṇē pratyavāyamāha 
@@ -33078,9 +33344,6 @@ DESCRIPTION:Tulā-Saṅkramaṇa Punyakala. Perform danam of rice/wheat/gr
  r/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master
  /time_focus/sankrAnti/description_only/tulA-saGkramaNa-puNyakAlaH.toml)<br
  />- Tags: SunSankranti CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -33539,12 +33802,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(sāyana) viṣṇupadī-puṇyakālaḥ
-DTSTART;VALUE=DATE:20191023
-DTEND;VALUE=DATE:20191024
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191024T060407
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191024T051343
 DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sāyana-saṅkramaṇa-dina-pūrvāhṇa-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191024T060407
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191024T115302
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -36914,6 +37184,16 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:saṅkramaṇa-dina-pūrvāhṇa-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191117T061154
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191117T115345
+DESCRIPTION:
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:tiruviśalūr gaṅgākarṣaṇa-mahōtsava-ārambhaḥ
 DTSTART;VALUE=DATE:20191117
 DTEND;VALUE=DATE:20191118
@@ -36937,8 +37217,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:vr̥ścika-ravi-saṅkramaṇa-viṣṇupadī-puṇyakālaḥ
-DTSTART;VALUE=DATE:20191116
-DTEND;VALUE=DATE:20191117
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191117T061154
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191117T064518
 DESCRIPTION:Vṛśchika-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala. Do d
  anam of deepam.<br/><br/>saṅkrāntisnānākaraṇē pratyavāyamāha ś
  ātātapaḥ—  <br/>sūryasaṅkramaṇē puṇyē na snāyādyadi māna
@@ -36949,9 +37229,6 @@ DESCRIPTION:Vṛśchika-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala. Do d
  />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
  time_focus/sankrAnti/description_only/vRzcika-ravi-saGkramaNa-viSNupadI-pu
  NyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -37468,12 +37745,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(sāyana) ṣaḍaśīti-puṇyakālaḥ
-DTSTART;VALUE=DATE:20191122
-DTEND;VALUE=DATE:20191123
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191123T061447
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191123T173528
 DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -37506,6 +37780,26 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
  /blob/master/time_focus/monthly/ekAdashI/description_only/harivAsaraH.toml
  )<br/>- Tags: MonthlyVratam EkadashiVratam
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ravi-saṅkramaṇa-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191123T061447
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191123T025253
+DESCRIPTION:
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sāyana-saṅkramaṇa-dina-pūrvāhṇa-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191123T061447
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191123T115503
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -40025,8 +40319,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:dhanūravi-saṅkramaṇa-ṣaḍaśīti-puṇyakālaḥ
-DTSTART;VALUE=DATE:20191215
-DTEND;VALUE=DATE:20191216
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191216T150106
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191216T174122
 DESCRIPTION:Dhanur-Ravi-Saṅkramaṇa-Ṣaḍaśīti Punyakala. Perform d
  anam of clothes/vehicle (e.g. bullock cart).<br/><br/>dhanuḥpravēśē v
  astrāṇāṁ yānānāṁ ca mahāphalam  <br/>saṅkrāntisnānākara
@@ -40039,9 +40333,26 @@ DESCRIPTION:Dhanur-Ravi-Saṅkramaṇa-Ṣaḍaśīti Punyakala. Perform d
  ham/adyatithi/blob/master/time_focus/sankrAnti/description_only/dhanUravi-
  saGkramaNa-SaDazIti-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestiv
  als
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ravi-saṅkramaṇa-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191216T083703
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191216T174122
+DESCRIPTION:
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:saṅkramaṇa-dina-aparāhṇa-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191216T120416
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191216T174122
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -40473,12 +40784,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(sāyana) uttarāyaṇa-puṇyakālaḥ
-DTSTART;VALUE=DATE:20191221
-DTEND;VALUE=DATE:20191222
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191222T094920
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191222T174415
 DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -40514,6 +40822,26 @@ DESCRIPTION:Observed on Svātī nakshatra of Dhanuḥ (sidereal solar) mon
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ravi-saṅkramaṇa-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191222T063011
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191222T161323
+DESCRIPTION:
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sāyana-saṅkramaṇa-dina-pūrvāhṇa-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191222T063011
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191222T120709
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
