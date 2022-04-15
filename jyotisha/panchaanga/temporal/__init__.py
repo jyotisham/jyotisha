@@ -51,6 +51,18 @@ def get_2_day_interval_boundary_angas(kaala, anga_type, p0, p1):
 
 class FestivalOptions(JsonObject):
   def __init__(self, set_lagnas=None, no_fests=None, fest_repos=None, fest_ids_included_unimplemented=None, fest_ids_excluded_unimplemented=None, aparaahna_as_second_half=False, prefer_eight_fold_day_division=False, set_pancha_paxi_activities=None, julian_handling=RulesCollection.JULIAN_TO_GREGORIAN):
+    """
+    
+    :param set_lagnas: 
+    :param no_fests: 
+    :param fest_repos: 
+    :param fest_ids_included_unimplemented: TODO: rename when actually implemented 
+    :param fest_ids_excluded_unimplemented:  TODO: rename when actually implemented 
+    :param aparaahna_as_second_half: 
+    :param prefer_eight_fold_day_division: 
+    :param set_pancha_paxi_activities: 
+    :param julian_handling: 
+    """
     super().__init__()
     self.set_lagnas = set_lagnas
     self.set_pancha_paxi_activities = set_pancha_paxi_activities
