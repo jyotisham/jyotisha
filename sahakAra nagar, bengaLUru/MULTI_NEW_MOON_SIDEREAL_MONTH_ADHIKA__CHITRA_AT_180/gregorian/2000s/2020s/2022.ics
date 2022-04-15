@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220415183235
+SEQUENCE:20220415184208
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -13068,14 +13068,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:अरुन्धती-व्रत-आरम्भः
+SUMMARY:अरुन्धती-व्रतम्
 DTSTART;VALUE=DATE:20220403
 DTEND;VALUE=DATE:20220404
-DESCRIPTION:Observed on Śukla-Dvitīyā tithi of Caitraḥ (lunar) month 
- (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit 
+DESCRIPTION:Observed on Śukla-Tr̥tīyā tithi of Caitraḥ (lunar) month
+  (Madhyāhnaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit 
  config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/sha
- iva/lunar_month/tithi/01/02/arundhatI-vrata-ArambhaH.toml)<br/>- Tags: Spe
- cialVratam VratamStart SpecialPeriodStart
+ iva/lunar_month/tithi/01/03/arundhatI-vratam.toml)<br/>- Tags: SpecialVrat
+ am
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -38718,9 +38718,9 @@ BEGIN:VEVENT
 SUMMARY:दौहित्र-प्रतिपत्
 DTSTART;VALUE=DATE:20220926
 DTEND;VALUE=DATE:20220927
-DESCRIPTION:Observed on Śukla-Prathamā tithi of Āśvayujaḥ (lunar) mo
- nth (Sūryōdayaḥ/puurvaviddha). <br/><br/>Grandson must seek blessings 
- of his maternal grandparents\, and bestow gifts.<br/><br/>## Details<br/>-
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/lunar_month/tithi/07/01/dauhitra-prat
+ ipat.toml)<br/>- Tags: CommonFestivals<br/><br/><br/><br/>## Details<br/>-
   [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/dev
  atA/pitR/lunar_month/tithi/07/01/dauhitra-pratipat.toml)<br/>- Tags: Commo
  nFestivals
@@ -39869,6 +39869,29 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:विजयदशमी
+DTSTART;VALUE=DATE:20221004
+DTEND;VALUE=DATE:20221005
+DESCRIPTION:Observed on Śukla-Daśamī tithi of Āśvayujaḥ (lunar) mon
+ th (Pradōṣaḥ/puurvaviddha). <br/><br/>Arjuna wins over all Kauravas a
+ nd Karna<br/>Sri Rama's army built tents on ocean bank before crossing on 
+ Shravana star (AnandaRamayanam)<br/>Best day for AksharaaBhyaasam<br/><br/
+ >आश्विनस्य सिते पक्षे दशम्य
+ ां तारकोदये।  <br/>स कालो विजयो 
+ ज्ञेयः सर्वकार्यार्थसिद्ध
+ ये॥ (ज्योतिर्निबन्धः)<br/><br/><br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/blob/master/general/lunar_month/tithi/07/10/vijayadazamI.toml)<br/>- T
+ ags: CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:शरन्नवरात्रः
 DTSTART;VALUE=DATE:20220926
 DTEND;VALUE=DATE:20221005
@@ -40057,29 +40080,6 @@ DESCRIPTION:Observed on Śukla-Daśamī tithi of Āśvayujaḥ (lunar) mon
  ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
  atithi/blob/master/mahApuruSha/mAdhva-misc/lunar_month/tithi/07/10/madhvAc
  Arya~jayantI.toml)<br/>- Tags: MahapurushaEvents
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:विजयदशमी
-DTSTART;VALUE=DATE:20221005
-DTEND;VALUE=DATE:20221006
-DESCRIPTION:Observed on Śukla-Daśamī tithi of Āśvayujaḥ (lunar) mon
- th (Sūryōdayaḥ/puurvaviddha). <br/><br/>Arjuna wins over all Kauravas 
- and Karna<br/>Sri Rama's army built tents on ocean bank before crossing on
-  Shravana star (AnandaRamayanam)<br/>Best day for AksharaaBhyaasam<br/><br
- />आश्विनस्य सिते पक्षे दशम्य
- ां तारकोदये।  <br/>स कालो विजयो 
- ज्ञेयः सर्वकार्यार्थसिद्ध
- ये॥ (ज्योतिर्निबन्धः)<br/><br/><br/><b
- r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
- thi/blob/master/general/lunar_month/tithi/07/10/vijayadazamI.toml)<br/>- T
- ags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -43355,6 +43355,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:यम/भ्रातृ-द्वितीया
+DTSTART;VALUE=DATE:20221026
+DTEND;VALUE=DATE:20221027
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/08/02/yama_or_bhrAtR-dv
+ itIyA.toml)<br/>- Tags: CommonFestivals<br/><br/><br/><br/>## Details<br/>
+ - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/ge
+ neral/lunar_month/tithi/08/02/yama_or_bhrAtR-dvitIyA.toml)<br/>- Tags: Com
+ monFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-02  \,  तुला-विश
  ाखा🌛🌌  \,  तुला-स्वाती-07-10🌞🌌  \,  
  ऊर्जः-08-05🌞🪐  \,  गुरुः
@@ -43466,24 +43484,6 @@ DESCRIPTION:Event occured on 1670-10-27 (gregorian). Julian date was conve
  <br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham
  /adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/10/17/shivarAjo_
  diNDoryAM_jayati.toml)<br/>- Tags:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:यम/भ्रातृ-द्वितीया
-DTSTART;VALUE=DATE:20221027
-DTEND;VALUE=DATE:20221028
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/general/lunar_month/tithi/08/02/yama_or_bhrAtR-dv
- itIyA.toml)<br/>- Tags: CommonFestivals<br/><br/><br/><br/>## Details<br/>
- - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/ge
- neral/lunar_month/tithi/08/02/yama_or_bhrAtR-dvitIyA.toml)<br/>- Tags: Com
- monFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
