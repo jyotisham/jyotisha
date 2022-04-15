@@ -15,7 +15,7 @@ class DisplayOptions(JsonObject):
     self.languages = languages
 
   def sort_festivals(self, festival_id_to_instance):
-    pass
+    return sorted(festival_id_to_instance.values())
 
 
 # Essential for depickling to work.
