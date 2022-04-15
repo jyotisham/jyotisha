@@ -8,20 +8,22 @@ Coimbatore		10.966657792836907	76.90954363309359	Asia/Calcutta
 Delhi	indra-prasthaH	28.5676528	77.1636295	Asia/Calcutta
 Dwaraka	dvArakApurI	22.2467347	68.9606388	Asia/Calcutta
 Hampi	vijayanagaram	15.3350	76.46	Asia/Calcutta
-Kamakhya		26.1664187	91.7029625	Asia/Calcutta
+Kamakhya	kAmAkhyA	26.1664187	91.7029625	Asia/Calcutta
 Kanchipuram	kAJcI	12.8438285	79.6994636	Asia/Calcutta
 Kanyakumari		8.0805248	77.547384	Asia/Calcutta
 Kashi	kAshI	25.3109634	83.0107418	Asia/Calcutta
+Varanasi	vArANasI	25.3109634	83.0107418	Asia/Calcutta
 Madurai		9.919525	78.1187598	Asia/Calcutta
 Mumbai	mumbApurI	18:57:36	72:49:12	Asia/Calcutta
 Mysore	mahiShapurI	12.2958	76.6394	Asia/Calcutta
+Nerur	nerUr	10.9967	78.156	Asia/Calcutta
 Prayag	prayAgaH	25.4339768	81.8784979	Asia/Calcutta
 Prayagraj	prayAgaH	25.4339768	81.8784979	Asia/Calcutta
 Pune	puNyanagarI	18:31:48	73:50:24	Asia/Calcutta
 Vijayawada	vijayavADA	16.5128023	80.6039116	Asia/Calcutta
 sahakAra nagar, bengaLUru	sahakAra-nagaram, kalyANapurI	13:03:48.9	77:34:45.7	Asia/Calcutta
-Thanjavur		10:46:59	79:07:51	Asia/Calcutta
-Tirupati		13.646939287359896	79.42132439583985	Asia/Calcutta
+Thanjavur	taJjAvUr	10:46:59	79:07:51	Asia/Calcutta
+Tirupati	tirupati	13.646939287359896	79.42132439583985	Asia/Calcutta
 Ujjain	ujjayinI	23.1765	75.7885	Asia/Calcutta
 AbuDhabi		24:28:48	54:22:12	Asia/Dubai
 Berlin		52:31:12	13:22:48	Europe/Berlin
@@ -77,6 +79,7 @@ Asansol		23.68	86.97	Asia/Calcutta
 Attur		11.5983176	78.5799256	Asia/Calcutta
 Aurangabad_MH		19.88	75.32	Asia/Calcutta
 Aurangabad_BR		24.77	84.38	Asia/Calcutta
+Ayodhya	ayOdhyA	26.7897709	82.1641483	Asia/Calcutta
 Badvel		14.75	79.05	Asia/Calcutta
 Baharampur		24.1	88.25	Asia/Calcutta
 Bahraigh		27.62	81.67	Asia/Calcutta
@@ -179,8 +182,8 @@ Fyzabad		26.75	82.17	Asia/Calcutta
 Gadwal		16.23	77.8	Asia/Calcutta
 Gangtok		27.33	88.62	Asia/Calcutta
 Gauripur		26.08	89.97	Asia/Calcutta
-Gaya		24.75	85.02	Asia/Calcutta
-Ghandinagar		23.22	72.68	Asia/Calcutta
+Gaya	gayA	24.75	85.02	Asia/Calcutta
+Gandhinagar		23.22	72.68	Asia/Calcutta
 Ghaziabad		28.67	77.42	Asia/Calcutta
 Giddalur		15.38	78.93	Asia/Calcutta
 Godhra		22.78	73.61	Asia/Calcutta
@@ -265,7 +268,7 @@ Kohima		25.67	94.12	Asia/Calcutta
 Koilkuntla		15.23	78.32	Asia/Calcutta
 Kolar		13.13	78.13	Asia/Calcutta
 Kolhapur		16.7	74.23	Asia/Calcutta
-Kolkata	kAlIkSetram	22.54	88.34	Asia/Calcutta
+Kolkata	kAlIghaTTa	22.54	88.34	Asia/Calcutta
 Koratla		18.82	78.72	Asia/Calcutta
 Kota		25.18	75.83	Asia/Calcutta
 Kothapet		19.33	79.48	Asia/Calcutta
@@ -275,7 +278,7 @@ Krishnagiri		12.5265653	78.1974479	Asia/Calcutta
 Krishnanagar		23.4	88.5	Asia/Calcutta
 Kulgam		33.64	75.02	Asia/Calcutta
 Kulti		23.73	86.85	Asia/Calcutta
-Kumbakonam		10.9621643	79.2980262	Asia/Calcutta
+Kumbakonam	kumbhaghONam	10.9621643	79.2980262	Asia/Calcutta
 Kurnool		15.82	78.03	Asia/Calcutta
 Latur		18.4	76.57	Asia/Calcutta
 Lucknow		26.85	80.95	Asia/Calcutta
@@ -301,7 +304,7 @@ Mangalore		12.87	74.88	Asia/Calcutta
 Mangur		17.94	80.82	Asia/Calcutta
 Mannargudi		10.6661157	79.4125267	Asia/Calcutta
 Markapur		15.73	79.27	Asia/Calcutta
-Mathura		27.48	77.68	Asia/Calcutta
+Mathura	mathurA	27.48	77.68	Asia/Calcutta
 Mauli		30.72	76.72	Asia/Calcutta
 Mayiladuthurai		11.1017698	79.635059	Asia/Calcutta
 Medinipur		22.43	87.33	Asia/Calcutta
@@ -388,7 +391,7 @@ Rajapalayam		9.4596118	77.4863771	Asia/Calcutta
 Rajgir		25.03	85.42	Asia/Calcutta
 Rajkot		22.3	70.8	Asia/Calcutta
 Ramanathapuram		9.367826	78.8082036	Asia/Calcutta
-Rameswaram		9.2867184	79.3028783	Asia/Calcutta
+Rameswaram	rAmEzvaram	9.2867184	79.3028783	Asia/Calcutta
 Ramgundam		18.8	79.45	Asia/Calcutta
 Rampur		28.82	79.03	Asia/Calcutta
 Ranchi		23.36	85.33	Asia/Calcutta
@@ -444,10 +447,10 @@ Tenkasi		8.9640571	77.2794588	Asia/Calcutta
 Tezpur		26.63	92.8	Asia/Calcutta
 Thane		19.18	72.96	Asia/Calcutta
 Tharangambadi		11.0281249	79.8428982	Asia/Calcutta
-Thiruchendur		8.4954858	78.1138502	Asia/Calcutta
+Tiruchendur		8.4954858	78.1138502	Asia/Calcutta
 Thirukoilure		11.96348	79.1902334	Asia/Calcutta
-Thiruvallur		13.123055	79.894443	Asia/Calcutta
-Thiruvananthapuram		8.5	76.9	Asia/Calcutta
+Tiruvallur		13.123055	79.894443	Asia/Calcutta
+Tiruvananthapuram		8.5	76.9	Asia/Calcutta
 Thondi		9.753001	78.9544909	Asia/Calcutta
 Thoothukudi		8.7766073	78.0759769	Asia/Calcutta
 Thuraiyur		11.1420652	78.5800422	Asia/Calcutta
