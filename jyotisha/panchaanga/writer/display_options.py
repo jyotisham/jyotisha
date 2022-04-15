@@ -1,6 +1,7 @@
 from sanskrit_data.schema import common
 from sanskrit_data.schema.common import JsonObject
 import logging
+import sys
 
 logging.basicConfig(
   level=logging.DEBUG,
