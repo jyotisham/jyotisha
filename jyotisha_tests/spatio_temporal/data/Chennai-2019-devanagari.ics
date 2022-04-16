@@ -10149,7 +10149,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:yugādiḥ
+SUMMARY:yugādiḥ/cāndramāna-saṁvatsarārambhaḥ
 DTSTART;VALUE=DATE:20190406
 DTEND;VALUE=DATE:20190407
 DESCRIPTION:Observed on Śukla-Prathamā tithi of Caitraḥ (lunar) month 
@@ -21986,11 +21986,13 @@ BEGIN:VEVENT
 SUMMARY:sarvanadī-rajasvalā
 DTSTART;VALUE=DATE:20190717
 DTEND;VALUE=DATE:20190718
-DESCRIPTION:Observed on day 1 of Karkaṭaḥ (sidereal solar) month (Sūr
- yōdayaḥ/puurvaviddha). <br/><br/>Do not take bath in any river during t
- hese days.<br/><br/>## Details<br/>- [Edit config file](https://github.com
- /jyotisham/adyatithi/blob/master/devatA/nadI/sidereal_solar_month/day/04/0
- 1/sarvanadI-rajasvalA~1.toml)<br/>- Tags: CommonFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/nadI/sidereal_solar_month/day/04/01/sarvan
+ adI-rajasvalA~1.toml)<br/>- Tags: CommonFestivals<br/><br/><br/><br/>## De
+ tails<br/>- References<br/>  - Vaidyanatha Dikshitiyam (SVR) Part 2 p.328-
+ -334<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/
+ master/devatA/nadI/sidereal_solar_month/day/04/01/sarvanadI-rajasvalA~1.to
+ ml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22108,11 +22110,13 @@ BEGIN:VEVENT
 SUMMARY:sarvanadī-rajasvalā
 DTSTART;VALUE=DATE:20190718
 DTEND;VALUE=DATE:20190719
-DESCRIPTION:Observed on day 2 of Karkaṭaḥ (sidereal solar) month (Sūr
- yōdayaḥ/puurvaviddha). <br/><br/>Do not take bath in any river during t
- hese days.<br/><br/>## Details<br/>- [Edit config file](https://github.com
- /jyotisham/adyatithi/blob/master/devatA/nadI/sidereal_solar_month/day/04/0
- 2/sarvanadI-rajasvalA~2.toml)<br/>- Tags: CommonFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/nadI/sidereal_solar_month/day/04/02/sarvan
+ adI-rajasvalA~2.toml)<br/>- Tags: CommonFestivals<br/><br/><br/><br/>## De
+ tails<br/>- References<br/>  - Vaidyanatha Dikshitiyam (SVR) Part 2 p.328-
+ -334<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/
+ master/devatA/nadI/sidereal_solar_month/day/04/02/sarvanadI-rajasvalA~2.to
+ ml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22208,11 +22212,13 @@ BEGIN:VEVENT
 SUMMARY:sarvanadī-rajasvalā
 DTSTART;VALUE=DATE:20190719
 DTEND;VALUE=DATE:20190720
-DESCRIPTION:Observed on day 3 of Karkaṭaḥ (sidereal solar) month (Sūr
- yōdayaḥ/puurvaviddha). <br/><br/>Do not take bath in any river during t
- hese days.<br/><br/>## Details<br/>- [Edit config file](https://github.com
- /jyotisham/adyatithi/blob/master/devatA/nadI/sidereal_solar_month/day/04/0
- 3/sarvanadI-rajasvalA~3.toml)<br/>- Tags: CommonFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/nadI/sidereal_solar_month/day/04/03/sarvan
+ adI-rajasvalA~3.toml)<br/>- Tags: CommonFestivals<br/><br/><br/><br/>## De
+ tails<br/>- References<br/>  - Vaidyanatha Dikshitiyam (SVR) Part 2 p.328-
+ -334<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/
+ master/devatA/nadI/sidereal_solar_month/day/04/03/sarvanadI-rajasvalA~3.to
+ ml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
