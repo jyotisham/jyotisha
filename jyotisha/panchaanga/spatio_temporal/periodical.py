@@ -8,7 +8,7 @@ import methodtools
 from timebudget import timebudget
 
 from jyotisha.panchaanga.spatio_temporal import daily
-from jyotisha.panchaanga.temporal import time, set_constants, ComputationSystem, AngaType
+from jyotisha.panchaanga.temporal import time, set_constants, ComputationSystem, AngaType, era
 from jyotisha.panchaanga.temporal.festival import FestivalInstance
 from jyotisha.panchaanga.temporal.festival.applier import tithi_festival, ecliptic, solar, vaara, rule_repo_based, \
   FestivalAssigner
@@ -32,7 +32,7 @@ class Panchaanga(common.JsonObject):
     """
   LATEST_VERSION = "0.0.4"
 
-  def __init__(self, city, start_date, end_date, computation_system: ComputationSystem = None):
+  def __init__(self, city, start_date, end_date, year_type = None, computation_system: ComputationSystem = None):
     """Constructor for the panchaanga.
         """
     super(Panchaanga, self).__init__()
@@ -42,6 +42,7 @@ class Panchaanga(common.JsonObject):
     self.start_date.set_time_to_day_start()
     self.end_date = Date(*([int(x) for x in end_date.split('-')])) if isinstance(end_date, str) else end_date
     self.end_date.set_time_to_day_start()
+    self.year_type = year_type
 
     self.computation_system = default_if_none(computation_system, ComputationSystem.DEFAULT)
 

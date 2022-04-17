@@ -51,7 +51,7 @@ def get_panchaanga_for_kali_year(city, year, precomputed_json_dir="~/Documents/j
     end_mina = anga_span_finder.find(jd1=time.utc_gregorian_to_jd(Date(year=start_year_civil  + 1, month=3, day=1)), jd2=time.utc_gregorian_to_jd(Date(year=start_year_civil + 1, month=5, day=1)), target_anga_id=1)
     jd_preceding_sunset_end_mina = city.get_setting_time(julian_day_start=end_mina.jd_start - 1, body=Graha.SUN)
     tz = Timezone(city.timezone)
-    panchaanga = periodical.Panchaanga(city=city, start_date=tz.julian_day_to_local_time(julian_day=jd_next_sunset_start_mesha), end_date=tz.julian_day_to_local_time(julian_day=jd_preceding_sunset_end_mina), computation_system=computation_system)
+    panchaanga = periodical.Panchaanga(city=city, start_date=tz.julian_day_to_local_time(julian_day=jd_next_sunset_start_mesha), end_date=tz.julian_day_to_local_time(julian_day=jd_preceding_sunset_end_mina), year_type = era.ERA_KALI, computation_system=computation_system)
     panchaanga.year = year
     # Festival data may be updated more frequently and a precomputed panchaanga may go out of sync. Hence we keep this method separate.
     logging.info('Writing computed panchaanga to %s...\n' % fname)
@@ -82,7 +82,7 @@ def get_panchaanga_for_shaka_year(city, year, precomputed_json_dir="~/Documents/
     start_equinox = anga_span_finder.find(jd1=time.utc_gregorian_to_jd(Date(year=start_year_civil, month=3, day=1)), jd2=time.utc_gregorian_to_jd(Date(year=start_year_civil, month=5, day=1)), target_anga_id=1)
     end_equinox = anga_span_finder.find(jd1=time.utc_gregorian_to_jd(Date(year=start_year_civil  + 1, month=3, day=1)), jd2=time.utc_gregorian_to_jd(Date(year=start_year_civil + 1, month=5, day=1)), target_anga_id=1)
     tz = Timezone(city.timezone)
-    panchaanga = periodical.Panchaanga(city=city, start_date=tz.julian_day_to_local_time(julian_day=start_equinox.jd_start), end_date=tz.julian_day_to_local_time(julian_day=end_equinox.jd_start), computation_system=computation_system)
+    panchaanga = periodical.Panchaanga(city=city, start_date=tz.julian_day_to_local_time(julian_day=start_equinox.jd_start), end_date=tz.julian_day_to_local_time(julian_day=end_equinox.jd_start), year_type = era.ERA_SHAKA, computation_system=computation_system)
     panchaanga.year = year
     # Festival data may be updated more frequently and a precomputed panchaanga may go out of sync. Hence we keep this method separate.
     logging.info('Writing computed panchaanga to %s...\n' % fname)
@@ -105,7 +105,7 @@ def get_panchaanga_for_civil_year(city, year, precomputed_json_dir="~/Documents/
     return panchaanga
   else:
     logging.info('No precomputed data available or allowed. Computing panchaanga...\n')
-    panchaanga = periodical.Panchaanga(city=city, start_date='%d-01-01' % year, end_date='%d-12-31' % year, computation_system=computation_system)
+    panchaanga = periodical.Panchaanga(city=city, start_date='%d-01-01' % year, end_date='%d-12-31' % year, year_type = era.ERA_GREGORIAN, computation_system=computation_system)
     panchaanga.year = year
     logging.info('Writing computed panchaanga to %s...\n' % fname)
 
