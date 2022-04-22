@@ -19,7 +19,7 @@ set_constants()
 
 
 def load_panchaanga(fname, fallback_fn):
-  logging.info('Loaded pre-computed panchaanga from %s.\n' % fname)
+  logging.info('Loaded pre-computed panchaanga from %s.' % fname)
   panchaanga = Panchaanga.read_from_file(filename=fname, name_to_json_class_index_extra={"Panchangam": periodical.Panchaanga})
   if getattr(panchaanga, 'version', None) is None or panchaanga.version != periodical.Panchaanga.LATEST_VERSION:
     logging.warning("Precomputed Panchanga obsolete.")
