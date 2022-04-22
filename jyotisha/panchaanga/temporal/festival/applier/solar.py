@@ -10,6 +10,8 @@ from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
 from jyotisha.panchaanga.temporal.festival import FestivalInstance
 from jyotisha.panchaanga.temporal.interval import Interval
 from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision
+from jyotisha.panchaanga.temporal.body import Graha
+from jyotisha.panchaanga.temporal import time
 from pytz import timezone as tz
 from sanskrit_data.schema import common
 from indic_transliteration import sanscript
@@ -284,6 +286,65 @@ class SolarFestivalAssigner(FestivalAssigner):
         if agni_jd_end is not None:
           if self.daily_panchaangas[d].jd_sunrise < agni_jd_end < self.daily_panchaangas[d + 1].jd_sunrise:
             self.panchaanga.add_festival(fest_id='agninakSatra-samApanam', date=self.daily_panchaangas[d].date)
+
+  def assign_nava_nayakas(self):
+    if self.panchaanga.duration < 365:
+      return
+    # चैत्रादि-मेष-हरि-कर्कट-चाप-युग्म-
+    # रौद्रर्क्ष-तौल-झष-सङ्क्रमवासरेशाः ।
+    # राजा च मन्त्रि-भटनायक-सस्यनाथ-
+    # धान्यार्घ-मेघ-रस-नीरसपाः क्रमेण॥
+  
+    # The adhipatis are the vaasaraadhipati-s of the following events
+    # (rashi/nakshatra names refer to the sun's transit into them)
+    # (rashi numbers refer to ordinal numbers starting with Mesha = 0)
+    #
+    # 1) Raja   - Chaitra Shukla Prathama
+    # 2) Mantri - Mesha   = 0
+    # 3) Sena   - Simha   = 4
+    # 4) Sasya  - Kataka  = 3
+    # 5) Dhanya - Dhanus  = 8
+    # 6) Argha  - Mithuna = 2
+    # 7) Megha  - Ardra
+    # 8) Rasa   - Tula    = 6
+    # 9) Nirasa - Makara  = 9
+  
+    nava_nayakas = {}
+    finder = zodiac.AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=zodiac.AngaType.SOLAR_NAKSH)
+    anga = finder.find(jd1 = self.panchaanga.jd_start, jd2=self.panchaanga.jd_end, target_anga_id=5)
+    fday = int(floor(anga.jd_start) - floor(self.daily_panchaangas[0].julian_day_start))
+    if (anga.jd_start < self.daily_panchaangas[fday].jd_sunrise):
+      fday -= 1
+
+    nava_nayakas['mEghAdhipatiH'] = names.NAMES['VARA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][self.daily_panchaangas[fday].date.get_weekday()]
+    # nava_nayakas['rAjA'] = names.NAMES['VARA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][self.daily_panchaangas[self.panchaanga.festival_id_to_days['yugAdiH'][0]].date.get_weekday()]
+    
+    NAYAKA_MAP = {'mantrI': 1,
+                  'sEnAdhipatiH': 5,
+                  'sasyAdhipatiH': 4,
+                  'dhAnyAdhipatiH': 9,
+                  'arghAdhipatiH': 3,
+                  'rasAdhipatiH': 7,
+                  'nIrasAdhipatiH': 10}
+
+    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
+      if self.daily_panchaangas[d].solar_sidereal_date_sunset.month_transition is not None:
+        sankranti_id = self.daily_panchaangas[d + 1].solar_sidereal_date_sunset.month
+        if sankranti_id == 1:
+          mesha_start = self.daily_panchaangas[d].solar_sidereal_date_sunset.month_transition
+        for nayaka in NAYAKA_MAP:
+          if sankranti_id == NAYAKA_MAP[nayaka]:
+            nava_nayakas[nayaka] = names.NAMES['VARA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][self.daily_panchaangas[d].date.get_weekday()]
+
+    finder = zodiac.AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=zodiac.AngaType.SIDEREAL_MONTH)
+    anga = finder.find(jd1 = self.panchaanga.jd_start - 32, jd2=self.panchaanga.jd_start, target_anga_id=12)
+    mina_start = anga.jd_start
+
+    finder = zodiac.AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=zodiac.AngaType.TITHI)
+    anga = finder.find(jd1 = mina_start, jd2=mesha_start, target_anga_id=30)
+    
+    nava_nayakas['rAjA'] = names.NAMES['VARA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][time.get_weekday(self.panchaanga.city.get_rising_time(julian_day_start=anga.jd_end, body=Graha.SUN))]
+    self.panchaanga.nava_nayakas = nava_nayakas
 
   def assign_garbhottam(self):
     if 'garbhOTTam-Arambham' not in self.rules_collection.name_to_rule:
