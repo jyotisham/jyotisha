@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220422081437
+SEQUENCE:20220422221355
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -7067,16 +7067,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:रवि-सङ्क्रमण-पुण्यकालः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220219T064411
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220219T043659
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:सायन-सङ्क्रमण-दिन-पूर्वा
  ह्ण-पुण्यकालः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220219T064411
@@ -10049,31 +10039,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मीन-रवि-सङ्क्रमण-षडशीति-
- पुण्यकालः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220315T000025
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220314T182637
-DESCRIPTION:Mīna-Ravi-Saṅkramaṇa-Ṣaḍaśīti Punyakala.<br/><br/>
- सङ्क्रान्तिस्नानाकरणे प्र
- त्यवायमाह शातातपः—  <br/>सूर्य
- सङ्क्रमणे पुण्ये न स्नायाद
- ्यदि मानवः।  <br/>सप्तजन्मसु र
- ोगी स्याद् दुःखभागी च जायते
- ॥  <br/>सङ्क्रान्त्यां यानि दत
- ्तानि हव्यकव्यानि मानवैः।  <
- br/>तानि तस्य ददात्यर्कः सप्त
- जन्मसु निश्चितम्॥  <br/>(स्मृत
- िमुक्ताफले आह्निक-काण्डे-प
- ूर्वभागः)<br/><br/><br/><br/>## Details<br/>- [Edit config
-  file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankr
- Anti/description_only/mIna-ravi-saGkramaNa-SaDazIti-puNyakAlaH.toml)<br/>-
-  Tags: SunSankranti CommonFestivals
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:नवशेर-युद्धम् #१९९
 DTSTART;VALUE=DATE:20220314
 DTEND;VALUE=DATE:20220315
@@ -11217,16 +11182,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:(सायन) विषु-पुण्यकालः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220321T062650
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220321T010323
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:भालचन्द्र-महागणपति सङ्क
  टहर-चतुर्थी-व्रतम्
 DTSTART;VALUE=DATE:20220321
@@ -11346,16 +11301,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:रवि-सङ्क्रमण-पुण्यकालः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220321T062650
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220321T032723
-DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
