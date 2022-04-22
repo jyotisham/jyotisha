@@ -360,7 +360,7 @@ class SolarFestivalAssigner(FestivalAssigner):
       anga = finder.find(jd1 = jd_start, jd2=jd_end, target_anga_id=target_anga_id)
       if anga is None:
         msg = ' + '.join(['%s %d' % (intersect_list[i][0], intersect_list[i][1]) for i in range(len(intersect_list))])
-        logging.debug('No %s Yoga involving %s in the span %s!' % (msg, yoga_name, Interval(jd_start=jd_start_in, jd_end=jd_end_in)))
+        logging.debug('No %s Yoga involving %s in the span %s!' % (yoga_name, msg, Interval(jd_start=jd_start_in, jd_end=jd_end_in)))
         yoga_happens = False
         break
       else:
