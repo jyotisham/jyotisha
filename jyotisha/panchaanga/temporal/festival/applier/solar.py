@@ -175,23 +175,24 @@ class SolarFestivalAssigner(FestivalAssigner):
         punya_kaala_start_jd = jd_transition - PUNYA_KAALA[sankranti_id][0] * 1/60
         punya_kaala_end_jd = jd_transition + PUNYA_KAALA[sankranti_id][1] * 1/60
         
-        if jd_transition < self.daily_panchaangas[d].day_length_based_periods.fifteen_fold_division.aahneya.jd_end:
-          fday = d
-          is_puurva_half_day = jd_transition < self.daily_panchaangas[d].day_length_based_periods.puurvaahna.jd_end
-          if sankranti_id == 10:
-            if jd_transition < self.daily_panchaangas[d].jd_sunset:
-              fday = d
-              is_puurva_half_day = jd_transition < self.daily_panchaangas[d].day_length_based_periods.puurvaahna.jd_end
-            else:
-              fday = d + 1
-              is_puurva_half_day = True
+        if self.daily_panchaangas[d - 1].jd_sunset < jd_transition < self.daily_panchaangas[d].jd_sunrise:
+          fday = d - 1
         else:
-          if sankranti_id == 4:
-            fday = d # Previous day only for Kataka Sankramana
-            is_puurva_half_day = jd_transition < self.daily_panchaangas[d].day_length_based_periods.puurvaahna.jd_end
-          else:
-            fday = d + 1
+          fday = d
+        
+        if sankranti_id == 10:
+          if jd_transition > self.daily_panchaangas[fday].jd_sunset:
+            fday += 1
             is_puurva_half_day = True
+          else:
+            is_puurva_half_day = jd_transition < self.daily_panchaangas[fday].day_length_based_periods.puurvaahna.jd_end
+        elif sankranti_id == 4:
+          if jd_transition > self.daily_panchaangas[fday].jd_sunset:
+            is_puurva_half_day = False
+          else:
+            is_puurva_half_day = jd_transition < self.daily_panchaangas[fday].day_length_based_periods.puurvaahna.jd_end
+        else:
+            is_puurva_half_day = jd_transition < self.daily_panchaangas[fday].day_length_based_periods.puurvaahna.jd_end
         
         if is_puurva_half_day:
           half_day = 'pUrvAhNa'
@@ -209,8 +210,15 @@ class SolarFestivalAssigner(FestivalAssigner):
         if sankranti_id not in [2, 5, 8, 11]: # these cases are redundant!
           saamaanya_punya_kaala_start_jd = jd_transition - 16 * 1/60
           saamaanya_punya_kaala_end_jd = jd_transition + 16 * 1/60
+          
           saamaanya_punya_kaala_start_jd = max(saamaanya_punya_kaala_start_jd, self.daily_panchaangas[fday].jd_sunrise) 
+          # if sankranti_id == 10 and saamaanya_punya_kaala_start_jd < jd_transition < saamaanya_punya_kaala_end_jd:
+          #   saamaanya_punya_kaala_start_jd = jd_transition
+          
           saamaanya_punya_kaala_end_jd = min(saamaanya_punya_kaala_end_jd, self.daily_panchaangas[fday].jd_sunset) 
+          # if sankranti_id == 4 and saamaanya_punya_kaala_start_jd < jd_transition < saamaanya_punya_kaala_end_jd:
+          #   saamaanya_punya_kaala_end_jd = jd_transition
+          
           if saamaanya_punya_kaala_end_jd > saamaanya_punya_kaala_start_jd:
             self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='ravi-saGkramaNa-puNyakAlaH', interval=Interval(jd_start=saamaanya_punya_kaala_start_jd, jd_end=saamaanya_punya_kaala_end_jd)), date=self.daily_panchaangas[fday].date)
 
