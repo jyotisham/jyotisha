@@ -168,8 +168,13 @@ def get_description(festival_instance, fest_details_dict, script, truncate=True,
   if desc is None:
       # Check approx. match
       matched_festivals = []
+      if 'amAvAsyA' in fest_id: # Handle amAvAsyAs a bit differently
+        fest_id = fest_id.strip('sarva-')
       for fest_key in fest_details_dict:
-        if fest_id.startswith(fest_key):
+        if fest_id in fest_key:
+          if 'amAvAsyA' in fest_id: # Handle amAvAsyAs a bit differently
+            if 'bOdhAyana' not in fest_id and 'bOdhAyana' in fest_key:
+              continue
           matched_festivals += [fest_key]
       if matched_festivals == []:
         logging.warning('No description found for festival %s!' % fest_id)
