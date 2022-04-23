@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220423101929
+SEQUENCE:20220423162544
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -297,7 +297,9 @@ SUMMARY:सर्व-मार्गशीर्ष-अमावास्
  या
 DTSTART;VALUE=DATE:20220102
 DTEND;VALUE=DATE:20220103
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/mArg
+ azIrSa-amAvAsyA.toml)<br/>- Tags: AmavasyaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6911,6 +6913,27 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:रवि-सङ्क्रमण-पुण्यकालः
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220218T154859
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220218T182242
+DESCRIPTION:
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:सायन-सङ्क्रमण-दिन-अपराह्
+ ण-पुण्यकालः
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220218T123339
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220218T182242
+DESCRIPTION:
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:तपस्य-मासः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220218T221259
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220219T000000
@@ -6986,16 +7009,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:(सायन) षडशीति-पुण्यकालः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220219T064411
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220219T182257
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:आङ्ग्लेया भारतत्यागम् अ
  घोषयन् #७६
 DTSTART;VALUE=DATE:20220219
@@ -7061,17 +7074,6 @@ DESCRIPTION:Event occured on 1906-02-19 (gregorian). <br/><br/>Madhav Sada
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-सङ्क्रमण-दिन-पूर्वा
- ह्ण-पुण्यकालः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220219T064411
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220219T123334
-DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -11083,6 +11085,16 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:(सायन) विषु-पुण्यकालः
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220320T170323
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220320T182705
+DESCRIPTION:
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:ब्रह्म-कल्पादिः
 DTSTART;VALUE=DATE:20220320
 DTEND;VALUE=DATE:20220321
@@ -11110,6 +11122,27 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
  atithi/blob/master/time_focus/sankrAnti/description_only/madhu-mAsaH__vasa
  ntaRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:रवि-सङ्क्रमण-पुण्यकालः
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220320T143923
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220320T182705
+DESCRIPTION:
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:सायन-सङ्क्रमण-दिन-अपराह्
+ ण-पुण्यकालः
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220320T122717
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220320T182705
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -11301,17 +11334,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-सङ्क्रमण-दिन-पूर्वा
- ह्ण-पुण्यकालः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220321T062650
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220321T122700
-DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -17333,7 +17355,12 @@ BEGIN:VEVENT
 SUMMARY:सर्व-चैत्र-अमावास्या
 DTSTART;VALUE=DATE:20220430
 DTEND;VALUE=DATE:20220501
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/cait
+ ra-amAvAsyA.toml)<br/>- Tags: AmavasyaDays<br/><br/><br/><br/>## Details<b
+ r/>- References<br/>  - Skanda Puranam<br/>- [Edit config file](https://gi
+ thub.com/jyotisham/adyatithi/blob/master/time_focus/monthly/amAvAsyA/descr
+ iption_only/caitra-amAvAsyA.toml)<br/>- Tags: AmavasyaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19060,9 +19087,7 @@ SUMMARY:वेङ्कटाचले पद्मावती-परि
  णयोत्सवः (गरुड-वाहनम्)
 DTSTART;VALUE=DATE:20220510
 DTEND;VALUE=DATE:20220513
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/temples/venkaTAchala/description_only/vEGkaTAcalE
- _padmAvatI-pariNayOtsavaH.toml)<br/>- Tags: AndhraTempleFestivals
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -28882,6 +28907,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:सायन-सङ्क्रमण-दिन-अपराह्
+ ण-पुण्यकालः
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220722T122606
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220722T184546
+DESCRIPTION:
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:आषाढः-04-25  \,  वृषभः-कृत्तिक
  ा🌛🌌  \,  कर्कटः-पुष्यः-04-07🌞🌌  \,  
  नभः-05-01🌞🪐  \,  शनिः
@@ -28936,17 +28972,6 @@ DESCRIPTION:- Indian civil date: 1944-05-01\, Islamic: 1443-12-23 Ḏū al
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:(सायन) विष्णुपदी-पुण्यका
- लः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220723T060642
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220723T080057
-DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -29073,17 +29098,6 @@ DESCRIPTION:Observed on Kr̥ttikā nakshatra of Karkaṭaḥ (sidereal sol
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-सङ्क्रमण-दिन-पूर्वा
- ह्ण-पुण्यकालः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220723T060642
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220723T122608
-DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -34195,7 +34209,9 @@ BEGIN:VEVENT
 SUMMARY:सर्व-श्रावण-अमावास्या
 DTSTART;VALUE=DATE:20220826
 DTEND;VALUE=DATE:20220827
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/zrAv
+ aNa-amAvAsyA.toml)<br/>- Tags: AmavasyaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -38790,7 +38806,9 @@ SUMMARY:सर्व-(भाद्रपद) महालय अमाव
  ास्या
 DTSTART;VALUE=DATE:20220925
 DTEND;VALUE=DATE:20220926
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/%28b
+ hAdrapada%29_mahAlaya_amAvAsyA.toml)<br/>- Tags: AmavasyaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -43314,9 +43332,7 @@ SUMMARY:आश्वयुज-अमावास्या (अलभ्य
  म्–स्वाती\, पुष्कला)
 DTSTART;VALUE=DATE:20221025
 DTEND;VALUE=DATE:20221026
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/Azva
- yuja-amAvAsyA.toml)<br/>- Tags: AmavasyaDays
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -43380,6 +43396,37 @@ SUMMARY:सूर्य-ग्रहणं (केतुग्रस्त
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221025T171154
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221025T175215
 DESCRIPTION:
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:सप्तम-अपरपक्षः
+DTSTART;VALUE=DATE:20221010
+DTEND;VALUE=DATE:20221026
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/description_only/saptama-aparapakSaH.toml
+ )<br/>- Tags: SpecialPeriod
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:सप्तम-अपरपक्ष-समापनम्
+DTSTART;VALUE=DATE:20221025
+DTEND;VALUE=DATE:20221026
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/relative_event/sarva-Azvayuja-amAvAsy
+ A/offset__00/saptama-aparapakSa-samApanam.toml)<br/>- Tags: SpecialPeriodE
+ nd
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
