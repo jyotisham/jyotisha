@@ -429,7 +429,7 @@ class SolarFestivalAssigner(FestivalAssigner):
       anga = finder.find(jd1 = jd_start, jd2=jd_end, target_anga_id=target_anga_id)
       if anga is None:
         msg = ' + '.join(['%s %d' % (intersect_list[i][0], intersect_list[i][1]) for i in range(len(intersect_list))])
-        logging.debug('No %s Yoga involving %s in the span %s!' % (yoga_name, msg, Interval(jd_start=jd_start_in, jd_end=jd_end_in)))
+        logging.debug('No %s involving %s in span %s!' % (yoga_name, msg, Interval(jd_start=jd_start_in, jd_end=jd_end_in)))
         yoga_happens = False
         break
       else:
@@ -446,7 +446,7 @@ class SolarFestivalAssigner(FestivalAssigner):
       jd_start, jd_end = max([x.jd_start for x in anga_list]), min([x.jd_end for x in anga_list])
       if jd_start > jd_end or jd_start > self.panchaanga.jd_end:
         msg = ' + '.join(['%s %d' % (intersect_list[i][0], intersect_list[i][1]) for i in range(len(intersect_list))])
-        logging.debug('No %s Yoga involving %s in the span %s!' % (msg, yoga_name, Interval(jd_start=jd_start_in, jd_end=jd_end_in)))
+        logging.debug('No %s involving %s in span %s!' % (msg, yoga_name, Interval(jd_start=jd_start_in, jd_end=jd_end_in)))
       else:
         fday = int(floor(jd_start) - floor(self.daily_panchaangas[0].julian_day_start))
         if (jd_start < self.daily_panchaangas[fday].jd_sunrise):
