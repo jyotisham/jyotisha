@@ -324,16 +324,16 @@ class SolarFestivalAssigner(FestivalAssigner):
     if (anga.jd_start < self.daily_panchaangas[fday].jd_sunrise):
       fday -= 1
 
-    nava_nayakas['mEghAdhipatiH'] = names.NAMES['VARA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][self.daily_panchaangas[fday].date.get_weekday()]
+    nava_nayakas['mEghAdhipaH'] = names.NAMES['VARA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][self.daily_panchaangas[fday].date.get_weekday()]
     # nava_nayakas['rAjA'] = names.NAMES['VARA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][self.daily_panchaangas[self.panchaanga.festival_id_to_days['yugAdiH'][0]].date.get_weekday()]
     
     NAYAKA_MAP = {'mantrI': 1,
-                  'sEnAdhipatiH': 5,
-                  'sasyAdhipatiH': 4,
-                  'dhAnyAdhipatiH': 9,
-                  'arghAdhipatiH': 3,
-                  'rasAdhipatiH': 7,
-                  'nIrasAdhipatiH': 10}
+                  'sEnAdhipaH': 5,
+                  'sasyAdhipaH': 4,
+                  'dhAnyAdhipaH': 9,
+                  'arghAdhipaH': 3,
+                  'rasAdhipaH': 7,
+                  'nIrasAdhipaH': 10}
 
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       if self.daily_panchaangas[d].solar_sidereal_date_sunset.month_transition is not None:
