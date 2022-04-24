@@ -1381,7 +1381,13 @@ BEGIN:VEVENT
 SUMMARY:saṅkramaṇa-dina-pūrvāhṇa-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190115T063849
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190115T121814
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/saGkramaNa-
+ dina-pUrvAhNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals<br
+ /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/saGkra
+ maNa-dina-pUrvAhNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestiva
+ ls
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -3850,10 +3856,14 @@ BEGIN:VEVENT
 SUMMARY:Tiruchchendūr Murugan Māchit Tiruviḻā Toḍakkam
 DTSTART;VALUE=DATE:20190208
 DTEND;VALUE=DATE:20190209
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/temples/Tamil/relative_event/tiruccendUr_mAcit_ti
- ruvizhA_nir2aivu/offset__-11/tiruccendUr_murugan2_mAcit_tiruvizhA_toDakkam
- .toml)<br/>- Tags: TamilnaduTempleFestivals
+DESCRIPTION:The Tiruchendur Brahmotsavam of Masi each year is very special
+ \, wherein all the three temple chariots are dragged and the festival is c
+ onducted for twelve days\, concluding with a Teppam or Float Festival. Thi
+ s marks the first day of the festival.<br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/temples/Tamil
+ /relative_event/tiruccendUr_mAcit_tiruvizhA_nir2aivu/offset__-11/tiruccend
+ Ur_murugan2_mAcit_tiruvizhA_toDakkam.toml)<br/>- Tags: TamilnaduTempleFest
+ ivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3984,10 +3994,14 @@ BEGIN:VEVENT
 SUMMARY:Tiruchchendūr Murugan Māchit Tiruviḻā 2M Nāḷ
 DTSTART;VALUE=DATE:20190209
 DTEND;VALUE=DATE:20190210
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/temples/Tamil/relative_event/tiruccendUr_mAcit_ti
- ruvizhA_nir2aivu/offset__-10/tiruccendUr_murugan2_mAcit_tiruvizhA_%23%232%
- 23%23m_nAL.toml)<br/>- Tags: TamilnaduTempleFestivals
+DESCRIPTION:The Tiruchendur Brahmotsavam of Masi each year is very special
+ \, wherein all the three temple chariots are dragged and the festival is c
+ onducted for twelve days\, concluding with a Teppam or Float Festival. Thi
+ s marks the second day of the festival.<br/><br/>## Details<br/>- [Edit co
+ nfig file](https://github.com/jyotisham/adyatithi/blob/master/temples/Tami
+ l/relative_event/tiruccendUr_mAcit_tiruvizhA_nir2aivu/offset__-10/tiruccen
+ dUr_murugan2_mAcit_tiruvizhA_%23%232%23%23m_nAL.toml)<br/>- Tags: Tamilnad
+ uTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4100,11 +4114,15 @@ SUMMARY:Tiruchchendūr Murugan Māchit Tiruviḻā 3M Nāḷ—Murugan Bha
  vani
 DTSTART;VALUE=DATE:20190210
 DTEND;VALUE=DATE:20190211
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/temples/Tamil/relative_event/tiruccendUr_mAcit_ti
- ruvizhA_nir2aivu/offset__-9/tiruccendUr_murugan2_mAcit_tiruvizhA_%23%233%2
- 3%23m_nAL%E2%80%94murugan2_bhavan2i.toml)<br/>- Tags: TamilnaduTempleFesti
- vals
+DESCRIPTION:The Tiruchendur Brahmotsavam of Masi each year is very special
+ \, wherein all the three temple chariots are dragged and the festival is c
+ onducted for twelve days\, concluding with a Teppam or Float Festival. Thi
+ s marks the third day of the festival\, when Lord Subrahmanya is in proces
+ sion.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
+ isham/adyatithi/blob/master/temples/Tamil/relative_event/tiruccendUr_mAcit
+ _tiruvizhA_nir2aivu/offset__-9/tiruccendUr_murugan2_mAcit_tiruvizhA_%23%23
+ 3%23%23m_nAL%E2%80%94murugan2_bhavan2i.toml)<br/>- Tags: TamilnaduTempleFe
+ stivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4220,10 +4238,14 @@ BEGIN:VEVENT
 SUMMARY:Tiruchchendūr Murugan Māchit Tiruviḻā 4M Nāḷ
 DTSTART;VALUE=DATE:20190211
 DTEND;VALUE=DATE:20190212
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/temples/Tamil/relative_event/tiruccendUr_mAcit_ti
- ruvizhA_nir2aivu/offset__-8/tiruccendUr_murugan2_mAcit_tiruvizhA_%23%234%2
- 3%23m_nAL.toml)<br/>- Tags: TamilnaduTempleFestivals
+DESCRIPTION:The Tiruchendur Brahmotsavam of Masi each year is very special
+ \, wherein all the three temple chariots are dragged and the festival is c
+ onducted for twelve days\, concluding with a Teppam or Float Festival. Thi
+ s marks the fourth day of the festival.<br/><br/>## Details<br/>- [Edit co
+ nfig file](https://github.com/jyotisham/adyatithi/blob/master/temples/Tami
+ l/relative_event/tiruccendUr_mAcit_tiruvizhA_nir2aivu/offset__-8/tiruccend
+ Ur_murugan2_mAcit_tiruvizhA_%23%234%23%23m_nAL.toml)<br/>- Tags: Tamilnadu
+ TempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4391,10 +4413,14 @@ BEGIN:VEVENT
 SUMMARY:Tiruchchendūr Murugan Māchit Tiruviḻā 5M Nāḷ
 DTSTART;VALUE=DATE:20190212
 DTEND;VALUE=DATE:20190213
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/temples/Tamil/relative_event/tiruccendUr_mAcit_ti
- ruvizhA_nir2aivu/offset__-7/tiruccendUr_murugan2_mAcit_tiruvizhA_%23%235%2
- 3%23m_nAL.toml)<br/>- Tags: TamilnaduTempleFestivals
+DESCRIPTION:The Tiruchendur Brahmotsavam of Masi each year is very special
+ \, wherein all the three temple chariots are dragged and the festival is c
+ onducted for twelve days\, concluding with a Teppam or Float Festival. Thi
+ s marks the fifth day of the festival.<br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/temples/Tamil
+ /relative_event/tiruccendUr_mAcit_tiruvizhA_nir2aivu/offset__-7/tiruccendU
+ r_murugan2_mAcit_tiruvizhA_%23%235%23%23m_nAL.toml)<br/>- Tags: TamilnaduT
+ empleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4551,7 +4577,13 @@ BEGIN:VEVENT
 SUMMARY:saṅkramaṇa-dina-pūrvāhṇa-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190213T063557
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190213T122316
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/saGkramaNa-
+ dina-pUrvAhNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals<br
+ /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/saGkra
+ maNa-dina-pUrvAhNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestiva
+ ls
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -4562,11 +4594,14 @@ SUMMARY:Tiruchchendūr Murugan Māchit Tiruviḻā 6M Nāḷ—Veḷḷit
  Tēr Bhavani
 DTSTART;VALUE=DATE:20190213
 DTEND;VALUE=DATE:20190214
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/temples/Tamil/relative_event/tiruccendUr_mAcit_ti
- ruvizhA_nir2aivu/offset__-6/tiruccendUr_murugan2_mAcit_tiruvizhA_%23%236%2
- 3%23m_nAL%E2%80%94veLLit_tEr_bhavan2i.toml)<br/>- Tags: TamilnaduTempleFes
- tivals
+DESCRIPTION:The Tiruchendur Brahmotsavam of Masi each year is very special
+ \, wherein all the three temple chariots are dragged and the festival is c
+ onducted for twelve days\, concluding with a Teppam or Float Festival. Thi
+ s marks the sixth day of the festival.<br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/temples/Tamil
+ /relative_event/tiruccendUr_mAcit_tiruvizhA_nir2aivu/offset__-6/tiruccendU
+ r_murugan2_mAcit_tiruvizhA_%23%236%23%23m_nAL%E2%80%94veLLit_tEr_bhavan2i.
+ toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4666,11 +4701,16 @@ SUMMARY:Tiruchchendūr Murugan Māchit Tiruviḻā 7M Nāḷ—Urugu Chatt
  ach Chēvai/Chigappu Chātti Alaṅkāram
 DTSTART;VALUE=DATE:20190214
 DTEND;VALUE=DATE:20190215
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/temples/Tamil/relative_event/tiruccendUr_mAcit_ti
- ruvizhA_nir2aivu/offset__-5/tiruccendUr_murugan2_mAcit_tiruvizhA_%23%237%2
- 3%23m_nAL%E2%80%94urugu_cattac_cEvai_or_cigappu_cAtti_alaGkAram.toml)<br/>
- - Tags: TamilnaduTempleFestivals
+DESCRIPTION:The Tiruchendur Brahmotsavam of Masi each year is very special
+ \, wherein all the three temple chariots are dragged and the festival is c
+ onducted for twelve days\, concluding with a Teppam or Float Festival. Thi
+ s marks the seventh day of the festival. A unique decoration on this day i
+ s the 'urugu chattai' sevai\, and 'sigappu satthi alankaram'.<br/><br/>## 
+ Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/bl
+ ob/master/temples/Tamil/relative_event/tiruccendUr_mAcit_tiruvizhA_nir2aiv
+ u/offset__-5/tiruccendUr_murugan2_mAcit_tiruvizhA_%23%237%23%23m_nAL%E2%80
+ %94urugu_cattac_cEvai_or_cigappu_cAtti_alaGkAram.toml)<br/>- Tags: Tamilna
+ duTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4804,11 +4844,15 @@ SUMMARY:Tiruchchendūr Murugan Māchit Tiruviḻā 8M Nāḷ—Pachchai Ch
  ātti Alaṅkāram
 DTSTART;VALUE=DATE:20190215
 DTEND;VALUE=DATE:20190216
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/temples/Tamil/relative_event/tiruccendUr_mAcit_ti
- ruvizhA_nir2aivu/offset__-4/tiruccendUr_murugan2_mAcit_tiruvizhA_%23%238%2
- 3%23m_nAL%E2%80%94paccai_cAtti_alaGkAram.toml)<br/>- Tags: TamilnaduTemple
- Festivals
+DESCRIPTION:The Tiruchendur Brahmotsavam of Masi each year is very special
+ \, wherein all the three temple chariots are dragged and the festival is c
+ onducted for twelve days\, concluding with a Teppam or Float Festival. Thi
+ s marks the eighth day of the festival. A unique decoration on this day is
+  the most beautiful 'pachai satthi alankaram'.<br/><br/>## Details<br/>- [
+ Edit config file](https://github.com/jyotisham/adyatithi/blob/master/templ
+ es/Tamil/relative_event/tiruccendUr_mAcit_tiruvizhA_nir2aivu/offset__-4/ti
+ ruccendUr_murugan2_mAcit_tiruvizhA_%23%238%23%23m_nAL%E2%80%94paccai_cAtti
+ _alaGkAram.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4887,11 +4931,15 @@ SUMMARY:Tiruchchendūr Murugan Māchit Tiruviḻā 9M Nāḷ—Taṅga Kai
  lācha Vāhanam
 DTSTART;VALUE=DATE:20190216
 DTEND;VALUE=DATE:20190217
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/temples/Tamil/relative_event/tiruccendUr_mAcit_ti
- ruvizhA_nir2aivu/offset__-3/tiruccendUr_murugan2_mAcit_tiruvizhA_%23%239%2
- 3%23m_nAL%E2%80%94taGga_kailAca_vAhan2am.toml)<br/>- Tags: TamilnaduTemple
- Festivals
+DESCRIPTION:The Tiruchendur Brahmotsavam of Masi each year is very special
+ \, wherein all the three temple chariots are dragged and the festival is c
+ onducted for twelve days\, concluding with a Teppam or Float Festival. Thi
+ s marks the ninth day of the festival. The special vahanam for the day is 
+ a Golden Kailasha.<br/><br/>## Details<br/>- [Edit config file](https://gi
+ thub.com/jyotisham/adyatithi/blob/master/temples/Tamil/relative_event/tiru
+ ccendUr_mAcit_tiruvizhA_nir2aivu/offset__-3/tiruccendUr_murugan2_mAcit_tir
+ uvizhA_%23%239%23%23m_nAL%E2%80%94taGga_kailAca_vAhan2am.toml)<br/>- Tags:
+  TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5048,10 +5096,14 @@ BEGIN:VEVENT
 SUMMARY:Tiruchchendūr Murugan Māchit Tiruviḻā 10M Nāḷ—Tēr
 DTSTART;VALUE=DATE:20190217
 DTEND;VALUE=DATE:20190218
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/temples/Tamil/relative_event/tiruccendUr_mAcit_ti
- ruvizhA_nir2aivu/offset__-2/tiruccendUr_murugan2_mAcit_tiruvizhA_%23%2310%
- 23%23m_nAL%E2%80%94tEr.toml)<br/>- Tags: TamilnaduTempleFestivals
+DESCRIPTION:The Tiruchendur Brahmotsavam of Masi each year is very special
+ \, wherein all the three temple chariots are dragged and the festival is c
+ onducted for twelve days\, concluding with a Teppam or Float Festival. Thi
+ s marks the tenth day of the festival. This is the day of the chariot/car 
+ festival.<br/><br/>## Details<br/>- [Edit config file](https://github.com/
+ jyotisham/adyatithi/blob/master/temples/Tamil/relative_event/tiruccendUr_m
+ Acit_tiruvizhA_nir2aivu/offset__-2/tiruccendUr_murugan2_mAcit_tiruvizhA_%2
+ 3%2310%23%23m_nAL%E2%80%94tEr.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5221,10 +5273,14 @@ BEGIN:VEVENT
 SUMMARY:Tiruchchendūr Murugan Teppam
 DTSTART;VALUE=DATE:20190218
 DTEND;VALUE=DATE:20190219
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/temples/Tamil/relative_event/tiruccendUr_mAcit_ti
- ruvizhA_nir2aivu/offset__-1/tiruccendUr_murugan2_teppam.toml)<br/>- Tags: 
- TamilnaduTempleFestivals
+DESCRIPTION:The Tiruchendur Brahmotsavam of Masi each year is very special
+ \, wherein all the three temple chariots are dragged and the festival is c
+ onducted for twelve days\, concluding with a Teppam or Float Festival. Thi
+ s marks the eleventh and penultimate day of the festival. The main feature
+  of the day is the 'float' festival or ta:teppam.<br/><br/>## Details<br/>
+ - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/te
+ mples/Tamil/relative_event/tiruccendUr_mAcit_tiruvizhA_nir2aivu/offset__-1
+ /tiruccendUr_murugan2_teppam.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5392,10 +5448,14 @@ SUMMARY:Tiruchchendūr Māchit Tiruviḻā Niṟaivu
 DTSTART;VALUE=DATE:20190219
 DTEND;VALUE=DATE:20190220
 DESCRIPTION:Observed on Paurṇamāsī tithi of Kumbhaḥ (sidereal solar)
-  month (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>-
-  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/tem
- ples/Tamil/sidereal_solar_month/tithi/11/15/tiruccendUr_mAcit_tiruvizhA_ni
- r2aivu.toml)<br/>- Tags: TamilnaduTempleFestivals
+  month (Sūryōdayaḥ/puurvaviddha). <br/><br/>The Tiruchendur Brahmotsav
+ am of Masi each year is very special\, wherein all the three temple chario
+ ts are dragged and the festival is conducted for twelve days\, concluding 
+ with a Teppam or Float Festival. This marks the final day of the festival.
+ <br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham
+ /adyatithi/blob/master/temples/Tamil/sidereal_solar_month/tithi/11/15/tiru
+ ccendUr_mAcit_tiruvizhA_nir2aivu.toml)<br/>- Tags: TamilnaduTempleFestival
+ s
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6364,7 +6424,10 @@ BEGIN:VEVENT
 SUMMARY:vijayā/śravaṇa-mahādvādaśī
 DTSTART;VALUE=DATE:20190303
 DTEND;VALUE=DATE:20190304
-DESCRIPTION:
+DESCRIPTION:Dvadashi tithi\, combined with Shravana nakshatra.<br/><br/>##
+  Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/b
+ lob/master/time_focus/monthly/dvAdashI/description_only/vijayA__zravaNa-ma
+ hAdvAdazI.toml)<br/>- Tags: RareDays Combinations SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7635,7 +7698,14 @@ BEGIN:VEVENT
 SUMMARY:ravi-saṅkramaṇa-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190315T062015
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190315T114800
-DESCRIPTION:
+DESCRIPTION:16 ghatikas on either side of the transition of the Sun are sa
+ cred for various observances. In addition to specific puṇyakālas like 
+ ṣaḍaśīti\, viṣṇupadī etc.\, this is also useful\, especially in
+  cases where the other puṇyakālas are inconvenient for appropriate perf
+ ormance of rituals such as snāna\, dāna\, tarpaṇa\, etc.<br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/time_focus/sankrAnti/description_only/ravi-saGkramaNa-puNyakAlaH.
+ toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -7645,7 +7715,13 @@ BEGIN:VEVENT
 SUMMARY:saṅkramaṇa-dina-pūrvāhṇa-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190315T062015
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190315T121805
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/saGkramaNa-
+ dina-pUrvAhNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals<br
+ /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/saGkra
+ maNa-dina-pUrvAhNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestiva
+ ls
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -11020,7 +11096,14 @@ BEGIN:VEVENT
 SUMMARY:ravi-saṅkramaṇa-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190414T072957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190414T181805
-DESCRIPTION:
+DESCRIPTION:16 ghatikas on either side of the transition of the Sun are sa
+ cred for various observances. In addition to specific puṇyakālas like 
+ ṣaḍaśīti\, viṣṇupadī etc.\, this is also useful\, especially in
+  cases where the other puṇyakālas are inconvenient for appropriate perf
+ ormance of rituals such as snāna\, dāna\, tarpaṇa\, etc.<br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/time_focus/sankrAnti/description_only/ravi-saGkramaNa-puNyakAlaH.
+ toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -11043,7 +11126,13 @@ BEGIN:VEVENT
 SUMMARY:saṅkramaṇa-dina-aparāhṇa-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190414T120927
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190414T181805
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/saGkramaNa-
+ dina-aparAhNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals<br
+ /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/saGkra
+ maNa-dina-aparAhNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestiva
+ ls
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -14665,7 +14754,13 @@ BEGIN:VEVENT
 SUMMARY:saṅkramaṇa-dina-pūrvāhṇa-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190515T054708
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190515T120525
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/saGkramaNa-
+ dina-pUrvAhNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals<br
+ /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/saGkra
+ maNa-dina-pUrvAhNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestiva
+ ls
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -15606,7 +15701,14 @@ BEGIN:VEVENT
 SUMMARY:ravi-saṅkramaṇa-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190521T070511
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190521T182509
-DESCRIPTION:
+DESCRIPTION:16 ghatikas on either side of the transition of the Sun are sa
+ cred for various observances. In addition to specific puṇyakālas like 
+ ṣaḍaśīti\, viṣṇupadī etc.\, this is also useful\, especially in
+  cases where the other puṇyakālas are inconvenient for appropriate perf
+ ormance of rituals such as snāna\, dāna\, tarpaṇa\, etc.<br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/time_focus/sankrAnti/description_only/ravi-saGkramaNa-puNyakAlaH.
+ toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -18363,7 +18465,14 @@ BEGIN:VEVENT
 SUMMARY:ravi-saṅkramaṇa-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190615T105434
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190615T183221
-DESCRIPTION:
+DESCRIPTION:16 ghatikas on either side of the transition of the Sun are sa
+ cred for various observances. In addition to specific puṇyakālas like 
+ ṣaḍaśīti\, viṣṇupadī etc.\, this is also useful\, especially in
+  cases where the other puṇyakālas are inconvenient for appropriate perf
+ ormance of rituals such as snāna\, dāna\, tarpaṇa\, etc.<br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/time_focus/sankrAnti/description_only/ravi-saGkramaNa-puNyakAlaH.
+ toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -18373,7 +18482,13 @@ BEGIN:VEVENT
 SUMMARY:saṅkramaṇa-dina-aparāhṇa-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190615T120918
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190615T183221
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/saGkramaNa-
+ dina-aparAhNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals<br
+ /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/saGkra
+ maNa-dina-aparAhNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestiva
+ ls
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -19024,7 +19139,14 @@ BEGIN:VEVENT
 SUMMARY:ravi-saṅkramaṇa-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190621T150014
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190621T183347
-DESCRIPTION:
+DESCRIPTION:16 ghatikas on either side of the transition of the Sun are sa
+ cred for various observances. In addition to specific puṇyakālas like 
+ ṣaḍaśīti\, viṣṇupadī etc.\, this is also useful\, especially in
+  cases where the other puṇyakālas are inconvenient for appropriate perf
+ ormance of rituals such as snāna\, dāna\, tarpaṇa\, etc.<br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/time_focus/sankrAnti/description_only/ravi-saGkramaNa-puNyakAlaH.
+ toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -21727,7 +21849,13 @@ BEGIN:VEVENT
 SUMMARY:saṅkramaṇa-dina-aparāhṇa-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190716T121455
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190716T183548
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/saGkramaNa-
+ dina-aparAhNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals<br
+ /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/saGkra
+ maNa-dina-aparAhNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestiva
+ ls
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -22404,7 +22532,13 @@ BEGIN:VEVENT
 SUMMARY:sāyana-saṅkramaṇa-dina-pūrvāhṇa-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190723T055546
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190723T121521
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/sAyana-saGk
+ ramaNa-dina-pUrvAhNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFesti
+ vals<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
+ .com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only
+ /sAyana-saGkramaNa-dina-pUrvAhNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti
+  CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -23788,6 +23922,24 @@ DESCRIPTION:Observed on Śukla-Pañcamī tithi of Śrāvaṇaḥ (lunar) m
  ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/
  master/devatA/vaiShNava/lunar_month/tithi/05/05/garuDa-paJcamI.toml)<br/>-
   Tags: PuranaEvents
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:nāga-pañcamī
+DTSTART;VALUE=DATE:20190805
+DTEND;VALUE=DATE:20190806
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/misc-fauna/lunar_month/tithi/05/05/nAga-pa
+ JcamI.toml)<br/>- Tags: SpecialPuja PuranaEvents<br/><br/><br/><br/>## Det
+ ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/
+ master/devatA/misc-fauna/lunar_month/tithi/05/05/nAga-paJcamI.toml)<br/>- 
+ Tags: SpecialPuja PuranaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25376,7 +25528,13 @@ BEGIN:VEVENT
 SUMMARY:saṅkramaṇa-dina-aparāhṇa-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190817T121303
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190817T182543
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/saGkramaNa-
+ dina-aparAhNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals<br
+ /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/saGkra
+ maNa-dina-aparAhNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestiva
+ ls
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -25928,7 +26086,14 @@ BEGIN:VEVENT
 SUMMARY:ravi-saṅkramaṇa-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190823T090800
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190823T182224
-DESCRIPTION:
+DESCRIPTION:16 ghatikas on either side of the transition of the Sun are sa
+ cred for various observances. In addition to specific puṇyakālas like 
+ ṣaḍaśīti\, viṣṇupadī etc.\, this is also useful\, especially in
+  cases where the other puṇyakālas are inconvenient for appropriate perf
+ ormance of rituals such as snāna\, dāna\, tarpaṇa\, etc.<br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/time_focus/sankrAnti/description_only/ravi-saGkramaNa-puNyakAlaH.
+ toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -27523,11 +27688,11 @@ SUMMARY:bhādrapadika-nāga-pañcamī
 DTSTART;VALUE=DATE:20190903
 DTEND;VALUE=DATE:20190904
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/devatA/misc-fauna/lunar_month/tithi/06/05/nAga-pa
- JcamI.toml)<br/>- Tags: SpecialPuja<br/><br/><br/><br/>## Details<br/>- [E
- dit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA
- /misc-fauna/lunar_month/tithi/06/05/nAga-paJcamI.toml)<br/>- Tags: Special
- Puja
+ am/adyatithi/blob/master/devatA/misc-fauna/lunar_month/tithi/06/05/bhAdrap
+ dika-nAga-paJcamI.toml)<br/>- Tags: SpecialPuja<br/><br/><br/><br/>## Deta
+ ils<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/m
+ aster/devatA/misc-fauna/lunar_month/tithi/06/05/bhAdrapdika-nAga-paJcamI.t
+ oml)<br/>- Tags: SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -28533,7 +28698,10 @@ BEGIN:VEVENT
 SUMMARY:vijayā/śravaṇa-mahādvādaśī
 DTSTART;VALUE=DATE:20190910
 DTEND;VALUE=DATE:20190911
-DESCRIPTION:
+DESCRIPTION:Dvadashi tithi\, combined with Shravana nakshatra.<br/><br/>##
+  Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/b
+ lob/master/time_focus/monthly/dvAdashI/description_only/vijayA__zravaNa-ma
+ hAdvAdazI.toml)<br/>- Tags: RareDays Combinations SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -29438,7 +29606,14 @@ BEGIN:VEVENT
 SUMMARY:ravi-saṅkramaṇa-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190917T060743
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190917T180534
-DESCRIPTION:
+DESCRIPTION:16 ghatikas on either side of the transition of the Sun are sa
+ cred for various observances. In addition to specific puṇyakālas like 
+ ṣaḍaśīti\, viṣṇupadī etc.\, this is also useful\, especially in
+  cases where the other puṇyakālas are inconvenient for appropriate perf
+ ormance of rituals such as snāna\, dāna\, tarpaṇa\, etc.<br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/time_focus/sankrAnti/description_only/ravi-saGkramaNa-puNyakAlaH.
+ toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -29448,7 +29623,13 @@ BEGIN:VEVENT
 SUMMARY:saṅkramaṇa-dina-aparāhṇa-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190917T120333
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190917T180534
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/saGkramaNa-
+ dina-aparAhNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals<br
+ /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/saGkra
+ maNa-dina-aparAhNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestiva
+ ls
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -30187,7 +30368,14 @@ BEGIN:VEVENT
 SUMMARY:ravi-saṅkramaṇa-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190923T065606
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190923T180114
-DESCRIPTION:
+DESCRIPTION:16 ghatikas on either side of the transition of the Sun are sa
+ cred for various observances. In addition to specific puṇyakālas like 
+ ṣaḍaśīti\, viṣṇupadī etc.\, this is also useful\, especially in
+  cases where the other puṇyakālas are inconvenient for appropriate perf
+ ormance of rituals such as snāna\, dāna\, tarpaṇa\, etc.<br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/time_focus/sankrAnti/description_only/ravi-saGkramaNa-puNyakAlaH.
+ toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -33250,7 +33438,14 @@ BEGIN:VEVENT
 SUMMARY:ravi-saṅkramaṇa-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191018T060307
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191018T065514
-DESCRIPTION:
+DESCRIPTION:16 ghatikas on either side of the transition of the Sun are sa
+ cred for various observances. In addition to specific puṇyakālas like 
+ ṣaḍaśīti\, viṣṇupadī etc.\, this is also useful\, especially in
+  cases where the other puṇyakālas are inconvenient for appropriate perf
+ ormance of rituals such as snāna\, dāna\, tarpaṇa\, etc.<br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/time_focus/sankrAnti/description_only/ravi-saGkramaNa-puNyakAlaH.
+ toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -33260,7 +33455,13 @@ BEGIN:VEVENT
 SUMMARY:saṅkramaṇa-dina-pūrvāhṇa-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191018T060307
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191018T115402
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/saGkramaNa-
+ dina-pUrvAhNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals<br
+ /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/saGkra
+ maNa-dina-pUrvAhNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestiva
+ ls
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -37120,7 +37321,13 @@ BEGIN:VEVENT
 SUMMARY:saṅkramaṇa-dina-pūrvāhṇa-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191117T061154
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191117T115345
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/saGkramaNa-
+ dina-pUrvAhNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals<br
+ /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/saGkra
+ maNa-dina-pUrvAhNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestiva
+ ls
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -37594,7 +37801,14 @@ BEGIN:VEVENT
 SUMMARY:ravi-saṅkramaṇa-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191122T140456
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191122T173519
-DESCRIPTION:
+DESCRIPTION:16 ghatikas on either side of the transition of the Sun are sa
+ cred for various observances. In addition to specific puṇyakālas like 
+ ṣaḍaśīti\, viṣṇupadī etc.\, this is also useful\, especially in
+  cases where the other puṇyakālas are inconvenient for appropriate perf
+ ormance of rituals such as snāna\, dāna\, tarpaṇa\, etc.<br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/time_focus/sankrAnti/description_only/ravi-saGkramaNa-puNyakAlaH.
+ toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -40264,7 +40478,14 @@ BEGIN:VEVENT
 SUMMARY:ravi-saṅkramaṇa-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191216T083703
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191216T174122
-DESCRIPTION:
+DESCRIPTION:16 ghatikas on either side of the transition of the Sun are sa
+ cred for various observances. In addition to specific puṇyakālas like 
+ ṣaḍaśīti\, viṣṇupadī etc.\, this is also useful\, especially in
+  cases where the other puṇyakālas are inconvenient for appropriate perf
+ ormance of rituals such as snāna\, dāna\, tarpaṇa\, etc.<br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/time_focus/sankrAnti/description_only/ravi-saGkramaNa-puNyakAlaH.
+ toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -40274,7 +40495,13 @@ BEGIN:VEVENT
 SUMMARY:saṅkramaṇa-dina-aparāhṇa-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191216T120416
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191216T174122
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/saGkramaNa-
+ dina-aparAhNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals<br
+ /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/saGkra
+ maNa-dina-aparAhNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestiva
+ ls
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -40753,7 +40980,14 @@ BEGIN:VEVENT
 SUMMARY:ravi-saṅkramaṇa-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191222T063011
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191222T161323
-DESCRIPTION:
+DESCRIPTION:16 ghatikas on either side of the transition of the Sun are sa
+ cred for various observances. In addition to specific puṇyakālas like 
+ ṣaḍaśīti\, viṣṇupadī etc.\, this is also useful\, especially in
+  cases where the other puṇyakālas are inconvenient for appropriate perf
+ ormance of rituals such as snāna\, dāna\, tarpaṇa\, etc.<br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/time_focus/sankrAnti/description_only/ravi-saGkramaNa-puNyakAlaH.
+ toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -40763,7 +40997,13 @@ BEGIN:VEVENT
 SUMMARY:sāyana-saṅkramaṇa-dina-pūrvāhṇa-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191222T063011
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191222T120709
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/sAyana-saGk
+ ramaNa-dina-pUrvAhNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFesti
+ vals<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
+ .com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only
+ /sAyana-saGkramaNa-dina-pUrvAhNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti
+  CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H

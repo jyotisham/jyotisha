@@ -1230,6 +1230,16 @@ Observed on day 1 of Makaraḥ (sidereal solar) month (Sūryōdayaḥ/puurvavidd
 ##### सङ्क्रमण-दिन-पूर्वाह्ण-पुण्यकालः
 - 06:38→12:18
 
+
+
+When the transit of the Sun (saṅkrānti) happens in the first half of the day (pūrvāhṇa) or after midnight of the previous day, the first half of the day is a puṇyakāla for various observances. In addition to 16 ghatikas on either side of the transition, and specific puṇyakālas like ṣaḍaśīti, viṣṇupadī etc., this is also useful, especially in cases where the other puṇyakālas are inconvenient for appropriate performance of rituals such as snāna, dāna, tarpaṇa, etc.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/saGkramaNa-dina-pUrvAhNa-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
+
 ### 2019-01-16
 #### पौषः-10-10  ,  मेषः-अपभरणी🌛🌌  ,  मकरः-उत्तराषाढा-10-02🌞🌌  ,  सहस्यः-10-26🌞🪐  ,  बुधः
 - Indian civil date: 1940-10-26, Islamic: 1440-05-09 Jumādā al-ʾAwwal/ʾŪlā, 🌌🌞: सं- मकरः, तं- तै, म- मकरं, प- माघ, अ- माघ
@@ -3237,7 +3247,7 @@ Very widely celebrated in Tamil Nadu temples, Fridays in the month of tai are sp
 
 
 
-
+The Tiruchendur Brahmotsavam of Masi each year is very special, wherein all the three temple chariots are dragged and the festival is conducted for twelve days, concluding with a Teppam or Float Festival. This marks the first day of the festival.
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/temples/Tamil/relative_event/tiruccendUr_mAcit_tiruvizhA_nir2aivu/offset__-11/tiruccendUr_murugan2_mAcit_tiruvizhA_toDakkam.toml)
@@ -3355,7 +3365,7 @@ Roman Polytheist Platonist sage Proclus was born on this day
 
 
 
-
+The Tiruchendur Brahmotsavam of Masi each year is very special, wherein all the three temple chariots are dragged and the festival is conducted for twelve days, concluding with a Teppam or Float Festival. This marks the second day of the festival.
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/temples/Tamil/relative_event/tiruccendUr_mAcit_tiruvizhA_nir2aivu/offset__-10/tiruccendUr_murugan2_mAcit_tiruvizhA_%23%232%23%23m_nAL.toml)
@@ -3444,7 +3454,7 @@ Vishnu's boon to AdiSesha that humans will worship on this day.
 
 
 
-
+The Tiruchendur Brahmotsavam of Masi each year is very special, wherein all the three temple chariots are dragged and the festival is conducted for twelve days, concluding with a Teppam or Float Festival. This marks the third day of the festival, when Lord Subrahmanya is in procession.
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/temples/Tamil/relative_event/tiruccendUr_mAcit_tiruvizhA_nir2aivu/offset__-9/tiruccendUr_murugan2_mAcit_tiruvizhA_%23%233%23%23m_nAL%E2%80%94murugan2_bhavan2i.toml)
@@ -3571,7 +3581,7 @@ Monthly Shashthi vratam for Lord Subrahmanya (Madhyāhna/puurvaviddha).
 
 
 
-
+The Tiruchendur Brahmotsavam of Masi each year is very special, wherein all the three temple chariots are dragged and the festival is conducted for twelve days, concluding with a Teppam or Float Festival. This marks the fourth day of the festival.
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/temples/Tamil/relative_event/tiruccendUr_mAcit_tiruvizhA_nir2aivu/offset__-8/tiruccendUr_murugan2_mAcit_tiruvizhA_%23%234%23%23m_nAL.toml)
@@ -3737,7 +3747,7 @@ Observed on Śukla-Saptamī tithi of Māghaḥ (lunar) month (Prāktanāruṇōd
 
 
 
-
+The Tiruchendur Brahmotsavam of Masi each year is very special, wherein all the three temple chariots are dragged and the festival is conducted for twelve days, concluding with a Teppam or Float Festival. This marks the fifth day of the festival.
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/temples/Tamil/relative_event/tiruccendUr_mAcit_tiruvizhA_nir2aivu/offset__-7/tiruccendUr_murugan2_mAcit_tiruvizhA_%23%235%23%23m_nAL.toml)
@@ -3926,11 +3936,21 @@ Kumbha-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala. Perform danam of hay, grass
 
 ##### सङ्क्रमण-दिन-पूर्वाह्ण-पुण्यकालः
 - 06:35→12:23
+
+
+
+When the transit of the Sun (saṅkrānti) happens in the first half of the day (pūrvāhṇa) or after midnight of the previous day, the first half of the day is a puṇyakāla for various observances. In addition to 16 ghatikas on either side of the transition, and specific puṇyakālas like ṣaḍaśīti, viṣṇupadī etc., this is also useful, especially in cases where the other puṇyakālas are inconvenient for appropriate performance of rituals such as snāna, dāna, tarpaṇa, etc.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/saGkramaNa-dina-pUrvAhNa-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 ##### तिरुच्चॆन्दूर् मुरुगऩ् माचित् तिरुविऴा 6म् नाळ्—वॆळ्ळित् तेर् भवऩि
 
 
 
-
+The Tiruchendur Brahmotsavam of Masi each year is very special, wherein all the three temple chariots are dragged and the festival is conducted for twelve days, concluding with a Teppam or Float Festival. This marks the sixth day of the festival.
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/temples/Tamil/relative_event/tiruccendUr_mAcit_tiruvizhA_nir2aivu/offset__-6/tiruccendUr_murugan2_mAcit_tiruvizhA_%23%236%23%23m_nAL%E2%80%94veLLit_tEr_bhavan2i.toml)
@@ -4021,7 +4041,7 @@ dehatyAga of madhvAchArya.
 
 
 
-
+The Tiruchendur Brahmotsavam of Masi each year is very special, wherein all the three temple chariots are dragged and the festival is conducted for twelve days, concluding with a Teppam or Float Festival. This marks the seventh day of the festival. A unique decoration on this day is the 'urugu chattai' sevai, and 'sigappu satthi alankaram'.
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/temples/Tamil/relative_event/tiruccendUr_mAcit_tiruvizhA_nir2aivu/offset__-5/tiruccendUr_murugan2_mAcit_tiruvizhA_%23%237%23%23m_nAL%E2%80%94urugu_cattac_cEvai_or_cigappu_cAtti_alaGkAram.toml)
@@ -4112,7 +4132,7 @@ sāmba, the son of Sri Krishna, was cured of leprosy after performing tapaḥ to
 
 
 
-
+The Tiruchendur Brahmotsavam of Masi each year is very special, wherein all the three temple chariots are dragged and the festival is conducted for twelve days, concluding with a Teppam or Float Festival. This marks the eighth day of the festival. A unique decoration on this day is the most beautiful 'pachai satthi alankaram'.
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/temples/Tamil/relative_event/tiruccendUr_mAcit_tiruvizhA_nir2aivu/offset__-4/tiruccendUr_murugan2_mAcit_tiruvizhA_%23%238%23%23m_nAL%E2%80%94paccai_cAtti_alaGkAram.toml)
@@ -4194,7 +4214,7 @@ The Shukla-paksha Ekadashi of māgha month is known as bhaimī-ēkādaśī. If t
 
 
 
-
+The Tiruchendur Brahmotsavam of Masi each year is very special, wherein all the three temple chariots are dragged and the festival is conducted for twelve days, concluding with a Teppam or Float Festival. This marks the ninth day of the festival. The special vahanam for the day is a Golden Kailasha.
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/temples/Tamil/relative_event/tiruccendUr_mAcit_tiruvizhA_nir2aivu/offset__-3/tiruccendUr_murugan2_mAcit_tiruvizhA_%23%239%23%23m_nAL%E2%80%94taGga_kailAca_vAhan2am.toml)
@@ -4331,7 +4351,7 @@ Mahavishnu created black sesame by extreme tapaḥ on this day; light tila dīpa
 
 
 
-
+The Tiruchendur Brahmotsavam of Masi each year is very special, wherein all the three temple chariots are dragged and the festival is conducted for twelve days, concluding with a Teppam or Float Festival. This marks the tenth day of the festival. This is the day of the chariot/car festival.
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/temples/Tamil/relative_event/tiruccendUr_mAcit_tiruvizhA_nir2aivu/offset__-2/tiruccendUr_murugan2_mAcit_tiruvizhA_%23%2310%23%23m_nAL%E2%80%94tEr.toml)
@@ -4492,7 +4512,7 @@ Beginning of tapasya-māsaḥ, marked by the transit of Sun into mīna-rāshī. 
 
 
 
-
+The Tiruchendur Brahmotsavam of Masi each year is very special, wherein all the three temple chariots are dragged and the festival is conducted for twelve days, concluding with a Teppam or Float Festival. This marks the eleventh and penultimate day of the festival. The main feature of the day is the 'float' festival or ta:teppam.
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/temples/Tamil/relative_event/tiruccendUr_mAcit_tiruvizhA_nir2aivu/offset__-1/tiruccendUr_murugan2_teppam.toml)
@@ -4622,7 +4642,7 @@ pūrṇimā vratam is commonly observed for Lord Satyanarayana.
 
 Observed on Paurṇamāsī tithi of Kumbhaḥ (sidereal solar) month (Sūryōdayaḥ/puurvaviddha). 
 
-
+The Tiruchendur Brahmotsavam of Masi each year is very special, wherein all the three temple chariots are dragged and the festival is conducted for twelve days, concluding with a Teppam or Float Festival. This marks the final day of the festival.
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/temples/Tamil/sidereal_solar_month/tithi/11/15/tiruccendUr_mAcit_tiruvizhA_nir2aivu.toml)
@@ -5429,6 +5449,16 @@ Pradosha Vratam. Fast during the day and perform śivapūjā in Pradosha Kala.
 
 
 ##### विजया/श्रवण-महाद्वादशी
+
+
+
+Dvadashi tithi, combined with Shravana nakshatra.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/dvAdashI/description_only/vijayA__zravaNa-mahAdvAdazI.toml)
+- Tags: RareDays Combinations SpecialVratam
+
+
 ##### श्रवण-व्रतम्
 
 Observed on every occurrence of Śravaṇaḥ nakshatra (Sāṅgavaḥ/puurvaviddha). 
@@ -5577,7 +5607,7 @@ ___________________
 
 
 
-kr̥ṣṇa chaturdaśī tithi on a Tuesday is very sacred. Perform tarpaṇam to Yama Dharamaraja.
+kr̥ṣṇa chaturdaśī tithi on a Tuesday is very sacred. Perform tarpaṇam to Yama Dharmaraja.
 एकैकेन तिलैर्मिश्रान् दद्यात् त्रींस्त्रीन् जलाञ्जलीन्।
 संवत्सरकृतं पापं तत्क्षणादेव नश्यति॥
 कृष्णपक्षे चतुर्दश्यां यां काञ्चित् सरितं प्रति।
@@ -5638,7 +5668,7 @@ Do upavāsam (at least do not take salt) and pray to Lord Shiva (Vaidyanatha Swa
 
 Observed on Kr̥ṣṇa-Caturdaśī tithi of Māghaḥ (lunar) month (Sūryōdayaḥ/paraviddha). 
 
-Perform tarpaṇam to Yama Dharamaraja.
+Perform tarpaṇam to Yama Dharmaraja.
 एकैकेन तिलैर्मिश्रान् दद्यात् त्रींस्त्रीन् जलाञ्जलीन्।
 संवत्सरकृतं पापं तत्क्षणादेव नश्यति॥
 कृष्णपक्षे चतुर्दश्यां यां काञ्चित् सरितं प्रति।
@@ -6592,8 +6622,28 @@ Mīna-Ravi-Saṅkramaṇa-Ṣaḍaśīti Punyakala.
 
 ##### रवि-सङ्क्रमण-पुण्यकालः
 - 06:20→11:48
+
+
+
+16 ghatikas on either side of the transition of the Sun are sacred for various observances. In addition to specific puṇyakālas like ṣaḍaśīti, viṣṇupadī etc., this is also useful, especially in cases where the other puṇyakālas are inconvenient for appropriate performance of rituals such as snāna, dāna, tarpaṇa, etc.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/ravi-saGkramaNa-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 ##### सङ्क्रमण-दिन-पूर्वाह्ण-पुण्यकालः
 - 06:20→12:18
+
+
+
+When the transit of the Sun (saṅkrānti) happens in the first half of the day (pūrvāhṇa) or after midnight of the previous day, the first half of the day is a puṇyakāla for various observances. In addition to 16 ghatikas on either side of the transition, and specific puṇyakālas like ṣaḍaśīti, viṣṇupadī etc., this is also useful, especially in cases where the other puṇyakālas are inconvenient for appropriate performance of rituals such as snāna, dāna, tarpaṇa, etc.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/saGkramaNa-dina-pUrvAhNa-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 
 ### 2019-03-16
 #### फाल्गुनः-12-10  ,  मिथुनम्-पुनर्वसुः🌛🌌  ,  मीनः-पूर्वप्रोष्ठपदा-12-02🌞🌌  ,  तपस्यः-12-26🌞🪐  ,  शनिः
@@ -9558,6 +9608,16 @@ Being the first day of the new year, read the pañchāṅga today, followed by n
 
 ##### रवि-सङ्क्रमण-पुण्यकालः
 - 07:29→18:18
+
+
+
+16 ghatikas on either side of the transition of the Sun are sacred for various observances. In addition to specific puṇyakālas like ṣaḍaśīti, viṣṇupadī etc., this is also useful, especially in cases where the other puṇyakālas are inconvenient for appropriate performance of rituals such as snāna, dāna, tarpaṇa, etc.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/ravi-saGkramaNa-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 ##### रविपुष्ययोग-पुण्यकालः
 - →07:38
 
@@ -9572,6 +9632,16 @@ When Pushya nakshatra falls on a Sunday, it is a special puṇyakālaḥ.
 
 ##### सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः
 - 12:09→18:18
+
+
+
+When the transit of the Sun (saṅkrānti) happens in the second half of the day (aparāhṇa) and before midnight, the second half of the day is a puṇyakāla for various observances. In addition to 16 ghatikas on either side of the transition, and specific puṇyakālas like ṣaḍaśīti, viṣṇupadī etc., this is also useful, especially in cases where the other puṇyakālas are inconvenient for appropriate performance of rituals such as snāna, dāna, tarpaṇa, etc.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/saGkramaNa-dina-aparAhNa-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 ##### वसन्तनवरात्र-समापनम्
 
 Observed on Śukla-Navamī tithi of Caitraḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -12674,6 +12744,16 @@ Observed on Śukla-Ēkādaśī tithi of Vaiśākhaḥ (lunar) month (Sūryōdaya
 
 ##### सङ्क्रमण-दिन-पूर्वाह्ण-पुण्यकालः
 - 05:47→12:05
+
+
+
+When the transit of the Sun (saṅkrānti) happens in the first half of the day (pūrvāhṇa) or after midnight of the previous day, the first half of the day is a puṇyakāla for various observances. In addition to 16 ghatikas on either side of the transition, and specific puṇyakālas like ṣaḍaśīti, viṣṇupadī etc., this is also useful, especially in cases where the other puṇyakālas are inconvenient for appropriate performance of rituals such as snāna, dāna, tarpaṇa, etc.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/saGkramaNa-dina-pUrvAhNa-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 ##### सर्व-मोहिनी-एकादशी
 
 
@@ -13392,6 +13472,16 @@ pārthiva-kalpādiḥ is observed on this day. Performing śrāddha on this day 
 
 ##### रवि-सङ्क्रमण-पुण्यकालः
 - 07:05→18:25
+
+
+
+16 ghatikas on either side of the transition of the Sun are sacred for various observances. In addition to specific puṇyakālas like ṣaḍaśīti, viṣṇupadī etc., this is also useful, especially in cases where the other puṇyakālas are inconvenient for appropriate performance of rituals such as snāna, dāna, tarpaṇa, etc.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/ravi-saGkramaNa-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 ##### सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः
 - 12:05→18:25
 ##### तिरुञाऩसम्बन्धमूर्त्ति नायऩार् (२७) गुरुपूजै
@@ -15738,8 +15828,28 @@ Mithuna-Ravi-Saṅkramaṇa-Ṣaḍaśīti Punyakala. Perform danam of clothes, 
 
 ##### रवि-सङ्क्रमण-पुण्यकालः
 - 10:54→18:32
+
+
+
+16 ghatikas on either side of the transition of the Sun are sacred for various observances. In addition to specific puṇyakālas like ṣaḍaśīti, viṣṇupadī etc., this is also useful, especially in cases where the other puṇyakālas are inconvenient for appropriate performance of rituals such as snāna, dāna, tarpaṇa, etc.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/ravi-saGkramaNa-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 ##### सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः
 - 12:09→18:32
+
+
+
+When the transit of the Sun (saṅkrānti) happens in the second half of the day (aparāhṇa) and before midnight, the second half of the day is a puṇyakāla for various observances. In addition to 16 ghatikas on either side of the transition, and specific puṇyakālas like ṣaḍaśīti, viṣṇupadī etc., this is also useful, especially in cases where the other puṇyakālas are inconvenient for appropriate performance of rituals such as snāna, dāna, tarpaṇa, etc.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/saGkramaNa-dina-aparAhNa-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 ##### वेङ्कटाचले ज्येष्ठ-अभिद्येयकाभिषेकः (वज्र-कवचम्)
 
 
@@ -16218,6 +16328,16 @@ ___________________
 - 09:24→18:33
 ##### रवि-सङ्क्रमण-पुण्यकालः
 - 15:00→18:33
+
+
+
+16 ghatikas on either side of the transition of the Sun are sacred for various observances. In addition to specific puṇyakālas like ṣaḍaśīti, viṣṇupadī etc., this is also useful, especially in cases where the other puṇyakālas are inconvenient for appropriate performance of rituals such as snāna, dāna, tarpaṇa, etc.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/ravi-saGkramaNa-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 ##### सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः
 - 12:10→18:33
 ##### वैधृति-श्राद्धम्
@@ -18464,6 +18584,16 @@ Observed on Paurṇamāsī tithi of every (lunar) month (Āśvinaḥ/paraviddha)
 
 ##### सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः
 - 12:14→18:35
+
+
+
+When the transit of the Sun (saṅkrānti) happens in the second half of the day (aparāhṇa) and before midnight, the second half of the day is a puṇyakāla for various observances. In addition to 16 ghatikas on either side of the transition, and specific puṇyakālas like ṣaḍaśīti, viṣṇupadī etc., this is also useful, especially in cases where the other puṇyakālas are inconvenient for appropriate performance of rituals such as snāna, dāna, tarpaṇa, etc.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/saGkramaNa-dina-aparAhNa-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 ##### वेङ्कटाचले पूर्णिमा-गरुड-सेवा
 
 Observed on Paurṇamāsī tithi of every (lunar) month (Chandrōdayaḥ/puurvaviddha). 
@@ -19148,6 +19278,16 @@ Beginning of nabhō-māsaḥ, marked by the transit of Sun into siṁha-rāshī.
 
 ##### सायन-सङ्क्रमण-दिन-पूर्वाह्ण-पुण्यकालः
 - 05:55→12:15
+
+
+
+When the transit of the Sun (saṅkrānti) happens in the first half of the day (pūrvāhṇa) or after midnight of the previous day, the first half of the day is a puṇyakāla for various observances. In addition to 16 ghatikas on either side of the transition, and specific puṇyakālas like ṣaḍaśīti, viṣṇupadī etc., this is also useful, especially in cases where the other puṇyakālas are inconvenient for appropriate performance of rituals such as snāna, dāna, tarpaṇa, etc.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/sAyana-saGkramaNa-dina-pUrvAhNa-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 
 ### 2019-07-24
 #### आषाढः-04-22  ,  मीनः-रेवती🌛🌌  ,  कर्कटः-पुष्यः-04-08🌞🌌  ,  नभः-05-02🌞🪐  ,  बुधः
@@ -20290,7 +20430,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- गरुड-पञ्चमी, तैत्तिरीय-उपाकर्म हस्ते
+- गरुड-पञ्चमी, तैत्तिरीय-उपाकर्म हस्ते, नाग-पञ्चमी
 ##### गरुड-पञ्चमी
 
 Observed on Śukla-Pañcamī tithi of Śrāvaṇaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -20301,6 +20441,34 @@ Observed on Śukla-Pañcamī tithi of Śrāvaṇaḥ (lunar) month (Sūryōdaya�
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/05/05/garuDa-paJcamI.toml)
 - Tags: PuranaEvents
+
+
+##### नाग-पञ्चमी
+
+Observed on Śukla-Pañcamī tithi of Śrāvaṇaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
+
+Naga Panchami; SarpaPooja (manasaDevi); Vishnu's boon to AdiSesha that humans will worship on this day
+
+सुमन्तुरुवाच  
+इत्युक्तवान्पुरा वीर गौतमस्य प्रजापतिः।  
+लक्षणं सर्वनागानां रूपवर्णों विषं तथा॥६०॥  
+तस्मात् सम्पूजयेन्नागान् सदा भक्त्या समन्वितः।  
+विशेषतस्तु पञ्चम्यां पयसा पायसेन च॥६१॥  
+श्रावणे मासि पञ्चम्यां शुक्लपक्षे नराधिप।  
+द्वारस्योभयतो लेख्या गोमयेन विषोल्बणाः॥६२॥  
+पूजयेद्विधिवद्द्वारं दधिदूर्वाक्षतैः कुशैः।  
+गन्धपुष्पोपहारैश्च ब्राह्मणानां च तर्पणैः॥६३॥  
+ये त्वस्यां पूजयन्तीह नागान् भक्तिपुरःसराः।  
+न तेषां सर्पतो वीर भयं भवति कर्हिचित्॥६४॥  
+॥इति श्रीभविष्ये महापुराणे शतार्धसाहस्र्यां संहितायां ब्राह्मेपर्वणि पञ्चमीकल्पे श्रावणिकनागपञ्चमीव्रतवर्णनं नाम षट्त्रिंशोऽध्यायः॥  
+अपसर्प सर्प भद्रं ते दूरं गच्छ महायशाः।  
+जनमेजयस्य यज्ञान्ते अस्तीकवचनं स्मरन्॥
+
+
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/misc-fauna/lunar_month/tithi/05/05/nAga-paJcamI.toml)
+- Tags: SpecialPuja PuranaEvents
 
 
 ##### तैत्तिरीय-उपाकर्म हस्ते
@@ -21578,6 +21746,16 @@ Observed on Kr̥ṣṇa-Dvitīyā tithi of Śrāvaṇaḥ (lunar) month (Sūryō
 
 ##### सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः
 - 12:13→18:25
+
+
+
+When the transit of the Sun (saṅkrānti) happens in the second half of the day (aparāhṇa) and before midnight, the second half of the day is a puṇyakāla for various observances. In addition to 16 ghatikas on either side of the transition, and specific puṇyakālas like ṣaḍaśīti, viṣṇupadī etc., this is also useful, especially in cases where the other puṇyakālas are inconvenient for appropriate performance of rituals such as snāna, dāna, tarpaṇa, etc.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/saGkramaNa-dina-aparAhNa-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 ##### सिंह-रवि-सङ्क्रमण-विष्णुपदी-पुण्यकालः
 - 06:09→18:25
 
@@ -22087,6 +22265,16 @@ Observed on Kr̥ṣṇa-Aṣṭamī tithi of every (lunar) month (Āśvinaḥ/pa
 
 ##### रवि-सङ्क्रमण-पुण्यकालः
 - 09:08→18:22
+
+
+
+16 ghatikas on either side of the transition of the Sun are sacred for various observances. In addition to specific puṇyakālas like ṣaḍaśīti, viṣṇupadī etc., this is also useful, especially in cases where the other puṇyakālas are inconvenient for appropriate performance of rituals such as snāna, dāna, tarpaṇa, etc.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/ravi-saGkramaNa-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 ##### सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः
 - 12:11→18:22
 ##### श्रीकृष्णजन्माष्टमी
@@ -23349,7 +23537,7 @@ Bhadrapada Naga Panchami.
 
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/misc-fauna/lunar_month/tithi/06/05/nAga-paJcamI.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/misc-fauna/lunar_month/tithi/06/05/bhAdrapdika-nAga-paJcamI.toml)
 - Tags: SpecialPuja
 
 
@@ -24131,6 +24319,16 @@ Wednesday Shravana ; Vamana Jayanti; Shravana Dvadashi; Vijaya Dvadashi; Shakra 
 
 ##### विजया/श्रवण-महाद्वादशी
 
+
+
+Dvadashi tithi, combined with Shravana nakshatra.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/dvAdashI/description_only/vijayA__zravaNa-mahAdvAdazI.toml)
+- Tags: RareDays Combinations SpecialVratam
+
+
+
 ### 2019-09-11
 #### भाद्रपदः-06-13  ,  मकरः-श्रवणः🌛🌌  ,  सिंहः-पूर्वफल्गुनी-05-26🌞🌌  ,  नभस्यः-06-20🌞🪐  ,  बुधः
 - Indian civil date: 1941-06-20, Islamic: 1441-01-11 Al-Muḥarram, 🌌🌞: सं- सिंहः, तं- आवणि, म- चिङ्ङं, प- भादों, अ- भाद
@@ -24835,8 +25033,28 @@ Kanyā-Ravi-Saṅkramaṇa-Ṣaḍaśīti Punyakala. Perform danam of clothes/pl
 
 ##### रवि-सङ्क्रमण-पुण्यकालः
 - 06:07→18:05
+
+
+
+16 ghatikas on either side of the transition of the Sun are sacred for various observances. In addition to specific puṇyakālas like ṣaḍaśīti, viṣṇupadī etc., this is also useful, especially in cases where the other puṇyakālas are inconvenient for appropriate performance of rituals such as snāna, dāna, tarpaṇa, etc.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/ravi-saGkramaNa-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 ##### सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः
 - 12:03→18:05
+
+
+
+When the transit of the Sun (saṅkrānti) happens in the second half of the day (aparāhṇa) and before midnight, the second half of the day is a puṇyakāla for various observances. In addition to 16 ghatikas on either side of the transition, and specific puṇyakālas like ṣaḍaśīti, viṣṇupadī etc., this is also useful, especially in cases where the other puṇyakālas are inconvenient for appropriate performance of rituals such as snāna, dāna, tarpaṇa, etc.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/saGkramaNa-dina-aparAhNa-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 ##### विश्वकर्म-जयन्ती
 
 Observed on day 1 of Kanyā (sidereal solar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -25449,6 +25667,16 @@ Beginning of iṣa-māsaḥ, marked by the transit of Sun into tulā-rāshī.  A
 
 ##### रवि-सङ्क्रमण-पुण्यकालः
 - 06:56→18:01
+
+
+
+16 ghatikas on either side of the transition of the Sun are sacred for various observances. In addition to specific puṇyakālas like ṣaḍaśīti, viṣṇupadī etc., this is also useful, especially in cases where the other puṇyakālas are inconvenient for appropriate performance of rituals such as snāna, dāna, tarpaṇa, etc.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/ravi-saGkramaNa-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 ##### सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः
 - 12:01→18:01
 
@@ -28011,8 +28239,28 @@ Observed on the first Friday following the transit of Sun into tulārāśī. Thr
 
 ##### रवि-सङ्क्रमण-पुण्यकालः
 - 06:03→06:55
+
+
+
+16 ghatikas on either side of the transition of the Sun are sacred for various observances. In addition to specific puṇyakālas like ṣaḍaśīti, viṣṇupadī etc., this is also useful, especially in cases where the other puṇyakālas are inconvenient for appropriate performance of rituals such as snāna, dāna, tarpaṇa, etc.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/ravi-saGkramaNa-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 ##### सङ्क्रमण-दिन-पूर्वाह्ण-पुण्यकालः
 - 06:03→11:54
+
+
+
+When the transit of the Sun (saṅkrānti) happens in the first half of the day (pūrvāhṇa) or after midnight of the previous day, the first half of the day is a puṇyakāla for various observances. In addition to 16 ghatikas on either side of the transition, and specific puṇyakālas like ṣaḍaśīti, viṣṇupadī etc., this is also useful, especially in cases where the other puṇyakālas are inconvenient for appropriate performance of rituals such as snāna, dāna, tarpaṇa, etc.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/saGkramaNa-dina-pUrvAhNa-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 ##### तुला-कावेरी-स्नान-आरम्भः
 
 Observed on day 1 of Tulā (sidereal solar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -31230,6 +31478,16 @@ Nadha Sharma (ta:muḍavan{}, i.e. lame man) and his wife Anavidyambikai came to
 
 ##### सङ्क्रमण-दिन-पूर्वाह्ण-पुण्यकालः
 - 06:11→11:53
+
+
+
+When the transit of the Sun (saṅkrānti) happens in the first half of the day (pūrvāhṇa) or after midnight of the previous day, the first half of the day is a puṇyakāla for various observances. In addition to 16 ghatikas on either side of the transition, and specific puṇyakālas like ṣaḍaśīti, viṣṇupadī etc., this is also useful, especially in cases where the other puṇyakālas are inconvenient for appropriate performance of rituals such as snāna, dāna, tarpaṇa, etc.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/saGkramaNa-dina-pUrvAhNa-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 ##### तिरुविशलूर् गङ्गाकर्षण-महोत्सव-आरम्भः
 
 
@@ -31638,6 +31896,16 @@ Observed on Uttaraphalgunī nakshatra of Vr̥ścikaḥ (sidereal solar) month (P
 
 ##### रवि-सङ्क्रमण-पुण्यकालः
 - 14:04→17:35
+
+
+
+16 ghatikas on either side of the transition of the Sun are sacred for various observances. In addition to specific puṇyakālas like ṣaḍaśīti, viṣṇupadī etc., this is also useful, especially in cases where the other puṇyakālas are inconvenient for appropriate performance of rituals such as snāna, dāna, tarpaṇa, etc.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/ravi-saGkramaNa-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 ##### सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः
 - 11:54→17:35
 ##### सहो-मासः/हेमन्तऋतुः
@@ -33851,8 +34119,28 @@ Dhanur-Ravi-Saṅkramaṇa-Ṣaḍaśīti Punyakala. Perform danam of clothes/ve
 
 ##### रवि-सङ्क्रमण-पुण्यकालः
 - 08:37→17:41
+
+
+
+16 ghatikas on either side of the transition of the Sun are sacred for various observances. In addition to specific puṇyakālas like ṣaḍaśīti, viṣṇupadī etc., this is also useful, especially in cases where the other puṇyakālas are inconvenient for appropriate performance of rituals such as snāna, dāna, tarpaṇa, etc.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/ravi-saGkramaNa-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 ##### सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः
 - 12:04→17:41
+
+
+
+When the transit of the Sun (saṅkrānti) happens in the second half of the day (aparāhṇa) and before midnight, the second half of the day is a puṇyakāla for various observances. In addition to 16 ghatikas on either side of the transition, and specific puṇyakālas like ṣaḍaśīti, viṣṇupadī etc., this is also useful, especially in cases where the other puṇyakālas are inconvenient for appropriate performance of rituals such as snāna, dāna, tarpaṇa, etc.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/saGkramaNa-dina-aparAhNa-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 ##### वैधृति-श्राद्धम्
 
 Observed on every occurrence of Vaidhr̥tiḥ yoga (Aparāhṇaḥ/vyaapti). 
@@ -34232,8 +34520,28 @@ Observed on Svātī nakshatra of Dhanuḥ (sidereal solar) month (Prātaḥ/para
 
 ##### रवि-सङ्क्रमण-पुण्यकालः
 - 06:30→16:13
+
+
+
+16 ghatikas on either side of the transition of the Sun are sacred for various observances. In addition to specific puṇyakālas like ṣaḍaśīti, viṣṇupadī etc., this is also useful, especially in cases where the other puṇyakālas are inconvenient for appropriate performance of rituals such as snāna, dāna, tarpaṇa, etc.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/ravi-saGkramaNa-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 ##### सायन-सङ्क्रमण-दिन-पूर्वाह्ण-पुण्यकालः
 - 06:30→12:07
+
+
+
+When the transit of the Sun (saṅkrānti) happens in the first half of the day (pūrvāhṇa) or after midnight of the previous day, the first half of the day is a puṇyakāla for various observances. In addition to 16 ghatikas on either side of the transition, and specific puṇyakālas like ṣaḍaśīti, viṣṇupadī etc., this is also useful, especially in cases where the other puṇyakālas are inconvenient for appropriate performance of rituals such as snāna, dāna, tarpaṇa, etc.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/sAyana-saGkramaNa-dina-pUrvAhNa-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 ##### सहस्य-मासः/उत्तरायणम्
 - 09:49→
 
