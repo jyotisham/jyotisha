@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220424105428
+SEQUENCE:20220424204231
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -8118,6 +8118,25 @@ DESCRIPTION:- Indian civil date: 1943-12-09\, Islamic: 1443-07-26 Rajab\,
  टः**—11:04-12:32\; **गुलिककालः**—14:00-15:28  \n
  ___________________\n- **शूलम्**—प्राची (►09:47)
  \; **परिहारः**–दधि  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:कर्णावत्यां होलिकोत्सव-
+ कलहः #२९४
+DTSTART;VALUE=DATE:20220228
+DTEND;VALUE=DATE:20220301
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/02/18/karNAvat
+ yAM_holikotsava-kalahaH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<b
+ r/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master
+ /mahApuruSha/xatra-later/julian/day/02/18/karNAvatyAM_holikotsava-kalahaH.
+ toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
