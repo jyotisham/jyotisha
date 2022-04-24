@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220424205635
+SEQUENCE:20220424210236
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -30687,6 +30687,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:नाग-पञ्चमी
+DTSTART;VALUE=DATE:20220802
+DTEND;VALUE=DATE:20220803
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/misc-fauna/lunar_month/tithi/05/05/nAga-pa
+ JcamI.toml)<br/>- Tags: SpecialPuja PuranaEvents<br/><br/><br/><br/>## Det
+ ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/
+ master/devatA/misc-fauna/lunar_month/tithi/05/05/nAga-paJcamI.toml)<br/>- 
+ Tags: SpecialPuja PuranaEvents
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:श्रावणः-05-06  \,  कन्या-हस्तः
  🌛🌌  \,  कर्कटः-पुष्यः-04-18🌞🌌  \,  न
  भः-05-12🌞🪐  \,  बुधः
@@ -35343,11 +35361,11 @@ SUMMARY:भाद्रपदिक-नाग-पञ्चमी
 DTSTART;VALUE=DATE:20220901
 DTEND;VALUE=DATE:20220902
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/devatA/misc-fauna/lunar_month/tithi/06/05/nAga-pa
- JcamI.toml)<br/>- Tags: SpecialPuja<br/><br/><br/><br/>## Details<br/>- [E
- dit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA
- /misc-fauna/lunar_month/tithi/06/05/nAga-paJcamI.toml)<br/>- Tags: Special
- Puja
+ am/adyatithi/blob/master/devatA/misc-fauna/lunar_month/tithi/06/05/bhAdrap
+ dika-nAga-paJcamI.toml)<br/>- Tags: SpecialPuja<br/><br/><br/><br/>## Deta
+ ils<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/m
+ aster/devatA/misc-fauna/lunar_month/tithi/06/05/bhAdrapdika-nAga-paJcamI.t
+ oml)<br/>- Tags: SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
