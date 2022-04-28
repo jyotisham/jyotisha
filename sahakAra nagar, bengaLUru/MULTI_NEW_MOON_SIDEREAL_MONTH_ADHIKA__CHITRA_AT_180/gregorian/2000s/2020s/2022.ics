@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220424211450
+SEQUENCE:20220428211154
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -2889,7 +2889,12 @@ BEGIN:VEVENT
 SUMMARY:तपो-मासः/शिशिरऋतुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220120T080904
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220121T000000
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/tapO-mAsaH_
+ _ziziraRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><br/><
+ br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyat
+ ithi/blob/master/time_focus/sankrAnti/description_only/tapO-mAsaH__ziziraR
+ tuH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -17097,22 +17102,12 @@ BEGIN:VEVENT
 SUMMARY:मत्स्य-जयन्ती
 DTSTART;VALUE=DATE:20220428
 DTEND;VALUE=DATE:20220429
-DESCRIPTION:Observed on Kr̥ṣṇa-Trayōdaśī tithi of Caitraḥ (lunar
- ) month (Aparāhṇaḥ/puurvaviddha). <br/><br/>सत्यव्रत
- ोपदेशाय जिह्ममीनस्वरूपधृक
- ्।  <br/>प्रलयाब्धिकृतावास गृह
- ाणार्घ्यं नमोऽस्तु ते॥  <br/>  <br
- />चैत्रे मास्यसिते पक्षे त्र
- योदश्यां तिथौ विभुः।  <br/>उदभ
- ून्मत्स्यरूपेण रक्षार्थमव
- नेर्हरिः॥   <br/>अवतारदिने पुण
- ्ये हरिमुद्दिश्य भक्तितः।  <
- br/>उपवासादि यत् किञ्चित्तदा
- नन्त्याय कल्पते॥<br/><br/><br/><br/>## Detai
- ls<br/>- References<br/>  - Vaidyanatha Dikshitiyam (SVR) p.62<br/>- [Edit
-  config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/va
- iShNava/lunar_month/tithi/01/28/matsya~jayantI.toml)<br/>- Tags: Dashavata
- ram
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/01/28/matsya~j
+ ayantI.toml)<br/>- Tags: Dashavataram<br/><br/><br/><br/>## Details<br/>- 
+ References<br/>  - Vaidyanatha Dikshitiyam (SVR) p.62<br/>- [Edit config f
+ ile](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/l
+ unar_month/tithi/01/28/matsya~jayantI.toml)<br/>- Tags: Dashavataram
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18198,9 +18193,11 @@ BEGIN:VEVENT
 SUMMARY:अग्निनक्षत्र-आरम्भः
 DTSTART;VALUE=DATE:20220505
 DTEND;VALUE=DATE:20220506
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/nakShatra/description_only/agninakSatr
- a-ArambhaH.toml)<br/>- Tags: SpecialPeriodStart
+DESCRIPTION:The start of the period agninakṣatram\, the transit of the S
+ un through kr̥ttikā asterism.<br/><br/>## Details<br/>- [Edit config fil
+ e](https://github.com/jyotisham/adyatithi/blob/master/time_focus/nakShatra
+ /description_only/agninakSatra-ArambhaH.toml)<br/>- Tags: SpecialPeriodSta
+ rt
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21430,9 +21427,10 @@ BEGIN:VEVENT
 SUMMARY:अग्निनक्षत्रम्
 DTSTART;VALUE=DATE:20220505
 DTEND;VALUE=DATE:20220529
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/nakShatra/description_only/agninakSatr
- am.toml)<br/>- Tags: SpecialPeriod
+DESCRIPTION:The period agninakṣatram\, the transit of the Sun through kr
+ ̥ttikā asterism.<br/><br/>## Details<br/>- [Edit config file](https://gi
+ thub.com/jyotisham/adyatithi/blob/master/time_focus/nakShatra/description_
+ only/agninakSatram.toml)<br/>- Tags: SpecialPeriod
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21445,9 +21443,10 @@ BEGIN:VEVENT
 SUMMARY:अग्निनक्षत्र-समापनम्
 DTSTART;VALUE=DATE:20220528
 DTEND;VALUE=DATE:20220529
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/nakShatra/description_only/agninakSatr
- a-samApanam.toml)<br/>- Tags: SpecialPeriodEnd
+DESCRIPTION:The end of the period agninakṣatram\, the transit of the Sun
+  through kr̥ttikā asterism.<br/><br/>## Details<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/blob/master/time_focus/nakShatra/d
+ escription_only/agninakSatra-samApanam.toml)<br/>- Tags: SpecialPeriodEnd
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
