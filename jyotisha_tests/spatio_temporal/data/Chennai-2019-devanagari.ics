@@ -2026,7 +2026,12 @@ BEGIN:VEVENT
 SUMMARY:tapō-māsaḥ/śiśirar̥tuḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190120T142934
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190120T235957
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/tapO-mAsaH_
+ _ziziraRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><br/><
+ br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyat
+ ithi/blob/master/time_focus/sankrAnti/description_only/tapO-mAsaH__ziziraR
+ tuH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -13078,17 +13083,12 @@ BEGIN:VEVENT
 SUMMARY:matsya-jayantī
 DTSTART;VALUE=DATE:20190502
 DTEND;VALUE=DATE:20190503
-DESCRIPTION:Observed on Kr̥ṣṇa-Trayōdaśī tithi of Caitraḥ (lunar
- ) month (Aparāhṇaḥ/puurvaviddha). <br/><br/>satyavratōpadēśāya ji
- hmamīnasvarūpadhr̥k।  <br/>pralayābdhikr̥tāvāsa gr̥hāṇārghya
- ṁ namō'stu tē॥  <br/>  <br/>caitrē māsyasitē pakṣē trayōdaśy
- āṁ tithau vibhuḥ।  <br/>udabhūnmatsyarūpēṇa rakṣārthamavan
- ērhariḥ॥   <br/>avatāradinē puṇyē harimuddiśya bhaktitaḥ।  
- <br/>upavāsādi yat kiñcittadānantyāya kalpatē॥<br/><br/><br/><br/>
- ## Details<br/>- References<br/>  - Vaidyanatha Dikshitiyam (SVR) p.62<br/
- >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/d
- evatA/vaiShNava/lunar_month/tithi/01/28/matsya~jayantI.toml)<br/>- Tags: D
- ashavataram
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/01/28/matsya~j
+ ayantI.toml)<br/>- Tags: Dashavataram<br/><br/><br/><br/>## Details<br/>- 
+ References<br/>  - Vaidyanatha Dikshitiyam (SVR) p.62<br/>- [Edit config f
+ ile](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/l
+ unar_month/tithi/01/28/matsya~jayantI.toml)<br/>- Tags: Dashavataram
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13446,9 +13446,11 @@ BEGIN:VEVENT
 SUMMARY:agninakṣatra-ārambhaḥ
 DTSTART;VALUE=DATE:20190505
 DTEND;VALUE=DATE:20190506
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/nakShatra/description_only/agninakSatr
- a-ArambhaH.toml)<br/>- Tags: SpecialPeriodStart
+DESCRIPTION:The start of the period agninakṣatram\, the transit of the S
+ un through kr̥ttikā asterism.<br/><br/>## Details<br/>- [Edit config fil
+ e](https://github.com/jyotisham/adyatithi/blob/master/time_focus/nakShatra
+ /description_only/agninakSatra-ArambhaH.toml)<br/>- Tags: SpecialPeriodSta
+ rt
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16388,9 +16390,10 @@ BEGIN:VEVENT
 SUMMARY:agninakṣatram
 DTSTART;VALUE=DATE:20190504
 DTEND;VALUE=DATE:20190530
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/nakShatra/description_only/agninakSatr
- am.toml)<br/>- Tags: SpecialPeriod
+DESCRIPTION:The period agninakṣatram\, the transit of the Sun through kr
+ ̥ttikā asterism.<br/><br/>## Details<br/>- [Edit config file](https://gi
+ thub.com/jyotisham/adyatithi/blob/master/time_focus/nakShatra/description_
+ only/agninakSatram.toml)<br/>- Tags: SpecialPeriod
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16403,9 +16406,10 @@ BEGIN:VEVENT
 SUMMARY:agninakṣatra-samāpanam
 DTSTART;VALUE=DATE:20190529
 DTEND;VALUE=DATE:20190530
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/nakShatra/description_only/agninakSatr
- a-samApanam.toml)<br/>- Tags: SpecialPeriodEnd
+DESCRIPTION:The end of the period agninakṣatram\, the transit of the Sun
+  through kr̥ttikā asterism.<br/><br/>## Details<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/blob/master/time_focus/nakShatra/d
+ escription_only/agninakSatra-samApanam.toml)<br/>- Tags: SpecialPeriodEnd
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
