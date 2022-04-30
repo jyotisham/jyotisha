@@ -152,7 +152,7 @@ def get_description(festival_instance, fest_details_dict, script, truncate=True,
     desc = ''
     fest_id_orig = fest_id
     if 'alabhyam' in fest_id:
-      alabhyam_tags = re.sub('.*alabhyam–(.*)\)', '\\1', fest_id_orig).split(',_')
+      alabhyam_tags = re.sub(r'.*alabhyam–(.*)\)', r'\1', fest_id_orig).split(',_')
       for tag in alabhyam_tags:
         if tag in ["ArdrA", "punarvasuH", "puSyaH", "svAtI", "vizAkhA", "anUrAdhA", "zraviSThA", "zatabhiSak", "pUrvaprOSThapadA"]:
           ama_fest = 'alabhya-nakSatra-amAvAsyA'
