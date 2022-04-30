@@ -172,7 +172,6 @@ def get_description(festival_instance, fest_details_dict, script, truncate=True,
     else:
       pass
     fest_id = re.sub('amAvAsyA.*', 'amAvAsyA', fest_id)
-    fest_id = re.sub('amAvAsyA.*', 'amAvAsyA', fest_id_orig)
     if fest_id in fest_details_dict:
       desc = fest_details_dict[fest_id].get_description_string(
         script=script, include_url=True, include_shlokas=True, truncate=truncate, header_md=header_md) + desc
