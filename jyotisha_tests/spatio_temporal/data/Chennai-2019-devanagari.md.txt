@@ -509,16 +509,6 @@ Observed on Amāvāsyā tithi of every (lunar) month (Āśvinaḥ/paraviddha).
 
 
 ##### सर्व-मार्गशीर्ष-अमावास्या
-
-
-
-
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/mArgazIrSa-amAvAsyA.toml)
-- Tags: AmavasyaDays
-
-
 ##### श्री-हनूमत्-जयन्ती
 
 Observed on Amāvāsyā tithi of Dhanuḥ (sidereal solar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -1675,6 +1665,25 @@ ___________________
 - (सायन) विष्णुपदी-पुण्यकालः, कपाली तॆप्पोत्सवम्, काञ्ची ८ जगद्गुरु श्री-कैवल्यानन्दयोगेन्द्र सरस्वती आराधना #१९९०, तपो-मासः/शिशिरऋतुः, देवी-पर्व-१०, पञ्च-पर्व-पूजा (पूर्णिमा), पार्वणव्रतम् पूर्णिमायाम्, मकर-पुष्योत्सवः, वेङ्कटाचले पूर्णिमा-गरुड-सेवा, वैधृति-श्राद्धम्, सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः
 ##### (सायन) विष्णुपदी-पुण्यकालः
 - 08:05→18:00
+
+
+
+Viṣṇupadī Punyakala.
+
+सङ्क्रान्तिस्नानाकरणे प्रत्यवायमाह शातातपः—  
+सूर्यसङ्क्रमणे पुण्ये न स्नायाद्यदि मानवः।  
+सप्तजन्मसु रोगी स्याद् दुःखभागी च जायते॥  
+सङ्क्रान्त्यां यानि दत्तानि हव्यकव्यानि मानवैः।  
+तानि तस्य ददात्यर्कः सप्तजन्मसु निश्चितम्॥  
+(स्मृतिमुक्ताफले आह्निक-काण्डे-पूर्वभागः)
+
+
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/viSNupadI-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 ##### देवी-पर्व-१०
 
 Observed on Paurṇamāsī tithi of Pauṣaḥ (lunar) month (Āśvinaḥ/paraviddha). 
@@ -1751,6 +1760,16 @@ Observed on Paurṇamāsī tithi of every (lunar) month (Āśvinaḥ/paraviddha)
 
 ##### सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः
 - 12:19→18:00
+
+
+
+When the transit of the Sun (saṅkrānti) happens in the second half of the day (aparāhṇa) and before midnight, the second half of the day is a puṇyakāla for various observances. In addition to 16 ghatikas on either side of the transition, and specific puṇyakālas like ṣaḍaśīti, viṣṇupadī etc., this is also useful, especially in cases where the other puṇyakālas are inconvenient for appropriate performance of rituals such as snāna, dāna, tarpaṇa, etc.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/sAyana-saGkramaNa-dina-aparAhNa-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 ##### मकर-पुष्योत्सवः
 
 Observed on Puṣyaḥ nakshatra of Makaraḥ (sidereal solar) month (Rātrimānam/puurvaviddha). 
@@ -2978,6 +2997,24 @@ For instance, in Devi Atharvashirsha, it is said bhaumāśvinyāṁ mahādevī-s
 
 
 ##### सर्व-मौनि (पौष/मकर) अमावास्या (अलभ्यम्–पुष्कला)
+
+
+
+It is said in the Smrtis, that if Amavaysa falls on a Monday, Tuesday or Thursday, such a tithi is given the appellation puṣkalā and is as sacred as a solar eclipse.
+
+स्मृत्यन्तरे---  
+अमा सोमेन भौमेन गुरुणा वा युता यदि।  
+सा तिथिः पुष्कला नाम सूर्यग्रहणसन्निभा॥
+
+
+
+###### Details
+- References
+  - Vaidyanatha Dikshitiyam
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/puSkalA-amAvAsyA.toml)
+- Tags: AmavasyaDays
+
+
 ##### तिरुनॆल्वेलि नॆल्लैयप्पर् पत्र दीप तिरुविऴा
 
 Observed on Amāvāsyā tithi of Makaraḥ (sidereal solar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -4506,6 +4543,16 @@ Observed on Paurṇamāsī tithi of every (lunar) month (Āśvinaḥ/paraviddha)
 
 ##### सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः
 - 12:22→18:11
+
+
+
+When the transit of the Sun (saṅkrānti) happens in the second half of the day (aparāhṇa) and before midnight, the second half of the day is a puṇyakāla for various observances. In addition to 16 ghatikas on either side of the transition, and specific puṇyakālas like ṣaḍaśīti, viṣṇupadī etc., this is also useful, especially in cases where the other puṇyakālas are inconvenient for appropriate performance of rituals such as snāna, dāna, tarpaṇa, etc.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/sAyana-saGkramaNa-dina-aparAhNa-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 ##### तपस्य-मासः
 - 04:33→
 
@@ -5774,7 +5821,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- कलियुगादिः, कॊच्चॆङ्गट् चोऴ नायऩार् (५९) गुरुपूजै, पञ्च-पर्व-पूजा (अमावास्या), पार्वणव्रतम् अमावास्यायाम्, पुरन्दरदास-आराधना #४५५, माघ-स्नानपूर्तिः, सर्व-माघ-अमावास्या (अलभ्यम्–शतभिषक्)
+- कलियुगादिः, कॊच्चॆङ्गट् चोऴ नायऩार् (५९) गुरुपूजै, पञ्च-पर्व-पूजा (अमावास्या), पार्वणव्रतम् अमावास्यायाम्, पुरन्दरदास-आराधना #४५५, माघ-स्नानपूर्तिः, सर्व-माघ-अमावास्या (अलभ्यम्–माघ-शतभिषक्)
 ##### कलियुगादिः
 
 Observed on Amāvāsyā tithi of Māghaḥ (lunar) month (Aparāhṇaḥ/vyaapti). 
@@ -5892,7 +5939,29 @@ Observed on Amāvāsyā tithi of Māghaḥ (lunar) month (Aparāhṇaḥ/vyaapti
 - Tags: MahapurushaEvents CommonFestivals
 
 
-##### सर्व-माघ-अमावास्या (अलभ्यम्–शतभिषक्)
+##### सर्व-माघ-अमावास्या (अलभ्यम्–माघ-शतभिषक्)
+
+
+
+It is said in the Vishnu Puranam, that if the Amavaysa of Magha month coincides with  falls on a Monday, Tuesday or Thursday, such a tithi is given the appellation puṣkalā and is as sacred as a solar eclipse.
+
+विष्णुपुराणम्---  
+माघासिते पञ्चदशी कदाचिदुपैति योगं यदि वारुणेन।  
+ऋक्षेण कालः स वरः पितॄणां नह्यल्पपुण्यैर्नृप लभ्यतेऽसौ॥  
+गायन्ति केचित् पितरः कदा नु वर्षा मघा तृप्तिमवाप्य भूयः।  
+माघासितान्ते शुभतीर्थतोयैर्यास्याम तृप्तिं तनयादिदत्तैः॥  
+काले धनिष्ठा यदि नाम तस्मिन् भवेत्तु भूपाल तदा पितृभ्यः।  
+दत्तं जलान्नं प्रददाति तृप्तिं वर्षायुतं तत्कुलजैर्मनुष्यैः॥
+
+
+
+###### Details
+- References
+  - Vaidyanatha Dikshitiyam
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/mAgha-zatabhiSak-amAvAsyA.toml)
+- Tags: AmavasyaDays
+
+
 
 ### 2019-03-07
 #### फाल्गुनः-12-01  ,  कुम्भः-पूर्वप्रोष्ठपदा🌛🌌  ,  कुम्भः-पूर्वप्रोष्ठपदा-11-23🌞🌌  ,  तपस्यः-12-17🌞🪐  ,  गुरुः
@@ -7191,6 +7260,16 @@ Observed on Paurṇamāsī tithi of every (lunar) month (Āśvinaḥ/paraviddha)
 
 ##### सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः
 - 12:16→18:16
+
+
+
+When the transit of the Sun (saṅkrānti) happens in the second half of the day (aparāhṇa) and before midnight, the second half of the day is a puṇyakāla for various observances. In addition to 16 ghatikas on either side of the transition, and specific puṇyakālas like ṣaḍaśīti, viṣṇupadī etc., this is also useful, especially in cases where the other puṇyakālas are inconvenient for appropriate performance of rituals such as snāna, dāna, tarpaṇa, etc.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/sAyana-saGkramaNa-dina-aparAhNa-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 ##### वेङ्कटाचले पूर्णिमा-गरुड-सेवा
 
 Observed on Paurṇamāsī tithi of every (lunar) month (Chandrōdayaḥ/puurvaviddha). 
@@ -8349,6 +8428,24 @@ Observed on Amāvāsyā tithi of every (lunar) month (Āśvinaḥ/paraviddha).
 
 
 ##### सर्व-फाल्गुन-अमावास्या (अलभ्यम्–पुष्कला)
+
+
+
+It is said in the Smrtis, that if Amavaysa falls on a Monday, Tuesday or Thursday, such a tithi is given the appellation puṣkalā and is as sacred as a solar eclipse.
+
+स्मृत्यन्तरे---  
+अमा सोमेन भौमेन गुरुणा वा युता यदि।  
+सा तिथिः पुष्कला नाम सूर्यग्रहणसन्निभा॥
+
+
+
+###### Details
+- References
+  - Vaidyanatha Dikshitiyam
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/puSkalA-amAvAsyA.toml)
+- Tags: AmavasyaDays
+
+
 
 ### 2019-04-05
 #### फाल्गुनः-12-30  ,  मीनः-रेवती🌛🌌  ,  मीनः-रेवती-12-22🌞🌌  ,  मधुः-01-16🌞🪐  ,  शुक्रः
@@ -10438,6 +10535,25 @@ ___________________
 - (सायन) विष्णुपदी-पुण्यकालः, काञ्ची ६० जगद्गुरु श्री-अद्वैतात्मप्रकाशेन्द्र सरस्वती आराधना #३१६, तिरुक्कुऱिप्पुत् तॊण्ड नायऩार् (१८) गुरुपूजै, पार्वण-प्रायश्चित्तावकाशः दर्शे, पूर्णमासेष्टिः, माधव-मासः, सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः, स्थालीपाकः
 ##### (सायन) विष्णुपदी-पुण्यकालः
 - 08:01→18:18
+
+
+
+Viṣṇupadī Punyakala.
+
+सङ्क्रान्तिस्नानाकरणे प्रत्यवायमाह शातातपः—  
+सूर्यसङ्क्रमणे पुण्ये न स्नायाद्यदि मानवः।  
+सप्तजन्मसु रोगी स्याद् दुःखभागी च जायते॥  
+सङ्क्रान्त्यां यानि दत्तानि हव्यकव्यानि मानवैः।  
+तानि तस्य ददात्यर्कः सप्तजन्मसु निश्चितम्॥  
+(स्मृतिमुक्ताफले आह्निक-काण्डे-पूर्वभागः)
+
+
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/viSNupadI-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 ##### काञ्ची ६० जगद्गुरु श्री-अद्वैतात्मप्रकाशेन्द्र सरस्वती आराधना #३१६
 
 Observed on Kr̥ṣṇa-Dvitīyā tithi of Caitraḥ (lunar) month (Aparāhṇaḥ/vyaapti). The event occurred in 4805 (Kali era).  
@@ -10513,6 +10629,16 @@ Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/
 
 ##### सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः
 - 12:08→18:18
+
+
+
+When the transit of the Sun (saṅkrānti) happens in the second half of the day (aparāhṇa) and before midnight, the second half of the day is a puṇyakāla for various observances. In addition to 16 ghatikas on either side of the transition, and specific puṇyakālas like ṣaḍaśīti, viṣṇupadī etc., this is also useful, especially in cases where the other puṇyakālas are inconvenient for appropriate performance of rituals such as snāna, dāna, tarpaṇa, etc.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/sAyana-saGkramaNa-dina-aparAhNa-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 ##### स्थालीपाकः
 
 Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 
@@ -11520,22 +11646,6 @@ Observed on Amāvāsyā tithi of every (lunar) month (Āśvinaḥ/paraviddha).
 
 
 ##### सर्व-चैत्र-अमावास्या
-
-
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/caitra-amAvAsyA.toml)
-- Tags: AmavasyaDays
-
-
-
-###### Details
-- References
-  - Skanda Puranam
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/caitra-amAvAsyA.toml)
-- Tags: AmavasyaDays
-
-
 ##### वह्नि-व्रतम्
 
 Observed on Amāvāsyā tithi of Caitraḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -13455,6 +13565,25 @@ ___________________
 - (सायन) षडशीति-पुण्यकालः, काञ्ची जगद्गुरु श्री-शङ्कर विजयेन्द्र सरस्वती आश्रम-स्वीकार-जयन्ती #३७, तिरुञाऩसम्बन्धमूर्त्ति नायऩार् (२७) गुरुपूजै, तिरुनीलकण्ठ याऴ्प्पाण नायऩार् (६०) गुरुपूजै, तिरुनीलनक्क नायऩार् (२५) गुरुपूजै, पार्थिव-कल्पादिः, मुरुग नायऩार् (१५) गुरुपूजै, रवि-सङ्क्रमण-पुण्यकालः, शुक्र-मासः/ग्रीष्मऋतुः, सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः
 ##### (सायन) षडशीति-पुण्यकालः
 - 13:29→18:25
+
+
+
+Ṣaḍaśīti Punyakala.
+
+सङ्क्रान्तिस्नानाकरणे प्रत्यवायमाह शातातपः—  
+सूर्यसङ्क्रमणे पुण्ये न स्नायाद्यदि मानवः।  
+सप्तजन्मसु रोगी स्याद् दुःखभागी च जायते॥  
+सङ्क्रान्त्यां यानि दत्तानि हव्यकव्यानि मानवैः।  
+तानि तस्य ददात्यर्कः सप्तजन्मसु निश्चितम्॥  
+(स्मृतिमुक्ताफले आह्निक-काण्डे-पूर्वभागः)
+
+
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/SaDazIti-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 ##### काञ्ची जगद्गुरु श्री-शङ्कर विजयेन्द्र सरस्वती आश्रम-स्वीकार-जयन्ती #३७
 
 Observed on Mūlā nakshatra of Vr̥ṣabhaḥ (sidereal solar) month (Prātaḥ/paraviddha). The event occurred in 5084 (Kali era).  
@@ -13519,6 +13648,16 @@ pārthiva-kalpādiḥ is observed on this day. Performing śrāddha on this day 
 
 ##### सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः
 - 12:05→18:25
+
+
+
+When the transit of the Sun (saṅkrānti) happens in the second half of the day (aparāhṇa) and before midnight, the second half of the day is a puṇyakāla for various observances. In addition to 16 ghatikas on either side of the transition, and specific puṇyakālas like ṣaḍaśīti, viṣṇupadī etc., this is also useful, especially in cases where the other puṇyakālas are inconvenient for appropriate performance of rituals such as snāna, dāna, tarpaṇa, etc.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/sAyana-saGkramaNa-dina-aparAhNa-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 ##### तिरुञाऩसम्बन्धमूर्त्ति नायऩार् (२७) गुरुपूजै
 
 Observed on Mūlā nakshatra of Vr̥ṣabhaḥ (sidereal solar) month (Prātaḥ/paraviddha). 
@@ -14352,8 +14491,8 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- काञ्ची ३ जगद्गुरु श्री-सर्वज्ञात्मेन्द्र सरस्वती आराधना #२३८३, कृत्तिका-व्रतम्, पञ्च-पर्व-पूजा (अमावास्या), बोधायन वैशाख-अमावास्या
-##### बोधायन वैशाख-अमावास्या
+- काञ्ची ३ जगद्गुरु श्री-सर्वज्ञात्मेन्द्र सरस्वती आराधना #२३८३, कृत्तिका-व्रतम्, पञ्च-पर्व-पूजा (अमावास्या), बोधायन-वैशाख-अमावास्या
+##### बोधायन-वैशाख-अमावास्या
 ##### काञ्ची ३ जगद्गुरु श्री-सर्वज्ञात्मेन्द्र सरस्वती आराधना #२३८३
 
 Observed on Kr̥ṣṇa-Caturdaśī tithi of Vaiśākhaḥ (lunar) month (Aparāhṇaḥ/vyaapti). The event occurred in 2738 (Kali era).  
@@ -14522,6 +14661,32 @@ amāvāsyā on a Monday is as sacred as a solar eclipse. Particularly good for p
 
 
 ##### वैशाख-अमावास्या (अलभ्यम्–पुष्कला)
+
+
+
+amāvāsyā of the vaiśākha month.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/vaizAkha-amAvAsyA.toml)
+- Tags: AmavasyaDays
+
+
+
+It is said in the Smrtis, that if Amavaysa falls on a Monday, Tuesday or Thursday, such a tithi is given the appellation puṣkalā and is as sacred as a solar eclipse.
+
+स्मृत्यन्तरे---  
+अमा सोमेन भौमेन गुरुणा वा युता यदि।  
+सा तिथिः पुष्कला नाम सूर्यग्रहणसन्निभा॥
+
+
+
+###### Details
+- References
+  - Vaidyanatha Dikshitiyam
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/puSkalA-amAvAsyA.toml)
+- Tags: AmavasyaDays
+
+
 ##### वैशाख-मास-समापनम्
 
 Observed on Amāvāsyā tithi of Vaiśākhaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -16361,6 +16526,25 @@ ___________________
 - (सायन) दक्षिणायन-पुण्यकालः, रवि-सङ्क्रमण-पुण्यकालः, वैधृति-श्राद्धम्, शुचि-मासः/दक्षिणायनम्, श्रवण-व्रतम्, सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः
 ##### (सायन) दक्षिणायन-पुण्यकालः
 - 09:24→18:33
+
+
+
+Dakṣiṇāyana Punyakala.
+
+सङ्क्रान्तिस्नानाकरणे प्रत्यवायमाह शातातपः—  
+सूर्यसङ्क्रमणे पुण्ये न स्नायाद्यदि मानवः।  
+सप्तजन्मसु रोगी स्याद् दुःखभागी च जायते॥  
+सङ्क्रान्त्यां यानि दत्तानि हव्यकव्यानि मानवैः।  
+तानि तस्य ददात्यर्कः सप्तजन्मसु निश्चितम्॥  
+(स्मृतिमुक्ताफले आह्निक-काण्डे-पूर्वभागः)
+
+
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/dakSiNAyana-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 ##### रवि-सङ्क्रमण-पुण्यकालः
 - 15:00→18:33
 
@@ -16375,6 +16559,16 @@ ___________________
 
 ##### सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः
 - 12:10→18:33
+
+
+
+When the transit of the Sun (saṅkrānti) happens in the second half of the day (aparāhṇa) and before midnight, the second half of the day is a puṇyakāla for various observances. In addition to 16 ghatikas on either side of the transition, and specific puṇyakālas like ṣaḍaśīti, viṣṇupadī etc., this is also useful, especially in cases where the other puṇyakālas are inconvenient for appropriate performance of rituals such as snāna, dāna, tarpaṇa, etc.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/sAyana-saGkramaNa-dina-aparAhNa-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 ##### वैधृति-श्राद्धम्
 
 Observed on every occurrence of Vaidhr̥tiḥ yoga (Aparāhṇaḥ/vyaapti). 
@@ -17186,6 +17380,45 @@ Observed on Amāvāsyā tithi of every (lunar) month (Āśvinaḥ/paraviddha).
 
 
 ##### सर्व-ज्यैष्ठ-अमावास्या (अलभ्यम्–आर्द्रा, पुष्कला)
+
+
+
+It is said in Vishnupuranam that when Amavasya overlaps with one of nine nakshatras---Anuradha, Vishakha, Swati, Pushya, Ardra, Punarvasu, Shravishtha, Purvaproshthapada, or Shatabhishak---it is sacred even for Devas. For instance, Shraaddha done on an Amavasya joined with Anuradha, Vishakha, Swati keeps the pitrs satisfied for eight years. Likewise, on Pushya, Ardra and Punarvasu, the pitrs satisfied for twelve years.
+
+विष्णुपुराणे---  
+अमावास्या यदा मैत्रविशाखास्वातियोगिनी।  
+श्राद्धे पितृगणस्तृप्तिमवाप्नोत्यष्टवार्षिकीम्॥  
+अमावास्या यदा पुष्ये रौद्रेऽथः पुनर्वसौ।  
+द्वादशाब्दं तदा तृप्तिं प्रयान्ति पितरोऽर्चिताः॥  
+वासवाजैकपादृक्षे पितॄणां तृप्तिमिच्छताम्।  
+वारुणे चाप्यमावास्या देवानामपि दुर्लभा।  
+नवस्वृक्षेष्वमावास्या यदैतेष्ववनीपते॥
+
+
+
+###### Details
+- References
+  - Vaidyanatha Dikshitiyam
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/alabhya-nakSatra-amAvAsyA.toml)
+- Tags: AmavasyaDays
+
+
+
+It is said in the Smrtis, that if Amavaysa falls on a Monday, Tuesday or Thursday, such a tithi is given the appellation puṣkalā and is as sacred as a solar eclipse.
+
+स्मृत्यन्तरे---  
+अमा सोमेन भौमेन गुरुणा वा युता यदि।  
+सा तिथिः पुष्कला नाम सूर्यग्रहणसन्निभा॥
+
+
+
+###### Details
+- References
+  - Vaidyanatha Dikshitiyam
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/puSkalA-amAvAsyA.toml)
+- Tags: AmavasyaDays
+
+
 
 ### 2019-07-03
 #### आषाढः-04-01  ,  मिथुनम्-आर्द्रा🌛🌌  ,  मिथुनम्-आर्द्रा-03-19🌞🌌  ,  शुचिः-04-12🌞🪐  ,  बुधः
@@ -19282,6 +19515,25 @@ ___________________
 - (सायन) विष्णुपदी-पुण्यकालः, नभो-मासः/वर्षऋतुः, सायन-सङ्क्रमण-दिन-पूर्वाह्ण-पुण्यकालः
 ##### (सायन) विष्णुपदी-पुण्यकालः
 - 05:55→14:44
+
+
+
+Viṣṇupadī Punyakala.
+
+सङ्क्रान्तिस्नानाकरणे प्रत्यवायमाह शातातपः—  
+सूर्यसङ्क्रमणे पुण्ये न स्नायाद्यदि मानवः।  
+सप्तजन्मसु रोगी स्याद् दुःखभागी च जायते॥  
+सङ्क्रान्त्यां यानि दत्तानि हव्यकव्यानि मानवैः।  
+तानि तस्य ददात्यर्कः सप्तजन्मसु निश्चितम्॥  
+(स्मृतिमुक्ताफले आह्निक-काण्डे-पूर्वभागः)
+
+
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/viSNupadI-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 ##### नभो-मासः/वर्षऋतुः
 - 08:20→
 
@@ -19975,6 +20227,29 @@ Observed on Amāvāsyā tithi of every (lunar) month (Āśvinaḥ/paraviddha).
 
 
 ##### सर्व-आषाढ (कर्कट) अमावास्या (अलभ्यम्–पुनर्वसुः)
+
+
+
+It is said in Vishnupuranam that when Amavasya overlaps with one of nine nakshatras---Anuradha, Vishakha, Swati, Pushya, Ardra, Punarvasu, Shravishtha, Purvaproshthapada, or Shatabhishak---it is sacred even for Devas. For instance, Shraaddha done on an Amavasya joined with Anuradha, Vishakha, Swati keeps the pitrs satisfied for eight years. Likewise, on Pushya, Ardra and Punarvasu, the pitrs satisfied for twelve years.
+
+विष्णुपुराणे---  
+अमावास्या यदा मैत्रविशाखास्वातियोगिनी।  
+श्राद्धे पितृगणस्तृप्तिमवाप्नोत्यष्टवार्षिकीम्॥  
+अमावास्या यदा पुष्ये रौद्रेऽथः पुनर्वसौ।  
+द्वादशाब्दं तदा तृप्तिं प्रयान्ति पितरोऽर्चिताः॥  
+वासवाजैकपादृक्षे पितॄणां तृप्तिमिच्छताम्।  
+वारुणे चाप्यमावास्या देवानामपि दुर्लभा।  
+नवस्वृक्षेष्वमावास्या यदैतेष्ववनीपते॥
+
+
+
+###### Details
+- References
+  - Vaidyanatha Dikshitiyam
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/alabhya-nakSatra-amAvAsyA.toml)
+- Tags: AmavasyaDays
+
+
 
 ## 2019-08
 ### 2019-08-01
@@ -22182,6 +22457,25 @@ ___________________
 - (सायन) षडशीति-पुण्यकालः, काञ्ची २१ जगद्गुरु श्री-सार्वभौमगुरुः चन्द्रचूडेन्द्र सरस्वती आराधना #१५७३, कृत्तिका-व्रतम्, नभस्य-मासः, पञ्च-पर्व-पूजा (अष्टमी), मन्वादिः-(दक्षः-[९]), रवि-सङ्क्रमण-पुण्यकालः, श्रीकृष्णजन्माष्टमी, सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः
 ##### (सायन) षडशीति-पुण्यकालः
 - 15:32→18:22
+
+
+
+Ṣaḍaśīti Punyakala.
+
+सङ्क्रान्तिस्नानाकरणे प्रत्यवायमाह शातातपः—  
+सूर्यसङ्क्रमणे पुण्ये न स्नायाद्यदि मानवः।  
+सप्तजन्मसु रोगी स्याद् दुःखभागी च जायते॥  
+सङ्क्रान्त्यां यानि दत्तानि हव्यकव्यानि मानवैः।  
+तानि तस्य ददात्यर्कः सप्तजन्मसु निश्चितम्॥  
+(स्मृतिमुक्ताफले आह्निक-काण्डे-पूर्वभागः)
+
+
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/SaDazIti-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 ##### काञ्ची २१ जगद्गुरु श्री-सार्वभौमगुरुः चन्द्रचूडेन्द्र सरस्वती आराधना #१५७३
 
 Observed on Kr̥ṣṇa-Aṣṭamī tithi of Śrāvaṇaḥ (lunar) month (Aparāhṇaḥ/vyaapti). The event occurred in 3548 (Kali era).  
@@ -22312,6 +22606,16 @@ Observed on Kr̥ṣṇa-Aṣṭamī tithi of every (lunar) month (Āśvinaḥ/pa
 
 ##### सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः
 - 12:11→18:22
+
+
+
+When the transit of the Sun (saṅkrānti) happens in the second half of the day (aparāhṇa) and before midnight, the second half of the day is a puṇyakāla for various observances. In addition to 16 ghatikas on either side of the transition, and specific puṇyakālas like ṣaḍaśīti, viṣṇupadī etc., this is also useful, especially in cases where the other puṇyakālas are inconvenient for appropriate performance of rituals such as snāna, dāna, tarpaṇa, etc.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/sAyana-saGkramaNa-dina-aparAhNa-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 ##### श्रीकृष्णजन्माष्टमी
 
 Observed on Kr̥ṣṇa-Aṣṭamī tithi of Śrāvaṇaḥ (lunar) month (Niśīthaḥ/paraviddha). 
@@ -22935,7 +23239,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अघोर-चतुर्दशी, अतिपत्त नायऩार् (४१) गुरुपूजै, तिरुच्चॆन्दूर् मुरुगऩ् आवणित् तिरुविऴा 6म् नाळ्—वॆळ्ळित् तेर् भवऩि, देवी-पर्व-५, पञ्च-पर्व-पूजा (अमावास्या), बोधायन श्रावण-अमावास्या
+- अघोर-चतुर्दशी, अतिपत्त नायऩार् (४१) गुरुपूजै, तिरुच्चॆन्दूर् मुरुगऩ् आवणित् तिरुविऴा 6म् नाळ्—वॆळ्ळित् तेर् भवऩि, देवी-पर्व-५, पञ्च-पर्व-पूजा (अमावास्या), बोधायन-श्रावण-अमावास्या
 ##### अघोर-चतुर्दशी
 
 Observed on Kr̥ṣṇa-Caturdaśī tithi of Śrāvaṇaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -22958,7 +23262,7 @@ Observed on Āśrēṣā nakshatra of Siṁhaḥ (sidereal solar) month (Prāta�
 - Tags: NayanarGurupujai
 
 
-##### बोधायन श्रावण-अमावास्या
+##### बोधायन-श्रावण-अमावास्या
 ##### देवी-पर्व-५
 
 Observed on Amāvāsyā tithi of Śrāvaṇaḥ (lunar) month (Āśvinaḥ/paraviddha). 
@@ -23116,7 +23420,7 @@ Vrushabha puja; Nandi born to Shilaada on this day
 
 
 
-
+amāvāsyā of śrāvaṇa month
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/zrAvaNa-amAvAsyA.toml)
@@ -25715,6 +26019,16 @@ Beginning of iṣa-māsaḥ, marked by the transit of Sun into tulā-rāshī.  A
 ##### सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः
 - 12:01→18:01
 
+
+
+When the transit of the Sun (saṅkrānti) happens in the second half of the day (aparāhṇa) and before midnight, the second half of the day is a puṇyakāla for various observances. In addition to 16 ghatikas on either side of the transition, and specific puṇyakālas like ṣaḍaśīti, viṣṇupadī etc., this is also useful, especially in cases where the other puṇyakālas are inconvenient for appropriate performance of rituals such as snāna, dāna, tarpaṇa, etc.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/sAyana-saGkramaNa-dina-aparAhNa-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
+
 ### 2019-09-24
 #### भाद्रपदः-06-25  ,  कर्कटः-पुनर्वसुः🌛🌌  ,  कन्या-उत्तरफल्गुनी-06-08🌞🌌  ,  इषः-07-02🌞🪐  ,  मङ्गलः
 - Indian civil date: 1941-07-02, Islamic: 1441-01-24 Al-Muḥarram, 🌌🌞: सं- कन्या, तं- पुरट्टासि, म- कन्नि, प- अस्सू, अ- आहिन
@@ -26148,16 +26462,6 @@ Perform special puja and naivedyam (e.g. tilānnam) to Lord Venkateshwara.
 
 
 ##### सर्व-(भाद्रपद) महालय अमावास्या
-
-
-
-
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/%28bhAdrapada%29_mahAlaya_amAvAsyA.toml)
-- Tags: AmavasyaDays
-
-
 ##### सुजन्मप्राप्ति-व्रतम्
 
 Observed on Amāvāsyā tithi of Bhādrapadaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -28640,6 +28944,25 @@ ___________________
 - (सायन) विष्णुपदी-पुण्यकालः, ऊर्ज-मासः, सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः
 ##### (सायन) विष्णुपदी-पुण्यकालः
 - 16:25→17:42
+
+
+
+Viṣṇupadī Punyakala.
+
+सङ्क्रान्तिस्नानाकरणे प्रत्यवायमाह शातातपः—  
+सूर्यसङ्क्रमणे पुण्ये न स्नायाद्यदि मानवः।  
+सप्तजन्मसु रोगी स्याद् दुःखभागी च जायते॥  
+सङ्क्रान्त्यां यानि दत्तानि हव्यकव्यानि मानवैः।  
+तानि तस्य ददात्यर्कः सप्तजन्मसु निश्चितम्॥  
+(स्मृतिमुक्ताफले आह्निक-काण्डे-पूर्वभागः)
+
+
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/viSNupadI-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 ##### ऊर्ज-मासः
 - 22:49→
 
@@ -28671,6 +28994,16 @@ Beginning of ūrja-māsaḥ, marked by the transit of Sun into vr̥śchika-rāsh
 
 ##### सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः
 - 11:53→17:42
+
+
+
+When the transit of the Sun (saṅkrānti) happens in the second half of the day (aparāhṇa) and before midnight, the second half of the day is a puṇyakāla for various observances. In addition to 16 ghatikas on either side of the transition, and specific puṇyakālas like ṣaḍaśīti, viṣṇupadī etc., this is also useful, especially in cases where the other puṇyakālas are inconvenient for appropriate performance of rituals such as snāna, dāna, tarpaṇa, etc.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/sAyana-saGkramaNa-dina-aparAhNa-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 
 ### 2019-10-24
 #### आश्वयुजः-07-26  ,  सिंहः-मघा🌛🌌  ,  तुला-चित्रा-07-07🌞🌌  ,  ऊर्जः-08-01🌞🪐  ,  गुरुः
@@ -29242,16 +29575,6 @@ Perform Deepa Danam for Yamadharmaraja in evening
 
 
 ##### सर्व-आश्वयुज-अमावास्या
-
-
-
-
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/Azvayuja-amAvAsyA.toml)
-- Tags: AmavasyaDays
-
-
 ##### शृङ्गेरी ३५ जगद्गुरु श्री-अभिनव विद्यातीर्थ महास्वामी जयन्ती
 
 Observed on Kr̥ṣṇa-Caturdaśī tithi of Āśvayujaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -31943,6 +32266,16 @@ Observed on Uttaraphalgunī nakshatra of Vr̥ścikaḥ (sidereal solar) month (P
 
 ##### सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः
 - 11:54→17:35
+
+
+
+When the transit of the Sun (saṅkrānti) happens in the second half of the day (aparāhṇa) and before midnight, the second half of the day is a puṇyakāla for various observances. In addition to 16 ghatikas on either side of the transition, and specific puṇyakālas like ṣaḍaśīti, viṣṇupadī etc., this is also useful, especially in cases where the other puṇyakālas are inconvenient for appropriate performance of rituals such as snāna, dāna, tarpaṇa, etc.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/sAyana-saGkramaNa-dina-aparAhNa-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 ##### सहो-मासः/हेमन्तऋतुः
 - 20:28→
 
@@ -32384,6 +32717,45 @@ pārvaṇavratam on the eve of darśa-sthālīpākaḥ.
 
 
 ##### सर्व-कार्त्तिक-अमावास्या (अलभ्यम्–अनूराधा, पुष्कला)
+
+
+
+It is said in Vishnupuranam that when Amavasya overlaps with one of nine nakshatras---Anuradha, Vishakha, Swati, Pushya, Ardra, Punarvasu, Shravishtha, Purvaproshthapada, or Shatabhishak---it is sacred even for Devas. For instance, Shraaddha done on an Amavasya joined with Anuradha, Vishakha, Swati keeps the pitrs satisfied for eight years. Likewise, on Pushya, Ardra and Punarvasu, the pitrs satisfied for twelve years.
+
+विष्णुपुराणे---  
+अमावास्या यदा मैत्रविशाखास्वातियोगिनी।  
+श्राद्धे पितृगणस्तृप्तिमवाप्नोत्यष्टवार्षिकीम्॥  
+अमावास्या यदा पुष्ये रौद्रेऽथः पुनर्वसौ।  
+द्वादशाब्दं तदा तृप्तिं प्रयान्ति पितरोऽर्चिताः॥  
+वासवाजैकपादृक्षे पितॄणां तृप्तिमिच्छताम्।  
+वारुणे चाप्यमावास्या देवानामपि दुर्लभा।  
+नवस्वृक्षेष्वमावास्या यदैतेष्ववनीपते॥
+
+
+
+###### Details
+- References
+  - Vaidyanatha Dikshitiyam
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/alabhya-nakSatra-amAvAsyA.toml)
+- Tags: AmavasyaDays
+
+
+
+It is said in the Smrtis, that if Amavaysa falls on a Monday, Tuesday or Thursday, such a tithi is given the appellation puṣkalā and is as sacred as a solar eclipse.
+
+स्मृत्यन्तरे---  
+अमा सोमेन भौमेन गुरुणा वा युता यदि।  
+सा तिथिः पुष्कला नाम सूर्यग्रहणसन्निभा॥
+
+
+
+###### Details
+- References
+  - Vaidyanatha Dikshitiyam
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/puSkalA-amAvAsyA.toml)
+- Tags: AmavasyaDays
+
+
 ##### तिरुविशलूर् गङ्गाकर्षण-महोत्सव-समापनम्
 
 Observed on Amāvāsyā tithi of Kārttikaḥ (lunar) month (Aparāhṇaḥ/puurvaviddha). 
@@ -34531,6 +34903,25 @@ ___________________
 - (सायन) उत्तरायण-पुण्यकालः, उत्तरायणारम्भः, गणितज्ञ-रामानुज-जन्म #१३२, माऩक्कञ्चाऱ नायऩार् (११) गुरुपूजै, रवि-सङ्क्रमण-पुण्यकालः, सर्व-सफला-एकादशी, सहस्य-मासः/उत्तरायणम्, सायन-सङ्क्रमण-दिन-पूर्वाह्ण-पुण्यकालः
 ##### (सायन) उत्तरायण-पुण्यकालः
 - 09:49→17:44
+
+
+
+Uttarāyaṇa Punyakala.
+
+सङ्क्रान्तिस्नानाकरणे प्रत्यवायमाह शातातपः—  
+सूर्यसङ्क्रमणे पुण्ये न स्नायाद्यदि मानवः।  
+सप्तजन्मसु रोगी स्याद् दुःखभागी च जायते॥  
+सङ्क्रान्त्यां यानि दत्तानि हव्यकव्यानि मानवैः।  
+तानि तस्य ददात्यर्कः सप्तजन्मसु निश्चितम्॥  
+(स्मृतिमुक्ताफले आह्निक-काण्डे-पूर्वभागः)
+
+
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/uttarAyaNa-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 ##### गणितज्ञ-रामानुज-जन्म #१३२
 
 Event occured on 1887-12-22 (gregorian). 
@@ -34930,16 +35321,6 @@ Observed on Amāvāsyā tithi of every (lunar) month (Āśvinaḥ/paraviddha).
 
 
 ##### सर्व-मार्गशीर्ष-अमावास्या
-
-
-
-
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/mArgazIrSa-amAvAsyA.toml)
-- Tags: AmavasyaDays
-
-
 ##### तॊण्डरडिप्पॊडियाऴ्वार् तिरुनक्षत्तिरम्
 
 Observed on Jyēṣṭhā nakshatra of Dhanuḥ (sidereal solar) month (Prātaḥ/paraviddha). 
