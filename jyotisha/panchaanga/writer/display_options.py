@@ -18,7 +18,7 @@ class DisplayOptions(JsonObject):
     return sorted(festival_id_to_instance.values())
 
 
-class KarthikDisplayOptions(JsonObject):
+class KarthikDisplayOptions(DisplayOptions):
   def __init__(self, scripts=None, languages=None):
     self.scripts = scripts
     self.languages = languages
