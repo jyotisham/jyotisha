@@ -246,6 +246,8 @@ class HinduCalendarEvent(common.JsonObject):
       description_dict['image'] = self.image
 
     description_dict['references'] = summary.get_references_md(self)
+    
+    description_dict['url'] = summary.get_url(self)
 
     if self.shlokas is not None:
       description_dict['shlokas'] = sanscript.transliterate(self.shlokas.replace("\n", "  \n"), sanscript.DEVANAGARI, script)
