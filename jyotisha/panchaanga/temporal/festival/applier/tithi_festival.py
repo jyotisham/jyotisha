@@ -424,10 +424,10 @@ class TithiFestivalAssigner(FestivalAssigner):
       ama_nakshatra_today = [y for y in apraahna_interval.get_boundary_angas(anga_type=AngaType.NAKSHATRA, ayanaamsha_id=self.ayanaamsha_id).to_tuple()]
       suff = ''
       # Assign
-      if 23 in ama_nakshatra_today and day_panchaanga.lunar_month_sunrise.index == 10:
-        suff = ' (alabhyam–zraviSThA)'
-      elif 24 in ama_nakshatra_today and day_panchaanga.lunar_month_sunrise.index == 10:
-        suff = ' (alabhyam–zatabhiSak)'
+      if 23 in ama_nakshatra_today and day_panchaanga.lunar_month_sunrise.index == 11:
+        suff = ' (alabhyam–mAgha-zraviSThA)'
+      elif 24 in ama_nakshatra_today and day_panchaanga.lunar_month_sunrise.index == 11:
+        suff = ' (alabhyam–mAgha-zatabhiSak)'
       elif ama_nakshatra_today[0] in [15, 16, 17, 6, 7, 8, 23, 24, 25]:
         suff = ' (alabhyam–%s)' % names.NAMES['NAKSHATRA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][ama_nakshatra_today[0]]
       elif ama_nakshatra_today[1] in [15, 16, 17, 6, 7, 8, 23, 24, 25]:
@@ -556,7 +556,7 @@ class TithiFestivalAssigner(FestivalAssigner):
       ama_fest = [val for key, val in self.panchaanga.daily_panchaanga_for_date(cdd - 1).festival_id_to_instance.items() if 'amAvAsyA' in key]
       if ama_fest:
         # We have amAvAsyA preceding chandra darshanam. Therefore, the previous day must be assigned as bOdhAayana
-        bodhaayana_fest = re.sub('amAvAsyA.*', 'amAvAsyA', 'bOdhAyana ' + ama_fest[0].name)
+        bodhaayana_fest = re.sub('amAvAsyA.*', 'amAvAsyA', 'bOdhAyana-' + ama_fest[0].name)
         self.panchaanga.add_festival(fest_id=bodhaayana_fest, date=self.panchaanga.daily_panchaanga_for_date(cdd - 2).date)
         self.panchaanga.add_festival(fest_id='bOdhAyana-iSTiH', date=self.panchaanga.daily_panchaanga_for_date(cdd - 1).date)
       else:
