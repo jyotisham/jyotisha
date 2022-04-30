@@ -53,6 +53,10 @@ def describe_fest(rule, include_images, include_shlokas, include_url, is_brief, 
   return final_description_string
 
 
+def get_url(rule):
+  return rule.get_url()
+
+
 def get_description_str_with_shlokas(include_shlokas, rule, script):
   # Get the description
   description_string = ''
