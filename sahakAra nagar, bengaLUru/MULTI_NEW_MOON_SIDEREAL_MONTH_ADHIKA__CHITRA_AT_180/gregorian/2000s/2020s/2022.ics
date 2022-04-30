@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220430182456
+SEQUENCE:20220430190926
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -297,7 +297,10 @@ SUMMARY:सर्व-मार्गशीर्ष-अमावास्
  या
 DTSTART;VALUE=DATE:20220102
 DTEND;VALUE=DATE:20220103
-DESCRIPTION:
+DESCRIPTION:amāvāsyā of mārgaśīrṣa lunar month.<br/><br/>## Detail
+ s<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mas
+ ter/time_focus/monthly/amAvAsyA/description_only/mArgazIrSa-amAvAsyA.toml)
+ <br/>- Tags: AmavasyaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8706,13 +8709,16 @@ SUMMARY:सर्व-माघ-अमावास्या (अलभ्
  यम्–माघ-शतभिषक्)
 DTSTART;VALUE=DATE:20220302
 DTEND;VALUE=DATE:20220303
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/mAgh
- a-zatabhiSak-amAvAsyA.toml)<br/>- Tags: AmavasyaDays<br/><br/><br/><br/>##
-  Details<br/>- References<br/>  - Vaidyanatha Dikshitiyam<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/mon
- thly/amAvAsyA/description_only/mAgha-zatabhiSak-amAvAsyA.toml)<br/>- Tags:
-  AmavasyaDays
+DESCRIPTION:amāvāsyā of māgha month.<br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/
+ monthly/amAvAsyA/description_only/mAgha-amAvAsyA.toml)<br/>- Tags: Amavasy
+ aDays<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://githu
+ b.com/jyotisham/adyatithi/blob/master/time_focus/monthly/amAvAsyA/descript
+ ion_only/mAgha-zatabhiSak-amAvAsyA.toml)<br/>- Tags: AmavasyaDays<br/><br/
+ ><br/><br/>## Details<br/>- References<br/>  - Vaidyanatha Dikshitiyam<br/
+ >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/t
+ ime_focus/monthly/amAvAsyA/description_only/mAgha-zatabhiSak-amAvAsyA.toml
+ )<br/>- Tags: AmavasyaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12798,16 +12804,19 @@ SUMMARY:सर्व-फाल्गुन-अमावास्या (
  अलभ्यम्–पुष्कला)
 DTSTART;VALUE=DATE:20220331
 DTEND;VALUE=DATE:20220401
-DESCRIPTION:It is said in the Smrtis\, that if Amavaysa falls on a Monday\
- , Tuesday or Thursday\, such a tithi is given the appellation puṣkalā a
- nd is as sacred as a solar eclipse.<br/><br/>स्मृत्यन्
- तरे---  <br/>अमा सोमेन भौमेन गुरु
- णा वा युता यदि।  <br/>सा तिथिः प
- ुष्कला नाम सूर्यग्रहणसन्नि
- भा॥<br/><br/><br/><br/>## Details<br/>- References<br/>  - Vaidyanat
- ha Dikshitiyam<br/>- [Edit config file](https://github.com/jyotisham/adyat
- ithi/blob/master/time_focus/monthly/amAvAsyA/description_only/puSkalA-amAv
- AsyA.toml)<br/>- Tags: AmavasyaDays
+DESCRIPTION:amāvāsyā of phālguna month.<br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/time_foc
+ us/monthly/amAvAsyA/description_only/phAlguna-amAvAsyA.toml)<br/>- Tags: A
+ mavasyaDays<br/><br/><br/><br/>It is said in the Smrtis\, that if Amavaysa
+  falls on a Monday\, Tuesday or Thursday\, such a tithi is given the appel
+ lation puṣkalā and is as sacred as a solar eclipse.<br/><br/>स्म
+ ृत्यन्तरे---  <br/>अमा सोमेन भौम
+ ेन गुरुणा वा युता यदि।  <br/>सा 
+ तिथिः पुष्कला नाम सूर्यग्र
+ हणसन्निभा॥<br/><br/><br/><br/>## Details<br/>- Referen
+ ces<br/>  - Vaidyanatha Dikshitiyam<br/>- [Edit config file](https://githu
+ b.com/jyotisham/adyatithi/blob/master/time_focus/monthly/amAvAsyA/descript
+ ion_only/puSkalA-amAvAsyA.toml)<br/>- Tags: AmavasyaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17552,7 +17561,12 @@ BEGIN:VEVENT
 SUMMARY:सर्व-चैत्र-अमावास्या
 DTSTART;VALUE=DATE:20220430
 DTEND;VALUE=DATE:20220501
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/cait
+ ra-amAvAsyA.toml)<br/>- Tags: AmavasyaDays<br/><br/><br/><br/>## Details<b
+ r/>- References<br/>  - Skanda Puranam<br/>- [Edit config file](https://gi
+ thub.com/jyotisham/adyatithi/blob/master/time_focus/monthly/amAvAsyA/descr
+ iption_only/caitra-amAvAsyA.toml)<br/>- Tags: AmavasyaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21810,16 +21824,19 @@ SUMMARY:सर्व-वैशाख-अमावास्या (अल
  भ्यम्–पुष्कला)
 DTSTART;VALUE=DATE:20220530
 DTEND;VALUE=DATE:20220531
-DESCRIPTION:It is said in the Smrtis\, that if Amavaysa falls on a Monday\
- , Tuesday or Thursday\, such a tithi is given the appellation puṣkalā a
- nd is as sacred as a solar eclipse.<br/><br/>स्मृत्यन्
- तरे---  <br/>अमा सोमेन भौमेन गुरु
- णा वा युता यदि।  <br/>सा तिथिः प
- ुष्कला नाम सूर्यग्रहणसन्नि
- भा॥<br/><br/><br/><br/>## Details<br/>- References<br/>  - Vaidyanat
- ha Dikshitiyam<br/>- [Edit config file](https://github.com/jyotisham/adyat
- ithi/blob/master/time_focus/monthly/amAvAsyA/description_only/puSkalA-amAv
- AsyA.toml)<br/>- Tags: AmavasyaDays
+DESCRIPTION:amāvāsyā of the vaiśākha month.<br/><br/>## Details<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/tim
+ e_focus/monthly/amAvAsyA/description_only/vaizAkha-amAvAsyA.toml)<br/>- Ta
+ gs: AmavasyaDays<br/><br/><br/><br/>It is said in the Smrtis\, that if Ama
+ vaysa falls on a Monday\, Tuesday or Thursday\, such a tithi is given the 
+ appellation puṣkalā and is as sacred as a solar eclipse.<br/><br/>स
+ ्मृत्यन्तरे---  <br/>अमा सोमेन भ
+ ौमेन गुरुणा वा युता यदि।  <br/>स
+ ा तिथिः पुष्कला नाम सूर्यग्
+ रहणसन्निभा॥<br/><br/><br/><br/>## Details<br/>- Refe
+ rences<br/>  - Vaidyanatha Dikshitiyam<br/>- [Edit config file](https://gi
+ thub.com/jyotisham/adyatithi/blob/master/time_focus/monthly/amAvAsyA/descr
+ iption_only/puSkalA-amAvAsyA.toml)<br/>- Tags: AmavasyaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25998,16 +26015,19 @@ SUMMARY:सर्व-ज्यैष्ठ-अमावास्या (
  अलभ्यम्–पुष्कला)
 DTSTART;VALUE=DATE:20220628
 DTEND;VALUE=DATE:20220629
-DESCRIPTION:It is said in the Smrtis\, that if Amavaysa falls on a Monday\
- , Tuesday or Thursday\, such a tithi is given the appellation puṣkalā a
- nd is as sacred as a solar eclipse.<br/><br/>स्मृत्यन्
- तरे---  <br/>अमा सोमेन भौमेन गुरु
- णा वा युता यदि।  <br/>सा तिथिः प
- ुष्कला नाम सूर्यग्रहणसन्नि
- भा॥<br/><br/><br/><br/>## Details<br/>- References<br/>  - Vaidyanat
- ha Dikshitiyam<br/>- [Edit config file](https://github.com/jyotisham/adyat
- ithi/blob/master/time_focus/monthly/amAvAsyA/description_only/puSkalA-amAv
- AsyA.toml)<br/>- Tags: AmavasyaDays
+DESCRIPTION:amāvāsyā of jyaiṣṭha lunar month.<br/><br/>## Details<b
+ r/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master
+ /time_focus/monthly/amAvAsyA/description_only/jyaiSTha-amAvAsyA.toml)<br/>
+ - Tags: AmavasyaDays<br/><br/><br/><br/>It is said in the Smrtis\, that if
+  Amavaysa falls on a Monday\, Tuesday or Thursday\, such a tithi is given 
+ the appellation puṣkalā and is as sacred as a solar eclipse.<br/><br/>
+ स्मृत्यन्तरे---  <br/>अमा सोमेन 
+ भौमेन गुरुणा वा युता यदि।  <br/>
+ सा तिथिः पुष्कला नाम सूर्यग
+ ्रहणसन्निभा॥<br/><br/><br/><br/>## Details<br/>- R
+ eferences<br/>  - Vaidyanatha Dikshitiyam<br/>- [Edit config file](https:/
+ /github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/amAvAsyA/de
+ scription_only/puSkalA-amAvAsyA.toml)<br/>- Tags: AmavasyaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -34558,7 +34578,10 @@ BEGIN:VEVENT
 SUMMARY:सर्व-श्रावण-अमावास्या
 DTSTART;VALUE=DATE:20220826
 DTEND;VALUE=DATE:20220827
-DESCRIPTION:
+DESCRIPTION:amāvāsyā of śrāvaṇa month<br/><br/>## Details<br/>- [Ed
+ it config file](https://github.com/jyotisham/adyatithi/blob/master/time_fo
+ cus/monthly/amAvAsyA/description_only/zrAvaNa-amAvAsyA.toml)<br/>- Tags: A
+ mavasyaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -39199,7 +39222,11 @@ SUMMARY:सर्व-(भाद्रपद) महालय अमाव
  ास्या
 DTSTART;VALUE=DATE:20220925
 DTEND;VALUE=DATE:20220926
-DESCRIPTION:
+DESCRIPTION:amāvāsyā of bhādrapada month. This is extremely special an
+ d is known as mahālaya.<br/><br/>## Details<br/>- [Edit config file](http
+ s://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/amAvAsyA
+ /description_only/%28bhAdrapada%29_mahAlaya_amAvAsyA.toml)<br/>- Tags: Ama
+ vasyaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -43535,7 +43562,10 @@ SUMMARY:बोधायन-आश्वयुज-अमावास्य
  ा
 DTSTART;VALUE=DATE:20221024
 DTEND;VALUE=DATE:20221025
-DESCRIPTION:
+DESCRIPTION:amāvāsyā of āśvayuja month.<br/><br/>## Details<br/>- [Ed
+ it config file](https://github.com/jyotisham/adyatithi/blob/master/time_fo
+ cus/monthly/amAvAsyA/description_only/Azvayuja-amAvAsyA.toml)<br/>- Tags: 
+ AmavasyaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -48326,13 +48356,16 @@ SUMMARY:सर्व-कार्त्तिक-अमावास्य
  ा (अलभ्यम्–विशाखा)
 DTSTART;VALUE=DATE:20221123
 DTEND;VALUE=DATE:20221124
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/alab
- hya-nakSatra-amAvAsyA.toml)<br/>- Tags: AmavasyaDays<br/><br/><br/><br/>##
-  Details<br/>- References<br/>  - Vaidyanatha Dikshitiyam<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/mon
- thly/amAvAsyA/description_only/alabhya-nakSatra-amAvAsyA.toml)<br/>- Tags:
-  AmavasyaDays
+DESCRIPTION:amāvāsyā of kārttika month.<br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/time_foc
+ us/monthly/amAvAsyA/description_only/kArttika-amAvAsyA.toml)<br/>- Tags: A
+ mavasyaDays<br/><br/><br/><br/>## Details<br/>- [Edit config file](https:/
+ /github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/amAvAsyA/de
+ scription_only/alabhya-nakSatra-amAvAsyA.toml)<br/>- Tags: AmavasyaDays<br
+ /><br/><br/><br/>## Details<br/>- References<br/>  - Vaidyanatha Dikshitiy
+ am<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/ma
+ ster/time_focus/monthly/amAvAsyA/description_only/alabhya-nakSatra-amAvAsy
+ A.toml)<br/>- Tags: AmavasyaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -52189,7 +52222,10 @@ SUMMARY:बोधायन-मार्गशीर्ष-अमावा
  स्या
 DTSTART;VALUE=DATE:20221222
 DTEND;VALUE=DATE:20221223
-DESCRIPTION:
+DESCRIPTION:amāvāsyā of mārgaśīrṣa lunar month.<br/><br/>## Detail
+ s<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mas
+ ter/time_focus/monthly/amAvAsyA/description_only/mArgazIrSa-amAvAsyA.toml)
+ <br/>- Tags: AmavasyaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
