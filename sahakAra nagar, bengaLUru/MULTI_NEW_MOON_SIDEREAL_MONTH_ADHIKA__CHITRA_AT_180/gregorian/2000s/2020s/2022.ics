@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220501073536
+SEQUENCE:20220501080501
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -860,10 +860,13 @@ DTSTART;VALUE=DATE:20220107
 DTEND;VALUE=DATE:20220108
 DESCRIPTION:Observed on Vyatīpātaḥ yoga of Dhanuḥ (sidereal solar) m
  onth (Prāktanāruṇōdayaḥ/puurvaviddha). <br/><br/>Special snānam on
-  account of mahādhanurvyatīpātam.<br/><br/>## Details<br/>- [Edit confi
- g file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/misc
- /sidereal_solar_month/yoga/09/17/mahAdhanurvyatIpAta-snAnam.toml)<br/>- Ta
- gs: SpecialSnanam
+  account of mahādhanurvyatīpātam.<br/><br/>व्यतीपात म
+ हाबाहो सर्वपापप्रणाशन।  <br/>स
+ हस्रबाहो विश्वात्मन् गृहाण
+ ार्घ्यं नमोऽस्तु ते॥<br/><br/><br/><br
+ />## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatit
+ hi/blob/master/time_focus/misc/sidereal_solar_month/yoga/09/17/mahAdhanurv
+ yatIpAta-snAnam.toml)<br/>- Tags: SpecialSnanam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11236,7 +11239,20 @@ BEGIN:VEVENT
 SUMMARY:(सायन) विषु-पुण्यकालः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220320T170323
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220320T182705
-DESCRIPTION:
+DESCRIPTION:Viṣu Punyakala.<br/><br/>सङ्क्रान्ति
+ स्नानाकरणे प्रत्यवायमाह शा
+ तातपः—  <br/>सूर्यसङ्क्रमणे पु
+ ण्ये न स्नायाद्यदि मानवः।  <br
+ />सप्तजन्मसु रोगी स्याद् दुः
+ खभागी च जायते॥  <br/>सङ्क्रान्
+ त्यां यानि दत्तानि हव्यकव्
+ यानि मानवैः।  <br/>तानि तस्य दद
+ ात्यर्कः सप्तजन्मसु निश्चि
+ तम्॥  <br/>(स्मृतिमुक्ताफले आह
+ ्निक-काण्डे-पूर्वभागः)<br/><br/><br/
+ ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
+ atithi/blob/master/time_focus/sankrAnti/description_only/viSu-puNyakAlaH.t
+ oml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -34683,7 +34699,12 @@ BEGIN:VEVENT
 SUMMARY:बोधायन-इष्टिः
 DTSTART;VALUE=DATE:20220827
 DTEND;VALUE=DATE:20220828
-DESCRIPTION:
+DESCRIPTION:iṣṭiḥ is performed on this day by those following the b
+ ōdhāyana-sūtra. This difference happens because chandradarśanam occurs
+  tomorrow\, and followers of bōdhāyana-sūtra do not perform iṣṭiḥ
+  on chandradarśanam day.<br/><br/>## Details<br/>- [Edit config file](htt
+ ps://github.com/jyotisham/adyatithi/blob/master/general/description_only/b
+ OdhAyana-iSTiH.toml)<br/>- Tags: RareDays Combinations SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -38750,7 +38771,20 @@ BEGIN:VEVENT
 SUMMARY:(सायन) विषु-पुण्यकालः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220923T061212
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220923T103340
-DESCRIPTION:
+DESCRIPTION:Viṣu Punyakala.<br/><br/>सङ्क्रान्ति
+ स्नानाकरणे प्रत्यवायमाह शा
+ तातपः—  <br/>सूर्यसङ्क्रमणे पु
+ ण्ये न स्नायाद्यदि मानवः।  <br
+ />सप्तजन्मसु रोगी स्याद् दुः
+ खभागी च जायते॥  <br/>सङ्क्रान्
+ त्यां यानि दत्तानि हव्यकव्
+ यानि मानवैः।  <br/>तानि तस्य दद
+ ात्यर्कः सप्तजन्मसु निश्चि
+ तम्॥  <br/>(स्मृतिमुक्ताफले आह
+ ्निक-काण्डे-पूर्वभागः)<br/><br/><br/
+ ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
+ atithi/blob/master/time_focus/sankrAnti/description_only/viSu-puNyakAlaH.t
+ oml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -43806,7 +43840,12 @@ BEGIN:VEVENT
 SUMMARY:बोधायन-इष्टिः
 DTSTART;VALUE=DATE:20221025
 DTEND;VALUE=DATE:20221026
-DESCRIPTION:
+DESCRIPTION:iṣṭiḥ is performed on this day by those following the b
+ ōdhāyana-sūtra. This difference happens because chandradarśanam occurs
+  tomorrow\, and followers of bōdhāyana-sūtra do not perform iṣṭiḥ
+  on chandradarśanam day.<br/><br/>## Details<br/>- [Edit config file](htt
+ ps://github.com/jyotisham/adyatithi/blob/master/general/description_only/b
+ OdhAyana-iSTiH.toml)<br/>- Tags: RareDays Combinations SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -45956,9 +45995,8 @@ DTSTART;VALUE=DATE:20221104
 DTEND;VALUE=DATE:20221109
 DESCRIPTION:Bhishma\, lying on śaratalpa performed upadesha to Yudhisthir
  a and other Pandavas for these five days.<br/><br/>## Details<br/>- [Edit 
- config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSh
- a/xatra/description_only/bhISma-paJcaka-vratam.toml)<br/>- Tags: LessCommo
- nFestivals
+ config file](https://github.com/jyotisham/adyatithi/blob/master/general/de
+ scription_only/bhISma-paJcaka-vratam.toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -52378,7 +52416,12 @@ BEGIN:VEVENT
 SUMMARY:बोधायन-इष्टिः
 DTSTART;VALUE=DATE:20221223
 DTEND;VALUE=DATE:20221224
-DESCRIPTION:
+DESCRIPTION:iṣṭiḥ is performed on this day by those following the b
+ ōdhāyana-sūtra. This difference happens because chandradarśanam occurs
+  tomorrow\, and followers of bōdhāyana-sūtra do not perform iṣṭiḥ
+  on chandradarśanam day.<br/><br/>## Details<br/>- [Edit config file](htt
+ ps://github.com/jyotisham/adyatithi/blob/master/general/description_only/b
+ OdhAyana-iSTiH.toml)<br/>- Tags: RareDays Combinations SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -53128,10 +53171,13 @@ DTSTART;VALUE=DATE:20221229
 DTEND;VALUE=DATE:20221230
 DESCRIPTION:Observed on Vyatīpātaḥ yoga of Dhanuḥ (sidereal solar) m
  onth (Prāktanāruṇōdayaḥ/puurvaviddha). <br/><br/>Special snānam on
-  account of mahādhanurvyatīpātam.<br/><br/>## Details<br/>- [Edit confi
- g file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/misc
- /sidereal_solar_month/yoga/09/17/mahAdhanurvyatIpAta-snAnam.toml)<br/>- Ta
- gs: SpecialSnanam
+  account of mahādhanurvyatīpātam.<br/><br/>व्यतीपात म
+ हाबाहो सर्वपापप्रणाशन।  <br/>स
+ हस्रबाहो विश्वात्मन् गृहाण
+ ार्घ्यं नमोऽस्तु ते॥<br/><br/><br/><br
+ />## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatit
+ hi/blob/master/time_focus/misc/sidereal_solar_month/yoga/09/17/mahAdhanurv
+ yatIpAta-snAnam.toml)<br/>- Tags: SpecialSnanam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
