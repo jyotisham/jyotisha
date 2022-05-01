@@ -118,10 +118,11 @@ class FestivalInstance(common.JsonObject):
 
 
 class TransitionFestivalInstance(FestivalInstance):
-  def __init__(self, name, status_1_hk, status_2_hk):
+  def __init__(self, name, status_1_hk, status_2_hk, interval):
     super(TransitionFestivalInstance, self).__init__(name=name)
     self.status_1_hk = status_1_hk
     self.status_2_hk = status_2_hk
+    self.interval = interval
 
   def tex_code(self, languages, scripts, timezone, fest_details_dict, reference_date=None, time_format='hh:mm'):
     name_details = self.get_best_transliterated_name(languages=languages, scripts=scripts, fest_details_dict=fest_details_dict)
