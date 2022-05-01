@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220501080501
+SEQUENCE:20220501080723
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -747,7 +747,12 @@ SUMMARY:महाधनुर्व्यतीपात-श्राद
  ्धम्
 DTSTART;VALUE=DATE:20220106
 DTEND;VALUE=DATE:20220107
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/description_only/mahAdhanurvyatIpAta-
+ zrAddham.toml)<br/>- Tags: ShraddhaDays<br/><br/><br/><br/>## Details<br/>
+ - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/de
+ vatA/pitR/description_only/mahAdhanurvyatIpAta-zrAddham.toml)<br/>- Tags: 
+ ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -53094,7 +53099,12 @@ SUMMARY:महाधनुर्व्यतीपात-श्राद
  ्धम्
 DTSTART;VALUE=DATE:20221228
 DTEND;VALUE=DATE:20221229
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/description_only/mahAdhanurvyatIpAta-
+ zrAddham.toml)<br/>- Tags: ShraddhaDays<br/><br/><br/><br/>## Details<br/>
+ - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/de
+ vatA/pitR/description_only/mahAdhanurvyatIpAta-zrAddham.toml)<br/>- Tags: 
+ ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
