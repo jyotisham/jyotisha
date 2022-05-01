@@ -839,12 +839,32 @@ Observed on Vyatīpātaḥ yoga of Dhanuḥ (sidereal solar) month (Prāktanāru
 
 Special snānam on account of mahādhanurvyatīpātam.
 
+व्यतीपात महाबाहो सर्वपापप्रणाशन।  
+सहस्रबाहो विश्वात्मन् गृहाणार्घ्यं नमोऽस्तु ते॥
+
+
+
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/misc/sidereal_solar_month/yoga/09/17/mahAdhanurvyatIpAta-snAnam.toml)
 - Tags: SpecialSnanam
 
 
 ##### महाधनुर्व्यतीपात-श्राद्धम्
+
+
+
+vyatīpāta is regarded as the king of yōgas. Though it occurs 13 times every year, the occurrence in dhanurmāsa is special, and this day is special for a number of special observances, such as śivapūjā, pitr̥tarpaṇam etc. One must also give arghyam with the shloka mentioned here, and perform the usual (dhanurmāsa) naivedyam of mudgānnam. Markandeya Rishi has performed upadesham of a year-long vratam, beginning this day, including the pūja of vyatīpata-dēvatā. Puranas also narrate the story of rich merchant names Vishwasakha, who was born as a wild boar owing to denying food to a hungry vipra on Vyatipata day. Having lost half his body to a forest fire, the boar was redeemed from this plight by the Raja Haryashva, who passed by, and gave away his accrued merits from vyatīpāta-snāna-dānam. As a result of this, the wild boar attained a divine form.
+
+व्यतीपात महाबाहो सर्वपापप्रणाशन।  
+सहस्रबाहो विश्वात्मन् गृहाणार्घ्यं नमोऽस्तु ते॥
+
+
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/description_only/mahAdhanurvyatIpAta-zrAddham.toml)
+- Tags: ShraddhaDays
+
+
 ##### शुक्ल-चतुर्थी-व्रतम्
 
 Observed on Śukla-Caturthī tithi of every (lunar) month (Madhyāhnaḥ/puurvaviddha). 
@@ -1816,7 +1836,7 @@ Beginning of tapō-māsaḥ, marked by the transit of Sun into kumbha-rāshī.  
 
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/tapO-mAsaH__ziziraRtuH.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/tapO-mAsaH_or_ziziraRtuH.toml)
 - Tags: SunSankranti CommonFestivals
 
 
@@ -3010,6 +3030,14 @@ For instance, in Devi Atharvashirsha, it is said bhaumāśvinyāṁ mahādevī-s
 
 
 
+amāvāsyā of pauṣa month, which also coincides with the sidereal solar month of makara, and ia also know as mauni.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/mauni_%28pauSa_or_makara%29_amAvAsyA.toml)
+- Tags: AmavasyaDays
+
+
+
 It is said in the Smrtis, that if Amavaysa falls on a Monday, Tuesday or Thursday, such a tithi is given the appellation puṣkalā and is as sacred as a solar eclipse.
 
 स्मृत्यन्तरे---  
@@ -4198,7 +4226,7 @@ sāmba, the son of Sri Krishna, was cured of leprosy after performing tapaḥ to
 ###### Details
 - References
   - https://hindupad.com/samba-dashami-2009-samba-dasami-or-surya-puja-in-orissa/
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/temples/Odisha/lunar_month/tithi/11/10/sAmba-dazamI__sUryapUjA.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/temples/Odisha/lunar_month/tithi/11/10/sAmba-dazamI_or_sUryapUjA.toml)
 - Tags: LessCommonFestivals OdishaTempleFestivals
 
 
@@ -4280,7 +4308,7 @@ The Shukla-paksha Ekadashi of māgha month is known as bhaimī-ēkādaśī. If t
 
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/jayA__bhaimI-EkAdazI.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/jayA_or_bhaimI-EkAdazI.toml)
 - Tags: MonthlyVratam EkadashiVratam
 
 
@@ -5539,7 +5567,7 @@ Pradosha Vratam. Fast during the day and perform śivapūjā in Pradosha Kala.
 Dvadashi tithi, combined with Shravana nakshatra.
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/dvAdashI/description_only/vijayA__zravaNa-mahAdvAdazI.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/dvAdashI/description_only/vijayA_or_zravaNa-mahAdvAdazI.toml)
 - Tags: RareDays Combinations SpecialVratam
 
 
@@ -7227,7 +7255,7 @@ Beginning of madhu-māsaḥ, marked by the transit of Sun into mēṣa-rāshī. 
 
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/madhu-mAsaH__vasantaRtuH.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/madhu-mAsaH_or_vasantaRtuH.toml)
 - Tags: SunSankranti CommonFestivals
 
 
@@ -8516,6 +8544,16 @@ ___________________
 #### उत्सवाः
 - पार्वणव्रतम् अमावास्यायाम्, बोधायन-इष्टिः, भृगुरेवती-पुण्यकालः
 ##### बोधायन-इष्टिः
+
+
+
+iṣṭiḥ is performed on this day by those following the bōdhāyana-sūtra. This difference happens because chandradarśanam occurs tomorrow, and followers of bōdhāyana-sūtra do not perform iṣṭiḥ on chandradarśanam day.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/general/description_only/bOdhAyana-iSTiH.toml)
+- Tags: RareDays Combinations SpecialVratam
+
+
 ##### भृगुरेवती-पुण्यकालः
 
 
@@ -9811,7 +9849,7 @@ Observed on Śukla-Navamī tithi of Caitraḥ (lunar) month (Sūryōdayaḥ/puur
 
 
 
-
+To celebrate the new year, first thing in the morning, one sees the various symbols of prosperity (dhana, dhaanya, etc.---ornaments, grains, fruits, etc.) places in a vessel alongside a lamp and vigrahas. Widely celebrated in Kerala and Tamil Nadu.
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/tamil/description_only/viSukkan2i.toml)
@@ -13763,7 +13801,7 @@ Beginning of śukra-māsa, marked by the transit of Sun into mithuna-rāshī.  A
 
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/zukra-mAsaH__grISmaRtuH.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/zukra-mAsaH_or_grISmaRtuH.toml)
 - Tags: SunSankranti CommonFestivals
 
 
@@ -14670,6 +14708,16 @@ ___________________
 #### उत्सवाः
 - पार्वणव्रतम् अमावास्यायाम्, बोधायन-इष्टिः, वैशाख-अमावास्या (अलभ्यम्–पुष्कला), वैशाख-मास-समापनम्, वैशाख-स्नानपूर्तिः, शनि-जयन्ती, शुक-महर्षि-जयन्ती, सोमवती अमावास्या
 ##### बोधायन-इष्टिः
+
+
+
+iṣṭiḥ is performed on this day by those following the bōdhāyana-sūtra. This difference happens because chandradarśanam occurs tomorrow, and followers of bōdhāyana-sūtra do not perform iṣṭiḥ on chandradarśanam day.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/general/description_only/bOdhAyana-iSTiH.toml)
+- Tags: RareDays Combinations SpecialVratam
+
+
 ##### पार्वणव्रतम् अमावास्यायाम्
 
 
@@ -16673,7 +16721,7 @@ Beginning of śuchi-māsaḥ, marked by the transit of Sun into kaṭaka-rāshī
 
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/zuci-mAsaH__dakSiNAyanam.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/zuci-mAsaH_or_dakSiNAyanam.toml)
 - Tags: SunSankranti CommonFestivals
 
 
@@ -19624,7 +19672,7 @@ Beginning of nabhō-māsaḥ, marked by the transit of Sun into siṁha-rāshī.
 
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/nabhO-mAsaH__varSaRtuH.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/nabhO-mAsaH_or_varSaRtuH.toml)
 - Tags: SunSankranti CommonFestivals
 
 
@@ -20292,6 +20340,14 @@ Observed on Amāvāsyā tithi of every (lunar) month (Āśvinaḥ/paraviddha).
 
 
 ##### सर्व-आषाढ (कर्कट) अमावास्या (अलभ्यम्–पुनर्वसुः)
+
+
+
+amāvāsyā of āṣāḍha month, which also falls in the sidereal solar month of kaṭaka.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/ASADha_%28karkaTa%29_amAvAsyA.toml)
+- Tags: AmavasyaDays
 
 
 
@@ -23426,6 +23482,16 @@ Observed on Amāvāsyā tithi of Śrāvaṇaḥ (lunar) month (Sūryōdayaḥ/pu
 
 
 ##### बोधायन-इष्टिः
+
+
+
+iṣṭiḥ is performed on this day by those following the bōdhāyana-sūtra. This difference happens because chandradarśanam occurs tomorrow, and followers of bōdhāyana-sūtra do not perform iṣṭiḥ on chandradarśanam day.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/general/description_only/bOdhAyana-iSTiH.toml)
+- Tags: RareDays Combinations SpecialVratam
+
+
 ##### दर्भ-सङ्ग्रहः
 
 Observed on Amāvāsyā tithi of Siṁhaḥ (sidereal solar) month (Sūryōdayaḥ/paraviddha). 
@@ -24738,7 +24804,7 @@ Wednesday Shravana ; Vamana Jayanti; Shravana Dvadashi; Vijaya Dvadashi; Shakra 
 Dvadashi tithi, combined with Shravana nakshatra.
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/dvAdashI/description_only/vijayA__zravaNa-mahAdvAdazI.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/dvAdashI/description_only/vijayA_or_zravaNa-mahAdvAdazI.toml)
 - Tags: RareDays Combinations SpecialVratam
 
 
@@ -26010,6 +26076,25 @@ ___________________
 - (सायन) विषु-पुण्यकालः, अविधवा-नवमी, इष-मासः/शरदृतुः, दक्षिण-विषुव-दिनम्, दुर्गा/गौरी-पूजा, रवि-सङ्क्रमण-पुण्यकालः, सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः
 ##### (सायन) विषु-पुण्यकालः
 - 09:20→17:20
+
+
+
+Viṣu Punyakala.
+
+सङ्क्रान्तिस्नानाकरणे प्रत्यवायमाह शातातपः—  
+सूर्यसङ्क्रमणे पुण्ये न स्नायाद्यदि मानवः।  
+सप्तजन्मसु रोगी स्याद् दुःखभागी च जायते॥  
+सङ्क्रान्त्यां यानि दत्तानि हव्यकव्यानि मानवैः।  
+तानि तस्य ददात्यर्कः सप्तजन्मसु निश्चितम्॥  
+(स्मृतिमुक्ताफले आह्निक-काण्डे-पूर्वभागः)
+
+
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/viSu-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
+
+
 ##### अविधवा-नवमी
 
 Observed on Kr̥ṣṇa-Navamī tithi of Bhādrapadaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -26075,7 +26160,7 @@ Beginning of iṣa-māsaḥ, marked by the transit of Sun into tulā-rāshī.  A
 
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/iSa-mAsaH__zaradRtuH.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/iSa-mAsaH_or_zaradRtuH.toml)
 - Tags: SunSankranti CommonFestivals
 
 
@@ -32396,7 +32481,7 @@ Beginning of sahō-māsaḥ, marked by the transit of Sun into dhanū-rāshī. A
 
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/sahO-mAsaH__hEmantaRtuH.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/sahO-mAsaH_or_hEmantaRtuH.toml)
 - Tags: SunSankranti CommonFestivals
 
 
@@ -35096,7 +35181,7 @@ Beginning of sahasya-māsaḥ, marked by the transit of Sun into makara-rāshī.
 
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/sahasya-mAsaH__uttarAyaNam.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/sahasya-mAsaH_or_uttarAyaNam.toml)
 - Tags: SunSankranti CommonFestivals
 
 
