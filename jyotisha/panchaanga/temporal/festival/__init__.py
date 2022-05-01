@@ -127,8 +127,11 @@ class TransitionFestivalInstance(FestivalInstance):
   def tex_code(self, languages, scripts, timezone, fest_details_dict, reference_date=None, time_format='hh:mm'):
     name_details = self.get_best_transliterated_name(languages=languages, scripts=scripts, fest_details_dict=fest_details_dict)
     name = name_details["text"]
-    return custom_transliteration.tr("%s~(%s##\\To{}##%s)" % (name, self.status_1_hk, self.status_2_hk), script=scripts[0])
-
+    if self.interval is not None and self._show_interval():
+      return custom_transliteration.tr("%s~(%s##\\To{}##%s)" % (name, self.status_1_hk, self.status_2_hk), script=scripts[0]) + "%s" % (self.interval.to_hour_tex(script=scripts[0], tz=timezone, reference_date=reference_date, time_format=time_format))
+    else:
+      return custom_transliteration.tr("%s~(%s##\\To{}##%s)" % (name, self.status_1_hk, self.status_2_hk), script=scripts[0])
+  
 
 def get_description(festival_instance, fest_details_dict, script, truncate=True, header_md="#####"):
   fest_id = festival_instance.name.replace('__', '_or_')
@@ -283,7 +286,7 @@ def get_description_tex(festival_instance, fest_details_dict, script):
         desc['url'] += ' ' + ama_fest_desc['url']
       else:
         desc = ama_fest_desc
-      logging.debug('Using description of %s for amAvAsyA festival %s!' % (fest_id, fest_id_orig))
+      # logging.debug('Using description of %s for amAvAsyA festival %s!' % (fest_id, fest_id_orig))
     else:
       logging.warning('No description found for amAvAsyA festival %s!' % fest_id_orig)
   elif re.match('.*-.*-EkAdazI', fest_id) is not None:
