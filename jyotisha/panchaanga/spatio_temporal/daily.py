@@ -466,7 +466,7 @@ class DailyPanchaanga(common.JsonObject):
 
     for lagna in lagna_list:
       # print('---\n', lagna)
-      if (debug):
+      if debug:
         logging.debug(('lagna sunrise', self.city.get_lagna_float(self.jd_sunrise, ayanaamsha_id=ayanaamsha_id)))
         logging.debug(('lbrack', self.city.get_lagna_float(lbrack, int(-lagna), ayanaamsha_id=ayanaamsha_id)))
         logging.debug(('rbrack', self.city.get_lagna_float(rbrack, int(-lagna), ayanaamsha_id=ayanaamsha_id)))
