@@ -134,7 +134,7 @@ def get_timing_summary(rule):
       angam += 'day %d' % rule.timing.anga_number
   else: # No timing or anga_type
     if rule.description is None:
-      logging.debug("No anga_type in %s or description even!!", rule.id)
+      logging.warning("No anga_type in %s or description even!!", rule.id)
 
   if angam is not None:
     blurb += angam
