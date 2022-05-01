@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220501080723
+SEQUENCE:20220501083348
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -17329,10 +17329,16 @@ SUMMARY:गङ्गा-स्नानम्
 DTSTART;VALUE=DATE:20220429
 DTEND;VALUE=DATE:20220430
 DESCRIPTION:Observed on Kr̥ṣṇa-Caturdaśī tithi of Caitraḥ (lunar)
-  month (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>-
-  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/dev
- atA/nadI/lunar_month/tithi/01/29/gaGgA-snAnam.toml)<br/>- Tags: LessCommon
- Festivals
+  month (Sūryōdayaḥ/puurvaviddha). <br/><br/>On the Krishna Chaturdashi
+  of Chaitra month\, whoever performs snāna in a Shiva Sannidhi\, or espec
+ ially in Ganga\, they do not atttain prētatvam.<br/><br/>चैत्र
+ कृष्णचतुर्दश्यां यः स्नाया
+ च्छिवसन्निधौ।  <br/>न प्रेतत्व
+ मवाप्नोति गङ्गायां च विशेष
+ तः॥<br/><br/><br/><br/>## Details<br/>- References<br/>  - Vaidyanat
+ ha Dikshitiyam<br/>- [Edit config file](https://github.com/jyotisham/adyat
+ ithi/blob/master/devatA/nadI/lunar_month/tithi/01/29/gaGgA-snAnam.toml)<br
+ />- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
