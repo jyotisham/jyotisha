@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220501083348
+SEQUENCE:20220501084508
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -865,13 +865,17 @@ DTSTART;VALUE=DATE:20220107
 DTEND;VALUE=DATE:20220108
 DESCRIPTION:Observed on Vyatīpātaḥ yoga of Dhanuḥ (sidereal solar) m
  onth (Prāktanāruṇōdayaḥ/puurvaviddha). <br/><br/>Special snānam on
-  account of mahādhanurvyatīpātam.<br/><br/>व्यतीपात म
- हाबाहो सर्वपापप्रणाशन।  <br/>स
- हस्रबाहो विश्वात्मन् गृहाण
- ार्घ्यं नमोऽस्तु ते॥<br/><br/><br/><br
- />## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatit
- hi/blob/master/time_focus/misc/sidereal_solar_month/yoga/09/17/mahAdhanurv
- yatIpAta-snAnam.toml)<br/>- Tags: SpecialSnanam
+  account of mahādhanurvyatīpātam. snānam on any vyatīpata day gives m
+ ahāpuṇyam\, more so in dhanurmāsa.<br/><br/>पुष्ये च ज
+ न्मनक्षत्रे व्यतीपाते च वै
+ धृतौ।  <br/>अमायां च नदीनानं पु
+ नात्यासप्तमं कुलम्॥  <br/>व्यत
+ ीपात महाबाहो सर्वपापप्रणाश
+ न।  <br/>सहस्रबाहो विश्वात्मन्
+  गृहाणार्घ्यं नमोऽस्तु ते॥<b
+ r/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/j
+ yotisham/adyatithi/blob/master/time_focus/misc/sidereal_solar_month/yoga/0
+ 9/17/mahAdhanurvyatIpAta-snAnam.toml)<br/>- Tags: SpecialSnanam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2911,7 +2915,12 @@ BEGIN:VEVENT
 SUMMARY:तपो-मासः/शिशिरऋतुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220120T080904
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220121T000000
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/tapO-mAsaH_
+ or_ziziraRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><br/
+ ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
+ atithi/blob/master/time_focus/sankrAnti/description_only/tapO-mAsaH_or_ziz
+ iraRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -4156,16 +4165,21 @@ SUMMARY:सर्व-मौनि (पौष/मकर) अमावास
  ्या (अलभ्यम्–पुष्कला)
 DTSTART;VALUE=DATE:20220131
 DTEND;VALUE=DATE:20220201
-DESCRIPTION:It is said in the Smrtis\, that if Amavaysa falls on a Monday\
- , Tuesday or Thursday\, such a tithi is given the appellation puṣkalā a
- nd is as sacred as a solar eclipse.<br/><br/>स्मृत्यन्
- तरे---  <br/>अमा सोमेन भौमेन गुरु
- णा वा युता यदि।  <br/>सा तिथिः प
- ुष्कला नाम सूर्यग्रहणसन्नि
- भा॥<br/><br/><br/><br/>## Details<br/>- References<br/>  - Vaidyanat
- ha Dikshitiyam<br/>- [Edit config file](https://github.com/jyotisham/adyat
- ithi/blob/master/time_focus/monthly/amAvAsyA/description_only/puSkalA-amAv
- AsyA.toml)<br/>- Tags: AmavasyaDays
+DESCRIPTION:amāvāsyā of pauṣa month\, which also coincides with the s
+ idereal solar month of makara\, and ia also know as mauni.<br/><br/>## Det
+ ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/
+ master/time_focus/monthly/amAvAsyA/description_only/mauni_%28pauSa_or_maka
+ ra%29_amAvAsyA.toml)<br/>- Tags: AmavasyaDays<br/><br/><br/><br/>It is sai
+ d in the Smrtis\, that if Amavaysa falls on a Monday\, Tuesday or Thursday
+ \, such a tithi is given the appellation puṣkalā and is as sacred as a 
+ solar eclipse.<br/><br/>स्मृत्यन्तरे---  <br/>अ
+ मा सोमेन भौमेन गुरुणा वा युत
+ ा यदि।  <br/>सा तिथिः पुष्कला ना
+ म सूर्यग्रहणसन्निभा॥<br/><br/><br/><
+ br/>## Details<br/>- References<br/>  - Vaidyanatha Dikshitiyam<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/time_foc
+ us/monthly/amAvAsyA/description_only/puSkalA-amAvAsyA.toml)<br/>- Tags: Am
+ avasyaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5967,7 +5981,12 @@ BEGIN:VEVENT
 SUMMARY:सर्व-जया/भैमी-एकादशी
 DTSTART;VALUE=DATE:20220212
 DTEND;VALUE=DATE:20220213
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/jayA
+ _or_bhaimI-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/
+ ><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisha
+ m/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/jayA_
+ or_bhaimI-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11285,7 +11304,12 @@ BEGIN:VEVENT
 SUMMARY:मधु-मासः/वसन्तऋतुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220320T210323
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220321T000000
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/madhu-mAsaH
+ _or_vasantaRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><b
+ r/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/a
+ dyatithi/blob/master/time_focus/sankrAnti/description_only/madhu-mAsaH_or_
+ vasantaRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -14873,16 +14897,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:गुरु-सङ्क्रान्तिः
-DTSTART;VALUE=DATE:20220413
-DTEND;VALUE=DATE:20220414
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220413T144407
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220414T000000
 DESCRIPTION:Transition of Jupiter from one Rashi to another. When it is no
  t retrograde\, it also marks the beginning of a new Pushkara.<br/><br/>## 
  Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/bl
  ob/master/time_focus/sankrAnti/description_only/guru-saGkrAntiH.toml)<br/>
  - Tags: Sankranti
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -20754,7 +20775,12 @@ BEGIN:VEVENT
 SUMMARY:शुक्र-मासः/ग्रीष्मऋतुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220521T065233
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220522T000000
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/zukra-mAsaH
+ _or_grISmaRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><br
+ /><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ad
+ yatithi/blob/master/time_focus/sankrAnti/description_only/zukra-mAsaH_or_g
+ rISmaRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -25190,7 +25216,12 @@ BEGIN:VEVENT
 SUMMARY:शुचि-मासः/दक्षिणायनम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220621T144349
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220622T000000
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/zuci-mAsaH_
+ or_dakSiNAyanam.toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><b
+ r/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/a
+ dyatithi/blob/master/time_focus/sankrAnti/description_only/zuci-mAsaH_or_d
+ akSiNAyanam.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -29218,7 +29249,12 @@ BEGIN:VEVENT
 SUMMARY:नभो-मासः/वर्षऋतुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220723T013657
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220723T000000
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/nabhO-mAsaH
+ _or_varSaRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><br/
+ ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
+ atithi/blob/master/time_focus/sankrAnti/description_only/nabhO-mAsaH_or_va
+ rSaRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -36657,7 +36693,10 @@ BEGIN:VEVENT
 SUMMARY:विजया/श्रवण-महाद्वादशी
 DTSTART;VALUE=DATE:20220907
 DTEND;VALUE=DATE:20220908
-DESCRIPTION:
+DESCRIPTION:Dvadashi tithi\, combined with Shravana nakshatra.<br/><br/>##
+  Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/b
+ lob/master/time_focus/monthly/dvAdashI/description_only/vijayA_or_zravaNa-
+ mahAdvAdazI.toml)<br/>- Tags: RareDays Combinations SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -38839,7 +38878,12 @@ BEGIN:VEVENT
 SUMMARY:इष-मासः/शरदृतुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220923T063340
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220924T000000
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/iSa-mAsaH_o
+ r_zaradRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><br/><
+ br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyat
+ ithi/blob/master/time_focus/sankrAnti/description_only/iSa-mAsaH_or_zaradR
+ tuH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -48176,7 +48220,12 @@ BEGIN:VEVENT
 SUMMARY:सहो-मासः/हेमन्तऋतुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221122T135028
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221123T000000
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/sahO-mAsaH_
+ or_hEmantaRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><br
+ /><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ad
+ yatithi/blob/master/time_focus/sankrAnti/description_only/sahO-mAsaH_or_hE
+ mantaRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -52116,7 +52165,12 @@ BEGIN:VEVENT
 SUMMARY:सहस्य-मासः/उत्तरायणम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221222T031810
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221222T000000
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/sahasya-mAs
+ aH_or_uttarAyaNam.toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/>
+ <br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham
+ /adyatithi/blob/master/time_focus/sankrAnti/description_only/sahasya-mAsaH
+ _or_uttarAyaNam.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -53187,13 +53241,17 @@ DTSTART;VALUE=DATE:20221229
 DTEND;VALUE=DATE:20221230
 DESCRIPTION:Observed on Vyatīpātaḥ yoga of Dhanuḥ (sidereal solar) m
  onth (Prāktanāruṇōdayaḥ/puurvaviddha). <br/><br/>Special snānam on
-  account of mahādhanurvyatīpātam.<br/><br/>व्यतीपात म
- हाबाहो सर्वपापप्रणाशन।  <br/>स
- हस्रबाहो विश्वात्मन् गृहाण
- ार्घ्यं नमोऽस्तु ते॥<br/><br/><br/><br
- />## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatit
- hi/blob/master/time_focus/misc/sidereal_solar_month/yoga/09/17/mahAdhanurv
- yatIpAta-snAnam.toml)<br/>- Tags: SpecialSnanam
+  account of mahādhanurvyatīpātam. snānam on any vyatīpata day gives m
+ ahāpuṇyam\, more so in dhanurmāsa.<br/><br/>पुष्ये च ज
+ न्मनक्षत्रे व्यतीपाते च वै
+ धृतौ।  <br/>अमायां च नदीनानं पु
+ नात्यासप्तमं कुलम्॥  <br/>व्यत
+ ीपात महाबाहो सर्वपापप्रणाश
+ न।  <br/>सहस्रबाहो विश्वात्मन्
+  गृहाणार्घ्यं नमोऽस्तु ते॥<b
+ r/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/j
+ yotisham/adyatithi/blob/master/time_focus/misc/sidereal_solar_month/yoga/0
+ 9/17/mahAdhanurvyatIpAta-snAnam.toml)<br/>- Tags: SpecialSnanam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
