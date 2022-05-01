@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220501184237
+SEQUENCE:20220501193855
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -25820,10 +25820,13 @@ SUMMARY:चिदम्बरे ध्वजारोहणम्/पञ
  ्चमूर्ति रथोत्सवः
 DTSTART;VALUE=DATE:20220627
 DTEND;VALUE=DATE:20220628
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/temples/Tamil/relative_event/naTarAjar_An2i_tirum
- aJcan2am/offset__-9/cidambarE_dhvajArOhaNam_or_paJcamUrti_rathOtsavaH.toml
- )<br/>- Tags: TamilnaduTempleFestivals
+DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
+ around the Aani Thirumanjana festival each year\, for ten days. On this da
+ y\, there is a special rathotsava\, with the panchamurtis.<br/><br/>## Det
+ ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/
+ master/temples/Tamil/relative_event/naTarAjar_An2i_tirumaJcan2am/offset__-
+ 9/cidambarE_dhvajArOhaNam_or_paJcamUrti_rathOtsavaH.toml)<br/>- Tags: Tami
+ lnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25981,10 +25984,13 @@ SUMMARY:चिदम्बरे रजत चन्द्रप्रभ
  वाहनम्
 DTSTART;VALUE=DATE:20220628
 DTEND;VALUE=DATE:20220629
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/temples/Tamil/relative_event/naTarAjar_An2i_tirum
- aJcan2am/offset__-8/cidambarE_rajata_candraprabha_vAhanam.toml)<br/>- Tags
- : TamilnaduTempleFestivals
+DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
+ around the Aani Thirumanjana festival each year\, for ten days. On this da
+ y\, Nataraja gives darshan with a silver 'chandra prabha' vahanam.<br/><br
+ />## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatit
+ hi/blob/master/temples/Tamil/relative_event/naTarAjar_An2i_tirumaJcan2am/o
+ ffset__-8/cidambarE_rajata_candraprabha_vAhanam.toml)<br/>- Tags: Tamilnad
+ uTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26137,10 +26143,13 @@ SUMMARY:चिदम्बरे स्वर्ण-सूर्यप्
  रभ वाहनम्
 DTSTART;VALUE=DATE:20220629
 DTEND;VALUE=DATE:20220630
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/temples/Tamil/relative_event/naTarAjar_An2i_tirum
- aJcan2am/offset__-7/cidambarE_svarNa-sUryaprabha_vAhanam.toml)<br/>- Tags:
-  TamilnaduTempleFestivals
+DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
+ around the Aani Thirumanjana festival each year\, for ten days. On this da
+ y\, Nataraja gives darshan with a golden 'surya prabha' vahanam.<br/><br/>
+ ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/temples/Tamil/relative_event/naTarAjar_An2i_tirumaJcan2am/off
+ set__-7/cidambarE_svarNa-sUryaprabha_vAhanam.toml)<br/>- Tags: TamilnaduTe
+ mpleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26328,10 +26337,12 @@ BEGIN:VEVENT
 SUMMARY:चिदम्बरे रजत भूत वाहनम्
 DTSTART;VALUE=DATE:20220630
 DTEND;VALUE=DATE:20220701
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/temples/Tamil/relative_event/naTarAjar_An2i_tirum
- aJcan2am/offset__-6/cidambarE_rajata_bhUta_vAhanam.toml)<br/>- Tags: Tamil
- naduTempleFestivals
+DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
+ around the Aani Thirumanjana festival each year\, for ten days. On this da
+ y\, Nataraja gives darshan on a bhūta vahanam.<br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/temp
+ les/Tamil/relative_event/naTarAjar_An2i_tirumaJcan2am/offset__-6/cidambarE
+ _rajata_bhUta_vAhanam.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26455,10 +26466,12 @@ BEGIN:VEVENT
 SUMMARY:चिदम्बरे रजत ऋषभ वाहनम्
 DTSTART;VALUE=DATE:20220701
 DTEND;VALUE=DATE:20220702
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/temples/Tamil/relative_event/naTarAjar_An2i_tirum
- aJcan2am/offset__-5/cidambarE_rajata_RSabha_vAhanam.toml)<br/>- Tags: Tami
- lnaduTempleFestivals
+DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
+ around the Aani Thirumanjana festival each year\, for ten days. On this da
+ y\, Nataraja gives darshan on a silver Rishabha vahanam.<br/><br/>## Detai
+ ls<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/ma
+ ster/temples/Tamil/relative_event/naTarAjar_An2i_tirumaJcan2am/offset__-5/
+ cidambarE_rajata_RSabha_vAhanam.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26566,10 +26579,12 @@ BEGIN:VEVENT
 SUMMARY:चिदम्बरे रजत-गजवाहनम्
 DTSTART;VALUE=DATE:20220702
 DTEND;VALUE=DATE:20220703
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/temples/Tamil/relative_event/naTarAjar_An2i_tirum
- aJcan2am/offset__-4/cidambarE_rajata-gajavAhanam.toml)<br/>- Tags: Tamilna
- duTempleFestivals
+DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
+ around the Aani Thirumanjana festival each year\, for ten days. On this da
+ y\, Nataraja gives darshan on a silver elephant vahanam.<br/><br/>## Detai
+ ls<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/ma
+ ster/temples/Tamil/relative_event/naTarAjar_An2i_tirumaJcan2am/offset__-4/
+ cidambarE_rajata-gajavAhanam.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26659,10 +26674,12 @@ BEGIN:VEVENT
 SUMMARY:चिदम्बरे कैलास वाहनम्
 DTSTART;VALUE=DATE:20220703
 DTEND;VALUE=DATE:20220704
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/temples/Tamil/relative_event/naTarAjar_An2i_tirum
- aJcan2am/offset__-3/cidambarE_kailAsa_vAhanam.toml)<br/>- Tags: TamilnaduT
- empleFestivals
+DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
+ around the Aani Thirumanjana festival each year\, for ten days. On this da
+ y\, Nataraja gives darshan on a Kailasha vahanam.<br/><br/>## Details<br/>
+ - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/te
+ mples/Tamil/relative_event/naTarAjar_An2i_tirumaJcan2am/offset__-3/cidamba
+ rE_kailAsa_vAhanam.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26789,10 +26806,13 @@ SUMMARY:चिदम्बरे भिक्षाटन स्वर्
  णरथः
 DTSTART;VALUE=DATE:20220704
 DTEND;VALUE=DATE:20220705
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/temples/Tamil/relative_event/naTarAjar_An2i_tirum
- aJcan2am/offset__-2/cidambarE_bhikSATana_svarNarathaH.toml)<br/>- Tags: Ta
- milnaduTempleFestivals
+DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
+ around the Aani Thirumanjana festival each year\, for ten days. On this da
+ y\, Nataraja gives darshan on a silver elephant vahanam.<br/><br/>## Detai
+ ls<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/ma
+ ster/temples/Tamil/relative_event/naTarAjar_An2i_tirumaJcan2am/offset__-2/
+ cidambarE_bhikSATana_svarNarathaH.toml)<br/>- Tags: TamilnaduTempleFestiva
+ ls
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26952,10 +26972,12 @@ BEGIN:VEVENT
 SUMMARY:चिदम्बरे रथोत्सवः
 DTSTART;VALUE=DATE:20220705
 DTEND;VALUE=DATE:20220706
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/temples/Tamil/relative_event/naTarAjar_An2i_tirum
- aJcan2am/offset__-1/cidambarE_rathOtsavaH.toml)<br/>- Tags: TamilnaduTempl
- eFestivals
+DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
+ around the Aani Thirumanjana festival each year\, for ten days. On this da
+ y is the rathotsava or chariot festival.<br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/blob/master/temples/Tam
+ il/relative_event/naTarAjar_An2i_tirumaJcan2am/offset__-1/cidambarE_rathOt
+ savaH.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -27222,10 +27244,12 @@ SUMMARY:चिदम्बरे मुत्तुप्पल्लक
  ्कु
 DTSTART;VALUE=DATE:20220707
 DTEND;VALUE=DATE:20220708
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/temples/Tamil/relative_event/naTarAjar_An2i_tirum
- aJcan2am/offset__01/cidambarE_muttuppallakku.toml)<br/>- Tags: TamilnaduTe
- mpleFestivals
+DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
+ around the Aani Thirumanjana festival each year\, for ten days. On this da
+ y\, Nataraja gives darshan on a specially decorated palanquin.<br/><br/>##
+  Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/b
+ lob/master/temples/Tamil/relative_event/naTarAjar_An2i_tirumaJcan2am/offse
+ t__01/cidambarE_muttuppallakku.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -33949,10 +33973,13 @@ SUMMARY:तिरुच्चॆन्दूर् मुरुगऩ्
  ॊडियेऱ्ऱम्
 DTSTART;VALUE=DATE:20220822
 DTEND;VALUE=DATE:20220823
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/temples/Tamil/relative_event/tiruccendUr_AvaNit_t
- iruvizhA_nir2aivu/offset__-11/tiruccendUr_murugan2_AvaNit_tiruvizhA_toDakk
- am_or_koDiyEr2r2am.toml)<br/>- Tags: TamilnaduTempleFestivals
+DESCRIPTION:The Tiruchendur Brahmotsavam of Avani each year is very specia
+ l. The festival is conducted for twelve days. This marks the first day of 
+ the festival\, with the hoisting of the flag.<br/><br/>## Details<br/>- [E
+ dit config file](https://github.com/jyotisham/adyatithi/blob/master/temple
+ s/Tamil/relative_event/tiruccendUr_AvaNit_tiruvizhA_nir2aivu/offset__-11/t
+ iruccendUr_murugan2_AvaNit_tiruvizhA_toDakkam_or_koDiyEr2r2am.toml)<br/>- 
+ Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -34147,10 +34174,12 @@ SUMMARY:तिरुच्चॆन्दूर् मुरुगऩ्
  आवणित् तिरुविऴा 2म् नाळ्
 DTSTART;VALUE=DATE:20220823
 DTEND;VALUE=DATE:20220824
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/temples/Tamil/relative_event/tiruccendUr_AvaNit_t
- iruvizhA_nir2aivu/offset__-10/tiruccendUr_murugan2_AvaNit_tiruvizhA_%23%23
- 2%23%23m_nAL.toml)<br/>- Tags: TamilnaduTempleFestivals
+DESCRIPTION:The Tiruchendur Brahmotsavam of Avani each year is very specia
+ l. The festival is conducted for twelve days. This marks the second day of
+  the festival.<br/><br/>## Details<br/>- [Edit config file](https://github
+ .com/jyotisham/adyatithi/blob/master/temples/Tamil/relative_event/tiruccen
+ dUr_AvaNit_tiruvizhA_nir2aivu/offset__-10/tiruccendUr_murugan2_AvaNit_tiru
+ vizhA_%23%232%23%23m_nAL.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -34311,11 +34340,13 @@ SUMMARY:तिरुच्चॆन्दूर् मुरुगऩ्
  रुगऩ् भवऩि
 DTSTART;VALUE=DATE:20220824
 DTEND;VALUE=DATE:20220825
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/temples/Tamil/relative_event/tiruccendUr_AvaNit_t
- iruvizhA_nir2aivu/offset__-9/tiruccendUr_murugan2_AvaNit_tiruvizhA_%23%233
- %23%23m_nAL%E2%80%94murugan2_bhavan2i.toml)<br/>- Tags: TamilnaduTempleFes
- tivals
+DESCRIPTION:The Tiruchendur Brahmotsavam of Avani each year is very specia
+ l. The festival is conducted for twelve days. This marks the third day of 
+ the festival\, when there is a procession.<br/><br/>## Details<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/temples/T
+ amil/relative_event/tiruccendUr_AvaNit_tiruvizhA_nir2aivu/offset__-9/tiruc
+ cendUr_murugan2_AvaNit_tiruvizhA_%23%233%23%23m_nAL%E2%80%94murugan2_bhava
+ n2i.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -34474,11 +34505,14 @@ SUMMARY:तिरुच्चॆन्दूर् मुरुगऩ्
  ाळ् भवऩि
 DTSTART;VALUE=DATE:20220825
 DTEND;VALUE=DATE:20220826
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/temples/Tamil/relative_event/tiruccendUr_AvaNit_t
- iruvizhA_nir2aivu/offset__-8/tiruccendUr_murugan2_AvaNit_tiruvizhA_%23%234
- %23%23m_nAL%E2%80%94yAn2ai_vAhanattil_murugan2-ambAL_bhavan2i.toml)<br/>- 
- Tags: TamilnaduTempleFestivals
+DESCRIPTION:The Tiruchendur Brahmotsavam of Avani each year is very specia
+ l. The festival is conducted for twelve days. This marks the fourth day of
+  the festival\, when both Subrahmanya and Ambal are taken out in processio
+ n on an elephant vāhanam.<br/><br/>## Details<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/blob/master/temples/Tamil/relative_ev
+ ent/tiruccendUr_AvaNit_tiruvizhA_nir2aivu/offset__-8/tiruccendUr_murugan2_
+ AvaNit_tiruvizhA_%23%234%23%23m_nAL%E2%80%94yAn2ai_vAhanattil_murugan2-amb
+ AL_bhavan2i.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -34635,10 +34669,12 @@ SUMMARY:तिरुच्चॆन्दूर् मुरुगऩ्
  आवणित् तिरुविऴा 5म् नाळ्
 DTSTART;VALUE=DATE:20220826
 DTEND;VALUE=DATE:20220827
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/temples/Tamil/relative_event/tiruccendUr_AvaNit_t
- iruvizhA_nir2aivu/offset__-7/tiruccendUr_murugan2_AvaNit_tiruvizhA_%23%235
- %23%23m_nAL.toml)<br/>- Tags: TamilnaduTempleFestivals
+DESCRIPTION:The Tiruchendur Brahmotsavam of Avani each year is very specia
+ l. The festival is conducted for twelve days. This marks the fifth day of 
+ the festival.<br/><br/>## Details<br/>- [Edit config file](https://github.
+ com/jyotisham/adyatithi/blob/master/temples/Tamil/relative_event/tiruccend
+ Ur_AvaNit_tiruvizhA_nir2aivu/offset__-7/tiruccendUr_murugan2_AvaNit_tiruvi
+ zhA_%23%235%23%23m_nAL.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -34837,11 +34873,13 @@ SUMMARY:तिरुच्चॆन्दूर् मुरुगऩ्
  ळ्ळित् तेर् भवऩि
 DTSTART;VALUE=DATE:20220827
 DTEND;VALUE=DATE:20220828
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/temples/Tamil/relative_event/tiruccendUr_AvaNit_t
- iruvizhA_nir2aivu/offset__-6/tiruccendUr_murugan2_AvaNit_tiruvizhA_%23%236
- %23%23m_nAL%E2%80%94veLLit_tEr_bhavan2i.toml)<br/>- Tags: TamilnaduTempleF
- estivals
+DESCRIPTION:The Tiruchendur Brahmotsavam of Avani each year is very specia
+ l. This marks the sixth day of the festival\, when there is a procession o
+ n a silver chariot.<br/><br/>## Details<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/blob/master/temples/Tamil/relative_event/tir
+ uccendUr_AvaNit_tiruvizhA_nir2aivu/offset__-6/tiruccendUr_murugan2_AvaNit_
+ tiruvizhA_%23%236%23%23m_nAL%E2%80%94veLLit_tEr_bhavan2i.toml)<br/>- Tags:
+  TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -35065,11 +35103,14 @@ SUMMARY:तिरुच्चॆन्दूर् मुरुगऩ्
  गप्पु चात्ति अलङ्कारम्
 DTSTART;VALUE=DATE:20220828
 DTEND;VALUE=DATE:20220829
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/temples/Tamil/relative_event/tiruccendUr_AvaNit_t
- iruvizhA_nir2aivu/offset__-5/tiruccendUr_murugan2_AvaNit_tiruvizhA_%23%237
- %23%23m_nAL%E2%80%94cigappu_cAtti_alaGkAram.toml)<br/>- Tags: TamilnaduTem
- pleFestivals
+DESCRIPTION:The Tiruchendur Brahmotsavam of Avani each year is very specia
+ l. The festival is conducted for twelve days. This marks the seventh day o
+ f the festival\; a unique decoration on this day is the 'sigappu satthi al
+ ankaram'.<br/><br/>## Details<br/>- [Edit config file](https://github.com/
+ jyotisham/adyatithi/blob/master/temples/Tamil/relative_event/tiruccendUr_A
+ vaNit_tiruvizhA_nir2aivu/offset__-5/tiruccendUr_murugan2_AvaNit_tiruvizhA_
+ %23%237%23%23m_nAL%E2%80%94cigappu_cAtti_alaGkAram.toml)<br/>- Tags: Tamil
+ naduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -35177,11 +35218,14 @@ SUMMARY:तिरुच्चॆन्दूर् मुरुगऩ्
  ्चै चात्ति अलङ्कारम्
 DTSTART;VALUE=DATE:20220829
 DTEND;VALUE=DATE:20220830
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/temples/Tamil/relative_event/tiruccendUr_AvaNit_t
- iruvizhA_nir2aivu/offset__-4/tiruccendUr_murugan2_AvaNit_tiruvizhA_%23%238
- %23%23m_nAL%E2%80%94paccai_cAtti_alaGkAram.toml)<br/>- Tags: TamilnaduTemp
- leFestivals
+DESCRIPTION:The Tiruchendur Brahmotsavam of Avani each year is very specia
+ l. The festival is conducted for twelve days. This marks the eighth day of
+  the festival. A unique decoration on this day is the most beautiful 'pach
+ ai satthi alankaram'.<br/><br/>## Details<br/>- [Edit config file](https:/
+ /github.com/jyotisham/adyatithi/blob/master/temples/Tamil/relative_event/t
+ iruccendUr_AvaNit_tiruvizhA_nir2aivu/offset__-4/tiruccendUr_murugan2_AvaNi
+ t_tiruvizhA_%23%238%23%23m_nAL%E2%80%94paccai_cAtti_alaGkAram.toml)<br/>- 
+ Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -35326,10 +35370,12 @@ SUMMARY:तिरुच्चॆन्दूर् मुरुगऩ्
  आवणित् तिरुविऴा 9म् नाळ्
 DTSTART;VALUE=DATE:20220830
 DTEND;VALUE=DATE:20220831
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/temples/Tamil/relative_event/tiruccendUr_AvaNit_t
- iruvizhA_nir2aivu/offset__-3/tiruccendUr_murugan2_AvaNit_tiruvizhA_%23%239
- %23%23m_nAL.toml)<br/>- Tags: TamilnaduTempleFestivals
+DESCRIPTION:The Tiruchendur Brahmotsavam of Avani each year is very specia
+ l. The festival is conducted for twelve days. This marks the ninth day of 
+ the festival.<br/><br/>## Details<br/>- [Edit config file](https://github.
+ com/jyotisham/adyatithi/blob/master/temples/Tamil/relative_event/tiruccend
+ Ur_AvaNit_tiruvizhA_nir2aivu/offset__-3/tiruccendUr_murugan2_AvaNit_tiruvi
+ zhA_%23%239%23%23m_nAL.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -35437,10 +35483,13 @@ SUMMARY:तिरुच्चॆन्दूर् मुरुगऩ्
  र्
 DTSTART;VALUE=DATE:20220831
 DTEND;VALUE=DATE:20220901
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/temples/Tamil/relative_event/tiruccendUr_AvaNit_t
- iruvizhA_nir2aivu/offset__-2/tiruccendUr_murugan2_AvaNit_tiruvizhA_%23%231
- 0%23%23m_nAL%E2%80%94tEr.toml)<br/>- Tags: TamilnaduTempleFestivals
+DESCRIPTION:The Tiruchendur Brahmotsavam of Avani each year is very specia
+ l. The festival is conducted for twelve days. This marks the tenth day of 
+ the festival\, where there is a chariot festival.<br/><br/>## Details<br/>
+ - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/te
+ mples/Tamil/relative_event/tiruccendUr_AvaNit_tiruvizhA_nir2aivu/offset__-
+ 2/tiruccendUr_murugan2_AvaNit_tiruvizhA_%23%2310%23%23m_nAL%E2%80%94tEr.to
+ ml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -35583,10 +35632,12 @@ SUMMARY:तिरुच्चॆन्दूर् मुरुगऩ्
  आवणित् तिरुविऴा 11म् नाळ्
 DTSTART;VALUE=DATE:20220901
 DTEND;VALUE=DATE:20220902
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/temples/Tamil/relative_event/tiruccendUr_AvaNit_t
- iruvizhA_nir2aivu/offset__-1/tiruccendUr_murugan2_AvaNit_tiruvizhA_%23%231
- 1%23%23m_nAL.toml)<br/>- Tags: TamilnaduTempleFestivals
+DESCRIPTION:The Tiruchendur Brahmotsavam of Avani each year is very specia
+ l. The festival is conducted for twelve days. This marks the 11th day of t
+ he festival.<br/><br/>## Details<br/>- [Edit config file](https://github.c
+ om/jyotisham/adyatithi/blob/master/temples/Tamil/relative_event/tiruccendU
+ r_AvaNit_tiruvizhA_nir2aivu/offset__-1/tiruccendUr_murugan2_AvaNit_tiruviz
+ hA_%23%2311%23%23m_nAL.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -35752,10 +35803,12 @@ SUMMARY:तिरुच्चॆन्दूर् आवणित् त
 DTSTART;VALUE=DATE:20220902
 DTEND;VALUE=DATE:20220903
 DESCRIPTION:Observed on Viśākhā nakshatra of Siṁhaḥ (sidereal solar
- ) month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit
-  config file](https://github.com/jyotisham/adyatithi/blob/master/temples/T
- amil/sidereal_solar_month/nakshatra/05/16/tiruccendUr_AvaNit_tiruvizhA_nir
- 2aivu.toml)<br/>- Tags: TamilnaduTempleFestivals
+ ) month (Prātaḥ/paraviddha). <br/><br/>The Tiruchendur Brahmotsavam of 
+ Avani each year is very special. The festival is conducted for twelve days
+ . This marks the final day of the festival.<br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/temples/
+ Tamil/sidereal_solar_month/nakshatra/05/16/tiruccendUr_AvaNit_tiruvizhA_ni
+ r2aivu.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -39468,10 +39521,11 @@ BEGIN:VEVENT
 SUMMARY:महालय-पक्ष-तर्पण-पूर्तिः
 DTSTART;VALUE=DATE:20220926
 DTEND;VALUE=DATE:20220927
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/devatA/pitR/relative_event/mahAlaya-pakSa-Arambha
- H/offset__16/mahAlaya-pakSa-tarpaNa-pUrtiH.toml)<br/>- Tags: SpecialPeriod
- End CommonFestivals
+DESCRIPTION:Mahalaya Paksha Tarpana of 16 days ends today.<br/><br/>## Det
+ ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/
+ master/devatA/pitR/relative_event/mahAlaya-pakSa-ArambhaH/offset__16/mahAl
+ aya-pakSa-tarpaNa-pUrtiH.toml)<br/>- Tags: SpecialPeriodEnd CommonFestival
+ s
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
