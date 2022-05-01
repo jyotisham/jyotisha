@@ -335,7 +335,7 @@ class SolarFestivalAssigner(FestivalAssigner):
                   'rasAdhipaH': 7,
                   'nIrasAdhipaH': 10}
 
-    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
+    for d in range(self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       if self.daily_panchaangas[d].solar_sidereal_date_sunset.month_transition is not None:
         sankranti_id = self.daily_panchaangas[d + 1].solar_sidereal_date_sunset.month
         if sankranti_id == 1:

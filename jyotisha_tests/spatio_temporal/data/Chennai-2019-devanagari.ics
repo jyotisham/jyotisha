@@ -921,12 +921,14 @@ DTSTART;VALUE=DATE:20190110
 DTEND;VALUE=DATE:20190111
 DESCRIPTION:Observed on Vyatīpātaḥ yoga of Dhanuḥ (sidereal solar) m
  onth (Prāktanāruṇōdayaḥ/puurvaviddha). <br/><br/>Special snānam on
-  account of mahādhanurvyatīpātam.<br/><br/>vyatīpāta mahābāhō sarv
- apāpapraṇāśana।  <br/>sahasrabāhō viśvātman gr̥hāṇārghya
- ṁ namō'stu tē॥<br/><br/><br/><br/>## Details<br/>- [Edit config file
- ](https://github.com/jyotisham/adyatithi/blob/master/time_focus/misc/sider
- eal_solar_month/yoga/09/17/mahAdhanurvyatIpAta-snAnam.toml)<br/>- Tags: Sp
- ecialSnanam
+  account of mahādhanurvyatīpātam. snānam on any vyatīpata day gives m
+ ahāpuṇyam\, more so in dhanurmāsa.<br/><br/>puṣyē ca janmanakṣatr
+ ē vyatīpātē ca vaidhr̥tau।  <br/>amāyāṁ ca nadīnānaṁ punāt
+ yāsaptamaṁ kulam॥  <br/>vyatīpāta mahābāhō sarvapāpapraṇāśa
+ na।  <br/>sahasrabāhō viśvātman gr̥hāṇārghyaṁ namō'stu tē
+ ॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.
+ com/jyotisham/adyatithi/blob/master/time_focus/misc/sidereal_solar_month/y
+ oga/09/17/mahAdhanurvyatIpAta-snAnam.toml)<br/>- Tags: SpecialSnanam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9307,16 +9309,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:guru-saṅkrāntiḥ
-DTSTART;VALUE=DATE:20190328
-DTEND;VALUE=DATE:20190329
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190329T133132
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190329T235957
 DESCRIPTION:Transition of Jupiter from one Rashi to another. When it is no
  t retrograde\, it also marks the beginning of a new Pushkara.<br/><br/>## 
  Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/bl
  ob/master/time_focus/sankrAnti/description_only/guru-saGkrAntiH.toml)<br/>
  - Tags: Sankranti
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -12530,16 +12529,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:guru-saṅkrāntiḥ
-DTSTART;VALUE=DATE:20190422
-DTEND;VALUE=DATE:20190423
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190423T074237
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190423T235957
 DESCRIPTION:Transition of Jupiter from one Rashi to another. When it is no
  t retrograde\, it also marks the beginning of a new Pushkara.<br/><br/>## 
  Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/bl
  ob/master/time_focus/sankrAnti/description_only/guru-saGkrAntiH.toml)<br/>
  - Tags: Sankranti
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -13286,10 +13282,14 @@ SUMMARY:gaṅgā-snānam
 DTSTART;VALUE=DATE:20190503
 DTEND;VALUE=DATE:20190504
 DESCRIPTION:Observed on Kr̥ṣṇa-Caturdaśī tithi of Caitraḥ (lunar)
-  month (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>-
-  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/dev
- atA/nadI/lunar_month/tithi/01/29/gaGgA-snAnam.toml)<br/>- Tags: LessCommon
- Festivals
+  month (Sūryōdayaḥ/puurvaviddha). <br/><br/>On the Krishna Chaturdashi
+  of Chaitra month\, whoever performs snāna in a Shiva Sannidhi\, or espec
+ ially in Ganga\, they do not atttain prētatvam.<br/><br/>caitrakr̥ṣṇ
+ acaturdaśyāṁ yaḥ snāyācchivasannidhau।  <br/>na prētatvamavāpn
+ ōti gaṅgāyāṁ ca viśēṣataḥ॥<br/><br/><br/><br/>## Details<br
+ />- References<br/>  - Vaidyanatha Dikshitiyam<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/blob/master/devatA/nadI/lunar_month/t
+ ithi/01/29/gaGgA-snAnam.toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -35795,16 +35795,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:guru-saṅkrāntiḥ
-DTSTART;VALUE=DATE:20191104
-DTEND;VALUE=DATE:20191105
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191105T024113
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191105T235957
 DESCRIPTION:Transition of Jupiter from one Rashi to another. When it is no
  t retrograde\, it also marks the beginning of a new Pushkara.<br/><br/>## 
  Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/bl
  ob/master/time_focus/sankrAnti/description_only/guru-saGkrAntiH.toml)<br/>
  - Tags: Sankranti
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
