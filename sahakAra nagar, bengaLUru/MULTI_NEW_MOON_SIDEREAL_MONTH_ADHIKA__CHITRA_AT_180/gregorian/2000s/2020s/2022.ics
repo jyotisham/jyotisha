@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220430232917
+SEQUENCE:20220501073536
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -2903,12 +2903,7 @@ BEGIN:VEVENT
 SUMMARY:तपो-मासः/शिशिरऋतुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220120T080904
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220121T000000
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/sankrAnti/description_only/tapO-mAsaH_
- _ziziraRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><br/><
- br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyat
- ithi/blob/master/time_focus/sankrAnti/description_only/tapO-mAsaH__ziziraR
- tuH.toml)<br/>- Tags: SunSankranti CommonFestivals
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -5808,12 +5803,12 @@ DTSTART;VALUE=DATE:20220211
 DTEND;VALUE=DATE:20220212
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/temples/Odisha/lunar_month/tithi/11/10/sAmba-daza
- mI__sUryapUjA.toml)<br/>- Tags: LessCommonFestivals OdishaTempleFestivals<
- br/><br/><br/><br/>## Details<br/>- References<br/>  - https://hindupad.co
- m/samba-dashami-2009-samba-dasami-or-surya-puja-in-orissa/<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/blob/master/temples/Odish
- a/lunar_month/tithi/11/10/sAmba-dazamI__sUryapUjA.toml)<br/>- Tags: LessCo
- mmonFestivals OdishaTempleFestivals
+ mI_or_sUryapUjA.toml)<br/>- Tags: LessCommonFestivals OdishaTempleFestival
+ s<br/><br/><br/><br/>## Details<br/>- References<br/>  - https://hindupad.
+ com/samba-dashami-2009-samba-dasami-or-surya-puja-in-orissa/<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/blob/master/temples/Odi
+ sha/lunar_month/tithi/11/10/sAmba-dazamI_or_sUryapUjA.toml)<br/>- Tags: Le
+ ssCommonFestivals OdishaTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5964,12 +5959,7 @@ BEGIN:VEVENT
 SUMMARY:सर्व-जया/भैमी-एकादशी
 DTSTART;VALUE=DATE:20220212
 DTEND;VALUE=DATE:20220213
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/jayA
- __bhaimI-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><
- br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
- adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/jayA__b
- haimI-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11274,12 +11264,7 @@ BEGIN:VEVENT
 SUMMARY:मधु-मासः/वसन्तऋतुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220320T210323
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220321T000000
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/sankrAnti/description_only/madhu-mAsaH
- __vasantaRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><br/
- ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
- atithi/blob/master/time_focus/sankrAnti/description_only/madhu-mAsaH__vasa
- ntaRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -15240,9 +15225,12 @@ BEGIN:VEVENT
 SUMMARY:विषुक्कऩि
 DTSTART;VALUE=DATE:20220414
 DTEND;VALUE=DATE:20220415
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/tamil/description_only/viSukkan2i.toml)<br/>- Tag
- s: CommonFestivals SunSankranti
+DESCRIPTION:To celebrate the new year\, first thing in the morning\, one s
+ ees the various symbols of prosperity (dhana\, dhaanya\, etc.---ornaments\
+ , grains\, fruits\, etc.) places in a vessel alongside a lamp and vigrahas
+ . Widely celebrated in Kerala and Tamil Nadu.<br/><br/>## Details<br/>- [E
+ dit config file](https://github.com/jyotisham/adyatithi/blob/master/tamil/
+ description_only/viSukkan2i.toml)<br/>- Tags: CommonFestivals SunSankranti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20739,12 +20727,7 @@ BEGIN:VEVENT
 SUMMARY:शुक्र-मासः/ग्रीष्मऋतुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220521T065233
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220522T000000
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/sankrAnti/description_only/zukra-mAsaH
- __grISmaRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><br/>
- <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
- tithi/blob/master/time_focus/sankrAnti/description_only/zukra-mAsaH__grISm
- aRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -25180,12 +25163,7 @@ BEGIN:VEVENT
 SUMMARY:शुचि-मासः/दक्षिणायनम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220621T144349
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220622T000000
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/sankrAnti/description_only/zuci-mAsaH_
- _dakSiNAyanam.toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><br/
- ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
- atithi/blob/master/time_focus/sankrAnti/description_only/zuci-mAsaH__dakSi
- NAyanam.toml)<br/>- Tags: SunSankranti CommonFestivals
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -29213,12 +29191,7 @@ BEGIN:VEVENT
 SUMMARY:नभो-मासः/वर्षऋतुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220723T013657
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220723T000000
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/sankrAnti/description_only/nabhO-mAsaH
- __varSaRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><br/><
- br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyat
- ithi/blob/master/time_focus/sankrAnti/description_only/nabhO-mAsaH__varSaR
- tuH.toml)<br/>- Tags: SunSankranti CommonFestivals
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -30087,22 +30060,26 @@ SUMMARY:सर्व-आषाढ (कर्कट) अमावास्
  )
 DTSTART;VALUE=DATE:20220728
 DTEND;VALUE=DATE:20220729
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/alab
- hya-nakSatra-amAvAsyA.toml)<br/>- Tags: AmavasyaDays<br/><br/><br/><br/>##
-  Details<br/>- References<br/>  - Vaidyanatha Dikshitiyam<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/mon
- thly/amAvAsyA/description_only/alabhya-nakSatra-amAvAsyA.toml)<br/>- Tags:
-  AmavasyaDays<br/><br/><br/><br/>It is said in the Smrtis\, that if Amavay
- sa falls on a Monday\, Tuesday or Thursday\, such a tithi is given the app
- ellation puṣkalā and is as sacred as a solar eclipse.<br/><br/>स्
- मृत्यन्तरे---  <br/>अमा सोमेन भौ
- मेन गुरुणा वा युता यदि।  <br/>सा
-  तिथिः पुष्कला नाम सूर्यग्र
- हणसन्निभा॥<br/><br/><br/><br/>## Details<br/>- Referen
- ces<br/>  - Vaidyanatha Dikshitiyam<br/>- [Edit config file](https://githu
- b.com/jyotisham/adyatithi/blob/master/time_focus/monthly/amAvAsyA/descript
- ion_only/puSkalA-amAvAsyA.toml)<br/>- Tags: AmavasyaDays
+DESCRIPTION:amāvāsyā of āṣāḍha month\, which also falls in the si
+ dereal solar month of kaṭaka.<br/><br/>## Details<br/>- [Edit config fil
+ e](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/a
+ mAvAsyA/description_only/ASADha_%28karkaTa%29_amAvAsyA.toml)<br/>- Tags: A
+ mavasyaDays<br/><br/><br/><br/>## Details<br/>- [Edit config file](https:/
+ /github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/amAvAsyA/de
+ scription_only/alabhya-nakSatra-amAvAsyA.toml)<br/>- Tags: AmavasyaDays<br
+ /><br/><br/><br/>## Details<br/>- References<br/>  - Vaidyanatha Dikshitiy
+ am<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/ma
+ ster/time_focus/monthly/amAvAsyA/description_only/alabhya-nakSatra-amAvAsy
+ A.toml)<br/>- Tags: AmavasyaDays<br/><br/><br/><br/>It is said in the Smrt
+ is\, that if Amavaysa falls on a Monday\, Tuesday or Thursday\, such a tit
+ hi is given the appellation puṣkalā and is as sacred as a solar eclipse
+ .<br/><br/>स्मृत्यन्तरे---  <br/>अमा सो
+ मेन भौमेन गुरुणा वा युता यदि
+ ।  <br/>सा तिथिः पुष्कला नाम सूर
+ ्यग्रहणसन्निभा॥<br/><br/><br/><br/>## Detail
+ s<br/>- References<br/>  - Vaidyanatha Dikshitiyam<br/>- [Edit config file
+ ](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/am
+ AvAsyA/description_only/puSkalA-amAvAsyA.toml)<br/>- Tags: AmavasyaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -36648,10 +36625,7 @@ BEGIN:VEVENT
 SUMMARY:विजया/श्रवण-महाद्वादशी
 DTSTART;VALUE=DATE:20220907
 DTEND;VALUE=DATE:20220908
-DESCRIPTION:Dvadashi tithi\, combined with Shravana nakshatra.<br/><br/>##
-  Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/b
- lob/master/time_focus/monthly/dvAdashI/description_only/vijayA__zravaNa-ma
- hAdvAdazI.toml)<br/>- Tags: RareDays Combinations SpecialVratam
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -38820,12 +38794,7 @@ BEGIN:VEVENT
 SUMMARY:इष-मासः/शरदृतुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220923T063340
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220924T000000
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/sankrAnti/description_only/iSa-mAsaH__
- zaradRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><br/><br
- />## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatit
- hi/blob/master/time_focus/sankrAnti/description_only/iSa-mAsaH__zaradRtuH.
- toml)<br/>- Tags: SunSankranti CommonFestivals
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -48158,12 +48127,7 @@ BEGIN:VEVENT
 SUMMARY:सहो-मासः/हेमन्तऋतुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221122T135028
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221123T000000
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/sankrAnti/description_only/sahO-mAsaH_
- _hEmantaRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><br/>
- <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
- tithi/blob/master/time_focus/sankrAnti/description_only/sahO-mAsaH__hEmant
- aRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -52103,12 +52067,7 @@ BEGIN:VEVENT
 SUMMARY:सहस्य-मासः/उत्तरायणम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221222T031810
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221222T000000
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/sankrAnti/description_only/sahasya-mAs
- aH__uttarAyaNam.toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><b
- r/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/a
- dyatithi/blob/master/time_focus/sankrAnti/description_only/sahasya-mAsaH__
- uttarAyaNam.toml)<br/>- Tags: SunSankranti CommonFestivals
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
