@@ -62,6 +62,10 @@ def emit(panchaanga, time_format="hh:mm", languages=None, scripts=None, output_s
 
   daily_panchaangas = panchaanga.daily_panchaangas_sorted()
   for d, daily_panchaanga in enumerate(daily_panchaangas):
+    if d == 0:
+      previous_day_panchaanga = None
+    else:
+      previous_day_panchaanga = daily_panchaangas[d - 1]
     if daily_panchaanga.date < panchaanga.start_date or daily_panchaanga.date > panchaanga.end_date:
       continue
     [y, m, dt] = [daily_panchaanga.date.year, daily_panchaanga.date.month, daily_panchaanga.date.day]
@@ -72,17 +76,17 @@ def emit(panchaanga, time_format="hh:mm", languages=None, scripts=None, output_s
     tz_off = (datetime.utcoffset(local_time).days * 86400 +
               datetime.utcoffset(local_time).seconds) / 3600.0
 
-    tithi_data_str = get_tithi_data_str(daily_panchaanga, scripts, time_format)
+    tithi_data_str = get_tithi_data_str(daily_panchaanga, scripts, time_format, previous_day_panchaanga, include_early_end_angas=True)
 
-    nakshatra_data_str = get_nakshatra_data_str(daily_panchaanga, scripts, time_format)
+    nakshatra_data_str = get_nakshatra_data_str(daily_panchaanga, scripts, time_format, previous_day_panchaanga, include_early_end_angas=True)
+
+    yoga_data_str = get_yoga_data_str(daily_panchaanga, scripts, time_format, previous_day_panchaanga, include_early_end_angas=True)
+
+    karana_data_str = get_karaNa_data_str(daily_panchaanga, scripts, time_format, previous_day_panchaanga, include_early_end_angas=True)
 
     rashi_data_str = get_raashi_data_str(daily_panchaanga, scripts, time_format)
     
     lagna_data_str = get_lagna_data_str(daily_panchaanga, scripts, time_format) if compute_lagnams else ''
-
-    yoga_data_str = get_yoga_data_str(daily_panchaanga, scripts, time_format)
-
-    karana_data_str = get_karaNa_data_str(daily_panchaanga, scripts, time_format)
 
     gulika, rahu, yama, raatri_gulika, raatri_yama, durmuhurta1, durmuhurta2 = get_raahu_yama_gulika_strings(daily_panchaanga, time_format)
 
