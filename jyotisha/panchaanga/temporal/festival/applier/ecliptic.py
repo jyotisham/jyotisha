@@ -181,7 +181,9 @@ class EclipticFestivalAssigner(FestivalAssigner):
       for i, transit in enumerate(transits):
         (jd_transit, rashi1, rashi2) = (transit.jd, transit.value_1, transit.value_2)
         if self.panchaanga.jd_start - 13 < jd_transit < jd_end:
-          fday = int(floor(jd_transit) - floor(self.daily_panchaangas[0].julian_day_start))
+          fday = int(jd_transit - self.daily_panchaangas[0].julian_day_start)
+          # if jd_transit < self.daily_panchaangas[fday].julian_day_start:
+          #   fday -= 1
           fest = TransitionFestivalInstance(name='guru-saGkrAntiH', 
             status_1_hk=names.NAMES['RASHI_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][rashi1], 
             status_2_hk=names.NAMES['RASHI_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][rashi2], interval
