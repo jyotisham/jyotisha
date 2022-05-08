@@ -1,3 +1,4 @@
+import logging
 import jyotisha
 from jyotisha import custom_transliteration
 from jyotisha.panchaanga.temporal import time, names
