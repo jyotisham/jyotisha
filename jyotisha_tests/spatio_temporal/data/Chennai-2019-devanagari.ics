@@ -15157,15 +15157,33 @@ BEGIN:VEVENT
 SUMMARY:nr̥siṁha-jayantī
 DTSTART;VALUE=DATE:20190517
 DTEND;VALUE=DATE:20190518
-DESCRIPTION:Observed on Śukla-Caturdaśī tithi of Vaiśākhaḥ (lunar) 
- month (Sūryāstamayaḥ/puurvaviddha). <br/><br/>Monday Swati?<br/><br/>v
- aiśākhē śuklapakṣē tu caturdaśyāminē'stagē।  <br/>udbabhūvā
- suradvēṣī nr̥siṁhō bhaktavatsalaḥ॥  <br/>avatāradinē puṇy
- ē harimuddiśya bhaktitaḥ।  <br/>upavāsādi yat kiñcittadānantyāy
- a kalpatē॥<br/><br/><br/><br/>## Details<br/>- References<br/>  - Vaidy
- anatha Dikshitiyam (SVR) p.62<br/>- [Edit config file](https://github.com/
- jyotisham/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/02/14/n
- RsiMha~jayantI.toml)<br/>- Tags: Dashavataram CommonFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/02/14/nRsiMha~
+ jayantI.toml)<br/>- Tags: Dashavataram CommonFestivals<br/><br/><br/><br/>
+ ## Details<br/>- References<br/>  - Vaidyanatha Dikshitiyam (SVR) p.62<br/
+ >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/d
+ evatA/vaiShNava/lunar_month/tithi/02/14/nRsiMha~jayantI.toml)<br/>- Tags: 
+ Dashavataram CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:vaiśākha-māsa-antimatrayatithi-vrata-ārambhaḥ
+DTSTART;VALUE=DATE:20190517
+DTEND;VALUE=DATE:20190518
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/02/13/vaizAkha-mAsa-ant
+ imatrayatithi-vrata-ArambhaH.toml)<br/>- Tags: LessCommonFestivals<br/><br
+ /><br/><br/>## Details<br/>- References<br/>  - skAnda mahApurANe vaiSNava
+ khaNDE vaizAkhamAhAtmyE paJcaviMSO.adhyAyaH<br/>- [Edit config file](https
+ ://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/02
+ /13/vaizAkha-mAsa-antimatrayatithi-vrata-ArambhaH.toml)<br/>- Tags: LessCo
+ mmonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15441,6 +15459,39 @@ DESCRIPTION:Observed on Viśākhā nakshatra of Vr̥ṣabhaḥ (sidereal s
  r/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/a
  dyatithi/blob/master/devatA/kaumAra/sidereal_solar_month/nakshatra/02/16/v
  aikAci~vizAkham.toml)<br/>- Tags: TamilnaduTempleFestivals CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:vaiśākha-māsaḥantimatrayatithi-vratam
+DTSTART;VALUE=DATE:20190516
+DTEND;VALUE=DATE:20190519
+DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:vaiśākha-māsa-antimatrayatithi-vrata-samāpanam
+DTSTART;VALUE=DATE:20190518
+DTEND;VALUE=DATE:20190519
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/02/15/vaizAkha-mAsa-ant
+ imatrayatithi-vrata-samApanam.toml)<br/>- Tags: LessCommonFestivals<br/><b
+ r/><br/><br/>## Details<br/>- References<br/>  - skAnda mahApurANe vaiSNav
+ akhaNDE vaizAkhamAhAtmyE paJcaviMSO.adhyAyaH<br/>- [Edit config file](http
+ s://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/0
+ 2/15/vaizAkha-mAsa-antimatrayatithi-vrata-samApanam.toml)<br/>- Tags: Less
+ CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
