@@ -20,6 +20,6 @@ Werkzeug
 jyotisha
 timebudget
 Flask
-pypandoc==1.7.5
+pypandoc
 setuptools
 python-telegram-bot

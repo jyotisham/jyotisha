@@ -20,7 +20,7 @@ long_description = ''
 try:
   import pypandoc
 
-  long_description = pypandoc.convert(source='README.md', to='rst', format='markdown_github')
+  long_description = pypandoc.convert_file(source_file='README.md', to='rst', format='markdown_github')
 except (IOError, ImportError):
   long_description = ''
 
