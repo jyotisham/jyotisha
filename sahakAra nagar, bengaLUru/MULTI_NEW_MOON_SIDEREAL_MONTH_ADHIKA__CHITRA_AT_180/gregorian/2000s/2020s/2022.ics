@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220526094528
+SEQUENCE:20220526132014
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -5904,6 +5904,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:वैरागि-मोचन-वार्ता #५६२
+DTSTART;VALUE=DATE:20220211
+DTEND;VALUE=DATE:20220212
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/02/02/vairAgi-
+ mochana-vArtA.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruS
+ ha/xatra-later/julian/day/02/02/vairAgi-mochana-vArtA.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:माघः-11-11  \,  मिथुनम्-आर्द्र
  ा🌛🌌  \,  मकरः-श्रविष्ठा-10-30🌞🌌  \
  ,  तपः-11-24🌞🪐  \,  शनिः
@@ -8822,6 +8839,24 @@ DESCRIPTION:Observed on Śukla-Prathamā tithi of Phālgunaḥ (lunar) mon
  tails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob
  /master/general/lunar_month/tithi/12/01/aditi-payOvrata-ArambhaH.toml)<br/
  >- Tags: VratamStart SpecialPeriodStart
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:चित्तोर-मन्दिर-नाशः #३४२
+DTSTART;VALUE=DATE:20220303
+DTEND;VALUE=DATE:20220304
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/02/22/chittora
+ -mandira-nAshaH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Ed
+ it config file](https://github.com/jyotisham/adyatithi/blob/master/mahApur
+ uSha/xatra-later/julian/day/02/22/chittora-mandira-nAshaH.toml)<br/>- Tags
+ :
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15845,6 +15880,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:गदा-बेग-मारणम् #३५२
+DTSTART;VALUE=DATE:20220417
+DTEND;VALUE=DATE:20220418
+DESCRIPTION:Event occured on 1670-04-17 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. <br/><br/>News came from Malwa that W
+ azir Khan had sent Gada Beg\, a slave\, with 400 troopers\, to destroy all
+  temples around Ujjain. A Rawat of the place resisted and slew Gada Beg wi
+ th 121 of his men.<br/><br/>## Details<br/>- [Edit config file](https://gi
+ thub.com/jyotisham/adyatithi/blob/master/mahApuruSha/xatra-later/julian/da
+ y/04/07/gada-bega-mAraNam.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:जाट-राजारामो हतः #३३४
 DTSTART;VALUE=DATE:20220417
 DTEND;VALUE=DATE:20220418
@@ -18307,6 +18361,25 @@ DESCRIPTION:The start of the period agninakṣatram\, the transit of the S
  e](https://github.com/jyotisham/adyatithi/blob/master/time_focus/nakShatra
  /description_only/agninakSatra-ArambhaH.toml)<br/>- Tags: SpecialPeriodSta
  rt
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:जोध-पुर-मन्दिरावशेष-हरणम
+ ् #३४३
+DTSTART;VALUE=DATE:20220505
+DTEND;VALUE=DATE:20220506
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/04/25/jodhapur
+ a-mandirAvasheSha-haraNam.toml)<br/>- Tags: <br/><br/><br/><br/>## Details
+ <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
+ er/mahApuruSha/xatra-later/julian/day/04/25/jodhapura-mandirAvasheSha-hara
+ Nam.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -32678,6 +32751,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:सोमेश्वर-मन्दिर-नाशः #३४
+ २
+DTSTART;VALUE=DATE:20220812
+DTEND;VALUE=DATE:20220813
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/08/02/someshva
+ ra-mandira-nAshaH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [
+ Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahAp
+ uruSha/xatra-later/julian/day/08/02/someshvara-mandira-nAshaH.toml)<br/>- 
+ Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20220812
 DTEND;VALUE=DATE:20220813
@@ -37638,6 +37730,26 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
  b/master/mahApuruSha/xatra-later/gregorian/day/09/12/rAdhAvinoda-pAlena_uS
  huShAputra-raxA.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:विश्वनाथ-मन्दिर-नाश-वार्
+ ता #३५३
+DTSTART;VALUE=DATE:20220912
+DTEND;VALUE=DATE:20220913
+DESCRIPTION:Event occured on 1669-09-12 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. <br/><br/>News came to Court that acc
+ ording to the Emperor (Awrangzeb)’s command\, his officers had demolishe
+ d the temple of Vishwanath at Benares.<br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/x
+ atra-later/julian/day/09/02/vishvanAtha-mandira-nAsha-vArtA.toml)<br/>- Ta
+ gs:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -49578,6 +49690,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:लाट-मन्दिर-पुनर्-नाशः #३५
+ ७
+DTSTART;VALUE=DATE:20221130
+DTEND;VALUE=DATE:20221201
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/11/20/gujarAt-
+ temple-redestruction.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>
+ - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/ma
+ hApuruSha/xatra-later/julian/day/11/20/gujarAt-temple-redestruction.toml)<
+ br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-08  \,  कुम्भः-
  पूर्वप्रोष्ठपदा🌛🌌  \,  वृश्च
  िकः-अनूराधा-08-15🌞🌌  \,  सहः-09-10🌞🪐
@@ -53356,6 +53487,27 @@ DESCRIPTION:- Indian civil date: 1944-10-08\, Islamic: 1444-06-05 Jumādā
  ालः**—09:32-10:57  \n___________________\n- **शूलम्**—
  दक्षिणा (►14:14)\; **परिहारः**–तैल
  म्  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:कच-विहार-मन्दिर-नाशः #३६१
+DTSTART;VALUE=DATE:20221229
+DTEND;VALUE=DATE:20221230
+DESCRIPTION:Event occured on 1661-12-29 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. <br/><br/>On Dec 19\, 1661\, Mir Juml
+ a (general of Awrangzeb) entered the city of Cooch-Bihar\, which had been 
+ evacuated by its king and people\, and appointed Sayyid Mohammed\, Sadiq t
+ o be chief judge\, with directions to destroy all the Hindu temples and to
+  erect mosques in their stead. Mir Jumla himself with a battle-axe broke t
+ he image of Narayan.<br/><br/>## Details<br/>- [Edit config file](https://
+ github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xatra-later/julian/
+ day/12/19/cooch-bihAr-temple-destruction.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
