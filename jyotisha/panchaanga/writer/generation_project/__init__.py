@@ -78,6 +78,8 @@ def dump_summary(year, city, script=sanscript.DEVANAGARI, computation_system=Com
 
 
 def get_canonical_path(city, computation_system_str, year, year_type=era.ERA_GREGORIAN, output_dir=output_dir):
+  if isinstance(year, str):
+    year = int(year)
   out_path = os.path.join(output_dir, city, computation_system_str, year_type,
                           '%02d00s/%03d0s/%04d' % (int(year / 100), int(year / 10), year))
   return out_path

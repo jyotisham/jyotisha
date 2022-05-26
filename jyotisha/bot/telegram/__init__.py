@@ -14,18 +14,22 @@ def send_panchaanga(city, channel_id, token, computation_system_str, md_url_base
   if date_str is None:
     today = city.get_timezone_obj().current_time()
     date_str = "%04d-%02d-%02d" % (today.year, today.month, today.day)
+    year = int(today.year)
+  else:
+    year = int(date_str[:4])
   if next_day:
     tomorrow = datetime.strptime(date_str, "%Y-%m-%d") + timedelta(days=1)
     date_str = "%04d-%02d-%02d" % (tomorrow.year, tomorrow.month, tomorrow.day)
+    year = int(tomorrow.year)
   import urllib
   city_url_segment = urllib.parse.quote(city.name)
-  out_path_md = get_canonical_path(city=city_url_segment, computation_system_str=computation_system_str, year=today.year, year_type=era.ERA_GREGORIAN, output_dir=md_url_base)
+  out_path_md = get_canonical_path(city=city_url_segment, computation_system_str=computation_system_str, year=year, year_type=era.ERA_GREGORIAN, output_dir=md_url_base)
 
   md_url = "%s_monthly/%s/%s.md" % (out_path_md, date_str[:7], date_str)
 
   city_url_segment = regex.sub("[^a-zA-Z]+", "-", city.name)
-  out_path_html = get_canonical_path(city=city_url_segment, computation_system_str=computation_system_str, year=today.year, year_type=era.ERA_GREGORIAN, output_dir=html_url_base)
-  html_url = "%s_monthly/%04d-%02d/%04d-%02d-%02d" % (out_path_html, today.year, today.month, today.year, today.month, today.day)
+  out_path_html = get_canonical_path(city=city_url_segment, computation_system_str=computation_system_str, year=year, year_type=era.ERA_GREGORIAN, output_dir=html_url_base)
+  html_url = "%s_monthly/%s/%s" % (out_path_html,  date_str[:7], date_str)
   logging.info("md_url: %s" % md_url)
   logging.info("html_url: %s" % html_url)
   md = "%s\n\n%s" % (html_url, urlopen(md_url).read().decode("utf-8"))
