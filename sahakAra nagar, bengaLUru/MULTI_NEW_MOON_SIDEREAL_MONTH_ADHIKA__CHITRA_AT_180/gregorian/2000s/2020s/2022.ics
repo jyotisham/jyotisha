@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220526132014
+SEQUENCE:20220606203346
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -13875,6 +13875,24 @@ DESCRIPTION:Observed on Rōhiṇī nakshatra of Mīnaḥ (sidereal solar)
  onfig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha
  /nAyanAr/sidereal_solar_month/nakshatra/12/04/nEca_nAyan2Ar_%2858%29_gurup
  Ujai.toml)<br/>- Tags: NayanarGurupujai
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:राजपाल-महाशयो हतः #९३
+DTSTART;VALUE=DATE:20220406
+DTEND;VALUE=DATE:20220407
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/04/06/rAjap
+ Ala-mahAshayo_hataH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mah
+ ApuruSha/xatra-later/gregorian/day/04/06/rAjapAla-mahAshayo_hataH.toml)<br
+ />- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
