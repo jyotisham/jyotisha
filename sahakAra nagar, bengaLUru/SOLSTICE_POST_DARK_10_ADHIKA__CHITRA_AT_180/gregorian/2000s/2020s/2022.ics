@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220606203757
+SEQUENCE:20220607082231
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -11151,10 +11151,12 @@ DTSTART;VALUE=DATE:20220614
 DTEND;VALUE=DATE:20220615
 DESCRIPTION:Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) mon
  th (Sūryōdayaḥ/puurvaviddha). <br/><br/>Offer bali to serpents on (fro
- m) this day\, in the night after sthālīpāka.<br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhy
- a/Apastamba/lunar_month/tithi/05/15/sarpa-bali-prArambhaH.toml)<br/>- Tags
- : LessCommonFestivals
+ m) this day\, in the night after sthālīpāka.<br/><br/>प्रक्
+ रिया [ऽत्र](https://vishvasa.github.io/vedAH_yajuH/taittir
+ Iyam/sUtram/ApastambaH/gRhyam/karmANi/sarpa-baliH/) ।<br/><br/>## Detail
+ s<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mas
+ ter/gRhya/Apastamba/lunar_month/tithi/05/15/sarpa-bali-prArambhaH.toml)<br
+ />- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18955,10 +18957,12 @@ DTSTART;VALUE=DATE:20221009
 DTEND;VALUE=DATE:20221010
 DESCRIPTION:Observed on Paurṇamāsī tithi of Mārgaśīrṣaḥ (lunar)
   month (Sūryōdayaḥ/puurvaviddha). <br/><br/>Offer final bali to serpen
- ts on to this day\, in the night after sthālīpāka.<br/><br/>## Details<
- br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/maste
- r/gRhya/Apastamba/lunar_month/tithi/09/15/sarpa-bali-utsarjanam.toml)<br/>
- - Tags: LessCommonFestivals
+ ts on to this day\, in the night after sthālīpāka.<br/><br/>प्र
+ क्रिया [ऽत्र](https://vishvasa.github.io/vedAH_yajuH/t
+ aittirIyam/sUtram/ApastambaH/gRhyam/karmANi/sarpa-baliH/) ।<br/><br/>## 
+ Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/bl
+ ob/master/gRhya/Apastamba/lunar_month/tithi/09/15/sarpa-bali-utsarjanam.to
+ ml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20994,19 +20998,12 @@ SUMMARY:तैत्तिरीय-उत्सर्गः पौर्
  णमास्याम्
 DTSTART;VALUE=DATE:20221108
 DTEND;VALUE=DATE:20221109
-DESCRIPTION:Observed on Paurṇamāsī tithi of Pauṣaḥ (lunar) month (
- Sūryōdayaḥ/puurvaviddha). <br/><br/>## आपस्तम्बसू
- त्रेषु<br/>तैषीपक्षस्य रोहिण
- ्यां पौर्णमास्यां वोत्सर्ग
- ः ८  <br/>अभिप्यन्ते +++(=प्रार्थय
- न्ते [स्नानादिकं सहैव कर्तु
- ं])+++ वान्योन्यम् १६<br/><br/>… एवं 
- पारायण+++(=यथारुच्यध्ययनमिति
-  केचित्)+++समाप्तौ च - काण्डाद
- ि दूर्वारोपणोदधि-धावनवर्जम
- ् २४<br/><br/>## Details<br/>- [Edit config file](https://github.com
- /jyotisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/10/15/t
- aittirIya-utsargaH_paurNamAsyAm.toml)<br/>- Tags: CommonFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/10/15/taittirIy
+ a-utsargaH_paurNamAsyAm.toml)<br/>- Tags: CommonFestivals<br/><br/><br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/blob/master/gRhya/Apastamba/lunar_month/tithi/10/15/taittirIya-utsarga
+ H_paurNamAsyAm.toml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21199,19 +21196,12 @@ SUMMARY:तैत्तिरीय-उत्सर्गो रोहि
  ण्याम्
 DTSTART;VALUE=DATE:20221110
 DTEND;VALUE=DATE:20221111
-DESCRIPTION:Observed on Rōhiṇī nakshatra of Pauṣaḥ (lunar) month (
- Sūryōdayaḥ/puurvaviddha). <br/><br/>## आपस्तम्बसू
- त्रेषु<br/>तैषीपक्षस्य रोहिण
- ्यां पौर्णमास्यां वोत्सर्ग
- ः ८  <br/>अभिप्यन्ते +++(=प्रार्थय
- न्ते [स्नानादिकं सहैव कर्तु
- ं])+++ वान्योन्यम् १६<br/><br/>… एवं 
- पारायण+++(=यथारुच्यध्ययनमिति
-  केचित्)+++समाप्तौ च - काण्डाद
- ि दूर्वारोपणोदधि-धावनवर्जम
- ् २४<br/><br/>## Details<br/>- [Edit config file](https://github.com
- /jyotisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/nakshatra/10/
- 04/taittirIya-utsargo_rohiNyAm.toml)<br/>- Tags: CommonFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/gRhya/Apastamba/lunar_month/nakshatra/10/04/taitt
+ irIya-utsargo_rohiNyAm.toml)<br/>- Tags: CommonFestivals<br/><br/><br/><br
+ />## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatit
+ hi/blob/master/gRhya/Apastamba/lunar_month/nakshatra/10/04/taittirIya-utsa
+ rgo_rohiNyAm.toml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
