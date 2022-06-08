@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220607082754
+SEQUENCE:20220608110619
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -74,6 +74,26 @@ DESCRIPTION:Observed on Kr̥ṣṇa-Caturdaśī tithi of every (lunar) mon
  # Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/
  blob/master/devatA/shaiva/lunar_month/tithi/00/29/mAsazivarAtriH.toml)<br/
  >- Tags: MonthlyFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:मरून्मत्तैः इण्डियन्-एक
+ ्स्प्रॆस्-पत्रिका-कार्यालय
+ े कोलाहलम् #२२
+DTSTART;VALUE=DATE:20220101
+DTEND;VALUE=DATE:20220102
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/01/01/musli
+ m-riot_against_indian_express.toml)<br/>- Tags: <br/><br/><br/><br/>## Det
+ ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/
+ master/mahApuruSha/xatra-later/gregorian/day/01/01/muslim-riot_against_ind
+ ian_express.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -50622,6 +50642,26 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Mārgaśīrṣaḥ (lunar)
  ti Kaustubha p.306<br/>- [Edit config file](https://github.com/jyotisham/a
  dyatithi/blob/master/general/lunar_month/tithi/09/15/mArgazIrSa-pUrNimA.to
  ml)<br/>- Tags: PurnimaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:मरून्मत्तैः डॆक्कन-हॆरा
+ ल्ड्-पत्रिका-कार्यालयो दग्
+ धः #३६
+DTSTART;VALUE=DATE:20221207
+DTEND;VALUE=DATE:20221208
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/12/07/musli
+ ms_burn_deccan-herald-office.toml)<br/>- Tags: <br/><br/><br/><br/>## Deta
+ ils<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/m
+ aster/mahApuruSha/xatra-later/gregorian/day/12/07/muslims_burn_deccan-hera
+ ld-office.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
