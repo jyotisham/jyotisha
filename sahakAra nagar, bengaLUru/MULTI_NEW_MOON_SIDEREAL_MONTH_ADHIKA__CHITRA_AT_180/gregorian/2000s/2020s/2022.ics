@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220608110619
+SEQUENCE:20220610135518
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -30413,6 +30413,24 @@ DESCRIPTION:Very widely celebrated in Tamil Nadu temples\, Fridays in the
  ils<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/m
  aster/tamil/description_only/ADi~veLLikkizhamai.toml)<br/>- Tags: MonthWee
  kdayFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:बॆङ्गळूरु-गणपति-कलहः #९४
+DTSTART;VALUE=DATE:20220729
+DTEND;VALUE=DATE:20220730
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/07/29/benga
+ LUru-gaNapati-riots.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mah
+ ApuruSha/xatra-later/gregorian/day/07/29/bengaLUru-gaNapati-riots.toml)<br
+ />- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
