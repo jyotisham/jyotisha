@@ -137,5 +137,8 @@ def transliterate_from_language(text, language, script):
   else:
     source_script = language_code_to_script[language]
     transliterated_text = sanscript.transliterate(data=text, _from=source_script, _to=script, togglers={'##'})
+    if script == sanscript.TAMIL:
+      transliterated_text = sanscript.SCHEMES[sanscript.TAMIL].apply_roman_numerals(transliterated_text)
+
   return transliterated_text
 
