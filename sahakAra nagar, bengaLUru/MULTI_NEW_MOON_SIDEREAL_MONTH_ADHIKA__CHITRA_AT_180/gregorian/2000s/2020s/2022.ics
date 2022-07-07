@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220707081837
+SEQUENCE:20220707100147
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -25124,6 +25124,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:खाण्डेराव-ग्रहणम् #२६१
+DTSTART;VALUE=DATE:20220620
+DTEND;VALUE=DATE:20220621
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/06/20/khAND
+ e-rAva-grahaNam.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Ed
+ it config file](https://github.com/jyotisham/adyatithi/blob/master/mahApur
+ uSha/xatra-later/gregorian/day/06/20/khANDe-rAva-grahaNam.toml)<br/>- Tags
+ :
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:पञ्च-पर्व-पूजा (अष्टमी)
 DTSTART;VALUE=DATE:20220620
 DTEND;VALUE=DATE:20220621
@@ -26831,6 +26849,25 @@ DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially
  - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/te
  mples/Tamil/relative_event/naTarAjar_An2i_tirumaJcan2am/offset__-3/cidamba
  rE_kailAsa_vAhanam.toml)<br/>- Tags: TamilnaduTempleFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:द्वितीयं नञ्जराजवञ्चनं 
+ हैदरेण #२६१
+DTSTART;VALUE=DATE:20220703
+DTEND;VALUE=DATE:20220704
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/07/03/dvitI
+ yaM_nanjarAja-vanchanaM_haidareNa.toml)<br/>- Tags: <br/><br/><br/><br/>##
+  Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/b
+ lob/master/mahApuruSha/xatra-later/gregorian/day/07/03/dvitIyaM_nanjarAja-
+ vanchanaM_haidareNa.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -34813,6 +34850,25 @@ DESCRIPTION:Observed on Amāvāsyā tithi of Śrāvaṇaḥ (lunar) month
  (Āśvinaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit confi
  g file](https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparv
  a/lunar_month/tithi/05/30/devi-parva-5.toml)<br/>- Tags: Devi Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:खाण्डेरावेण हैदरमोचनम् #
+ २६२
+DTSTART;VALUE=DATE:20220826
+DTEND;VALUE=DATE:20220827
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/08/26/khAND
+ e-rAveNa_haidara-mochanam.toml)<br/>- Tags: <br/><br/><br/><br/>## Details
+ <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
+ er/mahApuruSha/xatra-later/gregorian/day/08/26/khANDe-rAveNa_haidara-mocha
+ nam.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -51778,6 +51834,25 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  /adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/09/23/kA
  JcI_4_jagadguru_zrI~satyabOdhEndra_sarasvatI_ArAdhanA.toml)<br/>- Tags: Ka
  nchiAradhanaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:खाण्डेरावेण गॆज्जलहळ्ळ
+ ि-युद्धे जयः #२६२
+DTSTART;VALUE=DATE:20221216
+DTEND;VALUE=DATE:20221217
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/12/16/khAND
+ e-rAveNa_gejjalahaLLi-yuddhe_jayaH.toml)<br/>- Tags: <br/><br/><br/><br/>#
+ # Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/
+ blob/master/mahApuruSha/xatra-later/gregorian/day/12/16/khANDe-rAveNa_gejj
+ alahaLLi-yuddhe_jayaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
