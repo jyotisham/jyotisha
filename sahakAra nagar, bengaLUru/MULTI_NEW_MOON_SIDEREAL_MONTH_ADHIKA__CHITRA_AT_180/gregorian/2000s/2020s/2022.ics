@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220703085427
+SEQUENCE:20220707081837
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -43213,6 +43213,23 @@ DESCRIPTION:- Indian civil date: 1944-07-28\, Islamic: 1444-03-24 Rabīʿ
  ालः**—09:09-10:36  \n___________________\n- **शूलम्**—
  दक्षिणा (►14:01)\; **परिहारः**–तैल
  म्  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:बनास-युद्धम् #५७६
+DTSTART;VALUE=DATE:20221020
+DTEND;VALUE=DATE:20221021
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/10/11/banAsa-y
+ uddham.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit config
+  file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xatr
+ a-later/julian/day/10/11/banAsa-yuddham.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
