@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220719111209
+SEQUENCE:20220721235348
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -20762,6 +20762,25 @@ DESCRIPTION:Observed on Kr̥ṣṇa-Pañcamī tithi of Vaiśākhaḥ (luna
  it config file](https://github.com/jyotisham/adyatithi/blob/master/mahApur
  uSha/RShi/lunar_month/tithi/02/20/kazyapa~maharSi~jayantI.toml)<br/>- Tags
  : MahapurushaEvents
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:तैमूरेण देहली-ग्रहणम् #६
+ २४
+DTSTART;VALUE=DATE:20220520
+DTEND;VALUE=DATE:20220521
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/05/12/taimUreN
+ a_dehalI-grahaNam.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [
+ Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahAp
+ uruSha/xatra-later/julian/day/05/12/taimUreNa_dehalI-grahaNam.toml)<br/>- 
+ Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -47981,6 +48000,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:तैमूरेण भट्नेर-ग्रहणम् #
+ ६२४
+DTSTART;VALUE=DATE:20221118
+DTEND;VALUE=DATE:20221119
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/11/10/taimUreN
+ a_bhaTera-durga-grahaNam.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<
+ br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/maste
+ r/mahApuruSha/xatra-later/julian/day/11/10/taimUreNa_bhaTera-durga-grahaNa
+ m.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:वैधृति-श्राद्धम्
 DTSTART;VALUE=DATE:20221118
 DTEND;VALUE=DATE:20221119
@@ -52137,6 +52175,23 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  om/jyotisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_on
  ly/Adityahasta-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSi
  ddhiYogaDays
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:तैमूरेण लोनि-हत्या #६२४
+DTSTART;VALUE=DATE:20221218
+DTEND;VALUE=DATE:20221219
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/12/10/taimUreN
+ a_loni-hatyA.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSh
+ a/xatra-later/julian/day/12/10/taimUreNa_loni-hatyA.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
