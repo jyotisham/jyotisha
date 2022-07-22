@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220721235348
+SEQUENCE:20220722155424
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -29595,25 +29595,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  bhu-vIra-gatiH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edi
  t config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuru
  Sha/xatra-later/julian/day/07/13/bAjI-prabhu-vIra-gatiH.toml)<br/>- Tags:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:बाजि-प्रभुस् सिद्दि-मसूद
- म् अरुणत् #३६२
-DTSTART;VALUE=DATE:20220723
-DTEND;VALUE=DATE:20220724
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/07/13/bAji-pra
- bhus_siddi-masUdam_aruNat.toml)<br/>- Tags: <br/><br/><br/><br/>## Details
- <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
- er/mahApuruSha/xatra-later/julian/day/07/13/bAji-prabhus_siddi-masUdam_aru
- Nat.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
