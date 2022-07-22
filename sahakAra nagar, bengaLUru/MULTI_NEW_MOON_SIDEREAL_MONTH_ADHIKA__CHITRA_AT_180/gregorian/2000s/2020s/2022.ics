@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220722155902
+SEQUENCE:20220722163731
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -14603,6 +14603,25 @@ DESCRIPTION:Observed on Śukla-Daśamī tithi of Caitraḥ (lunar) month (
  onfig file](https://github.com/jyotisham/adyatithi/blob/master/general/lun
  ar_month/tithi/01/10/dharmarAja-dazamI.toml)<br/>- Tags: LessCommonFestiva
  ls
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:मलिक्-कफ़्रेण रामेश्वर-ना
+ शः #७११
+DTSTART;VALUE=DATE:20220411
+DTEND;VALUE=DATE:20220412
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/04/11/maliq
+ -kafreNa_rAmeshvara-nAshaH.toml)<br/>- Tags: <br/><br/><br/><br/>## Detail
+ s<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mas
+ ter/mahApuruSha/xatra-later/gregorian/day/04/11/maliq-kafreNa_rAmeshvara-n
+ AshaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -29604,33 +29623,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:लोकमान्य-तिळको जातः #१६६
-DTSTART;VALUE=DATE:20220723
-DTEND;VALUE=DATE:20220724
-DESCRIPTION:Event occured on 1856-07-23 (gregorian). <br/><br/>AshADha k1 
-  lokamAnya bhAlagangAdhara Tilak born.<br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/x
- atra-later/gregorian/day/07/23/lokamAnya-tiLako_jAtaH.toml)<br/>- Tags:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:लोकमान्य-तिलक-जन्म #१६६
 DTSTART;VALUE=DATE:20220723
 DTEND;VALUE=DATE:20220724
 DESCRIPTION:Event occured on 1856-07-23 (gregorian). <br/><br/>On this day
-  was born the great genius\, teacher\, nationalist\, journalist and activi
- st - Bal Gangadhar Tilak. He was homeschooled for many years. He populariz
- ed the svadeshI movement and gaNeshotsava-s. He went on to author excellen
- t Indological research articles (eg. The Orion) in the midst of financial 
- and political stress.<br/><br/>## Details<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xatra-later/gregor
- ian/day/07/23/lokamAnya-tilaka-janma.toml)<br/>- Tags:
+  (it was AshADha k1) was born the great genius\, teacher\, nationalist\, j
+ ournalist and activist - Bal Gangadhar Tilak. He was homeschooled for many
+  years. He popularized the svadeshI movement and gaNeshotsava-s. He went o
+ n to author excellent Indological research articles (eg. The Orion) in the
+  midst of financial and political stress.<br/><br/>## Details<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSh
+ a/xatra-later/gregorian/day/07/23/lokamAnya-tilaka-janma.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
