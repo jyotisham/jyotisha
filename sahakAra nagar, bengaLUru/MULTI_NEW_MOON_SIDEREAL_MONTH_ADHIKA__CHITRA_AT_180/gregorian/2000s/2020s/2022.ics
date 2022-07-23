@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220722163731
+SEQUENCE:20220723142049
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -35868,6 +35868,23 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  ils<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/m
  aster/devatA/misc-fauna/lunar_month/tithi/06/05/bhAdrapdika-nAga-paJcamI.t
  oml)<br/>- Tags: SpecialPuja
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:चिङ्ग्गीज़ो मृतः #७९५
+DTSTART;VALUE=DATE:20220901
+DTEND;VALUE=DATE:20220902
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/08/25/chinggiz
+ o_mRtaH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit confi
+ g file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xat
+ ra-later/julian/day/08/25/chinggizo_mRtaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
