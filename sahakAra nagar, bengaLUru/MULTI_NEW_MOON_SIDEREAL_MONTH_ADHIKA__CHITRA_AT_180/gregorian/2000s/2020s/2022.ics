@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220725090338
+SEQUENCE:20220726171007
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -53748,6 +53748,23 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  koTa-yuddham.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit 
  config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSh
  a/xatra-later/gregorian/day/12/29/neDuMkoTa-yuddham.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:सिन्ध्-खेड्-युद्धम् #२६५
+DTSTART;VALUE=DATE:20221229
+DTEND;VALUE=DATE:20221230
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/12/29/sind-
+ kheD-yuddham.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSh
+ a/xatra-later/gregorian/day/12/29/sind-kheD-yuddham.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
