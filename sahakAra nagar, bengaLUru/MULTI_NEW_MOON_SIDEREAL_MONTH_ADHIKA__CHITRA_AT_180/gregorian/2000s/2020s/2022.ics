@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220726171007
+SEQUENCE:20220728101952
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -24459,6 +24459,24 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of every (lunar) month (Sūry
   for Lord Satyanarayana.<br/><br/>## Details<br/>- [Edit config file](http
  s://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/lunar_mont
  h/tithi/00/15/pUrNimA~vratam.toml)<br/>- Tags: MonthlyFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:तल्वार-शिखर-जयः #२३
+DTSTART;VALUE=DATE:20220614
+DTEND;VALUE=DATE:20220615
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/06/14/talvA
+ ra-shikhara-jayaH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [
+ Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahAp
+ uruSha/xatra-later/gregorian/day/06/14/talvAra-shikhara-jayaH.toml)<br/>- 
+ Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
