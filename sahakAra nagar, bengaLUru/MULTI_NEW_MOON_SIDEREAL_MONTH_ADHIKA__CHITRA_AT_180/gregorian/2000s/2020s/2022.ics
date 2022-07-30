@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220730210811
+SEQUENCE:20220730211633
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -1258,6 +1258,22 @@ DESCRIPTION:- Indian civil date: 1943-10-21\, Islamic: 1443-06-07 Jumādā
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:भौमाश्विनी-योगः
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220111T000000
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220111T110739
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/bhaumAz
+ vinI-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDays<br
+ /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/bh
+ aumAzvinI-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDa
+ ys
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -3216,6 +3232,22 @@ DESCRIPTION:- Indian civil date: 1943-11-03\, Islamic: 1443-06-19 Jumādā
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:आदित्यहस्त-योगः
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220123T110724
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220124T000000
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/Adityah
+ asta-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDays<br
+ /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/Ad
+ ityahasta-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDa
+ ys
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -7267,6 +7299,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:आदित्यहस्त-योगः
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220220T000000
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220220T164050
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/Adityah
+ asta-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDays<br
+ /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/Ad
+ ityahasta-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDa
+ ys
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:द्विजप्रिय-महागणपति सङ्
  कटहर-चतुर्थी-व्रतम्
 DTSTART;VALUE=DATE:20220219
@@ -7556,6 +7604,22 @@ DESCRIPTION:- Indian civil date: 1943-12-04\, Islamic: 1443-07-21 Rajab\,
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:बुधानुराधा-योगः
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220223T143916
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220224T000000
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/budhAnu
+ rAdhA-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDays<b
+ r/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/j
+ yotisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/b
+ udhAnurAdhA-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYoga
+ Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -8252,6 +8316,22 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
  sham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/sO
  ma-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:सोमश्रावणी-योगः
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220228T070043
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220301T000000
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/sOmazrA
+ vaNI-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDays<br
+ /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/sO
+ mazrAvaNI-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDa
+ ys
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -11744,6 +11824,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:बुधानुराधा-योगः
+DTSTART;VALUE=DATE:20220323
+DTEND;VALUE=DATE:20220324
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/budhAnu
+ rAdhA-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDays<b
+ r/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/j
+ yotisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/b
+ udhAnurAdhA-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYoga
+ Days
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:नन्दिमार्ग-हत्या #१९
 DTSTART;VALUE=DATE:20220323
 DTEND;VALUE=DATE:20220324
@@ -12332,6 +12431,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:सोमश्रावणी-योगः
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220328T000000
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220328T122313
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/sOmazrA
+ vaNI-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDays<br
+ /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/sO
+ mazrAvaNI-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDa
+ ys
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:सर्व-पापमोचनी-एकादशी
 DTSTART;VALUE=DATE:20220328
 DTEND;VALUE=DATE:20220329
@@ -12845,6 +12960,22 @@ DESCRIPTION:- Indian civil date: 1944-01-11\, Islamic: 1443-08-28 Shaʿbā
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:भृगुरेवती-योगः
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220401T103841
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220402T000000
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/bhRgurE
+ vatI-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDays<br
+ /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/bh
+ RgurEvatI-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDa
+ ys
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -14303,6 +14434,19 @@ DESCRIPTION:Observed on Puṣyaḥ nakshatra of Mīnaḥ (sidereal solar)
  onfig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha
  /nAyanAr/sidereal_solar_month/nakshatra/12/08/mun2aiyaDuvAr_nAyan2Ar_%2850
  %29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:रविपुष्ययोग-योगः
+DTSTART;VALUE=DATE:20220410
+DTEND;VALUE=DATE:20220411
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17281,6 +17425,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:भृगुरेवती-योगः
+DTSTART;VALUE=DATE:20220429
+DTEND;VALUE=DATE:20220430
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/bhRgurE
+ vatI-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDays<br
+ /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/bh
+ RgurEvatI-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDa
+ ys
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:गङ्गा-स्नानम्
 DTSTART;VALUE=DATE:20220429
 DTEND;VALUE=DATE:20220430
@@ -18656,6 +18819,16 @@ DESCRIPTION:Event occured on 1758-05-08 (gregorian). <br/><br/>Tukoji Rao
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:रविपुष्ययोग-योगः
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220508T000000
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220508T145613
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -25934,6 +26107,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:सोममृगशीर्ष-योगः
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220627T160021
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220628T000000
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/sOmamRg
+ azIrSa-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDays<
+ br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/
+ jyotisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/
+ sOmamRgazIrSa-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYo
+ gaDays
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-30  \,  मिथुनम्-मृ
  गशीर्षम्🌛🌌  \,  मिथुनम्-आर्द
  ्रा-03-14🌞🌌  \,  शुचिः-04-08🌞🪐  \,  मङ्
@@ -29706,6 +29895,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:सोममृगशीर्ष-योगः
+DTSTART;VALUE=DATE:20220725
+DTEND;VALUE=DATE:20220726
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/sOmamRg
+ azIrSa-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDays<
+ br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/
+ jyotisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/
+ sOmamRgazIrSa-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYo
+ gaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:आषाढः-04-28  \,  मिथुनम्-आर्द्
  रा🌛🌌  \,  कर्कटः-पुष्यः-04-10🌞🌌  \
  ,  नभः-05-04🌞🪐  \,  मङ्गलः
@@ -30018,6 +30226,21 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:गुरुपुष्य-योगः
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220728T070242
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220729T000000
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/gurupuS
+ ya-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDays<br/>
+ <br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
+ isham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/guru
+ puSya-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDays
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -33767,6 +33990,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:शनिरोहिणी-योगः
+DTSTART;VALUE=DATE:20220820
+DTEND;VALUE=DATE:20220821
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/zanirOh
+ iNI-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDays<br/
+ ><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyo
+ tisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/zan
+ irOhiNI-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:श्रावणः-05-25  \,  वृषभः-मृगशी
  र्षम्🌛🌌  \,  सिंहः-मघा-05-05🌞🌌  \,  
  नभः-05-30🌞🪐  \,  भानुः
@@ -33946,6 +34187,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:सोममृगशीर्ष-योगः
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220822T000000
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220822T073838
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/sOmamRg
+ azIrSa-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDays<
+ br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/
+ jyotisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/
+ sOmamRgazIrSa-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYo
+ gaDays
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -34446,6 +34703,21 @@ DESCRIPTION:Observed on Puṣyaḥ nakshatra of Siṁhaḥ (sidereal solar
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:गुरुपुष्य-योगः
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220825T000000
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220825T161352
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/gurupuS
+ ya-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDays<br/>
+ <br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
+ isham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/guru
+ puSya-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDays
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -37680,6 +37952,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:भौमाश्विनी-योगः
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220913T063340
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220914T000000
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/bhaumAz
+ vinI-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDays<br
+ /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/bh
+ aumAzvinI-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDa
+ ys
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:२००८ वर्षे देहल्यां विस्
  फोटाः #१४
 DTSTART;VALUE=DATE:20220913
@@ -38331,6 +38619,21 @@ DESCRIPTION:Observed on day 1 of Kanyā (sidereal solar) month (Sūryōday
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:शनिरोहिणी-योगः
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220917T000000
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220917T121835
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/zanirOh
+ iNI-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDays<br/
+ ><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyo
+ tisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/zan
+ irOhiNI-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDays
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -41870,6 +42173,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:भौमाश्विनी-योगः
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221011T000000
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221011T161446
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/bhaumAz
+ vinI-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDays<br
+ /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/bh
+ aumAzvinI-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDa
+ ys
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:रुद्र पशुपति नायऩार् (१६) 
  गुरुपूजै
 DTSTART;VALUE=DATE:20221011
@@ -43432,6 +43751,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:आदित्यहस्त-योगः
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221023T143155
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221024T000000
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/Adityah
+ asta-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDays<br
+ /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/Ad
+ ityahasta-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDa
+ ys
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -47868,6 +48203,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:आदित्यहस्त-योगः
+DTSTART;VALUE=DATE:20221120
+DTEND;VALUE=DATE:20221121
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/Adityah
+ asta-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDays<br
+ /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/Ad
+ ityahasta-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDa
+ ys
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:आऩाय नायऩार् (१३) गुरुपूज
  ै
 DTSTART;VALUE=DATE:20221120
@@ -49197,6 +49551,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:सोमश्रावणी-योगः
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221128T102653
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221129T000000
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/sOmazrA
+ vaNI-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDays<br
+ /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/sO
+ mazrAvaNI-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDa
+ ys
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -51804,6 +52174,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:आदित्यहस्त-योगः
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221218T000000
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221218T101617
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/Adityah
+ asta-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDays<br
+ /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/Ad
+ ityahasta-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDa
+ ys
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:तैमूरेण लोनि-हत्या #६२४
 DTSTART;VALUE=DATE:20221218
 DTEND;VALUE=DATE:20221219
@@ -52153,6 +52539,22 @@ DESCRIPTION:- Indian civil date: 1944-09-30\, Islamic: 1444-05-27 Jumādā
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:बुधानुराधा-योगः
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221221T083120
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221222T000000
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/budhAnu
+ rAdhA-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDays<b
+ r/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/j
+ yotisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/b
+ udhAnurAdhA-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYoga
+ Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -53011,6 +53413,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:सोमश्रावणी-योगः
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221226T000000
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221226T163956
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/sOmazrA
+ vaNI-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDays<br
+ /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/sO
+ mazrAvaNI-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDa
+ ys
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:श्रवण-व्रतम्
 DTSTART;VALUE=DATE:20221226
 DTEND;VALUE=DATE:20221227
@@ -53419,6 +53837,22 @@ DESCRIPTION:- Indian civil date: 1944-10-09\, Islamic: 1444-06-06 Jumādā
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:भृगुरेवती-योगः
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221230T112222
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221231T000000
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/bhRgurE
+ vatI-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDays<br
+ /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/bh
+ RgurEvatI-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDa
+ ys
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
