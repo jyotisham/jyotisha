@@ -97,7 +97,7 @@ class VaraFestivalAssigner(FestivalAssigner):
 
 
   def assign_nakshatra_vara_yoga_vratam(self):
-    if 'Adityahasta-puNyakAlaH' not in self.rules_collection.name_to_rule:
+    if 'Adityahasta-yOgaH' not in self.rules_collection.name_to_rule:
       return 
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       # NAKSHATRA-WEEKDAY FESTIVALS
