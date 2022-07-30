@@ -101,16 +101,16 @@ class VaraFestivalAssigner(FestivalAssigner):
       return 
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       # NAKSHATRA-WEEKDAY FESTIVALS
-      for (nwd_fest_n, nwd_fest_wd, nwd_fest_name) in ((13, 0, 'Adityahasta-puNyakAlaH'),
-                                                       (8, 0, 'ravipuSyayOga-puNyakAlaH'),
-                                                       (22, 1, 'sOmazrAvaNI-puNyakAlaH'),
-                                                       (5, 1, 'sOmamRgazIrSa-puNyakAlaH'),
-                                                       (1, 2, 'bhaumAzvinI-puNyakAlaH'),
-                                                       # (6, 2, 'bhaumArdrA-puNyakAlaH'), removed because no pramANam
-                                                       (17, 3, 'budhAnurAdhA-puNyakAlaH'),
-                                                       (8, 4, 'gurupuSya-puNyakAlaH'),
-                                                       (27, 5, 'bhRgurEvatI-puNyakAlaH'),
-                                                       (4, 6, 'zanirOhiNI-puNyakAlaH'),
+      for (nwd_fest_n, nwd_fest_wd, nwd_fest_name) in ((13, 0, 'Adityahasta-yOgaH'),
+                                                       (8, 0, 'ravipuSyayOga-yOgaH'),
+                                                       (22, 1, 'sOmazrAvaNI-yOgaH'),
+                                                       (5, 1, 'sOmamRgazIrSa-yOgaH'),
+                                                       (1, 2, 'bhaumAzvinI-yOgaH'),
+                                                       # (6, 2, 'bhaumArdrA-yOgaH'), removed because no pramANam
+                                                       (17, 3, 'budhAnurAdhA-yOgaH'),
+                                                       (8, 4, 'gurupuSya-yOgaH'),
+                                                       (27, 5, 'bhRgurEvatI-yOgaH'),
+                                                       (4, 6, 'zanirOhiNI-yOgaH'),
                                                        ):
         n_prev = ((nwd_fest_n - 2) % 27) + 1
         if (self.daily_panchaangas[d].sunrise_day_angas.nakshatra_at_sunrise.index == nwd_fest_n or self.daily_panchaangas[d].sunrise_day_angas.nakshatra_at_sunrise.index == n_prev) and self.daily_panchaangas[
