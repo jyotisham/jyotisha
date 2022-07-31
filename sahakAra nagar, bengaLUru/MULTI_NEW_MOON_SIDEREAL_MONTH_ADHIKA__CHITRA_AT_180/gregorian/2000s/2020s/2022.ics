@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220730211633
+SEQUENCE:20220731092920
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -10648,6 +10648,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:काम-दहनम्
+DTSTART;VALUE=DATE:20220316
+DTEND;VALUE=DATE:20220317
+DESCRIPTION:Observed on Śukla-Caturdaśī tithi of Phālgunaḥ (lunar) m
+ onth (Niśīthaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Ed
+ it config file](https://github.com/jyotisham/adyatithi/blob/master/general
+ /lunar_month/tithi/12/14/kAma-dahanam.toml)<br/>- Tags: CommonFestivals Pu
+ ranaEvents
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:कोण्डाजी-सेनाधिपेन पन्ह
  ळ-दुर्गं गृहीतम् #३४९
 DTSTART;VALUE=DATE:20220316
@@ -10752,23 +10769,6 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Phālgunaḥ (lunar) month
  nfig file](https://github.com/jyotisham/adyatithi/blob/master/general/luna
  r_month/tithi/12/15/hOlikA-pUrNimA.toml)<br/>- Tags: SpecialPuja CommonFes
  tivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:काम-दहनम्
-DTSTART;VALUE=DATE:20220317
-DTEND;VALUE=DATE:20220318
-DESCRIPTION:Observed on Paurṇamāsī tithi of Phālgunaḥ (lunar) month
-  (Pradōṣaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit 
- config file](https://github.com/jyotisham/adyatithi/blob/master/general/lu
- nar_month/tithi/12/15/kAma-dahanam.toml)<br/>- Tags: CommonFestivals Puran
- aEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13583,14 +13583,14 @@ SUMMARY:पार्वतीश्वरयोरान्दोलनव
 DTSTART;VALUE=DATE:20220404
 DTEND;VALUE=DATE:20220405
 DESCRIPTION:Observed on Śukla-Tr̥tīyā tithi of Caitraḥ (lunar) month
-  (Sūryōdayaḥ/puurvaviddha). <br/><br/>तृतीयायां म
- धोर्देवीं शङ्करेण समन्विता
- म्।  <br/>कुङ्कुमागरुकर्पूरमण
- िवस्त्रसुगन्धकैः॥  <br/>स्रग्
- गन्धधूपदीपैश्च दमनेन विशेष
- तः।  <br/>आन्दोलयेत्ततो वत्स श
- िवोमातुष्टये सदा॥  <br/>रात्रौ
-  जागरणं कार्यं प्रातर्देया 
+  (Sūryōdayaḥ/paraviddha). <br/><br/>तृतीयायां मध
+ ोर्देवीं शङ्करेण समन्विताम
+ ्।  <br/>कुङ्कुमागरुकर्पूरमणि
+ वस्त्रसुगन्धकैः॥  <br/>स्रग्ग
+ न्धधूपदीपैश्च दमनेन विशेषत
+ ः।  <br/>आन्दोलयेत्ततो वत्स शि
+ वोमातुष्टये सदा॥  <br/>रात्रौ 
+ जागरणं कार्यं प्रातर्देया 
  च दक्षिणा।  <br/>हेमवस्त्रान्न
  पानानि ताम्बूलानि स्रजस्तथ
  ा।  <br/>सौभाग्याय सदा स्त्रीभ
@@ -25958,6 +25958,26 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:चिदम्बरे ध्वजारोहणम्/पञ
+ ्चमूर्ति रथोत्सवः
+DTSTART;VALUE=DATE:20220626
+DTEND;VALUE=DATE:20220627
+DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
+ around the Aani Thirumanjana festival each year\, for ten days. On this da
+ y\, there is a special rathotsava\, with the panchamurtis.<br/><br/>## Det
+ ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/
+ master/temples/Tamil/relative_event/naTarAjar_An2i_tirumaJcan2am/offset__-
+ 9/cidambarE_dhvajArOhaNam_or_paJcamUrti_rathOtsavaH.toml)<br/>- Tags: Tami
+ lnaduTempleFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220626T184534
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220626T200950
@@ -26035,17 +26055,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:चिदम्बरे ध्वजारोहणम्/पञ
- ्चमूर्ति रथोत्सवः
+SUMMARY:चिदम्बरे रजत चन्द्रप्रभ 
+ वाहनम्
 DTSTART;VALUE=DATE:20220627
 DTEND;VALUE=DATE:20220628
 DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
  around the Aani Thirumanjana festival each year\, for ten days. On this da
- y\, there is a special rathotsava\, with the panchamurtis.<br/><br/>## Det
- ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/
- master/temples/Tamil/relative_event/naTarAjar_An2i_tirumaJcan2am/offset__-
- 9/cidambarE_dhvajArOhaNam_or_paJcamUrti_rathOtsavaH.toml)<br/>- Tags: Tami
- lnaduTempleFestivals
+ y\, Nataraja gives darshan with a silver 'chandra prabha' vahanam.<br/><br
+ />## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatit
+ hi/blob/master/temples/Tamil/relative_event/naTarAjar_An2i_tirumaJcan2am/o
+ ffset__-8/cidambarE_rajata_candraprabha_vAhanam.toml)<br/>- Tags: Tamilnad
+ uTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26199,17 +26219,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:चिदम्बरे रजत चन्द्रप्रभ 
- वाहनम्
+SUMMARY:चिदम्बरे स्वर्ण-सूर्यप्
+ रभ वाहनम्
 DTSTART;VALUE=DATE:20220628
 DTEND;VALUE=DATE:20220629
 DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
  around the Aani Thirumanjana festival each year\, for ten days. On this da
- y\, Nataraja gives darshan with a silver 'chandra prabha' vahanam.<br/><br
- />## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatit
- hi/blob/master/temples/Tamil/relative_event/naTarAjar_An2i_tirumaJcan2am/o
- ffset__-8/cidambarE_rajata_candraprabha_vAhanam.toml)<br/>- Tags: Tamilnad
- uTempleFestivals
+ y\, Nataraja gives darshan with a golden 'surya prabha' vahanam.<br/><br/>
+ ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/temples/Tamil/relative_event/naTarAjar_An2i_tirumaJcan2am/off
+ set__-7/cidambarE_svarNa-sUryaprabha_vAhanam.toml)<br/>- Tags: TamilnaduTe
+ mpleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26358,17 +26378,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:चिदम्बरे स्वर्ण-सूर्यप्
- रभ वाहनम्
+SUMMARY:चिदम्बरे रजत भूत वाहनम्
 DTSTART;VALUE=DATE:20220629
 DTEND;VALUE=DATE:20220630
 DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
  around the Aani Thirumanjana festival each year\, for ten days. On this da
- y\, Nataraja gives darshan with a golden 'surya prabha' vahanam.<br/><br/>
- ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /blob/master/temples/Tamil/relative_event/naTarAjar_An2i_tirumaJcan2am/off
- set__-7/cidambarE_svarNa-sUryaprabha_vAhanam.toml)<br/>- Tags: TamilnaduTe
- mpleFestivals
+ y\, Nataraja gives darshan on a bhūta vahanam.<br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/temp
+ les/Tamil/relative_event/naTarAjar_An2i_tirumaJcan2am/offset__-6/cidambarE
+ _rajata_bhUta_vAhanam.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26553,15 +26571,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:चिदम्बरे रजत भूत वाहनम्
+SUMMARY:चिदम्बरे रजत ऋषभ वाहनम्
 DTSTART;VALUE=DATE:20220630
 DTEND;VALUE=DATE:20220701
 DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
  around the Aani Thirumanjana festival each year\, for ten days. On this da
- y\, Nataraja gives darshan on a bhūta vahanam.<br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/temp
- les/Tamil/relative_event/naTarAjar_An2i_tirumaJcan2am/offset__-6/cidambarE
- _rajata_bhUta_vAhanam.toml)<br/>- Tags: TamilnaduTempleFestivals
+ y\, Nataraja gives darshan on a silver Rishabha vahanam.<br/><br/>## Detai
+ ls<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/ma
+ ster/temples/Tamil/relative_event/naTarAjar_An2i_tirumaJcan2am/offset__-5/
+ cidambarE_rajata_RSabha_vAhanam.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26682,15 +26700,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:चिदम्बरे रजत ऋषभ वाहनम्
+SUMMARY:चिदम्बरे रजत-गजवाहनम्
 DTSTART;VALUE=DATE:20220701
 DTEND;VALUE=DATE:20220702
 DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
  around the Aani Thirumanjana festival each year\, for ten days. On this da
- y\, Nataraja gives darshan on a silver Rishabha vahanam.<br/><br/>## Detai
+ y\, Nataraja gives darshan on a silver elephant vahanam.<br/><br/>## Detai
  ls<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/ma
- ster/temples/Tamil/relative_event/naTarAjar_An2i_tirumaJcan2am/offset__-5/
- cidambarE_rajata_RSabha_vAhanam.toml)<br/>- Tags: TamilnaduTempleFestivals
+ ster/temples/Tamil/relative_event/naTarAjar_An2i_tirumaJcan2am/offset__-4/
+ cidambarE_rajata-gajavAhanam.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26795,15 +26813,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:चिदम्बरे रजत-गजवाहनम्
+SUMMARY:चिदम्बरे कैलास वाहनम्
 DTSTART;VALUE=DATE:20220702
 DTEND;VALUE=DATE:20220703
 DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
  around the Aani Thirumanjana festival each year\, for ten days. On this da
- y\, Nataraja gives darshan on a silver elephant vahanam.<br/><br/>## Detai
- ls<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/ma
- ster/temples/Tamil/relative_event/naTarAjar_An2i_tirumaJcan2am/offset__-4/
- cidambarE_rajata-gajavAhanam.toml)<br/>- Tags: TamilnaduTempleFestivals
+ y\, Nataraja gives darshan on a Kailasha vahanam.<br/><br/>## Details<br/>
+ - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/te
+ mples/Tamil/relative_event/naTarAjar_An2i_tirumaJcan2am/offset__-3/cidamba
+ rE_kailAsa_vAhanam.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26890,15 +26908,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:चिदम्बरे कैलास वाहनम्
+SUMMARY:चिदम्बरे भिक्षाटन स्वर्
+ णरथः
 DTSTART;VALUE=DATE:20220703
 DTEND;VALUE=DATE:20220704
 DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
  around the Aani Thirumanjana festival each year\, for ten days. On this da
- y\, Nataraja gives darshan on a Kailasha vahanam.<br/><br/>## Details<br/>
- - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/te
- mples/Tamil/relative_event/naTarAjar_An2i_tirumaJcan2am/offset__-3/cidamba
- rE_kailAsa_vAhanam.toml)<br/>- Tags: TamilnaduTempleFestivals
+ y\, Nataraja gives darshan on a silver elephant vahanam.<br/><br/>## Detai
+ ls<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/ma
+ ster/temples/Tamil/relative_event/naTarAjar_An2i_tirumaJcan2am/offset__-2/
+ cidambarE_bhikSATana_svarNarathaH.toml)<br/>- Tags: TamilnaduTempleFestiva
+ ls
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -27040,17 +27060,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:चिदम्बरे भिक्षाटन स्वर्
- णरथः
+SUMMARY:चिदम्बरे रथोत्सवः
 DTSTART;VALUE=DATE:20220704
 DTEND;VALUE=DATE:20220705
 DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
  around the Aani Thirumanjana festival each year\, for ten days. On this da
- y\, Nataraja gives darshan on a silver elephant vahanam.<br/><br/>## Detai
- ls<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/ma
- ster/temples/Tamil/relative_event/naTarAjar_An2i_tirumaJcan2am/offset__-2/
- cidambarE_bhikSATana_svarNarathaH.toml)<br/>- Tags: TamilnaduTempleFestiva
- ls
+ y is the rathotsava or chariot festival.<br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/blob/master/temples/Tam
+ il/relative_event/naTarAjar_An2i_tirumaJcan2am/offset__-1/cidambarE_rathOt
+ savaH.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -27207,15 +27225,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:चिदम्बरे रथोत्सवः
+SUMMARY:चिदम्बरे नटराजस्य राजसभ
+ ायां महाभिषेकः
 DTSTART;VALUE=DATE:20220705
 DTEND;VALUE=DATE:20220706
-DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
- around the Aani Thirumanjana festival each year\, for ten days. On this da
- y is the rathotsava or chariot festival.<br/><br/>## Details<br/>- [Edit c
- onfig file](https://github.com/jyotisham/adyatithi/blob/master/temples/Tam
- il/relative_event/naTarAjar_An2i_tirumaJcan2am/offset__-1/cidambarE_rathOt
- savaH.toml)<br/>- Tags: TamilnaduTempleFestivals
+DESCRIPTION:मौलौ गङ्गा-शशाङ्कौ करच
+ रणतले शीतलाङ्गा भुजङ्गा:  <br/>
+ वामे भागे दयार्द्रा हिमगिर
+ िदुहिता चन्दनं सर्वगात्रे।
+   <br/>इत्थं शीतं प्रभूतं तव कनक
+ सभानाथ सोढुं क्व शक्ति:  <br/>चि
+ त्ते निर्वेदतप्ते यदि भवति 
+ न ते नित्यवासो मदीये॥<br/><br/><br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/blob/master/temples/Tamil/relative_event/naTarAjar_An2i_tirumaJcan2am/
+ offset__00/cidambarE_naTarAjasya_rAjasabhAyAM_mahAbhiSEkaH.toml)<br/>- Tag
+ s: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -27258,6 +27283,35 @@ DESCRIPTION:upavāsam with only water and next day pāraṇa gives ārōgy
  dit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA
  /kaumAra/description_only/kumAra-SaSThI-vratam.toml)<br/>- Tags: MonthlyVr
  atam ShashthiVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:नटराजर् आऩि तिरुमञ्चऩम्
+DTSTART;VALUE=DATE:20220705
+DTEND;VALUE=DATE:20220706
+DESCRIPTION:Observed on Uttaraphalgunī nakshatra of Mithunam (sidereal so
+ lar) month (Pradōṣaḥ/paraviddha). <br/><br/>कृपासमुद
+ ्रं सुमुखं त्रिनेत्रं जटाध
+ रं पार्वति-वामभागम्।  <br/>सदा
+ शिवं रुद्रमनन्तरूपं चिदम्ब
+ रेशं हृदि भावयामि॥  <br/>मौलौ ग
+ ङ्गा-शशाङ्कौ करचरणतले शीतल
+ ाङ्गा भुजङ्गा:  <br/>वामे भागे द
+ यार्द्रा हिमगिरिदुहिता चन्
+ दनं सर्वगात्रे।  <br/>इत्थं शी
+ तं प्रभूतं तव कनकसभानाथ सोढ
+ ुं क्व शक्ति:  <br/>चित्ते निर्व
+ ेदतप्ते यदि भवति न ते नित्यव
+ ासो मदीये॥<br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/temples/Tamil
+ /sidereal_solar_month/nakshatra/03/12/naTarAjar_An2i_tirumaJcan2am.toml)<b
+ r/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -27328,51 +27382,16 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:चिदम्बरे नटराजस्य राजसभ
- ायां महाभिषेकः
+SUMMARY:चिदम्बरे मुत्तुप्पल्लक
+ ्कु
 DTSTART;VALUE=DATE:20220706
 DTEND;VALUE=DATE:20220707
-DESCRIPTION:मौलौ गङ्गा-शशाङ्कौ करच
- रणतले शीतलाङ्गा भुजङ्गा:  <br/>
- वामे भागे दयार्द्रा हिमगिर
- िदुहिता चन्दनं सर्वगात्रे।
-   <br/>इत्थं शीतं प्रभूतं तव कनक
- सभानाथ सोढुं क्व शक्ति:  <br/>चि
- त्ते निर्वेदतप्ते यदि भवति 
- न ते नित्यवासो मदीये॥<br/><br/><br/><b
- r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
- thi/blob/master/temples/Tamil/relative_event/naTarAjar_An2i_tirumaJcan2am/
- offset__00/cidambarE_naTarAjasya_rAjasabhAyAM_mahAbhiSEkaH.toml)<br/>- Tag
- s: TamilnaduTempleFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:नटराजर् आऩि तिरुमञ्चऩम्
-DTSTART;VALUE=DATE:20220706
-DTEND;VALUE=DATE:20220707
-DESCRIPTION:Observed on Uttaraphalgunī nakshatra of Mithunam (sidereal so
- lar) month (Prātaḥ/paraviddha). <br/><br/>कृपासमुद्
- रं सुमुखं त्रिनेत्रं जटाधर
- ं पार्वति-वामभागम्।  <br/>सदाश
- िवं रुद्रमनन्तरूपं चिदम्बर
- ेशं हृदि भावयामि॥  <br/>मौलौ गङ
- ्गा-शशाङ्कौ करचरणतले शीतला
- ङ्गा भुजङ्गा:  <br/>वामे भागे दय
- ार्द्रा हिमगिरिदुहिता चन्द
- नं सर्वगात्रे।  <br/>इत्थं शीत
- ं प्रभूतं तव कनकसभानाथ सोढु
- ं क्व शक्ति:  <br/>चित्ते निर्वे
- दतप्ते यदि भवति न ते नित्यवा
- सो मदीये॥<br/><br/><br/><br/>## Details<br/>- [Edit config
-  file](https://github.com/jyotisham/adyatithi/blob/master/temples/Tamil/si
- dereal_solar_month/nakshatra/03/12/naTarAjar_An2i_tirumaJcan2am.toml)<br/>
- - Tags: TamilnaduTempleFestivals
+DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
+ around the Aani Thirumanjana festival each year\, for ten days. On this da
+ y\, Nataraja gives darshan on a specially decorated palanquin.<br/><br/>##
+  Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/b
+ lob/master/temples/Tamil/relative_event/naTarAjar_An2i_tirumaJcan2am/offse
+ t__01/cidambarE_muttuppallakku.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -27469,25 +27488,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahA
  puruSha/xatra-later/gregorian/day/07/07/bAtra-vikrama-vIragatiH.toml)<br/>
  - Tags:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:चिदम्बरे मुत्तुप्पल्लक
- ्कु
-DTSTART;VALUE=DATE:20220707
-DTEND;VALUE=DATE:20220708
-DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
- around the Aani Thirumanjana festival each year\, for ten days. On this da
- y\, Nataraja gives darshan on a specially decorated palanquin.<br/><br/>##
-  Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/b
- lob/master/temples/Tamil/relative_event/naTarAjar_An2i_tirumaJcan2am/offse
- t__01/cidambarE_muttuppallakku.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -27774,26 +27774,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:चातुर्मास्यव्रत-आरम्भः
-DTSTART;VALUE=DATE:20220709
-DTEND;VALUE=DATE:20220710
-DESCRIPTION:Observed on Śukla-Daśamī tithi of Āṣāḍhaḥ (lunar) m
- onth (Sūryōdayaḥ/puurvaviddha). <br/><br/>Chaaturmasya begins\; 4 mont
- hs\; Pradakshina to Pippala\; Deeparadhana in temple\; Saraswati Pooja\; 1
- st month no vegetables\; 2nd month no curds\; 3rd month no milk\; 4th mont
- h no dals\;<br/><br/>## Details<br/>- [Edit config file](https://github.co
- m/jyotisham/adyatithi/blob/master/time_focus/misc/lunar_month/tithi/04/10/
- cAturmAsyavrata-ArambhaH.toml)<br/>- Tags: VratamStart SpecialPeriodStart 
- CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:काञ्ची ४८ जगद्गुरु श्री-
  अद्वैतानन्दबोधेन्द्र सरस्
  वती आराधना #८२३
@@ -28065,6 +28045,26 @@ DESCRIPTION:- Indian civil date: 1944-04-20\, Islamic: 1443-12-11 Ḏū al
  ालः**—14:00-15:36  \n___________________\n- **शूलम्**—
  प्राची (►09:27)\; **परिहारः**–दधि  \n_
  __________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:चातुर्मास्यव्रत-आरम्भः
+DTSTART;VALUE=DATE:20220711
+DTEND;VALUE=DATE:20220712
+DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Āṣāḍhaḥ (lunar)
+  month (Sūryōdayaḥ/puurvaviddha). <br/><br/>Chaaturmasya begins\; 4 mo
+ nths\; Pradakshina to Pippala\; Deeparadhana in temple\; Saraswati Pooja\;
+  1st month no vegetables\; 2nd month no curds\; 3rd month no milk\; 4th mo
+ nth no dals\;<br/><br/>## Details<br/>- [Edit config file](https://github.
+ com/jyotisham/adyatithi/blob/master/time_focus/misc/lunar_month/tithi/04/1
+ 2/cAturmAsyavrata-ArambhaH.toml)<br/>- Tags: VratamStart SpecialPeriodStar
+ t CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -31220,6 +31220,23 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/maste
  r/devatA/kaumAra/description_only/SaSThI-vratam.toml)<br/>- Tags: MonthlyV
  ratam ShashthiVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:सामवेद-उपाकर्म
+DTSTART;VALUE=DATE:20220803
+DTEND;VALUE=DATE:20220804
+DESCRIPTION:Observed on Hastaḥ nakshatra of Śrāvaṇaḥ (lunar) month
+  (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/gen
+ eral/lunar_month/nakshatra/05/13/sAmavEda-upAkarma.toml)<br/>- Tags: Commo
+ nFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -35607,23 +35624,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सामवेद-उपाकर्म
-DTSTART;VALUE=DATE:20220830
-DTEND;VALUE=DATE:20220831
-DESCRIPTION:Observed on Hastaḥ nakshatra of Siṁhaḥ (sidereal solar) 
- month (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhy
- a/general/sidereal_solar_month/nakshatra/05/13/sAmavEda-upAkarma.toml)<br/
- >- Tags: CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:तिरुच्चॆन्दूर् मुरुगऩ् 
  आवणित् तिरुविऴा 9म् नाळ्
 DTSTART;VALUE=DATE:20220830
@@ -38743,10 +38743,9 @@ SUMMARY:मध्याष्टमी
 DTSTART;VALUE=DATE:20220918
 DTEND;VALUE=DATE:20220919
 DESCRIPTION:Observed on Kr̥ṣṇa-Aṣṭamī tithi of Bhādrapadaḥ (l
- unar) month (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<
- br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/maste
- r/general/lunar_month/tithi/06/23/madhyASTamI.toml)<br/>- Tags: CommonFest
- ivals
+ unar) month (Aparāhṇaḥ/vyaapti). <br/><br/><br/><br/>## Details<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gen
+ eral/lunar_month/tithi/06/23/madhyASTamI.toml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -45129,22 +45128,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कृत्तिका-सोमवासरः
-DTSTART;VALUE=DATE:20221031
-DTEND;VALUE=DATE:20221101
-DESCRIPTION:Do puja to Shiva/Parvati\, perform fast.<br/><br/>## Details<b
- r/>- References<br/>  - Skanda Puranam<br/>- [Edit config file](https://gi
- thub.com/jyotisham/adyatithi/blob/master/devatA/shaiva/description_only/kR
- ttikA~sOmavAsaraH.toml)<br/>- Tags: MonthWeekdayFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:सावित्र्य-कल्पादिः
 DTSTART;VALUE=DATE:20221031
 DTEND;VALUE=DATE:20221101
@@ -46194,22 +46177,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कृत्तिका-सोमवासरः
-DTSTART;VALUE=DATE:20221107
-DTEND;VALUE=DATE:20221108
-DESCRIPTION:Do puja to Shiva/Parvati\, perform fast.<br/><br/>## Details<b
- r/>- References<br/>  - Skanda Puranam<br/>- [Edit config file](https://gi
- thub.com/jyotisham/adyatithi/blob/master/devatA/shaiva/description_only/kR
- ttikA~sOmavAsaraH.toml)<br/>- Tags: MonthWeekdayFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:मणिकर्णिका-स्नानम्/वैकु
  ण्ठ-चतुर्दशी
 DTSTART;VALUE=DATE:20221107
@@ -46450,7 +46417,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चातुर्मास्यव्रतम्
-DTSTART;VALUE=DATE:20220709
+DTSTART;VALUE=DATE:20220711
 DTEND;VALUE=DATE:20221109
 DESCRIPTION:Chaaturmasya begins\; 4 months\; Pradakshina to Pippala\; Deep
  aradhana in temple\; Saraswati Pooja\; 1st month no vegetables\; 2nd month
@@ -47328,22 +47295,6 @@ DESCRIPTION:- Indian civil date: 1944-08-23\, Islamic: 1444-04-19 Rabīʿ
  03\; **गुलिककालः**—13:29-14:55  \n___________________\
  n- **शूलम्**—प्राची (►09:24)\; **परिहा
  रः**–दधि  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:कृत्तिका-सोमवासरः
-DTSTART;VALUE=DATE:20221114
-DTEND;VALUE=DATE:20221115
-DESCRIPTION:Do puja to Shiva/Parvati\, perform fast.<br/><br/>## Details<b
- r/>- References<br/>  - Skanda Puranam<br/>- [Edit config file](https://gi
- thub.com/jyotisham/adyatithi/blob/master/devatA/shaiva/description_only/kR
- ttikA~sOmavAsaraH.toml)<br/>- Tags: MonthWeekdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -48395,22 +48346,6 @@ DESCRIPTION:- Indian civil date: 1944-08-30\, Islamic: 1444-04-26 Rabīʿ
  ालः**—13:30-14:55  \n___________________\n- **शूलम्**—
  प्राची (►09:26)\; **परिहारः**–दधि  \n_
  __________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:कृत्तिका-सोमवासरः
-DTSTART;VALUE=DATE:20221121
-DTEND;VALUE=DATE:20221122
-DESCRIPTION:Do puja to Shiva/Parvati\, perform fast.<br/><br/>## Details<b
- r/>- References<br/>  - Skanda Puranam<br/>- [Edit config file](https://gi
- thub.com/jyotisham/adyatithi/blob/master/devatA/shaiva/description_only/kR
- ttikA~sOmavAsaraH.toml)<br/>- Tags: MonthWeekdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
