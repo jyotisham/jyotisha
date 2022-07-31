@@ -63,9 +63,10 @@ class VaraFestivalAssigner(FestivalAssigner):
       return
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       # MANGALA-CHATURTHI
-      if self.daily_panchaangas[d].date.get_weekday() == 2 and (self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise.index % 15) == 4:
+      tithi_sunset = self.daily_panchaangas[d].sunrise_day_angas.get_anga_at_jd(jd=self.daily_panchaangas[d].jd_sunset, anga_type=AngaType.TITHI) % 15
+      if self.daily_panchaangas[d].date.get_weekday() == 2 and (self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise.index % 15 == 4 or tithi_sunset == 4):
         festival_name = 'aGgAraka-caturthI'
-        if self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise.index == 4:
+        if self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise.index == 4 or tithi_sunset == 4:
           festival_name = 'sukhA' + '~' + festival_name
         self.panchaanga.add_festival(fest_id=festival_name, date=self.daily_panchaangas[d].date)
 

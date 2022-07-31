@@ -156,7 +156,8 @@ class TithiFestivalAssigner(FestivalAssigner):
       for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
         day_panchaanga = self.daily_panchaangas[d]
         # SPECIAL SAPTAMIs
-        if day_panchaanga.date.get_weekday() == 0 and (day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index % 15) == 7:
+        tithi_sunset = day_panchaanga.sunrise_day_angas.get_anga_at_jd(jd=day_panchaanga.jd_sunset, anga_type=AngaType.TITHI) % 15
+        if day_panchaanga.date.get_weekday() == 0 and (day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index % 15 == 7 or tithi_sunset == 7):
           festival_name = 'bhAnusaptamI'
           if day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == 7:
             festival_name = 'vijayA' + '~' + festival_name
