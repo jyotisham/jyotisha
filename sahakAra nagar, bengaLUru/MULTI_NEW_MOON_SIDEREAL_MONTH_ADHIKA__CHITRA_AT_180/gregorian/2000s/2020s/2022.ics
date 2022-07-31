@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220731095447
+SEQUENCE:20220731095514
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -21445,8 +21445,8 @@ DESCRIPTION:Observed on Kr̥ṣṇa-Daśamī tithi of Vaiśākhaḥ (lunar
  ) month (Sūryōdayaḥ/puurvaviddha). <br/><br/>Hanuman Jayanti celebrate
  d widely in Andhra Pradesh.<br/><br/>## Details<br/>- [Edit config file](h
  ttps://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/lunar_m
- onth/tithi/02/25/zrI~hanUmat~jayantI~3.toml)<br/>- Tags: LessCommonFestiva
- ls
+ onth/tithi/02/25/zrI~hanUmat~jayantI~3.toml)<br/>- Tags: AndhraTempleFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
