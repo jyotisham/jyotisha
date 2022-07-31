@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220731095243
+SEQUENCE:20220731095447
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -21428,6 +21428,25 @@ DESCRIPTION:Event occured on 1886-05-25 (gregorian). <br/><br/>Rash bihArI
  handra Bose.<br/><br/>## Details<br/>- [Edit config file](https://github.c
  om/jyotisham/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/0
  5/25/rAsa-vihArI_jAtaH.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:श्री-हनूमत्-जयन्ती (आन्ध
+ ्र-सम्प्रदायः)
+DTSTART;VALUE=DATE:20220525
+DTEND;VALUE=DATE:20220526
+DESCRIPTION:Observed on Kr̥ṣṇa-Daśamī tithi of Vaiśākhaḥ (lunar
+ ) month (Sūryōdayaḥ/puurvaviddha). <br/><br/>Hanuman Jayanti celebrate
+ d widely in Andhra Pradesh.<br/><br/>## Details<br/>- [Edit config file](h
+ ttps://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/lunar_m
+ onth/tithi/02/25/zrI~hanUmat~jayantI~3.toml)<br/>- Tags: LessCommonFestiva
+ ls
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
