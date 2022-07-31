@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220731095514
+SEQUENCE:20220731095646
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -40975,6 +40975,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:शमी-पूजा/अपराजिता-पूजा
+DTSTART;VALUE=DATE:20221004
+DTEND;VALUE=DATE:20221005
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/misc-flora/lunar_month/tithi/07/10/zamI-pU
+ jA.toml)<br/>- Tags: LessCommonFestivals<br/><br/><br/><br/>## Details<br/
+ >- References<br/>  - Vrata Mahima<br/>- [Edit config file](https://github
+ .com/jyotisham/adyatithi/blob/master/devatA/misc-flora/lunar_month/tithi/0
+ 7/10/zamI-pUjA.toml)<br/>- Tags: LessCommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:शरन्नवरात्रः
 DTSTART;VALUE=DATE:20220926
 DTEND;VALUE=DATE:20221005
@@ -41180,24 +41198,6 @@ DESCRIPTION:Observed on Śukla-Daśamī tithi of Āśvayujaḥ (lunar) mon
  it config file](https://github.com/jyotisham/adyatithi/blob/master/general
  /lunar_month/tithi/07/10/yuddhadEvatA-ArAdhanA.toml)<br/>- Tags: LessCommo
  nFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:शमी-पूजा
-DTSTART;VALUE=DATE:20221005
-DTEND;VALUE=DATE:20221006
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/devatA/misc-flora/lunar_month/tithi/07/10/zamI-pU
- jA.toml)<br/>- Tags: LessCommonFestivals<br/><br/><br/><br/>## Details<br/
- >- References<br/>  - Vrata Mahima<br/>- [Edit config file](https://github
- .com/jyotisham/adyatithi/blob/master/devatA/misc-flora/lunar_month/tithi/0
- 7/10/zamI-pUjA.toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
