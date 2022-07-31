@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220731092920
+SEQUENCE:20220731094200
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -31813,23 +31813,6 @@ DESCRIPTION:Observed on Anūrādhā nakshatra of Karkaṭaḥ (sidereal so
  ttps://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/smArta-misc/
  sidereal_solar_month/nakshatra/04/17/sEGgAlipuram_anantarAma-dIkSita-jayan
  tI.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:वेद/दधि-व्रत-आरम्भः
-DTSTART;VALUE=DATE:20220807
-DTEND;VALUE=DATE:20220808
-DESCRIPTION:Observed on Śukla-Daśamī tithi of Śrāvaṇaḥ (lunar) mo
- nth (Sūryōdayaḥ/puurvaviddha). <br/><br/>Shiva Puja with gandham<br/><
- br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyat
- ithi/blob/master/general/lunar_month/tithi/05/10/vEda_or_dadhi-vrata-Aramb
- haH.toml)<br/>- Tags: SpecialVratam VratamStart SpecialPeriodStart
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
