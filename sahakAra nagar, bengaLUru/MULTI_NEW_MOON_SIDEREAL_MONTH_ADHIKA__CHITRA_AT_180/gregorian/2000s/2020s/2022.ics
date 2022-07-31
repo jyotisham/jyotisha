@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220731094200
+SEQUENCE:20220731095243
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -9034,7 +9034,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:काञ्ची ६८ जगद्गुरु श्री-
  चन्द्रशेखरेन्द्र सरस्वती ७
-  आश्रम-स्वीकार-जयन्ती #११४
+  आश्रम-स्वीकार-दिनम् #११४
 DTSTART;VALUE=DATE:20220304
 DTEND;VALUE=DATE:20220305
 DESCRIPTION:Observed on Uttaraprōṣṭhapadā nakshatra of Kumbhaḥ (si
@@ -9045,8 +9045,8 @@ DESCRIPTION:Observed on Uttaraprōṣṭhapadā nakshatra of Kumbhaḥ (si
  uvāsaraḥ uttaraprōṣṭhapadā nakṣatram.<br/><br/>## Details<br/>-
   [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mah
  ApuruSha/kAnchI-maTha/sidereal_solar_month/nakshatra/11/26/kAJcI_68_jagadg
- uru_zrI~candrazEkharEndra_sarasvatI_7_Azrama-svIkAra-jayantI.toml)<br/>- T
- ags: MahapurushaEvents CommonFestivals
+ uru_zrI~candrazEkharEndra_sarasvatI_7_Azrama-svIkAra-dinam.toml)<br/>- Tag
+ s: MahapurushaEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11528,7 +11528,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:काञ्ची जगद्गुरु श्री-जये
  न्द्र सरस्वती आश्रम-स्वीका
- र-जयन्ती #६९
+ र-दिनम् #६९
 DTSTART;VALUE=DATE:20220321
 DTEND;VALUE=DATE:20220322
 DESCRIPTION:Observed on Svātī nakshatra of Mīnaḥ (sidereal solar) mon
@@ -11538,8 +11538,8 @@ DESCRIPTION:Observed on Svātī nakshatra of Mīnaḥ (sidereal solar) mon
  kr̥ṣṇa dvitīyā sōmavāsaraḥ chitrā upari svātī nakṣatram.<b
  r/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/a
  dyatithi/blob/master/mahApuruSha/kAnchI-maTha/sidereal_solar_month/nakshat
- ra/12/15/kAJcI_jagadguru_zrI~jayEndra_sarasvatI_Azrama-svIkAra-jayantI.tom
- l)<br/>- Tags: MahapurushaEvents CommonFestivals
+ ra/12/15/kAJcI_jagadguru_zrI~jayEndra_sarasvatI_Azrama-svIkAra-dinam.toml)
+ <br/>- Tags: MahapurushaEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20434,7 +20434,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:काञ्ची जगद्गुरु श्री-शङ्
  कर विजयेन्द्र सरस्वती आश्र
- म-स्वीकार-जयन्ती #४०
+ म-स्वीकार-दिनम् #४०
 DTSTART;VALUE=DATE:20220518
 DTEND;VALUE=DATE:20220519
 DESCRIPTION:Observed on Mūlā nakshatra of Vr̥ṣabhaḥ (sidereal solar
@@ -20445,8 +20445,7 @@ DESCRIPTION:Observed on Mūlā nakshatra of Vr̥ṣabhaḥ (sidereal solar
  lā nakṣatram.<br/><br/>## Details<br/>- [Edit config file](https://gith
  ub.com/jyotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/sidereal_s
  olar_month/nakshatra/02/19/kAJcI_jagadguru_zrI~zaGkara_vijayEndra_sarasvat
- I_Azrama-svIkAra-jayantI.toml)<br/>- Tags: MahapurushaEvents CommonFestiva
- ls
+ I_Azrama-svIkAra-dinam.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
