@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220731095646
+SEQUENCE:20220731100854
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -16278,6 +16278,24 @@ DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
  scription_only/vikaTa-mahAgaNapati_saGkaTahara-caturthI-vratam.toml)<br/>-
   Tags: MonthlyVratam SankataharaChaturthiVratam<br/><br/>When `caturthI` o
  ccurs on a Tuesday\, it is known as `aGgArakI` and is even more sacred.
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:सुखा-अङ्गारक-चतुर्थी
+DTSTART;VALUE=DATE:20220419
+DTEND;VALUE=DATE:20220420
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/tithi-vara-combinations/description_on
+ ly/sukhA~aGgAraka-caturthI.toml)<br/>- Tags: RareDays Combinations<br/><br
+ /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/tithi-vara-combinations/description_on
+ ly/sukhA~aGgAraka-caturthI.toml)<br/>- Tags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -35625,6 +35643,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:सुखा-अङ्गारक-चतुर्थी
+DTSTART;VALUE=DATE:20220830
+DTEND;VALUE=DATE:20220831
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/tithi-vara-combinations/description_on
+ ly/sukhA~aGgAraka-caturthI.toml)<br/>- Tags: RareDays Combinations<br/><br
+ /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/tithi-vara-combinations/description_on
+ ly/sukhA~aGgAraka-caturthI.toml)<br/>- Tags: RareDays Combinations
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:तिरुच्चॆन्दूर् मुरुगऩ् 
  आवणित् तिरुविऴा 9म् नाळ्
 DTSTART;VALUE=DATE:20220830
@@ -38012,6 +38048,24 @@ DESCRIPTION:Observed on Kr̥ṣṇa-Tr̥tīyā tithi of Bhādrapadaḥ (lu
  r/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master
  /general/lunar_month/tithi/06/18/kajarI~tRtIyA.toml)<br/>- Tags: SpecialVr
  atam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:सुखा-अङ्गारक-चतुर्थी
+DTSTART;VALUE=DATE:20220913
+DTEND;VALUE=DATE:20220914
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/tithi-vara-combinations/description_on
+ ly/sukhA~aGgAraka-caturthI.toml)<br/>- Tags: RareDays Combinations<br/><br
+ /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/tithi-vara-combinations/description_on
+ ly/sukhA~aGgAraka-caturthI.toml)<br/>- Tags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -42774,6 +42828,28 @@ DESCRIPTION:- Indian civil date: 1944-07-24\, Islamic: 1444-03-20 Rabīʿ
  टः**—12:05-13:33\; **गुलिककालः**—15:01-16:28  \n
  ___________________\n- **शूलम्**—प्रतीची (►10:
  54)\; **परिहारः**–गुडम्  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:भानुसप्तमी
+DTSTART;VALUE=DATE:20221016
+DTEND;VALUE=DATE:20221017
+DESCRIPTION:saptamī tithi on a Sunday is as sacred as a solar eclipse. Pa
+ rticularly good for worshipping Surya.<br/><br/>अमावस्या 
+ तु सोमेन सप्तमी भानुना सह।  <b
+ r/>चतुर्थी भूमिपुत्रेण सोमपु
+ त्रेण चाष्टमी।  <br/>चतस्रस्ति
+ थयस्त्वेताः सूर्यग्रहणसन्
+ निभाः॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](
+ https://github.com/jyotisham/adyatithi/blob/master/time_focus/tithi-vara-c
+ ombinations/description_only/bhAnusaptamI.toml)<br/>- Tags: RareDays Combi
+ nations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
