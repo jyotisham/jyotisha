@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220807130644
+SEQUENCE:20220808125813
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -16596,6 +16596,25 @@ DESCRIPTION:- Indian civil date: 1944-02-02\, Islamic: 1443-09-20 Ramaḍ
  39-09:12  \n___________________\n- **शूलम्**—प्रती
  ची (►11:04)\; **परिहारः**–गुडम्  \n_______
  ____________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अज्मेर-स्त्री-बल-भोज-वार
+ ्ता #३०
+DTSTART;VALUE=DATE:20220422
+DTEND;VALUE=DATE:20220423
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/04/22/ajmer
+ a-hinduka-strI-bala-bhoga-vArtA.toml)<br/>- Tags: <br/><br/><br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/mahApuruSha/xatra-later/gregorian/day/04/22/ajmera-hinduka-strI-b
+ ala-bhoga-vArtA.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
