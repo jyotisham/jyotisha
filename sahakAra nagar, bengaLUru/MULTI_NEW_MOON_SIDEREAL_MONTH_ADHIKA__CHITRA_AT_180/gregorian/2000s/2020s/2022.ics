@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220808174903
+SEQUENCE:20220813195554
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -40203,6 +40203,23 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  -hatyA.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit config
   file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xatr
  a-later/gregorian/day/09/28/Irama-hatyA.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ऎसूरु-विद्रोहः #८०
+DTSTART;VALUE=DATE:20220928
+DTEND;VALUE=DATE:20220929
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/09/28/esUru
+ -vidrohaH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/x
+ atra-later/gregorian/day/09/28/esUru-vidrohaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
