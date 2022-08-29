@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220829093538
+SEQUENCE:20220829133704
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -31678,6 +31678,24 @@ DESCRIPTION:Observed on Svātī nakshatra of Karkaṭaḥ (sidereal solar)
  a/nAyanAr/sidereal_solar_month/nakshatra/04/15/kazhar2ir2r2ar2ivAr_or_cEra
  mAn2_perumAL_nAyan2Ar_%2836%29_gurupUjai.toml)<br/>- Tags: NayanarGurupuja
  i
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:मन्भूम-विद्रोहः #१६५
+DTSTART;VALUE=DATE:20220805
+DTEND;VALUE=DATE:20220806
+DESCRIPTION:Event occured on 1857-08-05 (gregorian). <br/><br/>Manbhum Upr
+ ising of 1857. The intensity of the revolt was so great that the British w
+ ere forced to abondon Purulia (Manbhum) & flee to Raniganj. Purulia (Manbh
+ um) was free of British rule for 23 days.<br/><br/>## Details<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSh
+ a/xatra-later/gregorian/day/08/05/manbhUm-vidrohaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
