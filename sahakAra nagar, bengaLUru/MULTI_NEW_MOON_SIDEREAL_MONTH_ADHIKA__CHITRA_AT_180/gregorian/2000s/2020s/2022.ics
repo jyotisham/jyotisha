@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220904115344
+SEQUENCE:20220904142508
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -36349,15 +36349,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कुलच्चिरै नायऩार् (२१) गु
+SUMMARY:कुलच्चिऱै नायऩार् (२१) गु
  रुपूजै
 DTSTART;VALUE=DATE:20220903
 DTEND;VALUE=DATE:20220904
 DESCRIPTION:Observed on Anūrādhā nakshatra of Siṁhaḥ (sidereal sola
  r) month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
  t config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuru
- Sha/nAyanAr/sidereal_solar_month/nakshatra/05/17/kulaccirai_nAyan2Ar_%2821
- %29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
+ Sha/nAyanAr/sidereal_solar_month/nakshatra/05/17/kulaccir2ai_nAyan2Ar_%282
+ 1%29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
