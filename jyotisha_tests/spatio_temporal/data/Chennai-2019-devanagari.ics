@@ -28269,14 +28269,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kulachchirai Nāyanār (21) Gurupūjai
+SUMMARY:Kulachchiṟai Nāyanār (21) Gurupūjai
 DTSTART;VALUE=DATE:20190905
 DTEND;VALUE=DATE:20190906
 DESCRIPTION:Observed on Anūrādhā nakshatra of Siṁhaḥ (sidereal sola
  r) month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
  t config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuru
- Sha/nAyanAr/sidereal_solar_month/nakshatra/05/17/kulaccirai_nAyan2Ar_%2821
- %29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
+ Sha/nAyanAr/sidereal_solar_month/nakshatra/05/17/kulaccir2ai_nAyan2Ar_%282
+ 1%29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
