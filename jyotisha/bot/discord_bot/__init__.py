@@ -29,7 +29,7 @@ class SingleMessageSender(discord.Client):
 
 
 def send_panchaanga(city, channel_id, token, computation_system_str, md_url_base, html_url_base, date_str=None, next_day=False, dry_run=False):
-  md = get_panchaanga_md(city, computation_system_str, date_str, html_url_base, md_url_base, next_day, max_length=1950)
+  md = get_panchaanga_md(city, computation_system_str, date_str, html_url_base, md_url_base, next_day, max_length=2000)
   
   # Getting mangled text like:
   # - 🌞-🪐 अमढगरह - गर (166.93° → 168.03°), मङगल (98.59° → 99.10°), शनशचर (-147.57° → -146.54°), शकर (9.96° → 9.70°), बध (-15.46° → -13.90°)

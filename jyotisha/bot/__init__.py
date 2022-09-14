@@ -31,7 +31,8 @@ def get_panchaanga_md(city, computation_system_str, date_str, html_url_base, md_
   logging.info("md_url: %s" % md_url)
   logging.info("html_url: %s" % html_url)
   md = "%s\n\n%s" % (html_url, urlopen(md_url).read().decode("utf-8"))
-  if len(md) >= max_length - 100:
-    md = md[:max_length - 500] + "\n\n Message truncated. Please visit URL at top for full details."
+  if len(md) >= max_length - 50:
+    truncation_message = "\n\n Message truncated. Please visit URL at top for full details."
+    md = md[:max_length - len(truncation_message) - 10] + truncation_message
   logging.info("Sending message: \n%s", md)
   return md
