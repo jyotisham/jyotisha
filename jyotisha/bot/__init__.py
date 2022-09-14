@@ -3,13 +3,12 @@ from datetime import datetime, timedelta
 from urllib.request import urlopen
 
 import regex
-import telegram
 
 from jyotisha.panchaanga.temporal import era
 from jyotisha.panchaanga.writer.generation_project import get_canonical_path
 
 
-def get_panchaanga_md(city, computation_system_str, date_str, html_url_base, md_url_base, next_day):
+def get_panchaanga_md(city, computation_system_str, date_str, html_url_base, md_url_base, next_day, max_length):
   if date_str is None:
     today = city.get_timezone_obj().current_time()
     date_str = "%04d-%02d-%02d" % (today.year, today.month, today.day)
@@ -32,7 +31,7 @@ def get_panchaanga_md(city, computation_system_str, date_str, html_url_base, md_
   logging.info("md_url: %s" % md_url)
   logging.info("html_url: %s" % html_url)
   md = "%s\n\n%s" % (html_url, urlopen(md_url).read().decode("utf-8"))
-  if len(md) >= telegram.MAX_MESSAGE_LENGTH - 100:
-    md = md[:telegram.MAX_MESSAGE_LENGTH - 500] + "\n\n Message truncated. Please visit URL at top for full details."
+  if len(md) >= max_length - 100:
+    md = md[:max_length - 500] + "\n\n Message truncated. Please visit URL at top for full details."
   logging.info("Sending message: \n%s", md)
   return md
