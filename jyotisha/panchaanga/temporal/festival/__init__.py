@@ -331,7 +331,7 @@ def get_description_tex(festival_instance, fest_details_dict, script):
   else:
     desc['detailed'] = desc['detailed'].replace('&', '\\&').replace('\n', '\\\\').replace('\\\\\\\\', '\\\\').replace('## ', '')
     desc['detailed'] = desc['detailed'][:1].capitalize() + desc['detailed'][1:]
-    desc['shlokas'] = desc['shlokas'].replace('\n', '\\\\').replace('\\\\\\\\', '\\\\').replace('\\\\  \\\\', '\\\\\\smallskip ')
+    desc['shlokas'] = desc['shlokas'].strip('\n').replace('\n', '\\\\').replace('\\\\\\\\', '\\\\').replace('\\\\  \\\\', '\\\\\\smallskip ')
     desc['references'] = desc['references'].replace('- References\n  ', '')
     return '{%s}\n{%s}\n{%s}\n{%s}\n{%s}\n{%s}' % (desc['blurb'].replace('_', '\\_'), 
                                      desc['detailed'].replace('_', '\\_'),
