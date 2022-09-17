@@ -22,3 +22,4 @@ Flask
 pypandoc
 setuptools
 python-telegram-bot
+discord.py
