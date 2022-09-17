@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220914134053
+SEQUENCE:20220917224308
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -31041,13 +31041,13 @@ DESCRIPTION:Observed on Pūrvaphalgunī nakshatra of Karkaṭaḥ (siderea
  l solar) month (Prātaḥ/paraviddha). <br/><br/>श्रीविष्
  णुचित्त-कुलकल्पकनन्दवल्ली
  म्  <br/>श्रीरङ्गराज-हरि-चन्दन-
- योग-द्र्श्याम्।  <br/>साक्षात्
-  क्षमां करुणया कमलामिवान्य
- ां  <br/>गोदाम् अनन्यशरणः शरणं 
- प्रपद्ये॥<br/><br/><br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/AL
- vAr/sidereal_solar_month/nakshatra/04/11/tiruvADippUram.toml)<br/>- Tags: 
- CommonFestivals AzhwarJayanti
+ योग-दृश्याम्।  <br/>साक्षात् क
+ ्षमां करुणया कमलामिवान्यां
+   <br/>गोदाम् अनन्यशरणः शरणं प्
+ रपद्ये॥<br/><br/><br/><br/>## Details<br/>- [Edit config fil
+ e](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/ALvAr/si
+ dereal_solar_month/nakshatra/04/11/tiruvADippUram.toml)<br/>- Tags: Common
+ Festivals AzhwarJayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
