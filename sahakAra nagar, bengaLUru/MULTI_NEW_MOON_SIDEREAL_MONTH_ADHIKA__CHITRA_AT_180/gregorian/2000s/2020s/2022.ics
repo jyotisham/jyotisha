@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20220918063347
+SEQUENCE:20221003090214
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -37239,13 +37239,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:गो-त्रिरात्रि-व्रतम्
+SUMMARY:गो-त्रिरात्र-व्रतम्
 DTSTART;VALUE=DATE:20220908
 DTEND;VALUE=DATE:20220909
 DESCRIPTION:Observed on Śukla-Trayōdaśī tithi of Bhādrapadaḥ (lunar
  ) month (Sūryōdayaḥ/puurvaviddha). <br/><br/>Agastya arghya danam<br/>
  <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
- tithi/blob/master/general/lunar_month/tithi/06/13/gO-trirAtri-vratam~1.tom
+ tithi/blob/master/general/lunar_month/tithi/06/13/gO-trirAtra-vratam~1.tom
  l)<br/>- Tags: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -38889,11 +38889,11 @@ SUMMARY:महाव्यतीपात-श्राद्धम्
 DTSTART;VALUE=DATE:20220918
 DTEND;VALUE=DATE:20220919
 DESCRIPTION:vyatīpāta is regarded as the king of yōgas. Though it occur
- s 13 times every year\, the occurrence in dhanurmāsa and mahālayapakṣa
-  are special\, and this day is special for a number of propitiating the pi
- tr̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyo
- tisham/adyatithi/blob/master/devatA/pitR/description_only/mahAvyatIpAta-zr
- Addham.toml)<br/>- Tags: ShraddhaDays
+ s 13 times every year\, the occurrences in dhanurmāsa and mahālayapakṣ
+ a are particularly sacred\, and this day is special for propitiating the p
+ itr̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/blob/master/devatA/pitR/description_only/mahAvyatIpAta-z
+ rAddham.toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -39740,6 +39740,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:महालय-पक्ष-तर्पण-पूर्तिः
+DTSTART;VALUE=DATE:20220925
+DTEND;VALUE=DATE:20220926
+DESCRIPTION:Mahalaya Paksha Tarpana of 16 days ends today.<br/><br/>## Det
+ ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/
+ master/devatA/pitR/relative_event/mahAlaya-pakSa-ArambhaH/offset__15/mahAl
+ aya-pakSa-tarpaNa-pUrtiH.toml)<br/>- Tags: SpecialPeriodEnd CommonFestival
+ s
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:पार्वणव्रतम् अमावास्या
  याम्
 DTSTART;VALUE=DATE:20220925
@@ -39951,23 +39968,6 @@ DESCRIPTION:Observed on Śukla-Prathamā tithi of Āśvayujaḥ (lunar) mo
  ferences<br/>  - Nilamata Puranam<br/>- [Edit config file](https://github.
  com/jyotisham/adyatithi/blob/master/devatA/shakti/lunar_month/tithi/07/01/
  gRhadEvI-pUjA.toml)<br/>- Tags: LessCommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:महालय-पक्ष-तर्पण-पूर्तिः
-DTSTART;VALUE=DATE:20220926
-DTEND;VALUE=DATE:20220927
-DESCRIPTION:Mahalaya Paksha Tarpana of 16 days ends today.<br/><br/>## Det
- ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/
- master/devatA/pitR/relative_event/mahAlaya-pakSa-ArambhaH/offset__16/mahAl
- aya-pakSa-tarpaNa-pUrtiH.toml)<br/>- Tags: SpecialPeriodEnd CommonFestival
- s
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -40909,13 +40909,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काल-त्रिरात्रि-व्रतम्
+SUMMARY:काल-त्रिरात्र-व्रतम्
 DTSTART;VALUE=DATE:20221003
 DTEND;VALUE=DATE:20221004
 DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Āśvayujaḥ (lunar) 
  month (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- 
  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gene
- ral/lunar_month/tithi/07/08/kAla-trirAtri-vratam.toml)<br/>- Tags: Special
+ ral/lunar_month/tithi/07/08/kAla-trirAtra-vratam.toml)<br/>- Tags: Special
  Vratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -44009,14 +44009,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:गो-त्रिरात्रि-व्रतम्
+SUMMARY:गो-त्रिरात्र-व्रतम्
 DTSTART;VALUE=DATE:20221023
 DTEND;VALUE=DATE:20221024
 DESCRIPTION:Observed on Kr̥ṣṇa-Trayōdaśī tithi of Āśvayujaḥ (l
  unar) month (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<
  br/>- References<br/>  - Chaturvarga Chintamani<br/>- [Edit config file](h
  ttps://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tith
- i/07/28/gO-trirAtri-vratam~2.toml)<br/>- Tags: SpecialVratam
+ i/07/28/gO-trirAtra-vratam~2.toml)<br/>- Tags: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
