@@ -29075,13 +29075,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:gō-trirātri-vratam
+SUMMARY:gō-trirātra-vratam
 DTSTART;VALUE=DATE:20190911
 DTEND;VALUE=DATE:20190912
 DESCRIPTION:Observed on Śukla-Trayōdaśī tithi of Bhādrapadaḥ (lunar
  ) month (Sūryōdayaḥ/puurvaviddha). <br/><br/>Agastya arghya danam<br/>
  <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
- tithi/blob/master/general/lunar_month/tithi/06/13/gO-trirAtri-vratam~1.tom
+ tithi/blob/master/general/lunar_month/tithi/06/13/gO-trirAtra-vratam~1.tom
  l)<br/>- Tags: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -30509,11 +30509,11 @@ SUMMARY:mahāvyatīpāta-śrāddham
 DTSTART;VALUE=DATE:20190922
 DTEND;VALUE=DATE:20190923
 DESCRIPTION:vyatīpāta is regarded as the king of yōgas. Though it occur
- s 13 times every year\, the occurrence in dhanurmāsa and mahālayapakṣa
-  are special\, and this day is special for a number of propitiating the pi
- tr̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyo
- tisham/adyatithi/blob/master/devatA/pitR/description_only/mahAvyatIpAta-zr
- Addham.toml)<br/>- Tags: ShraddhaDays
+ s 13 times every year\, the occurrences in dhanurmāsa and mahālayapakṣ
+ a are particularly sacred\, and this day is special for propitiating the p
+ itr̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/blob/master/devatA/pitR/description_only/mahAvyatIpAta-z
+ rAddham.toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -31395,6 +31395,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:mahālaya-pakṣa-tarpaṇa-pūrtiḥ
+DTSTART;VALUE=DATE:20190929
+DTEND;VALUE=DATE:20190930
+DESCRIPTION:Mahalaya Paksha Tarpana of 16 days ends today.<br/><br/>## Det
+ ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/
+ master/devatA/pitR/relative_event/mahAlaya-pakSa-ArambhaH/offset__15/mahAl
+ aya-pakSa-tarpaNa-pUrtiH.toml)<br/>- Tags: SpecialPeriodEnd CommonFestival
+ s
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:pārvaṇa-prāyaścittāvakāśaḥ paurṇamāsyām
 DTSTART;VALUE=DATE:20190929
 DTEND;VALUE=DATE:20190930
@@ -31527,23 +31544,6 @@ DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
  er/devatA/graha/description_only/candra-darzanam.toml)<br/>- Tags: Chandra
  Darshanam
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:mahālaya-pakṣa-tarpaṇa-pūrtiḥ
-DTSTART;VALUE=DATE:20190930
-DTEND;VALUE=DATE:20191001
-DESCRIPTION:Mahalaya Paksha Tarpana of 16 days ends today.<br/><br/>## Det
- ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/
- master/devatA/pitR/relative_event/mahAlaya-pakSa-ArambhaH/offset__16/mahAl
- aya-pakSa-tarpaNa-pUrtiH.toml)<br/>- Tags: SpecialPeriodEnd CommonFestival
- s
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -32164,13 +32164,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:kāla-trirātri-vratam
+SUMMARY:kāla-trirātra-vratam
 DTSTART;VALUE=DATE:20191006
 DTEND;VALUE=DATE:20191007
 DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Āśvayujaḥ (lunar) 
  month (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- 
  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gene
- ral/lunar_month/tithi/07/08/kAla-trirAtri-vratam.toml)<br/>- Tags: Special
+ ral/lunar_month/tithi/07/08/kAla-trirAtra-vratam.toml)<br/>- Tags: Special
  Vratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -34666,14 +34666,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:gō-trirātri-vratam
+SUMMARY:gō-trirātra-vratam
 DTSTART;VALUE=DATE:20191026
 DTEND;VALUE=DATE:20191027
 DESCRIPTION:Observed on Kr̥ṣṇa-Trayōdaśī tithi of Āśvayujaḥ (l
  unar) month (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<
  br/>- References<br/>  - Chaturvarga Chintamani<br/>- [Edit config file](h
  ttps://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tith
- i/07/28/gO-trirAtri-vratam~2.toml)<br/>- Tags: SpecialVratam
+ i/07/28/gO-trirAtra-vratam~2.toml)<br/>- Tags: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
