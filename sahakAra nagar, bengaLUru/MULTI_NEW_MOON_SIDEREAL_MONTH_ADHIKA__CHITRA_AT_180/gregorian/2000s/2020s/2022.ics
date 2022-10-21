@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20221016200813
+SEQUENCE:20221021093100
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -36367,23 +36367,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:महाकाली-जयन्ती
-DTSTART;VALUE=DATE:20220903
-DTEND;VALUE=DATE:20220904
-DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Bhādrapadaḥ (lunar)
-  month (Madhyarātriḥ/paraviddha). <br/><br/>Goddess Mahakali is 1st of 
- the Dasha Maha Vidyas.<br/><br/>## Details<br/>- [Edit config file](https:
- //github.com/jyotisham/adyatithi/blob/master/devatA/dashamahAvidyA/lunar_m
- onth/tithi/06/08/mahAkAlI~jayantI.toml)<br/>- Tags: Dashamahavidya
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:वैधृति-श्राद्धम्
 DTSTART;VALUE=DATE:20220903
 DTEND;VALUE=DATE:20220904
@@ -38633,6 +38616,23 @@ DESCRIPTION:Kanyā-Ravi-Saṅkramaṇa-Ṣaḍaśīti Punyakala. Perform d
   [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/tim
  e_focus/sankrAnti/description_only/kanyA-ravi-saGkramaNa-SaDazIti-puNyakAl
  aH.toml)<br/>- Tags: SunSankranti CommonFestivals
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:महाकाली-जयन्ती
+DTSTART;VALUE=DATE:20220917
+DTEND;VALUE=DATE:20220918
+DESCRIPTION:Observed on Kr̥ṣṇa-Aṣṭamī tithi of Bhādrapadaḥ (l
+ unar) month (Madhyarātriḥ/paraviddha). <br/><br/>Goddess Mahakali is 1s
+ t of the Dasha Maha Vidyas.<br/><br/>## Details<br/>- [Edit config file](h
+ ttps://github.com/jyotisham/adyatithi/blob/master/devatA/dashamahAvidyA/lu
+ nar_month/tithi/06/23/mahAkAlI~jayantI.toml)<br/>- Tags: Dashamahavidya
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
