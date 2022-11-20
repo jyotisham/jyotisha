@@ -5,4 +5,4 @@ JyotiSha tools and data
 [![Actions Status](https://github.com/jyotisham/jyotisha/workflows/Python%20package/badge.svg)](https://github.com/jyotisham/jyotisha/actions)
 
 
-Intro, user-guide, contribution guide, example calendars etc.. [here](https://jyotisham.github.io/jyotisha/).
+Intro, user-guide, contribution guide, example calendars etc. may be found [here](https://jyotisham.github.io/jyotisha/).
