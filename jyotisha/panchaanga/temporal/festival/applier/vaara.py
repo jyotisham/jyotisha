@@ -12,7 +12,7 @@ from sanskrit_data.schema import common
 class VaraFestivalAssigner(FestivalAssigner):
   def assign_all(self):
     self.assign_bhriguvara_subrahmanya_vratam()
-    self.assign_masa_vara_yoga_kRttikaa()
+    self.assign_masa_vara_yoga_kaarttika()
     self.assign_masa_vara_yoga_fests_tn()
     self.assign_nakshatra_vara_yoga_vratam()
     self.assign_ayushman_bava_saumya_yoga()
@@ -33,15 +33,15 @@ class VaraFestivalAssigner(FestivalAssigner):
           # https://youtu.be/rgXwyo0L3i8?t=222
           self.panchaanga.add_festival(fest_id=festival_name, date=self.daily_panchaangas[d].date)
 
-  def assign_masa_vara_yoga_kRttikaa(self):
-    festival_name = 'kRttikA~sOmavAsaraH'
+  def assign_masa_vara_yoga_kaarttika(self):
+    festival_name = 'kArttikA~sOmavAsaraH'
     if festival_name not in self.rules_collection.name_to_rule:
       return
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
 
       # KRTTIKA SOMAVASARA
       if self.daily_panchaangas[d].lunar_month_sunrise.index == 8 and self.daily_panchaangas[d].date.get_weekday() == 1:
-        self.panchaanga.add_festival(fest_id='kRttikA~sOmavAsaraH', date=self.daily_panchaangas[d].date)
+        self.panchaanga.add_festival(fest_id='kArttikA~sOmavAsaraH', date=self.daily_panchaangas[d].date)
 
   def assign_masa_vara_yoga_fests_tn(self):
     festival_name = 'AvaNi~JAyir2r2ukkizhamai'
@@ -103,7 +103,7 @@ class VaraFestivalAssigner(FestivalAssigner):
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       # NAKSHATRA-WEEKDAY FESTIVALS
       for (nwd_fest_n, nwd_fest_wd, nwd_fest_name) in ((13, 0, 'Adityahasta-yOgaH'),
-                                                       (8, 0, 'ravipuSyayOga-yOgaH'),
+                                                       (8, 0, 'ravipuSya-yOgaH'),
                                                        (22, 1, 'sOmazrAvaNI-yOgaH'),
                                                        (5, 1, 'sOmamRgazIrSa-yOgaH'),
                                                        (1, 2, 'bhaumAzvinI-yOgaH'),
