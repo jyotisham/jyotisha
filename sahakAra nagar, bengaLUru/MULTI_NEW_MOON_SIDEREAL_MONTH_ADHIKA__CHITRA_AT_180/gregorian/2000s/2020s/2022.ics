@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20221120145233
+SEQUENCE:20221120160030
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -14443,10 +14443,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:रविपुष्ययोग-योगः
+SUMMARY:रविपुष्य-योगः
 DTSTART;VALUE=DATE:20220410
 DTEND;VALUE=DATE:20220411
-DESCRIPTION:
+DESCRIPTION:When Pushya nakshatra falls on a Sunday\, it is a special yōg
+ aḥ.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
+ isham/adyatithi/blob/master/time_focus/misc_combinations/description_only/
+ ravipuSya-yOgaH.toml)<br/>- Tags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18862,10 +18865,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:रविपुष्ययोग-योगः
+SUMMARY:रविपुष्य-योगः
 DTSTART;TZID=Asia/Calcutta:20220508T000000
 DTEND;TZID=Asia/Calcutta:20220508T145613
-DESCRIPTION:
+DESCRIPTION:When Pushya nakshatra falls on a Sunday\, it is a special yōg
+ aḥ.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
+ isham/adyatithi/blob/master/time_focus/misc_combinations/description_only/
+ ravipuSya-yOgaH.toml)<br/>- Tags: RareDays Combinations
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -45316,6 +45322,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:कार्त्तिक-सोमवासरः
+DTSTART;VALUE=DATE:20221031
+DTEND;VALUE=DATE:20221101
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/shaiva/description_only/kArttikA~sOmavAsar
+ aH.toml)<br/>- Tags: MonthWeekdayFestivals<br/><br/><br/><br/>## Details<b
+ r/>- References<br/>  - Skanda Puranam<br/>- [Edit config file](https://gi
+ thub.com/jyotisham/adyatithi/blob/master/devatA/shaiva/description_only/kA
+ rttikA~sOmavAsaraH.toml)<br/>- Tags: MonthWeekdayFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:सावित्र्य-कल्पादिः
 DTSTART;VALUE=DATE:20221031
 DTEND;VALUE=DATE:20221101
@@ -46356,6 +46380,24 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  it config file](https://github.com/jyotisham/adyatithi/blob/master/mahApur
  uSha/xatra-later/gregorian/day/11/07/go-raxA-para-mAraNam.toml)<br/>- Tags
  :
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:कार्त्तिक-सोमवासरः
+DTSTART;VALUE=DATE:20221107
+DTEND;VALUE=DATE:20221108
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/shaiva/description_only/kArttikA~sOmavAsar
+ aH.toml)<br/>- Tags: MonthWeekdayFestivals<br/><br/><br/><br/>## Details<b
+ r/>- References<br/>  - Skanda Puranam<br/>- [Edit config file](https://gi
+ thub.com/jyotisham/adyatithi/blob/master/devatA/shaiva/description_only/kA
+ rttikA~sOmavAsaraH.toml)<br/>- Tags: MonthWeekdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -47492,6 +47534,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:कार्त्तिक-सोमवासरः
+DTSTART;VALUE=DATE:20221114
+DTEND;VALUE=DATE:20221115
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/shaiva/description_only/kArttikA~sOmavAsar
+ aH.toml)<br/>- Tags: MonthWeekdayFestivals<br/><br/><br/><br/>## Details<b
+ r/>- References<br/>  - Skanda Puranam<br/>- [Edit config file](https://gi
+ thub.com/jyotisham/adyatithi/blob/master/devatA/shaiva/description_only/kA
+ rttikA~sOmavAsaraH.toml)<br/>- Tags: MonthWeekdayFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:सेङ्गालिपुरम् अनन्तराम-
  दीक्षित-आराधना #५३
 DTSTART;VALUE=DATE:20221114
@@ -48534,6 +48594,24 @@ DESCRIPTION:- Indian civil date: 1944-08-30\, Islamic: 1444-04-26 Rabīʿ
  ालः**—13:30-14:55  \n___________________\n- **शूलम्**—
  प्राची (►09:26)\; **परिहारः**–दधि  \n_
  __________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:कार्त्तिक-सोमवासरः
+DTSTART;VALUE=DATE:20221121
+DTEND;VALUE=DATE:20221122
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/shaiva/description_only/kArttikA~sOmavAsar
+ aH.toml)<br/>- Tags: MonthWeekdayFestivals<br/><br/><br/><br/>## Details<b
+ r/>- References<br/>  - Skanda Puranam<br/>- [Edit config file](https://gi
+ thub.com/jyotisham/adyatithi/blob/master/devatA/shaiva/description_only/kA
+ rttikA~sOmavAsaraH.toml)<br/>- Tags: MonthWeekdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
