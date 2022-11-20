@@ -5093,10 +5093,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ravipuṣyayōga-yōgaḥ
+SUMMARY:ravipuṣya-yōgaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190217T164429
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190217T235957
-DESCRIPTION:
+DESCRIPTION:When Pushya nakshatra falls on a Sunday\, it is a special yōg
+ aḥ.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
+ isham/adyatithi/blob/master/time_focus/misc_combinations/description_only/
+ ravipuSya-yOgaH.toml)<br/>- Tags: RareDays Combinations
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -7952,10 +7955,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ravipuṣyayōga-yōgaḥ
+SUMMARY:ravipuṣya-yōgaḥ
 DTSTART;VALUE=DATE:20190316
 DTEND;VALUE=DATE:20190317
-DESCRIPTION:
+DESCRIPTION:When Pushya nakshatra falls on a Sunday\, it is a special yōg
+ aḥ.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
+ isham/adyatithi/blob/master/time_focus/misc_combinations/description_only/
+ ravipuSya-yOgaH.toml)<br/>- Tags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11169,10 +11175,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ravipuṣyayōga-yōgaḥ
+SUMMARY:ravipuṣya-yōgaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190413T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190414T073844
-DESCRIPTION:
+DESCRIPTION:When Pushya nakshatra falls on a Sunday\, it is a special yōg
+ aḥ.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
+ isham/adyatithi/blob/master/time_focus/misc_combinations/description_only/
+ ravipuSya-yOgaH.toml)<br/>- Tags: RareDays Combinations
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -35737,6 +35746,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:kārttika-sōmavāsaraḥ
+DTSTART;VALUE=DATE:20191104
+DTEND;VALUE=DATE:20191105
+DESCRIPTION:Do puja to Shiva/Parvati\, perform fast.<br/><br/>## Details<b
+ r/>- References<br/>  - Skanda Puranam<br/>- [Edit config file](https://gi
+ thub.com/jyotisham/adyatithi/blob/master/devatA/shaiva/description_only/kA
+ rttikA~sOmavAsaraH.toml)<br/>- Tags: MonthWeekdayFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Poygaiyāḻvār Tirunakṣattiram
 DTSTART;VALUE=DATE:20191104
 DTEND;VALUE=DATE:20191105
@@ -36600,6 +36625,22 @@ DESCRIPTION:- Indian civil date: 1941-08-20\, Islamic: 1441-03-13 Rabīʿ
  haṇṭaḥ**—10:26-11:52\; **Gulikakālaḥ**—13:18-14:44  \n_______
  ____________\n- **Śūlam**—Prāchī (►09:12)\; **Parihāraḥ**–Dad
  hi  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:kārttika-sōmavāsaraḥ
+DTSTART;VALUE=DATE:20191111
+DTEND;VALUE=DATE:20191112
+DESCRIPTION:Do puja to Shiva/Parvati\, perform fast.<br/><br/>## Details<b
+ r/>- References<br/>  - Skanda Puranam<br/>- [Edit config file](https://gi
+ thub.com/jyotisham/adyatithi/blob/master/devatA/shaiva/description_only/kA
+ rttikA~sOmavAsaraH.toml)<br/>- Tags: MonthWeekdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -37758,6 +37799,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:kārttika-sōmavāsaraḥ
+DTSTART;VALUE=DATE:20191118
+DTEND;VALUE=DATE:20191119
+DESCRIPTION:Do puja to Shiva/Parvati\, perform fast.<br/><br/>## Details<b
+ r/>- References<br/>  - Skanda Puranam<br/>- [Edit config file](https://gi
+ thub.com/jyotisham/adyatithi/blob/master/devatA/shaiva/description_only/kA
+ rttikA~sOmavAsaraH.toml)<br/>- Tags: MonthWeekdayFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Kārttikaḥ-08-22  \,  Karkaṭaḥ-Āśrēṣā🌛🌌  \,  Vr
  ̥ścikaḥ-Viśākhā-08-03🌞🌌  \,  Ūrjaḥ-08-27🌞🪐  \,  Ma
  ṅgalaḥ
@@ -38465,6 +38522,22 @@ DESCRIPTION:- Indian civil date: 1941-09-04\, Islamic: 1441-03-27 Rabīʿ
  ḥ**—10:30-11:55\; **Gulikakālaḥ**—13:20-14:45  \n________________
  ___\n- **Śūlam**—Prāchī (►09:17)\; **Parihāraḥ**–Dadhi  \n___
  ________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:kārttika-sōmavāsaraḥ
+DTSTART;VALUE=DATE:20191125
+DTEND;VALUE=DATE:20191126
+DESCRIPTION:Do puja to Shiva/Parvati\, perform fast.<br/><br/>## Details<b
+ r/>- References<br/>  - Skanda Puranam<br/>- [Edit config file](https://gi
+ thub.com/jyotisham/adyatithi/blob/master/devatA/shaiva/description_only/kA
+ rttikA~sOmavAsaraH.toml)<br/>- Tags: MonthWeekdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -40717,10 +40790,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ravipuṣyayōga-yōgaḥ
+SUMMARY:ravipuṣya-yōgaḥ
 DTSTART;VALUE=DATE:20191214
 DTEND;VALUE=DATE:20191215
-DESCRIPTION:
+DESCRIPTION:When Pushya nakshatra falls on a Sunday\, it is a special yōg
+ aḥ.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
+ isham/adyatithi/blob/master/time_focus/misc_combinations/description_only/
+ ravipuSya-yOgaH.toml)<br/>- Tags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
