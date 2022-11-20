@@ -199,7 +199,7 @@ class FifteenFoldDivision(common.JsonObject):
     if DURMUHURTA2[weekday] is None:
       self.durmuhurta2 = None
     elif DURMUHURTA2[weekday] > 15:
-      self.durmuhurta2 = get_interval(start_jd=jd_sunset, end_jd=jd_sunrise, part_index=DURMUHURTA2[weekday] - 15, num_parts=15)
+      self.durmuhurta2 = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=DURMUHURTA2[weekday] - 15, num_parts=15)
     else:
       self.durmuhurta2 = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=DURMUHURTA2[weekday], num_parts=15)
 
