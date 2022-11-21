@@ -47,7 +47,7 @@ class ShraddhaTithiAssigner(PeriodicPanchaangaApplier):
     for daily_panchaanga in self.daily_panchaangas:
       daily_panchaanga.shraaddha_tithi = []
 
-  def assign_shraaddha_tithi(self, debug_shraaddha_tithi=True):
+  def assign_shraaddha_tithi(self, debug_shraaddha_tithi=False):
     self.reset_shraaddha_tithis()
     tithi_days = [{z: [] for z in range(0, 32)} for _x in range(13)]
     lunar_tithi_days = {}
@@ -206,7 +206,6 @@ class ShraddhaTithiAssigner(PeriodicPanchaangaApplier):
     # first. If both have sankrAnti dushtam, take second.
     for d in range(1, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       if daily_panchaangas[d].shraaddha_tithi != []:
-        logging.debug(d)
         if daily_panchaangas[d].solar_sidereal_date_sunset.month_transition is not None:
           if debug_shraaddha_tithi:
             logging.debug((d, daily_panchaangas[d].solar_sidereal_date_sunset.month_transition))
@@ -325,8 +324,54 @@ class ShraddhaTithiAssigner(PeriodicPanchaangaApplier):
       if debug_shraaddha_tithi:
         logging.debug(tithi_days)
 
-    for d in range(1, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
-      logging.debug('%03d: %s' % (d, daily_panchaangas[d].shraaddha_tithi))
+    CORR_LIST = []
+
+    for m in range(1, 13):
+      for t in range(1, 31):
+        if len(tithi_days[m][t]) > 1:
+          logging.warning(('WARN:', m, t, tithi_days[m][t]))
+        elif len(tithi_days[m][t]) == 0:
+          logging.warning(('WARN:', m, t, 'Not assigned!'))
+        else:
+          # Check
+          if type(tithi_days[m][t][0]) == str:
+            _d, _m = map(int, tithi_days[m][t][0].split('::'))
+
+            if debug_shraaddha_tithi:
+              logging.debug(self.daily_panchaangas[_d].shraaddha_tithi)
+            for stithi in self.daily_panchaangas[_d].shraaddha_tithi:
+              if tithi_days[m][stithi.index][0] != _d:
+                CORR_LIST.append((tithi_days[m][stithi.index][0], _d, stithi, _m, t))
+                # self._deassign(_d, stithi.index)
+                # self._assign(_d, Anga.get_cached(index=t, anga_type_id=AngaType.TITHI.name))
+              if debug_shraaddha_tithi:
+                logging.debug(('CHK*:', tithi_days[m][stithi.index][0], _d, tithi_days[m][stithi.index][0]==_d, (_m, t)))
+          else:
+            for stithi in self.daily_panchaangas[tithi_days[m][t][0]].shraaddha_tithi:
+              if debug_shraaddha_tithi:
+                logging.debug(('CHK :', tithi_days[m][stithi.index][0], tithi_days[m][t][0], tithi_days[m][stithi.index][0]==tithi_days[m][t][0], (m, t)))
+
+    if debug_shraaddha_tithi:
+      logging.debug(('FINAL:', CORR_LIST))
+    for chk_str, _d, stithi, _m, t in CORR_LIST:
+      wrong_date = chk_str
+      if type(wrong_date) == str:
+        wrong_date = int(wrong_date.split('::')[0])
+        if debug_shraaddha_tithi:
+          logging.debug(('FINAL:', self.daily_panchaangas[_d].shraaddha_tithi))
+        # self._deassign(_d, stithi.index)
+        for _stithi in list(self.daily_panchaangas[_d].shraaddha_tithi):
+          if _stithi.index == stithi.index:
+            self.daily_panchaangas[wrong_date].shraaddha_tithi.remove(stithi)
+    
+      # self._assign(_d, Anga.get_cached(index=t, anga_type_id=AngaType.TITHI.name))
+      self.daily_panchaangas[_d].shraaddha_tithi.append(Anga.get_cached(index=t, anga_type_id=AngaType.TITHI.name))
+      if debug_shraaddha_tithi:
+        logging.debug(('FINAL:', self.daily_panchaangas[_d].shraaddha_tithi))
+
+    if debug_shraaddha_tithi:
+      for d in range(1, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
+        logging.debug('%03d: %s' % (d, daily_panchaangas[d].shraaddha_tithi))
 
 
 # Essential for depickling to work.
