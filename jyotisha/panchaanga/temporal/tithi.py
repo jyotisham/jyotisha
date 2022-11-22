@@ -98,6 +98,9 @@ class ShraddhaTithiAssigner(PeriodicPanchaangaApplier):
       #     _assign(self, d, angam_start)
       if d1_angas.end == angam_start:  # <a>
         # Full aparaahnas on both days, so second day
+        fday = d + 1
+        s_tithi = angam_start
+        reason = '%2d incident on consecutive days; paraviddhA' % s_tithi.index
         if daily_panchaangas[d].solar_sidereal_date_sunset.month != daily_panchaangas[d + 1].solar_sidereal_date_sunset.month:
           # Add to today also, since this is for today's month (tomorrow's assignment is for next month's tithi!)
           fday = d
@@ -105,9 +108,6 @@ class ShraddhaTithiAssigner(PeriodicPanchaangaApplier):
           if debug_shraaddha_tithi:
             logging.debug('%03d [%4d-%02d-%02d]: Assigning tithi %2d to %3d (%s).' % (d, y, m, dt, s_tithi.index, fday, reason))
           self._assign(fday, s_tithi)
-        fday = d + 1
-        s_tithi = angam_start
-        reason = '%2d incident on consecutive days; paraviddhA' % s_tithi.index
       elif (d0_angas.end == angam_start) and (d1_angas.start == next_anga):  # <b>/<f>
         fday = d
         s_tithi = d0_angas.start
