@@ -490,9 +490,14 @@ class SolarFestivalAssigner(FestivalAssigner):
         else:
           festival_name = 'sAyana-vaidhRtiH'
 
-        fday = int(floor(jd_start) - floor(self.daily_panchaangas[0].julian_day_start))
-        if (jd_start < self.daily_panchaangas[fday].jd_sunrise):
-          fday -= 1
+        if jd_start is None:
+          fday = int(floor(jd_end - 1) - floor(self.daily_panchaangas[0].julian_day_start))
+          logging.debug((jd_end - 1, self.daily_panchaangas[0].julian_day_start, jd_end))
+        else:
+          fday = int(floor(jd_start) - floor(self.daily_panchaangas[0].julian_day_start))
+          if (jd_start < self.daily_panchaangas[fday].jd_sunrise):
+            fday -= 1
+
         if jd_end < self.daily_panchaangas[fday+1].jd_sunrise:
           FI = FestivalInstance(name=festival_name, interval=Interval(jd_start=jd_start, jd_end=jd_end))
           self.panchaanga.add_festival_instance(festival_instance=FI, date=self.daily_panchaangas[fday].date)
