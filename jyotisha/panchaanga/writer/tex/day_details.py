@@ -6,6 +6,7 @@ from jyotisha.panchaanga.temporal.body import Graha
 
 def _get_relative_nadikas(jd, daily_panchaanga):
   nadika_time = 0
+  one_ghatika = None
   if daily_panchaanga.jd_previous_sunset < jd < daily_panchaanga.jd_sunrise:
     jd -= daily_panchaanga.jd_previous_sunset
     nadika_time += 30
@@ -17,7 +18,7 @@ def _get_relative_nadikas(jd, daily_panchaanga):
     jd -= daily_panchaanga.jd_sunset
     nadika_time +=30
     one_ghatika = (daily_panchaanga.jd_next_sunrise - daily_panchaanga.jd_sunset) / 30
-  elif daily_panchaanga.jd_next_sunrise < jd:
+  elif daily_panchaanga.jd_next_sunrise <= jd:
     nadika_time +=60
     jd -= daily_panchaanga.jd_next_sunrise
     # approximating
