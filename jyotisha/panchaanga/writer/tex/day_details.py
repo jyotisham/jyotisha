@@ -6,27 +6,29 @@ from jyotisha.panchaanga.temporal.body import Graha
 
 def _get_relative_nadikas(jd, daily_panchaanga):
   nadika_time = 0
-  one_ghatika = None
   if daily_panchaanga.jd_previous_sunset < jd < daily_panchaanga.jd_sunrise:
     jd -= daily_panchaanga.jd_previous_sunset
     nadika_time += 30
     one_ghatika = (daily_panchaanga.jd_sunrise - daily_panchaanga.jd_previous_sunset) / 30
+    nadika_time += jd / one_ghatika
   elif daily_panchaanga.jd_sunrise < jd < daily_panchaanga.jd_sunset:
     jd -= daily_panchaanga.jd_sunrise
     one_ghatika = (daily_panchaanga.jd_sunset - daily_panchaanga.jd_sunrise) / 30
+    nadika_time += jd / one_ghatika
   elif daily_panchaanga.jd_sunset < jd < daily_panchaanga.jd_next_sunrise:
     jd -= daily_panchaanga.jd_sunset
     nadika_time +=30
     one_ghatika = (daily_panchaanga.jd_next_sunrise - daily_panchaanga.jd_sunset) / 30
-  elif daily_panchaanga.jd_next_sunrise <= jd:
+    nadika_time += jd / one_ghatika
+  elif daily_panchaanga.jd_next_sunrise < jd:
     nadika_time +=60
     jd -= daily_panchaanga.jd_next_sunrise
     # approximating
     logging.warning('Approximating ghatika as end time is > next sunrise!')
     one_ghatika = (daily_panchaanga.jd_sunset - daily_panchaanga.jd_sunrise) / 30
+    nadika_time += jd / one_ghatika
   else:
     logging.warning('Unexpected situation with ghatika conversion (jd = %f, jd_sunrise = %f, jd_next_sunrise = %f!' % (jd, daily_panchaanga.jd_sunrise, daily_panchaanga.jd_next_sunrise))
-  nadika_time += jd / one_ghatika
   gg = int(nadika_time)
   pp = int((nadika_time - gg)*60)
   return '%d-%d' % (gg, pp)
