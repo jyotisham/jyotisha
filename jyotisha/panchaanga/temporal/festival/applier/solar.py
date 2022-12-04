@@ -498,7 +498,7 @@ class SolarFestivalAssigner(FestivalAssigner):
           if (jd_start < self.daily_panchaangas[fday].jd_sunrise):
             fday -= 1
 
-        if jd_end < self.daily_panchaangas[fday+1].jd_sunrise:
+        if jd_end is None or jd_end < self.daily_panchaangas[fday+1].jd_sunrise:
           FI = FestivalInstance(name=festival_name, interval=Interval(jd_start=jd_start, jd_end=jd_end))
           self.panchaanga.add_festival_instance(festival_instance=FI, date=self.daily_panchaangas[fday].date)
         else:
