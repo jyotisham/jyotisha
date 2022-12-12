@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20221208210917
+SEQUENCE:20221212092546
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -52468,26 +52468,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  dit config file](https://github.com/jyotisham/adyatithi/blob/master/mahApu
  ruSha/xatra-later/gregorian/day/12/12/zorAvara-siMha-mRtyuH.toml)<br/>- Ta
  gs:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:ज़ोरावरसिंहेन तक्लाकोटग
- ्रहणम् #१८१
-DTSTART;VALUE=DATE:20221212
-DTEND;VALUE=DATE:20221213
-DESCRIPTION:Event occured on 1841-12-12 (gregorian). <br/><br/>On this day
-  died the Kahluria Rajput general Zorawar Singh (under Gulab Singh) on his
-  remarkable Tibetan expedition\, captured Taklakot fort in Tibet near mAna
- sasarovara and Mt KailAsa - just 15 miles from nepAl.<br/><br/>## Details<
- br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/maste
- r/mahApuruSha/xatra-later/gregorian/day/12/12/zorAvara-siMheNa_taklakoTa-g
- rahaNam.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
