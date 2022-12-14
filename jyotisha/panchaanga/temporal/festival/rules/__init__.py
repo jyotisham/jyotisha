@@ -435,11 +435,3 @@ def load_repos():
 
 
 load_repos()
-
-if __name__ == '__main__':
-  # dump_repos()
-  rules_collection = RulesCollection.get_cached(repos_tuple=rule_repos, julian_handling=None)
-  # rules_collection = RulesCollection(repos=[RulesRepo(name="mahApuruSha/xatra-later")], julian_handling=None)
-  rules_collection.fix_filenames()
-  # rules_collection.fix_content()
-

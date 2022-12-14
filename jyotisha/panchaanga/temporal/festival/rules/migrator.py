@@ -2,7 +2,8 @@ import logging
 
 from indic_transliteration import sanscript
 from jyotisha.panchaanga.temporal import era
-from jyotisha.panchaanga.temporal.festival.rules import RulesRepo, HinduCalendarEventTiming, HinduCalendarEvent
+from jyotisha.panchaanga.temporal.festival.rules import RulesRepo, HinduCalendarEventTiming, HinduCalendarEvent, \
+  RulesCollection, rule_repos
 
 
 def import_to_xaatra_later():
@@ -33,3 +34,13 @@ def import_to_xaatra_later():
     rule.description = {"en": en_description.strip()}
     rule.names = {"sa": [sanscript.transliterate(data=event["name_sa"], _from=sanscript.OPTITRANS, _to=sanscript.DEVANAGARI)]}
     rule.dump_to_file(filename=rule.get_storage_file_name(base_dir=repo.get_path(), undo_conversions=True))
+
+
+
+if __name__ == '__main__':
+  # dump_repos()
+  rules_collection = RulesCollection.get_cached(repos_tuple=rule_repos, julian_handling=None)
+  # rules_collection = RulesCollection(repos=[RulesRepo(name="mahApuruSha/xatra-later")], julian_handling=None)
+  rules_collection.fix_filenames()
+  # rules_collection.fix_content()
+
