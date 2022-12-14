@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20221214210428
+SEQUENCE:20221214211004
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -5299,23 +5299,6 @@ DESCRIPTION:When the sum of the longitudes of the Moon and Sun is 360\, it
  icious activities.<br/><br/>## Details<br/>- [Edit config file](https://gi
  thub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/desc
  ription_only/sAyana-vaidhRtiH.toml)<br/>- Tags: Combinations
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:तवाङ्ग-सङ्ग्रहः #७१
-DTSTART;VALUE=DATE:20220207
-DTEND;VALUE=DATE:20220208
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/02/07/tawan
- g-integration.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit
-  config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruS
- ha/xatra-later/gregorian/day/02/07/tawang-integration.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -51737,10 +51720,10 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Mārgaśīrṣaḥ (lunar)
  यां चूर्णितलवणस्य सुवर्णेन
   प्रस्थमेकं चन्द्रोदये ब्र
  ाह्मणाय प्रतिपादयेत्। अनेन
-  कर्मणा रूपसौभाग्यलाभो जाय
- ते इति विष्णुनोक्तं सुवर्ण
- सहितचूर्णितलवणदानम्। तत्र
- ापि चन्द्रोदयव्यापिन्येव ग
+  कर्मणा रूपसौभाग्य<br/>लाभो जा
+ यते इति विष्णुनोक्तं सुवर्
+ णसहितचूर्णितलवणदानम्। तत्
+ रापि चंद्रोदयव्यापिन्येव ग
  ्राह्या।<br/><br/>## Details<br/>- References<br/>  - Smri
  ti Kaustubha p.306<br/>- [Edit config file](https://github.com/jyotisham/a
  dyatithi/blob/master/general/lunar_month/tithi/09/15/mArgazIrSa-pUrNimA.to
@@ -52485,6 +52468,26 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  dit config file](https://github.com/jyotisham/adyatithi/blob/master/mahApu
  ruSha/xatra-later/gregorian/day/12/12/zorAvara-siMha-mRtyuH.toml)<br/>- Ta
  gs:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ज़ोरावरसिंहेन तक्लाकोटग
+ ्रहणम् #१८१
+DTSTART;VALUE=DATE:20221212
+DTEND;VALUE=DATE:20221213
+DESCRIPTION:Event occured on 1841-12-12 (gregorian). <br/><br/>On this day
+  died the Kahluria Rajput general Zorawar Singh (under Gulab Singh) on his
+  remarkable Tibetan expedition\, captured Taklakot fort in Tibet near mAna
+ sasarovara and Mt KailAsa - just 15 miles from nepAl.<br/><br/>## Details<
+ br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/maste
+ r/mahApuruSha/xatra-later/gregorian/day/12/12/zorAvara-siMheNa_taklakoTa-g
+ rahaNam.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
