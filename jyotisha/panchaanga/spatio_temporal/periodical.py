@@ -148,7 +148,7 @@ class Panchaanga(common.JsonObject):
       self.delete_festivals_on_date(date=dp.date)
 
   @timebudget
-  def update_festival_details(self):
+  def update_festival_details(self, compute_shraadha_tithis=False):
     """
 
     Festival data may be updated more frequently and a precomputed panchaanga may go out of sync. Hence we keep this method separate.
@@ -157,7 +157,8 @@ class Panchaanga(common.JsonObject):
     self._reset_festivals()
     rule_lookup_assigner = rule_repo_based.RuleLookupAssigner(panchaanga=self)
     rule_lookup_assigner.apply_festival_from_rules_repos()
-    ShraddhaTithiAssigner(panchaanga=self).assign_shraaddha_tithi()
+    if compute_shraadha_tithis:
+      ShraddhaTithiAssigner(panchaanga=self).assign_shraaddha_tithi()
     ecliptic.EclipticFestivalAssigner(panchaanga=self).assign_all()
     tithi_festival.TithiFestivalAssigner(panchaanga=self).assign_all()
     solar.SolarFestivalAssigner(panchaanga=self).assign_all()

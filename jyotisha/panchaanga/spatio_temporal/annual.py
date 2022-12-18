@@ -72,7 +72,7 @@ def get_panchaanga_for_shaka_year(city, year, precomputed_json_dir="~/Documents/
     panchaanga = load_panchaanga(fname=fname, fallback_fn=fn)
     # Fest repos to be used might have changed in this call.
     panchaanga.computation_system = computation_system
-    panchaanga.update_festival_details()
+    panchaanga.update_festival_details(compute_shraadha_tithis=True)
     return panchaanga
   else:
     logging.info('No precomputed data available. Computing panchaanga...\n')

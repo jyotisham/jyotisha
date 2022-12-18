@@ -63,14 +63,20 @@ def get_shraaddha_tithi_data_str(daily_panchaanga, scripts, time_format):
   if daily_panchaanga.shraaddha_tithi == []:
     stithi_data_str = '---'
   else:
-    if daily_panchaanga.shraaddha_tithi[0].index == 0:
+    if daily_panchaanga.shraaddha_tithi[0] == 0:
       stithi_data_str = jyotisha.custom_transliteration.tr('zUnyatithiH', scripts[0])
     else:
-      t1 = names.NAMES['TITHI_NAMES']['sa'][scripts[0]][daily_panchaanga.shraaddha_tithi[0].index]
+      t1 = names.NAMES['TITHI_NAMES']['sa'][scripts[0]][daily_panchaanga.shraaddha_tithi[0]]
       if len(daily_panchaanga.shraaddha_tithi) == 2:
-        t2 = names.NAMES['TITHI_NAMES']['sa'][scripts[0]][daily_panchaanga.shraaddha_tithi[1].index]
+        t2 = names.NAMES['TITHI_NAMES']['sa'][scripts[0]][daily_panchaanga.shraaddha_tithi[1]]
         stithi_data_str = '%s/%s (%s)' % \
                                 (t1.split('-')[-1], t2.split('-')[-1], jyotisha.custom_transliteration.tr('tithidvayam', scripts[0]))
+      elif len(daily_panchaanga.shraaddha_tithi) == 3:
+        t2 = names.NAMES['TITHI_NAMES']['sa'][scripts[0]][daily_panchaanga.shraaddha_tithi[1]]
+        t3 = names.NAMES['TITHI_NAMES']['sa'][scripts[0]][daily_panchaanga.shraaddha_tithi[2]]
+        stithi_data_str = '%s/%s/%s (%s)' % \
+                                (t1.split('-')[-1], t2.split('-')[-1], t3.split('-')[-1], jyotisha.custom_transliteration.tr('tithidvayam', scripts[0]))
+
       else:
         stithi_data_str = '%s' % (t1.split('-')[-1])
   return stithi_data_str
