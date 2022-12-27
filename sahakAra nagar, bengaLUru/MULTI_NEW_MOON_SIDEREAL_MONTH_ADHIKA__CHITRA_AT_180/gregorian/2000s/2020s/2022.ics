@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20221218233658
+SEQUENCE:20221227112417
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -7782,9 +7782,9 @@ SUMMARY:माघ-अष्टका-पूर्वेद्युः
 DTSTART;VALUE=DATE:20220223
 DTEND;VALUE=DATE:20220224
 DESCRIPTION:Shannavati Shraddham Day.<br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/
- relative_event/mAgha-aSTakA-zrAddham/offset__-1/mAgha-aSTakA-pUrvEdyuH.tom
- l)<br/>- Tags: ShannavatiTarpanaDays
+ ig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/re
+ lative_event/mAgha-aSTakA-zrAddham/offset__-1/mAgha-aSTakA-pUrvEdyuH.toml)
+ <br/>- Tags: ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8008,9 +8008,9 @@ SUMMARY:माघ-अन्वष्टका-श्राद्धम्
 DTSTART;VALUE=DATE:20220225
 DTEND;VALUE=DATE:20220226
 DESCRIPTION:Shannavati Shraddham Day.<br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/
- relative_event/mAgha-aSTakA-zrAddham/offset__01/mAgha-anvaSTakA-zrAddham.t
- oml)<br/>- Tags: ShannavatiTarpanaDays
+ ig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/re
+ lative_event/mAgha-aSTakA-zrAddham/offset__01/mAgha-anvaSTakA-zrAddham.tom
+ l)<br/>- Tags: ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
