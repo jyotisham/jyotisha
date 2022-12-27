@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20221227115138
+SEQUENCE:20221227120640
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -318,6 +318,22 @@ DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Āśvina
  ḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit config file](h
  ttps://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_m
  onth/tithi/00/30/pancha-parva-1.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:पिण्ड-पितृ-यज्ञः
+DTSTART;VALUE=DATE:20220102
+DTEND;VALUE=DATE:20220103
+DESCRIPTION:An important observance by āhitāgnis\, to propitiate the pit
+ r̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
+ isham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH
+ .toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4238,6 +4254,22 @@ DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Āśvina
  ḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit config file](h
  ttps://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_m
  onth/tithi/00/30/pancha-parva-1.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:पिण्ड-पितृ-यज्ञः
+DTSTART;VALUE=DATE:20220131
+DTEND;VALUE=DATE:20220201
+DESCRIPTION:An important observance by āhitāgnis\, to propitiate the pit
+ r̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
+ isham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH
+ .toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8880,6 +8912,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:पिण्ड-पितृ-यज्ञः
+DTSTART;VALUE=DATE:20220302
+DTEND;VALUE=DATE:20220303
+DESCRIPTION:An important observance by āhitāgnis\, to propitiate the pit
+ r̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
+ isham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH
+ .toml)<br/>- Tags: ShraddhaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:पुरन्दरदास-आराधना #४५८
 DTSTART;VALUE=DATE:20220302
 DTEND;VALUE=DATE:20220303
@@ -13102,6 +13150,22 @@ DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Āśvina
  ḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit config file](h
  ttps://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_m
  onth/tithi/00/30/pancha-parva-1.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:पिण्ड-पितृ-यज्ञः
+DTSTART;VALUE=DATE:20220331
+DTEND;VALUE=DATE:20220401
+DESCRIPTION:An important observance by āhitāgnis\, to propitiate the pit
+ r̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
+ isham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH
+ .toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18024,6 +18088,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:पिण्ड-पितृ-यज्ञः
+DTSTART;VALUE=DATE:20220430
+DTEND;VALUE=DATE:20220501
+DESCRIPTION:An important observance by āhitāgnis\, to propitiate the pit
+ r̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
+ isham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH
+ .toml)<br/>- Tags: ShraddhaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:सर्व-चैत्र-अमावास्या
 DTSTART;VALUE=DATE:20220430
 DTEND;VALUE=DATE:20220501
@@ -22449,6 +22529,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:पिण्ड-पितृ-यज्ञः
+DTSTART;VALUE=DATE:20220530
+DTEND;VALUE=DATE:20220531
+DESCRIPTION:An important observance by āhitāgnis\, to propitiate the pit
+ r̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
+ isham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH
+ .toml)<br/>- Tags: ShraddhaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:सोमवती अमावास्या
 DTSTART;VALUE=DATE:20220530
 DTEND;VALUE=DATE:20220531
@@ -26810,6 +26906,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:पिण्ड-पितृ-यज्ञः
+DTSTART;VALUE=DATE:20220628
+DTEND;VALUE=DATE:20220629
+DESCRIPTION:An important observance by āhitāgnis\, to propitiate the pit
+ r̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
+ isham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH
+ .toml)<br/>- Tags: ShraddhaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:सर्व-ज्यैष्ठ-अमावास्या (
  अलभ्यम्–पुष्कला)
 DTSTART;VALUE=DATE:20220628
@@ -30909,6 +31021,22 @@ DESCRIPTION:Observed on Amāvāsyā tithi of Āṣāḍhaḥ (lunar) month
  ences<br/>  - Skanda Puranam<br/>- [Edit config file](https://github.com/j
  yotisham/adyatithi/blob/master/general/lunar_month/tithi/04/30/pati-saJjIv
  anI-vratam.toml)<br/>- Tags: SpecialVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:पिण्ड-पितृ-यज्ञः
+DTSTART;VALUE=DATE:20220728
+DTEND;VALUE=DATE:20220729
+DESCRIPTION:An important observance by āhitāgnis\, to propitiate the pit
+ r̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
+ isham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH
+ .toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -35569,6 +35697,22 @@ DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Āśvina
  ḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit config file](h
  ttps://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_m
  onth/tithi/00/30/pancha-parva-1.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:पिण्ड-पितृ-यज्ञः
+DTSTART;VALUE=DATE:20220826
+DTEND;VALUE=DATE:20220827
+DESCRIPTION:An important observance by āhitāgnis\, to propitiate the pit
+ r̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
+ isham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH
+ .toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -40423,6 +40567,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:पिण्ड-पितृ-यज्ञः
+DTSTART;VALUE=DATE:20220925
+DTEND;VALUE=DATE:20220926
+DESCRIPTION:An important observance by āhitāgnis\, to propitiate the pit
+ r̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
+ isham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH
+ .toml)<br/>- Tags: ShraddhaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:सायन-वैधृतिः
 DTSTART;TZID=Asia/Calcutta:20220925T000000
 DTEND;TZID=Asia/Calcutta:20220925T174348
@@ -45206,6 +45366,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:पिण्ड-पितृ-यज्ञः
+DTSTART;VALUE=DATE:20221025
+DTEND;VALUE=DATE:20221026
+DESCRIPTION:An important observance by āhitāgnis\, to propitiate the pit
+ r̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
+ isham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH
+ .toml)<br/>- Tags: ShraddhaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:सूर्य-ग्रहणं (केतुग्रस्त
  ास्तमन)
 DTSTART;TZID=Asia/Calcutta:20221025T171154
@@ -49757,6 +49933,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:पिण्ड-पितृ-यज्ञः
+DTSTART;VALUE=DATE:20221123
+DTEND;VALUE=DATE:20221124
+DESCRIPTION:An important observance by āhitāgnis\, to propitiate the pit
+ r̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
+ isham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH
+ .toml)<br/>- Tags: ShraddhaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:सर्व-कार्त्तिक-अमावास्य
  ा (अलभ्यम्–विशाखा)
 DTSTART;VALUE=DATE:20221123
@@ -54036,6 +54228,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
  gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-vratam_30.to
  ml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:पिण्ड-पितृ-यज्ञः
+DTSTART;VALUE=DATE:20221223
+DTEND;VALUE=DATE:20221224
+DESCRIPTION:An important observance by āhitāgnis\, to propitiate the pit
+ r̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
+ isham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH
+ .toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
