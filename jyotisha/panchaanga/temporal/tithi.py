@@ -195,7 +195,7 @@ class ShraddhaTithiAssigner(PeriodicPanchaangaApplier):
             d1, span1 = solar_tithi_days[m][t][i]
             d2, span2 = solar_tithi_days[m][t][i + 1]
             if d2 - d1 == 1:
-              if span1 > span2:
+              if span1 > span2 or d2 in sankranti_dushta_days:
                 if debug_shraaddha_tithi:
                   logging.debug(('deleting %d from %s' % (i + 1, str(solar_tithi_days[m][t]))))
                 del_id = i + 1
@@ -219,7 +219,8 @@ class ShraddhaTithiAssigner(PeriodicPanchaangaApplier):
               logging.debug('deleting %d from %s' % (0, str(solar_tithi_days[m][t])))
             fday = int(solar_tithi_days[m][t][0][0] - self.panchaanga.daily_panchaangas_sorted()[0].date)
             # Add Shunya tithi
-            self.daily_panchaangas[fday].shraaddha_tithi.append(0)
+            if 0 not in self.daily_panchaangas[fday].shraaddha_tithi:
+              self.daily_panchaangas[fday].shraaddha_tithi.append(0)
             del solar_tithi_days[m][t][0]
           else:
             if d2 in sankranti_dushta_days:
@@ -227,14 +228,16 @@ class ShraddhaTithiAssigner(PeriodicPanchaangaApplier):
                 logging.debug('deleting %d from %s' % (1, str(solar_tithi_days[m][t])))
               fday = int(solar_tithi_days[m][t][1][0] - self.panchaanga.daily_panchaangas_sorted()[0].date)
               # Add Shunya tithi
-              self.daily_panchaangas[fday].shraaddha_tithi.append(0)
+              if 0 not in self.daily_panchaangas[fday].shraaddha_tithi:
+                self.daily_panchaangas[fday].shraaddha_tithi.append(0)
               del solar_tithi_days[m][t][1]
             else:
               if debug_shraaddha_tithi:
                 logging.debug('deleting %d from %s' % (0, str(solar_tithi_days[m][t])))
               fday = int(solar_tithi_days[m][t][0][0] - self.panchaanga.daily_panchaangas_sorted()[0].date)
               # Add Shunya tithi
-              self.daily_panchaangas[fday].shraaddha_tithi.append(0)
+              if 0 not in self.daily_panchaangas[fday].shraaddha_tithi:
+                self.daily_panchaangas[fday].shraaddha_tithi.append(0)
               del solar_tithi_days[m][t][0]
         elif nTithis == 0:
           # No tithi found, use chandramana tithi!

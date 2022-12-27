@@ -32,7 +32,7 @@ class Panchaanga(common.JsonObject):
     """
   LATEST_VERSION = "0.0.4"
 
-  def __init__(self, city, start_date, end_date, year_type = None, computation_system: ComputationSystem = None):
+  def __init__(self, city, start_date, end_date, year_type = None, computation_system: ComputationSystem = None, recompute_festivals=True):
     """Constructor for the panchaanga.
         """
     super(Panchaanga, self).__init__()
@@ -60,7 +60,7 @@ class Panchaanga(common.JsonObject):
 
     self.festival_id_to_days = defaultdict(set, {})
     self.compute_angas(compute_lagnas=self.computation_system.festival_options.lagnas)
-    if not self.computation_system.festival_options.no_fests:
+    if not self.computation_system.festival_options.no_fests and recompute_festivals:
       self.update_festival_details()
 
   @timebudget
