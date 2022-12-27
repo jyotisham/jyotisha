@@ -252,7 +252,7 @@ class ShraddhaTithiAssigner(PeriodicPanchaangaApplier):
         if 0 in self.daily_panchaangas[fday].shraaddha_tithi:
           logging.warning('No longer shUnya')
           self.daily_panchaangas[fday].shraaddha_tithi.remove(0)
-        self.daily_panchaangas[fday].shraaddha_tithi.append(t)
+        self.daily_panchaangas[fday].shraaddha_tithi.append((m, t))
 
     # for m in lunar_month_list:
     #   for t in range(1, 31):
