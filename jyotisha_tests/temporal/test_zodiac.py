@@ -55,9 +55,9 @@ def test_get_anga_span_solar_month():
   numpy.testing.assert_array_almost_equal(span_finder.find(jd1=2458222.0333434483-32, jd2=2458222.0333434483 + 4, target_anga_id=12,).to_tuple(), (2458192.24785228, 2458222.6026552585), decimal=3)
 
   jd2 = time.ist_timezone.local_time_to_julian_day(time.Date(2020, 4, 16))
-  numpy.testing.assert_array_almost_equal(numpy.array(span_finder.find(jd1=jd2-32, jd2=jd2, target_anga_id=1).to_tuple(), dtype=numpy.float), numpy.array((2458953.10966, None), dtype=numpy.float), decimal=4)
+  numpy.testing.assert_array_almost_equal(numpy.array(span_finder.find(jd1=jd2-32, jd2=jd2, target_anga_id=1).to_tuple(), dtype=float), numpy.array((2458953.10966, None), dtype=float), decimal=4)
 
-  numpy.testing.assert_array_almost_equal(numpy.array(span_finder.find(jd1=2458133.0189002366-32, jd2=2458133.0189002366, target_anga_id=10).to_tuple(), dtype=numpy.float), numpy.array((2458132.8291680976, None), dtype=numpy.float), decimal=4)
+  numpy.testing.assert_array_almost_equal(numpy.array(span_finder.find(jd1=2458133.0189002366-32, jd2=2458133.0189002366, target_anga_id=10).to_tuple(), dtype=float), numpy.array((2458132.8291680976, None), dtype=float), decimal=4)
 
 
 def test_get_anga_span_tithi():
