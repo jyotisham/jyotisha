@@ -402,6 +402,12 @@ class TithiFestivalAssigner(FestivalAssigner):
       logging.error('Must compute amAvAsyA before coming here!')
       return 
     ama_days = self.panchaanga.festival_id_to_days['sidereal_solar_month_amAvAsyA']
+
+    if 'piNDa-pitR-yajJaH' in self.rules_collection.name_to_rule:
+      for ama_day in ama_days:
+        d = int(ama_day - self.daily_panchaangas[0].date)
+        self.panchaanga.add_festival(fest_id='piNDa-pitR-yajJaH', date=self.daily_panchaangas[d].date)
+
     for ama_day in ama_days:
       d = int(ama_day - self.daily_panchaangas[0].date)
       day_panchaanga = self.daily_panchaangas[d]

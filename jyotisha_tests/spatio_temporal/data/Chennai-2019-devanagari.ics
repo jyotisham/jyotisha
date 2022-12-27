@@ -546,6 +546,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:piṇḍa-pitr̥-yajñaḥ
+DTSTART;VALUE=DATE:20190105
+DTEND;VALUE=DATE:20190106
+DESCRIPTION:An important observance by āhitagnis\, to propitiate the pitr
+ ̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.
+ toml)<br/>- Tags: ShraddhaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:sarva-mārgaśīrṣa-amāvāsyā
 DTSTART;VALUE=DATE:20190105
 DTEND;VALUE=DATE:20190106
@@ -3543,6 +3559,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:piṇḍa-pitr̥-yajñaḥ
+DTSTART;VALUE=DATE:20190204
+DTEND;VALUE=DATE:20190205
+DESCRIPTION:An important observance by āhitagnis\, to propitiate the pitr
+ ̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.
+ toml)<br/>- Tags: ShraddhaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:sōmavatī amāvāsyā
 DTSTART;VALUE=DATE:20190204
 DTEND;VALUE=DATE:20190205
@@ -6110,9 +6142,9 @@ SUMMARY:māgha-aṣṭakā-pūrvēdyuḥ
 DTSTART;VALUE=DATE:20190225
 DTEND;VALUE=DATE:20190226
 DESCRIPTION:Shannavati Shraddham Day.<br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/
- relative_event/mAgha-aSTakA-zrAddham/offset__-1/mAgha-aSTakA-pUrvEdyuH.tom
- l)<br/>- Tags: ShannavatiTarpanaDays
+ ig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/re
+ lative_event/mAgha-aSTakA-zrAddham/offset__-1/mAgha-aSTakA-pUrvEdyuH.toml)
+ <br/>- Tags: ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6310,9 +6342,9 @@ SUMMARY:māgha-anvaṣṭakā-śrāddham
 DTSTART;VALUE=DATE:20190227
 DTEND;VALUE=DATE:20190228
 DESCRIPTION:Shannavati Shraddham Day.<br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/
- relative_event/mAgha-aSTakA-zrAddham/offset__01/mAgha-anvaSTakA-zrAddham.t
- oml)<br/>- Tags: ShannavatiTarpanaDays
+ ig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/re
+ lative_event/mAgha-aSTakA-zrAddham/offset__01/mAgha-anvaSTakA-zrAddham.tom
+ l)<br/>- Tags: ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6978,6 +7010,22 @@ DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Āśvina
  ḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit config file](h
  ttps://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_m
  onth/tithi/00/30/pancha-parva-1.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:piṇḍa-pitr̥-yajñaḥ
+DTSTART;VALUE=DATE:20190306
+DTEND;VALUE=DATE:20190307
+DESCRIPTION:An important observance by āhitagnis\, to propitiate the pitr
+ ̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.
+ toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10104,6 +10152,22 @@ DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Āśvina
  ḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit config file](h
  ttps://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_m
  onth/tithi/00/30/pancha-parva-1.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:piṇḍa-pitr̥-yajñaḥ
+DTSTART;VALUE=DATE:20190404
+DTEND;VALUE=DATE:20190405
+DESCRIPTION:An important observance by āhitagnis\, to propitiate the pitr
+ ̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.
+ toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13726,6 +13790,22 @@ DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Āśvina
  ḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit config file](h
  ttps://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_m
  onth/tithi/00/30/pancha-parva-1.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:piṇḍa-pitr̥-yajñaḥ
+DTSTART;VALUE=DATE:20190504
+DTEND;VALUE=DATE:20190505
+DESCRIPTION:An important observance by āhitagnis\, to propitiate the pitr
+ ̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.
+ toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17377,6 +17457,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:piṇḍa-pitr̥-yajñaḥ
+DTSTART;VALUE=DATE:20190603
+DTEND;VALUE=DATE:20190604
+DESCRIPTION:An important observance by āhitagnis\, to propitiate the pitr
+ ̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.
+ toml)<br/>- Tags: ShraddhaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:sōmavatī amāvāsyā
 DTSTART;VALUE=DATE:20190603
 DTEND;VALUE=DATE:20190604
@@ -20773,6 +20869,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:piṇḍa-pitr̥-yajñaḥ
+DTSTART;VALUE=DATE:20190702
+DTEND;VALUE=DATE:20190703
+DESCRIPTION:An important observance by āhitagnis\, to propitiate the pitr
+ ̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.
+ toml)<br/>- Tags: ShraddhaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:sarva-jyaiṣṭha-amāvāsyā (alabhyam–ārdrā\, puṣkalā)
 DTSTART;VALUE=DATE:20190702
 DTEND;VALUE=DATE:20190703
@@ -23992,6 +24104,22 @@ DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Āśvina
  ḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit config file](h
  ttps://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_m
  onth/tithi/00/30/pancha-parva-1.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:piṇḍa-pitr̥-yajñaḥ
+DTSTART;VALUE=DATE:20190731
+DTEND;VALUE=DATE:20190801
+DESCRIPTION:An important observance by āhitagnis\, to propitiate the pitr
+ ̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.
+ toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -27945,6 +28073,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:piṇḍa-pitr̥-yajñaḥ
+DTSTART;VALUE=DATE:20190830
+DTEND;VALUE=DATE:20190831
+DESCRIPTION:An important observance by āhitagnis\, to propitiate the pitr
+ ̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.
+ toml)<br/>- Tags: ShraddhaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Tiruchchendūr Murugan Āvaṇit Tiruviḻā 7M Nāḷ—Chigappu 
  Chātti Alaṅkāram
 DTSTART;VALUE=DATE:20190830
@@ -31834,6 +31978,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:piṇḍa-pitr̥-yajñaḥ
+DTSTART;VALUE=DATE:20190928
+DTEND;VALUE=DATE:20190929
+DESCRIPTION:An important observance by āhitagnis\, to propitiate the pitr
+ ̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.
+ toml)<br/>- Tags: ShraddhaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Puraṭṭāchi Chanikkiḻamai
 DTSTART;VALUE=DATE:20190928
 DTEND;VALUE=DATE:20190929
@@ -35559,6 +35719,22 @@ DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Āśvina
  ḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit config file](h
  ttps://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_m
  onth/tithi/00/30/pancha-parva-1.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:piṇḍa-pitr̥-yajñaḥ
+DTSTART;VALUE=DATE:20191027
+DTEND;VALUE=DATE:20191028
+DESCRIPTION:An important observance by āhitagnis\, to propitiate the pitr
+ ̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.
+ toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -39469,6 +39645,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:piṇḍa-pitr̥-yajñaḥ
+DTSTART;VALUE=DATE:20191126
+DTEND;VALUE=DATE:20191127
+DESCRIPTION:An important observance by āhitagnis\, to propitiate the pitr
+ ̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.
+ toml)<br/>- Tags: ShraddhaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:sarva-kārttika-amāvāsyā (alabhyam–anūrādhā\, puṣkalā)
 DTSTART;VALUE=DATE:20191126
 DTEND;VALUE=DATE:20191127
@@ -42601,6 +42793,22 @@ DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Āśvina
  ḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit config file](h
  ttps://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_m
  onth/tithi/00/30/pancha-parva-1.toml)<br/>- Tags: Pancha Parva
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:piṇḍa-pitr̥-yajñaḥ
+DTSTART;VALUE=DATE:20191225
+DTEND;VALUE=DATE:20191226
+DESCRIPTION:An important observance by āhitagnis\, to propitiate the pitr
+ ̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.
+ toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE

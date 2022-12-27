@@ -440,7 +440,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- कमला-जयन्ती, काञ्ची १४ जगद्गुरु श्री-विद्याघनेन्द्र सरस्वती आराधना #१७०२, काञ्ची ३४ जगद्गुरु श्री-चन्द्रशेखरेन्द्र सरस्वती २ आराधना #१३०९, पञ्च-पर्व-पूजा (अमावास्या), पार्वणव्रतम् अमावास्यायाम्, श्री-हनूमत्-जयन्ती, सर्व-मार्गशीर्ष-अमावास्या
+- कमला-जयन्ती, काञ्ची १४ जगद्गुरु श्री-विद्याघनेन्द्र सरस्वती आराधना #१७०२, काञ्ची ३४ जगद्गुरु श्री-चन्द्रशेखरेन्द्र सरस्वती २ आराधना #१३०९, पञ्च-पर्व-पूजा (अमावास्या), पार्वणव्रतम् अमावास्यायाम्, पिण्ड-पितृ-यज्ञः, श्री-हनूमत्-जयन्ती, सर्व-मार्गशीर्ष-अमावास्या
 ##### काञ्ची १४ जगद्गुरु श्री-विद्याघनेन्द्र सरस्वती आराधना #१७०२
 
 Observed on Amāvāsyā tithi of Mārgaśīrṣaḥ (lunar) month (Aparāhṇaḥ/vyaapti). The event occurred in 3418 (Kali era).  
@@ -530,6 +530,17 @@ Observed on Amāvāsyā tithi of every (lunar) month (Āśvinaḥ/paraviddha).
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/tithi/00/30/pancha-parva-1.toml)
 - Tags: Pancha Parva
+
+
+##### पिण्ड-पितृ-यज्ञः
+
+
+
+An important observance by āhitagnis, to propitiate the pitr̥s.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.toml)
+- Tags: ShraddhaDays
 
 
 ##### सर्व-मार्गशीर्ष-अमावास्या
@@ -3021,7 +3032,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- तिरुनॆल्वेलि नॆल्लैयप्पर् पत्र दीप तिरुविऴा, पञ्च-पर्व-पूजा (अमावास्या), पार्वणव्रतम् अमावास्यायाम्, महोदय-पुण्यकालः, व्यतीपात-श्राद्धम्, श्रवण-व्रतम्, सर्व-मौनि (पौष/मकर) अमावास्या (अलभ्यम्–पुष्कला), सोमवती अमावास्या, सोमश्रावणी-योगः
+- तिरुनॆल्वेलि नॆल्लैयप्पर् पत्र दीप तिरुविऴा, पञ्च-पर्व-पूजा (अमावास्या), पार्वणव्रतम् अमावास्यायाम्, पिण्ड-पितृ-यज्ञः, महोदय-पुण्यकालः, व्यतीपात-श्राद्धम्, श्रवण-व्रतम्, सर्व-मौनि (पौष/मकर) अमावास्या (अलभ्यम्–पुष्कला), सोमवती अमावास्या, सोमश्रावणी-योगः
 ##### महोदय-पुण्यकालः
 
 
@@ -3063,6 +3074,17 @@ Observed on Amāvāsyā tithi of every (lunar) month (Āśvinaḥ/paraviddha).
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/tithi/00/30/pancha-parva-1.toml)
 - Tags: Pancha Parva
+
+
+##### पिण्ड-पितृ-यज्ञः
+
+
+
+An important observance by āhitagnis, to propitiate the pitr̥s.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.toml)
+- Tags: ShraddhaDays
 
 
 ##### सोमवती अमावास्या
@@ -5278,7 +5300,7 @@ ___________________
 Shannavati Shraddham Day.
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/relative_event/mAgha-aSTakA-zrAddham/offset__-1/mAgha-aSTakA-pUrvEdyuH.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/relative_event/mAgha-aSTakA-zrAddham/offset__-1/mAgha-aSTakA-pUrvEdyuH.toml)
 - Tags: ShannavatiTarpanaDays
 
 
@@ -5452,7 +5474,7 @@ ___________________
 Shannavati Shraddham Day.
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/relative_event/mAgha-aSTakA-zrAddham/offset__01/mAgha-anvaSTakA-zrAddham.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/relative_event/mAgha-aSTakA-zrAddham/offset__01/mAgha-anvaSTakA-zrAddham.toml)
 - Tags: ShannavatiTarpanaDays
 
 
@@ -5991,7 +6013,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- कलियुगादिः, कॊच्चॆङ्गट् चोऴ नायऩार् (५९) गुरुपूजै, पञ्च-पर्व-पूजा (अमावास्या), पार्वणव्रतम् अमावास्यायाम्, पुरन्दरदास-आराधना #४५५, माघ-स्नानपूर्तिः, सर्व-माघ-अमावास्या (अलभ्यम्–माघ-शतभिषक्)
+- कलियुगादिः, कॊच्चॆङ्गट् चोऴ नायऩार् (५९) गुरुपूजै, पञ्च-पर्व-पूजा (अमावास्या), पार्वणव्रतम् अमावास्यायाम्, पिण्ड-पितृ-यज्ञः, पुरन्दरदास-आराधना #४५५, माघ-स्नानपूर्तिः, सर्व-माघ-अमावास्या (अलभ्यम्–माघ-शतभिषक्)
 ##### कलियुगादिः
 
 Observed on Amāvāsyā tithi of Māghaḥ (lunar) month (Aparāhṇaḥ/vyaapti). 
@@ -6092,6 +6114,17 @@ Observed on Amāvāsyā tithi of every (lunar) month (Āśvinaḥ/paraviddha).
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/tithi/00/30/pancha-parva-1.toml)
 - Tags: Pancha Parva
+
+
+##### पिण्ड-पितृ-यज्ञः
+
+
+
+An important observance by āhitagnis, to propitiate the pitr̥s.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.toml)
+- Tags: ShraddhaDays
 
 
 ##### पुरन्दरदास-आराधना #४५५
@@ -8629,7 +8662,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- काञ्ची ६५ जगद्गुरु श्री-सुदर्शन महादेवेन्द्र सरस्वती आराधना #१२९, पञ्च-पर्व-पूजा (अमावास्या), मन्वादिः-(रैवतः-[५]), सर्व-फाल्गुन-अमावास्या (अलभ्यम्–पुष्कला)
+- काञ्ची ६५ जगद्गुरु श्री-सुदर्शन महादेवेन्द्र सरस्वती आराधना #१२९, पञ्च-पर्व-पूजा (अमावास्या), पिण्ड-पितृ-यज्ञः, मन्वादिः-(रैवतः-[५]), सर्व-फाल्गुन-अमावास्या (अलभ्यम्–पुष्कला)
 ##### काञ्ची ६५ जगद्गुरु श्री-सुदर्शन महादेवेन्द्र सरस्वती आराधना #१२९
 
 Observed on Amāvāsyā tithi of Phālgunaḥ (lunar) month (Aparāhṇaḥ/vyaapti). The event occurred in 4991 (Kali era).  
@@ -8676,6 +8709,17 @@ Observed on Amāvāsyā tithi of every (lunar) month (Āśvinaḥ/paraviddha).
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/tithi/00/30/pancha-parva-1.toml)
 - Tags: Pancha Parva
+
+
+##### पिण्ड-पितृ-यज्ञः
+
+
+
+An important observance by āhitagnis, to propitiate the pitr̥s.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.toml)
+- Tags: ShraddhaDays
 
 
 ##### सर्व-फाल्गुन-अमावास्या (अलभ्यम्–पुष्कला)
@@ -11903,7 +11947,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- काञ्ची ४७ जगद्गुरु श्री-चन्द्रशेखरेन्द्र सरस्वती ३ आराधना #८५४, पञ्च-पर्व-पूजा (अमावास्या), पार्वणव्रतम् अमावास्यायाम्, भार्गव-राम-पूजा, वह्नि-व्रतम्, सर्व-चैत्र-अमावास्या
+- काञ्ची ४७ जगद्गुरु श्री-चन्द्रशेखरेन्द्र सरस्वती ३ आराधना #८५४, पञ्च-पर्व-पूजा (अमावास्या), पार्वणव्रतम् अमावास्यायाम्, पिण्ड-पितृ-यज्ञः, भार्गव-राम-पूजा, वह्नि-व्रतम्, सर्व-चैत्र-अमावास्या
 ##### भार्गव-राम-पूजा
 
 Observed on Amāvāsyā tithi of Caitraḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -11971,6 +12015,17 @@ Observed on Amāvāsyā tithi of every (lunar) month (Āśvinaḥ/paraviddha).
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/tithi/00/30/pancha-parva-1.toml)
 - Tags: Pancha Parva
+
+
+##### पिण्ड-पितृ-यज्ञः
+
+
+
+An important observance by āhitagnis, to propitiate the pitr̥s.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.toml)
+- Tags: ShraddhaDays
 
 
 ##### सर्व-चैत्र-अमावास्या
@@ -15268,7 +15323,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- पार्वणव्रतम् अमावास्यायाम्, बोधायन-इष्टिः, वैशाख-अमावास्या (अलभ्यम्–पुष्कला), वैशाख-मास-समापनम्, वैशाख-स्नानपूर्तिः, शनि-जयन्ती, शुक-महर्षि-जयन्ती, सोमवती अमावास्या
+- पार्वणव्रतम् अमावास्यायाम्, पिण्ड-पितृ-यज्ञः, बोधायन-इष्टिः, वैशाख-अमावास्या (अलभ्यम्–पुष्कला), वैशाख-मास-समापनम्, वैशाख-स्नानपूर्तिः, शनि-जयन्ती, शुक-महर्षि-जयन्ती, सोमवती अमावास्या
 ##### बोधायन-इष्टिः
 
 
@@ -15299,6 +15354,17 @@ pārvaṇavratam on the eve of darśa-sthālīpākaḥ.
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-vratam_30.toml)
 - Tags: 
+
+
+##### पिण्ड-पितृ-यज्ञः
+
+
+
+An important observance by āhitagnis, to propitiate the pitr̥s.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.toml)
+- Tags: ShraddhaDays
 
 
 ##### सोमवती अमावास्या
@@ -18080,7 +18146,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- चिदम्बरे रजत ऋषभ वाहनम्, पञ्च-पर्व-पूजा (अमावास्या), पार्वणव्रतम् अमावास्यायाम्, भोगशायि-पूजा, सर्व-ज्यैष्ठ-अमावास्या (अलभ्यम्–आर्द्रा, पुष्कला)
+- चिदम्बरे रजत ऋषभ वाहनम्, पञ्च-पर्व-पूजा (अमावास्या), पार्वणव्रतम् अमावास्यायाम्, पिण्ड-पितृ-यज्ञः, भोगशायि-पूजा, सर्व-ज्यैष्ठ-अमावास्या (अलभ्यम्–आर्द्रा, पुष्कला)
 ##### भोगशायि-पूजा
 
 Observed on Amāvāsyā tithi of Jyaiṣṭhaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -18133,6 +18199,17 @@ Observed on Amāvāsyā tithi of every (lunar) month (Āśvinaḥ/paraviddha).
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/tithi/00/30/pancha-parva-1.toml)
 - Tags: Pancha Parva
+
+
+##### पिण्ड-पितृ-यज्ञः
+
+
+
+An important observance by āhitagnis, to propitiate the pitr̥s.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.toml)
+- Tags: ShraddhaDays
 
 
 ##### सर्व-ज्यैष्ठ-अमावास्या (अलभ्यम्–आर्द्रा, पुष्कला)
@@ -20921,7 +20998,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- काञ्ची ३८ जगद्गुरु श्री-अभिनवशङ्करेन्द्र सरस्वती आराधना #११८०, काञ्ची ४६ जगद्गुरु श्री-सान्द्रानन्दबोधेन्द्र सरस्वती आराधना #९२२, पञ्च-पर्व-पूजा (अमावास्या), पार्वणव्रतम् अमावास्यायाम्, सर्व-आषाढ (कर्कट) अमावास्या (अलभ्यम्–पुनर्वसुः)
+- काञ्ची ३८ जगद्गुरु श्री-अभिनवशङ्करेन्द्र सरस्वती आराधना #११८०, काञ्ची ४६ जगद्गुरु श्री-सान्द्रानन्दबोधेन्द्र सरस्वती आराधना #९२२, पञ्च-पर्व-पूजा (अमावास्या), पार्वणव्रतम् अमावास्यायाम्, पिण्ड-पितृ-यज्ञः, सर्व-आषाढ (कर्कट) अमावास्या (अलभ्यम्–पुनर्वसुः)
 ##### काञ्ची ३८ जगद्गुरु श्री-अभिनवशङ्करेन्द्र सरस्वती आराधना #११८०
 
 Observed on Amāvāsyā tithi of Āṣāḍhaḥ (lunar) month (Aparāhṇaḥ/vyaapti). The event occurred in 3941 (Kali era).  
@@ -21012,6 +21089,17 @@ Observed on Amāvāsyā tithi of every (lunar) month (Āśvinaḥ/paraviddha).
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/tithi/00/30/pancha-parva-1.toml)
 - Tags: Pancha Parva
+
+
+##### पिण्ड-पितृ-यज्ञः
+
+
+
+An important observance by āhitagnis, to propitiate the pitr̥s.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.toml)
+- Tags: ShraddhaDays
 
 
 ##### सर्व-आषाढ (कर्कट) अमावास्या (अलभ्यम्–पुनर्वसुः)
@@ -24204,7 +24292,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- इळैयाऩ्कुडि माऱ नायऩार् (३) गुरुपूजै, तिरुच्चॆन्दूर् मुरुगऩ् आवणित् तिरुविऴा 7म् नाळ्—चिगप्पु चात्ति अलङ्कारम्, दर्भ-सङ्ग्रहः, पार्वणव्रतम् अमावास्यायाम्, बोधायन-इष्टिः, वृषभ-पूजा, श्रावण-अमावास्या, ६४ योगिनी-पूजा
+- इळैयाऩ्कुडि माऱ नायऩार् (३) गुरुपूजै, तिरुच्चॆन्दूर् मुरुगऩ् आवणित् तिरुविऴा 7म् नाळ्—चिगप्पु चात्ति अलङ्कारम्, दर्भ-सङ्ग्रहः, पार्वणव्रतम् अमावास्यायाम्, पिण्ड-पितृ-यज्ञः, बोधायन-इष्टिः, वृषभ-पूजा, श्रावण-अमावास्या, ६४ योगिनी-पूजा
 ##### ६४ योगिनी-पूजा
 
 Observed on Amāvāsyā tithi of Śrāvaṇaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -24268,6 +24356,17 @@ pārvaṇavratam on the eve of darśa-sthālīpākaḥ.
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-vratam_30.toml)
 - Tags: 
+
+
+##### पिण्ड-पितृ-यज्ञः
+
+
+
+An important observance by āhitagnis, to propitiate the pitr̥s.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.toml)
+- Tags: ShraddhaDays
 
 
 ##### तिरुच्चॆन्दूर् मुरुगऩ् आवणित् तिरुविऴा 7म् नाळ्—चिगप्पु चात्ति अलङ्कारम्
@@ -27453,7 +27552,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अश्वशिरो-देव-पूजा, गजच्छाया-योगः, पञ्च-पर्व-पूजा (अमावास्या), पार्वणव्रतम् अमावास्यायाम्, पुरट्टाचि-चऩिक्किऴमै, महालय-पक्ष-समापनम्, शृङ्गेरी ३४ जगद्गुरु श्री-चन्द्रशेखर भारती आराधना, सर्व-(भाद्रपद) महालय अमावास्या, सायन-वैधृतिः, सुजन्मप्राप्ति-व्रतम्
+- अश्वशिरो-देव-पूजा, गजच्छाया-योगः, पञ्च-पर्व-पूजा (अमावास्या), पार्वणव्रतम् अमावास्यायाम्, पिण्ड-पितृ-यज्ञः, पुरट्टाचि-चऩिक्किऴमै, महालय-पक्ष-समापनम्, शृङ्गेरी ३४ जगद्गुरु श्री-चन्द्रशेखर भारती आराधना, सर्व-(भाद्रपद) महालय अमावास्या, सायन-वैधृतिः, सुजन्मप्राप्ति-व्रतम्
 ##### अश्वशिरो-देव-पूजा
 
 Observed on Amāvāsyā tithi of Bhādrapadaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -27529,6 +27628,17 @@ Observed on Amāvāsyā tithi of every (lunar) month (Āśvinaḥ/paraviddha).
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/tithi/00/30/pancha-parva-1.toml)
 - Tags: Pancha Parva
+
+
+##### पिण्ड-पितृ-यज्ञः
+
+
+
+An important observance by āhitagnis, to propitiate the pitr̥s.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.toml)
+- Tags: ShraddhaDays
 
 
 ##### पुरट्टाचि-चऩिक्किऴमै
@@ -30720,7 +30830,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- दीपावली/लक्ष्मी-कुबेर-पूजा, दीपोत्सव-चतुर्दशी/यम-तर्पणम्, नरक-चतुर्दशी, पञ्च-पर्व-पूजा (अमावास्या), पार्वणव्रतम् अमावास्यायाम्, प्रेत-चतुर्दशी, शृङ्गेरी ३५ जगद्गुरु श्री-अभिनव विद्यातीर्थ महास्वामी जयन्ती, सप्तम-अपरपक्ष-समापनम्, सर्व-आश्वयुज-अमावास्या
+- दीपावली/लक्ष्मी-कुबेर-पूजा, दीपोत्सव-चतुर्दशी/यम-तर्पणम्, नरक-चतुर्दशी, पञ्च-पर्व-पूजा (अमावास्या), पार्वणव्रतम् अमावास्यायाम्, पिण्ड-पितृ-यज्ञः, प्रेत-चतुर्दशी, शृङ्गेरी ३५ जगद्गुरु श्री-अभिनव विद्यातीर्थ महास्वामी जयन्ती, सप्तम-अपरपक्ष-समापनम्, सर्व-आश्वयुज-अमावास्या
 ##### दीपावली/लक्ष्मी-कुबेर-पूजा
 
 Observed on Amāvāsyā tithi of Āśvayujaḥ (lunar) month (Pradōṣaḥ/puurvaviddha). 
@@ -30825,6 +30935,17 @@ Observed on Amāvāsyā tithi of every (lunar) month (Āśvinaḥ/paraviddha).
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/tithi/00/30/pancha-parva-1.toml)
 - Tags: Pancha Parva
+
+
+##### पिण्ड-पितृ-यज्ञः
+
+
+
+An important observance by āhitagnis, to propitiate the pitr̥s.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.toml)
+- Tags: ShraddhaDays
 
 
 ##### प्रेत-चतुर्दशी
@@ -34160,7 +34281,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- आग्रयण-होमः द्राविडेषु, कार्त्तिक-स्नानपूर्तिः, तिरुविशलूर् गङ्गाकर्षण-महोत्सव-समापनम्, नवम-अपरपक्ष-समापनम्, पार्वणव्रतम् अमावास्यायाम्, सर्व-कार्त्तिक-अमावास्या (अलभ्यम्–अनूराधा, पुष्कला)
+- आग्रयण-होमः द्राविडेषु, कार्त्तिक-स्नानपूर्तिः, तिरुविशलूर् गङ्गाकर्षण-महोत्सव-समापनम्, नवम-अपरपक्ष-समापनम्, पार्वणव्रतम् अमावास्यायाम्, पिण्ड-पितृ-यज्ञः, सर्व-कार्त्तिक-अमावास्या (अलभ्यम्–अनूराधा, पुष्कला)
 ##### आग्रयण-होमः द्राविडेषु
 
 Observed on Amāvāsyā tithi of Vr̥ścikaḥ (sidereal solar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -34215,6 +34336,17 @@ pārvaṇavratam on the eve of darśa-sthālīpākaḥ.
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-vratam_30.toml)
 - Tags: 
+
+
+##### पिण्ड-पितृ-यज्ञः
+
+
+
+An important observance by āhitagnis, to propitiate the pitr̥s.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.toml)
+- Tags: ShraddhaDays
 
 
 ##### सर्व-कार्त्तिक-अमावास्या (अलभ्यम्–अनूराधा, पुष्कला)
@@ -36805,7 +36937,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- कमला-जयन्ती, काञ्ची १४ जगद्गुरु श्री-विद्याघनेन्द्र सरस्वती आराधना #१७०३, काञ्ची ३४ जगद्गुरु श्री-चन्द्रशेखरेन्द्र सरस्वती २ आराधना #१३१०, तॊण्डरडिप्पॊडियाऴ्वार् तिरुनक्षत्तिरम्, पञ्च-पर्व-पूजा (अमावास्या), पार्वणव्रतम् अमावास्यायाम्, सर्व-मार्गशीर्ष-अमावास्या, सायन-व्यतीपातः
+- कमला-जयन्ती, काञ्ची १४ जगद्गुरु श्री-विद्याघनेन्द्र सरस्वती आराधना #१७०३, काञ्ची ३४ जगद्गुरु श्री-चन्द्रशेखरेन्द्र सरस्वती २ आराधना #१३१०, तॊण्डरडिप्पॊडियाऴ्वार् तिरुनक्षत्तिरम्, पञ्च-पर्व-पूजा (अमावास्या), पार्वणव्रतम् अमावास्यायाम्, पिण्ड-पितृ-यज्ञः, सर्व-मार्गशीर्ष-अमावास्या, सायन-व्यतीपातः
 ##### काञ्ची १४ जगद्गुरु श्री-विद्याघनेन्द्र सरस्वती आराधना #१७०३
 
 Observed on Amāvāsyā tithi of Mārgaśīrṣaḥ (lunar) month (Aparāhṇaḥ/vyaapti). The event occurred in 3418 (Kali era).  
@@ -36895,6 +37027,17 @@ Observed on Amāvāsyā tithi of every (lunar) month (Āśvinaḥ/paraviddha).
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/tithi/00/30/pancha-parva-1.toml)
 - Tags: Pancha Parva
+
+
+##### पिण्ड-पितृ-यज्ञः
+
+
+
+An important observance by āhitagnis, to propitiate the pitr̥s.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.toml)
+- Tags: ShraddhaDays
 
 
 ##### सायन-व्यतीपातः
