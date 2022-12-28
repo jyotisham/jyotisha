@@ -30,12 +30,10 @@ jobs:
     - uses: actions/checkout@v2
       with:
         submodules: 'true'
-        fetch-depth: 1
-#       Because of this, you will fail to push refs to dest repo
+        fetch-depth: 1 # Because of this, you will fail to push refs to dest repo
     - name: Get current date
       id: date
-      run: |
-#       No space after + below.
+      run: | #     No space after + above.
         echo "{date}={$(date +'%Y-%m-%d')}" >> $GITHUB_STATE
         echo "{next_year}={$(date +'%Y' --date='+1 year')}" >> $GITHUB_STATE
     - name: Set up Python ${{ matrix.python-version }}
