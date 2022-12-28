@@ -970,9 +970,9 @@ DESCRIPTION:Observed on Vyatīpātaḥ yoga of Dhanuḥ (sidereal solar) m
  onth (Prāktanāruṇōdayaḥ/puurvaviddha). <br/><br/>Special snānam on
   account of mahādhanurvyatīpātam. snānam on any vyatīpata day gives m
  ahāpuṇyam\, more so in dhanurmāsa.<br/><br/>puṣyē ca janmanakṣatr
- ē vyatīpātē ca vaidhr̥tau।  <br/>amāyāṁ ca nadīnānaṁ punāt
- yāsaptamaṁ kulam॥  <br/>vyatīpāta mahābāhō sarvapāpapraṇāśa
- na।  <br/>sahasrabāhō viśvātman gr̥hāṇārghyaṁ namō'stu tē
+ ē vyatīpātē ca vaidhr̥tau।  <br/>amāyāṁ ca nadīsnānaṁ punā
+ tyāsaptamaṁ kulam॥  <br/>vyatīpāta mahābāhō sarvapāpapraṇāś
+ ana।  <br/>sahasrabāhō viśvātman gr̥hāṇārghyaṁ namō'stu tē
  ॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.
  com/jyotisham/adyatithi/blob/master/time_focus/misc/sidereal_solar_month/y
  oga/09/17/mahAdhanurvyatIpAta-snAnam.toml)<br/>- Tags: SpecialSnanam
@@ -11435,6 +11435,28 @@ DESCRIPTION:Meṣa-Saṅkramaṇa Punyakala.<br/><br/>saṅkrāntisnānāk
  br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
  sham/adyatithi/blob/master/time_focus/sankrAnti/description_only/mESa-saGk
  ramaNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:nimba-kusuma-bhakṣaṇam
+DTSTART;VALUE=DATE:20190414
+DTEND;VALUE=DATE:20190415
+DESCRIPTION:Observed on day 1 of Mēṣaḥ (sidereal solar) month (Sūry
+ ōdayaḥ/puurvaviddha). <br/><br/>Partake Neem flowers in the early part 
+ of the day\; in practice\, a sweet-sour offering made using jaggery\, neem
+  flowers etc. is partaken.<br/><br/>śatāyurvajradēhāya sarvasampatkar
+ āya ca।  <br/>sarvāniṣṭavināśāya nimbakandalabhakṣaṇam॥  
+ <br/>yadvarṣādau nimbasumaṁ śarkarāmlaghr̥tairyutam।  <br/>bhak
+ ṣitaṁ pūrvayāmē syāt tadvarṣaṁ saukhyadāyakam॥<br/><br/><br
+ /><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ad
+ yatithi/blob/master/general/sidereal_solar_month/day/01/01/nimba-kusuma-bh
+ akSaNam.toml)<br/>- Tags: LessCommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
