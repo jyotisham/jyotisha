@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20221228134257
+SEQUENCE:20221228140121
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -330,10 +330,11 @@ BEGIN:VEVENT
 SUMMARY:पिण्ड-पितृ-यज्ञः
 DTSTART;VALUE=DATE:20220102
 DTEND;VALUE=DATE:20220103
-DESCRIPTION:An important observance by āhitāgnis\, to propitiate the pit
- r̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
- isham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH
- .toml)<br/>- Tags: ShraddhaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.to
+ ml)<br/>- Tags: ShraddhaDays<br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/d
+ escription_only/piNDa-pitR-yajJaH.toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4266,10 +4267,11 @@ BEGIN:VEVENT
 SUMMARY:पिण्ड-पितृ-यज्ञः
 DTSTART;VALUE=DATE:20220131
 DTEND;VALUE=DATE:20220201
-DESCRIPTION:An important observance by āhitāgnis\, to propitiate the pit
- r̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
- isham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH
- .toml)<br/>- Tags: ShraddhaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.to
+ ml)<br/>- Tags: ShraddhaDays<br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/d
+ escription_only/piNDa-pitR-yajJaH.toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8915,10 +8917,11 @@ BEGIN:VEVENT
 SUMMARY:पिण्ड-पितृ-यज्ञः
 DTSTART;VALUE=DATE:20220302
 DTEND;VALUE=DATE:20220303
-DESCRIPTION:An important observance by āhitāgnis\, to propitiate the pit
- r̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
- isham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH
- .toml)<br/>- Tags: ShraddhaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.to
+ ml)<br/>- Tags: ShraddhaDays<br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/d
+ escription_only/piNDa-pitR-yajJaH.toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13162,10 +13165,11 @@ BEGIN:VEVENT
 SUMMARY:पिण्ड-पितृ-यज्ञः
 DTSTART;VALUE=DATE:20220331
 DTEND;VALUE=DATE:20220401
-DESCRIPTION:An important observance by āhitāgnis\, to propitiate the pit
- r̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
- isham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH
- .toml)<br/>- Tags: ShraddhaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.to
+ ml)<br/>- Tags: ShraddhaDays<br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/d
+ escription_only/piNDa-pitR-yajJaH.toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18116,10 +18120,11 @@ BEGIN:VEVENT
 SUMMARY:पिण्ड-पितृ-यज्ञः
 DTSTART;VALUE=DATE:20220430
 DTEND;VALUE=DATE:20220501
-DESCRIPTION:An important observance by āhitāgnis\, to propitiate the pit
- r̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
- isham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH
- .toml)<br/>- Tags: ShraddhaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.to
+ ml)<br/>- Tags: ShraddhaDays<br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/d
+ escription_only/piNDa-pitR-yajJaH.toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22557,10 +22562,11 @@ BEGIN:VEVENT
 SUMMARY:पिण्ड-पितृ-यज्ञः
 DTSTART;VALUE=DATE:20220530
 DTEND;VALUE=DATE:20220531
-DESCRIPTION:An important observance by āhitāgnis\, to propitiate the pit
- r̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
- isham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH
- .toml)<br/>- Tags: ShraddhaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.to
+ ml)<br/>- Tags: ShraddhaDays<br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/d
+ escription_only/piNDa-pitR-yajJaH.toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26934,10 +26940,11 @@ BEGIN:VEVENT
 SUMMARY:पिण्ड-पितृ-यज्ञः
 DTSTART;VALUE=DATE:20220628
 DTEND;VALUE=DATE:20220629
-DESCRIPTION:An important observance by āhitāgnis\, to propitiate the pit
- r̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
- isham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH
- .toml)<br/>- Tags: ShraddhaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.to
+ ml)<br/>- Tags: ShraddhaDays<br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/d
+ escription_only/piNDa-pitR-yajJaH.toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -31058,10 +31065,11 @@ BEGIN:VEVENT
 SUMMARY:पिण्ड-पितृ-यज्ञः
 DTSTART;VALUE=DATE:20220728
 DTEND;VALUE=DATE:20220729
-DESCRIPTION:An important observance by āhitāgnis\, to propitiate the pit
- r̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
- isham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH
- .toml)<br/>- Tags: ShraddhaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.to
+ ml)<br/>- Tags: ShraddhaDays<br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/d
+ escription_only/piNDa-pitR-yajJaH.toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -35734,10 +35742,11 @@ BEGIN:VEVENT
 SUMMARY:पिण्ड-पितृ-यज्ञः
 DTSTART;VALUE=DATE:20220826
 DTEND;VALUE=DATE:20220827
-DESCRIPTION:An important observance by āhitāgnis\, to propitiate the pit
- r̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
- isham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH
- .toml)<br/>- Tags: ShraddhaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.to
+ ml)<br/>- Tags: ShraddhaDays<br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/d
+ escription_only/piNDa-pitR-yajJaH.toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -40595,10 +40604,11 @@ BEGIN:VEVENT
 SUMMARY:पिण्ड-पितृ-यज्ञः
 DTSTART;VALUE=DATE:20220925
 DTEND;VALUE=DATE:20220926
-DESCRIPTION:An important observance by āhitāgnis\, to propitiate the pit
- r̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
- isham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH
- .toml)<br/>- Tags: ShraddhaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.to
+ ml)<br/>- Tags: ShraddhaDays<br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/d
+ escription_only/piNDa-pitR-yajJaH.toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -45394,10 +45404,11 @@ BEGIN:VEVENT
 SUMMARY:पिण्ड-पितृ-यज्ञः
 DTSTART;VALUE=DATE:20221025
 DTEND;VALUE=DATE:20221026
-DESCRIPTION:An important observance by āhitāgnis\, to propitiate the pit
- r̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
- isham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH
- .toml)<br/>- Tags: ShraddhaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.to
+ ml)<br/>- Tags: ShraddhaDays<br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/d
+ escription_only/piNDa-pitR-yajJaH.toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -49961,10 +49972,11 @@ BEGIN:VEVENT
 SUMMARY:पिण्ड-पितृ-यज्ञः
 DTSTART;VALUE=DATE:20221123
 DTEND;VALUE=DATE:20221124
-DESCRIPTION:An important observance by āhitāgnis\, to propitiate the pit
- r̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
- isham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH
- .toml)<br/>- Tags: ShraddhaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.to
+ ml)<br/>- Tags: ShraddhaDays<br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/d
+ escription_only/piNDa-pitR-yajJaH.toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -54265,10 +54277,11 @@ BEGIN:VEVENT
 SUMMARY:पिण्ड-पितृ-यज्ञः
 DTSTART;VALUE=DATE:20221223
 DTEND;VALUE=DATE:20221224
-DESCRIPTION:An important observance by āhitāgnis\, to propitiate the pit
- r̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
- isham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH
- .toml)<br/>- Tags: ShraddhaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.to
+ ml)<br/>- Tags: ShraddhaDays<br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/d
+ escription_only/piNDa-pitR-yajJaH.toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
