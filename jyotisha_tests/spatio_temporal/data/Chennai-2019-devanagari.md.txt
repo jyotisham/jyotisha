@@ -875,7 +875,7 @@ Observed on Vyatīpātaḥ yoga of Dhanuḥ (sidereal solar) month (Prāktanāru
 Special snānam on account of mahādhanurvyatīpātam. snānam on any vyatīpata day gives mahāpuṇyam, more so in dhanurmāsa.
 
 पुष्ये च जन्मनक्षत्रे व्यतीपाते च वैधृतौ।  
-अमायां च नदीनानं पुनात्यासप्तमं कुलम्॥  
+अमायां च नदीस्नानं पुनात्यासप्तमं कुलम्॥  
 व्यतीपात महाबाहो सर्वपापप्रणाशन।  
 सहस्रबाहो विश्वात्मन् गृहाणार्घ्यं नमोऽस्तु ते॥
 
@@ -9990,7 +9990,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- पञ्चाङ्ग-पठनम्, मेष-सङ्क्रमण-पुण्यकालः, मेष-सङ्क्रान्तिः (विकारी-संवत्सरः), रवि-सङ्क्रमण-पुण्यकालः, रविपुष्य-योगः, वसन्तनवरात्र-समापनम्, विषुक्कऩि, सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः, सायन-व्यतीपातः
+- निम्ब-कुसुम-भक्षणम्, पञ्चाङ्ग-पठनम्, मेष-सङ्क्रमण-पुण्यकालः, मेष-सङ्क्रान्तिः (विकारी-संवत्सरः), रवि-सङ्क्रमण-पुण्यकालः, रविपुष्य-योगः, वसन्तनवरात्र-समापनम्, विषुक्कऩि, सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः, सायन-व्यतीपातः
 ##### मेष-सङ्क्रान्तिः (विकारी-संवत्सरः)
 
 
@@ -10030,6 +10030,24 @@ Meṣa-Saṅkramaṇa Punyakala.
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/mESa-saGkramaNa-puNyakAlaH.toml)
 - Tags: SunSankranti CommonFestivals
+
+
+##### निम्ब-कुसुम-भक्षणम्
+
+Observed on day 1 of Mēṣaḥ (sidereal solar) month (Sūryōdayaḥ/puurvaviddha). 
+
+Partake Neem flowers in the early part of the day; in practice, a sweet-sour offering made using jaggery, neem flowers etc. is partaken.
+
+शतायुर्वज्रदेहाय सर्वसम्पत्कराय च।  
+सर्वानिष्टविनाशाय निम्बकन्दलभक्षणम्॥  
+यद्वर्षादौ निम्बसुमं शर्कराम्लघृतैर्युतम्।  
+भक्षितं पूर्वयामे स्यात् तद्वर्षं सौख्यदायकम्॥
+
+
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/general/sidereal_solar_month/day/01/01/nimba-kusuma-bhakSaNam.toml)
+- Tags: LessCommonFestivals
 
 
 ##### पञ्चाङ्ग-पठनम्

@@ -59,6 +59,11 @@ class HinduCalendarEventTiming(common.JsonObject):
         "type": "integer",
         "description": "",
       },
+      "adhika_maasa_handling": {
+        "type": "string",
+        "enum": ["adhika_only", "adhika_if_exists", "adhika_and_nija", "nija_only"],
+        "description": "",
+      },
       "anga_type": {
         "type": "string",
         "enum": ["tithi", "nakshatra", "yoga", "day"],
