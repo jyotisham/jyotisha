@@ -117,7 +117,10 @@ class RuleLookupAssigner(FestivalAssigner):
     month_type = fest_rule.timing.month_type
     priority = fest_rule.timing.get_priority()
     fday_date = p_fday.get_date(month_type=month_type)
-    if fday_date.month != fest_rule.timing.month_number and fest_rule.timing.month_number != 0:
+    month_mismatch = fday_date.month != fest_rule.timing.month_number
+    if fest_rule.timing.adhika_maasa_handling == 'adhika_and_nija' and fday_date.month == fest_rule.timing.month_number - 0.5:
+      month_mismatch = False
+    if month_mismatch and fest_rule.timing.month_number != 0:
       # This could legitimately happen in the case indicated in the below clause.
       if not (fday_date.day >= 30 and month_type == RulesRepo.LUNAR_MONTH_DIR):
         # Example: Suppose festival is on tithi 27 of solar siderial month 10; last day of month 9 could have tithi 27, but not day 1 of month 10; though a much later day of month 10 has tithi 27. 
@@ -144,6 +147,7 @@ class RuleLookupAssigner(FestivalAssigner):
     for fest_id, fest_rule in fest_dict.items():
       kaala = fest_rule.timing.get_kaala()
       priority = fest_rule.timing.get_priority()
+      adhika_maasa_handling = fest_rule.timing.get_adhika_maasa_handling()
       anga_type_str = fest_rule.timing.anga_type
       target_anga = Anga.get_cached(index=fest_rule.timing.anga_number, anga_type_id=anga_type_str.upper())
       decision = priority_decision.decide(p0=panchaangas[1], p1=panchaangas[2], target_anga=target_anga, kaala=kaala, ayanaamsha_id=self.ayanaamsha_id, priority=priority)

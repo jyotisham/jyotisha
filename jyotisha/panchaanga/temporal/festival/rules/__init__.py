@@ -96,13 +96,14 @@ class HinduCalendarEventTiming(common.JsonObject):
     }
   }))
 
-  def __init__(self, month_type, month_number, anga_type, anga_number, kaala, year_start):
+  def __init__(self, month_type, month_number, anga_type, anga_number, kaala, year_start, adhika_maasa_handling):
     self.month_type = month_type
     self.month_number = month_number
     self.anga_type = anga_type
     self.anga_number = anga_number
     self.kaala = kaala
     self.year_start = year_start
+    self.adhika_maasa_handling = adhika_maasa_handling
     self.anchor_festival_id = None
     self.offset = None
     self.julian_handling = None
@@ -112,6 +113,9 @@ class HinduCalendarEventTiming(common.JsonObject):
 
   def get_priority(self):
     return "puurvaviddha" if self.priority is None else self.priority
+
+  def get_adhika_maasa_handling(self):
+    return "nija_only" if self.adhika_maasa_handling is None else self.adhika_maasa_handling
     
   def get_month_name_en(self, script):
     return names.get_month_name_en(month_type=self.month_type, month_number=self.month_number, script=script)
@@ -406,7 +410,14 @@ class RulesCollection(common.JsonObject):
       from jyotisha.panchaanga.temporal.zodiac.angas import Tithi
       if isinstance(anga, Tithi) and month_type == RulesRepo.LUNAR_MONTH_DIR:
         month = anga.month.index
-      for m in [month, 0]:
+      months_list = [month, 0]
+      if month == int(month):
+        # Add the adhika masa also
+        months_list.append(month - 0.5)
+      else:
+        # Add the nija masa also
+        months_list.append(month + 0.5)
+      for m in months_list:
         fest_dict.update(self.get_month_anga_fests(month_type=month_type, month=m, anga_type_id=anga_type_id, anga=anga))
     return fest_dict
 
