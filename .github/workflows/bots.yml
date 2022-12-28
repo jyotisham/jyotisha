@@ -46,9 +46,9 @@ jobs:
         python -m pip install -e .
     - name: Get current date
       id: date
-      # No space after + below.
       run: |
         echo "{date}={$(date +'%Y-%m-%d')}" >> $GITHUB_STATE
+#     No space after + above.
     - name: Telegram message
       env:
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
