@@ -28,10 +28,10 @@ jobs:
 #         python-version: [3.5, 3.6, 3.7, 3.8]
     steps:
     - uses: actions/checkout@v2
-#       Because of this, you will fail to push refs to dest repo
       with:
         submodules: 'true'
-        fetch-depth: 1 
+        fetch-depth: 1
+#       Because of this, you will fail to push refs to dest repo
     - name: Get current date
       id: date
       run: |
