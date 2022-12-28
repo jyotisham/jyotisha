@@ -549,10 +549,11 @@ BEGIN:VEVENT
 SUMMARY:piṇḍa-pitr̥-yajñaḥ
 DTSTART;VALUE=DATE:20190105
 DTEND;VALUE=DATE:20190106
-DESCRIPTION:An important observance by āhitāgnis\, to propitiate the pit
- r̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
- isham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH
- .toml)<br/>- Tags: ShraddhaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.to
+ ml)<br/>- Tags: ShraddhaDays<br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/d
+ escription_only/piNDa-pitR-yajJaH.toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3562,10 +3563,11 @@ BEGIN:VEVENT
 SUMMARY:piṇḍa-pitr̥-yajñaḥ
 DTSTART;VALUE=DATE:20190204
 DTEND;VALUE=DATE:20190205
-DESCRIPTION:An important observance by āhitāgnis\, to propitiate the pit
- r̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
- isham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH
- .toml)<br/>- Tags: ShraddhaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.to
+ ml)<br/>- Tags: ShraddhaDays<br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/d
+ escription_only/piNDa-pitR-yajJaH.toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7022,10 +7024,11 @@ BEGIN:VEVENT
 SUMMARY:piṇḍa-pitr̥-yajñaḥ
 DTSTART;VALUE=DATE:20190306
 DTEND;VALUE=DATE:20190307
-DESCRIPTION:An important observance by āhitāgnis\, to propitiate the pit
- r̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
- isham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH
- .toml)<br/>- Tags: ShraddhaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.to
+ ml)<br/>- Tags: ShraddhaDays<br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/d
+ escription_only/piNDa-pitR-yajJaH.toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10164,10 +10167,11 @@ BEGIN:VEVENT
 SUMMARY:piṇḍa-pitr̥-yajñaḥ
 DTSTART;VALUE=DATE:20190404
 DTEND;VALUE=DATE:20190405
-DESCRIPTION:An important observance by āhitāgnis\, to propitiate the pit
- r̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
- isham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH
- .toml)<br/>- Tags: ShraddhaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.to
+ ml)<br/>- Tags: ShraddhaDays<br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/d
+ escription_only/piNDa-pitR-yajJaH.toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10250,15 +10254,16 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:bōdhāyana-iṣṭiḥ
+SUMMARY:bōdhāyana-kātyāyana-iṣṭiḥ
 DTSTART;VALUE=DATE:20190405
 DTEND;VALUE=DATE:20190406
 DESCRIPTION:iṣṭiḥ is performed on this day by those following the b
- ōdhāyana-sūtra. This difference happens because chandradarśanam occurs
-  tomorrow\, and followers of bōdhāyana-sūtra do not perform iṣṭiḥ
-  on chandradarśanam day.<br/><br/>## Details<br/>- [Edit config file](htt
- ps://github.com/jyotisham/adyatithi/blob/master/general/description_only/b
- OdhAyana-iSTiH.toml)<br/>- Tags: RareDays Combinations SpecialVratam
+ ōdhāyana/kātyāyana sūtras. This difference happens because chandradar
+ śanam occurs tomorrow\, and followers of bōdhāyana/kātyāyana sūtras 
+ do not perform iṣṭiḥ on chandradarśanam day.<br/><br/>## Details<br
+ />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
+ general/description_only/bOdhAyana-kAtyAyana-iSTiH.toml)<br/>- Tags: RareD
+ ays Combinations SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13824,10 +13829,11 @@ BEGIN:VEVENT
 SUMMARY:piṇḍa-pitr̥-yajñaḥ
 DTSTART;VALUE=DATE:20190504
 DTEND;VALUE=DATE:20190505
-DESCRIPTION:An important observance by āhitāgnis\, to propitiate the pit
- r̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
- isham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH
- .toml)<br/>- Tags: ShraddhaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.to
+ ml)<br/>- Tags: ShraddhaDays<br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/d
+ escription_only/piNDa-pitR-yajJaH.toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17325,13 +17331,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:bōdhāyana-vaiśākha-amāvāsyā
+SUMMARY:bōdhāyana-kātyāyana-vaiśākha-amāvāsyā
 DTSTART;VALUE=DATE:20190602
 DTEND;VALUE=DATE:20190603
-DESCRIPTION:amāvāsyā of the vaiśākha month.<br/><br/>## Details<br/>-
-  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/tim
- e_focus/monthly/amAvAsyA/description_only/vaizAkha-amAvAsyA.toml)<br/>- Ta
- gs: AmavasyaDays
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17443,15 +17446,16 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:bōdhāyana-iṣṭiḥ
+SUMMARY:bōdhāyana-kātyāyana-iṣṭiḥ
 DTSTART;VALUE=DATE:20190603
 DTEND;VALUE=DATE:20190604
 DESCRIPTION:iṣṭiḥ is performed on this day by those following the b
- ōdhāyana-sūtra. This difference happens because chandradarśanam occurs
-  tomorrow\, and followers of bōdhāyana-sūtra do not perform iṣṭiḥ
-  on chandradarśanam day.<br/><br/>## Details<br/>- [Edit config file](htt
- ps://github.com/jyotisham/adyatithi/blob/master/general/description_only/b
- OdhAyana-iSTiH.toml)<br/>- Tags: RareDays Combinations SpecialVratam
+ ōdhāyana/kātyāyana sūtras. This difference happens because chandradar
+ śanam occurs tomorrow\, and followers of bōdhāyana/kātyāyana sūtras 
+ do not perform iṣṭiḥ on chandradarśanam day.<br/><br/>## Details<br
+ />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
+ general/description_only/bOdhAyana-kAtyAyana-iSTiH.toml)<br/>- Tags: RareD
+ ays Combinations SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17482,10 +17486,11 @@ BEGIN:VEVENT
 SUMMARY:piṇḍa-pitr̥-yajñaḥ
 DTSTART;VALUE=DATE:20190603
 DTEND;VALUE=DATE:20190604
-DESCRIPTION:An important observance by āhitāgnis\, to propitiate the pit
- r̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
- isham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH
- .toml)<br/>- Tags: ShraddhaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.to
+ ml)<br/>- Tags: ShraddhaDays<br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/d
+ escription_only/piNDa-pitR-yajJaH.toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20894,10 +20899,11 @@ BEGIN:VEVENT
 SUMMARY:piṇḍa-pitr̥-yajñaḥ
 DTSTART;VALUE=DATE:20190702
 DTEND;VALUE=DATE:20190703
-DESCRIPTION:An important observance by āhitāgnis\, to propitiate the pit
- r̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
- isham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH
- .toml)<br/>- Tags: ShraddhaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.to
+ ml)<br/>- Tags: ShraddhaDays<br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/d
+ escription_only/piNDa-pitR-yajJaH.toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24138,10 +24144,11 @@ BEGIN:VEVENT
 SUMMARY:piṇḍa-pitr̥-yajñaḥ
 DTSTART;VALUE=DATE:20190731
 DTEND;VALUE=DATE:20190801
-DESCRIPTION:An important observance by āhitāgnis\, to propitiate the pit
- r̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
- isham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH
- .toml)<br/>- Tags: ShraddhaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.to
+ ml)<br/>- Tags: ShraddhaDays<br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/d
+ escription_only/piNDa-pitR-yajJaH.toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -27893,13 +27900,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:bōdhāyana-śrāvaṇa-amāvāsyā
+SUMMARY:bōdhāyana-kātyāyana-śrāvaṇa-amāvāsyā
 DTSTART;VALUE=DATE:20190829
 DTEND;VALUE=DATE:20190830
-DESCRIPTION:amāvāsyā of śrāvaṇa month<br/><br/>## Details<br/>- [Ed
- it config file](https://github.com/jyotisham/adyatithi/blob/master/time_fo
- cus/monthly/amAvAsyA/description_only/zrAvaNa-amAvAsyA.toml)<br/>- Tags: A
- mavasyaDays
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -28025,15 +28029,16 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:bōdhāyana-iṣṭiḥ
+SUMMARY:bōdhāyana-kātyāyana-iṣṭiḥ
 DTSTART;VALUE=DATE:20190830
 DTEND;VALUE=DATE:20190831
 DESCRIPTION:iṣṭiḥ is performed on this day by those following the b
- ōdhāyana-sūtra. This difference happens because chandradarśanam occurs
-  tomorrow\, and followers of bōdhāyana-sūtra do not perform iṣṭiḥ
-  on chandradarśanam day.<br/><br/>## Details<br/>- [Edit config file](htt
- ps://github.com/jyotisham/adyatithi/blob/master/general/description_only/b
- OdhAyana-iSTiH.toml)<br/>- Tags: RareDays Combinations SpecialVratam
+ ōdhāyana/kātyāyana sūtras. This difference happens because chandradar
+ śanam occurs tomorrow\, and followers of bōdhāyana/kātyāyana sūtras 
+ do not perform iṣṭiḥ on chandradarśanam day.<br/><br/>## Details<br
+ />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
+ general/description_only/bOdhAyana-kAtyAyana-iSTiH.toml)<br/>- Tags: RareD
+ ays Combinations SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -28098,10 +28103,11 @@ BEGIN:VEVENT
 SUMMARY:piṇḍa-pitr̥-yajñaḥ
 DTSTART;VALUE=DATE:20190830
 DTEND;VALUE=DATE:20190831
-DESCRIPTION:An important observance by āhitāgnis\, to propitiate the pit
- r̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
- isham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH
- .toml)<br/>- Tags: ShraddhaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.to
+ ml)<br/>- Tags: ShraddhaDays<br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/d
+ escription_only/piNDa-pitR-yajJaH.toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -32003,10 +32009,11 @@ BEGIN:VEVENT
 SUMMARY:piṇḍa-pitr̥-yajñaḥ
 DTSTART;VALUE=DATE:20190928
 DTEND;VALUE=DATE:20190929
-DESCRIPTION:An important observance by āhitāgnis\, to propitiate the pit
- r̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
- isham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH
- .toml)<br/>- Tags: ShraddhaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.to
+ ml)<br/>- Tags: ShraddhaDays<br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/d
+ escription_only/piNDa-pitR-yajJaH.toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -35753,10 +35760,11 @@ BEGIN:VEVENT
 SUMMARY:piṇḍa-pitr̥-yajñaḥ
 DTSTART;VALUE=DATE:20191027
 DTEND;VALUE=DATE:20191028
-DESCRIPTION:An important observance by āhitāgnis\, to propitiate the pit
- r̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
- isham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH
- .toml)<br/>- Tags: ShraddhaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.to
+ ml)<br/>- Tags: ShraddhaDays<br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/d
+ escription_only/piNDa-pitR-yajJaH.toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -39670,10 +39678,11 @@ BEGIN:VEVENT
 SUMMARY:piṇḍa-pitr̥-yajñaḥ
 DTSTART;VALUE=DATE:20191126
 DTEND;VALUE=DATE:20191127
-DESCRIPTION:An important observance by āhitāgnis\, to propitiate the pit
- r̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
- isham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH
- .toml)<br/>- Tags: ShraddhaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.to
+ ml)<br/>- Tags: ShraddhaDays<br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/d
+ escription_only/piNDa-pitR-yajJaH.toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -42827,10 +42836,11 @@ BEGIN:VEVENT
 SUMMARY:piṇḍa-pitr̥-yajñaḥ
 DTSTART;VALUE=DATE:20191225
 DTEND;VALUE=DATE:20191226
-DESCRIPTION:An important observance by āhitāgnis\, to propitiate the pit
- r̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
- isham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH
- .toml)<br/>- Tags: ShraddhaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.to
+ ml)<br/>- Tags: ShraddhaDays<br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/d
+ escription_only/piNDa-pitR-yajJaH.toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
