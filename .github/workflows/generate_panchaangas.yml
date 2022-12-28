@@ -5,7 +5,7 @@ name: Generate panchAngas
 
 on:
   schedule:
-    - cron: '0 20 31 12 *'
+    - cron: '0 20 31 10 *'
       # minute (0 - 59) hour (0 - 23) day of the month (1 - 31) month (1 - 12) day of the week (0 - 6) UTC
       # Above is 1:30 AM IST on 1st Jan.
       # The below is for debugging.
@@ -31,6 +31,12 @@ jobs:
       with:
         submodules: 'true'
         fetch-depth: 1 # Because of this, you will fail to push refs to dest repo
+    - name: Get current date
+      id: date
+      run: | #     No space after + above.
+        echo "date={$(date +'%Y-%m-%d')}" >> $GITHUB_OUTPUT
+        echo "next_year=$(date +'%Y' --date='+1 year')" >> $GITHUB_OUTPUT
+        cat $GITHUB_OUTPUT
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v1
       with:
@@ -44,7 +50,7 @@ jobs:
         python -m pip install .
     - name: Regenerate calendars
       run: |
-        python -m "jyotisha.panchaanga.writer.generation_project"
+        python -m "jyotisha.panchaanga.writer.generation_project" --year=${{ steps.date.outputs.next_year }}
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
