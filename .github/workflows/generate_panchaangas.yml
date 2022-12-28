@@ -50,7 +50,7 @@ jobs:
         python -m pip install .
     - name: Regenerate calendars
       run: |
-        python -m "jyotisha.panchaanga.writer.generation_project --year=${{ steps.date.outputs.next_year }}"
+        python -m "jyotisha.panchaanga.writer.generation_project" --year=${{ steps.date.outputs.next_year }}
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
