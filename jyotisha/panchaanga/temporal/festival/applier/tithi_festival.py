@@ -556,14 +556,14 @@ class TithiFestivalAssigner(FestivalAssigner):
     chandra_darshanam_days = list(self.panchaanga.festival_id_to_days['candra-darzanam'])
     for cdd in chandra_darshanam_days:
       if 'darsheShTiH' in self.panchaanga.daily_panchaanga_for_date(cdd).festival_id_to_instance.keys():
-        self.panchaanga.add_festival(fest_id='bOdhAyana-iSTiH', date=self.panchaanga.daily_panchaanga_for_date(cdd - 1).date)
+        self.panchaanga.add_festival(fest_id='bOdhAyana-kAtyAyana-iSTiH', date=self.panchaanga.daily_panchaanga_for_date(cdd - 1).date)
 
       ama_fest = [val for key, val in self.panchaanga.daily_panchaanga_for_date(cdd - 1).festival_id_to_instance.items() if 'amAvAsyA' in key]
       if ama_fest:
         # We have amAvAsyA preceding chandra darshanam. Therefore, the previous day must be assigned as bOdhAayana
-        bodhaayana_fest = re.sub('amAvAsyA.*', 'amAvAsyA', 'bOdhAyana-' + ama_fest[0].name)
+        bodhaayana_fest = re.sub('amAvAsyA.*', 'amAvAsyA', 'bOdhAyana-kAtyAyana-' + ama_fest[0].name)
         self.panchaanga.add_festival(fest_id=bodhaayana_fest, date=self.panchaanga.daily_panchaanga_for_date(cdd - 2).date)
-        self.panchaanga.add_festival(fest_id='bOdhAyana-iSTiH', date=self.panchaanga.daily_panchaanga_for_date(cdd - 1).date)
+        self.panchaanga.add_festival(fest_id='bOdhAyana-kAtyAyana-iSTiH', date=self.panchaanga.daily_panchaanga_for_date(cdd - 1).date)
       else:
         for key, val in dict(self.panchaanga.daily_panchaanga_for_date(cdd - 2).festival_id_to_instance).items():
           if 'amAvAsyA' in key:
