@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20221228181118
+SEQUENCE:20221228223616
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -35886,10 +35886,16 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:बोधायन-इष्टिः
+SUMMARY:बोधायन-कात्यायन-इष्टिः
 DTSTART;VALUE=DATE:20220827
 DTEND;VALUE=DATE:20220828
-DESCRIPTION:
+DESCRIPTION:iṣṭiḥ is performed on this day by those following the b
+ ōdhāyana/kātyāyana sūtras. This difference happens because chandradar
+ śanam occurs tomorrow\, and followers of bōdhāyana/kātyāyana sūtras 
+ do not perform iṣṭiḥ on chandradarśanam day.<br/><br/>## Details<br
+ />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
+ general/description_only/bOdhAyana-kAtyAyana-iSTiH.toml)<br/>- Tags: RareD
+ ays Combinations SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -45066,14 +45072,11 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:बोधायन-आश्वयुज-अमावास्य
- ा
+SUMMARY:बोधायन-कात्यायन-आश्वयुज-
+ अमावास्या
 DTSTART;VALUE=DATE:20221024
 DTEND;VALUE=DATE:20221025
-DESCRIPTION:amāvāsyā of āśvayuja month.<br/><br/>## Details<br/>- [Ed
- it config file](https://github.com/jyotisham/adyatithi/blob/master/time_fo
- cus/monthly/amAvAsyA/description_only/Azvayuja-amAvAsyA.toml)<br/>- Tags: 
- AmavasyaDays
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -45342,10 +45345,16 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:बोधायन-इष्टिः
+SUMMARY:बोधायन-कात्यायन-इष्टिः
 DTSTART;VALUE=DATE:20221025
 DTEND;VALUE=DATE:20221026
-DESCRIPTION:
+DESCRIPTION:iṣṭiḥ is performed on this day by those following the b
+ ōdhāyana/kātyāyana sūtras. This difference happens because chandradar
+ śanam occurs tomorrow\, and followers of bōdhāyana/kātyāyana sūtras 
+ do not perform iṣṭiḥ on chandradarśanam day.<br/><br/>## Details<br
+ />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
+ general/description_only/bOdhAyana-kAtyAyana-iSTiH.toml)<br/>- Tags: RareD
+ ays Combinations SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -53955,14 +53964,11 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:बोधायन-मार्गशीर्ष-अमावा
- स्या
+SUMMARY:बोधायन-कात्यायन-मार्गशी
+ र्ष-अमावास्या
 DTSTART;VALUE=DATE:20221222
 DTEND;VALUE=DATE:20221223
-DESCRIPTION:amāvāsyā of mārgaśīrṣa lunar month.<br/><br/>## Detail
- s<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mas
- ter/time_focus/monthly/amAvAsyA/description_only/mArgazIrSa-amAvAsyA.toml)
- <br/>- Tags: AmavasyaDays
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -54167,10 +54173,16 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:बोधायन-इष्टिः
+SUMMARY:बोधायन-कात्यायन-इष्टिः
 DTSTART;VALUE=DATE:20221223
 DTEND;VALUE=DATE:20221224
-DESCRIPTION:
+DESCRIPTION:iṣṭiḥ is performed on this day by those following the b
+ ōdhāyana/kātyāyana sūtras. This difference happens because chandradar
+ śanam occurs tomorrow\, and followers of bōdhāyana/kātyāyana sūtras 
+ do not perform iṣṭiḥ on chandradarśanam day.<br/><br/>## Details<br
+ />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
+ general/description_only/bOdhAyana-kAtyAyana-iSTiH.toml)<br/>- Tags: RareD
+ ays Combinations SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
