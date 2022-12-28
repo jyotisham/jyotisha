@@ -34,8 +34,9 @@ jobs:
     - name: Get current date
       id: date
       run: | #     No space after + above.
-        echo "{date}={$(date +'%Y-%m-%d')}" >> $GITHUB_OUTPUT
-        echo "{next_year}={$(date +'%Y' --date='+1 year')}" >> $GITHUB_OUTPUT
+        echo "date={$(date +'%Y-%m-%d')}" >> $GITHUB_OUTPUT
+        echo "next_year=$(date +'%Y' --date='+1 year')" >> $GITHUB_OUTPUT
+        cat $GITHUB_OUTPUT
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v1
       with:
