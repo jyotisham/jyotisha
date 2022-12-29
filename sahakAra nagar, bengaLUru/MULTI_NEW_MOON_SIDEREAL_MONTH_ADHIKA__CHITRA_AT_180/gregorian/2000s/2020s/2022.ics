@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20221229075130
+SEQUENCE:20221229104424
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -202,6 +202,23 @@ DESCRIPTION:- Indian civil date: 1943-10-12\, Islamic: 1443-05-28 Jumādā
  टः**—12:23-13:48\; **गुलिककालः**—15:12-16:36  \n
  ___________________\n- **शूलम्**—प्रतीची (►11:
  16)\; **परिहारः**–गुडम्  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अधिक-मास-समापनम्
+DTSTART;VALUE=DATE:20220102
+DTEND;VALUE=DATE:20220103
+DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Sūryōd
+ ayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit config fi
+ le](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month
+ /tithi/00/30/adhika-mAsa-samApanam.toml)<br/>- Tags: SpecialFestivals Spec
+ ialPeriodEnd
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -451,6 +468,24 @@ DESCRIPTION:- Indian civil date: 1943-10-13\, Islamic: 1443-05-29 Jumādā
  ालः**—13:48-15:12  \n___________________\n- **शूलम्**—
  प्राची (►09:46)\; **परिहारः**–दधि  \n_
  __________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अधिक-मास-आरम्भः
+DTSTART;VALUE=DATE:20220103
+DTEND;VALUE=DATE:20220104
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/00/01/adhika-mAsa-Aramb
+ haH.toml)<br/>- Tags: SpecialFestivals SpecialPeriodStart<br/><br/><br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/blob/master/general/lunar_month/tithi/00/01/adhika-mAsa-ArambhaH.toml)
+ <br/>- Tags: SpecialFestivals SpecialPeriodStart
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4369,6 +4404,36 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अधिक-मासः
+DTSTART;VALUE=DATE:20220103
+DTEND;VALUE=DATE:20220202
+DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अधिक-मास-समापनम्
+DTSTART;VALUE=DATE:20220201
+DTEND;VALUE=DATE:20220202
+DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Sūryōd
+ ayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit config fi
+ le](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month
+ /tithi/00/30/adhika-mAsa-samApanam.toml)<br/>- Tags: SpecialFestivals Spec
+ ialPeriodEnd
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:दर्शेष्टिः
 DTSTART;VALUE=DATE:20220201
 DTEND;VALUE=DATE:20220202
@@ -4549,6 +4614,24 @@ DESCRIPTION:- Indian civil date: 1943-11-13\, Islamic: 1443-06-29 Jumādā
  ालः**—11:07-12:33  \n___________________\n- **शूलम्**—
  उदीची (►12:56)\; **परिहारः**–क्षीर
  म्  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अधिक-मास-आरम्भः
+DTSTART;VALUE=DATE:20220202
+DTEND;VALUE=DATE:20220203
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/00/01/adhika-mAsa-Aramb
+ haH.toml)<br/>- Tags: SpecialFestivals SpecialPeriodStart<br/><br/><br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/blob/master/general/lunar_month/tithi/00/01/adhika-mAsa-ArambhaH.toml)
+ <br/>- Tags: SpecialFestivals SpecialPeriodStart
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8805,6 +8888,36 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अधिक-मासः
+DTSTART;VALUE=DATE:20220202
+DTEND;VALUE=DATE:20220303
+DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अधिक-मास-समापनम्
+DTSTART;VALUE=DATE:20220302
+DTEND;VALUE=DATE:20220303
+DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Sūryōd
+ ayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit config fi
+ le](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month
+ /tithi/00/30/adhika-mAsa-samApanam.toml)<br/>- Tags: SpecialFestivals Spec
+ ialPeriodEnd
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:कलियुगादिः
 DTSTART;VALUE=DATE:20220302
 DTEND;VALUE=DATE:20220303
@@ -9027,6 +9140,24 @@ DESCRIPTION:- Indian civil date: 1943-12-12\, Islamic: 1443-07-29 Rajab\,
  टः**—06:38-08:06\; **गुलिककालः**—09:34-11:03  \n
  ___________________\n- **शूलम्**—दक्षिणा (►14:
  29)\; **परिहारः**–तैलम्  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अधिक-मास-आरम्भः
+DTSTART;VALUE=DATE:20220303
+DTEND;VALUE=DATE:20220304
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/00/01/adhika-mAsa-Aramb
+ haH.toml)<br/>- Tags: SpecialFestivals SpecialPeriodStart<br/><br/><br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/blob/master/general/lunar_month/tithi/00/01/adhika-mAsa-ArambhaH.toml)
+ <br/>- Tags: SpecialFestivals SpecialPeriodStart
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13270,6 +13401,36 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अधिक-मासः
+DTSTART;VALUE=DATE:20220303
+DTEND;VALUE=DATE:20220402
+DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अधिक-मास-समापनम्
+DTSTART;VALUE=DATE:20220401
+DTEND;VALUE=DATE:20220402
+DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Sūryōd
+ ayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit config fi
+ le](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month
+ /tithi/00/30/adhika-mAsa-samApanam.toml)<br/>- Tags: SpecialFestivals Spec
+ ialPeriodEnd
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:भृगुरेवती-योगः
 DTSTART;TZID=Asia/Calcutta:20220401T103841
 DTEND;TZID=Asia/Calcutta:20220402T000000
@@ -13483,6 +13644,24 @@ DESCRIPTION:- Indian civil date: 1944-01-12\, Islamic: 1443-08-29 Shaʿbā
  टः**—13:54-15:25\; **गुलिककालः**—06:18-07:50  \n
  ___________________\n- **शूलम्**—प्राची (►09:33)
  \; **परिहारः**–दधि  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अधिक-मास-आरम्भः
+DTSTART;VALUE=DATE:20220402
+DTEND;VALUE=DATE:20220403
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/00/01/adhika-mAsa-Aramb
+ haH.toml)<br/>- Tags: SpecialFestivals SpecialPeriodStart<br/><br/><br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/blob/master/general/lunar_month/tithi/00/01/adhika-mAsa-ArambhaH.toml)
+ <br/>- Tags: SpecialFestivals SpecialPeriodStart
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18001,6 +18180,36 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अधिक-मासः
+DTSTART;VALUE=DATE:20220402
+DTEND;VALUE=DATE:20220501
+DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अधिक-मास-समापनम्
+DTSTART;VALUE=DATE:20220430
+DTEND;VALUE=DATE:20220501
+DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Sūryōd
+ ayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit config fi
+ le](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month
+ /tithi/00/30/adhika-mAsa-samApanam.toml)<br/>- Tags: SpecialFestivals Spec
+ ialPeriodEnd
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:भार्गव-राम-पूजा
 DTSTART;VALUE=DATE:20220430
 DTEND;VALUE=DATE:20220501
@@ -18218,6 +18427,24 @@ DESCRIPTION:- Indian civil date: 1944-02-11\, Islamic: 1443-09-29 Ramaḍ
  टः**—12:16-13:50\; **गुलिककालः**—15:24-16:57  \n
  ___________________\n- **शूलम्**—प्रतीची (►11:
  02)\; **परिहारः**–गुडम्  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अधिक-मास-आरम्भः
+DTSTART;VALUE=DATE:20220501
+DTEND;VALUE=DATE:20220502
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/00/01/adhika-mAsa-Aramb
+ haH.toml)<br/>- Tags: SpecialFestivals SpecialPeriodStart<br/><br/><br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/blob/master/general/lunar_month/tithi/00/01/adhika-mAsa-ArambhaH.toml)
+ <br/>- Tags: SpecialFestivals SpecialPeriodStart
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22540,6 +22767,36 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अधिक-मासः
+DTSTART;VALUE=DATE:20220501
+DTEND;VALUE=DATE:20220531
+DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अधिक-मास-समापनम्
+DTSTART;VALUE=DATE:20220530
+DTEND;VALUE=DATE:20220531
+DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Sūryōd
+ ayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit config fi
+ le](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month
+ /tithi/00/30/adhika-mAsa-samApanam.toml)<br/>- Tags: SpecialFestivals Spec
+ ialPeriodEnd
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:पार्वणव्रतम् अमावास्या
  याम्
 DTSTART;VALUE=DATE:20220530
@@ -22759,6 +23016,24 @@ DESCRIPTION:- Indian civil date: 1944-03-10\, Islamic: 1443-10-29 Shawwāl
  ः**—09:06-10:42\; **गुलिककालः**—12:17-13:52  \n___
  ________________\n- **शूलम्**—उदीची (►11:01)\; **
  परिहारः**–क्षीरम्  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अधिक-मास-आरम्भः
+DTSTART;VALUE=DATE:20220531
+DTEND;VALUE=DATE:20220601
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/00/01/adhika-mAsa-Aramb
+ haH.toml)<br/>- Tags: SpecialFestivals SpecialPeriodStart<br/><br/><br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/blob/master/general/lunar_month/tithi/00/01/adhika-mAsa-ArambhaH.toml)
+ <br/>- Tags: SpecialFestivals SpecialPeriodStart
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26848,6 +27123,36 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अधिक-मासः
+DTSTART;VALUE=DATE:20220531
+DTEND;VALUE=DATE:20220629
+DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अधिक-मास-समापनम्
+DTSTART;VALUE=DATE:20220628
+DTEND;VALUE=DATE:20220629
+DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Sūryōd
+ ayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit config fi
+ le](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month
+ /tithi/00/30/adhika-mAsa-samApanam.toml)<br/>- Tags: SpecialFestivals Spec
+ ialPeriodEnd
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:भोगशायि-पूजा
 DTSTART;VALUE=DATE:20220628
 DTEND;VALUE=DATE:20220629
@@ -27206,6 +27511,24 @@ DESCRIPTION:- Indian civil date: 1944-04-09\, Islamic: 1443-11-30 Ḏū al
  10:47  \n___________________\n- **शूलम्**—दक्षिण
  ा (►14:30)\; **परिहारः**–तैलम्  \n__________
  _________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अधिक-मास-आरम्भः
+DTSTART;VALUE=DATE:20220630
+DTEND;VALUE=DATE:20220701
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/00/01/adhika-mAsa-Aramb
+ haH.toml)<br/>- Tags: SpecialFestivals SpecialPeriodStart<br/><br/><br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/blob/master/general/lunar_month/tithi/00/01/adhika-mAsa-ArambhaH.toml)
+ <br/>- Tags: SpecialFestivals SpecialPeriodStart
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30915,6 +31238,36 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अधिक-मासः
+DTSTART;VALUE=DATE:20220630
+DTEND;VALUE=DATE:20220729
+DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अधिक-मास-समापनम्
+DTSTART;VALUE=DATE:20220728
+DTEND;VALUE=DATE:20220729
+DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Sūryōd
+ ayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit config fi
+ le](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month
+ /tithi/00/30/adhika-mAsa-samApanam.toml)<br/>- Tags: SpecialFestivals Spec
+ ialPeriodEnd
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:दीप-पूजा
 DTSTART;VALUE=DATE:20220728
 DTEND;VALUE=DATE:20220729
@@ -31182,6 +31535,24 @@ DESCRIPTION:Very widely celebrated in Tamil Nadu temples\, Fridays in the
  ils<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/m
  aster/tamil/description_only/ADi~veLLikkizhamai.toml)<br/>- Tags: MonthWee
  kdayFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अधिक-मास-आरम्भः
+DTSTART;VALUE=DATE:20220729
+DTEND;VALUE=DATE:20220730
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/00/01/adhika-mAsa-Aramb
+ haH.toml)<br/>- Tags: SpecialFestivals SpecialPeriodStart<br/><br/><br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/blob/master/general/lunar_month/tithi/00/01/adhika-mAsa-ArambhaH.toml)
+ <br/>- Tags: SpecialFestivals SpecialPeriodStart
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -35886,6 +36257,36 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अधिक-मासः
+DTSTART;VALUE=DATE:20220729
+DTEND;VALUE=DATE:20220828
+DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अधिक-मास-समापनम्
+DTSTART;VALUE=DATE:20220827
+DTEND;VALUE=DATE:20220828
+DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Sūryōd
+ ayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit config fi
+ le](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month
+ /tithi/00/30/adhika-mAsa-samApanam.toml)<br/>- Tags: SpecialFestivals Spec
+ ialPeriodEnd
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:बोधायन-कात्यायन-इष्टिः
 DTSTART;VALUE=DATE:20220827
 DTEND;VALUE=DATE:20220828
@@ -36080,6 +36481,24 @@ DESCRIPTION:Do puja to Surya/Suryanamaskaram.<br/><br/>## Details<br/>- [E
  dit config file](https://github.com/jyotisham/adyatithi/blob/master/tamil/
  description_only/AvaNi~JAyir2r2ukkizhamai.toml)<br/>- Tags: MonthWeekdayFe
  stivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अधिक-मास-आरम्भः
+DTSTART;VALUE=DATE:20220828
+DTEND;VALUE=DATE:20220829
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/00/01/adhika-mAsa-Aramb
+ haH.toml)<br/>- Tags: SpecialFestivals SpecialPeriodStart<br/><br/><br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/blob/master/general/lunar_month/tithi/00/01/adhika-mAsa-ArambhaH.toml)
+ <br/>- Tags: SpecialFestivals SpecialPeriodStart
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -40500,6 +40919,36 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अधिक-मासः
+DTSTART;VALUE=DATE:20220828
+DTEND;VALUE=DATE:20220926
+DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अधिक-मास-समापनम्
+DTSTART;VALUE=DATE:20220925
+DTEND;VALUE=DATE:20220926
+DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Sūryōd
+ ayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit config fi
+ le](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month
+ /tithi/00/30/adhika-mAsa-samApanam.toml)<br/>- Tags: SpecialFestivals Spec
+ ialPeriodEnd
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:अश्वशिरो-देव-पूजा
 DTSTART;VALUE=DATE:20220925
 DTEND;VALUE=DATE:20220926
@@ -40740,6 +41189,24 @@ DESCRIPTION:- Indian civil date: 1944-07-04\, Islamic: 1444-02-29 Ṣafar\
  गुलिककालः**—13:40-15:10  \n___________________\n- **
  शूलम्**—प्राची (►09:23)\; **परिहार
  ः**–दधि  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अधिक-मास-आरम्भः
+DTSTART;VALUE=DATE:20220926
+DTEND;VALUE=DATE:20220927
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/00/01/adhika-mAsa-Aramb
+ haH.toml)<br/>- Tags: SpecialFestivals SpecialPeriodStart<br/><br/><br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/blob/master/general/lunar_month/tithi/00/01/adhika-mAsa-ArambhaH.toml)
+ <br/>- Tags: SpecialFestivals SpecialPeriodStart
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -45345,6 +45812,36 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अधिक-मासः
+DTSTART;VALUE=DATE:20220926
+DTEND;VALUE=DATE:20221026
+DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अधिक-मास-समापनम्
+DTSTART;VALUE=DATE:20221025
+DTEND;VALUE=DATE:20221026
+DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Sūryōd
+ ayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit config fi
+ le](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month
+ /tithi/00/30/adhika-mAsa-samApanam.toml)<br/>- Tags: SpecialFestivals Spec
+ ialPeriodEnd
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:बोधायन-कात्यायन-इष्टिः
 DTSTART;VALUE=DATE:20221025
 DTEND;VALUE=DATE:20221026
@@ -45545,6 +46042,24 @@ DESCRIPTION:- Indian civil date: 1944-08-04\, Islamic: 1444-03-30 Rabīʿ
  —07:42-09:09\; **गुलिककालः**—10:36-12:03  \n________
  ___________\n- **शूलम्**—उदीची (►12:26)\; **पर
  िहारः**–क्षीरम्  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अधिक-मास-आरम्भः
+DTSTART;VALUE=DATE:20221026
+DTEND;VALUE=DATE:20221027
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/00/01/adhika-mAsa-Aramb
+ haH.toml)<br/>- Tags: SpecialFestivals SpecialPeriodStart<br/><br/><br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/blob/master/general/lunar_month/tithi/00/01/adhika-mAsa-ArambhaH.toml)
+ <br/>- Tags: SpecialFestivals SpecialPeriodStart
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -49866,6 +50381,36 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अधिक-मासः
+DTSTART;VALUE=DATE:20221026
+DTEND;VALUE=DATE:20221124
+DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अधिक-मास-समापनम्
+DTSTART;VALUE=DATE:20221123
+DTEND;VALUE=DATE:20221124
+DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Sūryōd
+ ayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit config fi
+ le](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month
+ /tithi/00/30/adhika-mAsa-samApanam.toml)<br/>- Tags: SpecialFestivals Spec
+ ialPeriodEnd
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:भाग्य-नगरे मरून्मत्तोपप
  ्लवः १९७९ #४३
 DTSTART;VALUE=DATE:20221123
@@ -50127,6 +50672,24 @@ DESCRIPTION:- Indian civil date: 1944-09-03\, Islamic: 1444-04-29 Rabīʿ
  16-10:41  \n___________________\n- **शूलम्**—दक्षि
  णा (►13:59)\; **परिहारः**–तैलम्  \n_______
  ____________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अधिक-मास-आरम्भः
+DTSTART;VALUE=DATE:20221124
+DTEND;VALUE=DATE:20221125
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/00/01/adhika-mAsa-Aramb
+ haH.toml)<br/>- Tags: SpecialFestivals SpecialPeriodStart<br/><br/><br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/blob/master/general/lunar_month/tithi/00/01/adhika-mAsa-ArambhaH.toml)
+ <br/>- Tags: SpecialFestivals SpecialPeriodStart
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -54173,6 +54736,36 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अधिक-मासः
+DTSTART;VALUE=DATE:20221124
+DTEND;VALUE=DATE:20221224
+DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अधिक-मास-समापनम्
+DTSTART;VALUE=DATE:20221223
+DTEND;VALUE=DATE:20221224
+DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Sūryōd
+ ayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit config fi
+ le](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month
+ /tithi/00/30/adhika-mAsa-samApanam.toml)<br/>- Tags: SpecialFestivals Spec
+ ialPeriodEnd
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:बोधायन-कात्यायन-इष्टिः
 DTSTART;VALUE=DATE:20221223
 DTEND;VALUE=DATE:20221224
@@ -54410,6 +55003,24 @@ DESCRIPTION:- Indian civil date: 1944-10-03\, Islamic: 1444-05-30 Jumādā
  गुलिककालः**—06:42-08:06  \n___________________\n- **
  शूलम्**—प्राची (►09:41)\; **परिहार
  ः**–दधि  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अधिक-मास-आरम्भः
+DTSTART;VALUE=DATE:20221224
+DTEND;VALUE=DATE:20221225
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/00/01/adhika-mAsa-Aramb
+ haH.toml)<br/>- Tags: SpecialFestivals SpecialPeriodStart<br/><br/><br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/blob/master/general/lunar_month/tithi/00/01/adhika-mAsa-ArambhaH.toml)
+ <br/>- Tags: SpecialFestivals SpecialPeriodStart
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
