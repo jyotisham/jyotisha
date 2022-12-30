@@ -178,6 +178,7 @@ class RuleLookupAssigner(FestivalAssigner):
       # We require atleast 1 day history.
       return
 
+    # Get festivals relevant to the previous day and the current day.
     fest_dict = self._get_relevant_festivals(panchaangas=panchaangas[1:], anga_type=anga_type, month_type=month_type)
     ###########################
     # Iterate over relevant festivals

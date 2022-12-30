@@ -1,3 +1,8 @@
+"""
+Main function in this module is the :func:`decide` function.
+
+"""
+
 import logging
 
 from jyotisha.panchaanga.temporal import zodiac, get_2_day_interval_boundary_angas
@@ -17,9 +22,11 @@ class FestivalDecision(object):
     else:
       if fday == -1:
         boundary_angas = None
+        day_panchaanga = None
       else:
         boundary_angas = boundary_angas_list[fday]
-      return FestivalDecision(day_panchaanga=panchaangas[fday], boundary_angas=boundary_angas, fday=fday)
+        day_panchaanga = panchaangas[fday]
+      return FestivalDecision(day_panchaanga=day_panchaanga, boundary_angas=boundary_angas, fday=fday)
 
 
 def decide_paraviddha(p0, p1, target_anga, kaala):
@@ -149,6 +156,16 @@ def decide_vyaapti(p0, p1, target_anga, ayanaamsha_id, kaala):
 
 
 def decide(p0, p1, target_anga, kaala, priority, ayanaamsha_id):
+  """ Decide between p0 and p1 depending on the event parameters
+  
+  :param p0: 
+  :param p1: 
+  :param target_anga: 
+  :param kaala: 
+  :param priority: 
+  :param ayanaamsha_id: 
+  :return: FestivalDecision object.
+  """
   if priority == 'paraviddha':
     decision = decide_paraviddha(p0=p0, p1=p1, target_anga=target_anga, kaala=kaala)
   elif priority == 'puurvaviddha':
