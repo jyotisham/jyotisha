@@ -191,8 +191,7 @@ class RuleLookupAssigner(FestivalAssigner):
       decision = priority_decision.decide(p0=panchaangas[1], p1=panchaangas[2], target_anga=target_anga, kaala=kaala, ayanaamsha_id=self.ayanaamsha_id, priority=priority)
 
       if decision is not None:
-        fday = decision.fday + 1
-        p_fday = panchaangas[fday]
+        p_fday = decision.day_panchaanga
         assign_festival = self._should_assign_festival(p_fday=p_fday, fest_rule=fest_rule)
         if assign_festival:
           if len(self.festival_id_to_days[fest_id]) > 0:
@@ -205,7 +204,6 @@ class RuleLookupAssigner(FestivalAssigner):
               self.panchaanga.delete_festival_date(fest_id=fest_id, date=previous_fest_day)
           # TODO : Set intervals for preceeding_arunodaya differently?
 
-          assign_festival = True
           if fest_rule.timing.month_type == 'lunar_month' and p_fday.lunar_month_sunrise.index != fest_rule.timing.month_number:
             if fest_rule.timing.anga_number == 1:
               if adhika_maasa_handling in ('nija_only') and fest_rule.timing.month_number != 0:
