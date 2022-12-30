@@ -8,14 +8,14 @@ import methodtools
 import regex
 import toml
 from curation_utils import file_helper
+from indic_transliteration import sanscript
 from sanskrit_data import collection_helper
+from sanskrit_data.schema import common
 from timebudget import timebudget
-from copy import deepcopy, copy
 
 from jyotisha import custom_transliteration
 from jyotisha.panchaanga.temporal import names
-from sanskrit_data.schema import common
-from indic_transliteration import sanscript
+
 
 def transliterate_quoted_text(text, script):
   transliterated_text = text
@@ -98,6 +98,7 @@ class HinduCalendarEventTiming(common.JsonObject):
   }))
 
   def __init__(self, month_type, month_number, anga_type, anga_number, kaala, year_start, adhika_maasa_handling):
+    super().__init__()
     self.month_type = month_type
     self.month_number = month_number
     self.anga_type = anga_type
@@ -116,7 +117,10 @@ class HinduCalendarEventTiming(common.JsonObject):
     return "puurvaviddha" if self.priority is None else self.priority
 
   def get_adhika_maasa_handling(self):
-    return "nija_only" if self.adhika_maasa_handling is None else self.adhika_maasa_handling
+    if self.month_type == RulesRepo.LUNAR_MONTH_DIR:
+      return "nija_only" if self.adhika_maasa_handling is None else self.adhika_maasa_handling
+    else:
+      return None
     
   def get_month_name_en(self, script):
     return names.get_month_name_en(month_type=self.month_type, month_number=self.month_number, script=script)
@@ -175,6 +179,7 @@ class HinduCalendarEvent(common.JsonObject):
   }))
   
   def __init__(self, id):
+    super().__init__()
     self.id = id
     self.timing = None
     self.tags = None

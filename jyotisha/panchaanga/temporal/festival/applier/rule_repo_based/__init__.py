@@ -124,17 +124,9 @@ class RuleLookupAssigner(FestivalAssigner):
     fest_dict = rule_set.get_possibly_relevant_fests(month=month, angas=angas, month_type=month_type, anga_type_id=anga_type_id)
     return fest_dict
 
-  def _should_assign_festival(self, p_fday, fest_rule):
-    if p_fday.date in self.festival_id_to_days[fest_rule.id]:
-      # Already assigned (likely in the previous iteration).
-      return False
-
-    month_type = fest_rule.timing.month_type
-    priority = fest_rule.timing.get_priority()
-    adhika_maasa_handling = fest_rule.timing.get_adhika_maasa_handling()
-    fday_date = p_fday.get_date(month_type=month_type)
-
+  def _check_lunar_month_match(self, fday_date, fest_rule):
     month_match = False
+    adhika_maasa_handling = fest_rule.timing.get_adhika_maasa_handling()
     if adhika_maasa_handling == 'adhika_and_nija':
       if fday_date.month == fest_rule.timing.month_number - 0.5 or fday_date.month == fest_rule.timing.month_number or fest_rule.timing.month_number == 0:
         month_match = True
@@ -147,13 +139,27 @@ class RuleLookupAssigner(FestivalAssigner):
     elif adhika_maasa_handling == 'nija_only':
       if fday_date.month == fest_rule.timing.month_number or fest_rule.timing.month_number == 0:
         month_match = True
-    # if fday_date.month == fest_rule.timing.month_number or fest_rule.timing.month_number == 0:
-    #   month_match = True
+    return month_match
+
+  def _should_assign_festival(self, p_fday, fest_rule):
+    if p_fday.date in self.festival_id_to_days[fest_rule.id]:
+      # Already assigned (likely in the previous iteration).
+      return False
+
+    month_type = fest_rule.timing.month_type
+    priority = fest_rule.timing.get_priority()
+    fday_date = p_fday.get_date(month_type=month_type)
+
+    if month_type == RulesRepo.LUNAR_MONTH_DIR:
+      month_match = self._check_lunar_month_match(fday_date=fday_date, fest_rule=fest_rule)
+    else:
+      month_match = fday_date.month == fest_rule.timing.month_number or fest_rule.timing.month_number == 0
+
 
     if not month_match:
-      # This could legitimately happen in the case indicated in the below clause.
+      # This could legitimately happen in the case indicated in the below negated clause.
       if not (fday_date.day >= 30 and month_type == RulesRepo.LUNAR_MONTH_DIR):
-        # Example: Suppose festival is on tithi 27 of solar siderial month 10; last day of month 9 could have tithi 27, but not day 1 of month 10; though a much later day of month 10 has tithi 27.
+        # Example where False should be returned: Suppose festival is on tithi 27 of solar siderial month 10; last day of month 9 could have tithi 27, but not day 1 of month 10; though a much later day of month 10 has tithi 27.
         return False
 
     return priority not in ('puurvaviddha', 'vyaapti') or \
