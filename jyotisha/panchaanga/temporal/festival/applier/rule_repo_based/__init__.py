@@ -167,12 +167,6 @@ class RuleLookupAssigner(FestivalAssigner):
       target_anga = Anga.get_cached(index=fest_rule.timing.anga_number, anga_type_id=anga_type_str.upper())
       decision = priority_decision.decide(p0=panchaangas[1], p1=panchaangas[2], target_anga=target_anga, kaala=kaala, ayanaamsha_id=self.ayanaamsha_id, priority=priority)
 
-      if fest_id in ['vikramAditya-paTTAbhiSEkaH', 'dIpAvalI_or_lakSmI-kubEra-pUjA']:#, 'kEdAra-gaurI-vratam', 'zrIrAma-paTTAbhiSEkaH', 'vRSabha-pUjA', '64_yOginI-pUjA', 'adhika-mAsa-samApanam']:
-        # logging.debug(fest_id)
-        pass
-      if 'adhika' in fest_id:
-        logging.debug(fest_id)
-
       if decision is not None:
         fday = decision.fday + 1
         p_fday = panchaangas[fday]
