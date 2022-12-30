@@ -112,16 +112,18 @@ class RuleLookupAssigner(FestivalAssigner):
     rule_set = rules.RulesCollection.get_cached(repos_tuple=tuple(self.computation_system.festival_options.repos), julian_handling=self.computation_system.festival_options.julian_handling)
     anga_type_id = anga_type.name.lower()
     
-    anga_spans_2 = self.panchaanga.get_interval_anga_spans(date=panchaangas[1].date, anga_type=anga_type, interval_id="full_day")
 
     # Why do we consider angas from the previous days? Explanation below.
     # Consider festival "tiruccendUr mAcit tiruvizhA nir2aivu" occuring at sunrise on tithi 15 of sidereal solar month 11. In Chennai 2018, this tithi 15 occurs between sunrise of Mar 3 and sunrise of Mar 4.
     # In that case, during the round where we consider the pair of days Mar 3 and Mar 4, our decision functions identify this "skipped" tithi and correctly assign the festival - if asked to. For that, we consider angas from previous day as well so that matching festivals may be considered.
-    anga_spans_1 = self.panchaanga.get_interval_anga_spans(date=panchaangas[0].date, anga_type=anga_type, interval_id="full_day")
-    angas = set([span.anga for span in anga_spans_1  + anga_spans_2])
+    anga_spans = self.panchaanga.get_interval_anga_spans(date=panchaangas[0].date, anga_type=anga_type, interval_id="full_day")
     month = panchaangas[1].get_date(month_type=month_type).month
+    fest_dict = rule_set.get_possibly_relevant_fests(month=month, angas=[span.anga for span in anga_spans], month_type=month_type, anga_type_id=anga_type_id)
 
-    fest_dict = rule_set.get_possibly_relevant_fests(month=month, angas=angas, month_type=month_type, anga_type_id=anga_type_id)
+    anga_spans = self.panchaanga.get_interval_anga_spans(date=panchaangas[1].date, anga_type=anga_type, interval_id="full_day")
+    month = panchaangas[1].get_date(month_type=month_type).month
+    fest_dict.update(rule_set.get_possibly_relevant_fests(month=month, angas=[span.anga for span in anga_spans], month_type=month_type, anga_type_id=anga_type_id))
+    # Note: The successive days may be in different months! Hence the two calls above.
     return fest_dict
 
   def _check_lunar_month_match(self, fday_date, fest_rule):
@@ -139,6 +141,7 @@ class RuleLookupAssigner(FestivalAssigner):
     elif adhika_maasa_handling == 'nija_only':
       if fday_date.month == fest_rule.timing.month_number or fest_rule.timing.month_number == 0:
         month_match = True
+
     return month_match
 
   def _should_assign_festival(self, p_fday, fest_rule):
@@ -206,48 +209,9 @@ class RuleLookupAssigner(FestivalAssigner):
             # Regarding the fest_rule.timing.month_number != 0 below:
             # This is required so as to avoid omissions as in the following case: sthAlIpAka_1 (which occurs every lunar month on tithi 1 at pUrvaviddha pUrvAhNa) occurs within the same "sunrise lunar month" but on different "pUrvAhNa lunar months" on 2019-07-03 and 2019-08-01.
             # Plus, a gap of not much more than 1 month is desirable for monthly festivals even otherwise - https://github.com/jyotisham/jyotisha/issues/54#issuecomment-735355325 . 
-            if fest_rule.timing.month_number != 0 and p_fday.date - previous_fest_day <= 31 and p_previous_fday.get_date(month_type=month_type).month == month:
+            if fest_rule.timing.month_number != 0 and p_fday.date - previous_fest_day <= 32 and p_previous_fday.get_date(month_type=month_type).month == month:
               self.panchaanga.delete_festival_date(fest_id=fest_id, date=previous_fest_day)
           # TODO : Set intervals for preceeding_arunodaya differently?
 
-          if fest_rule.timing.month_type == 'lunar_month' and p_fday.lunar_month_sunrise.index != fest_rule.timing.month_number:
-            if fest_rule.timing.anga_number == 1:
-              if adhika_maasa_handling in ('nija_only') and fest_rule.timing.month_number != 0:
-                if p_fday.sunrise_day_angas.tithis_with_ends[0].jd_end < max(p_fday.jd_sunset, p_fday.get_interval(interval_id=fest_rule.timing.get_kaala()).jd_end):
-                  logging.warning('Ignoring assignment of %s on %s despite lunar month mismatch at sunrise (%.1f!=%.1f)' %
-                                (fest_id, p_fday.date.get_date_str(), p_fday.lunar_month_sunrise.index,
-                                 fest_rule.timing.month_number))
-                  assign_festival = True
-                else:
-                  logging.warning('Forcing non-assignment of %s on %s as there is a lunar month mismatch (%.1f!=%.1f)' %
-                                  (fest_id, p_fday.date.get_date_str(), p_fday.lunar_month_sunrise.index,
-                                   fest_rule.timing.month_number))
-                  assign_festival = False
-              elif adhika_maasa_handling == 'adhika_only':
-                if (int(p_fday.lunar_month_sunrise.index) != p_fday.lunar_month_sunrise.index):
-                  logging.warning('*Permitting assignment of %s on %s ignoring the lunar month "mismatch" (%.1f!=%.1f)' %
-                                  (fest_id, p_fday.date.get_date_str(), p_fday.lunar_month_sunrise.index,
-                                   fest_rule.timing.month_number))
-                  assign_festival = True
-                # elif p_fday.sunrise_day_angas.tithis_with_ends[0].jd_end < p_fday.get_interval(interval_id=fest_rule.timing.get_kaala()).jd_end:
-            #
-            if fest_rule.timing.anga_number == 30:
-              if adhika_maasa_handling in ('nija_only') and fest_rule.timing.month_number != 0:
-                logging.warning('Forcing non-assignment of %s on %s as there is a lunar month mismatch (%.1f!=%.1f)' %
-                              (fest_id, p_fday.date.get_date_str(), p_fday.lunar_month_sunrise.index, fest_rule.timing.month_number))
-                assign_festival = False
-              elif adhika_maasa_handling == 'adhika_only':
-                if (int(p_fday.lunar_month_sunrise.index) != p_fday.lunar_month_sunrise.index):
-                  assign_festival = True
-                  logging.warning('Permitting assignment of %s on %s ignoring the lunar month "mismatch" (%.1f!=%.1f)' %
-                                (fest_id, p_fday.date.get_date_str(), p_fday.lunar_month_sunrise.index,
-                                 fest_rule.timing.month_number))
-                else:
-                  logging.warning('Forcing non-assignment of %s on %s as there is a lunar month mismatch (%.1f!=%.1f)' %
-                                (fest_id, p_fday.date.get_date_str(), p_fday.lunar_month_sunrise.index,
-                                 fest_rule.timing.month_number))
-                  assign_festival = False
-
-          if assign_festival:
-            self.panchaanga.add_festival(fest_id=fest_id, date=p_fday.date)
+          self.panchaanga.add_festival(fest_id=fest_id, date=p_fday.date)
 

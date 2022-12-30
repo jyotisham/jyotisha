@@ -97,18 +97,21 @@ class HinduCalendarEventTiming(common.JsonObject):
     }
   }))
 
-  def __init__(self, month_type, month_number, anga_type, anga_number, kaala, year_start, adhika_maasa_handling):
-    super().__init__()
-    self.month_type = month_type
-    self.month_number = month_number
-    self.anga_type = anga_type
-    self.anga_number = anga_number
-    self.kaala = kaala
-    self.year_start = year_start
-    self.adhika_maasa_handling = adhika_maasa_handling
-    self.anchor_festival_id = None
-    self.offset = None
-    self.julian_handling = None
+  def from_details(cls, month_type, month_number, anga_type, anga_number, kaala, year_start, adhika_maasa_handling):
+    # This is not a constructor so as to not jinx (de)serialization.
+    timing = HinduCalendarEventTiming()
+    timing.month_type = month_type
+    timing.month_number = month_number
+    timing.anga_type = anga_type
+    timing.anga_number = anga_number
+    timing.kaala = kaala
+    timing.year_start = year_start
+    timing.adhika_maasa_handling = adhika_maasa_handling
+    timing.anchor_festival_id = None
+    timing.offset = None
+    timing.julian_handling = None
+    timing.validate_schema()
+    return timing
 
   def get_kaala(self):
     return "सूर्योदयः" if self.kaala is None else self.kaala
@@ -299,18 +302,6 @@ def get_festival_rules_map(dir_path, julian_handling, repo=None):
     event.repo = repo
     event.to_gregorian(julian_handling=julian_handling)
     festival_rules[event.id] = event
-    # Contemplated creating additional events for adhika_maaasa here:
-    # adhika_maasa_handling = event.timing.get_adhika_maasa_handling()
-    # if adhika_maasa_handling == 'adhika_and_nija':
-    #   # add festival for adhika
-    #   event_adhika = deepcopy(event)
-    #   event_adhika.timing.month_number -= 0.5
-    # elif adhika_maasa_handling == 'adhika_only':
-    #   event.timing.month_number -=0.5
-    # elif adhika_maasa_handling == 'adhika_if_exists':
-    #   # check if adhika_masa exists, and add festival
-    # elif adhika_maasa_handling == 'nija_only':
-    #   festival_rules[event.id] = event
   return festival_rules
 
 
@@ -404,7 +395,7 @@ class RulesCollection(common.JsonObject):
     self.tree = collection_helper.tree_maker(leaves=self.name_to_rule.values(), path_fn=lambda x: x.get_storage_file_name(base_dir="", undo_conversions=False).replace(".toml", ""))
 
   def get_month_anga_fests(self, month_type, month, anga_type_id, anga):
-    if int(month) != month:
+    if int(month) != month and month != 0:
       # Deal with adhika mAsas
       month_str = "%02d.5" % month
     else:
@@ -423,58 +414,55 @@ class RulesCollection(common.JsonObject):
       return {}
 
   def get_possibly_relevant_fests(self, month_type, month, anga_type_id, angas):
+    def _get_month(anga):
+      if isinstance(anga, Tithi):
+        return anga.month.index
+      else:
+        return month
+      
     fest_dict = {}
     for anga in angas:
       from jyotisha.panchaanga.temporal.zodiac.angas import Tithi
-      if isinstance(anga, Tithi) and month_type == RulesRepo.LUNAR_MONTH_DIR:
-        month = anga.month.index
-      months_list = [month, 0]
-      if month == int(month):
-        # Add the adhika masa also
-        months_list.append(month - 0.5)
+      if month_type == RulesRepo.LUNAR_MONTH_DIR:
+        m = _get_month(anga)
+        months_list = [m, 0]
+        is_adhika = int(m) != m
+
+        if not is_adhika:
+          # Add the adhika masa also
+          months_list.append(m - 0.5)
+        else:
+          # Add the nija masa also
+          months_list.append(m + 0.5)
       else:
-        # Add the nija masa also
-        months_list.append(month + 0.5)
+        months_list = [month, 0]
+
       for m in months_list:
         new_fests = self.get_month_anga_fests(month_type=month_type, month=m, anga_type_id=anga_type_id, anga=anga)
-        if new_fests:
-          fest_dict.update(new_fests)
-    # adhika_fests = {}
-    del_fests = [] #adhika fests to be deleted in nija masas, and nija festivals to be deleted in adhika masas!
+        if month_type == RulesRepo.LUNAR_MONTH_DIR:
+          if m == 0:
+            _filter_by_adhikamaasa_relevance(month=month, fest_dict=new_fests)
+          else:
+            m = _get_month(anga=anga)
+            _filter_by_adhikamaasa_relevance(month=m, fest_dict=new_fests)
+        fest_dict.update(new_fests)
 
-    for fest in fest_dict:
-      adhika_maasa_handling = fest_dict[fest].timing.get_adhika_maasa_handling()
-    #   if adhika_maasa_handling == 'adhika_and_nija' and fest_dict[fest].timing.month_number != 0:
-    #     # add festival for adhika
-    #     logging.debug(fest)
-    #     fest_adhika = deepcopy(fest_dict[fest])
-    #     fest_adhika.timing.month_number -= 0.5
-    #     adhika_fests.update({fest: fest_adhika})
-      if adhika_maasa_handling == 'adhika_only':
-        if fest_dict[fest].timing.month_number == 0:
-          # Insert an adhika festival for the current month - the adhika month itself may or may not exist
-          fest_dict[fest].timing.month_number = month - 0.5
-        else:
-          fest_dict[fest].timing.month_number -=0.5
-        if month == int(month):
-          del_fests.append(fest)
-    #   elif adhika_maasa_handling == 'adhika_if_exists':
-    #     # check if adhika_masa exists, and add festival
-    #     pass
-    #   elif adhika_maasa_handling == 'nija_only':
-    #     if month != int(month) and fest_dict[fest].timing.month_number != 0: # adhika masa (except when any month goes)
-    #       # logging.debug((fest, adhika_maasa_handling, month, fest_dict[fest].timing.month_number))
-    #       del_fests.append(fest)
-    #
-    if del_fests:
-      for fest in del_fests:
-        del fest_dict[fest]
-    # #
-    # if adhika_fests:
-    #   logging.debug(adhika_fests.keys())
-    # #   fest_dict.update(adhika_fests)
 
     return fest_dict
+  
+
+def _filter_by_adhikamaasa_relevance(month, fest_dict):
+  del_fests = []  # adhika fests to be deleted in nija masas, and nija festivals to be deleted in adhika masas!
+  is_adhika = int(month) != month
+  for fest in fest_dict:
+    adhika_maasa_handling = fest_dict[fest].timing.get_adhika_maasa_handling()
+    if adhika_maasa_handling == 'adhika_only' and not is_adhika:
+      del_fests.append(fest)
+    elif adhika_maasa_handling == 'nija_only' and is_adhika:
+      del_fests.append(fest)
+  for fest in del_fests:
+    del fest_dict[fest]
+
 
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])
