@@ -116,14 +116,29 @@ class RuleLookupAssigner(FestivalAssigner):
 
     month_type = fest_rule.timing.month_type
     priority = fest_rule.timing.get_priority()
+    adhika_maasa_handling = fest_rule.timing.get_adhika_maasa_handling()
     fday_date = p_fday.get_date(month_type=month_type)
-    month_mismatch = fday_date.month != fest_rule.timing.month_number
-    if fest_rule.timing.adhika_maasa_handling == 'adhika_and_nija' and fday_date.month == fest_rule.timing.month_number - 0.5:
-      month_mismatch = False
-    if month_mismatch and fest_rule.timing.month_number != 0:
+
+    month_match = False
+    if adhika_maasa_handling == 'adhika_and_nija':
+      if fday_date.month == fest_rule.timing.month_number - 0.5 or fday_date.month == fest_rule.timing.month_number or fest_rule.timing.month_number == 0:
+        month_match = True
+    elif adhika_maasa_handling == 'adhika_only':
+      if int(fday_date.month) != fday_date.month and (fday_date.month == fest_rule.timing.month_number or fest_rule.timing.month_number == 0):
+        month_match = True
+    elif adhika_maasa_handling == 'adhika_if_exists':
+      if fday_date.month == fest_rule.timing.month_number - 0.5 and len(self.festival_id_to_days[fest_rule.id]) == 0:
+        month_match = True
+    elif adhika_maasa_handling == 'nija_only':
+      if fday_date.month == fest_rule.timing.month_number or fest_rule.timing.month_number == 0:
+        month_match = True
+    # if fday_date.month == fest_rule.timing.month_number or fest_rule.timing.month_number == 0:
+    #   month_match = True
+
+    if not month_match:
       # This could legitimately happen in the case indicated in the below clause.
       if not (fday_date.day >= 30 and month_type == RulesRepo.LUNAR_MONTH_DIR):
-        # Example: Suppose festival is on tithi 27 of solar siderial month 10; last day of month 9 could have tithi 27, but not day 1 of month 10; though a much later day of month 10 has tithi 27. 
+        # Example: Suppose festival is on tithi 27 of solar siderial month 10; last day of month 9 could have tithi 27, but not day 1 of month 10; though a much later day of month 10 has tithi 27.
         return False
 
     return priority not in ('puurvaviddha', 'vyaapti') or \
@@ -152,6 +167,12 @@ class RuleLookupAssigner(FestivalAssigner):
       target_anga = Anga.get_cached(index=fest_rule.timing.anga_number, anga_type_id=anga_type_str.upper())
       decision = priority_decision.decide(p0=panchaangas[1], p1=panchaangas[2], target_anga=target_anga, kaala=kaala, ayanaamsha_id=self.ayanaamsha_id, priority=priority)
 
+      if fest_id in ['vikramAditya-paTTAbhiSEkaH', 'dIpAvalI_or_lakSmI-kubEra-pUjA']:#, 'kEdAra-gaurI-vratam', 'zrIrAma-paTTAbhiSEkaH', 'vRSabha-pUjA', '64_yOginI-pUjA', 'adhika-mAsa-samApanam']:
+        # logging.debug(fest_id)
+        pass
+      if 'adhika' in fest_id:
+        logging.debug(fest_id)
+
       if decision is not None:
         fday = decision.fday + 1
         p_fday = panchaangas[fday]
@@ -165,6 +186,47 @@ class RuleLookupAssigner(FestivalAssigner):
             # Plus, a gap of not much more than 1 month is desirable for monthly festivals even otherwise - https://github.com/jyotisham/jyotisha/issues/54#issuecomment-735355325 . 
             if fest_rule.timing.month_number != 0 and p_fday.date - previous_fest_day <= 31 and p_previous_fday.get_date(month_type=month_type).month == month:
               self.panchaanga.delete_festival_date(fest_id=fest_id, date=previous_fest_day)
-          # TODO : Set intervals for preceeding_arunodaya differently? 
-          self.panchaanga.add_festival(fest_id=fest_id, date=p_fday.date)
+          # TODO : Set intervals for preceeding_arunodaya differently?
+
+          assign_festival = True
+          if fest_rule.timing.month_type == 'lunar_month' and p_fday.lunar_month_sunrise.index != fest_rule.timing.month_number:
+            if fest_rule.timing.anga_number == 1:
+              if adhika_maasa_handling in ('nija_only') and fest_rule.timing.month_number != 0:
+                if p_fday.sunrise_day_angas.tithis_with_ends[0].jd_end < max(p_fday.jd_sunset, p_fday.get_interval(interval_id=fest_rule.timing.get_kaala()).jd_end):
+                  logging.warning('Ignoring assignment of %s on %s despite lunar month mismatch at sunrise (%.1f!=%.1f)' %
+                                (fest_id, p_fday.date.get_date_str(), p_fday.lunar_month_sunrise.index,
+                                 fest_rule.timing.month_number))
+                  assign_festival = True
+                else:
+                  logging.warning('Forcing non-assignment of %s on %s as there is a lunar month mismatch (%.1f!=%.1f)' %
+                                  (fest_id, p_fday.date.get_date_str(), p_fday.lunar_month_sunrise.index,
+                                   fest_rule.timing.month_number))
+                  assign_festival = False
+              elif adhika_maasa_handling == 'adhika_only':
+                if (int(p_fday.lunar_month_sunrise.index) != p_fday.lunar_month_sunrise.index):
+                  logging.warning('*Permitting assignment of %s on %s ignoring the lunar month "mismatch" (%.1f!=%.1f)' %
+                                  (fest_id, p_fday.date.get_date_str(), p_fday.lunar_month_sunrise.index,
+                                   fest_rule.timing.month_number))
+                  assign_festival = True
+                # elif p_fday.sunrise_day_angas.tithis_with_ends[0].jd_end < p_fday.get_interval(interval_id=fest_rule.timing.get_kaala()).jd_end:
+            #
+            if fest_rule.timing.anga_number == 30:
+              if adhika_maasa_handling in ('nija_only') and fest_rule.timing.month_number != 0:
+                logging.warning('Forcing non-assignment of %s on %s as there is a lunar month mismatch (%.1f!=%.1f)' %
+                              (fest_id, p_fday.date.get_date_str(), p_fday.lunar_month_sunrise.index, fest_rule.timing.month_number))
+                assign_festival = False
+              elif adhika_maasa_handling == 'adhika_only':
+                if (int(p_fday.lunar_month_sunrise.index) != p_fday.lunar_month_sunrise.index):
+                  assign_festival = True
+                  logging.warning('Permitting assignment of %s on %s ignoring the lunar month "mismatch" (%.1f!=%.1f)' %
+                                (fest_id, p_fday.date.get_date_str(), p_fday.lunar_month_sunrise.index,
+                                 fest_rule.timing.month_number))
+                else:
+                  logging.warning('Forcing non-assignment of %s on %s as there is a lunar month mismatch (%.1f!=%.1f)' %
+                                (fest_id, p_fday.date.get_date_str(), p_fday.lunar_month_sunrise.index,
+                                 fest_rule.timing.month_number))
+                  assign_festival = False
+
+          if assign_festival:
+            self.panchaanga.add_festival(fest_id=fest_id, date=p_fday.date)
 

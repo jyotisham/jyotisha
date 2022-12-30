@@ -10,6 +10,7 @@ import toml
 from curation_utils import file_helper
 from sanskrit_data import collection_helper
 from timebudget import timebudget
+from copy import deepcopy, copy
 
 from jyotisha import custom_transliteration
 from jyotisha.panchaanga.temporal import names
@@ -293,6 +294,18 @@ def get_festival_rules_map(dir_path, julian_handling, repo=None):
     event.repo = repo
     event.to_gregorian(julian_handling=julian_handling)
     festival_rules[event.id] = event
+    # Contemplated creating additional events for adhika_maaasa here:
+    # adhika_maasa_handling = event.timing.get_adhika_maasa_handling()
+    # if adhika_maasa_handling == 'adhika_and_nija':
+    #   # add festival for adhika
+    #   event_adhika = deepcopy(event)
+    #   event_adhika.timing.month_number -= 0.5
+    # elif adhika_maasa_handling == 'adhika_only':
+    #   event.timing.month_number -=0.5
+    # elif adhika_maasa_handling == 'adhika_if_exists':
+    #   # check if adhika_masa exists, and add festival
+    # elif adhika_maasa_handling == 'nija_only':
+    #   festival_rules[event.id] = event
   return festival_rules
 
 
@@ -418,9 +431,45 @@ class RulesCollection(common.JsonObject):
         # Add the nija masa also
         months_list.append(month + 0.5)
       for m in months_list:
-        fest_dict.update(self.get_month_anga_fests(month_type=month_type, month=m, anga_type_id=anga_type_id, anga=anga))
-    return fest_dict
+        new_fests = self.get_month_anga_fests(month_type=month_type, month=m, anga_type_id=anga_type_id, anga=anga)
+        if new_fests:
+          fest_dict.update(new_fests)
+    # adhika_fests = {}
+    del_fests = [] #adhika fests to be deleted in nija masas, and nija festivals to be deleted in adhika masas!
 
+    for fest in fest_dict:
+      adhika_maasa_handling = fest_dict[fest].timing.get_adhika_maasa_handling()
+    #   if adhika_maasa_handling == 'adhika_and_nija' and fest_dict[fest].timing.month_number != 0:
+    #     # add festival for adhika
+    #     logging.debug(fest)
+    #     fest_adhika = deepcopy(fest_dict[fest])
+    #     fest_adhika.timing.month_number -= 0.5
+    #     adhika_fests.update({fest: fest_adhika})
+      if adhika_maasa_handling == 'adhika_only':
+        if fest_dict[fest].timing.month_number == 0:
+          # Insert an adhika festival for the current month - the adhika month itself may or may not exist
+          fest_dict[fest].timing.month_number = month - 0.5
+        else:
+          fest_dict[fest].timing.month_number -=0.5
+        if month == int(month):
+          del_fests.append(fest)
+    #   elif adhika_maasa_handling == 'adhika_if_exists':
+    #     # check if adhika_masa exists, and add festival
+    #     pass
+    #   elif adhika_maasa_handling == 'nija_only':
+    #     if month != int(month) and fest_dict[fest].timing.month_number != 0: # adhika masa (except when any month goes)
+    #       # logging.debug((fest, adhika_maasa_handling, month, fest_dict[fest].timing.month_number))
+    #       del_fests.append(fest)
+    #
+    if del_fests:
+      for fest in del_fests:
+        del fest_dict[fest]
+    # #
+    # if adhika_fests:
+    #   logging.debug(adhika_fests.keys())
+    # #   fest_dict.update(adhika_fests)
+
+    return fest_dict
 
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])
