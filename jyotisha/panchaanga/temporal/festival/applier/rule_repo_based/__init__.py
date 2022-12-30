@@ -3,7 +3,6 @@ import logging
 from timebudget import timebudget
 
 from jyotisha.panchaanga.temporal import Anga, AngaType
-from jyotisha.panchaanga.temporal.festival import FestivalInstance
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
 from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
 
@@ -94,11 +93,11 @@ class RuleLookupAssigner(FestivalAssigner):
     fest_dict = rule_set.get_possibly_relevant_fests(month=date.month, angas=days, month_type=month_type, anga_type_id=rules.RulesRepo.DAY_DIR)
     for fest_id, fest in fest_dict.items():
       if month_type in [RulesRepo.GREGORIAN_MONTH_DIR, RulesRepo.JULIAN_MONTH_DIR]:
-        interval = day_panchaanga.get_interval(interval_id="julian_day")
+        self.panchaanga.add_festival(date=day_panchaanga.date, fest_id=fest_id, interval_id="julian_day")
       else:
         # TODO : Set intervals for preceding_arunodaya differently? 
-        interval = day_panchaanga.get_interval(interval_id="full_day")
-      self.panchaanga.add_festival_instance(date=day_panchaanga.date, festival_instance=FestivalInstance(name=fest_id, interval=interval))
+        self.panchaanga.add_festival(date=day_panchaanga.date, fest_id=fest_id, interval_id="full_day")
+
 
   @timebudget
   def _get_relevant_festivals(self, anga_type, month_type, panchaangas):
