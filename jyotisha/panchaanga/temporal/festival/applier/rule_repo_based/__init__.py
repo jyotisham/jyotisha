@@ -10,8 +10,10 @@ from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
 
 class RuleLookupAssigner(FestivalAssigner):
   def assign_relative_festivals(self):
-    # Add "RELATIVE" festival_id_to_instance --- festival_id_to_instance that happen before or
-    # after other festival_id_to_instance with an exact timedelta!
+    """ Add "RELATIVE" festival_id_to_instance --- festival_id_to_instance that happen before or after another festival with an exact timedelta! Example: 1 day after makara sankrAnti.
+    
+    :return: 
+    """
     if 'yajurvEda-upAkarma' not in self.panchaanga.festival_id_to_days:
       logging.error('yajurvEda-upAkarma not in festival_id_to_instance!')
     elif 'varalakSmI-vratam' in self.rules_collection.name_to_rule:
@@ -21,32 +23,40 @@ class RuleLookupAssigner(FestivalAssigner):
 
     name_to_rule = self.rules_collection.name_to_rule
 
+    # Iterate over relative events.
     for festival_name in name_to_rule:
+      # Skip over non-relative events.
       if name_to_rule[festival_name].timing is None or name_to_rule[festival_name].timing.offset is None:
         continue
+
       offset = int(name_to_rule[festival_name].timing.offset)
-      rel_festival_name = name_to_rule[festival_name].timing.anchor_festival_id
-      if rel_festival_name not in self.panchaanga.festival_id_to_days:
-        # Check approx. match
+      anchor_festival_id = name_to_rule[festival_name].timing.anchor_festival_id
+      
+      if anchor_festival_id not in self.panchaanga.festival_id_to_days:
+        # Sometimes, the recorded anchor_festival_id is not exact (Eg. navama-aparapakSa-samApanam 0 days from sarva-kArttika-amAvAsyA). So, we find an approx. match (Eg. kArttika\-amAvAsyA).
         matched_festivals = []
-        if 'amAvAsyA' in rel_festival_name: # Handle amAvAsyAs a bit differently
-          rel_festival_name = rel_festival_name.strip('sarva-')
+        if 'amAvAsyA' in anchor_festival_id:
+          anchor_festival_id = anchor_festival_id.strip('sarva-')
+        
+        # Generally, we find a matching event by looking for superstring ids.
         for fest_key in self.panchaanga.festival_id_to_days:
-          if rel_festival_name in fest_key:
-            if 'amAvAsyA' in rel_festival_name: # Handle amAvAsyAs a bit differently
-              if 'bOdhAyana' not in rel_festival_name and 'bOdhAyana' in fest_key:
+          if anchor_festival_id in fest_key:
+            # Match bOdhAyana festivals with bOdhAyana anchor ids only.
+            if 'amAvAsyA' in anchor_festival_id:
+              if 'bOdhAyana' not in anchor_festival_id and 'bOdhAyana' in fest_key:
                 continue
             matched_festivals += [fest_key]
+
         if matched_festivals == []:
-          logging.error('Relative festival %s not in festival_id_to_days!' % rel_festival_name)
+          logging.error('Relative festival %s not in festival_id_to_days!' % anchor_festival_id)
         elif len(matched_festivals) > 1:
           logging.error('Relative festival %s not in festival_id_to_days! Found more than one approximate match: %s' % (
-            rel_festival_name, str(matched_festivals)))
+            anchor_festival_id, str(matched_festivals)))
         else:
           for x in self.panchaanga.festival_id_to_days[matched_festivals[0]]:
             self.panchaanga.add_festival(fest_id=festival_name, date=x + offset)
       else:
-        for x in self.panchaanga.festival_id_to_days[rel_festival_name]:
+        for x in self.panchaanga.festival_id_to_days[anchor_festival_id]:
           self.panchaanga.add_festival(fest_id=festival_name, date=x + offset)
 
   def apply_festival_from_rules_repos(self):
@@ -62,6 +72,12 @@ class RuleLookupAssigner(FestivalAssigner):
       self.apply_month_anga_events(day_panchaanga=dp, month_type=RulesRepo.LUNAR_MONTH_DIR, anga_type=AngaType.YOGA)
 
   def apply_month_day_events(self, day_panchaanga, month_type):
+    """Apply events set to take place on a given (ordinal) day of a given month. Eg. Jan 1 as per Julian calendar, Aug 15 as per Gregorian calendar, 1st day of sidereal solar month 6. See calls from apply_festival_from_rules_repos().
+    
+    :param day_panchaanga: 
+    :param month_type: 
+    :return: 
+    """
     from jyotisha.panchaanga.temporal.festival import rules
     rule_set = rules.RulesCollection.get_cached(repos_tuple=tuple(self.computation_system.festival_options.repos), julian_handling=self.computation_system.festival_options.julian_handling)
 
@@ -147,6 +163,13 @@ class RuleLookupAssigner(FestivalAssigner):
 
   @timebudget
   def apply_month_anga_events(self, day_panchaanga, anga_type, month_type):
+    """ Apply events set to take place on when an anga (tithi, naxatra, yoga ..) occurs within a given month. Eg. Chaitra shukla 1, rohiNI of taiShya. See calls from apply_festival_from_rules_repos().
+    
+    :param day_panchaanga: 
+    :param anga_type: 
+    :param month_type: 
+    :return: 
+    """
     from jyotisha.panchaanga.temporal.festival import priority_decision
     date = day_panchaanga.date
     month = day_panchaanga.get_date(month_type=month_type).month
