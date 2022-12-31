@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20221231073620
+SEQUENCE:20221231190332
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -206,22 +206,6 @@ DESCRIPTION:- Indian civil date: 1943-10-13\, Islamic: 1443-05-29 Jumādā
  ककालः**—13:48-15:12  \n___________________\n- **शूलम
  ्**—प्राची (►09:46)\; **परिहारः**–दध
  ि  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:दर्शेष्टिः
-DTSTART;VALUE=DATE:20220103
-DTEND;VALUE=DATE:20220104
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
- /lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1251,23 +1235,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पूर्णमासेष्टिः
-DTSTART;VALUE=DATE:20220118
-DTEND;VALUE=DATE:20220119
-DESCRIPTION:Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
- t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
- neral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFest
- ivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20220118
 DTEND;VALUE=DATE:20220119
@@ -2162,22 +2129,6 @@ DESCRIPTION:- Indian civil date: 1943-11-12\, Islamic: 1443-06-28 Jumādā
  गुलिककालः**—12:33-13:59  \n___________________\n- **
  शूलम्**—उदीची (►11:24)\; **परिहारः**
  –क्षीरम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:दर्शेष्टिः
-DTSTART;VALUE=DATE:20220201
-DTEND;VALUE=DATE:20220202
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
- /lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3326,23 +3277,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पूर्णमासेष्टिः
-DTSTART;VALUE=DATE:20220217
-DTEND;VALUE=DATE:20220218
-DESCRIPTION:Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
- t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
- neral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFest
- ivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20220217
 DTEND;VALUE=DATE:20220218
@@ -4301,22 +4235,6 @@ DESCRIPTION:- Indian civil date: 1943-12-12\, Islamic: 1443-07-29 Rajab\,
  06\; **गुलिककालः**—09:34-11:03  \n___________________\
  n- **शूलम्**—दक्षिणा (►14:29)\; **परिह
  ारः**–तैलम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:दर्शेष्टिः
-DTSTART;VALUE=DATE:20220303
-DTEND;VALUE=DATE:20220304
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
- /lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5502,23 +5420,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पूर्णमासेष्टिः
-DTSTART;VALUE=DATE:20220319
-DTEND;VALUE=DATE:20220320
-DESCRIPTION:Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
- t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
- neral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFest
- ivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20220319
 DTEND;VALUE=DATE:20220320
@@ -6420,22 +6321,6 @@ DESCRIPTION:- Indian civil date: 1944-01-11\, Islamic: 1443-08-28 Shaʿbā
  **—07:50-09:21  \n___________________\n- **शूलम्**—प्र
  तीची (►11:10)\; **परिहारः**–गुडम्  \n_
  __________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:दर्शेष्टिः
-DTSTART;VALUE=DATE:20220401
-DTEND;VALUE=DATE:20220402
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
- /lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7568,23 +7453,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पूर्णमासेष्टिः
-DTSTART;VALUE=DATE:20220417
-DTEND;VALUE=DATE:20220418
-DESCRIPTION:Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
- t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
- neral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFest
- ivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20220417
 DTEND;VALUE=DATE:20220418
@@ -8469,22 +8337,6 @@ DESCRIPTION:- Indian civil date: 1944-02-11\, Islamic: 1443-09-29 Ramaḍ
  टः**—12:16-13:50\; **गुलिककालः**—15:24-16:57  \n
  ___________________\n- **शूलम्**—प्रतीची (►11:
  02)\; **परिहारः**–गुडम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:दर्शेष्टिः
-DTSTART;VALUE=DATE:20220501
-DTEND;VALUE=DATE:20220502
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
- /lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9487,23 +9339,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पूर्णमासेष्टिः
-DTSTART;VALUE=DATE:20220516
-DTEND;VALUE=DATE:20220517
-DESCRIPTION:Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
- t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
- neral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFest
- ivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20220516
 DTEND;VALUE=DATE:20220517
@@ -10452,22 +10287,6 @@ DESCRIPTION:- Indian civil date: 1944-03-10\, Islamic: 1443-10-29 Shawwāl
  42\; **गुलिककालः**—12:17-13:52  \n___________________\
  n- **शूलम्**—उदीची (►11:01)\; **परिहार
  ः**–क्षीरम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:दर्शेष्टिः
-DTSTART;VALUE=DATE:20220531
-DTEND;VALUE=DATE:20220601
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
- /lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11579,23 +11398,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पूर्णमासेष्टिः
-DTSTART;VALUE=DATE:20220615
-DTEND;VALUE=DATE:20220616
-DESCRIPTION:Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
- t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
- neral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFest
- ivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:सायन-वैधृतिः
 DTSTART;TZID=Asia/Calcutta:20220615T000000
 DTEND;TZID=Asia/Calcutta:20220615T125212
@@ -12539,22 +12341,6 @@ DESCRIPTION:- Indian civil date: 1944-04-08\, Islamic: 1443-11-29 Ḏū al
  —10:47-12:23  \n___________________\n- **शूलम्**—उदी
  ची (►12:48)\; **परिहारः**–क्षीरम्  \n_
  __________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:दर्शेष्टिः
-DTSTART;VALUE=DATE:20220629
-DTEND;VALUE=DATE:20220630
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
- /lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13578,23 +13364,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पूर्णमासेष्टिः
-DTSTART;VALUE=DATE:20220714
-DTEND;VALUE=DATE:20220715
-DESCRIPTION:Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
- t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
- neral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFest
- ivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20220714
 DTEND;VALUE=DATE:20220715
@@ -14564,22 +14333,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:दर्शेष्टिः
-DTSTART;VALUE=DATE:20220729
-DTEND;VALUE=DATE:20220730
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
- /lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:पार्वण-प्रायश्चित्तावक
  ाशः पौर्णमास्याम्
 DTSTART;VALUE=DATE:20220729
@@ -15519,23 +15272,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पूर्णमासेष्टिः
-DTSTART;VALUE=DATE:20220812
-DTEND;VALUE=DATE:20220813
-DESCRIPTION:Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
- t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
- neral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFest
- ivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20220812
 DTEND;VALUE=DATE:20220813
@@ -16463,19 +16199,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:बोधायन-कात्यायन-इष्टिः
-DTSTART;VALUE=DATE:20220827
-DTEND;VALUE=DATE:20220828
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:पार्वणव्रतम् अमावास्या
  याम्
 DTSTART;VALUE=DATE:20220827
@@ -16545,22 +16268,6 @@ DESCRIPTION:- Indian civil date: 1944-06-06\, Islamic: 1444-01-30 Al-Muḥ
  टः**—12:20-13:53\; **गुलिककालः**—15:25-16:57  \n
  ___________________\n- **शूलम्**—प्रतीची (►11:
  07)\; **परिहारः**–गुडम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:दर्शेष्टिः
-DTSTART;VALUE=DATE:20220828
-DTEND;VALUE=DATE:20220829
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
- /lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17508,23 +17215,6 @@ DESCRIPTION:Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month
  etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
  b/master/gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAs
  haH_16.toml)<br/>- Tags: MonthlyFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:पूर्णमासेष्टिः
-DTSTART;VALUE=DATE:20220911
-DTEND;VALUE=DATE:20220912
-DESCRIPTION:Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
- t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
- neral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFest
- ivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18527,22 +18217,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:दर्शेष्टिः
-DTSTART;VALUE=DATE:20220926
-DTEND;VALUE=DATE:20220927
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
- /lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:पार्वण-प्रायश्चित्तावक
  ाशः पौर्णमास्याम्
 DTSTART;VALUE=DATE:20220926
@@ -19524,23 +19198,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पूर्णमासेष्टिः
-DTSTART;VALUE=DATE:20221010
-DTEND;VALUE=DATE:20221011
-DESCRIPTION:Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
- t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
- neral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFest
- ivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20221010
 DTEND;VALUE=DATE:20221011
@@ -20512,19 +20169,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:बोधायन-कात्यायन-इष्टिः
-DTSTART;VALUE=DATE:20221025
-DTEND;VALUE=DATE:20221026
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:पार्वणव्रतम् अमावास्या
  याम्
 DTSTART;VALUE=DATE:20221025
@@ -20595,22 +20239,6 @@ DESCRIPTION:- Indian civil date: 1944-08-04\, Islamic: 1444-03-30 Rabīʿ
  09\; **गुलिककालः**—10:36-12:03  \n___________________\
  n- **शूलम्**—उदीची (►12:26)\; **परिहार
  ः**–क्षीरम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:दर्शेष्टिः
-DTSTART;VALUE=DATE:20221026
-DTEND;VALUE=DATE:20221027
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
- /lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21598,23 +21226,6 @@ DESCRIPTION:Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month
  etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
  b/master/gRhya/Apastamba/lunar_month/tithi/00/16/pArvaNa-prAyashcittAvakAs
  haH_16.toml)<br/>- Tags: MonthlyFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:पूर्णमासेष्टिः
-DTSTART;VALUE=DATE:20221109
-DTEND;VALUE=DATE:20221110
-DESCRIPTION:Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
- t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
- neral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFest
- ivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22630,22 +22241,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:दर्शेष्टिः
-DTSTART;VALUE=DATE:20221124
-DTEND;VALUE=DATE:20221125
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
- /lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:पार्वण-प्रायश्चित्तावक
  ाशः पौर्णमास्याम्
 DTSTART;VALUE=DATE:20221124
@@ -23622,23 +23217,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पूर्णमासेष्टिः
-DTSTART;VALUE=DATE:20221208
-DTEND;VALUE=DATE:20221209
-DESCRIPTION:Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
- t config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/ge
- neral/lunar_month/tithi/00/16/pUrNamAseShTiH.toml)<br/>- Tags: MonthlyFest
- ivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20221208
 DTEND;VALUE=DATE:20221209
@@ -24593,19 +24171,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:बोधायन-कात्यायन-इष्टिः
-DTSTART;VALUE=DATE:20221223
-DTEND;VALUE=DATE:20221224
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:पार्वणव्रतम् अमावास्या
  याम्
 DTSTART;VALUE=DATE:20221223
@@ -24686,22 +24251,6 @@ DESCRIPTION:- Indian civil date: 1944-10-03\, Islamic: 1444-05-30 Jumādā
  गुलिककालः**—06:42-08:06  \n___________________\n- **
  शूलम्**—प्राची (►09:41)\; **परिहार
  ः**–दधि  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:दर्शेष्टिः
-DTSTART;VALUE=DATE:20221224
-DTEND;VALUE=DATE:20221225
-DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
- /lunar_month/tithi/00/01/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
