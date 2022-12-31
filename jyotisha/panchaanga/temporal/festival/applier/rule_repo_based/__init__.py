@@ -160,7 +160,7 @@ class RuleLookupAssigner(FestivalAssigner):
 
 
     if not month_match:
-      # This could legitimately happen in the case indicated in the below negated clause.
+      # This could legitimately happen in the case indicated in the below negated clause. Example: imagine a "skipped" shukla prathamA tithi.
       if not (fday_date.day >= 30 and month_type == RulesRepo.LUNAR_MONTH_DIR):
         # Example where False should be returned: Suppose festival is on tithi 27 of solar siderial month 10; last day of month 9 could have tithi 27, but not day 1 of month 10; though a much later day of month 10 has tithi 27.
         return False
