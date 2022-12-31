@@ -12,7 +12,7 @@ from jyotisha.panchaanga.temporal.body import Graha
 from jyotisha.panchaanga.temporal.festival import FestivalInstance
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
 from jyotisha.panchaanga.temporal.interval import Interval
-from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, AngaType
+from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, AngaType, Ayanamsha
 from pytz import timezone as tz
 from scipy.optimize import brentq
 
@@ -22,6 +22,7 @@ from indic_transliteration import sanscript
 class TithiFestivalAssigner(FestivalAssigner):
   def assign_all(self):
     self.assign_solar_sidereal_amaavaasyaa()
+    self.assign_ishti()
     self.assign_amaavaasya_vyatiipaata()
     # Force computation of chandra darshanam for bodhayana amavasya's sake
     self.assign_chandra_darshanam(force_computation=True)
@@ -395,6 +396,34 @@ class TithiFestivalAssigner(FestivalAssigner):
           pref = 'zani-'
         self.panchaanga.add_festival(fest_id=pref + 'pradOSa-vratam', date=self.daily_panchaangas[fday].date, interval_id="pradosha")
 
+  def assign_ishti(self):
+    if 'darsheShTiH' not in self.rules_collection.name_to_rule:
+      return
+    tithi_finder = zodiac.AngaSpanFinder.get_cached(ayanaamsha_id=Ayanamsha.CHITRA_AT_180,
+                                                    anga_type=zodiac.AngaType.TITHI)
+    # Three additional days of calculations suffice
+    tithi_list = tithi_finder.get_all_angas_in_period(jd1=self.panchaanga.jd_start, jd2=self.panchaanga.jd_end+3)
+    ishti_names = {15: 'pUrNamAseShTiH', 30: 'darsheShTiH'}
+    sandhi = []
+
+    # Leave out last two tithis, in case they are parva and a prathama without jd_end
+    for i, tithi in enumerate(tithi_list[:-2]):
+      if tithi.anga.index in ishti_names:
+        prathama_tithi = tithi_list[i + 1]
+        realSandhi = tithi.jd_end
+        prathamaLength = prathama_tithi.jd_end - prathama_tithi.jd_start
+        techSandhi = realSandhi + (prathamaLength - 1) / 2
+        sandhi.append((tithi.anga.index, techSandhi))
+
+    for parva_ID, sandhi_jd in sandhi:
+      p_fday = self.panchaanga.daily_panchaanga_for_jd(sandhi_jd)
+      fday_midday = 0.5 * (p_fday.jd_sunrise + p_fday.jd_sunset)
+      if sandhi_jd < fday_midday:
+        self.panchaanga.add_festival(ishti_names[parva_ID], p_fday.date)
+      else:
+        self.panchaanga.add_festival(ishti_names[parva_ID], p_fday.date + 1)
+
+
   def assign_solar_sidereal_amaavaasyaa(self):
     if 'sidereal_solar_month_amAvAsyA' not in self.rules_collection.name_to_rule:
       return 
@@ -563,13 +592,18 @@ class TithiFestivalAssigner(FestivalAssigner):
         # We have amAvAsyA preceding chandra darshanam. Therefore, the previous day must be assigned as bOdhAayana
         bodhaayana_fest = re.sub('amAvAsyA.*', 'amAvAsyA', 'bOdhAyana-kAtyAyana-' + ama_fest[0].name)
         self.panchaanga.add_festival(fest_id=bodhaayana_fest, date=self.panchaanga.daily_panchaanga_for_date(cdd - 2).date)
-        self.panchaanga.add_festival(fest_id='bOdhAyana-kAtyAyana-iSTiH', date=self.panchaanga.daily_panchaanga_for_date(cdd - 1).date)
+        if 'darsheShTiH' not in self.panchaanga.daily_panchaanga_for_date(cdd -1).festival_id_to_instance:
+          self.panchaanga.add_festival(fest_id='bOdhAyana-kAtyAyana-iSTiH', date=self.panchaanga.daily_panchaanga_for_date(cdd - 1).date)
+        else:
+          logging.warning('Not adding separate bOdhAyana-kAtyAyana-iSTiH on %s as it coincides with darsheShTiH!' % (self.panchaanga.daily_panchaanga_for_date(cdd-1).date.get_date_str()))
       else:
         for key, val in dict(self.panchaanga.daily_panchaanga_for_date(cdd - 2).festival_id_to_instance).items():
           if 'amAvAsyA' in key:
             fest_id = key
             self.panchaanga.delete_festival_date(fest_id=fest_id, date=self.panchaanga.daily_panchaanga_for_date(cdd - 2).date)
             self.panchaanga.add_festival(fest_id='sarva-' + fest_id, date=self.panchaanga.daily_panchaanga_for_date(cdd - 2).date)
+
+    # We forcefully assigned candra-darzanam to facilitate bodhAyana-kAtyAyana calc - now remove if not needed!
     if 'candra-darzanam' not in self.rules_collection.name_to_rule:
       self.panchaanga.delete_festival(fest_id='candra-darzanam')
 
