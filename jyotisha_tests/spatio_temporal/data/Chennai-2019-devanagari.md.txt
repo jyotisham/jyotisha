@@ -610,7 +610,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- चाक्किय नायऩार् (३३) गुरुपूजै, दर्शेष्टिः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, स्थालीपाकः
+- चाक्किय नायऩार् (३३) गुरुपूजै, दर्श-स्थालीपाकः, दर्शेष्टिः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्
 ##### चाक्किय नायऩार् (३३) गुरुपूजै
 
 Observed on Pūrvāṣāḍhā nakshatra of Dhanuḥ (sidereal solar) month (Prātaḥ/paraviddha). 
@@ -644,14 +644,14 @@ Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurv
 - Tags: MonthlyFestivals
 
 
-##### स्थालीपाकः
+##### दर्श-स्थालीपाकः
 
-Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 
 
-sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
+
+Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/description_only/sthAlIpAkaH_1.toml)
 - Tags: MonthlyFestivals
 
 
@@ -1969,7 +1969,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- कपाली तॆप्पोत्सवम्, तुङ्गभद्रा-शृङ्गगिरि शारदामठ-प्रतिष्ठापन-जयन्ती #२५०२, तैत्तिरीय-उत्सर्गः पौर्णमास्याम्, पार्वण-प्रायश्चित्तावकाशः दर्शे, पूर्णमासेष्टिः, पूर्णिमा-व्रतम्, बदरी ज्योतिर्मठ-प्रतिष्ठापन-जयन्ती #२५०४, शाकम्भरी-जयन्ती, स्थालीपाकः
+- कपाली तॆप्पोत्सवम्, तुङ्गभद्रा-शृङ्गगिरि शारदामठ-प्रतिष्ठापन-जयन्ती #२५०२, तैत्तिरीय-उत्सर्गः पौर्णमास्याम्, पार्वण-प्रायश्चित्तावकाशः दर्शे, पूर्ण-स्थालीपाकः, पूर्णमासेष्टिः, पूर्णिमा-व्रतम्, बदरी ज्योतिर्मठ-प्रतिष्ठापन-जयन्ती #२५०४, शाकम्भरी-जयन्ती
 ##### बदरी ज्योतिर्मठ-प्रतिष्ठापन-जयन्ती #२५०४
 
 Observed on Paurṇamāsī tithi of Pauṣaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). The event occurred in 2616 (Kali era).  
@@ -2026,14 +2026,14 @@ pūrṇimā vratam is commonly observed for Lord Satyanarayana.
 - Tags: MonthlyFestivals
 
 
-##### स्थालीपाकः
+##### पूर्ण-स्थालीपाकः
 
-Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 
 
-sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
+
+Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/description_only/sthAlIpAkaH_16.toml)
 - Tags: MonthlyFestivals
 
 
@@ -3232,7 +3232,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- दर्शेष्टिः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, श्यामळानवरात्र-आरम्भः, स्थालीपाकः
+- दर्श-स्थालीपाकः, दर्शेष्टिः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, श्यामळानवरात्र-आरम्भः
 ##### दर्शेष्टिः
 
 
@@ -3255,14 +3255,14 @@ Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurv
 - Tags: MonthlyFestivals
 
 
-##### स्थालीपाकः
+##### दर्श-स्थालीपाकः
 
-Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 
 
-sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
+
+Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/description_only/sthAlIpAkaH_1.toml)
 - Tags: MonthlyFestivals
 
 
@@ -4940,7 +4940,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- काञ्ची ५१ जगद्गुरु श्री-विद्यातीर्थेन्द्र सरस्वती आराधना #६३४, कुम्भमाघोत्सवः, पार्वण-प्रायश्चित्तावकाशः दर्शे, पूर्णमासेष्टिः, स्थालीपाकः
+- काञ्ची ५१ जगद्गुरु श्री-विद्यातीर्थेन्द्र सरस्वती आराधना #६३४, कुम्भमाघोत्सवः, पार्वण-प्रायश्चित्तावकाशः दर्शे, पूर्ण-स्थालीपाकः, पूर्णमासेष्टिः
 ##### काञ्ची ५१ जगद्गुरु श्री-विद्यातीर्थेन्द्र सरस्वती आराधना #६३४
 
 Observed on Kr̥ṣṇa-Prathamā tithi of Māghaḥ (lunar) month (Aparāhṇaḥ/vyaapti). The event occurred in 4486 (Kali era).  
@@ -5014,14 +5014,14 @@ Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/
 - Tags: MonthlyFestivals
 
 
-##### स्थालीपाकः
+##### पूर्ण-स्थालीपाकः
 
-Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 
 
-sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
+
+Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/description_only/sthAlIpAkaH_16.toml)
 - Tags: MonthlyFestivals
 
 
@@ -6216,7 +6216,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- काञ्ची ६७ जगद्गुरु श्री-महादेवेन्द्र सरस्वती ५ आराधना #११२, दर्शेष्टिः, पयोव्रत-आरम्भः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, सायन-वैधृतिः, स्थालीपाकः
+- काञ्ची ६७ जगद्गुरु श्री-महादेवेन्द्र सरस्वती ५ आराधना #११२, दर्श-स्थालीपाकः, दर्शेष्टिः, पयोव्रत-आरम्भः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, सायन-वैधृतिः
 ##### पयोव्रत-आरम्भः
 
 Observed on Śukla-Prathamā tithi of Phālgunaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -6293,14 +6293,14 @@ When the sum of the longitudes of the Moon and Sun is 360, it is sāyana-vaidhr�
 - Tags: Combinations
 
 
-##### स्थालीपाकः
+##### दर्श-स्थालीपाकः
 
-Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 
 
-sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
+
+Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/description_only/sthAlIpAkaH_1.toml)
 - Tags: MonthlyFestivals
 
 
@@ -7589,7 +7589,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- आम्र-कुसुम-प्राशनम्, उमा-कपालीश्वर-दर्शनम्, कपाली विडैयाऱ्ऱि तॊडक्कम्, चैतन्य-महाप्रभु-जयन्ती #५३४, पार्वण-प्रायश्चित्तावकाशः दर्शे, पूर्णमासेष्टिः, पूर्णिमा-व्रतम्, मीनोत्तरफाल्गुनोत्सवः, विषुवदिनम्, सायन-व्यतीपातः, स्थालीपाकः, होलि
+- आम्र-कुसुम-प्राशनम्, उमा-कपालीश्वर-दर्शनम्, कपाली विडैयाऱ्ऱि तॊडक्कम्, चैतन्य-महाप्रभु-जयन्ती #५३४, पार्वण-प्रायश्चित्तावकाशः दर्शे, पूर्ण-स्थालीपाकः, पूर्णमासेष्टिः, पूर्णिमा-व्रतम्, मीनोत्तरफाल्गुनोत्सवः, विषुवदिनम्, सायन-व्यतीपातः, होलि
 ##### आम्र-कुसुम-प्राशनम्
 
 Observed on Kr̥ṣṇa-Prathamā tithi of Phālgunaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -7702,14 +7702,14 @@ When the sum of the longitudes of the Moon and Sun is 180, it is sāyana-vyatīp
 - Tags: Combinations
 
 
-##### स्थालीपाकः
+##### पूर्ण-स्थालीपाकः
 
-Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 
 
-sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
+
+Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/description_only/sthAlIpAkaH_16.toml)
 - Tags: MonthlyFestivals
 
 
@@ -8889,7 +8889,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- काञ्ची १५ जगद्गुरु श्री-गङ्गाधरेन्द्र सरस्वती आराधना #१६९१, काञ्ची २७ जगद्गुरु श्री-चिद्विलासेन्द्र सरस्वती आराधना #१४४३, काञ्ची ५२ जगद्गुरु श्री-शङ्करानन्देन्द्र सरस्वती आराधना #६०३, चन्द्र-दर्शनम्, दर्शेष्टिः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, युगादिः/चान्द्रमान-संवत्सरारम्भः, वसन्तनवरात्र-आरम्भः, वैधृति-श्राद्धम्, श्वेत-कल्पादिः, स्थालीपाकः
+- काञ्ची १५ जगद्गुरु श्री-गङ्गाधरेन्द्र सरस्वती आराधना #१६९१, काञ्ची २७ जगद्गुरु श्री-चिद्विलासेन्द्र सरस्वती आराधना #१४४३, काञ्ची ५२ जगद्गुरु श्री-शङ्करानन्देन्द्र सरस्वती आराधना #६०३, चन्द्र-दर्शनम्, दर्श-स्थालीपाकः, दर्शेष्टिः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, युगादिः/चान्द्रमान-संवत्सरारम्भः, वसन्तनवरात्र-आरम्भः, वैधृति-श्राद्धम्, श्वेत-कल्पादिः
 ##### चन्द्र-दर्शनम्
 - 18:17→19:14
 
@@ -9005,14 +9005,14 @@ Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurv
 - Tags: MonthlyFestivals
 
 
-##### स्थालीपाकः
+##### दर्श-स्थालीपाकः
 
-Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 
 
-sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
+
+Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/description_only/sthAlIpAkaH_1.toml)
 - Tags: MonthlyFestivals
 
 
@@ -10897,7 +10897,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- (सायन) विष्णुपदी-पुण्यकालः, काञ्ची ६० जगद्गुरु श्री-अद्वैतात्मप्रकाशेन्द्र सरस्वती आराधना #३१६, तिरुक्कुऱिप्पुत् तॊण्ड नायऩार् (१८) गुरुपूजै, पार्वण-प्रायश्चित्तावकाशः दर्शे, पूर्णमासेष्टिः, माधव-मासः, सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः, स्थालीपाकः
+- (सायन) विष्णुपदी-पुण्यकालः, काञ्ची ६० जगद्गुरु श्री-अद्वैतात्मप्रकाशेन्द्र सरस्वती आराधना #३१६, तिरुक्कुऱिप्पुत् तॊण्ड नायऩार् (१८) गुरुपूजै, पार्वण-प्रायश्चित्तावकाशः दर्शे, पूर्ण-स्थालीपाकः, पूर्णमासेष्टिः, माधव-मासः, सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः
 ##### (सायन) विष्णुपदी-पुण्यकालः
 - 08:01→18:18
 
@@ -11004,14 +11004,14 @@ When the transit of the Sun (saṅkrānti) happens in the second half of the day
 - Tags: SunSankranti CommonFestivals
 
 
-##### स्थालीपाकः
+##### पूर्ण-स्थालीपाकः
 
-Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 
 
-sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
+
+Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/description_only/sthAlIpAkaH_16.toml)
 - Tags: MonthlyFestivals
 
 
@@ -12129,7 +12129,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अग्निनक्षत्र-आरम्भः, कृत्तिका-व्रतम्, चिऱुत्तॊण्ड नायऩार् (३५) गुरुपूजै, दर्शेष्टिः, पराशर-महर्षि-जयन्ती, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, वैशाख-मास-आरम्भः, स्थालीपाकः
+- अग्निनक्षत्र-आरम्भः, कृत्तिका-व्रतम्, चिऱुत्तॊण्ड नायऩार् (३५) गुरुपूजै, दर्श-स्थालीपाकः, दर्शेष्टिः, पराशर-महर्षि-जयन्ती, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, वैशाख-मास-आरम्भः
 ##### अग्निनक्षत्र-आरम्भः
 
 
@@ -12224,14 +12224,14 @@ Observed on Śukla-Prathamā tithi of Vaiśākhaḥ (lunar) month (Sūryōdaya�
 - Tags: MahapurushaEvents
 
 
-##### स्थालीपाकः
+##### दर्श-स्थालीपाकः
 
-Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 
 
-sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
+
+Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/description_only/sthAlIpAkaH_1.toml)
 - Tags: MonthlyFestivals
 
 
@@ -14117,7 +14117,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- काञ्ची ६८ जगद्गुरु श्री-चन्द्रशेखरेन्द्र सरस्वती ७ जयन्ती #१२६, पार्वण-प्रायश्चित्तावकाशः दर्शे, पूर्णमासेष्टिः, स्थालीपाकः
+- काञ्ची ६८ जगद्गुरु श्री-चन्द्रशेखरेन्द्र सरस्वती ७ जयन्ती #१२६, पार्वण-प्रायश्चित्तावकाशः दर्शे, पूर्ण-स्थालीपाकः, पूर्णमासेष्टिः
 ##### काञ्ची ६८ जगद्गुरु श्री-चन्द्रशेखरेन्द्र सरस्वती ७ जयन्ती #१२६
 
 Observed on Anūrādhā nakshatra of Vr̥ṣabhaḥ (sidereal solar) month (Prātaḥ/paraviddha). The event occurred in 4995 (Kali era).  
@@ -14152,14 +14152,14 @@ Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/
 - Tags: MonthlyFestivals
 
 
-##### स्थालीपाकः
+##### पूर्ण-स्थालीपाकः
 
-Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 
 
-sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
+
+Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/description_only/sthAlIpAkaH_16.toml)
 - Tags: MonthlyFestivals
 
 
@@ -15534,7 +15534,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- करवीर-व्रतम्, चन्द्र-दर्शनम्, दर्शेष्टिः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, पुन्नाग-गौरी-व्रतम्, भद्र-चतुष्टय-व्रतम्, शृङ्गेरी ३२ जगद्गुरु श्री-नृसिंह भारती आराधना, सायन-व्यतीपातः, स्थालीपाकः
+- करवीर-व्रतम्, चन्द्र-दर्शनम्, दर्श-स्थालीपाकः, दर्शेष्टिः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, पुन्नाग-गौरी-व्रतम्, भद्र-चतुष्टय-व्रतम्, शृङ्गेरी ३२ जगद्गुरु श्री-नृसिंह भारती आराधना, सायन-व्यतीपातः
 ##### भद्र-चतुष्टय-व्रतम्
 
 Observed on Śukla-Prathamā tithi of Jyaiṣṭhaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -15626,14 +15626,14 @@ When the sum of the longitudes of the Moon and Sun is 180, it is sāyana-vyatīp
 - Tags: Combinations
 
 
-##### स्थालीपाकः
+##### दर्श-स्थालीपाकः
 
-Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 
 
-sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
+
+Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/description_only/sthAlIpAkaH_1.toml)
 - Tags: MonthlyFestivals
 
 
@@ -17162,7 +17162,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- पार्वण-प्रायश्चित्तावकाशः दर्शे, पूर्णमासेष्टिः, स्थालीपाकः
+- पार्वण-प्रायश्चित्तावकाशः दर्शे, पूर्ण-स्थालीपाकः, पूर्णमासेष्टिः
 ##### पार्वण-प्रायश्चित्तावकाशः दर्शे
 
 Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 
@@ -17185,14 +17185,14 @@ Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/
 - Tags: MonthlyFestivals
 
 
-##### स्थालीपाकः
+##### पूर्ण-स्थालीपाकः
 
-Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 
 
-sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
+
+Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/description_only/sthAlIpAkaH_16.toml)
 - Tags: MonthlyFestivals
 
 
@@ -18327,7 +18327,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- काञ्ची २५ जगद्गुरु श्री-सच्चिदानन्दघनेन्द्र सरस्वती आराधना #१४७२, चिदम्बरे रजत-गजवाहनम्, दर्शेष्टिः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, वाराही-नवरात्र-आरम्भः, स्थालीपाकः
+- काञ्ची २५ जगद्गुरु श्री-सच्चिदानन्दघनेन्द्र सरस्वती आराधना #१४७२, चिदम्बरे रजत-गजवाहनम्, दर्श-स्थालीपाकः, दर्शेष्टिः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, वाराही-नवरात्र-आरम्भः
 ##### चिदम्बरे रजत-गजवाहनम्
 
 
@@ -18385,14 +18385,14 @@ Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurv
 - Tags: MonthlyFestivals
 
 
-##### स्थालीपाकः
+##### दर्श-स्थालीपाकः
 
-Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 
 
-sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
+
+Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/description_only/sthAlIpAkaH_1.toml)
 - Tags: MonthlyFestivals
 
 
@@ -19834,7 +19834,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- काञ्ची ५४ जगद्गुरु श्री-व्यासाचल महादेवेन्द्र सरस्वती आराधना #५१३, पार्वण-प्रायश्चित्तावकाशः दर्शे, पूर्णमासेष्टिः, सर्वनदी-रजस्वला, स्थालीपाकः
+- काञ्ची ५४ जगद्गुरु श्री-व्यासाचल महादेवेन्द्र सरस्वती आराधना #५१३, पार्वण-प्रायश्चित्तावकाशः दर्शे, पूर्ण-स्थालीपाकः, पूर्णमासेष्टिः, सर्वनदी-रजस्वला
 ##### काञ्ची ५४ जगद्गुरु श्री-व्यासाचल महादेवेन्द्र सरस्वती आराधना #५१३
 
 Observed on Kr̥ṣṇa-Prathamā tithi of Āṣāḍhaḥ (lunar) month (Aparāhṇaḥ/vyaapti). The event occurred in 4608 (Kali era).  
@@ -19942,14 +19942,14 @@ One must not bathe in many (small) rivers during the rainy season. Especially fo
 - Tags: CommonFestivals
 
 
-##### स्थालीपाकः
+##### पूर्ण-स्थालीपाकः
 
-Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 
 
-sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
+
+Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/description_only/sthAlIpAkaH_16.toml)
 - Tags: MonthlyFestivals
 
 
@@ -21209,7 +21209,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- आषाढ-स्नानपूर्तिः, काञ्ची ४१ जगद्गुरु श्री-गङ्गाधरेन्द्र सरस्वती २ आराधना #१०७०, गुरुपुष्य-योगः, दर्शेष्टिः, दीप-पूजा, पति-सञ्जीवनी-व्रतम्, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, व्यतीपात-श्राद्धम्, स्थालीपाकः
+- आषाढ-स्नानपूर्तिः, काञ्ची ४१ जगद्गुरु श्री-गङ्गाधरेन्द्र सरस्वती २ आराधना #१०७०, गुरुपुष्य-योगः, दर्श-स्थालीपाकः, दर्शेष्टिः, दीप-पूजा, पति-सञ्जीवनी-व्रतम्, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, व्यतीपात-श्राद्धम्
 ##### आषाढ-स्नानपूर्तिः
 
 Observed on Amāvāsyā tithi of Āṣāḍhaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -21307,14 +21307,14 @@ Observed on Amāvāsyā tithi of Āṣāḍhaḥ (lunar) month (Sūryōdayaḥ/p
 - Tags: SpecialVratam
 
 
-##### स्थालीपाकः
+##### दर्श-स्थालीपाकः
 
-Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 
 
-sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
+
+Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/description_only/sthAlIpAkaH_1.toml)
 - Tags: MonthlyFestivals
 
 
@@ -22855,7 +22855,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- आडि-वॆळ्ळिक्किऴमै, काञ्ची ६९ जगद्गुरु श्री-जयेन्द्र सरस्वती जयन्ती #८५, पार्वण-प्रायश्चित्तावकाशः दर्शे, पूर्णमासेष्टिः, सहस्रगायत्रीजपः प्रायश्चित्तार्थः, स्थालीपाकः
+- आडि-वॆळ्ळिक्किऴमै, काञ्ची ६९ जगद्गुरु श्री-जयेन्द्र सरस्वती जयन्ती #८५, पार्वण-प्रायश्चित्तावकाशः दर्शे, पूर्ण-स्थालीपाकः, पूर्णमासेष्टिः, सहस्रगायत्रीजपः प्रायश्चित्तार्थः
 ##### आडि-वॆळ्ळिक्किऴमै
 
 
@@ -22912,14 +22912,14 @@ Observed on Kr̥ṣṇa-Prathamā tithi of Śrāvaṇaḥ (lunar) month (Sūryō
 - Tags: LessCommonFestivals
 
 
-##### स्थालीपाकः
+##### पूर्ण-स्थालीपाकः
 
-Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 
 
-sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
+
+Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/description_only/sthAlIpAkaH_16.toml)
 - Tags: MonthlyFestivals
 
 
@@ -24471,7 +24471,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- कल्कि-जयन्ती, चन्द्र-दर्शनम्, तिरुच्चॆन्दूर् मुरुगऩ् आवणित् तिरुविऴा 8म् नाळ्—पच्चै चात्ति अलङ्कारम्, दर्शेष्टिः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, मृगशीर्ष-व्रतम्, स्थालीपाकः
+- कल्कि-जयन्ती, चन्द्र-दर्शनम्, तिरुच्चॆन्दूर् मुरुगऩ् आवणित् तिरुविऴा 8म् नाळ्—पच्चै चात्ति अलङ्कारम्, दर्श-स्थालीपाकः, दर्शेष्टिः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, मृगशीर्ष-व्रतम्
 ##### चन्द्र-दर्शनम्
 - 18:17→19:11
 
@@ -24542,14 +24542,14 @@ Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurv
 - Tags: MonthlyFestivals
 
 
-##### स्थालीपाकः
+##### दर्श-स्थालीपाकः
 
-Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 
 
-sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
+
+Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/description_only/sthAlIpAkaH_1.toml)
 - Tags: MonthlyFestivals
 
 
@@ -26036,7 +26036,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- उपाङ्ग-ललिता-गौरी-व्रतम्, उमा-महेश्वर-व्रतम्, दिक्पाल-पूजा, पार्वण-प्रायश्चित्तावकाशः दर्शे, पूर्णमासेष्टिः, पूर्णिमा-व्रतम्, महालय-पक्ष-आरम्भः, यतिचातुर्मास्यव्रत-समापनम्, विश्वरूप-यात्रा, सायन-व्यतीपातः, स्थालीपाकः
+- उपाङ्ग-ललिता-गौरी-व्रतम्, उमा-महेश्वर-व्रतम्, दिक्पाल-पूजा, पार्वण-प्रायश्चित्तावकाशः दर्शे, पूर्ण-स्थालीपाकः, पूर्णमासेष्टिः, पूर्णिमा-व्रतम्, महालय-पक्ष-आरम्भः, यतिचातुर्मास्यव्रत-समापनम्, विश्वरूप-यात्रा, सायन-व्यतीपातः
 ##### दिक्पाल-पूजा
 
 Observed on Paurṇamāsī tithi of Bhādrapadaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -26104,14 +26104,14 @@ When the sum of the longitudes of the Moon and Sun is 180, it is sāyana-vyatīp
 - Tags: Combinations
 
 
-##### स्थालीपाकः
+##### पूर्ण-स्थालीपाकः
 
-Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 
 
-sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
+
+Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/description_only/sthAlIpAkaH_16.toml)
 - Tags: MonthlyFestivals
 
 
@@ -27775,7 +27775,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- आदित्यहस्त-योगः, गृहदेवी-पूजा, दर्शेष्टिः, दौहित्र-प्रतिपत्, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, महालय-पक्ष-तर्पण-पूर्तिः, शरन्नवरात्र-आरम्भः, स्तन्यवृद्धि-गौरी-व्रतम्, स्थालीपाकः
+- आदित्यहस्त-योगः, गृहदेवी-पूजा, दर्श-स्थालीपाकः, दर्शेष्टिः, दौहित्र-प्रतिपत्, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, महालय-पक्ष-तर्पण-पूर्तिः, शरन्नवरात्र-आरम्भः, स्तन्यवृद्धि-गौरी-व्रतम्
 ##### आदित्यहस्त-योगः
 
 
@@ -27876,14 +27876,14 @@ Observed on Śukla-Prathamā tithi of Āśvayujaḥ (lunar) month (Sūryōdaya�
 - Tags: SpecialVratam
 
 
-##### स्थालीपाकः
+##### दर्श-स्थालीपाकः
 
-Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 
 
-sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
+
+Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/description_only/sthAlIpAkaH_1.toml)
 - Tags: MonthlyFestivals
 
 
@@ -29513,7 +29513,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अप्पय्य-दीक्षित-जयन्ती #५०१, जयावाप्ति-व्रतम्, पार्वण-प्रायश्चित्तावकाशः दर्शे, पूर्णमासेष्टिः, सप्तम-अपरपक्ष-आरम्भः, स्थालीपाकः
+- अप्पय्य-दीक्षित-जयन्ती #५०१, जयावाप्ति-व्रतम्, पार्वण-प्रायश्चित्तावकाशः दर्शे, पूर्ण-स्थालीपाकः, पूर्णमासेष्टिः, सप्तम-अपरपक्ष-आरम्भः
 ##### अप्पय्य-दीक्षित-जयन्ती #५०१
 
 Observed on Kr̥ṣṇa-Prathamā tithi of Kanyā (sidereal solar) month (Prātaḥ/paraviddha). The event occurred in 4620 (Kali era).  
@@ -29572,14 +29572,14 @@ Observed on Kr̥ṣṇa-Prathamā tithi of Āśvayujaḥ (lunar) month (Aparāh�
 - Tags: SpecialPeriodStart
 
 
-##### स्थालीपाकः
+##### पूर्ण-स्थालीपाकः
 
-Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 
 
-sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
+
+Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/description_only/sthAlIpAkaH_16.toml)
 - Tags: MonthlyFestivals
 
 
@@ -31091,7 +31091,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- आग्रयण-होमः द्राविडेषु, केदार-गौरी-व्रतम्, गोवर्धन-पूजा, दर्शेष्टिः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, विक्रमादित्य-पट्टाभिषेकः, श्रीराम-पट्टाभिषेकः, सोमवती अमावास्या, स्थालीपाकः
+- आग्रयण-होमः द्राविडेषु, केदार-गौरी-व्रतम्, गोवर्धन-पूजा, दर्श-स्थालीपाकः, दर्शेष्टिः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, विक्रमादित्य-पट्टाभिषेकः, श्रीराम-पट्टाभिषेकः, सोमवती अमावास्या
 ##### आग्रयण-होमः द्राविडेषु
 
 Observed on Amāvāsyā tithi of Tulā (sidereal solar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -31180,14 +31180,14 @@ amāvāsyā on a Monday is as sacred as a solar eclipse. Particularly good for p
 - Tags: RareDays Combinations AmavasyaDays
 
 
-##### स्थालीपाकः
+##### दर्श-स्थालीपाकः
 
-Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 
 
-sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
+
+Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/description_only/sthAlIpAkaH_1.toml)
 - Tags: MonthlyFestivals
 
 
@@ -32958,7 +32958,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- इडङ्कऴि नायऩार् (५२) गुरुपूजै, काञ्ची ६४ जगद्गुरु श्री-चन्द्रशेखरेन्द्र सरस्वती ५ आराधना #१६९, कृत्तिका-व्रतम्, नवम-अपरपक्ष-आरम्भः, पार्वण-प्रायश्चित्तावकाशः दर्शे, पूर्णमासेष्टिः, स्थालीपाकः
+- इडङ्कऴि नायऩार् (५२) गुरुपूजै, काञ्ची ६४ जगद्गुरु श्री-चन्द्रशेखरेन्द्र सरस्वती ५ आराधना #१६९, कृत्तिका-व्रतम्, नवम-अपरपक्ष-आरम्भः, पार्वण-प्रायश्चित्तावकाशः दर्शे, पूर्ण-स्थालीपाकः, पूर्णमासेष्टिः
 ##### इडङ्कऴि नायऩार् (५२) गुरुपूजै
 
 Observed on Kr̥ttikā nakshatra of Tulā (sidereal solar) month (Prātaḥ/paraviddha). 
@@ -33062,14 +33062,14 @@ Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/
 - Tags: MonthlyFestivals
 
 
-##### स्थालीपाकः
+##### पूर्ण-स्थालीपाकः
 
-Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 
 
-sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
+
+Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/description_only/sthAlIpAkaH_16.toml)
 - Tags: MonthlyFestivals
 
 
@@ -34512,7 +34512,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- काञ्ची १८ जगद्गुरु श्री-योगतिलक सुरेन्द्र सरस्वती आराधना #१६३५, दर्शेष्टिः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, बुधानुराधा-योगः, वनदुर्गानवरात्र-आरम्भः, स्थालीपाकः
+- काञ्ची १८ जगद्गुरु श्री-योगतिलक सुरेन्द्र सरस्वती आराधना #१६३५, दर्श-स्थालीपाकः, दर्शेष्टिः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, बुधानुराधा-योगः, वनदुर्गानवरात्र-आरम्भः
 ##### बुधानुराधा-योगः
 - →08:09
 
@@ -34579,14 +34579,14 @@ Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurv
 - Tags: MonthlyFestivals
 
 
-##### स्थालीपाकः
+##### दर्श-स्थालीपाकः
 
-Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 
 
-sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
+
+Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/description_only/sthAlIpAkaH_1.toml)
 - Tags: MonthlyFestivals
 
 
@@ -35832,7 +35832,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अन्नपूर्णा-जयन्ती, आग्रयण-होमः द्राविडेषु, काञ्ची १३ जगद्गुरु श्री-सच्चिद्घनेन्द्र सरस्वती आराधना #१७४८, पार्वण-प्रायश्चित्तावकाशः दर्शे, पूर्णमासेष्टिः, पूर्णिमा-व्रतम्, महामार्गशीर्षी-योगः, सर्प-बल्युत्सर्जनम्, सायन-वैधृतिः, स्थालीपाकः
+- अन्नपूर्णा-जयन्ती, आग्रयण-होमः द्राविडेषु, काञ्ची १३ जगद्गुरु श्री-सच्चिद्घनेन्द्र सरस्वती आराधना #१७४८, पार्वण-प्रायश्चित्तावकाशः दर्शे, पूर्ण-स्थालीपाकः, पूर्णमासेष्टिः, पूर्णिमा-व्रतम्, महामार्गशीर्षी-योगः, सर्प-बल्युत्सर्जनम्, सायन-वैधृतिः
 ##### आग्रयण-होमः द्राविडेषु
 
 Observed on Paurṇamāsī tithi of Vr̥ścikaḥ (sidereal solar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -35966,14 +35966,14 @@ Offer final bali to serpents on to this day, in the night after sthālīpāka.
 - Tags: LessCommonFestivals
 
 
-##### स्थालीपाकः
+##### पूर्ण-स्थालीपाकः
 
-Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 
 
-sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
+
+Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/description_only/sthAlIpAkaH_16.toml)
 - Tags: MonthlyFestivals
 
 
@@ -37155,7 +37155,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- दर्शेष्टिः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, श्री-हनूमत्-जयन्ती, सूर्य-ग्रहणं (केतुग्रस्त), स्थालीपाकः
+- दर्श-स्थालीपाकः, दर्शेष्टिः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, श्री-हनूमत्-जयन्ती, सूर्य-ग्रहणं (केतुग्रस्त)
 ##### दर्शेष्टिः
 
 
@@ -37180,14 +37180,14 @@ Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurv
 
 ##### सूर्य-ग्रहणं (केतुग्रस्त)
 - 08:08→11:19
-##### स्थालीपाकः
+##### दर्श-स्थालीपाकः
 
-Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 
 
-sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
+
+Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ritual, involving the offering of haviṣyānna to agni, with the offering being cooked on the fire itself.
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_month/tithi/00/01/sthAlIpAkaH_1.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/description_only/sthAlIpAkaH_1.toml)
 - Tags: MonthlyFestivals
 
 
