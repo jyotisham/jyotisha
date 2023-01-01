@@ -15,8 +15,9 @@ on:
 #    - cron: '0 * * * *'
   workflow_dispatch:
     inputs:
-      logLevel:
-        default: 'warning'
+      year:
+        default: '2023'
+        required: false
 
 jobs:
   generate:
@@ -27,15 +28,18 @@ jobs:
         python-version: [3.9]
 #         python-version: [3.5, 3.6, 3.7, 3.8]
     steps:
+    - name: Inject slug/short variables
+      uses: rlespinasse/github-slug-action@v3.x
     - uses: actions/checkout@v2
       with:
         submodules: 'true'
         fetch-depth: 1 # Because of this, you will fail to push refs to dest repo
     - name: Get current date
       id: date
+      if: "${{ github.event.inputs.year == '' }}"
       run: | #     No space after + above.
         echo "date={$(date +'%Y-%m-%d')}" >> $GITHUB_OUTPUT
-        echo "next_year=$(date +'%Y' --date='+1 year')" >> $GITHUB_OUTPUT
+        echo "year=$(date +'%Y' --date='+1 year')" >> $GITHUB_OUTPUT
         cat $GITHUB_OUTPUT
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v1
@@ -50,12 +54,13 @@ jobs:
         python -m pip install .
     - name: Regenerate calendars
       run: |
-        python -m "jyotisha.panchaanga.writer.generation_project" --year=${{ steps.date.outputs.next_year }}
+        python -m "jyotisha.panchaanga.writer.generation_project" --year=${{ steps.date.outputs.year }}${{github.event.inputs.year}}
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
-        hugo-version: "0.72.0"
+        hugo-version: "0.105.0"
     - name: Build hugo site pages
+      id: hugo_build
       run: |
         cd hugo-source
         rm -rf build_github
@@ -64,6 +69,7 @@ jobs:
     # MD files are useful for certain bots.
     - name: Deploy md
       uses: peaceiris/actions-gh-pages@v3
+      if: ${{ github.event_name != 'pull_request' && steps.hugo_build.conclusion == 'success'}}
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./hugo-source/content/output
@@ -77,6 +83,7 @@ jobs:
 #        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Deploy html
       uses: peaceiris/actions-gh-pages@v3
+      if: ${{ github.event_name != 'pull_request' && steps.hugo_build.conclusion == 'success'}}
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./hugo-source/build_github
