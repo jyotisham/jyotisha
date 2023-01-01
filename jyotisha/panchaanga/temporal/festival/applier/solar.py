@@ -1,4 +1,5 @@
 import sys
+import os
 import logging
 from copy import copy
 from datetime import datetime
@@ -52,22 +53,12 @@ class SolarFestivalAssigner(FestivalAssigner):
     if 'mESa-viSu-puNyakAlaH' not in self.rules_collection.name_to_rule:
       return 
 
-    # Reference
-    # ---------
-    #
-    # अतीतानागते पुण्ये द्वे उदग्दक्षिणायने। त्रिंशत्कर्कटके नाड्यो मकरे विंशतिः स्मृताः॥
-    # वर्तमाने तुलामेषे नाड्यस्तूभयतो दश। षडशीत्यामतीतायां षष्टिरुक्तास्तु नाडिकाः॥
-    # पुण्यायां विष्णुपद्यां च प्राक् पश्चादपि षोडशः॥
-    # —वैद्यनाथ-दीक्षितीये स्मृतिमुक्ताफले आह्निक-काण्डः
-    #
-    # The times before and/or after any given sankranti (tropical/sidereal) are sacred for snanam & danam
-    # with specific times specified. For Mesha and Tula, 10 nAdikas before and after are special,
-    # while for Shadashiti, an entire 60 nAdikas following the sankramaNam are special, and so on.
+    fname = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data/misc_data/sankranti_punyakaala.toml')
+    with open(fname) as f:
+      import toml
+      punyakaala_dict = toml.load(f)
 
-    PUNYA_KAALA = {1: (10, 10),  2: (16, 16),  3: (0, 60),
-                   4: (30,  0),  5: (16, 16),  6: (0, 60),
-                   7: (10, 10),  8: (16, 16),  9: (0, 60),
-                  10: ( 0, 20), 11: (16, 16), 12: (0, 60)}
+      PUNYA_KAALA = {int(s): punyakaala_dict['PUNYA_KAALA'][s] for s in punyakaala_dict['PUNYA_KAALA']}
    
     is_puurva_half_day = True
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
@@ -124,22 +115,12 @@ class SolarFestivalAssigner(FestivalAssigner):
     if 'mESa-viSu-puNyakAlaH' not in self.rules_collection.name_to_rule:
       return 
 
-    # Reference
-    # ---------
-    #
-    # अतीतानागते पुण्ये द्वे उदग्दक्षिणायने। त्रिंशत्कर्कटके नाड्यो मकरे विंशतिः स्मृताः॥
-    # वर्तमाने तुलामेषे नाड्यस्तूभयतो दश। षडशीत्यामतीतायां षष्टिरुक्तास्तु नाडिकाः॥
-    # पुण्यायां विष्णुपद्यां च प्राक् पश्चादपि षोडशः॥
-    # —वैद्यनाथ-दीक्षितीये स्मृतिमुक्ताफले आह्निक-काण्डः
-    #
-    # The times before and/or after any given sankranti (tropical/sidereal) are sacred for snanam & danam
-    # with specific times specified. For Mesha and Tula, 10 nAdikas before and after are special,
-    # while for Shadashiti, an entire 60 nAdikas following the sankramaNam are special, and so on.
+    fname = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data/misc_data/sankranti_punyakaala.toml')
+    with open(fname) as f:
+      import toml
+      punyakaala_dict = toml.load(f)
 
-    PUNYA_KAALA = {1: (10, 10),  2: (16, 16),  3: (0, 60),
-                   4: (30,  0),  5: (16, 16),  6: (0, 60),
-                   7: (10, 10),  8: (16, 16),  9: (0, 60),
-                  10: ( 0, 20), 11: (16, 16), 12: (0, 60)}
+      PUNYA_KAALA = {int(s): punyakaala_dict['PUNYA_KAALA'][s] for s in punyakaala_dict['PUNYA_KAALA']}
 
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       if self.daily_panchaangas[d].tropical_date_sunset.month_transition is not None:
