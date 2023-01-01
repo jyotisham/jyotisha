@@ -88,6 +88,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./hugo-source/content/output
           publish_branch: generated-output
+          keep_files: true
       - name: Deploy html
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.event_name != 'pull_request' && steps.hugo_build.conclusion == 'success'}}

@@ -68,6 +68,7 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./hugo-source/content/output
         publish_branch: generated-output
+        keep_files: true
 #      uses: s0/git-publish-subdir-action@develop
 #      env:
 #        REPO: self
