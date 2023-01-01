@@ -22,7 +22,7 @@ from indic_transliteration import sanscript
 class TithiFestivalAssigner(FestivalAssigner):
   def assign_all(self):
     self.assign_solar_sidereal_amaavaasyaa()
-    self.assign_ishti()
+    self.assign_ishti_sthaaliipaaka()
     self.assign_amaavaasya_vyatiipaata()
     # Force computation of chandra darshanam for bodhayana amavasya's sake
     self.assign_chandra_darshanam(force_computation=True)
@@ -396,7 +396,7 @@ class TithiFestivalAssigner(FestivalAssigner):
           pref = 'zani-'
         self.panchaanga.add_festival(fest_id=pref + 'pradOSa-vratam', date=self.daily_panchaangas[fday].date, interval_id="pradosha")
 
-  def assign_ishti(self):
+  def assign_ishti_sthaaliipaaka(self):
     if 'darsheShTiH' not in self.rules_collection.name_to_rule:
       return
     tithi_finder = zodiac.AngaSpanFinder.get_cached(ayanaamsha_id=Ayanamsha.CHITRA_AT_180,
@@ -404,6 +404,8 @@ class TithiFestivalAssigner(FestivalAssigner):
     # Three additional days of calculations suffice
     tithi_list = tithi_finder.get_all_angas_in_period(jd1=self.panchaanga.jd_start, jd2=self.panchaanga.jd_end+3)
     ishti_names = {15: 'pUrNamAseShTiH', 30: 'darsheShTiH'}
+    # sthaaliipaaka_names = {15: 'pUrNasthAlIpAkaH', 30: 'darshasthAlIpAkaH'}
+    sthaaliipaaka_names = {15: 'sthAlIpAkaH_16', 30: 'sthAlIpAkaH_1'}
     sandhi = []
 
     # Leave out last two tithis, in case they are parva and a prathama without jd_end
@@ -420,8 +422,10 @@ class TithiFestivalAssigner(FestivalAssigner):
       fday_midday = 0.5 * (p_fday.jd_sunrise + p_fday.jd_sunset)
       if sandhi_jd < fday_midday:
         self.panchaanga.add_festival(ishti_names[parva_ID], p_fday.date)
+        self.panchaanga.add_festival(sthaaliipaaka_names[parva_ID], p_fday.date)
       else:
         self.panchaanga.add_festival(ishti_names[parva_ID], p_fday.date + 1)
+        self.panchaanga.add_festival(sthaaliipaaka_names[parva_ID], p_fday.date + 1)
 
 
   def assign_solar_sidereal_amaavaasyaa(self):
