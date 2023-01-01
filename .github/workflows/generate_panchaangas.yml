@@ -15,8 +15,9 @@ on:
 #    - cron: '0 * * * *'
   workflow_dispatch:
     inputs:
-      logLevel:
-        default: 'warning'
+      year:
+        default: '2023'
+        required: false
 
 jobs:
   generate:
@@ -33,9 +34,10 @@ jobs:
         fetch-depth: 1 # Because of this, you will fail to push refs to dest repo
     - name: Get current date
       id: date
+      if: "${{ github.event.inputs.year == '' }}"
       run: | #     No space after + above.
         echo "date={$(date +'%Y-%m-%d')}" >> $GITHUB_OUTPUT
-        echo "next_year=$(date +'%Y' --date='+1 year')" >> $GITHUB_OUTPUT
+        echo "year=$(date +'%Y' --date='+1 year')" >> $GITHUB_OUTPUT
         cat $GITHUB_OUTPUT
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v1
@@ -50,7 +52,7 @@ jobs:
         python -m pip install .
     - name: Regenerate calendars
       run: |
-        python -m "jyotisha.panchaanga.writer.generation_project" --year=${{ steps.date.outputs.next_year }}
+        python -m "jyotisha.panchaanga.writer.generation_project" --year=${{ steps.date.outputs.year }}{{github.event.inputs.year}}
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
