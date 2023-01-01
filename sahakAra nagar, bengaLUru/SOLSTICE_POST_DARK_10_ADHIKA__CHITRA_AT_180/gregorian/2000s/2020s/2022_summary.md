@@ -27,8 +27,8 @@ saturn = 15
 #### Event options
  ```
 aparaahna_as_second_half = true
-julian_handling = "converted to Gregorian"
 prefer_eight_fold_day_division = true
+julian_handling = "converted to Gregorian"
 jsonClass = "FestivalOptions"
 
 ```
