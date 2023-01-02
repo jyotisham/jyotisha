@@ -424,16 +424,16 @@ class RulesCollection(common.JsonObject):
     for anga in angas:
       from jyotisha.panchaanga.temporal.zodiac.angas import Tithi
       if month_type == RulesRepo.LUNAR_MONTH_DIR:
-        m = _get_month(anga)
-        months_list = [m, 0]
-        is_adhika = int(m) != m
+        _m = _get_month(anga)
+        months_list = [_m, 0]
+        is_adhika = int(_m) != _m
 
         if not is_adhika:
           # Add the adhika masa also
-          months_list.append(m - 0.5)
+          months_list.append(_m - 0.5)
         else:
           # Add the nija masa also
-          months_list.append(m + 0.5)
+          months_list.append(_m + 0.5)
       else:
         months_list = [month, 0]
 
