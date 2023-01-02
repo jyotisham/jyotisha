@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230102222233
+SEQUENCE:20230102222928
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -31269,6 +31269,23 @@ DESCRIPTION:- Indian civil date: 1945-05-10\, Islamic: 1445-01-14 Al-Muḥ
  00  \n___________________\n- **शूलम्**—उदीची (►11:
  10)\; **परिहारः**–क्षीरम्  \n_______________
  ____\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अधिक-मास-पूर्णिमा
+DTSTART;VALUE=DATE:20230801
+DTEND;VALUE=DATE:20230802
+DESCRIPTION:Observed on Paurṇamāsī tithi of every (lunar) month (Sūry
+ ōdayaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit config f
+ ile](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_mont
+ h/tithi/00/15/adhika-mAsa-pUrNimA.toml)<br/>- Tags: SpecialFestivals Speci
+ alPeriodEnd
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
