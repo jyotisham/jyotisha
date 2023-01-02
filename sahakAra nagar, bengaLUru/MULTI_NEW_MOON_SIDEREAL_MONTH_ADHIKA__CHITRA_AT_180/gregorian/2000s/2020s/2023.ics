@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230102102456
+SEQUENCE:20230102122418
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -29479,23 +29479,6 @@ DESCRIPTION:Observed on Amāvāsyā tithi of Āṣāḍhaḥ (lunar) month
   (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit
   config file](https://github.com/jyotisham/adyatithi/blob/master/general/l
  unar_month/tithi/04/30/ASADha-snAnapUrtiH.toml)<br/>- Tags: SpecialSnanam
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:अधिक-मास-समापनम्
-DTSTART;VALUE=DATE:20230717
-DTEND;VALUE=DATE:20230718
-DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Sūryōd
- ayaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit config file
- ](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/t
- ithi/00/30/adhika-mAsa-samApanam.toml)<br/>- Tags: SpecialFestivals Specia
- lPeriodEnd
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
