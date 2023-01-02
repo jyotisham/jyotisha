@@ -437,6 +437,14 @@ class RulesCollection(common.JsonObject):
       else:
         months_list = [month, 0]
 
+      if int(month) != month:
+        if month - 1 in months_list:
+          # Previous "adhika" does not exist - added because we are looking at the month of the supplied angas
+          months_list.remove(month - 1)
+        if month - 0.5 in months_list:
+          # Previous maasa is also not relevant!
+          months_list.remove(month - 0.5)
+
       for m in months_list:
         new_fests = self.get_month_anga_fests(month_type=month_type, month=m, anga_type_id=anga_type_id, anga=anga)
         if month_type == RulesRepo.LUNAR_MONTH_DIR:
@@ -447,6 +455,22 @@ class RulesCollection(common.JsonObject):
             _filter_by_adhikamaasa_relevance(month=m, fest_dict=new_fests)
         fest_dict.update(new_fests)
 
+    def _check_month_tithi_match(month, angas):
+      for anga in angas:
+        if anga.month.index in (month, fest_rule.timing.month_number) and anga.index == fest_rule.timing.anga_number:
+          return True
+      return False
+
+    del_fest = []
+    for fest in fest_dict:
+      fest_rule = fest_dict[fest]
+      if fest_rule.timing.anga_type == 'tithi' and fest_rule.timing.month_type == RulesRepo.LUNAR_MONTH_DIR:
+        if not _check_month_tithi_match(month, angas):
+          del_fest.append(fest)
+
+    if del_fest:
+      for fest in del_fest:
+        del fest_dict[fest]
 
     return fest_dict
   
