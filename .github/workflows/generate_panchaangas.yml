@@ -16,8 +16,9 @@ on:
   workflow_dispatch:
     inputs:
       year:
-        default: '2023'
+        default: ''
         required: false
+        description: 'Eg. 2023'
 
 jobs:
   generate:
