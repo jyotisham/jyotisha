@@ -178,7 +178,7 @@ class Tithi(Anga):
     return Tithi(index=anga.index, month=month)
 
   def __repr__(self):
-    return "%s: %02d:%02d" % (self.anga_type_id, self.month.index, self.index)
+    return "%s: %4.1f:%02d" % (self.anga_type_id, self.month.index, self.index)
 
 
 class BoundaryAngas(common.JsonObject):
