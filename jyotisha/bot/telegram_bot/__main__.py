@@ -1,6 +1,6 @@
 import argparse
 
-from jyotisha.bot.telegram import send_panchaanga
+from jyotisha.bot.telegram_bot import send_panchaanga
 from jyotisha.panchaanga import spatio_temporal
 
 # Example arguments:
@@ -14,7 +14,9 @@ parser.add_argument('--computation_system_str', type=str, nargs='?')
 parser.add_argument('--md_url_base', type=str, nargs='?')
 parser.add_argument('--html_url_base', type=str, nargs='?')
 parser.add_argument('--date', type=str, default=None, nargs='?')
+# noinspection PyTypeChecker
 parser.add_argument('--next_day', action=argparse.BooleanOptionalAction, default=False)
+# noinspection PyTypeChecker
 parser.add_argument('--dry_run', action=argparse.BooleanOptionalAction, default=False)
 args = parser.parse_args()
 
