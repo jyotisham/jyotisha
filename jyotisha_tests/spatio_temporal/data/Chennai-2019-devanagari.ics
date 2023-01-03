@@ -36480,15 +36480,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sāvitrya-kalpādiḥ
+SUMMARY:sāvitra-kalpādiḥ
 DTSTART;VALUE=DATE:20191103
 DTEND;VALUE=DATE:20191104
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tithi/08/07/sAvitr
- ya-kalpAdiH.toml)<br/>- Tags: KalpadiDays<br/><br/><br/><br/>## Details<br
- />- References<br/>  - Smriti Kaustubham p.87--88<br/>- [Edit config file]
- (https://github.com/jyotisham/adyatithi/blob/master/time_focus/yugAdiH/lun
- ar_month/tithi/08/07/sAvitrya-kalpAdiH.toml)<br/>- Tags: KalpadiDays
+ a-kalpAdiH.toml)<br/>- Tags: KalpadiDays<br/><br/><br/><br/>## Details<br/
+ >- References<br/>  - Smriti Kaustubham p.87--88<br/>- [Edit config file](
+ https://github.com/jyotisham/adyatithi/blob/master/time_focus/yugAdiH/luna
+ r_month/tithi/08/07/sAvitra-kalpAdiH.toml)<br/>- Tags: KalpadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE

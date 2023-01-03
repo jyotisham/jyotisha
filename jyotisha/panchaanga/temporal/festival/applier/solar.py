@@ -432,6 +432,8 @@ class SolarFestivalAssigner(FestivalAssigner):
         #   self.panchaanga.add_festival(fest_id='viSukkan2i', date=self.daily_panchaangas[d + 1].date)
 
   def assign_saayana_vyatipata_vaidhrti(self):
+    if 'sAyana-vyatIpAtaH' not in self.rules_collection.name_to_rule:
+      return 
     yoga_pada_finder = zodiac.AngaSpanFinder.get_cached(ayanaamsha_id=Ayanamsha.VERNAL_EQUINOX_AT_0, anga_type=zodiac.AngaType.YOGA_PADA)
     yoga_pada_list = yoga_pada_finder.get_all_angas_in_period(jd1=self.panchaanga.jd_start, jd2=self.panchaanga.jd_end + 1)
     jd_start = jd_end = None
