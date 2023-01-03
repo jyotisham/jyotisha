@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230102223523
+SEQUENCE:20230103201658
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -185,16 +185,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;TZID=Asia/Calcutta:20230103T155342
-DTEND;TZID=Asia/Calcutta:20230104T000000
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:माघः-11-13  \,  वृषभः-रोहिणी🌛🌌
    \,  धनुः-पूर्वाषाढा-09-20🌞🌌  \,  स
  हस्यः-10-14🌞🪐  \,  बुधः
@@ -250,16 +240,6 @@ DESCRIPTION:- Indian civil date: 1944-10-14\, Islamic: 1444-06-11 Jumādā
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;TZID=Asia/Calcutta:20230104T000000
-DTEND;TZID=Asia/Calcutta:20230104T161253
-DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -1066,16 +1046,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;TZID=Asia/Calcutta:20230117T054906
-DTEND;TZID=Asia/Calcutta:20230117T000000
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:माघः-11-25  \,  तुला-विशाखा🌛🌌  \
  ,  मकरः-उत्तराषाढा-10-03🌞🌌  \,  सह
  स्यः-10-27🌞🪐  \,  मङ्गलः
@@ -1126,19 +1096,6 @@ DESCRIPTION:- Indian civil date: 1944-10-27\, Islamic: 1444-06-24 Jumādā
  टः**—09:39-11:04\; **गुलिककालः**—12:29-13:54  \n
  ___________________\n- **शूलम्**—उदीची (►11:21)\; 
  **परिहारः**–क्षीरम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;VALUE=DATE:20230117
-DTEND;VALUE=DATE:20230118
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1875,16 +1832,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;TZID=Asia/Calcutta:20230128T202905
-DTEND;TZID=Asia/Calcutta:20230129T000000
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:फाल्गुनः-12-08  \,  मेषः-अपभरण
  ी🌛🌌  \,  मकरः-श्रवणः-10-15🌞🌌  \,  तप
  ः-11-10🌞🪐  \,  भानुः
@@ -1937,16 +1884,6 @@ DESCRIPTION:- Indian civil date: 1944-11-09\, Islamic: 1444-07-07 Rajab\,
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;TZID=Asia/Calcutta:20230129T000000
-DTEND;TZID=Asia/Calcutta:20230129T195229
-DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -2804,16 +2741,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;TZID=Asia/Calcutta:20230211T132323
-DTEND;TZID=Asia/Calcutta:20230212T000000
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:फाल्गुनः-12-21  \,  तुला-स्वात
  ी🌛🌌  \,  मकरः-श्रविष्ठा-10-29🌞🌌  \
  ,  तपः-11-24🌞🪐  \,  भानुः
@@ -2867,16 +2794,6 @@ DESCRIPTION:- Indian civil date: 1944-11-23\, Islamic: 1444-07-21 Rajab\,
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;TZID=Asia/Calcutta:20230212T000000
-DTEND;TZID=Asia/Calcutta:20230212T123900
-DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -3632,19 +3549,6 @@ DESCRIPTION:- Indian civil date: 1944-12-04\, Islamic: 1444-08-02 Shaʿbā
  11:05  \n___________________\n- **शूलम्**—दक्षिण
  ा (►14:30)\; **परिहारः**–तैलम्  \n__________
  _________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;VALUE=DATE:20230223
-DTEND;VALUE=DATE:20230224
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4557,16 +4461,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;TZID=Asia/Calcutta:20230308T181616
-DTEND;TZID=Asia/Calcutta:20230309T000000
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:पूर्ण-स्थालीपाकः
 DTSTART;VALUE=DATE:20230308
 DTEND;VALUE=DATE:20230309
@@ -4644,16 +4538,6 @@ DESCRIPTION:- Indian civil date: 1944-12-18\, Islamic: 1444-08-16 Shaʿbā
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;TZID=Asia/Calcutta:20230309T000000
-DTEND;TZID=Asia/Calcutta:20230309T180707
-DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -5386,16 +5270,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;TZID=Asia/Calcutta:20230320T235411
-DTEND;TZID=Asia/Calcutta:20230321T000000
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:चैत्रः-01-30  \,  कुम्भः-पूर्व
  प्रोष्ठपदा🌛🌌  \,  मीनः-उत्तर
  प्रोष्ठपदा-12-07🌞🌌  \,  मधुः-01-01🌞
@@ -5476,16 +5350,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;TZID=Asia/Calcutta:20230321T000000
-DTEND;TZID=Asia/Calcutta:20230321T201954
-DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -6330,16 +6194,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;TZID=Asia/Calcutta:20230403T001357
-DTEND;TZID=Asia/Calcutta:20230403T000000
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:वैशाखः-02-12  \,  सिंहः-मघा🌛🌌  \
  ,  मीनः-रेवती-12-20🌞🌌  \,  मधुः-01-14🌞
  🪐  \,  सोमः
@@ -6396,19 +6250,6 @@ DESCRIPTION:- Indian civil date: 1945-01-13\, Islamic: 1444-09-12 Ramaḍ
  13:54-15:25  \n___________________\n- **शूलम्**—प्रा
  ची (►09:32)\; **परिहारः**–दधि  \n_____________
  ______\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;VALUE=DATE:20230403
-DTEND;VALUE=DATE:20230404
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7262,16 +7103,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;TZID=Asia/Calcutta:20230415T141855
-DTEND;TZID=Asia/Calcutta:20230416T000000
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:वैशाखः-02-26  \,  कुम्भः-शतभिष
  क्🌛🌌  \,  मेषः-अश्विनी-01-03🌞🌌  \,  
  मधुः-01-27🌞🪐  \,  भानुः
@@ -7327,16 +7158,6 @@ DESCRIPTION:- Indian civil date: 1945-01-26\, Islamic: 1444-09-25 Ramaḍ
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;TZID=Asia/Calcutta:20230416T000000
-DTEND;TZID=Asia/Calcutta:20230416T110853
-DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -8139,16 +7960,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;TZID=Asia/Calcutta:20230428T062829
-DTEND;TZID=Asia/Calcutta:20230429T000000
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-09  \,  कर्कटः-आश्
  रेषा🌛🌌  \,  मेषः-अपभरणी-01-16🌞🌌  \
  ,  माधवः-02-10🌞🪐  \,  शनिः
@@ -8202,16 +8013,6 @@ DESCRIPTION:- Indian civil date: 1945-02-09\, Islamic: 1444-10-08 Shawwāl
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;TZID=Asia/Calcutta:20230429T000000
-DTEND;TZID=Asia/Calcutta:20230429T072137
-DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -8955,16 +8756,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;TZID=Asia/Calcutta:20230511T020618
-DTEND;TZID=Asia/Calcutta:20230511T000000
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-21  \,  मकरः-उत्तर
  ाषाढा🌛🌌  \,  मेषः-अपभरणी-01-28🌞🌌
    \,  माधवः-02-22🌞🪐  \,  गुरुः
@@ -9016,19 +8807,6 @@ DESCRIPTION:- Indian civil date: 1945-02-21\, Islamic: 1444-10-20 Shawwāl
  10:41  \n___________________\n- **शूलम्**—दक्षिण
  ा (►14:21)\; **परिहारः**–तैलम्  \n__________
  _________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;VALUE=DATE:20230511
-DTEND;VALUE=DATE:20230511
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9827,16 +9605,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;TZID=Asia/Calcutta:20230523T134002
-DTEND;TZID=Asia/Calcutta:20230524T000000
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:आषाढः-04-05  \,  मिथुनम्-पुनर्
  वसुः🌛🌌  \,  वृषभः-कृत्तिका-02-10
  🌞🌌  \,  शुक्रः-03-04🌞🪐  \,  बुधः
@@ -9890,16 +9658,6 @@ DESCRIPTION:- Indian civil date: 1945-03-03\, Islamic: 1444-11-04 Ḏū al
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;TZID=Asia/Calcutta:20230524T000000
-DTEND;TZID=Asia/Calcutta:20230524T141056
-DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -10690,16 +10448,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;TZID=Asia/Calcutta:20230605T163025
-DTEND;TZID=Asia/Calcutta:20230606T000000
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:आषाढः-04-18  \,  धनुः-पूर्वाषा
  ढा🌛🌌  \,  वृषभः-रोहिणी-02-23🌞🌌  \,  
  शुक्रः-03-17🌞🪐  \,  मङ्गलः
@@ -10753,16 +10501,6 @@ DESCRIPTION:- Indian civil date: 1945-03-16\, Islamic: 1444-11-17 Ḏū al
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;TZID=Asia/Calcutta:20230606T000000
-DTEND;TZID=Asia/Calcutta:20230606T130306
-DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -11446,16 +11184,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;TZID=Asia/Calcutta:20230617T215934
-DTEND;TZID=Asia/Calcutta:20230618T000000
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:आषाढः-04-30  \,  मिथुनम्-मृगशी
  र्षम्🌛🌌  \,  मिथुनम्-मृगशीर्
  षम्-03-04🌞🌌  \,  शुक्रः-03-29🌞🪐  \,  भा
@@ -11547,19 +11275,6 @@ DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
  <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
  er/gRhya/Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.
  toml)<br/>- Tags: MonthlyFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;VALUE=DATE:20230618
-DTEND;VALUE=DATE:20230618
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12404,16 +12119,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;TZID=Asia/Calcutta:20230701T092931
-DTEND;TZID=Asia/Calcutta:20230702T000000
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:श्रावणः-05-14  \,  वृश्चिकः-ज्
  येष्ठा🌛🌌  \,  मिथुनम्-आर्द्र
  ा-03-18🌞🌌  \,  शुचिः-04-11🌞🪐  \,  भानुः
@@ -12468,16 +12173,6 @@ DESCRIPTION:- Indian civil date: 1945-04-11\, Islamic: 1444-12-13 Ḏū al
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;TZID=Asia/Calcutta:20230702T000000
-DTEND;TZID=Asia/Calcutta:20230702T062946
-DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -13269,16 +12964,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;TZID=Asia/Calcutta:20230713T055318
-DTEND;TZID=Asia/Calcutta:20230713T000000
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:श्रावणः-05-26  \,  वृषभः-कृत्त
  िका🌛🌌  \,  मिथुनम्-पुनर्वसुः-0
  3-29🌞🌌  \,  शुचिः-04-22🌞🪐  \,  गुरुः
@@ -13329,19 +13014,6 @@ DESCRIPTION:- Indian civil date: 1945-04-22\, Islamic: 1444-12-24 Ḏū al
  03-07:39\; **गुलिककालः**—09:14-10:50  \n______________
  _____\n- **शूलम्**—दक्षिणा (►14:32)\; **पर
  िहारः**–तैलम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;VALUE=DATE:20230713
-DTEND;VALUE=DATE:20230714
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14199,16 +13871,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;TZID=Asia/Calcutta:20230726T231658
-DTEND;TZID=Asia/Calcutta:20230727T000000
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:भाद्रपदः-06-09  \,  तुला-विशाख
  ा🌛🌌  \,  कर्कटः-पुष्यः-04-11🌞🌌  \,  
  नभः-05-05🌞🪐  \,  गुरुः
@@ -14259,19 +13921,6 @@ DESCRIPTION:- Indian civil date: 1945-05-05\, Islamic: 1445-01-09 Al-Muḥ
  ककालः**—09:16-10:51  \n___________________\n- **शूलम
  ्**—दक्षिणा (►14:32)\; **परिहारः**–त
  ैलम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;VALUE=DATE:20230727
-DTEND;VALUE=DATE:20230727
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15015,16 +14664,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;TZID=Asia/Calcutta:20230807T152644
-DTEND;TZID=Asia/Calcutta:20230808T000000
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:भाद्रपदः-06-23  \,  मेषः-अपभरण
  ी🌛🌌  \,  कर्कटः-आश्रेषा-04-23🌞🌌  \
  ,  नभः-05-17🌞🪐  \,  मङ्गलः
@@ -15079,16 +14718,6 @@ DESCRIPTION:- Indian civil date: 1945-05-17\, Islamic: 1445-01-21 Al-Muḥ
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;TZID=Asia/Calcutta:20230808T000000
-DTEND;TZID=Asia/Calcutta:20230808T134720
-DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -15960,16 +15589,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;TZID=Asia/Calcutta:20230821T070444
-DTEND;TZID=Asia/Calcutta:20230822T000000
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:आश्वयुजः-07-06  \,  तुला-चित्र
  ा🌛🌌  \,  सिंहः-मघा-05-06🌞🌌  \,  नभः-05
  -31🌞🪐  \,  मङ्गलः
@@ -16022,16 +15641,6 @@ DESCRIPTION:- Indian civil date: 1945-05-31\, Islamic: 1445-02-05 Ṣafar\
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;TZID=Asia/Calcutta:20230822T000000
-DTEND;TZID=Asia/Calcutta:20230822T071817
-DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -16765,19 +16374,6 @@ DESCRIPTION:- Indian civil date: 1945-06-11\, Islamic: 1445-02-16 Ṣafar\
  घण्टः**—13:51-15:23\; **गुलिककालः**—06:12-
  07:43  \n___________________\n- **शूलम्**—प्राची (
  ►09:27)\; **परिहारः**–दधि  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;VALUE=DATE:20230902
-DTEND;VALUE=DATE:20230903
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17631,16 +17227,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;TZID=Asia/Calcutta:20230915T121139
-DTEND;TZID=Asia/Calcutta:20230916T000000
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:दर्श-स्थालीपाकः
 DTSTART;VALUE=DATE:20230915
 DTEND;VALUE=DATE:20230916
@@ -17713,16 +17299,6 @@ DESCRIPTION:- Indian civil date: 1945-06-25\, Islamic: 1445-03-01 Rabīʿ
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;TZID=Asia/Calcutta:20230916T000000
-DTEND;TZID=Asia/Calcutta:20230916T125012
-DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -18401,16 +17977,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;TZID=Asia/Calcutta:20230928T012029
-DTEND;TZID=Asia/Calcutta:20230928T000000
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-14  \,  कुम्भः-प
  ूर्वप्रोष्ठपदा🌛🌌  \,  कन्या-
  हस्तः-06-12🌞🌌  \,  इषः-07-06🌞🪐  \,  गुर
@@ -18467,16 +18033,6 @@ DESCRIPTION:- Indian civil date: 1945-07-06\, Islamic: 1445-03-13 Rabīʿ
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;TZID=Asia/Calcutta:20230928T000000
-DTEND;TZID=Asia/Calcutta:20230928T212035
-DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -19282,16 +18838,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;TZID=Asia/Calcutta:20231010T170246
-DTEND;TZID=Asia/Calcutta:20231011T000000
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-27  \,  सिंहः-मघ
  ा🌛🌌  \,  कन्या-हस्तः-06-25🌞🌌  \,  इष
  ः-07-19🌞🪐  \,  बुधः
@@ -19346,16 +18892,6 @@ DESCRIPTION:- Indian civil date: 1945-07-19\, Islamic: 1445-03-26 Rabīʿ
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;TZID=Asia/Calcutta:20231011T000000
-DTEND;TZID=Asia/Calcutta:20231011T175611
-DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -20166,16 +19702,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;TZID=Asia/Calcutta:20231023T161145
-DTEND;TZID=Asia/Calcutta:20231024T000000
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-10  \,  कुम्भः-
  श्रविष्ठा🌛🌌  \,  तुला-चित्रा-0
  7-07🌞🌌  \,  ऊर्जः-08-01🌞🪐  \,  मङ्गलः
@@ -20231,16 +19757,6 @@ DESCRIPTION:- Indian civil date: 1945-08-02\, Islamic: 1445-04-09 Rabīʿ
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;TZID=Asia/Calcutta:20231024T000000
-DTEND;TZID=Asia/Calcutta:20231024T130012
-DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -21032,16 +20548,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;TZID=Asia/Calcutta:20231104T220746
-DTEND;TZID=Asia/Calcutta:20231105T000000
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-23  \,  कर्कटः-
  पुष्यः🌛🌌  \,  तुला-स्वाती-07-19🌞
  🌌  \,  ऊर्जः-08-13🌞🪐  \,  भानुः
@@ -21093,19 +20599,6 @@ DESCRIPTION:- Indian civil date: 1945-08-14\, Islamic: 1445-04-21 Rabīʿ
  —12:03-13:29\; **गुलिककालः**—14:55-16:22  \n________
  ___________\n- **शूलम्**—प्रतीची (►10:54)\; **
  परिहारः**–गुडम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;VALUE=DATE:20231105
-DTEND;VALUE=DATE:20231105
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21950,16 +21443,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;TZID=Asia/Calcutta:20231118T021630
-DTEND;TZID=Asia/Calcutta:20231118T000000
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:पौषः-10-05  \,  धनुः-उत्तराषाढ
  ा🌛🌌  \,  वृश्चिकः-विशाखा-08-02🌞🌌
    \,  ऊर्जः-08-26🌞🪐  \,  शनिः
@@ -22012,19 +21495,6 @@ DESCRIPTION:- Indian civil date: 1945-08-27\, Islamic: 1445-05-05 Jumādā
  23-07:48  \n___________________\n- **शूलम्**—प्राच
  ी (►09:25)\; **परिहारः**–दधि  \n________________
  ___\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;VALUE=DATE:20231118
-DTEND;VALUE=DATE:20231118
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22838,16 +22308,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;TZID=Asia/Calcutta:20231130T053110
-DTEND;TZID=Asia/Calcutta:20231130T000000
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:पौषः-10-18  \,  मिथुनम्-आर्द्र
  ा🌛🌌  \,  वृश्चिकः-अनूराधा-08-14🌞
  🌌  \,  सहः-09-08🌞🪐  \,  गुरुः
@@ -22900,19 +22360,6 @@ DESCRIPTION:- Indian civil date: 1945-09-09\, Islamic: 1445-05-17 Jumādā
  ककालः**—09:18-10:43  \n___________________\n- **शूलम
  ्**—दक्षिणा (►14:01)\; **परिहारः**–त
  ैलम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;VALUE=DATE:20231130
-DTEND;VALUE=DATE:20231201
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23788,16 +23235,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;TZID=Asia/Calcutta:20231213T133335
-DTEND;TZID=Asia/Calcutta:20231214T000000
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:दर्श-स्थालीपाकः
 DTSTART;VALUE=DATE:20231213
 DTEND;VALUE=DATE:20231214
@@ -23871,16 +23308,6 @@ DESCRIPTION:- Indian civil date: 1945-09-23\, Islamic: 1445-06-01 Jumādā
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;TZID=Asia/Calcutta:20231214T000000
-DTEND;TZID=Asia/Calcutta:20231214T104211
-DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -24554,16 +23981,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;TZID=Asia/Calcutta:20231225T140446
-DTEND;TZID=Asia/Calcutta:20231226T000000
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:माघः-11-15  \,  वृषभः-मृगशीर्ष
  म्🌛🌌  \,  धनुः-मूला-09-11🌞🌌  \,  सहस
  ्यः-10-05🌞🪐  \,  मङ्गलः
@@ -24637,16 +24054,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;TZID=Asia/Calcutta:20231226T000000
-DTEND;TZID=Asia/Calcutta:20231226T125150
-DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
