@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230103202215
+SEQUENCE:20230104203739
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -1160,6 +1160,29 @@ DESCRIPTION:- Indian civil date: 1944-10-18\, Islamic: 1444-06-15 Jumādā
  **—15:15-16:39  \n___________________\n- **शूलम्**—प्र
  तीची (►11:18)\; **परिहारः**–गुडम्  \n_
  __________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ज्ञानानन्द-गिरिः आराधना 
+ #४९
+DTSTART;VALUE=DATE:20230108
+DTEND;VALUE=DATE:20230109
+DESCRIPTION:Observed on Kr̥ṣṇa-Dvitīyā tithi of Dhanuḥ (sidereal 
+ solar) month (Aparāhṇaḥ/vyaapti). The event occurred in 5075 (Kali er
+ a).  <br/><br/><br/>Swami Gnanananda Giri is a famous saint\, who performe
+ d several years of penance in the Himalayas and performed pilgrimage acros
+ s Bharatam for several decades. He set up an ashram at Tirukkovilur which 
+ is popularly known as Tapovanam\, where He finally shed his mortal coils o
+ n mārgaśīrṣa-kr̥ṣṇa-dvitīyā in 1974.<br/><br/><br/><br/><br/><
+ br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyat
+ ithi/blob/master/mahApuruSha/general-indic-non-tropical/sidereal_solar_mon
+ th/tithi/09/17/JjAnAnanda-giriH~ArAdhanA.toml)<br/>- Tags: AradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -54650,16 +54673,16 @@ SUMMARY:ज्ञानानन्द-गिरिः आराधना
  #५०
 DTSTART;VALUE=DATE:20231228
 DTEND;VALUE=DATE:20231229
-DESCRIPTION:Observed on Kr̥ṣṇa-Dvitīyā tithi of Mārgaśīrṣaḥ 
- (lunar) month (Aparāhṇaḥ/vyaapti). The event occurred in 5075 (Kali e
- ra).  <br/><br/><br/>Swami Gnanananda Giri is a famous saint\, who perform
- ed several years of penance in the Himalayas and performed pilgrimage acro
- ss Bharatam for several decades. He set up an ashram at Tirukkovilur which
-  is popularly known as Tapovanam\, where He finally shed his mortal coils 
- on mārgaśīrṣa-kr̥ṣṇa-dvitīyā in 1974.<br/><br/><br/><br/><br/>
- <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
- tithi/blob/master/mahApuruSha/general-indic-non-tropical/lunar_month/tithi
- /09/17/JjAnAnanda-giriH~ArAdhanA.toml)<br/>- Tags: AradhanaDays
+DESCRIPTION:Observed on Kr̥ṣṇa-Dvitīyā tithi of Dhanuḥ (sidereal 
+ solar) month (Aparāhṇaḥ/vyaapti). The event occurred in 5075 (Kali er
+ a).  <br/><br/><br/>Swami Gnanananda Giri is a famous saint\, who performe
+ d several years of penance in the Himalayas and performed pilgrimage acros
+ s Bharatam for several decades. He set up an ashram at Tirukkovilur which 
+ is popularly known as Tapovanam\, where He finally shed his mortal coils o
+ n mārgaśīrṣa-kr̥ṣṇa-dvitīyā in 1974.<br/><br/><br/><br/><br/><
+ br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyat
+ ithi/blob/master/mahApuruSha/general-indic-non-tropical/sidereal_solar_mon
+ th/tithi/09/17/JjAnAnanda-giriH~ArAdhanA.toml)<br/>- Tags: AradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
