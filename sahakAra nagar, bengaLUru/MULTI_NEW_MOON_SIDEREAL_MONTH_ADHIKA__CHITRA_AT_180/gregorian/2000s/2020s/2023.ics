@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230104213223
+SEQUENCE:20230106132022
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -873,10 +873,10 @@ DTEND;VALUE=DATE:20230107
 DESCRIPTION:Observed on Paurṇamāsī tithi of Pauṣaḥ (lunar) month (
  Sūryōdayaḥ/puurvaviddha). The event occurred in 2618 (Kali era).  <br/
  ><br/><br/>Adi Shankara founded Sharada Mutt\, Shringagiri in Pingala year
-  Sureshwaracharya as first<br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/
- lunar_month/tithi/10/15/tuGgabhadrA~zRGagirI_zAradAmaTha-pratiSThApana~jay
- antI.toml)<br/>- Tags: AdiShankaraHistory
+ .<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisha
+ m/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/10/15/t
+ uGgabhadrA~zRGagirI_zAradAmaTha-pratiSThApana~jayantI.toml)<br/>- Tags: Ad
+ iShankaraHistory
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
