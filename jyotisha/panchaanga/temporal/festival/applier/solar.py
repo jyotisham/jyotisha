@@ -100,7 +100,11 @@ class SolarFestivalAssigner(FestivalAssigner):
         punya_kaala_start_jd = max(punya_kaala_start_jd, self.daily_panchaangas[fday].jd_sunrise) 
         punya_kaala_end_jd = min(punya_kaala_end_jd, self.daily_panchaangas[fday].jd_sunset) 
         if punya_kaala_end_jd > punya_kaala_start_jd:
-          self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=punya_kaala_str, interval=Interval(jd_start=punya_kaala_start_jd, jd_end=punya_kaala_end_jd)), date=self.daily_panchaangas[fday].date)
+          self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=punya_kaala_str, interval=Interval(jd_start=punya_kaala_start_jd, jd_end=punya_kaala_end_jd)),
+                                                date=self.daily_panchaangas[fday].date)
+        else:
+          self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=punya_kaala_str, interval=Interval(jd_start=None, jd_end=None)),
+                                                date=self.daily_panchaangas[fday].date)
 
         if sankranti_id not in [2, 5, 8, 11]: # these cases are redundant!
           saamaanya_punya_kaala_start_jd = jd_transition - 16 * 1/60
@@ -162,6 +166,9 @@ class SolarFestivalAssigner(FestivalAssigner):
         punya_kaala_end_jd = min(punya_kaala_end_jd, self.daily_panchaangas[fday].jd_sunset) 
         if punya_kaala_end_jd > punya_kaala_start_jd:
           self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=punya_kaala_str, interval=Interval(jd_start=punya_kaala_start_jd, jd_end=punya_kaala_end_jd)), date=self.daily_panchaangas[fday].date)
+        else:
+          self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=punya_kaala_str, interval=Interval(jd_start=None, jd_end=None)),
+                                                date=self.daily_panchaangas[fday].date)
 
         if sankranti_id not in [2, 5, 8, 11]: # these cases are redundant!
           saamaanya_punya_kaala_start_jd = jd_transition - 16 * 1/60
