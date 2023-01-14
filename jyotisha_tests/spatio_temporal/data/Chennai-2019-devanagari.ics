@@ -1291,8 +1291,8 @@ SUMMARY:Bhōgi
 DTSTART;VALUE=DATE:20190114
 DTEND;VALUE=DATE:20190115
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/tamil/relative_event/makara-saGkrAntiH/offset__-1
- /bhOgi.toml)<br/>- Tags: CommonFestivals
+ am/adyatithi/blob/master/tamil/relative_event/makara-saGkramaNa-puNyakAlaH
+ /offset__-1/bhOgi.toml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1388,13 +1388,13 @@ SUMMARY:Madhurai Mīnākṣī Kōyilil Kal Yānaikku Karumbu Kōḍutta L
 DTSTART;VALUE=DATE:20190115
 DTEND;VALUE=DATE:20190116
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/temples/Tamil/relative_event/makara-saGkrAntiH/of
- fset__00/madhurai_mIn2AkSI_kOyilil_kal_yAn2aikku_karumbu_kODutta_lIlai.tom
- l)<br/>- Tags: TamilnaduTempleFestivals<br/><br/><br/><br/>## Details<br/>
- - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/te
- mples/Tamil/relative_event/makara-saGkrAntiH/offset__00/madhurai_mIn2AkSI_
- kOyilil_kal_yAn2aikku_karumbu_kODutta_lIlai.toml)<br/>- Tags: TamilnaduTem
- pleFestivals
+ am/adyatithi/blob/master/temples/Tamil/relative_event/makara-saGkramaNa-pu
+ NyakAlaH/offset__00/madhurai_mIn2AkSI_kOyilil_kal_yAn2aikku_karumbu_kODutt
+ a_lIlai.toml)<br/>- Tags: TamilnaduTempleFestivals<br/><br/><br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/temples/Tamil/relative_event/makara-saGkramaNa-puNyakAlaH/offset_
+ _00/madhurai_mIn2AkSI_kOyilil_kal_yAn2aikku_karumbu_kODutta_lIlai.toml)<br
+ />- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1422,14 +1422,20 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:makara-saṅkrāntiḥ
-DTSTART;VALUE=DATE:20190115
-DTEND;VALUE=DATE:20190116
-DESCRIPTION:Observed on day 1 of Makaraḥ (sidereal solar) month (Sūryō
- dayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAn
- ti/sidereal_solar_month/day/10/01/makara-saGkrAntiH.toml)<br/>- Tags: Comm
- onFestivals SunSankranti
+SUMMARY:makara-saṅkramaṇa-puṇyakālaḥ
+DTSTART;VALUE=DATE:20190114
+DTEND;VALUE=DATE:20190115
+DESCRIPTION:Makara-Saṅkramaṇa Punyakala.<br/><br/>jhaṣapravēśē d
+ ārūṇāṁ dānamagnēstathaiva ca॥  <br/>---smr̥tikaustubhē  <br/>
+ saṅkrāntisnānākaraṇē pratyavāyamāha śātātapaḥ—  <br/>sūr
+ yasaṅkramaṇē puṇyē na snāyādyadi mānavaḥ।  <br/>saptajanmas
+ u rōgī syād duḥkhabhāgī ca jāyatē॥  <br/>saṅkrāntyāṁ yān
+ i dattāni havyakavyāni mānavaiḥ।  <br/>tāni tasya dadātyarkaḥ s
+ aptajanmasu niścitam॥  <br/>(smr̥timuktāphalē āhnika-kāṇḍē-p
+ ūrvabhāgaḥ)<br/><br/><br/><br/>## Details<br/>- [Edit config file](htt
+ ps://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/descr
+ iption_only/makara-saGkramaNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti Co
+ mmonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1507,8 +1513,8 @@ SUMMARY:indra-pūjā/gō-pūjā
 DTSTART;VALUE=DATE:20190116
 DTEND;VALUE=DATE:20190117
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/general/relative_event/makara-saGkrAntiH/offset__
- 01/indra-pUjA_or_gO-pUjA.toml)<br/>- Tags: SpecialPuja
+ am/adyatithi/blob/master/general/relative_event/makara-saGkramaNa-puNyakAl
+ aH/offset__01/indra-pUjA_or_gO-pUjA.toml)<br/>- Tags: SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1540,8 +1546,8 @@ SUMMARY:Kanup Poṅgal
 DTSTART;VALUE=DATE:20190116
 DTEND;VALUE=DATE:20190117
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/tamil/relative_event/makara-saGkrAntiH/offset__01
- /kan2up~poGgal.toml)<br/>- Tags: CommonFestivals
+ am/adyatithi/blob/master/tamil/relative_event/makara-saGkramaNa-puNyakAlaH
+ /offset__01/kan2up~poGgal.toml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2350,10 +2356,10 @@ DTEND;VALUE=DATE:20190122
 DESCRIPTION:Observed on Paurṇamāsī tithi of Pauṣaḥ (lunar) month (
  Sūryōdayaḥ/puurvaviddha). The event occurred in 2618 (Kali era).  <br/
  ><br/><br/>Adi Shankara founded Sharada Mutt\, Shringagiri in Pingala year
-  Sureshwaracharya as first<br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/
- lunar_month/tithi/10/15/tuGgabhadrA~zRGagirI_zAradAmaTha-pratiSThApana~jay
- antI.toml)<br/>- Tags: AdiShankaraHistory
+ .<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisha
+ m/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/10/15/t
+ uGgabhadrA~zRGagirI_zAradAmaTha-pratiSThApana~jayantI.toml)<br/>- Tags: Ad
+ iShankaraHistory
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2882,15 +2888,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:vivēkānanda-jayantī #157
+SUMMARY:vivēkānanda-janmadinam #157
 DTSTART;VALUE=DATE:20190127
 DTEND;VALUE=DATE:20190128
 DESCRIPTION:Observed on Kr̥ṣṇa-Saptamī tithi of Pauṣaḥ (lunar) m
  onth (Sūryōdayaḥ/puurvaviddha). The event occurred in 4963 (Kali era).
    <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://git
  hub.com/jyotisham/adyatithi/blob/master/mahApuruSha/smArta-misc/lunar_mont
- h/tithi/10/22/vivEkAnanda~jayantI.toml)<br/>- Tags: MahapurushaEvents Comm
- onFestivals
+ h/tithi/10/22/vivEkAnanda~janmadinam.toml)<br/>- Tags: MahapurushaEvents C
+ ommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5363,6 +5369,26 @@ DESCRIPTION:- Indian civil date: 1940-11-29\, Islamic: 1440-06-12 Jumādā
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(sāyana) ṣaḍaśīti-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta:20190217T235957
+DTEND;TZID=Asia/Calcutta:20190218T235957
+DESCRIPTION:Ṣaḍaśīti Punyakala.<br/><br/>saṅkrāntisnānākaraṇ
+ ē pratyavāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇē puṇyē
+  na snāyādyadi mānavaḥ।  <br/>saptajanmasu rōgī syād duḥkhabh
+ āgī ca jāyatē॥  <br/>saṅkrāntyāṁ yāni dattāni havyakavyāni 
+ mānavaiḥ।  <br/>tāni tasya dadātyarkaḥ saptajanmasu niścitam॥ 
+  <br/>(smr̥timuktāphalē āhnika-kāṇḍē-pūrvabhāgaḥ)  <br/>ṣa
+ ḍaśītyāṁ tu yaddattaṁ yaddattaṁ viṣuvadvayē।  <br/>dr̥śy
+ atē sāgarasyāntastasyāntō naiva dr̥śyatē॥  <br/>---smr̥tikaustu
+ bhē<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
+ .com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only
+ /SaDazIti-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -8512,6 +8538,27 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:(sāyana) viṣu-puṇyakālaḥ
+DTSTART;VALUE=DATE:20190319
+DTEND;VALUE=DATE:20190320
+DESCRIPTION:Viṣu Punyakala.<br/><br/>saṅkrāntisnānākaraṇē pratya
+ vāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇē puṇyē na snāy
+ ādyadi mānavaḥ।  <br/>saptajanmasu rōgī syād duḥkhabhāgī ca j
+ āyatē॥  <br/>saṅkrāntyāṁ yāni dattāni havyakavyāni mānavai
+ ḥ।  <br/>tāni tasya dadātyarkaḥ saptajanmasu niścitam॥  <br/>(s
+ mr̥timuktāphalē āhnika-kāṇḍē-pūrvabhāgaḥ)<br/><br/><br/><br/
+ >## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatith
+ i/blob/master/time_focus/sankrAnti/description_only/viSu-puNyakAlaH.toml)<
+ br/>- Tags: SunSankranti CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:hōlikā-pūrṇimā
 DTSTART;VALUE=DATE:20190320
 DTEND;VALUE=DATE:20190321
@@ -11414,17 +11461,17 @@ BEGIN:VEVENT
 SUMMARY:mēṣa-saṅkramaṇa-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta:20190414T095357
 DTEND;TZID=Asia/Calcutta:20190414T175354
-DESCRIPTION:Meṣa-Saṅkramaṇa Punyakala.<br/><br/>mēṣa saṁkrama
- ṇē bhānōrmēṣadānaṁ mahāphalam॥  <br/>---smr̥tikaustubhē  <
- br/>saṅkrāntisnānākaraṇē pratyavāyamāha śātātapaḥ—  <br/>
- sūryasaṅkramaṇē puṇyē na snāyādyadi mānavaḥ।  <br/>saptaja
- nmasu rōgī syād duḥkhabhāgī ca jāyatē॥  <br/>saṅkrāntyāṁ 
- yāni dattāni havyakavyāni mānavaiḥ।  <br/>tāni tasya dadātyarka
- ḥ saptajanmasu niścitam॥  <br/>(smr̥timuktāphalē āhnika-kāṇḍ
- ē-pūrvabhāgaḥ)<br/><br/><br/><br/>## Details<br/>- [Edit config file]
- (https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/d
- escription_only/mESa-saGkramaNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti 
- CommonFestivals
+DESCRIPTION:Meṣa-Saṅkramaṇa Punyakala. Tamil New Year.<br/><br/>mē
+ ṣa saṁkramaṇē bhānōrmēṣadānaṁ mahāphalam॥  <br/>---smr̥
+ tikaustubhē  <br/>saṅkrāntisnānākaraṇē pratyavāyamāha śātāta
+ paḥ—  <br/>sūryasaṅkramaṇē puṇyē na snāyādyadi mānavaḥ
+ ।  <br/>saptajanmasu rōgī syād duḥkhabhāgī ca jāyatē॥  <br/>s
+ aṅkrāntyāṁ yāni dattāni havyakavyāni mānavaiḥ।  <br/>tāni t
+ asya dadātyarkaḥ saptajanmasu niścitam॥  <br/>(smr̥timuktāphalē 
+ āhnika-kāṇḍē-pūrvabhāgaḥ)<br/><br/><br/><br/>## Details<br/>- [
+ Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_
+ focus/sankrAnti/description_only/mESa-saGkramaNa-puNyakAlaH.toml)<br/>- Ta
+ gs: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -34642,6 +34689,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:tulā-saṅkramaṇa-puṇyakālaḥ
+DTSTART;VALUE=DATE:20191017
+DTEND;VALUE=DATE:20191018
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/sankrAnti/description_only/tulA-saGkra
+ maNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals<br/><br/><b
+ r/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/a
+ dyatithi/blob/master/time_focus/sankrAnti/description_only/tulA-saGkramaNa
+ -puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Āśvayujaḥ-07-20  \,  Mithunam-Mr̥gaśīrṣam🌛🌌  \,  Tu
  lā-Citrā-07-02🌞🌌  \,  Iṣaḥ-07-27🌞🪐  \,  Śaniḥ
 DTSTART;TZID=Asia/Calcutta:20191019T060315
@@ -39072,6 +39137,26 @@ DESCRIPTION:- Indian civil date: 1941-09-01\, Islamic: 1441-03-24 Rabīʿ
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(sāyana) ṣaḍaśīti-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta:20191121T235957
+DTEND;TZID=Asia/Calcutta:20191122T235957
+DESCRIPTION:Ṣaḍaśīti Punyakala.<br/><br/>saṅkrāntisnānākaraṇ
+ ē pratyavāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇē puṇyē
+  na snāyādyadi mānavaḥ।  <br/>saptajanmasu rōgī syād duḥkhabh
+ āgī ca jāyatē॥  <br/>saṅkrāntyāṁ yāni dattāni havyakavyāni 
+ mānavaiḥ।  <br/>tāni tasya dadātyarkaḥ saptajanmasu niścitam॥ 
+  <br/>(smr̥timuktāphalē āhnika-kāṇḍē-pūrvabhāgaḥ)  <br/>ṣa
+ ḍaśītyāṁ tu yaddattaṁ yaddattaṁ viṣuvadvayē।  <br/>dr̥śy
+ atē sāgarasyāntastasyāntō naiva dr̥śyatē॥  <br/>---smr̥tikaustu
+ bhē<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
+ .com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only
+ /SaDazIti-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
