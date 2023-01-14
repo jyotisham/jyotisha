@@ -85,7 +85,6 @@ def get_shraaddha_tithi_data_str(daily_panchaanga, scripts, time_format):
           t3 += ' (%s)' % names.NAMES['RASHI_NAMES']['sa'][scripts[0]][daily_panchaanga.shraaddha_tithi[2][0]]
         stithi_data_str = '%s/%s/%s (%s)' % \
                                 (t1.split('-')[-1], t2.split('-')[-1], t3.split('-')[-1], jyotisha.custom_transliteration.tr('tithitrayam', scripts[0]))
-
       else:
         stithi_data_str = '%s' % (t1.split('-')[-1])
   return stithi_data_str
