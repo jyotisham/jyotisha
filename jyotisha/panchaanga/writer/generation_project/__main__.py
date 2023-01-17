@@ -17,7 +17,7 @@ year = args.year
 
 # bengaLUru
 # Used by https://t.me/bengaluru_panchaanga
-# generation_project.dump_detailed(year=year, city=bengaLUru, year_type=era.ERA_GREGORIAN, computation_system=temporal.get_kauNdinyaayana_bhaaskara_gRhya_computation_system())
+generation_project.dump_detailed(year=year, city=bengaLUru, year_type=era.ERA_GREGORIAN, computation_system=temporal.get_kauNdinyaayana_bhaaskara_gRhya_computation_system())
 generation_project.dump_detailed(year=year, city=bengaLUru, year_type=era.ERA_GREGORIAN, computation_system=temporal.get_vishvaasa_bhaaskara_computation_system())
 generation_project.dump_detailed(year=year, city=chennai, year_type=era.ERA_GREGORIAN)
 
