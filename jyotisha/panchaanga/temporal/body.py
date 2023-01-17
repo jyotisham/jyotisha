@@ -96,7 +96,7 @@ class Graha(JsonObject):
 
     transits = []
     arc_length = anga_type.arc_length
-    MIN_JUMP = min(1, jd_end-jd_start)
+    MIN_JUMP = min(1.0, jd_end - jd_start)
     # TODO: Could be tweaked based on planet using a dict?
 
     curr_L_bracket = jd_start

@@ -2,7 +2,7 @@ import math
 from numbers import Number
 
 import methodtools
-from jyotisha.panchaanga.temporal import names
+from jyotisha.panchaanga.temporal import names, Graha
 
 from sanskrit_data.schema import common
 from indic_transliteration import sanscript
@@ -24,15 +24,15 @@ class AngaType(common.JsonObject):
   SOLAR_NAKSH = None
   SOLAR_NAKSH_PADA = None
   SAMVATSARA = None
+  DEGREE = None
 
-  def __init__(self, name, name_hk, num_angas, weight_moon, weight_sun, mean_period_days=None, names_dict=None):
+  def __init__(self, name, name_hk, num_angas, body_weights={}, mean_period_days=None, names_dict=None):
     super(AngaType, self).__init__()
     self.name = name
     self.name_hk = name_hk
     self.num_angas = num_angas
     self.arc_length = 360.0 / num_angas
-    self.weight_moon = weight_moon
-    self.weight_sun = weight_sun
+    self.body_weights = body_weights
     self.mean_period_days = mean_period_days
     if names_dict is None:
       if name == 'SOLAR_NAKSH':
@@ -68,20 +68,26 @@ class AngaType(common.JsonObject):
 
 
 
-AngaType.TITHI = AngaType(name='TITHI', name_hk="tithiH", num_angas=30, weight_moon=1, weight_sun=-1, mean_period_days=29.530588)
-AngaType.TITHI_PADA = AngaType(name='TITHI_PADA', name_hk="tithi-pAdaH", num_angas=120, weight_moon=1, weight_sun=-1, mean_period_days=29.530588)
-AngaType.NAKSHATRA = AngaType(name='NAKSHATRA', name_hk="nakSatram", num_angas=27, weight_moon=1, weight_sun=0, mean_period_days=27.321661)
-AngaType.NAKSHATRA_PADA = AngaType(name='NAKSHATRA_PADA', name_hk="nakSatra-pAdaH", num_angas=108, weight_moon=1, weight_sun=0, mean_period_days=27.321661)
-AngaType.RASHI = AngaType(name='RASHI', name_hk="rAshiH", num_angas=12, weight_moon=1, weight_sun=0, mean_period_days=27.321661)
-AngaType.YOGA = AngaType(name='YOGA', name_hk="yOgaH", num_angas=27, weight_moon=1, weight_sun=1, mean_period_days=29.541)
-AngaType.YOGA_PADA = AngaType(name='YOGA_PADA', name_hk="yOga-pAdaH", num_angas=108, weight_moon=1, weight_sun=1, mean_period_days=29.541)
-AngaType.KARANA = AngaType(name='KARANA', name_hk="karaNam", num_angas=60, weight_moon=1, weight_sun=-1, mean_period_days=29.4)
-AngaType.DEGREE = AngaType(name='DEGREE', name_hk=None, num_angas=360, weight_moon=None, weight_sun=None)
-AngaType.SIDEREAL_MONTH = AngaType(name='SIDEREAL_MONTH', name_hk="rAzi-mAsaH", num_angas=12, weight_moon=0, weight_sun=1, mean_period_days=365.242)
-AngaType.TROPICAL_MONTH = AngaType(name='TROPICAL_MONTH', name_hk="Artava-mAsaH", num_angas=12, weight_moon=0, weight_sun=1, mean_period_days=365.242)
-AngaType.SOLAR_NAKSH = AngaType(name='SOLAR_NAKSH', name_hk="saura-nakSatram", num_angas=27, weight_moon=0, weight_sun=1, mean_period_days=365.242)
-AngaType.SOLAR_NAKSH_PADA = AngaType(name='SOLAR_NAKSH_PADA', name_hk="saura-nakSatra-pAdaH", num_angas=108, weight_moon=0, weight_sun=1, mean_period_days=365.242)
-AngaType.SAMVATSARA = AngaType(name='SAMVATSARA', name_hk="saMvatsaraH", num_angas=64, weight_moon=None, weight_sun=None, mean_period_days=None)
+AngaType.TITHI = AngaType(name='TITHI', name_hk="tithiH", num_angas=30, body_weights={Graha.MOON: 1, Graha.SUN: -1}, mean_period_days=29.530588)
+AngaType.TITHI_PADA = AngaType(name='TITHI_PADA', name_hk="tithi-pAdaH", num_angas=120, body_weights={Graha.MOON: 1, Graha.SUN: -1}, mean_period_days=29.530588)
+AngaType.NAKSHATRA = AngaType(name='NAKSHATRA', name_hk="nakSatram", num_angas=27, body_weights={Graha.MOON: 1, Graha.SUN: 0}, mean_period_days=27.321661)
+AngaType.NAKSHATRA_PADA = AngaType(name='NAKSHATRA_PADA', name_hk="nakSatra-pAdaH", num_angas=108, body_weights={Graha.MOON: 1, Graha.SUN: 0}, mean_period_days=27.321661)
+AngaType.RASHI = AngaType(name='RASHI', name_hk="rAziH", num_angas=12, body_weights={Graha.MOON: 1, Graha.SUN: 0}, mean_period_days=27.321661)
+AngaType.YOGA = AngaType(name='YOGA', name_hk="yOgaH", num_angas=27, body_weights={Graha.MOON: 1, Graha.SUN: 1}, mean_period_days=29.541)
+AngaType.YOGA_PADA = AngaType(name='YOGA_PADA', name_hk="yOga-pAdaH", num_angas=108, body_weights={Graha.MOON: 1, Graha.SUN: 1}, mean_period_days=29.541)
+AngaType.KARANA = AngaType(name='KARANA', name_hk="karaNam", num_angas=60, body_weights={Graha.MOON: 1, Graha.SUN: -1}, mean_period_days=29.4)
+AngaType.DEGREE = AngaType(name='DEGREE', name_hk=None, num_angas=360)
+AngaType.SIDEREAL_MONTH = AngaType(name='SIDEREAL_MONTH', name_hk="rAzi-mAsaH", num_angas=12, body_weights={Graha.MOON: 0, Graha.SUN: 1}, mean_period_days=365.242)
+AngaType.TROPICAL_MONTH = AngaType(name='TROPICAL_MONTH', name_hk="Artava-mAsaH", num_angas=12, body_weights={Graha.MOON: 0, Graha.SUN: 1}, mean_period_days=365.242)
+AngaType.SOLAR_NAKSH = AngaType(name='SOLAR_NAKSH', name_hk="saura-nakSatram", num_angas=27, body_weights={Graha.MOON: 0, Graha.SUN: 1}, mean_period_days=365.242)
+AngaType.SOLAR_NAKSH_PADA = AngaType(name='SOLAR_NAKSH_PADA', name_hk="saura-nakSatra-pAdaH", num_angas=108, body_weights={Graha.MOON: 0, Graha.SUN: 1}, mean_period_days=365.242)
+AngaType.SAMVATSARA = AngaType(name='SAMVATSARA', name_hk="saMvatsaraH", num_angas=64, mean_period_days=None)
+
+AngaType.GRAHA_RASHI[Graha.MERCURY] = AngaType(name='RASHI_MERCURY', name_hk="budha-rAziH", num_angas=12, body_weights={Graha.MERCURY: 1}, mean_period_days=87.97)
+AngaType.GRAHA_RASHI[Graha.VENUS] = AngaType(name='RASHI_VENUS', name_hk="zukra-rAziH", num_angas=12, body_weights={Graha.VENUS: 1}, mean_period_days=224.7)
+AngaType.GRAHA_RASHI[Graha.MARS] = AngaType(name='RASHI_MARS', name_hk="maGgala-rAziH", num_angas=12, body_weights={Graha.MARS: 1}, mean_period_days=686.98)
+AngaType.GRAHA_RASHI[Graha.JUPITER] = AngaType(name='RASHI_JUPITER', name_hk="guru-rAziH", num_angas=12, body_weights={Graha.JUPITER: 1}, mean_period_days=4333)
+AngaType.GRAHA_RASHI[Graha.SATURN] = AngaType(name='RASHI_SATURN', name_hk="zani-rAziH", num_angas=12, body_weights={Graha.SATURN: 1}, mean_period_days=10756)
 
 
 class Anga(common.JsonObject):

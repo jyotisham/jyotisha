@@ -4,10 +4,9 @@ import logging
 import sys
 from math import floor, modf
 
-from jyotisha.panchaanga.temporal.festival.rules import pancha_paxi
-from indic_transliteration import sanscript
-
 import methodtools
+from indic_transliteration import sanscript
+from sanskrit_data.schema import common
 from scipy.optimize import brentq
 from timebudget import timebudget
 
@@ -16,6 +15,7 @@ from jyotisha.panchaanga.temporal import time, ComputationSystem, set_constants,
 from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.body import Graha
 from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
+from jyotisha.panchaanga.temporal.festival.rules import pancha_paxi
 from jyotisha.panchaanga.temporal.interval import DayLengthBasedPeriods, Interval, get_interval
 from jyotisha.panchaanga.temporal.month import LunarMonthAssigner
 from jyotisha.panchaanga.temporal.names import translate_or_transliterate
@@ -23,7 +23,6 @@ from jyotisha.panchaanga.temporal.time import Timezone, Date, BasicDate, Hour
 from jyotisha.panchaanga.temporal.zodiac import Ayanamsha, NakshatraDivision, AngaSpanFinder
 from jyotisha.panchaanga.temporal.zodiac.angas import AngaType, Anga
 from jyotisha.util import default_if_none
-from sanskrit_data.schema import common
 
 timebudget.set_quiet(True)  # don't show measurements as they happen
 
@@ -184,6 +183,7 @@ class DailyPanchaanga(common.JsonObject):
     self.festival_id_to_instance = {}
     self.mauDhyas = None
     self.amauDhyas = None
+    self.graha_rAshis = None
 
     self.compute_sun_moon_transitions(previous_day_panchaanga=previous_day_panchaanga)
     self.compute_solar_day_sunset(previous_day_panchaanga=previous_day_panchaanga)
@@ -484,7 +484,6 @@ class DailyPanchaanga(common.JsonObject):
     if self.paxi_activities is not None:
       return self.paxi_activities
     self.paxi_activities = PaxiActivities()
-    from jyotisha.panchaanga.temporal.festival import rules
     paxa_id = int((self.sunrise_day_angas.tithi_at_sunrise.index - 1) / 15) + 1
     activities_table = pancha_paxi.get_activities_table(weekday_id=self.date.get_weekday(), paxa_id=paxa_id)
 
@@ -531,6 +530,15 @@ class DailyPanchaanga(common.JsonObject):
     if len(amauDhyas) > 0:
       self.amauDhyas = amauDhyas
 
+
+  def set_graha_raashis(self):
+    sun = Graha.singleton(body_name=Graha.SUN)
+
+    for graha_id in [Graha.MERCURY, Graha.VENUS, Graha.MARS, Graha.JUPITER, Graha.SATURN]:
+      graha = Graha.singleton(body_name=graha_id)
+
+      # self.graha_rAshis[graha_id] = [body.longitude_difference(jd=self.jd_sunrise, body1=sun, body2=graha), body.longitude_difference(jd=self.jd_next_sunrise, body1=sun, body2=graha)]
+          # TODO: FInish this.
 
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])
