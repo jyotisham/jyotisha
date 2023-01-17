@@ -230,22 +230,28 @@ def add_sun_moon_rise_info(daily_panchaanga, output_stream, script):
   sunrise = tz.julian_day_to_local_time(daily_panchaanga.jd_sunrise).get_hour_str()
   sunset = tz.julian_day_to_local_time(daily_panchaanga.jd_sunset).get_hour_str()
   midday = tz.julian_day_to_local_time(daily_panchaanga.day_length_based_periods.aparaahna.jd_start).get_hour_str()
-  print(f'- 🌅—{sunrise}-{midday}🌞-{sunset}🌇  ', file=output_stream)
+  print(f'- 🌅—{sunrise}-{midday}🌞-{sunset}🌇  \n\n', file=output_stream)
+  print(f'|      |⬇     |⬆     |⬇     |', file=output_stream)
+  print(f'|------|-----|-----|------|', file=output_stream)
+  COLUMN_WIDTH = len("⬆03:08*")
   for body in [Graha.MOON] + Graha.PLANETS_REVERSE_ORDER:
     rise_jd = daily_panchaanga.graha_rise_jd[body]
     set_jd = daily_panchaanga.graha_set_jd[body]
-    rise_str = tz.julian_day_to_local_time(daily_panchaanga.graha_rise_jd[body]).get_hour_str(reference_date=daily_panchaanga.date)
-    set_str = tz.julian_day_to_local_time(daily_panchaanga.graha_set_jd[body]).get_hour_str(reference_date=daily_panchaanga.date)
+    rise_str = "⬆" + tz.julian_day_to_local_time(daily_panchaanga.graha_rise_jd[body]).get_hour_str(reference_date=daily_panchaanga.date)
+    rise_str = rise_str.ljust(COLUMN_WIDTH, " ")
+    set_str = "⬇" + tz.julian_day_to_local_time(daily_panchaanga.graha_set_jd[body]).get_hour_str(reference_date=daily_panchaanga.date)
+    set_str = set_str.ljust(COLUMN_WIDTH, " ")
     if daily_panchaanga.graha_rise_jd[body] > daily_panchaanga.jd_next_sunrise:
       rise_str = '---'
     if daily_panchaanga.graha_set_jd[body] > daily_panchaanga.jd_next_sunrise:
       set_str = '---'
 
     body_final = translate_or_transliterate(text=names.NAMES["GRAHA_NAMES"]["sa"][body], script=script, source_script=sanscript.DEVANAGARI)
+    body_final = body_final.ljust(COLUMN_WIDTH, " ")
     if rise_jd <= set_jd:
-      print(f'- {body_final} ⬆—{rise_str}; ⬇—{set_str}  ', file=output_stream)
+      print(f'|{body_final}|     |{rise_str}|{set_str}|', file=output_stream)
     else:
-      print(f'- {body_final} ⬇—{set_str}; ⬆—{rise_str}  ', file=output_stream)
+      print(f'|{body_final}|{set_str}|{rise_str}|     |', file=output_stream)
 
 
 def get_raashi_data_str(daily_panchaanga, script):
