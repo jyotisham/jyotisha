@@ -47,6 +47,7 @@ class DayAngas(common.JsonObject):
     self.solar_nakshatras_with_ends = None
     self.raashis_with_ends = None
     self.solar_raashis_with_ends = None
+    self.graha_raashis_with_ends = {}
 
   def get_angas_with_ends(self, anga_type):
     anga_spans = []
@@ -64,6 +65,8 @@ class DayAngas(common.JsonObject):
       anga_spans = self.solar_nakshatras_with_ends
     elif anga_type == AngaType.SIDEREAL_MONTH:
       anga_spans = self.solar_raashis_with_ends
+    elif anga_type in AngaType.GRAHA_RASHI.values():
+      anga_spans = self.graha_raashis_with_ends[anga_type.get_body_str()]
     return anga_spans
 
   def find_anga_span(self, anga):
@@ -109,15 +112,7 @@ class DayAngas(common.JsonObject):
     anga_data_str = ''
     angas_with_ends = self.get_angas_with_ends(anga_type=anga_type)
     for anga_span in angas_with_ends:
-      (anga_ID, anga_end_jd) = (anga_span.anga.index, anga_span.jd_end)
-      anga = anga_type.names_dict[script][anga_ID]
-      if anga_end_jd is None:
-        anga_end_str = ""
-      else:
-        anga_end_str = Hour(24 * (anga_end_jd - reference_jd)).to_string()
-      anga_data_str = '%s; %s►%s' % \
-                       (anga_data_str, anga,
-                        anga_end_str)
+      anga_data_str = f'{anga_data_str}; {anga_span.to_md_string(anga_type=anga_type, script=script, reference_jd=reference_jd)}'
     anga_data_str = '**%s** — %s' % (translate_or_transliterate(anga_type.name_hk, script), anga_data_str[2:])
     return anga_data_str
 
@@ -183,7 +178,6 @@ class DailyPanchaanga(common.JsonObject):
     self.festival_id_to_instance = {}
     self.mauDhyas = None
     self.amauDhyas = None
-    self.graha_rAshis = None
 
     self.compute_sun_moon_transitions(previous_day_panchaanga=previous_day_panchaanga)
     self.compute_solar_day_sunset(previous_day_panchaanga=previous_day_panchaanga)
@@ -193,7 +187,9 @@ class DailyPanchaanga(common.JsonObject):
     if self.computation_system.lunar_month_assigner_type is not None:
       lunar_month_assigner = LunarMonthAssigner.get_assigner(computation_system=self.computation_system)
       self.set_lunar_month_sunrise(month_assigner=lunar_month_assigner, previous_day_panchaanga=previous_day_panchaanga)
-      self.set_mauDhyas()
+
+    self.set_mauDhyas()
+    self.set_graha_raashis()
 
     if self.computation_system.festival_options.set_pancha_paxi_activities:
       self.get_pancha_paxi_activities()
@@ -532,13 +528,8 @@ class DailyPanchaanga(common.JsonObject):
 
 
   def set_graha_raashis(self):
-    sun = Graha.singleton(body_name=Graha.SUN)
-
     for graha_id in [Graha.MERCURY, Graha.VENUS, Graha.MARS, Graha.JUPITER, Graha.SATURN]:
-      graha = Graha.singleton(body_name=graha_id)
-
-      # self.graha_rAshis[graha_id] = [body.longitude_difference(jd=self.jd_sunrise, body1=sun, body2=graha), body.longitude_difference(jd=self.jd_next_sunrise, body1=sun, body2=graha)]
-          # TODO: FInish this.
+      self.sunrise_day_angas.graha_raashis_with_ends[graha_id] = AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=zodiac.AngaType.GRAHA_RASHI[graha_id]).get_all_angas_in_period(jd1=self.jd_sunrise, jd2=self.jd_next_sunrise)
 
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])

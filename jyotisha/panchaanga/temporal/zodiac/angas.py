@@ -25,6 +25,7 @@ class AngaType(common.JsonObject):
   SOLAR_NAKSH_PADA = None
   SAMVATSARA = None
   DEGREE = None
+  GRAHA_RASHI = {}
 
   def __init__(self, name, name_hk, num_angas, body_weights={}, mean_period_days=None, names_dict=None):
     super(AngaType, self).__init__()
@@ -39,11 +40,21 @@ class AngaType(common.JsonObject):
         key = 'NAKSHATRA_NAMES'
       elif name == 'SIDEREAL_MONTH':
         key = 'CHANDRA_MASA_NAMES'
+      elif name.startswith("RASHI"):
+        key = 'RASHI_NAMES'
       else:
         key = name + "_NAMES"
       if key in names.NAMES:
         self.names_dict = names.NAMES[key]['sa']
+    else:
+      self.names_dict = names_dict
     NAME_TO_TYPE[self.name] = self
+
+  def get_body_str(self):
+    body_str = ""
+    for body in self.body_weights:
+      body_str = f"{body} {body_str}"
+    return body_str.strip()
 
   def add(self, a, b):
     if b < 1:

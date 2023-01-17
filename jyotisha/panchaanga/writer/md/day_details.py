@@ -6,7 +6,7 @@ from io import StringIO
 from math import ceil
 
 from indic_transliteration import sanscript
-from jyotisha.panchaanga.temporal import AngaType, era
+from jyotisha.panchaanga.temporal import AngaType, era, Graha
 from jyotisha.panchaanga.temporal import names, interval
 from jyotisha.panchaanga.temporal.festival import rules
 from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
@@ -191,6 +191,15 @@ def print_khachakra_stithi(daily_panchaanga, output_stream, script, subsection_m
     print(
       '- 🌞-🪐 **%s** - %s' % (names.translate_or_transliterate(text="अमूढग्रहाः", script=script), ", ".join(grahas)),
       file=output_stream)
+  print("___________________", file=output_stream)
+  raashi_str = translate_or_transliterate(text="राशयः  \n", script=script, source_script=sanscript.DEVANAGARI)
+  body_raashi_strs = []
+  for body_name in [Graha.SATURN, Graha.JUPITER, Graha.MARS, Graha.VENUS, Graha.MERCURY]:
+    body_raashi_str = daily_panchaanga.sunrise_day_angas.get_anga_data_str(anga_type=AngaType.GRAHA_RASHI[body_name],
+                                                                            script=script,reference_jd=daily_panchaanga.julian_day_start)
+    body_raashi_strs.append(body_raashi_str)
+  raashi_str += ". ".join(body_raashi_strs).replace(translate_or_transliterate(text="-राशिः", script=script, source_script=sanscript.DEVANAGARI), "")
+  print(f'{raashi_str}. ', file=output_stream)
   print("___________________", file=output_stream)
 
 
