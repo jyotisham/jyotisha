@@ -230,7 +230,7 @@ def add_sun_moon_rise_info(daily_panchaanga, output_stream, script):
   sunrise = tz.julian_day_to_local_time(daily_panchaanga.jd_sunrise).get_hour_str()
   sunset = tz.julian_day_to_local_time(daily_panchaanga.jd_sunset).get_hour_str()
   midday = tz.julian_day_to_local_time(daily_panchaanga.day_length_based_periods.aparaahna.jd_start).get_hour_str()
-  print(f'- 🌅—{sunrise}-{midday}🌞-{sunset}🌇  \n\n', file=output_stream)
+  print(f'- 🌅—{sunrise}-{midday}🌞-{sunset}🌇  \n', file=output_stream)
   print(f'|      |⬇     |⬆     |⬇     |', file=output_stream)
   print(f'|------|-----|-----|------|', file=output_stream)
   COLUMN_WIDTH = len("⬆03:08*")
