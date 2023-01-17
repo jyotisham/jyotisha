@@ -140,9 +140,17 @@ def get_kauNdinyaayana_bhaaskara_gRhya_computation_system():
 
 def get_vishvaasa_bhaaskara_computation_system():
   computation_system = deepcopy(ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180)
-  for repo in computation_system.festival_options.repos:
-    if repo in ["mahApuruSha/kAnchI-maTha", "mahApuruSha/mAdhva-misc", "mahApuruSha/smArta-misc", "mahApuruSha/zRGgErI-maTha", "nAyanAr", "ALvAr", "sangIta-kRt"] or repo.startswith("temples"):
-      computation_system.festival_options.repos.remove(repo)
+  from jyotisha.panchaanga.temporal.festival import rules
+  repos = []
+  for repo in rules.rule_repos:
+    include = True
+    for x in ["kAnchI", "mAdhva", "smArta-misc", "zRGgErI", "nAyanAr", "ALvAr", "sangIta-kRt", "temples"]:
+      if x in repo.name:
+        include = False
+        break
+    if include:
+      repos.append(repo)
+  computation_system.festival_options.repos = repos
   computation_system.festival_options.aparaahna_as_second_half = True
   computation_system.festival_options.prefer_eight_fold_day_division = True
   return computation_system
