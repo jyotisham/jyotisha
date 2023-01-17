@@ -130,7 +130,7 @@ class ComputationSystem(JsonObject):
      
 
 
-def get_kauNdinyAyana_bhAskara_gRhya_computation_system():
+def get_kauNdinyaayana_bhaaskara_gRhya_computation_system():
   computation_system = deepcopy(ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180)
   computation_system.festival_options.repos = [RulesRepo(name="gRhya/general"), RulesRepo(name="gRhya/Apastamba")]
   computation_system.festival_options.aparaahna_as_second_half = True
@@ -138,12 +138,13 @@ def get_kauNdinyAyana_bhAskara_gRhya_computation_system():
   return computation_system
 
 
-def get_vishvaasa_common_computation_system():
+def get_vishvaasa_bhaaskara_computation_system():
   computation_system = deepcopy(ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180)
   for repo in computation_system.festival_options.repos:
     if repo in ["mahApuruSha/kAnchI-maTha", "mahApuruSha/mAdhva-misc", "mahApuruSha/smArta-misc", "mahApuruSha/zRGgErI-maTha", "nAyanAr", "ALvAr", "sangIta-kRt"] or repo.startswith("temples"):
       computation_system.festival_options.repos.remove(repo)
-      
+  computation_system.festival_options.aparaahna_as_second_half = True
+  computation_system.festival_options.prefer_eight_fold_day_division = True
   return computation_system
 
 def set_constants():
