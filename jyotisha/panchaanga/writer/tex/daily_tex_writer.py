@@ -16,7 +16,7 @@ import jyotisha.custom_transliteration
 import jyotisha.panchaanga.temporal.names
 import jyotisha.panchaanga.spatio_temporal.annual
 import jyotisha.panchaanga.temporal
-from jyotisha.panchaanga.temporal import names
+from jyotisha.panchaanga.temporal import names, Graha
 from jyotisha.panchaanga.spatio_temporal import City
 from jyotisha.panchaanga.temporal import time
 from jyotisha.panchaanga.temporal.festival import rules
@@ -189,18 +189,18 @@ def stream_sun_moon_rise_data(daily_panchaanga, output_stream, time_format):
   sunrise = time.Hour(24 * (daily_panchaanga.jd_sunrise - jd)).to_string(
     format=time_format)
   sunset = time.Hour(24 * (daily_panchaanga.jd_sunset - jd)).to_string(format=time_format)
-  moonrise = time.Hour(24 * (daily_panchaanga.jd_moonrise - jd)).to_string(
+  moonrise = time.Hour(24 * (daily_panchaanga.graha_rise_jd[Graha.MOON] - jd)).to_string(
     format=time_format)
-  moonset = time.Hour(24 * (daily_panchaanga.jd_moonset - jd)).to_string(
+  moonset = time.Hour(24 * (daily_panchaanga.graha_set_jd[Graha.MOON] - jd)).to_string(
     format=time_format)
   midday = time.Hour(24 * (daily_panchaanga.jd_sunrise*0.5 + daily_panchaanga.jd_sunset*0.5 - jd)).to_string(
   format=time_format)
 
-  if daily_panchaanga.jd_moonrise > daily_panchaanga.jd_next_sunrise:
+  if daily_panchaanga.graha_rise_jd[Graha.MOON] > daily_panchaanga.jd_next_sunrise:
     moonrise = '---'
-  if daily_panchaanga.jd_moonset > daily_panchaanga.jd_next_sunrise:
+  if daily_panchaanga.graha_set_jd[Graha.MOON] > daily_panchaanga.jd_next_sunrise:
     moonset = '---'
-  if daily_panchaanga.jd_moonrise < daily_panchaanga.jd_moonset:
+  if daily_panchaanga.graha_rise_jd[Graha.MOON] < daily_panchaanga.graha_set_jd[Graha.MOON]:
     print('{\\sunmoonrsdata{%s}{%s}{%s}{%s}{%s}' % (sunrise, sunset, moonrise, moonset, midday), file=output_stream)
   else:
     print('{\\sunmoonsrdata{%s}{%s}{%s}{%s}{%s}' % (sunrise, sunset, moonrise, moonset, midday), file=output_stream)
