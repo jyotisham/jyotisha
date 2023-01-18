@@ -6,6 +6,7 @@ from jyotisha.panchaanga.writer import generation_project
 
 
 bengaLUru = spatio_temporal.City.get_city_from_db("sahakAra nagar, bengaLUru")
+chennai = spatio_temporal.City.get_city_from_db("Chennai")
 today = bengaLUru.get_timezone_obj().current_time()
 
 parser = argparse.ArgumentParser(description='panchAnga generator.')
@@ -16,8 +17,9 @@ year = args.year
 
 # bengaLUru
 # Used by https://t.me/bengaluru_panchaanga
-generation_project.dump_detailed(year=year, city=bengaLUru, year_type=era.ERA_GREGORIAN, computation_system=temporal.get_kauNdinyAyana_bhAskara_gRhya_computation_system())
-generation_project.dump_detailed(year=year, city=bengaLUru, year_type=era.ERA_GREGORIAN)
+generation_project.dump_detailed(year=year, city=bengaLUru, year_type=era.ERA_GREGORIAN, computation_system=temporal.get_kauNdinyaayana_bhaaskara_gRhya_computation_system())
+generation_project.dump_detailed(year=year, city=bengaLUru, year_type=era.ERA_GREGORIAN, computation_system=temporal.get_vishvaasa_bhaaskara_computation_system())
+generation_project.dump_detailed(year=year, city=chennai, year_type=era.ERA_GREGORIAN)
 
 # chennai
 # Requested for bAlAsubrahmaNya's father. And kArtik potentially.

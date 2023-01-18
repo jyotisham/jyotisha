@@ -908,8 +908,22 @@
     }
   },
   "festival_id_to_instance": {},
-  "jd_moonrise": 2444962.461,
-  "jd_moonset": 2444961.9159,
+  "graha_rise_jd": {
+    "jupiter": 2444962.3697,
+    "mars": 2444962.2808,
+    "mercury": 2444961.5634,
+    "moon": 2444962.461,
+    "saturn": 2444962.3299,
+    "venus": 2444961.6456
+  },
+  "graha_set_jd": {
+    "jupiter": 2444961.8536,
+    "mars": 2444961.7799,
+    "mercury": 2444962.0327,
+    "moon": 2444961.9159,
+    "saturn": 2444961.8205,
+    "venus": 2444962.1201
+  },
   "jd_next_sunrise": 2444962.5427,
   "jd_previous_sunset": 2444961.01,
   "jd_sunrise": 2444961.5423,
@@ -934,6 +948,58 @@
     "month": 9
   },
   "sunrise_day_angas": {
+    "graha_raashis_with_ends": {
+      "jupiter": [
+        {
+          "anga": {
+            "anga_type_id": "RASHI_JUPITER",
+            "index": 7,
+            "jsonClass": "Anga"
+          },
+          "jsonClass": "AngaSpan"
+        }
+      ],
+      "mars": [
+        {
+          "anga": {
+            "anga_type_id": "RASHI_MARS",
+            "index": 6,
+            "jsonClass": "Anga"
+          },
+          "jsonClass": "AngaSpan"
+        }
+      ],
+      "mercury": [
+        {
+          "anga": {
+            "anga_type_id": "RASHI_MERCURY",
+            "index": 9,
+            "jsonClass": "Anga"
+          },
+          "jsonClass": "AngaSpan"
+        }
+      ],
+      "saturn": [
+        {
+          "anga": {
+            "anga_type_id": "RASHI_SATURN",
+            "index": 6,
+            "jsonClass": "Anga"
+          },
+          "jsonClass": "AngaSpan"
+        }
+      ],
+      "venus": [
+        {
+          "anga": {
+            "anga_type_id": "RASHI_VENUS",
+            "index": 10,
+            "jsonClass": "Anga"
+          },
+          "jsonClass": "AngaSpan"
+        }
+      ]
+    },
     "jsonClass": "DayAngas",
     "karanas_with_ends": [
       {

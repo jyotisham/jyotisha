@@ -29,9 +29,9 @@ def test_panchanga_chennai_2019():
     md_file.dump_to_file(metadata={"title": str(2019)}, content=md.make_md(panchaanga=panchaanga_2019), dry_run=False)
     
 
-  with open(orig_md_file) as orig_tex:
-    with open(current_md_output) as current_tex:
-      assert current_tex.read() == orig_tex.read()
+  with open(orig_md_file) as orig:
+    with open(current_md_output) as current:
+      assert current.read() == orig.read()
 
 
 if __name__ == '__main__':

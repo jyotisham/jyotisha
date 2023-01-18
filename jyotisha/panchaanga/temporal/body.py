@@ -29,6 +29,7 @@ class Graha(JsonObject):
   MARS = "mars"
   SATURN = "saturn"
   RAHU = "rahu"
+  PLANETS_REVERSE_ORDER = [SATURN, JUPITER, MARS, VENUS, MERCURY]
 
   BODY_TO_ANGULAR_DIA_DEGREES = {SUN: .53, JUPITER: 0.0147222, VENUS: 0.0183333, SATURN: 0.005583, MARS: 0.006972, MERCURY: 0.00361111}
 
@@ -96,7 +97,7 @@ class Graha(JsonObject):
 
     transits = []
     arc_length = anga_type.arc_length
-    MIN_JUMP = min(1, jd_end-jd_start)
+    MIN_JUMP = min(1.0, jd_end - jd_start)
     # TODO: Could be tweaked based on planet using a dict?
 
     curr_L_bracket = jd_start

@@ -89,6 +89,7 @@ class FestivalOptions(JsonObject):
 
 class GrahaLopaMeasures(JsonObject):
   def __init__(self):
+    super().__init__()
     self.graha_id_to_lopa_measure = {
       # For Jupiter Lope Surya Siddhanta suggests angular separation of 11° on both sides of the Sun.
       Graha.JUPITER: 11,
@@ -129,13 +130,30 @@ class ComputationSystem(JsonObject):
      
 
 
-def get_kauNdinyAyana_bhAskara_gRhya_computation_system():
+def get_kauNdinyaayana_bhaaskara_gRhya_computation_system():
   computation_system = deepcopy(ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180)
   computation_system.festival_options.repos = [RulesRepo(name="gRhya/general"), RulesRepo(name="gRhya/Apastamba")]
   computation_system.festival_options.aparaahna_as_second_half = True
   computation_system.festival_options.prefer_eight_fold_day_division = True
   return computation_system
 
+
+def get_vishvaasa_bhaaskara_computation_system():
+  computation_system = deepcopy(ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180)
+  from jyotisha.panchaanga.temporal.festival import rules
+  repos = []
+  for repo in rules.rule_repos:
+    include = True
+    for x in ["kAnchI", "mAdhva", "smArta-misc", "zRGgErI", "nAyanAr", "ALvAr", "sangIta-kRt", "temples"]:
+      if x in repo.name:
+        include = False
+        break
+    if include:
+      repos.append(repo)
+  computation_system.festival_options.repos = repos
+  computation_system.festival_options.aparaahna_as_second_half = True
+  computation_system.festival_options.prefer_eight_fold_day_division = True
+  return computation_system
 
 def set_constants():
   from jyotisha.panchaanga.temporal.month import LunarMonthAssigner

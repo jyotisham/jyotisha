@@ -7,6 +7,8 @@ import methodtools
 
 from indic_transliteration import sanscript
 from jyotisha.panchaanga.temporal import names
+from jyotisha.panchaanga.temporal.names import translate_or_transliterate
+from jyotisha.panchaanga.temporal.time import Hour
 from jyotisha.util import default_if_none
 from sanskrit_data.schema import common
 
@@ -105,6 +107,16 @@ class AngaSpan(Interval):
                              "?" if self.jd_end is None else
                              time.ist_timezone.julian_day_to_local_time_str(jd=self.jd_end))
 
+
+  def to_md_string(self, anga_type, script, reference_jd):
+    (anga_ID, anga_end_jd) = (self.anga.index, self.jd_end)
+    from jyotisha.panchaanga.temporal import AngaType
+    anga = anga_type.names_dict[script][anga_ID]
+    if anga_end_jd is None:
+      anga_end_str = ""
+    else:
+      anga_end_str = Hour(24 * (anga_end_jd - reference_jd)).to_string()
+    return f"{anga}►{anga_end_str}"
 
 class FifteenFoldDivision(common.JsonObject):
   """

@@ -124,20 +124,12 @@ class NakshatraDivision(common.JsonObject):
     else:
       ayanaamsha_id = self.ayanaamsha_id
 
-    w_moon = anga_type.weight_moon
-    w_sun = anga_type.weight_sun
-
     lcalc = 0  # computing offset longitudes
 
     #  Get the lunar longitude, starting at the ayanaamsha point in the ecliptic.
-    if w_moon != 0:
-      lmoon = Graha.singleton(Graha.MOON).get_longitude(self.jd, ayanaamsha_id=ayanaamsha_id)
-      lcalc += w_moon * lmoon
-
-    #  Get the solar longitude, starting at the ayanaamsha point in the ecliptic.
-    if w_sun != 0:
-      lsun = Graha.singleton(Graha.SUN).get_longitude(self.jd, ayanaamsha_id=ayanaamsha_id)
-      lcalc += w_sun * lsun
+    for body_name, weight in anga_type.body_weights.items():
+      longitude = Graha.singleton(body_name=body_name).get_longitude(self.jd, ayanaamsha_id=ayanaamsha_id)
+      lcalc += weight * longitude
 
     return self.longitude_to_fractional_division(longitude=lcalc, anga_type=anga_type)
 

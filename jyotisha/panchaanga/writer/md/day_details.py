@@ -6,7 +6,7 @@ from io import StringIO
 from math import ceil
 
 from indic_transliteration import sanscript
-from jyotisha.panchaanga.temporal import AngaType, era
+from jyotisha.panchaanga.temporal import AngaType, era, Graha
 from jyotisha.panchaanga.temporal import names, interval
 from jyotisha.panchaanga.temporal.festival import rules
 from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
@@ -192,6 +192,15 @@ def print_khachakra_stithi(daily_panchaanga, output_stream, script, subsection_m
       '- 🌞-🪐 **%s** - %s' % (names.translate_or_transliterate(text="अमूढग्रहाः", script=script), ", ".join(grahas)),
       file=output_stream)
   print("___________________", file=output_stream)
+  raashi_str = translate_or_transliterate(text="राशयः  \n", script=script, source_script=sanscript.DEVANAGARI)
+  body_raashi_strs = []
+  for body_name in Graha.PLANETS_REVERSE_ORDER:
+    body_raashi_str = daily_panchaanga.sunrise_day_angas.get_anga_data_str(anga_type=AngaType.GRAHA_RASHI[body_name],
+                                                                            script=script,reference_jd=daily_panchaanga.julian_day_start)
+    body_raashi_strs.append(body_raashi_str)
+  raashi_str += ". ".join(body_raashi_strs).replace(translate_or_transliterate(text="-राशिः", script=script, source_script=sanscript.DEVANAGARI), "")
+  print(f'{raashi_str}. ', file=output_stream)
+  print("___________________", file=output_stream)
 
 
 def add_raahu_yama_gulika_info(daily_panchaanga, output_stream, script):
@@ -217,30 +226,32 @@ def add_shuula_info(daily_panchaanga, output_stream, script):
 def add_sun_moon_rise_info(daily_panchaanga, output_stream, script):
   tz = daily_panchaanga.city.get_timezone_obj()
   # We prefer using Hour() below so as to differentiate post-midnight times.
-  moonrise = tz.julian_day_to_local_time(daily_panchaanga.jd_moonrise).get_hour_str(reference_date=daily_panchaanga.date)
-  moonset = tz.julian_day_to_local_time(daily_panchaanga.jd_moonset).get_hour_str(reference_date=daily_panchaanga.date)
-  if daily_panchaanga.jd_moonrise > daily_panchaanga.jd_next_sunrise:
-    moonrise = '---'
-  if daily_panchaanga.jd_moonset > daily_panchaanga.jd_next_sunrise:
-    moonset = '---'
 
   sunrise = tz.julian_day_to_local_time(daily_panchaanga.jd_sunrise).get_hour_str()
   sunset = tz.julian_day_to_local_time(daily_panchaanga.jd_sunset).get_hour_str()
   midday = tz.julian_day_to_local_time(daily_panchaanga.day_length_based_periods.aparaahna.jd_start).get_hour_str()
-  print('- 🌅**%s**—%s-%s🌞️-%s🌇  ' % (translate_or_transliterate('सूर्योदयः', script, source_script=sanscript.DEVANAGARI),
-                                        sunrise, midday,
-                                        sunset),
-        file=output_stream)
-  if daily_panchaanga.jd_moonrise < daily_panchaanga.jd_moonset:
-    print('- 🌛**%s**—%s; **%s**—%s  ' % (
-      translate_or_transliterate('चन्द्रोदयः', script, source_script=sanscript.DEVANAGARI), moonrise,
-      translate_or_transliterate('चन्द्रास्तमयः', script, source_script=sanscript.DEVANAGARI), moonset),
-          file=output_stream)
-  else:
-    print('- 🌛**%s**—%s; **%s**—%s  ' % (
-      translate_or_transliterate('चन्द्रास्तमयः', script, source_script=sanscript.DEVANAGARI), moonset,
-      translate_or_transliterate('चन्द्रोदयः', script, source_script=sanscript.DEVANAGARI), moonrise),
-          file=output_stream)
+  print(f'- 🌅—{sunrise}-{midday}🌞-{sunset}🌇  \n', file=output_stream)
+  print(f'|      |⬇     |⬆     |⬇     |', file=output_stream)
+  print(f'|------|-----|-----|------|', file=output_stream)
+  COLUMN_WIDTH = len("⬆03:08*")
+  for body in [Graha.MOON] + Graha.PLANETS_REVERSE_ORDER:
+    rise_jd = daily_panchaanga.graha_rise_jd[body]
+    set_jd = daily_panchaanga.graha_set_jd[body]
+    rise_str = "⬆" + tz.julian_day_to_local_time(daily_panchaanga.graha_rise_jd[body]).get_hour_str(reference_date=daily_panchaanga.date)
+    rise_str = rise_str.ljust(COLUMN_WIDTH, " ")
+    set_str = "⬇" + tz.julian_day_to_local_time(daily_panchaanga.graha_set_jd[body]).get_hour_str(reference_date=daily_panchaanga.date)
+    set_str = set_str.ljust(COLUMN_WIDTH, " ")
+    if daily_panchaanga.graha_rise_jd[body] > daily_panchaanga.jd_next_sunrise:
+      rise_str = '---'
+    if daily_panchaanga.graha_set_jd[body] > daily_panchaanga.jd_next_sunrise:
+      set_str = '---'
+
+    body_final = translate_or_transliterate(text=names.NAMES["GRAHA_NAMES"]["sa"][body], script=script, source_script=sanscript.DEVANAGARI)
+    body_final = body_final.ljust(COLUMN_WIDTH, " ")
+    if rise_jd <= set_jd:
+      print(f'|{body_final}|     |{rise_str}|{set_str}|', file=output_stream)
+    else:
+      print(f'|{body_final}|{set_str}|{rise_str}|     |', file=output_stream)
 
 
 def get_raashi_data_str(daily_panchaanga, script):

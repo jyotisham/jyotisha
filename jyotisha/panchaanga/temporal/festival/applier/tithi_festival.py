@@ -46,12 +46,12 @@ class TithiFestivalAssigner(FestivalAssigner):
       # SANKATAHARA chaturthi
       if self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise.index == 18 or self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise.index == 19:
         day_panchaanga = self.daily_panchaangas[d]
-        ldiff_moonrise_yest = (Graha.singleton(Graha.MOON).get_longitude(self.daily_panchaangas[d - 1].jd_moonrise) - Graha.singleton(
-          Graha.SUN).get_longitude(self.daily_panchaangas[d - 1].jd_moonrise)) % 360
-        ldiff_moonrise = (Graha.singleton(Graha.MOON).get_longitude(day_panchaanga.jd_moonrise) - Graha.singleton(Graha.SUN).get_longitude(
-          day_panchaanga.jd_moonrise)) % 360
-        ldiff_moonrise_tmrw = (Graha.singleton(Graha.MOON).get_longitude(self.daily_panchaangas[d + 1].jd_moonrise) - Graha.singleton(
-          Graha.SUN).get_longitude(self.daily_panchaangas[d + 1].jd_moonrise)) % 360
+        ldiff_moonrise_yest = (Graha.singleton(Graha.MOON).get_longitude(self.daily_panchaangas[d - 1].graha_rise_jd[Graha.MOON]) - Graha.singleton(
+          Graha.SUN).get_longitude(self.daily_panchaangas[d - 1].graha_rise_jd[Graha.MOON])) % 360
+        ldiff_moonrise = (Graha.singleton(Graha.MOON).get_longitude(day_panchaanga.graha_rise_jd[Graha.MOON]) - Graha.singleton(Graha.SUN).get_longitude(
+          day_panchaanga.graha_rise_jd[Graha.MOON])) % 360
+        ldiff_moonrise_tmrw = (Graha.singleton(Graha.MOON).get_longitude(self.daily_panchaangas[d + 1].graha_rise_jd[Graha.MOON]) - Graha.singleton(
+          Graha.SUN).get_longitude(self.daily_panchaangas[d + 1].graha_rise_jd[Graha.MOON])) % 360
         tithi_moonrise_yest = int(1 + floor(ldiff_moonrise_yest / 12.0))
         tithi_moonrise = int(1 + floor(ldiff_moonrise / 12.0))
         tithi_moonrise_tmrw = int(1 + floor(ldiff_moonrise_tmrw / 12.0))
@@ -571,16 +571,16 @@ class TithiFestivalAssigner(FestivalAssigner):
         # if tithi_sunset <= 2 and tithi_sunset_tmrw != 2:
         if tithi_sunset <= 2:
           if tithi_sunset == 1:
-            fest = FestivalInstance(name='candra-darzanam', interval=Interval(jd_start=self.daily_panchaangas[d+1].jd_sunset, jd_end=self.daily_panchaangas[d+1].jd_moonset))
+            fest = FestivalInstance(name='candra-darzanam', interval=Interval(jd_start=self.daily_panchaangas[d+1].jd_sunset, jd_end=self.daily_panchaangas[d+1].graha_set_jd[Graha.MOON]))
             self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[d+1].date)
             
             d += 25
           else:
-            fest = FestivalInstance(name='candra-darzanam', interval=Interval(jd_start=self.daily_panchaangas[d].jd_sunset, jd_end=self.daily_panchaangas[d].jd_moonset))
+            fest = FestivalInstance(name='candra-darzanam', interval=Interval(jd_start=self.daily_panchaangas[d].jd_sunset, jd_end=self.daily_panchaangas[d].graha_set_jd[Graha.MOON]))
             self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[d].date)
             d += 25
         elif tithi_sunset_tmrw == 2:
-          fest = FestivalInstance(name='candra-darzanam', interval=Interval(jd_start=self.daily_panchaangas[d+1].jd_sunset, jd_end=self.daily_panchaangas[d+1].jd_moonset))
+          fest = FestivalInstance(name='candra-darzanam', interval=Interval(jd_start=self.daily_panchaangas[d+1].jd_sunset, jd_end=self.daily_panchaangas[d+1].graha_set_jd[Graha.MOON]))
           self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[d+1].date)
           d += 25
       d += 1

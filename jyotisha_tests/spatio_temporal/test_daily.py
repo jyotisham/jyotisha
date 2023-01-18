@@ -74,7 +74,7 @@ def test_solar_day():
 def test_sunrise_mtv():
   city = City.get_city_from_db('Cupertino') 
   panchaanga = daily.DailyPanchaanga(city=city, date=Date(year=2018, month=11, day=11))
-  panchaanga.compute_sun_moon_transitions()
+  panchaanga.compute_graha_transitions()
   numpy.testing.assert_approx_equal(panchaanga.jd_sunrise, 2458434.11)
 
 
