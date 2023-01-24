@@ -529,7 +529,7 @@ class DailyPanchaanga(common.JsonObject):
 
 
   def set_graha_raashis(self):
-    for graha_id in [Graha.MERCURY, Graha.VENUS, Graha.MARS, Graha.JUPITER, Graha.SATURN]:
+    for graha_id in [Graha.MERCURY, Graha.VENUS, Graha.MARS, Graha.JUPITER, Graha.SATURN, Graha.RAHU, Graha.KETU]:
       self.sunrise_day_angas.graha_raashis_with_ends[graha_id] = AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=zodiac.AngaType.GRAHA_RASHI[graha_id]).get_all_angas_in_period(jd1=self.jd_sunrise, jd2=self.jd_next_sunrise)
 
 # Essential for depickling to work.

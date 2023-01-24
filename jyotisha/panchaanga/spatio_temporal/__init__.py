@@ -90,6 +90,8 @@ class City(JsonObject):
   def get_rising_time(self, julian_day_start, body):
     from jyotisha.panchaanga.temporal.body import Graha
     graha = Graha.singleton(body)
+    if body == Graha.KETU:
+      return self.get_setting_time(julian_day_start=julian_day_start, body=Graha.RAHU)
     # rise_trans expects UT time
     return swe.rise_trans(
       jd_start=julian_day_start, body=graha._get_swisseph_id(),
@@ -99,6 +101,8 @@ class City(JsonObject):
   def get_setting_time(self, julian_day_start, body):
     from jyotisha.panchaanga.temporal.body import Graha
     graha = Graha.singleton(body)
+    if body == Graha.KETU:
+      return self.get_rising_time(julian_day_start=julian_day_start, body=Graha.RAHU)
     # rise_trans expects UT time
     return swe.rise_trans(
       jd_start=julian_day_start, body=graha._get_swisseph_id(),

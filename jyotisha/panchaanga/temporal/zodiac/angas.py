@@ -99,7 +99,8 @@ AngaType.GRAHA_RASHI[Graha.VENUS] = AngaType(name='RASHI_VENUS', name_hk="zukra-
 AngaType.GRAHA_RASHI[Graha.MARS] = AngaType(name='RASHI_MARS', name_hk="maGgala-rAziH", num_angas=12, body_weights={Graha.MARS: 1}, mean_period_days=686.98)
 AngaType.GRAHA_RASHI[Graha.JUPITER] = AngaType(name='RASHI_JUPITER', name_hk="guru-rAziH", num_angas=12, body_weights={Graha.JUPITER: 1}, mean_period_days=4333)
 AngaType.GRAHA_RASHI[Graha.SATURN] = AngaType(name='RASHI_SATURN', name_hk="zani-rAziH", num_angas=12, body_weights={Graha.SATURN: 1}, mean_period_days=10756)
-
+AngaType.GRAHA_RASHI[Graha.RAHU] = AngaType(name='RASHI_RAHU', name_hk="rAhu-rAziH", num_angas=12, body_weights={Graha.RAHU: 1}, mean_period_days=6798.383)
+AngaType.GRAHA_RASHI[Graha.KETU] = AngaType(name='RASHI_KETU', name_hk="kEtu-rAziH", num_angas=12, body_weights={Graha.KETU: 1}, mean_period_days=6798.383)
 
 class Anga(common.JsonObject):
   def __init__(self, index, anga_type_id):
