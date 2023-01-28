@@ -133,7 +133,6 @@ class ComputationSystem(JsonObject):
   SOLSTICE_POST_DARK_10_ADHIKA__RP = None
   MIN_SOLARCOMPUTATION__CHITRA_180 = None
   DEFAULT = None
-  TEST = None
 
   def __init__(self, lunar_month_assigner_type, ayanaamsha_id, festival_options=FestivalOptions()):
     super().__init__()
@@ -159,8 +158,10 @@ class ComputationSystem(JsonObject):
     if not file_path.startswith("/"):
       from jyotisha.panchaanga.temporal import festival
       file_path = os.path.join(os.path.dirname(festival.__file__, "data/computation_systems", file_path))
-    self.repos = None
+    repos = self.festival_options.repos
+    self.festival_options.repos = None
     self.dump_to_file(filename=file_path)
+    self.festival_options.repos = repos
 
 def set_constants():
   from jyotisha.panchaanga.temporal.month import LunarMonthAssigner
@@ -175,9 +176,6 @@ def set_constants():
 
   ComputationSystem.DEFAULT = ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180
 
-  festival_options = FestivalOptions()
-  festival_options.repos = [r for r in festival_options.repos if r.name not in ["mahApuruSha/xatra-later", "mahApuruSha/sci-tech", "mahApuruSha/general-indic-non-tropical"]]
-  ComputationSystem.TEST = ComputationSystem(lunar_month_assigner_type=LunarMonthAssigner.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA, ayanaamsha_id=Ayanamsha.CHITRA_AT_180, festival_options=festival_options)
 
   
 set_constants()

@@ -2,13 +2,12 @@ import copy
 import logging
 import os
 
+from sanskrit_data import testing
 from timebudget import timebudget
 
-from jyotisha.panchaanga.spatio_temporal import City, annual, periodical
+from jyotisha.panchaanga.spatio_temporal import City, annual
 from jyotisha.panchaanga.temporal import ComputationSystem
-from jyotisha.panchaanga.temporal.time import Date
 from jyotisha_tests.spatio_temporal import chennai
-from sanskrit_data import testing
 
 logging.basicConfig(
   level=logging.DEBUG,
@@ -29,9 +28,10 @@ def test_timing(caplog):
 
 
 # noinspection PyUnresolvedReferences
-def panchaanga_json_comparer(city, year, computation_system=ComputationSystem.TEST):
+def panchaanga_json_comparer(city, year):
+  test_computation_system = ComputationSystem.read_from_file(filename=os.path.join(TEST_DATA_PATH, "test_computation_system.toml"))
   expected_content_path = os.path.join(TEST_DATA_PATH, '%s-%d.json' % (city.name, year))
-  panchaanga = annual.get_panchaanga_for_civil_year(city=city, year=year, computation_system=computation_system,
+  panchaanga = annual.get_panchaanga_for_civil_year(city=city, year=year, computation_system=test_computation_system,
                                                     allow_precomputed=False)
   timebudget.report(reset=True)
   testing.json_compare(actual_object=panchaanga, expected_content_path=expected_content_path)

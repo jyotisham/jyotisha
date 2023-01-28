@@ -25,6 +25,7 @@ generation_project.dump_detailed(year=year, city=bengaLUru, year_type=era.ERA_GR
 generation_project.dump_detailed(year=year, city=bengaLUru, year_type=era.ERA_GREGORIAN, computation_system=vish_bhaaskara_computation_system)
 generation_project.dump_detailed(year=year, city=chennai, year_type=era.ERA_GREGORIAN)
 
+
 # chennai
 # Requested for bAlAsubrahmaNya's father. And kArtik potentially.
 # chennai = spatio_temporal.City.get_city_from_db("Chennai")
