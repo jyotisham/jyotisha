@@ -144,11 +144,6 @@
           "name": "mahApuruSha/general-indic-tropical"
         },
         {
-          "base_url": "https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/general",
-          "jsonClass": "RulesRepo",
-          "name": "mahApuruSha/general"
-        },
-        {
           "base_url": "https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/sci-tech",
           "jsonClass": "RulesRepo",
           "name": "mahApuruSha/sci-tech"

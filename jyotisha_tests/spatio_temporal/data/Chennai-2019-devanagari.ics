@@ -5041,24 +5041,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:khōḍiyāra-mātā-jayantī
-DTSTART;VALUE=DATE:20190213
-DTEND;VALUE=DATE:20190214
-DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Māghaḥ (lunar) mont
- h (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- Refe
- rences<br/>  - http://hindupad.com/khodiyar-mata-jayanti/<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/shakti/
- lunar_month/tithi/11/08/khODiyAra~mAtA~jayantI.toml)<br/>- Tags: OtherJaya
- ntis
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:kumbha-ravi-saṅkramaṇa-viṣṇupadī-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta:20190213T063557
 DTEND;TZID=Asia/Calcutta:20190213T145354
@@ -13736,11 +13718,11 @@ SUMMARY:varāha-jayantī
 DTSTART;VALUE=DATE:20190423
 DTEND;VALUE=DATE:20190424
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/devatA/lakShmI/lunar_month/tithi/01/20/varAha~jay
- antI.toml)<br/>- Tags: Dashavataram<br/><br/><br/><br/>## Details<br/>- Re
- ferences<br/>  - Vaidyanatha Dikshitiyam (SVR) p.62<br/>- [Edit config fil
- e](https://github.com/jyotisham/adyatithi/blob/master/devatA/lakShmI/lunar
- _month/tithi/01/20/varAha~jayantI.toml)<br/>- Tags: Dashavataram
+ am/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/01/20/varAha~j
+ ayantI.toml)<br/>- Tags: Dashavataram<br/><br/><br/><br/>## Details<br/>- 
+ References<br/>  - Vaidyanatha Dikshitiyam (SVR) p.62<br/>- [Edit config f
+ ile](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/l
+ unar_month/tithi/01/20/varAha~jayantI.toml)<br/>- Tags: Dashavataram
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18742,8 +18724,8 @@ DTEND;VALUE=DATE:20190604
 DESCRIPTION:Observed on Amāvāsyā tithi of Vaiśākhaḥ (lunar) month (
  Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- Referen
  ces<br/>  - http://hindupad.com/shani-jayanti-2013/<br/>- [Edit config fil
- e](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/
- tithi/02/30/zani~jayantI.toml)<br/>- Tags: OtherJayantis
+ e](https://github.com/jyotisham/adyatithi/blob/master/devatA/graha/lunar_m
+ onth/tithi/02/30/zani~jayantI.toml)<br/>- Tags: OtherJayantis
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
