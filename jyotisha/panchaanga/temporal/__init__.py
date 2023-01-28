@@ -143,8 +143,9 @@ class ComputationSystem(JsonObject):
     self.post_load_ops()
 
   def post_load_ops(self):
-    if not hasattr(self.festival_options, "repos") or self.festival_options.repos is None:
-      self.festival_options.init_repos()
+    if hasattr(self, "festival_options") and self.festival_options is not None:
+      if not hasattr(self.festival_options, "repos") or self.festival_options.repos is None:
+        self.festival_options.init_repos()
 
   def __repr__(self):
     return "%s__%s" % (self.lunar_month_assigner_type, self.ayanaamsha_id)
