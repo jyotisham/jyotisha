@@ -26,6 +26,7 @@ saturn = 15
 #### Event options
  ```
 aparaahna_as_second_half = false
+fest_repos_excluded_patterns = [ ".*mahApuruSha/xatra-later.*", ".*mahApuruSha/sci-tech.*", ".*mahApuruSha/general-indic-non-tropical.*",]
 julian_handling = "converted to Gregorian"
 prefer_eight_fold_day_division = false
 jsonClass = "FestivalOptions"
