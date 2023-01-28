@@ -1,12 +1,14 @@
 import logging
+import os
 import sys
-from copy import deepcopy, copy
+
+import regex
+from sanskrit_data.schema import common
+from sanskrit_data.schema.common import JsonObject
 
 from jyotisha.panchaanga.temporal.body import Graha
 from jyotisha.panchaanga.temporal.festival.rules import RulesCollection, RulesRepo
 from jyotisha.panchaanga.temporal.zodiac.angas import BoundaryAngas, Anga, AngaType
-from sanskrit_data.schema import common
-from sanskrit_data.schema.common import JsonObject
 
 logging.basicConfig(
   level=logging.DEBUG,
@@ -50,7 +52,7 @@ def get_2_day_interval_boundary_angas(kaala, anga_type, p0, p1):
 
 
 class FestivalOptions(JsonObject):
-  def __init__(self, set_lagnas=None, no_fests=None, fest_repos=None, fest_ids_included_unimplemented=None, fest_ids_excluded_unimplemented=None, aparaahna_as_second_half=False, prefer_eight_fold_day_division=False, set_pancha_paxi_activities=None, julian_handling=RulesCollection.JULIAN_TO_GREGORIAN):
+  def __init__(self, set_lagnas=None, no_fests=None, fest_repos=None, fest_ids_included_unimplemented=None, fest_ids_excluded_unimplemented=None, fest_repos_excluded_patterns=None, aparaahna_as_second_half=False, prefer_eight_fold_day_division=False, set_pancha_paxi_activities=None, julian_handling=RulesCollection.JULIAN_TO_GREGORIAN):
     """
     
     :param set_lagnas: 
@@ -68,12 +70,31 @@ class FestivalOptions(JsonObject):
     self.set_pancha_paxi_activities = set_pancha_paxi_activities
     self.aparaahna_as_second_half = aparaahna_as_second_half
     self.no_fests = no_fests
-    from jyotisha.panchaanga.temporal.festival import rules
-    self.repos = fest_repos if fest_repos is not None else rules.rule_repos
+    self.fest_repos_excluded_patterns = fest_repos_excluded_patterns
+    self.repos = fest_repos
+    self.init_repos()
+
     self.fest_ids_excluded_unimplemented = fest_ids_excluded_unimplemented
     self.fest_ids_included_unimplemented = fest_ids_included_unimplemented
+
     self.prefer_eight_fold_day_division = prefer_eight_fold_day_division
     self.julian_handling = julian_handling
+
+  def init_repos(self):
+    if not hasattr(self, "repos") or self.repos is None:
+      from jyotisha.panchaanga.temporal.festival import rules
+      self.repos = rules.rule_repos
+    if hasattr(self, "fest_repos_excluded_patterns") and self.fest_repos_excluded_patterns is not None:
+      repos = []
+      for repo in self.repos:
+        include = True
+        for x in self.fest_repos_excluded_patterns:
+          if regex.fullmatch(x, repo.name):
+            include = False
+            break
+        if include:
+          repos.append(repo)
+      self.repos = repos
 
   def get_repo_mds(self):
     return ["[%s](%s)" % (repo.name, repo.base_url) for repo in self.repos]
@@ -120,6 +141,11 @@ class ComputationSystem(JsonObject):
     self.ayanaamsha_id = ayanaamsha_id
     self.festival_options = festival_options
     self.graha_lopa_measures = GrahaLopaMeasures()
+    self.post_load_ops()
+
+  def post_load_ops(self):
+    if not hasattr(self.festival_options, "repos") or self.festival_options.repos is None:
+      self.festival_options.init_repos()
 
   def __repr__(self):
     return "%s__%s" % (self.lunar_month_assigner_type, self.ayanaamsha_id)
@@ -128,32 +154,13 @@ class ComputationSystem(JsonObject):
     system_copy = ComputationSystem(lunar_month_assigner_type=self.lunar_month_assigner_type, ayanaamsha_id=self.ayanaamsha_id, festival_options=None)
     return "#### Basic parameters\n```\n%s\n```\n\n%s" % (system_copy.to_string(format="toml"), self.festival_options.to_md())
      
-
-
-def get_kauNdinyaayana_bhaaskara_gRhya_computation_system():
-  computation_system = deepcopy(ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180)
-  computation_system.festival_options.repos = [RulesRepo(name="gRhya/general"), RulesRepo(name="gRhya/Apastamba")]
-  computation_system.festival_options.aparaahna_as_second_half = True
-  computation_system.festival_options.prefer_eight_fold_day_division = True
-  return computation_system
-
-
-def get_vishvaasa_bhaaskara_computation_system():
-  computation_system = deepcopy(ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180)
-  from jyotisha.panchaanga.temporal.festival import rules
-  repos = []
-  for repo in rules.rule_repos:
-    include = True
-    for x in ["kAnchI", "mAdhva", "smArta-misc", "zRGgErI", "nAyanAr", "ALvAr", "sangIta-kRt", "temples"]:
-      if x in repo.name:
-        include = False
-        break
-    if include:
-      repos.append(repo)
-  computation_system.festival_options.repos = repos
-  computation_system.festival_options.aparaahna_as_second_half = True
-  computation_system.festival_options.prefer_eight_fold_day_division = True
-  return computation_system
+  def dump_without_repos(self, file_path):
+    """Often, one sets repos without listing them - starting off with defaults and then excluding repsositories."""
+    if not file_path.startswith("/"):
+      from jyotisha.panchaanga.temporal import festival
+      file_path = os.path.join(os.path.dirname(festival.__file__, "data/computation_systems", file_path))
+    self.repos = None
+    self.dump_to_file(filename=file_path)
 
 def set_constants():
   from jyotisha.panchaanga.temporal.month import LunarMonthAssigner
