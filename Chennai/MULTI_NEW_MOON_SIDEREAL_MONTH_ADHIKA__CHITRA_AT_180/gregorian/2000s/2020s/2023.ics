@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230128080051
+SEQUENCE:20230128152502
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -4354,9 +4354,9 @@ DTEND;VALUE=DATE:20230130
 DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Māghaḥ (lunar) mont
  h (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- Refe
  rences<br/>  - http://hindupad.com/khodiyar-mata-jayanti/<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/shakti/
- lunar_month/tithi/11/08/khODiyAra~mAtA~jayantI.toml)<br/>- Tags: OtherJaya
- ntis
+ ig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/ge
+ neral-indic-non-tropical/lunar_month/tithi/11/08/khODiyAra~mAtA~jayantI.to
+ ml)<br/>- Tags: OtherJayantis
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16007,8 +16007,8 @@ DESCRIPTION:Observed on Kr̥ṣṇa-Pañcamī tithi of Caitraḥ (lunar) m
  दि यत् किञ्चित्तदानन्त्याय
   कल्पते॥<br/><br/><br/><br/>## Details<br/>- References<br/>
    - Vaidyanatha Dikshitiyam (SVR) p.62<br/>- [Edit config file](https://gi
- thub.com/jyotisham/adyatithi/blob/master/devatA/lakShmI/lunar_month/tithi/
- 01/20/varAha~jayantI.toml)<br/>- Tags: Dashavataram
+ thub.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tith
+ i/01/20/varAha~jayantI.toml)<br/>- Tags: Dashavataram
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22328,8 +22328,8 @@ DTEND;VALUE=DATE:20230520
 DESCRIPTION:Observed on Amāvāsyā tithi of Vaiśākhaḥ (lunar) month (
  Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- Referen
  ces<br/>  - http://hindupad.com/shani-jayanti-2013/<br/>- [Edit config fil
- e](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/
- tithi/02/30/zani~jayantI.toml)<br/>- Tags: OtherJayantis
+ e](https://github.com/jyotisham/adyatithi/blob/master/devatA/graha/lunar_m
+ onth/tithi/02/30/zani~jayantI.toml)<br/>- Tags: OtherJayantis
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
