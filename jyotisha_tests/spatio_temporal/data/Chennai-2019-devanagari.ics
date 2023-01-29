@@ -5041,6 +5041,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:khōḍiyāra-mātā-jayantī
+DTSTART;VALUE=DATE:20190213
+DTEND;VALUE=DATE:20190214
+DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Māghaḥ (lunar) mont
+ h (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- Refe
+ rences<br/>  - http://hindupad.com/khodiyar-mata-jayanti/<br/>- [Edit conf
+ ig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/shakti/
+ lunar_month/tithi/11/08/khODiyAra~mAtA~jayantI.toml)<br/>- Tags: OtherJaya
+ ntis
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:kumbha-ravi-saṅkramaṇa-viṣṇupadī-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta:20190213T063557
 DTEND;TZID=Asia/Calcutta:20190213T145354
