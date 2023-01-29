@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230128212338
+SEQUENCE:20230129184037
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -3940,9 +3940,9 @@ DTEND;VALUE=DATE:20230130
 DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Māghaḥ (lunar) mont
  h (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- Refe
  rences<br/>  - http://hindupad.com/khodiyar-mata-jayanti/<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/ge
- neral-indic-non-tropical/lunar_month/tithi/11/08/khODiyAra~mAtA~jayantI.to
- ml)<br/>- Tags: OtherJayantis
+ ig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/shakti/
+ lunar_month/tithi/11/08/khODiyAra~mAtA~jayantI.toml)<br/>- Tags: OtherJaya
+ ntis
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
