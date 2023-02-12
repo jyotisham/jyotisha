@@ -88,3 +88,4 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./hugo-source/build_github
+        force_orphan: true # git history growth - even on non-src branches - makes cloning slow.
