@@ -427,12 +427,21 @@ class DailyPanchaanga(common.JsonObject):
 
     hora_list = [(x + HORA_GRAHAS.index(hora_sunrise)) % 7 for x in range(24)]
 
-    for i, hora in enumerate(hora_list[:12]):
-      hora_end_time = get_interval(start_jd=self.jd_sunrise, end_jd=self.jd_sunset, part_index=i, num_parts=12).jd_end
-      self.hora_data.append((hora, HORA_GRAHAS[hora], hora_end_time))
+    # लङ्को दग्याम्यसूत्रात् प्रथममपरतः पूर्वदेशे च पश्चाद-
+    # ध्वोत्थाभिघंटीभिः विरुदयतो वासरेश प्रवृत्तिः ।
 
-    for i, hora in enumerate(hora_list[12:]):
-      hora_end_time = get_interval(start_jd=self.jd_sunset, end_jd=self.jd_next_sunrise, part_index=i, num_parts=12).jd_end
+    # ज्ञेया सूर्योदयात् प्राक् चरशकलभवश्चासुभिर्याम्यगोले
+    # पश्चात् तैः सौम्यगोले युतिवियुतिवशाच्चोभयोः स्पष्टकालः ॥
+    # सिद्धान्तशिरोमणौ मध्यमाधिकारे भूपरिध्यध्याये ६
+
+    # Zero latitude, and traditional "Zero" longitude (traditional = Ujjayini Mahakaleshwar)
+    LANKA = City(name='Lanka', name_hk='laGkA', latitude=0, longitude=75.7682178, timezone="Asia/Kolkata")
+
+    jd_sunrise = LANKA.get_rising_time(julian_day_start=self.julian_day_start, body=Graha.SUN)
+    jd_next_sunrise = LANKA.get_rising_time(julian_day_start=self.julian_day_start + 1, body=Graha.SUN)
+
+    for i, hora in enumerate(hora_list):
+      hora_end_time = get_interval(start_jd=jd_sunrise, end_jd=self.jd_next_sunrise, part_index=i, num_parts=24).jd_end
       self.hora_data.append((hora, HORA_GRAHAS[hora], hora_end_time))
 
     return self.hora_data
