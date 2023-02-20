@@ -6774,6 +6774,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:kāśi-viśvanātha-mandira-sthāpanam #434
+DTSTART;VALUE=DATE:20190226
+DTEND;VALUE=DATE:20190227
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/general-indic-tropical/gregorian/day/
+ 02/27/kAshI-vishvanAtha-mandira-sthApanam.toml)<br/>- Tags: <br/><br/><br/
+ ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
+ atithi/blob/master/mahApuruSha/general-indic-tropical/gregorian/day/02/27/
+ kAshI-vishvanAtha-mandira-sthApanam.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:māgha-anvaṣṭakā-śrāddham
 DTSTART;VALUE=DATE:20190227
 DTEND;VALUE=DATE:20190228
