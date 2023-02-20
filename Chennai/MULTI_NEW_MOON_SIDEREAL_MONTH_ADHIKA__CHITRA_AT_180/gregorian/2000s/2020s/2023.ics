@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230220124828
+SEQUENCE:20230220125237
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -8839,25 +8839,6 @@ DESCRIPTION:Event occured on 2002-02-27 (gregorian). <br/><br/>A roughly 1
  1k-2k deaths (~ 75% muslim).<br/><br/>## Details<br/>- [Edit config file](
  https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xatra-later
  /gregorian/day/02/27/godhrA-jvAlanam.toml)<br/>- Tags:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:काशि-विश्वनाथ-मन्दिर-स्थ
- ापनम् #४३८
-DTSTART;VALUE=DATE:20230227
-DTEND;VALUE=DATE:20230228
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/general-indic-tropical/gregorian/day/
- 02/27/kAshI-vishvanAtha-mandira-sthApanam.toml)<br/>- Tags: <br/><br/><br/
- ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
- atithi/blob/master/mahApuruSha/general-indic-tropical/gregorian/day/02/27/
- kAshI-vishvanAtha-mandira-sthApanam.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
