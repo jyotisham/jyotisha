@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230216173451
+SEQUENCE:20230220124828
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -7788,7 +7788,7 @@ DESCRIPTION:amāvāsyā of māgha month.<br/><br/>## Details<br/>- [Edit c
  >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/t
  ime_focus/monthly/amAvAsyA/description_only/mAgha-zatabhiSak-amAvAsyA.toml
  )<br/>- Tags: AmavasyaDays<br/><br/><br/><br/>It is said in the Smrtis\, t
- hat if Amavaysa falls on a Monday\, Tuesday or Thursday\, such a tithi is 
+ hat if Amavasya falls on a Monday\, Tuesday or Thursday\, such a tithi is 
  given the appellation puṣkalā and is as sacred as a solar eclipse.<br/>
  <br/>स्मृत्यन्तरे---  <br/>अमा सोमे
  न भौमेन गुरुणा वा युता यदि।  <
@@ -8198,12 +8198,12 @@ DESCRIPTION:Observed on Uttaraprōṣṭhapadā nakshatra of Kumbhaḥ (si
  dereal solar) month (Prātaḥ/paraviddha). The event occurred in 5009 (Ka
  li era).  <br/><br/><br/>jagadguru śrī~chandraśēkharēndra sarasvatī 
  7 was inducted into sannyāsāśramam on Friday\, 15th February 1907\, par
- ābhava year\, kumbha/adhika phālguna māsa kr̥ṣṇa tr̥tīyā bhr̥g
- uvāsaraḥ uttaraprōṣṭhapadā nakṣatram.<br/><br/>## Details<br/>-
-  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mah
- ApuruSha/kAnchI-maTha/sidereal_solar_month/nakshatra/11/26/kAJcI_68_jagadg
- uru_zrI~candrazEkharEndra_sarasvatI_7_Azrama-svIkAra-dinam.toml)<br/>- Tag
- s: MahapurushaEvents CommonFestivals
+ ābhava year\, kumbha/adhika phālguna māsa śukla tr̥tīyā bhr̥guvās
+ araḥ uttaraprōṣṭhapadā nakṣatram.<br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuru
+ Sha/kAnchI-maTha/sidereal_solar_month/nakshatra/11/26/kAJcI_68_jagadguru_z
+ rI~candrazEkharEndra_sarasvatI_7_Azrama-svIkAra-dinam.toml)<br/>- Tags: Ma
+ hapurushaEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12290,7 +12290,7 @@ DESCRIPTION:amāvāsyā of phālguna month.<br/><br/>## Details<br/>- [Edi
  am<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/ma
  ster/time_focus/monthly/amAvAsyA/description_only/alabhya-nakSatra-amAvAsy
  A.toml)<br/>- Tags: AmavasyaDays<br/><br/><br/><br/>It is said in the Smrt
- is\, that if Amavaysa falls on a Monday\, Tuesday or Thursday\, such a tit
+ is\, that if Amavasya falls on a Monday\, Tuesday or Thursday\, such a tit
  hi is given the appellation puṣkalā and is as sacred as a solar eclipse
  .<br/><br/>स्मृत्यन्तरे---  <br/>अमा सो
  मेन भौमेन गुरुणा वा युता यदि
@@ -31439,7 +31439,7 @@ DESCRIPTION:amāvāsyā of āṣāḍha month\, which also falls in the si
  am<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/ma
  ster/time_focus/monthly/amAvAsyA/description_only/alabhya-nakSatra-amAvAsy
  A.toml)<br/>- Tags: AmavasyaDays<br/><br/><br/><br/>It is said in the Smrt
- is\, that if Amavaysa falls on a Monday\, Tuesday or Thursday\, such a tit
+ is\, that if Amavasya falls on a Monday\, Tuesday or Thursday\, such a tit
  hi is given the appellation puṣkalā and is as sacred as a solar eclipse
  .<br/><br/>स्मृत्यन्तरे---  <br/>अमा सो
  मेन भौमेन गुरुणा वा युता यदि
@@ -35224,7 +35224,7 @@ DESCRIPTION:amāvāsyā of adhika śravaṇa month\, which also falls in t
  idyanatha Dikshitiyam<br/>- [Edit config file](https://github.com/jyotisha
  m/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/alabh
  ya-nakSatra-amAvAsyA.toml)<br/>- Tags: AmavasyaDays<br/><br/><br/><br/>It 
- is said in the Smrtis\, that if Amavaysa falls on a Monday\, Tuesday or Th
+ is said in the Smrtis\, that if Amavasya falls on a Monday\, Tuesday or Th
  ursday\, such a tithi is given the appellation puṣkalā and is as sacred
   as a solar eclipse.<br/><br/>स्मृत्यन्तरे---  <br
  />अमा सोमेन भौमेन गुरुणा वा य
@@ -40148,7 +40148,7 @@ DTEND;VALUE=DATE:20230915
 DESCRIPTION:amāvāsyā of śrāvaṇa month<br/><br/>## Details<br/>- [Ed
  it config file](https://github.com/jyotisham/adyatithi/blob/master/time_fo
  cus/monthly/amAvAsyA/description_only/zrAvaNa-amAvAsyA.toml)<br/>- Tags: A
- mavasyaDays<br/><br/><br/><br/>It is said in the Smrtis\, that if Amavaysa
+ mavasyaDays<br/><br/><br/><br/>It is said in the Smrtis\, that if Amavasya
   falls on a Monday\, Tuesday or Thursday\, such a tithi is given the appel
  lation puṣkalā and is as sacred as a solar eclipse.<br/><br/>स्म
  ृत्यन्तरे---  <br/>अमा सोमेन भौम
@@ -50065,7 +50065,7 @@ DESCRIPTION:amāvāsyā of āśvayuja month.<br/><br/>## Details<br/>- [Ed
  yam<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/m
  aster/time_focus/monthly/amAvAsyA/description_only/alabhya-nakSatra-amAvAs
  yA.toml)<br/>- Tags: AmavasyaDays<br/><br/><br/><br/>It is said in the Smr
- tis\, that if Amavaysa falls on a Monday\, Tuesday or Thursday\, such a ti
+ tis\, that if Amavasya falls on a Monday\, Tuesday or Thursday\, such a ti
  thi is given the appellation puṣkalā and is as sacred as a solar eclips
  e.<br/><br/>स्मृत्यन्तरे---  <br/>अमा सो
  मेन भौमेन गुरुणा वा युता यदि
@@ -55112,7 +55112,7 @@ DTEND;VALUE=DATE:20231213
 DESCRIPTION:amāvāsyā of kārttika month.<br/><br/>## Details<br/>- [Edi
  t config file](https://github.com/jyotisham/adyatithi/blob/master/time_foc
  us/monthly/amAvAsyA/description_only/kArttika-amAvAsyA.toml)<br/>- Tags: A
- mavasyaDays<br/><br/><br/><br/>It is said in the Smrtis\, that if Amavaysa
+ mavasyaDays<br/><br/><br/><br/>It is said in the Smrtis\, that if Amavasya
   falls on a Monday\, Tuesday or Thursday\, such a tithi is given the appel
  lation puṣkalā and is as sacred as a solar eclipse.<br/><br/>स्म
  ृत्यन्तरे---  <br/>अमा सोमेन भौम
