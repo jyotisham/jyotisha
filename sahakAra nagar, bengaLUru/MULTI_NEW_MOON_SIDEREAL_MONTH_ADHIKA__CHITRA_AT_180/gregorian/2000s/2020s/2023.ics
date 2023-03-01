@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230227163642
+SEQUENCE:20230301101650
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -31289,6 +31289,24 @@ DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha).<br/><br/>## Details<br/>- [Edit config file](h
  ttps://github.com/jyotisham/adyatithi/blob/master/gRhya/general/descriptio
  n_only/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:direct-action-day-प्रतिकारः #७७
+DTSTART;VALUE=DATE:20230817
+DTEND;VALUE=DATE:20230818
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/08/17/direc
+ t-action-day_pratikAraH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<b
+ r/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master
+ /mahApuruSha/xatra-later/gregorian/day/08/17/direct-action-day_pratikAraH.
+ toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
