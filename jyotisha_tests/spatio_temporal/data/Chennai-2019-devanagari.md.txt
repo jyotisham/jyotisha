@@ -6261,7 +6261,10 @@ ___________________
 
 Event occured on 1585-02-27 (gregorian). 
 
-In 1585, the shrine of Kashi Vishweshwara established. It was built with by Todar Mal, with the permission of Badshah Akbar, and inaugurated with worshipping the God by Narayanabhatta, the famous Tikakara of Vrittaratnakara, one of the Dharmadhipati of the then Kashi along with Sheshakrishna Pandit, the guru of Bhattojidikshita and others.
+In 1585, the shrine of Kashi Vishweshwara established.
+It was built with by minister Todar Mal, unopposed by Akbar (who had by that time grown skeptical of Islam).
+It was inaugurated with worshipping the God by Narayanabhatta, the famous Tikakara of Vrittaratnakara,  
+and one of the Dharmadhipatis of Kashi along with Sheshakrishna Pandit, the guru of Bhattojidikshita and others.
 
 (Date reckoning based on supposition that the worship was conducted during Shivaratri.)
 
@@ -30667,7 +30670,7 @@ Viṣu Punyakala.
 
 ##### अविधवा-नवमी
 
-Observed on Kr̥ṣṇa-Navamī tithi of Bhādrapadaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
+Observed on Kr̥ṣṇa-Navamī tithi of Bhādrapadaḥ (lunar) month (Aparāhṇaḥ/vyaapti). 
 
 In honour of Avidhavaas (in the family), by holding a feast for Suvasinis and Kanyas.
 
@@ -36508,7 +36511,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- गोपद्म-व्रत-समापनम्, द्विदल-व्रत-समापनम्, प्रबोधोत्सवः, बृन्दावन-द्वादशी, याज्ञवल्क्य-जयन्ती, शनि-प्रदोष-व्रतम्
+- गोपद्म-व्रत-समापनम्, चातुर्मास्यव्रत-समापनम्, द्विदल-व्रत-समापनम्, प्रबोधोत्सवः, बृन्दावन-द्वादशी, याज्ञवल्क्य-जयन्ती, शनि-प्रदोष-व्रतम्
 ##### बृन्दावन-द्वादशी
 
 Observed on Śukla-Dvādaśī tithi of Kārttikaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -36518,6 +36521,17 @@ Observed on Śukla-Dvādaśī tithi of Kārttikaḥ (lunar) month (Sūryōdaya�
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/08/12/bRndAvana-dvAdazI.toml)
 - Tags: CommonFestivals
+
+
+##### चातुर्मास्यव्रत-समापनम्
+
+Observed on Śukla-Dvādaśī tithi of Kārttikaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
+
+
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/misc/lunar_month/tithi/08/12/cAturmAsyavrata-samApanam.toml)
+- Tags: SpecialPeriodEnd CommonFestivals
 
 
 ##### द्विदल-व्रत-समापनम्
@@ -36930,7 +36944,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- आग्रयण-होमः द्राविडेषु, कार्त्तिक-पूर्णिमा-स्नानम्, कार्त्तिक-मास-अन्तिमत्रयतिथि-व्रत-समापनम्, चातुर्मास्यव्रत-समापनम्, तिरुवनन्तपुर-देवायतन-प्रवेश-घोषणा #८४, निऩ्ऱचीर् नॆडुमाऱ नायऩार् (४८) गुरुपूजै, पद्मक-योगः, पार्वणव्रतम् पूर्णिमायाम्, पूर्णिमा-व्रतम्, भीष्म-पञ्चक-व्रत-समापनम्, मन्वादिः-(धर्मः-[११]), महा-अन्नाभिषेकः, वेङ्कटाचले पूर्णिमा-गरुड-सेवा, श्री-गोविन्द भगवत्पाद आराधना
+- आग्रयण-होमः द्राविडेषु, कार्त्तिक-पूर्णिमा-स्नानम्, कार्त्तिक-मास-अन्तिमत्रयतिथि-व्रत-समापनम्, तिरुवनन्तपुर-देवायतन-प्रवेश-घोषणा #८४, निऩ्ऱचीर् नॆडुमाऱ नायऩार् (४८) गुरुपूजै, पद्मक-योगः, पार्वणव्रतम् पूर्णिमायाम्, पूर्णिमा-व्रतम्, भीष्म-पञ्चक-व्रत-समापनम्, मन्वादिः-(धर्मः-[११]), महा-अन्नाभिषेकः, वेङ्कटाचले पूर्णिमा-गरुड-सेवा, श्री-गोविन्द भगवत्पाद आराधना
 ##### आग्रयण-होमः द्राविडेषु
 
 Observed on Paurṇamāsī tithi of Tulā (sidereal solar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -36953,17 +36967,6 @@ Bhishma, lying on śaratalpa performed upadesha to Yudhisthira and other Pandava
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xatra/lunar_month/tithi/08/15/bhISma-paJcaka-vrata-samApanam.toml)
 - Tags: LessCommonFestivals
-
-
-##### चातुर्मास्यव्रत-समापनम्
-
-Observed on Paurṇamāsī tithi of Kārttikaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
-
-
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/misc/lunar_month/tithi/08/15/cAturmAsyavrata-samApanam.toml)
-- Tags: SpecialPeriodEnd CommonFestivals
 
 
 ##### कार्त्तिक-मास-अन्तिमत्रयतिथि-व्रत-समापनम्

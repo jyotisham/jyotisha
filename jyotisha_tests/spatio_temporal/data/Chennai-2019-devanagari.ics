@@ -33337,13 +33337,13 @@ SUMMARY:avidhavā-navamī
 DTSTART;VALUE=DATE:20190923
 DTEND;VALUE=DATE:20190924
 DESCRIPTION:Observed on Kr̥ṣṇa-Navamī tithi of Bhādrapadaḥ (lunar
- ) month (Sūryōdayaḥ/puurvaviddha). <br/><br/>In honour of Avidhavaas (
- in the family)\, by holding a feast for Suvasinis and Kanyas.<br/><br/>bha
- rturagrē mr̥tā nārī sahadāhēna vā mr̥tā।  <br/>tasyāḥ sthā
- nē niyuñjīta vipraiḥ saha suvāsinīm॥<br/><br/><br/><br/>## Detail
- s<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mas
- ter/devatA/shakti/lunar_month/tithi/06/24/avidhavA-navamI.toml)<br/>- Tags
- : SpecialPuja CommonFestivals
+ ) month (Aparāhṇaḥ/vyaapti). <br/><br/>In honour of Avidhavaas (in th
+ e family)\, by holding a feast for Suvasinis and Kanyas.<br/><br/>bhartura
+ grē mr̥tā nārī sahadāhēna vā mr̥tā।  <br/>tasyāḥ sthānē n
+ iyuñjīta vipraiḥ saha suvāsinīm॥<br/><br/><br/><br/>## Details<br/
+ >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/d
+ evatA/shakti/lunar_month/tithi/06/24/avidhavA-navamI.toml)<br/>- Tags: Spe
+ cialPuja CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -39612,6 +39612,41 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:cāturmāsyavratam
+DTSTART;VALUE=DATE:20190712
+DTEND;VALUE=DATE:20191110
+DESCRIPTION:Chaaturmasya begins\; 4 months\; Pradakshina to Pippala\; Deep
+ aradhana in temple\; Saraswati Pooja\; 1st month no vegetables\; 2nd month
+  no curds\; 3rd month no milk\; 4th month no dals\;<br/><br/>## Details<br
+ />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
+ time_focus/misc/description_only/cAturmAsyavratam.toml)<br/>- Tags: Vratam
+  SpecialPeriod CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:cāturmāsyavrata-samāpanam
+DTSTART;VALUE=DATE:20191109
+DTEND;VALUE=DATE:20191110
+DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Kārttikaḥ (lunar) mo
+ nth (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [E
+ dit config file](https://github.com/jyotisham/adyatithi/blob/master/time_f
+ ocus/misc/lunar_month/tithi/08/12/cAturmAsyavrata-samApanam.toml)<br/>- Ta
+ gs: SpecialPeriodEnd CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:dvidala-vratam
 DTSTART;VALUE=DATE:20191009
 DTEND;VALUE=DATE:20191110
@@ -40071,41 +40106,6 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Kārttikaḥ (lunar) month
  /><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ad
  yatithi/blob/master/mahApuruSha/xatra/lunar_month/tithi/08/15/bhISma-paJca
  ka-vrata-samApanam.toml)<br/>- Tags: LessCommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:cāturmāsyavratam
-DTSTART;VALUE=DATE:20190712
-DTEND;VALUE=DATE:20191113
-DESCRIPTION:Chaaturmasya begins\; 4 months\; Pradakshina to Pippala\; Deep
- aradhana in temple\; Saraswati Pooja\; 1st month no vegetables\; 2nd month
-  no curds\; 3rd month no milk\; 4th month no dals\;<br/><br/>## Details<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
- time_focus/misc/description_only/cAturmAsyavratam.toml)<br/>- Tags: Vratam
-  SpecialPeriod CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:cāturmāsyavrata-samāpanam
-DTSTART;VALUE=DATE:20191112
-DTEND;VALUE=DATE:20191113
-DESCRIPTION:Observed on Paurṇamāsī tithi of Kārttikaḥ (lunar) month
-  (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit
-  config file](https://github.com/jyotisham/adyatithi/blob/master/time_focu
- s/misc/lunar_month/tithi/08/15/cAturmAsyavrata-samApanam.toml)<br/>- Tags:
-  SpecialPeriodEnd CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
