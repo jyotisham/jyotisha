@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230303175711
+SEQUENCE:20230312150341
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -44036,6 +44036,27 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अविधवा-नवमी
+DTSTART;VALUE=DATE:20231007
+DTEND;VALUE=DATE:20231008
+DESCRIPTION:Observed on Kr̥ṣṇa-Navamī tithi of Bhādrapadaḥ (lunar
+ ) month (Aparāhṇaḥ/vyaapti). <br/><br/>In honour of Avidhavaas (in th
+ e family)\, by holding a feast for Suvasinis and Kanyas.<br/><br/>भर
+ ्तुरग्रे मृता नारी सहदाहेन 
+ वा मृता।  <br/>तस्याः स्थाने नि
+ युञ्जीत विप्रैः सह सुवासिन
+ ीम्॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https:
+ //github.com/jyotisham/adyatithi/blob/master/devatA/shakti/lunar_month/tit
+ hi/06/24/avidhavA-navamI.toml)<br/>- Tags: SpecialPuja CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:अशोकाष्टमी-व्रत-आरम्भः
 DTSTART;VALUE=DATE:20231007
 DTEND;VALUE=DATE:20231008
@@ -44148,27 +44169,6 @@ DESCRIPTION:- Indian civil date: 1945-07-16\, Islamic: 1445-03-23 Rabīʿ
  ककालः**—14:53-16:22  \n___________________\n- **शूलम
  ्**—प्रतीची (►10:45)\; **परिहारः**–ग
  ुडम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:अविधवा-नवमी
-DTSTART;VALUE=DATE:20231008
-DTEND;VALUE=DATE:20231009
-DESCRIPTION:Observed on Kr̥ṣṇa-Navamī tithi of Bhādrapadaḥ (lunar
- ) month (Sūryōdayaḥ/puurvaviddha). <br/><br/>In honour of Avidhavaas (
- in the family)\, by holding a feast for Suvasinis and Kanyas.<br/><br/>भ
- र्तुरग्रे मृता नारी सहदाहे
- न वा मृता।  <br/>तस्याः स्थाने न
- ियुञ्जीत विप्रैः सह सुवासि
- नीम्॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](htt
- ps://github.com/jyotisham/adyatithi/blob/master/devatA/shakti/lunar_month/
- tithi/06/24/avidhavA-navamI.toml)<br/>- Tags: SpecialPuja CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -52149,6 +52149,42 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:चातुर्मास्यव्रतम्
+DTSTART;VALUE=DATE:20230630
+DTEND;VALUE=DATE:20231125
+DESCRIPTION:Chaaturmasya begins\; 4 months\; Pradakshina to Pippala\; Deep
+ aradhana in temple\; Saraswati Pooja\; 1st month no vegetables\; 2nd month
+  no curds\; 3rd month no milk\; 4th month no dals\;<br/><br/>## Details<br
+ />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
+ time_focus/misc/description_only/cAturmAsyavratam.toml)<br/>- Tags: Vratam
+  SpecialPeriod CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:चातुर्मास्यव्रत-समापनम
+ ्
+DTSTART;VALUE=DATE:20231124
+DTEND;VALUE=DATE:20231125
+DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Kārttikaḥ (lunar) mo
+ nth (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [E
+ dit config file](https://github.com/jyotisham/adyatithi/blob/master/time_f
+ ocus/misc/lunar_month/tithi/08/12/cAturmAsyavrata-samApanam.toml)<br/>- Ta
+ gs: SpecialPeriodEnd CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:डार्विन-विकास-वाद-ग्रन्थ
  -प्रकाशनम् #१६४
 DTSTART;VALUE=DATE:20231124
@@ -52885,42 +52921,6 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Kārttikaḥ (lunar) month
  /><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ad
  yatithi/blob/master/mahApuruSha/xatra/lunar_month/tithi/08/15/bhISma-paJca
  ka-vrata-samApanam.toml)<br/>- Tags: LessCommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:चातुर्मास्यव्रतम्
-DTSTART;VALUE=DATE:20230630
-DTEND;VALUE=DATE:20231128
-DESCRIPTION:Chaaturmasya begins\; 4 months\; Pradakshina to Pippala\; Deep
- aradhana in temple\; Saraswati Pooja\; 1st month no vegetables\; 2nd month
-  no curds\; 3rd month no milk\; 4th month no dals\;<br/><br/>## Details<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
- time_focus/misc/description_only/cAturmAsyavratam.toml)<br/>- Tags: Vratam
-  SpecialPeriod CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:चातुर्मास्यव्रत-समापनम
- ्
-DTSTART;VALUE=DATE:20231127
-DTEND;VALUE=DATE:20231128
-DESCRIPTION:Observed on Paurṇamāsī tithi of Kārttikaḥ (lunar) month
-  (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit
-  config file](https://github.com/jyotisham/adyatithi/blob/master/time_focu
- s/misc/lunar_month/tithi/08/15/cAturmAsyavrata-samApanam.toml)<br/>- Tags:
-  SpecialPeriodEnd CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
