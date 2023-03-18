@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230318180624
+SEQUENCE:20230318185356
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -32183,11 +32183,12 @@ BEGIN:VEVENT
 SUMMARY:अव्यङ्ग-सप्तमी
 DTSTART;VALUE=DATE:20230823
 DTEND;VALUE=DATE:20230824
-DESCRIPTION:Observed on Śukla-Saptamī tithi of Śrāvaṇaḥ (lunar) mo
- nth (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [E
- dit config file](https://github.com/jyotisham/adyatithi/blob/master/genera
- l/lunar_month/tithi/05/07/avyaGga-saptamI.toml)<br/>- Tags: LessCommonFest
- ivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/05/07/avyaGga-saptamI.t
+ oml)<br/>- Tags: LessCommonFestivals<br/><br/><br/><br/>## Details<br/>- R
+ eferences<br/>  - Naradiya Puranam\, Adhyaya 116<br/>- [Edit config file](
+ https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tit
+ hi/05/07/avyaGga-saptamI.toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -50284,15 +50285,13 @@ BEGIN:VEVENT
 SUMMARY:मित्र-सप्तमी
 DTSTART;VALUE=DATE:20231218
 DTEND;VALUE=DATE:20231219
-DESCRIPTION:Observed on Śukla-Saptamī tithi of Mārgaśīrṣaḥ (lunar
- ) month (Aparāhṇaḥ/puurvaviddha). <br/><br/>Birth of Surya to Aditya-
- Kashyapa on this day.<br/><br/>अदित्यां कश्यपा
- ज्जज्ञे मित्रो नाम दिवाकरः
- ।  <br/>सप्तम्यां तेन सा ख्याता 
- लोकेऽस्मिन् मित्रसप्तमी॥<br/
- ><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyo
- tisham/adyatithi/blob/master/general/lunar_month/tithi/09/07/mitra-saptamI
- .toml)<br/>- Tags: OtherAvataram SpecialPuja CommonFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/09/07/mitra-saptamI.tom
+ l)<br/>- Tags: OtherAvataram SpecialPuja CommonFestivals<br/><br/><br/><br
+ />## Details<br/>- References<br/>  - Naradiya Puranam\, Adhyaya 116<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gen
+ eral/lunar_month/tithi/09/07/mitra-saptamI.toml)<br/>- Tags: OtherAvataram
+  SpecialPuja CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
