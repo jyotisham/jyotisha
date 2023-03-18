@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230318143347
+SEQUENCE:20230318170021
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -1339,6 +1339,19 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  it config file](https://github.com/jyotisham/adyatithi/blob/master/mahApur
  uSha/xatra-later/gregorian/day/01/10/shiNDE-dattAjI-mRtaH.toml)<br/>- Tags
  :
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:सुखा अङ्गारकी-चतुर्थी
+DTSTART;VALUE=DATE:20230110
+DTEND;VALUE=DATE:20230111
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3211,6 +3224,19 @@ DESCRIPTION:- Indian civil date: 1944-11-04\, Islamic: 1444-07-02 Rajab\,
  ककालः**—12:31-13:57  \n___________________\n- **शूलम
  ्**—उदीची (►11:23)\; **परिहारः**–क्ष
  ीरम्  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:सुखा अङ्गारकी-चतुर्थी
+DTSTART;VALUE=DATE:20230124
+DTEND;VALUE=DATE:20230125
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5277,28 +5303,6 @@ DESCRIPTION:- Indian civil date: 1944-11-20\, Islamic: 1444-07-18 Rajab\,
  गुलिककालः**—09:40-11:07  \n___________________\n- **
  शूलम्**—दक्षिणा (►14:29)\; **परिहा
  रः**–तैलम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:अङ्गारकी द्विजप्रिय-महा
- गणपति सङ्कटहर-चतुर्थी-व्रत
- म्
-DTSTART;VALUE=DATE:20230208
-DTEND;VALUE=DATE:20230209
-DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
- hipped as dvijapriya-mahāgaṇapatiḥ. Fast during the day and pray to G
- anesha after moonrise\, as follows:<br/><br/>## Details<br/>- [Edit config
-  file](https://github.com/jyotisham/adyatithi/blob/master/devatA/gaNapati/
- description_only/dvijapriya-mahAgaNapati_saGkaTahara-caturthI-vratam.toml)
- <br/>- Tags: MonthlyVratam SankataharaChaturthiVratam<br/><br/>When `catur
- thI` occurs on a Tuesday\, it is known as `aGgArakI` and is even more sacr
- ed.
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13894,7 +13898,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:रविवार विकट-महागणपति सङ्
+SUMMARY:रविवार-विकट-महागणपति सङ्
  कटहर-चतुर्थी-व्रतम्
 DTSTART;VALUE=DATE:20230409
 DTEND;VALUE=DATE:20230410
@@ -18455,6 +18459,33 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अङ्गारकी-चतुर्थी
+DTSTART;VALUE=DATE:20230509
+DTEND;VALUE=DATE:20230510
+DESCRIPTION:chaturthī tithi on a Tuesday is as sacred as a solar eclipse.
+  Particularly special day for doing puja of Ganesha/Subrahmanya with naive
+ dyam of modakam/millet flour respectively.<br/><br/>अमावस्य
+ ा तु सोमेन सप्तमी भानुना सह।
+   <br/>चतुर्थी भूमिपुत्रेण सोम
+ पुत्रेण चाष्टमी।  <br/>चतस्रस्
+ तिथयस्त्वेताः सूर्यग्रहणस
+ न्निभाः॥  <br/>नारदीयपुर्णे ११
+ ३.६०---  <br/>यस्मिन्कस्मिन्भवेन
+ ्मासि चतुर्थी रविवारयुक्।  <
+ br/>साङ्गारका वा विप्रेन्द्र 
+ सा विशेषफलप्रदा॥<br/><br/><br/><br/>## Detai
+ ls<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/ma
+ ster/time_focus/tithi-vara-combinations/description_only/aGgArakI-caturthI
+ .toml)<br/>- Tags: RareDays Combinations
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:बाजी-रावो मृतः #२८३
 DTSTART;VALUE=DATE:20230509
 DTEND;VALUE=DATE:20230510
@@ -20331,6 +20362,19 @@ DESCRIPTION:When the sum of the longitudes of the Moon and Sun is 180\, it
  picious activities.<br/><br/>## Details<br/>- [Edit config file](https://g
  ithub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/des
  cription_only/sAyana-vyatIpAtaH.toml)<br/>- Tags: Combinations
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:सुखा अङ्गारकी-चतुर्थी
+DTSTART;VALUE=DATE:20230523
+DTEND;VALUE=DATE:20230524
+DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -22243,8 +22287,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:कृष्णपिङ्गल-महागणपति सङ
  ्कटहर-चतुर्थी-व्रतम्
-DTSTART;VALUE=DATE:20230606
-DTEND;VALUE=DATE:20230607
+DTSTART;VALUE=DATE:20230607
+DTEND;VALUE=DATE:20230608
 DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
  hipped as kr̥ṣṇapiṅgala-mahāgaṇapatiḥ. Fast during the day and
   pray to Ganesha after moonrise\, as follows:<br/><br/>गणाधिप
@@ -33923,10 +33967,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:रविवार हेरम्ब-महागणपति म
+SUMMARY:रविवार-हेरम्ब-महागणपति म
  हासङ्कटहर-चतुर्थी-व्रतम्
-DTSTART;VALUE=DATE:20230902
-DTEND;VALUE=DATE:20230903
+DTSTART;VALUE=DATE:20230903
+DTEND;VALUE=DATE:20230904
 DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -36109,6 +36153,19 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  onfig file](https://github.com/jyotisham/adyatithi/blob/master/general/lun
  ar_month/tithi/06/05/RSi-paJcamI-vratam.toml)<br/>- Tags: SpecialVratam Co
  mmonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:सुखा अङ्गारकी-चतुर्थी
+DTSTART;VALUE=DATE:20230919
+DTEND;VALUE=DATE:20230920
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
