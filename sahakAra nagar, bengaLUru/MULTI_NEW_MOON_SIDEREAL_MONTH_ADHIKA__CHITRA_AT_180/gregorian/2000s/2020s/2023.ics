@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230318175015
+SEQUENCE:20230318180133
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -32183,11 +32183,12 @@ BEGIN:VEVENT
 SUMMARY:अव्यङ्ग-सप्तमी
 DTSTART;VALUE=DATE:20230823
 DTEND;VALUE=DATE:20230824
-DESCRIPTION:Observed on Śukla-Saptamī tithi of Śrāvaṇaḥ (lunar) mo
- nth (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [E
- dit config file](https://github.com/jyotisham/adyatithi/blob/master/genera
- l/lunar_month/tithi/05/07/avyaGga-saptamI.toml)<br/>- Tags: LessCommonFest
- ivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/05/07/avyaGga-saptamI.t
+ oml)<br/>- Tags: LessCommonFestivals<br/><br/><br/><br/>## Details<br/>- R
+ eferences<br/>  - Naradiya Puranam\, Adhyaya 116<br/>- [Edit config file](
+ https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tit
+ hi/05/07/avyaGga-saptamI.toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
