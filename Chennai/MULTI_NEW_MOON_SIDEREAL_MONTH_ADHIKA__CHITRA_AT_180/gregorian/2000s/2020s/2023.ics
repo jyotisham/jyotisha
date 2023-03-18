@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230318170126
+SEQUENCE:20230318175128
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -18822,12 +18822,13 @@ BEGIN:VEVENT
 SUMMARY:गङ्गा-सप्तमी
 DTSTART;VALUE=DATE:20230426
 DTEND;VALUE=DATE:20230427
-DESCRIPTION:Observed on Śukla-Saptamī tithi of Vaiśākhaḥ (lunar) mon
- th (Madhyāhnaḥ/puurvaviddha). <br/><br/>Ganga came out of Jahnu Maharsh
- i and became Jahnavi\; perform Parjanya Pooja<br/><br/>## Details<br/>- [E
- dit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA
- /nadI/lunar_month/tithi/02/07/gaGgA-saptamI.toml)<br/>- Tags: PuranaEvents
-  SpecialPuja CommonFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/nadI/lunar_month/tithi/02/07/gaGgA-saptamI
+ .toml)<br/>- Tags: PuranaEvents SpecialPuja CommonFestivals<br/><br/><br/>
+ <br/>## Details<br/>- References<br/>  - Naradiya Puranam\, Adhyaya 116<br
+ />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
+ devatA/nadI/lunar_month/tithi/02/07/gaGgA-saptamI.toml)<br/>- Tags: Purana
+ Events SpecialPuja CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19004,9 +19005,10 @@ DTEND;VALUE=DATE:20230428
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/general/lunar_month/tithi/02/07/zarkarA-saptamI.t
  oml)<br/>- Tags: SpecialPuja<br/><br/><br/><br/>## Details<br/>- Reference
- s<br/>  - Smriti Kaustubham p.112<br/>- [Edit config file](https://github.
- com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/02/07/zarkar
- A-saptamI.toml)<br/>- Tags: SpecialPuja
+ s<br/>  - Smriti Kaustubham p.112<br/>  - Naradiya Puranam\, Adhyaya 116<b
+ r/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master
+ /general/lunar_month/tithi/02/07/zarkarA-saptamI.toml)<br/>- Tags: Special
+ Puja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -50423,15 +50425,13 @@ BEGIN:VEVENT
 SUMMARY:गोवर्धन-पूजा
 DTSTART;VALUE=DATE:20231114
 DTEND;VALUE=DATE:20231115
-DESCRIPTION:Observed on Śukla-Prathamā tithi of Kārttikaḥ (lunar) mon
- th (Madhyāhnaḥ/puurvaviddha). <br/><br/>Commemoration of Govardhana Lee
- la of Krishna. Offer naivedyam to Lord Krishna.<br/><br/>गोवर्
- धन धराधार गोकुलत्राणकारक।  <
- br/>विष्णुबाहुकृतोच्छ्राय गव
- ां कोटिप्रदो भव॥<br/><br/><br/><br/>## Details
- <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
- er/devatA/vaiShNava/lunar_month/tithi/08/01/gOvardhana-pUjA.toml)<br/>- Ta
- gs: PuranaEvents CommonFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/08/01/gOvardha
+ na-pUjA.toml)<br/>- Tags: PuranaEvents CommonFestivals<br/><br/><br/><br/>
+ ## Details<br/>- References<br/>  - Naradiya Puranam\, Adhyaya 110<br/>- [
+ Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devat
+ A/vaiShNava/lunar_month/tithi/08/01/gOvardhana-pUjA.toml)<br/>- Tags: Pura
+ naEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -55369,6 +55369,32 @@ DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha).<br/><br/>## Details<br/>- [Edit config file](h
  ttps://github.com/jyotisham/adyatithi/blob/master/gRhya/general/descriptio
  n_only/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:धन-व्रतम्
+DTSTART;VALUE=DATE:20231213
+DTEND;VALUE=DATE:20231214
+DESCRIPTION:Observed on Śukla-Prathamā tithi of Mārgaśīrṣaḥ (luna
+ r) month (Sūryōdayaḥ/puurvaviddha). <br/><br/>अथ मार्ग
+ सिताद्यायां धनवतमनुत्तमम्
+ ।  <br/>नक्तं विष्ण्वर्चनं होम
+ ैः सौवर्णीं हुतभुक्तनुम्॥३
+ ८॥  <br/>रक्तवस्त्रयुगाच्छन्न
+ ां द्विजाय प्रतिपादयेत्।  <br/
+ >एवं कृत्वा धनैर्धान्यैः सम
+ ृद्धो जायते भुवि॥३९॥  <br/>वह्
+ निना दग्धपापस्तु विष्णुलोक
+ े महीयते॥<br/><br/><br/><br/>## Details<br/>- References<b
+ r/>  - Naradiya Puranam\, Adhyaya 110<br/>- [Edit config file](https://git
+ hub.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/09/01/dh
+ ana-vratam.toml)<br/>- Tags: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
