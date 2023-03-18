@@ -9842,20 +9842,11 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:bhālacandra-mahāgaṇapati saṅkaṭahara-caturthī-vratam
+SUMMARY:ravivāra bhālacandra-mahāgaṇapati saṅkaṭahara-caturthī-v
+ ratam
 DTSTART;VALUE=DATE:20190323
 DTEND;VALUE=DATE:20190324
-DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
- hipped as bhālachandra-mahāgaṇapatiḥ. Fast during the day and pray t
- o Ganesha after moonrise\, as follows:<br/><br/>gaṇādhipastvaṁ dēvē
- śa caturthyāṁ pūjitō mayā।  <br/>kaṣṭānmāṁ mōcayēśāna
-  sarvamiṣṭaṁ ca dēhi mē॥  <br/>  <br/>yadā saṅklēśitō mart
- yō nānāduḥkhaiśca dāruṇaiḥ।  <br/>tadā kr̥ṣṇē caturthy
- āṁ vai pūjanīyō gaṇādhipaḥ॥ (bhaviṣyapurāṇam)<br/><br/><
- br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
- adyatithi/blob/master/devatA/gaNapati/description_only/bhAlacandra-mahAgaN
- apati_saGkaTahara-caturthI-vratam.toml)<br/>- Tags: MonthlyVratam Sankatah
- araChaturthiVratam
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13723,10 +13714,12 @@ DESCRIPTION:chaturthī tithi on a Tuesday is as sacred as a solar eclipse.
  dyam of modakam/millet flour respectively.<br/><br/>amāvasyā tu sōmēna
   saptamī bhānunā saha।  <br/>caturthī bhūmiputrēṇa sōmaputrē
  ṇa cāṣṭamī।  <br/>catasrastithayastvētāḥ sūryagrahaṇasann
- ibhāḥ॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/blob/master/time_focus/tithi-vara-combinat
- ions/description_only/aGgAraka-caturthI.toml)<br/>- Tags: RareDays Combina
- tions
+ ibhāḥ॥  <br/>nāradīyapurṇē 113.60---  <br/>yasminkasminbhavēnm
+ āsi caturthī ravivārayuk।  <br/>sāṅgārakā vā viprēndra sā vi
+ śēṣaphalapradā॥<br/><br/><br/><br/>## Details<br/>- [Edit config fi
+ le](https://github.com/jyotisham/adyatithi/blob/master/time_focus/tithi-va
+ ra-combinations/description_only/aGgAraka-caturthI.toml)<br/>- Tags: RareD
+ ays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18898,10 +18891,11 @@ DTEND;VALUE=DATE:20190605
 DESCRIPTION:Observed on Śukla-Prathamā tithi of Jyaiṣṭhaḥ (lunar) 
  month (Sūryōdayaḥ/puurvaviddha). <br/><br/>Perform puja of karavīra p
  lants/flowers and then offer them in archanā.<br/><br/>karavīra viṣāv
- āsa namastē bhānuvallabha।  <br/>maulimaṇḍana durgādi dēvānā
- ṁ satataṁ priya॥<br/><br/><br/><br/>## Details<br/>- [Edit config fi
- le](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month
- /tithi/03/01/karavIra-vratam.toml)<br/>- Tags: SpecialVratam
+ āsa namastē bhānuvallabha।  <br/>dambhōlimr̥ḍadurgādi dēvānā
+ ṁ satataṁ priya॥<br/><br/><br/><br/>## Details<br/>- References<br/>
+   - Naradiya Puranam\, Adhyaya 110<br/>- [Edit config file](https://github
+ .com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/03/01/karav
+ Ira-vratam.toml)<br/>- Tags: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -28389,6 +28383,20 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:ravivāra hēramba-mahāgaṇapati mahāsaṅkaṭahara-caturthī-
+ vratam
+DTSTART;VALUE=DATE:20190818
+DTEND;VALUE=DATE:20190819
+DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Śrāvaṇaḥ-05-20  \,  Mīnaḥ-Rēvatī🌛🌌  \,  Siṁha
  ḥ-Maghā-05-04🌞🌌  \,  Nabhaḥ-05-29🌞🪐  \,  Maṅgalaḥ
 DTSTART;TZID=Asia/Calcutta:20190820T060031
@@ -36598,6 +36606,27 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:aṅgārakī vakratuṇḍa-mahāgaṇapati saṅkaṭahara-caturt
+ hī-vratam
+DTSTART;VALUE=DATE:20191016
+DTEND;VALUE=DATE:20191017
+DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
+ hipped as vakratuṇḍa-mahāgaṇapatiḥ. Fast during the day and pray 
+ to Ganesha after moonrise\, as follows:<br/><br/>## Details<br/>- [Edit co
+ nfig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/gaNap
+ ati/description_only/vakratuNDa-mahAgaNapati_saGkaTahara-caturthI-vratam.t
+ oml)<br/>- Tags: MonthlyVratam SankataharaChaturthiVratam<br/><br/>When `c
+ aturthI` occurs on a Tuesday\, it is known as `aGgArakI` and is even more 
+ sacred.
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:karaka-caturthī
 DTSTART;VALUE=DATE:20191017
 DTEND;VALUE=DATE:20191018
@@ -44347,29 +44376,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ākhuratha-mahāgaṇapati saṅkaṭahara-caturthī-vratam
-DTSTART;VALUE=DATE:20191215
-DTEND;VALUE=DATE:20191216
-DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
- hipped as ākhuratha-mahāgaṇapatiḥ. Fast during the day and pray to G
- anesha after moonrise\, as follows:<br/><br/>gaṇādhipastvaṁ dēvēśa
-  caturthyāṁ pūjitō mayā।  <br/>kaṣṭānmāṁ mōcayēśāna sa
- rvamiṣṭaṁ ca dēhi mē॥  <br/>  <br/>yadā saṅklēśitō martyō
-  nānāduḥkhaiśca dāruṇaiḥ।  <br/>tadā kr̥ṣṇē caturthyā
- ṁ vai pūjanīyō gaṇādhipaḥ॥ (bhaviṣyapurāṇam)<br/><br/><br
- /><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ad
- yatithi/blob/master/devatA/gaNapati/description_only/Akhuratha-mahAgaNapat
- i_saGkaTahara-caturthI-vratam.toml)<br/>- Tags: MonthlyVratam SankataharaC
- haturthiVratam
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Kārttigai Ñāyiṟṟukkiḻamai
 DTSTART;VALUE=DATE:20191215
 DTEND;VALUE=DATE:20191216
@@ -44393,6 +44399,20 @@ DESCRIPTION:When Pushya nakshatra falls on a Sunday\, it is a special yōg
  aḥ.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
  isham/adyatithi/blob/master/time_focus/misc_combinations/description_only/
  ravipuSya-yOgaH.toml)<br/>- Tags: RareDays Combinations
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ravivāra ākhuratha-mahāgaṇapati saṅkaṭahara-caturthī-vra
+ tam
+DTSTART;VALUE=DATE:20191215
+DTEND;VALUE=DATE:20191216
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
