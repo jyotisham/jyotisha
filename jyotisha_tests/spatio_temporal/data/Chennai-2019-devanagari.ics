@@ -9842,7 +9842,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ravivāra bhālacandra-mahāgaṇapati saṅkaṭahara-caturthī-v
+SUMMARY:ravivāra-bhālacandra-mahāgaṇapati saṅkaṭahara-caturthī-v
  ratam
 DTSTART;VALUE=DATE:20190323
 DTEND;VALUE=DATE:20190324
@@ -11621,24 +11621,6 @@ DESCRIPTION:Observed on Kr̥ttikā nakshatra of Mīnaḥ (sidereal solar)
  m/jyotisham/adyatithi/blob/master/mahApuruSha/sangIta-kRt/sidereal_solar_m
  onth/nakshatra/12/03/muttusvAmI~dIkSita~jayantI.toml)<br/>- Tags: Mahapuru
  shaEvents CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:sukhā-aṅgāraka-caturthī
-DTSTART;VALUE=DATE:20190409
-DTEND;VALUE=DATE:20190410
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/tithi-vara-combinations/description_on
- ly/sukhA~aGgAraka-caturthI.toml)<br/>- Tags: RareDays Combinations<br/><br
- /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/tithi-vara-combinations/description_on
- ly/sukhA~aGgAraka-caturthI.toml)<br/>- Tags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13697,29 +13679,6 @@ DESCRIPTION:- Indian civil date: 1941-02-03\, Islamic: 1440-08-17 Shaʿbā
  laḥ**—15:13-16:46\; **Yamaghaṇṭaḥ**—09:01-10:34\; **Gulikakāl
  aḥ**—12:07-13:40  \n___________________\n- **Śūlam**—Udīchī (►
  10:53)\; **Parihāraḥ**–Kṣīram  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:aṅgāraka-caturthī
-DTSTART;VALUE=DATE:20190423
-DTEND;VALUE=DATE:20190424
-DESCRIPTION:chaturthī tithi on a Tuesday is as sacred as a solar eclipse.
-  Particularly special day for doing puja of Ganesha/Subrahmanya with naive
- dyam of modakam/millet flour respectively.<br/><br/>amāvasyā tu sōmēna
-  saptamī bhānunā saha।  <br/>caturthī bhūmiputrēṇa sōmaputrē
- ṇa cāṣṭamī।  <br/>catasrastithayastvētāḥ sūryagrahaṇasann
- ibhāḥ॥  <br/>nāradīyapurṇē 113.60---  <br/>yasminkasminbhavēnm
- āsi caturthī ravivārayuk।  <br/>sāṅgārakā vā viprēndra sā vi
- śēṣaphalapradā॥<br/><br/><br/><br/>## Details<br/>- [Edit config fi
- le](https://github.com/jyotisham/adyatithi/blob/master/time_focus/tithi-va
- ra-combinations/description_only/aGgAraka-caturthI.toml)<br/>- Tags: RareD
- ays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -28383,7 +28342,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ravivāra hēramba-mahāgaṇapati mahāsaṅkaṭahara-caturthī-
+SUMMARY:ravivāra-hēramba-mahāgaṇapati mahāsaṅkaṭahara-caturthī-
  vratam
 DTSTART;VALUE=DATE:20190818
 DTEND;VALUE=DATE:20190819
@@ -32592,24 +32551,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sukhā-aṅgāraka-caturthī
-DTSTART;VALUE=DATE:20190917
-DTEND;VALUE=DATE:20190918
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/tithi-vara-combinations/description_on
- ly/sukhA~aGgAraka-caturthI.toml)<br/>- Tags: RareDays Combinations<br/><br
- /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/tithi-vara-combinations/description_on
- ly/sukhA~aGgAraka-caturthI.toml)<br/>- Tags: RareDays Combinations
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:viśvakarma-jayantī
 DTSTART;VALUE=DATE:20190917
 DTEND;VALUE=DATE:20190918
@@ -34455,24 +34396,6 @@ DESCRIPTION:Observed on Śukla-Tr̥tīyā tithi of Āśvayujaḥ (lunar) m
  Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gener
  al/lunar_month/tithi/07/03/mEghapAlIya-tRtIyA.toml)<br/>- Tags: LessCommon
  Festivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:sukhā-aṅgāraka-caturthī
-DTSTART;VALUE=DATE:20191001
-DTEND;VALUE=DATE:20191002
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/tithi-vara-combinations/description_on
- ly/sukhA~aGgAraka-caturthI.toml)<br/>- Tags: RareDays Combinations<br/><br
- /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/tithi-vara-combinations/description_on
- ly/sukhA~aGgAraka-caturthI.toml)<br/>- Tags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -44408,7 +44331,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ravivāra ākhuratha-mahāgaṇapati saṅkaṭahara-caturthī-vra
+SUMMARY:ravivāra-ākhuratha-mahāgaṇapati saṅkaṭahara-caturthī-vra
  tam
 DTSTART;VALUE=DATE:20191215
 DTEND;VALUE=DATE:20191216
