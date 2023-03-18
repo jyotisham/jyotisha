@@ -2781,8 +2781,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:lambōdara-mahāgaṇapati saṅkaṭahara-caturthī-vratam
-DTSTART;VALUE=DATE:20190123
-DTEND;VALUE=DATE:20190124
+DTSTART;VALUE=DATE:20190124
+DTEND;VALUE=DATE:20190125
 DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
  hipped as lambōdara-mahāgaṇapatiḥ. Fast during the day and pray to G
  anesha after moonrise\, as follows:<br/><br/>gaṇādhipastvaṁ dēvēśa
@@ -9844,8 +9844,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ravivāra-bhālacandra-mahāgaṇapati saṅkaṭahara-caturthī-v
  ratam
-DTSTART;VALUE=DATE:20190323
-DTEND;VALUE=DATE:20190324
+DTSTART;VALUE=DATE:20190324
+DTEND;VALUE=DATE:20190325
 DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -11621,6 +11621,19 @@ DESCRIPTION:Observed on Kr̥ttikā nakshatra of Mīnaḥ (sidereal solar)
  m/jyotisham/adyatithi/blob/master/mahApuruSha/sangIta-kRt/sidereal_solar_m
  onth/nakshatra/12/03/muttusvAmI~dIkSita~jayantI.toml)<br/>- Tags: Mahapuru
  shaEvents CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sukhā aṅgārakī-caturthī
+DTSTART;VALUE=DATE:20190409
+DTEND;VALUE=DATE:20190410
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13679,6 +13692,29 @@ DESCRIPTION:- Indian civil date: 1941-02-03\, Islamic: 1440-08-17 Shaʿbā
  laḥ**—15:13-16:46\; **Yamaghaṇṭaḥ**—09:01-10:34\; **Gulikakāl
  aḥ**—12:07-13:40  \n___________________\n- **Śūlam**—Udīchī (►
  10:53)\; **Parihāraḥ**–Kṣīram  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:aṅgārakī-caturthī
+DTSTART;VALUE=DATE:20190423
+DTEND;VALUE=DATE:20190424
+DESCRIPTION:chaturthī tithi on a Tuesday is as sacred as a solar eclipse.
+  Particularly special day for doing puja of Ganesha/Subrahmanya with naive
+ dyam of modakam/millet flour respectively.<br/><br/>amāvasyā tu sōmēna
+  saptamī bhānunā saha।  <br/>caturthī bhūmiputrēṇa sōmaputrē
+ ṇa cāṣṭamī।  <br/>catasrastithayastvētāḥ sūryagrahaṇasann
+ ibhāḥ॥  <br/>nāradīyapurṇē 113.60---  <br/>yasminkasminbhavēnm
+ āsi caturthī ravivārayuk।  <br/>sāṅgārakā vā viprēndra sā vi
+ śēṣaphalapradā॥<br/><br/><br/><br/>## Details<br/>- [Edit config fi
+ le](https://github.com/jyotisham/adyatithi/blob/master/time_focus/tithi-va
+ ra-combinations/description_only/aGgArakI-caturthI.toml)<br/>- Tags: RareD
+ ays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -28342,20 +28378,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ravivāra-hēramba-mahāgaṇapati mahāsaṅkaṭahara-caturthī-
- vratam
-DTSTART;VALUE=DATE:20190818
-DTEND;VALUE=DATE:20190819
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Śrāvaṇaḥ-05-20  \,  Mīnaḥ-Rēvatī🌛🌌  \,  Siṁha
  ḥ-Maghā-05-04🌞🌌  \,  Nabhaḥ-05-29🌞🪐  \,  Maṅgalaḥ
 DTSTART;TZID=Asia/Calcutta:20190820T060031
@@ -32553,6 +32575,19 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:sukhā aṅgārakī-caturthī
+DTSTART;VALUE=DATE:20190917
+DTEND;VALUE=DATE:20190918
+DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:viśvakarma-jayantī
 DTSTART;VALUE=DATE:20190917
 DTEND;VALUE=DATE:20190918
@@ -34398,6 +34433,19 @@ DESCRIPTION:Observed on Śukla-Tr̥tīyā tithi of Āśvayujaḥ (lunar) m
  Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gener
  al/lunar_month/tithi/07/03/mEghapAlIya-tRtIyA.toml)<br/>- Tags: LessCommon
  Festivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sukhā aṅgārakī-caturthī
+DTSTART;VALUE=DATE:20191001
+DTEND;VALUE=DATE:20191002
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
