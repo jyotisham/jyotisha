@@ -30477,11 +30477,13 @@ BEGIN:VEVENT
 SUMMARY:r̥ṣi-pañcamī-vratam
 DTSTART;VALUE=DATE:20190903
 DTEND;VALUE=DATE:20190904
-DESCRIPTION:Observed on Śukla-Pañcamī tithi of Bhādrapadaḥ (lunar) m
- onth (Madhyāhnaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [E
- dit config file](https://github.com/jyotisham/adyatithi/blob/master/genera
- l/lunar_month/tithi/06/05/RSi-paJcamI-vratam.toml)<br/>- Tags: SpecialVrat
- am CommonFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/06/05/RSi-paJcamI-vrata
+ m.toml)<br/>- Tags: SpecialVratam CommonFestivals<br/><br/><br/><br/>## De
+ tails<br/>- References<br/>  - Naradiya Purnam\, Adhyaya 114<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/blob/master/general/lun
+ ar_month/tithi/06/05/RSi-paJcamI-vratam.toml)<br/>- Tags: SpecialVratam Co
+ mmonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -34620,11 +34622,12 @@ BEGIN:VEVENT
 SUMMARY:upāṅga-lalitā-vratam
 DTSTART;VALUE=DATE:20191003
 DTEND;VALUE=DATE:20191004
-DESCRIPTION:Observed on Śukla-Pañcamī tithi of Āśvayujaḥ (lunar) mo
- nth (Sūryōdayaḥ/puurvaviddha). <br/><br/>Do pūjā of Lalita Devi.<br/
- ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
- atithi/blob/master/devatA/shakti/lunar_month/tithi/07/05/upAGga-lalitA-vra
- tam.toml)<br/>- Tags: SpecialVratam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/shakti/lunar_month/tithi/07/05/upAGga-lali
+ tA-vratam.toml)<br/>- Tags: SpecialVratam<br/><br/><br/><br/>## Details<br
+ />- References<br/>  - Naradiya Puranam\, Adhyaya 114<br/>- [Edit config f
+ ile](https://github.com/jyotisham/adyatithi/blob/master/devatA/shakti/luna
+ r_month/tithi/07/05/upAGga-lalitA-vratam.toml)<br/>- Tags: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -36520,27 +36523,6 @@ DESCRIPTION:- Indian civil date: 1941-07-25\, Islamic: 1441-02-17 Ṣafar\
  kālaḥ**—13:22-14:50\; **Yamaghaṇṭaḥ**—06:02-07:30\; **Gulikak
  ālaḥ**—08:58-10:26  \n___________________\n- **Śūlam**—Dakṣiṇ
  ā (►13:51)\; **Parihāraḥ**–Tailam  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:aṅgārakī vakratuṇḍa-mahāgaṇapati saṅkaṭahara-caturt
- hī-vratam
-DTSTART;VALUE=DATE:20191016
-DTEND;VALUE=DATE:20191017
-DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
- hipped as vakratuṇḍa-mahāgaṇapatiḥ. Fast during the day and pray 
- to Ganesha after moonrise\, as follows:<br/><br/>## Details<br/>- [Edit co
- nfig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/gaNap
- ati/description_only/vakratuNDa-mahAgaNapati_saGkaTahara-caturthI-vratam.t
- oml)<br/>- Tags: MonthlyVratam SankataharaChaturthiVratam<br/><br/>When `c
- aturthI` occurs on a Tuesday\, it is known as `aGgArakI` and is even more 
- sacred.
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -38552,6 +38534,24 @@ DESCRIPTION:Observed on Śukla-Pañcamī tithi of Kārttikaḥ (lunar) mon
  36<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/ma
  ster/general/lunar_month/tithi/08/05/dEvasEnA~paJcamI.toml)<br/>- Tags: Le
  ssCommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:jayā-vratam
+DTSTART;VALUE=DATE:20191101
+DTEND;VALUE=DATE:20191102
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/08/05/jayA-vratam.toml)
+ <br/>- Tags: SpecialVratam<br/><br/><br/><br/>## Details<br/>- References<
+ br/>  - Naradiya Puranam\, Adhyaya 114<br/>- [Edit config file](https://gi
+ thub.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/08/05/j
+ ayA-vratam.toml)<br/>- Tags: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
