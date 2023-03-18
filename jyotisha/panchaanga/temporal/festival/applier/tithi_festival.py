@@ -64,44 +64,42 @@ class TithiFestivalAssigner(FestivalAssigner):
         if tithi_moonrise == 19:
           # otherwise yesterday would have already been assigned
           if tithi_moonrise_yest != 19:
-            chaturthi_name = '%s%s' % ('aGgArakI~' if day_panchaanga.date.get_weekday() == 2 else '', chaturthi_name)
-            fest = FestivalInstance(
-              name=chaturthi_name + 'saGkaTahara-caturthI-vratam', interval=day_panchaanga.get_interval(interval_id="full_day"))
+            chaturthi_vaasara = day_panchaanga.date.get_weekday()
+            chaturthi_vaara_tag = 'aGgArakI~' if chaturthi_vaasara == 2 else 'ravivAra~' if chaturthi_vaasara == 0 else ''
+            fest = FestivalInstance(name=chaturthi_vaara_tag + chaturthi_name + 'saGkaTahara-caturthI-vratam', interval=day_panchaanga.get_interval(interval_id="full_day"))
             if day_panchaanga.lunar_month_sunrise.index != 5:
               self.panchaanga.add_festival_instance(festival_instance=fest, date=day_panchaanga.date)
             # shravana krishna chaturthi
             if day_panchaanga.lunar_month_sunrise.index == 5:
-              chaturthi_name = '%s%s' % ('aGgArakI~' if day_panchaanga.date.get_weekday() == 2 else '', chaturthi_name)
-              fest = FestivalInstance(
-                name=chaturthi_name + 'mahAsaGkaTahara-caturthI-vratam', interval=day_panchaanga.get_interval(interval_id="full_day"))
+              chaturthi_vaasara = day_panchaanga.date.get_weekday()
+              chaturthi_vaara_tag = 'aGgArakI~' if chaturthi_vaasara == 2 else 'ravivAra~' if chaturthi_vaasara == 0 else ''
+              fest = FestivalInstance(name=chaturthi_vaara_tag + chaturthi_name + 'mahAsaGkaTahara-caturthI-vratam', interval=day_panchaanga.get_interval(interval_id="full_day"))
               self.panchaanga.add_festival_instance(festival_instance=fest, date=day_panchaanga.date)
         elif tithi_moonrise_tmrw == 19:
           chaturthi_name = '%s%s' % ('aGgArakI~' if self.daily_panchaangas[d + 1].date.get_weekday() == 2 else '', chaturthi_name)
-          fest = FestivalInstance(
-            name=chaturthi_name + 'saGkaTahara-caturthI-vratam', interval=day_panchaanga.get_interval(interval_id="full_day"))
+          fest = FestivalInstance(name=chaturthi_vaara_tag + chaturthi_name + 'saGkaTahara-caturthI-vratam', interval=day_panchaanga.get_interval(interval_id="full_day"))
           if day_panchaanga.lunar_month_sunrise.index != 5:
             self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[d+1].date)
           # self.date_str_to_panchaanga[d].lunar_month_sunrise and[d + 1] are same, so checking [d] is enough
           if day_panchaanga.lunar_month_sunrise.index == 5:
-            chaturthi_name = '%s%s' % ('aGgArakI~' if day_panchaanga.date.get_weekday() == 2 else '', chaturthi_name)
-            fest = FestivalInstance(
-              name=chaturthi_name + 'mahAsaGkaTahara-caturthI-vratam', interval=day_panchaanga.get_interval(interval_id="full_day"))
+            chaturthi_vaasara = day_panchaanga.date.get_weekday()
+            chaturthi_vaara_tag = 'aGgArakI~' if chaturthi_vaasara == 2 else 'ravivAra~' if chaturthi_vaasara == 0 else ''
+            fest = FestivalInstance(name=chaturthi_vaara_tag + chaturthi_name + 'mahAsaGkaTahara-caturthI-vratam', interval=day_panchaanga.get_interval(interval_id="full_day"))
             self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[d+1].date)
         else:
           if tithi_moonrise_yest != 19:
             if tithi_moonrise == 18 and tithi_moonrise_tmrw == 20:
+              chaturthi_vaasara = self.daily_panchaangas[d + 1].date.get_weekday()
               # No vyApti on either day -- pick parA, i.e. next day.
-              chaturthi_name = '%s%s' % ('aGgArakI~' if self.daily_panchaangas[d + 1].date.get_weekday() == 2 else '', chaturthi_name)
-              fest = FestivalInstance(
-                name=chaturthi_name + 'saGkaTahara-caturthI-vratam', interval=day_panchaanga.get_interval(interval_id="full_day"))
+              chaturthi_vaara_tag = 'aGgArakI~' if chaturthi_vaasara == 2 else 'ravivAra~' if chaturthi_vaasara == 0 else ''
+              fest = FestivalInstance(name=chaturthi_vaara_tag + chaturthi_name + 'saGkaTahara-caturthI-vratam', interval=day_panchaanga.get_interval(interval_id="full_day"))
               if day_panchaanga.lunar_month_sunrise.index != 5:
                 self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[d+1].date)
               # shravana krishna chaturthi
               if day_panchaanga.lunar_month_sunrise.index == 5:
-                chaturthi_name = '%s%s' % (
-                  'aGgArakI~' if self.daily_panchaangas[d + 1].date.get_weekday() == 2 else '', chaturthi_name)
-                fest = FestivalInstance(
-                  name=chaturthi_name + 'mahAsaGkaTahara-caturthI-vratam', interval=day_panchaanga.get_interval(interval_id="full_day"))
+                chaturthi_vaasara = self.daily_panchaangas[d + 1].date.get_weekday()
+                chaturthi_vaara_tag = 'aGgArakI~' if chaturthi_vaasara == 2 else 'ravivAra~' if chaturthi_vaasara == 0 else ''
+                fest = FestivalInstance(name=chaturthi_vaara_tag + chaturthi_name + 'mahAsaGkaTahara-caturthI-vratam', interval=day_panchaanga.get_interval(interval_id="full_day"))
                 self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[d+1].date)
 
   def assign_shasthi_vratam(self):
