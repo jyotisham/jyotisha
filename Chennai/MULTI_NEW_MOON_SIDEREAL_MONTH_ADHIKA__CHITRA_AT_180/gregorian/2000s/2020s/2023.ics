@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230318125029
+SEQUENCE:20230318143500
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -1524,24 +1524,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  it config file](https://github.com/jyotisham/adyatithi/blob/master/mahApur
  uSha/xatra-later/gregorian/day/01/10/shiNDE-dattAjI-mRtaH.toml)<br/>- Tags
  :
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सुखा-अङ्गारक-चतुर्थी
-DTSTART;VALUE=DATE:20230110
-DTEND;VALUE=DATE:20230111
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/tithi-vara-combinations/description_on
- ly/sukhA~aGgAraka-caturthI.toml)<br/>- Tags: RareDays Combinations<br/><br
- /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/tithi-vara-combinations/description_on
- ly/sukhA~aGgAraka-caturthI.toml)<br/>- Tags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3586,24 +3568,6 @@ DESCRIPTION:Observed on Śatabhiṣak nakshatra of Makaraḥ (sidereal sol
  it config file](https://github.com/jyotisham/adyatithi/blob/master/mahApur
  uSha/nAyanAr/sidereal_solar_month/nakshatra/10/24/appUdiyaDigaL_nAyan2Ar_%
  2824%29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सुखा-अङ्गारक-चतुर्थी
-DTSTART;VALUE=DATE:20230124
-DTEND;VALUE=DATE:20230125
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/tithi-vara-combinations/description_on
- ly/sukhA~aGgAraka-caturthI.toml)<br/>- Tags: RareDays Combinations<br/><br
- /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/tithi-vara-combinations/description_on
- ly/sukhA~aGgAraka-caturthI.toml)<br/>- Tags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21005,33 +20969,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:अङ्गारक-चतुर्थी
-DTSTART;VALUE=DATE:20230509
-DTEND;VALUE=DATE:20230510
-DESCRIPTION:chaturthī tithi on a Tuesday is as sacred as a solar eclipse.
-  Particularly special day for doing puja of Ganesha/Subrahmanya with naive
- dyam of modakam/millet flour respectively.<br/><br/>अमावस्य
- ा तु सोमेन सप्तमी भानुना सह।
-   <br/>चतुर्थी भूमिपुत्रेण सोम
- पुत्रेण चाष्टमी।  <br/>चतस्रस्
- तिथयस्त्वेताः सूर्यग्रहणस
- न्निभाः॥  <br/>नारदीयपुर्णे ११
- ३.६०---  <br/>यस्मिन्कस्मिन्भवेन
- ्मासि चतुर्थी रविवारयुक्।  <
- br/>साङ्गारका वा विप्रेन्द्र 
- सा विशेषफलप्रदा॥<br/><br/><br/><br/>## Detai
- ls<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/ma
- ster/time_focus/tithi-vara-combinations/description_only/aGgAraka-caturthI
- .toml)<br/>- Tags: RareDays Combinations
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:बाजी-रावो मृतः #२८३
 DTSTART;VALUE=DATE:20230509
 DTEND;VALUE=DATE:20230510
@@ -23081,24 +23018,6 @@ DESCRIPTION:When the sum of the longitudes of the Moon and Sun is 180\, it
  picious activities.<br/><br/>## Details<br/>- [Edit config file](https://g
  ithub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/des
  cription_only/sAyana-vyatIpAtaH.toml)<br/>- Tags: Combinations
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सुखा-अङ्गारक-चतुर्थी
-DTSTART;VALUE=DATE:20230523
-DTEND;VALUE=DATE:20230524
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/tithi-vara-combinations/description_on
- ly/sukhA~aGgAraka-caturthI.toml)<br/>- Tags: RareDays Combinations<br/><br
- /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/tithi-vara-combinations/description_on
- ly/sukhA~aGgAraka-caturthI.toml)<br/>- Tags: RareDays Combinations
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -40956,24 +40875,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सुखा-अङ्गारक-चतुर्थी
-DTSTART;VALUE=DATE:20230919
-DTEND;VALUE=DATE:20230920
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/tithi-vara-combinations/description_on
- ly/sukhA~aGgAraka-caturthI.toml)<br/>- Tags: RareDays Combinations<br/><br
- /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/tithi-vara-combinations/description_on
- ly/sukhA~aGgAraka-caturthI.toml)<br/>- Tags: RareDays Combinations
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:वैधृति-श्राद्धम्
 DTSTART;VALUE=DATE:20230919
 DTEND;VALUE=DATE:20230920
@@ -41080,11 +40981,13 @@ BEGIN:VEVENT
 SUMMARY:ऋषि-पञ्चमी-व्रतम्
 DTSTART;VALUE=DATE:20230920
 DTEND;VALUE=DATE:20230921
-DESCRIPTION:Observed on Śukla-Pañcamī tithi of Bhādrapadaḥ (lunar) m
- onth (Madhyāhnaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [E
- dit config file](https://github.com/jyotisham/adyatithi/blob/master/genera
- l/lunar_month/tithi/06/05/RSi-paJcamI-vratam.toml)<br/>- Tags: SpecialVrat
- am CommonFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/06/05/RSi-paJcamI-vrata
+ m.toml)<br/>- Tags: SpecialVratam CommonFestivals<br/><br/><br/><br/>## De
+ tails<br/>- References<br/>  - Naradiya Purnam\, Adhyaya 114<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/blob/master/general/lun
+ ar_month/tithi/06/05/RSi-paJcamI-vratam.toml)<br/>- Tags: SpecialVratam Co
+ mmonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -43464,33 +43367,6 @@ DESCRIPTION:- Indian civil date: 1945-07-11\, Islamic: 1445-03-18 Rabīʿ
  गुलिककालः**—11:57-13:27  \n___________________\n- **
  शूलम्**—उदीची (►10:46)\; **परिहारः**
  –क्षीरम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:अङ्गारक-चतुर्थी
-DTSTART;VALUE=DATE:20231003
-DTEND;VALUE=DATE:20231004
-DESCRIPTION:chaturthī tithi on a Tuesday is as sacred as a solar eclipse.
-  Particularly special day for doing puja of Ganesha/Subrahmanya with naive
- dyam of modakam/millet flour respectively.<br/><br/>अमावस्य
- ा तु सोमेन सप्तमी भानुना सह।
-   <br/>चतुर्थी भूमिपुत्रेण सोम
- पुत्रेण चाष्टमी।  <br/>चतस्रस्
- तिथयस्त्वेताः सूर्यग्रहणस
- न्निभाः॥  <br/>नारदीयपुर्णे ११
- ३.६०---  <br/>यस्मिन्कस्मिन्भवेन
- ्मासि चतुर्थी रविवारयुक्।  <
- br/>साङ्गारका वा विप्रेन्द्र 
- सा विशेषफलप्रदा॥<br/><br/><br/><br/>## Detai
- ls<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/ma
- ster/time_focus/tithi-vara-combinations/description_only/aGgAraka-caturthI
- .toml)<br/>- Tags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -45994,9 +45870,22 @@ DTSTART;VALUE=DATE:20231019
 DTEND;VALUE=DATE:20231020
 DESCRIPTION:Observed on Śukla-Pañcamī tithi of Āśvayujaḥ (lunar) mo
  nth (Sūryōdayaḥ/puurvaviddha). <br/><br/>Do pūjā of Lalita Devi.<br/
- ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
- atithi/blob/master/devatA/shakti/lunar_month/tithi/07/05/upAGga-lalitA-vra
- tam.toml)<br/>- Tags: SpecialVratam
+ ><br/>आश्विने शुक्लपञ्चम्याम् 
+ उपाङ्गललिताव्रतम्॥४९॥  <br/>त
+ स्याः स्वर्णमयीं मूर्तिं श
+ क्त्या निर्माय नारद।  <br/>उपच
+ ारैः षोडशभिः पूजयेत्तां वि
+ धानतः॥५०॥  <br/>पक्वान्नं फलसं
+ युक्तं सघृतं दक्षिणान्वितम
+ ्।  <br/>द्विजवर्याय दातव्यं व
+ ्रतसम्पूर्तिहेतवे॥५१॥  <br/>``
+ सवाहना शक्तियुता वरदा पूजि
+ ता मया।  <br/>मातर्मामनुगृह्या
+ थ गम्यतां निजमन्दिरम्''॥५२॥<
+ br/><br/><br/><br/>## Details<br/>- References<br/>  - Naradiya Puranam\, 
+ Adhyaya 114<br/>- [Edit config file](https://github.com/jyotisham/adyatith
+ i/blob/master/devatA/shakti/lunar_month/tithi/07/05/upAGga-lalitA-vratam.t
+ oml)<br/>- Tags: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -51098,6 +50987,24 @@ DESCRIPTION:- Indian civil date: 1945-08-27\, Islamic: 1445-05-05 Jumādā
  06:12-07:37  \n___________________\n- **शूलम्**—प्रा
  ची (►09:14)\; **परिहारः**–दधि  \n_____________
  ______\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:जया-व्रतम्
+DTSTART;VALUE=DATE:20231118
+DTEND;VALUE=DATE:20231119
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/08/05/jayA-vratam.toml)
+ <br/>- Tags: SpecialVratam<br/><br/><br/><br/>## Details<br/>- References<
+ br/>  - Naradiya Puranam\, Adhyaya 114<br/>- [Edit config file](https://gi
+ thub.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/08/05/j
+ ayA-vratam.toml)<br/>- Tags: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
