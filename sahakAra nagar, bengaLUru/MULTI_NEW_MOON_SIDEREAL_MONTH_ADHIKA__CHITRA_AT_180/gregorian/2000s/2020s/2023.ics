@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230318121723
+SEQUENCE:20230318122246
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -5313,6 +5313,28 @@ DESCRIPTION:- Indian civil date: 1944-11-20\, Islamic: 1444-07-18 Rajab\,
  गुलिककालः**—09:40-11:07  \n___________________\n- **
  शूलम्**—दक्षिणा (►14:29)\; **परिहा
  रः**–तैलम्  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अङ्गारकी द्विजप्रिय-महा
+ गणपति सङ्कटहर-चतुर्थी-व्रत
+ म्
+DTSTART;VALUE=DATE:20230208
+DTEND;VALUE=DATE:20230209
+DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
+ hipped as dvijapriya-mahāgaṇapatiḥ. Fast during the day and pray to G
+ anesha after moonrise\, as follows:<br/><br/>## Details<br/>- [Edit config
+  file](https://github.com/jyotisham/adyatithi/blob/master/devatA/gaNapati/
+ description_only/dvijapriya-mahAgaNapati_saGkaTahara-caturthI-vratam.toml)
+ <br/>- Tags: MonthlyVratam SankataharaChaturthiVratam<br/><br/>When `catur
+ thI` occurs on a Tuesday\, it is known as `aGgArakI` and is even more sacr
+ ed.
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13908,24 +13930,11 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:विकट-महागणपति सङ्कटहर-चत
- ुर्थी-व्रतम्
+SUMMARY:रविवार विकट-महागणपति सङ्
+ कटहर-चतुर्थी-व्रतम्
 DTSTART;VALUE=DATE:20230409
 DTEND;VALUE=DATE:20230410
-DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
- hipped as vikaṭa-mahāgaṇapatiḥ. Fast during the day and pray to Gan
- esha after moonrise\, as follows:<br/><br/>गणाधिपस्त्
- वं देवेश चतुर्थ्यां पूजितो 
- मया।  <br/>कष्टान्मां मोचयेशान
-  सर्वमिष्टं च देहि मे॥  <br/>  <br/>
- यदा सङ्क्लेशितो मर्त्यो ना
- नादुःखैश्च दारुणैः।  <br/>तदा 
- कृष्णे चतुर्थ्यां वै पूजनी
- यो गणाधिपः॥ (भविष्यपुराणम्)<
- br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/
- jyotisham/adyatithi/blob/master/devatA/gaNapati/description_only/vikaTa-ma
- hAgaNapati_saGkaTahara-caturthI-vratam.toml)<br/>- Tags: MonthlyVratam San
- kataharaChaturthiVratam
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18236,24 +18245,6 @@ DESCRIPTION:- Indian civil date: 1945-02-17\, Islamic: 1444-10-16 Shawwāl
  —12:16-13:50\; **गुलिककालः**—15:24-16:58  \n________
  ___________\n- **शूलम्**—प्रतीची (►11:01)\; **
  परिहारः**–गुडम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:अल्लूरि-रामराज-हत्या #९९
-DTSTART;VALUE=DATE:20230507
-DTEND;VALUE=DATE:20230508
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/05/07/allUr
- i-rAmarAja-hatyA.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [E
- dit config file](https://github.com/jyotisham/adyatithi/blob/master/mahApu
- ruSha/xatra-later/gregorian/day/05/07/allUri-rAmarAja-hatyA.toml)<br/>- Ta
- gs:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -32062,25 +32053,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:रामराजेन चिन्तापल्लि-लु
- ण्ठनम् #१०१
-DTSTART;VALUE=DATE:20230822
-DTEND;VALUE=DATE:20230823
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/08/22/rAmar
- Ajena_chintApalli-raxaka-luNThanam.toml)<br/>- Tags: <br/><br/><br/><br/>#
- # Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/
- blob/master/mahApuruSha/xatra-later/gregorian/day/08/22/rAmarAjena_chintAp
- alli-raxaka-luNThanam.toml)<br/>- Tags:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:सायन-वैधृतिः
 DTSTART;TZID=Asia/Calcutta:20230822T000000
 DTEND;TZID=Asia/Calcutta:20230822T071817
@@ -33995,18 +33967,11 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:हेरम्ब-महागणपति महासङ्क
- टहर-चतुर्थी-व्रतम्
+SUMMARY:रविवार हेरम्ब-महागणपति म
+ हासङ्कटहर-चतुर्थी-व्रतम्
 DTSTART;VALUE=DATE:20230902
 DTEND;VALUE=DATE:20230903
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/devatA/gaNapati/description_only/hEramba-mahAgaNa
- pati_mahAsaGkaTahara-caturthI-vratam.toml)<br/>- Tags: MonthlyVratam Sanka
- taharaChaturthiVratam<br/><br/><br/><br/>## Details<br/>- References<br/> 
-  - Dharma Sindhu p.56<br/>- [Edit config file](https://github.com/jyotisha
- m/adyatithi/blob/master/devatA/gaNapati/description_only/hEramba-mahAgaNap
- ati_mahAsaGkaTahara-caturthI-vratam.toml)<br/>- Tags: MonthlyVratam Sankat
- aharaChaturthiVratam
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -40266,25 +40231,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:रामराजेन +अड्डतिगल-लुण्ठ
- नम् #१०१
-DTSTART;VALUE=DATE:20231015
-DTEND;VALUE=DATE:20231016
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/10/15/rAmar
- Ajena_addatigala-raxaka-luNThanam.toml)<br/>- Tags: <br/><br/><br/><br/>##
-  Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/b
- lob/master/mahApuruSha/xatra-later/gregorian/day/10/15/rAmarAjena_addatiga
- la-raxaka-luNThanam.toml)<br/>- Tags:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:स्तन्यवृद्धि-गौरी-व्रतम
  ्
 DTSTART;VALUE=DATE:20231015
@@ -40903,27 +40849,6 @@ DESCRIPTION:Observed on Śukla-Pañcamī tithi of Āśvayujaḥ (lunar) mo
  dit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA
  /shakti/lunar_month/tithi/07/05/lalitA-paJcamI.toml)<br/>- Tags: CommonFes
  tivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:रामराजेन रम्पचोडावर-रक्
- षक-लुण्ठनम् #१०१
-DTSTART;VALUE=DATE:20231019
-DTEND;VALUE=DATE:20231020
-DESCRIPTION:Event occured on 1922-10-19 (gregorian). <br/><br/>Alluri Sita
- rama Raju beseiged Rampachodavaram station in broad daylight on October 19
- .<br/><br/>## Context<br/>24 year old Alluri Sitarama Raju was a young hin
- du sannyAsI who gained popularity amongst the Andhra tribals\, and motivat
- ed their struggle against their social ills\, Christian missionaries and t
- he British.<br/><br/>## Details<br/>- [Edit config file](https://github.co
- m/jyotisham/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/10
- /19/rAmarAjena_rampachoDAvara-raxaka-luNThanam.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
