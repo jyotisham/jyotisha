@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230318222644
+SEQUENCE:20230318224002
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -1351,7 +1351,12 @@ BEGIN:VEVENT
 SUMMARY:सुखा अङ्गारकी-चतुर्थी
 DTSTART;VALUE=DATE:20230110
 DTEND;VALUE=DATE:20230111
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/tithi-vara-combinations/description_on
+ ly/sukhA~aGgArakI-caturthI.toml)<br/>- Tags: RareDays Combinations<br/><br
+ /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/tithi-vara-combinations/description_on
+ ly/sukhA~aGgArakI-caturthI.toml)<br/>- Tags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3254,7 +3259,12 @@ BEGIN:VEVENT
 SUMMARY:सुखा अङ्गारकी-चतुर्थी
 DTSTART;VALUE=DATE:20230124
 DTEND;VALUE=DATE:20230125
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/tithi-vara-combinations/description_on
+ ly/sukhA~aGgArakI-caturthI.toml)<br/>- Tags: RareDays Combinations<br/><br
+ /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/tithi-vara-combinations/description_on
+ ly/sukhA~aGgArakI-caturthI.toml)<br/>- Tags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20427,7 +20437,12 @@ BEGIN:VEVENT
 SUMMARY:सुखा अङ्गारकी-चतुर्थी
 DTSTART;VALUE=DATE:20230523
 DTEND;VALUE=DATE:20230524
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/tithi-vara-combinations/description_on
+ ly/sukhA~aGgArakI-caturthI.toml)<br/>- Tags: RareDays Combinations<br/><br
+ /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/tithi-vara-combinations/description_on
+ ly/sukhA~aGgArakI-caturthI.toml)<br/>- Tags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -36223,7 +36238,12 @@ BEGIN:VEVENT
 SUMMARY:सुखा अङ्गारकी-चतुर्थी
 DTSTART;VALUE=DATE:20230919
 DTEND;VALUE=DATE:20230920
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/tithi-vara-combinations/description_on
+ ly/sukhA~aGgArakI-caturthI.toml)<br/>- Tags: RareDays Combinations<br/><br
+ /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/tithi-vara-combinations/description_on
+ ly/sukhA~aGgArakI-caturthI.toml)<br/>- Tags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
