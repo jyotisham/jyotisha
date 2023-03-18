@@ -237,11 +237,15 @@ def get_description_tex(festival_instance, fest_details_dict, script):
     fest_id = fest_id.replace('aGgArakI~', '')
     if fest_id in fest_details_dict:
       desc = fest_details_dict[fest_id].get_description_dict(script=script)
-      desc['detailed'] += 'When `caturthI` occurs on a Tuesday, it is known as `aGgArakI` and is even more sacred.'
+      ravichaturthi_fest_desc = fest_details_dict['aGgArakI-caturthI'].get_description_dict(script=script)
+      desc['detailed'] += ravichaturthi_fest_desc['detailed']
+      desc['references'] += ravichaturthi_fest_desc['references']
+      desc['shlokas'] += ravichaturthi_fest_desc['shlokas']
+      desc['url'] += ' ' + ravichaturthi_fest_desc['url']
     else:
       logging.warning('No description found for caturthI festival %s!' % fest_id)
   elif re.match('ravivAra.*saGkaTahara-caturthI-vratam', fest_id):
-    fest_id = fest_id.replace('ravivAra~', '')
+    fest_id = fest_id.replace('ravivAra-', '')
     if fest_id in fest_details_dict:
       desc = fest_details_dict[fest_id].get_description_dict(script=script)
       ravichaturthi_fest_desc = fest_details_dict['ravivAra-caturthI'].get_description_dict(script=script)
