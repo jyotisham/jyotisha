@@ -2,6 +2,7 @@ Name	saMskRta-nAma	Lat	Long	Timezone
 Amarnath		40.3801706	84.3374927	Asia/Calcutta
 Bangalore	kalyANapurI	12:58:12	77:33:36	Asia/Calcutta
 Hyderabad	bhAgyanagaram	17.3615104	78.474743	Asia/Calcutta
+Bhagyanagaram	bhAgyanagaram	17.3615104	78.474743	Asia/Calcutta
 BrahmaDesha	brahma-dEzaH	8.7324832	77.4427299	Asia/Calcutta
 Chennai	madrapurI	13:05:24	80:16:12	Asia/Calcutta
 Coimbatore		10.966657792836907	76.90954363309359	Asia/Calcutta
@@ -380,7 +381,7 @@ Porbandar		21.64	69.6	Asia/Calcutta
 PortBlair		11.67	92.75	Asia/Calcutta
 Proddatur		14.73	78.55	Asia/Calcutta
 Puducherry		11.93	79.83	Asia/Calcutta
-Pudukkottai		10.3833075	78.7913742	Asia/Calcutta
+Pudukkottai	navazAlapurI	10.3833075	78.7913742	Asia/Calcutta
 Pulivendla		14.42	78.23	Asia/Calcutta
 Punganuru		13.37	78.58	Asia/Calcutta
 Puri		19.8	85.82	Asia/Calcutta
@@ -506,5 +507,9 @@ Yavatmal		20.4	78.13	Asia/Calcutta
 Yellandu		17.6	80.33	Asia/Calcutta
 Yercaud		11.7747917	78.1921956	Asia/Calcutta
 Warrawee		-33.7292287	151.1249595	Australia/NSW
+Sammamish		47.6059848	-122.0282373	US/Pacific
+Seattle		47.0571799	-137.5684287	US/Pacific
+Nashville		36.1866405	-86.7852455	US/Central
 Singapore		1.3930236	103.7412441	Asia/Singapore
+SanFrancisco		37.2323916	-122.2673119	America/Los_Angeles
 SanDiego		33.0368876	-117.065848	America/Los_Angeles
