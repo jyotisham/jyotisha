@@ -11436,6 +11436,27 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:kāñcī 60 jagadguru śrī-advaitātmaprakāśēndra sarasvatī 
+ ārādhanā #316
+DTSTART;VALUE=DATE:20190407
+DTEND;VALUE=DATE:20190408
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/01/02/
+ kAJcI_60_jagadguru_zrI~advaitAtmaprakAzEndra_sarasvatI_ArAdhanA.toml)<br/>
+ - Tags: KanchiAradhanaDays<br/><br/><br/><br/>## Details<br/>- References<
+ br/>  - Punya Shloka Manjari<br/>- [Edit config file](https://github.com/j
+ yotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/
+ 01/02/kAJcI_60_jagadguru_zrI~advaitAtmaprakAzEndra_sarasvatI_ArAdhanA.toml
+ )<br/>- Tags: KanchiAradhanaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Caitraḥ-01-03  \,  Mēṣaḥ-Apabharaṇī🌛🌌  \,  Mīna
  ḥ-Rēvatī-12-25🌞🌌  \,  Madhuḥ-01-19🌞🪐  \,  Sōmaḥ
 DTSTART;TZID=Asia/Calcutta:20190408T060424
@@ -13425,27 +13446,6 @@ DESCRIPTION:Viṣṇupadī Punyakala.<br/><br/>saṅkrāntisnānākaraṇ
  br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
  adyatithi/blob/master/time_focus/sankrAnti/description_only/viSNupadI-puNy
  akAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:kāñcī 60 jagadguru śrī-advaitātmaprakāśēndra sarasvatī 
- ārādhanā #316
-DTSTART;VALUE=DATE:20190420
-DTEND;VALUE=DATE:20190421
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/01/17/
- kAJcI_60_jagadguru_zrI~advaitAtmaprakAzEndra_sarasvatI_ArAdhanA.toml)<br/>
- - Tags: KanchiAradhanaDays<br/><br/><br/><br/>## Details<br/>- References<
- br/>  - Punya Shloka Manjari<br/>- [Edit config file](https://github.com/j
- yotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/
- 01/17/kAJcI_60_jagadguru_zrI~advaitAtmaprakAzEndra_sarasvatI_ArAdhanA.toml
- )<br/>- Tags: KanchiAradhanaDays
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
