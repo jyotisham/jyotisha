@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230326090905
+SEQUENCE:20230326210134
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -12852,6 +12852,28 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:काञ्ची ६० जगद्गुरु श्री-
+ अद्वैतात्मप्रकाशेन्द्र सर
+ स्वती आराधना #३२०
+DTSTART;VALUE=DATE:20230323
+DTEND;VALUE=DATE:20230324
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/01/02/
+ kAJcI_60_jagadguru_zrI~advaitAtmaprakAzEndra_sarasvatI_ArAdhanA.toml)<br/>
+ - Tags: KanchiAradhanaDays<br/><br/><br/><br/>## Details<br/>- References<
+ br/>  - Punya Shloka Manjari<br/>- [Edit config file](https://github.com/j
+ yotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/
+ 01/02/kAJcI_60_jagadguru_zrI~advaitAtmaprakAzEndra_sarasvatI_ArAdhanA.toml
+ )<br/>- Tags: KanchiAradhanaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:नन्दिमार्ग-हत्या #२०
 DTSTART;VALUE=DATE:20230323
 DTEND;VALUE=DATE:20230324
@@ -15668,28 +15690,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/m
  ahApuruSha/xatra-later/julian/day/03/28/govA-hindu-bAla-grahaNAdeshaH.toml
  )<br/>- Tags:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:काञ्ची ६० जगद्गुरु श्री-
- अद्वैतात्मप्रकाशेन्द्र सर
- स्वती आराधना #३२०
-DTSTART;VALUE=DATE:20230407
-DTEND;VALUE=DATE:20230408
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/01/17/
- kAJcI_60_jagadguru_zrI~advaitAtmaprakAzEndra_sarasvatI_ArAdhanA.toml)<br/>
- - Tags: KanchiAradhanaDays<br/><br/><br/><br/>## Details<br/>- References<
- br/>  - Punya Shloka Manjari<br/>- [Edit config file](https://github.com/j
- yotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/
- 01/17/kAJcI_60_jagadguru_zrI~advaitAtmaprakAzEndra_sarasvatI_ArAdhanA.toml
- )<br/>- Tags: KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
