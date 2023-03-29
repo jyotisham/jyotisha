@@ -441,15 +441,15 @@ class SolarFestivalAssigner(FestivalAssigner):
   def assign_saayana_vyatipata_vaidhrti(self):
     if 'sAyana-vyatIpAtaH' not in self.rules_collection.name_to_rule:
       return 
-    yoga_pada_finder = zodiac.AngaSpanFinder.get_cached(ayanaamsha_id=Ayanamsha.VERNAL_EQUINOX_AT_0, anga_type=zodiac.AngaType.YOGA_PADA)
-    yoga_pada_list = yoga_pada_finder.get_all_angas_in_period(jd1=self.panchaanga.jd_start, jd2=self.panchaanga.jd_end + 1)
+    saayana_yoga_pada_finder = zodiac.AngaSpanFinder.get_cached(ayanaamsha_id=Ayanamsha.VERNAL_EQUINOX_AT_0, anga_type=zodiac.AngaType.YOGA_PADA)
+    saayana_yoga_pada_list = saayana_yoga_pada_finder.get_all_angas_in_period(jd1=self.panchaanga.jd_start, jd2=self.panchaanga.jd_end + 1)
     jd_start = jd_end = None
-    for yoga_pada in yoga_pada_list:
-      if yoga_pada.anga.index in (50, 104):
-        jd_start = yoga_pada.jd_end
-      elif yoga_pada.anga.index in (54, 108):
-        jd_end = yoga_pada.jd_end
-        if yoga_pada.anga.index == 54:
+    for saayana_yoga_pada in saayana_yoga_pada_list:
+      if saayana_yoga_pada.anga.index in (50, 104):
+        jd_start = saayana_yoga_pada.jd_end
+      elif saayana_yoga_pada.anga.index in (54, 108):
+        jd_end = saayana_yoga_pada.jd_end
+        if saayana_yoga_pada.anga.index == 54:
           festival_name = 'sAyana-vyatIpAtaH'
         else:
           festival_name = 'sAyana-vaidhRtiH'
