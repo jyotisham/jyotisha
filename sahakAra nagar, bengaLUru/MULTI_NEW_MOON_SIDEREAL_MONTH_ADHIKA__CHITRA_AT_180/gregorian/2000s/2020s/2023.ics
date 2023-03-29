@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230326212804
+SEQUENCE:20230329114923
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -12367,6 +12367,24 @@ DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Caitraḥ (lunar) mont
  rences<br/>  - Kielhorn (1897)<br/>- [Edit config file](https://github.com
  /jyotisham/adyatithi/blob/master/general/lunar_month/tithi/01/08/bhavAnyut
  pattiH.toml)<br/>- Tags: CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:धीरेन्द्रनाथो हतः #५२
+DTSTART;VALUE=DATE:20230329
+DTEND;VALUE=DATE:20230330
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/03/29/dhIre
+ ndranAtho_hataH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Ed
+ it config file](https://github.com/jyotisham/adyatithi/blob/master/mahApur
+ uSha/xatra-later/gregorian/day/03/29/dhIrendranAtho_hataH.toml)<br/>- Tags
+ :
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
