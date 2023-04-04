@@ -25,7 +25,7 @@ class KarthikDisplayOptions(DisplayOptions):
 
   def sort_festivals(self, festival_id_to_instance):
     festivals_list = sorted(festival_id_to_instance.values())
-    prioritised_festivals_list = ['saGkramaNa', 'grahaNa', 'amAvAsyA', 'zrAddha',
+    prioritised_festivals_list = ['zrIrAmanavamI', 'zrIkRSNajanmASTamI', 'saGkramaNa', 'grahaNa', 'amAvAsyA', 'zrAddha',
                                   'mAsaH', 'EkAdazI', 'vijayA/zravaNa', 'saMvatsaraH', 'harivAsaraH', 
                                   'caturthI']
     manually_prioritised_festivals = []
