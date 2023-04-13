@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230405051529
+SEQUENCE:20230413114415
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -32601,6 +32601,24 @@ DESCRIPTION:Observed on Śukla-Navamī tithi of Śrāvaṇaḥ (lunar) mon
  it config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/
  shakti/lunar_month/tithi/05/09/kaumArI-pUjA.toml)<br/>- Tags: LessCommonFe
  stivals SpecialPuja
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ख-मोङ्ग-सेक-हत्या #६
+DTSTART;VALUE=DATE:20230825
+DTEND;VALUE=DATE:20230826
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/08/25/kha-m
+ aung-seik-hatyA.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Ed
+ it config file](https://github.com/jyotisham/adyatithi/blob/master/mahApur
+ uSha/xatra-later/gregorian/day/08/25/kha-maung-seik-hatyA.toml)<br/>- Tags
+ :
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
