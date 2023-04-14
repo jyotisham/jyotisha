@@ -289,7 +289,6 @@ class SolarFestivalAssigner(FestivalAssigner):
       fday -= 1
 
     nava_nayakas['mEghAdhipaH'] = names.NAMES['VARA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][self.daily_panchaangas[fday].date.get_weekday()]
-    # nava_nayakas['rAjA'] = names.NAMES['VARA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][self.daily_panchaangas[self.panchaanga.festival_id_to_days['yugAdiH'][0]].date.get_weekday()]
     
     NAYAKA_MAP = {'mantrI': 1,
                   'sEnAdhipaH': 5,
@@ -299,7 +298,7 @@ class SolarFestivalAssigner(FestivalAssigner):
                   'rasAdhipaH': 7,
                   'nIrasAdhipaH': 10}
 
-    for d in range(self.panchaanga.duration + self.panchaanga.duration_prior_padding):
+    for d in range(self.panchaanga.duration - 25):
       if self.daily_panchaangas[d].solar_sidereal_date_sunset.month_transition is not None:
         sankranti_id = self.daily_panchaangas[d + 1].solar_sidereal_date_sunset.month
         if sankranti_id == 1:
