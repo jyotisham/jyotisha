@@ -295,6 +295,7 @@ Madanapalle		13.55	78.5	Asia/Calcutta
 Madhyamgram		22.7	88.45	Asia/Calcutta
 Maduranthakam		12.5056313	79.8686741	Asia/Calcutta
 Mahabalipuram		12.6223265	80.1736327	Asia/Calcutta
+Mahadanapuram		10.9508	78.3003	Asia/Calcutta
 Mahbubnagar		16.73	77.98	Asia/Calcutta
 Mahesana		23.6	72.4	Asia/Calcutta
 Maihar		24.27	80.75	Asia/Calcutta
@@ -454,6 +455,7 @@ Tezpur		26.63	92.8	Asia/Calcutta
 Thane		19.18	72.96	Asia/Calcutta
 Tharangambadi		11.0281249	79.8428982	Asia/Calcutta
 Tiruchendur		8.4954858	78.1138502	Asia/Calcutta
+Tiruvidaimaruthur	madhyArjunam	10.976761	79.3990667	Asia/Calcutta
 Thirukoilure		11.96348	79.1902334	Asia/Calcutta
 Tiruvallur		13.123055	79.894443	Asia/Calcutta
 Tiruvananthapuram		8.5	76.9	Asia/Calcutta
@@ -513,4 +515,6 @@ Nashville		36.1866405	-86.7852455	US/Central
 McKinney		33.236594	-96.684378	US/Central
 Singapore		1.3930236	103.7412441	Asia/Singapore
 SanFrancisco		37.2323916	-122.2673119	America/Los_Angeles
+Sunnyvale		37.3957342	-122.023868	America/Los_Angeles
+LosGatos		37.2333434	-121.9515351	America/Los_Angeles
 SanDiego		33.0368876	-117.065848	America/Los_Angeles
