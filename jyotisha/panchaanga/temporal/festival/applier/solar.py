@@ -426,8 +426,12 @@ class SolarFestivalAssigner(FestivalAssigner):
       if daily_panchaanga.solar_sidereal_date_sunset.month == 1 and self.daily_panchaangas[d - 1].solar_sidereal_date_sunset.month == 12:
         # distance from prabhava
         samvatsara_id = (daily_panchaanga.date.year - 1568) % 60 + 1
-        new_yr = 'mESa-saGkrAntiH' + '~(' + names.NAMES['SAMVATSARA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][
-          (samvatsara_id % 60) + 1] + \
+        yname = names.NAMES['SAMVATSARA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][(samvatsara_id % 60) + 1]
+        # Manual cleaning of name - dropping visarga etc.
+        yname = yname.rstrip('H')
+        if yname[-1] == 'I':
+          yname = yname[:-1] + 'i'
+        new_yr = 'mESa-saGkrAntiH' + '~(' + yname + \
                  '-' + 'saMvatsaraH' + ')'
         # self.panchaanga.festival_id_to_days[new_yr] = [d]
         self.panchaanga.add_festival(fest_id=new_yr, date=self.daily_panchaangas[d].date)
