@@ -43,6 +43,7 @@ emit(panchaanga,
 
 
 ### API usage
+- Please look at the [test cases](https://github.com/jyotisham/jyotisha/tree/master/jyotisha_tests) - they are your best guide for how to do stuff like getting panchAnga for a day.
 - Please see the generated python sphynx docs in one of the following places (jyotisha.panchanga.scripts package docs may be particularly relevant):
     - [readthedocs site](http://jyotisha.readthedocs.io)
     - under docs/_build/html/index.html
