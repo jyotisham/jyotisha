@@ -2056,17 +2056,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:śani-pradōṣa-vratam
+SUMMARY:śanivāra-śuklapradōṣa-vratam
 DTSTART;TZID=Asia/Calcutta:20190119T175948
 DTEND;TZID=Asia/Calcutta:20190119T193442
-DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
- n Pradosha Kala.  Pradosha vratam is even more special\, when if falls on 
- a Monday/Saturday.<br/><br/>pradōṣē  śivapūjāṁ  tu  yē  kuryācc
- hraddhayā  yutāḥ।  <br/>na  bhavēt  tasya  dāridryaṁ  janmāntar
- aśatēṣvapi॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](h
- ttps://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/prado
- Sha/description_only/zani-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam P
- radoshaVratam
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -3631,12 +3624,12 @@ DTSTART;TZID=Asia/Calcutta:20190202T180625
 DTEND;TZID=Asia/Calcutta:20190202T194027
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.  Pradosha vratam is even more special\, when if falls on 
- a Monday/Saturday.<br/><br/>pradōṣē  śivapūjāṁ  tu  yē  kuryācc
- hraddhayā  yutāḥ।  <br/>na  bhavēt  tasya  dāridryaṁ  janmāntar
- aśatēṣvapi॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](h
- ttps://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/prado
- Sha/description_only/zani-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam P
- radoshaVratam
+ a Saturday.<br/><br/>pradōṣē  śivapūjāṁ  tu  yē  kuryācchraddha
+ yā  yutāḥ।  <br/>na  bhavēt  tasya  dāridryaṁ  janmāntaraśatē
+ ṣvapi॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://
+ github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoSha/des
+ cription_only/zani-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosha
+ Vratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -5612,22 +5605,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:pradōṣa-vratam
-DTSTART;TZID=Asia/Calcutta:20190217T181136
-DTEND;TZID=Asia/Calcutta:20190217T194421
-DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
- n Pradosha Kala.<br/><br/>pradōṣē  śivapūjāṁ  tu  yē  kuryācchr
- addhayā  yutāḥ।  <br/>na  bhavēt  tasya  dāridryaṁ  janmāntara
- śatēṣvapi॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoS
- ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
- aVratam
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:ravipuṣya-yōgaḥ
 DTSTART;TZID=Asia/Calcutta:20190217T164429
 DTEND;TZID=Asia/Calcutta:20190217T235957
@@ -5635,6 +5612,16 @@ DESCRIPTION:When Pushya nakshatra falls on a Sunday\, it is a special yōg
  aḥ.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
  isham/adyatithi/blob/master/time_focus/misc_combinations/description_only/
  ravipuSya-yOgaH.toml)<br/>- Tags: RareDays Combinations
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ravivāra-śuklapradōṣa-vratam
+DTSTART;TZID=Asia/Calcutta:20190217T181136
+DTEND;TZID=Asia/Calcutta:20190217T194421
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -8986,12 +8973,12 @@ DTSTART;TZID=Asia/Calcutta:20190318T181613
 DTEND;TZID=Asia/Calcutta:20190318T194622
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala. Pradosha vratam is even more special\, when if falls on a
-  Monday/Saturday.<br/><br/>pradōṣē  śivapūjāṁ  tu  yē  kuryācch
- raddhayā  yutāḥ।  <br/>na  bhavēt  tasya  dāridryaṁ  janmāntara
- śatēṣvapi॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoS
- ha/description_only/sOma-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pr
- adoshaVratam
+  Monday\, which is already a special day for śivārādhanam.<br/><br/>pra
+ dōṣē  śivapūjāṁ  tu  yē  kuryācchraddhayā  yutāḥ।  <br/>n
+ a  bhavēt  tasya  dāridryaṁ  janmāntaraśatēṣvapi॥<br/><br/><br/
+ ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
+ atithi/blob/master/time_focus/monthly/pradoSha/description_only/sOma-pradO
+ Sa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -20279,22 +20266,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:pradōṣa-vratam
-DTSTART;TZID=Asia/Calcutta:20190614T183203
-DTEND;TZID=Asia/Calcutta:20190614T195626
-DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
- n Pradosha Kala.<br/><br/>pradōṣē  śivapūjāṁ  tu  yē  kuryācchr
- addhayā  yutāḥ।  <br/>na  bhavēt  tasya  dāridryaṁ  janmāntara
- śatēṣvapi॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoS
- ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
- aVratam
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:rāmalakṣmaṇa-dvādaśī
 DTSTART;VALUE=DATE:20190614
 DTEND;VALUE=DATE:20190615
@@ -20306,6 +20277,16 @@ DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Jyaiṣṭhaḥ (lunar)
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:śukravāra-śuklapradōṣa-vratam
+DTSTART;TZID=Asia/Calcutta:20190614T183203
+DTEND;TZID=Asia/Calcutta:20190614T195626
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -23880,16 +23861,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:pradōṣa-vratam
+SUMMARY:ravivāra-śuklapradōṣa-vratam
 DTSTART;TZID=Asia/Calcutta:20190714T183557
 DTEND;TZID=Asia/Calcutta:20190714T200046
-DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
- n Pradosha Kala.<br/><br/>pradōṣē  śivapūjāṁ  tu  yē  kuryācchr
- addhayā  yutāḥ।  <br/>na  bhavēt  tasya  dāridryaṁ  janmāntara
- śatēṣvapi॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoS
- ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
- aVratam
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -25486,12 +25461,12 @@ DTSTART;TZID=Asia/Calcutta:20190729T183330
 DTEND;TZID=Asia/Calcutta:20190729T195902
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala. Pradosha vratam is even more special\, when if falls on a
-  Monday/Saturday.<br/><br/>pradōṣē  śivapūjāṁ  tu  yē  kuryācch
- raddhayā  yutāḥ।  <br/>na  bhavēt  tasya  dāridryaṁ  janmāntara
- śatēṣvapi॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoS
- ha/description_only/sOma-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pr
- adoshaVratam
+  Monday\, which is already a special day for śivārādhanam.<br/><br/>pra
+ dōṣē  śivapūjāṁ  tu  yē  kuryācchraddhayā  yutāḥ।  <br/>n
+ a  bhavēt  tasya  dāridryaṁ  janmāntaraśatēṣvapi॥<br/><br/><br/
+ ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
+ atithi/blob/master/time_focus/monthly/pradoSha/description_only/sOma-pradO
+ Sa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -27361,12 +27336,12 @@ DTSTART;TZID=Asia/Calcutta:20190812T182819
 DTEND;TZID=Asia/Calcutta:20190812T195443
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala. Pradosha vratam is even more special\, when if falls on a
-  Monday/Saturday.<br/><br/>pradōṣē  śivapūjāṁ  tu  yē  kuryācch
- raddhayā  yutāḥ।  <br/>na  bhavēt  tasya  dāridryaṁ  janmāntara
- śatēṣvapi॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoS
- ha/description_only/sOma-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pr
- adoshaVratam
+  Monday\, which is already a special day for śivārādhanam.<br/><br/>pra
+ dōṣē  śivapūjāṁ  tu  yē  kuryācchraddhayā  yutāḥ।  <br/>n
+ a  bhavēt  tasya  dāridryaṁ  janmāntaraśatēṣvapi॥<br/><br/><br/
+ ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
+ atithi/blob/master/time_focus/monthly/pradoSha/description_only/sOma-pradO
+ Sa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -35791,16 +35766,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:pradōṣa-vratam
+SUMMARY:śukravāra-śuklapradōṣa-vratam
 DTSTART;TZID=Asia/Calcutta:20191011T174909
 DTEND;TZID=Asia/Calcutta:20191011T192044
-DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
- n Pradosha Kala.<br/><br/>pradōṣē  śivapūjāṁ  tu  yē  kuryācchr
- addhayā  yutāḥ।  <br/>na  bhavēt  tasya  dāridryaṁ  janmāntara
- śatēṣvapi॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoS
- ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
- aVratam
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -39832,17 +39801,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:śani-pradōṣa-vratam
+SUMMARY:śanivāra-śuklapradōṣa-vratam
 DTSTART;TZID=Asia/Calcutta:20191109T173628
 DTEND;TZID=Asia/Calcutta:20191109T191039
-DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
- n Pradosha Kala.  Pradosha vratam is even more special\, when if falls on 
- a Monday/Saturday.<br/><br/>pradōṣē  śivapūjāṁ  tu  yē  kuryācc
- hraddhayā  yutāḥ।  <br/>na  bhavēt  tasya  dāridryaṁ  janmāntar
- aśatēṣvapi॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](h
- ttps://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/prado
- Sha/description_only/zani-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam P
- radoshaVratam
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -43654,12 +43616,12 @@ DTSTART;TZID=Asia/Calcutta:20191209T173838
 DTEND;TZID=Asia/Calcutta:20191209T191415
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala. Pradosha vratam is even more special\, when if falls on a
-  Monday/Saturday.<br/><br/>pradōṣē  śivapūjāṁ  tu  yē  kuryācch
- raddhayā  yutāḥ।  <br/>na  bhavēt  tasya  dāridryaṁ  janmāntara
- śatēṣvapi॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoS
- ha/description_only/sOma-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pr
- adoshaVratam
+  Monday\, which is already a special day for śivārādhanam.<br/><br/>pra
+ dōṣē  śivapūjāṁ  tu  yē  kuryācchraddhayā  yutāḥ।  <br/>n
+ a  bhavēt  tasya  dāridryaṁ  janmāntaraśatēṣvapi॥<br/><br/><br/
+ ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
+ atithi/blob/master/time_focus/monthly/pradoSha/description_only/sOma-pradO
+ Sa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -45278,12 +45240,12 @@ DTSTART;TZID=Asia/Calcutta:20191223T174441
 DTEND;TZID=Asia/Calcutta:20191223T192026
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala. Pradosha vratam is even more special\, when if falls on a
-  Monday/Saturday.<br/><br/>pradōṣē  śivapūjāṁ  tu  yē  kuryācch
- raddhayā  yutāḥ।  <br/>na  bhavēt  tasya  dāridryaṁ  janmāntara
- śatēṣvapi॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoS
- ha/description_only/sOma-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pr
- adoshaVratam
+  Monday\, which is already a special day for śivārādhanam.<br/><br/>pra
+ dōṣē  śivapūjāṁ  tu  yē  kuryācchraddhayā  yutāḥ।  <br/>n
+ a  bhavēt  tasya  dāridryaṁ  janmāntaraśatēṣvapi॥<br/><br/><br/
+ ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
+ atithi/blob/master/time_focus/monthly/pradoSha/description_only/sOma-pradO
+ Sa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H

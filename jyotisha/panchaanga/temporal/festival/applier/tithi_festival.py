@@ -352,7 +352,9 @@ class TithiFestivalAssigner(FestivalAssigner):
       # compute offset from UTC in hours
       # PRADOSHA Vratam
       pref = ''
-      tithi_sunset = day_panchaanga.sunrise_day_angas.get_anga_at_jd(jd=day_panchaanga.jd_sunset, anga_type=AngaType.TITHI) % 15
+      tithi_sunset = day_panchaanga.sunrise_day_angas.get_anga_at_jd(jd=day_panchaanga.jd_sunset, anga_type=AngaType.TITHI) 
+      is_shukla_paksha = True if tithi_sunset.index <= 15 else False
+      tithi_sunset = tithi_sunset % 15
       tithi_sunset_tmrw = self.daily_panchaangas[d+1].sunrise_day_angas.get_anga_at_jd(jd=self.daily_panchaangas[d+1].jd_sunset, anga_type=AngaType.TITHI) % 15
       fday = None
       if tithi_sunset_tmrw == 13:
@@ -367,6 +369,14 @@ class TithiFestivalAssigner(FestivalAssigner):
       if fday is not None:
         if self.daily_panchaangas[fday].date.get_weekday() == 1:
           pref = 'sOma-'
+        elif self.daily_panchaangas[fday].date.get_weekday() == 0 and is_shukla_paksha:
+          pref = 'ravivAra-zukla'
+        elif self.daily_panchaangas[fday].date.get_weekday() == 2 and is_shukla_paksha:
+          pref = 'bhaumavAra-zukla'
+        elif self.daily_panchaangas[fday].date.get_weekday() == 5 and is_shukla_paksha:
+          pref = 'zukravAra-zukla'
+        elif self.daily_panchaangas[fday].date.get_weekday() == 6 and is_shukla_paksha:
+          pref = 'zanivAra-zukla'
         elif self.daily_panchaangas[fday].date.get_weekday() == 6:
           pref = 'zani-'
         self.panchaanga.add_festival(fest_id=pref + 'pradOSa-vratam', date=self.daily_panchaangas[fday].date, interval_id="pradosha")
