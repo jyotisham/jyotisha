@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230417155614
+SEQUENCE:20230417160134
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -14546,24 +14546,6 @@ DESCRIPTION:- Indian civil date: 1945-01-24\, Islamic: 1444-09-23 Ramaḍ
  गुलिककालः**—07:43-09:15  \n___________________\n- **
  शूलम्**—प्रतीची (►11:06)\; **परिहा
  रः**–गुडम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:खाल्सारम्भः #३२५
-DTSTART;VALUE=DATE:20230414
-DTEND;VALUE=DATE:20230415
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/xatra/sidereal_solar_month/day/01/01/
- khAlsArambhaH.toml)<br/>- Tags: LessCommonFestivals<br/><br/><br/><br/>## 
- Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/bl
- ob/master/mahApuruSha/xatra/sidereal_solar_month/day/01/01/khAlsArambhaH.t
- oml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
