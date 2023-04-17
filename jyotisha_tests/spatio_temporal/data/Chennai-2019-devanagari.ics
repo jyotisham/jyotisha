@@ -12251,6 +12251,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:khālsārambhaḥ #321
+DTSTART;VALUE=DATE:20190414
+DTEND;VALUE=DATE:20190415
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra/sidereal_solar_month/day/01/01/
+ khAlsArambhaH.toml)<br/>- Tags: LessCommonFestivals<br/><br/><br/><br/>## 
+ Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/bl
+ ob/master/mahApuruSha/xatra/sidereal_solar_month/day/01/01/khAlsArambhaH.t
+ oml)<br/>- Tags: LessCommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:mēṣa-saṅkrāntiḥ (vikāri-saṁvatsaraḥ)
 DTSTART;VALUE=DATE:20190414
 DTEND;VALUE=DATE:20190415
