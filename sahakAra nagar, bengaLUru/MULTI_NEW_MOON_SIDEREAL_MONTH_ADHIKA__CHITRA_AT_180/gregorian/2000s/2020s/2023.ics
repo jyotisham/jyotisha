@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230414222822
+SEQUENCE:20230417155614
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -4630,23 +4630,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:प्रदोष-व्रतम्
-DTSTART;TZID=Asia/Calcutta:20230203T181739
-DTEND;TZID=Asia/Calcutta:20230203T195135
-DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
- n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
-  तु  ये  कुर्याच्छ्रद्धया  यु
- ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥<br/><
- br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
- sham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/pr
- adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:तारापुर-दुर्ग-जयः #२८४
 DTSTART;VALUE=DATE:20230203
 DTEND;VALUE=DATE:20230204
@@ -4695,6 +4678,17 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:शुक्रवार-शुक्लप्रदोष-व्
+ रतम्
+DTSTART;TZID=Asia/Calcutta:20230203T181739
+DTEND;TZID=Asia/Calcutta:20230203T195135
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -6768,13 +6762,13 @@ DTSTART;TZID=Asia/Calcutta:20230218T182237
 DTEND;TZID=Asia/Calcutta:20230218T195520
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.  Pradosha vratam is even more special\, when if falls on 
- a Monday/Saturday.<br/><br/>प्रदोषे  शिवपूजा
- ं  तु  ये  कुर्याच्छ्रद्धया  य
- ुताः।  <br/>न  भवेत्  तस्य  दारिद
- ्र्यं  जन्मान्तरशतेष्वपि॥<br
- /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
- otisham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only
- /zani-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ a Saturday.<br/><br/>प्रदोषे  शिवपूजां  त
+ ु  ये  कुर्याच्छ्रद्धया  युत
+ ाः।  <br/>न  भवेत्  तस्य  दारिद्र
+ ्यं  जन्मान्तरशतेष्वपि॥<br/><br/
+ ><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisha
+ m/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/zani-
+ pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -8595,18 +8589,11 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:शनि-प्रदोष-व्रतम्
+SUMMARY:शनिवार-शुक्लप्रदोष-व्रत
+ म्
 DTSTART;TZID=Asia/Calcutta:20230304T182525
 DTEND;TZID=Asia/Calcutta:20230304T195652
-DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
- n Pradosha Kala.  Pradosha vratam is even more special\, when if falls on 
- a Monday/Saturday.<br/><br/>प्रदोषे  शिवपूजा
- ं  तु  ये  कुर्याच्छ्रद्धया  य
- ुताः।  <br/>न  भवेत्  तस्य  दारिद
- ्र्यं  जन्मान्तरशतेष्वपि॥<br
- /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
- otisham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only
- /zani-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -13133,13 +13120,14 @@ DTSTART;TZID=Asia/Calcutta:20230403T182758
 DTEND;TZID=Asia/Calcutta:20230403T195641
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala. Pradosha vratam is even more special\, when if falls on a
-  Monday/Saturday.<br/><br/>प्रदोषे  शिवपूजां
-   तु  ये  कुर्याच्छ्रद्धया  यु
- ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥<br/><
- br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
- sham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/sO
- ma-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+  Monday\, which is already a special day for śivārādhanam.<br/><br/>प
+ ्रदोषे  शिवपूजां  तु  ये  कुर्
+ याच्छ्रद्धया  युताः।  <br/>न  भव
+ ेत्  तस्य  दारिद्र्यं  जन्मा
+ न्तरशतेष्वपि॥<br/><br/><br/><br/>## Details<br/>
+ - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/ti
+ me_focus/monthly/pradoSha/description_only/sOma-pradOSa-vratam.toml)<br/>-
+  Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -14567,6 +14555,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:खाल्सारम्भः #३२५
+DTSTART;VALUE=DATE:20230414
+DTEND;VALUE=DATE:20230415
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra/sidereal_solar_month/day/01/01/
+ khAlsArambhaH.toml)<br/>- Tags: LessCommonFestivals<br/><br/><br/><br/>## 
+ Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/bl
+ ob/master/mahApuruSha/xatra/sidereal_solar_month/day/01/01/khAlsArambhaH.t
+ oml)<br/>- Tags: LessCommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:मेष-सङ्क्रान्तिः (शोभन-स
  ंवत्सरः)
 DTSTART;VALUE=DATE:20230414
@@ -15169,13 +15175,14 @@ DTSTART;TZID=Asia/Calcutta:20230417T182908
 DTEND;TZID=Asia/Calcutta:20230417T195638
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala. Pradosha vratam is even more special\, when if falls on a
-  Monday/Saturday.<br/><br/>प्रदोषे  शिवपूजां
-   तु  ये  कुर्याच्छ्रद्धया  यु
- ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥<br/><
- br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
- sham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/sO
- ma-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+  Monday\, which is already a special day for śivārādhanam.<br/><br/>प
+ ्रदोषे  शिवपूजां  तु  ये  कुर्
+ याच्छ्रद्धया  युताः।  <br/>न  भव
+ ेत्  तस्य  दारिद्र्यं  जन्मा
+ न्तरशतेष्वपि॥<br/><br/><br/><br/>## Details<br/>
+ - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/ti
+ me_focus/monthly/pradoSha/description_only/sOma-pradOSa-vratam.toml)<br/>-
+  Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -25550,18 +25557,11 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:शनि-प्रदोष-व्रतम्
+SUMMARY:शनिवार-शुक्लप्रदोष-व्रत
+ म्
 DTSTART;TZID=Asia/Calcutta:20230701T184616
 DTEND;TZID=Asia/Calcutta:20230701T201036
-DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
- n Pradosha Kala.  Pradosha vratam is even more special\, when if falls on 
- a Monday/Saturday.<br/><br/>प्रदोषे  शिवपूजा
- ं  तु  ये  कुर्याच्छ्रद्धया  य
- ुताः।  <br/>न  भवेत्  तस्य  दारिद
- ्र्यं  जन्मान्तरशतेष्वपि॥<br
- /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
- otisham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only
- /zani-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -27273,13 +27273,13 @@ DTSTART;TZID=Asia/Calcutta:20230715T184639
 DTEND;TZID=Asia/Calcutta:20230715T201126
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.  Pradosha vratam is even more special\, when if falls on 
- a Monday/Saturday.<br/><br/>प्रदोषे  शिवपूजा
- ं  तु  ये  कुर्याच्छ्रद्धया  य
- ुताः।  <br/>न  भवेत्  तस्य  दारिद
- ्र्यं  जन्मान्तरशतेष्वपि॥<br
- /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
- otisham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only
- /zani-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ a Saturday.<br/><br/>प्रदोषे  शिवपूजां  त
+ ु  ये  कुर्याच्छ्रद्धया  युत
+ ाः।  <br/>न  भवेत्  तस्य  दारिद्र
+ ्यं  जन्मान्तरशतेष्वपि॥<br/><br/
+ ><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisha
+ m/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/zani-
+ pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -29039,17 +29039,11 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:प्रदोष-व्रतम्
+SUMMARY:रविवार-शुक्लप्रदोष-व्रत
+ म्
 DTSTART;TZID=Asia/Calcutta:20230730T184357
 DTEND;TZID=Asia/Calcutta:20230730T200931
-DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
- n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
-  तु  ये  कुर्याच्छ्रद्धया  यु
- ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥<br/><
- br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
- sham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/pr
- adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -33024,13 +33018,14 @@ DTSTART;TZID=Asia/Calcutta:20230828T183004
 DTEND;TZID=Asia/Calcutta:20230828T195748
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala. Pradosha vratam is even more special\, when if falls on a
-  Monday/Saturday.<br/><br/>प्रदोषे  शिवपूजां
-   तु  ये  कुर्याच्छ्रद्धया  यु
- ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥<br/><
- br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
- sham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/sO
- ma-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+  Monday\, which is already a special day for śivārādhanam.<br/><br/>प
+ ्रदोषे  शिवपूजां  तु  ये  कुर्
+ याच्छ्रद्धया  युताः।  <br/>न  भव
+ ेत्  तस्य  दारिद्र्यं  जन्मा
+ न्तरशतेष्वपि॥<br/><br/><br/><br/>## Details<br/>
+ - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/ti
+ me_focus/monthly/pradoSha/description_only/sOma-pradOSa-vratam.toml)<br/>-
+  Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -46984,23 +46979,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:प्रदोष-व्रतम्
-DTSTART;TZID=Asia/Calcutta:20231124T174619
-DTEND;TZID=Asia/Calcutta:20231124T192120
-DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
- n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
-  तु  ये  कुर्याच्छ्रद्धया  यु
- ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥<br/><
- br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
- sham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/pr
- adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:रघुनाथमन्दिराक्रमणम् २
  ००२११ #२१
 DTSTART;VALUE=DATE:20231124
@@ -47077,6 +47055,17 @@ DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Kārttikaḥ (lunar) mo
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:शुक्रवार-शुक्लप्रदोष-व्
+ रतम्
+DTSTART;TZID=Asia/Calcutta:20231124T174619
+DTEND;TZID=Asia/Calcutta:20231124T192120
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -51519,17 +51508,11 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:प्रदोष-व्रतम्
+SUMMARY:रविवार-शुक्लप्रदोष-व्रत
+ म्
 DTSTART;TZID=Asia/Calcutta:20231224T175602
 DTEND;TZID=Asia/Calcutta:20231224T193150
-DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
- n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
-  तु  ये  कुर्याच्छ्रद्धया  यु
- ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥<br/><
- br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
- sham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/pr
- adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
