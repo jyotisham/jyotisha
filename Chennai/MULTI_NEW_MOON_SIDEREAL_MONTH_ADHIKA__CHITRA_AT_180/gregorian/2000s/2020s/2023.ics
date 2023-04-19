@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230417213258
+SEQUENCE:20230419074256
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -17078,6 +17078,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:आखिरा-हत्या #५२
+DTSTART;VALUE=DATE:20230417
+DTEND;VALUE=DATE:20230418
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/04/17/Akhir
+ A-hatyA.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit confi
+ g file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xat
+ ra-later/gregorian/day/04/17/AkhirA-hatyA.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:अव्रङ्गज़ेबेन हिन्दुक-प्
  रलोभनम् #३३८
 DTSTART;VALUE=DATE:20230417
@@ -23280,6 +23297,23 @@ DESCRIPTION:Event occured on 1737-05-24 (gregorian). <br/><br/>On Saturday
  the whole island.<br/><br/>## Details<br/>- [Edit config file](https://git
  hub.com/jyotisham/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/
  day/05/24/bAjIrAveNa_ShaTshaShTi-dvIpa-grahaNam.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:बख्राबाद-हत्या #५२
+DTSTART;VALUE=DATE:20230524
+DTEND;VALUE=DATE:20230525
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/05/24/bakhr
+ AbAda-hatyA.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha
+ /xatra-later/gregorian/day/05/24/bakhrAbAda-hatyA.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
