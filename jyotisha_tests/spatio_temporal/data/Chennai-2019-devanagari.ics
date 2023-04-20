@@ -15839,24 +15839,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:vidyāraṇya-svāmi-jayantī
-DTSTART;VALUE=DATE:20190511
-DTEND;VALUE=DATE:20190512
-DESCRIPTION:Observed on Śukla-Saptamī tithi of Vaiśākhaḥ (lunar) mon
- th (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- Ref
- erences<br/>  - http://hindupad.com/vidyaranya-jayanti-swami-vidyaranya-ja
- yanthi/<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/bl
- ob/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/02/07/vidyAraNya-svAm
- I~jayantI.toml)<br/>- Tags: MahapurushaEvents
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:śarkarā-saptamī
 DTSTART;VALUE=DATE:20190511
 DTEND;VALUE=DATE:20190512
