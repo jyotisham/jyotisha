@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230419074256
+SEQUENCE:20230420103204
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -19077,25 +19077,6 @@ DESCRIPTION:Observed on Śukla-Saptamī tithi of Vaiśākhaḥ (lunar) mon
  <br/>  - Vaidikasri May 2017<br/>- [Edit config file](https://github.com/j
  yotisham/adyatithi/blob/master/mahApuruSha/sangIta-kRt/lunar_month/tithi/0
  2/07/tyAgarAja~jayantI.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:विद्यारण्य-स्वामि-जयन्त
- ी
-DTSTART;VALUE=DATE:20230427
-DTEND;VALUE=DATE:20230428
-DESCRIPTION:Observed on Śukla-Saptamī tithi of Vaiśākhaḥ (lunar) mon
- th (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- Ref
- erences<br/>  - http://hindupad.com/vidyaranya-jayanti-swami-vidyaranya-ja
- yanthi/<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/bl
- ob/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/02/07/vidyAraNya-svAm
- I~jayantI.toml)<br/>- Tags: MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
