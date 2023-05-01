@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230420103529
+SEQUENCE:20230501074949
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -16061,15 +16061,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:अक्षय्य-तृतीया
+SUMMARY:अक्षय-तृतीया
 DTSTART;VALUE=DATE:20230422
 DTEND;VALUE=DATE:20230423
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/general/lunar_month/tithi/02/03/akSayya-tRtIyA.to
- ml)<br/>- Tags: CommonFestivals<br/><br/><br/><br/>## Details<br/>- Refere
- nces<br/>  - Nirnaya Sindhu p.109<br/>- [Edit config file](https://github.
- com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/02/03/akSayy
- a-tRtIyA.toml)<br/>- Tags: CommonFestivals
+ am/adyatithi/blob/master/general/lunar_month/tithi/02/03/akSaya-tRtIyA.tom
+ l)<br/>- Tags: CommonFestivals<br/><br/><br/><br/>## Details<br/>- Referen
+ ces<br/>  - Smriti Kaustubha p.109-110<br/>- [Edit config file](https://gi
+ thub.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/02/03/a
+ kSaya-tRtIyA.toml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16086,10 +16086,15 @@ DESCRIPTION:Observed on Śukla-Tr̥tīyā tithi of Vaiśākhaḥ (lunar) m
  onth (Madhyāhnaḥ/paraviddha). <br/><br/>यः करोति तृ
  तीयायां कृष्णं चन्दन-भूषित
  म्।  <br/>वैशाखस्य सिते पक्षे स 
- यात्यच्युतमंन्दिरम्॥<br/><br/><br/
- ><br/>## Details<br/>- References<br/>  - Dharma Sindhu p.38<br/>- [Edit c
- onfig file](https://github.com/jyotisham/adyatithi/blob/master/general/lun
- ar_month/tithi/02/03/candana-pUjA.toml)<br/>- Tags: LessCommonFestivals
+ यात्यच्युतमंन्दिरम्॥  <br/>वि
+ ष्णुधर्मोत्तरे---  <br/>यः पश्यत
+ ि तृतीयायां कृष्णं चन्दनभू
+ षितम्।  <br/>वैशाखस्य सिते पक्
+ षे स यात्यच्युतमन्दिरम्।<br/><
+ br/><br/><br/>## Details<br/>- References<br/>  - Dharma Sindhu p.38<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gen
+ eral/lunar_month/tithi/02/03/candana-pUjA.toml)<br/>- Tags: LessCommonFest
+ ivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
