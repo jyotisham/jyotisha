@@ -15210,15 +15210,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:akṣayya-tr̥tīyā
+SUMMARY:akṣaya-tr̥tīyā
 DTSTART;VALUE=DATE:20190507
 DTEND;VALUE=DATE:20190508
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/general/lunar_month/tithi/02/03/akSayya-tRtIyA.to
- ml)<br/>- Tags: CommonFestivals<br/><br/><br/><br/>## Details<br/>- Refere
- nces<br/>  - Nirnaya Sindhu p.109<br/>- [Edit config file](https://github.
- com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/02/03/akSayy
- a-tRtIyA.toml)<br/>- Tags: CommonFestivals
+ am/adyatithi/blob/master/general/lunar_month/tithi/02/03/akSaya-tRtIyA.tom
+ l)<br/>- Tags: CommonFestivals<br/><br/><br/><br/>## Details<br/>- Referen
+ ces<br/>  - Smriti Kaustubha p.109-110<br/>- [Edit config file](https://gi
+ thub.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/02/03/a
+ kSaya-tRtIyA.toml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15256,10 +15256,12 @@ DTEND;VALUE=DATE:20190508
 DESCRIPTION:Observed on Śukla-Tr̥tīyā tithi of Vaiśākhaḥ (lunar) m
  onth (Madhyāhnaḥ/paraviddha). <br/><br/>yaḥ karōti tr̥tīyāyāṁ 
  kr̥ṣṇaṁ candana-bhūṣitam।  <br/>vaiśākhasya sitē pakṣē s
- a yātyacyutamaṁndiram॥<br/><br/><br/><br/>## Details<br/>- References
- <br/>  - Dharma Sindhu p.38<br/>- [Edit config file](https://github.com/jy
- otisham/adyatithi/blob/master/general/lunar_month/tithi/02/03/candana-pUjA
- .toml)<br/>- Tags: LessCommonFestivals
+ a yātyacyutamaṁndiram॥  <br/>viṣṇudharmōttarē---  <br/>yaḥ pa
+ śyati tr̥tīyāyāṁ kr̥ṣṇaṁ candanabhūṣitam।  <br/>vaiśā
+ khasya sitē pakṣē sa yātyacyutamandiram।<br/><br/><br/><br/>## Deta
+ ils<br/>- References<br/>  - Dharma Sindhu p.38<br/>- [Edit config file](h
+ ttps://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tith
+ i/02/03/candana-pUjA.toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15830,24 +15832,6 @@ DESCRIPTION:Observed on Śukla-Saptamī tithi of Vaiśākhaḥ (lunar) mon
  onfig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha
  /sangIta-kRt/lunar_month/tithi/02/07/tyAgarAja~jayantI.toml)<br/>- Tags: M
  ahapurushaEvents CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:vidyāraṇya-svāmi-jayantī
-DTSTART;VALUE=DATE:20190511
-DTEND;VALUE=DATE:20190512
-DESCRIPTION:Observed on Śukla-Saptamī tithi of Vaiśākhaḥ (lunar) mon
- th (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- Ref
- erences<br/>  - http://hindupad.com/vidyaranya-jayanti-swami-vidyaranya-ja
- yanthi/<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/bl
- ob/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/02/07/vidyAraNya-svAm
- I~jayantI.toml)<br/>- Tags: MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
