@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230505190538
+SEQUENCE:20230505190712
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -9310,9 +9310,8 @@ DESCRIPTION:The Tiruchendur Brahmotsavam of Masi each year is very special
  s the 'urugu chattai' sevai\, and 'sigappu satthi alankaram'.<br/><br/>## 
  Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/bl
  ob/master/temples/Tamil/relative_event/tiruccendUr_mAcit_tiruvizhA_nir2aiv
- u/offset__-5/tiruccendUr_murugan2_mAcit_tiruvizhA_%23%237%23%23m_nAL%E2%80
- %94urugu_cattac_cEvai_or_cigappu_cAtti_alaGkAram.toml)<br/>- Tags: Tamilna
- duTempleFestivals
+ u/offset__-5/tiruccendUr_murugan2_mAcit_tiruvizhA_7m_nAL.toml)<br/>- Tags:
+  TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25063,8 +25062,7 @@ DTEND;VALUE=DATE:20230604
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/temples/venkaTAchala/relative_event/vEGkaTAcalE_j
  yESTha-abhidyEyakAbhiSEkaH_%28svarNa-kavacam%29/offset__-1/vEGkaTAcalE_jyE
- STha-abhidyEyakAbhiSEkaH_%28mutyala-kavacam%29.toml)<br/>- Tags: AndhraTem
- pleFestivals
+ STha-abhidyEyakAbhiSEkaH.toml)<br/>- Tags: AndhraTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -35539,8 +35537,7 @@ DESCRIPTION:The Tiruchendur Brahmotsavam of Avani each year is very specia
  n on an elephant vāhanam.<br/><br/>## Details<br/>- [Edit config file](ht
  tps://github.com/jyotisham/adyatithi/blob/master/temples/Tamil/relative_ev
  ent/tiruccendUr_AvaNit_tiruvizhA_nir2aivu/offset__-8/tiruccendUr_murugan2_
- AvaNit_tiruvizhA_%23%234%23%23m_nAL%E2%80%94yAn2ai_vAhanattil_murugan2-amb
- AL_bhavan2i.toml)<br/>- Tags: TamilnaduTempleFestivals
+ AvaNit_tiruvizhA_4m_nAL.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
