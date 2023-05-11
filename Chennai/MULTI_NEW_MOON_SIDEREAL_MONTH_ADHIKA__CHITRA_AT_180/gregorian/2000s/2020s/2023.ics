@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230505192302
+SEQUENCE:20230511194635
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -21403,6 +21403,25 @@ DESCRIPTION:When the sum of the longitudes of the Moon and Sun is 360\, it
  icious activities.<br/><br/>## Details<br/>- [Edit config file](https://gi
  thub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/desc
  ription_only/sAyana-vaidhRtiH.toml)<br/>- Tags: Combinations
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:सोमनाथ-मन्दिर-पुनर्-उद्घ
+ ाटनम् #७२
+DTSTART;VALUE=DATE:20230511
+DTEND;VALUE=DATE:20230512
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/05/11/soman
+ Atha-mandira-punar-udghATanam.toml)<br/>- Tags: <br/><br/><br/><br/>## Det
+ ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/
+ master/mahApuruSha/xatra-later/gregorian/day/05/11/somanAtha-mandira-punar
+ -udghATanam.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
