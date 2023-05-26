@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230514123140
+SEQUENCE:20230526185312
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -23699,6 +23699,23 @@ DESCRIPTION:- Indian civil date: 1945-03-05\, Islamic: 1444-11-06 Ḏū al
  —15:16-16:51\; **गुलिककालः**—07:20-08:55  \n________
  ___________\n- **शूलम्**—प्रतीची (►10:49)\; **
  परिहारः**–गुडम्  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:बुरुङ्ग-हत्याः #५२
+DTSTART;VALUE=DATE:20230526
+DTEND;VALUE=DATE:20230527
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/05/26/burun
+ ga-hatyAH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/x
+ atra-later/gregorian/day/05/26/burunga-hatyAH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
