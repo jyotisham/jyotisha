@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230526185312
+SEQUENCE:20230617122644
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -26819,7 +26819,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चिदम्बरे ध्वजारोहणम्/पञ
- ्चमूर्ति रथोत्सवः
+ ्चमूर्ति-रथोत्सवः
 DTSTART;VALUE=DATE:20230616
 DTEND;VALUE=DATE:20230617
 DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
@@ -26975,7 +26975,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:चिदम्बरे रजत चन्द्रप्रभ 
+SUMMARY:चिदम्बरे रजत-चन्द्रप्रभ-
  वाहनम्
 DTSTART;VALUE=DATE:20230617
 DTEND;VALUE=DATE:20230618
@@ -27179,7 +27179,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चिदम्बरे स्वर्ण-सूर्यप्
- रभ वाहनम्
+ रभ-वाहनम्
 DTSTART;VALUE=DATE:20230618
 DTEND;VALUE=DATE:20230619
 DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
@@ -27398,7 +27398,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:चिदम्बरे रजत भूत वाहनम्
+SUMMARY:चिदम्बरे रजत-भूत-वाहनम्
 DTSTART;VALUE=DATE:20230619
 DTEND;VALUE=DATE:20230620
 DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
@@ -27537,7 +27537,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:चिदम्बरे रजत ऋषभ वाहनम्
+SUMMARY:चिदम्बरे रजत-ऋषभ-वाहनम्
 DTSTART;VALUE=DATE:20230620
 DTEND;VALUE=DATE:20230621
 DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
@@ -27875,7 +27875,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:चिदम्बरे कैलास वाहनम्
+SUMMARY:चिदम्बरे कैलास-वाहनम्
 DTSTART;VALUE=DATE:20230622
 DTEND;VALUE=DATE:20230623
 DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
@@ -28050,7 +28050,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:चिदम्बरे भिक्षाटन स्वर्
+SUMMARY:चिदम्बरे भिक्षाटन-स्वर्
  णरथः
 DTSTART;VALUE=DATE:20230623
 DTEND;VALUE=DATE:20230624
