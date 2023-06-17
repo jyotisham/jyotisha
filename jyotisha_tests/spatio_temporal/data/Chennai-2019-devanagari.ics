@@ -21767,7 +21767,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:cidambarē dhvajārōhaṇam/pañcamūrti rathōtsavaḥ
+SUMMARY:cidambarē dhvajārōhaṇam/pañcamūrti-rathōtsavaḥ
 DTSTART;VALUE=DATE:20190628
 DTEND;VALUE=DATE:20190629
 DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
@@ -21840,7 +21840,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:cidambarē rajata candraprabha vāhanam
+SUMMARY:cidambarē rajata-candraprabha-vāhanam
 DTSTART;VALUE=DATE:20190629
 DTEND;VALUE=DATE:20190630
 DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
@@ -21976,7 +21976,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:cidambarē svarṇa-sūryaprabha vāhanam
+SUMMARY:cidambarē svarṇa-sūryaprabha-vāhanam
 DTSTART;VALUE=DATE:20190630
 DTEND;VALUE=DATE:20190701
 DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
@@ -22079,7 +22079,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:cidambarē rajata bhūta vāhanam
+SUMMARY:cidambarē rajata-bhūta-vāhanam
 DTSTART;VALUE=DATE:20190701
 DTEND;VALUE=DATE:20190702
 DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
@@ -22231,7 +22231,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:cidambarē rajata r̥ṣabha vāhanam
+SUMMARY:cidambarē rajata-r̥ṣabha-vāhanam
 DTSTART;VALUE=DATE:20190702
 DTEND;VALUE=DATE:20190703
 DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
@@ -22583,7 +22583,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:cidambarē kailāsa vāhanam
+SUMMARY:cidambarē kailāsa-vāhanam
 DTSTART;VALUE=DATE:20190704
 DTEND;VALUE=DATE:20190705
 DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
@@ -22690,7 +22690,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:cidambarē bhikṣāṭana svarṇarathaḥ
+SUMMARY:cidambarē bhikṣāṭana-svarṇarathaḥ
 DTSTART;VALUE=DATE:20190705
 DTEND;VALUE=DATE:20190706
 DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
