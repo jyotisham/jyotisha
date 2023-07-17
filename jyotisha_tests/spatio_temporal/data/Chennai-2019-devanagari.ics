@@ -26487,23 +26487,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sāmavēda-upākarma
-DTSTART;VALUE=DATE:20190805
-DTEND;VALUE=DATE:20190806
-DESCRIPTION:Observed on Hastaḥ nakshatra of Śrāvaṇaḥ (lunar) month
-  (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit
-  config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/gen
- eral/lunar_month/nakshatra/05/13/sAmavEda-upAkarma.toml)<br/>- Tags: Commo
- nFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:taittirīya-upākarma hastē
 DTSTART;VALUE=DATE:20190805
 DTEND;VALUE=DATE:20190806
@@ -30419,6 +30402,23 @@ DESCRIPTION:- Indian civil date: 1941-06-11\, Islamic: 1441-01-02 Al-Muḥ
  laḥ**—07:33-09:04\; **Yamaghaṇṭaḥ**—10:36-12:08\; **Gulikakāl
  aḥ**—13:40-15:12  \n___________________\n- **Śūlam**—Prāchī (►
  09:17)\; **Parihāraḥ**–Dadhi  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sāmavēda-upākarma
+DTSTART;VALUE=DATE:20190902
+DTEND;VALUE=DATE:20190903
+DESCRIPTION:Observed on Hastaḥ nakshatra of Bhādrapadaḥ (lunar) month
+  (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/gen
+ eral/lunar_month/nakshatra/06/13/sAmavEda-upAkarma.toml)<br/>- Tags: Commo
+ nFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE

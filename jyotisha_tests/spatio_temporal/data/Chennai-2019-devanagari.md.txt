@@ -24717,7 +24717,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- गरुड-पञ्चमी, तैत्तिरीय-उपाकर्म हस्ते, नाग-पञ्चमी, सामवेद-उपाकर्म
+- गरुड-पञ्चमी, तैत्तिरीय-उपाकर्म हस्ते, नाग-पञ्चमी
 ##### गरुड-पञ्चमी
 
 Observed on Śukla-Pañcamī tithi of Śrāvaṇaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -24756,17 +24756,6 @@ Naga Panchami; SarpaPooja (manasaDevi); Vishnu's boon to AdiSesha that humans wi
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/misc-fauna/lunar_month/tithi/05/05/nAga-paJcamI.toml)
 - Tags: SpecialPuja PuranaEvents
-
-
-##### सामवेद-उपाकर्म
-
-Observed on Hastaḥ nakshatra of Śrāvaṇaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
-
-
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_month/nakshatra/05/13/sAmavEda-upAkarma.toml)
-- Tags: CommonFestivals
 
 
 ##### तैत्तिरीय-उपाकर्म हस्ते
@@ -28187,7 +28176,18 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- तिरुच्चॆन्दूर् मुरुगऩ् आवणित् तिरुविऴा 10म् नाळ्—तेर्, शुक्ल-चतुर्थी-व्रतम्, श्रीविनायक-चतुर्थी, सायन-वैधृतिः
+- तिरुच्चॆन्दूर् मुरुगऩ् आवणित् तिरुविऴा 10म् नाळ्—तेर्, शुक्ल-चतुर्थी-व्रतम्, श्रीविनायक-चतुर्थी, सामवेद-उपाकर्म, सायन-वैधृतिः
+##### सामवेद-उपाकर्म
+
+Observed on Hastaḥ nakshatra of Bhādrapadaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
+
+
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_month/nakshatra/06/13/sAmavEda-upAkarma.toml)
+- Tags: CommonFestivals
+
+
 ##### सायन-वैधृतिः
 - →13:21
 
