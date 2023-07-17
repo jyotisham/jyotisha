@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230702083329
+SEQUENCE:20230717204248
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -13370,23 +13370,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सामवेद-उपाकर्म
-DTSTART;VALUE=DATE:20230627
-DTEND;VALUE=DATE:20230628
-DESCRIPTION:Observed on Hastaḥ nakshatra of Śrāvaṇaḥ (lunar) month
-  (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit
-  config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/gen
- eral/lunar_month/nakshatra/05/13/sAmavEda-upAkarma.toml)<br/>- Tags: Commo
- nFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:तैत्तिरीय-उपाकर्म हस्ते
 DTSTART;VALUE=DATE:20230627
 DTEND;VALUE=DATE:20230628
@@ -15506,6 +15489,23 @@ DESCRIPTION:- Indian civil date: 1945-05-02\, Islamic: 1445-01-06 Al-Muḥ
  —14:00-15:35  \n___________________\n- **शूलम्**—प्र
  ाची (►09:29)\; **परिहारः**–दधि  \n__________
  _________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:सामवेद-उपाकर्म
+DTSTART;VALUE=DATE:20230724
+DTEND;VALUE=DATE:20230725
+DESCRIPTION:Observed on Hastaḥ nakshatra of Bhādrapadaḥ (lunar) month
+  (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/gen
+ eral/lunar_month/nakshatra/06/13/sAmavEda-upAkarma.toml)<br/>- Tags: Commo
+ nFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
