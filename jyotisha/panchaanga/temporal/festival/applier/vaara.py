@@ -5,6 +5,7 @@ from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
 from jyotisha.panchaanga.temporal.festival import FestivalInstance
 from jyotisha.panchaanga.temporal.interval import Interval
 from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, AngaType
+from math import ceil
 import logging
 from sanskrit_data.schema import common
 
@@ -90,7 +91,9 @@ class VaraFestivalAssigner(FestivalAssigner):
         if self.daily_panchaangas[d].lunar_month_sunrise.index == 10:
           # Pausha Shukla Ashtami + Budha vasara
           self.panchaanga.add_festival(fest_id='mahAbhadrA~budhASTamI', date=self.daily_panchaangas[d].date)
-        elif self.daily_panchaangas[d].lunar_month_sunrise.index in [1, 5, 6, 7, 8]:
+        elif ceil(self.daily_panchaangas[d].lunar_month_sunrise.index) in [1, 5, 6, 7, 8]:
+          # ceil above takes care of adhika maasas
+          # 5, 6, 7, 8 takes care of श्रावणादिमासचतुष्टये
           # सायाह्नकाले चैत्रमासे श्रावणादिमासचतुष्टये कृष्णपक्षे च न ग्राह्या ॥
           pass
         else:
