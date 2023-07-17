@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230717204345
+SEQUENCE:20230717204851
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -28715,27 +28715,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:बुधाष्टमी
-DTSTART;VALUE=DATE:20230726
-DTEND;VALUE=DATE:20230727
-DESCRIPTION:aṣṭamī tithi on a Wednesday is as sacred as a solar eclip
- se.<br/><br/>अमावस्या तु सोमेन सप्त
- मी भानुना सह।  <br/>चतुर्थी भूम
- िपुत्रेण सोमपुत्रेण चाष्टम
- ी।  <br/>चतस्रस्तिथयस्त्वेताः 
- सूर्यग्रहणसन्निभाः॥<br/><br/><br/><b
- r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
- thi/blob/master/time_focus/tithi-vara-combinations/description_only/budhAS
- TamI.toml)<br/>- Tags: RareDays Combinations
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:सायन-वैधृतिः
 DTSTART;TZID=Asia/Calcutta:20230726T231658
 DTEND;TZID=Asia/Calcutta:20230727T000000
@@ -31929,6 +31908,23 @@ DESCRIPTION:Observed on Śukla-Caturthī tithi of Śrāvaṇaḥ (lunar) m
  h dūrvā grass<br/><br/>## Details<br/>- [Edit config file](https://githu
  b.com/jyotisham/adyatithi/blob/master/devatA/gaNapati/lunar_month/tithi/05
  /04/dUrvA-gaNapati-vratam.toml)<br/>- Tags: SpecialVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:सामवेद-उपाकर्म
+DTSTART;VALUE=DATE:20230820
+DTEND;VALUE=DATE:20230821
+DESCRIPTION:Observed on Hastaḥ nakshatra of Śrāvaṇaḥ (lunar) month
+  (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/gen
+ eral/lunar_month/nakshatra/05/13/sAmavEda-upAkarma.toml)<br/>- Tags: Commo
+ nFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -40194,23 +40190,6 @@ DESCRIPTION:Perform special puja and naivedyam (e.g. tilānnam) to Lord Ve
  nkateshwara.<br/><br/>## Details<br/>- [Edit config file](https://github.c
  om/jyotisham/adyatithi/blob/master/tamil/description_only/puraTTAci~can2ik
  kizhamai.toml)<br/>- Tags: MonthWeekdayFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सामवेद-उपाकर्म
-DTSTART;VALUE=DATE:20231014
-DTEND;VALUE=DATE:20231015
-DESCRIPTION:Observed on Hastaḥ nakshatra of Bhādrapadaḥ (lunar) month
-  (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit
-  config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/gen
- eral/lunar_month/nakshatra/06/13/sAmavEda-upAkarma.toml)<br/>- Tags: Commo
- nFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
