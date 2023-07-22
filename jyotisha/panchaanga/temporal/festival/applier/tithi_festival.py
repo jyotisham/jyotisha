@@ -370,13 +370,13 @@ class TithiFestivalAssigner(FestivalAssigner):
         if self.daily_panchaangas[fday].date.get_weekday() == 1:
           pref = 'sOma-'
         elif self.daily_panchaangas[fday].date.get_weekday() == 0 and is_shukla_paksha:
-          pref = 'ravivAra-zukla'
+          pref = 'ravivAra-zukla-'
         elif self.daily_panchaangas[fday].date.get_weekday() == 2 and is_shukla_paksha:
-          pref = 'bhaumavAra-zukla'
+          pref = 'bhaumavAra-zukla-'
         elif self.daily_panchaangas[fday].date.get_weekday() == 5 and is_shukla_paksha:
-          pref = 'zukravAra-zukla'
+          pref = 'zukravAra-zukla-'
         elif self.daily_panchaangas[fday].date.get_weekday() == 6 and is_shukla_paksha:
-          pref = 'zanivAra-zukla'
+          pref = 'zanivAra-zukla-'
         elif self.daily_panchaangas[fday].date.get_weekday() == 6:
           pref = 'zani-'
         self.panchaanga.add_festival(fest_id=pref + 'pradOSa-vratam', date=self.daily_panchaangas[fday].date, interval_id="pradosha")

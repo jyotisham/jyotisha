@@ -2056,10 +2056,16 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:śanivāra-śuklapradōṣa-vratam
+SUMMARY:śanivāra-śukla-pradōṣa-vratam
 DTSTART;TZID=Asia/Calcutta:20190119T175948
 DTEND;TZID=Asia/Calcutta:20190119T193442
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/zani
+ vAra-zukla-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam<b
+ r/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/j
+ yotisham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_onl
+ y/zanivAra-zukla-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVr
+ atam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -5617,10 +5623,16 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ravivāra-śuklapradōṣa-vratam
+SUMMARY:ravivāra-śukla-pradōṣa-vratam
 DTSTART;TZID=Asia/Calcutta:20190217T181136
 DTEND;TZID=Asia/Calcutta:20190217T194421
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/ravi
+ vAra-zukla-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam<b
+ r/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/j
+ yotisham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_onl
+ y/ravivAra-zukla-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVr
+ atam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -20282,10 +20294,16 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:śukravāra-śuklapradōṣa-vratam
+SUMMARY:śukravāra-śukla-pradōṣa-vratam
 DTSTART;TZID=Asia/Calcutta:20190614T183203
 DTEND;TZID=Asia/Calcutta:20190614T195626
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/zukr
+ avAra-zukla-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam<
+ br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/
+ jyotisham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_on
+ ly/zukravAra-zukla-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosha
+ Vratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -21767,7 +21785,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:cidambarē dhvajārōhaṇam/pañcamūrti rathōtsavaḥ
+SUMMARY:cidambarē dhvajārōhaṇam/pañcamūrti-rathōtsavaḥ
 DTSTART;VALUE=DATE:20190628
 DTEND;VALUE=DATE:20190629
 DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
@@ -21840,7 +21858,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:cidambarē rajata candraprabha vāhanam
+SUMMARY:cidambarē rajata-candraprabha-vāhanam
 DTSTART;VALUE=DATE:20190629
 DTEND;VALUE=DATE:20190630
 DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
@@ -21976,7 +21994,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:cidambarē svarṇa-sūryaprabha vāhanam
+SUMMARY:cidambarē svarṇa-sūryaprabha-vāhanam
 DTSTART;VALUE=DATE:20190630
 DTEND;VALUE=DATE:20190701
 DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
@@ -22079,7 +22097,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:cidambarē rajata bhūta vāhanam
+SUMMARY:cidambarē rajata-bhūta-vāhanam
 DTSTART;VALUE=DATE:20190701
 DTEND;VALUE=DATE:20190702
 DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
@@ -22231,7 +22249,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:cidambarē rajata r̥ṣabha vāhanam
+SUMMARY:cidambarē rajata-r̥ṣabha-vāhanam
 DTSTART;VALUE=DATE:20190702
 DTEND;VALUE=DATE:20190703
 DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
@@ -22583,7 +22601,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:cidambarē kailāsa vāhanam
+SUMMARY:cidambarē kailāsa-vāhanam
 DTSTART;VALUE=DATE:20190704
 DTEND;VALUE=DATE:20190705
 DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
@@ -22690,7 +22708,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:cidambarē bhikṣāṭana svarṇarathaḥ
+SUMMARY:cidambarē bhikṣāṭana-svarṇarathaḥ
 DTSTART;VALUE=DATE:20190705
 DTEND;VALUE=DATE:20190706
 DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
@@ -23859,10 +23877,16 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ravivāra-śuklapradōṣa-vratam
+SUMMARY:ravivāra-śukla-pradōṣa-vratam
 DTSTART;TZID=Asia/Calcutta:20190714T183557
 DTEND;TZID=Asia/Calcutta:20190714T200046
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/ravi
+ vAra-zukla-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam<b
+ r/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/j
+ yotisham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_onl
+ y/ravivAra-zukla-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVr
+ atam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -26454,23 +26478,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/
  master/devatA/misc-fauna/lunar_month/tithi/05/05/nAga-paJcamI.toml)<br/>- 
  Tags: SpecialPuja PuranaEvents
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:sāmavēda-upākarma
-DTSTART;VALUE=DATE:20190805
-DTEND;VALUE=DATE:20190806
-DESCRIPTION:Observed on Hastaḥ nakshatra of Śrāvaṇaḥ (lunar) month
-  (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit
-  config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/gen
- eral/lunar_month/nakshatra/05/13/sAmavEda-upAkarma.toml)<br/>- Tags: Commo
- nFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30395,6 +30402,23 @@ DESCRIPTION:- Indian civil date: 1941-06-11\, Islamic: 1441-01-02 Al-Muḥ
  laḥ**—07:33-09:04\; **Yamaghaṇṭaḥ**—10:36-12:08\; **Gulikakāl
  aḥ**—13:40-15:12  \n___________________\n- **Śūlam**—Prāchī (►
  09:17)\; **Parihāraḥ**–Dadhi  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sāmavēda-upākarma
+DTSTART;VALUE=DATE:20190902
+DTEND;VALUE=DATE:20190903
+DESCRIPTION:Observed on Hastaḥ nakshatra of Bhādrapadaḥ (lunar) month
+  (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/gen
+ eral/lunar_month/nakshatra/06/13/sAmavEda-upAkarma.toml)<br/>- Tags: Commo
+ nFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -35763,10 +35787,16 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:śukravāra-śuklapradōṣa-vratam
+SUMMARY:śukravāra-śukla-pradōṣa-vratam
 DTSTART;TZID=Asia/Calcutta:20191011T174909
 DTEND;TZID=Asia/Calcutta:20191011T192044
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/zukr
+ avAra-zukla-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam<
+ br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/
+ jyotisham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_on
+ ly/zukravAra-zukla-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosha
+ Vratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -39798,10 +39828,16 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:śanivāra-śuklapradōṣa-vratam
+SUMMARY:śanivāra-śukla-pradōṣa-vratam
 DTSTART;TZID=Asia/Calcutta:20191109T173628
 DTEND;TZID=Asia/Calcutta:20191109T191039
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/zani
+ vAra-zukla-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam<b
+ r/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/j
+ yotisham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_onl
+ y/zanivAra-zukla-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVr
+ atam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
