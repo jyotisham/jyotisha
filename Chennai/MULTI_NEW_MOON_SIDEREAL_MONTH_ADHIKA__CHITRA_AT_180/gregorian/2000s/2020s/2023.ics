@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230722123110
+SEQUENCE:20230722125616
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -44707,25 +44707,6 @@ DESCRIPTION:- Indian civil date: 1945-07-20\, Islamic: 1445-03-27 Rabīʿ
  —06:02-07:30\; **गुलिककालः**—08:58-10:27  \n________
  ___________\n- **शूलम्**—दक्षिणा (►13:53)\; **
  परिहारः**–तैलम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:अव्रङ्गज़ेबो महाराष्ट्र
- क-भीत्या पङ्गू-कृतः #३२३
-DTSTART;VALUE=DATE:20231012
-DTEND;VALUE=DATE:20231013
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/10/01/avrangaz
- ebo_mahArAShTraka-bhItyA_pangU-kRtaH.toml)<br/>- Tags: <br/><br/><br/><br/
- >## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatith
- i/blob/master/mahApuruSha/xatra-later/julian/day/10/01/avrangazebo_mahArAS
- hTraka-bhItyA_pangU-kRtaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
