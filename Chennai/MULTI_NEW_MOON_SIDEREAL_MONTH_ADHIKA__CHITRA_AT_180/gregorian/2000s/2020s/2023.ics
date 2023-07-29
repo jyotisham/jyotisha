@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230729112259
+SEQUENCE:20230729112602
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -35341,27 +35341,22 @@ SUMMARY:सर्व-श्रावण-(अधिक) (कर्कट)
  पुष्कला)
 DTSTART;VALUE=DATE:20230815
 DTEND;VALUE=DATE:20230816
-DESCRIPTION:amāvāsyā of adhika śravaṇa month\, which also falls in t
- he sidereal solar month of kaṭaka.<br/><br/>## Details<br/>- [Edit confi
- g file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/mont
- hly/amAvAsyA/description_only/zrAvaNa-%28adhika%29_%28karkaTa%29_amAvAsyA.
- toml)<br/>- Tags: AmavasyaDays<br/><br/><br/><br/>## Details<br/>- [Edit c
- onfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/
- monthly/amAvAsyA/description_only/alabhya-nakSatra-amAvAsyA.toml)<br/>- Ta
- gs: AmavasyaDays<br/><br/><br/><br/>## Details<br/>- References<br/>  - Va
- idyanatha Dikshitiyam<br/>- [Edit config file](https://github.com/jyotisha
- m/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/alabh
- ya-nakSatra-amAvAsyA.toml)<br/>- Tags: AmavasyaDays<br/><br/><br/><br/>It 
- is said in the Smrtis\, that if Amavasya falls on a Monday\, Tuesday or Th
- ursday\, such a tithi is given the appellation puṣkalā and is as sacred
-  as a solar eclipse.<br/><br/>स्मृत्यन्तरे---  <br
- />अमा सोमेन भौमेन गुरुणा वा य
- ुता यदि।  <br/>सा तिथिः पुष्कला 
- नाम सूर्यग्रहणसन्निभा॥<br/><br/>
- <br/><br/>## Details<br/>- References<br/>  - Vaidyanatha Dikshitiyam<br/>
- - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/ti
- me_focus/monthly/amAvAsyA/description_only/puSkalA-amAvAsyA.toml)<br/>- Ta
- gs: AmavasyaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/alab
+ hya-nakSatra-amAvAsyA.toml)<br/>- Tags: AmavasyaDays<br/><br/><br/><br/>##
+  Details<br/>- References<br/>  - Vaidyanatha Dikshitiyam<br/>- [Edit conf
+ ig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/mon
+ thly/amAvAsyA/description_only/alabhya-nakSatra-amAvAsyA.toml)<br/>- Tags:
+  AmavasyaDays<br/><br/><br/><br/>It is said in the Smrtis\, that if Amavas
+ ya falls on a Monday\, Tuesday or Thursday\, such a tithi is given the app
+ ellation puṣkalā and is as sacred as a solar eclipse.<br/><br/>स्
+ मृत्यन्तरे---  <br/>अमा सोमेन भौ
+ मेन गुरुणा वा युता यदि।  <br/>सा
+  तिथिः पुष्कला नाम सूर्यग्र
+ हणसन्निभा॥<br/><br/><br/><br/>## Details<br/>- Referen
+ ces<br/>  - Vaidyanatha Dikshitiyam<br/>- [Edit config file](https://githu
+ b.com/jyotisham/adyatithi/blob/master/time_focus/monthly/amAvAsyA/descript
+ ion_only/puSkalA-amAvAsyA.toml)<br/>- Tags: AmavasyaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
