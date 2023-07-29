@@ -33,12 +33,12 @@ def get_chandra_masa(month, script, visarga=True):
     if month == int(month):
       return NAMES["CHANDRA_MASA_NAMES"]["sa"][script][int(month)]
     else:
-      return "%s-(%s)" % (NAMES["CHANDRA_MASA_NAMES"]["sa"][script][int(month) + 1], tr("adhikaH", script, titled=False))
+      return "%s-%s" % (tr("adhika", script, titled=False), NAMES["CHANDRA_MASA_NAMES"]["sa"][script][int(month) + 1])
   else:
     if month == int(month):
       return NAMES["CHANDRA_MASA_NAMES"]["sa"][script][int(month)][:-1]
     else:
-      return "%s-(%s)" % (NAMES["CHANDRA_MASA_NAMES"]["sa"][script][int(month) + 1][:-1], tr("adhika", script, titled=False))
+      return "%s-%s" % (tr("adhika", script, titled=False), NAMES["CHANDRA_MASA_NAMES"]["sa"][script][int(month) + 1][:-1])
 
 
 def get_month_name_en(month_number, month_type, script=sanscript.ISO):
