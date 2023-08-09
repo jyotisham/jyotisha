@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230809065329
+SEQUENCE:20230809065946
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -34214,26 +34214,6 @@ DESCRIPTION:- Indian civil date: 1945-05-17\, Islamic: 1445-01-21 Al-Muḥ
  —12:14-13:48  \n___________________\n- **शूलम्**—उदी
  ची (►10:59)\; **परिहारः**–क्षीरम्  \n_
  __________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:चॆन्नै-नगरे स्वयं-सेवक-ह
- त्या #३०
-DTSTART;VALUE=DATE:20230808
-DTEND;VALUE=DATE:20230809
-DESCRIPTION:Event occured on 1993-08-08 (gregorian). <br/><br/>8.8.1993 - 
- 11 RSS Swayamsevaks were brutally killed in a jihadi bomb-blast at Chennai
-  RSS Office (5/11 were RSS pracharaks). 25 years later in 2018\, the main 
- accused Mushtaq Ahmed was arrested by CBI. Conviction still pending as of 
- 2023.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
- isham/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/08/08/ch
- ennai-nagare_svayaM-sevaka-hatyA.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
