@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230809113418
+SEQUENCE:20230809120700
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -31096,24 +31096,6 @@ DESCRIPTION:Observed on Amāvāsyā tithi of every (lunar) month (Āśvina
  ḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit config file](h
  ttps://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_m
  onth/tithi/00/30/pancha-parva-1.toml)<br/>- Tags: Pancha Parva
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:पिण्ड-पितृ-यज्ञः
-DTSTART;VALUE=DATE:20230815
-DTEND;VALUE=DATE:20230816
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/devatA/pitR/lunar_month/tithi/00/30/piNDa-pitR-ya
- jJaH.toml)<br/>- Tags: ShraddhaDays<br/><br/><br/><br/>## Details<br/>- [E
- dit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA
- /pitR/lunar_month/tithi/00/30/piNDa-pitR-yajJaH.toml)<br/>- Tags: Shraddha
- Days
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
