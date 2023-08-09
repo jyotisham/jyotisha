@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230809113216
+SEQUENCE:20230809113418
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -44121,24 +44121,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कामाक्षी-जयन्ती
+SUMMARY:कामाक्षी-आविर्भावः
 DTSTART;VALUE=DATE:20231108
 DTEND;VALUE=DATE:20231109
 DESCRIPTION:Observed on Pūrvaphalgunī nakshatra of Tulā (sidereal solar
- ) month (Prātaḥ/paraviddha). <br/><br/>कान्ता काम-द
- ुघा करीन्द्र-गमना कामारि-वा
- माङ्क-गा  <br/>कल्याणी कलितावत
- ार-सुभगा कस्तूरिका-चर्चिता
- ।  <br/>कम्पा-तीर-रसाल-मूल-निलया
-  कारुण्य-कल्लोलिनी  <br/>कल्या
- णानि करोतु मे भगवती काञ्ची-प
- ुरी-देवता॥  <br/>जय जय जगदम्ब शि
- वे  <br/>जय जय कामाक्षि जय जयाद्
- रिसुते।  <br/>जय जय महेशदयिते  <br
- />जय जय चिद्गगनकौमुदीधारे॥<br/
- ><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyo
- tisham/adyatithi/blob/master/devatA/shakti/sidereal_solar_month/nakshatra/
- 07/11/kAmAkSI-jayantI.toml)<br/>- Tags: CommonFestivals
+ ) month (Sāṅgavaḥ/paraviddha). <br/><br/>कान्ता काम
+ -दुघा करीन्द्र-गमना कामारि-व
+ ामाङ्क-गा  <br/>कल्याणी कलिताव
+ तार-सुभगा कस्तूरिका-चर्चित
+ ा।  <br/>कम्पा-तीर-रसाल-मूल-निलय
+ ा कारुण्य-कल्लोलिनी  <br/>कल्य
+ ाणानि करोतु मे भगवती काञ्ची-
+ पुरी-देवता॥  <br/>जय जय जगदम्ब श
+ िवे  <br/>जय जय कामाक्षि जय जयाद
+ ्रिसुते।  <br/>जय जय महेशदयिते  
+ <br/>जय जय चिद्गगनकौमुदीधारे॥<
+ br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/
+ jyotisham/adyatithi/blob/master/devatA/shakti/sidereal_solar_month/nakshat
+ ra/07/11/kAmAkSI-AvirbhAvaH.toml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -46018,27 +46018,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पद्मक-योगः
-DTSTART;VALUE=DATE:20231119
-DTEND;VALUE=DATE:20231120
-DESCRIPTION:A very special yōga\, when Shashti and Saptami conjoin on a S
- unday\, bestowing the merit of a crore solar eclipses.<br/><br/>षष्
- ठी च सप्तमी चैव वारश्चेदंशु
- मालिनः।  <br/>योगोऽयं पद्मको न
- ाम सूर्यकोटिग्रहैः समः॥ (नि
- र्णयसिन्धौ पृ २४)<br/><br/><br/><br/>## Detail
- s<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mas
- ter/time_focus/special-tithis/description_only/padmaka-yOgaH-2.toml)<br/>-
-  Tags: RareDays Combinations
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:फोण्ड-दुर्ग-रक्षणम् #३४०
 DTSTART;VALUE=DATE:20231119
 DTEND;VALUE=DATE:20231120
@@ -46047,24 +46026,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  urga-raxaNam.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit 
  config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSh
  a/xatra-later/julian/day/11/09/phoNDa-durga-raxaNam.toml)<br/>- Tags:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सावित्र-कल्पादिः
-DTSTART;VALUE=DATE:20231119
-DTEND;VALUE=DATE:20231120
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tithi/08/07/sAvitr
- a-kalpAdiH.toml)<br/>- Tags: KalpadiDays<br/><br/><br/><br/>## Details<br/
- >- References<br/>  - Smriti Kaustubham p.87--88<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/blob/master/time_focus/yugAdiH/luna
- r_month/tithi/08/07/sAvitra-kalpAdiH.toml)<br/>- Tags: KalpadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -48577,6 +48538,24 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  r/>- References<br/>  - Skanda Puranam<br/>- [Edit config file](https://gi
  thub.com/jyotisham/adyatithi/blob/master/devatA/shaiva/description_only/kA
  rttikA~sOmavAsaraH.toml)<br/>- Tags: MonthWeekdayFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:सावित्री-कल्पादिः
+DTSTART;VALUE=DATE:20231204
+DTEND;VALUE=DATE:20231205
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tithi/08/22/sAvitr
+ I-kalpAdiH.toml)<br/>- Tags: KalpadiDays<br/><br/><br/><br/>## Details<br/
+ >- References<br/>  - Smriti Kaustubham p.87--88<br/>- [Edit config file](
+ https://github.com/jyotisham/adyatithi/blob/master/time_focus/yugAdiH/luna
+ r_month/tithi/08/22/sAvitrI-kalpAdiH.toml)<br/>- Tags: KalpadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
