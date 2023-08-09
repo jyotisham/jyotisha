@@ -506,7 +506,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- कमला-जयन्ती, काञ्ची १४ जगद्गुरु श्री-विद्याघनेन्द्र सरस्वती आराधना #१७०२, काञ्ची ३४ जगद्गुरु श्री-चन्द्रशेखरेन्द्र सरस्वती २ आराधना #१३०९, पञ्च-पर्व-पूजा (अमावास्या), पार्वणव्रतम् अमावास्यायाम्, पिण्ड-पितृ-यज्ञः, श्री-हनूमत्-जयन्ती, सर्व-मार्गशीर्ष-अमावास्या
+- कमला-जयन्ती, काञ्ची १४ जगद्गुरु श्री-विद्याघनेन्द्र सरस्वती आराधना #१७०२, काञ्ची ३४ जगद्गुरु श्री-चन्द्रशेखरेन्द्र सरस्वती २ आराधना #१३०९, पञ्च-पर्व-पूजा (अमावास्या), पार्वणव्रतम् अमावास्यायाम्, श्री-हनूमत्-जयन्ती, सर्व-मार्गशीर्ष-अमावास्या
 ##### काञ्ची १४ जगद्गुरु श्री-विद्याघनेन्द्र सरस्वती आराधना #१७०२
 
 Observed on Amāvāsyā tithi of Mārgaśīrṣaḥ (lunar) month (Aparāhṇaḥ/vyaapti). The event occurred in 3418 (Kali era).  
@@ -598,17 +598,6 @@ Observed on Amāvāsyā tithi of every (lunar) month (Āśvinaḥ/paraviddha).
 - Tags: Pancha Parva
 
 
-##### पिण्ड-पितृ-यज्ञः
-
-
-
-Pinda Pitru Yajnam is a śrāddham to be done to two sets of Pitru Devatas. It is to be done in one's Agnihotra Agni or if that is not present then Aupasana Agni. Rice is cooked in a section of the Agni moved to the south-east. From this, even those whose father is living, give āhuti to the Deva Pitru-s ie sōma, yama and agni kavyavāhana. Those whose father is not living should additionally give piṇḍas to the Manushya Pitru-s also to whom amāvāsyā-śrāddham is also performed.
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.toml)
-- Tags: ShraddhaDays
-
-
 ##### सर्व-मार्गशीर्ष-अमावास्या
 
 
@@ -689,7 +678,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- चाक्किय नायऩार् (३३) गुरुपूजै, दर्श-स्थालीपाकः, दर्शेष्टिः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्
+- चाक्किय नायऩार् (३३) गुरुपूजै, दर्श-स्थालीपाकः, दर्शेष्टिः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, पिण्ड-पितृ-यज्ञः
 ##### चाक्किय नायऩार् (३३) गुरुपूजै
 
 Observed on Pūrvāṣāḍhā nakshatra of Dhanuḥ (sidereal solar) month (Prātaḥ/paraviddha). 
@@ -721,6 +710,17 @@ Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurv
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)
 - Tags: MonthlyFestivals
+
+
+##### पिण्ड-पितृ-यज्ञः
+
+Observed on Amāvāsyā tithi of every (lunar) month (Sūryōdayaḥ/paraviddha). 
+
+Pinda Pitru Yajnam is a śrāddham to be done to two sets of Pitru Devatas. It is to be done in one's Agnihotra Agni or if that is not present then Aupasana Agni. Rice is cooked in a section of the Agni moved to the south-east. From this, even those whose father is living, give āhuti to the Deva Pitru-s ie sōma, yama and agni kavyavāhana. Those whose father is not living should additionally give piṇḍas to the Manushya Pitru-s also to whom amāvāsyā-śrāddham is also performed.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/lunar_month/tithi/00/30/piNDa-pitR-yajJaH.toml)
+- Tags: ShraddhaDays
 
 
 ##### दर्श-स्थालीपाकः
@@ -3592,12 +3592,12 @@ Observed on Amāvāsyā tithi of every (lunar) month (Āśvinaḥ/paraviddha).
 
 ##### पिण्ड-पितृ-यज्ञः
 
-
+Observed on Amāvāsyā tithi of every (lunar) month (Sūryōdayaḥ/paraviddha). 
 
 Pinda Pitru Yajnam is a śrāddham to be done to two sets of Pitru Devatas. It is to be done in one's Agnihotra Agni or if that is not present then Aupasana Agni. Rice is cooked in a section of the Agni moved to the south-east. From this, even those whose father is living, give āhuti to the Deva Pitru-s ie sōma, yama and agni kavyavāhana. Those whose father is not living should additionally give piṇḍas to the Manushya Pitru-s also to whom amāvāsyā-śrāddham is also performed.
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/lunar_month/tithi/00/30/piNDa-pitR-yajJaH.toml)
 - Tags: ShraddhaDays
 
 
@@ -7120,12 +7120,12 @@ Observed on Amāvāsyā tithi of every (lunar) month (Āśvinaḥ/paraviddha).
 
 ##### पिण्ड-पितृ-यज्ञः
 
-
+Observed on Amāvāsyā tithi of every (lunar) month (Sūryōdayaḥ/paraviddha). 
 
 Pinda Pitru Yajnam is a śrāddham to be done to two sets of Pitru Devatas. It is to be done in one's Agnihotra Agni or if that is not present then Aupasana Agni. Rice is cooked in a section of the Agni moved to the south-east. From this, even those whose father is living, give āhuti to the Deva Pitru-s ie sōma, yama and agni kavyavāhana. Those whose father is not living should additionally give piṇḍas to the Manushya Pitru-s also to whom amāvāsyā-śrāddham is also performed.
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/lunar_month/tithi/00/30/piNDa-pitR-yajJaH.toml)
 - Tags: ShraddhaDays
 
 
@@ -10048,7 +10048,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- काञ्ची ६५ जगद्गुरु श्री-सुदर्शन महादेवेन्द्र सरस्वती आराधना #१२९, पञ्च-पर्व-पूजा (अमावास्या), पिण्ड-पितृ-यज्ञः, मन्वादिः-(रैवतः-[५]), सर्व-फाल्गुन-अमावास्या (अलभ्यम्–पुष्कला)
+- काञ्ची ६५ जगद्गुरु श्री-सुदर्शन महादेवेन्द्र सरस्वती आराधना #१२९, पञ्च-पर्व-पूजा (अमावास्या), मन्वादिः-(रैवतः-[५]), सर्व-फाल्गुन-अमावास्या (अलभ्यम्–पुष्कला)
 ##### काञ्ची ६५ जगद्गुरु श्री-सुदर्शन महादेवेन्द्र सरस्वती आराधना #१२९
 
 Observed on Amāvāsyā tithi of Phālgunaḥ (lunar) month (Aparāhṇaḥ/vyaapti). The event occurred in 4991 (Kali era).  
@@ -10095,17 +10095,6 @@ Observed on Amāvāsyā tithi of every (lunar) month (Āśvinaḥ/paraviddha).
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/tithi/00/30/pancha-parva-1.toml)
 - Tags: Pancha Parva
-
-
-##### पिण्ड-पितृ-यज्ञः
-
-
-
-Pinda Pitru Yajnam is a śrāddham to be done to two sets of Pitru Devatas. It is to be done in one's Agnihotra Agni or if that is not present then Aupasana Agni. Rice is cooked in a section of the Agni moved to the south-east. From this, even those whose father is living, give āhuti to the Deva Pitru-s ie sōma, yama and agni kavyavāhana. Those whose father is not living should additionally give piṇḍas to the Manushya Pitru-s also to whom amāvāsyā-śrāddham is also performed.
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.toml)
-- Tags: ShraddhaDays
 
 
 ##### सर्व-फाल्गुन-अमावास्या (अलभ्यम्–पुष्कला)
@@ -10190,7 +10179,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- पार्वणव्रतम् अमावास्यायाम्, बोधायन-कात्यायन-इष्टिः, भृगुरेवती-योगः
+- पार्वणव्रतम् अमावास्यायाम्, पिण्ड-पितृ-यज्ञः, बोधायन-कात्यायन-इष्टिः, भृगुरेवती-योगः
 ##### बोधायन-कात्यायन-इष्टिः
 
 
@@ -10238,6 +10227,17 @@ pārvaṇavratam on the eve of darśa-sthālīpākaḥ.
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-vratam_30.toml)
 - Tags: 
+
+
+##### पिण्ड-पितृ-यज्ञः
+
+Observed on Amāvāsyā tithi of every (lunar) month (Sūryōdayaḥ/paraviddha). 
+
+Pinda Pitru Yajnam is a śrāddham to be done to two sets of Pitru Devatas. It is to be done in one's Agnihotra Agni or if that is not present then Aupasana Agni. Rice is cooked in a section of the Agni moved to the south-east. From this, even those whose father is living, give āhuti to the Deva Pitru-s ie sōma, yama and agni kavyavāhana. Those whose father is not living should additionally give piṇḍas to the Manushya Pitru-s also to whom amāvāsyā-śrāddham is also performed.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/lunar_month/tithi/00/30/piNDa-pitR-yajJaH.toml)
+- Tags: ShraddhaDays
 
 
 
@@ -13848,12 +13848,12 @@ Observed on Amāvāsyā tithi of every (lunar) month (Āśvinaḥ/paraviddha).
 
 ##### पिण्ड-पितृ-यज्ञः
 
-
+Observed on Amāvāsyā tithi of every (lunar) month (Sūryōdayaḥ/paraviddha). 
 
 Pinda Pitru Yajnam is a śrāddham to be done to two sets of Pitru Devatas. It is to be done in one's Agnihotra Agni or if that is not present then Aupasana Agni. Rice is cooked in a section of the Agni moved to the south-east. From this, even those whose father is living, give āhuti to the Deva Pitru-s ie sōma, yama and agni kavyavāhana. Those whose father is not living should additionally give piṇḍas to the Manushya Pitru-s also to whom amāvāsyā-śrāddham is also performed.
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/lunar_month/tithi/00/30/piNDa-pitR-yajJaH.toml)
 - Tags: ShraddhaDays
 
 
@@ -15577,7 +15577,7 @@ Son of Kamaleśvara Śrīpati, having received the initiation from Śaṅkara, t
 
 ##### नृसिंह-जयन्ती
 
-Observed on Śukla-Caturdaśī tithi of Vaiśākhaḥ (lunar) month (Sūryāstamayaḥ/puurvaviddha). 
+Observed on Śukla-Caturdaśī tithi of Vaiśākhaḥ (lunar) month (Sūryāstamayaḥ/paraviddha). 
 
 Monday Swati?
 
@@ -17069,8 +17069,8 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अग्निनक्षत्र-समापनम्, आयुष्मद्-बव-सौम्य-संयॊगः, श्री-हनूमत्-जयन्ती (आन्ध्र-सम्प्रदायः)
-##### आयुष्मद्-बव-सौम्य-संयॊगः
+- अग्निनक्षत्र-समापनम्, आयुष्मद्-बव-सौम्य-संयोगः, श्री-हनूमत्-जयन्ती (आन्ध्र-सम्प्रदायः)
+##### आयुष्मद्-बव-सौम्य-संयोगः
 
 
 
@@ -17584,12 +17584,12 @@ pārvaṇavratam on the eve of darśa-sthālīpākaḥ.
 
 ##### पिण्ड-पितृ-यज्ञः
 
-
+Observed on Amāvāsyā tithi of every (lunar) month (Sūryōdayaḥ/paraviddha). 
 
 Pinda Pitru Yajnam is a śrāddham to be done to two sets of Pitru Devatas. It is to be done in one's Agnihotra Agni or if that is not present then Aupasana Agni. Rice is cooked in a section of the Agni moved to the south-east. From this, even those whose father is living, give āhuti to the Deva Pitru-s ie sōma, yama and agni kavyavāhana. Those whose father is not living should additionally give piṇḍas to the Manushya Pitru-s also to whom amāvāsyā-śrāddham is also performed.
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/lunar_month/tithi/00/30/piNDa-pitR-yajJaH.toml)
 - Tags: ShraddhaDays
 
 
@@ -17991,7 +17991,7 @@ ___________________
 - रम्भा-तृतीया, शुक्ल-चतुर्थी-व्रतम्
 ##### रम्भा-तृतीया
 
-Observed on Śukla-Tr̥tīyā tithi of Jyaiṣṭhaḥ (lunar) month (Prātaḥ/paraviddha). 
+Observed on Śukla-Tr̥tīyā tithi of Jyaiṣṭhaḥ (lunar) month (Prātaḥ/puurvaviddha). 
 
 Rambha Vratam; perform Savitri pooja near Banana tree. Offer naivedyam of bananas prepared with ghee.
 
@@ -18002,7 +18002,10 @@ Rambha Vratam; perform Savitri pooja near Banana tree. Offer naivedyam of banana
 त्वं शक्स्तिस्त्वं स्वधा स्वाहा त्वं सावित्री सरस्वती।  
 पतिं देहि सुतान्देहि गृहं देवि नमोऽस्तु ते॥  
 योषितः पुरुषो वाऽपि ख्यातं रम्भाव्रतं भुवि।  
-भार्यां पुत्रं गृहं भोगान् कुलवृद्धिमवाप्नुयुः॥
+भार्यां पुत्रं गृहं भोगान् कुलवृद्धिमवाप्नुयुः॥  
+-स्मृति-कौस्तुभः  
+सा पूर्वविद्धा ग्राह्या।  
+---
 
 
 
@@ -20820,12 +20823,12 @@ Observed on Amāvāsyā tithi of every (lunar) month (Āśvinaḥ/paraviddha).
 
 ##### पिण्ड-पितृ-यज्ञः
 
-
+Observed on Amāvāsyā tithi of every (lunar) month (Sūryōdayaḥ/paraviddha). 
 
 Pinda Pitru Yajnam is a śrāddham to be done to two sets of Pitru Devatas. It is to be done in one's Agnihotra Agni or if that is not present then Aupasana Agni. Rice is cooked in a section of the Agni moved to the south-east. From this, even those whose father is living, give āhuti to the Deva Pitru-s ie sōma, yama and agni kavyavāhana. Those whose father is not living should additionally give piṇḍas to the Manushya Pitru-s also to whom amāvāsyā-śrāddham is also performed.
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/lunar_month/tithi/00/30/piNDa-pitR-yajJaH.toml)
 - Tags: ShraddhaDays
 
 
@@ -24024,7 +24027,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- काञ्ची ३८ जगद्गुरु श्री-अभिनवशङ्करेन्द्र सरस्वती आराधना #११८०, काञ्ची ४६ जगद्गुरु श्री-सान्द्रानन्दबोधेन्द्र सरस्वती आराधना #९२२, पञ्च-पर्व-पूजा (अमावास्या), पार्वणव्रतम् अमावास्यायाम्, पिण्ड-पितृ-यज्ञः, सर्व-आषाढ (कर्कट) अमावास्या (अलभ्यम्–पुनर्वसुः)
+- काञ्ची ३८ जगद्गुरु श्री-अभिनवशङ्करेन्द्र सरस्वती आराधना #११८०, काञ्ची ४६ जगद्गुरु श्री-सान्द्रानन्दबोधेन्द्र सरस्वती आराधना #९२२, पञ्च-पर्व-पूजा (अमावास्या), पार्वणव्रतम् अमावास्यायाम्, सर्व-आषाढ (कर्कट) अमावास्या (अलभ्यम्–पुनर्वसुः)
 ##### काञ्ची ३८ जगद्गुरु श्री-अभिनवशङ्करेन्द्र सरस्वती आराधना #११८०
 
 Observed on Amāvāsyā tithi of Āṣāḍhaḥ (lunar) month (Aparāhṇaḥ/vyaapti). The event occurred in 3941 (Kali era).  
@@ -24117,17 +24120,6 @@ Observed on Amāvāsyā tithi of every (lunar) month (Āśvinaḥ/paraviddha).
 - Tags: Pancha Parva
 
 
-##### पिण्ड-पितृ-यज्ञः
-
-
-
-Pinda Pitru Yajnam is a śrāddham to be done to two sets of Pitru Devatas. It is to be done in one's Agnihotra Agni or if that is not present then Aupasana Agni. Rice is cooked in a section of the Agni moved to the south-east. From this, even those whose father is living, give āhuti to the Deva Pitru-s ie sōma, yama and agni kavyavāhana. Those whose father is not living should additionally give piṇḍas to the Manushya Pitru-s also to whom amāvāsyā-śrāddham is also performed.
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.toml)
-- Tags: ShraddhaDays
-
-
 ##### सर्व-आषाढ (कर्कट) अमावास्या (अलभ्यम्–पुनर्वसुः)
 
 
@@ -24216,7 +24208,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- आषाढ-स्नानपूर्तिः, काञ्ची ४१ जगद्गुरु श्री-गङ्गाधरेन्द्र सरस्वती २ आराधना #१०७०, गुरुपुष्य-योगः, दर्श-स्थालीपाकः, दर्शेष्टिः, दीप-पूजा, पति-सञ्जीवनी-व्रतम्, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, व्यतीपात-श्राद्धम्
+- आषाढ-स्नानपूर्तिः, काञ्ची ४१ जगद्गुरु श्री-गङ्गाधरेन्द्र सरस्वती २ आराधना #१०७०, गुरुपुष्य-योगः, दर्श-स्थालीपाकः, दर्शेष्टिः, दीप-पूजा, पति-सञ्जीवनी-व्रतम्, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, पिण्ड-पितृ-यज्ञः, व्यतीपात-श्राद्धम्
 ##### आषाढ-स्नानपूर्तिः
 
 Observed on Amāvāsyā tithi of Āṣāḍhaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -24312,6 +24304,17 @@ Observed on Amāvāsyā tithi of Āṣāḍhaḥ (lunar) month (Sūryōdayaḥ/p
   - Skanda Puranam
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/04/30/pati-saJjIvanI-vratam.toml)
 - Tags: SpecialVratam
+
+
+##### पिण्ड-पितृ-यज्ञः
+
+Observed on Amāvāsyā tithi of every (lunar) month (Sūryōdayaḥ/paraviddha). 
+
+Pinda Pitru Yajnam is a śrāddham to be done to two sets of Pitru Devatas. It is to be done in one's Agnihotra Agni or if that is not present then Aupasana Agni. Rice is cooked in a section of the Agni moved to the south-east. From this, even those whose father is living, give āhuti to the Deva Pitru-s ie sōma, yama and agni kavyavāhana. Those whose father is not living should additionally give piṇḍas to the Manushya Pitru-s also to whom amāvāsyā-śrāddham is also performed.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/lunar_month/tithi/00/30/piNDa-pitR-yajJaH.toml)
+- Tags: ShraddhaDays
 
 
 ##### दर्श-स्थालीपाकः
@@ -27770,12 +27773,12 @@ pārvaṇavratam on the eve of darśa-sthālīpākaḥ.
 
 ##### पिण्ड-पितृ-यज्ञः
 
-
+Observed on Amāvāsyā tithi of every (lunar) month (Sūryōdayaḥ/paraviddha). 
 
 Pinda Pitru Yajnam is a śrāddham to be done to two sets of Pitru Devatas. It is to be done in one's Agnihotra Agni or if that is not present then Aupasana Agni. Rice is cooked in a section of the Agni moved to the south-east. From this, even those whose father is living, give āhuti to the Deva Pitru-s ie sōma, yama and agni kavyavāhana. Those whose father is not living should additionally give piṇḍas to the Manushya Pitru-s also to whom amāvāsyā-śrāddham is also performed.
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/lunar_month/tithi/00/30/piNDa-pitR-yajJaH.toml)
 - Tags: ShraddhaDays
 
 
@@ -31485,12 +31488,12 @@ Observed on Amāvāsyā tithi of every (lunar) month (Āśvinaḥ/paraviddha).
 
 ##### पिण्ड-पितृ-यज्ञः
 
-
+Observed on Amāvāsyā tithi of every (lunar) month (Sūryōdayaḥ/paraviddha). 
 
 Pinda Pitru Yajnam is a śrāddham to be done to two sets of Pitru Devatas. It is to be done in one's Agnihotra Agni or if that is not present then Aupasana Agni. Rice is cooked in a section of the Agni moved to the south-east. From this, even those whose father is living, give āhuti to the Deva Pitru-s ie sōma, yama and agni kavyavāhana. Those whose father is not living should additionally give piṇḍas to the Manushya Pitru-s also to whom amāvāsyā-śrāddham is also performed.
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/lunar_month/tithi/00/30/piNDa-pitR-yajJaH.toml)
 - Tags: ShraddhaDays
 
 
@@ -34344,7 +34347,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- कालाष्टमी, जीमूतवाहन-पूजा, जीवपुत्रिकाष्टमी, पञ्च-पर्व-पूजा (अष्टमी), मङ्गल-व्रतम्, महालक्ष्मी-व्रतम्
+- जीमूतवाहन-पूजा, जीवपुत्रिकाष्टमी, पञ्च-पर्व-पूजा (अष्टमी), मङ्गल-व्रतम्, महालक्ष्मी-व्रतम्
 ##### जीमूतवाहन-पूजा
 
 Observed on Kr̥ṣṇa-Aṣṭamī tithi of Āśvayujaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -34368,19 +34371,6 @@ Observed on Kr̥ṣṇa-Aṣṭamī tithi of Āśvayujaḥ (lunar) month (Sūry�
 - References
   - Krutyasaara samucchayam
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/07/23/jIvaputrikASTamI.toml)
-- Tags: LessCommonFestivals
-
-
-##### कालाष्टमी
-
-Observed on Kr̥ṣṇa-Aṣṭamī tithi of Āśvayujaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
-
-
-
-###### Details
-- References
-  - Aamaar Jyotishi
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/07/23/kAlASTamI.toml)
 - Tags: LessCommonFestivals
 
 
@@ -34711,7 +34701,7 @@ The Krishna-paksha Ekadashi of āśvayuja month is known as ramā-ēkādaśī.
 
 
 
-Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (ādi puṣkaram) and at the end of the year (preceding transition to the next rāśī, antya puṣkaram), and for two muhurtas during mid-day, every day, during the entire year.
+Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (ādya puṣkaram) and at the end of the year (preceding transition to the next rāśī, antya puṣkaram), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to vr̥śchika rāśī, puṣkararāja resides in tāmraparṇī river.
 
 यदा राशि-प्रवेशः स्यात्तदा प्रभृति सर्वदा।  
@@ -34793,7 +34783,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- कामाक्षी-जयन्ती, गोवत्स-द्वादशी, चत्ति नायऩार् (४४) गुरुपूजै, धन्वन्तरि-जयन्ती, प्रदोष-व्रतम्, वसुदेव-पूजा, व्याघ्र-द्वादशी
+- कामाक्षी-आविर्भावः, गोवत्स-द्वादशी, चत्ति नायऩार् (४४) गुरुपूजै, धन्वन्तरि-जयन्ती, प्रदोष-व्रतम्, वसुदेव-पूजा, व्याघ्र-द्वादशी
 ##### चत्ति नायऩार् (४४) गुरुपूजै
 
 Observed on Pūrvaphalgunī nakshatra of Tulā (sidereal solar) month (Prātaḥ/paraviddha). 
@@ -34835,9 +34825,9 @@ Avoid cow's milk, ghee, curd and buttermilk on this day. Give grass to cows and 
 - Tags: SpecialVratam CommonFestivals
 
 
-##### कामाक्षी-जयन्ती
+##### कामाक्षी-आविर्भावः
 
-Observed on Pūrvaphalgunī nakshatra of Tulā (sidereal solar) month (Prātaḥ/paraviddha). 
+Observed on Pūrvaphalgunī nakshatra of Tulā (sidereal solar) month (Sāṅgavaḥ/paraviddha). 
 
 कान्ता काम-दुघा करीन्द्र-गमना कामारि-वामाङ्क-गा  
 कल्याणी कलितावतार-सुभगा कस्तूरिका-चर्चिता।  
@@ -34851,7 +34841,7 @@ Observed on Pūrvaphalgunī nakshatra of Tulā (sidereal solar) month (Prātaḥ
 
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/shakti/sidereal_solar_month/nakshatra/07/11/kAmAkSI-jayantI.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/shakti/sidereal_solar_month/nakshatra/07/11/kAmAkSI-AvirbhAvaH.toml)
 - Tags: CommonFestivals
 
 
@@ -35100,7 +35090,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- दीपावली/लक्ष्मी-कुबेर-पूजा, दीपोत्सव-चतुर्दशी/यम-तर्पणम्, नरक-चतुर्दशी, पञ्च-पर्व-पूजा (अमावास्या), पार्वणव्रतम् अमावास्यायाम्, पिण्ड-पितृ-यज्ञः, प्रेत-चतुर्दशी, शृङ्गेरी ३५ जगद्गुरु श्री-अभिनव विद्यातीर्थ महास्वामी जयन्ती, सप्तम-अपरपक्ष-समापनम्, सर्व-आश्वयुज-अमावास्या
+- दीपावली/लक्ष्मी-कुबेर-पूजा, दीपोत्सव-चतुर्दशी/यम-तर्पणम्, नरक-चतुर्दशी, पञ्च-पर्व-पूजा (अमावास्या), पार्वणव्रतम् अमावास्यायाम्, प्रेत-चतुर्दशी, शृङ्गेरी ३५ जगद्गुरु श्री-अभिनव विद्यातीर्थ महास्वामी जयन्ती, सप्तम-अपरपक्ष-समापनम्, सर्व-आश्वयुज-अमावास्या
 ##### दीपावली/लक्ष्मी-कुबेर-पूजा
 
 Observed on Amāvāsyā tithi of Āśvayujaḥ (lunar) month (Pradōṣaḥ/puurvaviddha). 
@@ -35205,17 +35195,6 @@ Observed on Amāvāsyā tithi of every (lunar) month (Āśvinaḥ/paraviddha).
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/tithi/00/30/pancha-parva-1.toml)
 - Tags: Pancha Parva
-
-
-##### पिण्ड-पितृ-यज्ञः
-
-
-
-Pinda Pitru Yajnam is a śrāddham to be done to two sets of Pitru Devatas. It is to be done in one's Agnihotra Agni or if that is not present then Aupasana Agni. Rice is cooked in a section of the Agni moved to the south-east. From this, even those whose father is living, give āhuti to the Deva Pitru-s ie sōma, yama and agni kavyavāhana. Those whose father is not living should additionally give piṇḍas to the Manushya Pitru-s also to whom amāvāsyā-śrāddham is also performed.
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.toml)
-- Tags: ShraddhaDays
 
 
 ##### प्रेत-चतुर्दशी
@@ -35341,7 +35320,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- आग्रयण-होमः द्राविडेषु, केदार-गौरी-व्रतम्, गोवर्धन-पूजा, दर्श-स्थालीपाकः, दर्शेष्टिः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, विक्रमादित्य-पट्टाभिषेकः, श्रीराम-पट्टाभिषेकः, सोमवती अमावास्या
+- आग्रयण-होमः द्राविडेषु, केदार-गौरी-व्रतम्, गोवर्धन-पूजा, दर्श-स्थालीपाकः, दर्शेष्टिः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, पिण्ड-पितृ-यज्ञः, विक्रमादित्य-पट्टाभिषेकः, श्रीराम-पट्टाभिषेकः, सोमवती अमावास्या
 ##### आग्रयण-होमः द्राविडेषु
 
 Observed on Amāvāsyā tithi of Tulā (sidereal solar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -35411,6 +35390,17 @@ Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurv
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)
 - Tags: MonthlyFestivals
+
+
+##### पिण्ड-पितृ-यज्ञः
+
+Observed on Amāvāsyā tithi of every (lunar) month (Sūryōdayaḥ/paraviddha). 
+
+Pinda Pitru Yajnam is a śrāddham to be done to two sets of Pitru Devatas. It is to be done in one's Agnihotra Agni or if that is not present then Aupasana Agni. Rice is cooked in a section of the Agni moved to the south-east. From this, even those whose father is living, give āhuti to the Deva Pitru-s ie sōma, yama and agni kavyavāhana. Those whose father is not living should additionally give piṇḍas to the Manushya Pitru-s also to whom amāvāsyā-śrāddham is also performed.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/lunar_month/tithi/00/30/piNDa-pitR-yajJaH.toml)
+- Tags: ShraddhaDays
 
 
 ##### सोमवती अमावास्या
@@ -36037,34 +36027,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- विजया-भानुसप्तमी, सायन-व्यतीपातः, सावित्र-कल्पादिः
-##### सावित्र-कल्पादिः
-
-Observed on Śukla-Saptamī tithi of Kārttikaḥ (lunar) month (Aparāhṇaḥ/vyaapti). 
-
-sāvitra-kalpādiḥ is observed on this day. Performing śrāddha on this day gives akṣayatr̥pti to pitrs. Although there are 30 Kalpadis described in various puranas, 7 of them are particularly special.
-
-अथ कल्पादयो राजन्कथ्यन्ते तिथयः शुभाः।  
-यासु श्राद्ध कृते तृप्तिः पितॄणामक्षया भवेत्॥  
-(३० कल्पादयः प्रदिष्टाः)  
----हेमाद्रौ नागरखण्डे  
-ब्रह्मणो यद्दिनादर्वाक्कल्पस्यादिः प्रकीर्तितः।  
-वैशाखस्य तृतीयायां कृष्णायां फाल्गुनस्य च॥  
-पञ्चमी चैत्रमासस्य तस्यैवान्या तथा परा।  
-शुक्ला त्रयोदशी माघे कार्तिकस्य तु सप्तमी॥  
-नवमी मार्गशीर्षस्य सप्तैताः संस्मराम्यहम्।  
-कल्पानामादयो ह्येता दत्तस्याक्षय्यकारकाः॥  
----मत्स्यपुराणे
-
-
-
-###### Details
-- References
-  - Smriti Kaustubham p.87--88
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tithi/08/07/sAvitra-kalpAdiH.toml)
-- Tags: KalpadiDays
-
-
+- विजया-भानुसप्तमी, सायन-व्यतीपातः
 ##### सायन-व्यतीपातः
 - 03:34→
 
@@ -36270,7 +36233,7 @@ For instance, in Devi Atharvashirsha, it is said bhaumāśvinyāṁ mahādevī-s
 
 
 
-Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (ādi puṣkaram) and at the end of the year (preceding transition to the next rāśī, antya puṣkaram), and for two muhurtas during mid-day, every day, during the entire year.
+Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (ādya puṣkaram) and at the end of the year (preceding transition to the next rāśī, antya puṣkaram), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to vr̥śchika rāśī, puṣkararāja resides in tāmraparṇī river.
 
 यदा राशि-प्रवेशः स्यात्तदा प्रभृति सर्वदा।  
@@ -36431,24 +36394,6 @@ Son of Rameśa Makhin, Madhura, a physician adept in the incatations of Grāvāb
 
 
 ##### सिन्धु-आदि-पुष्कर-आरम्भः
-
-
-
-Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (ādi puṣkaram) and at the end of the year (preceding transition to the next rāśī, antya puṣkaram), and for two muhurtas during mid-day, every day, during the entire year.
- Following the transition of Guru to dhanuḥ rāśī, puṣkararāja resides in sindhu river.
-
-यदा राशि-प्रवेशः स्यात्तदा प्रभृति सर्वदा।  
-द्वादशाहमिते काले वस्तव्यं तु ममाऽऽज्ञया॥  
-आवत्सरं तु वस्तव्यं मध्याह्ने द्विमुहूर्तकम्।  
-अन्ते द्वादश वस्तव्यं दिनानि च यथासुखम्॥
-
-
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/puShkara/description_only/sindhu-Adi-puSkara-ArambhaH.toml)
-- Tags: RareDays Pushkara
-
-
 ##### त्रेतायुगादिः
 
 Observed on Śukla-Navamī tithi of Kārttikaḥ (lunar) month (Sāṅgavaḥ/paraviddha). 
@@ -37222,7 +37167,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- आग्रयण-होमः द्राविडेषु, कार्त्तिक-पूर्णिमा-स्नानम्, कार्त्तिक-मास-अन्तिमत्रयतिथि-व्रत-समापनम्, तिरुवनन्तपुर-देवायतन-प्रवेश-घोषणा #८४, निऩ्ऱचीर् नॆडुमाऱ नायऩार् (४८) गुरुपूजै, पद्मक-योगः, पार्वणव्रतम् पूर्णिमायाम्, पूर्णिमा-व्रतम्, भीष्म-पञ्चक-व्रत-समापनम्, मन्वादिः-(धर्मः-[११]), महा-अन्नाभिषेकः, वेङ्कटाचले पूर्णिमा-गरुड-सेवा, श्री-गोविन्द भगवत्पाद आराधना
+- आग्रयण-होमः द्राविडेषु, कार्त्तिक-पूर्णिमा-स्नानम्, कार्त्तिक-मास-अन्तिमत्रयतिथि-व्रत-समापनम्, तिरुवनन्तपुर-देवायतन-प्रवेश-घोषणा #८४, निऩ्ऱचीर् नॆडुमाऱ नायऩार् (४८) गुरुपूजै, पार्वणव्रतम् पूर्णिमायाम्, पूर्णिमा-व्रतम्, भीष्म-पञ्चक-व्रत-समापनम्, मन्वादिः-(धर्मः-[११]), महा-अन्नाभिषेकः, वेङ्कटाचले पूर्णिमा-गरुड-सेवा, श्री-गोविन्द भगवत्पाद आराधना
 ##### आग्रयण-होमः द्राविडेषु
 
 Observed on Paurṇamāsī tithi of Tulā (sidereal solar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -37386,22 +37331,6 @@ pūrṇimā vratam is commonly observed for Lord Satyanarayana.
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/00/15/pUrNimA~vratam.toml)
 - Tags: MonthlyFestivals
-
-
-##### पद्मक-योगः
-
-
-
-When the Sun is transiting through viśākhā, and the moon, through kr̥ttikā, a very special  padmaka yōga occurs, that is more difficult to obtain than puṣkara.
-
-विशाखासु यदा भानुः कृत्तिकासु च चन्द्रमाः।  
-स योगः पद्मको नाम पुष्करेष्वपि दुर्लभः॥ (स्मृतिकौस्तुभे पृ ४०६)
-
-
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/special-tithis/description_only/padmaka-yOgaH-3.toml)
-- Tags: RareDays Combinations
 
 
 ##### तिरुवनन्तपुर-देवायतन-प्रवेश-घोषणा #८४
@@ -37872,24 +37801,6 @@ End of a month long offering of Akasha Dipam.
 
 
 ##### सिन्धु-आदि-पुष्कर-समापनम्
-
-
-
-Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (ādi puṣkaram) and at the end of the year (preceding transition to the next rāśī, antya puṣkaram), and for two muhurtas during mid-day, every day, during the entire year.
- Following the transition of Guru to dhanuḥ rāśī, puṣkararāja resides in sindhu river.
-
-यदा राशि-प्रवेशः स्यात्तदा प्रभृति सर्वदा।  
-द्वादशाहमिते काले वस्तव्यं तु ममाऽऽज्ञया॥  
-आवत्सरं तु वस्तव्यं मध्याह्ने द्विमुहूर्तकम्।  
-अन्ते द्वादश वस्तव्यं दिनानि च यथासुखम्॥
-
-
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/puShkara/description_only/sindhu-Adi-puSkara-samApanam.toml)
-- Tags: RareDays Pushkara
-
-
 ##### तुला-कावेरी-स्नान-समापनम्
 
 
@@ -38223,7 +38134,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- कालभैरवाष्टमी, पञ्च-पर्व-पूजा (अष्टमी)
+- कालभैरवाष्टमी, पञ्च-पर्व-पूजा (अष्टमी), सावित्री-कल्पादिः
 ##### कालभैरवाष्टमी
 
 Observed on Kr̥ṣṇa-Aṣṭamī tithi of Kārttikaḥ (lunar) month (Pradōṣaḥ/puurvaviddha). 
@@ -38244,6 +38155,33 @@ Observed on Kr̥ṣṇa-Aṣṭamī tithi of every (lunar) month (Āśvinaḥ/pa
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/lunar_month/tithi/00/23/pancha-parva-3.toml)
 - Tags: Pancha Parva
+
+
+##### सावित्री-कल्पादिः
+
+Observed on Kr̥ṣṇa-Saptamī tithi of Kārttikaḥ (lunar) month (Aparāhṇaḥ/vyaapti). 
+
+sāvitra-kalpādiḥ is observed on this day. Performing śrāddha on this day gives akṣayatr̥pti to pitrs. Although there are 30 Kalpadis described in various puranas, 7 of them are particularly special.
+
+अथ कल्पादयो राजन्कथ्यन्ते तिथयः शुभाः।  
+यासु श्राद्ध कृते तृप्तिः पितॄणामक्षया भवेत्॥  
+(३० कल्पादयः प्रदिष्टाः)  
+---हेमाद्रौ नागरखण्डे  
+ब्रह्मणो यद्दिनादर्वाक्कल्पस्यादिः प्रकीर्तितः।  
+वैशाखस्य तृतीयायां कृष्णायां फाल्गुनस्य च॥  
+पञ्चमी चैत्रमासस्य तस्यैवान्या तथा परा।  
+शुक्ला त्रयोदशी माघे कार्तिकस्य तु सप्तमी॥  
+नवमी मार्गशीर्षस्य सप्तैताः संस्मराम्यहम्।  
+कल्पानामादयो ह्येता दत्तस्याक्षय्यकारकाः॥  
+---मत्स्यपुराणे
+
+
+
+###### Details
+- References
+  - Smriti Kaustubham p.87--88
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tithi/08/22/sAvitrI-kalpAdiH.toml)
+- Tags: KalpadiDays
 
 
 
@@ -38299,7 +38237,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- काञ्ची ४२ जगद्गुरु श्री-ब्रह्मानन्दघनेन्द्र सरस्वती २ आराधना #१०४२, काञ्ची ४९ जगद्गुरु श्री-महादेवेन्द्र सरस्वती ३ आराधना #७७३, काञ्ची ५८ जगद्गुरु श्री-आत्मबोधेन्द्र सरस्वती आराधना #३८२, महादेवाष्टमी
+- काञ्ची ४२ जगद्गुरु श्री-ब्रह्मानन्दघनेन्द्र सरस्वती २ आराधना #१०४२, काञ्ची ४९ जगद्गुरु श्री-महादेवेन्द्र सरस्वती ३ आराधना #७७३, काञ्ची ५८ जगद्गुरु श्री-आत्मबोधेन्द्र सरस्वती आराधना #३८२, कालाष्टमी, महादेवाष्टमी
 ##### काञ्ची ४२ जगद्गुरु श्री-ब्रह्मानन्दघनेन्द्र सरस्वती २ आराधना #१०४२
 
 Observed on Kr̥ṣṇa-Aṣṭamī tithi of Kārttikaḥ (lunar) month (Aparāhṇaḥ/vyaapti). The event occurred in 4079 (Kali era).  
@@ -38372,6 +38310,19 @@ Viśveśvara was the son of Viśvamakhindra; resorting to the fact of Paraśivā
   - Punya Shloka Manjari
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/08/23/kAJcI_58_jagadguru_zrI~AtmabOdhEndra_sarasvatI_ArAdhanA.toml)
 - Tags: KanchiAradhanaDays
+
+
+##### कालाष्टमी
+
+Observed on Kr̥ṣṇa-Aṣṭamī tithi of Kārttikaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
+
+
+
+###### Details
+- References
+  - Aamaar Jyotishi
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/08/23/kAlASTamI.toml)
+- Tags: LessCommonFestivals
 
 
 ##### महादेवाष्टमी
@@ -39112,12 +39063,12 @@ pārvaṇavratam on the eve of darśa-sthālīpākaḥ.
 
 ##### पिण्ड-पितृ-यज्ञः
 
-
+Observed on Amāvāsyā tithi of every (lunar) month (Sūryōdayaḥ/paraviddha). 
 
 Pinda Pitru Yajnam is a śrāddham to be done to two sets of Pitru Devatas. It is to be done in one's Agnihotra Agni or if that is not present then Aupasana Agni. Rice is cooked in a section of the Agni moved to the south-east. From this, even those whose father is living, give āhuti to the Deva Pitru-s ie sōma, yama and agni kavyavāhana. Those whose father is not living should additionally give piṇḍas to the Manushya Pitru-s also to whom amāvāsyā-śrāddham is also performed.
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/lunar_month/tithi/00/30/piNDa-pitR-yajJaH.toml)
 - Tags: ShraddhaDays
 
 
@@ -42102,7 +42053,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- कमला-जयन्ती, काञ्ची १४ जगद्गुरु श्री-विद्याघनेन्द्र सरस्वती आराधना #१७०३, काञ्ची ३४ जगद्गुरु श्री-चन्द्रशेखरेन्द्र सरस्वती २ आराधना #१३१०, तॊण्डरडिप्पॊडियाऴ्वार् तिरुनक्षत्तिरम्, पञ्च-पर्व-पूजा (अमावास्या), पार्वणव्रतम् अमावास्यायाम्, पिण्ड-पितृ-यज्ञः, सर्व-मार्गशीर्ष-अमावास्या, सायन-व्यतीपातः
+- कमला-जयन्ती, काञ्ची १४ जगद्गुरु श्री-विद्याघनेन्द्र सरस्वती आराधना #१७०३, काञ्ची ३४ जगद्गुरु श्री-चन्द्रशेखरेन्द्र सरस्वती २ आराधना #१३१०, तॊण्डरडिप्पॊडियाऴ्वार् तिरुनक्षत्तिरम्, पञ्च-पर्व-पूजा (अमावास्या), पार्वणव्रतम् अमावास्यायाम्, सर्व-मार्गशीर्ष-अमावास्या, सायन-व्यतीपातः
 ##### काञ्ची १४ जगद्गुरु श्री-विद्याघनेन्द्र सरस्वती आराधना #१७०३
 
 Observed on Amāvāsyā tithi of Mārgaśīrṣaḥ (lunar) month (Aparāhṇaḥ/vyaapti). The event occurred in 3418 (Kali era).  
@@ -42194,17 +42145,6 @@ Observed on Amāvāsyā tithi of every (lunar) month (Āśvinaḥ/paraviddha).
 - Tags: Pancha Parva
 
 
-##### पिण्ड-पितृ-यज्ञः
-
-
-
-Pinda Pitru Yajnam is a śrāddham to be done to two sets of Pitru Devatas. It is to be done in one's Agnihotra Agni or if that is not present then Aupasana Agni. Rice is cooked in a section of the Agni moved to the south-east. From this, even those whose father is living, give āhuti to the Deva Pitru-s ie sōma, yama and agni kavyavāhana. Those whose father is not living should additionally give piṇḍas to the Manushya Pitru-s also to whom amāvāsyā-śrāddham is also performed.
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/description_only/piNDa-pitR-yajJaH.toml)
-- Tags: ShraddhaDays
-
-
 ##### सायन-व्यतीपातः
 - →20:53
 
@@ -42294,7 +42234,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- दर्श-स्थालीपाकः, दर्शेष्टिः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, श्री-हनूमत्-जयन्ती, सूर्य-ग्रहणं (केतुग्रस्त)
+- दर्श-स्थालीपाकः, दर्शेष्टिः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, पिण्ड-पितृ-यज्ञः, श्री-हनूमत्-जयन्ती, सूर्य-ग्रहणं (केतुग्रस्त)
 ##### दर्शेष्टिः
 
 
@@ -42315,6 +42255,17 @@ Observed on Śukla-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurv
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.toml)
 - Tags: MonthlyFestivals
+
+
+##### पिण्ड-पितृ-यज्ञः
+
+Observed on Amāvāsyā tithi of every (lunar) month (Sūryōdayaḥ/paraviddha). 
+
+Pinda Pitru Yajnam is a śrāddham to be done to two sets of Pitru Devatas. It is to be done in one's Agnihotra Agni or if that is not present then Aupasana Agni. Rice is cooked in a section of the Agni moved to the south-east. From this, even those whose father is living, give āhuti to the Deva Pitru-s ie sōma, yama and agni kavyavāhana. Those whose father is not living should additionally give piṇḍas to the Manushya Pitru-s also to whom amāvāsyā-śrāddham is also performed.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/lunar_month/tithi/00/30/piNDa-pitR-yajJaH.toml)
+- Tags: ShraddhaDays
 
 
 ##### सूर्य-ग्रहणं (केतुग्रस्त)
