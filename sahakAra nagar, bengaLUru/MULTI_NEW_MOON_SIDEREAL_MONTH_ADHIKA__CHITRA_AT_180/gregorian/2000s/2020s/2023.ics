@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230809082530
+SEQUENCE:20230809113216
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -16135,12 +16135,7 @@ BEGIN:VEVENT
 SUMMARY:गङ्गा-आदि-पुष्कर-आरम्भः
 DTSTART;VALUE=DATE:20230422
 DTEND;VALUE=DATE:20230423
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/puShkara/description_only/gaGgA-Adi-pu
- Skara-ArambhaH.toml)<br/>- Tags: RareDays Pushkara<br/><br/><br/><br/>## D
- etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
- b/master/time_focus/puShkara/description_only/gaGgA-Adi-puSkara-ArambhaH.t
- oml)<br/>- Tags: RareDays Pushkara
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17689,12 +17684,7 @@ BEGIN:VEVENT
 SUMMARY:गङ्गा-आदि-पुष्करम्
 DTSTART;VALUE=DATE:20230422
 DTEND;VALUE=DATE:20230504
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/puShkara/description_only/gaGgA-Adi-pu
- Skaram.toml)<br/>- Tags: RareDays Pushkara<br/><br/><br/><br/>## Details<b
- r/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master
- /time_focus/puShkara/description_only/gaGgA-Adi-puSkaram.toml)<br/>- Tags:
-  RareDays Pushkara
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17707,12 +17697,7 @@ BEGIN:VEVENT
 SUMMARY:गङ्गा-आदि-पुष्कर-समापनम्
 DTSTART;VALUE=DATE:20230503
 DTEND;VALUE=DATE:20230504
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/puShkara/description_only/gaGgA-Adi-pu
- Skara-samApanam.toml)<br/>- Tags: RareDays Pushkara<br/><br/><br/><br/>## 
- Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/bl
- ob/master/time_focus/puShkara/description_only/gaGgA-Adi-puSkara-samApanam
- .toml)<br/>- Tags: RareDays Pushkara
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
