@@ -14940,16 +14940,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:agninakṣatra-ārambhaḥ
-DTSTART;VALUE=DATE:20190505
-DTEND;VALUE=DATE:20190506
+DTSTART;TZID=Asia/Calcutta:20190505T023318
+DTEND;TZID=Asia/Calcutta:20190505T235957
 DESCRIPTION:The start of the period agninakṣatram\, the transit of the S
  un through kr̥ttikā asterism.<br/><br/>## Details<br/>- [Edit config fil
  e](https://github.com/jyotisham/adyatithi/blob/master/time_focus/nakShatra
  /description_only/agninakSatra-ArambhaH.toml)<br/>- Tags: SpecialPeriodSta
  rt
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -18160,7 +18157,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:agninakṣatram
 DTSTART;VALUE=DATE:20190504
-DTEND;VALUE=DATE:20190530
+DTEND;VALUE=DATE:20190529
 DESCRIPTION:The period agninakṣatram\, the transit of the Sun through kr
  ̥ttikā asterism.<br/><br/>## Details<br/>- [Edit config file](https://gi
  thub.com/jyotisham/adyatithi/blob/master/time_focus/nakShatra/description_
@@ -18175,15 +18172,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:agninakṣatra-samāpanam
-DTSTART;VALUE=DATE:20190529
-DTEND;VALUE=DATE:20190530
+DTSTART;TZID=Asia/Calcutta:20190528T235957
+DTEND;TZID=Asia/Calcutta:20190529T072804
 DESCRIPTION:The end of the period agninakṣatram\, the transit of the Sun
   through kr̥ttikā asterism.<br/><br/>## Details<br/>- [Edit config file]
  (https://github.com/jyotisham/adyatithi/blob/master/time_focus/nakShatra/d
  escription_only/agninakSatra-samApanam.toml)<br/>- Tags: SpecialPeriodEnd
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -27641,10 +27635,10 @@ SUMMARY:r̥gvēda-upākarma
 DTSTART;VALUE=DATE:20190815
 DTEND;VALUE=DATE:20190816
 DESCRIPTION:Observed on Śravaṇaḥ nakshatra of Śrāvaṇaḥ (lunar) 
- month (Sūryōdayaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [E
- dit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/
- general/lunar_month/nakshatra/05/22/RgvEda-upAkarma.toml)<br/>- Tags: Comm
- onFestivals
+ month (Maitraḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/gener
+ al/lunar_month/nakshatra/05/22/RgvEda-upAkarma.toml)<br/>- Tags: CommonFes
+ tivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE

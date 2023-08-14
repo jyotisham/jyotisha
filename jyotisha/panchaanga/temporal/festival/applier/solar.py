@@ -222,21 +222,6 @@ class SolarFestivalAssigner(FestivalAssigner):
       return 
 
     # AGNI nakshatra
-    # anga_finder = zodiac.AngaSpanFinder.get_cached(ayanaamsha_id=self.ayanaamsha_id, anga_type=zodiac.AngaType.SOLAR_NAKSH_PADA)
-
-    # agni_jd_start, dummy = anga_finder.find(jd1=self.panchaanga.jd_start, jd2=self.panchaanga.jd_end, target_anga_id=7).to_tuple()
-    # dummy, agni_jd_end = anga_finder.find(jd1=agni_jd_start, jd2=agni_jd_start + 30, target_anga_id=13).to_tuple()
-
-    # fday = int(floor(agni_jd_start) - floor(self.daily_panchaangas[0].julian_day_start))
-    # if agni_jd_start < self.daily_panchaangas[fday].jd_sunrise:
-    #   fday -= 1
-    # self.panchaanga.add_festival(fest_id='agninakSatra-ArambhaH', date=self.daily_panchaangas[fday].date)
-
-    # fday = int(floor(agni_jd_end) - floor(self.daily_panchaangas[0].julian_day_start))
-    # if agni_jd_end < self.daily_panchaangas[fday].jd_sunrise:
-    #   fday -= 1
-    # self.panchaanga.add_festival(fest_id='agninakSatra-samApanam', date=self.daily_panchaangas[fday].date)
-
     agni_jd_start = agni_jd_end = None
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       # AGNI nakshatra
@@ -253,11 +238,11 @@ class SolarFestivalAssigner(FestivalAssigner):
       if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 1 and self.daily_panchaangas[d].solar_sidereal_date_sunset.day > 10:
         if agni_jd_start is not None:
           if self.daily_panchaangas[d].jd_sunset < agni_jd_start < self.daily_panchaangas[d + 1].jd_sunset:
-            self.panchaanga.add_festival(fest_id='agninakSatra-ArambhaH', date=self.daily_panchaangas[d].date + 1)
+            self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='agninakSatra-ArambhaH', interval=Interval(jd_start=agni_jd_start, jd_end=None)), date=self.daily_panchaangas[d].date + 1)
       if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 2 and self.daily_panchaangas[d].solar_sidereal_date_sunset.day > 10:
         if agni_jd_end is not None:
           if self.daily_panchaangas[d].jd_sunrise < agni_jd_end < self.daily_panchaangas[d + 1].jd_sunrise:
-            self.panchaanga.add_festival(fest_id='agninakSatra-samApanam', date=self.daily_panchaangas[d].date)
+            self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='agninakSatra-samApanam', interval=Interval(jd_start=None, jd_end=agni_jd_end)), date=self.daily_panchaangas[d].date)
 
   def assign_nava_nayakas(self):
     if self.panchaanga.duration < 365:
