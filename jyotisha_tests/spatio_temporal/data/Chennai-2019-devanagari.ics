@@ -4875,14 +4875,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:manvādiḥ-(sāvarṇiḥ-[8])
+SUMMARY:manvādiḥ-(vaivasvataḥ-[7])
 DTSTART;VALUE=DATE:20190212
 DTEND;VALUE=DATE:20190213
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Māghaḥ (lunar) month (
  Aparāhṇaḥ/vyaapti). <br/><br/><br/><br/>## Details<br/>- References<b
  r/>  - Vaidyanātha-Dīkṣitīyam<br/>- [Edit config file](https://github
  .com/jyotisham/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tithi/
- 11/07/manvAdiH~%28sAvarNiH~%5B8%5D%29.toml)<br/>- Tags: ManvadiDays
+ 11/07/manvAdiH~%28vaivasvataH~%5B7%5D%29.toml)<br/>- Tags: ManvadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9246,14 +9246,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:manvādiḥ-(rudraḥ-[12])
+SUMMARY:manvādiḥ-(rudra-sāvarṇiḥ-[12])
 DTSTART;VALUE=DATE:20190320
 DTEND;VALUE=DATE:20190321
 DESCRIPTION:Observed on Paurṇamāsī tithi of Phālgunaḥ (lunar) month
   (Aparāhṇaḥ/vyaapti). <br/><br/><br/><br/>## Details<br/>- References
  <br/>  - Vaidyanātha-Dīkṣitīyam<br/>- [Edit config file](https://gith
  ub.com/jyotisham/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tith
- i/12/15/manvAdiH~%28rudraH~%5B12%5D%29.toml)<br/>- Tags: ManvadiDays
+ i/12/15/manvAdiH~%28rudra-sAvarNiH~%5B12%5D%29.toml)<br/>- Tags: ManvadiDa
+ ys
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23467,15 +23468,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:manvādiḥ-(vaivasvataḥ-[7])
+SUMMARY:manvādiḥ-(sūrya-sāvarṇiḥ-[8])
 DTSTART;VALUE=DATE:20190711
 DTEND;VALUE=DATE:20190712
 DESCRIPTION:Observed on Śukla-Daśamī tithi of Āṣāḍhaḥ (lunar) m
  onth (Aparāhṇaḥ/vyaapti). <br/><br/><br/><br/>## Details<br/>- Refere
  nces<br/>  - Vaidyanātha-Dīkṣitīyam<br/>- [Edit config file](https://
  github.com/jyotisham/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/
- tithi/04/10/manvAdiH~%28vaivasvataH~%5B7%5D%29.toml)<br/>- Tags: ManvadiDa
- ys
+ tithi/04/10/manvAdiH~%28sUrya-sAvarNiH~%5B8%5D%29.toml)<br/>- Tags: Manvad
+ iDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24135,14 +24136,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:manvādiḥ-(brahmaḥ-[10])
+SUMMARY:manvādiḥ-(brahma-sāvarṇiḥ-[10])
 DTSTART;VALUE=DATE:20190716
 DTEND;VALUE=DATE:20190717
 DESCRIPTION:Observed on Paurṇamāsī tithi of Āṣāḍhaḥ (lunar) mo
  nth (Aparāhṇaḥ/vyaapti). <br/><br/><br/><br/>## Details<br/>- Referen
  ces<br/>  - Vaidyanātha-Dīkṣitīyam<br/>- [Edit config file](https://g
  ithub.com/jyotisham/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/t
- ithi/04/15/manvAdiH~%28brahmaH~%5B10%5D%29.toml)<br/>- Tags: ManvadiDays
+ ithi/04/15/manvAdiH~%28brahma-sAvarNiH~%5B10%5D%29.toml)<br/>- Tags: Manva
+ diDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -40222,14 +40224,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:manvādiḥ-(dharmaḥ-[11])
+SUMMARY:manvādiḥ-(dharma-sāvarṇiḥ-[11])
 DTSTART;VALUE=DATE:20191112
 DTEND;VALUE=DATE:20191113
 DESCRIPTION:Observed on Paurṇamāsī tithi of Kārttikaḥ (lunar) month
   (Aparāhṇaḥ/vyaapti). <br/><br/><br/><br/>## Details<br/>- References
  <br/>  - Vaidyanātha-Dīkṣitīyam<br/>- [Edit config file](https://gith
  ub.com/jyotisham/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tith
- i/08/15/manvAdiH~%28dharmaH~%5B11%5D%29.toml)<br/>- Tags: ManvadiDays
+ i/08/15/manvAdiH~%28dharma-sAvarNiH~%5B11%5D%29.toml)<br/>- Tags: ManvadiD
+ ays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
