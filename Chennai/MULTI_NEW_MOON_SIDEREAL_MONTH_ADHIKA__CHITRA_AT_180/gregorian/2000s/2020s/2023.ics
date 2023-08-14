@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230814095931
+SEQUENCE:20230814101200
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -20338,16 +20338,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:अग्निनक्षत्र-आरम्भः
-DTSTART;VALUE=DATE:20230505
-DTEND;VALUE=DATE:20230506
+DTSTART;TZID=Asia/Calcutta:20230505T031409
+DTEND;TZID=Asia/Calcutta:20230506T000000
 DESCRIPTION:The start of the period agninakṣatram\, the transit of the S
  un through kr̥ttikā asterism.<br/><br/>## Details<br/>- [Edit config fil
  e](https://github.com/jyotisham/adyatithi/blob/master/time_focus/nakShatra
  /description_only/agninakSatra-ArambhaH.toml)<br/>- Tags: SpecialPeriodSta
  rt
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -24176,15 +24173,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:अग्निनक्षत्र-समापनम्
-DTSTART;VALUE=DATE:20230529
-DTEND;VALUE=DATE:20230530
+DTSTART;TZID=Asia/Calcutta:20230529T000000
+DTEND;TZID=Asia/Calcutta:20230529T080032
 DESCRIPTION:The end of the period agninakṣatram\, the transit of the Sun
   through kr̥ttikā asterism.<br/><br/>## Details<br/>- [Edit config file]
  (https://github.com/jyotisham/adyatithi/blob/master/time_focus/nakShatra/d
  escription_only/agninakSatra-samApanam.toml)<br/>- Tags: SpecialPeriodEnd
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
