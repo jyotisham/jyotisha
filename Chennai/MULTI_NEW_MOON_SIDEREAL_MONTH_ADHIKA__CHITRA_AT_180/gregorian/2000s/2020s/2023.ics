@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230814095550
+SEQUENCE:20230814095931
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -37734,10 +37734,10 @@ SUMMARY:ऋग्वेद-उपाकर्म
 DTSTART;VALUE=DATE:20230829
 DTEND;VALUE=DATE:20230830
 DESCRIPTION:Observed on Śravaṇaḥ nakshatra of Śrāvaṇaḥ (lunar) 
- month (Sūryōdayaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [E
- dit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/
- general/lunar_month/nakshatra/05/22/RgvEda-upAkarma.toml)<br/>- Tags: Comm
- onFestivals
+ month (Maitraḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/gener
+ al/lunar_month/nakshatra/05/22/RgvEda-upAkarma.toml)<br/>- Tags: CommonFes
+ tivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
