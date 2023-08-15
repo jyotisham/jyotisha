@@ -24310,6 +24310,28 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:cāturmāsya-dvitīyā
+DTSTART;VALUE=DATE:20190718
+DTEND;VALUE=DATE:20190719
+DESCRIPTION:Observed on Kr̥ṣṇa-Dvitīyā tithi of Āṣāḍhaḥ (lu
+ nar) month (Aparāhṇaḥ/vyaapti). <br/><br/>Shraaddha dinam.<br/><br/>
+ āṣāḍhakr̥ṣṇadvitīyā cāturmāsyadvitīyā। sā paraviddhā 
+ grāhyā। yugmāgnivākyāt।  <br/>uktañca vr̥ddhagārmyēṇa---  <
+ br/>śucāvūrjē tapasyē ca yā dvitīyā vidhukṣayē।  <br/>cāturm
+ āsyadvitīyāstāḥ pravadanti maharṣayaḥ॥ iti।<br/><br/><br/><b
+ r/>## Details<br/>- References<br/>  - VrataNirnayaKalpavalli<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pit
+ R/lunar_month/tithi/04/17/cAturmAsya-dvitIyA~1.toml)<br/>- Tags: LessCommo
+ nFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:sarvanadī-rajasvalā
 DTSTART;VALUE=DATE:20190718
 DTEND;VALUE=DATE:20190719
@@ -36155,49 +36177,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:cāturmāsya-dvitīyā 1
-DTSTART;VALUE=DATE:20191015
-DTEND;VALUE=DATE:20191016
-DESCRIPTION:Observed on Kr̥ṣṇa-Dvitīyā tithi of Āśvayujaḥ (luna
- r) month (Aparāhṇaḥ/vyaapti). <br/><br/>Shraaddha dinam.<br/><br/>ā
- ṣāḍhakr̥ṣṇadvitīyā cāturmāsyadvitīyā। sā paraviddhā gr
- āhyā। yugmāgnivākyāt।  <br/>uktañca vr̥ddhagārmyēṇa---  <br
- />śucāvūrjē tapasyē ca yā dvitīyā vidhukṣayē।  <br/>cāturmā
- syadvitīyāstāḥ pravadanti maharṣayaḥ॥ iti।<br/><br/><br/><br/
- >## Details<br/>- References<br/>  - VrataNirnayaKalpavalli<br/>- [Edit co
- nfig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/
- lunar_month/tithi/07/17/cAturmAsya-dvitIyA~1.toml)<br/>- Tags: LessCommonF
- estivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:cāturmāsya-dvitīyā 2
-DTSTART;VALUE=DATE:20191015
-DTEND;VALUE=DATE:20191016
-DESCRIPTION:Observed on Kr̥ṣṇa-Dvitīyā tithi of Āśvayujaḥ (luna
- r) month (Aparāhṇaḥ/vyaapti). <br/><br/>Shraaddha dinam.<br/><br/>kā
- rtikakr̥ṣṇadvitīyā cāturmāsyadvitīyā। asyā nirṇayastu ā
- ṣāḍhakr̥ṣṇa-  <br/>dvitīyāprakaraṇē viśēṣēṇōktaḥ
- । ēṣā aparāhṇavyāpinī grāhyā। śrāddhadinatvāt।<br/><br
- /><br/><br/>## Details<br/>- References<br/>  - VrataNirnayaKalpavalli<br/
- >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/d
- evatA/pitR/lunar_month/tithi/07/17/cAturmAsya-dvitIyA~2.toml)<br/>- Tags: 
- LessCommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Rudra Paśupati Nāyanār (16) Gurupūjai
 DTSTART;VALUE=DATE:20191015
 DTEND;VALUE=DATE:20191016
@@ -40322,6 +40301,27 @@ DESCRIPTION:Observed on Kr̥ṣṇa-Dvitīyā tithi of Kārttikaḥ (lunar
  - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/de
  vatA/vaiShNava/lunar_month/tithi/08/17/azUnyazayana-vratam~5.toml)<br/>- T
  ags: SpecialVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:cāturmāsya-dvitīyā
+DTSTART;VALUE=DATE:20191114
+DTEND;VALUE=DATE:20191115
+DESCRIPTION:Observed on Kr̥ṣṇa-Dvitīyā tithi of Kārttikaḥ (lunar
+ ) month (Aparāhṇaḥ/vyaapti). <br/><br/>Shraaddha dinam.<br/><br/>kār
+ tikakr̥ṣṇadvitīyā cāturmāsyadvitīyā। asyā nirṇayastu āṣ
+ āḍhakr̥ṣṇa-  <br/>dvitīyāprakaraṇē viśēṣēṇōktaḥ। 
+ ēṣā aparāhṇavyāpinī grāhyā। śrāddhadinatvāt।<br/><br/><b
+ r/><br/>## Details<br/>- References<br/>  - VrataNirnayaKalpavalli<br/>- [
+ Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devat
+ A/pitR/lunar_month/tithi/08/17/cAturmAsya-dvitIyA~2.toml)<br/>- Tags: Less
+ CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE

@@ -22643,7 +22643,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अशून्यशयन-व्रतम्, अष्टनाग-पूजा, श्रवण-व्रतम्, सर्वनदी-रजस्वला
+- अशून्यशयन-व्रतम्, अष्टनाग-पूजा, चातुर्मास्य-द्वितीया, श्रवण-व्रतम्, सर्वनदी-रजस्वला
 ##### अष्टनाग-पूजा
 
 Observed on Kr̥ṣṇa-Dvitīyā tithi of Āṣāḍhaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -22669,6 +22669,26 @@ Lord Mahavishnu sleeps with Goddess Mahalakshmi on this day. Do Puja by placing 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/04/17/azUnyazayana-vratam~1.toml)
 - Tags: SpecialVratam
+
+
+##### चातुर्मास्य-द्वितीया
+
+Observed on Kr̥ṣṇa-Dvitīyā tithi of Āṣāḍhaḥ (lunar) month (Aparāhṇaḥ/vyaapti). 
+
+Shraaddha dinam.
+
+आषाढकृष्णद्वितीया चातुर्मास्यद्वितीया। सा परविद्धा ग्राह्या। युग्माग्निवाक्यात्।  
+उक्तञ्च वृद्धगार्म्येण---  
+शुचावूर्जे तपस्ये च या द्वितीया विधुक्षये।  
+चातुर्मास्यद्वितीयास्ताः प्रवदन्ति महर्षयः॥ इति।
+
+
+
+###### Details
+- References
+  - VrataNirnayaKalpavalli
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/lunar_month/tithi/04/17/cAturmAsya-dvitIyA~1.toml)
+- Tags: LessCommonFestivals
 
 
 ##### सर्वनदी-रजस्वला
@@ -33452,7 +33472,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अशून्यशयन-व्रतम्, चातुर्मास्य-द्वितीया-१, चातुर्मास्य-द्वितीया-२, भौमाश्विनी-योगः, रुद्र-पशुपति नायऩार् (१६) गुरुपूजै
+- अशून्यशयन-व्रतम्, भौमाश्विनी-योगः, रुद्र-पशुपति नायऩार् (१६) गुरुपूजै
 ##### अशून्यशयन-व्रतम्
 
 Observed on Kr̥ṣṇa-Dvitīyā tithi of Āśvayujaḥ (lunar) month (Chandrōdayaḥ/puurvaviddha). 
@@ -33485,44 +33505,6 @@ For instance, in Devi Atharvashirsha, it is said bhaumāśvinyāṁ mahādevī-s
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/bhaumAzvinI-yOgaH.toml)
 - Tags: RareDays Combinations AmritaSiddhiYogaDays
-
-
-##### चातुर्मास्य-द्वितीया-१
-
-Observed on Kr̥ṣṇa-Dvitīyā tithi of Āśvayujaḥ (lunar) month (Aparāhṇaḥ/vyaapti). 
-
-Shraaddha dinam.
-
-आषाढकृष्णद्वितीया चातुर्मास्यद्वितीया। सा परविद्धा ग्राह्या। युग्माग्निवाक्यात्।  
-उक्तञ्च वृद्धगार्म्येण---  
-शुचावूर्जे तपस्ये च या द्वितीया विधुक्षये।  
-चातुर्मास्यद्वितीयास्ताः प्रवदन्ति महर्षयः॥ इति।
-
-
-
-###### Details
-- References
-  - VrataNirnayaKalpavalli
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/lunar_month/tithi/07/17/cAturmAsya-dvitIyA~1.toml)
-- Tags: LessCommonFestivals
-
-
-##### चातुर्मास्य-द्वितीया-२
-
-Observed on Kr̥ṣṇa-Dvitīyā tithi of Āśvayujaḥ (lunar) month (Aparāhṇaḥ/vyaapti). 
-
-Shraaddha dinam.
-
-कार्तिककृष्णद्वितीया चातुर्मास्यद्वितीया। अस्या निर्णयस्तु आषाढकृष्ण-  
-द्वितीयाप्रकरणे विशेषेणोक्तः। एषा अपराह्णव्यापिनी ग्राह्या। श्राद्धदिनत्वात्।
-
-
-
-###### Details
-- References
-  - VrataNirnayaKalpavalli
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/lunar_month/tithi/07/17/cAturmAsya-dvitIyA~2.toml)
-- Tags: LessCommonFestivals
 
 
 ##### रुद्र-पशुपति नायऩार् (१६) गुरुपूजै
@@ -37427,7 +37409,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अशून्यशयन-व्रतम्
+- अशून्यशयन-व्रतम्, चातुर्मास्य-द्वितीया
 ##### अशून्यशयन-व्रतम्
 
 Observed on Kr̥ṣṇa-Dvitīyā tithi of Kārttikaḥ (lunar) month (Chandrōdayaḥ/puurvaviddha). 
@@ -37442,6 +37424,24 @@ Lord Mahavishnu sleeps with Goddess Mahalakshmi on this day. Do Puja by placing 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/08/17/azUnyazayana-vratam~5.toml)
 - Tags: SpecialVratam
+
+
+##### चातुर्मास्य-द्वितीया
+
+Observed on Kr̥ṣṇa-Dvitīyā tithi of Kārttikaḥ (lunar) month (Aparāhṇaḥ/vyaapti). 
+
+Shraaddha dinam.
+
+कार्तिककृष्णद्वितीया चातुर्मास्यद्वितीया। अस्या निर्णयस्तु आषाढकृष्ण-  
+द्वितीयाप्रकरणे विशेषेणोक्तः। एषा अपराह्णव्यापिनी ग्राह्या। श्राद्धदिनत्वात्।
+
+
+
+###### Details
+- References
+  - VrataNirnayaKalpavalli
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/lunar_month/tithi/08/17/cAturmAsya-dvitIyA~2.toml)
+- Tags: LessCommonFestivals
 
 
 
