@@ -2188,6 +2188,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pātārka-yōgaḥ
+DTSTART;VALUE=DATE:20190119
+DTEND;VALUE=DATE:20190120
+DESCRIPTION:When Vyatipata yoga falls on a Sunday\, it is a special yōga
+ ḥ\, which is equal to a thousand Surya grahanas.<br/><br/>bhānōrvārē
+  vyatīpātayōgaḥ sampadyatē yadi।  <br/>tadā pātārkayōgō'yaṁ
+  sahasrārkagrahaiḥ samaḥ॥<br/><br/><br/><br/>## Details<br/>- Refer
+ ences<br/>  - VrataNirnayaKalpavalli<br/>- [Edit config file](https://gith
+ ub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/descri
+ ption_only/pAtArka-yOgaH.toml)<br/>- Tags: RareDays Combinations
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:pañca-parva-pūjā (pūrṇimā)
 DTSTART;VALUE=DATE:20190120
 DTEND;VALUE=DATE:20190121
@@ -5560,9 +5579,13 @@ SUMMARY:ravipuṣya-yōgaḥ
 DTSTART;TZID=Asia/Calcutta:20190217T164429
 DTEND;TZID=Asia/Calcutta:20190217T235957
 DESCRIPTION:When Pushya nakshatra falls on a Sunday\, it is a special yōg
- aḥ.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
- isham/adyatithi/blob/master/time_focus/misc_combinations/description_only/
- ravipuSya-yOgaH.toml)<br/>- Tags: RareDays Combinations
+ aḥ\, on which it is important to propitiate Surya Bhagavan.<br/><br/>ād
+ ityē'hani puṣya daivāt sampadyatē yadi।  <br/>puṣyārkayōgastatr
+ ārkaṁ prayataḥ pūjayēnnr̥pa॥ iti।<br/><br/><br/><br/>## Detail
+ s<br/>- References<br/>  - VrataNirnayaKalpavalli<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/blob/master/time_focus/misc_combin
+ ations/description_only/ravipuSya-yOgaH.toml)<br/>- Tags: RareDays Combina
+ tions
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -8731,9 +8754,13 @@ SUMMARY:ravipuṣya-yōgaḥ
 DTSTART;VALUE=DATE:20190316
 DTEND;VALUE=DATE:20190317
 DESCRIPTION:When Pushya nakshatra falls on a Sunday\, it is a special yōg
- aḥ.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
- isham/adyatithi/blob/master/time_focus/misc_combinations/description_only/
- ravipuSya-yOgaH.toml)<br/>- Tags: RareDays Combinations
+ aḥ\, on which it is important to propitiate Surya Bhagavan.<br/><br/>ād
+ ityē'hani puṣya daivāt sampadyatē yadi।  <br/>puṣyārkayōgastatr
+ ārkaṁ prayataḥ pūjayēnnr̥pa॥ iti।<br/><br/><br/><br/>## Detail
+ s<br/>- References<br/>  - VrataNirnayaKalpavalli<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/blob/master/time_focus/misc_combin
+ ations/description_only/ravipuSya-yOgaH.toml)<br/>- Tags: RareDays Combina
+ tions
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11216,15 +11243,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:śvēta-kalpādiḥ
+SUMMARY:śvētavarāha-kalpādiḥ
 DTSTART;VALUE=DATE:20190406
 DTEND;VALUE=DATE:20190407
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tithi/01/01/zvEta-
- kalpAdiH.toml)<br/>- Tags: KalpadiDays<br/><br/><br/><br/>## Details<br/>-
-  References<br/>  - Smriti Kaustubham p.87--88<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/blob/master/time_focus/yugAdiH/lunar_
- month/tithi/01/01/zvEta-kalpAdiH.toml)<br/>- Tags: KalpadiDays
+ am/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tithi/01/01/zvEtav
+ arAha-kalpAdiH.toml)<br/>- Tags: KalpadiDays<br/><br/><br/><br/>## Details
+ <br/>- References<br/>  - Smriti Kaustubham p.87--88<br/>- [Edit config fi
+ le](https://github.com/jyotisham/adyatithi/blob/master/time_focus/yugAdiH/
+ lunar_month/tithi/01/01/zvEtavarAha-kalpAdiH.toml)<br/>- Tags: KalpadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12272,9 +12299,13 @@ SUMMARY:ravipuṣya-yōgaḥ
 DTSTART;TZID=Asia/Calcutta:20190413T235957
 DTEND;TZID=Asia/Calcutta:20190414T073844
 DESCRIPTION:When Pushya nakshatra falls on a Sunday\, it is a special yōg
- aḥ.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
- isham/adyatithi/blob/master/time_focus/misc_combinations/description_only/
- ravipuSya-yOgaH.toml)<br/>- Tags: RareDays Combinations
+ aḥ\, on which it is important to propitiate Surya Bhagavan.<br/><br/>ād
+ ityē'hani puṣya daivāt sampadyatē yadi।  <br/>puṣyārkayōgastatr
+ ārkaṁ prayataḥ pūjayēnnr̥pa॥ iti।<br/><br/><br/><br/>## Detail
+ s<br/>- References<br/>  - VrataNirnayaKalpavalli<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/blob/master/time_focus/misc_combin
+ ations/description_only/ravipuSya-yOgaH.toml)<br/>- Tags: RareDays Combina
+ tions
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -17716,6 +17747,25 @@ DESCRIPTION:saptamī tithi on a Sunday is as sacred as a solar eclipse. Pa
  ḥ॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://gith
  ub.com/jyotisham/adyatithi/blob/master/time_focus/tithi-vara-combinations/
  description_only/bhAnusaptamI.toml)<br/>- Tags: RareDays Combinations
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pātārka-yōgaḥ
+DTSTART;VALUE=DATE:20190525
+DTEND;VALUE=DATE:20190526
+DESCRIPTION:When Vyatipata yoga falls on a Sunday\, it is a special yōga
+ ḥ\, which is equal to a thousand Surya grahanas.<br/><br/>bhānōrvārē
+  vyatīpātayōgaḥ sampadyatē yadi।  <br/>tadā pātārkayōgō'yaṁ
+  sahasrārkagrahaiḥ samaḥ॥<br/><br/><br/><br/>## Details<br/>- Refer
+ ences<br/>  - VrataNirnayaKalpavalli<br/>- [Edit config file](https://gith
+ ub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/descri
+ ption_only/pAtArka-yOgaH.toml)<br/>- Tags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -27004,6 +27054,25 @@ DESCRIPTION:- Indian civil date: 1941-05-20\, Islamic: 1440-12-09 Ḏū al
  haṇṭaḥ**—12:14-13:47\; **Gulikakālaḥ**—15:21-16:55  \n_______
  ____________\n- **Śūlam**—Pratīchī (►10:59)\; **Parihāraḥ**–G
  uḍam  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pātārka-yōgaḥ
+DTSTART;VALUE=DATE:20190810
+DTEND;VALUE=DATE:20190811
+DESCRIPTION:When Vyatipata yoga falls on a Sunday\, it is a special yōga
+ ḥ\, which is equal to a thousand Surya grahanas.<br/><br/>bhānōrvārē
+  vyatīpātayōgaḥ sampadyatē yadi।  <br/>tadā pātārkayōgō'yaṁ
+  sahasrārkagrahaiḥ samaḥ॥<br/><br/><br/><br/>## Details<br/>- Refer
+ ences<br/>  - VrataNirnayaKalpavalli<br/>- [Edit config file](https://gith
+ ub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/descri
+ ption_only/pAtArka-yOgaH.toml)<br/>- Tags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -44117,9 +44186,13 @@ SUMMARY:ravipuṣya-yōgaḥ
 DTSTART;VALUE=DATE:20191214
 DTEND;VALUE=DATE:20191215
 DESCRIPTION:When Pushya nakshatra falls on a Sunday\, it is a special yōg
- aḥ.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
- isham/adyatithi/blob/master/time_focus/misc_combinations/description_only/
- ravipuSya-yOgaH.toml)<br/>- Tags: RareDays Combinations
+ aḥ\, on which it is important to propitiate Surya Bhagavan.<br/><br/>ād
+ ityē'hani puṣya daivāt sampadyatē yadi।  <br/>puṣyārkayōgastatr
+ ārkaṁ prayataḥ pūjayēnnr̥pa॥ iti।<br/><br/><br/><br/>## Detail
+ s<br/>- References<br/>  - VrataNirnayaKalpavalli<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/blob/master/time_focus/misc_combin
+ ations/description_only/ravipuSya-yOgaH.toml)<br/>- Tags: RareDays Combina
+ tions
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE

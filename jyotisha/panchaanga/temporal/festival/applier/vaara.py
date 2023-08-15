@@ -19,6 +19,7 @@ class VaraFestivalAssigner(FestivalAssigner):
     self.assign_ayushman_bava_saumya_yoga()
     self.assign_tithi_vara_yoga_mangala_angaaraka()
     self.assign_tithi_vara_yoga_kRSNAGgAraka()
+    self.assign_vara_yoga_vratam()
     self.assign_tithi_vara_yoga_budhaaShTamii()
 
 
@@ -146,7 +147,13 @@ class VaraFestivalAssigner(FestivalAssigner):
             else:
               logging.error('Should never be here!')
 
-
+  def assign_vara_yoga_vratam(self):
+    if 'pAtArka-yOgaH' not in self.rules_collection.name_to_rule:
+      return 
+    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
+      d0_angas = self.daily_panchaangas[d].day_length_based_periods.dinamaana.get_boundary_angas(anga_type=AngaType.YOGA, ayanaamsha_id=self.ayanaamsha_id)
+      if any(x == 27 for x in [d0_angas.start.index, d0_angas.end.index]) and self.daily_panchaangas[d].date.get_weekday() == 0:
+        self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='pAtArka-yOgaH'), date=self.daily_panchaangas[d].date)
 
   def assign_ayushman_bava_saumya_yoga(self):
     if 'AyuSmad-bava-saumya-saMyOgaH' not in self.rules_collection.name_to_rule:
