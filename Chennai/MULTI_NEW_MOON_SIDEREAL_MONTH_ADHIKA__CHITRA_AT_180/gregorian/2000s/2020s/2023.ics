@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230815195927
+SEQUENCE:20230815210139
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -1279,6 +1279,27 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  tisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/10
  /17/kAJcI_62_jagadguru_zrI~candrazEkharEndra_sarasvatI_4_ArAdhanA.toml)<br
  />- Tags: KanchiAradhanaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:पातार्क-योगः
+DTSTART;VALUE=DATE:20230108
+DTEND;VALUE=DATE:20230109
+DESCRIPTION:When Vyatipata yoga falls on a Sunday\, it is a special yōga
+ ḥ\, which is equal to a thousand Surya grahanas.<br/><br/>भानो
+ र्वारे व्यतीपातयोगः सम्पद्
+ यते यदि।  <br/>तदा पातार्कयोगो
+ ऽयं सहस्रार्कग्रहैः समः॥<br/><
+ br/><br/><br/>## Details<br/>- References<br/>  - VrataNirnayaKalpavalli<b
+ r/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master
+ /time_focus/misc_combinations/description_only/pAtArka-yOgaH.toml)<br/>- T
+ ags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8655,6 +8676,27 @@ DESCRIPTION:Observed on Śukla-Saptamī tithi of Phālgunaḥ (lunar) mont
   config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/sh
  akti/lunar_month/tithi/12/07/nandA-saptamI~2.toml)<br/>- Tags: SpecialVrat
  am LessCommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:पातार्क-योगः
+DTSTART;VALUE=DATE:20230226
+DTEND;VALUE=DATE:20230227
+DESCRIPTION:When Vyatipata yoga falls on a Sunday\, it is a special yōga
+ ḥ\, which is equal to a thousand Surya grahanas.<br/><br/>भानो
+ र्वारे व्यतीपातयोगः सम्पद्
+ यते यदि।  <br/>तदा पातार्कयोगो
+ ऽयं सहस्रार्कग्रहैः समः॥<br/><
+ br/><br/><br/>## Details<br/>- References<br/>  - VrataNirnayaKalpavalli<b
+ r/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master
+ /time_focus/misc_combinations/description_only/pAtArka-yOgaH.toml)<br/>- T
+ ags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21591,6 +21633,27 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:पातार्क-योगः
+DTSTART;VALUE=DATE:20230514
+DTEND;VALUE=DATE:20230515
+DESCRIPTION:When Vyatipata yoga falls on a Sunday\, it is a special yōga
+ ḥ\, which is equal to a thousand Surya grahanas.<br/><br/>भानो
+ र्वारे व्यतीपातयोगः सम्पद्
+ यते यदि।  <br/>तदा पातार्कयोगो
+ ऽयं सहस्रार्कग्रहैः समः॥<br/><
+ br/><br/><br/>## Details<br/>- References<br/>  - VrataNirnayaKalpavalli<b
+ r/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master
+ /time_focus/misc_combinations/description_only/pAtArka-yOgaH.toml)<br/>- T
+ ags: RareDays Combinations
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:तिरुनावुक्करछ नायऩार् (२
  ०) गुरुपूजै
 DTSTART;VALUE=DATE:20230514
@@ -32951,6 +33014,27 @@ DESCRIPTION:- Indian civil date: 1945-05-08\, Islamic: 1445-01-12 Al-Muḥ
  ालः**—15:24-16:58  \n___________________\n- **शूलम्**—
  प्रतीची (►10:59)\; **परिहारः**–गुड
  म्  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:पातार्क-योगः
+DTSTART;VALUE=DATE:20230730
+DTEND;VALUE=DATE:20230731
+DESCRIPTION:When Vyatipata yoga falls on a Sunday\, it is a special yōga
+ ḥ\, which is equal to a thousand Surya grahanas.<br/><br/>भानो
+ र्वारे व्यतीपातयोगः सम्पद्
+ यते यदि।  <br/>तदा पातार्कयोगो
+ ऽयं सहस्रार्कग्रहैः समः॥<br/><
+ br/><br/><br/>## Details<br/>- References<br/>  - VrataNirnayaKalpavalli<b
+ r/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master
+ /time_focus/misc_combinations/description_only/pAtArka-yOgaH.toml)<br/>- T
+ ags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -45214,6 +45298,27 @@ DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
  <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
  er/gRhya/Apastamba/lunar_month/tithi/00/01/pArvaNa-prAyashcittAvakAshaH_1.
  toml)<br/>- Tags: MonthlyFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:पातार्क-योगः
+DTSTART;VALUE=DATE:20231015
+DTEND;VALUE=DATE:20231016
+DESCRIPTION:When Vyatipata yoga falls on a Sunday\, it is a special yōga
+ ḥ\, which is equal to a thousand Surya grahanas.<br/><br/>भानो
+ र्वारे व्यतीपातयोगः सम्पद्
+ यते यदि।  <br/>तदा पातार्कयोगो
+ ऽयं सहस्रार्कग्रहैः समः॥<br/><
+ br/><br/><br/>## Details<br/>- References<br/>  - VrataNirnayaKalpavalli<b
+ r/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master
+ /time_focus/misc_combinations/description_only/pAtArka-yOgaH.toml)<br/>- T
+ ags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
