@@ -33,6 +33,7 @@ class SolarFestivalAssigner(FestivalAssigner):
     self.assign_mahodaya_ardhodaya()
     self.assign_month_day_kaaradaiyan()
     self.assign_month_day_muDavan_muzhukku()
+    self.assign_month_day_tulA_kAvErI_snAna_ArambhaH()
     self.assign_month_day_kuchela()
     self.assign_month_day_mesha_sankraanti()
     self.assign_vishesha_vyatipata()
@@ -356,12 +357,28 @@ class SolarFestivalAssigner(FestivalAssigner):
     if 'muDavan2_muzhukku' not in self.rules_collection.name_to_rule:
       return
     for d, daily_panchaanga in enumerate(self.daily_panchaangas):
-      # KUCHELA DINAM
       if daily_panchaanga.solar_sidereal_date_sunset.month == 8 and daily_panchaanga.solar_sidereal_date_sunset.day == 1:
         if daily_panchaanga.solar_sidereal_date_sunset.month_transition is None or daily_panchaanga.solar_sidereal_date_sunset.month_transition < daily_panchaanga.jd_sunrise:
           self.panchaanga.add_festival(fest_id='muDavan2_muzhukku', date=daily_panchaanga.date)
         else:
           self.panchaanga.add_festival(fest_id='muDavan2_muzhukku', date=self.daily_panchaangas[d + 1].date)
+
+  def assign_month_day_tulA_kAvErI_snAna_ArambhaH(self):
+    if 'tulA-kAvErI-snAna-ArambhaH' not in self.rules_collection.name_to_rule:
+      return
+    for d, daily_panchaanga in enumerate(self.daily_panchaangas):
+      if daily_panchaanga.solar_sidereal_date_sunset.month_transition is not None:
+        if daily_panchaanga.solar_sidereal_date_sunset.month == 7 or (daily_panchaanga.solar_sidereal_date_sunset.month == 6 and daily_panchaanga.solar_sidereal_date_sunset.day > 28):
+          tula_sankramana_jd = daily_panchaanga.solar_sidereal_date_sunset.month_transition
+          logging.debug(tula_sankramana_jd)
+          fday = d
+
+          if tula_sankramana_jd < self.daily_panchaangas[fday].day_length_based_periods.fifteen_fold_division.braahma.jd_start:
+            self.panchaanga.add_festival(fest_id='tulA-kAvErI-snAna-ArambhaH', date=self.daily_panchaangas[fday].date)
+          else:
+            self.panchaanga.add_festival(fest_id='tulA-kAvErI-snAna-ArambhaH', date=self.daily_panchaangas[fday + 1].date)
+
+          return
 
   def _assign_yoga(self, yoga_name, intersect_list, jd_start=None, jd_end=None):
     if jd_start is None:
