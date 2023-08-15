@@ -370,7 +370,6 @@ class SolarFestivalAssigner(FestivalAssigner):
       if daily_panchaanga.solar_sidereal_date_sunset.month_transition is not None:
         if daily_panchaanga.solar_sidereal_date_sunset.month == 7 or (daily_panchaanga.solar_sidereal_date_sunset.month == 6 and daily_panchaanga.solar_sidereal_date_sunset.day > 28):
           tula_sankramana_jd = daily_panchaanga.solar_sidereal_date_sunset.month_transition
-          logging.debug(tula_sankramana_jd)
           fday = d
 
           if tula_sankramana_jd < self.daily_panchaangas[fday].day_length_based_periods.fifteen_fold_division.braahma.jd_start:
