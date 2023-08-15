@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230815103737
+SEQUENCE:20230815180104
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -17442,10 +17442,22 @@ SUMMARY:परशुराम-द्वादशी
 DTSTART;VALUE=DATE:20230502
 DTEND;VALUE=DATE:20230503
 DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Vaiśākhaḥ (lunar) m
- onth (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [
- Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devat
- A/vaiShNava/lunar_month/tithi/02/12/parazurAma-dvAdazI.toml)<br/>- Tags: S
- pecialVratam
+ onth (Sūryōdayaḥ/puurvaviddha). <br/><br/>वैशाखशुक्
+ लैकादश्यामुपोष्य सौवर्णं प
+ रशुरामं सम्पूज्य  <br/>द्वादश्
+ यां ब्राह्मणाय दद्यादिति ब
+ ोधायनः।  <br/>स्कान्देऽपि---  <br/>व
+ ैशाखे सितपक्षे च एकादश्यां 
+ नराधिप।  <br/>स्वर्णेन निर्मित
+ ं परशुरामं सम्पूज्य यत्नतः
+ ॥  <br/>द्वादश्यामुदये स्नात्व
+ ा समभ्यर्च्य पुनः पुनः।  <br/>द
+ द्याद् विप्राय राजेन्द्र स
+ र्वसम्पत्समृद्धये॥<br/><br/><br/><br/>
+ ## Details<br/>- References<br/>  - VrataNirnayaKalpavalli<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShN
+ ava/lunar_month/tithi/02/12/parazurAma-dvAdazI.toml)<br/>- Tags: SpecialVr
+ atam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -35571,30 +35583,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कल्कि-जयन्ती
-DTSTART;VALUE=DATE:20230916
-DTEND;VALUE=DATE:20230917
-DESCRIPTION:Observed on Śukla-Dvitīyā tithi of Bhādrapadaḥ (lunar) m
- onth (Sūryāstamayaḥ/puurvaviddha). <br/><br/>मासि भाद्
- रपदे शुक्लद्वितीयायां जनार
- ्दनः।  <br/>म्लेच्छाक्रान्ते क
- लावन्ते कल्किरूपो भविष्यति
- ॥  <br/>अवतारदिने पुण्ये हरिमु
- द्दिश्य भक्तितः।  <br/>उपवासाद
- ि यत् किञ्चित्तदानन्त्याय 
- कल्पते॥<br/><br/><br/><br/>## Details<br/>- References<br/> 
-  - Vaidyanatha Dikshitiyam (SVR) p.62<br/>- [Edit config file](https://git
- hub.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi
- /06/02/kalki~jayantI.toml)<br/>- Tags: Dashavataram
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:मृगशीर्ष-व्रतम्
 DTSTART;VALUE=DATE:20230916
 DTEND;VALUE=DATE:20230917
@@ -35737,6 +35725,24 @@ DESCRIPTION:Event occured on 1948-09-17 (gregorian). <br/><br/>Operation P
  and enters the Indian Union.<br/><br/>## Details<br/>- [Edit config file](
  https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xatra-later
  /gregorian/day/09/17/bhAgyanagara-vimuktiH.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:कल्कि-जयन्ती
+DTSTART;VALUE=DATE:20230917
+DTEND;VALUE=DATE:20230918
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/06/02/kalki~ja
+ yantI.toml)<br/>- Tags: Dashavataram<br/><br/><br/><br/>## Details<br/>- R
+ eferences<br/>  - Vaidyanatha Dikshitiyam (SVR) p.62<br/>- [Edit config fi
+ le](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/lu
+ nar_month/tithi/06/02/kalki~jayantI.toml)<br/>- Tags: Dashavataram
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -37810,11 +37816,13 @@ BEGIN:VEVENT
 SUMMARY:उमा-महेश्वर-व्रतम्
 DTSTART;VALUE=DATE:20230929
 DTEND;VALUE=DATE:20230930
-DESCRIPTION:Observed on Paurṇamāsī tithi of Bhādrapadaḥ (lunar) mon
- th (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- Ref
- erences<br/>  - VrataNirnayaKalpavalli<br/>- [Edit config file](https://gi
- thub.com/jyotisham/adyatithi/blob/master/devatA/umA/lunar_month/tithi/06/1
- 5/umA-mahEzvara-vratam.toml)<br/>- Tags: SpecialVratam CommonFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/umA/lunar_month/tithi/06/15/umA-mahEzvara-
+ vratam.toml)<br/>- Tags: SpecialVratam CommonFestivals<br/><br/><br/><br/>
+ ## Details<br/>- References<br/>  - VrataNirnayaKalpavalli<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/umA/lu
+ nar_month/tithi/06/15/umA-mahEzvara-vratam.toml)<br/>- Tags: SpecialVratam
+  CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -38686,11 +38694,12 @@ BEGIN:VEVENT
 SUMMARY:महालक्ष्मी-व्रतम्
 DTSTART;VALUE=DATE:20230924
 DTEND;VALUE=DATE:20231006
-DESCRIPTION:Observed on Kr̥ṣṇa-Aṣṭamī tithi of Āśvayujaḥ (lu
- nar) month (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<b
- r/>- References<br/>  - Krutyasaara samucchayam<br/>- [Edit config file](h
- ttps://github.com/jyotisham/adyatithi/blob/master/devatA/lakShmI/lunar_mon
- th/tithi/07/23/mahAlakSmI-vratam.toml)<br/>- Tags: SpecialVratam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/lakShmI/lunar_month/tithi/07/23/mahAlakSmI
+ -vratam.toml)<br/>- Tags: SpecialVratam<br/><br/><br/><br/>## Details<br/>
+ - References<br/>  - Krutyasaara samucchayam<br/>- [Edit config file](http
+ s://github.com/jyotisham/adyatithi/blob/master/devatA/lakShmI/lunar_month/
+ tithi/07/23/mahAlakSmI-vratam.toml)<br/>- Tags: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -42758,6 +42767,56 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:चातुर्मास्य-द्वितीया १
+DTSTART;VALUE=DATE:20231030
+DTEND;VALUE=DATE:20231031
+DESCRIPTION:Observed on Kr̥ṣṇa-Dvitīyā tithi of Āśvayujaḥ (luna
+ r) month (Aparāhṇaḥ/vyaapti). <br/><br/>Shraaddha dinam.<br/><br/>आ
+ षाढकृष्णद्वितीया चातुर्मा
+ स्यद्वितीया। सा परविद्धा ग
+ ्राह्या। युग्माग्निवाक्या
+ त्।  <br/>उक्तञ्च वृद्धगार्म्य
+ ेण---  <br/>शुचावूर्जे तपस्ये च य
+ ा द्वितीया विधुक्षये।  <br/>चा
+ तुर्मास्यद्वितीयास्ताः प्
+ रवदन्ति महर्षयः॥ इति।<br/><br/><br/>
+ <br/>## Details<br/>- References<br/>  - VrataNirnayaKalpavalli<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/p
+ itR/lunar_month/tithi/07/17/cAturmAsya-dvitIyA~1.toml)<br/>- Tags: LessCom
+ monFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:चातुर्मास्य-द्वितीया २
+DTSTART;VALUE=DATE:20231030
+DTEND;VALUE=DATE:20231031
+DESCRIPTION:Observed on Kr̥ṣṇa-Dvitīyā tithi of Āśvayujaḥ (luna
+ r) month (Aparāhṇaḥ/vyaapti). <br/><br/>Shraaddha dinam.<br/><br/>क
+ ार्तिककृष्णद्वितीया चातुर
+ ्मास्यद्वितीया। अस्या निर्
+ णयस्तु आषाढकृष्ण-  <br/>द्विती
+ याप्रकरणे विशेषेणोक्तः। एष
+ ा अपराह्णव्यापिनी ग्राह्या
+ । श्राद्धदिनत्वात्।<br/><br/><br/><br/
+ >## Details<br/>- References<br/>  - VrataNirnayaKalpavalli<br/>- [Edit co
+ nfig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/
+ lunar_month/tithi/07/17/cAturmAsya-dvitIyA~2.toml)<br/>- Tags: LessCommonF
+ estivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:कृत्तिका-व्रतम्
 DTSTART;VALUE=DATE:20231030
 DTEND;VALUE=DATE:20231031
@@ -43459,11 +43518,12 @@ BEGIN:VEVENT
 SUMMARY:महालक्ष्मी-व्रतम्
 DTSTART;VALUE=DATE:20231105
 DTEND;VALUE=DATE:20231106
-DESCRIPTION:Observed on Kr̥ṣṇa-Aṣṭamī tithi of Āśvayujaḥ (lu
- nar) month (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<b
- r/>- References<br/>  - Krutyasaara samucchayam<br/>- [Edit config file](h
- ttps://github.com/jyotisham/adyatithi/blob/master/devatA/lakShmI/lunar_mon
- th/tithi/07/23/mahAlakSmI-vratam.toml)<br/>- Tags: SpecialVratam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/lakShmI/lunar_month/tithi/07/23/mahAlakSmI
+ -vratam.toml)<br/>- Tags: SpecialVratam<br/><br/><br/><br/>## Details<br/>
+ - References<br/>  - Krutyasaara samucchayam<br/>- [Edit config file](http
+ s://github.com/jyotisham/adyatithi/blob/master/devatA/lakShmI/lunar_month/
+ tithi/07/23/mahAlakSmI-vratam.toml)<br/>- Tags: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
