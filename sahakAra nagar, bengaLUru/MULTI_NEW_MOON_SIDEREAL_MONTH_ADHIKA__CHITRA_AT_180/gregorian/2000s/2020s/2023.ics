@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230814101037
+SEQUENCE:20230815084452
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -40901,27 +40901,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:तुला-कावेरी-स्नान-आरम्भः
-DTSTART;VALUE=DATE:20231018
-DTEND;VALUE=DATE:20231019
-DESCRIPTION:Observed on day 1 of Tulā (sidereal solar) month (Sūryōdaya
- ḥ/puurvaviddha). <br/><br/>Perform snānam in Kaveri during this month.<
- br/><br/>षट्षष्टिकोटितीर्थानि द
- ्विसप्तभुवनेषु च।  <br/>केशवस्
- याऽऽज्ञया यान्ति तुलामासे 
- मरुद्वृधम्॥<br/><br/><br/><br/>## Details<br/>- [Edi
- t config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/n
- adI/sidereal_solar_month/day/07/01/tulA-kAvErI-snAna-ArambhaH.toml)<br/>- 
- Tags:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:तुला-सङ्क्रमण-पुण्यकालः
 DTSTART;VALUE=DATE:20231018
 DTEND;VALUE=DATE:20231019
@@ -45431,26 +45410,6 @@ DESCRIPTION:Event occured on 1915-11-16 (gregorian). <br/><br/>viShNu gaNe
  gh.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
  ham/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/11/16/1915
  -lavapura-vidrohi-hatyA.toml)<br/>- Tags:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:तुला-कावेरी-स्नानम्
-DTSTART;VALUE=DATE:20231018
-DTEND;VALUE=DATE:20231117
-DESCRIPTION:Perform snānam in Kaveri during this month.<br/><br/>षट
- ्षष्टिकोटितीर्थानि द्विसप
- ्तभुवनेषु च।  <br/>केशवस्याऽऽज
- ्ञया यान्ति तुलामासे मरुद्
- वृधम्॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/blob/master/devatA/nadI/description
- _only/tulA-kAvErI-snAnam.toml)<br/>- Tags: TamilnaduTempleFestivals Specia
- lPeriod
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
