@@ -431,34 +431,24 @@ class SolarFestivalAssigner(FestivalAssigner):
       return 
     saayana_yoga_pada_finder = zodiac.AngaSpanFinder.get_cached(ayanaamsha_id=Ayanamsha.VERNAL_EQUINOX_AT_0, anga_type=zodiac.AngaType.YOGA_PADA)
     saayana_yoga_pada_list = saayana_yoga_pada_finder.get_all_angas_in_period(jd1=self.panchaanga.jd_start, jd2=self.panchaanga.jd_end + 1)
+
     jd_start = jd_end = None
+
     for saayana_yoga_pada in saayana_yoga_pada_list:
-      if saayana_yoga_pada.anga.index in (50, 104):
-        jd_start = saayana_yoga_pada.jd_end
-      elif saayana_yoga_pada.anga.index in (54, 108):
+      if saayana_yoga_pada.anga.index in (54, 108):
         jd_end = saayana_yoga_pada.jd_end
         if saayana_yoga_pada.anga.index == 54:
           festival_name = 'sAyana-vyatIpAtaH'
         else:
           festival_name = 'sAyana-vaidhRtiH'
 
-        if jd_start is None:
-          fday = int(floor(jd_end - 1) - floor(self.daily_panchaangas[0].julian_day_start))
-          logging.debug((jd_end - 1, self.daily_panchaangas[0].julian_day_start, jd_end))
+        fday = int(floor(jd_end - 1) - floor(self.daily_panchaangas[0].julian_day_start))
+        if jd_end > self.daily_panchaangas[fday + 1].jd_sunrise:
+          FI = FestivalInstance(name=festival_name, interval=Interval(jd_start=None, jd_end=jd_end))
+          self.panchaanga.add_festival_instance(festival_instance=FI, date=self.daily_panchaangas[fday + 1].date)
         else:
-          fday = int(floor(jd_start) - floor(self.daily_panchaangas[0].julian_day_start))
-          if (jd_start < self.daily_panchaangas[fday].jd_sunrise):
-            fday -= 1
-
-        if jd_end is None or jd_end < self.daily_panchaangas[fday+1].jd_sunrise:
-          FI = FestivalInstance(name=festival_name, interval=Interval(jd_start=jd_start, jd_end=jd_end))
+          FI = FestivalInstance(name=festival_name, interval=Interval(jd_start=None, jd_end=jd_end))
           self.panchaanga.add_festival_instance(festival_instance=FI, date=self.daily_panchaangas[fday].date)
-        else:
-          FI1 = FestivalInstance(name=festival_name, interval=Interval(jd_start=jd_start, jd_end=None))
-          self.panchaanga.add_festival_instance(festival_instance=FI1, date=self.daily_panchaangas[fday].date)
-          
-          FI2 = FestivalInstance(name=festival_name, interval=Interval(jd_start=None, jd_end=jd_end))
-          self.panchaanga.add_festival_instance(festival_instance=FI2, date=self.daily_panchaangas[fday+1].date)
 
 
   def assign_vishesha_vyatipata(self):
