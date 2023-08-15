@@ -237,8 +237,8 @@ class SolarFestivalAssigner(FestivalAssigner):
 
       if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 1 and self.daily_panchaangas[d].solar_sidereal_date_sunset.day > 10:
         if agni_jd_start is not None:
-          if self.daily_panchaangas[d].jd_sunset < agni_jd_start < self.daily_panchaangas[d + 1].jd_sunset:
-            self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='agninakSatra-ArambhaH', interval=Interval(jd_start=agni_jd_start, jd_end=None)), date=self.daily_panchaangas[d].date + 1)
+          if self.daily_panchaangas[d].jd_sunrise < agni_jd_start < self.daily_panchaangas[d + 1].jd_sunrise:
+            self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='agninakSatra-ArambhaH', interval=Interval(jd_start=agni_jd_start, jd_end=None)), date=self.daily_panchaangas[d].date)
       if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 2 and self.daily_panchaangas[d].solar_sidereal_date_sunset.day > 10:
         if agni_jd_end is not None:
           if self.daily_panchaangas[d].jd_sunrise < agni_jd_end < self.daily_panchaangas[d + 1].jd_sunrise:
