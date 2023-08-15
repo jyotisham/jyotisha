@@ -481,7 +481,7 @@ class SolarFestivalAssigner(FestivalAssigner):
                       jd_start=self.panchaanga.jd_start, jd_end=self.panchaanga.jd_end)
 
   def assign_padmaka_yoga(self):
-    if 'padmaka-yOgaH-1' not in self.rules_collection.name_to_rule:
+    if 'padmaka-yOga-puNyakAlaH' not in self.rules_collection.name_to_rule:
       return
     for d, daily_panchaanga in enumerate(self.daily_panchaangas):
       # यदा विष्टिर्व्यतीपातो भानुवारस्तथैव च॥
@@ -498,9 +498,9 @@ class SolarFestivalAssigner(FestivalAssigner):
           karana_ID = sunrise_zodiac.get_anga(zodiac.AngaType.KARANA).index
         elif sunset_zodiac.get_anga(zodiac.AngaType.KARANA).index in VISHTI:
           karana_ID = sunset_zodiac.get_anga(zodiac.AngaType.KARANA).index
-        self._assign_yoga('padmaka-yOgaH-1', [(zodiac.AngaType.KARANA, karana_ID), (zodiac.AngaType.YOGA, 17)],
+        self._assign_yoga('padmaka-yOga-puNyakAlaH', [(zodiac.AngaType.KARANA, karana_ID), (zodiac.AngaType.YOGA, 17)],
                           jd_start=daily_panchaanga.jd_sunrise, jd_end=daily_panchaanga.jd_sunset)
-        # self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='padmaka-yOgaH-1', interval=Interval(jd_start=None, jd_end=None)), date=daily_panchaanga.date)
+        # self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='padmaka-yOga-puNyakAlaH', interval=Interval(jd_start=None, jd_end=None)), date=daily_panchaanga.date)
 
       if daily_panchaanga.date.get_weekday() == 0 and \
         (sunrise_zodiac.get_anga(zodiac.AngaType.TITHI).index % 30 == 6 and
