@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230815084452
+SEQUENCE:20230815095957
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -21827,6 +21827,32 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:वैकाचि विशाखम्
+DTSTART;VALUE=DATE:20230602
+DTEND;VALUE=DATE:20230603
+DESCRIPTION:Observed on Viśākhā nakshatra of Vr̥ṣabhaḥ (sidereal s
+ olar) month (Madhyāhnaḥ/puurvaviddha). <br/><br/>Special puja for Subra
+ hmanya Swami in temples. Birth of Subrahmanya Swami. Worship Him with red 
+ flowers.<br/><br/>सूर्ये वृषभराशौ कृत्
+ तिकासु सति\, चन्द्रमसि च विप
+ रीतदिशि विशाखासु सत्य् आचर
+ ्यते सुब्रह्मण्यजन्मोत्सव
+ ः (पूर्वं श्रवण-कार्त्तिकोत
+ ्सवे जातानां षण्णाम् बालान
+ ाम् कृत्तिकाभिर् वर्ध्यमान
+ नाम् एकीकरणेन पार्वत्या)।<br/>
+ <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
+ tithi/blob/master/devatA/kaumAra/sidereal_solar_month/nakshatra/02/16/vaik
+ Aci~vizAkham.toml)<br/>- Tags: TamilnaduTempleFestivals CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-14  \,  वृश्चिकः-व
  िशाखा🌛🌌  \,  वृषभः-रोहिणी-02-20🌞
  🌌  \,  शुक्रः-03-14🌞🪐  \,  शनिः
@@ -21965,32 +21991,6 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of every (lunar) month (Āśv
  inaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit config file
  ](https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva/luna
  r_month/tithi/00/15/pancha-parva-2.toml)<br/>- Tags: Pancha Parva
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:वैकाचि विशाखम्
-DTSTART;VALUE=DATE:20230603
-DTEND;VALUE=DATE:20230604
-DESCRIPTION:Observed on Viśākhā nakshatra of Vr̥ṣabhaḥ (sidereal s
- olar) month (Sūryōdayaḥ/puurvaviddha). <br/><br/>Special puja for Subr
- ahmanya Swami in temples. Birth of Subrahmanya Swami. Worship Him with red
-  flowers.<br/><br/>सूर्ये वृषभराशौ कृत
- ्तिकासु सति\, चन्द्रमसि च वि
- परीतदिशि विशाखासु सत्य् आच
- र्यते सुब्रह्मण्यजन्मोत्स
- वः (पूर्वं श्रवण-कार्त्तिको
- त्सवे जातानां षण्णाम् बाला
- नाम् कृत्तिकाभिर् वर्ध्यमा
- ननाम् एकीकरणेन पार्वत्या)।<b
- r/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/a
- dyatithi/blob/master/devatA/kaumAra/sidereal_solar_month/nakshatra/02/16/v
- aikAci~vizAkham.toml)<br/>- Tags: TamilnaduTempleFestivals CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
