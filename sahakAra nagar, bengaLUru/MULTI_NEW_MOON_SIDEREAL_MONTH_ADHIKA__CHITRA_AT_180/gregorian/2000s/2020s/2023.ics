@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230815210009
+SEQUENCE:20230816203934
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -34818,6 +34818,29 @@ DESCRIPTION:Do puja to Surya/Suryanamaskaram.<br/><br/>## Details<br/>- [E
  dit config file](https://github.com/jyotisham/adyatithi/blob/master/tamil/
  description_only/AvaNi~JAyir2r2ukkizhamai.toml)<br/>- Tags: MonthWeekdayFe
  stivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अगस्त्यार्घ्यम्
+DTSTART;VALUE=DATE:20230910
+DTEND;VALUE=DATE:20230911
+DESCRIPTION:कन्यासङ्क्रमणादर्वाग
+ ्वै सप्तमदिने अगस्त्यार्घ्
+ यं दातव्यम्। उक्तं च हेमाद्
+ रौ।  <br/>कन्यायामागते सूर्ये 
+ अर्वाग्वै सप्तमे दिने।  <br/>क
+ न्यायाः समनुप्राप्त्यै ह्य
+ गस्त्यार्घ्यं विधीयते॥<br/><br/>
+ <br/><br/>## Details<br/>- References<br/>  - VrataNirnayaKalpavalli<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mah
+ ApuruSha/RShi/relative_event/kanyA-ravi-saGkramaNa-SaDazIti-puNyakAlaH/off
+ set__-7/agastyArghyam.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
