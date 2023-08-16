@@ -31338,6 +31338,26 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:agastyārghyam
+DTSTART;VALUE=DATE:20190910
+DTEND;VALUE=DATE:20190911
+DESCRIPTION:kanyāsaṅkramaṇādarvāgvai saptamadinē agastyārghyaṁ 
+ dātavyam। uktaṁ ca hēmādrau।  <br/>kanyāyāmāgatē sūryē arv
+ āgvai saptamē dinē।  <br/>kanyāyāḥ samanuprāptyai hyagastyārghy
+ aṁ vidhīyatē॥<br/><br/><br/><br/>## Details<br/>- References<br/>  -
+  VrataNirnayaKalpavalli<br/>- [Edit config file](https://github.com/jyotis
+ ham/adyatithi/blob/master/mahApuruSha/RShi/relative_event/kanyA-ravi-saGkr
+ amaNa-SaDazIti-puNyakAlaH/offset__-7/agastyArghyam.toml)<br/>- Tags: Tamil
+ naduTempleFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:ananta-dvādaśī
 DTSTART;VALUE=DATE:20190910
 DTEND;VALUE=DATE:20190911
