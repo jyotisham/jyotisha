@@ -40,8 +40,8 @@ class ShraddhaTithiAssigner(PeriodicPanchaangaApplier):
 
     lunar_month_list = sorted(list(set(
       [(dp.lunar_month_sunrise.index) for dp in self.panchaanga.daily_panchaangas_sorted()[2:self.panchaanga.duration + 2]] + [
-        13])))
-    # Including 13 for next lunar year's chaitra
+        13, 14])))
+    # Including 13, 14 for next lunar year's chaitra/vaishakha
     lunar_tithi_days = {_m: {t: [] for t in range(0, 31)} for _m in lunar_month_list}
 
     yest_tithis, aparaahna = self.panchaanga.daily_panchaangas_sorted()[1].get_interval_anga_spans(interval_id="aparaahna",
