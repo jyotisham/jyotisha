@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230914080012
+SEQUENCE:20230918084606
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -35860,6 +35860,28 @@ DESCRIPTION:- Indian civil date: 1945-06-26\, Islamic: 1445-03-02 Rabīʿ
  —15:15-16:45  \n___________________\n- **शूलम्**—प्र
  तीची (►11:01)\; **परिहारः**–गुडम्  \n_
  __________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:२०२२ आङ्ग्लद्वीपे मरूपप
+ ्लवः #१
+DTSTART;VALUE=DATE:20230917
+DTEND;VALUE=DATE:20230918
+DESCRIPTION:Event occured on 2022-09-17 (gregorian). <br/><br/>Islamists a
+ ttack a hindu temple in Leicester\, and desecrate flags.<br/><br/>Some of 
+ these instigators propagated fake news to inflame tensions and attacks aga
+ inst Hindus of Leicester.<br/><br/>1. Majid Freeman (claimed a muslim boy 
+ was harrassed - debunked the next day by Leicester police\; claimed anti-p
+ Aki slogans in a rally - also debunked.)<br/>2. Riaz Khan<br/>3. 5 Pillars
+  (Islamist mouthpiece)<br/><br/>## Details<br/>- [Edit config file](https:
+ //github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xatra-later/grego
+ rian/day/09/17/2022-angladvIpe_marUpaplavaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
