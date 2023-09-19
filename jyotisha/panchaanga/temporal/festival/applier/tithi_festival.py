@@ -553,25 +553,27 @@ class TithiFestivalAssigner(FestivalAssigner):
       if day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == 1 or day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == 2:
         tithi_sunset = temporal.tithi.get_tithi(day_panchaanga.jd_sunset).index
         tithi_sunset_tmrw = temporal.tithi.get_tithi(self.daily_panchaangas[d + 1].jd_sunset).index
-        # if tithi_sunset <= 2 and tithi_sunset_tmrw != 2:
+        fest_name = 'candra-darzanam'
+        if day_panchaanga.lunar_month_sunrise.index == 6:
+          fest_name = 'bhAdrapada-' + fest_name
         if tithi_sunset <= 2:
           if tithi_sunset == 1:
-            fest = FestivalInstance(name='candra-darzanam', interval=Interval(jd_start=self.daily_panchaangas[d+1].jd_sunset, jd_end=self.daily_panchaangas[d+1].graha_set_jd[Graha.MOON]))
+            fest = FestivalInstance(name=fest_name, interval=Interval(jd_start=self.daily_panchaangas[d+1].jd_sunset, jd_end=self.daily_panchaangas[d+1].graha_set_jd[Graha.MOON]))
             self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[d+1].date)
             
             d += 25
           else:
-            fest = FestivalInstance(name='candra-darzanam', interval=Interval(jd_start=self.daily_panchaangas[d].jd_sunset, jd_end=self.daily_panchaangas[d].graha_set_jd[Graha.MOON]))
+            fest = FestivalInstance(name=fest_name, interval=Interval(jd_start=self.daily_panchaangas[d].jd_sunset, jd_end=self.daily_panchaangas[d].graha_set_jd[Graha.MOON]))
             self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[d].date)
             d += 25
         elif tithi_sunset_tmrw == 2:
-          fest = FestivalInstance(name='candra-darzanam', interval=Interval(jd_start=self.daily_panchaangas[d+1].jd_sunset, jd_end=self.daily_panchaangas[d+1].graha_set_jd[Graha.MOON]))
+          fest = FestivalInstance(name=fest_name, interval=Interval(jd_start=self.daily_panchaangas[d+1].jd_sunset, jd_end=self.daily_panchaangas[d+1].graha_set_jd[Graha.MOON]))
           self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[d+1].date)
           d += 25
       d += 1
 
   def assign_bodhaayana_amaavaasyaa(self):
-    chandra_darshanam_days = list(self.panchaanga.festival_id_to_days['candra-darzanam'])
+    chandra_darshanam_days = list(self.panchaanga.festival_id_to_days['candra-darzanam']) + list(self.panchaanga.festival_id_to_days['bhAdrapada-candra-darzanam'])
     for cdd in chandra_darshanam_days:
       if 'darsheShTiH' in self.panchaanga.daily_panchaanga_for_date(cdd).festival_id_to_instance.keys():
         self.panchaanga.add_festival(fest_id='bOdhAyana-kAtyAyana-iSTiH', date=self.panchaanga.daily_panchaanga_for_date(cdd - 1).date)
