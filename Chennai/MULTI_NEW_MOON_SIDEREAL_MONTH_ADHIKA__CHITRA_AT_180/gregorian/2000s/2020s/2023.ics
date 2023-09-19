@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230918084716
+SEQUENCE:20230919170956
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -38023,17 +38023,17 @@ SUMMARY:हयग्रीव-जयन्ती
 DTSTART;VALUE=DATE:20230831
 DTEND;VALUE=DATE:20230901
 DESCRIPTION:Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) mon
- th (Sūryōdayaḥ/puurvaviddha). <br/><br/>Lord Hayagriva did upadesham o
- f all four vedas to Brahma.<br/><br/>ओङ्कारोद्गीथ
+ th (Sūryōdayaḥ/puurvaviddha). <br/><br/>Lord Hayagriva did upadesha of
+  all four Vedas to Brahma.<br/><br/>ओङ्कारोद्गीथ
  रूपाय ऋग्यजुस्साममूर्तये। 
   <br/>नमोऽस्तुदेवदेवाय वाच्छि
  तार्थप्रदायिने॥  <br/>अज्ञानत
- िमिरं छिन्धि ज्ञानं चऽऽशु प
- ्रयच्छ मे।  <br/>देहि मे देव देव
- ेश हयशीर्ष नमोऽस्तु ते॥<br/><br/><
- br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
- adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/05/15/hayagrIva~j
- ayantI.toml)<br/>- Tags: OtherAvatarams
+ िमिरं छिन्धि ज्ञानं चाशु प्
+ रयच्छ मे।  <br/>देहि मे देव देवे
+ श हयशीर्ष नमोऽस्तु ते॥<br/><br/><br/
+ ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
+ atithi/blob/master/devatA/vaiShNava/lunar_month/tithi/05/15/hayagrIva~jaya
+ ntI.toml)<br/>- Tags: OtherAvatarams
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
