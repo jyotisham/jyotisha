@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230919170831
+SEQUENCE:20230919172258
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -35751,18 +35751,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:चन्द्र-दर्शनम्
+SUMMARY:भाद्रपद-चन्द्र-दर्शनम्
 DTSTART;TZID=Asia/Calcutta:20230916T181702
 DTEND;TZID=Asia/Calcutta:20230916T191149
-DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
- ><br/>श्वेताम्बरः श्वेतविभूषण
- श्च  <br/>श्वेतद्युतिर्दण्डधर
- ो द्विबाहुः।  <br/>चन्द्रोऽमृत
- ात्मा वरदः किरीटी  <br/>मयि प्र
- सादं विदधातु देवः॥<br/><br/><br/><br/>## D
- etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
- b/master/devatA/graha/description_only/candra-darzanam.toml)<br/>- Tags: C
- handraDarshanam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/graha/description_only/bhAdrapada-candra-d
+ arzanam.toml)<br/>- Tags: ChandraDarshanam<br/><br/><br/><br/>## Details<b
+ r/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master
+ /devatA/graha/description_only/bhAdrapada-candra-darzanam.toml)<br/>- Tags
+ : ChandraDarshanam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
