@@ -239,6 +239,11 @@
           "name": "time_focus/Rtu"
         },
         {
+          "base_url": "https://github.com/jyotisham/adyatithi/blob/master/time_focus/luno-tropical/smArta",
+          "jsonClass": "RulesRepo",
+          "name": "time_focus/luno-tropical/smArta"
+        },
+        {
           "base_url": "https://github.com/jyotisham/adyatithi/blob/master/time_focus/misc",
           "jsonClass": "RulesRepo",
           "name": "time_focus/misc"

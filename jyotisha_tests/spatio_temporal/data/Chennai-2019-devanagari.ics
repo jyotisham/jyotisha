@@ -7440,6 +7440,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:darbha-saṅgraha ārtava-cāndraḥ 11
+DTSTART;VALUE=DATE:20190306
+DTEND;VALUE=DATE:20190307
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/luno-tropical/smArta/lunar_month/tithi
+ /11/30/darbha-saGgrahaH_ArtavaH_11.toml)<br/>- Tags: SpecialDays<br/><br/>
+ <br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham
+ /adyatithi/blob/master/time_focus/luno-tropical/smArta/lunar_month/tithi/1
+ 1/30/darbha-saGgrahaH_ArtavaH_11.toml)<br/>- Tags: SpecialDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:kaliyugādiḥ
 DTSTART;VALUE=DATE:20190306
 DTEND;VALUE=DATE:20190307
@@ -27526,14 +27544,14 @@ SUMMARY:hayagrīva-jayantī
 DTSTART;VALUE=DATE:20190815
 DTEND;VALUE=DATE:20190816
 DESCRIPTION:Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) mon
- th (Sūryōdayaḥ/puurvaviddha). <br/><br/>Lord Hayagriva did upadesham o
- f all four vedas to Brahma.<br/><br/>ōṅkārōdgītharūpāya r̥gyajuss
+ th (Sūryōdayaḥ/puurvaviddha). <br/><br/>Lord Hayagriva did upadesha of
+  all four Vedas to Brahma.<br/><br/>ōṅkārōdgītharūpāya r̥gyajuss
  āmamūrtayē।  <br/>namō'studēvadēvāya vācchitārthapradāyinē॥
-   <br/>ajñānatimiraṁ chindhi jñānaṁ ca''śu prayaccha mē।  <br/
- >dēhi mē dēva dēvēśa hayaśīrṣa namō'stu tē॥<br/><br/><br/><b
- r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
- thi/blob/master/devatA/vaiShNava/lunar_month/tithi/05/15/hayagrIva~jayantI
- .toml)<br/>- Tags: OtherAvatarams
+   <br/>ajñānatimiraṁ chindhi jñānaṁ cāśu prayaccha mē।  <br/>
+ dēhi mē dēva dēvēśa hayaśīrṣa namō'stu tē॥<br/><br/><br/><br
+ />## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatit
+ hi/blob/master/devatA/vaiShNava/lunar_month/tithi/05/15/hayagrIva~jayantI.
+ toml)<br/>- Tags: OtherAvatarams
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -29720,6 +29738,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:darbha-saṅgraha ārtava-cāndraḥ 5
+DTSTART;VALUE=DATE:20190830
+DTEND;VALUE=DATE:20190831
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/luno-tropical/smArta/lunar_month/tithi
+ /05/30/darbha-saGgrahaH_ArtavaH_5.toml)<br/>- Tags: SpecialDays<br/><br/><
+ br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
+ adyatithi/blob/master/time_focus/luno-tropical/smArta/lunar_month/tithi/05
+ /30/darbha-saGgrahaH_ArtavaH_5.toml)<br/>- Tags: SpecialDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Iḷaiyānkuḍi Māṟa Nāyanār (3) Gurupūjai
 DTSTART;VALUE=DATE:20190830
 DTEND;VALUE=DATE:20190831
@@ -29883,16 +29919,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:candra-darśanam
+SUMMARY:bhādrapada-candra-darśanam
 DTSTART;TZID=Asia/Calcutta:20190831T181722
 DTEND;TZID=Asia/Calcutta:20190831T191122
-DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
- ><br/>śvētāmbaraḥ śvētavibhūṣaṇaśca  <br/>śvētadyutirdaṇ
- ḍadharō dvibāhuḥ।  <br/>candrō'mr̥tātmā varadaḥ kirīṭī  
- <br/>mayi prasādaṁ vidadhātu dēvaḥ॥<br/><br/><br/><br/>## Details
- <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
- er/devatA/graha/description_only/candra-darzanam.toml)<br/>- Tags: Chandra
- Darshanam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/graha/description_only/bhAdrapada-candra-d
+ arzanam.toml)<br/>- Tags: ChandraDarshanam<br/><br/><br/><br/>## Details<b
+ r/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master
+ /devatA/graha/description_only/bhAdrapada-candra-darzanam.toml)<br/>- Tags
+ : ChandraDarshanam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
