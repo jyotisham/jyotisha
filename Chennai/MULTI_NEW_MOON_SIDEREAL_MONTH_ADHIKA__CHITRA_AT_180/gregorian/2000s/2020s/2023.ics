@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230923070941
+SEQUENCE:20230923173705
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -53234,6 +53234,26 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of every (lunar) month (Sūry
   for Lord Satyanarayana.<br/><br/>## Details<br/>- [Edit config file](http
  s://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/lunar_mont
  h/tithi/00/15/pUrNimA~vratam.toml)<br/>- Tags: MonthlyFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:पुष्कर-मेला-समाप्तिः
+DTSTART;VALUE=DATE:20231127
+DTEND;VALUE=DATE:20231128
+DESCRIPTION:Observed on Paurṇamāsī tithi of Kārttikaḥ (lunar) month
+  (Sūryōdayaḥ/puurvaviddha). <br/><br/>Pushkar’s Kartik Purnima festi
+ val - pilgrims bathe in the waters of holy Lake Pushkar.<br/><br/>Prior to
+  this\, for 3 days - folk dances\, live music shows etc..<br/><br/>Prior t
+ o that\, for 4 days - big lifestock fair\, with many horses\, camels\, cat
+ tle\; plus some rustic competitions.<br/><br/>## Details<br/>- [Edit confi
+ g file](https://github.com/jyotisham/adyatithi/blob/master/temples/North/l
+ unar_month/tithi/08/15/puShkara-melA-samAptiH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
