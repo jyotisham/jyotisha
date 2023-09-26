@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230926191439
+SEQUENCE:20230926210004
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -471,10 +471,14 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
  ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥<br/><
- br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
- sham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/pr
- adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ र्यं  जन्मान्तरशतेष्वपि॥  <br/
+ >त्रयोदश्यां दिवा स्थित्वा 
+ निराहारो महेश्वर।  <br/>नक्तं 
+ भोक्ष्यामि देवेश त्राहि मा
+ ं कृपया हर॥<br/><br/><br/><br/>## Details<br/>- [Edit co
+ nfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/m
+ onthly/pradoSha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyV
+ ratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -2526,10 +2530,14 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
  ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥<br/><
- br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
- sham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/pr
- adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ र्यं  जन्मान्तरशतेष्वपि॥  <br/
+ >त्रयोदश्यां दिवा स्थित्वा 
+ निराहारो महेश्वर।  <br/>नक्तं 
+ भोक्ष्यामि देवेश त्राहि मा
+ ं कृपया हर॥<br/><br/><br/><br/>## Details<br/>- [Edit co
+ nfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/m
+ onthly/pradoSha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyV
+ ratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -6743,14 +6751,18 @@ SUMMARY:शनि-प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta:20230218T182237
 DTEND;TZID=Asia/Calcutta:20230218T195520
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
- n Pradosha Kala.  Pradosha vratam is even more special\, when if falls on 
- a Saturday.<br/><br/>प्रदोषे  शिवपूजां  त
- ु  ये  कुर्याच्छ्रद्धया  युत
- ाः।  <br/>न  भवेत्  तस्य  दारिद्र
- ्यं  जन्मान्तरशतेष्वपि॥<br/><br/
- ><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisha
- m/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/zani-
- pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ n Pradosha Kala. Pradosha vratam is even more special\, when if falls on a
+  Saturday.<br/><br/>प्रदोषे शिवपूजां तु 
+ ये कुर्याच्छ्रद्धया युताः।
+   <br/>न भवेत् तस्य दारिद्र्यं ज
+ न्मान्तरशतेष्वपि॥  <br/>त्रयो
+ दश्यां दिवा स्थित्वा निराह
+ ारो महेश्वर।  <br/>नक्तं भोक्ष
+ ्यामि देवेश त्राहि मां कृपय
+ ा हर॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https
+ ://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoSha/
+ description_only/zani-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Prado
+ shaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -10570,10 +10582,14 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
  ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥<br/><
- br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
- sham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/pr
- adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ र्यं  जन्मान्तरशतेष्वपि॥  <br/
+ >त्रयोदश्यां दिवा स्थित्वा 
+ निराहारो महेश्वर।  <br/>नक्तं 
+ भोक्ष्यामि देवेश त्राहि मा
+ ं कृपया हर॥<br/><br/><br/><br/>## Details<br/>- [Edit co
+ nfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/m
+ onthly/pradoSha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyV
+ ratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -13111,13 +13127,16 @@ DTEND;TZID=Asia/Calcutta:20230403T195641
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala. Pradosha vratam is even more special\, when if falls on a
   Monday\, which is already a special day for śivārādhanam.<br/><br/>प
- ्रदोषे  शिवपूजां  तु  ये  कुर्
- याच्छ्रद्धया  युताः।  <br/>न  भव
- ेत्  तस्य  दारिद्र्यं  जन्मा
- न्तरशतेष्वपि॥<br/><br/><br/><br/>## Details<br/>
- - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/ti
- me_focus/monthly/pradoSha/description_only/sOma-pradOSa-vratam.toml)<br/>-
-  Tags: MonthlyVratam PradoshaVratam
+ ्रदोषे शिवपूजां तु ये कुर्य
+ ाच्छ्रद्धया युताः।  <br/>न भवे
+ त् तस्य दारिद्र्यं जन्मान्
+ तरशतेष्वपि॥  <br/>त्रयोदश्यां 
+ दिवा स्थित्वा निराहारो महे
+ श्वर।  <br/>नक्तं भोक्ष्यामि द
+ ेवेश त्राहि मां कृपया हर॥<br/><b
+ r/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
+ ham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/sOm
+ a-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -15165,13 +15184,16 @@ DTEND;TZID=Asia/Calcutta:20230417T195638
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala. Pradosha vratam is even more special\, when if falls on a
   Monday\, which is already a special day for śivārādhanam.<br/><br/>प
- ्रदोषे  शिवपूजां  तु  ये  कुर्
- याच्छ्रद्धया  युताः।  <br/>न  भव
- ेत्  तस्य  दारिद्र्यं  जन्मा
- न्तरशतेष्वपि॥<br/><br/><br/><br/>## Details<br/>
- - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/ti
- me_focus/monthly/pradoSha/description_only/sOma-pradOSa-vratam.toml)<br/>-
-  Tags: MonthlyVratam PradoshaVratam
+ ्रदोषे शिवपूजां तु ये कुर्य
+ ाच्छ्रद्धया युताः।  <br/>न भवे
+ त् तस्य दारिद्र्यं जन्मान्
+ तरशतेष्वपि॥  <br/>त्रयोदश्यां 
+ दिवा स्थित्वा निराहारो महे
+ श्वर।  <br/>नक्तं भोक्ष्यामि द
+ ेवेश त्राहि मां कृपया हर॥<br/><b
+ r/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
+ ham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/sOm
+ a-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -17673,10 +17695,14 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
  ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥<br/><
- br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
- sham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/pr
- adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ र्यं  जन्मान्तरशतेष्वपि॥  <br/
+ >त्रयोदश्यां दिवा स्थित्वा 
+ निराहारो महेश्वर।  <br/>नक्तं 
+ भोक्ष्यामि देवेश त्राहि मा
+ ं कृपया हर॥<br/><br/><br/><br/>## Details<br/>- [Edit co
+ nfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/m
+ onthly/pradoSha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyV
+ ratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -19464,10 +19490,14 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
  ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥<br/><
- br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
- sham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/pr
- adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ र्यं  जन्मान्तरशतेष्वपि॥  <br/
+ >त्रयोदश्यां दिवा स्थित्वा 
+ निराहारो महेश्वर।  <br/>नक्तं 
+ भोक्ष्यामि देवेश त्राहि मा
+ ं कृपया हर॥<br/><br/><br/><br/>## Details<br/>- [Edit co
+ nfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/m
+ onthly/pradoSha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyV
+ ratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -21625,10 +21655,14 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
  ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥<br/><
- br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
- sham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/pr
- adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ र्यं  जन्मान्तरशतेष्वपि॥  <br/
+ >त्रयोदश्यां दिवा स्थित्वा 
+ निराहारो महेश्वर।  <br/>नक्तं 
+ भोक्ष्यामि देवेश त्राहि मा
+ ं कृपया हर॥<br/><br/><br/><br/>## Details<br/>- [Edit co
+ nfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/m
+ onthly/pradoSha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyV
+ ratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -23303,10 +23337,14 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
  ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥<br/><
- br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
- sham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/pr
- adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ र्यं  जन्मान्तरशतेष्वपि॥  <br/
+ >त्रयोदश्यां दिवा स्थित्वा 
+ निराहारो महेश्वर।  <br/>नक्तं 
+ भोक्ष्यामि देवेश त्राहि मा
+ ं कृपया हर॥<br/><br/><br/><br/>## Details<br/>- [Edit co
+ nfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/m
+ onthly/pradoSha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyV
+ ratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -27269,14 +27307,18 @@ SUMMARY:शनि-प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta:20230715T184639
 DTEND;TZID=Asia/Calcutta:20230715T201126
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
- n Pradosha Kala.  Pradosha vratam is even more special\, when if falls on 
- a Saturday.<br/><br/>प्रदोषे  शिवपूजां  त
- ु  ये  कुर्याच्छ्रद्धया  युत
- ाः।  <br/>न  भवेत्  तस्य  दारिद्र
- ्यं  जन्मान्तरशतेष्वपि॥<br/><br/
- ><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisha
- m/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/zani-
- pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ n Pradosha Kala. Pradosha vratam is even more special\, when if falls on a
+  Saturday.<br/><br/>प्रदोषे शिवपूजां तु 
+ ये कुर्याच्छ्रद्धया युताः।
+   <br/>न भवेत् तस्य दारिद्र्यं ज
+ न्मान्तरशतेष्वपि॥  <br/>त्रयो
+ दश्यां दिवा स्थित्वा निराह
+ ारो महेश्वर।  <br/>नक्तं भोक्ष
+ ्यामि देवेश त्राहि मां कृपय
+ ा हर॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https
+ ://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoSha/
+ description_only/zani-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Prado
+ shaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -30706,10 +30748,14 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
  ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥<br/><
- br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
- sham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/pr
- adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ र्यं  जन्मान्तरशतेष्वपि॥  <br/
+ >त्रयोदश्यां दिवा स्थित्वा 
+ निराहारो महेश्वर।  <br/>नक्तं 
+ भोक्ष्यामि देवेश त्राहि मा
+ ं कृपया हर॥<br/><br/><br/><br/>## Details<br/>- [Edit co
+ nfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/m
+ onthly/pradoSha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyV
+ ratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -32957,13 +33003,16 @@ DTEND;TZID=Asia/Calcutta:20230828T195748
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala. Pradosha vratam is even more special\, when if falls on a
   Monday\, which is already a special day for śivārādhanam.<br/><br/>प
- ्रदोषे  शिवपूजां  तु  ये  कुर्
- याच्छ्रद्धया  युताः।  <br/>न  भव
- ेत्  तस्य  दारिद्र्यं  जन्मा
- न्तरशतेष्वपि॥<br/><br/><br/><br/>## Details<br/>
- - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/ti
- me_focus/monthly/pradoSha/description_only/sOma-pradOSa-vratam.toml)<br/>-
-  Tags: MonthlyVratam PradoshaVratam
+ ्रदोषे शिवपूजां तु ये कुर्य
+ ाच्छ्रद्धया युताः।  <br/>न भवे
+ त् तस्य दारिद्र्यं जन्मान्
+ तरशतेष्वपि॥  <br/>त्रयोदश्यां 
+ दिवा स्थित्वा निराहारो महे
+ श्वर।  <br/>नक्तं भोक्ष्यामि द
+ ेवेश त्राहि मां कृपया हर॥<br/><b
+ r/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
+ ham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/sOm
+ a-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -35118,10 +35167,14 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
  ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥<br/><
- br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
- sham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/pr
- adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ र्यं  जन्मान्तरशतेष्वपि॥  <br/
+ >त्रयोदश्यां दिवा स्थित्वा 
+ निराहारो महेश्वर।  <br/>नक्तं 
+ भोक्ष्यामि देवेश त्राहि मा
+ ं कृपया हर॥<br/><br/><br/><br/>## Details<br/>- [Edit co
+ nfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/m
+ onthly/pradoSha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyV
+ ratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -37697,10 +37750,14 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
  ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥<br/><
- br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
- sham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/pr
- adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ र्यं  जन्मान्तरशतेष्वपि॥  <br/
+ >त्रयोदश्यां दिवा स्थित्वा 
+ निराहारो महेश्वर।  <br/>नक्तं 
+ भोक्ष्यामि देवेश त्राहि मा
+ ं कृपया हर॥<br/><br/><br/><br/>## Details<br/>- [Edit co
+ nfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/m
+ onthly/pradoSha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyV
+ ratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -39696,10 +39753,14 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
  ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥<br/><
- br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
- sham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/pr
- adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ र्यं  जन्मान्तरशतेष्वपि॥  <br/
+ >त्रयोदश्यां दिवा स्थित्वा 
+ निराहारो महेश्वर।  <br/>नक्तं 
+ भोक्ष्यामि देवेश त्राहि मा
+ ं कृपया हर॥<br/><br/><br/><br/>## Details<br/>- [Edit co
+ nfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/m
+ onthly/pradoSha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyV
+ ratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -42248,10 +42309,14 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
  ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥<br/><
- br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
- sham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/pr
- adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ र्यं  जन्मान्तरशतेष्वपि॥  <br/
+ >त्रयोदश्यां दिवा स्थित्वा 
+ निराहारो महेश्वर।  <br/>नक्तं 
+ भोक्ष्यामि देवेश त्राहि मा
+ ं कृपया हर॥<br/><br/><br/><br/>## Details<br/>- [Edit co
+ nfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/m
+ onthly/pradoSha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyV
+ ratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -44283,10 +44348,14 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
  ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥<br/><
- br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
- sham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/pr
- adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ र्यं  जन्मान्तरशतेष्वपि॥  <br/
+ >त्रयोदश्यां दिवा स्थित्वा 
+ निराहारो महेश्वर।  <br/>नक्तं 
+ भोक्ष्यामि देवेश त्राहि मा
+ ं कृपया हर॥<br/><br/><br/><br/>## Details<br/>- [Edit co
+ nfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/m
+ onthly/pradoSha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyV
+ ratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -49195,10 +49264,14 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
  ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥<br/><
- br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
- sham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/pr
- adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ र्यं  जन्मान्तरशतेष्वपि॥  <br/
+ >त्रयोदश्यां दिवा स्थित्वा 
+ निराहारो महेश्वर।  <br/>नक्तं 
+ भोक्ष्यामि देवेश त्राहि मा
+ ं कृपया हर॥<br/><br/><br/><br/>## Details<br/>- [Edit co
+ nfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/m
+ onthly/pradoSha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyV
+ ratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
