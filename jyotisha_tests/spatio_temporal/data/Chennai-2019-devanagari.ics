@@ -286,10 +286,11 @@ DTEND;TZID=Asia/Calcutta:20190103T192629
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>pradōṣē  śivapūjāṁ  tu  yē  kuryācchr
  addhayā  yutāḥ।  <br/>na  bhavēt  tasya  dāridryaṁ  janmāntara
- śatēṣvapi॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoS
- ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
- aVratam
+ śatēṣvapi॥  <br/>trayōdaśyāṁ divā sthitvā nirāhārō mahēś
+ vara।  <br/>naktaṁ bhōkṣyāmi dēvēśa trāhi māṁ kr̥payā har
+ a॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
+ .com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoSha/descripti
+ on_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -3607,13 +3608,14 @@ SUMMARY:śani-pradōṣa-vratam
 DTSTART;TZID=Asia/Calcutta:20190202T180625
 DTEND;TZID=Asia/Calcutta:20190202T194027
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
- n Pradosha Kala.  Pradosha vratam is even more special\, when if falls on 
- a Saturday.<br/><br/>pradōṣē  śivapūjāṁ  tu  yē  kuryācchraddha
- yā  yutāḥ।  <br/>na  bhavēt  tasya  dāridryaṁ  janmāntaraśatē
- ṣvapi॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://
- github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoSha/des
- cription_only/zani-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosha
- Vratam
+ n Pradosha Kala. Pradosha vratam is even more special\, when if falls on a
+  Saturday.<br/><br/>pradōṣē śivapūjāṁ tu yē kuryācchraddhayā y
+ utāḥ।  <br/>na bhavēt tasya dāridryaṁ janmāntaraśatēṣvapi॥
+   <br/>trayōdaśyāṁ divā sthitvā nirāhārō mahēśvara।  <br/>na
+ ktaṁ bhōkṣyāmi dēvēśa trāhi māṁ kr̥payā hara॥<br/><br/><b
+ r/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/a
+ dyatithi/blob/master/time_focus/monthly/pradoSha/description_only/zani-pra
+ dOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -7131,10 +7133,11 @@ DTEND;TZID=Asia/Calcutta:20190303T194604
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>pradōṣē  śivapūjāṁ  tu  yē  kuryācchr
  addhayā  yutāḥ।  <br/>na  bhavēt  tasya  dāridryaṁ  janmāntara
- śatēṣvapi॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoS
- ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
- aVratam
+ śatēṣvapi॥  <br/>trayōdaśyāṁ divā sthitvā nirāhārō mahēś
+ vara।  <br/>naktaṁ bhōkṣyāmi dēvēśa trāhi māṁ kr̥payā har
+ a॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
+ .com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoSha/descripti
+ on_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -8952,11 +8955,13 @@ DTEND;TZID=Asia/Calcutta:20190318T194622
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala. Pradosha vratam is even more special\, when if falls on a
   Monday\, which is already a special day for śivārādhanam.<br/><br/>pra
- dōṣē  śivapūjāṁ  tu  yē  kuryācchraddhayā  yutāḥ।  <br/>n
- a  bhavēt  tasya  dāridryaṁ  janmāntaraśatēṣvapi॥<br/><br/><br/
- ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
- atithi/blob/master/time_focus/monthly/pradoSha/description_only/sOma-pradO
- Sa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ dōṣē śivapūjāṁ tu yē kuryācchraddhayā yutāḥ।  <br/>na bha
+ vēt tasya dāridryaṁ janmāntaraśatēṣvapi॥  <br/>trayōdaśyāṁ
+  divā sthitvā nirāhārō mahēśvara।  <br/>naktaṁ bhōkṣyāmi d
+ ēvēśa trāhi māṁ kr̥payā hara॥<br/><br/><br/><br/>## Details<br/
+ >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/t
+ ime_focus/monthly/pradoSha/description_only/sOma-pradOSa-vratam.toml)<br/>
+ - Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -10639,10 +10644,11 @@ DTEND;TZID=Asia/Calcutta:20190402T194556
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>pradōṣē  śivapūjāṁ  tu  yē  kuryācchr
  addhayā  yutāḥ।  <br/>na  bhavēt  tasya  dāridryaṁ  janmāntara
- śatēṣvapi॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoS
- ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
- aVratam
+ śatēṣvapi॥  <br/>trayōdaśyāṁ divā sthitvā nirāhārō mahēś
+ vara।  <br/>naktaṁ bhōkṣyāmi dēvēśa trāhi māṁ kr̥payā har
+ a॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
+ .com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoSha/descripti
+ on_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -12863,10 +12869,11 @@ DTEND;TZID=Asia/Calcutta:20190417T194556
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>pradōṣē  śivapūjāṁ  tu  yē  kuryācchr
  addhayā  yutāḥ।  <br/>na  bhavēt  tasya  dāridryaṁ  janmāntara
- śatēṣvapi॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoS
- ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
- aVratam
+ śatēṣvapi॥  <br/>trayōdaśyāṁ divā sthitvā nirāhārō mahēś
+ vara।  <br/>naktaṁ bhōkṣyāmi dēvēśa trāhi māṁ kr̥payā har
+ a॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
+ .com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoSha/descripti
+ on_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -14464,10 +14471,11 @@ DTEND;TZID=Asia/Calcutta:20190502T194656
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>pradōṣē  śivapūjāṁ  tu  yē  kuryācchr
  addhayā  yutāḥ।  <br/>na  bhavēt  tasya  dāridryaṁ  janmāntara
- śatēṣvapi॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoS
- ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
- aVratam
+ śatēṣvapi॥  <br/>trayōdaśyāṁ divā sthitvā nirāhārō mahēś
+ vara।  <br/>naktaṁ bhōkṣyāmi dēvēśa trāhi māṁ kr̥payā har
+ a॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
+ .com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoSha/descripti
+ on_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -16435,10 +16443,11 @@ DTEND;TZID=Asia/Calcutta:20190516T194906
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>pradōṣē  śivapūjāṁ  tu  yē  kuryācchr
  addhayā  yutāḥ।  <br/>na  bhavēt  tasya  dāridryaṁ  janmāntara
- śatēṣvapi॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoS
- ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
- aVratam
+ śatēṣvapi॥  <br/>trayōdaśyāṁ divā sthitvā nirāhārō mahēś
+ vara।  <br/>naktaṁ bhōkṣyāmi dēvēśa trāhi māṁ kr̥payā har
+ a॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
+ .com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoSha/descripti
+ on_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -18235,10 +18244,11 @@ DTEND;TZID=Asia/Calcutta:20190531T195242
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>pradōṣē  śivapūjāṁ  tu  yē  kuryācchr
  addhayā  yutāḥ।  <br/>na  bhavēt  tasya  dāridryaṁ  janmāntara
- śatēṣvapi॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoS
- ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
- aVratam
+ śatēṣvapi॥  <br/>trayōdaśyāṁ divā sthitvā nirāhārō mahēś
+ vara।  <br/>naktaṁ bhōkṣyāmi dēvēśa trāhi māṁ kr̥payā har
+ a॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
+ .com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoSha/descripti
+ on_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -21899,10 +21909,11 @@ DTEND;TZID=Asia/Calcutta:20190630T195945
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>pradōṣē  śivapūjāṁ  tu  yē  kuryācchr
  addhayā  yutāḥ।  <br/>na  bhavēt  tasya  dāridryaṁ  janmāntara
- śatēṣvapi॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoS
- ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
- aVratam
+ śatēṣvapi॥  <br/>trayōdaśyāṁ divā sthitvā nirāhārō mahēś
+ vara।  <br/>naktaṁ bhōkṣyāmi dēvēśa trāhi māṁ kr̥payā har
+ a॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
+ .com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoSha/descripti
+ on_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -25360,11 +25371,13 @@ DTEND;TZID=Asia/Calcutta:20190729T195902
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala. Pradosha vratam is even more special\, when if falls on a
   Monday\, which is already a special day for śivārādhanam.<br/><br/>pra
- dōṣē  śivapūjāṁ  tu  yē  kuryācchraddhayā  yutāḥ।  <br/>n
- a  bhavēt  tasya  dāridryaṁ  janmāntaraśatēṣvapi॥<br/><br/><br/
- ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
- atithi/blob/master/time_focus/monthly/pradoSha/description_only/sOma-pradO
- Sa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ dōṣē śivapūjāṁ tu yē kuryācchraddhayā yutāḥ।  <br/>na bha
+ vēt tasya dāridryaṁ janmāntaraśatēṣvapi॥  <br/>trayōdaśyāṁ
+  divā sthitvā nirāhārō mahēśvara।  <br/>naktaṁ bhōkṣyāmi d
+ ēvēśa trāhi māṁ kr̥payā hara॥<br/><br/><br/><br/>## Details<br/
+ >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/t
+ ime_focus/monthly/pradoSha/description_only/sOma-pradOSa-vratam.toml)<br/>
+ - Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -27224,11 +27237,13 @@ DTEND;TZID=Asia/Calcutta:20190812T195443
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala. Pradosha vratam is even more special\, when if falls on a
   Monday\, which is already a special day for śivārādhanam.<br/><br/>pra
- dōṣē  śivapūjāṁ  tu  yē  kuryācchraddhayā  yutāḥ।  <br/>n
- a  bhavēt  tasya  dāridryaṁ  janmāntaraśatēṣvapi॥<br/><br/><br/
- ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
- atithi/blob/master/time_focus/monthly/pradoSha/description_only/sOma-pradO
- Sa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ dōṣē śivapūjāṁ tu yē kuryācchraddhayā yutāḥ।  <br/>na bha
+ vēt tasya dāridryaṁ janmāntaraśatēṣvapi॥  <br/>trayōdaśyāṁ
+  divā sthitvā nirāhārō mahēśvara।  <br/>naktaṁ bhōkṣyāmi d
+ ēvēśa trāhi māṁ kr̥payā hara॥<br/><br/><br/><br/>## Details<br/
+ >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/t
+ ime_focus/monthly/pradoSha/description_only/sOma-pradOSa-vratam.toml)<br/>
+ - Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -29451,10 +29466,11 @@ DTEND;TZID=Asia/Calcutta:20190828T194705
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>pradōṣē  śivapūjāṁ  tu  yē  kuryācchr
  addhayā  yutāḥ।  <br/>na  bhavēt  tasya  dāridryaṁ  janmāntara
- śatēṣvapi॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoS
- ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
- aVratam
+ śatēṣvapi॥  <br/>trayōdaśyāṁ divā sthitvā nirāhārō mahēś
+ vara।  <br/>naktaṁ bhōkṣyāmi dēvēśa trāhi māṁ kr̥payā har
+ a॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
+ .com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoSha/descripti
+ on_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -31640,10 +31656,11 @@ DTEND;TZID=Asia/Calcutta:20190911T193852
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>pradōṣē  śivapūjāṁ  tu  yē  kuryācchr
  addhayā  yutāḥ।  <br/>na  bhavēt  tasya  dāridryaṁ  janmāntara
- śatēṣvapi॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoS
- ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
- aVratam
+ śatēṣvapi॥  <br/>trayōdaśyāṁ divā sthitvā nirāhārō mahēś
+ vara।  <br/>naktaṁ bhōkṣyāmi dēvēśa trāhi māṁ kr̥payā har
+ a॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
+ .com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoSha/descripti
+ on_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -33608,10 +33625,11 @@ DTEND;TZID=Asia/Calcutta:20190926T192922
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>pradōṣē  śivapūjāṁ  tu  yē  kuryācchr
  addhayā  yutāḥ।  <br/>na  bhavēt  tasya  dāridryaṁ  janmāntara
- śatēṣvapi॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoS
- ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
- aVratam
+ śatēṣvapi॥  <br/>trayōdaśyāṁ divā sthitvā nirāhārō mahēś
+ vara।  <br/>naktaṁ bhōkṣyāmi dēvēśa trāhi māṁ kr̥payā har
+ a॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
+ .com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoSha/descripti
+ on_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -37464,10 +37482,11 @@ DTEND;TZID=Asia/Calcutta:20191025T191423
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>pradōṣē  śivapūjāṁ  tu  yē  kuryācchr
  addhayā  yutāḥ।  <br/>na  bhavēt  tasya  dāridryaṁ  janmāntara
- śatēṣvapi॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoS
- ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
- aVratam
+ śatēṣvapi॥  <br/>trayōdaśyāṁ divā sthitvā nirāhārō mahēś
+ vara।  <br/>naktaṁ bhōkṣyāmi dēvēśa trāhi māṁ kr̥payā har
+ a॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
+ .com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoSha/descripti
+ on_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -41754,10 +41773,11 @@ DTEND;TZID=Asia/Calcutta:20191124T191030
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>pradōṣē  śivapūjāṁ  tu  yē  kuryācchr
  addhayā  yutāḥ।  <br/>na  bhavēt  tasya  dāridryaṁ  janmāntara
- śatēṣvapi॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoS
- ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
- aVratam
+ śatēṣvapi॥  <br/>trayōdaśyāṁ divā sthitvā nirāhārō mahēś
+ vara।  <br/>naktaṁ bhōkṣyāmi dēvēśa trāhi māṁ kr̥payā har
+ a॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
+ .com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoSha/descripti
+ on_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -43473,11 +43493,13 @@ DTEND;TZID=Asia/Calcutta:20191209T191415
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala. Pradosha vratam is even more special\, when if falls on a
   Monday\, which is already a special day for śivārādhanam.<br/><br/>pra
- dōṣē  śivapūjāṁ  tu  yē  kuryācchraddhayā  yutāḥ।  <br/>n
- a  bhavēt  tasya  dāridryaṁ  janmāntaraśatēṣvapi॥<br/><br/><br/
- ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
- atithi/blob/master/time_focus/monthly/pradoSha/description_only/sOma-pradO
- Sa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ dōṣē śivapūjāṁ tu yē kuryācchraddhayā yutāḥ।  <br/>na bha
+ vēt tasya dāridryaṁ janmāntaraśatēṣvapi॥  <br/>trayōdaśyāṁ
+  divā sthitvā nirāhārō mahēśvara।  <br/>naktaṁ bhōkṣyāmi d
+ ēvēśa trāhi māṁ kr̥payā hara॥<br/><br/><br/><br/>## Details<br/
+ >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/t
+ ime_focus/monthly/pradoSha/description_only/sOma-pradOSa-vratam.toml)<br/>
+ - Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -45087,11 +45109,13 @@ DTEND;TZID=Asia/Calcutta:20191223T192026
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala. Pradosha vratam is even more special\, when if falls on a
   Monday\, which is already a special day for śivārādhanam.<br/><br/>pra
- dōṣē  śivapūjāṁ  tu  yē  kuryācchraddhayā  yutāḥ।  <br/>n
- a  bhavēt  tasya  dāridryaṁ  janmāntaraśatēṣvapi॥<br/><br/><br/
- ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
- atithi/blob/master/time_focus/monthly/pradoSha/description_only/sOma-pradO
- Sa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ dōṣē śivapūjāṁ tu yē kuryācchraddhayā yutāḥ।  <br/>na bha
+ vēt tasya dāridryaṁ janmāntaraśatēṣvapi॥  <br/>trayōdaśyāṁ
+  divā sthitvā nirāhārō mahēśvara।  <br/>naktaṁ bhōkṣyāmi d
+ ēvēśa trāhi māṁ kr̥payā hara॥<br/><br/><br/><br/>## Details<br/
+ >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/t
+ ime_focus/monthly/pradoSha/description_only/sOma-pradOSa-vratam.toml)<br/>
+ - Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
