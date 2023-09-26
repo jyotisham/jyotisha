@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20230925124915
+SEQUENCE:20230926190447
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -37514,20 +37514,13 @@ BEGIN:VEVENT
 SUMMARY:वामन-जयन्ती
 DTSTART;VALUE=DATE:20230926
 DTEND;VALUE=DATE:20230927
-DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Bhādrapadaḥ (lunar) 
- month (Madhyāhnaḥ/puurvaviddha). <br/><br/>Wednesday Shravana \; Vamana
-  Jayanti\; Shravana Dvadashi\; Vijaya Dvadashi\; Shakra Dvadashi<br/><br/>
- मासि भाद्रपदे शुक्लद्वादश्
- यां वामनो विभुः।  <br/>अदित्या
- ं काश्यपाज्जज्ञे नियन्तुं 
- बलिमोजसा॥  <br/>अवतारदिने पुण्
- ये हरिमुद्दिश्य भक्तितः।  <br/
- >उपवासादि यत् किञ्चित्तदान
- न्त्याय कल्पते॥<br/><br/><br/><br/>## Details<
- br/>- References<br/>  - Vaidyanatha Dikshitiyam (SVR) p.62<br/>- [Edit co
- nfig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiSh
- Nava/lunar_month/tithi/06/12/vAmana~jayantI.toml)<br/>- Tags: Dashavataram
-  CommonFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/06/12/vAmana~j
+ ayantI.toml)<br/>- Tags: Dashavataram CommonFestivals<br/><br/><br/><br/>#
+ # Details<br/>- References<br/>  - Vaidyanatha Dikshitiyam (SVR) p.62<br/>
+ - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/de
+ vatA/vaiShNava/lunar_month/tithi/06/12/vAmana~jayantI.toml)<br/>- Tags: Da
+ shavataram CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -37559,10 +37552,13 @@ BEGIN:VEVENT
 SUMMARY:विजया/श्रवण-महाद्वादशी
 DTSTART;VALUE=DATE:20230926
 DTEND;VALUE=DATE:20230927
-DESCRIPTION:Dvadashi tithi\, combined with Shravana nakshatra.<br/><br/>##
-  Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/b
- lob/master/time_focus/monthly/dvAdashI/description_only/vijayA_or_zravaNa-
- mahAdvAdazI.toml)<br/>- Tags: RareDays Combinations SpecialVratam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/dvAdashI/description_only/vija
+ yA_or_zravaNa-mahAdvAdazI.toml)<br/>- Tags: RareDays Combinations SpecialV
+ ratam<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://githu
+ b.com/jyotisham/adyatithi/blob/master/time_focus/monthly/dvAdashI/descript
+ ion_only/vijayA_or_zravaNa-mahAdvAdazI.toml)<br/>- Tags: RareDays Combinat
+ ions SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
