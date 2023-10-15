@@ -597,6 +597,7 @@ class TithiFestivalAssigner(FestivalAssigner):
     # We forcefully assigned candra-darzanam to facilitate bodhAyana-kAtyAyana calc - now remove if not needed!
     if 'candra-darzanam' not in self.rules_collection.name_to_rule:
       self.panchaanga.delete_festival(fest_id='candra-darzanam')
+      self.panchaanga.delete_festival(fest_id='bhAdrapada-candra-darzanam')
 
   def assign_vaarunii_trayodashi(self):
     if 'vAruNI~trayOdazI' not in self.rules_collection.name_to_rule:
