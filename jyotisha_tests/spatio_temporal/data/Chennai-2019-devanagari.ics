@@ -2189,25 +2189,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:pātārka-yōgaḥ
-DTSTART;VALUE=DATE:20190119
-DTEND;VALUE=DATE:20190120
-DESCRIPTION:When Vyatipata yoga falls on a Sunday\, it is a special yōga
- ḥ\, which is equal to a thousand Surya grahanas.<br/><br/>bhānōrvārē
-  vyatīpātayōgaḥ sampadyatē yadi।  <br/>tadā pātārkayōgō'yaṁ
-  sahasrārkagrahaiḥ samaḥ॥<br/><br/><br/><br/>## Details<br/>- Refer
- ences<br/>  - VrataNirnayaKalpavalli<br/>- [Edit config file](https://gith
- ub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/descri
- ption_only/pAtArka-yOgaH.toml)<br/>- Tags: RareDays Combinations
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:pañca-parva-pūjā (pūrṇimā)
 DTSTART;VALUE=DATE:20190120
 DTEND;VALUE=DATE:20190121
@@ -13561,6 +13542,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pātārka-yōgaḥ
+DTSTART;VALUE=DATE:20190420
+DTEND;VALUE=DATE:20190421
+DESCRIPTION:When Vyatipata yoga falls on a Sunday\, it is a special yōga
+ ḥ\, which is equal to a thousand Surya grahanas.<br/><br/>bhānōrvārē
+  vyatīpātayōgaḥ sampadyatē yadi।  <br/>tadā pātārkayōgō'yaṁ
+  sahasrārkagrahaiḥ samaḥ॥<br/><br/><br/><br/>## Details<br/>- Refer
+ ences<br/>  - VrataNirnayaKalpavalli<br/>- [Edit config file](https://gith
+ ub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/descri
+ ption_only/pAtArka-yOgaH.toml)<br/>- Tags: RareDays Combinations
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:vyatīpāta-śrāddham
 DTSTART;VALUE=DATE:20190421
 DTEND;VALUE=DATE:20190422
@@ -17777,25 +17777,6 @@ DESCRIPTION:saptamī tithi on a Sunday is as sacred as a solar eclipse. Pa
  ḥ॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://gith
  ub.com/jyotisham/adyatithi/blob/master/time_focus/tithi-vara-combinations/
  description_only/bhAnusaptamI.toml)<br/>- Tags: RareDays Combinations
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:pātārka-yōgaḥ
-DTSTART;VALUE=DATE:20190525
-DTEND;VALUE=DATE:20190526
-DESCRIPTION:When Vyatipata yoga falls on a Sunday\, it is a special yōga
- ḥ\, which is equal to a thousand Surya grahanas.<br/><br/>bhānōrvārē
-  vyatīpātayōgaḥ sampadyatē yadi।  <br/>tadā pātārkayōgō'yaṁ
-  sahasrārkagrahaiḥ samaḥ॥<br/><br/><br/><br/>## Details<br/>- Refer
- ences<br/>  - VrataNirnayaKalpavalli<br/>- [Edit config file](https://gith
- ub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/descri
- ption_only/pAtArka-yOgaH.toml)<br/>- Tags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22878,6 +22859,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pātārka-yōgaḥ
+DTSTART;VALUE=DATE:20190706
+DTEND;VALUE=DATE:20190707
+DESCRIPTION:When Vyatipata yoga falls on a Sunday\, it is a special yōga
+ ḥ\, which is equal to a thousand Surya grahanas.<br/><br/>bhānōrvārē
+  vyatīpātayōgaḥ sampadyatē yadi।  <br/>tadā pātārkayōgō'yaṁ
+  sahasrārkagrahaiḥ samaḥ॥<br/><br/><br/><br/>## Details<br/>- Refer
+ ences<br/>  - VrataNirnayaKalpavalli<br/>- [Edit config file](https://gith
+ ub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/descri
+ ption_only/pAtArka-yOgaH.toml)<br/>- Tags: RareDays Combinations
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:skanda-pañcamī
 DTSTART;VALUE=DATE:20190707
 DTEND;VALUE=DATE:20190708
@@ -27088,25 +27088,6 @@ DESCRIPTION:- Indian civil date: 1941-05-20\, Islamic: 1440-12-09 Ḏū al
  haṇṭaḥ**—12:14-13:47\; **Gulikakālaḥ**—15:21-16:55  \n_______
  ____________\n- **Śūlam**—Pratīchī (►10:59)\; **Parihāraḥ**–G
  uḍam  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:pātārka-yōgaḥ
-DTSTART;VALUE=DATE:20190810
-DTEND;VALUE=DATE:20190811
-DESCRIPTION:When Vyatipata yoga falls on a Sunday\, it is a special yōga
- ḥ\, which is equal to a thousand Surya grahanas.<br/><br/>bhānōrvārē
-  vyatīpātayōgaḥ sampadyatē yadi।  <br/>tadā pātārkayōgō'yaṁ
-  sahasrārkagrahaiḥ samaḥ॥<br/><br/><br/><br/>## Details<br/>- Refer
- ences<br/>  - VrataNirnayaKalpavalli<br/>- [Edit config file](https://gith
- ub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/descri
- ption_only/pAtArka-yOgaH.toml)<br/>- Tags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -33178,6 +33159,25 @@ DESCRIPTION:vyatīpāta is regarded as the king of yōgas. Though it occur
  itr̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
  otisham/adyatithi/blob/master/devatA/pitR/description_only/mahAvyatIpAta-z
  rAddham.toml)<br/>- Tags: ShraddhaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pātārka-yōgaḥ
+DTSTART;VALUE=DATE:20190921
+DTEND;VALUE=DATE:20190922
+DESCRIPTION:When Vyatipata yoga falls on a Sunday\, it is a special yōga
+ ḥ\, which is equal to a thousand Surya grahanas.<br/><br/>bhānōrvārē
+  vyatīpātayōgaḥ sampadyatē yadi।  <br/>tadā pātārkayōgō'yaṁ
+  sahasrārkagrahaiḥ samaḥ॥<br/><br/><br/><br/>## Details<br/>- Refer
+ ences<br/>  - VrataNirnayaKalpavalli<br/>- [Edit config file](https://gith
+ ub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/descri
+ ption_only/pAtArka-yOgaH.toml)<br/>- Tags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
