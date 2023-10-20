@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20231020083944
+SEQUENCE:20231020085531
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -46215,24 +46215,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सरस्वती-आवाहनम्
-DTSTART;VALUE=DATE:20231020
-DTEND;VALUE=DATE:20231021
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/devatA/shakti/lunar_month/nakshatra/07/19/sarasva
- tI-AvAhanam.toml)<br/>- Tags: CommonFestivals<br/><br/><br/><br/>## Detail
- s<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mas
- ter/devatA/shakti/lunar_month/nakshatra/07/19/sarasvatI-AvAhanam.toml)<br/
- >- Tags: CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:आश्वयुजः-07-07  \,  धनुः-पूर्व
  ाषाढा🌛🌌  \,  तुला-चित्रा-07-04🌞🌌
    \,  इषः-07-29🌞🪐  \,  शनिः
@@ -46332,6 +46314,24 @@ DESCRIPTION:Observed on Śukla-Saptamī tithi of Āśvayujaḥ (lunar) mon
   Panchagavya\, and break fast the next day.<br/><br/>## Details<br/>- [Edi
  t config file](https://github.com/jyotisham/adyatithi/blob/master/general/
  lunar_month/tithi/07/07/patrikA-pravEza-pUjA.toml)<br/>- Tags: SpecialPuja
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:सरस्वती-पूजा
+DTSTART;VALUE=DATE:20231021
+DTEND;VALUE=DATE:20231022
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/shakti/lunar_month/nakshatra/07/20/sarasva
+ tI-AvAhanam.toml)<br/>- Tags: CommonFestivals<br/><br/><br/><br/>## Detail
+ s<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mas
+ ter/devatA/shakti/lunar_month/nakshatra/07/20/sarasvatI-AvAhanam.toml)<br/
+ >- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -46484,6 +46484,25 @@ DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Āśvayujaḥ (lunar)
  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gene
  ral/lunar_month/tithi/07/08/kAla-trirAtra-vratam.toml)<br/>- Tags: Special
  Vratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:सरस्वती-विसर्जनम्
+DTSTART;VALUE=DATE:20231022
+DTEND;VALUE=DATE:20231023
+DESCRIPTION:Observed on Uttarāṣāḍhā nakshatra of Āśvayujaḥ (lun
+ ar) month (Madhyāhnaḥ/puurvaviddha). <br/><br/>परेद्युः
+  पूजिताद्य विस्रक्ष्यते दे
+ वी सरस्वती।<br/><br/>## Details<br/>- [Edit config fil
+ e](https://github.com/jyotisham/adyatithi/blob/master/devatA/shakti/lunar_
+ month/nakshatra/07/21/sarasvatI-visarjanam.toml)<br/>- Tags: CommonFestiva
+ ls
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
