@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20231017191011
+SEQUENCE:20231020083944
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -46586,6 +46586,26 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:आयुध-पूजा
+DTSTART;VALUE=DATE:20231023
+DTEND;VALUE=DATE:20231024
+DESCRIPTION:Observed on Śukla-Navamī tithi of Āśvayujaḥ (lunar) mont
+ h (Sūryōdayaḥ/puurvaviddha). <br/><br/>Worship of all weapons\, or rat
+ her\, tools related to one's profession.<br/><br/>परेद्युर
+ ् विजयदशम्यां सशस्त्रैः प्
+ रक्रमिष्यते। ततः प्राग् अद
+ ्यायुधपूजा।<br/><br/>## Details<br/>- [Edit config f
+ ile](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_mont
+ h/tithi/07/09/Ayudha~pUjA.toml)<br/>- Tags: CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:ऊर्ज-मासः
 DTSTART;TZID=Asia/Calcutta:20231023T215049
 DTEND;TZID=Asia/Calcutta:20231024T000000
@@ -46896,24 +46916,6 @@ DESCRIPTION:- Indian civil date: 1945-08-02\, Islamic: 1445-04-09 Rabīʿ
  ालः**—11:53-13:20  \n___________________\n- **शूलम्**—
  उदीची (►10:43)\; **परिहारः**–क्षीर
  म्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:आयुध-पूजा
-DTSTART;VALUE=DATE:20231024
-DTEND;VALUE=DATE:20231025
-DESCRIPTION:Observed on Śukla-Daśamī tithi of Āśvayujaḥ (lunar) mon
- th (Sūryōdayaḥ/puurvaviddha). <br/><br/>Arjuna wins over all Kauravas 
- and Karna. Worship of all weapons\, or rather\, tools related to one's pro
- fession.<br/><br/>## Details<br/>- [Edit config file](https://github.com/j
- yotisham/adyatithi/blob/master/general/lunar_month/tithi/07/10/Ayudha~pUjA
- .toml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
