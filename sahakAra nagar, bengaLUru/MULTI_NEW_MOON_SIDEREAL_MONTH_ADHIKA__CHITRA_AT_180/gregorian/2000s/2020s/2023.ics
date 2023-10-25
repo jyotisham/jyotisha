@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20231020085629
+SEQUENCE:20231025152102
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -16633,6 +16633,24 @@ DESCRIPTION:Observed on Śukla-Pañcamī tithi of Vaiśākhaḥ (lunar) mo
  ile](https://github.com/jyotisham/adyatithi/blob/master/devatA/misc-fauna/
  lunar_month/tithi/02/05/sarpa-pUjA~1.toml)<br/>- Tags: SpecialPuja PuranaE
  vents
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:विदुराश्वत्थ-हत्या #८५
+DTSTART;VALUE=DATE:20230425
+DTEND;VALUE=DATE:20230426
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/04/25/vidur
+ Ashvattha-hatyA.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Ed
+ it config file](https://github.com/jyotisham/adyatithi/blob/master/mahApur
+ uSha/xatra-later/gregorian/day/04/25/vidurAshvattha-hatyA.toml)<br/>- Tags
+ :
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
