@@ -30,4 +30,4 @@ julian_handling = "converted to Gregorian"
 jsonClass = "FestivalOptions"
 
 ```
-- Repos: [gRhya/general](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general), [gRhya/Apastamba](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba)
+- Repos: [gRhya/general](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general), [gRhya/Apastamba](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba), [luno-tropical/smArta](https://github.com/jyotisham/adyatithi/blob/master/luno-tropical/smArta)
