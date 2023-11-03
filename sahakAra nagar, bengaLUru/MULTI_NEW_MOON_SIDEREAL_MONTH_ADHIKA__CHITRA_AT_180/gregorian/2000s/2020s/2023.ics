@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20231103224332
+SEQUENCE:20231103225642
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -43284,6 +43284,23 @@ DESCRIPTION:- Indian civil date: 1945-08-10\, Islamic: 1445-04-17 Rabīʿ
  **—10:36-12:03  \n___________________\n- **शूलम्**—उदी
  ची (►12:26)\; **परिहारः**–क्षीरम्  \n_
  __________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:करक-चतुर्थी
+DTSTART;VALUE=DATE:20231101
+DTEND;VALUE=DATE:20231102
+DESCRIPTION:Karaka chaturthi vratam --- the famous Karwa Chauth festival i
+ s celebrated on this day.<br/><br/>## Details<br/>- References<br/>  - Kie
+ lhorn (1897)<br/>- [Edit config file](https://github.com/jyotisham/adyatit
+ hi/blob/master/devatA/gaNapati/description_only/karaka-caturthI.toml)<br/>
+ - Tags: SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
