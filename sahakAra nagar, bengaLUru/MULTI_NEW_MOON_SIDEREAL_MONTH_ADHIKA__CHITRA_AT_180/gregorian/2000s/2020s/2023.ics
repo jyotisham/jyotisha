@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20231101112407
+SEQUENCE:20231103224255
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -5371,7 +5371,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:द्विजप्रिय-महागणपति सङ्
+SUMMARY:द्विजप्रिय-महागणपति-सङ्
  कटहर-चतुर्थी-व्रतम्
 DTSTART;VALUE=DATE:20230209
 DTEND;VALUE=DATE:20230210
@@ -7606,19 +7606,19 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पून्तानं-जयन्ती #४७६
+SUMMARY:पून्तानं-जन्मदिनम् #४७६
 DTSTART;VALUE=DATE:20230224
 DTEND;VALUE=DATE:20230225
 DESCRIPTION:Observed on Aśvinī nakshatra of Kumbhaḥ (sidereal solar) m
  onth (Sūryōdayaḥ/puurvaviddha). The event occurred in 4648 (Kali era).
-   <br/><br/><br/>Poonthanam\, a great devotee of Guruvayurappan\, enriched
-  Malayalam devotional literature with his renowned poetic composition 'Jna
- napana'\, a philosophical work of all times. On this day\, recital of Poon
- thanam's works and debate takes place. A one week literary festival is con
- ducted at Poonthanam illam.<br/><br/>## Details<br/>- [Edit config file](h
- ttps://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/general-indi
- c-non-tropical/sidereal_solar_month/nakshatra/11/01/pUntAnaM~jayantI.toml)
- <br/>- Tags: MahapurushaEvents
+   <br/><br/><br/>Poonthanam Nambudiri\, a great devotee of Guruvayurappan\
+ , enriched Malayalam devotional literature with his renowned poetic compos
+ ition 'Jnanapana'\, a philosophical work of all times. On this day\, recit
+ al of Poonthanam's works and debate takes place. A one week literary festi
+ val is conducted at Poonthanam illam.<br/><br/>## Details<br/>- [Edit conf
+ ig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/ge
+ neral-indic-non-tropical/sidereal_solar_month/nakshatra/11/01/pUntAnaM~jan
+ madinam.toml)<br/>- Tags: MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9475,7 +9475,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:भालचन्द्र-महागणपति सङ्क
+SUMMARY:भालचन्द्र-महागणपति-सङ्क
  टहर-चतुर्थी-व्रतम्
 DTSTART;VALUE=DATE:20230311
 DTEND;VALUE=DATE:20230312
@@ -18428,7 +18428,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:एकदन्त-महागणपति सङ्कटहर-
+SUMMARY:एकदन्त-महागणपति-सङ्कटहर-
  चतुर्थी-व्रतम्
 DTSTART;VALUE=DATE:20230508
 DTEND;VALUE=DATE:20230509
@@ -22373,7 +22373,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कृष्णपिङ्गल-महागणपति सङ
+SUMMARY:कृष्णपिङ्गल-महागणपति-सङ
  ्कटहर-चतुर्थी-व्रतम्
 DTSTART;VALUE=DATE:20230607
 DTEND;VALUE=DATE:20230608
@@ -26343,7 +26343,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:गजानन-महागणपति सङ्कटहर-च
+SUMMARY:गजानन-महागणपति-सङ्कटहर-च
  तुर्थी-व्रतम्
 DTSTART;VALUE=DATE:20230706
 DTEND;VALUE=DATE:20230707
@@ -29664,7 +29664,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:विभुवन-महागणपति सङ्कटहर-
+SUMMARY:विभुवन-महागणपति-सङ्कटहर-
  चतुर्थी-व्रतम्
 DTSTART;VALUE=DATE:20230804
 DTEND;VALUE=DATE:20230805
@@ -38526,7 +38526,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:विघ्नराज-महागणपति सङ्कट
+SUMMARY:विघ्नराज-महागणपति-सङ्कट
  हर-चतुर्थी-व्रतम्
 DTSTART;VALUE=DATE:20231002
 DTEND;VALUE=DATE:20231003
@@ -42074,7 +42074,8 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पून्तानं-जयन्ती #१०३९
+SUMMARY:राजराज-चोऴ-दानोत्सवः #१०
+ ३९
 DTSTART;VALUE=DATE:20231025
 DTEND;VALUE=DATE:20231026
 DESCRIPTION:Observed on Śatabhiṣak nakshatra of Tulā (sidereal solar) 
@@ -42084,7 +42085,7 @@ DESCRIPTION:Observed on Śatabhiṣak nakshatra of Tulā (sidereal solar)
  ly at the tanjAvUjr bRhadIshvara temple. This event is aka ‘Sathaya Vizh
  a’.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
  isham/adyatithi/blob/master/mahApuruSha/xatra/sidereal_solar_month/nakshat
- ra/07/24/rAjarAja-chola-dAnotsavaH.toml)<br/>- Tags:
+ ra/07/24/rAjarAja-cOza-dAnotsavaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -43292,23 +43293,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:करक-चतुर्थी
-DTSTART;VALUE=DATE:20231101
-DTEND;VALUE=DATE:20231102
-DESCRIPTION:Observed on Kr̥ṣṇa-Caturthī tithi of Āśvayujaḥ (luna
- r) month (Chandrōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br
- />- References<br/>  - Kielhorn (1897)<br/>- [Edit config file](https://gi
- thub.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/07/19/k
- araka-caturthI.toml)<br/>- Tags: SpecialPuja
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:लस्वरि-युद्धम् #२२०
 DTSTART;VALUE=DATE:20231101
 DTEND;VALUE=DATE:20231102
@@ -43326,7 +43310,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:वक्रतुण्ड-महागणपति सङ्क
+SUMMARY:वक्रतुण्ड-महागणपति-सङ्क
  टहर-चतुर्थी-व्रतम्
 DTSTART;VALUE=DATE:20231101
 DTEND;VALUE=DATE:20231102
@@ -48039,7 +48023,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:गणाधिप-महागणपति सङ्कटहर-
+SUMMARY:गणाधिप-महागणपति-सङ्कटहर-
  चतुर्थी-व्रतम्
 DTSTART;VALUE=DATE:20231130
 DTEND;VALUE=DATE:20231201
@@ -52379,7 +52363,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:आखुरथ-महागणपति सङ्कटहर-च
+SUMMARY:आखुरथ-महागणपति-सङ्कटहर-च
  तुर्थी-व्रतम्
 DTSTART;VALUE=DATE:20231230
 DTEND;VALUE=DATE:20231231
