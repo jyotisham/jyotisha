@@ -66,6 +66,8 @@ class TithiFestivalAssigner(FestivalAssigner):
           chaturthi_final_name = chaturthi_vaara_tag + chaturthi_name + ('mahA' if p.lunar_month_sunrise.index == 5  else '') + 'saGkaTahara-caturthI-vratam'
           fest = FestivalInstance(name=chaturthi_final_name, interval=p.get_interval(interval_id="full_day"))
           self.panchaanga.add_festival_instance(festival_instance=fest, date=p.date)
+          if p.lunar_month_sunrise.index == 7:
+            self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='karaka-caturthI', interval=p.get_interval(interval_id="full_day")), date=p.date)
 
         if tithi_moonrise == 19:
           # otherwise yesterday would have already been assigned
