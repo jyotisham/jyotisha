@@ -2753,7 +2753,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:lambōdara-mahāgaṇapati saṅkaṭahara-caturthī-vratam
+SUMMARY:lambōdara-mahāgaṇapati-saṅkaṭahara-caturthī-vratam
 DTSTART;VALUE=DATE:20190124
 DTEND;VALUE=DATE:20190125
 DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
@@ -6331,7 +6331,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:dvijapriya-mahāgaṇapati saṅkaṭahara-caturthī-vratam
+SUMMARY:dvijapriya-mahāgaṇapati-saṅkaṭahara-caturthī-vratam
 DTSTART;VALUE=DATE:20190222
 DTEND;VALUE=DATE:20190223
 DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
@@ -13631,7 +13631,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:vikaṭa-mahāgaṇapati saṅkaṭahara-caturthī-vratam
+SUMMARY:vikaṭa-mahāgaṇapati-saṅkaṭahara-caturthī-vratam
 DTSTART;VALUE=DATE:20190422
 DTEND;VALUE=DATE:20190423
 DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
@@ -17417,7 +17417,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ēkadanta-mahāgaṇapati saṅkaṭahara-caturthī-vratam
+SUMMARY:ēkadanta-mahāgaṇapati-saṅkaṭahara-caturthī-vratam
 DTSTART;VALUE=DATE:20190522
 DTEND;VALUE=DATE:20190523
 DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
@@ -20961,7 +20961,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:kr̥ṣṇapiṅgala-mahāgaṇapati saṅkaṭahara-caturthī-vra
+SUMMARY:kr̥ṣṇapiṅgala-mahāgaṇapati-saṅkaṭahara-caturthī-vra
  tam
 DTSTART;VALUE=DATE:20190620
 DTEND;VALUE=DATE:20190621
@@ -24597,7 +24597,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:gajānana-mahāgaṇapati saṅkaṭahara-caturthī-vratam
+SUMMARY:gajānana-mahāgaṇapati-saṅkaṭahara-caturthī-vratam
 DTSTART;VALUE=DATE:20190720
 DTEND;VALUE=DATE:20190721
 DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
@@ -34992,6 +34992,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:sarasvatī-pūjā
+DTSTART;VALUE=DATE:20191006
+DTEND;VALUE=DATE:20191007
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/shakti/lunar_month/nakshatra/07/20/sarasva
+ tI-pUjA.toml)<br/>- Tags: CommonFestivals<br/><br/><br/><br/>## Details<br
+ />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
+ devatA/shakti/lunar_month/nakshatra/07/20/sarasvatI-pUjA.toml)<br/>- Tags:
+  CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Āśvayujaḥ-07-09  \,  Makaraḥ-Uttarāṣāḍhā🌛🌌  \, 
   Kanyā-Hastaḥ-06-21🌞🌌  \,  Iṣaḥ-07-15🌞🪐  \,  Sōmaḥ
 DTSTART;TZID=Asia/Calcutta:20191007T060158
@@ -35037,6 +35055,26 @@ DESCRIPTION:- Indian civil date: 1941-07-15\, Islamic: 1441-02-07 Ṣafar\
  ; **Yamaghaṇṭaḥ**—10:28-11:56\; **Gulikakālaḥ**—13:25-14:54  
  \n___________________\n- **Śūlam**—Prāchī (►09:11)\; **Parihāra
  ḥ**–Dadhi  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:āyudha-pūjā
+DTSTART;VALUE=DATE:20191007
+DTEND;VALUE=DATE:20191008
+DESCRIPTION:Observed on Śukla-Navamī tithi of Āśvayujaḥ (lunar) mont
+ h (Sūryōdayaḥ/puurvaviddha). <br/><br/>Worship of all weapons\, or rat
+ her\, tools related to one's profession.<br/><br/>परेद्युर
+ ् विजयदशम्यां सशस्त्रैः प्
+ रक्रमिष्यते। ततः प्राग् अद
+ ्यायुधपूजा।<br/><br/>## Details<br/>- [Edit config f
+ ile](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_mont
+ h/tithi/07/09/Ayudha~pUjA.toml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -35109,6 +35147,25 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  otisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/sO
  mazrAvaNI-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDa
  ys
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sarasvatī-visarjanam
+DTSTART;VALUE=DATE:20191007
+DTEND;VALUE=DATE:20191008
+DESCRIPTION:Observed on Uttarāṣāḍhā nakshatra of Āśvayujaḥ (lun
+ ar) month (Madhyāhnaḥ/puurvaviddha). <br/><br/>परेद्युः
+  पूजिताद्य विस्रक्ष्यते दे
+ वी सरस्वती।<br/><br/>## Details<br/>- [Edit config fil
+ e](https://github.com/jyotisham/adyatithi/blob/master/devatA/shakti/lunar_
+ month/nakshatra/07/21/sarasvatI-visarjanam.toml)<br/>- Tags: CommonFestiva
+ ls
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -35231,24 +35288,6 @@ DESCRIPTION:- Indian civil date: 1941-07-16\, Islamic: 1441-02-08 Ṣafar\
  ; **Yamaghaṇṭaḥ**—08:59-10:27\; **Gulikakālaḥ**—11:56-13:25  
  \n___________________\n- **Śūlam**—Udīchī (►10:45)\; **Parihāra
  ḥ**–Kṣīram  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:āyudha-pūjā
-DTSTART;VALUE=DATE:20191008
-DTEND;VALUE=DATE:20191009
-DESCRIPTION:Observed on Śukla-Daśamī tithi of Āśvayujaḥ (lunar) mon
- th (Sūryōdayaḥ/puurvaviddha). <br/><br/>Arjuna wins over all Kauravas 
- and Karna. Worship of all weapons\, or rather\, tools related to one's pro
- fession.<br/><br/>## Details<br/>- [Edit config file](https://github.com/j
- yotisham/adyatithi/blob/master/general/lunar_month/tithi/07/10/Ayudha~pUjA
- .toml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -36052,7 +36091,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:śarad-pūrṇimā
+SUMMARY:śarat-pūrṇimā
 DTSTART;VALUE=DATE:20191013
 DTEND;VALUE=DATE:20191014
 DESCRIPTION:Observed on Paurṇamāsī tithi of Āśvayujaḥ (lunar) mont
@@ -36520,11 +36559,11 @@ BEGIN:VEVENT
 SUMMARY:karaka-caturthī
 DTSTART;VALUE=DATE:20191017
 DTEND;VALUE=DATE:20191018
-DESCRIPTION:Observed on Kr̥ṣṇa-Caturthī tithi of Āśvayujaḥ (luna
- r) month (Chandrōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br
- />- References<br/>  - Kielhorn (1897)<br/>- [Edit config file](https://gi
- thub.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/07/19/k
- araka-caturthI.toml)<br/>- Tags: SpecialPuja
+DESCRIPTION:Karaka chaturthi vratam --- the famous Karwa Chauth festival i
+ s celebrated on this day.<br/><br/>## Details<br/>- References<br/>  - Kie
+ lhorn (1897)<br/>- [Edit config file](https://github.com/jyotisham/adyatit
+ hi/blob/master/devatA/gaNapati/description_only/karaka-caturthI.toml)<br/>
+ - Tags: SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -36534,7 +36573,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:vakratuṇḍa-mahāgaṇapati saṅkaṭahara-caturthī-vratam
+SUMMARY:vakratuṇḍa-mahāgaṇapati-saṅkaṭahara-caturthī-vratam
 DTSTART;VALUE=DATE:20191017
 DTEND;VALUE=DATE:20191018
 DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
@@ -39241,7 +39280,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:pūntānaṁ-jayantī #1035
+SUMMARY:rājarāja-cōḻa-dānōtsavaḥ #1035
 DTSTART;VALUE=DATE:20191107
 DTEND;VALUE=DATE:20191108
 DESCRIPTION:Observed on Śatabhiṣak nakshatra of Tulā (sidereal solar) 
@@ -39251,7 +39290,7 @@ DESCRIPTION:Observed on Śatabhiṣak nakshatra of Tulā (sidereal solar)
  ly at the tanjAvUjr bRhadIshvara temple. This event is aka ‘Sathaya Vizh
  a’.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
  isham/adyatithi/blob/master/mahApuruSha/xatra/sidereal_solar_month/nakshat
- ra/07/24/rAjarAja-chola-dAnotsavaH.toml)<br/>- Tags:
+ ra/07/24/rAjarAja-cOza-dAnotsavaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -40552,7 +40591,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:gaṇādhipa-mahāgaṇapati saṅkaṭahara-caturthī-vratam
+SUMMARY:gaṇādhipa-mahāgaṇapati-saṅkaṭahara-caturthī-vratam
 DTSTART;VALUE=DATE:20191115
 DTEND;VALUE=DATE:20191116
 DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
