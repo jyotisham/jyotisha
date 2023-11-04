@@ -5,6 +5,7 @@ import sys
 from jyotisha.panchaanga.temporal import PeriodicPanchaangaApplier, interval, get_2_day_interval_boundary_angas
 from jyotisha.panchaanga.temporal import time
 from jyotisha.panchaanga.temporal.zodiac.angas import AngaType, Anga
+from jyotisha.panchaanga.temporal.festival import FestivalInstance
 
 from sanskrit_data.schema import common
 
@@ -43,6 +44,10 @@ class ShraddhaTithiAssigner(PeriodicPanchaangaApplier):
         13, 14])))
     # Including 13, 14 for next lunar year's chaitra/vaishakha
     lunar_tithi_days = {_m: {t: [] for t in range(0, 31)} for _m in lunar_month_list}
+
+    # Identify the pakshas correctly, accounting for adhika masas
+    saptama_apara_paksha = lunar_month_list[lunar_month_list.index(4) + 3]
+    navama_apara_paksha = lunar_month_list[lunar_month_list.index(4) + 4]
 
     yest_tithis, aparaahna = self.panchaanga.daily_panchaangas_sorted()[1].get_interval_anga_spans(interval_id="aparaahna",
                                                                                               anga_type=AngaType.TITHI)
@@ -113,6 +118,23 @@ class ShraddhaTithiAssigner(PeriodicPanchaangaApplier):
         elif nTithis > 2:
           if debug_shraaddha_tithi:
             logging.warning(('WARN (nTithis > 2!):', m, t, len(lunar_tithi_days[m][t]), lunar_tithi_days[m][t]))
+
+    # Assign panchama, saptama and navama apara pakshas
+    if saptama_apara_paksha != 6: # If there is adhika shrAvaNa, saptama_apara_paksha will be in bhAdrapada, which is anyway mahAlaya paksha - no need to annotate separately!
+      sap_start_dt = lunar_tithi_days[saptama_apara_paksha][16][0][0]
+      sap_end_dt = lunar_tithi_days[saptama_apara_paksha][30][0][0]
+      self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='saptama-(apara)-pakSa-ArambhaH',
+                                            interval=self.panchaanga.daily_panchaanga_for_date(sap_start_dt).get_interval(interval_id="full_day")), date=sap_start_dt)
+      self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='saptama-(apara)-pakSa-samApanam',
+                                            interval=self.panchaanga.daily_panchaanga_for_date(sap_end_dt).get_interval(interval_id="full_day")), date=sap_end_dt)
+
+    if 4.5 in lunar_month_list or 5.5 in lunar_month_list:
+      nap_start_dt = lunar_tithi_days[navama_apara_paksha][16][0][0]
+      nap_end_dt = lunar_tithi_days[navama_apara_paksha][30][0][0]
+      self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='navama-(apara)-pakSa-ArambhaH',
+                                            interval=self.panchaanga.daily_panchaanga_for_date(nap_start_dt).get_interval(interval_id="full_day")), date=nap_start_dt)
+      self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='navama-(apara)-pakSa-samApanam',
+                                            interval=self.panchaanga.daily_panchaanga_for_date(nap_end_dt).get_interval(interval_id="full_day")), date=nap_end_dt)
 
     # Compute Sankranti Days
     sankranti_dushta_days = []

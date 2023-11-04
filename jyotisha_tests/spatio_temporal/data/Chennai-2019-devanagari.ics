@@ -36235,23 +36235,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:saptama-aparapakṣa-ārambhaḥ
-DTSTART;VALUE=DATE:20191014
-DTEND;VALUE=DATE:20191015
-DESCRIPTION:Observed on Kr̥ṣṇa-Prathamā tithi of Āśvayujaḥ (luna
- r) month (Aparāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/
- >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/g
- eneral/lunar_month/tithi/07/16/saptama-aparapakSa-ArambhaH.toml)<br/>- Tag
- s: SpecialPeriodStart
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:pūrṇa-sthālīpākaḥ
 DTSTART;VALUE=DATE:20191014
 DTEND;VALUE=DATE:20191015
@@ -37899,37 +37882,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:saptama-aparapakṣaḥ
-DTSTART;VALUE=DATE:20191013
-DTEND;VALUE=DATE:20191028
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/general/description_only/saptama-aparapakSaH.toml
- )<br/>- Tags: SpecialPeriod
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:saptama-aparapakṣa-samāpanam
-DTSTART;VALUE=DATE:20191027
-DTEND;VALUE=DATE:20191028
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/devatA/pitR/relative_event/sarva-Azvayuja-amAvAsy
- A/offset__00/saptama-aparapakSa-samApanam.toml)<br/>- Tags: SpecialPeriodE
- nd
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:sarva-āśvayuja-amāvāsyā
 DTSTART;VALUE=DATE:20191027
 DTEND;VALUE=DATE:20191028
@@ -38853,6 +38805,24 @@ DESCRIPTION:Observed on Śravaṇaḥ nakshatra of Tulā (sidereal solar)
  onfig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha
  /ALvAr/sidereal_solar_month/nakshatra/07/22/poygaiyAzhvAr_tirunakSattiram.
  toml)<br/>- Tags: MahapurushaEvents AzhwarJayanti
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:puṣkara-mēlā-prārambhaḥ
+DTSTART;VALUE=DATE:20191104
+DTEND;VALUE=DATE:20191105
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/temples/North/relative_event/puShkara-melA-samApt
+ iH/offset__-8/puShkara-melA-prArambhaH.toml)<br/>- Tags: <br/><br/><br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/blob/master/temples/North/relative_event/puShkara-melA-samAptiH/offset
+ __-8/puShkara-melA-prArambhaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -40358,23 +40328,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  tails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob
  /master/devatA/kaumAra/sidereal_solar_month/nakshatra/00/03/kRttikA-vratam
  .toml)<br/>- Tags: SpecialVratam
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:navama-aparapakṣa-ārambhaḥ
-DTSTART;VALUE=DATE:20191113
-DTEND;VALUE=DATE:20191114
-DESCRIPTION:Observed on Kr̥ṣṇa-Prathamā tithi of Kārttikaḥ (lunar
- ) month (Aparāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>
- - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/ge
- neral/lunar_month/tithi/08/16/navama-aparapakSa-ArambhaH.toml)<br/>- Tags:
-  SpecialPeriodStart
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -42007,37 +41960,6 @@ DESCRIPTION:Observed on Amāvāsyā tithi of Kārttikaḥ (lunar) month (S
  ūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit co
  nfig file](https://github.com/jyotisham/adyatithi/blob/master/general/luna
  r_month/tithi/08/30/kArttika-snAnapUrtiH.toml)<br/>- Tags: SpecialSnanam
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:navama-aparapakṣaḥ
-DTSTART;VALUE=DATE:20191112
-DTEND;VALUE=DATE:20191127
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/general/description_only/navama-aparapakSaH.toml)
- <br/>- Tags: SpecialPeriod
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:navama-aparapakṣa-samāpanam
-DTSTART;VALUE=DATE:20191126
-DTEND;VALUE=DATE:20191127
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/devatA/pitR/relative_event/sarva-kArttika-amAvAsy
- A/offset__00/navama-aparapakSa-samApanam.toml)<br/>- Tags: SpecialPeriodEn
- d
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE

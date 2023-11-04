@@ -33701,7 +33701,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अप्पय्य-दीक्षित-जयन्ती #५०१, जयावाप्ति-व्रतम्, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, पूर्ण-स्थालीपाकः, पूर्णमासेष्टिः, सप्तम-अपरपक्ष-आरम्भः
+- अप्पय्य-दीक्षित-जयन्ती #५०१, जयावाप्ति-व्रतम्, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, पूर्ण-स्थालीपाकः, पूर्णमासेष्टिः
 ##### अप्पय्य-दीक्षित-जयन्ती #५०१
 
 Observed on Kr̥ṣṇa-Prathamā tithi of Kanyā (sidereal solar) month (Prātaḥ/paraviddha). The event occurred in 4620 (Kali era).  
@@ -33747,17 +33747,6 @@ Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/description_only/pUrNamAseShTiH.toml)
 - Tags: MonthlyFestivals
-
-
-##### सप्तम-अपरपक्ष-आरम्भः
-
-Observed on Kr̥ṣṇa-Prathamā tithi of Āśvayujaḥ (lunar) month (Aparāhṇaḥ/puurvaviddha). 
-
-
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/07/16/saptama-aparapakSa-ArambhaH.toml)
-- Tags: SpecialPeriodStart
 
 
 ##### पूर्ण-स्थालीपाकः
@@ -35249,7 +35238,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- दीपावली/लक्ष्मी-कुबेर-पूजा, दीपोत्सव-चतुर्दशी/यम-तर्पणम्, नरक-चतुर्दशी, पञ्च-पर्व-पूजा (अमावास्या), पार्वणव्रतम् अमावास्यायाम्, प्रेत-चतुर्दशी, शृङ्गेरी ३५ जगद्गुरु श्री-अभिनव विद्यातीर्थ महास्वामी जयन्ती, सप्तम-अपरपक्ष-समापनम्, सर्व-आश्वयुज-अमावास्या
+- दीपावली/लक्ष्मी-कुबेर-पूजा, दीपोत्सव-चतुर्दशी/यम-तर्पणम्, नरक-चतुर्दशी, पञ्च-पर्व-पूजा (अमावास्या), पार्वणव्रतम् अमावास्यायाम्, प्रेत-चतुर्दशी, शृङ्गेरी ३५ जगद्गुरु श्री-अभिनव विद्यातीर्थ महास्वामी जयन्ती, सर्व-आश्वयुज-अमावास्या
 ##### दीपावली/लक्ष्मी-कुबेर-पूजा
 
 Observed on Amāvāsyā tithi of Āśvayujaḥ (lunar) month (Pradōṣaḥ/puurvaviddha). 
@@ -35388,17 +35377,6 @@ Perform Deepa Danam for Yamadharmaraja in evening
   - Smriti Kaustubha p. 371
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/lunar_month/tithi/07/29/prEta-caturdazI.toml)
 - Tags: LessCommonFestivals
-
-
-##### सप्तम-अपरपक्ष-समापनम्
-
-
-
-
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/relative_event/sarva-Azvayuja-amAvAsyA/offset__00/saptama-aparapakSa-samApanam.toml)
-- Tags: SpecialPeriodEnd
 
 
 ##### सर्व-आश्वयुज-अमावास्या
@@ -36257,7 +36235,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- कार्तवीर्यार्जुन-जयन्ती, कार्त्तिक-सोमवासरः, गोपाष्टमी, ताम्रपर्णी-अन्त्य-पुष्कर-समापनम्, पॊय्गैयाऴ्वार् तिरुनक्षत्तिरम्, श्रवण-व्रतम्, सायन-व्यतीपातः, सोमश्रावणी-योगः
+- कार्तवीर्यार्जुन-जयन्ती, कार्त्तिक-सोमवासरः, गोपाष्टमी, ताम्रपर्णी-अन्त्य-पुष्कर-समापनम्, पुष्कर-मेला-प्रारम्भः, पॊय्गैयाऴ्वार् तिरुनक्षत्तिरम्, श्रवण-व्रतम्, सायन-व्यतीपातः, सोमश्रावणी-योगः
 ##### गोपाष्टमी
 
 Observed on Śukla-Aṣṭamī tithi of Kārttikaḥ (lunar) month (Madhyāhnaḥ/puurvaviddha). 
@@ -36345,6 +36323,21 @@ Observed on Śravaṇaḥ nakshatra of Tulā (sidereal solar) month (Prātaḥ/p
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/ALvAr/sidereal_solar_month/nakshatra/07/22/poygaiyAzhvAr_tirunakSattiram.toml)
 - Tags: MahapurushaEvents AzhwarJayanti
+
+
+##### पुष्कर-मेला-प्रारम्भः
+
+
+
+Program following this day:
+For 4 days - big lifestock fair, with many horses, camels, cattle; plus some rustic competitions. Camel traders always arrive and leave earlier. The first day is the finest time to survey the animals all done up in their extravagant decorations.  
+As days go by, visitors increase.
+Then, for 3 days - folk dances, live music shows etc..
+Finally - Pushkar’s Kartik Purnima festival - pilgrims bathe in the waters of holy Lake Pushkar. Overcrowding anticipated.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/temples/North/relative_event/puShkara-melA-samAptiH/offset__-8/puShkara-melA-prArambhaH.toml)
+- Tags: 
 
 
 ##### सायन-व्यतीपातः
@@ -37612,7 +37605,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- इडङ्कऴि नायऩार् (५२) गुरुपूजै, काञ्ची ६४ जगद्गुरु श्री-चन्द्रशेखरेन्द्र सरस्वती ५ आराधना #१६९, कृत्तिका-व्रतम्, नवम-अपरपक्ष-आरम्भः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, पूर्ण-स्थालीपाकः, पूर्णमासेष्टिः
+- इडङ्कऴि नायऩार् (५२) गुरुपूजै, काञ्ची ६४ जगद्गुरु श्री-चन्द्रशेखरेन्द्र सरस्वती ५ आराधना #१६९, कृत्तिका-व्रतम्, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, पूर्ण-स्थालीपाकः, पूर्णमासेष्टिः
 ##### इडङ्कऴि नायऩार् (५२) गुरुपूजै
 
 Observed on Kr̥ttikā nakshatra of Tulā (sidereal solar) month (Prātaḥ/paraviddha). 
@@ -37681,17 +37674,6 @@ kr̥ttikā-vratam for Lord Subrahmanya. Observe fast for the entire day, and obt
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/kaumAra/sidereal_solar_month/nakshatra/00/03/kRttikA-vratam.toml)
 - Tags: SpecialVratam
-
-
-##### नवम-अपरपक्ष-आरम्भः
-
-Observed on Kr̥ṣṇa-Prathamā tithi of Kārttikaḥ (lunar) month (Aparāhṇaḥ/puurvaviddha). 
-
-
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/08/16/navama-aparapakSa-ArambhaH.toml)
-- Tags: SpecialPeriodStart
 
 
 ##### पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्
@@ -39192,7 +39174,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- आग्रयण-होमः द्राविडेषु, कार्त्तिक-स्नानपूर्तिः, तिरुविशलूर् गङ्गाकर्षण-महोत्सव-समापनम्, नवम-अपरपक्ष-समापनम्, पार्वणव्रतम् अमावास्यायाम्, पिण्ड-पितृ-यज्ञः, सर्व-कार्त्तिक-अमावास्या (अलभ्यम्–अनूराधा, पुष्कला)
+- आग्रयण-होमः द्राविडेषु, कार्त्तिक-स्नानपूर्तिः, तिरुविशलूर् गङ्गाकर्षण-महोत्सव-समापनम्, पार्वणव्रतम् अमावास्यायाम्, पिण्ड-पितृ-यज्ञः, सर्व-कार्त्तिक-अमावास्या (अलभ्यम्–अनूराधा, पुष्कला)
 ##### आग्रयण-होमः द्राविडेषु
 
 Observed on Amāvāsyā tithi of Vr̥ścikaḥ (sidereal solar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -39215,17 +39197,6 @@ Observed on Amāvāsyā tithi of Kārttikaḥ (lunar) month (Sūryōdayaḥ/puur
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/08/30/kArttika-snAnapUrtiH.toml)
 - Tags: SpecialSnanam
-
-
-##### नवम-अपरपक्ष-समापनम्
-
-
-
-
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/relative_event/sarva-kArttika-amAvAsyA/offset__00/navama-aparapakSa-samApanam.toml)
-- Tags: SpecialPeriodEnd
 
 
 ##### पार्वणव्रतम् अमावास्यायाम्
