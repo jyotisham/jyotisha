@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20231114162740
+SEQUENCE:20231114165632
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -479,20 +479,6 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  nfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/m
  onthly/pradoSha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyV
  ratam PradoshaVratam
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;TZID=Asia/Calcutta:20230104T000000
-DTEND;TZID=Asia/Calcutta:20230104T161253
-DESCRIPTION:When the sum of the longitudes of the Moon and Sun is 360\, it
-  is sāyana-vaidhr̥tiḥ\, and a yōgaḥ that is to be excluded for ausp
- icious activities.<br/><br/>## Details<br/>- [Edit config file](https://gi
- thub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/desc
- ription_only/sAyana-vaidhRtiH.toml)<br/>- Tags: Combinations
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -2268,23 +2254,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;VALUE=DATE:20230117
-DTEND;VALUE=DATE:20230118
-DESCRIPTION:When the sum of the longitudes of the Moon and Sun is 180\, it
-  is sāyana-vyatīpātaḥ\, and a yōgaḥ that is to be excluded for aus
- picious activities.<br/><br/>## Details<br/>- [Edit config file](https://g
- ithub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/des
- cription_only/sAyana-vyatIpAtaH.toml)<br/>- Tags: Combinations
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:त्रैलोक्य-गौरी-व्रतम्
 DTSTART;VALUE=DATE:20230117
 DTEND;VALUE=DATE:20230118
@@ -3953,20 +3922,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;TZID=Asia/Calcutta:20230129T000000
-DTEND;TZID=Asia/Calcutta:20230129T195229
-DESCRIPTION:When the sum of the longitudes of the Moon and Sun is 360\, it
-  is sāyana-vaidhr̥tiḥ\, and a yōgaḥ that is to be excluded for ausp
- icious activities.<br/><br/>## Details<br/>- [Edit config file](https://gi
- thub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/desc
- ription_only/sAyana-vaidhRtiH.toml)<br/>- Tags: Combinations
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -5808,20 +5763,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;TZID=Asia/Calcutta:20230212T000000
-DTEND;TZID=Asia/Calcutta:20230212T123900
-DESCRIPTION:When the sum of the longitudes of the Moon and Sun is 180\, it
-  is sāyana-vyatīpātaḥ\, and a yōgaḥ that is to be excluded for aus
- picious activities.<br/><br/>## Details<br/>- [Edit config file](https://g
- ithub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/des
- cription_only/sAyana-vyatIpAtaH.toml)<br/>- Tags: Combinations
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:यशोदा-जयन्ती
 DTSTART;VALUE=DATE:20230212
 DTEND;VALUE=DATE:20230213
@@ -7495,23 +7436,6 @@ DESCRIPTION:- Indian civil date: 1944-12-04\, Islamic: 1444-08-02 Shaʿbā
  गुलिककालः**—09:37-11:05  \n___________________\n- **
  शूलम्**—दक्षिणा (►14:30)\; **परिहा
  रः**–तैलम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;VALUE=DATE:20230223
-DTEND;VALUE=DATE:20230224
-DESCRIPTION:When the sum of the longitudes of the Moon and Sun is 360\, it
-  is sāyana-vaidhr̥tiḥ\, and a yōgaḥ that is to be excluded for ausp
- icious activities.<br/><br/>## Details<br/>- [Edit config file](https://gi
- thub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/desc
- ription_only/sAyana-vaidhRtiH.toml)<br/>- Tags: Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9269,20 +9193,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;TZID=Asia/Calcutta:20230309T000000
-DTEND;TZID=Asia/Calcutta:20230309T180707
-DESCRIPTION:When the sum of the longitudes of the Moon and Sun is 180\, it
-  is sāyana-vyatīpātaḥ\, and a yōgaḥ that is to be excluded for aus
- picious activities.<br/><br/>## Details<br/>- [Edit config file](https://g
- ithub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/des
- cription_only/sAyana-vyatIpAtaH.toml)<br/>- Tags: Combinations
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:फाल्गुनः-12-18  \,  कन्या-चित्
  रा🌛🌌  \,  कुम्भः-पूर्वप्रोष्
  ठपदा-11-26🌞🌌  \,  तपस्यः-12-20🌞🪐  \,  श
@@ -10893,20 +10803,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;TZID=Asia/Calcutta:20230321T000000
-DTEND;TZID=Asia/Calcutta:20230321T201954
-DESCRIPTION:When the sum of the longitudes of the Moon and Sun is 360\, it
-  is sāyana-vaidhr̥tiḥ\, and a yōgaḥ that is to be excluded for ausp
- icious activities.<br/><br/>## Details<br/>- [Edit config file](https://gi
- thub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/desc
- ription_only/sAyana-vaidhRtiH.toml)<br/>- Tags: Combinations
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -13062,23 +12958,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;VALUE=DATE:20230403
-DTEND;VALUE=DATE:20230404
-DESCRIPTION:When the sum of the longitudes of the Moon and Sun is 180\, it
-  is sāyana-vyatīpātaḥ\, and a yōgaḥ that is to be excluded for aus
- picious activities.<br/><br/>## Details<br/>- [Edit config file](https://g
- ithub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/des
- cription_only/sAyana-vyatIpAtaH.toml)<br/>- Tags: Combinations
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:सोम-प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta:20230403T182758
 DTEND;TZID=Asia/Calcutta:20230403T195641
@@ -14853,20 +14732,6 @@ DESCRIPTION:- Indian civil date: 1945-01-26\, Islamic: 1444-09-25 Ramaḍ
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;TZID=Asia/Calcutta:20230416T000000
-DTEND;TZID=Asia/Calcutta:20230416T110853
-DESCRIPTION:When the sum of the longitudes of the Moon and Sun is 360\, it
-  is sāyana-vaidhr̥tiḥ\, and a yōgaḥ that is to be excluded for ausp
- icious activities.<br/><br/>## Details<br/>- [Edit config file](https://gi
- thub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/desc
- ription_only/sAyana-vaidhRtiH.toml)<br/>- Tags: Combinations
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -17024,20 +16889,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;TZID=Asia/Calcutta:20230429T000000
-DTEND;TZID=Asia/Calcutta:20230429T072137
-DESCRIPTION:When the sum of the longitudes of the Moon and Sun is 180\, it
-  is sāyana-vyatīpātaḥ\, and a yōgaḥ that is to be excluded for aus
- picious activities.<br/><br/>## Details<br/>- [Edit config file](https://g
- ithub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/des
- cription_only/sAyana-vyatIpAtaH.toml)<br/>- Tags: Combinations
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:सीतानवमी
 DTSTART;VALUE=DATE:20230429
 DTEND;VALUE=DATE:20230430
@@ -18785,23 +18636,6 @@ DESCRIPTION:- Indian civil date: 1945-02-21\, Islamic: 1444-10-20 Shawwāl
  ालः**—09:07-10:41  \n___________________\n- **शूलम्**—
  दक्षिणा (►14:21)\; **परिहारः**–तैल
  म्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;VALUE=DATE:20230511
-DTEND;VALUE=DATE:20230511
-DESCRIPTION:When the sum of the longitudes of the Moon and Sun is 360\, it
-  is sāyana-vaidhr̥tiḥ\, and a yōgaḥ that is to be excluded for ausp
- icious activities.<br/><br/>## Details<br/>- [Edit config file](https://gi
- thub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/desc
- ription_only/sAyana-vaidhRtiH.toml)<br/>- Tags: Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20607,20 +20441,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;TZID=Asia/Calcutta:20230524T000000
-DTEND;TZID=Asia/Calcutta:20230524T141056
-DESCRIPTION:When the sum of the longitudes of the Moon and Sun is 180\, it
-  is sāyana-vyatīpātaḥ\, and a yōgaḥ that is to be excluded for aus
- picious activities.<br/><br/>## Details<br/>- [Edit config file](https://g
- ithub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/des
- cription_only/sAyana-vyatIpAtaH.toml)<br/>- Tags: Combinations
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:शम्भुराजो जातः #३६६
 DTSTART;VALUE=DATE:20230524
 DTEND;VALUE=DATE:20230525
@@ -22291,20 +22111,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;TZID=Asia/Calcutta:20230606T000000
-DTEND;TZID=Asia/Calcutta:20230606T130306
-DESCRIPTION:When the sum of the longitudes of the Moon and Sun is 360\, it
-  is sāyana-vaidhr̥tiḥ\, and a yōgaḥ that is to be excluded for ausp
- icious activities.<br/><br/>## Details<br/>- [Edit config file](https://gi
- thub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/desc
- ription_only/sAyana-vaidhRtiH.toml)<br/>- Tags: Combinations
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-19  \,  मकरः-उत्तर
  ाषाढा🌛🌌  \,  वृषभः-रोहिणी-02-24🌞
  🌌  \,  शुक्रः-03-18🌞🪐  \,  बुधः
@@ -23783,23 +23589,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  dit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA
  /pitR/lunar_month/tithi/00/30/piNDa-pitR-yajJaH.toml)<br/>- Tags: Shraddha
  Days
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;VALUE=DATE:20230618
-DTEND;VALUE=DATE:20230618
-DESCRIPTION:When the sum of the longitudes of the Moon and Sun is 180\, it
-  is sāyana-vyatīpātaḥ\, and a yōgaḥ that is to be excluded for aus
- picious activities.<br/><br/>## Details<br/>- [Edit config file](https://g
- ithub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/des
- cription_only/sAyana-vyatIpAtaH.toml)<br/>- Tags: Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25687,20 +25476,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;TZID=Asia/Calcutta:20230702T000000
-DTEND;TZID=Asia/Calcutta:20230702T062946
-DESCRIPTION:When the sum of the longitudes of the Moon and Sun is 360\, it
-  is sāyana-vaidhr̥tiḥ\, and a yōgaḥ that is to be excluded for ausp
- icious activities.<br/><br/>## Details<br/>- [Edit config file](https://gi
- thub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/desc
- ription_only/sAyana-vaidhRtiH.toml)<br/>- Tags: Combinations
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:आषाढः-04-15  \,  धनुः-मूला🌛🌌  \,  
  मिथुनम्-आर्द्रा-03-19🌞🌌  \,  शुच
  िः-04-12🌞🪐  \,  सोमः
@@ -27031,23 +26806,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  tails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob
  /master/devatA/kaumAra/sidereal_solar_month/nakshatra/00/03/kRttikA-vratam
  .toml)<br/>- Tags: SpecialVratam
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;VALUE=DATE:20230713
-DTEND;VALUE=DATE:20230714
-DESCRIPTION:When the sum of the longitudes of the Moon and Sun is 180\, it
-  is sāyana-vyatīpātaḥ\, and a yōgaḥ that is to be excluded for aus
- picious activities.<br/><br/>## Details<br/>- [Edit config file](https://g
- ithub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/des
- cription_only/sAyana-vyatIpAtaH.toml)<br/>- Tags: Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -28711,23 +28469,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;VALUE=DATE:20230727
-DTEND;VALUE=DATE:20230727
-DESCRIPTION:When the sum of the longitudes of the Moon and Sun is 360\, it
-  is sāyana-vaidhr̥tiḥ\, and a yōgaḥ that is to be excluded for ausp
- icious activities.<br/><br/>## Details<br/>- [Edit config file](https://gi
- thub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/desc
- ription_only/sAyana-vaidhRtiH.toml)<br/>- Tags: Combinations
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:अधिक-श्रावणः-4.5-10  \,  वृश्चि
  कः-अनूराधा🌛🌌  \,  कर्कटः-पुष्
  यः-04-12🌞🌌  \,  नभः-05-06🌞🪐  \,  शुक्रः
@@ -30087,20 +29828,6 @@ DESCRIPTION:Observed on Kr̥ṣṇa-Aṣṭamī tithi of every (lunar) mon
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;TZID=Asia/Calcutta:20230808T000000
-DTEND;TZID=Asia/Calcutta:20230808T134720
-DESCRIPTION:When the sum of the longitudes of the Moon and Sun is 180\, it
-  is sāyana-vyatīpātaḥ\, and a yōgaḥ that is to be excluded for aus
- picious activities.<br/><br/>## Details<br/>- [Edit config file](https://g
- ithub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/des
- cription_only/sAyana-vyatIpAtaH.toml)<br/>- Tags: Combinations
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -32076,20 +31803,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;TZID=Asia/Calcutta:20230822T000000
-DTEND;TZID=Asia/Calcutta:20230822T071817
-DESCRIPTION:When the sum of the longitudes of the Moon and Sun is 360\, it
-  is sāyana-vaidhr̥tiḥ\, and a yōgaḥ that is to be excluded for ausp
- icious activities.<br/><br/>## Details<br/>- [Edit config file](https://gi
- thub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/desc
- ription_only/sAyana-vaidhRtiH.toml)<br/>- Tags: Combinations
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:सूपौदन-व्रतम्
 DTSTART;VALUE=DATE:20230822
 DTEND;VALUE=DATE:20230823
@@ -33868,23 +33581,6 @@ DESCRIPTION:Observed on Kr̥ṣṇa-Tr̥tīyā tithi of Śrāvaṇaḥ (lu
  r/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master
  /general/lunar_month/tithi/05/18/kajjalI~tRtIyA.toml)<br/>- Tags: SpecialV
  ratam
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;VALUE=DATE:20230902
-DTEND;VALUE=DATE:20230903
-DESCRIPTION:When the sum of the longitudes of the Moon and Sun is 180\, it
-  is sāyana-vyatīpātaḥ\, and a yōgaḥ that is to be excluded for aus
- picious activities.<br/><br/>## Details<br/>- [Edit config file](https://g
- ithub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/des
- cription_only/sAyana-vyatIpAtaH.toml)<br/>- Tags: Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -35785,20 +35481,6 @@ DESCRIPTION:Observed on Śukla-Prathamā tithi of Bhādrapadaḥ (lunar) m
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;TZID=Asia/Calcutta:20230916T000000
-DTEND;TZID=Asia/Calcutta:20230916T125012
-DESCRIPTION:When the sum of the longitudes of the Moon and Sun is 360\, it
-  is sāyana-vaidhr̥tiḥ\, and a yōgaḥ that is to be excluded for ausp
- icious activities.<br/><br/>## Details<br/>- [Edit config file](https://gi
- thub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/desc
- ription_only/sAyana-vaidhRtiH.toml)<br/>- Tags: Combinations
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -37873,20 +37555,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;TZID=Asia/Calcutta:20230928T000000
-DTEND;TZID=Asia/Calcutta:20230928T212035
-DESCRIPTION:When the sum of the longitudes of the Moon and Sun is 180\, it
-  is sāyana-vyatīpātaḥ\, and a yōgaḥ that is to be excluded for aus
- picious activities.<br/><br/>## Details<br/>- [Edit config file](https://g
- ithub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/des
- cription_only/sAyana-vyatIpAtaH.toml)<br/>- Tags: Combinations
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:भाद्रपदः-06-15  \,  मीनः-उत्तर
  प्रोष्ठपदा🌛🌌  \,  कन्या-हस्त
  ः-06-13🌞🌌  \,  इषः-07-07🌞🪐  \,  शुक्रः
@@ -39541,20 +39209,6 @@ DESCRIPTION:- Indian civil date: 1945-07-19\, Islamic: 1445-03-26 Rabīʿ
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;TZID=Asia/Calcutta:20231011T000000
-DTEND;TZID=Asia/Calcutta:20231011T175611
-DESCRIPTION:When the sum of the longitudes of the Moon and Sun is 360\, it
-  is sāyana-vaidhr̥tiḥ\, and a yōgaḥ that is to be excluded for ausp
- icious activities.<br/><br/>## Details<br/>- [Edit config file](https://gi
- thub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/desc
- ription_only/sAyana-vaidhRtiH.toml)<br/>- Tags: Combinations
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -41974,20 +41628,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;TZID=Asia/Calcutta:20231024T000000
-DTEND;TZID=Asia/Calcutta:20231024T130012
-DESCRIPTION:When the sum of the longitudes of the Moon and Sun is 180\, it
-  is sāyana-vyatīpātaḥ\, and a yōgaḥ that is to be excluded for aus
- picious activities.<br/><br/>## Details<br/>- [Edit config file](https://g
- ithub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/des
- cription_only/sAyana-vyatIpAtaH.toml)<br/>- Tags: Combinations
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:युद्धदेवता-आराधना
 DTSTART;VALUE=DATE:20231024
 DTEND;VALUE=DATE:20231025
@@ -43760,23 +43400,6 @@ DESCRIPTION:When Pushya nakshatra falls on a Sunday\, it is a special yōg
  s<br/>  - VrataNirnayaKalpavalli<br/>- [Edit config file](https://github.c
  om/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/descriptio
  n_only/ravipuSya-yOgaH.toml)<br/>- Tags: RareDays Combinations
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;VALUE=DATE:20231105
-DTEND;VALUE=DATE:20231105
-DESCRIPTION:When the sum of the longitudes of the Moon and Sun is 360\, it
-  is sāyana-vaidhr̥tiḥ\, and a yōgaḥ that is to be excluded for ausp
- icious activities.<br/><br/>## Details<br/>- [Edit config file](https://gi
- thub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/desc
- ription_only/sAyana-vaidhRtiH.toml)<br/>- Tags: Combinations
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -45708,23 +45331,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  g-lA-yuddham.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit 
  config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSh
  a/xatra-later/gregorian/day/11/18/rezAng-lA-yuddham.toml)<br/>- Tags:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;VALUE=DATE:20231118
-DTEND;VALUE=DATE:20231118
-DESCRIPTION:When the sum of the longitudes of the Moon and Sun is 180\, it
-  is sāyana-vyatīpātaḥ\, and a yōgaḥ that is to be excluded for aus
- picious activities.<br/><br/>## Details<br/>- [Edit config file](https://g
- ithub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/des
- cription_only/sAyana-vyatIpAtaH.toml)<br/>- Tags: Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -48021,23 +47627,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;VALUE=DATE:20231130
-DTEND;VALUE=DATE:20231201
-DESCRIPTION:When the sum of the longitudes of the Moon and Sun is 360\, it
-  is sāyana-vaidhr̥tiḥ\, and a yōgaḥ that is to be excluded for ausp
- icious activities.<br/><br/>## Details<br/>- [Edit config file](https://gi
- thub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/desc
- ription_only/sAyana-vaidhRtiH.toml)<br/>- Tags: Combinations
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:सौभाग्य-सुन्दरी-व्रतम्
 DTSTART;VALUE=DATE:20231130
 DTEND;VALUE=DATE:20231201
@@ -49804,20 +49393,6 @@ DESCRIPTION:Observed on day 28 of Vr̥ścikaḥ (sidereal solar) month (S
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-व्यतीपातः
-DTSTART;TZID=Asia/Calcutta:20231214T000000
-DTEND;TZID=Asia/Calcutta:20231214T104211
-DESCRIPTION:When the sum of the longitudes of the Moon and Sun is 180\, it
-  is sāyana-vyatīpātaḥ\, and a yōgaḥ that is to be excluded for aus
- picious activities.<br/><br/>## Details<br/>- [Edit config file](https://g
- ithub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/des
- cription_only/sAyana-vyatIpAtaH.toml)<br/>- Tags: Combinations
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -51727,20 +51302,6 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of every (lunar) month (Āśv
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सायन-वैधृतिः
-DTSTART;TZID=Asia/Calcutta:20231226T000000
-DTEND;TZID=Asia/Calcutta:20231226T125150
-DESCRIPTION:When the sum of the longitudes of the Moon and Sun is 360\, it
-  is sāyana-vaidhr̥tiḥ\, and a yōgaḥ that is to be excluded for ausp
- icious activities.<br/><br/>## Details<br/>- [Edit config file](https://gi
- thub.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/desc
- ription_only/sAyana-vaidhRtiH.toml)<br/>- Tags: Combinations
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
