@@ -37,7 +37,7 @@ class SolarFestivalAssigner(FestivalAssigner):
     self.assign_month_day_kuchela()
     self.assign_month_day_mesha_sankraanti()
     self.assign_vishesha_vyatipata()
-    self.assign_saayana_vyatipata_vaidhrti()
+    # self.assign_saayana_vyatipata_vaidhrti()
     self.assign_agni_nakshatra()
     self.assign_garbhottam()
     self.assign_padmaka_yoga()
