@@ -184,7 +184,7 @@ class SolarFestivalAssigner(FestivalAssigner):
           #   saamaanya_punya_kaala_end_jd = jd_transition
           
           if saamaanya_punya_kaala_end_jd > saamaanya_punya_kaala_start_jd:
-            self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='ravi-saGkramaNa-puNyakAlaH', interval=Interval(jd_start=saamaanya_punya_kaala_start_jd, jd_end=saamaanya_punya_kaala_end_jd)), date=self.daily_panchaangas[fday].date)
+            self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='sAyana-ravi-saGkramaNa-puNyakAlaH', interval=Interval(jd_start=saamaanya_punya_kaala_start_jd, jd_end=saamaanya_punya_kaala_end_jd)), date=self.daily_panchaangas[fday].date)
 
   def assign_tropical_sankranti(self):
     if 'mESa-viSu-puNyakAlaH' not in self.rules_collection.name_to_rule:
