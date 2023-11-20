@@ -489,7 +489,7 @@ class SolarFestivalAssigner(FestivalAssigner):
                       jd_start=self.panchaanga.jd_start, jd_end=self.panchaanga.jd_end)
 
   def assign_pushkara_yoga(self):
-    if 'tripuSkara-yOgaH' not in self.rules_collection.name_to_rule:
+    if 'tripuSkara-yOgaH~0' not in self.rules_collection.name_to_rule:
       return
 
     PUSHKARA_TITHI = [2, 7, 12, 17, 22, 27]
