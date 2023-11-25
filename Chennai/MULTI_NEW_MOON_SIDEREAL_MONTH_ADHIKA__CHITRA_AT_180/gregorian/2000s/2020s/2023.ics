@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20231120223245
+SEQUENCE:20231125223957
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -181,16 +181,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:द्विपुष्कर-योगः
+SUMMARY:द्विपुष्कर-योगः १
 DTSTART;TZID=Asia/Calcutta:20230102T202353
 DTEND;TZID=Asia/Calcutta:20230103T063534
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/misc_combinations/description_only/dvi
- puSkara-yOgaH~1.toml)<br/>- Tags: RareDays Combinations<br/><br/><br/><br/
- >## Details<br/>- References<br/>  - SmritiMuktaPhalam Part 5\, SVR<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time
- _focus/misc_combinations/description_only/dvipuSkara-yOgaH~1.toml)<br/>- T
- ags: RareDays Combinations
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -6750,16 +6744,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:द्विपुष्कर-योगः
+SUMMARY:द्विपुष्कर-योगः १
 DTSTART;TZID=Asia/Calcutta:20230213T063553
 DTEND;TZID=Asia/Calcutta:20230213T094610
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/misc_combinations/description_only/dvi
- puSkara-yOgaH~1.toml)<br/>- Tags: RareDays Combinations<br/><br/><br/><br/
- >## Details<br/>- References<br/>  - SmritiMuktaPhalam Part 5\, SVR<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time
- _focus/misc_combinations/description_only/dvipuSkara-yOgaH~1.toml)<br/>- T
- ags: RareDays Combinations
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -7329,16 +7317,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:द्विपुष्कर-योगः
+SUMMARY:द्विपुष्कर-योगः ५
 DTSTART;TZID=Asia/Calcutta:20230217T202708
 DTEND;TZID=Asia/Calcutta:20230217T233634
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/misc_combinations/description_only/dvi
- puSkara-yOgaH~5.toml)<br/>- Tags: RareDays Combinations<br/><br/><br/><br/
- >## Details<br/>- References<br/>  - SmritiMuktaPhalam Part 5\, SVR<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time
- _focus/misc_combinations/description_only/dvipuSkara-yOgaH~5.toml)<br/>- T
- ags: RareDays Combinations
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -9766,16 +9748,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:द्विपुष्कर-योगः
+SUMMARY:द्विपुष्कर-योगः ५
 DTSTART;TZID=Asia/Calcutta:20230303T091140
 DTEND;TZID=Asia/Calcutta:20230303T154151
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/misc_combinations/description_only/dvi
- puSkara-yOgaH~5.toml)<br/>- Tags: RareDays Combinations<br/><br/><br/><br/
- >## Details<br/>- References<br/>  - SmritiMuktaPhalam Part 5\, SVR<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time
- _focus/misc_combinations/description_only/dvipuSkara-yOgaH~5.toml)<br/>- T
- ags: RareDays Combinations
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -10843,16 +10819,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:द्विपुष्कर-योगः
+SUMMARY:द्विपुष्कर-योगः ३
 DTSTART;TZID=Asia/Calcutta:20230308T194309
 DTEND;TZID=Asia/Calcutta:20230309T041837
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/misc_combinations/description_only/dvi
- puSkara-yOgaH~3.toml)<br/>- Tags: RareDays Combinations<br/><br/><br/><br/
- >## Details<br/>- References<br/>  - SmritiMuktaPhalam Part 5\, SVR<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time
- _focus/misc_combinations/description_only/dvipuSkara-yOgaH~3.toml)<br/>- T
- ags: RareDays Combinations
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -17684,16 +17654,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:द्विपुष्कर-योगः
+SUMMARY:द्विपुष्कर-योगः १
 DTSTART;TZID=Asia/Calcutta:20230417T055856
 DTEND;TZID=Asia/Calcutta:20230417T154651
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/misc_combinations/description_only/dvi
- puSkara-yOgaH~1.toml)<br/>- Tags: RareDays Combinations<br/><br/><br/><br/
- >## Details<br/>- References<br/>  - SmritiMuktaPhalam Part 5\, SVR<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time
- _focus/misc_combinations/description_only/dvipuSkara-yOgaH~1.toml)<br/>- T
- ags: RareDays Combinations
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -18510,16 +18474,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:द्विपुष्कर-योगः
+SUMMARY:द्विपुष्कर-योगः ५
 DTSTART;TZID=Asia/Calcutta:20230421T225816
 DTEND;TZID=Asia/Calcutta:20230422T055612
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/misc_combinations/description_only/dvi
- puSkara-yOgaH~5.toml)<br/>- Tags: RareDays Combinations<br/><br/><br/><br/
- >## Details<br/>- References<br/>  - SmritiMuktaPhalam Part 5\, SVR<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time
- _focus/misc_combinations/description_only/dvipuSkara-yOgaH~5.toml)<br/>- T
- ags: RareDays Combinations
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -19580,16 +19538,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:द्विपुष्कर-योगः
+SUMMARY:द्विपुष्कर-योगः ३
 DTSTART;VALUE=DATE:20230426
 DTEND;VALUE=DATE:20230427
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/misc_combinations/description_only/dvi
- puSkara-yOgaH~3.toml)<br/>- Tags: RareDays Combinations<br/><br/><br/><br/
- >## Details<br/>- References<br/>  - SmritiMuktaPhalam Part 5\, SVR<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time
- _focus/misc_combinations/description_only/dvipuSkara-yOgaH~3.toml)<br/>- T
- ags: RareDays Combinations
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19724,16 +19676,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:द्विपुष्कर-योगः
+SUMMARY:द्विपुष्कर-योगः ४
 DTSTART;TZID=Asia/Calcutta:20230427T055341
 DTEND;TZID=Asia/Calcutta:20230427T065821
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/misc_combinations/description_only/dvi
- puSkara-yOgaH~4.toml)<br/>- Tags: RareDays Combinations<br/><br/><br/><br/
- >## Details<br/>- References<br/>  - SmritiMuktaPhalam Part 5\, SVR<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time
- _focus/misc_combinations/description_only/dvipuSkara-yOgaH~4.toml)<br/>- T
- ags: RareDays Combinations
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -20366,16 +20312,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:द्विपुष्कर-योगः
+SUMMARY:द्विपुष्कर-योगः १
 DTSTART;TZID=Asia/Calcutta:20230501T221014
 DTEND;TZID=Asia/Calcutta:20230502T055127
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/misc_combinations/description_only/dvi
- puSkara-yOgaH~1.toml)<br/>- Tags: RareDays Combinations<br/><br/><br/><br/
- >## Details<br/>- References<br/>  - SmritiMuktaPhalam Part 5\, SVR<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time
- _focus/misc_combinations/description_only/dvipuSkara-yOgaH~1.toml)<br/>- T
- ags: RareDays Combinations
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -22080,16 +22020,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:द्विपुष्कर-योगः
+SUMMARY:द्विपुष्कर-योगः ४
 DTSTART;TZID=Asia/Calcutta:20230511T112754
 DTEND;TZID=Asia/Calcutta:20230511T143545
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/misc_combinations/description_only/dvi
- puSkara-yOgaH~4.toml)<br/>- Tags: RareDays Combinations<br/><br/><br/><br/
- >## Details<br/>- References<br/>  - SmritiMuktaPhalam Part 5\, SVR<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time
- _focus/misc_combinations/description_only/dvipuSkara-yOgaH~4.toml)<br/>- T
- ags: RareDays Combinations
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -28196,16 +28130,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:द्विपुष्कर-योगः
+SUMMARY:द्विपुष्कर-योगः १
 DTSTART;TZID=Asia/Calcutta:20230619T200903
 DTEND;TZID=Asia/Calcutta:20230620T054714
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/misc_combinations/description_only/dvi
- puSkara-yOgaH~1.toml)<br/>- Tags: RareDays Combinations<br/><br/><br/><br/
- >## Details<br/>- References<br/>  - SmritiMuktaPhalam Part 5\, SVR<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time
- _focus/misc_combinations/description_only/dvipuSkara-yOgaH~1.toml)<br/>- T
- ags: RareDays Combinations
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -29901,16 +29829,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:द्विपुष्कर-योगः
+SUMMARY:द्विपुष्कर-योगः ४
 DTSTART;TZID=Asia/Calcutta:20230630T024241
 DTEND;TZID=Asia/Calcutta:20230630T054937
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/misc_combinations/description_only/dvi
- puSkara-yOgaH~4.toml)<br/>- Tags: RareDays Combinations<br/><br/><br/><br/
- >## Details<br/>- References<br/>  - SmritiMuktaPhalam Part 5\, SVR<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time
- _focus/misc_combinations/description_only/dvipuSkara-yOgaH~4.toml)<br/>- T
- ags: RareDays Combinations
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -30098,16 +30020,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:द्विपुष्कर-योगः
+SUMMARY:द्विपुष्कर-योगः ५
 DTSTART;TZID=Asia/Calcutta:20230630T054937
 DTEND;TZID=Asia/Calcutta:20230630T160836
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/misc_combinations/description_only/dvi
- puSkara-yOgaH~5.toml)<br/>- Tags: RareDays Combinations<br/><br/><br/><br/
- >## Details<br/>- References<br/>  - SmritiMuktaPhalam Part 5\, SVR<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time
- _focus/misc_combinations/description_only/dvipuSkara-yOgaH~5.toml)<br/>- T
- ags: RareDays Combinations
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -31885,16 +31801,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:द्विपुष्कर-योगः
+SUMMARY:द्विपुष्कर-योगः ४
 DTSTART;TZID=Asia/Calcutta:20230713T182525
 DTEND;TZID=Asia/Calcutta:20230713T205029
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/misc_combinations/description_only/dvi
- puSkara-yOgaH~4.toml)<br/>- Tags: RareDays Combinations<br/><br/><br/><br/
- >## Details<br/>- References<br/>  - SmritiMuktaPhalam Part 5\, SVR<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time
- _focus/misc_combinations/description_only/dvipuSkara-yOgaH~4.toml)<br/>- T
- ags: RareDays Combinations
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -37847,16 +37757,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:द्विपुष्कर-योगः
+SUMMARY:द्विपुष्कर-योगः ३
 DTSTART;VALUE=DATE:20230823
 DTEND;VALUE=DATE:20230824
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/misc_combinations/description_only/dvi
- puSkara-yOgaH~3.toml)<br/>- Tags: RareDays Combinations<br/><br/><br/><br/
- >## Details<br/>- References<br/>  - SmritiMuktaPhalam Part 5\, SVR<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time
- _focus/misc_combinations/description_only/dvipuSkara-yOgaH~3.toml)<br/>- T
- ags: RareDays Combinations
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -38727,16 +38631,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:द्विपुष्कर-योगः
+SUMMARY:द्विपुष्कर-योगः १
 DTSTART;TZID=Asia/Calcutta:20230828T060106
 DTEND;TZID=Asia/Calcutta:20230828T182311
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/misc_combinations/description_only/dvi
- puSkara-yOgaH~1.toml)<br/>- Tags: RareDays Combinations<br/><br/><br/><br/
- >## Details<br/>- References<br/>  - SmritiMuktaPhalam Part 5\, SVR<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time
- _focus/misc_combinations/description_only/dvipuSkara-yOgaH~1.toml)<br/>- T
- ags: RareDays Combinations
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -39239,16 +39137,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:द्विपुष्कर-योगः
+SUMMARY:द्विपुष्कर-योगः ४
 DTSTART;TZID=Asia/Calcutta:20230901T031919
 DTEND;TZID=Asia/Calcutta:20230901T060115
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/misc_combinations/description_only/dvi
- puSkara-yOgaH~4.toml)<br/>- Tags: RareDays Combinations<br/><br/><br/><br/
- >## Details<br/>- References<br/>  - SmritiMuktaPhalam Part 5\, SVR<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time
- _focus/misc_combinations/description_only/dvipuSkara-yOgaH~4.toml)<br/>- T
- ags: RareDays Combinations
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -39668,16 +39560,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:द्विपुष्कर-योगः
+SUMMARY:द्विपुष्कर-योगः ५
 DTSTART;TZID=Asia/Calcutta:20230901T060115
 DTEND;TZID=Asia/Calcutta:20230901T145402
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/misc_combinations/description_only/dvi
- puSkara-yOgaH~5.toml)<br/>- Tags: RareDays Combinations<br/><br/><br/><br/
- >## Details<br/>- References<br/>  - SmritiMuktaPhalam Part 5\, SVR<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time
- _focus/misc_combinations/description_only/dvipuSkara-yOgaH~5.toml)<br/>- T
- ags: RareDays Combinations
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -40253,16 +40139,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:द्विपुष्कर-योगः
+SUMMARY:द्विपुष्कर-योगः ३
 DTSTART;TZID=Asia/Calcutta:20230906T060121
 DTEND;TZID=Asia/Calcutta:20230906T091740
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/misc_combinations/description_only/dvi
- puSkara-yOgaH~3.toml)<br/>- Tags: RareDays Combinations<br/><br/><br/><br/
- >## Details<br/>- References<br/>  - SmritiMuktaPhalam Part 5\, SVR<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time
- _focus/misc_combinations/description_only/dvipuSkara-yOgaH~3.toml)<br/>- T
- ags: RareDays Combinations
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -47021,16 +46901,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:द्विपुष्कर-योगः
+SUMMARY:द्विपुष्कर-योगः १
 DTSTART;TZID=Asia/Calcutta:20231016T193236
 DTEND;TZID=Asia/Calcutta:20231017T011336
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/misc_combinations/description_only/dvi
- puSkara-yOgaH~1.toml)<br/>- Tags: RareDays Combinations<br/><br/><br/><br/
- >## Details<br/>- References<br/>  - SmritiMuktaPhalam Part 5\, SVR<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time
- _focus/misc_combinations/description_only/dvipuSkara-yOgaH~1.toml)<br/>- T
- ags: RareDays Combinations
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -48728,16 +48602,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:द्विपुष्कर-योगः
+SUMMARY:द्विपुष्कर-योगः ३
 DTSTART;TZID=Asia/Calcutta:20231025T132758
 DTEND;TZID=Asia/Calcutta:20231026T060434
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/misc_combinations/description_only/dvi
- puSkara-yOgaH~3.toml)<br/>- Tags: RareDays Combinations<br/><br/><br/><br/
- >## Details<br/>- References<br/>  - SmritiMuktaPhalam Part 5\, SVR<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time
- _focus/misc_combinations/description_only/dvipuSkara-yOgaH~3.toml)<br/>- T
- ags: RareDays Combinations
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -48921,16 +48789,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:द्विपुष्कर-योगः
+SUMMARY:द्विपुष्कर-योगः ४
 DTSTART;TZID=Asia/Calcutta:20231026T060434
 DTEND;TZID=Asia/Calcutta:20231026T094435
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/misc_combinations/description_only/dvi
- puSkara-yOgaH~4.toml)<br/>- Tags: RareDays Combinations<br/><br/><br/><br/
- >## Details<br/>- References<br/>  - SmritiMuktaPhalam Part 5\, SVR<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time
- _focus/misc_combinations/description_only/dvipuSkara-yOgaH~4.toml)<br/>- T
- ags: RareDays Combinations
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -49865,16 +49727,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:द्विपुष्कर-योगः
+SUMMARY:द्विपुष्कर-योगः १
 DTSTART;TZID=Asia/Calcutta:20231030T060532
 DTEND;TZID=Asia/Calcutta:20231030T222327
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/misc_combinations/description_only/dvi
- puSkara-yOgaH~1.toml)<br/>- Tags: RareDays Combinations<br/><br/><br/><br/
- >## Details<br/>- References<br/>  - SmritiMuktaPhalam Part 5\, SVR<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time
- _focus/misc_combinations/description_only/dvipuSkara-yOgaH~1.toml)<br/>- T
- ags: RareDays Combinations
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -50374,16 +50230,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:द्विपुष्कर-योगः
+SUMMARY:द्विपुष्कर-योगः ५
 DTSTART;TZID=Asia/Calcutta:20231103T230803
 DTEND;TZID=Asia/Calcutta:20231104T060658
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/misc_combinations/description_only/dvi
- puSkara-yOgaH~5.toml)<br/>- Tags: RareDays Combinations<br/><br/><br/><br/
- >## Details<br/>- References<br/>  - SmritiMuktaPhalam Part 5\, SVR<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time
- _focus/misc_combinations/description_only/dvipuSkara-yOgaH~5.toml)<br/>- T
- ags: RareDays Combinations
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -51091,16 +50941,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:द्विपुष्कर-योगः
+SUMMARY:द्विपुष्कर-योगः ४
 DTSTART;TZID=Asia/Calcutta:20231109T104211
 DTEND;TZID=Asia/Calcutta:20231109T215441
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/misc_combinations/description_only/dvi
- puSkara-yOgaH~4.toml)<br/>- Tags: RareDays Combinations<br/><br/><br/><br/
- >## Details<br/>- References<br/>  - SmritiMuktaPhalam Part 5\, SVR<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time
- _focus/misc_combinations/description_only/dvipuSkara-yOgaH~4.toml)<br/>- T
- ags: RareDays Combinations
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -57969,16 +57813,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:द्विपुष्कर-योगः
+SUMMARY:द्विपुष्कर-योगः १
 DTSTART;TZID=Asia/Calcutta:20231219T011952
 DTEND;TZID=Asia/Calcutta:20231219T062844
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/misc_combinations/description_only/dvi
- puSkara-yOgaH~1.toml)<br/>- Tags: RareDays Combinations<br/><br/><br/><br/
- >## Details<br/>- References<br/>  - SmritiMuktaPhalam Part 5\, SVR<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time
- _focus/misc_combinations/description_only/dvipuSkara-yOgaH~1.toml)<br/>- T
- ags: RareDays Combinations
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -59915,16 +59753,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:द्विपुष्कर-योगः
+SUMMARY:द्विपुष्कर-योगः ४
 DTSTART;VALUE=DATE:20231228
 DTEND;VALUE=DATE:20231229
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/misc_combinations/description_only/dvi
- puSkara-yOgaH~4.toml)<br/>- Tags: RareDays Combinations<br/><br/><br/><br/
- >## Details<br/>- References<br/>  - SmritiMuktaPhalam Part 5\, SVR<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time
- _focus/misc_combinations/description_only/dvipuSkara-yOgaH~4.toml)<br/>- T
- ags: RareDays Combinations
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
