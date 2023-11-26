@@ -58,36 +58,34 @@ def get_hora_data_str(daily_panchaanga, scripts, time_format):
                         format=time_format))
   return hora_data_str
 
+def get_solar_shraaddha_tithi_data_str(daily_panchaanga, scripts, time_format):
+    if not daily_panchaanga.solar_shraaddha_tithi:
+        return '---'
 
-def get_shraaddha_tithi_data_str(daily_panchaanga, scripts, time_format):
-  if daily_panchaanga.shraaddha_tithi == []:
-    stithi_data_str = '---'
-  else:
-    if daily_panchaanga.shraaddha_tithi[0] == 0:
-      stithi_data_str = jyotisha.custom_transliteration.tr('zUnyatithiH', scripts[0])
-    else:
-      showMonth = any([m != daily_panchaanga.solar_sidereal_date_sunset.month for (m, t) in daily_panchaanga.shraaddha_tithi])
-      t1 = names.NAMES['TITHI_NAMES']['sa'][scripts[0]][daily_panchaanga.shraaddha_tithi[0][1]]
-      if showMonth:
-        t1 += ' (%s)' % names.NAMES['RASHI_NAMES']['sa'][scripts[0]][daily_panchaanga.shraaddha_tithi[0][0]]
-      if len(daily_panchaanga.shraaddha_tithi) == 2:
-        t2 = names.NAMES['TITHI_NAMES']['sa'][scripts[0]][daily_panchaanga.shraaddha_tithi[1][1]]
+    if daily_panchaanga.solar_shraaddha_tithi[0] == 0:
+        return jyotisha.custom_transliteration.tr('zUnyatithiH', scripts[0])
+
+    showMonth = any(m != daily_panchaanga.solar_sidereal_date_sunset.month for m, t in daily_panchaanga.solar_shraaddha_tithi)
+    tithi_strings = []
+
+    for month, tithi in daily_panchaanga.solar_shraaddha_tithi:
+        tithi_name = names.NAMES['TITHI_NAMES']['sa'][scripts[0]][tithi].split('-')[-1]
         if showMonth:
-          t2 += ' (%s)' % names.NAMES['RASHI_NAMES']['sa'][scripts[0]][daily_panchaanga.shraaddha_tithi[1][0]]
-        stithi_data_str = '%s/%s (%s)' % \
-                                (t1.split('-')[-1], t2.split('-')[-1], jyotisha.custom_transliteration.tr('tithidvayam', scripts[0]))
-      elif len(daily_panchaanga.shraaddha_tithi) == 3:
-        t2 = names.NAMES['TITHI_NAMES']['sa'][scripts[0]][daily_panchaanga.shraaddha_tithi[1][1]]
-        if showMonth:
-          t2 += ' (%s)' % names.NAMES['RASHI_NAMES']['sa'][scripts[0]][daily_panchaanga.shraaddha_tithi[1][0]]
-        t3 = names.NAMES['TITHI_NAMES']['sa'][scripts[0]][daily_panchaanga.shraaddha_tithi[2][1]]
-        if showMonth:
-          t3 += ' (%s)' % names.NAMES['RASHI_NAMES']['sa'][scripts[0]][daily_panchaanga.shraaddha_tithi[2][0]]
-        stithi_data_str = '%s/%s/%s (%s)' % \
-                                (t1.split('-')[-1], t2.split('-')[-1], t3.split('-')[-1], jyotisha.custom_transliteration.tr('tithitrayam', scripts[0]))
-      else:
-        stithi_data_str = '%s' % (t1.split('-')[-1])
-  return stithi_data_str
+            rashi_name = names.NAMES['RASHI_NAMES']['sa'][scripts[0]][month]
+            tithi_strings.append(f"{tithi_name} ({rashi_name})")
+        else:
+            tithi_strings.append(tithi_name)
+
+    tithi_count = len(daily_panchaanga.solar_shraaddha_tithi)
+    if tithi_count == 1:
+        return tithi_strings[0]
+    elif tithi_count == 2:
+        return f"{tithi_strings[0]}/{tithi_strings[1]} ({jyotisha.custom_transliteration.tr('tithidvayam', scripts[0])})"
+    elif tithi_count == 3:
+        return f"{tithi_strings[0]}/{tithi_strings[1]}/{tithi_strings[2]} ({jyotisha.custom_transliteration.tr('tithitrayam', scripts[0])})"
+
+    return '/'.join(tithi_strings)
+
 
 def get_raahu_yama_gulika_strings(daily_panchaanga, time_format):
   jd = daily_panchaanga.julian_day_start

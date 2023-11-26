@@ -402,11 +402,13 @@ class SolarFestivalAssigner(FestivalAssigner):
           anga.jd_start = jd_start
         if anga.jd_end is None:
           anga.jd_end = jd_end
+
       if anga.jd_start is not None:
         jd_start = anga.jd_start
       if anga.jd_end is not None:
         jd_end = anga.jd_end
       anga_list.append(anga)
+
     if yoga_happens:
       jd_start, jd_end = max([x.jd_start for x in anga_list]), min([x.jd_end for x in anga_list])
       if jd_start > jd_end or jd_start > self.panchaanga.jd_end:

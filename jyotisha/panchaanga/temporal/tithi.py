@@ -31,7 +31,8 @@ def get_tithi(jd):
 class ShraddhaTithiAssigner(PeriodicPanchaangaApplier):
   def reset_shraaddha_tithis(self):
     for daily_panchaanga in self.daily_panchaangas:
-      daily_panchaanga.shraaddha_tithi = []
+      daily_panchaanga.solar_shraaddha_tithi = []
+      daily_panchaanga.lunar_shraaddha_tithi = []
 
   def assign_shraaddha_tithi(self, debug_shraaddha_tithi=False):
     self.reset_shraaddha_tithis()
@@ -79,6 +80,8 @@ class ShraddhaTithiAssigner(PeriodicPanchaangaApplier):
         m = dp.lunar_month_sunrise.index
         if m == 1 and (start_time - self.panchaanga.jd_start) > 200:
           m = 13
+        if m == 2 and (start_time - self.panchaanga.jd_start) > 200:
+          m = 14
         if t.anga.index == 1:
           # Check if it has to be assigned to current month or next
           if dp.sunrise_day_angas.get_angas_with_ends(AngaType.TITHI)[0].anga.index == 30:
@@ -241,8 +244,8 @@ class ShraddhaTithiAssigner(PeriodicPanchaangaApplier):
               logging.debug('deleting %d from %s' % (0, str(solar_tithi_days[m][t])))
             fday = int(solar_tithi_days[m][t][0][0] - self.panchaanga.daily_panchaangas_sorted()[0].date)
             # Add Shunya tithi
-            if 0 not in self.daily_panchaangas[fday].shraaddha_tithi:
-              self.daily_panchaangas[fday].shraaddha_tithi.append(0)
+            if 0 not in self.daily_panchaangas[fday].solar_shraaddha_tithi:
+              self.daily_panchaangas[fday].solar_shraaddha_tithi.append(0)
             del solar_tithi_days[m][t][0]
           else:
             if d2 in sankranti_dushta_days:
@@ -250,16 +253,16 @@ class ShraddhaTithiAssigner(PeriodicPanchaangaApplier):
                 logging.debug('deleting %d from %s' % (1, str(solar_tithi_days[m][t])))
               fday = int(solar_tithi_days[m][t][1][0] - self.panchaanga.daily_panchaangas_sorted()[0].date)
               # Add Shunya tithi
-              if 0 not in self.daily_panchaangas[fday].shraaddha_tithi:
-                self.daily_panchaangas[fday].shraaddha_tithi.append(0)
+              if 0 not in self.daily_panchaangas[fday].solar_shraaddha_tithi:
+                self.daily_panchaangas[fday].solar_shraaddha_tithi.append(0)
               del solar_tithi_days[m][t][1]
             else:
               if debug_shraaddha_tithi:
                 logging.debug('deleting %d from %s' % (0, str(solar_tithi_days[m][t])))
               fday = int(solar_tithi_days[m][t][0][0] - self.panchaanga.daily_panchaangas_sorted()[0].date)
               # Add Shunya tithi
-              if 0 not in self.daily_panchaangas[fday].shraaddha_tithi:
-                self.daily_panchaangas[fday].shraaddha_tithi.append(0)
+              if 0 not in self.daily_panchaangas[fday].solar_shraaddha_tithi:
+                self.daily_panchaangas[fday].solar_shraaddha_tithi.append(0)
               del solar_tithi_days[m][t][0]
         elif nTithis == 0:
           # No tithi found, use chandramana tithi!
@@ -271,15 +274,16 @@ class ShraddhaTithiAssigner(PeriodicPanchaangaApplier):
     for m in range(1, 13):
       for t in range(1, 31):
         fday = int(solar_tithi_days[m][t][0][0] - self.panchaanga.daily_panchaangas_sorted()[0].date)
-        if 0 in self.daily_panchaangas[fday].shraaddha_tithi:
+        if 0 in self.daily_panchaangas[fday].solar_shraaddha_tithi:
           logging.warning('No longer shUnya')
-          self.daily_panchaangas[fday].shraaddha_tithi.remove(0)
-        self.daily_panchaangas[fday].shraaddha_tithi.append((m, t))
+          self.daily_panchaangas[fday].solar_shraaddha_tithi.remove(0)
+        self.daily_panchaangas[fday].solar_shraaddha_tithi.append((m, t))
 
-    # for m in lunar_month_list:
-    #   for t in range(1, 31):
-    #     fday = int(lunar_tithi_days[m][t][0][0] - self.panchaanga.daily_panchaangas_sorted()[0].date)
-    #     self.daily_panchaangas[fday].lunar_shraaddha_tithi.append(t)
+    for m in lunar_month_list:
+      for t in range(1, 31):
+        if lunar_tithi_days[m][t]:
+          fday = int(lunar_tithi_days[m][t][0][0] - self.panchaanga.daily_panchaangas_sorted()[0].date)
+          self.daily_panchaangas[fday].lunar_shraaddha_tithi.append(t)
 
 
 # Essential for depickling to work.
