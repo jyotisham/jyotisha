@@ -495,6 +495,7 @@ class SolarFestivalAssigner(FestivalAssigner):
     PUSHKARA_TITHI = [2, 7, 12, 17, 22, 27]
     TRI_PUSHKARA_NAKSHATRA = [3, 7, 12, 16, 21, 25]
     DVI_PUSHKARA_NAKSHATRA = [5, 14, 23]
+    PUSHKARA_WDAY = [0, 2, 6]
     for d, daily_panchaanga in enumerate(self.daily_panchaangas):
       dp_nakshatra = tp_nakshatra = p_tithi = None
       for nakshatra_span in daily_panchaanga.sunrise_day_angas.nakshatras_with_ends:
@@ -510,13 +511,13 @@ class SolarFestivalAssigner(FestivalAssigner):
           p_tithi = tithi_ID
       
       wday = daily_panchaanga.date.get_weekday()
-      
-      if tp_nakshatra is not None and p_tithi is not None and wday in [0, 2, 6]:
-        self._assign_yoga('tripuSkara-yOgaH~%d' % wday, [(zodiac.AngaType.NAKSHATRA, tp_nakshatra), (zodiac.AngaType.TITHI, p_tithi)],
-          jd_start=daily_panchaanga.jd_sunrise, jd_end=daily_panchaanga.jd_next_sunrise)
-      if dp_nakshatra is not None and p_tithi is not None and wday in [0, 2, 6]:
-        self._assign_yoga('dvipuSkara-yOgaH~%d' % wday, [(zodiac.AngaType.NAKSHATRA, dp_nakshatra), (zodiac.AngaType.TITHI, p_tithi)],
-          jd_start=daily_panchaanga.jd_sunrise, jd_end=daily_panchaanga.jd_next_sunrise)
+      if p_tithi is not None and wday in PUSHKARA_WDAY:
+        if tp_nakshatra is not None:
+          self._assign_yoga('tripuSkara-yOgaH~%d' % wday, [(zodiac.AngaType.NAKSHATRA, tp_nakshatra), (zodiac.AngaType.TITHI, p_tithi)],
+            jd_start=daily_panchaanga.jd_sunrise, jd_end=daily_panchaanga.jd_next_sunrise)
+        if dp_nakshatra is not None:
+          self._assign_yoga('dvipuSkara-yOgaH~%d' % wday, [(zodiac.AngaType.NAKSHATRA, dp_nakshatra), (zodiac.AngaType.TITHI, p_tithi)],
+            jd_start=daily_panchaanga.jd_sunrise, jd_end=daily_panchaanga.jd_next_sunrise)
       
 
   def assign_padmaka_yoga(self):
