@@ -39532,12 +39532,12 @@ BEGIN:VEVENT
 SUMMARY:bhīṣma-pañcaka-vrata-ārambhaḥ
 DTSTART;VALUE=DATE:20191108
 DTEND;VALUE=DATE:20191109
-DESCRIPTION:Observed on Śukla-Ēkādaśī tithi of Kārttikaḥ (lunar) m
- onth (Sūryōdayaḥ/puurvaviddha). <br/><br/>Bhishma\, lying on śaratalp
- a performed upadesha to Yudhisthira and other Pandavas for these five days
- .<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisha
- m/adyatithi/blob/master/mahApuruSha/xatra/lunar_month/tithi/08/11/bhISma-p
- aJcaka-vrata-ArambhaH.toml)<br/>- Tags: LessCommonFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra/lunar_month/tithi/08/11/bhISma-
+ paJcaka-vrata-ArambhaH.toml)<br/>- Tags: LessCommonFestivals<br/><br/><br/
+ ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
+ atithi/blob/master/mahApuruSha/xatra/lunar_month/tithi/08/11/bhISma-paJcak
+ a-vrata-ArambhaH.toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -40167,10 +40167,12 @@ BEGIN:VEVENT
 SUMMARY:bhīṣma-pañcaka-vratam
 DTSTART;VALUE=DATE:20191107
 DTEND;VALUE=DATE:20191113
-DESCRIPTION:Bhishma\, lying on śaratalpa performed upadesha to Yudhisthir
- a and other Pandavas for these five days.<br/><br/>## Details<br/>- [Edit 
- config file](https://github.com/jyotisham/adyatithi/blob/master/general/de
- scription_only/bhISma-paJcaka-vratam.toml)<br/>- Tags: LessCommonFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/description_only/bhISma-paJcaka-vratam.to
+ ml)<br/>- Tags: LessCommonFestivals<br/><br/><br/><br/>## Details<br/>- [E
+ dit config file](https://github.com/jyotisham/adyatithi/blob/master/genera
+ l/description_only/bhISma-paJcaka-vratam.toml)<br/>- Tags: LessCommonFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -40183,9 +40185,9 @@ BEGIN:VEVENT
 SUMMARY:bhīṣma-pañcaka-vrata-samāpanam
 DTSTART;VALUE=DATE:20191112
 DTEND;VALUE=DATE:20191113
-DESCRIPTION:Observed on Paurṇamāsī tithi of Kārttikaḥ (lunar) month
-  (Sūryōdayaḥ/puurvaviddha). <br/><br/>Bhishma\, lying on śaratalpa pe
- rformed upadesha to Yudhisthira and other Pandavas for these five days.<br
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra/lunar_month/tithi/08/15/bhISma-
+ paJcaka-vrata-samApanam.toml)<br/>- Tags: LessCommonFestivals<br/><br/><br
  /><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ad
  yatithi/blob/master/mahApuruSha/xatra/lunar_month/tithi/08/15/bhISma-paJca
  ka-vrata-samApanam.toml)<br/>- Tags: LessCommonFestivals
