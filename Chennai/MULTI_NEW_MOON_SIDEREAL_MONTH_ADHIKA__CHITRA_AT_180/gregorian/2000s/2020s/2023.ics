@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20231204095218
+SEQUENCE:20231204095858
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -52317,6 +52317,28 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  otisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/bh
  RgurEvatI-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDa
  ys
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:चातुर्मास्य-व्रत-पारण-नि
+ षिद्द्ध-योगः
+DTSTART;TZID=Asia/Calcutta:20231124T101642
+DTEND;TZID=Asia/Calcutta:20231124T155841
+DESCRIPTION:रेवतीतुर्यचरणे द्वादश
+ ीसंयुते नरः।  <br/>न कुर्यात् प
+ ारणं कुर्वन्व्रतं निष्फलता
+ ं नयेत्॥३०॥  <br/>---श्रीस्कान्द
+ े महापुराणे द्वितीये वैष्ण
+ वखण्डे कार्तिकमासमाहात्म्
+ ये कूष्माण्डनवमीतुलसीविवा
+ हविधिवर्णनं नामैकत्रिंशोऽ
+ ध्यायः<br/><br/><br/><br/>## Details<br/>- References<br/>  - 
+ Skanda Puranam<br/>- [Edit config file](https://github.com/jyotisham/adyat
+ ithi/blob/master/time_focus/misc_combinations/description_only/cAturmAsya-
+ vrata-pAraNa-niSiddha-yOgaH.toml)<br/>- Tags: CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
