@@ -42,6 +42,7 @@ class SolarFestivalAssigner(FestivalAssigner):
     self.assign_agni_nakshatra()
     self.assign_garbhottam()
     self.assign_padmaka_yoga()
+    self.assign_revati_dvadashi_yoga()
 
 
   def assign_pitr_dina(self):
@@ -573,6 +574,11 @@ class SolarFestivalAssigner(FestivalAssigner):
             self.panchaanga.add_festival(fest_id=festival_name, date=self.daily_panchaangas[d].date)
             # logging.debug('* %d-%02d-%02d> %s!' % (y, m, dt, festival_name))
       
+  def assign_revati_dvadashi_yoga(self):
+    for d, daily_panchaanga in enumerate(self.daily_panchaangas):
+      if daily_panchaanga.lunar_month_sunrise.index == 8 and daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index in (11, 12):
+        self._assign_yoga('cAturmAsya-vrata-pAraNa-niSiddha-yOgaH', [(zodiac.AngaType.NAKSHATRA_PADA, 108), (zodiac.AngaType.TITHI, 12)],
+                      jd_start=daily_panchaanga.jd_sunrise, jd_end=daily_panchaanga.jd_sunset)
 
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])
