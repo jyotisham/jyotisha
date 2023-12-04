@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20231204095858
+SEQUENCE:20231204110237
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -52122,12 +52122,12 @@ BEGIN:VEVENT
 SUMMARY:भीष्म-पञ्चक-व्रत-आरम्भः
 DTSTART;VALUE=DATE:20231123
 DTEND;VALUE=DATE:20231124
-DESCRIPTION:Observed on Śukla-Ēkādaśī tithi of Kārttikaḥ (lunar) m
- onth (Sūryōdayaḥ/puurvaviddha). <br/><br/>Bhishma\, lying on śaratalp
- a performed upadesha to Yudhisthira and other Pandavas for these five days
- .<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisha
- m/adyatithi/blob/master/mahApuruSha/xatra/lunar_month/tithi/08/11/bhISma-p
- aJcaka-vrata-ArambhaH.toml)<br/>- Tags: LessCommonFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra/lunar_month/tithi/08/11/bhISma-
+ paJcaka-vrata-ArambhaH.toml)<br/>- Tags: LessCommonFestivals<br/><br/><br/
+ ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
+ atithi/blob/master/mahApuruSha/xatra/lunar_month/tithi/08/11/bhISma-paJcak
+ a-vrata-ArambhaH.toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -52324,7 +52324,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चातुर्मास्य-व्रत-पारण-नि
- षिद्द्ध-योगः
+ षिद्ध-योगः
 DTSTART;TZID=Asia/Calcutta:20231124T101642
 DTEND;TZID=Asia/Calcutta:20231124T155841
 DESCRIPTION:रेवतीतुर्यचरणे द्वादश
@@ -53115,10 +53115,12 @@ BEGIN:VEVENT
 SUMMARY:भीष्म-पञ्चक-व्रतम्
 DTSTART;VALUE=DATE:20231123
 DTEND;VALUE=DATE:20231128
-DESCRIPTION:Bhishma\, lying on śaratalpa performed upadesha to Yudhisthir
- a and other Pandavas for these five days.<br/><br/>## Details<br/>- [Edit 
- config file](https://github.com/jyotisham/adyatithi/blob/master/general/de
- scription_only/bhISma-paJcaka-vratam.toml)<br/>- Tags: LessCommonFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/description_only/bhISma-paJcaka-vratam.to
+ ml)<br/>- Tags: LessCommonFestivals<br/><br/><br/><br/>## Details<br/>- [E
+ dit config file](https://github.com/jyotisham/adyatithi/blob/master/genera
+ l/description_only/bhISma-paJcaka-vratam.toml)<br/>- Tags: LessCommonFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -53131,9 +53133,9 @@ BEGIN:VEVENT
 SUMMARY:भीष्म-पञ्चक-व्रत-समापनम्
 DTSTART;VALUE=DATE:20231127
 DTEND;VALUE=DATE:20231128
-DESCRIPTION:Observed on Paurṇamāsī tithi of Kārttikaḥ (lunar) month
-  (Sūryōdayaḥ/puurvaviddha). <br/><br/>Bhishma\, lying on śaratalpa pe
- rformed upadesha to Yudhisthira and other Pandavas for these five days.<br
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra/lunar_month/tithi/08/15/bhISma-
+ paJcaka-vrata-samApanam.toml)<br/>- Tags: LessCommonFestivals<br/><br/><br
  /><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ad
  yatithi/blob/master/mahApuruSha/xatra/lunar_month/tithi/08/15/bhISma-paJca
  ka-vrata-samApanam.toml)<br/>- Tags: LessCommonFestivals
@@ -54183,7 +54185,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:आरुमुख-नावलर्-गुरुपूजै #
+SUMMARY:आऱुमुख-नावलर्-गुरुपूजै #
  १४५
 DTSTART;VALUE=DATE:20231204
 DTEND;VALUE=DATE:20231205
