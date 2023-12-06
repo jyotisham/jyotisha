@@ -381,7 +381,7 @@ class SolarFestivalAssigner(FestivalAssigner):
 
           return
 
-  def _assign_yoga(self, yoga_name, intersect_list, jd_start=None, jd_end=None):
+  def _assign_yoga(self, yoga_name, intersect_list, jd_start=None, jd_end=None, show_debug_info=True):
     if jd_start is None:
       jd_start = self.panchaanga.jd_start
     if jd_end is None:
@@ -394,8 +394,9 @@ class SolarFestivalAssigner(FestivalAssigner):
       finder = zodiac.AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=anga_type)
       anga = finder.find(jd1 = jd_start, jd2=jd_end, target_anga_id=target_anga_id)
       if anga is None:
-        msg = ' + '.join(['%s %d' % (intersect_list[i][0], intersect_list[i][1]) for i in range(len(intersect_list))])
-        logging.debug('No %s involving %s in span %s!' % (yoga_name, msg, Interval(jd_start=jd_start_in, jd_end=jd_end_in)))
+        if show_debug_info:
+          msg = ' + '.join(['%s %d' % (intersect_list[i][0], intersect_list[i][1]) for i in range(len(intersect_list))])
+          logging.debug('No %s involving %s in span %s!' % (yoga_name, msg, Interval(jd_start=jd_start_in, jd_end=jd_end_in)))
         yoga_happens = False
         break
       else:
@@ -413,8 +414,9 @@ class SolarFestivalAssigner(FestivalAssigner):
     if yoga_happens:
       jd_start, jd_end = max([x.jd_start for x in anga_list]), min([x.jd_end for x in anga_list])
       if jd_start > jd_end or jd_start > self.panchaanga.jd_end:
-        msg = ' + '.join(['%s %d' % (intersect_list[i][0], intersect_list[i][1]) for i in range(len(intersect_list))])
-        logging.debug('No %s involving %s in span %s!' % (msg, yoga_name, Interval(jd_start=jd_start_in, jd_end=jd_end_in)))
+        if show_debug_info:
+          msg = ' + '.join(['%s %d' % (intersect_list[i][0], intersect_list[i][1]) for i in range(len(intersect_list))])
+          logging.debug('No %s involving %s in span %s!' % (msg, yoga_name, Interval(jd_start=jd_start_in, jd_end=jd_end_in)))
       else:
         fday = int(floor(jd_start) - floor(self.daily_panchaangas[0].julian_day_start))
         if (jd_start < self.daily_panchaangas[fday].jd_sunrise):
@@ -517,10 +519,10 @@ class SolarFestivalAssigner(FestivalAssigner):
       if p_tithi is not None and wday in PUSHKARA_WDAY:
         if tp_nakshatra is not None:
           self._assign_yoga('tripuSkara-yOgaH~%d' % wday, [(zodiac.AngaType.NAKSHATRA, tp_nakshatra), (zodiac.AngaType.TITHI, p_tithi)],
-            jd_start=daily_panchaanga.jd_sunrise, jd_end=daily_panchaanga.jd_next_sunrise)
+            jd_start=daily_panchaanga.jd_sunrise, jd_end=daily_panchaanga.jd_next_sunrise, show_debug_info=False)
         if dp_nakshatra is not None:
           self._assign_yoga('dvipuSkara-yOgaH~%d' % wday, [(zodiac.AngaType.NAKSHATRA, dp_nakshatra), (zodiac.AngaType.TITHI, p_tithi)],
-            jd_start=daily_panchaanga.jd_sunrise, jd_end=daily_panchaanga.jd_next_sunrise)
+            jd_start=daily_panchaanga.jd_sunrise, jd_end=daily_panchaanga.jd_next_sunrise, show_debug_info=False)
       
 
   def assign_padmaka_yoga(self):
