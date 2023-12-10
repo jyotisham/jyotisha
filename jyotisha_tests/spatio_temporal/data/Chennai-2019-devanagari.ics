@@ -659,10 +659,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:cākkiya nāyaṉār (33) gurupūjai
+SUMMARY:Chākkiya Nāyanār (34) Gurupūjai
 DTSTART;VALUE=DATE:20190106
 DTEND;VALUE=DATE:20190107
-DESCRIPTION:
+DESCRIPTION:Observed on Pūrvāṣāḍhā nakshatra of Dhanuḥ (sidereal
+  solar) month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mah
+ ApuruSha/nAyanAr/sidereal_solar_month/nakshatra/09/20/cAkkiya_nAyan2Ar_%28
+ 34%29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1388,10 +1392,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:vāyilār nāyaṉār (49) gurupūjai
+SUMMARY:Vāyilār Nāyanār (51) Gurupūjai
 DTSTART;VALUE=DATE:20190114
 DTEND;VALUE=DATE:20190115
-DESCRIPTION:
+DESCRIPTION:Observed on Rēvatī nakshatra of Dhanuḥ (sidereal solar) mo
+ nth (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/n
+ AyanAr/sidereal_solar_month/nakshatra/09/27/vAyilAr_nAyan2Ar_%2851%29_guru
+ pUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1961,10 +1969,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:arivāṭṭāya nāyaṉār (12) gurupūjai
+SUMMARY:Arivāṭṭāya Nāyanār (13) Gurupūjai
 DTSTART;VALUE=DATE:20190119
 DTEND;VALUE=DATE:20190120
-DESCRIPTION:
+DESCRIPTION:Observed on Ārdrā nakshatra of Makaraḥ (sidereal solar) mo
+ nth (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/n
+ AyanAr/sidereal_solar_month/nakshatra/10/06/arivATTAya_nAyan2Ar_%2813%29_g
+ urupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1974,10 +1986,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:kaṇṇappa nāyaṉār (9) gurupūjai
+SUMMARY:Kaṇṇappa Nāyanār (10) Gurupūjai
 DTSTART;VALUE=DATE:20190119
 DTEND;VALUE=DATE:20190120
-DESCRIPTION:
+DESCRIPTION:Observed on Mr̥gaśīrṣam nakshatra of Makaraḥ (sidereal 
+ solar) month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahA
+ puruSha/nAyanAr/sidereal_solar_month/nakshatra/10/05/kaNNappa_nAyan2Ar_%28
+ 10%29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2802,10 +2818,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:caṇḍēśvara nāyaṉār (19) gurupūjai
+SUMMARY:Chaṇḍēśvara Nāyanār (20) Gurupūjai
 DTSTART;VALUE=DATE:20190125
 DTEND;VALUE=DATE:20190126
-DESCRIPTION:
+DESCRIPTION:Observed on Uttaraphalgunī nakshatra of Makaraḥ (sidereal s
+ olar) month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [
+ Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahAp
+ uruSha/nAyanAr/sidereal_solar_month/nakshatra/10/12/caNDEzvara_nAyan2Ar_%2
+ 820%29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3222,10 +3242,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:tirunīlakaṇṭha nāyaṉār (1) gurupūjai
+SUMMARY:Tirunīlakaṇṭha Nāyanār (2) Gurupūjai
 DTSTART;VALUE=DATE:20190129
 DTEND;VALUE=DATE:20190130
-DESCRIPTION:
+DESCRIPTION:Observed on Viśākhā nakshatra of Makaraḥ (sidereal solar)
+  month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSh
+ a/nAyanAr/sidereal_solar_month/nakshatra/10/16/tirunIlakaNTha_nAyan2Ar_%28
+ 2%29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4175,10 +4199,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:appūdiyaḍigaḷ nāyaṉār (24) gurupūjai
+SUMMARY:Appūdiyaḍigaḷ Nāyanār (25) Gurupūjai
 DTSTART;VALUE=DATE:20190207
 DTEND;VALUE=DATE:20190208
-DESCRIPTION:
+DESCRIPTION:Observed on Śatabhiṣak nakshatra of Makaraḥ (sidereal sol
+ ar) month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Ed
+ it config file](https://github.com/jyotisham/adyatithi/blob/master/mahApur
+ uSha/nAyanAr/sidereal_solar_month/nakshatra/10/24/appUdiyaDigaL_nAyan2Ar_%
+ 2825%29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4483,10 +4511,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:kalikkamba nāyaṉār (42) gurupūjai
+SUMMARY:Kalikkamba Nāyanār (43) Gurupūjai
 DTSTART;VALUE=DATE:20190210
 DTEND;VALUE=DATE:20190211
-DESCRIPTION:
+DESCRIPTION:Observed on Rēvatī nakshatra of Makaraḥ (sidereal solar) m
+ onth (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit co
+ nfig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/
+ nAyanAr/sidereal_solar_month/nakshatra/10/27/kalikkamba_nAyan2Ar_%2843%29_
+ gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6358,10 +6390,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:eṟipatta nāyaṉār (7) gurupūjai
+SUMMARY:Eṟipatta Nāyanār (8) Gurupūjai
 DTSTART;VALUE=DATE:20190222
 DTEND;VALUE=DATE:20190223
-DESCRIPTION:
+DESCRIPTION:Observed on Hastaḥ nakshatra of Kumbhaḥ (sidereal solar) m
+ onth (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit co
+ nfig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/
+ nAyanAr/sidereal_solar_month/nakshatra/11/13/er2ipatta_nAyan2Ar_%288%29_gu
+ rupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6923,10 +6959,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:kāri nāyaṉār (47) gurupūjai
+SUMMARY:Kāri Nāyanār (48) Gurupūjai
 DTSTART;VALUE=DATE:20190301
 DTEND;VALUE=DATE:20190302
-DESCRIPTION:
+DESCRIPTION:Observed on Pūrvāṣāḍhā nakshatra of Kumbhaḥ (siderea
+ l solar) month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>
+ - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/ma
+ hApuruSha/nAyanAr/sidereal_solar_month/nakshatra/11/20/kAri_nAyan2Ar_%2848
+ %29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7494,10 +7534,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:kocceṅgaṭ cōḻa nāyaṉār (59) gurupūjai
+SUMMARY:Kochcheṅgaṭ Chōḻa Nāyanār (60) Gurupūjai
 DTSTART;VALUE=DATE:20190306
 DTEND;VALUE=DATE:20190307
-DESCRIPTION:
+DESCRIPTION:Observed on Śatabhiṣak nakshatra of Kumbhaḥ (sidereal sol
+ ar) month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Ed
+ it config file](https://github.com/jyotisham/adyatithi/blob/master/mahApur
+ uSha/nAyanAr/sidereal_solar_month/nakshatra/11/24/kocceGgaT_cOzha_nAyan2Ar
+ _%2860%29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8747,10 +8791,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:muṉaiyaḍuvār nāyaṉār (50) gurupūjai
+SUMMARY:Munaiyaḍuvār Nāyanār (52) Gurupūjai
 DTSTART;VALUE=DATE:20190317
 DTEND;VALUE=DATE:20190318
-DESCRIPTION:
+DESCRIPTION:Observed on Puṣyaḥ nakshatra of Mīnaḥ (sidereal solar) 
+ month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha
+ /nAyanAr/sidereal_solar_month/nakshatra/12/08/mun2aiyaDuvAr_nAyan2Ar_%2852
+ %29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10630,10 +10678,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:daṇḍiyaḍigaḷ nāyaṉār (30) gurupūjai
+SUMMARY:Daṇḍiyaḍigaḷ Nāyanār (31) Gurupūjai
 DTSTART;VALUE=DATE:20190402
 DTEND;VALUE=DATE:20190403
-DESCRIPTION:
+DESCRIPTION:Observed on Śatabhiṣak nakshatra of Mīnaḥ (sidereal sola
+ r) month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuru
+ Sha/nAyanAr/sidereal_solar_month/nakshatra/12/24/daNDiyaDigaL_nAyan2Ar_%28
+ 31%29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11784,10 +11836,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:nēca nāyaṉār (58) gurupūjai
+SUMMARY:Nēcha Nāyanār (59) Gurupūjai
 DTSTART;VALUE=DATE:20190410
 DTEND;VALUE=DATE:20190411
-DESCRIPTION:
+DESCRIPTION:Observed on Rōhiṇī nakshatra of Mīnaḥ (sidereal solar) 
+ month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha
+ /nAyanAr/sidereal_solar_month/nakshatra/12/04/nEca_nAyan2Ar_%2859%29_gurup
+ Ujai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11965,10 +12021,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:gaṇanātha nāyaṉār (37) gurupūjai
+SUMMARY:Gaṇanātha Nāyanār (38) Gurupūjai
 DTSTART;VALUE=DATE:20190412
 DTEND;VALUE=DATE:20190413
-DESCRIPTION:
+DESCRIPTION:Observed on Ārdrā nakshatra of Mīnaḥ (sidereal solar) mon
+ th (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit conf
+ ig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nA
+ yanAr/sidereal_solar_month/nakshatra/12/06/gaNanAtha_nAyan2Ar_%2838%29_gur
+ upUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13195,10 +13255,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:icaiñāṉiyār nāyaṉār (62) gurupūjai
+SUMMARY:Ichaiñāniyār Nāyanār (63) Gurupūjai
 DTSTART;VALUE=DATE:20190419
 DTEND;VALUE=DATE:20190420
-DESCRIPTION:
+DESCRIPTION:Observed on Citrā nakshatra of Mēṣaḥ (sidereal solar) mo
+ nth (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/n
+ AyanAr/sidereal_solar_month/nakshatra/01/14/icaiJAn2iyAr_nAyan2Ar_%2863%29
+ _gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13453,10 +13517,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:tirukkuṟipput toṇḍa nāyaṉār (18) gurupūjai
+SUMMARY:Tirukkuṟipput Toṇḍa Nāyanār (19) Gurupūjai
 DTSTART;VALUE=DATE:20190420
 DTEND;VALUE=DATE:20190421
-DESCRIPTION:
+DESCRIPTION:Observed on Svātī nakshatra of Mēṣaḥ (sidereal solar) m
+ onth (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit co
+ nfig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/
+ nAyanAr/sidereal_solar_month/nakshatra/01/15/tirukkur2ipput_toNDa_nAyan2Ar
+ _%2819%29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14172,10 +14240,16 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:tirunāvukkaracha nāyaṉār (20) gurupūjai
+SUMMARY:Tirunāvukkarachha Nāyanār (21) Gurupūjai
 DTSTART;VALUE=DATE:20190429
 DTEND;VALUE=DATE:20190430
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
+ a/01/24/tirunAvukkaracha_nAyan2Ar_%2821%29_gurupUjai.toml)<br/>- Tags: Nay
+ anarGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https
+ ://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal
+ _solar_month/nakshatra/01/24/tirunAvukkaracha_nAyan2Ar_%2821%29_gurupUjai.
+ toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14879,10 +14953,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ciṟuttoṇḍa nāyaṉār (35) gurupūjai
+SUMMARY:Chiṟuttoṇḍa Nāyanār (36) Gurupūjai
 DTSTART;VALUE=DATE:20190505
 DTEND;VALUE=DATE:20190506
-DESCRIPTION:
+DESCRIPTION:Observed on Apabharaṇī nakshatra of Mēṣaḥ (sidereal so
+ lar) month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [E
+ dit config file](https://github.com/jyotisham/adyatithi/blob/master/mahApu
+ ruSha/nAyanAr/sidereal_solar_month/nakshatra/01/02/cir2uttoNDa_nAyan2Ar_%2
+ 836%29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15258,10 +15336,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:maṅgaiyarkkaraciyār nāyaṉār (57) gurupūjai
+SUMMARY:Maṅgaiyarkkarachiyār Nāyanār (50) Gurupūjai
 DTSTART;VALUE=DATE:20190507
 DTEND;VALUE=DATE:20190508
-DESCRIPTION:
+DESCRIPTION:Observed on Rōhiṇī nakshatra of Mēṣaḥ (sidereal solar
+ ) month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruS
+ ha/nAyanAr/sidereal_solar_month/nakshatra/01/04/maGgaiyarkkaraciyAr_nAyan2
+ Ar_%2850%29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15521,10 +15603,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:viṟaṉmiṇḍa nāyaṉār (5) gurupūjai
+SUMMARY:Viṟanmiṇḍa Nāyanār (6) Gurupūjai
 DTSTART;VALUE=DATE:20190509
 DTEND;VALUE=DATE:20190510
-DESCRIPTION:
+DESCRIPTION:Observed on Ārdrā nakshatra of Mēṣaḥ (sidereal solar) m
+ onth (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit co
+ nfig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/
+ nAyanAr/sidereal_solar_month/nakshatra/01/06/vir2an2miNDa_nAyan2Ar_%286%29
+ _gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17232,10 +17318,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:muruga nāyaṉār (15) gurupūjai
+SUMMARY:Muruga Nāyanār (16) Gurupūjai
 DTSTART;VALUE=DATE:20190521
 DTEND;VALUE=DATE:20190522
-DESCRIPTION:
+DESCRIPTION:Observed on Mūlā nakshatra of Vr̥ṣabhaḥ (sidereal solar
+ ) month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruS
+ ha/nAyanAr/sidereal_solar_month/nakshatra/02/19/muruga_nAyan2Ar_%2816%29_g
+ urupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17289,10 +17379,16 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:tiruñāṉasambandhamūrtti nāyaṉār (27) gurupūjai
+SUMMARY:Tiruñānasambandhamūrtti Nāyanār (28) Gurupūjai
 DTSTART;VALUE=DATE:20190521
 DTEND;VALUE=DATE:20190522
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
+ a/02/19/tiruJAn2asambandhamUrtti_nAyan2Ar_%2828%29_gurupUjai.toml)<br/>- T
+ ags: NayanarGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config fil
+ e](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/
+ sidereal_solar_month/nakshatra/02/19/tiruJAn2asambandhamUrtti_nAyan2Ar_%28
+ 28%29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17302,10 +17398,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:tirunīlakaṇṭha yāḻppāṇa nāyaṉār (60) gurupūjai
+SUMMARY:Tirunīlakaṇṭha Yāḻppāṇa Nāyanār (61) Gurupūjai
 DTSTART;VALUE=DATE:20190521
 DTEND;VALUE=DATE:20190522
-DESCRIPTION:
+DESCRIPTION:Observed on Mūlā nakshatra of Vr̥ṣabhaḥ (sidereal solar
+ ) month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruS
+ ha/nAyanAr/sidereal_solar_month/nakshatra/02/19/tirunIlakaNTha_yAzhppANa_n
+ Ayan2Ar_%2861%29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17315,10 +17415,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:tirunīlanakka nāyaṉār (25) gurupūjai
+SUMMARY:Tirunīlanakka Nāyanār (26) Gurupūjai
 DTSTART;VALUE=DATE:20190521
 DTEND;VALUE=DATE:20190522
-DESCRIPTION:
+DESCRIPTION:Observed on Mūlā nakshatra of Vr̥ṣabhaḥ (sidereal solar
+ ) month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruS
+ ha/nAyanAr/sidereal_solar_month/nakshatra/02/19/tirunIlanakka_nAyan2Ar_%28
+ 26%29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18295,10 +18399,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:kaḻaṟciṅga nāyaṉār (51) gurupūjai
+SUMMARY:Kaḻaṟchiṅga Nāyanār (53) Gurupūjai
 DTSTART;VALUE=DATE:20190601
 DTEND;VALUE=DATE:20190602
-DESCRIPTION:
+DESCRIPTION:Observed on Apabharaṇī nakshatra of Vr̥ṣabhaḥ (siderea
+ l solar) month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>
+ - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/ma
+ hApuruSha/nAyanAr/sidereal_solar_month/nakshatra/02/02/kazhar2ciGga_nAyan2
+ Ar_%2853%29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19139,10 +19247,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:naminandiyaḍigaḷ nāyaṉār (26) gurupūjai
+SUMMARY:Naminandiyaḍigaḷ Nāyanār (27) Gurupūjai
 DTSTART;VALUE=DATE:20190607
 DTEND;VALUE=DATE:20190608
-DESCRIPTION:
+DESCRIPTION:Observed on Puṣyaḥ nakshatra of Vr̥ṣabhaḥ (sidereal s
+ olar) month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [
+ Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahAp
+ uruSha/nAyanAr/sidereal_solar_month/nakshatra/02/08/naminandiyaDigaL_nAyan
+ 2Ar_%2827%29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19320,10 +19432,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sōmāsimāra nāyaṉār (32) gurupūjai
+SUMMARY:Sōmāsimāra Nāyanār (33) Gurupūjai
 DTSTART;VALUE=DATE:20190608
 DTEND;VALUE=DATE:20190609
-DESCRIPTION:
+DESCRIPTION:Observed on Āśrēṣā nakshatra of Vr̥ṣabhaḥ (sidereal
+  solar) month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mah
+ ApuruSha/nAyanAr/sidereal_solar_month/nakshatra/02/09/sOmAsimAra_nAyan2Ar_
+ %2833%29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21495,10 +21611,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ēyarkōṉ kalikkāma nāyaṉār (28) gurupūjai
+SUMMARY:Ēyarkōn Kalikkāma Nāyanār (29) Gurupūjai
 DTSTART;VALUE=DATE:20190626
 DTEND;VALUE=DATE:20190627
-DESCRIPTION:
+DESCRIPTION:Observed on Rēvatī nakshatra of Mithunam (sidereal solar) mo
+ nth (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/n
+ AyanAr/sidereal_solar_month/nakshatra/03/27/EyarkOn2_kalikkAma_nAyan2Ar_%2
+ 829%29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22583,10 +22703,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:pugaḻttuṇai nāyaṉār (54) gurupūjai
+SUMMARY:Pugaḻttuṇai Nāyanār (56) Gurupūjai
 DTSTART;VALUE=DATE:20190705
 DTEND;VALUE=DATE:20190706
-DESCRIPTION:
+DESCRIPTION:Observed on Āśrēṣā nakshatra of Mithunam (sidereal solar
+ ) month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruS
+ ha/nAyanAr/sidereal_solar_month/nakshatra/03/09/pugazhttuNai_nAyan2Ar_%285
+ 6%29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22758,10 +22882,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:amaranīti nāyaṉār (6) gurupūjai
+SUMMARY:Amaranīti Nāyanār (7) Gurupūjai
 DTSTART;VALUE=DATE:20190707
 DTEND;VALUE=DATE:20190708
-DESCRIPTION:
+DESCRIPTION:Observed on Pūrvaphalgunī nakshatra of Mithunam (sidereal so
+ lar) month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [E
+ dit config file](https://github.com/jyotisham/adyatithi/blob/master/mahApu
+ ruSha/nAyanAr/sidereal_solar_month/nakshatra/03/11/amaranIti_nAyan2Ar_%287
+ %29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25142,10 +25270,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:pugaḻccōḻa nāyaṉār (39) gurupūjai
+SUMMARY:Pugaḻchchōḻa Nāyanār (40) Gurupūjai
 DTSTART;VALUE=DATE:20190727
 DTEND;VALUE=DATE:20190728
-DESCRIPTION:
+DESCRIPTION:Observed on Kr̥ttikā nakshatra of Karkaṭaḥ (sidereal sol
+ ar) month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Ed
+ it config file](https://github.com/jyotisham/adyatithi/blob/master/mahApur
+ uSha/nAyanAr/sidereal_solar_month/nakshatra/04/03/pugazhccOzha_nAyan2Ar_%2
+ 840%29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25430,10 +25562,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:kūṟṟuva nāyaṉār (38) gurupūjai
+SUMMARY:Kūṟṟuva Nāyanār (39) Gurupūjai
 DTSTART;VALUE=DATE:20190730
 DTEND;VALUE=DATE:20190731
-DESCRIPTION:
+DESCRIPTION:Observed on Ārdrā nakshatra of Karkaṭaḥ (sidereal solar)
+  month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSh
+ a/nAyanAr/sidereal_solar_month/nakshatra/04/06/kUr2r2uva_nAyan2Ar_%2839%29
+ _gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26456,10 +26592,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:perumiḻalaik kuṟumba nāyaṉār (22) gurupūjai
+SUMMARY:Perumiḻalaik Kuṟumba Nāyanār (23) Gurupūjai
 DTSTART;VALUE=DATE:20190806
 DTEND;VALUE=DATE:20190807
-DESCRIPTION:
+DESCRIPTION:Observed on Citrā nakshatra of Karkaṭaḥ (sidereal solar) 
+ month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha
+ /nAyanAr/sidereal_solar_month/nakshatra/04/14/perumizhalaik_kur2umba_nAyan
+ 2Ar_%2823%29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26576,11 +26716,16 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:kaḻaṟiṟṟaṟivār or cēramāṉ perumāḷ nāyaṉār (3
- 6) gurupūjai
+SUMMARY:Kaḻaṟiṟṟaṟivār/Chēramān Perumāḷ Nāyanār (37) Gur
+ upūjai
 DTSTART;VALUE=DATE:20190807
 DTEND;VALUE=DATE:20190808
-DESCRIPTION:
+DESCRIPTION:Observed on Svātī nakshatra of Karkaṭaḥ (sidereal solar)
+  month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSh
+ a/nAyanAr/sidereal_solar_month/nakshatra/04/15/kazhar2ir2r2ar2ivAr_or_cEra
+ mAn2_perumAL_nAyan2Ar_%2837%29_gurupUjai.toml)<br/>- Tags: NayanarGurupuja
+ i
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26607,10 +26752,16 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sundaramūrtti nāyaṉār (63) gurupūjai
+SUMMARY:Sundaramūrtti Nāyanār (1) Gurupūjai/Tiruvāḍi Svāti
 DTSTART;VALUE=DATE:20190807
 DTEND;VALUE=DATE:20190808
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
+ a/04/15/sundaramUrtti_nAyan2Ar_%281%29_gurupUjai.toml)<br/>- Tags: Nayanar
+ Gurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_sol
+ ar_month/nakshatra/04/15/sundaramUrtti_nAyan2Ar_%281%29_gurupUjai.toml)<br
+ />- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26949,10 +27100,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:kōṭpuli nāyaṉār (55) gurupūjai
+SUMMARY:Kōṭpuli Nāyanār (57) Gurupūjai
 DTSTART;VALUE=DATE:20190810
 DTEND;VALUE=DATE:20190811
-DESCRIPTION:
+DESCRIPTION:Observed on Jyēṣṭhā nakshatra of Karkaṭaḥ (sidereal 
+ solar) month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahA
+ puruSha/nAyanAr/sidereal_solar_month/nakshatra/04/18/kOTpuli_nAyan2Ar_%285
+ 7%29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26962,10 +27117,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:kaliya nāyaṉār (43) gurupūjai
+SUMMARY:Kaliya Nāyanār (44) Gurupūjai
 DTSTART;VALUE=DATE:20190810
 DTEND;VALUE=DATE:20190811
-DESCRIPTION:
+DESCRIPTION:Observed on Jyēṣṭhā nakshatra of Karkaṭaḥ (sidereal 
+ solar) month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahA
+ puruSha/nAyanAr/sidereal_solar_month/nakshatra/04/18/kaliya_nAyan2Ar_%2844
+ %29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -29354,10 +29513,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ceruttuṇai nāyaṉār (53) gurupūjai
+SUMMARY:Cheruttuṇai Nāyanār (54) Gurupūjai
 DTSTART;VALUE=DATE:20190828
 DTEND;VALUE=DATE:20190829
-DESCRIPTION:
+DESCRIPTION:Observed on Puṣyaḥ nakshatra of Siṁhaḥ (sidereal solar
+ ) month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruS
+ ha/nAyanAr/sidereal_solar_month/nakshatra/05/08/ceruttuNai_nAyan2Ar_%2854%
+ 29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -29507,10 +29670,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:atipatta nāyaṉār (41) gurupūjai
+SUMMARY:Atipatta Nāyanār (42) Gurupūjai
 DTSTART;VALUE=DATE:20190829
 DTEND;VALUE=DATE:20190830
-DESCRIPTION:
+DESCRIPTION:Observed on Āśrēṣā nakshatra of Siṁhaḥ (sidereal sol
+ ar) month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Ed
+ it config file](https://github.com/jyotisham/adyatithi/blob/master/mahApur
+ uSha/nAyanAr/sidereal_solar_month/nakshatra/05/09/atipatta_nAyan2Ar_%2842%
+ 29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -29711,10 +29878,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:iḷaiyāṉkuḍi māṟa nāyaṉār (3) gurupūjai
+SUMMARY:Iḷaiyānkuḍi Māṟa Nāyanār (4) Gurupūjai
 DTSTART;VALUE=DATE:20190830
 DTEND;VALUE=DATE:20190831
-DESCRIPTION:
+DESCRIPTION:Observed on Maghā nakshatra of Siṁhaḥ (sidereal solar) mo
+ nth (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/n
+ AyanAr/sidereal_solar_month/nakshatra/05/10/iLaiyAn2kuDi_mAr2a_nAyan2Ar_%2
+ 84%29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30727,10 +30898,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:kulacciṟai nāyaṉār (21) gurupūjai
+SUMMARY:Kulachchiṟai Nāyanār (22) Gurupūjai
 DTSTART;VALUE=DATE:20190905
 DTEND;VALUE=DATE:20190906
-DESCRIPTION:
+DESCRIPTION:Observed on Anūrādhā nakshatra of Siṁhaḥ (sidereal sola
+ r) month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuru
+ Sha/nAyanAr/sidereal_solar_month/nakshatra/05/17/kulaccir2ai_nAyan2Ar_%282
+ 2%29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30970,10 +31145,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:kuṅgiliyakkalaya nāyaṉār (10) gurupūjai
+SUMMARY:Kuṅgiliyakkalaya Nāyanār (11) Gurupūjai
 DTSTART;VALUE=DATE:20190907
 DTEND;VALUE=DATE:20190908
-DESCRIPTION:
+DESCRIPTION:Observed on Mūlā nakshatra of Siṁhaḥ (sidereal solar) mo
+ nth (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/n
+ AyanAr/sidereal_solar_month/nakshatra/05/19/kuGgiliyakkalaya_nAyan2Ar_%281
+ 1%29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -32968,10 +33147,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:tirunāḷaippōvār nāyaṉār (17) gurupūjai
+SUMMARY:Tirunāḷaippōvār Nāyanār (18) Gurupūjai
 DTSTART;VALUE=DATE:20190921
 DTEND;VALUE=DATE:20190922
-DESCRIPTION:
+DESCRIPTION:Observed on Rōhiṇī nakshatra of Kanyā (sidereal solar) mo
+ nth (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/n
+ AyanAr/sidereal_solar_month/nakshatra/06/04/tirunALaippOvAr_nAyan2Ar_%2818
+ %29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -35056,10 +35239,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ēṉādinātha nāyaṉār (8) gurupūjai
+SUMMARY:Ēnādinātha Nāyanār (9) Gurupūjai
 DTSTART;VALUE=DATE:20191007
 DTEND;VALUE=DATE:20191008
-DESCRIPTION:
+DESCRIPTION:Observed on Uttarāṣāḍhā nakshatra of Kanyā (sidereal s
+ olar) month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [
+ Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahAp
+ uruSha/nAyanAr/sidereal_solar_month/nakshatra/06/21/En2AdinAtha_nAyan2Ar_%
+ 289%29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -35535,10 +35722,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:naraciṅgamuṉaiyaraiya nāyaṉār (40) gurupūjai
+SUMMARY:Narachiṅgamunaiyaraiya Nāyanār (41) Gurupūjai
 DTSTART;VALUE=DATE:20191010
 DTEND;VALUE=DATE:20191011
-DESCRIPTION:
+DESCRIPTION:Observed on Śatabhiṣak nakshatra of Kanyā (sidereal solar)
+  month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSh
+ a/nAyanAr/sidereal_solar_month/nakshatra/06/24/naraciGgamun2aiyaraiya_nAya
+ n2Ar_%2841%29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -36290,10 +36481,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:rudra paśupati nāyaṉār (16) gurupūjai
+SUMMARY:Rudra Paśupati Nāyanār (17) Gurupūjai
 DTSTART;VALUE=DATE:20191015
 DTEND;VALUE=DATE:20191016
-DESCRIPTION:
+DESCRIPTION:Observed on Aśvinī nakshatra of Kanyā (sidereal solar) mont
+ h (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit confi
+ g file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAy
+ anAr/sidereal_solar_month/nakshatra/06/01/rudra~pazupati_nAyan2Ar_%2817%29
+ _gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -37361,10 +37556,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:catti nāyaṉār (44) gurupūjai
+SUMMARY:Chatti Nāyanār (45) Gurupūjai
 DTSTART;VALUE=DATE:20191025
 DTEND;VALUE=DATE:20191026
-DESCRIPTION:
+DESCRIPTION:Observed on Pūrvaphalgunī nakshatra of Tulā (sidereal solar
+ ) month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruS
+ ha/nAyanAr/sidereal_solar_month/nakshatra/07/11/catti_nAyan2Ar_%2845%29_gu
+ rupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -38268,10 +38467,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:pūcalār nāyaṉār (56) gurupūjai
+SUMMARY:Pūchalār Nāyanār (58) Gurupūjai
 DTSTART;VALUE=DATE:20191030
 DTEND;VALUE=DATE:20191031
-DESCRIPTION:
+DESCRIPTION:Observed on Anūrādhā nakshatra of Tulā (sidereal solar) mo
+ nth (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/n
+ AyanAr/sidereal_solar_month/nakshatra/07/17/pUcalAr_nAyan2Ar_%2858%29_guru
+ pUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -38406,10 +38609,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:aiyaḍigaḷ kāḍavarkōṉ nāyaṉār (45) gurupūjai
+SUMMARY:Aiyaḍigaḷ Kāḍavarkōn Nāyanār (46) Gurupūjai
 DTSTART;VALUE=DATE:20191101
 DTEND;VALUE=DATE:20191102
-DESCRIPTION:
+DESCRIPTION:Observed on Mūlā nakshatra of Tulā (sidereal solar) month (
+ Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit config f
+ ile](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanA
+ r/sidereal_solar_month/nakshatra/07/19/aiyaDigaL_kADavarkOn2_nAyan2Ar_%284
+ 6%29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -39862,10 +40069,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:tirumūla nāyaṉār (29) gurupūjai
+SUMMARY:Tirumūla Nāyanār (30) Gurupūjai
 DTSTART;VALUE=DATE:20191111
 DTEND;VALUE=DATE:20191112
-DESCRIPTION:
+DESCRIPTION:Observed on Aśvinī nakshatra of Tulā (sidereal solar) month
+  (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit config
+  file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAya
+ nAr/sidereal_solar_month/nakshatra/07/01/tirumUla_nAyan2Ar_%2830%29_gurupU
+ jai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -40105,10 +40316,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:niṉṟacīr neḍumāṟa nāyaṉār (48) gurupūjai
+SUMMARY:Ninṟachīr Neḍumāṟa Nāyanār (49) Gurupūjai
 DTSTART;VALUE=DATE:20191112
 DTEND;VALUE=DATE:20191113
-DESCRIPTION:
+DESCRIPTION:Observed on Apabharaṇī nakshatra of Tulā (sidereal solar) 
+ month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha
+ /nAyanAr/sidereal_solar_month/nakshatra/07/02/nin2r2acIr_neDumAr2a_nAyan2A
+ r_%2849%29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -40301,10 +40516,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:iḍaṅkaḻi nāyaṉār (52) gurupūjai
+SUMMARY:Iḍaṅkaḻi Nāyanār (55) Gurupūjai
 DTSTART;VALUE=DATE:20191113
 DTEND;VALUE=DATE:20191114
-DESCRIPTION:
+DESCRIPTION:Observed on Kr̥ttikā nakshatra of Tulā (sidereal solar) mon
+ th (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit conf
+ ig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nA
+ yanAr/sidereal_solar_month/nakshatra/07/03/iDaGkazhi_nAyan2Ar_%2855%29_gur
+ upUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -41435,10 +41654,16 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:meypporuḷ nāyaṉār (4) gurupūjai
+SUMMARY:Meypporuḷ Nāyanār (5) Gurupūjai
 DTSTART;VALUE=DATE:20191122
 DTEND;VALUE=DATE:20191123
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
+ a/08/12/meypporuL_nAyan2Ar_%285%29_gurupUjai.toml)<br/>- Tags: NayanarGuru
+ pujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://githu
+ b.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_m
+ onth/nakshatra/08/12/meypporuL_nAyan2Ar_%285%29_gurupUjai.toml)<br/>- Tags
+ : NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -41567,10 +41792,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:āṉāya nāyaṉār (13) gurupūjai
+SUMMARY:Ānāya Nāyanār (14) Gurupūjai
 DTSTART;VALUE=DATE:20191123
 DTEND;VALUE=DATE:20191124
-DESCRIPTION:
+DESCRIPTION:Observed on Hastaḥ nakshatra of Vr̥ścikaḥ (sidereal sola
+ r) month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuru
+ Sha/nAyanAr/sidereal_solar_month/nakshatra/08/13/An2Aya_nAyan2Ar_%2814%29_
+ gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -42336,10 +42565,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:mūrkkha nāyaṉār (31) gurupūjai
+SUMMARY:Mūrkkha Nāyanār (32) Gurupūjai
 DTSTART;VALUE=DATE:20191128
 DTEND;VALUE=DATE:20191129
-DESCRIPTION:
+DESCRIPTION:Observed on Mūlā nakshatra of Vr̥ścikaḥ (sidereal solar)
+  month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSh
+ a/nAyanAr/sidereal_solar_month/nakshatra/08/19/mUrkkha_nAyan2Ar_%2832%29_g
+ urupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -42420,10 +42653,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ciṟappuli nāyaṉār (34) gurupūjai
+SUMMARY:Chiṟappuli Nāyanār (35) Gurupūjai
 DTSTART;VALUE=DATE:20191129
 DTEND;VALUE=DATE:20191130
-DESCRIPTION:
+DESCRIPTION:Observed on Pūrvāṣāḍhā nakshatra of Vr̥ścikaḥ (sid
+ ereal solar) month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<
+ br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/maste
+ r/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatra/08/20/cir2appuli_nAya
+ n2Ar_%2835%29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -43554,10 +43791,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:kaṇampulla nāyaṉār (46) gurupūjai
+SUMMARY:Kaṇampulla Nāyanār (47) Gurupūjai
 DTSTART;VALUE=DATE:20191210
 DTEND;VALUE=DATE:20191211
-DESCRIPTION:
+DESCRIPTION:Observed on Kr̥ttikā nakshatra of Vr̥ścikaḥ (sidereal so
+ lar) month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [E
+ dit config file](https://github.com/jyotisham/adyatithi/blob/master/mahApu
+ ruSha/nAyanAr/sidereal_solar_month/nakshatra/08/03/kaNampulla_nAyan2Ar_%28
+ 47%29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -44591,10 +44832,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:iyaṟpagai nāyaṉār (2) gurupūjai
+SUMMARY:Iyaṟpagai Nāyanār (3) Gurupūjai
 DTSTART;VALUE=DATE:20191219
 DTEND;VALUE=DATE:20191220
-DESCRIPTION:
+DESCRIPTION:Observed on Uttaraphalgunī nakshatra of Dhanuḥ (sidereal so
+ lar) month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [E
+ dit config file](https://github.com/jyotisham/adyatithi/blob/master/mahApu
+ ruSha/nAyanAr/sidereal_solar_month/nakshatra/09/12/iyar2pagai_nAyan2Ar_%28
+ 3%29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -44875,10 +45120,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:māṉakkañcāṟa nāyaṉār (11) gurupūjai
+SUMMARY:Mānakkañchāṟa Nāyanār (12) Gurupūjai
 DTSTART;VALUE=DATE:20191222
 DTEND;VALUE=DATE:20191223
-DESCRIPTION:
+DESCRIPTION:Observed on Svātī nakshatra of Dhanuḥ (sidereal solar) mon
+ th (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit conf
+ ig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nA
+ yanAr/sidereal_solar_month/nakshatra/09/15/mAn2akkaJcAr2a_nAyan2Ar_%2812%2
+ 9_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -45563,10 +45812,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:cākkiya nāyaṉār (33) gurupūjai
+SUMMARY:Chākkiya Nāyanār (34) Gurupūjai
 DTSTART;VALUE=DATE:20191227
 DTEND;VALUE=DATE:20191228
-DESCRIPTION:
+DESCRIPTION:Observed on Pūrvāṣāḍhā nakshatra of Dhanuḥ (sidereal
+  solar) month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mah
+ ApuruSha/nAyanAr/sidereal_solar_month/nakshatra/09/20/cAkkiya_nAyan2Ar_%28
+ 34%29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
