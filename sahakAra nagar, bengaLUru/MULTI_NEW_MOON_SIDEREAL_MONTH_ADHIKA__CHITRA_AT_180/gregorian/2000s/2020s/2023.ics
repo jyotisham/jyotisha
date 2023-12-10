@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20231210211112
+SEQUENCE:20231210224305
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -20285,7 +20285,14 @@ SUMMARY:सायन-रवि-सङ्क्रमण-पुण्यक
  ालः
 DTSTART;TZID=Asia/Calcutta:20230521T061509
 DTEND;TZID=Asia/Calcutta:20230521T183552
-DESCRIPTION:
+DESCRIPTION:16 ghatikas on either side of the transition of the Sun are sa
+ cred for various observances. In addition to specific puṇyakālas like 
+ ṣaḍaśīti\, viṣṇupadī etc.\, this is also useful\, especially in
+  cases where the other puṇyakālas are inconvenient for appropriate perf
+ ormance of rituals such as snāna\, dāna\, tarpaṇa\, etc.<br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/time_focus/sankrAnti/description_only/sAyana-ravi-saGkramaNa-puNy
+ akAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -24275,7 +24282,14 @@ SUMMARY:सायन-रवि-सङ्क्रमण-पुण्यक
  ालः
 DTSTART;TZID=Asia/Calcutta:20230621T140348
 DTEND;TZID=Asia/Calcutta:20230621T184433
-DESCRIPTION:
+DESCRIPTION:16 ghatikas on either side of the transition of the Sun are sa
+ cred for various observances. In addition to specific puṇyakālas like 
+ ṣaḍaśīti\, viṣṇupadī etc.\, this is also useful\, especially in
+  cases where the other puṇyakālas are inconvenient for appropriate perf
+ ormance of rituals such as snāna\, dāna\, tarpaṇa\, etc.<br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/time_focus/sankrAnti/description_only/sAyana-ravi-saGkramaNa-puNy
+ akAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -32360,7 +32374,14 @@ SUMMARY:सायन-रवि-सङ्क्रमण-पुण्यक
  ालः
 DTSTART;TZID=Asia/Calcutta:20230823T080716
 DTEND;TZID=Asia/Calcutta:20230823T183307
-DESCRIPTION:
+DESCRIPTION:16 ghatikas on either side of the transition of the Sun are sa
+ cred for various observances. In addition to specific puṇyakālas like 
+ ṣaḍaśīti\, viṣṇupadī etc.\, this is also useful\, especially in
+  cases where the other puṇyakālas are inconvenient for appropriate perf
+ ormance of rituals such as snāna\, dāna\, tarpaṇa\, etc.<br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/time_focus/sankrAnti/description_only/sAyana-ravi-saGkramaNa-puNy
+ akAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -37015,7 +37036,14 @@ SUMMARY:सायन-रवि-सङ्क्रमण-पुण्यक
  ालः
 DTSTART;TZID=Asia/Calcutta:20230923T061212
 DTEND;TZID=Asia/Calcutta:20230923T181202
-DESCRIPTION:
+DESCRIPTION:16 ghatikas on either side of the transition of the Sun are sa
+ cred for various observances. In addition to specific puṇyakālas like 
+ ṣaḍaśīti\, viṣṇupadī etc.\, this is also useful\, especially in
+  cases where the other puṇyakālas are inconvenient for appropriate perf
+ ormance of rituals such as snāna\, dāna\, tarpaṇa\, etc.<br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/time_focus/sankrAnti/description_only/sAyana-ravi-saGkramaNa-puNy
+ akAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -42635,9 +42663,10 @@ SUMMARY:चन्द्र-ग्रहणम्-(राहुग्रस
  ्त)
 DTSTART;TZID=Asia/Calcutta:20231029T010512
 DTEND;TZID=Asia/Calcutta:20231029T022247
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/Eclipses/description_only/candra-graha
- Nam~%28rAhugrasta%29.toml)<br/>- Tags: RareDays Eclipses
+DESCRIPTION:Lunar eclipse\, where the Moon is at the ‘Rahu node’.<br/>
+ <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
+ tithi/blob/master/time_focus/Eclipses/description_only/candra-grahaNam~%28
+ rAhugrasta%29.toml)<br/>- Tags: RareDays Eclipses
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -46551,7 +46580,14 @@ SUMMARY:सायन-रवि-सङ्क्रमण-पुण्यक
  ालः
 DTSTART;TZID=Asia/Calcutta:20231122T130840
 DTEND;TZID=Asia/Calcutta:20231122T174612
-DESCRIPTION:
+DESCRIPTION:16 ghatikas on either side of the transition of the Sun are sa
+ cred for various observances. In addition to specific puṇyakālas like 
+ ṣaḍaśīti\, viṣṇupadī etc.\, this is also useful\, especially in
+  cases where the other puṇyakālas are inconvenient for appropriate perf
+ ormance of rituals such as snāna\, dāna\, tarpaṇa\, etc.<br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/time_focus/sankrAnti/description_only/sAyana-ravi-saGkramaNa-puNy
+ akAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -46886,18 +46922,20 @@ SUMMARY:चातुर्मास्य-व्रत-पारण-नि
  षिद्ध-योगः
 DTSTART;TZID=Asia/Calcutta:20231124T101642
 DTEND;TZID=Asia/Calcutta:20231124T155841
-DESCRIPTION:रेवतीतुर्यचरणे द्वादश
- ीसंयुते नरः।  <br/>न कुर्यात् प
- ारणं कुर्वन्व्रतं निष्फलता
- ं नयेत्॥३०॥  <br/>---श्रीस्कान्द
- े महापुराणे द्वितीये वैष्ण
- वखण्डे कार्तिकमासमाहात्म्
- ये कूष्माण्डनवमीतुलसीविवा
- हविधिवर्णनं नामैकत्रिंशोऽ
- ध्यायः<br/><br/><br/><br/>## Details<br/>- References<br/>  - 
- Skanda Puranam<br/>- [Edit config file](https://github.com/jyotisham/adyat
- ithi/blob/master/time_focus/misc_combinations/description_only/cAturmAsya-
- vrata-pAraNa-niSiddha-yOgaH.toml)<br/>- Tags: CommonFestivals
+DESCRIPTION:When the last pāda of the Revati asterism is conjoined with D
+ vadashi tithi\, it is not appropriate to break the fast---renders the vrat
+ am futile.<br/><br/>रेवतीतुर्यचरणे द्व
+ ादशीसंयुते नरः।  <br/>न कुर्या
+ त् पारणं कुर्वन्व्रतं निष्
+ फलतां नयेत्॥३०॥  <br/>---श्रीस्क
+ ान्दे महापुराणे द्वितीये व
+ ैष्णवखण्डे कार्तिकमासमाहा
+ त्म्ये कूष्माण्डनवमीतुलसी
+ विवाहविधिवर्णनं नामैकत्रि
+ ंशोऽध्यायः<br/><br/><br/><br/>## Details<br/>- Referen
+ ces<br/>  - Skanda Puranam<br/>- [Edit config file](https://github.com/jyo
+ tisham/adyatithi/blob/master/time_focus/misc_combinations/description_only
+ /cAturmAsya-vrata-pAraNa-niSiddha-yOgaH.toml)<br/>- Tags: CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -51126,7 +51164,14 @@ SUMMARY:सायन-रवि-सङ्क्रमण-पुण्यक
  ालः
 DTSTART;TZID=Asia/Calcutta:20231222T064059
 DTEND;TZID=Asia/Calcutta:20231222T152120
-DESCRIPTION:
+DESCRIPTION:16 ghatikas on either side of the transition of the Sun are sa
+ cred for various observances. In addition to specific puṇyakālas like 
+ ṣaḍaśīti\, viṣṇupadī etc.\, this is also useful\, especially in
+  cases where the other puṇyakālas are inconvenient for appropriate perf
+ ormance of rituals such as snāna\, dāna\, tarpaṇa\, etc.<br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
+ b/master/time_focus/sankrAnti/description_only/sAyana-ravi-saGkramaNa-puNy
+ akAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
