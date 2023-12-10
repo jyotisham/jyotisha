@@ -159,18 +159,21 @@ class SolsticePostDark10AdhikaAssigner(LunarMonthAssigner):
     else:
       return self._month_from_previous_jd_month_provisional(jd=daily_panchaanga.jd_sunrise, prev_jd=tropical_solar_month_span.jd_start, prev_jd_month=tropical_solar_month_span.anga + 0.5)
 
-
   def get_date(self, daily_panchaanga, previous_day_panchaanga=None):
-    ## TODO : Fix this
     if previous_day_panchaanga is not None and previous_day_panchaanga.sunrise_day_angas is not None and previous_day_panchaanga.sunrise_day_angas.tithi_at_noon is not None:
-      if previous_day_panchaanga.sunrise_day_angas.tithi_at_noon.index == 1 or previous_day_panchaanga.lunar_date is None:
+      if previous_day_panchaanga.sunrise_day_angas.tithi_at_noon.index == 1 or daily_panchaanga.sunrise_day_angas.tithi_at_noon.index == 1 or previous_day_panchaanga.lunar_date is None:
         lunar_date = self.get_date(daily_panchaanga=daily_panchaanga, previous_day_panchaanga=None)
       else:
         lunar_date = time.BasicDateWithTransitions(month=previous_day_panchaanga.lunar_date.month, day=previous_day_panchaanga.lunar_date.day + 1)
     else:
       month = self.get_month(daily_panchaanga=daily_panchaanga)
-      lunar_date = time.BasicDateWithTransitions(month=month, day=daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index)
+      day = daily_panchaanga.sunrise_day_angas.tithi_at_noon.index
+      lunar_date = time.BasicDateWithTransitions(month=month, day=day)
     return lunar_date
+
+
+## TODO : Fix https://github.com/jyotisham/jyotisha/issues/142 by adding a more convulted variant of SolsticePostDark10AdhikaAssigner
+
 
 
 # Essential for depickling to work.
