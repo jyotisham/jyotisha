@@ -39,6 +39,7 @@ class DayAngas(common.JsonObject):
     super().__init__()
     self.tithis_with_ends = None
     self.tithi_at_sunrise = None
+    self.tithi_at_noon = None
     self.nakshatras_with_ends = None
     self.nakshatra_at_sunrise = None
     self.yogas_with_ends = None
@@ -174,7 +175,6 @@ class DailyPanchaanga(common.JsonObject):
 
     self.lunar_month_sunrise = None
     
-    self.shraaddha_tithi = []
     self.festival_id_to_instance = {}
     self.mauDhyas = None
     self.amauDhyas = None
@@ -241,6 +241,7 @@ class DailyPanchaanga(common.JsonObject):
       # Deliberately passing ASHVINI_STARTING_0 below since it is cheapest. Tithi is independent of ayanAmsha. 
       self.sunrise_day_angas.tithis_with_ends = AngaSpanFinder.get_cached(ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0, anga_type=zodiac.AngaType.TITHI).get_all_angas_in_period(jd1=self.jd_sunrise, jd2=self.jd_next_sunrise)
       self.sunrise_day_angas.tithi_at_sunrise = self.sunrise_day_angas.tithis_with_ends[0].anga
+      self.sunrise_day_angas.tithi_at_noon = self.sunrise_day_angas.get_anga_at_jd(jd=(self.jd_sunrise + self.jd_sunset)/2, anga_type=zodiac.AngaType.TITHI)
       
       self.sunrise_day_angas.nakshatras_with_ends = AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=zodiac.AngaType.NAKSHATRA).get_all_angas_in_period(jd1=self.jd_sunrise, jd2=self.jd_next_sunrise)
       self.sunrise_day_angas.nakshatra_at_sunrise = self.sunrise_day_angas.nakshatras_with_ends[0].anga
