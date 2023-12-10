@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20231210224305
+SEQUENCE:20231210230303
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -16159,10 +16159,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:गङ्गा-आदि-पुष्कर-आरम्भः
+SUMMARY:गङ्गा-आद्य-पुष्कर-आरम्भः
 DTSTART;VALUE=DATE:20230422
 DTEND;VALUE=DATE:20230423
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/puShkara/description_only/gaGgA-Adya-p
+ uSkara-ArambhaH.toml)<br/>- Tags: RareDays Pushkara<br/><br/><br/><br/>## 
+ Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/bl
+ ob/master/time_focus/puShkara/description_only/gaGgA-Adya-puSkara-ArambhaH
+ .toml)<br/>- Tags: RareDays Pushkara
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17746,10 +17751,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:गङ्गा-आदि-पुष्करम्
+SUMMARY:गङ्गा-आद्य-पुष्करम्
 DTSTART;VALUE=DATE:20230422
 DTEND;VALUE=DATE:20230504
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/puShkara/description_only/gaGgA-Adya-p
+ uSkaram.toml)<br/>- Tags: RareDays Pushkara<br/><br/><br/><br/>## Details<
+ br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/maste
+ r/time_focus/puShkara/description_only/gaGgA-Adya-puSkaram.toml)<br/>- Tag
+ s: RareDays Pushkara
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17759,10 +17769,16 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:गङ्गा-आदि-पुष्कर-समापनम्
+SUMMARY:गङ्गा-आद्य-पुष्कर-समापनम
+ ्
 DTSTART;VALUE=DATE:20230503
 DTEND;VALUE=DATE:20230504
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/puShkara/description_only/gaGgA-Adya-p
+ uSkara-samApanam.toml)<br/>- Tags: RareDays Pushkara<br/><br/><br/><br/>##
+  Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/b
+ lob/master/time_focus/puShkara/description_only/gaGgA-Adya-puSkara-samApan
+ am.toml)<br/>- Tags: RareDays Pushkara
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
