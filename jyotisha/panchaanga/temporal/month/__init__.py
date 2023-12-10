@@ -162,16 +162,14 @@ class SolsticePostDark10AdhikaAssigner(LunarMonthAssigner):
 
   def get_date(self, daily_panchaanga, previous_day_panchaanga=None):
     ## TODO : Fix this
-    if previous_day_panchaanga is not None:
-      span = previous_day_panchaanga.sunrise_day_angas.find_anga_span(Anga.get_cached(anga_type_id=AngaType.TITHI.name, index=1))
-
-      # If a prathamA tithi has started post-sunrise yesterday (and has potentially ended before today's sunrise), or if today we have a prathamA at sunrise
-      if (span is not None and span.jd_start is not None) or previous_day_panchaanga.sunrise_day_angas.tithi_at_noon.index == 1:
+    if previous_day_panchaanga is not None and previous_day_panchaanga.sunrise_day_angas is not None and previous_day_panchaanga.sunrise_day_angas.tithi_at_noon is not None:
+      if previous_day_panchaanga.sunrise_day_angas.tithi_at_noon.index == 1 or previous_day_panchaanga.lunar_date is None:
         lunar_date = self.get_date(daily_panchaanga=daily_panchaanga, previous_day_panchaanga=None)
       else:
-        lunar_date = time.BasicDateWithTransitions(month=previous_day_panchaanga.lunar_date.month, day=previous_day_panchaanga.lunar_month.day + 1)
+        lunar_date = time.BasicDateWithTransitions(month=previous_day_panchaanga.lunar_date.month, day=previous_day_panchaanga.lunar_date.day + 1)
     else:
-      lunar_date = time.BasicDateWithTransitions(month=self.get_month(daily_panchaanga=daily_panchaanga), day=daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index)
+      month = self.get_month(daily_panchaanga=daily_panchaanga)
+      lunar_date = time.BasicDateWithTransitions(month=month, day=daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index)
     return lunar_date
 
 
