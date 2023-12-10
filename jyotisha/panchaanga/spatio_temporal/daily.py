@@ -366,6 +366,8 @@ class DailyPanchaanga(common.JsonObject):
       return names.get_chandra_masa(month=self.lunar_month_sunrise.index, script=script)
     elif month_type == RulesRepo.TROPICAL_MONTH_DIR:
       return names.NAMES['RTU_MASA_NAMES_SHORT']['sa'][script][self.tropical_date_sunset.month]
+    elif month_type == RulesRepo.LUNAR_MONTH_DIR + RulesRepo.TROPICAL_MONTH_DIR:
+      return names.NAMES['RTU_MASA_NAMES_SHORT']['sa'][script][self.lunar_month_sunrise.index]
     elif month_type == RulesRepo.ISLAMIC_MONTH_DIR:
       islamic_date = self.date.to_islamic_date()
       return names.NAMES["ARAB_MONTH_NAMES"]["ar"][islamic_date.month-1]

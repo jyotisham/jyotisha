@@ -24,12 +24,12 @@ def day_summary(d, panchaanga, script, subsection_md):
   daily_panchaanga = panchaanga.daily_panchaangas_sorted()[d]
   lunar_position = "%s-%s" % (names.NAMES['RASHI_NAMES']['sa'][script][daily_panchaanga.sunrise_day_angas.raashis_with_ends[0].anga.index], names.NAMES['NAKSHATRA_NAMES']['sa'][script][daily_panchaanga.sunrise_day_angas.nakshatras_with_ends[0].anga.index])
   solar_position = "%s-%s" % (daily_panchaanga.get_month_str(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, script=script), names.NAMES['NAKSHATRA_NAMES']['sa'][script][daily_panchaanga.sunrise_day_angas.solar_nakshatras_with_ends[0].anga.index])
+  
   lunar_month_str = daily_panchaanga.get_month_str(month_type=RulesRepo.LUNAR_MONTH_DIR, script=script)
+  lunar_date_str = str(daily_panchaanga.get_date(month_type=RulesRepo.LUNAR_MONTH_DIR))
+  tropical_month_str = daily_panchaanga.get_month_str(month_type=RulesRepo.TROPICAL_MONTH_DIR, script=script)
   vaara = names.NAMES['VARA_NAMES']['sa'][script][daily_panchaanga.date.get_weekday()]
-  title = '%s-%s  ,  %s🌛🌌  ,  %s-%s🌞🌌  ,  %s-%s🌞🪐  ,  %s' % (
-    lunar_month_str, str(daily_panchaanga.get_date(month_type=RulesRepo.LUNAR_MONTH_DIR)), lunar_position,
-    solar_position, str(daily_panchaanga.solar_sidereal_date_sunset), daily_panchaanga.get_month_str(month_type=RulesRepo.TROPICAL_MONTH_DIR, script=script),
-    str(daily_panchaanga.tropical_date_sunset), vaara)
+  title = f'{lunar_month_str}-{lunar_date_str}  ,{lunar_position}🌛🌌  ,  {solar_position}-{str(daily_panchaanga.solar_sidereal_date_sunset)}🌞🌌  ,  {tropical_month_str}-{str(daily_panchaanga.tropical_date_sunset)}🌞🪐  , {vaara}'
 
   output_stream = StringIO()
 
@@ -109,16 +109,20 @@ def print_ayana_Rtu_maasa_info(daily_panchaanga, output_stream, script):
   rtu_solar = names.NAMES['RTU_NAMES']['sa'][script][daily_panchaanga.solar_sidereal_date_sunset.month]
   rtu_tropical = names.NAMES['RTU_NAMES']['sa'][script][daily_panchaanga.tropical_date_sunset.month]
   rtu_lunar = names.NAMES['RTU_NAMES']['sa'][script][int(ceil(daily_panchaanga.lunar_month_sunrise.index))]
+
   print("___________________", file=output_stream)
   print('- 🪐🌞**%s** — %s %s' % (
   translate_or_transliterate('ऋतुमानम्', script, source_script=sanscript.DEVANAGARI), rtu_tropical, ayanam),
         file=output_stream)
+
   print('- 🌌🌞**%s** — %s %s' % (
   translate_or_transliterate('सौरमानम्', script, source_script=sanscript.DEVANAGARI), rtu_solar, ayanam_sidereal),
         file=output_stream)
+
   lunar_month_str = daily_panchaanga.get_month_str(month_type=RulesRepo.LUNAR_MONTH_DIR, script=script)
-  print('- 🌛**%s** — %s %s' % (
-  translate_or_transliterate('चान्द्रमानम्', script, source_script=sanscript.DEVANAGARI), rtu_lunar, lunar_month_str),
+  tropical_lunar_month_str = daily_panchaanga.get_month_str(month_type=RulesRepo.LUNAR_MONTH_DIR + RulesRepo.TROPICAL_MONTH_DIR, script=script)
+  month_header = translate_or_transliterate('चान्द्रमानम्', script, source_script=sanscript.DEVANAGARI)
+  print(f'- 🌛**{month_header}** — {rtu_lunar} {lunar_month_str} ({tropical_lunar_month_str})',
         file=output_stream)
   print("___________________", file=output_stream)
 
