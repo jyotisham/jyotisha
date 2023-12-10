@@ -28,17 +28,14 @@ def get_ekaadashii_name(paksha, lmonth):
       return "%s-EkAdazI" % NAMES["KRISHNA_EKADASHI_NAMES"]["sa"][sanscript.roman.HK_DRAVIDIAN][13]
 
 
-def get_chandra_masa(month, script, visarga=True):
+def get_chandra_masa(month, script, name_type="CHANDRA_MASA_NAMES", visarga=True):
   if visarga:
     if month == int(month):
-      return NAMES["CHANDRA_MASA_NAMES"]["sa"][script][int(month)]
+      return NAMES[name_type]["sa"][script][int(month)]
     else:
-      return "%s-%s" % (tr("adhika", script, titled=False), NAMES["CHANDRA_MASA_NAMES"]["sa"][script][int(month) + 1])
+      return "%s-%s" % (tr("adhika", script, titled=False), NAMES[name_type]["sa"][script][int(month) + 1])
   else:
-    if month == int(month):
-      return NAMES["CHANDRA_MASA_NAMES"]["sa"][script][int(month)][:-1]
-    else:
-      return "%s-%s" % (tr("adhika", script, titled=False), NAMES["CHANDRA_MASA_NAMES"]["sa"][script][int(month) + 1][:-1])
+    return get_chandra_masa(month=month, script=script, visarga=True)[:-1]
 
 
 def get_month_name_en(month_number, month_type, script=sanscript.ISO):

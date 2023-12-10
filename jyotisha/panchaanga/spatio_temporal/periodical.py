@@ -132,10 +132,10 @@ class Panchaanga(common.JsonObject):
           # The below is necessary because tithi 1 or 2 may start after sunrise.
           dp_next = self.daily_panchaanga_for_date(date + 1)
           # Lunar month below may be incorrect (adhika mAsa complication) if dp_next is not available (eg when the next day is beyond this panchaanga duration). Downstream code should be aware of that case.
-          month = dp_next.lunar_month_sunrise if dp_next is not None else dp.lunar_month_sunrise + 1
+          month = dp_next.lunar_date.month if dp_next is not None else dp.lunar_date.month + 1
           span.anga = Tithi.from_anga(anga=span.anga, month=month)
         else:
-          span.anga = Tithi.from_anga(anga=span.anga, month=dp.lunar_month_sunrise)
+          span.anga = Tithi.from_anga(anga=span.anga, month=dp.lunar_date.month)
 
     return anga_spans
 

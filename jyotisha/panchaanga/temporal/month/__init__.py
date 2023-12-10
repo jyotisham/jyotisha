@@ -1,6 +1,6 @@
 import sys
 
-from jyotisha.panchaanga.temporal import zodiac, tithi
+from jyotisha.panchaanga.temporal import zodiac, tithi, time
 from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, AngaSpanFinder, Ayanamsha
 from jyotisha.panchaanga.temporal.zodiac.angas import AngaType, Anga
 from sanskrit_data.schema import common
@@ -16,7 +16,10 @@ class LunarMonthAssigner(JsonObject):
     super().__init__()
     self.ayanaamsha_id = ayanaamsha_id
 
-  def get_month_sunrise(self, daily_panchaanga):
+  def get_month(self, daily_panchaanga):
+    pass
+
+  def get_date(self, daily_panchaanga, previous_day_panchaanga=None):
     pass
 
   @classmethod
@@ -42,7 +45,7 @@ class MultiLunarPhaseSolarMonthAdhikaAssigner(LunarMonthAssigner):
   
   प्रचलितायाम् अर्वाचीनायां पद्धतौ अर्वाचीनस्य राशिविभाजने आधृतस्य सौरमासस्य सङ्क्रान्तिं स्वीकृत्य “असङ्क्रान्ति-मासो ऽधिमास” इति परिभाषया अधिकमासगणना क्रियते ।
   """
-  def get_month_sunrise(self, daily_panchaanga):
+  def get_month(self, daily_panchaanga):
     """ Assigns Lunar months to days in the period
     
     Implementation note: Works by looking at solar months and month-end tithis (which makes it easy to deduce adhika-mAsa-s.)
@@ -70,6 +73,19 @@ class MultiLunarPhaseSolarMonthAdhikaAssigner(LunarMonthAssigner):
       return this_new_moon_solar_raashi + .5
     else:
       return this_new_moon_solar_raashi
+
+  def get_date(self, daily_panchaanga, previous_day_panchaanga=None):
+    if previous_day_panchaanga is not None:
+      span = previous_day_panchaanga.sunrise_day_angas.find_anga_span(Anga.get_cached(anga_type_id=AngaType.TITHI.name, index=1))
+
+      # If a prathamA tithi has started post-sunrise yesterday (and has potentially ended before today's sunrise), or if today we have a prathamA at sunrise
+      if (span is not None and span.jd_start is not None) or previous_day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == 1:
+        lunar_date = self.get_date(daily_panchaanga=daily_panchaanga, previous_day_panchaanga=None)
+      else:
+        lunar_date = time.BasicDateWithTransitions(month=previous_day_panchaanga.lunar_date.month, day=daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index)
+    else:
+      lunar_date = time.BasicDateWithTransitions(month=self.get_month(daily_panchaanga=daily_panchaanga), day=daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index)
+    return lunar_date
 
 
 class MultiNewmoonSolarMonthAdhikaAssigner(MultiLunarPhaseSolarMonthAdhikaAssigner):
@@ -129,7 +145,7 @@ class SolsticePostDark10AdhikaAssigner(LunarMonthAssigner):
 
     
 
-  def get_month_sunrise(self, daily_panchaanga):
+  def get_month(self, daily_panchaanga):
     """ Assigns Lunar months to days in the period
         
     :return: 
@@ -143,6 +159,20 @@ class SolsticePostDark10AdhikaAssigner(LunarMonthAssigner):
     else:
       return self._month_from_previous_jd_month_provisional(jd=daily_panchaanga.jd_sunrise, prev_jd=tropical_solar_month_span.jd_start, prev_jd_month=tropical_solar_month_span.anga + 0.5)
 
+
+  def get_date(self, daily_panchaanga, previous_day_panchaanga=None):
+    ## TODO : Fix this
+    if previous_day_panchaanga is not None:
+      span = previous_day_panchaanga.sunrise_day_angas.find_anga_span(Anga.get_cached(anga_type_id=AngaType.TITHI.name, index=1))
+
+      # If a prathamA tithi has started post-sunrise yesterday (and has potentially ended before today's sunrise), or if today we have a prathamA at sunrise
+      if (span is not None and span.jd_start is not None) or previous_day_panchaanga.sunrise_day_angas.tithi_at_noon.index == 1:
+        lunar_date = self.get_date(daily_panchaanga=daily_panchaanga, previous_day_panchaanga=None)
+      else:
+        lunar_date = time.BasicDateWithTransitions(month=previous_day_panchaanga.lunar_date.month, day=previous_day_panchaanga.lunar_month.day + 1)
+    else:
+      lunar_date = time.BasicDateWithTransitions(month=self.get_month(daily_panchaanga=daily_panchaanga), day=daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index)
+    return lunar_date
 
 
 # Essential for depickling to work.

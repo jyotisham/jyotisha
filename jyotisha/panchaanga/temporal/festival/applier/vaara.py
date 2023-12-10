@@ -42,7 +42,7 @@ class VaraFestivalAssigner(FestivalAssigner):
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
 
       # KRTTIKA SOMAVASARA
-      if self.daily_panchaangas[d].lunar_month_sunrise.index == 8 and self.daily_panchaangas[d].date.get_weekday() == 1:
+      if self.daily_panchaangas[d].lunar_date.month.index == 8 and self.daily_panchaangas[d].date.get_weekday() == 1:
         self.panchaanga.add_festival(fest_id='kArttikA~sOmavAsaraH', date=self.daily_panchaangas[d].date)
 
   def assign_masa_vara_yoga_fests_tn(self):
@@ -80,7 +80,7 @@ class VaraFestivalAssigner(FestivalAssigner):
       if self.daily_panchaangas[d].date.get_weekday() == 2 and self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise.index == 29:
         # Double-check rule. When should the vyApti be?
         self.panchaanga.add_festival(fest_id='kRSNAGgAraka-caturdazI-puNyakAlaH or yamatarpaNam', date=self.daily_panchaangas[d].date)
-        if self.daily_panchaangas[d].lunar_month_sunrise.index == 1:
+        if self.daily_panchaangas[d].lunar_date.month.index == 1:
           self.panchaanga.add_festival(fest_id='pizAcamOcanam', date=self.daily_panchaangas[d].date)
 
   def assign_tithi_vara_yoga_budhaaShTamii(self):
@@ -89,10 +89,10 @@ class VaraFestivalAssigner(FestivalAssigner):
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       # BUDHASHTAMI
       if self.daily_panchaangas[d].date.get_weekday() == 3 and self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise.index == 8:
-        if self.daily_panchaangas[d].lunar_month_sunrise.index == 10:
+        if self.daily_panchaangas[d].lunar_date.month.index == 10:
           # Pausha Shukla Ashtami + Budha vasara
           self.panchaanga.add_festival(fest_id='mahAbhadrA~budhASTamI', date=self.daily_panchaangas[d].date)
-        elif ceil(self.daily_panchaangas[d].lunar_month_sunrise.index) in [1, 5, 6, 7, 8]:
+        elif ceil(self.daily_panchaangas[d].lunar_date.month.index) in [1, 5, 6, 7, 8]:
           # ceil above takes care of adhika maasas
           # 5, 6, 7, 8 takes care of श्रावणादिमासचतुष्टये
           # सायाह्नकाले चैत्रमासे श्रावणादिमासचतुष्टये कृष्णपक्षे च न ग्राह्या ॥

@@ -192,7 +192,7 @@ def write_monthly_tex(panchaanga, time_format="hh:mm", languages=None, scripts=N
     if currWeek < 6:
       month_text += '\n' + ('\\caldata{\\textcolor{%s}{%s}}{%s{%s}}%%' %
                             (day_colours[daily_panchaanga.date.get_weekday()], dt, month_data,
-                             names.get_chandra_masa(daily_panchaanga.lunar_month_sunrise, scripts[0])))
+                             names.get_chandra_masa(daily_panchaanga.lunar_date.month, scripts[0])))
       month_text += '\n' + ('{\\sundata{%s}{%s}{%s}}%%' % (sunrise, sunset, saangava))
       month_text += '\n' + ('{\\tnyk{%s}%%\n{%s}%%\n{%s}%%\n{%s}}%%' % (tithi_data_str, nakshatra_data_str,
                                                                         yoga_data_str, karana_data_str))
@@ -207,7 +207,7 @@ def write_monthly_tex(panchaanga, time_format="hh:mm", languages=None, scripts=N
       if daily_panchaanga.date.get_weekday() == 0:
         W6D1 = '\n' + ('\\caldata{\\textcolor{%s}{%s}}{%s{%s}}%%' %
                        (day_colours[daily_panchaanga.date.get_weekday()], dt, month_data,
-                        names.get_chandra_masa(daily_panchaanga.lunar_month_sunrise,scripts[0])))
+                        names.get_chandra_masa(daily_panchaanga.lunar_date.month,scripts[0])))
         W6D1 += '\n' + ('{\\sundata{%s}{%s}{%s}}%%' % (sunrise, sunset, saangava))
         W6D1 += '\n' + ('{\\tnyk{%s}%%\n{%s}%%\n{%s}%%\n{%s}}%%' % (tithi_data_str, nakshatra_data_str,
                                                                     yoga_data_str, karana_data_str))
@@ -220,7 +220,7 @@ def write_monthly_tex(panchaanga, time_format="hh:mm", languages=None, scripts=N
       elif daily_panchaanga.date.get_weekday() == 1:
         W6D2 = '\n' + ('\\caldata{\\textcolor{%s}{%s}}{%s{%s}}%%' %
                        (day_colours[daily_panchaanga.date.get_weekday()], dt, month_data,
-                        names.get_chandra_masa(daily_panchaanga.lunar_month_sunrise,scripts[0])))
+                        names.get_chandra_masa(daily_panchaanga.lunar_date.month,scripts[0])))
         W6D2 += '\n' + ('{\\sundata{%s}{%s}{%s}}%%' % (sunrise, sunset, saangava))
         W6D2 += '\n' + ('{\\tnyk{%s}%%\n{%s}%%\n{%s}%%\n{%s}}%%' % (tithi_data_str, nakshatra_data_str,
                                                                     yoga_data_str, karana_data_str))

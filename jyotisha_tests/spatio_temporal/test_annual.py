@@ -62,7 +62,7 @@ def test_panchaanga_orinda_19(caplog):
 def test_adhika_maasa_computations_2009():
   panchaanga = no_fest_chennai_panchaanga(year=2009)
   expected_lunar_months_2009 = [7] + [8] * 29 + [9] * 30 + [10] * 15
-  assert expected_lunar_months_2009 == [x.lunar_month_sunrise.index for x in panchaanga.daily_panchaangas_sorted()[
+  assert expected_lunar_months_2009 == [x.lunar_date.month.index for x in panchaanga.daily_panchaangas_sorted()[
                                                                              panchaanga.duration_prior_padding + 290:panchaanga.duration_prior_padding + 365]]
 
 
@@ -78,7 +78,7 @@ def no_fest_chennai_panchaanga(year):
 def test_adhika_maasa_computations_2010():
   panchaanga = no_fest_chennai_panchaanga(year=2010)
   expected_lunar_months_2010 = [10] * 15 + [11] * 30 + [12] * 29 + [1] * 30 + [1.5] * 30 + [2] * 29 + [3]
-  assert expected_lunar_months_2010 == [x.lunar_month_sunrise.index for x in panchaanga.daily_panchaangas_sorted()[
+  assert expected_lunar_months_2010 == [x.lunar_date.month.index for x in panchaanga.daily_panchaangas_sorted()[
                                                                              panchaanga.duration_prior_padding:panchaanga.duration_prior_padding + 164]]
 
 
@@ -86,7 +86,7 @@ def test_adhika_maasa_computations_2018():
   from jyotisha_tests.spatio_temporal import get_panchaanga_from_previous_test
   panchaanga = get_panchaanga_from_previous_test(city_name="Chennai", year=2018)
   expected_lunar_months_2018 = [2] + [2.5] * 29 + [3] * 30 + [4]
-  assert expected_lunar_months_2018 == [x.lunar_month_sunrise.index for x in panchaanga.daily_panchaangas_sorted()[
+  assert expected_lunar_months_2018 == [x.lunar_date.month.index for x in panchaanga.daily_panchaangas_sorted()[
                                                                              panchaanga.duration_prior_padding + 134:panchaanga.duration_prior_padding + 195]]
 
 

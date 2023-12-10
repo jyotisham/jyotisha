@@ -41,7 +41,7 @@ class ShraddhaTithiAssigner(PeriodicPanchaangaApplier):
     daily_panchaangas = self.daily_panchaangas
 
     lunar_month_list = sorted(list(set(
-      [(dp.lunar_month_sunrise.index) for dp in self.panchaanga.daily_panchaangas_sorted()[2:self.panchaanga.duration + 2]] + [
+      [(dp.lunar_date.month.index) for dp in self.panchaanga.daily_panchaangas_sorted()[2:self.panchaanga.duration + 2]] + [
         13, 14])))
     # Including 13, 14 for next lunar year's chaitra/vaishakha
     lunar_tithi_days = {_m: {t: [] for t in range(0, 31)} for _m in lunar_month_list}
@@ -77,7 +77,7 @@ class ShraddhaTithiAssigner(PeriodicPanchaangaApplier):
           if debug_shraaddha_tithi:
             logging.warning(('WARN: span is negative, perhaps because tithi was skipped in aparaahna!', dp))
         tithi_details_tuple = (dp.date, span)
-        m = dp.lunar_month_sunrise.index
+        m = dp.lunar_date.month.index
         if m == 1 and (start_time - self.panchaanga.jd_start) > 200:
           m = 13
         if m == 2 and (start_time - self.panchaanga.jd_start) > 200:

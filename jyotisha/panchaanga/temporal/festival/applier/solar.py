@@ -481,7 +481,7 @@ class SolarFestivalAssigner(FestivalAssigner):
         self.panchaanga.delete_festival_date(fest_id='vyatIpAta-zrAddham', date=date)
         festival_name = 'mahAdhanurvyatIpAta-zrAddham'
         self.panchaanga.add_festival(fest_id=festival_name, date=date)
-      elif self.panchaanga.date_str_to_panchaanga[date.get_date_str()].lunar_month_sunrise.index == 6:
+      elif self.panchaanga.date_str_to_panchaanga[date.get_date_str()].lunar_date.month.index == 6:
         self.panchaanga.delete_festival_date(fest_id='vyatIpAta-zrAddham', date=date)
         self.panchaanga.add_festival(fest_id='mahAvyatIpAta-zrAddham', date=date)
 
@@ -564,7 +564,7 @@ class SolarFestivalAssigner(FestivalAssigner):
       # 4th pada of vyatipatam, 1st pada of Amavasya, 2nd pada of Shravana, Suryodaya, Somavasara = Mahodayam
       sunrise_zodiac = NakshatraDivision(daily_panchaanga.jd_sunrise, ayanaamsha_id=self.computation_system.ayanaamsha_id)
       sunset_zodiac = NakshatraDivision(daily_panchaanga.jd_sunset, ayanaamsha_id=self.computation_system.ayanaamsha_id)
-      if daily_panchaanga.lunar_month_sunrise.index in [10, 11] and (daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == 30 or tithi.get_tithi(daily_panchaanga.jd_sunrise).index == 30):
+      if daily_panchaanga.lunar_date.month.index in [10, 11] and (daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == 30 or tithi.get_tithi(daily_panchaanga.jd_sunrise).index == 30):
         if (sunrise_zodiac.get_anga(zodiac.AngaType.YOGA).index == 17 or sunset_zodiac.get_anga(zodiac.AngaType.YOGA).index == 17) and \
             (sunrise_zodiac.get_anga(zodiac.AngaType.NAKSHATRA).index == 22 or  sunset_zodiac.get_anga(zodiac.AngaType.NAKSHATRA).index == 22):
           if daily_panchaanga.date.get_weekday() == 1:
@@ -578,7 +578,7 @@ class SolarFestivalAssigner(FestivalAssigner):
       
   def assign_revati_dvadashi_yoga(self):
     for d, daily_panchaanga in enumerate(self.daily_panchaangas):
-      if daily_panchaanga.lunar_month_sunrise.index == 8 and daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index in (11, 12):
+      if daily_panchaanga.lunar_date.month.index == 8 and daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index in (11, 12):
         self._assign_yoga('cAturmAsya-vrata-pAraNa-niSiddha-yOgaH', [(zodiac.AngaType.NAKSHATRA_PADA, 108), (zodiac.AngaType.TITHI, 12)],
                       jd_start=daily_panchaanga.jd_sunrise, jd_end=daily_panchaanga.jd_sunset)
 

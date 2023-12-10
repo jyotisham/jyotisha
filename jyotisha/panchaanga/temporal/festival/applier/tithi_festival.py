@@ -56,17 +56,17 @@ class TithiFestivalAssigner(FestivalAssigner):
         tithi_moonrise = int(1 + floor(ldiff_moonrise / 12.0))
         tithi_moonrise_tmrw = int(1 + floor(ldiff_moonrise_tmrw / 12.0))
 
-        _m = day_panchaanga.lunar_month_sunrise.index
+        _m = day_panchaanga.lunar_date.month.index
         if floor(_m) != _m:
           _m = 13  # Adhika masa
         chaturthi_name = names.NAMES['SANKATAHARA_CHATURTHI_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][_m] + '-mahAgaNapati_'
         def _add_chaturthi_fest(p, chaturthi_name):
           chaturthi_vaara = p.date.get_weekday()
           chaturthi_vaara_tag = 'aGgArakI~' if chaturthi_vaara == 2 else 'ravivAra-' if chaturthi_vaara == 0 else ''
-          chaturthi_final_name = chaturthi_vaara_tag + chaturthi_name + ('mahA' if p.lunar_month_sunrise.index == 5  else '') + 'saGkaTahara-caturthI-vratam'
+          chaturthi_final_name = chaturthi_vaara_tag + chaturthi_name + ('mahA' if p.lunar_date.month.index == 5  else '') + 'saGkaTahara-caturthI-vratam'
           fest = FestivalInstance(name=chaturthi_final_name, interval=p.get_interval(interval_id="full_day"))
           self.panchaanga.add_festival_instance(festival_instance=fest, date=p.date)
-          if p.lunar_month_sunrise.index == 7:
+          if p.lunar_date.month.index == 7:
             self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='karaka-caturthI', interval=p.get_interval(interval_id="full_day")), date=p.date)
 
         if tithi_moonrise == 19:
@@ -89,13 +89,13 @@ class TithiFestivalAssigner(FestivalAssigner):
       # # SHASHTHI Vratam
       # Check only for Adhika maasa here...
       festival_name = 'SaSThI-vratam'
-      if day_panchaanga.lunar_month_sunrise.index == 8:
+      if day_panchaanga.lunar_date.month.index == 8:
         festival_name = 'skanda' + festival_name
-      elif day_panchaanga.lunar_month_sunrise.index == 4:
+      elif day_panchaanga.lunar_date.month.index == 4:
         festival_name = 'kumAra-' + festival_name
-      elif day_panchaanga.lunar_month_sunrise.index == 6:
+      elif day_panchaanga.lunar_date.month.index == 6:
         festival_name = 'SaSThIdEvI-' + festival_name
-      elif day_panchaanga.lunar_month_sunrise.index == 9:
+      elif day_panchaanga.lunar_date.month.index == 9:
         festival_name = 'subrahmaNya-' + festival_name
 
       if day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == 5 or day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == 6:
@@ -165,7 +165,7 @@ class TithiFestivalAssigner(FestivalAssigner):
       for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
         day_panchaanga = self.daily_panchaangas[d]
         # SPECIAL ASHTAMIs
-        if day_panchaanga.lunar_month_sunrise.index == 10 and NakshatraDivision(day_panchaanga.jd_sunrise, ayanaamsha_id=self.ayanaamsha_id).get_anga(
+        if day_panchaanga.lunar_date.month.index == 10 and NakshatraDivision(day_panchaanga.jd_sunrise, ayanaamsha_id=self.ayanaamsha_id).get_anga(
             zodiac.AngaType.NAKSHATRA).index == 2 and \
             day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == 8:
           self.panchaanga.add_festival(fest_id='jayantI~aSTamI', date=day_panchaanga.date)
@@ -218,17 +218,17 @@ class TithiFestivalAssigner(FestivalAssigner):
           if smaarta_ekaadashii_fday == vaishnava_ekaadashii_fday:
             # It's sarva ekaadashii
             self.panchaanga.add_festival(fest_id=
-              'sarva-' + names.get_ekaadashii_name(ekaadashii_paksha, day_panchaanga.lunar_month_sunrise.index),
+              'sarva-' + names.get_ekaadashii_name(ekaadashii_paksha, day_panchaanga.lunar_date.month.index),
               date=self.daily_panchaangas[smaarta_ekaadashii_fday].date)
             if ekaadashii_paksha == 'shukla':
               if day_panchaanga.solar_sidereal_date_sunset.month == 9:
                 self.panchaanga.add_festival(fest_id='sarva-vaikuNTha-EkAdazI', date=self.daily_panchaangas[smaarta_ekaadashii_fday].date)
           else:
             self.panchaanga.add_festival(fest_id=
-              'smArta-' + names.get_ekaadashii_name(ekaadashii_paksha, day_panchaanga.lunar_month_sunrise.index), date=
+              'smArta-' + names.get_ekaadashii_name(ekaadashii_paksha, day_panchaanga.lunar_date.month.index), date=
               self.daily_panchaangas[smaarta_ekaadashii_fday].date)
             self.panchaanga.add_festival(
-              fest_id='vaiSNava-' + names.get_ekaadashii_name(ekaadashii_paksha, day_panchaanga.lunar_month_sunrise.index), date=
+              fest_id='vaiSNava-' + names.get_ekaadashii_name(ekaadashii_paksha, day_panchaanga.lunar_date.month.index), date=
               self.daily_panchaangas[vaishnava_ekaadashii_fday].date)
             if ekaadashii_paksha == 'shukla':
               if day_panchaanga.solar_sidereal_date_sunset.month == 9:
@@ -236,11 +236,11 @@ class TithiFestivalAssigner(FestivalAssigner):
                 self.panchaanga.add_festival(fest_id='vaiSNava-vaikuNTha-EkAdazI', date=self.daily_panchaangas[vaishnava_ekaadashii_fday].date)
         else:
           self.panchaanga.add_festival(fest_id='smArta-' + names.get_ekaadashii_name(ekaadashii_paksha,
-                                                                                     day_panchaanga.lunar_month_sunrise.index) + ' (gRhastha)', date=self.daily_panchaangas[smaarta_ekaadashii_fday].date)
+                                                                                     day_panchaanga.lunar_date.month.index) + ' (gRhastha)', date=self.daily_panchaangas[smaarta_ekaadashii_fday].date)
           self.panchaanga.add_festival(fest_id='smArta-' + names.get_ekaadashii_name(ekaadashii_paksha, self.daily_panchaangas[
-            d].lunar_month_sunrise.index) + ' (sannyasta)', date=self.daily_panchaangas[yati_ekaadashii_fday].date)
+            d].lunar_date.month.index) + ' (sannyasta)', date=self.daily_panchaangas[yati_ekaadashii_fday].date)
           self.panchaanga.add_festival(
-            fest_id='vaiSNava-' + names.get_ekaadashii_name(ekaadashii_paksha, day_panchaanga.lunar_month_sunrise.index), date=self.daily_panchaangas[vaishnava_ekaadashii_fday].date)
+            fest_id='vaiSNava-' + names.get_ekaadashii_name(ekaadashii_paksha, day_panchaanga.lunar_date.month.index), date=self.daily_panchaangas[vaishnava_ekaadashii_fday].date)
           if day_panchaanga.solar_sidereal_date_sunset.month == 9:
             if ekaadashii_paksha == 'shukla':
               self.panchaanga.add_festival(fest_id='smArta-vaikuNTha-EkAdazI (gRhastha)', date=self.daily_panchaangas[smaarta_ekaadashii_fday].date)
@@ -311,7 +311,7 @@ class TithiFestivalAssigner(FestivalAssigner):
       if day_panchaanga.sunrise_day_angas.nakshatra_at_sunrise.index == 8 and (day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index % 15) == 12:
         self.panchaanga.add_festival(fest_id='jayA~mahAdvAdazI', date=day_panchaanga.date)
 
-      if day_panchaanga.sunrise_day_angas.nakshatra_at_sunrise.index == 8 and (day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index % 15) == 12 and day_panchaanga.lunar_month_sunrise.index == 12:
+      if day_panchaanga.sunrise_day_angas.nakshatra_at_sunrise.index == 8 and (day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index % 15) == 12 and day_panchaanga.lunar_date.month.index == 12:
         # Better checking needed (for other than sunrise).
         # Last occurred on 27-02-1961 - pushya nakshatra and phalguna krishna dvadashi (or shukla!?)
         self.panchaanga.add_festival(fest_id='gOvinda~mahAdvAdazI', date=day_panchaanga.date)
@@ -432,26 +432,26 @@ class TithiFestivalAssigner(FestivalAssigner):
       d = int(ama_day - self.daily_panchaangas[0].date)
       day_panchaanga = self.daily_panchaangas[d]
       # Get Name
-      if day_panchaanga.lunar_month_sunrise.index == 6:
+      if day_panchaanga.lunar_date.month.index == 6:
         pref = '(%s) mahAlaya ' % (
-          names.get_chandra_masa(day_panchaanga.lunar_month_sunrise.index, sanscript.roman.HK_DRAVIDIAN, visarga=False))
+          names.get_chandra_masa(day_panchaanga.lunar_date.month.index, sanscript.roman.HK_DRAVIDIAN, visarga=False))
       elif day_panchaanga.solar_sidereal_date_sunset.month == 4:
         pref = '%s (karkaTa) ' % (
-          names.get_chandra_masa(day_panchaanga.lunar_month_sunrise.index, sanscript.roman.HK_DRAVIDIAN, visarga=False))
+          names.get_chandra_masa(day_panchaanga.lunar_date.month.index, sanscript.roman.HK_DRAVIDIAN, visarga=False))
       elif day_panchaanga.solar_sidereal_date_sunset.month == 10:
         pref = 'mauni (%s/makara) ' % (
-          names.get_chandra_masa(day_panchaanga.lunar_month_sunrise.index,  sanscript.roman.HK_DRAVIDIAN, visarga=False))
+          names.get_chandra_masa(day_panchaanga.lunar_date.month.index,  sanscript.roman.HK_DRAVIDIAN, visarga=False))
       else:
-        pref = names.get_chandra_masa(day_panchaanga.lunar_month_sunrise.index,  sanscript.roman.HK_DRAVIDIAN,
+        pref = names.get_chandra_masa(day_panchaanga.lunar_date.month.index,  sanscript.roman.HK_DRAVIDIAN,
                                       visarga=False) + '-'
 
       apraahna_interval = day_panchaanga.get_interval("अपराह्णः")
       ama_nakshatra_today = [y for y in apraahna_interval.get_boundary_angas(anga_type=AngaType.NAKSHATRA, ayanaamsha_id=self.ayanaamsha_id).to_tuple()]
       suff = ''
       # Assign
-      if 23 in ama_nakshatra_today and day_panchaanga.lunar_month_sunrise.index == 11:
+      if 23 in ama_nakshatra_today and day_panchaanga.lunar_date.month.index == 11:
         suff = ' (alabhyam–mAgha-zraviSThA)'
-      elif 24 in ama_nakshatra_today and day_panchaanga.lunar_month_sunrise.index == 11:
+      elif 24 in ama_nakshatra_today and day_panchaanga.lunar_date.month.index == 11:
         suff = ' (alabhyam–mAgha-zatabhiSak)'
       elif ama_nakshatra_today[0] in [15, 16, 17, 6, 7, 8, 23, 24, 25]:
         suff = ' (alabhyam–%s)' % names.NAMES['NAKSHATRA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][ama_nakshatra_today[0]]
@@ -510,7 +510,7 @@ class TithiFestivalAssigner(FestivalAssigner):
 
       if day_panchaanga.date.get_weekday() == 4 and (day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == 15 or tithi_sunset == 15):
         # PURNIMA on a Thursday
-        lunar_month = int(day_panchaanga.lunar_month_sunrise.index) # to deal with adhika mAsas
+        lunar_month = int(day_panchaanga.lunar_date.month.index) # to deal with adhika mAsas
         lunar_month_nakshatra = [None, 14, 16, 18, 20, 22, 25, 1, 3, 5, 8, 10, 11]
         fest_yoga_names = [None,  "caitrI", "vaizAkhI", "jyaiSThI", "ASADhI", "zrAvaNI", "bhAdrapadI", "AzvayujI", "kArtikI", "mArgazIrSI", "pauSI", "mAghI", "phAlgunI"]
         if (day_panchaanga.sunrise_day_angas.nakshatra_at_sunrise.index == lunar_month_nakshatra[lunar_month] and day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == 15) or \
@@ -541,7 +541,7 @@ class TithiFestivalAssigner(FestivalAssigner):
       day_panchaanga = self.daily_panchaangas[d]
       # पुनर्वसुबुधोपेता चैत्रे मासि सिताष्टमी।
       # प्रातस्तु विधिवत्स्नात्वा वाजपेयफलं लभेत्॥
-      if day_panchaanga.lunar_month_sunrise.index == 1 and day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == 8 and day_panchaanga.date.get_weekday() == 3 and day_panchaanga.sunrise_day_angas.nakshatra_at_sunrise.index == 7:
+      if day_panchaanga.lunar_date.month.index == 1 and day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == 8 and day_panchaanga.date.get_weekday() == 3 and day_panchaanga.sunrise_day_angas.nakshatra_at_sunrise.index == 7:
         festival_name = 'vAjapEyaphala-snAna-yOgaH'
         self.panchaanga.add_festival(fest_id=festival_name, date=day_panchaanga.date)
 
@@ -556,7 +556,7 @@ class TithiFestivalAssigner(FestivalAssigner):
         tithi_sunset = temporal.tithi.get_tithi(day_panchaanga.jd_sunset).index
         tithi_sunset_tmrw = temporal.tithi.get_tithi(self.daily_panchaangas[d + 1].jd_sunset).index
         fest_name = 'candra-darzanam'
-        if day_panchaanga.lunar_month_sunrise.index == 6:
+        if day_panchaanga.lunar_date.month.index == 6:
           fest_name = 'bhAdrapada-' + fest_name
         if tithi_sunset <= 2:
           if tithi_sunset == 1:
@@ -607,7 +607,7 @@ class TithiFestivalAssigner(FestivalAssigner):
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       day_panchaanga = self.daily_panchaangas[d]
       # VARUNI TRAYODASHI
-      if day_panchaanga.lunar_month_sunrise.index == 12 and day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == 28:
+      if day_panchaanga.lunar_date.month.index == 12 and day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == 28:
         if NakshatraDivision(day_panchaanga.jd_sunrise, ayanaamsha_id=self.ayanaamsha_id).get_anga(
             zodiac.AngaType.NAKSHATRA).index == 24:
           vtr_name = 'vAruNI~trayOdazI'

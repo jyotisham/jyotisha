@@ -173,7 +173,7 @@ class DailyPanchaanga(common.JsonObject):
 
     self.tropical_date_sunset = None
 
-    self.lunar_month_sunrise = None
+    self.lunar_date = None
     
     self.festival_id_to_instance = {}
     self.mauDhyas = None
@@ -186,7 +186,7 @@ class DailyPanchaanga(common.JsonObject):
 
     if self.computation_system.lunar_month_assigner_type is not None:
       lunar_month_assigner = LunarMonthAssigner.get_assigner(computation_system=self.computation_system)
-      self.set_lunar_month_sunrise(month_assigner=lunar_month_assigner, previous_day_panchaanga=previous_day_panchaanga)
+      self.lunar_date = lunar_month_assigner.get_date(daily_panchaanga=self, previous_day_panchaanga=previous_day_panchaanga)
 
     self.set_mauDhyas()
     self.set_graha_raashis()
@@ -332,25 +332,13 @@ class DailyPanchaanga(common.JsonObject):
         tropical_date_sunset_month = month_transitions[0].value_2
     self.tropical_date_sunset = time.BasicDateWithTransitions(month=tropical_date_sunset_month, day=tropical_date_sunset_day, month_transition=month_transition_jd)
 
-  def set_lunar_month_sunrise(self, month_assigner, previous_day_panchaanga=None):
-    if previous_day_panchaanga is not None:
-      span = previous_day_panchaanga.sunrise_day_angas.find_anga_span(Anga.get_cached(anga_type_id=AngaType.TITHI.name, index=1))
-
-      # If a prathamA tithi has started post-sunrise yesterday (and has potentially ended before today's sunrise), or if today we have a prathamA at sunrise
-      if (span is not None and span.jd_start is not None) or self.sunrise_day_angas.tithi_at_sunrise.index == 1:
-        self.lunar_month_sunrise = month_assigner.get_month_sunrise(daily_panchaanga=self)
-      else:
-        self.lunar_month_sunrise = previous_day_panchaanga.lunar_month_sunrise
-    else:
-      if  month_assigner is not None:
-        self.lunar_month_sunrise = month_assigner.get_month_sunrise(daily_panchaanga=self)
 
   def get_date(self, month_type):
     if month_type == RulesRepo.SIDEREAL_SOLAR_MONTH_DIR:
       return self.solar_sidereal_date_sunset
     elif month_type == RulesRepo.LUNAR_MONTH_DIR:
-      return BasicDate(month=self.lunar_month_sunrise.index,
-                       day=self.sunrise_day_angas.tithi_at_sunrise.index)
+      return BasicDate(month=self.lunar_date.month.index,
+                       day=self.lunar_date.day)
     elif month_type == RulesRepo.TROPICAL_MONTH_DIR:
       return self.tropical_date_sunset
     elif month_type == RulesRepo.GREGORIAN_MONTH_DIR:
@@ -364,11 +352,11 @@ class DailyPanchaanga(common.JsonObject):
       else:
         return translate_or_transliterate(names.NAMES['SIDEREAL_SOLAR_MONTH_NAMES'][language][self.solar_sidereal_date_sunset.month - 1], source_script=sanscript.DEVANAGARI, script=script)
     elif month_type == RulesRepo.LUNAR_MONTH_DIR:
-      return names.get_chandra_masa(month=self.lunar_month_sunrise.index, script=script)
+      return names.get_chandra_masa(month=self.lunar_date.month.index, script=script)
     elif month_type == RulesRepo.TROPICAL_MONTH_DIR:
       return names.NAMES['RTU_MASA_NAMES_SHORT']['sa'][script][self.tropical_date_sunset.month]
     elif month_type == RulesRepo.LUNAR_MONTH_DIR + RulesRepo.TROPICAL_MONTH_DIR:
-      return names.NAMES['RTU_MASA_NAMES_SHORT']['sa'][script][self.lunar_month_sunrise.index]
+      return names.get_chandra_masa(month=self.lunar_date.month.index, name_type='RTU_MASA_NAMES_SHORT', script=script)
     elif month_type == RulesRepo.ISLAMIC_MONTH_DIR:
       islamic_date = self.date.to_islamic_date()
       return names.NAMES["ARAB_MONTH_NAMES"]["ar"][islamic_date.month-1]

@@ -35,7 +35,7 @@ def writeDailyICS(panchaanga, script=sanscript.DEVANAGARI):
     if daily_panchaanga.solar_sidereal_date_sunset.month == 1:
       # Flip the year name for the remaining days
       yname_solar = samvatsara_names[1]
-    if daily_panchaanga.lunar_month_sunrise.index == 1:
+    if daily_panchaanga.lunar_date.month.index == 1:
       # Flip the year name for the remaining days
       yname_lunar = samvatsara_names[1]
 

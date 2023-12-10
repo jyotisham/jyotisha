@@ -118,8 +118,8 @@ def emit(panchaanga, time_format="hh:mm", languages=None, scripts=None, output_s
 
     print('\\caldata{%s}{%s}{%s{%s}{%s}{%s}%s}' %
           (names.month_map[m].upper(), dt, month_data,
-           names.get_chandra_masa(daily_panchaanga.lunar_month_sunrise.index, scripts[0]),
-           names.NAMES['RTU_NAMES']['sa'][scripts[0]][int(ceil(daily_panchaanga.lunar_month_sunrise.index))],
+           names.get_chandra_masa(daily_panchaanga.lunar_date.month.index, scripts[0]),
+           names.NAMES['RTU_NAMES']['sa'][scripts[0]][int(ceil(daily_panchaanga.lunar_date.month.index))],
            names.NAMES['VARA_NAMES']['sa'][scripts[0]][daily_panchaanga.date.get_weekday()], sar_data), file=output_stream)
 
     stream_sun_moon_rise_data(daily_panchaanga, output_stream, time_format)
