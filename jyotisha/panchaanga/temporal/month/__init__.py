@@ -202,11 +202,10 @@ class SolsticePostDark10AdhikaAssigner(LunarMonthAssigner):
   def set_date(self, daily_panchaanga, previous_day_panchaanga=None):
     day = self._get_day(daily_panchaanga=daily_panchaanga, previous_day_panchaanga=previous_day_panchaanga)
     if day == 1:
-      anga_span = daily_panchaanga.sunrise_day_angas.find_anga_span(Tithi(index=1, month=None))
-      if anga_span.jd_start is None:
-        month = self._get_month(jd=daily_panchaanga.get_jd_noon())
-      else:
-        month = self._get_month(jd=anga_span.jd_start)
+      # It's possible that a short prathamA lies between two noons.  
+      # In such a case, sending a tithi-30 time would yield the wrong month.
+      # Hence the below.
+      month = self._get_month(jd=daily_panchaanga.get_jd_noon() + 2)
     else:
       if previous_day_panchaanga is not None:
         month = previous_day_panchaanga.lunar_date.month
