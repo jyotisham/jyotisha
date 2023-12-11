@@ -1,0 +1,105 @@
++++
+title = "{daily_panchaanga date get_date_str()}{panchaanga computation_system get_short_id_str()}"
+
++++
+## %{title}
+- Indian civil date: 1944-12-09, Islamic: 1444-08-07 Shaʿbān, 🌌🌞: सं- कुम्भः, तं- मासि, म- कुंभं, प- फग्गण, अ- फागुन
+- संवत्सरः - शुभकृत्
+- वर्षसङ्ख्या 🌛- शकाब्दः 1944, विक्रमाब्दः 2079, कलियुगे 5123
+___________________
+- 🪐🌞**ऋतुमानम्** — शिशिरऋतुः उत्तरायणम्
+- 🌌🌞**सौरमानम्** — शिशिरऋतुः उत्तरायणम्
+- 🌛**चान्द्रमानम्** — शिशिरऋतुः फाल्गुनः (≈तपस्यः)
+___________________
+
+
+## खचक्रस्थितिः
+- |🌞-🌛|**तिथिः** — शुक्ल-नवमी►28:19*; शुक्ल-दशमी►  
+- 🌌🌛**नक्षत्रम्** — रोहिणी►07:18; मृगशीर्षम्► (मिथुनम्)  
+- 🌌🌞**सौर-नक्षत्रम्** — शतभिषक्►  
+  - **राशि-मासः** — माघः► 
+___________________
+- 🌛+🌞**योगः** — विष्कम्भः►16:22; प्रीतिः►  
+- २|🌛-🌞|**करणम्** — बालवम्►15:17; कौलवम्►28:19*; तैतिलम्►  
+- 🌌🌛- **चन्द्राष्टम-राशिः**—वृश्चिकः  
+___________________
+- 🌞-🪐 **मूढग्रहाः** - शनिः (10.07° → 10.95°)
+- 🌞-🪐 **अमूढग्रहाः** - बुधः (14.04° → 13.39°), शुक्रः (-30.30° → -30.52°), गुरुः (-32.48° → -31.70°), मङ्गलः (-99.56° → -98.95°)
+___________________
+राशयः  
+**शनि** — कुम्भः►. **गुरु** — मीनः►. **मङ्गल** — वृषभः►. **शुक्र** — मीनः►. **बुध** — कुम्भः►. **राहु** — मेषः►. **केतु** — तुला►. 
+___________________
+
+
+## दिनमान-कालविभागाः
+- 🌅—06:39-12:32🌞-18:24🌇  
+
+|      |⬇     |⬆     |⬇     |
+|------|-----|-----|------|
+|चन्द्रः|     |⬆12:43 |⬇01:55*|
+|शनिः   |⬇17:41 |⬆06:01*|     |
+|गुरुः  |     |⬆08:27 |⬇20:34 |
+|मङ्गलः |     |⬆12:37 |⬇01:21*|
+|शुक्रः |     |⬆08:20 |⬇20:28 |
+|बुधः   |⬇17:27 |⬆05:53*|     |
+|राहुः  |     |⬆09:54 |⬇22:18 |
+|केतुः  |⬇09:54 |⬆22:18 |     |
+___________________
+- 🌞⚝भट्टभास्कर-मते वीर्यवन्तः— **प्रातः**—06:39-08:08; **साङ्गवः**—09:36-11:04; **मध्याह्नः**—12:32-14:00; **अपराह्णः**—15:28-16:56; **सायाह्नः**—18:24-19:56  
+- 🌞⚝सायण-मते वीर्यवन्तः— **प्रातः-मु॰1**—06:39-07:26; **प्रातः-मु॰2**—07:26-08:13; **साङ्गवः-मु॰2**—09:47-10:34; **पूर्वाह्णः-मु॰2**—12:08-12:55; **अपराह्णः-मु॰2**—14:29-15:16; **सायाह्नः-मु॰2**—16:50-17:37; **सायाह्नः-मु॰3**—17:37-18:24  
+- 🌞कालान्तरम्— **ब्राह्मं मुहूर्तम्**—05:01-05:50; **मध्यरात्रिः**—23:18-01:45  
+___________________
+- **राहुकालः**—15:28-16:56; **यमघण्टः**—09:36-11:04; **गुलिककालः**—12:32-14:00  
+___________________
+- **शूलम्**—उदीची (►11:21); **परिहारः**–क्षीरम्  
+___________________
+
+## उत्सवाः
+- कर्णावत्यां होलिकोत्सव-कलहः #२९५, माचि-चॆव्वाय्, वेङ्कट-रामार्यस्याविश्कारः #९५
+### कर्णावत्यां होलिकोत्सव-कलहः #२९५
+
+Event occured on 1728-02-29 (gregorian). Julian date was converted to Gregorian in this reckoning. 
+
+One of the earliest well-recorded hindu-muslim riots started on this Holi-day in Ahmedabad.
+
+#### Trigger
+- The Ahmedabad account attributes the trigger to Holi colors falling on an indignant muslim passerby.
+- The Delhi account (seemingly more concise and confused) attributes it to burning of Holika over the objections of a muslim neighbor.
+
+#### Riots
+Riots proceeded for two days. Hindu (+Jain) side was led by Kapur Chand, a well connected jeweller. Muslim side was led by Abdul Aziz, a cap merchant from the Sunni Bohra community. Professional rivalry existed between them. 
+
+The muslim mob was actively roused, and involved a charismatic Sufi preacher Muhammad Ali as per the Ahmedabad account. They tried and failed to get the Qazi to join them - and burned his house out of spite. They then attacked Kapur Chand and co; who defended themselves well - employing well paid Muslim musketeers according to Ahmedabad account.
+
+#### Climax
+The Governor of the subah, Daud Khan (a rather unorthodox person who's reputed to have had an idol in his house) sided with the influential Hindu Kapur Chand. The Qazi, Khairullah Khan, follwed suit. According to them, the Muslim case had no legal merit. But a rival Delhi muslim faction seems to have supported the Muslim rioters and forced the Hindu side to become conciliate.
+
+#### Aftermath
+Next year, according to Ali Muhammad Khan, Mirat-i Ahmadi - on the eve of Id al azha, a Bohra attempt to sacrifice a cow was thwarted by a Hindu havaldAr under the governorship of mahArAja Ajit singh. But, a Bohra Muslim mob formed and succeeded in retrieving the cow and slaughtering it after the Id prayer.
+
+#### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/02/18/karNAvatyAM_holikotsava-kalahaH.toml)
+- Tags: 
+
+
+### माचि-चॆव्वाय्
+
+
+
+Do upavāsam (at least do not take salt) and pray to Lord Shiva (Vaidyanatha Swami).
+
+#### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/tamil/description_only/mAci~cevvAy.toml)
+- Tags: MonthWeekdayFestivals
+
+
+### वेङ्कट-रामार्यस्याविश्कारः #९५
+
+Event occured on 1928-02-28 (gregorian). 
+
+CV Raman discovered the Raman Effect on this day in 1928
+
+#### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/02/28/venkaTa-rAmAryasyAvishkAraH.toml)
+- Tags: 
+
