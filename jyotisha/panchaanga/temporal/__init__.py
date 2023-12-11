@@ -145,7 +145,7 @@ class ComputationSystem(JsonObject):
 
   def get_short_id_str(self):
     calendar_id = ""
-    if computation_system.short_id is not None:
+    if self.short_id is not None:
       calendar_id = f"({self.short_id})"
     return calendar_id
 
