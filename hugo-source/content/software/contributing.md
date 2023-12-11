@@ -38,5 +38,7 @@ Pyswisseph is a thin wrapper around the C++ code.
 - [Official py Docs](https://astrorigin.com/pyswisseph/pydoc/index.html) - not [unsupported docs](http://pythonhosted.org/pyswisseph/swisseph-module.html).
 - [swisseph docs](http://www.astro.com/swisseph/swephprg.htm)
 
+Sometimes, swisseph files at jyotisha/panchaanga/temporal/data may not match your pyswisseph version, in which case, one of these will need to be updated.
+
 ## Deployment
 - [api.vedavaapi.org/jyotisha](http://api.vedavaapi.org/jyotisha)
