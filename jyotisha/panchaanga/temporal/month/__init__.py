@@ -105,10 +105,23 @@ class SolsticePostDark10AdhikaAssigner(LunarMonthAssigner):
   केषुचिद् एव युगेषु, यथापेक्षम् अधिमासयोजनं स्यात्। किन्तु यदायदाऽधिकमासो योज्यते तदातदाऽयनान्ते एव शुचौ मासे (आषाढे) वा सहस्ये मासे (पौषे) वा द्वितीयशुचिमासरूपेण (द्वितीयाषाढरूपेण) वा द्वितीयसहस्यमासरूपेण (द्वितीयपौषरूपेण) वैवाऽधिकमासो योज्यते। वेदाङ्गज्योतिषानुरूपाया गणनाया प्रयोगः काष्ठमण्डपनगरे मल्लानां शासनकालपर्यन्तमासीदिति शिलालेखेभ्य एव ज्ञायते।
 
   एतादृशी व्यवस्था च - यदा दृक्-सिद्ध-सौरायनारम्भ-दिने (दक्षिणायनस्य वोत्तरायणस्य वापि) कृष्ण-पक्षस्य दशमी, ततः परा वा तिथिर् भवति तदैव तेन कृष्ण-पक्षेण युक्तोऽमावास्यान्तो मासोऽधिको मास इति स्वीक्रियते, -यदा तु दृक्-सिद्ध-सौरायनारम्भ-दिने कृष्ण-पक्षस्य नवमी वा ततः पूर्वा वा तिथिर् भवति तदा तु तेन कृष्ण-पक्षेण युक्तोऽमावास्यान्तो मासोऽधिको मास इति न स्वीक्रियते।
+
+  Since the day's tithi varies by location,  
+  adhika-mAsa decision too can potentially vary by location.  
+  Instead, we use the actual (sphuTa) tithi  
+  independent of location  
+  for our adhika-mAsa computation here.  
   
-  Since the day's tithi varies by location, adhika-mAsa decision too can potentially vary by location. Instead, we use the actual tithi independent of location for our computation here.
-  
-  Solstice vs tithi Data : See https://vishvasa.github.io/jyotiSham/history/kauNDinyAyana/
+  The day's tithi is still assigned to be the tithi at noon,  
+  which is also followed by the kauNDinyAyana-s.  
+  This gels with the ancient tradition of marking parva-boundaries,  
+  when the fall in pUrvAhNa,  
+  by darsha-pUrNamAseShTi-s (or sthAlIpAka-s),  
+  preceeded by a preparatory day.  
+  (Ref. Apastamba shrauta sUtra - parishiShTa chapters with commentaries.)
+
+  So, this approximates the nepAli-kauNDinyAyana-family system.  
+  Solstice vs tithi data for the latter: See https://vishvasa.github.io/jyotiSham/history/kauNDinyAyana/
   """
 
   @classmethod
