@@ -1,5 +1,5 @@
 +++
-title = "2023 Summary (चि)"
+title = "2023 Summary (चि॰)"
 
 +++
 ## Intro
