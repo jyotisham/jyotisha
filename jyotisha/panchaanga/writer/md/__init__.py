@@ -25,7 +25,7 @@ def make_md(panchaanga, scripts=None, languages=None):
       print("## %04d-%02d" % (daily_panchaanga.date.year, daily_panchaanga.date.month), file=output_stream)
 
     (title, details) = day_details.day_summary(d=day_index, panchaanga=panchaanga, script=scripts[0], subsection_md="####")
-    print("### %s\n#### %s" % (daily_panchaanga.date.get_date_str(), title), file=output_stream)
+    print("### {daily_panchaanga.date.get_date_str()}{panchaanga.computation_system.get_short_id_str()}\n#### %{title}", file=output_stream)
     print(details, file=output_stream)
     
     festival_md = day_details.get_festivals_md(daily_panchaanga=daily_panchaanga, panchaanga=panchaanga, languages=languages, scripts=scripts, subsection_md="#####")

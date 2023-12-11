@@ -22,7 +22,6 @@ from jyotisha.panchaanga.writer.table.day_details import to_table_dict
 
 output_dir = os.path.join(os.path.dirname(os.path.dirname(jyotisha.__file__)), "hugo-source", "content", "output")
 
-
 def dump_ics_md_pair(panchaanga, period_str):
   ics_calendar = ics.compute_calendar(panchaanga)
   (year_type, year) = period_str.split("/")
@@ -34,7 +33,7 @@ def dump_ics_md_pair(panchaanga, period_str):
   md_file = MdFile(file_path=output_file_ics.replace(".ics", ".md"), frontmatter_type=MdFile.YAML)
   intro = "## 00 Intro\n### Related files\n- [ics](../%s)\n" % str(os.path.basename(output_file_ics))
   md_content = "%s\n%s" % (intro, md.make_md(panchaanga=panchaanga))
-  md_file.dump_to_file(metadata={"title": year}, content=md_content, dry_run=False)
+  md_file.dump_to_file(metadata={"title": f"{year}{panchaanga.computation_system.get_short_id_str()}"}, content=md_content, dry_run=False)
 
   monthly_file_path = md_file.file_path.replace(".md", "_monthly.md")
   monthly_dir = monthly_file_path.replace(".md", "/")
@@ -74,7 +73,7 @@ def dump_summary(year, city, script=sanscript.DEVANAGARI, year_type=era.ERA_GREG
   <div class="spreadsheet" src="../%s.toml" fullHeightWithRowsPerScreen=4> </div>""" % (computation_params, 
     str(year))
   md_file = MdFile(file_path=out_path_md)
-  md_file.dump_to_file(metadata={"title": "%d Summary" % (year)}, content=md, dry_run=False)
+  md_file.dump_to_file(metadata={"title": f"{year} Summary {panchaanga.computation_system.get_short_id_str()}"}, content=md, dry_run=False)
 
 
 def get_canonical_path(city, computation_system_str, year, year_type=era.ERA_GREGORIAN, output_dir=output_dir):
