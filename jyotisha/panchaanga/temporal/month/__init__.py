@@ -112,13 +112,15 @@ class SolsticePostDark10AdhikaAssigner(LunarMonthAssigner):
   independent of location  
   for our adhika-mAsa computation here.  
   
-  The day's tithi is still assigned to be the tithi at noon (barring skipped kRShNa-chaturdhashi),  
-  which is also followed by the kauNDinyAyana-s.  
+  The day-number is exactly set to be 1 if tithi at noon is 1,  
+  with the previous day's number set exactly to 30 (potentially skipping 29).
   This gels with the ancient tradition of marking parva-boundaries,  
   when the fall in pUrvAhNa,  
   by darsha-pUrNamAseShTi-s (or sthAlIpAka-s),  
   preceeded by a preparatory day.  
-  (Ref. Apastamba shrauta sUtra - parishiShTa chapters with commentaries.)
+  (Ref. Apastamba shrauta sUtra - parishiShTa chapters with commentaries.)  
+  This is also followed by the kauNDinyAyana-s.  
+  On other days, it can just one greater than the previous day's number.
 
   So, this approximates the nepAli-kauNDinyAyana-family system.  
   Solstice vs tithi data for the latter: See https://vishvasa.github.io/jyotiSham/history/kauNDinyAyana/
@@ -172,31 +174,43 @@ class SolsticePostDark10AdhikaAssigner(LunarMonthAssigner):
     else:
       return self._month_from_previous_jd_month_provisional(jd=daily_panchaanga.jd_sunrise, prev_jd=tropical_solar_month_span.jd_start, prev_jd_month=tropical_solar_month_span.anga + 0.5)
 
-  def get_day(self, daily_panchaanga):
-    day = daily_panchaanga.sunrise_day_angas.tithi_at_noon.index
-    if day < 30:
-      return day
-    if day == 30:
-      jd_next_day_sunset = self.city.get_rising_time(julian_day_start=daily_panchaanga.jd_next_sunrise, body=Graha.SUN)
-      anga_finder = zodiac.AngaSpanFinder.get_cached(ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0, anga_type=zodiac.AngaType.TITHI)
-      anga = anga_finder.find(jd1=(daily_panchaanga.jd_sunrise + daily_panchaanga.jd_sunset)/2, jd2=(daily_panchaanga.jd_next_sunrise + jd_next_day_sunset)/2, target_anga_id=1)
-      if anga is None:
+  def get_day(self, daily_panchaanga, previous_day_panchaanga=None):
+    anga_finder = zodiac.AngaSpanFinder.get_cached(ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0, anga_type=zodiac.AngaType.TITHI)
+    noon_tithi = daily_panchaanga.sunrise_day_angas.tithi_at_noon.index
+    jd_noon = daily_panchaanga.get_jd_noon()
+    if noon_tithi == 1:
+      jd_prev_day_noon = daily_panchaanga.get_jd_prev_day_noon()
+      tithi_span = anga_finder.find(jd1=jd_prev_day_noon, jd2=jd_noon, target_anga_id=1)
+      if tithi_span is not None and (tithi_span.jd_start is None or tithi_span.jd_start > jd_prev_day_noon):
+        return 1
+      else:
+        return 2
+    elif noon_tithi < 29:
+      if previous_day_panchaanga is not None:
+        return previous_day_panchaanga.lunar_date.day + 1
+      return noon_tithi
+    elif noon_tithi >= 29:
+      jd_next_day_noon = daily_panchaanga.get_jd_next_day_noon()
+      tithi_span = anga_finder.find(jd1=(daily_panchaanga.jd_sunrise + daily_panchaanga.jd_sunset)/2, jd2=jd_next_day_noon, target_anga_id=1)
+      if tithi_span is None:
+        # Potentially duplicate day 29 (eg. if short tithi 29 touches both today and tomorrow noon).
         return 29
       else:
+        # Potentially skip day 29  
+        # (eg. if short tithi 30 is between today and tomorrow noon, but doesn't touch either).
         return 30
 
   def get_date(self, daily_panchaanga, previous_day_panchaanga=None):
-    if previous_day_panchaanga is not None and previous_day_panchaanga.sunrise_day_angas is not None and previous_day_panchaanga.sunrise_day_angas.tithi_at_noon is not None:
-      if previous_day_panchaanga.sunrise_day_angas.tithi_at_noon.index == 1 or daily_panchaanga.sunrise_day_angas.tithi_at_noon.index == 1 or previous_day_panchaanga.lunar_date is None:
-        lunar_date = self.get_date(daily_panchaanga=daily_panchaanga, previous_day_panchaanga=None)
-      elif daily_panchaanga.sunrise_day_angas.tithi_at_noon.index == 30:
-        lunar_date = self.get_date(daily_panchaanga=daily_panchaanga, previous_day_panchaanga=None)
-      else:
-        lunar_date = time.BasicDateWithTransitions(month=previous_day_panchaanga.lunar_date.month, day=previous_day_panchaanga.lunar_date.day + 1)
-    else:
+    day = self.get_day(daily_panchaanga=daily_panchaanga, previous_day_panchaanga=previous_day_panchaanga)
+
+    if day == 1:
       month = self.get_month(daily_panchaanga=daily_panchaanga)
-      day = self.get_day(daily_panchaanga=daily_panchaanga)
-      lunar_date = time.BasicDateWithTransitions(month=month, day=day)
+    else:
+      if previous_day_panchaanga is not None:
+        month = previous_day_panchaanga.lunar_date.month
+      else: 
+        month = self.get_month(daily_panchaanga=daily_panchaanga)
+    lunar_date = time.BasicDateWithTransitions(month=month, day=day)
     return lunar_date
 
 

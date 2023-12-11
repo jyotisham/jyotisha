@@ -162,6 +162,7 @@ class DailyPanchaanga(common.JsonObject):
     self.jd_sunset = None
     self.jd_previous_sunset = None
     self.jd_next_sunrise = None
+    self._previous_day_panchaanga = previous_day_panchaanga
     self.graha_rise_jd = {}
     self.graha_set_jd = {}
 
@@ -392,6 +393,19 @@ class DailyPanchaanga(common.JsonObject):
       year_index = (self.date.year + year_0_offset)
     return year_index
 
+
+  def get_jd_next_day_noon(self):
+    jd_next_day_sunset = self.city.get_rising_time(julian_day_start=self.jd_next_sunrise, body=Graha.SUN)
+    return (self.jd_next_sunrise + jd_next_day_sunset)/2
+
+  def get_jd_prev_day_noon(self):
+    if self._previous_day_panchaanga is not None:
+      return self._previous_day_panchaanga.get_jd_noon()
+    jd_prev_day_sunrise = self.city.get_rising_time(julian_day_start=self.jd_next_sunrise - 1.2, body=Graha.SUN)
+    return (self.jd_previous_sunset + jd_prev_day_sunrise)/2
+
+  def get_jd_noon(self):
+    return (self.jd_sunrise + self.jd_sunset)/2
 
   def get_hora_data(self, debug=False):
     """Returns the hora data
