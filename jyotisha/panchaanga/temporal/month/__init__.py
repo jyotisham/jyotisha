@@ -2,7 +2,7 @@ import sys
 
 from jyotisha.panchaanga.temporal import zodiac, tithi, time
 from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, AngaSpanFinder, Ayanamsha
-from jyotisha.panchaanga.temporal.zodiac.angas import AngaType, Anga
+from jyotisha.panchaanga.temporal.zodiac.angas import AngaType, Anga, Tithi
 from sanskrit_data.schema import common
 from sanskrit_data.schema.common import JsonObject
 
@@ -16,10 +16,10 @@ class LunarMonthAssigner(JsonObject):
     super().__init__()
     self.ayanaamsha_id = ayanaamsha_id
 
-  def get_month(self, daily_panchaanga):
+  def _get_month(self, daily_panchaanga):
     pass
 
-  def get_date(self, daily_panchaanga, previous_day_panchaanga=None):
+  def set_date(self, daily_panchaanga, previous_day_panchaanga=None):
     pass
 
   @classmethod
@@ -45,7 +45,7 @@ class MultiLunarPhaseSolarMonthAdhikaAssigner(LunarMonthAssigner):
   
   प्रचलितायाम् अर्वाचीनायां पद्धतौ अर्वाचीनस्य राशिविभाजने आधृतस्य सौरमासस्य सङ्क्रान्तिं स्वीकृत्य “असङ्क्रान्ति-मासो ऽधिमास” इति परिभाषया अधिकमासगणना क्रियते ।
   """
-  def get_month(self, daily_panchaanga):
+  def _get_month(self, daily_panchaanga):
     """ Assigns Lunar months to days in the period
     
     Implementation note: Works by looking at solar months and month-end tithis (which makes it easy to deduce adhika-mAsa-s.)
@@ -74,18 +74,17 @@ class MultiLunarPhaseSolarMonthAdhikaAssigner(LunarMonthAssigner):
     else:
       return this_new_moon_solar_raashi
 
-  def get_date(self, daily_panchaanga, previous_day_panchaanga=None):
+  def set_date(self, daily_panchaanga, previous_day_panchaanga=None):
     if previous_day_panchaanga is not None:
       span = previous_day_panchaanga.sunrise_day_angas.find_anga_span(Anga.get_cached(anga_type_id=AngaType.TITHI.name, index=1))
 
       # If a prathamA tithi has started post-sunrise yesterday (and has potentially ended before today's sunrise), or if today we have a prathamA at sunrise
       if (span is not None and span.jd_start is not None) or previous_day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == 1:
-        lunar_date = self.get_date(daily_panchaanga=daily_panchaanga, previous_day_panchaanga=None)
+        self.set_date(daily_panchaanga=daily_panchaanga, previous_day_panchaanga=None)
       else:
-        lunar_date = time.BasicDateWithTransitions(month=previous_day_panchaanga.lunar_date.month, day=daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index)
+        daily_panchaanga.lunar_date = Tithi(month=previous_day_panchaanga.lunar_date.month, index=daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index)
     else:
-      lunar_date = time.BasicDateWithTransitions(month=self.get_month(daily_panchaanga=daily_panchaanga), day=daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index)
-    return lunar_date
+      daily_panchaanga.lunar_date = Tithi(month=self._get_month(daily_panchaanga=daily_panchaanga), index=daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index)
 
 
 class MultiNewmoonSolarMonthAdhikaAssigner(MultiLunarPhaseSolarMonthAdhikaAssigner):
@@ -160,21 +159,21 @@ class SolsticePostDark10AdhikaAssigner(LunarMonthAssigner):
 
     
 
-  def get_month(self, daily_panchaanga):
+  def _get_month(self, jd):
     """ Assigns Lunar months to days in the period
         
     :return: 
     """
-    next_tithi_30_span = AngaSpanFinder.get_cached(anga_type=AngaType.TITHI, ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0).get_spans_in_period(jd_start=daily_panchaanga.get_jd_noon(), jd_end=daily_panchaanga.get_jd_noon() + 35, target_anga_id=30)[0]
+    next_tithi_30_span = AngaSpanFinder.get_cached(anga_type=AngaType.TITHI, ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0).get_spans_in_period(jd_start=jd, jd_end=jd + 35, target_anga_id=30)[0]
 
 
     tropical_solar_month_span = self._get_previous_post_dark_10_tropical_solar_month_span(jd = next_tithi_30_span.jd_end)
-    if tropical_solar_month_span.jd_start >= daily_panchaanga.get_jd_noon():
+    if tropical_solar_month_span.jd_start >= jd:
       return tropical_solar_month_span.anga + 0.5
     else:
-      return self._month_from_previous_jd_month_provisional(jd=daily_panchaanga.get_jd_noon(), prev_jd=tropical_solar_month_span.jd_start, prev_jd_month=tropical_solar_month_span.anga + 0.5)
+      return self._month_from_previous_jd_month_provisional(jd=jd, prev_jd=tropical_solar_month_span.jd_start, prev_jd_month=tropical_solar_month_span.anga + 0.5)
 
-  def get_day(self, daily_panchaanga, previous_day_panchaanga=None):
+  def _get_day(self, daily_panchaanga, previous_day_panchaanga=None):
     anga_finder = zodiac.AngaSpanFinder.get_cached(ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0, anga_type=zodiac.AngaType.TITHI)
     noon_tithi = daily_panchaanga.sunrise_day_angas.tithi_at_noon.index
     jd_noon = daily_panchaanga.get_jd_noon()
@@ -187,7 +186,7 @@ class SolsticePostDark10AdhikaAssigner(LunarMonthAssigner):
         return 2
     elif noon_tithi < 29:
       if previous_day_panchaanga is not None:
-        return previous_day_panchaanga.lunar_date.day + 1
+        return previous_day_panchaanga.lunar_date.index + 1
       return noon_tithi
     elif noon_tithi >= 29:
       jd_next_day_noon = daily_panchaanga.get_jd_next_day_noon()
@@ -200,18 +199,21 @@ class SolsticePostDark10AdhikaAssigner(LunarMonthAssigner):
         # (eg. if short tithi 30 is between today and tomorrow noon, but doesn't touch either).
         return 30
 
-  def get_date(self, daily_panchaanga, previous_day_panchaanga=None):
-    day = self.get_day(daily_panchaanga=daily_panchaanga, previous_day_panchaanga=previous_day_panchaanga)
-
+  def set_date(self, daily_panchaanga, previous_day_panchaanga=None):
+    day = self._get_day(daily_panchaanga=daily_panchaanga, previous_day_panchaanga=previous_day_panchaanga)
     if day == 1:
-      month = self.get_month(daily_panchaanga=daily_panchaanga)
+      anga_span = daily_panchaanga.sunrise_day_angas.find_anga_span(Tithi(index=1, month=None))
+      if anga_span.jd_start is None:
+        month = self._get_month(jd=daily_panchaanga.get_jd_noon())
+      else:
+        month = self._get_month(jd=anga_span.jd_start)
     else:
       if previous_day_panchaanga is not None:
         month = previous_day_panchaanga.lunar_date.month
       else: 
-        month = self.get_month(daily_panchaanga=daily_panchaanga)
-    lunar_date = time.BasicDateWithTransitions(month=month, day=day)
-    return lunar_date
+        month = self._get_month(jd=daily_panchaanga.get_jd_noon())
+    lunar_date = Tithi(month=month, index=day)
+    daily_panchaanga.lunar_date = lunar_date
 
 
 ## TODO : Fix https://github.com/jyotisham/jyotisha/issues/142 by adding a more convulted variant of SolsticePostDark10AdhikaAssigner

@@ -196,7 +196,10 @@ class Tithi(Anga):
     return Tithi(index=anga.index, month=month)
 
   def __repr__(self):
-    return "%s: %4.1f:%02d" % (self.anga_type_id, self.month.index, self.index)
+    if self.month is not None:
+      return f"{self.anga_type_id}: {self.month.index:4.1f}:{self.index:02d}"
+    else:
+      return f"{self.anga_type_id}: ??:{self.index:02d}"
 
 
 class BoundaryAngas(common.JsonObject):

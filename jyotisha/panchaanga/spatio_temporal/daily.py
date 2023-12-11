@@ -187,7 +187,7 @@ class DailyPanchaanga(common.JsonObject):
 
     if self.computation_system.lunar_month_assigner_type is not None:
       lunar_month_assigner = LunarMonthAssigner.get_assigner(computation_system=self.computation_system)
-      self.lunar_date = lunar_month_assigner.get_date(daily_panchaanga=self, previous_day_panchaanga=previous_day_panchaanga)
+      lunar_month_assigner.set_date(daily_panchaanga=self, previous_day_panchaanga=previous_day_panchaanga)
 
     self.set_mauDhyas()
     self.set_graha_raashis()
@@ -339,7 +339,7 @@ class DailyPanchaanga(common.JsonObject):
       return self.solar_sidereal_date_sunset
     elif month_type == RulesRepo.LUNAR_MONTH_DIR:
       return BasicDate(month=self.lunar_date.month.index,
-                       day=self.lunar_date.day)
+                       day=self.lunar_date.index)
     elif month_type == RulesRepo.TROPICAL_MONTH_DIR:
       return self.tropical_date_sunset
     elif month_type == RulesRepo.GREGORIAN_MONTH_DIR:
