@@ -165,14 +165,14 @@ class SolsticePostDark10AdhikaAssigner(LunarMonthAssigner):
         
     :return: 
     """
-    next_tithi_30_span = AngaSpanFinder.get_cached(anga_type=AngaType.TITHI, ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0).get_spans_in_period(jd_start=daily_panchaanga.jd_sunrise, jd_end=daily_panchaanga.jd_sunrise + 35, target_anga_id=30)[0]
+    next_tithi_30_span = AngaSpanFinder.get_cached(anga_type=AngaType.TITHI, ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0).get_spans_in_period(jd_start=daily_panchaanga.get_jd_noon(), jd_end=daily_panchaanga.get_jd_noon() + 35, target_anga_id=30)[0]
 
 
     tropical_solar_month_span = self._get_previous_post_dark_10_tropical_solar_month_span(jd = next_tithi_30_span.jd_end)
-    if tropical_solar_month_span.jd_start >= daily_panchaanga.jd_sunrise:
+    if tropical_solar_month_span.jd_start >= daily_panchaanga.get_jd_noon():
       return tropical_solar_month_span.anga + 0.5
     else:
-      return self._month_from_previous_jd_month_provisional(jd=daily_panchaanga.jd_sunrise, prev_jd=tropical_solar_month_span.jd_start, prev_jd_month=tropical_solar_month_span.anga + 0.5)
+      return self._month_from_previous_jd_month_provisional(jd=daily_panchaanga.get_jd_noon(), prev_jd=tropical_solar_month_span.jd_start, prev_jd_month=tropical_solar_month_span.anga + 0.5)
 
   def get_day(self, daily_panchaanga, previous_day_panchaanga=None):
     anga_finder = zodiac.AngaSpanFinder.get_cached(ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0, anga_type=zodiac.AngaType.TITHI)
