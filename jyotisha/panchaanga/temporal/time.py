@@ -89,7 +89,7 @@ class Hour(JsonObject):
       # logging.debug(gg)
       return ('%d-%d-%d' % (gg, pp, vv))
     else:
-      raise Exception("""Unknown format""")
+      raise Exception("""Unknown format: %s""" % format)
 
   def __repr__(self):
     return self.to_string(format='hh:mm:ss')
