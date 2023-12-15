@@ -162,6 +162,7 @@ class DailyPanchaanga(common.JsonObject):
     self.jd_sunset = None
     self.jd_previous_sunset = None
     self.jd_next_sunrise = None
+    self._previous_day_panchaanga = previous_day_panchaanga
     self.graha_rise_jd = {}
     self.graha_set_jd = {}
 
@@ -186,7 +187,7 @@ class DailyPanchaanga(common.JsonObject):
 
     if self.computation_system.lunar_month_assigner_type is not None:
       lunar_month_assigner = LunarMonthAssigner.get_assigner(computation_system=self.computation_system)
-      self.lunar_date = lunar_month_assigner.get_date(daily_panchaanga=self, previous_day_panchaanga=previous_day_panchaanga)
+      lunar_month_assigner.set_date(daily_panchaanga=self, previous_day_panchaanga=previous_day_panchaanga)
 
     self.set_mauDhyas()
     self.set_graha_raashis()
@@ -338,7 +339,7 @@ class DailyPanchaanga(common.JsonObject):
       return self.solar_sidereal_date_sunset
     elif month_type == RulesRepo.LUNAR_MONTH_DIR:
       return BasicDate(month=self.lunar_date.month.index,
-                       day=self.lunar_date.day)
+                       day=self.lunar_date.index)
     elif month_type == RulesRepo.TROPICAL_MONTH_DIR:
       return self.tropical_date_sunset
     elif month_type == RulesRepo.GREGORIAN_MONTH_DIR:
@@ -392,6 +393,19 @@ class DailyPanchaanga(common.JsonObject):
       year_index = (self.date.year + year_0_offset)
     return year_index
 
+
+  def get_jd_next_day_noon(self):
+    jd_next_day_sunset = self.city.get_rising_time(julian_day_start=self.jd_next_sunrise, body=Graha.SUN)
+    return (self.jd_next_sunrise + jd_next_day_sunset)/2
+
+  def get_jd_prev_day_noon(self):
+    if self._previous_day_panchaanga is not None:
+      return self._previous_day_panchaanga.get_jd_noon()
+    jd_prev_day_sunrise = self.city.get_rising_time(julian_day_start=self.jd_next_sunrise - 1.2, body=Graha.SUN)
+    return (self.jd_previous_sunset + jd_prev_day_sunrise)/2
+
+  def get_jd_noon(self):
+    return (self.jd_sunrise + self.jd_sunset)/2
 
   def get_hora_data(self, debug=False):
     """Returns the hora data

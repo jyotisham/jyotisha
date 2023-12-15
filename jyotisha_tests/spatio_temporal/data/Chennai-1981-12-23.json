@@ -316,7 +316,8 @@
       "jsonClass": "GrahaLopaMeasures"
     },
     "jsonClass": "ComputationSystem",
-    "lunar_month_assigner_type": "MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA"
+    "lunar_month_assigner_type": "MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA",
+    "short_id": "चि॰"
   },
   "date": {
     "day": 23,
@@ -953,8 +954,9 @@
   "jsonClass": "DailyPanchaanga",
   "julian_day_start": 2444961.2708,
   "lunar_date": {
-    "day": 27,
-    "jsonClass": "BasicDateWithTransitions",
+    "anga_type_id": "TITHI",
+    "index": 27,
+    "jsonClass": "Tithi",
     "month": {
       "anga_type_id": "SIDEREAL_MONTH",
       "index": 9,

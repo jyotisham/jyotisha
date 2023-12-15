@@ -134,13 +134,20 @@ class ComputationSystem(JsonObject):
   MIN_SOLARCOMPUTATION__CHITRA_180 = None
   DEFAULT = None
 
-  def __init__(self, lunar_month_assigner_type, ayanaamsha_id, festival_options=FestivalOptions()):
+  def __init__(self, lunar_month_assigner_type, ayanaamsha_id, short_id=None, festival_options=FestivalOptions()):
     super().__init__()
     self.lunar_month_assigner_type = lunar_month_assigner_type
     self.ayanaamsha_id = ayanaamsha_id
     self.festival_options = festival_options
     self.graha_lopa_measures = GrahaLopaMeasures()
     self.post_load_ops()
+    self.short_id = short_id
+
+  def get_short_id_str(self):
+    calendar_id = ""
+    if self.short_id is not None:
+      calendar_id = f"({self.short_id})"
+    return calendar_id
 
   def post_load_ops(self):
     if hasattr(self, "festival_options") and self.festival_options is not None:
@@ -167,11 +174,11 @@ class ComputationSystem(JsonObject):
 def set_constants():
   from jyotisha.panchaanga.temporal.month import LunarMonthAssigner
   from jyotisha.panchaanga.temporal.zodiac import Ayanamsha
-  ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180 = ComputationSystem(lunar_month_assigner_type=LunarMonthAssigner.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA, ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
+  ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180 = ComputationSystem(lunar_month_assigner_type=LunarMonthAssigner.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA, ayanaamsha_id=Ayanamsha.CHITRA_AT_180, short_id="चि॰")
   ComputationSystem.MULTI_FULL_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180 = ComputationSystem(lunar_month_assigner_type=LunarMonthAssigner.MULTI_FULL_MOON_SIDEREAL_MONTH_ADHIKA, ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
   ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__RP = ComputationSystem(lunar_month_assigner_type=LunarMonthAssigner.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA, ayanaamsha_id=Ayanamsha.RASHTRIYA_PANCHANGA_NAKSHATRA_TRACKING)
 
-  ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180 = ComputationSystem(lunar_month_assigner_type=LunarMonthAssigner.SOLSTICE_POST_DARK_10_ADHIKA, ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
+  ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180 = ComputationSystem(lunar_month_assigner_type=LunarMonthAssigner.SOLSTICE_POST_DARK_10_ADHIKA, ayanaamsha_id=Ayanamsha.CHITRA_AT_180, short_id="उकौ॰")
   ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__RP = ComputationSystem(lunar_month_assigner_type=LunarMonthAssigner.SOLSTICE_POST_DARK_10_ADHIKA, ayanaamsha_id=Ayanamsha.RASHTRIYA_PANCHANGA_NAKSHATRA_TRACKING)
   ComputationSystem.MIN_SOLARCOMPUTATION__RP = ComputationSystem(lunar_month_assigner_type=None, ayanaamsha_id=Ayanamsha.RASHTRIYA_PANCHANGA_NAKSHATRA_TRACKING)
 
