@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20231215224055
+SEQUENCE:20231217183010
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -14042,7 +14042,10 @@ DTEND;VALUE=DATE:20230330
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/temples/Tamil/relative_event/kar2pagAmbAL%E2%80%9
  3kapAlIzvarar_tirukkalyANam/offset__-7/kapAlI_adhikAra_nandi.toml)<br/>- T
- ags: TamilnaduTempleFestivals
+ ags: TamilnaduTempleFestivals<br/><br/><br/><br/>## Details<br/>- [Edit co
+ nfig file](https://github.com/jyotisham/adyatithi/blob/master/temples/Tami
+ l/relative_event/kar2pagAmbAL%E2%80%93kapAlIzvarar_tirukkalyANam/offset__-
+ 7/kapAlI_adhikAra_nandi.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14350,7 +14353,10 @@ DTEND;VALUE=DATE:20230401
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/temples/Tamil/relative_event/kar2pagAmbAL%E2%80%9
  3kapAlIzvarar_tirukkalyANam/offset__-5/kapAlI_riSabha_vAhan2am.toml)<br/>-
-  Tags: TamilnaduTempleFestivals
+  Tags: TamilnaduTempleFestivals<br/><br/><br/><br/>## Details<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/blob/master/temples/Ta
+ mil/relative_event/kar2pagAmbAL%E2%80%93kapAlIzvarar_tirukkalyANam/offset_
+ _-5/kapAlI_riSabha_vAhan2am.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15907,15 +15913,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कारैक्काल् अम्मैयार् (२३
+SUMMARY:कारैक्काल् अम्मैयार् (२४
  ) गुरुपूजै
 DTSTART;VALUE=DATE:20230408
 DTEND;VALUE=DATE:20230409
-DESCRIPTION:Observed on Svātī nakshatra of Mīnaḥ (sidereal solar) mon
- th (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nA
- yanAr/sidereal_solar_month/nakshatra/12/15/kAraikkAl_ammaiyAr_%2823%29_gur
- upUjai.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
+ a/12/15/kAraikkAl_ammaiyAr_%2824%29_gurupUjai.toml)<br/>- Tags: NayanarGur
+ upujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://gith
+ ub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_
+ month/nakshatra/12/15/kAraikkAl_ammaiyAr_%2824%29_gurupUjai.toml)<br/>- Ta
+ gs: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
