@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20231217183010
+SEQUENCE:20231217183605
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -786,17 +786,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:चडैय नायऩार् (६२) गुरुपूज
- ै
+SUMMARY:चडैय नायऩ्मार् (६२) गुरुप
+ ूजै
 DTSTART;VALUE=DATE:20230106
 DTEND;VALUE=DATE:20230107
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/09/06/caDaiya_nAyan2Ar_%2862%29_gurupUjai.toml)<br/>- Tags: NayanarGurup
- ujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
- .com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_mo
- nth/nakshatra/09/06/caDaiya_nAyan2Ar_%2862%29_gurupUjai.toml)<br/>- Tags: 
- NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/09/06/caDaiya_nAyan2mAr_%2862%29_gurupUjai.toml)<br/>- Tags: NayanmarGu
+ rupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://git
+ hub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_sola
+ r_month/nakshatra/09/06/caDaiya_nAyan2mAr_%2862%29_gurupUjai.toml)<br/>- T
+ ags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1944,17 +1944,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:इयऱ्पगै नायऩार् (३) गुरुप
- ूजै
+SUMMARY:इयऱ्पगै नायऩ्मार् (३) गुर
+ ुपूजै
 DTSTART;VALUE=DATE:20230113
 DTEND;VALUE=DATE:20230114
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/09/12/iyar2pagai_nAyan2Ar_%283%29_gurupUjai.toml)<br/>- Tags: NayanarGur
- upujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://gith
- ub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_
- month/nakshatra/09/12/iyar2pagai_nAyan2Ar_%283%29_gurupUjai.toml)<br/>- Ta
- gs: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/09/12/iyar2pagai_nAyan2mAr_%283%29_gurupUjai.toml)<br/>- Tags: Nayanmar
+ Gurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_so
+ lar_month/nakshatra/09/12/iyar2pagai_nAyan2mAr_%283%29_gurupUjai.toml)<br/
+ >- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2580,17 +2580,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:तिरुनीलकण्ठ नायऩार् (२) ग
- ुरुपूजै
+SUMMARY:तिरुनीलकण्ठ नायऩ्मार् (२
+ ) गुरुपूजै
 DTSTART;VALUE=DATE:20230117
 DTEND;VALUE=DATE:20230118
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/10/16/tirunIlakaNTha_nAyan2Ar_%282%29_gurupUjai.toml)<br/>- Tags: Nayana
- rGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://
- github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_so
- lar_month/nakshatra/10/16/tirunIlakaNTha_nAyan2Ar_%282%29_gurupUjai.toml)<
- br/>- Tags: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/10/16/tirunIlakaNTha_nAyan2mAr_%282%29_gurupUjai.toml)<br/>- Tags: Naya
+ nmarGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https
+ ://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/siderea
+ l_solar_month/nakshatra/10/16/tirunIlakaNTha_nAyan2mAr_%282%29_gurupUjai.t
+ oml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3611,17 +3611,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:अप्पूदियडिगळ् नायऩार् (२
- ५) गुरुपूजै
+SUMMARY:अप्पूदियडिगळ् नायऩ्मार
+ ् (२५) गुरुपूजै
 DTSTART;VALUE=DATE:20230124
 DTEND;VALUE=DATE:20230125
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/10/24/appUdiyaDigaL_nAyan2Ar_%2825%29_gurupUjai.toml)<br/>- Tags: Nayana
- rGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://
- github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_so
- lar_month/nakshatra/10/24/appUdiyaDigaL_nAyan2Ar_%2825%29_gurupUjai.toml)<
- br/>- Tags: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/10/24/appUdiyaDigaL_nAyan2mAr_%2825%29_gurupUjai.toml)<br/>- Tags: Naya
+ nmarGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https
+ ://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/siderea
+ l_solar_month/nakshatra/10/24/appUdiyaDigaL_nAyan2mAr_%2825%29_gurupUjai.t
+ oml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4071,17 +4071,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कलिक्कम्ब नायऩार् (४३) गु
- रुपूजै
+SUMMARY:कलिक्कम्ब नायऩ्मार् (४३) 
+ गुरुपूजै
 DTSTART;VALUE=DATE:20230127
 DTEND;VALUE=DATE:20230128
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/10/27/kalikkamba_nAyan2Ar_%2843%29_gurupUjai.toml)<br/>- Tags: NayanarGu
- rupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://git
- hub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar
- _month/nakshatra/10/27/kalikkamba_nAyan2Ar_%2843%29_gurupUjai.toml)<br/>- 
- Tags: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/10/27/kalikkamba_nAyan2mAr_%2843%29_gurupUjai.toml)<br/>- Tags: Nayanma
+ rGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://
+ github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_s
+ olar_month/nakshatra/10/27/kalikkamba_nAyan2mAr_%2843%29_gurupUjai.toml)<b
+ r/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4784,17 +4784,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कण्णप्प नायऩार् (१०) गुरु
- पूजै
+SUMMARY:कण्णप्प नायऩ्मार् (१०) गु
+ रुपूजै
 DTSTART;VALUE=DATE:20230201
 DTEND;VALUE=DATE:20230202
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/10/05/kaNNappa_nAyan2Ar_%2810%29_gurupUjai.toml)<br/>- Tags: NayanarGuru
- pujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://githu
- b.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_m
- onth/nakshatra/10/05/kaNNappa_nAyan2Ar_%2810%29_gurupUjai.toml)<br/>- Tags
- : NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/10/05/kaNNappa_nAyan2mAr_%2810%29_gurupUjai.toml)<br/>- Tags: NayanmarG
+ urupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://gi
+ thub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_sol
+ ar_month/nakshatra/10/05/kaNNappa_nAyan2mAr_%2810%29_gurupUjai.toml)<br/>-
+  Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4926,17 +4926,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:अरिवाट्टाय नायऩार् (१३) ग
- ुरुपूजै
+SUMMARY:अरिवाट्टाय नायऩ्मार् (१३
+ ) गुरुपूजै
 DTSTART;VALUE=DATE:20230202
 DTEND;VALUE=DATE:20230203
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/10/06/arivATTAya_nAyan2Ar_%2813%29_gurupUjai.toml)<br/>- Tags: NayanarGu
- rupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://git
- hub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar
- _month/nakshatra/10/06/arivATTAya_nAyan2Ar_%2813%29_gurupUjai.toml)<br/>- 
- Tags: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/10/06/arivATTAya_nAyan2mAr_%2813%29_gurupUjai.toml)<br/>- Tags: Nayanma
+ rGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://
+ github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_s
+ olar_month/nakshatra/10/06/arivATTAya_nAyan2mAr_%2813%29_gurupUjai.toml)<b
+ r/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6016,17 +6016,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:चण्डेश्वर नायऩार् (२०) गु
- रुपूजै
+SUMMARY:चण्डेश्वर नायऩ्मार् (२०) 
+ गुरुपूजै
 DTSTART;VALUE=DATE:20230209
 DTEND;VALUE=DATE:20230210
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/10/12/caNDEzvara_nAyan2Ar_%2820%29_gurupUjai.toml)<br/>- Tags: NayanarGu
- rupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://git
- hub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar
- _month/nakshatra/10/12/caNDEzvara_nAyan2Ar_%2820%29_gurupUjai.toml)<br/>- 
- Tags: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/10/12/caNDEzvara_nAyan2mAr_%2820%29_gurupUjai.toml)<br/>- Tags: Nayanma
+ rGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://
+ github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_s
+ olar_month/nakshatra/10/12/caNDEzvara_nAyan2mAr_%2820%29_gurupUjai.toml)<b
+ r/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7157,17 +7157,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कारि नायऩार् (४८) गुरुपूज
- ै
+SUMMARY:कारि नायऩ्मार् (४८) गुरुप
+ ूजै
 DTSTART;VALUE=DATE:20230217
 DTEND;VALUE=DATE:20230218
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/11/20/kAri_nAyan2Ar_%2848%29_gurupUjai.toml)<br/>- Tags: NayanarGurupuja
- i<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
- m/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month
- /nakshatra/11/20/kAri_nAyan2Ar_%2848%29_gurupUjai.toml)<br/>- Tags: Nayana
- rGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/11/20/kAri_nAyan2mAr_%2848%29_gurupUjai.toml)<br/>- Tags: NayanmarGurup
+ ujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
+ .com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_m
+ onth/nakshatra/11/20/kAri_nAyan2mAr_%2848%29_gurupUjai.toml)<br/>- Tags: N
+ ayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8107,17 +8107,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कॊच्चॆङ्गट् चोऴ नायऩार् 
- (६०) गुरुपूजै
+SUMMARY:कॊच्चॆङ्गट् चोऴ नायऩ्मा
+ र् (६०) गुरुपूजै
 DTSTART;VALUE=DATE:20230221
 DTEND;VALUE=DATE:20230222
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/11/24/kocceGgaT_cOzha_nAyan2Ar_%2860%29_gurupUjai.toml)<br/>- Tags: Naya
- narGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https:
- //github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_
- solar_month/nakshatra/11/24/kocceGgaT_cOzha_nAyan2Ar_%2860%29_gurupUjai.to
- ml)<br/>- Tags: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/11/24/kocceGgaT_cOzha_nAyan2mAr_%2860%29_gurupUjai.toml)<br/>- Tags: Na
+ yanmarGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](htt
+ ps://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sider
+ eal_solar_month/nakshatra/11/24/kocceGgaT_cOzha_nAyan2mAr_%2860%29_gurupUj
+ ai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10678,17 +10678,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ऎऱिपत्त नायऩार् (८) गुरुप
- ूजै
+SUMMARY:ऎऱिपत्त नायऩ्मार् (८) गुर
+ ुपूजै
 DTSTART;VALUE=DATE:20230309
 DTEND;VALUE=DATE:20230310
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/11/13/er2ipatta_nAyan2Ar_%288%29_gurupUjai.toml)<br/>- Tags: NayanarGuru
- pujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://githu
- b.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_m
- onth/nakshatra/11/13/er2ipatta_nAyan2Ar_%288%29_gurupUjai.toml)<br/>- Tags
- : NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/11/13/er2ipatta_nAyan2mAr_%288%29_gurupUjai.toml)<br/>- Tags: NayanmarG
+ urupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://gi
+ thub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_sol
+ ar_month/nakshatra/11/13/er2ipatta_nAyan2mAr_%288%29_gurupUjai.toml)<br/>-
+  Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12100,17 +12100,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:दण्डियडिगळ् नायऩार् (३१) 
- गुरुपूजै
+SUMMARY:दण्डियडिगळ् नायऩ्मार् (३
+ १) गुरुपूजै
 DTSTART;VALUE=DATE:20230320
 DTEND;VALUE=DATE:20230321
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/12/24/daNDiyaDigaL_nAyan2Ar_%2831%29_gurupUjai.toml)<br/>- Tags: Nayanar
- Gurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
- ithub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_sol
- ar_month/nakshatra/12/24/daNDiyaDigaL_nAyan2Ar_%2831%29_gurupUjai.toml)<br
- />- Tags: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/12/24/daNDiyaDigaL_nAyan2mAr_%2831%29_gurupUjai.toml)<br/>- Tags: Nayan
+ marGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https:
+ //github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal
+ _solar_month/nakshatra/12/24/daNDiyaDigaL_nAyan2mAr_%2831%29_gurupUjai.tom
+ l)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13674,16 +13674,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:नेच नायऩार् (५९) गुरुपूजै
+SUMMARY:नेच नायऩ्मार् (५९) गुरुपू
+ जै
 DTSTART;VALUE=DATE:20230327
 DTEND;VALUE=DATE:20230328
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/12/04/nEca_nAyan2Ar_%2859%29_gurupUjai.toml)<br/>- Tags: NayanarGurupuja
- i<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
- m/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month
- /nakshatra/12/04/nEca_nAyan2Ar_%2859%29_gurupUjai.toml)<br/>- Tags: Nayana
- rGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/12/04/nEca_nAyan2mAr_%2859%29_gurupUjai.toml)<br/>- Tags: NayanmarGurup
+ ujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
+ .com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_m
+ onth/nakshatra/12/04/nEca_nAyan2mAr_%2859%29_gurupUjai.toml)<br/>- Tags: N
+ ayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14016,17 +14017,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:गणनाथ नायऩार् (३८) गुरुपू
- जै
+SUMMARY:गणनाथ नायऩ्मार् (३८) गुरु
+ पूजै
 DTSTART;VALUE=DATE:20230329
 DTEND;VALUE=DATE:20230330
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/12/06/gaNanAtha_nAyan2Ar_%2838%29_gurupUjai.toml)<br/>- Tags: NayanarGur
- upujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://gith
- ub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_
- month/nakshatra/12/06/gaNanAtha_nAyan2Ar_%2838%29_gurupUjai.toml)<br/>- Ta
- gs: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/12/06/gaNanAtha_nAyan2mAr_%2838%29_gurupUjai.toml)<br/>- Tags: Nayanmar
+ Gurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_so
+ lar_month/nakshatra/12/06/gaNanAtha_nAyan2mAr_%2838%29_gurupUjai.toml)<br/
+ >- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14385,17 +14386,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मुऩैयडुवार् नायऩार् (५२) 
- गुरुपूजै
+SUMMARY:मुऩैयडुवार् नायऩ्मार् (५
+ २) गुरुपूजै
 DTSTART;VALUE=DATE:20230331
 DTEND;VALUE=DATE:20230401
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/12/08/mun2aiyaDuvAr_nAyan2Ar_%2852%29_gurupUjai.toml)<br/>- Tags: Nayana
- rGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://
- github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_so
- lar_month/nakshatra/12/08/mun2aiyaDuvAr_nAyan2Ar_%2852%29_gurupUjai.toml)<
- br/>- Tags: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/12/08/mun2aiyaDuvAr_nAyan2mAr_%2852%29_gurupUjai.toml)<br/>- Tags: Naya
+ nmarGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https
+ ://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/siderea
+ l_solar_month/nakshatra/12/08/mun2aiyaDuvAr_nAyan2mAr_%2852%29_gurupUjai.t
+ oml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15918,12 +15919,12 @@ SUMMARY:कारैक्काल् अम्मैयार् (२४
 DTSTART;VALUE=DATE:20230408
 DTEND;VALUE=DATE:20230409
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/12/15/kAraikkAl_ammaiyAr_%2824%29_gurupUjai.toml)<br/>- Tags: NayanarGur
- upujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://gith
- ub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_
- month/nakshatra/12/15/kAraikkAl_ammaiyAr_%2824%29_gurupUjai.toml)<br/>- Ta
- gs: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/12/15/kAraikkAl_ammaiyAr_%2824%29_gurupUjai.toml)<br/>- Tags: NayanmarG
+ urupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://gi
+ thub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_sol
+ ar_month/nakshatra/12/15/kAraikkAl_ammaiyAr_%2824%29_gurupUjai.toml)<br/>-
+  Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17995,17 +17996,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:चिऱुत्तॊण्ड नायऩार् (३६) 
- गुरुपूजै
+SUMMARY:चिऱुत्तॊण्ड नायऩ्मार् (३
+ ६) गुरुपूजै
 DTSTART;VALUE=DATE:20230421
 DTEND;VALUE=DATE:20230422
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/01/02/cir2uttoNDa_nAyan2Ar_%2836%29_gurupUjai.toml)<br/>- Tags: NayanarG
- urupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://gi
- thub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_sola
- r_month/nakshatra/01/02/cir2uttoNDa_nAyan2Ar_%2836%29_gurupUjai.toml)<br/>
- - Tags: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/01/02/cir2uttoNDa_nAyan2mAr_%2836%29_gurupUjai.toml)<br/>- Tags: Nayanm
+ arGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https:/
+ /github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_
+ solar_month/nakshatra/01/02/cir2uttoNDa_nAyan2mAr_%2836%29_gurupUjai.toml)
+ <br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18563,16 +18564,16 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मङ्गैयर्क्करचियार् नाय
- ऩार् (५०) गुरुपूजै
+ ऩ्मार् (५०) गुरुपूजै
 DTSTART;VALUE=DATE:20230423
 DTEND;VALUE=DATE:20230424
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/01/04/maGgaiyarkkaraciyAr_nAyan2Ar_%2850%29_gurupUjai.toml)<br/>- Tags: 
- NayanarGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sider
- eal_solar_month/nakshatra/01/04/maGgaiyarkkaraciyAr_nAyan2Ar_%2850%29_guru
- pUjai.toml)<br/>- Tags: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/01/04/maGgaiyarkkaraciyAr_nAyan2mAr_%2850%29_gurupUjai.toml)<br/>- Tags
+ : NayanmarGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/s
+ idereal_solar_month/nakshatra/01/04/maGgaiyarkkaraciyAr_nAyan2mAr_%2850%29
+ _gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18942,17 +18943,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:विऱऩ्मिण्ड नायऩार् (६) गु
- रुपूजै
+SUMMARY:विऱऩ्मिण्ड नायऩ्मार् (६) 
+ गुरुपूजै
 DTSTART;VALUE=DATE:20230425
 DTEND;VALUE=DATE:20230426
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/01/06/vir2an2miNDa_nAyan2Ar_%286%29_gurupUjai.toml)<br/>- Tags: NayanarG
- urupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://gi
- thub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_sola
- r_month/nakshatra/01/06/vir2an2miNDa_nAyan2Ar_%286%29_gurupUjai.toml)<br/>
- - Tags: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/01/06/vir2an2miNDa_nAyan2mAr_%286%29_gurupUjai.toml)<br/>- Tags: Nayanm
+ arGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https:/
+ /github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_
+ solar_month/nakshatra/01/06/vir2an2miNDa_nAyan2mAr_%286%29_gurupUjai.toml)
+ <br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20335,17 +20336,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:इचैञाऩियार् नायऩार् (६३) 
- गुरुपूजै
+SUMMARY:इचैञाऩियार् नायऩ्मार् (६
+ ३) गुरुपूजै
 DTSTART;VALUE=DATE:20230504
 DTEND;VALUE=DATE:20230505
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/01/14/icaiJAn2iyAr_nAyan2Ar_%2863%29_gurupUjai.toml)<br/>- Tags: Nayanar
- Gurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
- ithub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_sol
- ar_month/nakshatra/01/14/icaiJAn2iyAr_nAyan2Ar_%2863%29_gurupUjai.toml)<br
- />- Tags: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/01/14/icaiJAn2iyAr_nAyan2mAr_%2863%29_gurupUjai.toml)<br/>- Tags: Nayan
+ marGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https:
+ //github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal
+ _solar_month/nakshatra/01/14/icaiJAn2iyAr_nAyan2mAr_%2863%29_gurupUjai.tom
+ l)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20647,16 +20648,16 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:तिरुक्कुऱिप्पुत् तॊण्ड 
- नायऩार् (१९) गुरुपूजै
+ नायऩ्मार् (१९) गुरुपूजै
 DTSTART;VALUE=DATE:20230505
 DTEND;VALUE=DATE:20230506
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/01/15/tirukkur2ipput_toNDa_nAyan2Ar_%2819%29_gurupUjai.toml)<br/>- Tags:
-  NayanarGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](h
- ttps://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/side
- real_solar_month/nakshatra/01/15/tirukkur2ipput_toNDa_nAyan2Ar_%2819%29_gu
- rupUjai.toml)<br/>- Tags: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/01/15/tirukkur2ipput_toNDa_nAyan2mAr_%2819%29_gurupUjai.toml)<br/>- Tag
+ s: NayanmarGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file
+ ](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/
+ sidereal_solar_month/nakshatra/01/15/tirukkur2ipput_toNDa_nAyan2mAr_%2819%
+ 29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21814,17 +21815,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:तिरुनावुक्करछ नायऩार् (२
- १) गुरुपूजै
+SUMMARY:तिरुनावुक्करछ नायऩ्मार
+ ् (२१) गुरुपूजै
 DTSTART;VALUE=DATE:20230514
 DTEND;VALUE=DATE:20230515
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/01/24/tirunAvukkaracha_nAyan2Ar_%2821%29_gurupUjai.toml)<br/>- Tags: Nay
- anarGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https
- ://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal
- _solar_month/nakshatra/01/24/tirunAvukkaracha_nAyan2Ar_%2821%29_gurupUjai.
- toml)<br/>- Tags: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/01/24/tirunAvukkaracha_nAyan2mAr_%2821%29_gurupUjai.toml)<br/>- Tags: N
+ ayanmarGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/side
+ real_solar_month/nakshatra/01/24/tirunAvukkaracha_nAyan2mAr_%2821%29_gurup
+ Ujai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22299,17 +22300,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कऴऱ्चिङ्ग नायऩार् (५३) गु
- रुपूजै
+SUMMARY:कऴऱ्चिङ्ग नायऩ्मार् (५३) 
+ गुरुपूजै
 DTSTART;VALUE=DATE:20230518
 DTEND;VALUE=DATE:20230519
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/02/02/kazhar2ciGga_nAyan2Ar_%2853%29_gurupUjai.toml)<br/>- Tags: Nayanar
- Gurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
- ithub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_sol
- ar_month/nakshatra/02/02/kazhar2ciGga_nAyan2Ar_%2853%29_gurupUjai.toml)<br
- />- Tags: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/02/02/kazhar2ciGga_nAyan2mAr_%2853%29_gurupUjai.toml)<br/>- Tags: Nayan
+ marGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https:
+ //github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal
+ _solar_month/nakshatra/02/02/kazhar2ciGga_nAyan2mAr_%2853%29_gurupUjai.tom
+ l)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23674,17 +23675,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:नमिनन्दियडिगळ् नायऩार् (
- २७) गुरुपूजै
+SUMMARY:नमिनन्दियडिगळ् नायऩ्मा
+ र् (२७) गुरुपूजै
 DTSTART;VALUE=DATE:20230525
 DTEND;VALUE=DATE:20230526
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/02/08/naminandiyaDigaL_nAyan2Ar_%2827%29_gurupUjai.toml)<br/>- Tags: Nay
- anarGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https
- ://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal
- _solar_month/nakshatra/02/08/naminandiyaDigaL_nAyan2Ar_%2827%29_gurupUjai.
- toml)<br/>- Tags: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/02/08/naminandiyaDigaL_nAyan2mAr_%2827%29_gurupUjai.toml)<br/>- Tags: N
+ ayanmarGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/side
+ real_solar_month/nakshatra/02/08/naminandiyaDigaL_nAyan2mAr_%2827%29_gurup
+ Ujai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23892,17 +23893,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सोमासिमार नायऩार् (३३) गु
- रुपूजै
+SUMMARY:सोमासिमार नायऩ्मार् (३३) 
+ गुरुपूजै
 DTSTART;VALUE=DATE:20230526
 DTEND;VALUE=DATE:20230527
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/02/09/sOmAsimAra_nAyan2Ar_%2833%29_gurupUjai.toml)<br/>- Tags: NayanarGu
- rupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://git
- hub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar
- _month/nakshatra/02/09/sOmAsimAra_nAyan2Ar_%2833%29_gurupUjai.toml)<br/>- 
- Tags: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/02/09/sOmAsimAra_nAyan2mAr_%2833%29_gurupUjai.toml)<br/>- Tags: Nayanma
+ rGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://
+ github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_s
+ olar_month/nakshatra/02/09/sOmAsimAra_nAyan2mAr_%2833%29_gurupUjai.toml)<b
+ r/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25647,17 +25648,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मुरुग नायऩार् (१६) गुरुपू
- जै
+SUMMARY:मुरुग नायऩ्मार् (१६) गुरु
+ पूजै
 DTSTART;VALUE=DATE:20230605
 DTEND;VALUE=DATE:20230606
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/02/19/muruga_nAyan2Ar_%2816%29_gurupUjai.toml)<br/>- Tags: NayanarGurupu
- jai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.
- com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_mon
- th/nakshatra/02/19/muruga_nAyan2Ar_%2816%29_gurupUjai.toml)<br/>- Tags: Na
- yanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/02/19/muruga_nAyan2mAr_%2816%29_gurupUjai.toml)<br/>- Tags: NayanmarGur
+ upujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://gith
+ ub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar
+ _month/nakshatra/02/19/muruga_nAyan2mAr_%2816%29_gurupUjai.toml)<br/>- Tag
+ s: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25668,16 +25669,16 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:तिरुञाऩसम्बन्धमूर्त्ति
-  नायऩार् (२८) गुरुपूजै
+  नायऩ्मार् (२८) गुरुपूजै
 DTSTART;VALUE=DATE:20230605
 DTEND;VALUE=DATE:20230606
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/02/19/tiruJAn2asambandhamUrtti_nAyan2Ar_%2828%29_gurupUjai.toml)<br/>- T
- ags: NayanarGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config fil
- e](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/
- sidereal_solar_month/nakshatra/02/19/tiruJAn2asambandhamUrtti_nAyan2Ar_%28
- 28%29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/02/19/tiruJAn2asambandhamUrtti_nAyan2mAr_%2828%29_gurupUjai.toml)<br/>-
+  Tags: NayanmarGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config 
+ file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyan
+ mAr/sidereal_solar_month/nakshatra/02/19/tiruJAn2asambandhamUrtti_nAyan2mA
+ r_%2828%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25688,16 +25689,16 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:तिरुनीलकण्ठ याऴ्प्पाण न
- ायऩार् (६१) गुरुपूजै
+ ायऩ्मार् (६१) गुरुपूजै
 DTSTART;VALUE=DATE:20230605
 DTEND;VALUE=DATE:20230606
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/02/19/tirunIlakaNTha_yAzhppANa_nAyan2Ar_%2861%29_gurupUjai.toml)<br/>- T
- ags: NayanarGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config fil
- e](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/
- sidereal_solar_month/nakshatra/02/19/tirunIlakaNTha_yAzhppANa_nAyan2Ar_%28
- 61%29_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/02/19/tirunIlakaNTha_yAzhppANa_nAyan2mAr_%2861%29_gurupUjai.toml)<br/>-
+  Tags: NayanmarGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config 
+ file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyan
+ mAr/sidereal_solar_month/nakshatra/02/19/tirunIlakaNTha_yAzhppANa_nAyan2mA
+ r_%2861%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25707,17 +25708,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:तिरुनीलनक्क नायऩार् (२६) 
- गुरुपूजै
+SUMMARY:तिरुनीलनक्क नायऩ्मार् (२
+ ६) गुरुपूजै
 DTSTART;VALUE=DATE:20230605
 DTEND;VALUE=DATE:20230606
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/02/19/tirunIlanakka_nAyan2Ar_%2826%29_gurupUjai.toml)<br/>- Tags: Nayana
- rGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://
- github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_so
- lar_month/nakshatra/02/19/tirunIlanakka_nAyan2Ar_%2826%29_gurupUjai.toml)<
- br/>- Tags: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/02/19/tirunIlanakka_nAyan2mAr_%2826%29_gurupUjai.toml)<br/>- Tags: Naya
+ nmarGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https
+ ://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/siderea
+ l_solar_month/nakshatra/02/19/tirunIlanakka_nAyan2mAr_%2826%29_gurupUjai.t
+ oml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -28002,17 +28003,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पुगऴ्त्तुणै नायऩार् (५६) 
- गुरुपूजै
+SUMMARY:पुगऴ्त्तुणै नायऩ्मार् (५
+ ६) गुरुपूजै
 DTSTART;VALUE=DATE:20230622
 DTEND;VALUE=DATE:20230623
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/03/09/pugazhttuNai_nAyan2Ar_%2856%29_gurupUjai.toml)<br/>- Tags: Nayanar
- Gurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
- ithub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_sol
- ar_month/nakshatra/03/09/pugazhttuNai_nAyan2Ar_%2856%29_gurupUjai.toml)<br
- />- Tags: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/03/09/pugazhttuNai_nAyan2mAr_%2856%29_gurupUjai.toml)<br/>- Tags: Nayan
+ marGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https:
+ //github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal
+ _solar_month/nakshatra/03/09/pugazhttuNai_nAyan2mAr_%2856%29_gurupUjai.tom
+ l)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -28169,11 +28170,11 @@ SUMMARY:माणिक्कवाचकर् गुरुपूजै
 DTSTART;VALUE=DATE:20230623
 DTEND;VALUE=DATE:20230624
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/03/10/mANikkavAcakar_gurupUjai.toml)<br/>- Tags: NayanarGurupujai<br/><b
- r/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
- ham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshat
- ra/03/10/mANikkavAcakar_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/03/10/mANikkavAcakar_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai<br/>
+ <br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
+ isham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/naks
+ hatra/03/10/mANikkavAcakar_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -28416,17 +28417,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:अमरनीति नायऩार् (७) गुरुप
- ूजै
+SUMMARY:अमरनीति नायऩ्मार् (७) गुर
+ ुपूजै
 DTSTART;VALUE=DATE:20230625
 DTEND;VALUE=DATE:20230626
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/03/11/amaranIti_nAyan2Ar_%287%29_gurupUjai.toml)<br/>- Tags: NayanarGuru
- pujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://githu
- b.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_m
- onth/nakshatra/03/11/amaranIti_nAyan2Ar_%287%29_gurupUjai.toml)<br/>- Tags
- : NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/03/11/amaranIti_nAyan2mAr_%287%29_gurupUjai.toml)<br/>- Tags: NayanmarG
+ urupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://gi
+ thub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_sol
+ ar_month/nakshatra/03/11/amaranIti_nAyan2mAr_%287%29_gurupUjai.toml)<br/>-
+  Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30790,17 +30791,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:एयर्कोऩ् कलिक्काम नायऩा
- र् (२९) गुरुपूजै
+SUMMARY:एयर्कोऩ् कलिक्काम नायऩ्
+ मार् (२९) गुरुपूजै
 DTSTART;VALUE=DATE:20230710
 DTEND;VALUE=DATE:20230711
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/03/27/EyarkOn2_kalikkAma_nAyan2Ar_%2829%29_gurupUjai.toml)<br/>- Tags: N
- ayanarGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](htt
- ps://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidere
- al_solar_month/nakshatra/03/27/EyarkOn2_kalikkAma_nAyan2Ar_%2829%29_gurupU
- jai.toml)<br/>- Tags: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/03/27/EyarkOn2_kalikkAma_nAyan2mAr_%2829%29_gurupUjai.toml)<br/>- Tags:
+  NayanmarGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](
+ https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/si
+ dereal_solar_month/nakshatra/03/27/EyarkOn2_kalikkAma_nAyan2mAr_%2829%29_g
+ urupUjai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -32697,16 +32698,16 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पॆरुमिऴलैक् कुऱुम्ब नाय
- ऩार् (२३) गुरुपूजै
+ ऩ्मार् (२३) गुरुपूजै
 DTSTART;VALUE=DATE:20230725
 DTEND;VALUE=DATE:20230726
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/04/14/perumizhalaik_kur2umba_nAyan2Ar_%2823%29_gurupUjai.toml)<br/>- Tag
- s: NayanarGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file]
- (https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/si
- dereal_solar_month/nakshatra/04/14/perumizhalaik_kur2umba_nAyan2Ar_%2823%2
- 9_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/04/14/perumizhalaik_kur2umba_nAyan2mAr_%2823%29_gurupUjai.toml)<br/>- T
+ ags: NayanmarGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config fi
+ le](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmA
+ r/sidereal_solar_month/nakshatra/04/14/perumizhalaik_kur2umba_nAyan2mAr_%2
+ 823%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -32804,18 +32805,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:कऴऱिऱ्ऱऱिवार्/चेरमाऩ् प
- ॆरुमाळ् नायऩार् (३७) गुरुपूज
- ै
+ ॆरुमाळ् नायऩ्मार् (३७) गुरुप
+ ूजै
 DTSTART;VALUE=DATE:20230726
 DTEND;VALUE=DATE:20230727
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/04/15/kazhar2ir2r2ar2ivAr_or_cEramAn2_perumAL_nAyan2Ar_%2837%29_gurupUja
- i.toml)<br/>- Tags: NayanarGurupujai<br/><br/><br/><br/>## Details<br/>- [
- Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahAp
- uruSha/nAyanAr/sidereal_solar_month/nakshatra/04/15/kazhar2ir2r2ar2ivAr_or
- _cEramAn2_perumAL_nAyan2Ar_%2837%29_gurupUjai.toml)<br/>- Tags: NayanarGur
- upujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/04/15/kazhar2ir2r2ar2ivAr_or_cEramAn2_perumAL_nAyan2mAr_%2837%29_gurupU
+ jai.toml)<br/>- Tags: NayanmarGurupujai<br/><br/><br/><br/>## Details<br/>
+ - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/ma
+ hApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/04/15/kazhar2ir2r2ar2ivA
+ r_or_cEramAn2_perumAL_nAyan2mAr_%2837%29_gurupUjai.toml)<br/>- Tags: Nayan
+ marGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -32825,17 +32826,18 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सुन्दरमूर्त्ति नायऩार् (
- १) गुरुपूजै/तिरुवाडि स्वाति
+SUMMARY:सुन्दरमूर्त्ति नायऩ्मा
+ र् (१) गुरुपूजै/तिरुवाडि स्व
+ ाति
 DTSTART;VALUE=DATE:20230726
 DTEND;VALUE=DATE:20230727
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/04/15/sundaramUrtti_nAyan2Ar_%281%29_gurupUjai.toml)<br/>- Tags: Nayanar
- Gurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
- ithub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_sol
- ar_month/nakshatra/04/15/sundaramUrtti_nAyan2Ar_%281%29_gurupUjai.toml)<br
- />- Tags: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/04/15/sundaramUrtti_nAyan2mAr_%281%29_gurupUjai.toml)<br/>- Tags: Nayan
+ marGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https:
+ //github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal
+ _solar_month/nakshatra/04/15/sundaramUrtti_nAyan2mAr_%281%29_gurupUjai.tom
+ l)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -33123,17 +33125,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कोट्पुलि नायऩार् (५७) गुर
- ुपूजै
+SUMMARY:कोट्पुलि नायऩ्मार् (५७) ग
+ ुरुपूजै
 DTSTART;VALUE=DATE:20230729
 DTEND;VALUE=DATE:20230730
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/04/18/kOTpuli_nAyan2Ar_%2857%29_gurupUjai.toml)<br/>- Tags: NayanarGurup
- ujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
- .com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_mo
- nth/nakshatra/04/18/kOTpuli_nAyan2Ar_%2857%29_gurupUjai.toml)<br/>- Tags: 
- NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/04/18/kOTpuli_nAyan2mAr_%2857%29_gurupUjai.toml)<br/>- Tags: NayanmarGu
+ rupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://git
+ hub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_sola
+ r_month/nakshatra/04/18/kOTpuli_nAyan2mAr_%2857%29_gurupUjai.toml)<br/>- T
+ ags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -33143,17 +33145,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कलिय नायऩार् (४४) गुरुपूज
- ै
+SUMMARY:कलिय नायऩ्मार् (४४) गुरुप
+ ूजै
 DTSTART;VALUE=DATE:20230729
 DTEND;VALUE=DATE:20230730
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/04/18/kaliya_nAyan2Ar_%2844%29_gurupUjai.toml)<br/>- Tags: NayanarGurupu
- jai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.
- com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_mon
- th/nakshatra/04/18/kaliya_nAyan2Ar_%2844%29_gurupUjai.toml)<br/>- Tags: Na
- yanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/04/18/kaliya_nAyan2mAr_%2844%29_gurupUjai.toml)<br/>- Tags: NayanmarGur
+ upujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://gith
+ ub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar
+ _month/nakshatra/04/18/kaliya_nAyan2mAr_%2844%29_gurupUjai.toml)<br/>- Tag
+ s: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -34520,17 +34522,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मूर्त्ति नायऩार् (१५) गुर
- ुपूजै
+SUMMARY:मूर्त्ति नायऩ्मार् (१५) ग
+ ुरुपूजै
 DTSTART;VALUE=DATE:20230809
 DTEND;VALUE=DATE:20230810
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/04/03/mUrtti_nAyan2Ar_%2815%29_gurupUjai.toml)<br/>- Tags: NayanarGurupu
- jai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.
- com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_mon
- th/nakshatra/04/03/mUrtti_nAyan2Ar_%2815%29_gurupUjai.toml)<br/>- Tags: Na
- yanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/04/03/mUrtti_nAyan2mAr_%2815%29_gurupUjai.toml)<br/>- Tags: NayanmarGur
+ upujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://gith
+ ub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar
+ _month/nakshatra/04/03/mUrtti_nAyan2mAr_%2815%29_gurupUjai.toml)<br/>- Tag
+ s: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -34540,17 +34542,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पुगऴ्च्चोऴ नायऩार् (४०) ग
- ुरुपूजै
+SUMMARY:पुगऴ्च्चोऴ नायऩ्मार् (४०
+ ) गुरुपूजै
 DTSTART;VALUE=DATE:20230809
 DTEND;VALUE=DATE:20230810
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/04/03/pugazhccOzha_nAyan2Ar_%2840%29_gurupUjai.toml)<br/>- Tags: Nayanar
- Gurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
- ithub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_sol
- ar_month/nakshatra/04/03/pugazhccOzha_nAyan2Ar_%2840%29_gurupUjai.toml)<br
- />- Tags: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/04/03/pugazhccOzha_nAyan2mAr_%2840%29_gurupUjai.toml)<br/>- Tags: Nayan
+ marGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https:
+ //github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal
+ _solar_month/nakshatra/04/03/pugazhccOzha_nAyan2mAr_%2840%29_gurupUjai.tom
+ l)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -34872,17 +34874,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कूऱ्ऱुव नायऩार् (३९) गुरु
- पूजै
+SUMMARY:कूऱ्ऱुव नायऩ्मार् (३९) गु
+ रुपूजै
 DTSTART;VALUE=DATE:20230812
 DTEND;VALUE=DATE:20230813
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/04/06/kUr2r2uva_nAyan2Ar_%2839%29_gurupUjai.toml)<br/>- Tags: NayanarGur
- upujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://gith
- ub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_
- month/nakshatra/04/06/kUr2r2uva_nAyan2Ar_%2839%29_gurupUjai.toml)<br/>- Ta
- gs: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/04/06/kUr2r2uva_nAyan2mAr_%2839%29_gurupUjai.toml)<br/>- Tags: Nayanmar
+ Gurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_so
+ lar_month/nakshatra/04/06/kUr2r2uva_nAyan2mAr_%2839%29_gurupUjai.toml)<br/
+ >- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -37207,17 +37209,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कुलच्चिऱै नायऩार् (२२) गु
- रुपूजै
+SUMMARY:कुलच्चिऱै नायऩ्मार् (२२) 
+ गुरुपूजै
 DTSTART;VALUE=DATE:20230825
 DTEND;VALUE=DATE:20230826
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/05/17/kulaccir2ai_nAyan2Ar_%2822%29_gurupUjai.toml)<br/>- Tags: NayanarG
- urupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://gi
- thub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_sola
- r_month/nakshatra/05/17/kulaccir2ai_nAyan2Ar_%2822%29_gurupUjai.toml)<br/>
- - Tags: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/05/17/kulaccir2ai_nAyan2mAr_%2822%29_gurupUjai.toml)<br/>- Tags: Nayanm
+ arGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https:/
+ /github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_
+ solar_month/nakshatra/05/17/kulaccir2ai_nAyan2mAr_%2822%29_gurupUjai.toml)
+ <br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -37366,17 +37368,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कुङ्गिलियक्कलय नायऩार् (
- ११) गुरुपूजै
+SUMMARY:कुङ्गिलियक्कलय नायऩ्मा
+ र् (११) गुरुपूजै
 DTSTART;VALUE=DATE:20230826
 DTEND;VALUE=DATE:20230827
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/05/19/kuGgiliyakkalaya_nAyan2Ar_%2811%29_gurupUjai.toml)<br/>- Tags: Nay
- anarGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https
- ://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal
- _solar_month/nakshatra/05/19/kuGgiliyakkalaya_nAyan2Ar_%2811%29_gurupUjai.
- toml)<br/>- Tags: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/05/19/kuGgiliyakkalaya_nAyan2mAr_%2811%29_gurupUjai.toml)<br/>- Tags: N
+ ayanmarGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/side
+ real_solar_month/nakshatra/05/19/kuGgiliyakkalaya_nAyan2mAr_%2811%29_gurup
+ Ujai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -39899,17 +39901,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:चॆरुत्तुणै नायऩार् (५४) ग
- ुरुपूजै
+SUMMARY:चॆरुत्तुणै नायऩ्मार् (५४
+ ) गुरुपूजै
 DTSTART;VALUE=DATE:20230911
 DTEND;VALUE=DATE:20230912
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/05/08/ceruttuNai_nAyan2Ar_%2854%29_gurupUjai.toml)<br/>- Tags: NayanarGu
- rupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://git
- hub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar
- _month/nakshatra/05/08/ceruttuNai_nAyan2Ar_%2854%29_gurupUjai.toml)<br/>- 
- Tags: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/05/08/ceruttuNai_nAyan2mAr_%2854%29_gurupUjai.toml)<br/>- Tags: Nayanma
+ rGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://
+ github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_s
+ olar_month/nakshatra/05/08/ceruttuNai_nAyan2mAr_%2854%29_gurupUjai.toml)<b
+ r/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -40057,17 +40059,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:अतिपत्त नायऩार् (४२) गुरु
- पूजै
+SUMMARY:अतिपत्त नायऩ्मार् (४२) गु
+ रुपूजै
 DTSTART;VALUE=DATE:20230912
 DTEND;VALUE=DATE:20230913
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/05/09/atipatta_nAyan2Ar_%2842%29_gurupUjai.toml)<br/>- Tags: NayanarGuru
- pujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://githu
- b.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_m
- onth/nakshatra/05/09/atipatta_nAyan2Ar_%2842%29_gurupUjai.toml)<br/>- Tags
- : NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/05/09/atipatta_nAyan2mAr_%2842%29_gurupUjai.toml)<br/>- Tags: NayanmarG
+ urupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://gi
+ thub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_sol
+ ar_month/nakshatra/05/09/atipatta_nAyan2mAr_%2842%29_gurupUjai.toml)<br/>-
+  Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -40242,17 +40244,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:इळैयाऩ्कुडि माऱ नायऩार् 
- (४) गुरुपूजै
+SUMMARY:इळैयाऩ्कुडि माऱ नायऩ्मा
+ र् (४) गुरुपूजै
 DTSTART;VALUE=DATE:20230913
 DTEND;VALUE=DATE:20230914
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/05/10/iLaiyAn2kuDi_mAr2a_nAyan2Ar_%284%29_gurupUjai.toml)<br/>- Tags: Na
- yanarGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](http
- s://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/siderea
- l_solar_month/nakshatra/05/10/iLaiyAn2kuDi_mAr2a_nAyan2Ar_%284%29_gurupUja
- i.toml)<br/>- Tags: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/05/10/iLaiyAn2kuDi_mAr2a_nAyan2mAr_%284%29_gurupUjai.toml)<br/>- Tags: 
+ NayanmarGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](h
+ ttps://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sid
+ ereal_solar_month/nakshatra/05/10/iLaiyAn2kuDi_mAr2a_nAyan2mAr_%284%29_gur
+ upUjai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -42206,17 +42208,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:एऩादिनाथ नायऩार् (९) गुरु
- पूजै
+SUMMARY:एऩादिनाथ नायऩ्मार् (९) गु
+ रुपूजै
 DTSTART;VALUE=DATE:20230925
 DTEND;VALUE=DATE:20230926
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/06/21/En2AdinAtha_nAyan2Ar_%289%29_gurupUjai.toml)<br/>- Tags: NayanarGu
- rupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://git
- hub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar
- _month/nakshatra/06/21/En2AdinAtha_nAyan2Ar_%289%29_gurupUjai.toml)<br/>- 
- Tags: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/06/21/En2AdinAtha_nAyan2mAr_%289%29_gurupUjai.toml)<br/>- Tags: Nayanma
+ rGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://
+ github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_s
+ olar_month/nakshatra/06/21/En2AdinAtha_nAyan2mAr_%289%29_gurupUjai.toml)<b
+ r/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -42727,17 +42729,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:नरचिङ्गमुऩैयरैय नायऩार
- ् (४१) गुरुपूजै
+SUMMARY:नरचिङ्गमुऩैयरैय नायऩ्म
+ ार् (४१) गुरुपूजै
 DTSTART;VALUE=DATE:20230927
 DTEND;VALUE=DATE:20230928
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/06/24/naraciGgamun2aiyaraiya_nAyan2Ar_%2841%29_gurupUjai.toml)<br/>- Tag
- s: NayanarGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file]
- (https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/si
- dereal_solar_month/nakshatra/06/24/naraciGgamun2aiyaraiya_nAyan2Ar_%2841%2
- 9_gurupUjai.toml)<br/>- Tags: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/06/24/naraciGgamun2aiyaraiya_nAyan2mAr_%2841%29_gurupUjai.toml)<br/>- T
+ ags: NayanmarGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config fi
+ le](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmA
+ r/sidereal_solar_month/nakshatra/06/24/naraciGgamun2aiyaraiya_nAyan2mAr_%2
+ 841%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -43514,17 +43516,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:रुद्र पशुपति नायऩार् (१७) 
- गुरुपूजै
+SUMMARY:रुद्र पशुपति नायऩ्मार् (
+ १७) गुरुपूजै
 DTSTART;VALUE=DATE:20231001
 DTEND;VALUE=DATE:20231002
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/06/01/rudra~pazupati_nAyan2Ar_%2817%29_gurupUjai.toml)<br/>- Tags: Nayan
- arGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_s
- olar_month/nakshatra/06/01/rudra~pazupati_nAyan2Ar_%2817%29_gurupUjai.toml
- )<br/>- Tags: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/06/01/rudra~pazupati_nAyan2mAr_%2817%29_gurupUjai.toml)<br/>- Tags: Nay
+ anmarGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](http
+ s://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidere
+ al_solar_month/nakshatra/06/01/rudra~pazupati_nAyan2mAr_%2817%29_gurupUjai
+ .toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -44033,17 +44035,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:तिरुनाळैप्पोवार् नायऩा
- र् (१८) गुरुपूजै
+SUMMARY:तिरुनाळैप्पोवार् नायऩ्
+ मार् (१८) गुरुपूजै
 DTSTART;VALUE=DATE:20231004
 DTEND;VALUE=DATE:20231005
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/06/04/tirunALaippOvAr_nAyan2Ar_%2818%29_gurupUjai.toml)<br/>- Tags: Naya
- narGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https:
- //github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_
- solar_month/nakshatra/06/04/tirunALaippOvAr_nAyan2Ar_%2818%29_gurupUjai.to
- ml)<br/>- Tags: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/06/04/tirunALaippOvAr_nAyan2mAr_%2818%29_gurupUjai.toml)<br/>- Tags: Na
+ yanmarGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](htt
+ ps://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sider
+ eal_solar_month/nakshatra/06/04/tirunALaippOvAr_nAyan2mAr_%2818%29_gurupUj
+ ai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -48159,17 +48161,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:तिरुमूल नायऩार् (३०) गुरु
- पूजै
+SUMMARY:तिरुमूल नायऩ्मार् (३०) गु
+ रुपूजै
 DTSTART;VALUE=DATE:20231028
 DTEND;VALUE=DATE:20231029
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/07/01/tirumUla_nAyan2Ar_%2830%29_gurupUjai.toml)<br/>- Tags: NayanarGuru
- pujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://githu
- b.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_m
- onth/nakshatra/07/01/tirumUla_nAyan2Ar_%2830%29_gurupUjai.toml)<br/>- Tags
- : NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/07/01/tirumUla_nAyan2mAr_%2830%29_gurupUjai.toml)<br/>- Tags: NayanmarG
+ urupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://gi
+ thub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_sol
+ ar_month/nakshatra/07/01/tirumUla_nAyan2mAr_%2830%29_gurupUjai.toml)<br/>-
+  Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -48319,17 +48321,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:निऩ्ऱचीर् नॆडुमाऱ नायऩा
- र् (४९) गुरुपूजै
+SUMMARY:निऩ्ऱचीर् नॆडुमाऱ नायऩ्
+ मार् (४९) गुरुपूजै
 DTSTART;VALUE=DATE:20231029
 DTEND;VALUE=DATE:20231030
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/07/02/nin2r2acIr_neDumAr2a_nAyan2Ar_%2849%29_gurupUjai.toml)<br/>- Tags:
-  NayanarGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](h
- ttps://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/side
- real_solar_month/nakshatra/07/02/nin2r2acIr_neDumAr2a_nAyan2Ar_%2849%29_gu
- rupUjai.toml)<br/>- Tags: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/07/02/nin2r2acIr_neDumAr2a_nAyan2mAr_%2849%29_gurupUjai.toml)<br/>- Tag
+ s: NayanmarGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file
+ ](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/
+ sidereal_solar_month/nakshatra/07/02/nin2r2acIr_neDumAr2a_nAyan2mAr_%2849%
+ 29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -48542,17 +48544,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:इडङ्कऴि नायऩार् (५५) गुरु
- पूजै
+SUMMARY:इडङ्कऴि नायऩ्मार् (५५) गु
+ रुपूजै
 DTSTART;VALUE=DATE:20231030
 DTEND;VALUE=DATE:20231031
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/07/03/iDaGkazhi_nAyan2Ar_%2855%29_gurupUjai.toml)<br/>- Tags: NayanarGur
- upujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://gith
- ub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_
- month/nakshatra/07/03/iDaGkazhi_nAyan2Ar_%2855%29_gurupUjai.toml)<br/>- Ta
- gs: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/07/03/iDaGkazhi_nAyan2mAr_%2855%29_gurupUjai.toml)<br/>- Tags: Nayanmar
+ Gurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_so
+ lar_month/nakshatra/07/03/iDaGkazhi_nAyan2mAr_%2855%29_gurupUjai.toml)<br/
+ >- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -49611,17 +49613,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:चत्ति नायऩार् (४५) गुरुपू
- जै
+SUMMARY:चत्ति नायऩ्मार् (४५) गुरु
+ पूजै
 DTSTART;VALUE=DATE:20231108
 DTEND;VALUE=DATE:20231109
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/07/11/catti_nAyan2Ar_%2845%29_gurupUjai.toml)<br/>- Tags: NayanarGurupuj
- ai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.c
- om/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_mont
- h/nakshatra/07/11/catti_nAyan2Ar_%2845%29_gurupUjai.toml)<br/>- Tags: Naya
- narGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/07/11/catti_nAyan2mAr_%2845%29_gurupUjai.toml)<br/>- Tags: NayanmarGuru
+ pujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://githu
+ b.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_
+ month/nakshatra/07/11/catti_nAyan2mAr_%2845%29_gurupUjai.toml)<br/>- Tags:
+  NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -50796,17 +50798,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पूचलार् नायऩार् (५८) गुरु
- पूजै
+SUMMARY:पूचलार् नायऩ्मार् (५८) गु
+ रुपूजै
 DTSTART;VALUE=DATE:20231114
 DTEND;VALUE=DATE:20231115
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/07/17/pUcalAr_nAyan2Ar_%2858%29_gurupUjai.toml)<br/>- Tags: NayanarGurup
- ujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
- .com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_mo
- nth/nakshatra/07/17/pUcalAr_nAyan2Ar_%2858%29_gurupUjai.toml)<br/>- Tags: 
- NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/07/17/pUcalAr_nAyan2mAr_%2858%29_gurupUjai.toml)<br/>- Tags: NayanmarGu
+ rupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://git
+ hub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_sola
+ r_month/nakshatra/07/17/pUcalAr_nAyan2mAr_%2858%29_gurupUjai.toml)<br/>- T
+ ags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -51072,16 +51074,16 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ऐयडिगळ् काडवर्कोऩ् नायऩ
- ार् (४६) गुरुपूजै
+ ्मार् (४६) गुरुपूजै
 DTSTART;VALUE=DATE:20231116
 DTEND;VALUE=DATE:20231117
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/07/19/aiyaDigaL_kADavarkOn2_nAyan2Ar_%2846%29_gurupUjai.toml)<br/>- Tags
- : NayanarGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sid
- ereal_solar_month/nakshatra/07/19/aiyaDigaL_kADavarkOn2_nAyan2Ar_%2846%29_
- gurupUjai.toml)<br/>- Tags: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/07/19/aiyaDigaL_kADavarkOn2_nAyan2mAr_%2846%29_gurupUjai.toml)<br/>- Ta
+ gs: NayanmarGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config fil
+ e](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr
+ /sidereal_solar_month/nakshatra/07/19/aiyaDigaL_kADavarkOn2_nAyan2mAr_%284
+ 6%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -53508,17 +53510,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कणम्पुल्ल नायऩार् (४७) गु
- रुपूजै
+SUMMARY:कणम्पुल्ल नायऩ्मार् (४७) 
+ गुरुपूजै
 DTSTART;VALUE=DATE:20231127
 DTEND;VALUE=DATE:20231128
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/08/03/kaNampulla_nAyan2Ar_%2847%29_gurupUjai.toml)<br/>- Tags: NayanarGu
- rupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://git
- hub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar
- _month/nakshatra/08/03/kaNampulla_nAyan2Ar_%2847%29_gurupUjai.toml)<br/>- 
- Tags: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/08/03/kaNampulla_nAyan2mAr_%2847%29_gurupUjai.toml)<br/>- Tags: Nayanma
+ rGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://
+ github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_s
+ olar_month/nakshatra/08/03/kaNampulla_nAyan2mAr_%2847%29_gurupUjai.toml)<b
+ r/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -54464,10 +54466,10 @@ DTEND;VALUE=DATE:20231205
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/mahApuruSha/general-indic-non-tropical/sidereal_s
  olar_month/nakshatra/08/10/Arumukha-nAvalar-gurupUjai.toml)<br/>- Tags: Na
- yanarGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](http
- s://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/general-indic-n
- on-tropical/sidereal_solar_month/nakshatra/08/10/Arumukha-nAvalar-gurupUja
- i.toml)<br/>- Tags: NayanarGurupujai
+ yanmarGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](htt
+ ps://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/general-indic-
+ non-tropical/sidereal_solar_month/nakshatra/08/10/Arumukha-nAvalar-gurupUj
+ ai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -54876,17 +54878,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मॆय्प्पॊरुळ् नायऩार् (५) 
- गुरुपूजै
+SUMMARY:मॆय्प्पॊरुळ् नायऩ्मार् (
+ ५) गुरुपूजै
 DTSTART;VALUE=DATE:20231206
 DTEND;VALUE=DATE:20231207
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/08/12/meypporuL_nAyan2Ar_%285%29_gurupUjai.toml)<br/>- Tags: NayanarGuru
- pujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://githu
- b.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_m
- onth/nakshatra/08/12/meypporuL_nAyan2Ar_%285%29_gurupUjai.toml)<br/>- Tags
- : NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/08/12/meypporuL_nAyan2mAr_%285%29_gurupUjai.toml)<br/>- Tags: NayanmarG
+ urupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://gi
+ thub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_sol
+ ar_month/nakshatra/08/12/meypporuL_nAyan2mAr_%285%29_gurupUjai.toml)<br/>-
+  Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -55077,17 +55079,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:आऩाय नायऩार् (१४) गुरुपूज
- ै
+SUMMARY:आऩाय नायऩ्मार् (१४) गुरुप
+ ूजै
 DTSTART;VALUE=DATE:20231208
 DTEND;VALUE=DATE:20231209
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/08/13/An2Aya_nAyan2Ar_%2814%29_gurupUjai.toml)<br/>- Tags: NayanarGurupu
- jai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.
- com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_mon
- th/nakshatra/08/13/An2Aya_nAyan2Ar_%2814%29_gurupUjai.toml)<br/>- Tags: Na
- yanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/08/13/An2Aya_nAyan2mAr_%2814%29_gurupUjai.toml)<br/>- Tags: NayanmarGur
+ upujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://gith
+ ub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar
+ _month/nakshatra/08/13/An2Aya_nAyan2mAr_%2814%29_gurupUjai.toml)<br/>- Tag
+ s: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -56049,17 +56051,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:चिऱप्पुलि नायऩार् (३५) गु
- रुपूजै
+SUMMARY:चिऱप्पुलि नायऩ्मार् (३५) 
+ गुरुपूजै
 DTSTART;VALUE=DATE:20231214
 DTEND;VALUE=DATE:20231215
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/08/20/cir2appuli_nAyan2Ar_%2835%29_gurupUjai.toml)<br/>- Tags: NayanarGu
- rupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://git
- hub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar
- _month/nakshatra/08/20/cir2appuli_nAyan2Ar_%2835%29_gurupUjai.toml)<br/>- 
- Tags: NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/08/20/cir2appuli_nAyan2mAr_%2835%29_gurupUjai.toml)<br/>- Tags: Nayanma
+ rGurupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://
+ github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_s
+ olar_month/nakshatra/08/20/cir2appuli_nAyan2mAr_%2835%29_gurupUjai.toml)<b
+ r/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -56069,17 +56071,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मूर्क्ख नायऩार् (३२) गुरु
- पूजै
+SUMMARY:मूर्क्ख नायऩ्मार् (३२) गु
+ रुपूजै
 DTSTART;VALUE=DATE:20231214
 DTEND;VALUE=DATE:20231215
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/08/19/mUrkkha_nAyan2Ar_%2832%29_gurupUjai.toml)<br/>- Tags: NayanarGurup
- ujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
- .com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_mo
- nth/nakshatra/08/19/mUrkkha_nAyan2Ar_%2832%29_gurupUjai.toml)<br/>- Tags: 
- NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/08/19/mUrkkha_nAyan2mAr_%2832%29_gurupUjai.toml)<br/>- Tags: NayanmarGu
+ rupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://git
+ hub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_sola
+ r_month/nakshatra/08/19/mUrkkha_nAyan2mAr_%2832%29_gurupUjai.toml)<br/>- T
+ ags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -57119,17 +57121,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:वायिलार् नायऩार् (५१) गुर
- ुपूजै
+SUMMARY:वायिलार् नायऩ्मार् (५१) ग
+ ुरुपूजै
 DTSTART;VALUE=DATE:20231221
 DTEND;VALUE=DATE:20231222
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/09/27/vAyilAr_nAyan2Ar_%2851%29_gurupUjai.toml)<br/>- Tags: NayanarGurup
- ujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
- .com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_mo
- nth/nakshatra/09/27/vAyilAr_nAyan2Ar_%2851%29_gurupUjai.toml)<br/>- Tags: 
- NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/09/27/vAyilAr_nAyan2mAr_%2851%29_gurupUjai.toml)<br/>- Tags: NayanmarGu
+ rupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://git
+ hub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_sola
+ r_month/nakshatra/09/27/vAyilAr_nAyan2mAr_%2851%29_gurupUjai.toml)<br/>- T
+ ags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -58268,17 +58270,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:चडैय नायऩार् (६२) गुरुपूज
- ै
+SUMMARY:चडैय नायऩ्मार् (६२) गुरुप
+ ूजै
 DTSTART;VALUE=DATE:20231227
 DTEND;VALUE=DATE:20231228
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/09/06/caDaiya_nAyan2Ar_%2862%29_gurupUjai.toml)<br/>- Tags: NayanarGurup
- ujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
- .com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanAr/sidereal_solar_mo
- nth/nakshatra/09/06/caDaiya_nAyan2Ar_%2862%29_gurupUjai.toml)<br/>- Tags: 
- NayanarGurupujai
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/09/06/caDaiya_nAyan2mAr_%2862%29_gurupUjai.toml)<br/>- Tags: NayanmarGu
+ rupujai<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://git
+ hub.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_sola
+ r_month/nakshatra/09/06/caDaiya_nAyan2mAr_%2862%29_gurupUjai.toml)<br/>- T
+ ags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
