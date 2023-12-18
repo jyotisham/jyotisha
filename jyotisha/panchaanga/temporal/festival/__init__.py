@@ -288,8 +288,8 @@ def get_description_tex(festival_instance, fest_details_dict, script):
     if fest_id.startswith('sarva-'):
       fest_id = fest_id[len('sarva-'):]
       sarva = True
-    elif fest_id.startswith('bOdhAyana-'):
-      fest_id = fest_id[len('bOdhAyana-'):]
+    elif fest_id.startswith('bOdhAyana-kAtyAyana-'):
+      fest_id = fest_id[len('bOdhAyana-kAtyAyana-'):]
       bodhayana = True
     else:
       pass
