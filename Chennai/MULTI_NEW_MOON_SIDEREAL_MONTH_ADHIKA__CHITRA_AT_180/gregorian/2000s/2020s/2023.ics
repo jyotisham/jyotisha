@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20231218102513
+SEQUENCE:20231218110932
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -55957,18 +55957,18 @@ DTSTART;VALUE=DATE:20231213
 DTEND;VALUE=DATE:20231214
 DESCRIPTION:Observed on Śukla-Prathamā tithi of Mārgaśīrṣaḥ (luna
  r) month (Sūryōdayaḥ/puurvaviddha). <br/><br/>अथ मार्ग
- सिताद्यायां धनवतमनुत्तमम्
- ।  <br/>नक्तं विष्ण्वर्चनं होम
- ैः सौवर्णीं हुतभुक्तनुम्॥३
- ८॥  <br/>रक्तवस्त्रयुगाच्छन्न
- ां द्विजाय प्रतिपादयेत्।  <br/
- >एवं कृत्वा धनैर्धान्यैः सम
- ृद्धो जायते भुवि॥३९॥  <br/>वह्
- निना दग्धपापस्तु विष्णुलोक
- े महीयते॥<br/><br/><br/><br/>## Details<br/>- References<b
- r/>  - Naradiya Puranam\, Adhyaya 110<br/>- [Edit config file](https://git
- hub.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/09/01/dh
- ana-vratam.toml)<br/>- Tags: SpecialVratam
+ सिताद्यायां धनव्रतमनुत्तम
+ म्।  <br/>नक्तं विष्ण्वर्चनं ह
+ ोमैः सौवर्णीं हुतभुक्तनुम्
+ ॥३८॥  <br/>रक्तवस्त्रयुगाच्छन
+ ्नां द्विजाय प्रतिपादयेत्।
+   <br/>एवं कृत्वा धनैर्धान्यैः 
+ समृद्धो जायते भुवि॥३९॥  <br/>व
+ ह्निना दग्धपापस्तु विष्णुल
+ ोके महीयते॥<br/><br/><br/><br/>## Details<br/>- Refere
+ nces<br/>  - Naradiya Puranam\, Adhyaya 110<br/>- [Edit config file](https
+ ://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/09
+ /01/dhana-vratam.toml)<br/>- Tags: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
