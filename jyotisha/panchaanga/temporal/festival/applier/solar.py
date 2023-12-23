@@ -132,7 +132,10 @@ class SolarFestivalAssigner(FestivalAssigner):
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       if self.daily_panchaangas[d].tropical_date_sunset.month_transition is not None:
         sankranti_id = self.daily_panchaangas[d + 1].tropical_date_sunset.month
-        punya_kaala_str = '(sAyana)~' + names.NAMES['TROPICAL_SANKRANTI_PUNYAKALA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][sankranti_id] + '-puNyakAlaH'
+        punya_kaala_str = names.NAMES['TROPICAL_SANKRANTI_PUNYAKALA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][sankranti_id] + '-puNyakAlaH'
+        if sankranti_id%3 != 1:
+          # Except for Ayana/Vishuva, add sAyana tag!
+          punya_kaala_str = '(sAyana)~' + punya_kaala_str
         jd_transition = self.daily_panchaangas[d].tropical_date_sunset.month_transition
         # TODO: convert carefully to relative nadikas!
         punya_kaala_start_jd = jd_transition - PUNYA_KAALA[sankranti_id][0] * 1/60
