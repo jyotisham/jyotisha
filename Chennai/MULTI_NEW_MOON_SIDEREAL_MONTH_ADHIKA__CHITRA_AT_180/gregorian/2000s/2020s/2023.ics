@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20231218111758
+SEQUENCE:20231223210153
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -12100,32 +12100,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:(सायन) विषु-पुण्यकालः
-DTSTART;VALUE=DATE:20230320
-DTEND;VALUE=DATE:20230321
-DESCRIPTION:Viṣu Punyakala.<br/><br/>सङ्क्रान्ति
- स्नानाकरणे प्रत्यवायमाह शा
- तातपः—  <br/>सूर्यसङ्क्रमणे पु
- ण्ये न स्नायाद्यदि मानवः।  <br
- />सप्तजन्मसु रोगी स्याद् दुः
- खभागी च जायते॥  <br/>सङ्क्रान्
- त्यां यानि दत्तानि हव्यकव्
- यानि मानवैः।  <br/>तानि तस्य दद
- ात्यर्कः सप्तजन्मसु निश्चि
- तम्॥  <br/>(स्मृतिमुक्ताफले आह
- ्निक-काण्डे-पूर्वभागः)<br/><br/><br/
- ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
- atithi/blob/master/time_focus/sankrAnti/description_only/viSu-puNyakAlaH.t
- oml)<br/>- Tags: SunSankranti CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:दण्डियडिगळ् नायऩ्मार् (३
  १) गुरुपूजै
 DTSTART;VALUE=DATE:20230320
@@ -12206,6 +12180,32 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  .com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only
  /sAyana-saGkramaNa-dina-aparAhNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti
   CommonFestivals
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:विषु-पुण्यकालः
+DTSTART;VALUE=DATE:20230320
+DTEND;VALUE=DATE:20230321
+DESCRIPTION:Viṣu Punyakala.<br/><br/>सङ्क्रान्ति
+ स्नानाकरणे प्रत्यवायमाह शा
+ तातपः—  <br/>सूर्यसङ्क्रमणे पु
+ ण्ये न स्नायाद्यदि मानवः।  <br
+ />सप्तजन्मसु रोगी स्याद् दुः
+ खभागी च जायते॥  <br/>सङ्क्रान्
+ त्यां यानि दत्तानि हव्यकव्
+ यानि मानवैः।  <br/>तानि तस्य दद
+ ात्यर्कः सप्तजन्मसु निश्चि
+ तम्॥  <br/>(स्मृतिमुक्ताफले आह
+ ्निक-काण्डे-पूर्वभागः)<br/><br/><br/
+ ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
+ atithi/blob/master/time_focus/sankrAnti/description_only/viSu-puNyakAlaH.t
+ oml)<br/>- Tags: SunSankranti CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -27849,8 +27849,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:(सायन) दक्षिणायन-पुण्यका
- लः
+SUMMARY:चिदम्बरे रजत-गजवाहनम्
+DTSTART;VALUE=DATE:20230621
+DTEND;VALUE=DATE:20230622
+DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
+ around the Aani Thirumanjana festival each year\, for ten days. On this da
+ y\, Nataraja gives darshan on a silver elephant vahanam.<br/><br/>## Detai
+ ls<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/ma
+ ster/temples/Tamil/relative_event/naTarAjar_An2i_tirumaJcan2am/offset__-4/
+ cidambarE_rajata-gajavAhanam.toml)<br/>- Tags: TamilnaduTempleFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:दक्षिणायन-पुण्यकालः
 DTSTART;TZID=Asia/Calcutta:20230621T082748
 DTEND;TZID=Asia/Calcutta:20230621T183350
 DESCRIPTION:Dakṣiṇāyana Punyakala.<br/><br/>सङ्क्रान
@@ -27867,24 +27884,6 @@ DESCRIPTION:Dakṣiṇāyana Punyakala.<br/><br/>सङ्क्रान
  br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/
  jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/dakS
  iNAyana-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:चिदम्बरे रजत-गजवाहनम्
-DTSTART;VALUE=DATE:20230621
-DTEND;VALUE=DATE:20230622
-DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially 
- around the Aani Thirumanjana festival each year\, for ten days. On this da
- y\, Nataraja gives darshan on a silver elephant vahanam.<br/><br/>## Detai
- ls<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/ma
- ster/temples/Tamil/relative_event/naTarAjar_An2i_tirumaJcan2am/offset__-4/
- cidambarE_rajata-gajavAhanam.toml)<br/>- Tags: TamilnaduTempleFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -41906,29 +41905,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:(सायन) विषु-पुण्यकालः
-DTSTART;TZID=Asia/Calcutta:20230923T081957
-DTEND;TZID=Asia/Calcutta:20230923T161957
-DESCRIPTION:Viṣu Punyakala.<br/><br/>सङ्क्रान्ति
- स्नानाकरणे प्रत्यवायमाह शा
- तातपः—  <br/>सूर्यसङ्क्रमणे पु
- ण्ये न स्नायाद्यदि मानवः।  <br
- />सप्तजन्मसु रोगी स्याद् दुः
- खभागी च जायते॥  <br/>सङ्क्रान्
- त्यां यानि दत्तानि हव्यकव्
- यानि मानवैः।  <br/>तानि तस्य दद
- ात्यर्कः सप्तजन्मसु निश्चि
- तम्॥  <br/>(स्मृतिमुक्ताफले आह
- ्निक-काण्डे-पूर्वभागः)<br/><br/><br/
- ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
- atithi/blob/master/time_focus/sankrAnti/description_only/viSu-puNyakAlaH.t
- oml)<br/>- Tags: SunSankranti CommonFestivals
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:दधीचि-महर्षि-जयन्ति
 DTSTART;VALUE=DATE:20230923
 DTEND;VALUE=DATE:20230924
@@ -42040,6 +42016,29 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  .com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only
  /sAyana-saGkramaNa-dina-aparAhNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti
   CommonFestivals
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:विषु-पुण्यकालः
+DTSTART;TZID=Asia/Calcutta:20230923T081957
+DTEND;TZID=Asia/Calcutta:20230923T161957
+DESCRIPTION:Viṣu Punyakala.<br/><br/>सङ्क्रान्ति
+ स्नानाकरणे प्रत्यवायमाह शा
+ तातपः—  <br/>सूर्यसङ्क्रमणे पु
+ ण्ये न स्नायाद्यदि मानवः।  <br
+ />सप्तजन्मसु रोगी स्याद् दुः
+ खभागी च जायते॥  <br/>सङ्क्रान्
+ त्यां यानि दत्तानि हव्यकव्
+ यानि मानवैः।  <br/>तानि तस्य दद
+ ात्यर्कः सप्तजन्मसु निश्चि
+ तम्॥  <br/>(स्मृतिमुक्ताफले आह
+ ्निक-काण्डे-पूर्वभागः)<br/><br/><br/
+ ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
+ atithi/blob/master/time_focus/sankrAnti/description_only/viSu-puNyakAlaH.t
+ oml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -57364,30 +57363,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:(सायन) उत्तरायण-पुण्यकाल
- ः
-DTSTART;TZID=Asia/Calcutta:20231222T085720
-DTEND;TZID=Asia/Calcutta:20231222T165720
-DESCRIPTION:Uttarāyaṇa Punyakala.<br/><br/>सङ्क्रान्
- तिस्नानाकरणे प्रत्यवायमाह 
- शातातपः—  <br/>सूर्यसङ्क्रमणे 
- पुण्ये न स्नायाद्यदि मानवः
- ।  <br/>सप्तजन्मसु रोगी स्याद् 
- दुःखभागी च जायते॥  <br/>सङ्क्र
- ान्त्यां यानि दत्तानि हव्य
- कव्यानि मानवैः।  <br/>तानि तस्
- य ददात्यर्कः सप्तजन्मसु नि
- श्चितम्॥  <br/>(स्मृतिमुक्ताफल
- े आह्निक-काण्डे-पूर्वभागः)<br/
- ><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyo
- tisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/uttarAy
- aNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:गणितज्ञ-रामानुज-जन्म #१३
  ६
 DTSTART;VALUE=DATE:20231222
@@ -57527,6 +57502,29 @@ DESCRIPTION:Observed on day 1 of Sahasyaḥ (tropical) month (Sūryōdaya
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:उत्तरायण-पुण्यकालः
+DTSTART;TZID=Asia/Calcutta:20231222T085720
+DTEND;TZID=Asia/Calcutta:20231222T165720
+DESCRIPTION:Uttarāyaṇa Punyakala.<br/><br/>सङ्क्रान्
+ तिस्नानाकरणे प्रत्यवायमाह 
+ शातातपः—  <br/>सूर्यसङ्क्रमणे 
+ पुण्ये न स्नायाद्यदि मानवः
+ ।  <br/>सप्तजन्मसु रोगी स्याद् 
+ दुःखभागी च जायते॥  <br/>सङ्क्र
+ ान्त्यां यानि दत्तानि हव्य
+ कव्यानि मानवैः।  <br/>तानि तस्
+ य ददात्यर्कः सप्तजन्मसु नि
+ श्चितम्॥  <br/>(स्मृतिमुक्ताफल
+ े आह्निक-काण्डे-पूर्वभागः)<br/
+ ><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyo
+ tisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/uttarAy
+ aNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
