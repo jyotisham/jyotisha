@@ -32,6 +32,7 @@ Athens		37.9908372	23.7383394	Europe/Athens
 Berlin		52:31:12	13:22:48	Europe/Berlin
 Cupertino		37:19:23	-122:01:56	America/Los_Angeles
 Flemington		40.5084323	-74.8599965	America/New_York
+NewYork		40.6217543	-74.6111683	America/New_York
 Denver		39.7643389	-104.8551114	America/Denver
 LosAngeles		34.020479	-118.4117325	America/Los_Angeles
 Aurora		41.7509724	-88.3067189	America/Chicago
@@ -304,6 +305,7 @@ Mahabalipuram		12.6223265	80.1736327	Asia/Calcutta
 Mahadanapuram		10.9508	78.3003	Asia/Calcutta
 Mahbubnagar		16.73	77.98	Asia/Calcutta
 Mahesana		23.6	72.4	Asia/Calcutta
+Maheshwar	mahEzvara	22.1738326	75.58033	Asia/Calcutta
 Maihar		24.27	80.75	Asia/Calcutta
 Malaut		30.19	74.5	Asia/Calcutta
 Malegaon		20.55	74.55	Asia/Calcutta
