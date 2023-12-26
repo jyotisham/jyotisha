@@ -111,7 +111,7 @@ class NakshatraAssigner(PeriodicPanchaangaApplier):
       if d > self.panchaanga.duration:
         break
       t_start = daily_panchaanga.jd_sunrise
-      t_end = daily_panchaanga.jd_sunset
+      t_end = daily_panchaanga.jd_next_sunrise
       n = daily_panchaanga.date.get_weekday()
       tyaajya_start = t_start + (t_end - t_start) / 60 * (TYAJYA_START_VASARA[n - 1])
       tyaajya_end = t_start + (t_end - t_start) / 60 * (TYAJYA_START_VASARA[n - 1] + 4)
