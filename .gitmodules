@@ -8,3 +8,7 @@
 	url = https://github.com/sanskrit-coders/sanskrit-documentation-theme-hugo.git
 	update = merge
 	branch = master
+[submodule "hugo-source/content/output"]
+	path = hugo-source/content/output
+	url = https://github.com/jyotisham/jyotisha.git
+	branch = generated-output

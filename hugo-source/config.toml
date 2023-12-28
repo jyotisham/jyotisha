@@ -6,14 +6,14 @@ publishDir = "build_github"
 disablePathToLower = true
 
 [params]
-  githubEditMePathBase = "https://github.com/jyotisham/jyotisha/edit/master/hugo-source/content/"
-  contactLink = "https://github.com/jyotisham/jyotisha/issues/new"
-  env = "production"
-  disqusShortcode = "snaskrit-coders-site"
+githubEditMePathBase = "https://github.com/jyotisham/jyotisha/edit/master/hugo-source/content/"
+contactLink = "https://github.com/jyotisham/jyotisha/issues/new"
+env = "production"
+disqusShortcode = "snaskrit-coders-site"
 
 [outputs]
-  home = ["HTML", "RSS", "JSON", "CSV"]
-  section = ["HTML", "RSS", "JSON"]
+home = ["HTML", "RSS", "JSON", "CSV"]
+section = ["HTML", "RSS", "JSON"]
 
 [markup.goldmark.renderer]
-  unsafe= true
+unsafe= true
