@@ -30,11 +30,11 @@ jobs:
           submodules: false
           # Setting true above seems to lead to submodule updation problems.
           fetch-depth: 1
-      - name: Update submodules
+      - name: Update hugo-source submodule
         run: |
           set -o xtrace
-          git submodule update  --init --recursive
-          git submodule update --remote --merge --recursive
+          git submodule update  --init hugo-source
+          git submodule update --remote --merge --recursive hugo-source
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v1
         with:
