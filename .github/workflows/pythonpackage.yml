@@ -1,4 +1,4 @@
-# This workflow will install Python dependencies, run tests and lint with a variety of Python versions
+# This workflow will install Python dependencies, run tests and lint with a variety of Python versions, update generated calendar outputs.
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
 
 name: Python package
@@ -12,6 +12,7 @@ on:
     inputs:
       logLevel:
         default: 'warning'
+        description: 'Dummy field'
 
 jobs:
   build:
@@ -30,10 +31,10 @@ jobs:
           submodules: false
           # Setting true above seems to lead to submodule updation problems.
           fetch-depth: 1
-      - name: Update hugo-source submodule
+      - name: Init submodules, update hugo-source
         run: |
           set -o xtrace
-          git submodule update  --init hugo-source
+          git submodule update  --init --recursive
           git submodule update --remote --merge --recursive hugo-source
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v1
