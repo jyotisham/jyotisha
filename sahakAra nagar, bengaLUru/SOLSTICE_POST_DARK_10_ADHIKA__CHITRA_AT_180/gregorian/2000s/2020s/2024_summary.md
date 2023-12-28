@@ -1,5 +1,5 @@
 +++
-title = "2024 Summary"
+title = "2024 Summary (उकौ॰)"
 
 +++
 ## Intro
