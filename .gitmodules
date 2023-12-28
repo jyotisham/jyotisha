@@ -9,6 +9,6 @@
 	update = merge
 	branch = master
 [submodule "hugo-source"]
-	path = hugo-source
+	path = hugo-source/content
 	url = https://github.com/jyotisham/jyotisha.git
 	branch = generated-output
