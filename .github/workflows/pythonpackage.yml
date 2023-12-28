@@ -35,7 +35,7 @@ jobs:
         run: |
           set -o xtrace
           git submodule update  --init --recursive
-          git submodule update --remote --merge --recursive hugo-source/content
+          git submodule update --remote --merge --recursive hugo-source/content/output
           git submodule update --remote --merge --recursive hugo-source/themes/sanskrit-documentation-theme-hugo
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v1
