@@ -1,0 +1,8 @@
+.wercker
+/resources
+build_github
+*.iml
+*.ipr
+*.iws
+*.lock
+
