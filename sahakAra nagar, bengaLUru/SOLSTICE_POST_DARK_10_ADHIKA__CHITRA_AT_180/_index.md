@@ -1,5 +1,4 @@
 +++
-title = "+SOLSTICE POST DARK 10 ADHIKA  CHITRA AT 180"
+title = "+solstice post dark 10 adhika  chitra at 180"
 
 +++
-Welcome!

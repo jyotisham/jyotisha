@@ -1,5 +1,4 @@
 +++
-title = "+sahakAra nagar, bengaLUru"
+title = "+sahakara nagar, bengaluru"
 
 +++
-Welcome!
