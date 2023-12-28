@@ -23,13 +23,18 @@ jobs:
         python-version: [3.9]
       #         python-version: [3.5, 3.6, 3.7, 3.8]
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@master
         with:
-          submodules: 'recursive'
-          fetch-depth: 1 # Because of this, you will fail to push refs to dest repo
-      # Ideally we should not do the below. Changes in a remote repo might break our tests. 
-#      - name: Submodules - pull latest
-#        run: git pull origin master --recurse-submodules
+          ref: master
+          submodules: false
+          # Setting true above seems to lead to submodule updation problems.
+          fetch-depth: 1
+      - name: Update submodules
+        run: |
+          set -o xtrace
+          git submodule update  --init --recursive
+          git submodule update --remote --merge --recursive
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v1
         with:
@@ -80,7 +85,7 @@ jobs:
           rm -rf build_github
           hugo
           cd ..
-      # MD files are useful for certain bots.
+      # MD files are useful for certain bots. Hence the below.
       - name: Deploy md
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.event_name != 'pull_request' && steps.hugo_build.conclusion == 'success'}}
