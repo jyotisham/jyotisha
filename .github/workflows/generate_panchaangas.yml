@@ -31,7 +31,7 @@ jobs:
     steps:
     - name: Inject slug/short variables
       uses: rlespinasse/github-slug-action@v4.4.1
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@master
       with:
         submodules: 'true'
         fetch-depth: 1 # Because of this, you will fail to push refs to dest repo
