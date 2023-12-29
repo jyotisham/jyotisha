@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20231229132757
+SEQUENCE:20231229203255
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -746,17 +746,13 @@ BEGIN:VEVENT
 SUMMARY:आर्द्रादर्शनम्
 DTSTART;VALUE=DATE:20230106
 DTEND;VALUE=DATE:20230107
-DESCRIPTION:Observed on Ārdrā nakshatra of Dhanuḥ (sidereal solar) mon
- th (Sūryōdayaḥ/puurvaviddha). <br/><br/>Visit Chidambaram to have dars
- han of Nataraja\, or pray to Nataraja<br/><br/>कृपासमुद्
- रम् सुमुखं त्रिनेत्रं सदाश
- िवं रुद्रमनन्तरूपम्।  <br/>जटा
- धरं पार्वतिवामभागं चिदम्बर
- ेशं हृदि भावयामि॥<br/><br/><br/><br/>## Deta
- ils<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/m
- aster/devatA/shaiva/sidereal_solar_month/nakshatra/09/06/ArudrA~darican2am
- _or_naTarAjar_mahAbhiSEkam.toml)<br/>- Tags: TamilnaduTempleFestivals Comm
- onFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/shaiva/sidereal_solar_month/nakshatra/09/0
+ 6/ArudrA~darican2am_or_naTarAjar_mahAbhiSEkam.toml)<br/>- Tags: TamilnaduT
+ empleFestivals CommonFestivals<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/shai
+ va/sidereal_solar_month/nakshatra/09/06/ArudrA~darican2am_or_naTarAjar_mah
+ AbhiSEkam.toml)<br/>- Tags: TamilnaduTempleFestivals CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7355,10 +7351,14 @@ DTSTART;VALUE=DATE:20230218
 DTEND;VALUE=DATE:20230219
 DESCRIPTION:Observed on Uttarāṣāḍhā nakshatra of Kumbhaḥ (siderea
  l solar) month (Prātaḥ/paraviddha). The event occurred in 5069 (Kali er
- a).  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://
- github.com/jyotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/sidere
- al_solar_month/nakshatra/11/21/kAJcI_70_jagadguru_zrI~zaGkara_vijayEndra_s
- arasvatI_jayantI.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
+ a).  <br/><br/><br/>नमामः शङ्करान्वाख्
+ य-विजयेन्द्रसरस्वतीम्।  <br/>श
+ ्रीगुरुं शिष्टमार्गानुनेत
+ ारं सन्मतिप्रदम्॥<br/><br/><br/><br/>## De
+ tails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob
+ /master/mahApuruSha/kAnchI-maTha/sidereal_solar_month/nakshatra/11/21/kAJc
+ I_70_jagadguru_zrI~zaGkara_vijayEndra_sarasvatI_jayantI.toml)<br/>- Tags: 
+ MahapurushaEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9754,10 +9754,13 @@ DTSTART;VALUE=DATE:20230304
 DTEND;VALUE=DATE:20230305
 DESCRIPTION:Observed on Śukla-Trayōdaśī tithi of Phālgunaḥ (lunar) 
  month (Aparāhṇaḥ/vyaapti). The event occurred in 5119 (Kali era).  <b
- r/><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.
- com/jyotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lunar_month/t
- ithi/12/13/kAJcI_69_jagadguru_zrI~jayEndra_sarasvatI_ArAdhanA.toml)<br/>- 
- Tags: KanchiAradhanaDays CommonFestivals
+ r/><br/><br/>देवे देहे च देशे च भक्त
+ ्यारोग्य-सुख-प्रदम्।  <br/>बुध-
+ पामर-सेव्यं तं श्री-जयेन्द्
+ रं नमाम्यहम्॥<br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahA
+ puruSha/kAnchI-maTha/lunar_month/tithi/12/13/kAJcI_69_jagadguru_zrI~jayEnd
+ ra_sarasvatI_ArAdhanA.toml)<br/>- Tags: KanchiAradhanaDays CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25203,12 +25206,14 @@ SUMMARY:काञ्ची ६८ जगद्गुरु श्री-
   जयन्ती #१३०
 DTSTART;VALUE=DATE:20230603
 DTEND;VALUE=DATE:20230604
-DESCRIPTION:Observed on Anūrādhā nakshatra of Vr̥ṣabhaḥ (sidereal 
- solar) month (Prātaḥ/paraviddha). The event occurred in 4995 (Kali era)
- .  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://gi
- thub.com/jyotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/sidereal
- _solar_month/nakshatra/02/17/kAJcI_68_jagadguru_zrI~candrazEkharEndra_sara
- svatI_7_jayantI.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/sidereal_solar_month/nak
+ shatra/02/17/kAJcI_68_jagadguru_zrI~candrazEkharEndra_sarasvatI_7_jayantI.
+ toml)<br/>- Tags: MahapurushaEvents CommonFestivals<br/><br/><br/><br/>## 
+ Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/bl
+ ob/master/mahApuruSha/kAnchI-maTha/sidereal_solar_month/nakshatra/02/17/kA
+ JcI_68_jagadguru_zrI~candrazEkharEndra_sarasvatI_7_jayantI.toml)<br/>- Tag
+ s: MahapurushaEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -33938,10 +33943,14 @@ DTSTART;VALUE=DATE:20230803
 DTEND;VALUE=DATE:20230804
 DESCRIPTION:Observed on Śraviṣṭhā nakshatra of Karkaṭaḥ (siderea
  l solar) month (Prātaḥ/paraviddha). The event occurred in 5036 (Kali er
- a).  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://
- github.com/jyotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/sidere
- al_solar_month/nakshatra/04/23/kAJcI_69_jagadguru_zrI~jayEndra_sarasvatI_j
- ayantI.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
+ a).  <br/><br/><br/>देवे देहे च देशे च भक
+ ्त्यारोग्य-सुख-प्रदम्।  <br/>ब
+ ुध-पामर-सेव्यं तं श्री-जयेन्
+ द्रं नमाम्यहम्॥<br/><br/><br/><br/>## Details<
+ br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/maste
+ r/mahApuruSha/kAnchI-maTha/sidereal_solar_month/nakshatra/04/23/kAJcI_69_j
+ agadguru_zrI~jayEndra_sarasvatI_jayantI.toml)<br/>- Tags: MahapurushaEvent
+ s CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -58367,17 +58376,13 @@ BEGIN:VEVENT
 SUMMARY:आर्द्रादर्शनम्
 DTSTART;VALUE=DATE:20231227
 DTEND;VALUE=DATE:20231228
-DESCRIPTION:Observed on Ārdrā nakshatra of Dhanuḥ (sidereal solar) mon
- th (Sūryōdayaḥ/puurvaviddha). <br/><br/>Visit Chidambaram to have dars
- han of Nataraja\, or pray to Nataraja<br/><br/>कृपासमुद्
- रम् सुमुखं त्रिनेत्रं सदाश
- िवं रुद्रमनन्तरूपम्।  <br/>जटा
- धरं पार्वतिवामभागं चिदम्बर
- ेशं हृदि भावयामि॥<br/><br/><br/><br/>## Deta
- ils<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/m
- aster/devatA/shaiva/sidereal_solar_month/nakshatra/09/06/ArudrA~darican2am
- _or_naTarAjar_mahAbhiSEkam.toml)<br/>- Tags: TamilnaduTempleFestivals Comm
- onFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/shaiva/sidereal_solar_month/nakshatra/09/0
+ 6/ArudrA~darican2am_or_naTarAjar_mahAbhiSEkam.toml)<br/>- Tags: TamilnaduT
+ empleFestivals CommonFestivals<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/shai
+ va/sidereal_solar_month/nakshatra/09/06/ArudrA~darican2am_or_naTarAjar_mah
+ AbhiSEkam.toml)<br/>- Tags: TamilnaduTempleFestivals CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
