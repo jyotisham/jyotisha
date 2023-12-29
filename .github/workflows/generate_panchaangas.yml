@@ -30,7 +30,7 @@ jobs:
 #         python-version: [3.5, 3.6, 3.7, 3.8]
     steps:
     - name: Inject slug/short variables
-      uses: rlespinasse/github-slug-action@v3.x
+      uses: rlespinasse/github-slug-action@v4.4.1
     - uses: actions/checkout@v2
       with:
         submodules: 'true'
@@ -59,7 +59,7 @@ jobs:
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
-        hugo-version: "0.105.0"
+        hugo-version: "0.119.0"
     - name: Build hugo site pages
       id: hugo_build
       run: |
