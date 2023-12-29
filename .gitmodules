@@ -11,4 +11,5 @@
 [submodule "hugo-source/content/output"]
 	path = hugo-source/content/output
 	url = https://github.com/jyotisham/jyotisha.git
+	update = merge
 	branch = generated-output
