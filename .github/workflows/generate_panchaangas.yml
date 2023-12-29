@@ -33,7 +33,7 @@ jobs:
       uses: rlespinasse/github-slug-action@v4.4.1
     - uses: actions/checkout@master
       with:
-        submodules: 'true'
+        submodules: 'false'
         fetch-depth: 1 # Because of this, you will fail to push refs to dest repo
     - name: Get current date
       id: date
@@ -42,6 +42,12 @@ jobs:
         echo "date={$(date +'%Y-%m-%d')}" >> $GITHUB_OUTPUT
         echo "year=$(date +'%Y' --date='+1 year')" >> $GITHUB_OUTPUT
         cat $GITHUB_OUTPUT
+    - name: Init submodules, update some
+      run: |
+        set -o xtrace
+        pwd
+        git submodule update  --init --recursive
+        git submodule foreach -q --recursive 'git checkout $(git config -f $toplevel/.gitmodules submodule.$name.branch || echo master)'
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v1
       with:
