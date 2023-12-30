@@ -42,6 +42,9 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
+        sudo apt-get update
+        sudo apt-get install libxml2-dev libxslt-dev python-dev
+      # See https://github.com/jyotisham/jyotisha/actions/runs/7361266030/job/20038404830
 #        python -m pip install git+https://github.com/astropy/astropy@master -U
     - name: Build package
       run: |
