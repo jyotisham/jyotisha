@@ -18,10 +18,10 @@ on:
     inputs:
       date:
         required: false
-        description: 'Eg. 2023-02-01'
+        description: 'date Eg. 2023-02-01'
       prev_date:
         required: false
-        description: 'Eg. 2023-02-01'
+        description: 'prev_date Eg. 2023-02-01'
 
 jobs:
   run_bots:
