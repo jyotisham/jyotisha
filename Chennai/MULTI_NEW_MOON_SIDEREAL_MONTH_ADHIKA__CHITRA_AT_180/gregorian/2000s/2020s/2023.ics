@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20231230213044
+SEQUENCE:20231231080430
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -57754,14 +57754,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:त्रिस्पर्शा-महाद्वादशी
+SUMMARY:त्रिस्पर्शा महाद्वादशी
 DTSTART;VALUE=DATE:20231223
 DTEND;VALUE=DATE:20231224
-DESCRIPTION:Dvadashi tithi\, which starts after sunrise on a day and ends 
- before sunrise on the next.<br/><br/>## Details<br/>- [Edit config file](h
- ttps://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/dvAda
- shI/description_only/trisparzA~mahAdvAdazI.toml)<br/>- Tags: RareDays Comb
- inations SpecialVratam
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
