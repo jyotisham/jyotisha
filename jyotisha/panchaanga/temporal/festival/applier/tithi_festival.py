@@ -295,7 +295,7 @@ class TithiFestivalAssigner(FestivalAssigner):
         self.panchaanga.add_festival(fest_id='vyaJjulI~mahAdvAdazI', date=day_panchaanga.date)
 
       if (day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index % 15) == 11 and (self.daily_panchaangas[d + 1].sunrise_day_angas.tithi_at_sunrise.index % 15) == 13:
-        self.panchaanga.add_festival(fest_id='trisparzA~mahAdvAdazI', date=day_panchaanga.date)
+        self.panchaanga.add_festival(fest_id='trisprzA~mahAdvAdazI', date=day_panchaanga.date)
 
       if (day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index % 15) == 0 and (self.daily_panchaangas[d + 1].sunrise_day_angas.tithi_at_sunrise.index % 15) == 0:
         # Might miss out on those parva days right after Dec 31!

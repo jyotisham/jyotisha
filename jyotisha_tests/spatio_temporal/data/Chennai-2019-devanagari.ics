@@ -42164,14 +42164,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:trisparśā-mahādvādaśī
+SUMMARY:trispr̥śā-mahādvādaśī
 DTSTART;VALUE=DATE:20191123
 DTEND;VALUE=DATE:20191124
-DESCRIPTION:Dvadashi tithi\, which starts after sunrise on a day and ends 
- before sunrise on the next.<br/><br/>## Details<br/>- [Edit config file](h
- ttps://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/dvAda
- shI/description_only/trisparzA~mahAdvAdazI.toml)<br/>- Tags: RareDays Comb
- inations SpecialVratam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/dvAdashI/description_only/tris
+ przA~mahAdvAdazI.toml)<br/>- Tags: RareDays Combinations SpecialVratam<br/
+ ><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyo
+ tisham/adyatithi/blob/master/time_focus/monthly/dvAdashI/description_only/
+ trisprzA~mahAdvAdazI.toml)<br/>- Tags: RareDays Combinations SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
