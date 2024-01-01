@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20231228161348
+SEQUENCE:20240101205954
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -278,27 +278,6 @@ DESCRIPTION:- Indian civil date: 1945-10-13\, Islamic: 1445-06-21 Jumādā
  टः**—08:10-09:35\; **गुलिककालः**—10:59-12:23  \n
  ___________________\n- **शूलम्**—उदीची (►12:46)\; 
  **परिहारः**–क्षीरम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:इयऱ्पगै नायऩ्मार् (३) गुर
- ुपूजै
-DTSTART;VALUE=DATE:20240103
-DTEND;VALUE=DATE:20240104
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/09/12/iyar2pagai_nAyan2mAr_%283%29_gurupUjai.toml)<br/>- Tags: Nayanmar
- Gurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Nayanm
- ar Saints by Swami Sivananda\, published by The Divine Life Society<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahA
- puruSha/nAyanmAr/sidereal_solar_month/nakshatra/09/12/iyar2pagai_nAyan2mAr
- _%283%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -636,27 +615,6 @@ DESCRIPTION:Event occured on 1008-01-06 (gregorian). Julian date was conve
  ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/
  master/mahApuruSha/xatra-later/julian/day/12/31/AnandapAla-parAjitiH.toml)
  <br/>- Tags:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:माऩक्कञ्चाऱ नायऩ्मार् (१
- २) गुरुपूजै
-DTSTART;VALUE=DATE:20240106
-DTEND;VALUE=DATE:20240107
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/09/15/mAn2akkaJcAr2a_nAyan2mAr_%2812%29_gurupUjai.toml)<br/>- Tags: Nay
- anmarGurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 N
- ayanmar Saints by Swami Sivananda\, published by The Divine Life Society<b
- r/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master
- /mahApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/09/15/mAn2akkaJcAr2a_
- nAyan2mAr_%2812%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1235,27 +1193,6 @@ DESCRIPTION:iṣṭiḥ is performed on this day by those following the b
  />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
  general/description_only/bOdhAyana-kAtyAyana-iSTiH.toml)<br/>- Tags: RareD
  ays Combinations SpecialVratam
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:चाक्किय नायऩ्मार् (३४) गु
- रुपूजै
-DTSTART;VALUE=DATE:20240111
-DTEND;VALUE=DATE:20240112
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/09/20/cAkkiya_nAyan2mAr_%2834%29_gurupUjai.toml)<br/>- Tags: NayanmarGu
- rupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Nayanmar
-  Saints by Swami Sivananda\, published by The Divine Life Society<br/>- [E
- dit config file](https://github.com/jyotisham/adyatithi/blob/master/mahApu
- ruSha/nAyanmAr/sidereal_solar_month/nakshatra/09/20/cAkkiya_nAyan2mAr_%283
- 4%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2315,27 +2252,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कलिक्कम्ब नायऩ्मार् (४३) 
- गुरुपूजै
-DTSTART;VALUE=DATE:20240117
-DTEND;VALUE=DATE:20240118
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/10/27/kalikkamba_nAyan2mAr_%2843%29_gurupUjai.toml)<br/>- Tags: Nayanma
- rGurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Nayan
- mar Saints by Swami Sivananda\, published by The Divine Life Society<br/>-
-  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mah
- ApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/10/27/kalikkamba_nAyan2mA
- r_%2843%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:पौषः-10-08  \,मेषः-अश्विनी🌛🌌  
  \,  मकरः-उत्तराषाढा-10-04🌞🌌  \,  सह
  स्यः-10-28🌞🪐  \, गुरुः
@@ -2961,27 +2877,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कण्णप्प नायऩ्मार् (१०) गु
- रुपूजै
-DTSTART;VALUE=DATE:20240122
-DTEND;VALUE=DATE:20240123
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/10/05/kaNNappa_nAyan2mAr_%2810%29_gurupUjai.toml)<br/>- Tags: NayanmarG
- urupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Nayanma
- r Saints by Swami Sivananda\, published by The Divine Life Society<br/>- [
- Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahAp
- uruSha/nAyanmAr/sidereal_solar_month/nakshatra/10/05/kaNNappa_nAyan2mAr_%2
- 810%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:सोममृगशीर्ष-योगः
 DTSTART;VALUE=DATE:20240122
 DTEND;VALUE=DATE:20240123
@@ -3060,27 +2955,6 @@ DESCRIPTION:- Indian civil date: 1945-11-03\, Islamic: 1445-07-12 Rajab\,
  ालः**—12:31-13:56  \n___________________\n- **शूलम्**—
  उदीची (►11:23)\; **परिहारः**–क्षीर
  म्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:अरिवाट्टाय नायऩ्मार् (१३
- ) गुरुपूजै
-DTSTART;VALUE=DATE:20240123
-DTEND;VALUE=DATE:20240124
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/10/06/arivATTAya_nAyan2mAr_%2813%29_gurupUjai.toml)<br/>- Tags: Nayanma
- rGurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Nayan
- mar Saints by Swami Sivananda\, published by The Divine Life Society<br/>-
-  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mah
- ApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/10/06/arivATTAya_nAyan2mA
- r_%2813%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3996,27 +3870,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:चण्डेश्वर नायऩ्मार् (२०) 
- गुरुपूजै
-DTSTART;VALUE=DATE:20240130
-DTEND;VALUE=DATE:20240131
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/10/12/caNDEzvara_nAyan2mAr_%2820%29_gurupUjai.toml)<br/>- Tags: Nayanma
- rGurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Nayan
- mar Saints by Swami Sivananda\, published by The Divine Life Society<br/>-
-  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mah
- ApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/10/12/caNDEzvara_nAyan2mA
- r_%2820%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:गान्धिमारणम् #७६
 DTSTART;VALUE=DATE:20240130
 DTEND;VALUE=DATE:20240131
@@ -4471,27 +4324,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  it config file](https://github.com/jyotisham/adyatithi/blob/master/mahApur
  uSha/xatra-later/gregorian/day/02/03/tArApura-durga-jayaH.toml)<br/>- Tags
  :
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:तिरुनीलकण्ठ नायऩ्मार् (२
- ) गुरुपूजै
-DTSTART;VALUE=DATE:20240203
-DTEND;VALUE=DATE:20240204
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/10/16/tirunIlakaNTha_nAyan2mAr_%282%29_gurupUjai.toml)<br/>- Tags: Naya
- nmarGurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Na
- yanmar Saints by Swami Sivananda\, published by The Divine Life Society<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
- mahApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/10/16/tirunIlakaNTha_n
- Ayan2mAr_%282%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5496,27 +5328,6 @@ DESCRIPTION:- Indian civil date: 1945-11-22\, Islamic: 1445-08-01 Shaʿbā
  गुलिककालः**—15:27-16:53  \n___________________\n- **
  शूलम्**—प्रतीची (►11:24)\; **परिहा
  रः**–गुडम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:अप्पूदियडिगळ् नायऩ्मार
- ् (२५) गुरुपूजै
-DTSTART;VALUE=DATE:20240211
-DTEND;VALUE=DATE:20240212
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/10/24/appUdiyaDigaL_nAyan2mAr_%2825%29_gurupUjai.toml)<br/>- Tags: Naya
- nmarGurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Na
- yanmar Saints by Swami Sivananda\, published by The Divine Life Society<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
- mahApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/10/24/appUdiyaDigaL_nA
- yan2mAr_%2825%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7941,27 +7752,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ऎऱिपत्त नायऩ्मार् (८) गुर
- ुपूजै
-DTSTART;VALUE=DATE:20240227
-DTEND;VALUE=DATE:20240228
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/11/13/er2ipatta_nAyan2mAr_%288%29_gurupUjai.toml)<br/>- Tags: NayanmarG
- urupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Nayanma
- r Saints by Swami Sivananda\, published by The Divine Life Society<br/>- [
- Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahAp
- uruSha/nAyanmAr/sidereal_solar_month/nakshatra/11/13/er2ipatta_nAyan2mAr_%
- 288%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:गोध्रा-ज्वालनम् #२२
 DTSTART;VALUE=DATE:20240227
 DTEND;VALUE=DATE:20240228
@@ -8896,27 +8686,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कारि नायऩ्मार् (४८) गुरुप
- ूजै
-DTSTART;VALUE=DATE:20240306
-DTEND;VALUE=DATE:20240307
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/11/20/kAri_nAyan2mAr_%2848%29_gurupUjai.toml)<br/>- Tags: NayanmarGurup
- ujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Nayanmar Sa
- ints by Swami Sivananda\, published by The Divine Life Society<br/>- [Edit
-  config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruS
- ha/nAyanmAr/sidereal_solar_month/nakshatra/11/20/kAri_nAyan2mAr_%2848%29_g
- urupUjai.toml)<br/>- Tags: NayanmarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:प्रतापरावो हतः #३५०
 DTSTART;VALUE=DATE:20240306
 DTEND;VALUE=DATE:20240307
@@ -9387,27 +9156,6 @@ SUMMARY:बोधायन-कात्यायन-माघ-अमाव
 DTSTART;VALUE=DATE:20240309
 DTEND;VALUE=DATE:20240310
 DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:कॊच्चॆङ्गट् चोऴ नायऩ्मा
- र् (६०) गुरुपूजै
-DTSTART;VALUE=DATE:20240309
-DTEND;VALUE=DATE:20240310
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/11/24/kocceGgaT_cOzha_nAyan2mAr_%2860%29_gurupUjai.toml)<br/>- Tags: Na
- yanmarGurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 
- Nayanmar Saints by Swami Sivananda\, published by The Divine Life Society<
- br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/maste
- r/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/11/24/kocceGgaT_cOzh
- a_nAyan2mAr_%2860%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10736,27 +10484,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:गणनाथ नायऩ्मार् (३८) गुरु
- पूजै
-DTSTART;VALUE=DATE:20240318
-DTEND;VALUE=DATE:20240319
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/12/06/gaNanAtha_nAyan2mAr_%2838%29_gurupUjai.toml)<br/>- Tags: Nayanmar
- Gurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Nayanm
- ar Saints by Swami Sivananda\, published by The Divine Life Society<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahA
- puruSha/nAyanmAr/sidereal_solar_month/nakshatra/12/06/gaNanAtha_nAyan2mAr_
- %2838%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:फाल्गुनः-12-10  \,मिथुनम्-पुन
  र्वसुः🌛🌌  \,  मीनः-उत्तरप्रो
  ष्ठपदा-12-06🌞🌌  \,  तपस्यः-12-30🌞🪐  \,
@@ -10926,27 +10653,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  r/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/a
  dyatithi/blob/master/time_focus/sankrAnti/description_only/madhu-mAsaH_or_
  vasantaRtuH.toml)<br/>- Tags: SunSankranti CommonFestivals
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:मुऩैयडुवार् नायऩ्मार् (५
- २) गुरुपूजै
-DTSTART;VALUE=DATE:20240320
-DTEND;VALUE=DATE:20240321
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/12/08/mun2aiyaDuvAr_nAyan2mAr_%2852%29_gurupUjai.toml)<br/>- Tags: Naya
- nmarGurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Na
- yanmar Saints by Swami Sivananda\, published by The Divine Life Society<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
- mahApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/12/08/mun2aiyaDuvAr_nA
- yan2mAr_%2852%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -12283,27 +11989,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कारैक्काल् अम्मैयार् (२४
- ) गुरुपूजै
-DTSTART;VALUE=DATE:20240328
-DTEND;VALUE=DATE:20240329
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/12/15/kAraikkAl_ammaiyAr_%2824%29_gurupUjai.toml)<br/>- Tags: NayanmarG
- urupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Nayanma
- r Saints by Swami Sivananda\, published by The Divine Life Society<br/>- [
- Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahAp
- uruSha/nAyanmAr/sidereal_solar_month/nakshatra/12/15/kAraikkAl_ammaiyAr_%2
- 824%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:फाल्गुनः-12-19  \,तुला-विशाखा
  🌛🌌  \,  मीनः-उत्तरप्रोष्ठपदा-1
  2-16🌞🌌  \,  मधुः-01-10🌞🪐  \, शुक्रः
@@ -13198,27 +12883,6 @@ DESCRIPTION:- Indian civil date: 1946-01-17\, Islamic: 1445-09-27 Ramaḍ
  ालः**—06:15-07:47  \n___________________\n- **शूलम्**—
  प्राची (►09:31)\; **परिहारः**–दधि  \n_
  __________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:दण्डियडिगळ् नायऩ्मार् (३
- १) गुरुपूजै
-DTSTART;VALUE=DATE:20240406
-DTEND;VALUE=DATE:20240407
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/12/24/daNDiyaDigaL_nAyan2mAr_%2831%29_gurupUjai.toml)<br/>- Tags: Nayan
- marGurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Nay
- anmar Saints by Swami Sivananda\, published by The Divine Life Society<br/
- >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/m
- ahApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/12/24/daNDiyaDigaL_nAya
- n2mAr_%2831%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14380,27 +14044,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  eferences<br/>  - Smriti Kaustubham p.87--88<br/>- [Edit config file](http
  s://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/lunar_mont
  h/tithi/01/05/kUrma-kalpAdiH.toml)<br/>- Tags: KalpadiDays
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:नेच नायऩ्मार् (५९) गुरुपू
- जै
-DTSTART;VALUE=DATE:20240412
-DTEND;VALUE=DATE:20240413
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/12/04/nEca_nAyan2mAr_%2859%29_gurupUjai.toml)<br/>- Tags: NayanmarGurup
- ujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Nayanmar Sa
- ints by Swami Sivananda\, published by The Divine Life Society<br/>- [Edit
-  config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruS
- ha/nAyanmAr/sidereal_solar_month/nakshatra/12/04/nEca_nAyan2mAr_%2859%29_g
- urupUjai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16423,27 +16066,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:इचैञाऩियार् नायऩ्मार् (६
- ३) गुरुपूजै
-DTSTART;VALUE=DATE:20240423
-DTEND;VALUE=DATE:20240424
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/01/14/icaiJAn2iyAr_nAyan2mAr_%2863%29_gurupUjai.toml)<br/>- Tags: Nayan
- marGurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Nay
- anmar Saints by Swami Sivananda\, published by The Divine Life Society<br/
- >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/m
- ahApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/01/14/icaiJAn2iyAr_nAya
- n2mAr_%2863%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:जाठिभाङ्गा-हत्या #५३
 DTSTART;VALUE=DATE:20240423
 DTEND;VALUE=DATE:20240424
@@ -16724,28 +16346,6 @@ DESCRIPTION:Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month
  ering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit con
  fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
  /description_only/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:तिरुक्कुऱिप्पुत् तॊण्ड 
- नायऩ्मार् (१९) गुरुपूजै
-DTSTART;VALUE=DATE:20240424
-DTEND;VALUE=DATE:20240425
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/01/15/tirukkur2ipput_toNDa_nAyan2mAr_%2819%29_gurupUjai.toml)<br/>- Tag
- s: NayanmarGurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  
- - 63 Nayanmar Saints by Swami Sivananda\, published by The Divine Life Soc
- iety<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/
- master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/01/15/tirukkur2
- ipput_toNDa_nAyan2mAr_%2819%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupuj
- ai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17716,27 +17316,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:तिरुनावुक्करछ नायऩ्मार
- ् (२१) गुरुपूजै
-DTSTART;VALUE=DATE:20240503
-DTEND;VALUE=DATE:20240504
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/01/24/tirunAvukkaracha_nAyan2mAr_%2821%29_gurupUjai.toml)<br/>- Tags: N
- ayanmarGurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63
-  Nayanmar Saints by Swami Sivananda\, published by The Divine Life Society
- <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
- er/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/01/24/tirunAvukkara
- cha_nAyan2mAr_%2821%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:चैत्रः-01-26  \,कुम्भः-पूर्वप
  ्रोष्ठपदा🌛🌌  \,  मेषः-अपभरणी-0
  1-21🌞🌌  \,  माधवः-02-15🌞🪐  \, शनिः
@@ -18483,27 +18062,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:चिऱुत्तॊण्ड नायऩ्मार् (३
- ६) गुरुपूजै
-DTSTART;VALUE=DATE:20240508
-DTEND;VALUE=DATE:20240509
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/01/02/cir2uttoNDa_nAyan2mAr_%2836%29_gurupUjai.toml)<br/>- Tags: Nayanm
- arGurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Naya
- nmar Saints by Swami Sivananda\, published by The Divine Life Society<br/>
- - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/ma
- hApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/01/02/cir2uttoNDa_nAyan2
- mAr_%2836%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:दर्शेष्टिः
 DTSTART;VALUE=DATE:20240508
 DTEND;VALUE=DATE:20240509
@@ -18945,27 +18503,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मङ्गैयर्क्करचियार् नाय
- ऩ्मार् (५०) गुरुपूजै
-DTSTART;VALUE=DATE:20240510
-DTEND;VALUE=DATE:20240511
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/01/04/maGgaiyarkkaraciyAr_nAyan2mAr_%2850%29_gurupUjai.toml)<br/>- Tags
- : NayanmarGurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  -
-  63 Nayanmar Saints by Swami Sivananda\, published by The Divine Life Soci
- ety<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/m
- aster/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/01/04/maGgaiyark
- karaciyAr_nAyan2mAr_%2850%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:राज-मातङ्गी-जयन्ती
 DTSTART;VALUE=DATE:20240510
 DTEND;VALUE=DATE:20240511
@@ -19276,27 +18813,6 @@ DESCRIPTION:Observed on Śukla-Pañcamī tithi of Vaiśākhaḥ (lunar) mo
  ile](https://github.com/jyotisham/adyatithi/blob/master/devatA/misc-fauna/
  lunar_month/tithi/02/05/sarpa-pUjA~1.toml)<br/>- Tags: SpecialPuja PuranaE
  vents
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:विऱऩ्मिण्ड नायऩ्मार् (६) 
- गुरुपूजै
-DTSTART;VALUE=DATE:20240512
-DTEND;VALUE=DATE:20240513
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/01/06/vir2an2miNDa_nAyan2mAr_%286%29_gurupUjai.toml)<br/>- Tags: Nayanm
- arGurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Naya
- nmar Saints by Swami Sivananda\, published by The Divine Life Society<br/>
- - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/ma
- hApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/01/06/vir2an2miNDa_nAyan
- 2mAr_%286%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21438,27 +20954,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मुरुग नायऩ्मार् (१६) गुरु
- पूजै
-DTSTART;VALUE=DATE:20240526
-DTEND;VALUE=DATE:20240527
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/02/19/muruga_nAyan2mAr_%2816%29_gurupUjai.toml)<br/>- Tags: NayanmarGur
- upujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Nayanmar 
- Saints by Swami Sivananda\, published by The Divine Life Society<br/>- [Ed
- it config file](https://github.com/jyotisham/adyatithi/blob/master/mahApur
- uSha/nAyanmAr/sidereal_solar_month/nakshatra/02/19/muruga_nAyan2mAr_%2816%
- 29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:पार्थिव-कल्पादिः
 DTSTART;VALUE=DATE:20240526
 DTEND;VALUE=DATE:20240527
@@ -21501,71 +20996,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/maste
  r/mahApuruSha/xatra-later/gregorian/day/05/26/shabarImala-devasthANa-nAsha
  H.toml)<br/>- Tags:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:तिरुञाऩसम्बन्धमूर्त्ति
-  नायऩ्मार् (२८) गुरुपूजै
-DTSTART;VALUE=DATE:20240526
-DTEND;VALUE=DATE:20240527
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/02/19/tiruJAn2asambandhamUrtti_nAyan2mAr_%2828%29_gurupUjai.toml)<br/>-
-  Tags: NayanmarGurupujai<br/><br/><br/><br/>## Details<br/>- References<br
- />  - 63 Nayanmar Saints by Swami Sivananda\, published by The Divine Life
-  Society<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/b
- lob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/02/19/tiruJ
- An2asambandhamUrtti_nAyan2mAr_%2828%29_gurupUjai.toml)<br/>- Tags: Nayanma
- rGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:तिरुनीलकण्ठ याऴ्प्पाण न
- ायऩ्मार् (६१) गुरुपूजै
-DTSTART;VALUE=DATE:20240526
-DTEND;VALUE=DATE:20240527
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/02/19/tirunIlakaNTha_yAzhppANa_nAyan2mAr_%2861%29_gurupUjai.toml)<br/>-
-  Tags: NayanmarGurupujai<br/><br/><br/><br/>## Details<br/>- References<br
- />  - 63 Nayanmar Saints by Swami Sivananda\, published by The Divine Life
-  Society<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/b
- lob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/02/19/tirun
- IlakaNTha_yAzhppANa_nAyan2mAr_%2861%29_gurupUjai.toml)<br/>- Tags: Nayanma
- rGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:तिरुनीलनक्क नायऩ्मार् (२
- ६) गुरुपूजै
-DTSTART;VALUE=DATE:20240526
-DTEND;VALUE=DATE:20240527
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/02/19/tirunIlanakka_nAyan2mAr_%2826%29_gurupUjai.toml)<br/>- Tags: Naya
- nmarGurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Na
- yanmar Saints by Swami Sivananda\, published by The Divine Life Society<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
- mahApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/02/19/tirunIlanakka_nA
- yan2mAr_%2826%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22446,27 +21876,6 @@ DESCRIPTION:- Indian civil date: 1946-03-14\, Islamic: 1445-11-27 Ḏū al
  गुलिककालः**—12:18-13:53  \n___________________\n- **
  शूलम्**—उदीची (►11:01)\; **परिहारः**
  –क्षीरम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:कऴऱ्चिङ्ग नायऩ्मार् (५३) 
- गुरुपूजै
-DTSTART;VALUE=DATE:20240604
-DTEND;VALUE=DATE:20240605
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/02/02/kazhar2ciGga_nAyan2mAr_%2853%29_gurupUjai.toml)<br/>- Tags: Nayan
- marGurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Nay
- anmar Saints by Swami Sivananda\, published by The Divine Life Society<br/
- >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/m
- ahApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/02/02/kazhar2ciGga_nAya
- n2mAr_%2853%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23390,27 +22799,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:नमिनन्दियडिगळ् नायऩ्मा
- र् (२७) गुरुपूजै
-DTSTART;VALUE=DATE:20240610
-DTEND;VALUE=DATE:20240611
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/02/08/naminandiyaDigaL_nAyan2mAr_%2827%29_gurupUjai.toml)<br/>- Tags: N
- ayanmarGurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63
-  Nayanmar Saints by Swami Sivananda\, published by The Divine Life Society
- <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
- er/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/02/08/naminandiyaDi
- gaL_nAyan2mAr_%2827%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:रघुनाथराव-बन्धनम् #४०
 DTSTART;VALUE=DATE:20240610
 DTEND;VALUE=DATE:20240611
@@ -23566,27 +22954,6 @@ DESCRIPTION:Event occured on 1725-06-11 (gregorian). Julian date was conve
  d arts.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
  otisham/adyatithi/blob/master/mahApuruSha/xatra-later/julian/day/05/31/ahi
  lyA-bAyi-janma.toml)<br/>- Tags:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सोमासिमार नायऩ्मार् (३३) 
- गुरुपूजै
-DTSTART;VALUE=DATE:20240611
-DTEND;VALUE=DATE:20240612
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/02/09/sOmAsimAra_nAyan2mAr_%2833%29_gurupUjai.toml)<br/>- Tags: Nayanma
- rGurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Nayan
- mar Saints by Swami Sivananda\, published by The Divine Life Society<br/>-
-  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mah
- ApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/02/09/sOmAsimAra_nAyan2mA
- r_%2833%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25985,27 +25352,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:एयर्कोऩ् कलिक्काम नायऩ्
- मार् (२९) गुरुपूजै
-DTSTART;VALUE=DATE:20240629
-DTEND;VALUE=DATE:20240630
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/03/27/EyarkOn2_kalikkAma_nAyan2mAr_%2829%29_gurupUjai.toml)<br/>- Tags:
-  NayanmarGurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 
- 63 Nayanmar Saints by Swami Sivananda\, published by The Divine Life Socie
- ty<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/ma
- ster/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/03/27/EyarkOn2_ka
- likkAma_nAyan2mAr_%2829%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:नेतोजी-शुद्धिः #३४८
 DTSTART;VALUE=DATE:20240629
 DTEND;VALUE=DATE:20240630
@@ -27334,27 +26680,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पुगऴ्त्तुणै नायऩ्मार् (५
- ६) गुरुपूजै
-DTSTART;VALUE=DATE:20240709
-DTEND;VALUE=DATE:20240710
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/03/09/pugazhttuNai_nAyan2mAr_%2856%29_gurupUjai.toml)<br/>- Tags: Nayan
- marGurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Nay
- anmar Saints by Swami Sivananda\, published by The Divine Life Society<br/
- >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/m
- ahApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/03/09/pugazhttuNai_nAya
- n2mAr_%2856%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:सुखा अङ्गारकी-चतुर्थी
 DTSTART;VALUE=DATE:20240709
 DTEND;VALUE=DATE:20240710
@@ -27459,26 +26784,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:माणिक्कवाचकर् गुरुपूजै
-DTSTART;VALUE=DATE:20240710
-DTEND;VALUE=DATE:20240711
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/03/10/mANikkavAcakar_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai<br/>
- <br/><br/><br/>## Details<br/>- References<br/>  - 63 Nayanmar Saints by S
- wami Sivananda\, published by The Divine Life Society<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanm
- Ar/sidereal_solar_month/nakshatra/03/10/mANikkavAcakar_gurupUjai.toml)<br/
- >- Tags: NayanmarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:व्यतीपात-श्राद्धम्
 DTSTART;VALUE=DATE:20240710
 DTEND;VALUE=DATE:20240711
@@ -27556,27 +26861,6 @@ DESCRIPTION:- Indian civil date: 1946-04-20\, Islamic: 1446-01-04 Al-Muḥ
  ककालः**—09:14-10:49  \n___________________\n- **शूलम
  ्**—दक्षिणा (►14:32)\; **परिहारः**–त
  ैलम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:अमरनीति नायऩ्मार् (७) गुर
- ुपूजै
-DTSTART;VALUE=DATE:20240711
-DTEND;VALUE=DATE:20240712
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/03/11/amaranIti_nAyan2mAr_%287%29_gurupUjai.toml)<br/>- Tags: NayanmarG
- urupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Nayanma
- r Saints by Swami Sivananda\, published by The Divine Life Society<br/>- [
- Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahAp
- uruSha/nAyanmAr/sidereal_solar_month/nakshatra/03/11/amaranIti_nAyan2mAr_%
- 287%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30140,48 +29424,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मूर्त्ति नायऩ्मार् (१५) ग
- ुरुपूजै
-DTSTART;VALUE=DATE:20240730
-DTEND;VALUE=DATE:20240731
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/04/03/mUrtti_nAyan2mAr_%2815%29_gurupUjai.toml)<br/>- Tags: NayanmarGur
- upujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Nayanmar 
- Saints by Swami Sivananda\, published by The Divine Life Society<br/>- [Ed
- it config file](https://github.com/jyotisham/adyatithi/blob/master/mahApur
- uSha/nAyanmAr/sidereal_solar_month/nakshatra/04/03/mUrtti_nAyan2mAr_%2815%
- 29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:पुगऴ्च्चोऴ नायऩ्मार् (४०
- ) गुरुपूजै
-DTSTART;VALUE=DATE:20240730
-DTEND;VALUE=DATE:20240731
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/04/03/pugazhccOzha_nAyan2mAr_%2840%29_gurupUjai.toml)<br/>- Tags: Nayan
- marGurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Nay
- anmar Saints by Swami Sivananda\, published by The Divine Life Society<br/
- >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/m
- ahApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/04/03/pugazhccOzha_nAya
- n2mAr_%2840%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:शम्भु-पट्टाभिषेकः #३४४
 DTSTART;VALUE=DATE:20240730
 DTEND;VALUE=DATE:20240731
@@ -30555,27 +29797,6 @@ DESCRIPTION:Very widely celebrated in Tamil Nadu temples\, Fridays in the
  ils<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/m
  aster/tamil/description_only/ADi~veLLikkizhamai.toml)<br/>- Tags: MonthWee
  kdayFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:कूऱ्ऱुव नायऩ्मार् (३९) गु
- रुपूजै
-DTSTART;VALUE=DATE:20240802
-DTEND;VALUE=DATE:20240803
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/04/06/kUr2r2uva_nAyan2mAr_%2839%29_gurupUjai.toml)<br/>- Tags: Nayanmar
- Gurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Nayanm
- ar Saints by Swami Sivananda\, published by The Divine Life Society<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahA
- puruSha/nAyanmAr/sidereal_solar_month/nakshatra/04/06/kUr2r2uva_nAyan2mAr_
- %2839%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -31875,28 +31096,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पॆरुमिऴलैक् कुऱुम्ब नाय
- ऩ्मार् (२३) गुरुपूजै
-DTSTART;VALUE=DATE:20240810
-DTEND;VALUE=DATE:20240811
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/04/14/perumizhalaik_kur2umba_nAyan2mAr_%2823%29_gurupUjai.toml)<br/>- T
- ags: NayanmarGurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>
-   - 63 Nayanmar Saints by Swami Sivananda\, published by The Divine Life S
- ociety<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
- b/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/04/14/perumiz
- halaik_kur2umba_nAyan2mAr_%2823%29_gurupUjai.toml)<br/>- Tags: NayanmarGur
- upujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:राक्षसभुवन-युद्धम् #२६१
 DTSTART;VALUE=DATE:20240810
 DTEND;VALUE=DATE:20240811
@@ -32195,29 +31394,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कऴऱिऱ्ऱऱिवार्/चेरमाऩ् प
- ॆरुमाळ् नायऩ्मार् (३७) गुरुप
- ूजै
-DTSTART;VALUE=DATE:20240812
-DTEND;VALUE=DATE:20240813
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/04/15/kazhar2ir2r2ar2ivAr_or_cEramAn2_perumAL_nAyan2mAr_%2837%29_gurupU
- jai.toml)<br/>- Tags: NayanmarGurupujai<br/><br/><br/><br/>## Details<br/>
- - References<br/>  - 63 Nayanmar Saints by Swami Sivananda\, published by 
- The Divine Life Society<br/>- [Edit config file](https://github.com/jyotis
- ham/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/naksha
- tra/04/15/kazhar2ir2r2ar2ivAr_or_cEramAn2_perumAL_nAyan2mAr_%2837%29_gurup
- Ujai.toml)<br/>- Tags: NayanmarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:खाण्डेरावेण हैदरमोचनम् #
  २६४
 DTSTART;VALUE=DATE:20240812
@@ -32247,28 +31423,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahAp
  uruSha/xatra-later/julian/day/08/02/someshvara-mandira-nAshaH.toml)<br/>- 
  Tags:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सुन्दरमूर्त्ति नायऩ्मा
- र् (१) गुरुपूजै/तिरुवाडि स्व
- ाति
-DTSTART;VALUE=DATE:20240812
-DTEND;VALUE=DATE:20240813
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/04/15/sundaramUrtti_nAyan2mAr_%281%29_gurupUjai.toml)<br/>- Tags: Nayan
- marGurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Nay
- anmar Saints by Swami Sivananda\, published by The Divine Life Society<br/
- >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/m
- ahApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/04/15/sundaramUrtti_nAy
- an2mAr_%281%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -32638,48 +31792,6 @@ DESCRIPTION:Event occured on 1947-08-15 (gregorian). <br/><br/>On this day
  p rise in life expectancy.<br/><br/>## Details<br/>- [Edit config file](ht
  tps://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xatra-later/g
  regorian/day/08/15/bhArata-svAtantrya-dinotsavaH.toml)<br/>- Tags:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:कोट्पुलि नायऩ्मार् (५७) ग
- ुरुपूजै
-DTSTART;VALUE=DATE:20240815
-DTEND;VALUE=DATE:20240816
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/04/18/kOTpuli_nAyan2mAr_%2857%29_gurupUjai.toml)<br/>- Tags: NayanmarGu
- rupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Nayanmar
-  Saints by Swami Sivananda\, published by The Divine Life Society<br/>- [E
- dit config file](https://github.com/jyotisham/adyatithi/blob/master/mahApu
- ruSha/nAyanmAr/sidereal_solar_month/nakshatra/04/18/kOTpuli_nAyan2mAr_%285
- 7%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:कलिय नायऩ्मार् (४४) गुरुप
- ूजै
-DTSTART;VALUE=DATE:20240815
-DTEND;VALUE=DATE:20240816
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/04/18/kaliya_nAyan2mAr_%2844%29_gurupUjai.toml)<br/>- Tags: NayanmarGur
- upujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Nayanmar 
- Saints by Swami Sivananda\, published by The Divine Life Society<br/>- [Ed
- it config file](https://github.com/jyotisham/adyatithi/blob/master/mahApur
- uSha/nAyanmAr/sidereal_solar_month/nakshatra/04/18/kaliya_nAyan2mAr_%2844%
- 29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -35249,27 +34361,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:चॆरुत्तुणै नायऩ्मार् (५४
- ) गुरुपूजै
-DTSTART;VALUE=DATE:20240831
-DTEND;VALUE=DATE:20240901
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/05/08/ceruttuNai_nAyan2mAr_%2854%29_gurupUjai.toml)<br/>- Tags: Nayanma
- rGurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Nayan
- mar Saints by Swami Sivananda\, published by The Divine Life Society<br/>-
-  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mah
- ApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/05/08/ceruttuNai_nAyan2mA
- r_%2854%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:घाशीरामो हतः #२३३
 DTSTART;VALUE=DATE:20240831
 DTEND;VALUE=DATE:20240901
@@ -35401,27 +34492,6 @@ DESCRIPTION:Observed on Kr̥ṣṇa-Caturdaśī tithi of Śrāvaṇaḥ (l
  br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/maste
  r/devatA/shaiva/lunar_month/tithi/05/29/aghOra-caturdazI.toml)<br/>- Tags:
   LessCommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:अतिपत्त नायऩ्मार् (४२) गु
- रुपूजै
-DTSTART;VALUE=DATE:20240901
-DTEND;VALUE=DATE:20240902
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/05/09/atipatta_nAyan2mAr_%2842%29_gurupUjai.toml)<br/>- Tags: NayanmarG
- urupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Nayanma
- r Saints by Swami Sivananda\, published by The Divine Life Society<br/>- [
- Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahAp
- uruSha/nAyanmAr/sidereal_solar_month/nakshatra/05/09/atipatta_nAyan2mAr_%2
- 842%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -35572,27 +34642,6 @@ DESCRIPTION:Observed on Amāvāsyā tithi of Śrāvaṇaḥ (lunar) month
  (Āśvinaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [Edit confi
  g file](https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparv
  a/lunar_month/tithi/05/30/devi-parva-5.toml)<br/>- Tags: Devi Parva
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:इळैयाऩ्कुडि माऱ नायऩ्मा
- र् (४) गुरुपूजै
-DTSTART;VALUE=DATE:20240902
-DTEND;VALUE=DATE:20240903
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/05/10/iLaiyAn2kuDi_mAr2a_nAyan2mAr_%284%29_gurupUjai.toml)<br/>- Tags: 
- NayanmarGurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 6
- 3 Nayanmar Saints by Swami Sivananda\, published by The Divine Life Societ
- y<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mas
- ter/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/05/10/iLaiyAn2kuDi
- _mAr2a_nAyan2mAr_%284%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -36846,27 +35895,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कुलच्चिऱै नायऩ्मार् (२२) 
- गुरुपूजै
-DTSTART;VALUE=DATE:20240910
-DTEND;VALUE=DATE:20240911
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/05/17/kulaccir2ai_nAyan2mAr_%2822%29_gurupUjai.toml)<br/>- Tags: Nayanm
- arGurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Naya
- nmar Saints by Swami Sivananda\, published by The Divine Life Society<br/>
- - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/ma
- hApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/05/17/kulaccir2ai_nAyan2
- mAr_%2822%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:भाद्रपदः-06-08  \,वृश्चिकः-ज्
  येष्ठा🌛🌌  \,  सिंहः-पूर्वफल्
  गुनी-05-26🌞🌌  \,  नभस्यः-06-20🌞🪐  \, ब
@@ -37134,27 +36162,6 @@ DESCRIPTION:Observed on Mūlā nakshatra of Siṁhaḥ (sidereal solar) mo
  fig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShN
  ava/sidereal_solar_month/nakshatra/05/19/gajEndra-mOkSaH~2.toml)<br/>- Tag
  s: PuranaEvents
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:कुङ्गिलियक्कलय नायऩ्मा
- र् (११) गुरुपूजै
-DTSTART;VALUE=DATE:20240912
-DTEND;VALUE=DATE:20240913
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/05/19/kuGgiliyakkalaya_nAyan2mAr_%2811%29_gurupUjai.toml)<br/>- Tags: N
- ayanmarGurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63
-  Nayanmar Saints by Swami Sivananda\, published by The Divine Life Society
- <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
- er/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/05/19/kuGgiliyakkal
- aya_nAyan2mAr_%2811%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -38622,27 +37629,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:रुद्र पशुपति नायऩ्मार् (
- १७) गुरुपूजै
-DTSTART;VALUE=DATE:20240920
-DTEND;VALUE=DATE:20240921
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/06/01/rudra~pazupati_nAyan2mAr_%2817%29_gurupUjai.toml)<br/>- Tags: Nay
- anmarGurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 N
- ayanmar Saints by Swami Sivananda\, published by The Divine Life Society<b
- r/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master
- /mahApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/06/01/rudra~pazupati_
- nAyan2mAr_%2817%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:भाद्रपदः-06-19  \,मेषः-अपभरणी
  🌛🌌  \,  कन्या-उत्तरफल्गुनी-06-05
  🌞🌌  \,  नभस्यः-06-30🌞🪐  \, शनिः
@@ -39144,27 +38130,6 @@ DESCRIPTION:Observed on Kr̥ṣṇa-Ṣaṣṭhī tithi of Bhādrapadaḥ
  प्रयच्छ मे॥<br/><br/><br/><br/>## Details<br/>- [Edit 
  config file](https://github.com/jyotisham/adyatithi/blob/master/general/lu
  nar_month/tithi/06/21/kapila-SaSThI.toml)<br/>- Tags: SpecialPuja
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:तिरुनाळैप्पोवार् नायऩ्
- मार् (१८) गुरुपूजै
-DTSTART;VALUE=DATE:20240923
-DTEND;VALUE=DATE:20240924
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/06/04/tirunALaippOvAr_nAyan2mAr_%2818%29_gurupUjai.toml)<br/>- Tags: Na
- yanmarGurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 
- Nayanmar Saints by Swami Sivananda\, published by The Divine Life Society<
- br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/maste
- r/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/06/04/tirunALaippOvA
- r_nAyan2mAr_%2818%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -41585,27 +40550,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:एऩादिनाथ नायऩ्मार् (९) गु
- रुपूजै
-DTSTART;VALUE=DATE:20241011
-DTEND;VALUE=DATE:20241012
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/06/21/En2AdinAtha_nAyan2mAr_%289%29_gurupUjai.toml)<br/>- Tags: Nayanma
- rGurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Nayan
- mar Saints by Swami Sivananda\, published by The Divine Life Society<br/>-
-  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mah
- ApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/06/21/En2AdinAtha_nAyan2m
- Ar_%289%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:भद्रकाळी-पूजा
 DTSTART;VALUE=DATE:20241011
 DTEND;VALUE=DATE:20241012
@@ -42325,28 +41269,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:नरचिङ्गमुऩैयरैय नायऩ्म
- ार् (४१) गुरुपूजै
-DTSTART;VALUE=DATE:20241014
-DTEND;VALUE=DATE:20241015
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/06/24/naraciGgamun2aiyaraiya_nAyan2mAr_%2841%29_gurupUjai.toml)<br/>- T
- ags: NayanmarGurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>
-   - 63 Nayanmar Saints by Swami Sivananda\, published by The Divine Life S
- ociety<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
- b/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/06/24/naraciG
- gamun2aiyaraiya_nAyan2mAr_%2841%29_gurupUjai.toml)<br/>- Tags: NayanmarGur
- upujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:द्विदल-व्रतम्
 DTSTART;VALUE=DATE:20240915
 DTEND;VALUE=DATE:20241015
@@ -42420,14 +41342,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:त्रिस्पर्शा-महाद्वादशी
+SUMMARY:त्रिस्पृशा-महाद्वादशी
 DTSTART;VALUE=DATE:20241014
 DTEND;VALUE=DATE:20241015
-DESCRIPTION:Dvadashi tithi\, which starts after sunrise on a day and ends 
- before sunrise on the next.<br/><br/>## Details<br/>- [Edit config file](h
- ttps://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/dvAda
- shI/description_only/trisparzA~mahAdvAdazI.toml)<br/>- Tags: RareDays Comb
- inations SpecialVratam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/dvAdashI/description_only/tris
+ przA~mahAdvAdazI.toml)<br/>- Tags: RareDays Combinations SpecialVratam<br/
+ ><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyo
+ tisham/adyatithi/blob/master/time_focus/monthly/dvAdashI/description_only/
+ trisprzA~mahAdvAdazI.toml)<br/>- Tags: RareDays Combinations SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -43490,27 +42413,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:इडङ्कऴि नायऩ्मार् (५५) गु
- रुपूजै
-DTSTART;VALUE=DATE:20241020
-DTEND;VALUE=DATE:20241021
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/07/03/iDaGkazhi_nAyan2mAr_%2855%29_gurupUjai.toml)<br/>- Tags: Nayanmar
- Gurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Nayanm
- ar Saints by Swami Sivananda\, published by The Divine Life Society<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahA
- puruSha/nAyanmAr/sidereal_solar_month/nakshatra/07/03/iDaGkazhi_nAyan2mAr_
- %2855%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:कनक-गणेश-व्रतम्
 DTSTART;VALUE=DATE:20241020
 DTEND;VALUE=DATE:20241021
@@ -43532,10 +42434,12 @@ SUMMARY:करक-चतुर्थी
 DTSTART;VALUE=DATE:20241020
 DTEND;VALUE=DATE:20241021
 DESCRIPTION:Karaka chaturthi vratam --- the famous Karwa Chauth festival i
- s celebrated on this day.<br/><br/>## Details<br/>- References<br/>  - Kie
- lhorn (1897)<br/>- [Edit config file](https://github.com/jyotisham/adyatit
- hi/blob/master/devatA/gaNapati/description_only/karaka-caturthI.toml)<br/>
- - Tags: SpecialPuja
+ s celebrated on this day. Only women have the right to perform this vratam
+ . This vratam must be performed for 12 or 16 years or lifelong. At moonris
+ e\, one should offer Arghya to Lord Ganesha and partake the offerings.<br/
+ ><br/>## Details<br/>- References<br/>  - Kielhorn (1897)<br/>- [Edit conf
+ ig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/gaNapat
+ i/description_only/karaka-caturthI.toml)<br/>- Tags: SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -44528,27 +43432,6 @@ DESCRIPTION:- Indian civil date: 1946-08-06\, Islamic: 1446-04-24 Rabīʿ
  गुलिककालः**—13:30-14:57  \n___________________\n- **
  शूलम्**—प्राची (►09:21)\; **परिहार
  ः**–दधि  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:चत्ति नायऩ्मार् (४५) गुरु
- पूजै
-DTSTART;VALUE=DATE:20241028
-DTEND;VALUE=DATE:20241029
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/07/11/catti_nAyan2mAr_%2845%29_gurupUjai.toml)<br/>- Tags: NayanmarGuru
- pujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Nayanmar S
- aints by Swami Sivananda\, published by The Divine Life Society<br/>- [Edi
- t config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuru
- Sha/nAyanmAr/sidereal_solar_month/nakshatra/07/11/catti_nAyan2mAr_%2845%29
- _gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -45823,27 +44706,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पूचलार् नायऩ्मार् (५८) गु
- रुपूजै
-DTSTART;VALUE=DATE:20241104
-DTEND;VALUE=DATE:20241105
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/07/17/pUcalAr_nAyan2mAr_%2858%29_gurupUjai.toml)<br/>- Tags: NayanmarGu
- rupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Nayanmar
-  Saints by Swami Sivananda\, published by The Divine Life Society<br/>- [E
- dit config file](https://github.com/jyotisham/adyatithi/blob/master/mahApu
- ruSha/nAyanmAr/sidereal_solar_month/nakshatra/07/17/pUcalAr_nAyan2mAr_%285
- 8%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-04  \,वृश्चिकः-
  ज्येष्ठा🌛🌌  \,  तुला-स्वाती-07-2
  0🌞🌌  \,  ऊर्जः-08-14🌞🪐  \, मङ्गलः
@@ -46024,28 +44886,6 @@ DESCRIPTION:- Indian civil date: 1946-08-15\, Islamic: 1446-05-04 Jumādā
  10\; **गुलिककालः**—10:37-12:03  \n___________________\
  n- **शूलम्**—उदीची (►12:26)\; **परिहार
  ः**–क्षीरम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:ऐयडिगळ् काडवर्कोऩ् नायऩ
- ्मार् (४६) गुरुपूजै
-DTSTART;VALUE=DATE:20241106
-DTEND;VALUE=DATE:20241107
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/07/19/aiyaDigaL_kADavarkOn2_nAyan2mAr_%2846%29_gurupUjai.toml)<br/>- Ta
- gs: NayanmarGurupujai<br/><br/><br/><br/>## Details<br/>- References<br/> 
-  - 63 Nayanmar Saints by Swami Sivananda\, published by The Divine Life So
- ciety<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob
- /master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/07/19/aiyaDiga
- L_kADavarkOn2_nAyan2mAr_%2846%29_gurupUjai.toml)<br/>- Tags: NayanmarGurup
- ujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -47343,27 +46183,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:तिरुमूल नायऩ्मार् (३०) गु
- रुपूजै
-DTSTART;VALUE=DATE:20241114
-DTEND;VALUE=DATE:20241115
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/07/01/tirumUla_nAyan2mAr_%2830%29_gurupUjai.toml)<br/>- Tags: NayanmarG
- urupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Nayanma
- r Saints by Swami Sivananda\, published by The Divine Life Society<br/>- [
- Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahAp
- uruSha/nAyanmAr/sidereal_solar_month/nakshatra/07/01/tirumUla_nAyan2mAr_%2
- 830%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:व्यतीपात-श्राद्धम्
 DTSTART;VALUE=DATE:20241114
 DTEND;VALUE=DATE:20241115
@@ -47611,28 +46430,6 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Kārttikaḥ (lunar) month
  ub.com/jyotisham/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tith
  i/08/15/manvAdiH~%28dharma-sAvarNiH~%5B11%5D%29.toml)<br/>- Tags: ManvadiD
  ays
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:निऩ्ऱचीर् नॆडुमाऱ नायऩ्
- मार् (४९) गुरुपूजै
-DTSTART;VALUE=DATE:20241115
-DTEND;VALUE=DATE:20241116
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/07/02/nin2r2acIr_neDumAr2a_nAyan2mAr_%2849%29_gurupUjai.toml)<br/>- Tag
- s: NayanmarGurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  
- - 63 Nayanmar Saints by Swami Sivananda\, published by The Divine Life Soc
- iety<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/
- master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/07/02/nin2r2acI
- r_neDumAr2a_nAyan2mAr_%2849%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupuj
- ai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -49281,27 +48078,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मॆय्प्पॊरुळ् नायऩ्मार् (
- ५) गुरुपूजै
-DTSTART;VALUE=DATE:20241125
-DTEND;VALUE=DATE:20241126
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/08/12/meypporuL_nAyan2mAr_%285%29_gurupUjai.toml)<br/>- Tags: NayanmarG
- urupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Nayanma
- r Saints by Swami Sivananda\, published by The Divine Life Society<br/>- [
- Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahAp
- uruSha/nAyanmAr/sidereal_solar_month/nakshatra/08/12/meypporuL_nAyan2mAr_%
- 285%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-26  \,कन्या-हस्
  तः🌛🌌  \,  वृश्चिकः-अनूराधा-08-11
  🌞🌌  \,  सहः-09-05🌞🪐  \, मङ्गलः
@@ -49362,27 +48138,6 @@ DESCRIPTION:- Indian civil date: 1946-09-05\, Islamic: 1446-05-24 Jumādā
  गुलिककालः**—12:06-13:31  \n___________________\n- **
  शूलम्**—उदीची (►10:59)\; **परिहारः**
  –क्षीरम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:आऩाय नायऩ्मार् (१४) गुरुप
- ूजै
-DTSTART;VALUE=DATE:20241126
-DTEND;VALUE=DATE:20241127
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/08/13/An2Aya_nAyan2mAr_%2814%29_gurupUjai.toml)<br/>- Tags: NayanmarGur
- upujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Nayanmar 
- Saints by Swami Sivananda\, published by The Divine Life Society<br/>- [Ed
- it config file](https://github.com/jyotisham/adyatithi/blob/master/mahApur
- uSha/nAyanmAr/sidereal_solar_month/nakshatra/08/13/An2Aya_nAyan2mAr_%2814%
- 29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -50373,27 +49128,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मूर्क्ख नायऩ्मार् (३२) गु
- रुपूजै
-DTSTART;VALUE=DATE:20241203
-DTEND;VALUE=DATE:20241204
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/08/19/mUrkkha_nAyan2mAr_%2832%29_gurupUjai.toml)<br/>- Tags: NayanmarGu
- rupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Nayanmar
-  Saints by Swami Sivananda\, published by The Divine Life Society<br/>- [E
- dit config file](https://github.com/jyotisham/adyatithi/blob/master/mahApu
- ruSha/nAyanmAr/sidereal_solar_month/nakshatra/08/19/mUrkkha_nAyan2mAr_%283
- 2%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:तिन्त्रिणी-गौरी-व्रतम्
 DTSTART;VALUE=DATE:20241203
 DTEND;VALUE=DATE:20241204
@@ -50472,27 +49206,6 @@ DESCRIPTION:- Indian civil date: 1946-09-13\, Islamic: 1446-06-02 Jumādā
  —07:56-09:20\; **गुलिककालः**—10:45-12:09  \n________
  ___________\n- **शूलम्**—उदीची (►12:32)\; **पर
  िहारः**–क्षीरम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:चिऱप्पुलि नायऩ्मार् (३५) 
- गुरुपूजै
-DTSTART;VALUE=DATE:20241204
-DTEND;VALUE=DATE:20241205
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/08/20/cir2appuli_nAyan2mAr_%2835%29_gurupUjai.toml)<br/>- Tags: Nayanma
- rGurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Nayan
- mar Saints by Swami Sivananda\, published by The Divine Life Society<br/>-
-  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mah
- ApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/08/20/cir2appuli_nAyan2mA
- r_%2835%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -51454,23 +50167,12 @@ BEGIN:VEVENT
 SUMMARY:सर्व-मोक्षदा-एकादशी
 DTSTART;VALUE=DATE:20241211
 DTEND;VALUE=DATE:20241212
-DESCRIPTION:The Shukla-paksha Ekadashi of mārgaśīrṣa month is known a
- s mōkṣadā-ēkādaśī.<br/><br/>पक्षे पक्षे च 
- कर्तव्यमेकादश्यामुपोषणम्
- ।  <br/>यदीच्छेद्विष्णुसायुज्
- यं श्रियं सन्ततिमात्मनः।  <br/
- >एकादश्यां न भुञ्जीत पक्षयो
- रुभयोरपि॥  <br/>  <br/>अद्य स्थित्
- वा निराहारः श्वोभूते परमेश
- ्वर।  <br/>भोक्ष्यामि पुण्डरीक
- ाक्ष शरणं मे भवाच्युत॥  <br/>प्
- रमादादथवाऽऽलस्याद्धरे केश
- व माधव।  <br/>व्रतस्यास्य च वै व
- िघ्नो न भवेत्त्वत्प्रसादतः
- ॥  <br/>--पद्मपुराणे<br/><br/><br/><br/>## Details<b
- r/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master
- /time_focus/monthly/ekAdashI/description_only/mOkSadA-EkAdazI.toml)<br/>- 
- Tags: MonthlyVratam EkadashiVratam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/mOkS
+ adA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><
+ br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyat
+ ithi/blob/master/time_focus/monthly/ekAdashI/description_only/mOkSadA-EkAd
+ azI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -51681,27 +50383,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  tails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob
  /master/devatA/kaumAra/sidereal_solar_month/nakshatra/00/03/kRttikA-vratam
  .toml)<br/>- Tags: SpecialVratam
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:कणम्पुल्ल नायऩ्मार् (४७) 
- गुरुपूजै
-DTSTART;VALUE=DATE:20241213
-DTEND;VALUE=DATE:20241214
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/08/03/kaNampulla_nAyan2mAr_%2847%29_gurupUjai.toml)<br/>- Tags: Nayanma
- rGurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Nayan
- mar Saints by Swami Sivananda\, published by The Divine Life Society<br/>-
-  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mah
- ApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/08/03/kaNampulla_nAyan2mA
- r_%2847%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -53296,27 +51977,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:इयऱ्पगै नायऩ्मार् (३) गुर
- ुपूजै
-DTSTART;VALUE=DATE:20241223
-DTEND;VALUE=DATE:20241224
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/09/12/iyar2pagai_nAyan2mAr_%283%29_gurupUjai.toml)<br/>- Tags: Nayanmar
- Gurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Nayanm
- ar Saints by Swami Sivananda\, published by The Divine Life Society<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahA
- puruSha/nAyanmAr/sidereal_solar_month/nakshatra/09/12/iyar2pagai_nAyan2mAr
- _%283%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:मार्गशीर्ष-अष्टका-श्राद
  ्धम्
 DTSTART;VALUE=DATE:20241223
@@ -53645,27 +52305,6 @@ DESCRIPTION:- Indian civil date: 1946-10-05\, Islamic: 1446-06-24 Jumādā
  टः**—06:43-08:07\; **गुलिककालः**—09:31-10:56  \n
  ___________________\n- **शूलम्**—दक्षिणा (►14:
  12)\; **परिहारः**–तैलम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:माऩक्कञ्चाऱ नायऩ्मार् (१
- २) गुरुपूजै
-DTSTART;VALUE=DATE:20241226
-DTEND;VALUE=DATE:20241227
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/09/15/mAn2akkaJcAr2a_nAyan2mAr_%2812%29_gurupUjai.toml)<br/>- Tags: Nay
- anmarGurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 N
- ayanmar Saints by Swami Sivananda\, published by The Divine Life Society<b
- r/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master
- /mahApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/09/15/mAn2akkaJcAr2a_
- nAyan2mAr_%2812%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -54323,27 +52962,6 @@ DESCRIPTION:- Indian civil date: 1946-10-10\, Islamic: 1446-06-29 Jumādā
  टः**—09:34-10:58\; **गुलिककालः**—12:22-13:47  \n
  ___________________\n- **शूलम्**—उदीची (►11:15)\; 
  **परिहारः**–क्षीरम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:चाक्किय नायऩ्मार् (३४) गु
- रुपूजै
-DTSTART;VALUE=DATE:20241231
-DTEND;VALUE=DATE:20250101
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/09/20/cAkkiya_nAyan2mAr_%2834%29_gurupUjai.toml)<br/>- Tags: NayanmarGu
- rupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Nayanmar
-  Saints by Swami Sivananda\, published by The Divine Life Society<br/>- [E
- dit config file](https://github.com/jyotisham/adyatithi/blob/master/mahApu
- ruSha/nAyanmAr/sidereal_solar_month/nakshatra/09/20/cAkkiya_nAyan2mAr_%283
- 4%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
