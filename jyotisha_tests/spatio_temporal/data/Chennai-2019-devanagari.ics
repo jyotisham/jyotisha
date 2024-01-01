@@ -36936,10 +36936,12 @@ SUMMARY:karaka-caturthī
 DTSTART;VALUE=DATE:20191017
 DTEND;VALUE=DATE:20191018
 DESCRIPTION:Karaka chaturthi vratam --- the famous Karwa Chauth festival i
- s celebrated on this day.<br/><br/>## Details<br/>- References<br/>  - Kie
- lhorn (1897)<br/>- [Edit config file](https://github.com/jyotisham/adyatit
- hi/blob/master/devatA/gaNapati/description_only/karaka-caturthI.toml)<br/>
- - Tags: SpecialPuja
+ s celebrated on this day. Only women have the right to perform this vratam
+ . This vratam must be performed for 12 or 16 years or lifelong. At moonris
+ e\, one should offer Arghya to Lord Ganesha and partake the offerings.<br/
+ ><br/>## Details<br/>- References<br/>  - Kielhorn (1897)<br/>- [Edit conf
+ ig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/gaNapat
+ i/description_only/karaka-caturthI.toml)<br/>- Tags: SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -43865,17 +43867,12 @@ BEGIN:VEVENT
 SUMMARY:sarva-mōkṣadā-ēkādaśī
 DTSTART;VALUE=DATE:20191208
 DTEND;VALUE=DATE:20191209
-DESCRIPTION:The Shukla-paksha Ekadashi of mārgaśīrṣa month is known a
- s mōkṣadā-ēkādaśī.<br/><br/>pakṣē pakṣē ca kartavyamēkāda
- śyāmupōṣaṇam।  <br/>yadīcchēdviṣṇusāyujyaṁ śriyaṁ san
- tatimātmanaḥ।  <br/>ēkādaśyāṁ na bhuñjīta pakṣayōrubhayōr
- api॥  <br/>  <br/>adya sthitvā nirāhāraḥ śvōbhūtē paramēśvara
- ।  <br/>bhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta
- ॥  <br/>pramādādathavā''lasyāddharē kēśava mādhava।  <br/>vrat
- asyāsya ca vai vighnō na bhavēttvatprasādataḥ॥  <br/>--padmapurā
- ṇē<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://githu
- b.com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI/descript
- ion_only/mOkSadA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/ekAdashI/description_only/mOkS
+ adA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam<br/><br/><br/><
+ br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyat
+ ithi/blob/master/time_focus/monthly/ekAdashI/description_only/mOkSadA-EkAd
+ azI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
