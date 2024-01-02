@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20240102090149
+SEQUENCE:20240102094116
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -37942,9 +37942,9 @@ DTSTART;VALUE=DATE:20240921
 DTEND;VALUE=DATE:20240922
 DESCRIPTION:Observed on Apabharaṇī nakshatra of Bhādrapadaḥ (lunar) 
  month (Aparāhṇaḥ/vyaapti). <br/><br/><br/><br/>## Details<br/>- [Edit
-  config file](https://github.com/jyotisham/adyatithi/blob/master/general/l
- unar_month/nakshatra/06/02/mahAbharaNI.toml)<br/>- Tags: SpecialPuja Commo
- nFestivals
+  config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pi
+ tR/lunar_month/nakshatra/06/02/mahAbharaNI.toml)<br/>- Tags: SpecialPuja C
+ ommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -38674,8 +38674,8 @@ DESCRIPTION:Observed on Kr̥ṣṇa-Navamī tithi of Bhādrapadaḥ (lunar
  वा मृता।  <br/>तस्याः स्थाने नि
  युञ्जीत विप्रैः सह सुवासिन
  ीम्॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https:
- //github.com/jyotisham/adyatithi/blob/master/devatA/shakti/lunar_month/tit
- hi/06/24/avidhavA-navamI.toml)<br/>- Tags: SpecialPuja CommonFestivals
+ //github.com/jyotisham/adyatithi/blob/master/devatA/pitR/lunar_month/tithi
+ /06/24/avidhavA-navamI.toml)<br/>- Tags: SpecialPuja CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -39124,9 +39124,9 @@ DTSTART;VALUE=DATE:20240929
 DTEND;VALUE=DATE:20240930
 DESCRIPTION:Observed on Kr̥ṣṇa-Dvādaśī tithi of Bhādrapadaḥ (lu
  nar) month (Aparāhṇaḥ/vyaapti). <br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time
- _focus/misc/lunar_month/tithi/06/27/yati-mahAlayam.toml)<br/>- Tags: Speci
- alPuja CommonFestivals CommonFestivals
+ [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/deva
+ tA/pitR/lunar_month/tithi/06/27/yati-mahAlayam.toml)<br/>- Tags: SpecialPu
+ ja CommonFestivals CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -41030,11 +41030,12 @@ BEGIN:VEVENT
 SUMMARY:बुद्ध-जयन्ती
 DTSTART;VALUE=DATE:20241012
 DTEND;VALUE=DATE:20241013
-DESCRIPTION:Observed on Śukla-Daśamī tithi of Āśvayujaḥ (lunar) mon
- th (Sūryāstamayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahA
- puruSha/general-indic-non-tropical/lunar_month/tithi/07/10/buddha~jayantI.
- toml)<br/>- Tags: Dashavataram LessCommonFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/07/10/buddha~j
+ ayantI.toml)<br/>- Tags: Dashavataram LessCommonFestivals<br/><br/><br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/blob/master/devatA/vaiShNava/lunar_month/tithi/07/10/buddha~jayantI.to
+ ml)<br/>- Tags: Dashavataram LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
