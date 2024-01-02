@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20240102075358
+SEQUENCE:20240102082712
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -10519,12 +10519,12 @@ BEGIN:VEVENT
 SUMMARY:कलियुगादिः
 DTSTART;VALUE=DATE:20240310
 DTEND;VALUE=DATE:20240311
-DESCRIPTION:Observed on Amāvāsyā tithi of Māghaḥ (lunar) month (Apar
- āhṇaḥ/vyaapti). <br/><br/>Perform samudrasnānam and śrāddham.<br/>
- <br/>## Details<br/>- References<br/>  - Vaidyanātha-Dīkṣitīyam<br/>-
-  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/tim
- e_focus/yugAdiH/lunar_month/tithi/11/30/kaliyugAdiH.toml)<br/>- Tags: Yuga
- diDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tithi/11/30/kaliyu
+ gAdiH.toml)<br/>- Tags: YugadiDays<br/><br/><br/><br/>## Details<br/>- Ref
+ erences<br/>  - Vaidyanātha-Dīkṣitīyam<br/>- [Edit config file](https
+ ://github.com/jyotisham/adyatithi/blob/master/time_focus/yugAdiH/lunar_mon
+ th/tithi/11/30/kaliyugAdiH.toml)<br/>- Tags: YugadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20890,12 +20890,12 @@ BEGIN:VEVENT
 SUMMARY:कृतयुगादिः
 DTSTART;VALUE=DATE:20240510
 DTEND;VALUE=DATE:20240511
-DESCRIPTION:Observed on Śukla-Tr̥tīyā tithi of Vaiśākhaḥ (lunar) m
- onth (Aparāhṇaḥ/vyaapti). <br/><br/>Perform samudrasnānam and śrād
- dham.<br/><br/>## Details<br/>- References<br/>  - Vaidyanātha-Dīkṣit
- īyam<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob
- /master/time_focus/yugAdiH/lunar_month/tithi/02/03/kRtayugAdiH.toml)<br/>-
-  Tags: YugadiDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tithi/02/03/kRtayu
+ gAdiH.toml)<br/>- Tags: YugadiDays<br/><br/><br/><br/>## Details<br/>- Ref
+ erences<br/>  - Vaidyanātha-Dīkṣitīyam<br/>- [Edit config file](https
+ ://github.com/jyotisham/adyatithi/blob/master/time_focus/yugAdiH/lunar_mon
+ th/tithi/02/03/kRtayugAdiH.toml)<br/>- Tags: YugadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -44195,12 +44195,12 @@ BEGIN:VEVENT
 SUMMARY:द्वापरयुगादिः
 DTSTART;VALUE=DATE:20240930
 DTEND;VALUE=DATE:20241001
-DESCRIPTION:Observed on Kr̥ṣṇa-Trayōdaśī tithi of Bhādrapadaḥ (
- lunar) month (Aparāhṇaḥ/vyaapti). <br/><br/>Perform samudrasnānam an
- d śrāddham.<br/><br/>## Details<br/>- References<br/>  - Vaidyanātha-D
- īkṣitīyam<br/>- [Edit config file](https://github.com/jyotisham/adyati
- thi/blob/master/time_focus/yugAdiH/lunar_month/tithi/06/28/dvAparayugAdiH.
- toml)<br/>- Tags: YugadiDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tithi/06/28/dvApar
+ ayugAdiH.toml)<br/>- Tags: YugadiDays<br/><br/><br/><br/>## Details<br/>- 
+ References<br/>  - Vaidyanātha-Dīkṣitīyam<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/blob/master/time_focus/yugAdiH/lunar_
+ month/tithi/06/28/dvAparayugAdiH.toml)<br/>- Tags: YugadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -51120,12 +51120,12 @@ BEGIN:VEVENT
 SUMMARY:त्रेतायुगादिः
 DTSTART;VALUE=DATE:20241110
 DTEND;VALUE=DATE:20241111
-DESCRIPTION:Observed on Śukla-Navamī tithi of Kārttikaḥ (lunar) month
-  (Sāṅgavaḥ/paraviddha). <br/><br/>Perform samudrasnānam and śrāddh
- am.<br/><br/>## Details<br/>- References<br/>  - Vaidyanātha-Dīkṣitīy
- am<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/ma
- ster/time_focus/yugAdiH/lunar_month/tithi/08/09/trEtAyugAdiH.toml)<br/>- T
- ags: YugadiDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tithi/08/09/trEtAy
+ ugAdiH.toml)<br/>- Tags: YugadiDays<br/><br/><br/><br/>## Details<br/>- Re
+ ferences<br/>  - Vaidyanātha-Dīkṣitīyam<br/>- [Edit config file](http
+ s://github.com/jyotisham/adyatithi/blob/master/time_focus/yugAdiH/lunar_mo
+ nth/tithi/08/09/trEtAyugAdiH.toml)<br/>- Tags: YugadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
