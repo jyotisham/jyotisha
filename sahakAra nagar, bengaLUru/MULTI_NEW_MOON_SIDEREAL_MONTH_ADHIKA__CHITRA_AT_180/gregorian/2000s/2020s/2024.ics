@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20240102082604
+SEQUENCE:20240102083046
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -291,10 +291,14 @@ SUMMARY:मार्गशीर्ष-अष्टका-पूर्व
  ेद्युः
 DTSTART;VALUE=DATE:20240103
 DTEND;VALUE=DATE:20240104
-DESCRIPTION:Shannavati Shraddham Day.<br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/re
- lative_event/mArgazIrSa-aSTakA-zrAddham/offset__-1/mArgazIrSa-aSTakA-pUrvE
- dyuH.toml)<br/>- Tags: ShannavatiTarpanaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/relative_event/mArgazIrSa-aSTakA-zrAd
+ dham/offset__-1/mArgazIrSa-aSTakA-pUrvEdyuH.toml)<br/>- Tags: ShannavatiTa
+ rpanaDays<br/><br/><br/><br/>## Details<br/>- References<br/>  - Vaidyanā
+ tha-Dīkṣitīyam<br/>- [Edit config file](https://github.com/jyotisham/a
+ dyatithi/blob/master/devatA/pitR/relative_event/mArgazIrSa-aSTakA-zrAddham
+ /offset__-1/mArgazIrSa-aSTakA-pUrvEdyuH.toml)<br/>- Tags: ShannavatiTarpan
+ aDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -395,11 +399,13 @@ SUMMARY:मार्गशीर्ष-अष्टका-श्राद
  ्धम्
 DTSTART;VALUE=DATE:20240104
 DTEND;VALUE=DATE:20240105
-DESCRIPTION:Observed on Kr̥ṣṇa-Aṣṭamī tithi of Mārgaśīrṣa
- ḥ (lunar) month (Aparāhṇaḥ/vyaapti). <br/><br/><br/><br/>## Details
- <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
- er/devatA/pitR/lunar_month/tithi/09/23/mArgazIrSa-aSTakA-zrAddham.toml)<br
- />- Tags: ShannavatiTarpanaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/lunar_month/tithi/09/23/mArgazIrSa-aS
+ TakA-zrAddham.toml)<br/>- Tags: ShannavatiTarpanaDays<br/><br/><br/><br/>#
+ # Details<br/>- References<br/>  - Vaidyanātha-Dīkṣitīyam<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pi
+ tR/lunar_month/tithi/09/23/mArgazIrSa-aSTakA-zrAddham.toml)<br/>- Tags: Sh
+ annavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -498,10 +504,14 @@ SUMMARY:मार्गशीर्ष-अन्वष्टका-श्
  राद्धम्
 DTSTART;VALUE=DATE:20240105
 DTEND;VALUE=DATE:20240106
-DESCRIPTION:Shannavati Shraddham Day.<br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/re
- lative_event/mArgazIrSa-aSTakA-zrAddham/offset__01/mArgazIrSa-anvaSTakA-zr
- Addham.toml)<br/>- Tags: ShannavatiTarpanaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/relative_event/mArgazIrSa-aSTakA-zrAd
+ dham/offset__01/mArgazIrSa-anvaSTakA-zrAddham.toml)<br/>- Tags: Shannavati
+ TarpanaDays<br/><br/><br/><br/>## Details<br/>- References<br/>  - Vaidyan
+ ātha-Dīkṣitīyam<br/>- [Edit config file](https://github.com/jyotisham
+ /adyatithi/blob/master/devatA/pitR/relative_event/mArgazIrSa-aSTakA-zrAddh
+ am/offset__01/mArgazIrSa-anvaSTakA-zrAddham.toml)<br/>- Tags: ShannavatiTa
+ rpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4166,10 +4176,13 @@ BEGIN:VEVENT
 SUMMARY:पौष-अष्टका-पूर्वेद्युः
 DTSTART;VALUE=DATE:20240202
 DTEND;VALUE=DATE:20240203
-DESCRIPTION:Shannavati Shraddham Day.<br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/re
- lative_event/pauSa-aSTakA-zrAddham/offset__-1/pauSa-aSTakA-pUrvEdyuH.toml)
- <br/>- Tags: ShannavatiTarpanaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/relative_event/pauSa-aSTakA-zrAddham/
+ offset__-1/pauSa-aSTakA-pUrvEdyuH.toml)<br/>- Tags: ShannavatiTarpanaDays<
+ br/><br/><br/><br/>## Details<br/>- References<br/>  - Vaidyanātha-Dīk
+ ṣitīyam<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/devatA/pitR/relative_event/pauSa-aSTakA-zrAddham/offset__-1/p
+ auSa-aSTakA-pUrvEdyuH.toml)<br/>- Tags: ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4303,11 +4316,12 @@ BEGIN:VEVENT
 SUMMARY:पौष-अष्टका-श्राद्धम्
 DTSTART;VALUE=DATE:20240203
 DTEND;VALUE=DATE:20240204
-DESCRIPTION:Observed on Kr̥ṣṇa-Aṣṭamī tithi of Pauṣaḥ (lunar
- ) month (Aparāhṇaḥ/vyaapti). <br/><br/><br/><br/>## Details<br/>- [Ed
- it config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/
- pitR/lunar_month/tithi/10/23/pauSa-aSTakA-zrAddham.toml)<br/>- Tags: Shann
- avatiTarpanaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/lunar_month/tithi/10/23/pauSa-aSTakA-
+ zrAddham.toml)<br/>- Tags: ShannavatiTarpanaDays<br/><br/><br/><br/>## Det
+ ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/
+ master/devatA/pitR/lunar_month/tithi/10/23/pauSa-aSTakA-zrAddham.toml)<br/
+ >- Tags: ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4440,10 +4454,13 @@ BEGIN:VEVENT
 SUMMARY:पौष-अन्वष्टका-श्राद्धम्
 DTSTART;VALUE=DATE:20240204
 DTEND;VALUE=DATE:20240205
-DESCRIPTION:Shannavati Shraddham Day.<br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/re
- lative_event/pauSa-aSTakA-zrAddham/offset__01/pauSa-anvaSTakA-zrAddham.tom
- l)<br/>- Tags: ShannavatiTarpanaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/relative_event/pauSa-aSTakA-zrAddham/
+ offset__01/pauSa-anvaSTakA-zrAddham.toml)<br/>- Tags: ShannavatiTarpanaDay
+ s<br/><br/><br/><br/>## Details<br/>- References<br/>  - Vaidyanātha-Dīk
+ ṣitīyam<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/devatA/pitR/relative_event/pauSa-aSTakA-zrAddham/offset__01/p
+ auSa-anvaSTakA-zrAddham.toml)<br/>- Tags: ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7388,10 +7405,14 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Māghaḥ (lunar) month (P
   before sunrise (during aruṇōdayaḥ\, when the Moon is still up\, on t
  he full-moon days of āṣāḍha\, kārttika\, māgha and vaiśākha – 
  hence the name ā-kā-mā-vai) bestows strength\, beauty\, fame\, dharma\,
-  knowledge\, happiness\, fortitude and health.<br/><br/>## Details<br/>- R
- eferences<br/>  - Satyavrata Smriti<br/>- [Edit config file](https://githu
- b.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/11/15/mAgh
- a-pUrNimA-snAnam.toml)<br/>- Tags: SpecialSnanam
+  knowledge\, happiness\, fortitude and health.<br/><br/>भविष्य
+ े---  <br/>वैशाखी कार्तिकी माघी ह
+ ्याषाढ्यप्यतिपुण्यदाः।  <br/>
+ स्नानदानविहीना वै तासु रौर
+ वगामिनः॥<br/><br/><br/><br/>## Details<br/>- References<br
+ />  - Satyavrata Smriti<br/>- [Edit config file](https://github.com/jyotis
+ ham/adyatithi/blob/master/general/lunar_month/tithi/11/15/mAgha-pUrNimA-sn
+ Anam.toml)<br/>- Tags: SpecialSnanam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8189,10 +8210,13 @@ BEGIN:VEVENT
 SUMMARY:माघ-अष्टका-पूर्वेद्युः
 DTSTART;VALUE=DATE:20240302
 DTEND;VALUE=DATE:20240303
-DESCRIPTION:Shannavati Shraddham Day.<br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/re
- lative_event/mAgha-aSTakA-zrAddham/offset__-1/mAgha-aSTakA-pUrvEdyuH.toml)
- <br/>- Tags: ShannavatiTarpanaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/relative_event/mAgha-aSTakA-zrAddham/
+ offset__-1/mAgha-aSTakA-pUrvEdyuH.toml)<br/>- Tags: ShannavatiTarpanaDays<
+ br/><br/><br/><br/>## Details<br/>- References<br/>  - Vaidyanātha-Dīk
+ ṣitīyam<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/devatA/pitR/relative_event/mAgha-aSTakA-zrAddham/offset__-1/m
+ Agha-aSTakA-pUrvEdyuH.toml)<br/>- Tags: ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8367,11 +8391,13 @@ BEGIN:VEVENT
 SUMMARY:माघ-अष्टका-श्राद्धम्
 DTSTART;VALUE=DATE:20240303
 DTEND;VALUE=DATE:20240304
-DESCRIPTION:Observed on Kr̥ṣṇa-Aṣṭamī tithi of Māghaḥ (lunar)
-  month (Aparāhṇaḥ/vyaapti). <br/><br/><br/><br/>## Details<br/>- [Edi
- t config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/p
- itR/lunar_month/tithi/11/23/mAgha-aSTakA-zrAddham.toml)<br/>- Tags: Shanna
- vatiTarpanaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/lunar_month/tithi/11/23/mAgha-aSTakA-
+ zrAddham.toml)<br/>- Tags: ShannavatiTarpanaDays<br/><br/><br/><br/>## Det
+ ails<br/>- References<br/>  - Vaidyanātha-Dīkṣitīyam<br/>- [Edit conf
+ ig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/lu
+ nar_month/tithi/11/23/mAgha-aSTakA-zrAddham.toml)<br/>- Tags: ShannavatiTa
+ rpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8486,10 +8512,13 @@ BEGIN:VEVENT
 SUMMARY:माघ-अन्वष्टका-श्राद्धम्
 DTSTART;VALUE=DATE:20240304
 DTEND;VALUE=DATE:20240305
-DESCRIPTION:Shannavati Shraddham Day.<br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/re
- lative_event/mAgha-aSTakA-zrAddham/offset__01/mAgha-anvaSTakA-zrAddham.tom
- l)<br/>- Tags: ShannavatiTarpanaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/relative_event/mAgha-aSTakA-zrAddham/
+ offset__01/mAgha-anvaSTakA-zrAddham.toml)<br/>- Tags: ShannavatiTarpanaDay
+ s<br/><br/><br/><br/>## Details<br/>- References<br/>  - Vaidyanātha-Dīk
+ ṣitīyam<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/devatA/pitR/relative_event/mAgha-aSTakA-zrAddham/offset__01/m
+ Agha-anvaSTakA-zrAddham.toml)<br/>- Tags: ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12400,10 +12429,13 @@ SUMMARY:फाल्गुन-अष्टका-पूर्वेद्
  युः
 DTSTART;VALUE=DATE:20240401
 DTEND;VALUE=DATE:20240402
-DESCRIPTION:Shannavati Shraddham Day.<br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/re
- lative_event/phAlguna-aSTakA-zrAddham/offset__-1/phAlguna-aSTakA-pUrvEdyuH
- .toml)<br/>- Tags: ShannavatiTarpanaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/relative_event/phAlguna-aSTakA-zrAddh
+ am/offset__-1/phAlguna-aSTakA-pUrvEdyuH.toml)<br/>- Tags: ShannavatiTarpan
+ aDays<br/><br/><br/><br/>## Details<br/>- References<br/>  - Vaidyanātha-
+ Dīkṣitīyam<br/>- [Edit config file](https://github.com/jyotisham/adyat
+ ithi/blob/master/devatA/pitR/relative_event/phAlguna-aSTakA-zrAddham/offse
+ t__-1/phAlguna-aSTakA-pUrvEdyuH.toml)<br/>- Tags: ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12509,11 +12541,13 @@ SUMMARY:फाल्गुन-अष्टका-श्राद्धम
  ्
 DTSTART;VALUE=DATE:20240402
 DTEND;VALUE=DATE:20240403
-DESCRIPTION:Observed on Kr̥ṣṇa-Aṣṭamī tithi of Phālgunaḥ (lun
- ar) month (Aparāhṇaḥ/vyaapti). <br/><br/><br/><br/>## Details<br/>- [
- Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devat
- A/pitR/lunar_month/tithi/12/23/phAlguna-aSTakA-zrAddham.toml)<br/>- Tags: 
- ShannavatiTarpanaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/lunar_month/tithi/12/23/phAlguna-aSTa
+ kA-zrAddham.toml)<br/>- Tags: ShannavatiTarpanaDays<br/><br/><br/><br/>## 
+ Details<br/>- References<br/>  - Vaidyanātha-Dīkṣitīyam<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR
+ /lunar_month/tithi/12/23/phAlguna-aSTakA-zrAddham.toml)<br/>- Tags: Shanna
+ vatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12600,10 +12634,14 @@ SUMMARY:फाल्गुन-अन्वष्टका-श्राद
  ्धम्
 DTSTART;VALUE=DATE:20240403
 DTEND;VALUE=DATE:20240404
-DESCRIPTION:Shannavati Shraddham Day.<br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/re
- lative_event/phAlguna-aSTakA-zrAddham/offset__01/phAlguna-anvaSTakA-zrAddh
- am.toml)<br/>- Tags: ShannavatiTarpanaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/relative_event/phAlguna-aSTakA-zrAddh
+ am/offset__01/phAlguna-anvaSTakA-zrAddham.toml)<br/>- Tags: ShannavatiTarp
+ anaDays<br/><br/><br/><br/>## Details<br/>- References<br/>  - Vaidyanāth
+ a-Dīkṣitīyam<br/>- [Edit config file](https://github.com/jyotisham/ady
+ atithi/blob/master/devatA/pitR/relative_event/phAlguna-aSTakA-zrAddham/off
+ set__01/phAlguna-anvaSTakA-zrAddham.toml)<br/>- Tags: ShannavatiTarpanaDay
+ s
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20504,19 +20542,12 @@ BEGIN:VEVENT
 SUMMARY:वैशाख-पूर्णिमा-स्नानम्
 DTSTART;VALUE=DATE:20240523
 DTEND;VALUE=DATE:20240524
-DESCRIPTION:Observed on Paurṇamāsī tithi of Vaiśākhaḥ (lunar) mont
- h (Prāktanāruṇōdayaḥ/paraviddha). <br/><br/>Perform snana four ghat
- ikas before sunrise (during aruṇōdayaḥ\, when the Moon is still up\, 
- on the full-moon days of āṣāḍha\, kārttika\, māgha and vaiśākha 
- – hence the name ā-kā-mā-vai) bestows strength\, beauty\, fame\, dhar
- ma\, knowledge\, happiness\, fortitude and health.<br/><br/>बलं र
- ूपं यशो धर्मं ज्ञानमायुः सु
- खं धृतिम्।  <br/>आरोग्यं परमाप
- ्नोति सम्यक् स्नानेन मानवः
- ॥<br/><br/><br/><br/>## Details<br/>- References<br/>  - Satyavrata Smri
- ti<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/ma
- ster/time_focus/misc/lunar_month/tithi/02/15/vaizAkha-pUrNimA-snAnam.toml)
- <br/>- Tags: SpecialSnanam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/02/15/vaizAkha-pUrNimA-
+ snAnam.toml)<br/>- Tags: SpecialSnanam<br/><br/><br/><br/>## Details<br/>-
+  References<br/>  - Satyavrata Smriti<br/>- [Edit config file](https://git
+ hub.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/02/15/va
+ izAkha-pUrNimA-snAnam.toml)<br/>- Tags: SpecialSnanam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -28222,15 +28253,12 @@ BEGIN:VEVENT
 SUMMARY:आषाढ-पूर्णिमा-स्नानम्
 DTSTART;VALUE=DATE:20240721
 DTEND;VALUE=DATE:20240722
-DESCRIPTION:Observed on Paurṇamāsī tithi of Āṣāḍhaḥ (lunar) mo
- nth (Prāktanāruṇōdayaḥ/paraviddha). <br/><br/>Perform snana four gh
- atikas before sunrise (during aruṇodayaḥ\, when the Moon is still up\,
-  on the full-moon days of āṣāḍha\, kārttika\, māgha and vaiśākha
-  – hence the name ā-kā-mā-vai) bestows strength\, beauty\, fame\, dha
- rma\, knowledge\, happiness\, fortitude and health.<br/><br/>## Details<br
- />- References<br/>  - Satyavrata Smriti<br/>- [Edit config file](https://
- github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/04/15
- /ASADha-pUrNimA-snAnam.toml)<br/>- Tags: SpecialSnanam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/04/15/ASADha-pUrNimA-sn
+ Anam.toml)<br/>- Tags: SpecialSnanam<br/><br/><br/><br/>## Details<br/>- R
+ eferences<br/>  - Satyavrata Smriti<br/>- [Edit config file](https://githu
+ b.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/04/15/ASAD
+ ha-pUrNimA-snAnam.toml)<br/>- Tags: SpecialSnanam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -46404,15 +46432,12 @@ SUMMARY:कार्त्तिक-पूर्णिमा-स्ना
  नम्
 DTSTART;VALUE=DATE:20241115
 DTEND;VALUE=DATE:20241116
-DESCRIPTION:Observed on Paurṇamāsī tithi of Kārttikaḥ (lunar) month
-  (Prāktanāruṇōdayaḥ/paraviddha). <br/><br/>Perform snana four ghati
- kas before sunrise (during aruṇodayaḥ\, when the Moon is still up\, on
-  the full-moon days of āṣāḍha\, kārttika\, māgha and vaiśākha 
- – hence the name ā-kā-mā-vai) bestows strength\, beauty\, fame\, dhar
- ma\, knowledge\, happiness\, fortitude and health.<br/><br/>## Details<br/
- >- References<br/>  - Satyavrata Smriti<br/>- [Edit config file](https://g
- ithub.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/08/15/
- kArttika-pUrNimA-snAnam.toml)<br/>- Tags: SpecialSnanam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/08/15/kArttika-pUrNimA-
+ snAnam.toml)<br/>- Tags: SpecialSnanam<br/><br/><br/><br/>## Details<br/>-
+  References<br/>  - Satyavrata Smriti<br/>- [Edit config file](https://git
+ hub.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/08/15/kA
+ rttika-pUrNimA-snAnam.toml)<br/>- Tags: SpecialSnanam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -51887,10 +51912,14 @@ SUMMARY:मार्गशीर्ष-अष्टका-पूर्व
  ेद्युः
 DTSTART;VALUE=DATE:20241222
 DTEND;VALUE=DATE:20241223
-DESCRIPTION:Shannavati Shraddham Day.<br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/re
- lative_event/mArgazIrSa-aSTakA-zrAddham/offset__-1/mArgazIrSa-aSTakA-pUrvE
- dyuH.toml)<br/>- Tags: ShannavatiTarpanaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/relative_event/mArgazIrSa-aSTakA-zrAd
+ dham/offset__-1/mArgazIrSa-aSTakA-pUrvEdyuH.toml)<br/>- Tags: ShannavatiTa
+ rpanaDays<br/><br/><br/><br/>## Details<br/>- References<br/>  - Vaidyanā
+ tha-Dīkṣitīyam<br/>- [Edit config file](https://github.com/jyotisham/a
+ dyatithi/blob/master/devatA/pitR/relative_event/mArgazIrSa-aSTakA-zrAddham
+ /offset__-1/mArgazIrSa-aSTakA-pUrvEdyuH.toml)<br/>- Tags: ShannavatiTarpan
+ aDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -52005,11 +52034,13 @@ SUMMARY:मार्गशीर्ष-अष्टका-श्राद
  ्धम्
 DTSTART;VALUE=DATE:20241223
 DTEND;VALUE=DATE:20241224
-DESCRIPTION:Observed on Kr̥ṣṇa-Aṣṭamī tithi of Mārgaśīrṣa
- ḥ (lunar) month (Aparāhṇaḥ/vyaapti). <br/><br/><br/><br/>## Details
- <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
- er/devatA/pitR/lunar_month/tithi/09/23/mArgazIrSa-aSTakA-zrAddham.toml)<br
- />- Tags: ShannavatiTarpanaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/lunar_month/tithi/09/23/mArgazIrSa-aS
+ TakA-zrAddham.toml)<br/>- Tags: ShannavatiTarpanaDays<br/><br/><br/><br/>#
+ # Details<br/>- References<br/>  - Vaidyanātha-Dīkṣitīyam<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pi
+ tR/lunar_month/tithi/09/23/mArgazIrSa-aSTakA-zrAddham.toml)<br/>- Tags: Sh
+ annavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -52146,10 +52177,14 @@ SUMMARY:मार्गशीर्ष-अन्वष्टका-श्
  राद्धम्
 DTSTART;VALUE=DATE:20241224
 DTEND;VALUE=DATE:20241225
-DESCRIPTION:Shannavati Shraddham Day.<br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/re
- lative_event/mArgazIrSa-aSTakA-zrAddham/offset__01/mArgazIrSa-anvaSTakA-zr
- Addham.toml)<br/>- Tags: ShannavatiTarpanaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/relative_event/mArgazIrSa-aSTakA-zrAd
+ dham/offset__01/mArgazIrSa-anvaSTakA-zrAddham.toml)<br/>- Tags: Shannavati
+ TarpanaDays<br/><br/><br/><br/>## Details<br/>- References<br/>  - Vaidyan
+ ātha-Dīkṣitīyam<br/>- [Edit config file](https://github.com/jyotisham
+ /adyatithi/blob/master/devatA/pitR/relative_event/mArgazIrSa-aSTakA-zrAddh
+ am/offset__01/mArgazIrSa-anvaSTakA-zrAddham.toml)<br/>- Tags: ShannavatiTa
+ rpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
