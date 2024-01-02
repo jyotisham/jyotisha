@@ -1054,9 +1054,10 @@ DTEND;VALUE=DATE:20190111
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/devatA/pitR/description_only/mahAdhanurvyatIpAta-
  zrAddham.toml)<br/>- Tags: ShraddhaDays<br/><br/><br/><br/>## Details<br/>
- - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/de
- vatA/pitR/description_only/mahAdhanurvyatIpAta-zrAddham.toml)<br/>- Tags: 
- ShraddhaDays
+ - References<br/>  - Smriti Muktaphalam Shraddha Kanda Uttarabhaga<br/>- [
+ Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devat
+ A/pitR/description_only/mahAdhanurvyatIpAta-zrAddham.toml)<br/>- Tags: Shr
+ addhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2284,10 +2285,15 @@ SUMMARY:vaidhr̥ti-śrāddham
 DTSTART;VALUE=DATE:20190120
 DTEND;VALUE=DATE:20190121
 DESCRIPTION:Observed on every occurrence of Vaidhr̥tiḥ yoga (Aparāhṇ
- aḥ/vyaapti). <br/><br/>Vaidhrti Shraddha day.<br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/deva
- tA/pitR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham.toml)<br/>- Tags
- : MonthlyShraddhaDays ShannavatiTarpanaDays
+ aḥ/vyaapti). <br/><br/>Vaidhrti Shraddha day.<br/><br/>smr̥tyantarē---
+   <br/>amā pātaśca saṅkrāntistathā vaidhr̥tirēva ca।  <br/>aṣ
+ ṭakāścaiva manvādiryugādiśca mahālayaḥ॥  <br/>candrasūryōpar
+ āgaśca gajacchāyā tathaiva ca।  <br/>dravyabrāhmaṇasampattiḥ ś
+ rāddhakālāḥ prakīrtitāḥ॥<br/><br/><br/><br/>## Details<br/>- Re
+ ferences<br/>  - Smriti Muktaphalam Shraddha Kanda Uttarabhaga<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pi
+ tR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham.toml)<br/>- Tags: Mon
+ thlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3069,10 +3075,13 @@ BEGIN:VEVENT
 SUMMARY:pauṣa-aṣṭakā-pūrvēdyuḥ
 DTSTART;VALUE=DATE:20190127
 DTEND;VALUE=DATE:20190128
-DESCRIPTION:Shannavati Shraddham Day.<br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/re
- lative_event/pauSa-aSTakA-zrAddham/offset__-1/pauSa-aSTakA-pUrvEdyuH.toml)
- <br/>- Tags: ShannavatiTarpanaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/relative_event/pauSa-aSTakA-zrAddham/
+ offset__-1/pauSa-aSTakA-pUrvEdyuH.toml)<br/>- Tags: ShannavatiTarpanaDays<
+ br/><br/><br/><br/>## Details<br/>- References<br/>  - Vaidyanātha-Dīk
+ ṣitīyam<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/devatA/pitR/relative_event/pauSa-aSTakA-zrAddham/offset__-1/p
+ auSa-aSTakA-pUrvEdyuH.toml)<br/>- Tags: ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3158,11 +3167,12 @@ BEGIN:VEVENT
 SUMMARY:pauṣa-aṣṭakā-śrāddham
 DTSTART;VALUE=DATE:20190128
 DTEND;VALUE=DATE:20190129
-DESCRIPTION:Observed on Kr̥ṣṇa-Aṣṭamī tithi of Pauṣaḥ (lunar
- ) month (Aparāhṇaḥ/vyaapti). <br/><br/><br/><br/>## Details<br/>- [Ed
- it config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/
- pitR/lunar_month/tithi/10/23/pauSa-aSTakA-zrAddham.toml)<br/>- Tags: Shann
- avatiTarpanaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/lunar_month/tithi/10/23/pauSa-aSTakA-
+ zrAddham.toml)<br/>- Tags: ShannavatiTarpanaDays<br/><br/><br/><br/>## Det
+ ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/
+ master/devatA/pitR/lunar_month/tithi/10/23/pauSa-aSTakA-zrAddham.toml)<br/
+ >- Tags: ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3248,10 +3258,13 @@ BEGIN:VEVENT
 SUMMARY:pauṣa-anvaṣṭakā-śrāddham
 DTSTART;VALUE=DATE:20190129
 DTEND;VALUE=DATE:20190130
-DESCRIPTION:Shannavati Shraddham Day.<br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/re
- lative_event/pauSa-aSTakA-zrAddham/offset__01/pauSa-anvaSTakA-zrAddham.tom
- l)<br/>- Tags: ShannavatiTarpanaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/relative_event/pauSa-aSTakA-zrAddham/
+ offset__01/pauSa-anvaSTakA-zrAddham.toml)<br/>- Tags: ShannavatiTarpanaDay
+ s<br/><br/><br/><br/>## Details<br/>- References<br/>  - Vaidyanātha-Dīk
+ ṣitīyam<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/devatA/pitR/relative_event/pauSa-aSTakA-zrAddham/offset__01/p
+ auSa-anvaSTakA-zrAddham.toml)<br/>- Tags: ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3921,10 +3934,15 @@ SUMMARY:vyatīpāta-śrāddham
 DTSTART;VALUE=DATE:20190204
 DTEND;VALUE=DATE:20190205
 DESCRIPTION:Observed on every occurrence of Vyatīpātaḥ yoga (Aparāh
- ṇaḥ/vyaapti). <br/><br/>Vyatipata Shraddha day.<br/><br/>## Details<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
- devatA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham.toml)<br/>-
-  Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
+ ṇaḥ/vyaapti). <br/><br/>Vyatipata Shraddha day.<br/><br/>smr̥tyantar
+ ē---  <br/>amā pātaśca saṅkrāntistathā vaidhr̥tirēva ca।  <br/
+ >aṣṭakāścaiva manvādiryugādiśca mahālayaḥ॥  <br/>candrasūry
+ ōparāgaśca gajacchāyā tathaiva ca।  <br/>dravyabrāhmaṇasampatti
+ ḥ śrāddhakālāḥ prakīrtitāḥ॥<br/><br/><br/><br/>## Details<br
+ />- References<br/>  - Smriti Muktaphalam Shraddha Kanda Uttarabhaga<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/dev
+ atA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham.toml)<br/>- Ta
+ gs: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5231,10 +5249,15 @@ SUMMARY:vaidhr̥ti-śrāddham
 DTSTART;VALUE=DATE:20190214
 DTEND;VALUE=DATE:20190215
 DESCRIPTION:Observed on every occurrence of Vaidhr̥tiḥ yoga (Aparāhṇ
- aḥ/vyaapti). <br/><br/>Vaidhrti Shraddha day.<br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/deva
- tA/pitR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham.toml)<br/>- Tags
- : MonthlyShraddhaDays ShannavatiTarpanaDays
+ aḥ/vyaapti). <br/><br/>Vaidhrti Shraddha day.<br/><br/>smr̥tyantarē---
+   <br/>amā pātaśca saṅkrāntistathā vaidhr̥tirēva ca।  <br/>aṣ
+ ṭakāścaiva manvādiryugādiśca mahālayaḥ॥  <br/>candrasūryōpar
+ āgaśca gajacchāyā tathaiva ca।  <br/>dravyabrāhmaṇasampattiḥ ś
+ rāddhakālāḥ prakīrtitāḥ॥<br/><br/><br/><br/>## Details<br/>- Re
+ ferences<br/>  - Smriti Muktaphalam Shraddha Kanda Uttarabhaga<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pi
+ tR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham.toml)<br/>- Tags: Mon
+ thlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6048,15 +6071,12 @@ BEGIN:VEVENT
 SUMMARY:māgha-pūrṇimā-snānam
 DTSTART;VALUE=DATE:20190219
 DTEND;VALUE=DATE:20190220
-DESCRIPTION:Observed on Paurṇamāsī tithi of Māghaḥ (lunar) month (P
- rāktanāruṇōdayaḥ/paraviddha). <br/><br/>Perform snana four ghatikas
-  before sunrise (during aruṇōdayaḥ\, when the Moon is still up\, on t
- he full-moon days of āṣāḍha\, kārttika\, māgha and vaiśākha – 
- hence the name ā-kā-mā-vai) bestows strength\, beauty\, fame\, dharma\,
-  knowledge\, happiness\, fortitude and health.<br/><br/>## Details<br/>- R
- eferences<br/>  - Satyavrata Smriti<br/>- [Edit config file](https://githu
- b.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/11/15/mAgh
- a-pUrNimA-snAnam.toml)<br/>- Tags: SpecialSnanam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/11/15/mAgha-pUrNimA-snA
+ nam.toml)<br/>- Tags: SpecialSnanam<br/><br/><br/><br/>## Details<br/>- Re
+ ferences<br/>  - Satyavrata Smriti<br/>- [Edit config file](https://github
+ .com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/11/15/mAgha
+ -pUrNimA-snAnam.toml)<br/>- Tags: SpecialSnanam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6641,10 +6661,13 @@ BEGIN:VEVENT
 SUMMARY:māgha-aṣṭakā-pūrvēdyuḥ
 DTSTART;VALUE=DATE:20190225
 DTEND;VALUE=DATE:20190226
-DESCRIPTION:Shannavati Shraddham Day.<br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/re
- lative_event/mAgha-aSTakA-zrAddham/offset__-1/mAgha-aSTakA-pUrvEdyuH.toml)
- <br/>- Tags: ShannavatiTarpanaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/relative_event/mAgha-aSTakA-zrAddham/
+ offset__-1/mAgha-aSTakA-pUrvEdyuH.toml)<br/>- Tags: ShannavatiTarpanaDays<
+ br/><br/><br/><br/>## Details<br/>- References<br/>  - Vaidyanātha-Dīk
+ ṣitīyam<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/devatA/pitR/relative_event/mAgha-aSTakA-zrAddham/offset__-1/m
+ Agha-aSTakA-pUrvEdyuH.toml)<br/>- Tags: ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6768,11 +6791,13 @@ BEGIN:VEVENT
 SUMMARY:māgha-aṣṭakā-śrāddham
 DTSTART;VALUE=DATE:20190226
 DTEND;VALUE=DATE:20190227
-DESCRIPTION:Observed on Kr̥ṣṇa-Aṣṭamī tithi of Māghaḥ (lunar)
-  month (Aparāhṇaḥ/vyaapti). <br/><br/><br/><br/>## Details<br/>- [Edi
- t config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/p
- itR/lunar_month/tithi/11/23/mAgha-aSTakA-zrAddham.toml)<br/>- Tags: Shanna
- vatiTarpanaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/lunar_month/tithi/11/23/mAgha-aSTakA-
+ zrAddham.toml)<br/>- Tags: ShannavatiTarpanaDays<br/><br/><br/><br/>## Det
+ ails<br/>- References<br/>  - Vaidyanātha-Dīkṣitīyam<br/>- [Edit conf
+ ig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/lu
+ nar_month/tithi/11/23/mAgha-aSTakA-zrAddham.toml)<br/>- Tags: ShannavatiTa
+ rpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6872,10 +6897,13 @@ BEGIN:VEVENT
 SUMMARY:māgha-anvaṣṭakā-śrāddham
 DTSTART;VALUE=DATE:20190227
 DTEND;VALUE=DATE:20190228
-DESCRIPTION:Shannavati Shraddham Day.<br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/re
- lative_event/mAgha-aSTakA-zrAddham/offset__01/mAgha-anvaSTakA-zrAddham.tom
- l)<br/>- Tags: ShannavatiTarpanaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/relative_event/mAgha-aSTakA-zrAddham/
+ offset__01/mAgha-anvaSTakA-zrAddham.toml)<br/>- Tags: ShannavatiTarpanaDay
+ s<br/><br/><br/><br/>## Details<br/>- References<br/>  - Vaidyanātha-Dīk
+ ṣitīyam<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/devatA/pitR/relative_event/mAgha-aSTakA-zrAddham/offset__01/m
+ Agha-anvaSTakA-zrAddham.toml)<br/>- Tags: ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7018,10 +7046,15 @@ SUMMARY:vyatīpāta-śrāddham
 DTSTART;VALUE=DATE:20190301
 DTEND;VALUE=DATE:20190302
 DESCRIPTION:Observed on every occurrence of Vyatīpātaḥ yoga (Aparāh
- ṇaḥ/vyaapti). <br/><br/>Vyatipata Shraddha day.<br/><br/>## Details<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
- devatA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham.toml)<br/>-
-  Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
+ ṇaḥ/vyaapti). <br/><br/>Vyatipata Shraddha day.<br/><br/>smr̥tyantar
+ ē---  <br/>amā pātaśca saṅkrāntistathā vaidhr̥tirēva ca।  <br/
+ >aṣṭakāścaiva manvādiryugādiśca mahālayaḥ॥  <br/>candrasūry
+ ōparāgaśca gajacchāyā tathaiva ca।  <br/>dravyabrāhmaṇasampatti
+ ḥ śrāddhakālāḥ prakīrtitāḥ॥<br/><br/><br/><br/>## Details<br
+ />- References<br/>  - Smriti Muktaphalam Shraddha Kanda Uttarabhaga<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/dev
+ atA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham.toml)<br/>- Ta
+ gs: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7559,12 +7592,12 @@ BEGIN:VEVENT
 SUMMARY:kaliyugādiḥ
 DTSTART;VALUE=DATE:20190306
 DTEND;VALUE=DATE:20190307
-DESCRIPTION:Observed on Amāvāsyā tithi of Māghaḥ (lunar) month (Apar
- āhṇaḥ/vyaapti). <br/><br/>Perform samudrasnānam and śrāddham.<br/>
- <br/>## Details<br/>- References<br/>  - Vaidyanātha-Dīkṣitīyam<br/>-
-  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/tim
- e_focus/yugAdiH/lunar_month/tithi/11/30/kaliyugAdiH.toml)<br/>- Tags: Yuga
- diDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tithi/11/30/kaliyu
+ gAdiH.toml)<br/>- Tags: YugadiDays<br/><br/><br/><br/>## Details<br/>- Ref
+ erences<br/>  - Vaidyanātha-Dīkṣitīyam<br/>- [Edit config file](https
+ ://github.com/jyotisham/adyatithi/blob/master/time_focus/yugAdiH/lunar_mon
+ th/tithi/11/30/kaliyugAdiH.toml)<br/>- Tags: YugadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8330,10 +8363,15 @@ SUMMARY:vaidhr̥ti-śrāddham
 DTSTART;VALUE=DATE:20190312
 DTEND;VALUE=DATE:20190313
 DESCRIPTION:Observed on every occurrence of Vaidhr̥tiḥ yoga (Aparāhṇ
- aḥ/vyaapti). <br/><br/>Vaidhrti Shraddha day.<br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/deva
- tA/pitR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham.toml)<br/>- Tags
- : MonthlyShraddhaDays ShannavatiTarpanaDays
+ aḥ/vyaapti). <br/><br/>Vaidhrti Shraddha day.<br/><br/>smr̥tyantarē---
+   <br/>amā pātaśca saṅkrāntistathā vaidhr̥tirēva ca।  <br/>aṣ
+ ṭakāścaiva manvādiryugādiśca mahālayaḥ॥  <br/>candrasūryōpar
+ āgaśca gajacchāyā tathaiva ca।  <br/>dravyabrāhmaṇasampattiḥ ś
+ rāddhakālāḥ prakīrtitāḥ॥<br/><br/><br/><br/>## Details<br/>- Re
+ ferences<br/>  - Smriti Muktaphalam Shraddha Kanda Uttarabhaga<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pi
+ tR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham.toml)<br/>- Tags: Mon
+ thlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10178,10 +10216,13 @@ BEGIN:VEVENT
 SUMMARY:phālguna-aṣṭakā-pūrvēdyuḥ
 DTSTART;VALUE=DATE:20190327
 DTEND;VALUE=DATE:20190328
-DESCRIPTION:Shannavati Shraddham Day.<br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/re
- lative_event/phAlguna-aSTakA-zrAddham/offset__-1/phAlguna-aSTakA-pUrvEdyuH
- .toml)<br/>- Tags: ShannavatiTarpanaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/relative_event/phAlguna-aSTakA-zrAddh
+ am/offset__-1/phAlguna-aSTakA-pUrvEdyuH.toml)<br/>- Tags: ShannavatiTarpan
+ aDays<br/><br/><br/><br/>## Details<br/>- References<br/>  - Vaidyanātha-
+ Dīkṣitīyam<br/>- [Edit config file](https://github.com/jyotisham/adyat
+ ithi/blob/master/devatA/pitR/relative_event/phAlguna-aSTakA-zrAddham/offse
+ t__-1/phAlguna-aSTakA-pUrvEdyuH.toml)<br/>- Tags: ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10195,10 +10236,15 @@ SUMMARY:vyatīpāta-śrāddham
 DTSTART;VALUE=DATE:20190327
 DTEND;VALUE=DATE:20190328
 DESCRIPTION:Observed on every occurrence of Vyatīpātaḥ yoga (Aparāh
- ṇaḥ/vyaapti). <br/><br/>Vyatipata Shraddha day.<br/><br/>## Details<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
- devatA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham.toml)<br/>-
-  Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
+ ṇaḥ/vyaapti). <br/><br/>Vyatipata Shraddha day.<br/><br/>smr̥tyantar
+ ē---  <br/>amā pātaśca saṅkrāntistathā vaidhr̥tirēva ca।  <br/
+ >aṣṭakāścaiva manvādiryugādiśca mahālayaḥ॥  <br/>candrasūry
+ ōparāgaśca gajacchāyā tathaiva ca।  <br/>dravyabrāhmaṇasampatti
+ ḥ śrāddhakālāḥ prakīrtitāḥ॥<br/><br/><br/><br/>## Details<br
+ />- References<br/>  - Smriti Muktaphalam Shraddha Kanda Uttarabhaga<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/dev
+ atA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham.toml)<br/>- Ta
+ gs: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10284,11 +10330,13 @@ BEGIN:VEVENT
 SUMMARY:phālguna-aṣṭakā-śrāddham
 DTSTART;VALUE=DATE:20190328
 DTEND;VALUE=DATE:20190329
-DESCRIPTION:Observed on Kr̥ṣṇa-Aṣṭamī tithi of Phālgunaḥ (lun
- ar) month (Aparāhṇaḥ/vyaapti). <br/><br/><br/><br/>## Details<br/>- [
- Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devat
- A/pitR/lunar_month/tithi/12/23/phAlguna-aSTakA-zrAddham.toml)<br/>- Tags: 
- ShannavatiTarpanaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/lunar_month/tithi/12/23/phAlguna-aSTa
+ kA-zrAddham.toml)<br/>- Tags: ShannavatiTarpanaDays<br/><br/><br/><br/>## 
+ Details<br/>- References<br/>  - Vaidyanātha-Dīkṣitīyam<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR
+ /lunar_month/tithi/12/23/phAlguna-aSTakA-zrAddham.toml)<br/>- Tags: Shanna
+ vatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10373,10 +10421,14 @@ BEGIN:VEVENT
 SUMMARY:phālguna-anvaṣṭakā-śrāddham
 DTSTART;VALUE=DATE:20190329
 DTEND;VALUE=DATE:20190330
-DESCRIPTION:Shannavati Shraddham Day.<br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/re
- lative_event/phAlguna-aSTakA-zrAddham/offset__01/phAlguna-anvaSTakA-zrAddh
- am.toml)<br/>- Tags: ShannavatiTarpanaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/relative_event/phAlguna-aSTakA-zrAddh
+ am/offset__01/phAlguna-anvaSTakA-zrAddham.toml)<br/>- Tags: ShannavatiTarp
+ anaDays<br/><br/><br/><br/>## Details<br/>- References<br/>  - Vaidyanāth
+ a-Dīkṣitīyam<br/>- [Edit config file](https://github.com/jyotisham/ady
+ atithi/blob/master/devatA/pitR/relative_event/phAlguna-aSTakA-zrAddham/off
+ set__01/phAlguna-anvaSTakA-zrAddham.toml)<br/>- Tags: ShannavatiTarpanaDay
+ s
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11349,10 +11401,15 @@ SUMMARY:vaidhr̥ti-śrāddham
 DTSTART;VALUE=DATE:20190406
 DTEND;VALUE=DATE:20190407
 DESCRIPTION:Observed on every occurrence of Vaidhr̥tiḥ yoga (Aparāhṇ
- aḥ/vyaapti). <br/><br/>Vaidhrti Shraddha day.<br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/deva
- tA/pitR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham.toml)<br/>- Tags
- : MonthlyShraddhaDays ShannavatiTarpanaDays
+ aḥ/vyaapti). <br/><br/>Vaidhrti Shraddha day.<br/><br/>smr̥tyantarē---
+   <br/>amā pātaśca saṅkrāntistathā vaidhr̥tirēva ca।  <br/>aṣ
+ ṭakāścaiva manvādiryugādiśca mahālayaḥ॥  <br/>candrasūryōpar
+ āgaśca gajacchāyā tathaiva ca।  <br/>dravyabrāhmaṇasampattiḥ ś
+ rāddhakālāḥ prakīrtitāḥ॥<br/><br/><br/><br/>## Details<br/>- Re
+ ferences<br/>  - Smriti Muktaphalam Shraddha Kanda Uttarabhaga<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pi
+ tR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham.toml)<br/>- Tags: Mon
+ thlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13747,10 +13804,15 @@ SUMMARY:vyatīpāta-śrāddham
 DTSTART;VALUE=DATE:20190421
 DTEND;VALUE=DATE:20190422
 DESCRIPTION:Observed on every occurrence of Vyatīpātaḥ yoga (Aparāh
- ṇaḥ/vyaapti). <br/><br/>Vyatipata Shraddha day.<br/><br/>## Details<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
- devatA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham.toml)<br/>-
-  Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
+ ṇaḥ/vyaapti). <br/><br/>Vyatipata Shraddha day.<br/><br/>smr̥tyantar
+ ē---  <br/>amā pātaśca saṅkrāntistathā vaidhr̥tirēva ca।  <br/
+ >aṣṭakāścaiva manvādiryugādiśca mahālayaḥ॥  <br/>candrasūry
+ ōparāgaśca gajacchāyā tathaiva ca।  <br/>dravyabrāhmaṇasampatti
+ ḥ śrāddhakālāḥ prakīrtitāḥ॥<br/><br/><br/><br/>## Details<br
+ />- References<br/>  - Smriti Muktaphalam Shraddha Kanda Uttarabhaga<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/dev
+ atA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham.toml)<br/>- Ta
+ gs: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14550,10 +14612,15 @@ SUMMARY:vaidhr̥ti-śrāddham
 DTSTART;VALUE=DATE:20190501
 DTEND;VALUE=DATE:20190502
 DESCRIPTION:Observed on every occurrence of Vaidhr̥tiḥ yoga (Aparāhṇ
- aḥ/vyaapti). <br/><br/>Vaidhrti Shraddha day.<br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/deva
- tA/pitR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham.toml)<br/>- Tags
- : MonthlyShraddhaDays ShannavatiTarpanaDays
+ aḥ/vyaapti). <br/><br/>Vaidhrti Shraddha day.<br/><br/>smr̥tyantarē---
+   <br/>amā pātaśca saṅkrāntistathā vaidhr̥tirēva ca।  <br/>aṣ
+ ṭakāścaiva manvādiryugādiśca mahālayaḥ॥  <br/>candrasūryōpar
+ āgaśca gajacchāyā tathaiva ca।  <br/>dravyabrāhmaṇasampattiḥ ś
+ rāddhakālāḥ prakīrtitāḥ॥<br/><br/><br/><br/>## Details<br/>- Re
+ ferences<br/>  - Smriti Muktaphalam Shraddha Kanda Uttarabhaga<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pi
+ tR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham.toml)<br/>- Tags: Mon
+ thlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15429,12 +15496,12 @@ BEGIN:VEVENT
 SUMMARY:kr̥tayugādiḥ
 DTSTART;VALUE=DATE:20190507
 DTEND;VALUE=DATE:20190508
-DESCRIPTION:Observed on Śukla-Tr̥tīyā tithi of Vaiśākhaḥ (lunar) m
- onth (Aparāhṇaḥ/vyaapti). <br/><br/>Perform samudrasnānam and śrād
- dham.<br/><br/>## Details<br/>- References<br/>  - Vaidyanātha-Dīkṣit
- īyam<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob
- /master/time_focus/yugAdiH/lunar_month/tithi/02/03/kRtayugAdiH.toml)<br/>-
-  Tags: YugadiDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tithi/02/03/kRtayu
+ gAdiH.toml)<br/>- Tags: YugadiDays<br/><br/><br/><br/>## Details<br/>- Ref
+ erences<br/>  - Vaidyanātha-Dīkṣitīyam<br/>- [Edit config file](https
+ ://github.com/jyotisham/adyatithi/blob/master/time_focus/yugAdiH/lunar_mon
+ th/tithi/02/03/kRtayugAdiH.toml)<br/>- Tags: YugadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16819,10 +16886,15 @@ SUMMARY:vyatīpāta-śrāddham
 DTSTART;VALUE=DATE:20190517
 DTEND;VALUE=DATE:20190518
 DESCRIPTION:Observed on every occurrence of Vyatīpātaḥ yoga (Aparāh
- ṇaḥ/vyaapti). <br/><br/>Vyatipata Shraddha day.<br/><br/>## Details<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
- devatA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham.toml)<br/>-
-  Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
+ ṇaḥ/vyaapti). <br/><br/>Vyatipata Shraddha day.<br/><br/>smr̥tyantar
+ ē---  <br/>amā pātaśca saṅkrāntistathā vaidhr̥tirēva ca।  <br/
+ >aṣṭakāścaiva manvādiryugādiśca mahālayaḥ॥  <br/>candrasūry
+ ōparāgaśca gajacchāyā tathaiva ca।  <br/>dravyabrāhmaṇasampatti
+ ḥ śrāddhakālāḥ prakīrtitāḥ॥<br/><br/><br/><br/>## Details<br
+ />- References<br/>  - Smriti Muktaphalam Shraddha Kanda Uttarabhaga<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/dev
+ atA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham.toml)<br/>- Ta
+ gs: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17108,11 +17180,11 @@ SUMMARY:vaiśākha-pūrṇimā-snānam
 DTSTART;VALUE=DATE:20190518
 DTEND;VALUE=DATE:20190519
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/misc/lunar_month/tithi/02/15/vaizAkha-
- pUrNimA-snAnam.toml)<br/>- Tags: SpecialSnanam<br/><br/><br/><br/>## Detai
- ls<br/>- References<br/>  - Satyavrata Smriti<br/>- [Edit config file](htt
- ps://github.com/jyotisham/adyatithi/blob/master/time_focus/misc/lunar_mont
- h/tithi/02/15/vaizAkha-pUrNimA-snAnam.toml)<br/>- Tags: SpecialSnanam
+ am/adyatithi/blob/master/general/lunar_month/tithi/02/15/vaizAkha-pUrNimA-
+ snAnam.toml)<br/>- Tags: SpecialSnanam<br/><br/><br/><br/>## Details<br/>-
+  References<br/>  - Satyavrata Smriti<br/>- [Edit config file](https://git
+ hub.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/02/15/va
+ izAkha-pUrNimA-snAnam.toml)<br/>- Tags: SpecialSnanam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18058,10 +18130,15 @@ SUMMARY:vaidhr̥ti-śrāddham
 DTSTART;VALUE=DATE:20190526
 DTEND;VALUE=DATE:20190527
 DESCRIPTION:Observed on every occurrence of Vaidhr̥tiḥ yoga (Aparāhṇ
- aḥ/vyaapti). <br/><br/>Vaidhrti Shraddha day.<br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/deva
- tA/pitR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham.toml)<br/>- Tags
- : MonthlyShraddhaDays ShannavatiTarpanaDays
+ aḥ/vyaapti). <br/><br/>Vaidhrti Shraddha day.<br/><br/>smr̥tyantarē---
+   <br/>amā pātaśca saṅkrāntistathā vaidhr̥tirēva ca।  <br/>aṣ
+ ṭakāścaiva manvādiryugādiśca mahālayaḥ॥  <br/>candrasūryōpar
+ āgaśca gajacchāyā tathaiva ca।  <br/>dravyabrāhmaṇasampattiḥ ś
+ rāddhakālāḥ prakīrtitāḥ॥<br/><br/><br/><br/>## Details<br/>- Re
+ ferences<br/>  - Smriti Muktaphalam Shraddha Kanda Uttarabhaga<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pi
+ tR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham.toml)<br/>- Tags: Mon
+ thlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20037,10 +20114,15 @@ SUMMARY:vyatīpāta-śrāddham
 DTSTART;VALUE=DATE:20190611
 DTEND;VALUE=DATE:20190612
 DESCRIPTION:Observed on every occurrence of Vyatīpātaḥ yoga (Aparāh
- ṇaḥ/vyaapti). <br/><br/>Vyatipata Shraddha day.<br/><br/>## Details<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
- devatA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham.toml)<br/>-
-  Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
+ ṇaḥ/vyaapti). <br/><br/>Vyatipata Shraddha day.<br/><br/>smr̥tyantar
+ ē---  <br/>amā pātaśca saṅkrāntistathā vaidhr̥tirēva ca।  <br/
+ >aṣṭakāścaiva manvādiryugādiśca mahālayaḥ॥  <br/>candrasūry
+ ōparāgaśca gajacchāyā tathaiva ca।  <br/>dravyabrāhmaṇasampatti
+ ḥ śrāddhakālāḥ prakīrtitāḥ॥<br/><br/><br/><br/>## Details<br
+ />- References<br/>  - Smriti Muktaphalam Shraddha Kanda Uttarabhaga<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/dev
+ atA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham.toml)<br/>- Ta
+ gs: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21355,10 +21437,15 @@ SUMMARY:vaidhr̥ti-śrāddham
 DTSTART;VALUE=DATE:20190621
 DTEND;VALUE=DATE:20190622
 DESCRIPTION:Observed on every occurrence of Vaidhr̥tiḥ yoga (Aparāhṇ
- aḥ/vyaapti). <br/><br/>Vaidhrti Shraddha day.<br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/deva
- tA/pitR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham.toml)<br/>- Tags
- : MonthlyShraddhaDays ShannavatiTarpanaDays
+ aḥ/vyaapti). <br/><br/>Vaidhrti Shraddha day.<br/><br/>smr̥tyantarē---
+   <br/>amā pātaśca saṅkrāntistathā vaidhr̥tirēva ca।  <br/>aṣ
+ ṭakāścaiva manvādiryugādiśca mahālayaḥ॥  <br/>candrasūryōpar
+ āgaśca gajacchāyā tathaiva ca।  <br/>dravyabrāhmaṇasampattiḥ ś
+ rāddhakālāḥ prakīrtitāḥ॥<br/><br/><br/><br/>## Details<br/>- Re
+ ferences<br/>  - Smriti Muktaphalam Shraddha Kanda Uttarabhaga<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pi
+ tR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham.toml)<br/>- Tags: Mon
+ thlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23210,10 +23297,15 @@ SUMMARY:vyatīpāta-śrāddham
 DTSTART;VALUE=DATE:20190707
 DTEND;VALUE=DATE:20190708
 DESCRIPTION:Observed on every occurrence of Vyatīpātaḥ yoga (Aparāh
- ṇaḥ/vyaapti). <br/><br/>Vyatipata Shraddha day.<br/><br/>## Details<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
- devatA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham.toml)<br/>-
-  Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
+ ṇaḥ/vyaapti). <br/><br/>Vyatipata Shraddha day.<br/><br/>smr̥tyantar
+ ē---  <br/>amā pātaśca saṅkrāntistathā vaidhr̥tirēva ca।  <br/
+ >aṣṭakāścaiva manvādiryugādiśca mahālayaḥ॥  <br/>candrasūry
+ ōparāgaśca gajacchāyā tathaiva ca।  <br/>dravyabrāhmaṇasampatti
+ ḥ śrāddhakālāḥ prakīrtitāḥ॥<br/><br/><br/><br/>## Details<br
+ />- References<br/>  - Smriti Muktaphalam Shraddha Kanda Uttarabhaga<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/dev
+ atA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham.toml)<br/>- Ta
+ gs: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24188,15 +24280,12 @@ BEGIN:VEVENT
 SUMMARY:āṣāḍha-pūrṇimā-snānam
 DTSTART;VALUE=DATE:20190716
 DTEND;VALUE=DATE:20190717
-DESCRIPTION:Observed on Paurṇamāsī tithi of Āṣāḍhaḥ (lunar) mo
- nth (Prāktanāruṇōdayaḥ/paraviddha). <br/><br/>Perform snana four gh
- atikas before sunrise (during aruṇodayaḥ\, when the Moon is still up\,
-  on the full-moon days of āṣāḍha\, kārttika\, māgha and vaiśākha
-  – hence the name ā-kā-mā-vai) bestows strength\, beauty\, fame\, dha
- rma\, knowledge\, happiness\, fortitude and health.<br/><br/>## Details<br
- />- References<br/>  - Satyavrata Smriti<br/>- [Edit config file](https://
- github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/04/15
- /ASADha-pUrNimA-snAnam.toml)<br/>- Tags: SpecialSnanam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/04/15/ASADha-pUrNimA-sn
+ Anam.toml)<br/>- Tags: SpecialSnanam<br/><br/><br/><br/>## Details<br/>- R
+ eferences<br/>  - Satyavrata Smriti<br/>- [Edit config file](https://githu
+ b.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/04/15/ASAD
+ ha-pUrNimA-snAnam.toml)<br/>- Tags: SpecialSnanam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24402,10 +24491,15 @@ SUMMARY:vaidhr̥ti-śrāddham
 DTSTART;VALUE=DATE:20190716
 DTEND;VALUE=DATE:20190717
 DESCRIPTION:Observed on every occurrence of Vaidhr̥tiḥ yoga (Aparāhṇ
- aḥ/vyaapti). <br/><br/>Vaidhrti Shraddha day.<br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/deva
- tA/pitR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham.toml)<br/>- Tags
- : MonthlyShraddhaDays ShannavatiTarpanaDays
+ aḥ/vyaapti). <br/><br/>Vaidhrti Shraddha day.<br/><br/>smr̥tyantarē---
+   <br/>amā pātaśca saṅkrāntistathā vaidhr̥tirēva ca।  <br/>aṣ
+ ṭakāścaiva manvādiryugādiśca mahālayaḥ॥  <br/>candrasūryōpar
+ āgaśca gajacchāyā tathaiva ca।  <br/>dravyabrāhmaṇasampattiḥ ś
+ rāddhakālāḥ prakīrtitāḥ॥<br/><br/><br/><br/>## Details<br/>- Re
+ ferences<br/>  - Smriti Muktaphalam Shraddha Kanda Uttarabhaga<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pi
+ tR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham.toml)<br/>- Tags: Mon
+ thlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26193,10 +26287,15 @@ SUMMARY:vyatīpāta-śrāddham
 DTSTART;VALUE=DATE:20190801
 DTEND;VALUE=DATE:20190802
 DESCRIPTION:Observed on every occurrence of Vyatīpātaḥ yoga (Aparāh
- ṇaḥ/vyaapti). <br/><br/>Vyatipata Shraddha day.<br/><br/>## Details<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
- devatA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham.toml)<br/>-
-  Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
+ ṇaḥ/vyaapti). <br/><br/>Vyatipata Shraddha day.<br/><br/>smr̥tyantar
+ ē---  <br/>amā pātaśca saṅkrāntistathā vaidhr̥tirēva ca।  <br/
+ >aṣṭakāścaiva manvādiryugādiśca mahālayaḥ॥  <br/>candrasūry
+ ōparāgaśca gajacchāyā tathaiva ca।  <br/>dravyabrāhmaṇasampatti
+ ḥ śrāddhakālāḥ prakīrtitāḥ॥<br/><br/><br/><br/>## Details<br
+ />- References<br/>  - Smriti Muktaphalam Shraddha Kanda Uttarabhaga<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/dev
+ atA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham.toml)<br/>- Ta
+ gs: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -27359,10 +27458,15 @@ SUMMARY:vaidhr̥ti-śrāddham
 DTSTART;VALUE=DATE:20190810
 DTEND;VALUE=DATE:20190811
 DESCRIPTION:Observed on every occurrence of Vaidhr̥tiḥ yoga (Aparāhṇ
- aḥ/vyaapti). <br/><br/>Vaidhrti Shraddha day.<br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/deva
- tA/pitR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham.toml)<br/>- Tags
- : MonthlyShraddhaDays ShannavatiTarpanaDays
+ aḥ/vyaapti). <br/><br/>Vaidhrti Shraddha day.<br/><br/>smr̥tyantarē---
+   <br/>amā pātaśca saṅkrāntistathā vaidhr̥tirēva ca।  <br/>aṣ
+ ṭakāścaiva manvādiryugādiśca mahālayaḥ॥  <br/>candrasūryōpar
+ āgaśca gajacchāyā tathaiva ca।  <br/>dravyabrāhmaṇasampattiḥ ś
+ rāddhakālāḥ prakīrtitāḥ॥<br/><br/><br/><br/>## Details<br/>- Re
+ ferences<br/>  - Smriti Muktaphalam Shraddha Kanda Uttarabhaga<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pi
+ tR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham.toml)<br/>- Tags: Mon
+ thlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -29680,10 +29784,15 @@ SUMMARY:vyatīpāta-śrāddham
 DTSTART;VALUE=DATE:20190827
 DTEND;VALUE=DATE:20190828
 DESCRIPTION:Observed on every occurrence of Vyatīpātaḥ yoga (Aparāh
- ṇaḥ/vyaapti). <br/><br/>Vyatipata Shraddha day.<br/><br/>## Details<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
- devatA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham.toml)<br/>-
-  Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
+ ṇaḥ/vyaapti). <br/><br/>Vyatipata Shraddha day.<br/><br/>smr̥tyantar
+ ē---  <br/>amā pātaśca saṅkrāntistathā vaidhr̥tirēva ca।  <br/
+ >aṣṭakāścaiva manvādiryugādiśca mahālayaḥ॥  <br/>candrasūry
+ ōparāgaśca gajacchāyā tathaiva ca।  <br/>dravyabrāhmaṇasampatti
+ ḥ śrāddhakālāḥ prakīrtitāḥ॥<br/><br/><br/><br/>## Details<br
+ />- References<br/>  - Smriti Muktaphalam Shraddha Kanda Uttarabhaga<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/dev
+ atA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham.toml)<br/>- Ta
+ gs: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -31168,10 +31277,15 @@ SUMMARY:vaidhr̥ti-śrāddham
 DTSTART;VALUE=DATE:20190905
 DTEND;VALUE=DATE:20190906
 DESCRIPTION:Observed on every occurrence of Vaidhr̥tiḥ yoga (Aparāhṇ
- aḥ/vyaapti). <br/><br/>Vaidhrti Shraddha day.<br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/deva
- tA/pitR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham.toml)<br/>- Tags
- : MonthlyShraddhaDays ShannavatiTarpanaDays
+ aḥ/vyaapti). <br/><br/>Vaidhrti Shraddha day.<br/><br/>smr̥tyantarē---
+   <br/>amā pātaśca saṅkrāntistathā vaidhr̥tirēva ca।  <br/>aṣ
+ ṭakāścaiva manvādiryugādiśca mahālayaḥ॥  <br/>candrasūryōpar
+ āgaśca gajacchāyā tathaiva ca।  <br/>dravyabrāhmaṇasampattiḥ ś
+ rāddhakālāḥ prakīrtitāḥ॥<br/><br/><br/><br/>## Details<br/>- Re
+ ferences<br/>  - Smriti Muktaphalam Shraddha Kanda Uttarabhaga<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pi
+ tR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham.toml)<br/>- Tags: Mon
+ thlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -32401,11 +32515,13 @@ BEGIN:VEVENT
 SUMMARY:mahālaya-pakṣa-ārambhaḥ
 DTSTART;VALUE=DATE:20190914
 DTEND;VALUE=DATE:20190915
-DESCRIPTION:Observed on Kr̥ṣṇa-Prathamā tithi of Bhādrapadaḥ (lun
- ar) month (Aparāhṇaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
- devatA/pitR/lunar_month/tithi/06/16/mahAlaya-pakSa-ArambhaH.toml)<br/>- Ta
- gs: SpecialPeriodStart
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/lunar_month/tithi/06/16/mahAlaya-pakS
+ a-ArambhaH.toml)<br/>- Tags: SpecialPeriodStart<br/><br/><br/><br/>## Deta
+ ils<br/>- References<br/>  - Smriti Muktaphalam Shraddha Kanda Uttarabhaga
+ <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
+ er/devatA/pitR/lunar_month/tithi/06/16/mahAlaya-pakSa-ArambhaH.toml)<br/>-
+  Tags: SpecialPeriodStart
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -33012,9 +33128,9 @@ DTSTART;VALUE=DATE:20190918
 DTEND;VALUE=DATE:20190919
 DESCRIPTION:Observed on Apabharaṇī nakshatra of Bhādrapadaḥ (lunar) 
  month (Aparāhṇaḥ/vyaapti). <br/><br/><br/><br/>## Details<br/>- [Edit
-  config file](https://github.com/jyotisham/adyatithi/blob/master/general/l
- unar_month/nakshatra/06/02/mahAbharaNI.toml)<br/>- Tags: SpecialPuja Commo
- nFestivals
+  config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pi
+ tR/lunar_month/nakshatra/06/02/mahAbharaNI.toml)<br/>- Tags: SpecialPuja C
+ ommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -33571,9 +33687,14 @@ DTEND;VALUE=DATE:20190923
 DESCRIPTION:vyatīpāta is regarded as the king of yōgas. Though it occur
  s 13 times every year\, the occurrences in dhanurmāsa and mahālayapakṣ
  a are particularly sacred\, and this day is special for propitiating the p
- itr̥s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
- otisham/adyatithi/blob/master/devatA/pitR/description_only/mahAvyatIpAta-z
- rAddham.toml)<br/>- Tags: ShraddhaDays
+ itr̥s.<br/><br/>smr̥tyantarē---  <br/>amā pātaśca saṅkrāntistath
+ ā vaidhr̥tirēva ca।  <br/>aṣṭakāścaiva manvādiryugādiśca mah
+ ālayaḥ॥  <br/>candrasūryōparāgaśca gajacchāyā tathaiva ca।  <
+ br/>dravyabrāhmaṇasampattiḥ śrāddhakālāḥ prakīrtitāḥ॥<br/
+ ><br/><br/><br/>## Details<br/>- References<br/>  - Smriti Muktaphalam Shr
+ addha Kanda Uttarabhaga<br/>- [Edit config file](https://github.com/jyotis
+ ham/adyatithi/blob/master/devatA/pitR/description_only/mahAvyatIpAta-zrAdd
+ ham.toml)<br/>- Tags: ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -33684,8 +33805,8 @@ DESCRIPTION:Observed on Kr̥ṣṇa-Navamī tithi of Bhādrapadaḥ (lunar
  grē mr̥tā nārī sahadāhēna vā mr̥tā।  <br/>tasyāḥ sthānē n
  iyuñjīta vipraiḥ saha suvāsinīm॥<br/><br/><br/><br/>## Details<br/
  >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/d
- evatA/shakti/lunar_month/tithi/06/24/avidhavA-navamI.toml)<br/>- Tags: Spe
- cialPuja CommonFestivals
+ evatA/pitR/lunar_month/tithi/06/24/avidhavA-navamI.toml)<br/>- Tags: Speci
+ alPuja CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -33928,9 +34049,9 @@ DTSTART;VALUE=DATE:20190925
 DTEND;VALUE=DATE:20190926
 DESCRIPTION:Observed on Kr̥ṣṇa-Dvādaśī tithi of Bhādrapadaḥ (lu
  nar) month (Aparāhṇaḥ/vyaapti). <br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time
- _focus/misc/lunar_month/tithi/06/27/yati-mahAlayam.toml)<br/>- Tags: Speci
- alPuja CommonFestivals CommonFestivals
+ [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/deva
+ tA/pitR/lunar_month/tithi/06/27/yati-mahAlayam.toml)<br/>- Tags: SpecialPu
+ ja CommonFestivals CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -33998,12 +34119,12 @@ BEGIN:VEVENT
 SUMMARY:dvāparayugādiḥ
 DTSTART;VALUE=DATE:20190926
 DTEND;VALUE=DATE:20190927
-DESCRIPTION:Observed on Kr̥ṣṇa-Trayōdaśī tithi of Bhādrapadaḥ (
- lunar) month (Aparāhṇaḥ/vyaapti). <br/><br/>Perform samudrasnānam an
- d śrāddham.<br/><br/>## Details<br/>- References<br/>  - Vaidyanātha-D
- īkṣitīyam<br/>- [Edit config file](https://github.com/jyotisham/adyati
- thi/blob/master/time_focus/yugAdiH/lunar_month/tithi/06/28/dvAparayugAdiH.
- toml)<br/>- Tags: YugadiDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tithi/06/28/dvApar
+ ayugAdiH.toml)<br/>- Tags: YugadiDays<br/><br/><br/><br/>## Details<br/>- 
+ References<br/>  - Vaidyanātha-Dīkṣitīyam<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/blob/master/time_focus/yugAdiH/lunar_
+ month/tithi/06/28/dvAparayugAdiH.toml)<br/>- Tags: YugadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -34165,10 +34286,14 @@ DTEND;VALUE=DATE:20190928
 DESCRIPTION:Observed on Kr̥ṣṇa-Caturdaśī tithi of Bhādrapadaḥ (l
  unar) month (Aparāhṇaḥ/vyaapti). <br/><br/>vr̥kṣārōhēṇa lōh
  ādyairvidyujjala-viṣāgnibhiḥ।  <br/>nakhi daṁṣṭri vipannā y
- ē tēṣāṁ śastā caturdaśī॥<br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gene
- ral/lunar_month/tithi/06/29/zastrahatacaturdazI.toml)<br/>- Tags: LessComm
- onFestivals
+ ē tēṣāṁ śastā caturdaśī॥  <br/>mārkaṇḍēyaḥ---  <br/>k
+ anyāgatē savitari dināni daśa pañca ca।  <br/>pārvaṇēnaiva vidh
+ inā tatra śrāddhaṁ vidhīyatē॥  <br/>yuvānaḥ pitarō yasya mr̥
+ tāḥ śastrēṇa vai hatāḥ।  <br/>tēna kāryaṁ caturdaśyāṁ 
+ tēṣāṁ vr̥ddhimabhīpsatā॥<br/><br/><br/><br/>## Details<br/>- Re
+ ferences<br/>  - Vaidyanātha-Dīkṣitīyam<br/>- [Edit config file](http
+ s://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/lunar_month/tit
+ hi/06/29/zastrahatacaturdazI.toml)<br/>- Tags: ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -34269,7 +34394,10 @@ DTSTART;VALUE=DATE:20190913
 DTEND;VALUE=DATE:20190929
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/devatA/pitR/description_only/mahAlaya-pakSaH.toml
- )<br/>- Tags: SpecialPeriod
+ )<br/>- Tags: SpecialPeriod<br/><br/><br/><br/>## Details<br/>- References
+ <br/>  - Smriti Muktaphalam Shraddha Kanda Uttarabhaga<br/>- [Edit config 
+ file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/descr
+ iption_only/mahAlaya-pakSaH.toml)<br/>- Tags: SpecialPeriod
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -34282,11 +34410,13 @@ BEGIN:VEVENT
 SUMMARY:mahālaya-pakṣa-samāpanam
 DTSTART;VALUE=DATE:20190928
 DTEND;VALUE=DATE:20190929
-DESCRIPTION:Observed on Amāvāsyā tithi of Bhādrapadaḥ (lunar) month 
- (Aparāhṇaḥ/vyaapti). <br/><br/><br/><br/>## Details<br/>- [Edit confi
- g file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/lun
- ar_month/tithi/06/30/mahAlaya-pakSa-samApanam.toml)<br/>- Tags: SpecialPer
- iodEnd CommonFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/lunar_month/tithi/06/30/mahAlaya-pakS
+ a-samApanam.toml)<br/>- Tags: SpecialPeriodEnd CommonFestivals<br/><br/><b
+ r/><br/>## Details<br/>- References<br/>  - Smriti Muktaphalam Shraddha Ka
+ nda Uttarabhaga<br/>- [Edit config file](https://github.com/jyotisham/adya
+ tithi/blob/master/devatA/pitR/lunar_month/tithi/06/30/mahAlaya-pakSa-samAp
+ anam.toml)<br/>- Tags: SpecialPeriodEnd CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -34367,11 +34497,14 @@ BEGIN:VEVENT
 SUMMARY:sarva-(bhādrapada) mahālaya amāvāsyā
 DTSTART;VALUE=DATE:20190928
 DTEND;VALUE=DATE:20190929
-DESCRIPTION:amāvāsyā of bhādrapada month. This is extremely special an
- d is known as mahālaya.<br/><br/>## Details<br/>- [Edit config file](http
- s://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/amAvAsyA
- /description_only/%28bhAdrapada%29_mahAlaya_amAvAsyA.toml)<br/>- Tags: Ama
- vasyaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/%28b
+ hAdrapada%29_mahAlaya_amAvAsyA.toml)<br/>- Tags: AmavasyaDays ShannavatiTa
+ rpanaDays<br/><br/><br/><br/>## Details<br/>- References<br/>  - Vaidyanā
+ tha-Dīkṣitīyam<br/>- [Edit config file](https://github.com/jyotisham/a
+ dyatithi/blob/master/time_focus/monthly/amAvAsyA/description_only/%28bhAdr
+ apada%29_mahAlaya_amAvAsyA.toml)<br/>- Tags: AmavasyaDays ShannavatiTarpan
+ aDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -34560,11 +34693,15 @@ BEGIN:VEVENT
 SUMMARY:mahālaya-pakṣa-tarpaṇa-pūrtiḥ
 DTSTART;VALUE=DATE:20190929
 DTEND;VALUE=DATE:20190930
-DESCRIPTION:Mahalaya Paksha Tarpana of 16 days ends today.<br/><br/>## Det
- ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/
- master/devatA/pitR/relative_event/mahAlaya-pakSa-ArambhaH/offset__15/mahAl
- aya-pakSa-tarpaNa-pUrtiH.toml)<br/>- Tags: SpecialPeriodEnd CommonFestival
- s
+DESCRIPTION:Mahalaya Paksha Tarpana of 16 days ends today.<br/><br/>smr̥t
+ yantarē---  <br/>amā pātaśca saṅkrāntistathā vaidhr̥tirēva ca।
+   <br/>aṣṭakāścaiva manvādiryugādiśca mahālayaḥ॥  <br/>candr
+ asūryōparāgaśca gajacchāyā tathaiva ca।  <br/>dravyabrāhmaṇasam
+ pattiḥ śrāddhakālāḥ prakīrtitāḥ॥<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam Shraddha Kanda Uttarabhaga<
+ br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/maste
+ r/devatA/pitR/relative_event/mahAlaya-pakSa-ArambhaH/offset__15/mahAlaya-p
+ akSa-tarpaNa-pUrtiH.toml)<br/>- Tags: SpecialPeriodEnd CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -34722,10 +34859,15 @@ SUMMARY:vaidhr̥ti-śrāddham
 DTSTART;VALUE=DATE:20190930
 DTEND;VALUE=DATE:20191001
 DESCRIPTION:Observed on every occurrence of Vaidhr̥tiḥ yoga (Aparāhṇ
- aḥ/vyaapti). <br/><br/>Vaidhrti Shraddha day.<br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/deva
- tA/pitR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham.toml)<br/>- Tags
- : MonthlyShraddhaDays ShannavatiTarpanaDays
+ aḥ/vyaapti). <br/><br/>Vaidhrti Shraddha day.<br/><br/>smr̥tyantarē---
+   <br/>amā pātaśca saṅkrāntistathā vaidhr̥tirēva ca।  <br/>aṣ
+ ṭakāścaiva manvādiryugādiśca mahālayaḥ॥  <br/>candrasūryōpar
+ āgaśca gajacchāyā tathaiva ca।  <br/>dravyabrāhmaṇasampattiḥ ś
+ rāddhakālāḥ prakīrtitāḥ॥<br/><br/><br/><br/>## Details<br/>- Re
+ ferences<br/>  - Smriti Muktaphalam Shraddha Kanda Uttarabhaga<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pi
+ tR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham.toml)<br/>- Tags: Mon
+ thlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -35532,6 +35674,24 @@ DESCRIPTION:Observed on Śukla-Navamī tithi of Āśvayujaḥ (lunar) mont
  t config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/s
  hakti/lunar_month/tithi/07/09/bhadrakALI-vratam.toml)<br/>- Tags: SpecialV
  ratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:buddha-jayantī
+DTSTART;VALUE=DATE:20191007
+DTEND;VALUE=DATE:20191008
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/07/10/buddha~j
+ ayantI.toml)<br/>- Tags: Dashavataram LessCommonFestivals<br/><br/><br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/blob/master/devatA/vaiShNava/lunar_month/tithi/07/10/buddha~jayantI.to
+ ml)<br/>- Tags: Dashavataram LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -36999,10 +37159,15 @@ SUMMARY:vyatīpāta-śrāddham
 DTSTART;VALUE=DATE:20191017
 DTEND;VALUE=DATE:20191018
 DESCRIPTION:Observed on every occurrence of Vyatīpātaḥ yoga (Aparāh
- ṇaḥ/vyaapti). <br/><br/>Vyatipata Shraddha day.<br/><br/>## Details<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
- devatA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham.toml)<br/>-
-  Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
+ ṇaḥ/vyaapti). <br/><br/>Vyatipata Shraddha day.<br/><br/>smr̥tyantar
+ ē---  <br/>amā pātaśca saṅkrāntistathā vaidhr̥tirēva ca।  <br/
+ >aṣṭakāścaiva manvādiryugādiśca mahālayaḥ॥  <br/>candrasūry
+ ōparāgaśca gajacchāyā tathaiva ca।  <br/>dravyabrāhmaṇasampatti
+ ḥ śrāddhakālāḥ prakīrtitāḥ॥<br/><br/><br/><br/>## Details<br
+ />- References<br/>  - Smriti Muktaphalam Shraddha Kanda Uttarabhaga<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/dev
+ atA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham.toml)<br/>- Ta
+ gs: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -38129,10 +38294,15 @@ SUMMARY:vaidhr̥ti-śrāddham
 DTSTART;VALUE=DATE:20191026
 DTEND;VALUE=DATE:20191027
 DESCRIPTION:Observed on every occurrence of Vaidhr̥tiḥ yoga (Aparāhṇ
- aḥ/vyaapti). <br/><br/>Vaidhrti Shraddha day.<br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/deva
- tA/pitR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham.toml)<br/>- Tags
- : MonthlyShraddhaDays ShannavatiTarpanaDays
+ aḥ/vyaapti). <br/><br/>Vaidhrti Shraddha day.<br/><br/>smr̥tyantarē---
+   <br/>amā pātaśca saṅkrāntistathā vaidhr̥tirēva ca।  <br/>aṣ
+ ṭakāścaiva manvādiryugādiśca mahālayaḥ॥  <br/>candrasūryōpar
+ āgaśca gajacchāyā tathaiva ca।  <br/>dravyabrāhmaṇasampattiḥ ś
+ rāddhakālāḥ prakīrtitāḥ॥<br/><br/><br/><br/>## Details<br/>- Re
+ ferences<br/>  - Smriti Muktaphalam Shraddha Kanda Uttarabhaga<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pi
+ tR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham.toml)<br/>- Tags: Mon
+ thlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -39576,12 +39746,12 @@ BEGIN:VEVENT
 SUMMARY:trētāyugādiḥ
 DTSTART;VALUE=DATE:20191105
 DTEND;VALUE=DATE:20191106
-DESCRIPTION:Observed on Śukla-Navamī tithi of Kārttikaḥ (lunar) month
-  (Sāṅgavaḥ/paraviddha). <br/><br/>Perform samudrasnānam and śrāddh
- am.<br/><br/>## Details<br/>- References<br/>  - Vaidyanātha-Dīkṣitīy
- am<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/ma
- ster/time_focus/yugAdiH/lunar_month/tithi/08/09/trEtAyugAdiH.toml)<br/>- T
- ags: YugadiDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tithi/08/09/trEtAy
+ ugAdiH.toml)<br/>- Tags: YugadiDays<br/><br/><br/><br/>## Details<br/>- Re
+ ferences<br/>  - Vaidyanātha-Dīkṣitīyam<br/>- [Edit config file](http
+ s://github.com/jyotisham/adyatithi/blob/master/time_focus/yugAdiH/lunar_mo
+ nth/tithi/08/09/trEtAyugAdiH.toml)<br/>- Tags: YugadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -40404,10 +40574,15 @@ SUMMARY:vyatīpāta-śrāddham
 DTSTART;VALUE=DATE:20191111
 DTEND;VALUE=DATE:20191112
 DESCRIPTION:Observed on every occurrence of Vyatīpātaḥ yoga (Aparāh
- ṇaḥ/vyaapti). <br/><br/>Vyatipata Shraddha day.<br/><br/>## Details<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
- devatA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham.toml)<br/>-
-  Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
+ ṇaḥ/vyaapti). <br/><br/>Vyatipata Shraddha day.<br/><br/>smr̥tyantar
+ ē---  <br/>amā pātaśca saṅkrāntistathā vaidhr̥tirēva ca।  <br/
+ >aṣṭakāścaiva manvādiryugādiśca mahālayaḥ॥  <br/>candrasūry
+ ōparāgaśca gajacchāyā tathaiva ca।  <br/>dravyabrāhmaṇasampatti
+ ḥ śrāddhakālāḥ prakīrtitāḥ॥<br/><br/><br/><br/>## Details<br
+ />- References<br/>  - Smriti Muktaphalam Shraddha Kanda Uttarabhaga<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/dev
+ atA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham.toml)<br/>- Ta
+ gs: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -40561,15 +40736,12 @@ BEGIN:VEVENT
 SUMMARY:kārttika-pūrṇimā-snānam
 DTSTART;VALUE=DATE:20191112
 DTEND;VALUE=DATE:20191113
-DESCRIPTION:Observed on Paurṇamāsī tithi of Kārttikaḥ (lunar) month
-  (Prāktanāruṇōdayaḥ/paraviddha). <br/><br/>Perform snana four ghati
- kas before sunrise (during aruṇodayaḥ\, when the Moon is still up\, on
-  the full-moon days of āṣāḍha\, kārttika\, māgha and vaiśākha 
- – hence the name ā-kā-mā-vai) bestows strength\, beauty\, fame\, dhar
- ma\, knowledge\, happiness\, fortitude and health.<br/><br/>## Details<br/
- >- References<br/>  - Satyavrata Smriti<br/>- [Edit config file](https://g
- ithub.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/08/15/
- kArttika-pUrNimA-snAnam.toml)<br/>- Tags: SpecialSnanam
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/08/15/kArttika-pUrNimA-
+ snAnam.toml)<br/>- Tags: SpecialSnanam<br/><br/><br/><br/>## Details<br/>-
+  References<br/>  - Satyavrata Smriti<br/>- [Edit config file](https://git
+ hub.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/08/15/kA
+ rttika-pUrNimA-snAnam.toml)<br/>- Tags: SpecialSnanam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -41883,10 +42055,15 @@ SUMMARY:vaidhr̥ti-śrāddham
 DTSTART;VALUE=DATE:20191121
 DTEND;VALUE=DATE:20191122
 DESCRIPTION:Observed on every occurrence of Vaidhr̥tiḥ yoga (Aparāhṇ
- aḥ/vyaapti). <br/><br/>Vaidhrti Shraddha day.<br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/deva
- tA/pitR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham.toml)<br/>- Tags
- : MonthlyShraddhaDays ShannavatiTarpanaDays
+ aḥ/vyaapti). <br/><br/>Vaidhrti Shraddha day.<br/><br/>smr̥tyantarē---
+   <br/>amā pātaśca saṅkrāntistathā vaidhr̥tirēva ca।  <br/>aṣ
+ ṭakāścaiva manvādiryugādiśca mahālayaḥ॥  <br/>candrasūryōpar
+ āgaśca gajacchāyā tathaiva ca।  <br/>dravyabrāhmaṇasampattiḥ ś
+ rāddhakālāḥ prakīrtitāḥ॥<br/><br/><br/><br/>## Details<br/>- Re
+ ferences<br/>  - Smriti Muktaphalam Shraddha Kanda Uttarabhaga<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pi
+ tR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham.toml)<br/>- Tags: Mon
+ thlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -43752,10 +43929,15 @@ SUMMARY:vyatīpāta-śrāddham
 DTSTART;VALUE=DATE:20191207
 DTEND;VALUE=DATE:20191208
 DESCRIPTION:Observed on every occurrence of Vyatīpātaḥ yoga (Aparāh
- ṇaḥ/vyaapti). <br/><br/>Vyatipata Shraddha day.<br/><br/>## Details<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
- devatA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham.toml)<br/>-
-  Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
+ ṇaḥ/vyaapti). <br/><br/>Vyatipata Shraddha day.<br/><br/>smr̥tyantar
+ ē---  <br/>amā pātaśca saṅkrāntistathā vaidhr̥tirēva ca।  <br/
+ >aṣṭakāścaiva manvādiryugādiśca mahālayaḥ॥  <br/>candrasūry
+ ōparāgaśca gajacchāyā tathaiva ca।  <br/>dravyabrāhmaṇasampatti
+ ḥ śrāddhakālāḥ prakīrtitāḥ॥<br/><br/><br/><br/>## Details<br
+ />- References<br/>  - Smriti Muktaphalam Shraddha Kanda Uttarabhaga<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/dev
+ atA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham.toml)<br/>- Ta
+ gs: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -44954,10 +45136,15 @@ SUMMARY:vaidhr̥ti-śrāddham
 DTSTART;VALUE=DATE:20191216
 DTEND;VALUE=DATE:20191217
 DESCRIPTION:Observed on every occurrence of Vaidhr̥tiḥ yoga (Aparāhṇ
- aḥ/vyaapti). <br/><br/>Vaidhrti Shraddha day.<br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/deva
- tA/pitR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham.toml)<br/>- Tags
- : MonthlyShraddhaDays ShannavatiTarpanaDays
+ aḥ/vyaapti). <br/><br/>Vaidhrti Shraddha day.<br/><br/>smr̥tyantarē---
+   <br/>amā pātaśca saṅkrāntistathā vaidhr̥tirēva ca।  <br/>aṣ
+ ṭakāścaiva manvādiryugādiśca mahālayaḥ॥  <br/>candrasūryōpar
+ āgaśca gajacchāyā tathaiva ca।  <br/>dravyabrāhmaṇasampattiḥ ś
+ rāddhakālāḥ prakīrtitāḥ॥<br/><br/><br/><br/>## Details<br/>- Re
+ ferences<br/>  - Smriti Muktaphalam Shraddha Kanda Uttarabhaga<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pi
+ tR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham.toml)<br/>- Tags: Mon
+ thlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -45097,10 +45284,14 @@ BEGIN:VEVENT
 SUMMARY:mārgaśīrṣa-aṣṭakā-pūrvēdyuḥ
 DTSTART;VALUE=DATE:20191218
 DTEND;VALUE=DATE:20191219
-DESCRIPTION:Shannavati Shraddham Day.<br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/re
- lative_event/mArgazIrSa-aSTakA-zrAddham/offset__-1/mArgazIrSa-aSTakA-pUrvE
- dyuH.toml)<br/>- Tags: ShannavatiTarpanaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/relative_event/mArgazIrSa-aSTakA-zrAd
+ dham/offset__-1/mArgazIrSa-aSTakA-pUrvEdyuH.toml)<br/>- Tags: ShannavatiTa
+ rpanaDays<br/><br/><br/><br/>## Details<br/>- References<br/>  - Vaidyanā
+ tha-Dīkṣitīyam<br/>- [Edit config file](https://github.com/jyotisham/a
+ dyatithi/blob/master/devatA/pitR/relative_event/mArgazIrSa-aSTakA-zrAddham
+ /offset__-1/mArgazIrSa-aSTakA-pUrvEdyuH.toml)<br/>- Tags: ShannavatiTarpan
+ aDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -45209,11 +45400,13 @@ BEGIN:VEVENT
 SUMMARY:mārgaśīrṣa-aṣṭakā-śrāddham
 DTSTART;VALUE=DATE:20191219
 DTEND;VALUE=DATE:20191220
-DESCRIPTION:Observed on Kr̥ṣṇa-Aṣṭamī tithi of Mārgaśīrṣa
- ḥ (lunar) month (Aparāhṇaḥ/vyaapti). <br/><br/><br/><br/>## Details
- <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
- er/devatA/pitR/lunar_month/tithi/09/23/mArgazIrSa-aSTakA-zrAddham.toml)<br
- />- Tags: ShannavatiTarpanaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/lunar_month/tithi/09/23/mArgazIrSa-aS
+ TakA-zrAddham.toml)<br/>- Tags: ShannavatiTarpanaDays<br/><br/><br/><br/>#
+ # Details<br/>- References<br/>  - Vaidyanātha-Dīkṣitīyam<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pi
+ tR/lunar_month/tithi/09/23/mArgazIrSa-aSTakA-zrAddham.toml)<br/>- Tags: Sh
+ annavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -45297,10 +45490,14 @@ BEGIN:VEVENT
 SUMMARY:mārgaśīrṣa-anvaṣṭakā-śrāddham
 DTSTART;VALUE=DATE:20191220
 DTEND;VALUE=DATE:20191221
-DESCRIPTION:Shannavati Shraddham Day.<br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/re
- lative_event/mArgazIrSa-aSTakA-zrAddham/offset__01/mArgazIrSa-anvaSTakA-zr
- Addham.toml)<br/>- Tags: ShannavatiTarpanaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/pitR/relative_event/mArgazIrSa-aSTakA-zrAd
+ dham/offset__01/mArgazIrSa-anvaSTakA-zrAddham.toml)<br/>- Tags: Shannavati
+ TarpanaDays<br/><br/><br/><br/>## Details<br/>- References<br/>  - Vaidyan
+ ātha-Dīkṣitīyam<br/>- [Edit config file](https://github.com/jyotisham
+ /adyatithi/blob/master/devatA/pitR/relative_event/mArgazIrSa-aSTakA-zrAddh
+ am/offset__01/mArgazIrSa-anvaSTakA-zrAddham.toml)<br/>- Tags: ShannavatiTa
+ rpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
