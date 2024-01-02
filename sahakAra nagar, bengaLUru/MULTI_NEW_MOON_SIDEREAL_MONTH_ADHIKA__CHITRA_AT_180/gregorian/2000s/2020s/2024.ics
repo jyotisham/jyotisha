@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20240102095921
+SEQUENCE:20240102100102
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -7412,10 +7412,15 @@ SUMMARY:माघ-पूर्णिमा
 DTSTART;VALUE=DATE:20240224
 DTEND;VALUE=DATE:20240225
 DESCRIPTION:Observed on Paurṇamāsī tithi of Māghaḥ (lunar) month (S
- ūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit co
- nfig file](https://github.com/jyotisham/adyatithi/blob/master/general/luna
- r_month/tithi/11/15/mAgha-pUrNimA.toml)<br/>- Tags: PurnimaDays CommonFest
- ivals
+ ūryōdayaḥ/puurvaviddha). <br/><br/>निर्णयसिन्ध
+ ौ भविष्ये---  <br/>माघमासे शुक्ल
+ पक्षे पूर्णिमायां नृपोत्तम
+ ।  <br/>तिलपात्रादि देयानि कञ्
+ चुका कम्बलास्तथा॥<br/><br/><br/><br/>## De
+ tails<br/>- References<br/>  - Vrata Nirnaya Kalpavalli<br/>- [Edit config
+  file](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_mo
+ nth/tithi/11/15/mAgha-pUrNimA.toml)<br/>- Tags: PurnimaDays CommonFestival
+ s
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
