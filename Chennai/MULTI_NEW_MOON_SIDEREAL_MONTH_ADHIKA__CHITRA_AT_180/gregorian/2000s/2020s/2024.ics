@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20240102073253
+SEQUENCE:20240102073904
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -7946,11 +7946,11 @@ SUMMARY:वराह-कल्पादिः
 DTSTART;VALUE=DATE:20240221
 DTEND;VALUE=DATE:20240222
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tithi/11/13/varAha
- -kalpAdiH.toml)<br/>- Tags: KalpadiDays<br/><br/><br/><br/>## Details<br/>
- - References<br/>  - Smriti Kaustubham p.87--88<br/>- [Edit config file](h
- ttps://github.com/jyotisham/adyatithi/blob/master/time_focus/yugAdiH/lunar
- _month/tithi/11/13/varAha-kalpAdiH.toml)<br/>- Tags: KalpadiDays
+ am/adyatithi/blob/master/time_focus/kalpAdiH/lunar_month/tithi/11/13/varAh
+ a-kalpAdiH.toml)<br/>- Tags: KalpadiDays<br/><br/><br/><br/>## Details<br/
+ >- References<br/>  - Smriti Kaustubham p.87--88<br/>- [Edit config file](
+ https://github.com/jyotisham/adyatithi/blob/master/time_focus/kalpAdiH/lun
+ ar_month/tithi/11/13/varAha-kalpAdiH.toml)<br/>- Tags: KalpadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13706,11 +13706,11 @@ SUMMARY:ब्रह्म-कल्पादिः
 DTSTART;VALUE=DATE:20240328
 DTEND;VALUE=DATE:20240329
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tithi/12/18/brahma
- -kalpAdiH.toml)<br/>- Tags: KalpadiDays<br/><br/><br/><br/>## Details<br/>
- - References<br/>  - Smriti Kaustubham p.87--88<br/>- [Edit config file](h
- ttps://github.com/jyotisham/adyatithi/blob/master/time_focus/yugAdiH/lunar
- _month/tithi/12/18/brahma-kalpAdiH.toml)<br/>- Tags: KalpadiDays
+ am/adyatithi/blob/master/time_focus/kalpAdiH/lunar_month/tithi/12/18/brahm
+ a-kalpAdiH.toml)<br/>- Tags: KalpadiDays<br/><br/><br/><br/>## Details<br/
+ >- References<br/>  - Smriti Kaustubham p.87--88<br/>- [Edit config file](
+ https://github.com/jyotisham/adyatithi/blob/master/time_focus/kalpAdiH/lun
+ ar_month/tithi/12/18/brahma-kalpAdiH.toml)<br/>- Tags: KalpadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15450,11 +15450,12 @@ SUMMARY:श्वेतवराह-कल्पादिः
 DTSTART;VALUE=DATE:20240409
 DTEND;VALUE=DATE:20240410
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tithi/01/01/zvEtav
- arAha-kalpAdiH.toml)<br/>- Tags: KalpadiDays<br/><br/><br/><br/>## Details
- <br/>- References<br/>  - Smriti Kaustubham p.87--88<br/>- [Edit config fi
- le](https://github.com/jyotisham/adyatithi/blob/master/time_focus/yugAdiH/
- lunar_month/tithi/01/01/zvEtavarAha-kalpAdiH.toml)<br/>- Tags: KalpadiDays
+ am/adyatithi/blob/master/time_focus/kalpAdiH/lunar_month/tithi/01/01/zvEta
+ varAha-kalpAdiH.toml)<br/>- Tags: KalpadiDays<br/><br/><br/><br/>## Detail
+ s<br/>- References<br/>  - Smriti Kaustubham p.87--88<br/>- [Edit config f
+ ile](https://github.com/jyotisham/adyatithi/blob/master/time_focus/kalpAdi
+ H/lunar_month/tithi/01/01/zvEtavarAha-kalpAdiH.toml)<br/>- Tags: KalpadiDa
+ ys
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23824,11 +23825,11 @@ SUMMARY:पार्थिव-कल्पादिः
 DTSTART;VALUE=DATE:20240526
 DTEND;VALUE=DATE:20240527
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tithi/02/18/pArthi
- va-kalpAdiH.toml)<br/>- Tags: KalpadiDays<br/><br/><br/><br/>## Details<br
- />- References<br/>  - Smriti Kaustubham p.87--88<br/>- [Edit config file]
- (https://github.com/jyotisham/adyatithi/blob/master/time_focus/yugAdiH/lun
- ar_month/tithi/02/18/pArthiva-kalpAdiH.toml)<br/>- Tags: KalpadiDays
+ am/adyatithi/blob/master/time_focus/kalpAdiH/lunar_month/tithi/02/18/pArth
+ iva-kalpAdiH.toml)<br/>- Tags: KalpadiDays<br/><br/><br/><br/>## Details<b
+ r/>- References<br/>  - Smriti Kaustubham p.87--88<br/>- [Edit config file
+ ](https://github.com/jyotisham/adyatithi/blob/master/time_focus/kalpAdiH/l
+ unar_month/tithi/02/18/pArthiva-kalpAdiH.toml)<br/>- Tags: KalpadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -53616,11 +53617,11 @@ SUMMARY:सावित्री-कल्पादिः
 DTSTART;VALUE=DATE:20241122
 DTEND;VALUE=DATE:20241123
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tithi/08/22/sAvitr
- I-kalpAdiH.toml)<br/>- Tags: KalpadiDays<br/><br/><br/><br/>## Details<br/
- >- References<br/>  - Smriti Kaustubham p.87--88<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/blob/master/time_focus/yugAdiH/luna
- r_month/tithi/08/22/sAvitrI-kalpAdiH.toml)<br/>- Tags: KalpadiDays
+ am/adyatithi/blob/master/time_focus/kalpAdiH/lunar_month/tithi/08/22/sAvit
+ rI-kalpAdiH.toml)<br/>- Tags: KalpadiDays<br/><br/><br/><br/>## Details<br
+ />- References<br/>  - Smriti Kaustubham p.87--88<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/blob/master/time_focus/kalpAdiH/lu
+ nar_month/tithi/08/22/sAvitrI-kalpAdiH.toml)<br/>- Tags: KalpadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -56186,11 +56187,11 @@ SUMMARY:प्रलय-कल्पादिः
 DTSTART;VALUE=DATE:20241209
 DTEND;VALUE=DATE:20241210
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tithi/09/09/pralay
- a-kalpAdiH.toml)<br/>- Tags: KalpadiDays<br/><br/><br/><br/>## Details<br/
- >- References<br/>  - Smriti Kaustubham p.87--88<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/blob/master/time_focus/yugAdiH/luna
- r_month/tithi/09/09/pralaya-kalpAdiH.toml)<br/>- Tags: KalpadiDays
+ am/adyatithi/blob/master/time_focus/kalpAdiH/lunar_month/tithi/09/09/prala
+ ya-kalpAdiH.toml)<br/>- Tags: KalpadiDays<br/><br/><br/><br/>## Details<br
+ />- References<br/>  - Smriti Kaustubham p.87--88<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/blob/master/time_focus/kalpAdiH/lu
+ nar_month/tithi/09/09/pralaya-kalpAdiH.toml)<br/>- Tags: KalpadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
