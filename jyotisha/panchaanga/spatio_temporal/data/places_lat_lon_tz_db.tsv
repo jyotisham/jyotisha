@@ -34,6 +34,7 @@ Cupertino		37:19:23	-122:01:56	America/Los_Angeles
 Sacramento		38.5617339	-121.46143	America/Los_Angeles
 Flemington		40.5084323	-74.8599965	America/New_York
 NewYork		40.6217543	-74.6111683	America/New_York
+Charlotte		35.227085	-80.843124	America/New_York
 Denver		39.7643389	-104.8551114	America/Denver
 LosAngeles		34.020479	-118.4117325	America/Los_Angeles
 Aurora		41.7509724	-88.3067189	America/Chicago
@@ -530,5 +531,6 @@ LosGatos		37.2333434	-121.9515351	America/Los_Angeles
 SanDiego		33.0368876	-117.065848	America/Los_Angeles
 Northwood		51.619	-0.435	Europe/London
 Budapest		47.532	18.9927238	Europe/Budapest
+Lisbon		38.7440795	-9.1597358	Europe/Lisbon
 Toronto		43.7182412	-79.3780581	America/Toronto
 Amsterdam		52.3546656	4.9039604	Europe/Amsterdam
