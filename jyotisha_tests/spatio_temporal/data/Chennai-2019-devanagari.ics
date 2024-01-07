@@ -18340,16 +18340,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:āyuṣmad-bava-saumya-saṁyōgaḥ
-DTSTART;VALUE=DATE:20190529
-DTEND;VALUE=DATE:20190530
+DTSTART;TZID=Asia/Calcutta:20190529T152133
+DTEND;TZID=Asia/Calcutta:20190529T182727
 DESCRIPTION:A rare combination of āyuṣmān yōga\, bava karaṇa and sa
  umyavāsara.<br/><br/>## Details<br/>- References<br/>  - Maha Periva / De
  ivattin Kural<br/>- [Edit config file](https://github.com/jyotisham/adyati
  thi/blob/master/time_focus/misc_combinations/description_only/AyuSmad-bava
  -saumya-saMyOgaH.toml)<br/>- Tags: RareDays Combinations
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H

@@ -43,6 +43,7 @@ class SolarFestivalAssigner(FestivalAssigner):
     self.assign_garbhottam()
     self.assign_padmaka_yoga()
     self.assign_revati_dvadashi_yoga()
+    self.assign_ayushmad_bava_saumya_yoga()
 
 
   def assign_pitr_dina(self):
@@ -526,7 +527,19 @@ class SolarFestivalAssigner(FestivalAssigner):
         if dp_nakshatra is not None:
           self._assign_yoga('dvipuSkara-yOgaH~%d' % wday, [(zodiac.AngaType.NAKSHATRA, dp_nakshatra), (zodiac.AngaType.TITHI, p_tithi)],
             jd_start=daily_panchaanga.jd_sunrise, jd_end=daily_panchaanga.jd_next_sunrise, show_debug_info=False)
-      
+
+  def assign_ayushmad_bava_saumya_yoga(self):
+    if 'AyuSmad-bava-saumya-saMyOgaH' not in self.rules_collection.name_to_rule:
+      return
+    BAVA_KARANA = list(range(2, 52, 7))
+    AYUSHMAD_YOGA = 3
+    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
+      # AYUSHMAN BAVA SAUMYA
+      if self.daily_panchaangas[d].date.get_weekday() == 3:
+        for karana_ID in BAVA_KARANA:
+          self._assign_yoga('AyuSmad-bava-saumya-saMyOgaH', [(zodiac.AngaType.YOGA, AYUSHMAD_YOGA), (zodiac.AngaType.KARANA, karana_ID)],
+                            jd_start=self.daily_panchaangas[d].jd_sunrise, jd_end=self.daily_panchaangas[d].jd_sunset, show_debug_info=False)
+
 
   def assign_padmaka_yoga(self):
     if 'padmaka-yOga-puNyakAlaH' not in self.rules_collection.name_to_rule:
