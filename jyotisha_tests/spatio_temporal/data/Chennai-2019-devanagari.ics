@@ -1396,6 +1396,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:dhanurmāsa-uṣaḥkāla-pūjā-samāpanam
+DTSTART;VALUE=DATE:20190114
+DTEND;VALUE=DATE:20190115
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/description_only/dhanurmasa-uSaHkAla-pUjA
+ -samApanam.toml)<br/>- Tags: SpecialPujas CommonFestivals SpecialPeriodEnd
+ <br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com
+ /jyotisham/adyatithi/blob/master/general/description_only/dhanurmasa-uSaHk
+ Ala-pUjA-samApanam.toml)<br/>- Tags: SpecialPujas CommonFestivals SpecialP
+ eriodEnd
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Vāyilār Nāyanmār (51) Gurupūjai
 DTSTART;VALUE=DATE:20190114
 DTEND;VALUE=DATE:20190115
@@ -45199,6 +45218,25 @@ DESCRIPTION:- Indian civil date: 1941-09-26\, Islamic: 1441-04-19 Rabīʿ
  ṭaḥ**—09:16-10:40\; **Gulikakālaḥ**—12:04-13:28  \n____________
  _______\n- **Śūlam**—Udīchī (►10:57)\; **Parihāraḥ**–Kṣīra
  m  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:dhanurmāsa-uṣaḥkāla-pūjārambhaḥ
+DTSTART;VALUE=DATE:20191217
+DTEND;VALUE=DATE:20191218
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/description_only/dhanurmasa-uSaHkAla-pUjA
+ -ArambhaH.toml)<br/>- Tags: SpecialPujas CommonFestivals SpecialPeriodEnd<
+ br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/
+ jyotisham/adyatithi/blob/master/general/description_only/dhanurmasa-uSaHkA
+ la-pUjA-ArambhaH.toml)<br/>- Tags: SpecialPujas CommonFestivals SpecialPer
+ iodEnd
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
