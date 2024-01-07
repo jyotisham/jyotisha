@@ -386,6 +386,29 @@ class SolarFestivalAssigner(FestivalAssigner):
         else:
           self.panchaanga.add_festival(fest_id='dhanurmasa-uSaHkAla-pUjA-samApanam', date=self.daily_panchaangas[d + 1].date)
 
+    for d, daily_panchaanga in enumerate(self.daily_panchaangas):
+      # SAHO-MASA PUJA
+      # This can start on the first or second day of Saho masa, not before; depending on the time of the month transition
+      if daily_panchaanga.tropical_date_sunset.month == 9 and daily_panchaanga.tropical_date_sunset.day == 1:
+        ushah_kaala = get_interval(start_jd=daily_panchaanga.jd_previous_sunset, end_jd=daily_panchaanga.jd_sunrise, part_index=range(25,28), num_parts=30)
+        jd_transition = daily_panchaanga.tropical_date_sunset.month_transition
+        if jd_transition is None:
+          # Transit happened before sunrise; so fetch it from the previous day's panchaanga
+          jd_transition = self.daily_panchaangas[d - 1].tropical_date_sunset.month_transition
+        if jd_transition > ushah_kaala.jd_end:
+          self.panchaanga.add_festival(fest_id='sahOmasa-uSaHkAla-pUjA-ArambhaH', date=self.daily_panchaangas[d + 1].date)
+        else:
+          self.panchaanga.add_festival(fest_id='sahOmasa-uSaHkAla-pUjA-ArambhaH', date=daily_panchaanga.date)
+
+      if daily_panchaanga.tropical_date_sunset.month_transition and self.daily_panchaangas[d - 1].tropical_date_sunset.month == 9:
+        # Makara Sankramana
+        # Check if happens before the start of ushah kaala
+        ushah_kaala = get_interval(start_jd=daily_panchaanga.jd_sunset, end_jd=daily_panchaanga.jd_next_sunrise, part_index=range(25,28), num_parts=30)
+        if daily_panchaanga.tropical_date_sunset.month_transition < ushah_kaala.jd_start:
+          self.panchaanga.add_festival(fest_id='sahOmasa-uSaHkAla-pUjA-samApanam', date=daily_panchaanga.date)
+        else:
+          self.panchaanga.add_festival(fest_id='sahOmasa-uSaHkAla-pUjA-samApanam', date=self.daily_panchaangas[d + 1].date)
+
   def assign_month_day_muDavan_muzhukku(self):
     if 'muDavan2_muzhukku' not in self.rules_collection.name_to_rule:
       return
