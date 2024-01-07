@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20240107153305
+SEQUENCE:20240107163015
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -1764,6 +1764,26 @@ DTEND;VALUE=DATE:20240115
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/tamil/relative_event/makara-saGkramaNa-puNyakAlaH
  /offset__-1/bhOgi.toml)<br/>- Tags: CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:धनुर्मास-उषःकाल-पूजा-समा
+ पनम्
+DTSTART;VALUE=DATE:20240114
+DTEND;VALUE=DATE:20240115
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/description_only/dhanurmasa-uSaHkAla-pUjA
+ -samApanam.toml)<br/>- Tags: SpecialPujas CommonFestivals SpecialPeriodEnd
+ <br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com
+ /jyotisham/adyatithi/blob/master/general/description_only/dhanurmasa-uSaHk
+ Ala-pUjA-samApanam.toml)<br/>- Tags: SpecialPujas CommonFestivals SpecialP
+ eriodEnd
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -51279,6 +51299,26 @@ DESCRIPTION:Observed on Kr̥ṣṇa-Dvitīyā tithi of Dhanuḥ (sidereal
  br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyat
  ithi/blob/master/mahApuruSha/general-indic-non-tropical/sidereal_solar_mon
  th/tithi/09/17/JjAnAnanda-giriH~ArAdhanA.toml)<br/>- Tags: AradhanaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:धनुर्मास-उषःकाल-पूजारम्
+ भः
+DTSTART;VALUE=DATE:20241216
+DTEND;VALUE=DATE:20241217
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/description_only/dhanurmasa-uSaHkAla-pUjA
+ -ArambhaH.toml)<br/>- Tags: SpecialPujas CommonFestivals SpecialPeriodEnd<
+ br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/
+ jyotisham/adyatithi/blob/master/general/description_only/dhanurmasa-uSaHkA
+ la-pUjA-ArambhaH.toml)<br/>- Tags: SpecialPujas CommonFestivals SpecialPer
+ iodEnd
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
