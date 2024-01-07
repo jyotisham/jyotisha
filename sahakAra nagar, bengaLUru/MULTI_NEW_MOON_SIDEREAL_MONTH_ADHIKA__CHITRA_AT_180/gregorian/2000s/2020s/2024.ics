@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20240107195750
+SEQUENCE:20240107202714
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -45556,14 +45556,14 @@ DTSTART;VALUE=DATE:20241109
 DTEND;VALUE=DATE:20241110
 DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Kārttikaḥ (lunar) m
  onth (Madhyāhnaḥ/puurvaviddha). <br/><br/>Perform pūjā of cow with ca
- lf\, and offer ta:agattikīrai and grass/water\, and perform 16 pradakṣi
- ṇam.<br/><br/>कार्त्तिके  याऽष्टमी  
- शुक्ला  ज्ञेया  गोपाष्टमी  ब
- ुधैः।  <br/>तत्र  कुर्याद्गवां  
- पूजां  गोग्रासं  गोप्रदक्षि
- णम्॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https:
- //github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/lunar_month/
- tithi/08/08/gOpASTamI.toml)<br/>- Tags: LessCommonFestivals
+ lf\, and offer agattikīrai and grass/water\, and perform 16 pradakṣiṇ
+ am.<br/><br/>कार्त्तिके  याऽष्टमी  श
+ ुक्ला  ज्ञेया  गोपाष्टमी  बु
+ धैः।  <br/>तत्र  कुर्याद्गवां  प
+ ूजां  गोग्रासं  गोप्रदक्षिण
+ म्॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tit
+ hi/08/08/gOpASTamI.toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -47071,10 +47071,10 @@ SUMMARY:तुला-कावेरी-स्नान-समापनम
  ्
 DTSTART;VALUE=DATE:20241116
 DTEND;VALUE=DATE:20241117
-DESCRIPTION:End of Tula Kaveri Snanam. Also known as ta:kaḍaimugam.<br/>
- <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
- tithi/blob/master/devatA/nadI/relative_event/muDavan2_muzhukku/offset__-1/
- tulA-kAvErI-snAna-samApanam.toml)<br/>- Tags: TamilnaduTempleFestivals
+DESCRIPTION:End of Tula Kaveri Snanam. Also known as kaḍaimugam.<br/><br
+ />## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatit
+ hi/blob/master/devatA/nadI/relative_event/muDavan2_muzhukku/offset__-1/tul
+ A-kAvErI-snAna-samApanam.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
