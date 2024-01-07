@@ -38419,15 +38419,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:naraka-caturdaśī
+SUMMARY:naraka-caturdaśī-snānam
 DTSTART;VALUE=DATE:20191027
 DTEND;VALUE=DATE:20191028
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/07/29/naraka-c
- aturdazI.toml)<br/>- Tags: CommonFestivals<br/><br/><br/><br/>## Details<b
- r/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master
- /devatA/vaiShNava/lunar_month/tithi/07/29/naraka-caturdazI.toml)<br/>- Tag
- s: CommonFestivals
+ am/adyatithi/blob/master/general/lunar_month/tithi/07/29/naraka-caturdazI-
+ snAnam.toml)<br/>- Tags: CommonFestivals<br/><br/><br/><br/>## Details<br/
+ >- References<br/>  - Smriti Kaustubham p.370<br/>- [Edit config file](htt
+ ps://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/
+ 07/29/naraka-caturdazI-snAnam.toml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
