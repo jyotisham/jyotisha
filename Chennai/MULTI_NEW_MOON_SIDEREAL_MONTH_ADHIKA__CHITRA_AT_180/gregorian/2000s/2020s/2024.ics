@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20240107205956
+SEQUENCE:20240113221708
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -1405,6 +1405,26 @@ DESCRIPTION:Observed on day 27 of Dhanuḥ (sidereal solar) month (Sūryō
   file](https://github.com/jyotisham/adyatithi/blob/master/tamil/sidereal_s
  olar_month/day/09/27/kUDAravallI.toml)<br/>- Tags: TamilFestivals CommonFe
  stivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ख्येचिमावस पोष्त/खिचडी-अ
+ मावास्या
+DTSTART;VALUE=DATE:20240111
+DTEND;VALUE=DATE:20240112
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/temples/North/lunar_month/tithi/09/30/khicaDI-AmA
+ vAsyA.toml)<br/>- Tags: KashmirTempleFestivals<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - https://twitter.com/CoreSharada/status/1744914
+ 263876227436<br/>- [Edit config file](https://github.com/jyotisham/adyatit
+ hi/blob/master/temples/North/lunar_month/tithi/09/30/khicaDI-AmAvAsyA.toml
+ )<br/>- Tags: KashmirTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -59745,6 +59765,26 @@ DESCRIPTION:Observed on Amāvāsyā tithi of Mārgaśīrṣaḥ (lunar) mo
  e Dasha Maha Vidyas.<br/><br/>## Details<br/>- [Edit config file](https://
  github.com/jyotisham/adyatithi/blob/master/devatA/dashamahAvidyA/lunar_mon
  th/tithi/09/30/kamalA~jayantI.toml)<br/>- Tags: Dashamahavidya
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ख्येचिमावस पोष्त/खिचडी-अ
+ मावास्या
+DTSTART;VALUE=DATE:20241230
+DTEND;VALUE=DATE:20241231
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/temples/North/lunar_month/tithi/09/30/khicaDI-AmA
+ vAsyA.toml)<br/>- Tags: KashmirTempleFestivals<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - https://twitter.com/CoreSharada/status/1744914
+ 263876227436<br/>- [Edit config file](https://github.com/jyotisham/adyatit
+ hi/blob/master/temples/North/lunar_month/tithi/09/30/khicaDI-AmAvAsyA.toml
+ )<br/>- Tags: KashmirTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
