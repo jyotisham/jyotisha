@@ -534,6 +534,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:khyēcimāvasa pōṣta/khicaḍī-amāvāsyā
+DTSTART;VALUE=DATE:20190105
+DTEND;VALUE=DATE:20190106
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/temples/North/lunar_month/tithi/09/30/khicaDI-AmA
+ vAsyA.toml)<br/>- Tags: KashmirTempleFestivals<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - https://twitter.com/CoreSharada/status/1744914
+ 263876227436<br/>- [Edit config file](https://github.com/jyotisham/adyatit
+ hi/blob/master/temples/North/lunar_month/tithi/09/30/khicaDI-AmAvAsyA.toml
+ )<br/>- Tags: KashmirTempleFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:pārvaṇavratam amāvāsyāyām
 DTSTART;VALUE=DATE:20190105
 DTEND;VALUE=DATE:20190106
@@ -46142,6 +46161,25 @@ DESCRIPTION:Observed on Amāvāsyā tithi of Mārgaśīrṣaḥ (lunar) mo
  e Dasha Maha Vidyas.<br/><br/>## Details<br/>- [Edit config file](https://
  github.com/jyotisham/adyatithi/blob/master/devatA/dashamahAvidyA/lunar_mon
  th/tithi/09/30/kamalA~jayantI.toml)<br/>- Tags: Dashamahavidya
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:khyēcimāvasa pōṣta/khicaḍī-amāvāsyā
+DTSTART;VALUE=DATE:20191225
+DTEND;VALUE=DATE:20191226
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/temples/North/lunar_month/tithi/09/30/khicaDI-AmA
+ vAsyA.toml)<br/>- Tags: KashmirTempleFestivals<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - https://twitter.com/CoreSharada/status/1744914
+ 263876227436<br/>- [Edit config file](https://github.com/jyotisham/adyatit
+ hi/blob/master/temples/North/lunar_month/tithi/09/30/khicaDI-AmAvAsyA.toml
+ )<br/>- Tags: KashmirTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
