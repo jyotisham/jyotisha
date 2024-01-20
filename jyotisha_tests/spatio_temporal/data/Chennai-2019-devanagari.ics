@@ -1708,6 +1708,26 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:sāmba-daśamī (sūryapūjā)
+DTSTART;VALUE=DATE:20190116
+DTEND;VALUE=DATE:20190117
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/temples/Odisha/lunar_month/tithi/10/10/sAmba-daza
+ mI_or_sUryapUjA.toml)<br/>- Tags: LessCommonFestivals OdishaTempleFestival
+ s<br/><br/><br/><br/>## Details<br/>- References<br/>  - https://hindupad.
+ com/samba-dashami-2009-samba-dasami-or-surya-puja-in-orissa/<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/blob/master/temples/Odi
+ sha/lunar_month/tithi/10/10/sAmba-dazamI_or_sUryapUjA.toml)<br/>- Tags: Le
+ ssCommonFestivals OdishaTempleFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Pauṣaḥ-10-11  \,Vr̥ṣabhaḥ-Kr̥ttikā🌛🌌  \,  Makara
  ḥ-Uttarāṣāḍhā-10-03🌞🌌  \,  Sahasyaḥ-10-27🌞🪐  \, Gur
  uḥ
@@ -2620,6 +2640,24 @@ DESCRIPTION:- Indian civil date: 1940-11-02\, Islamic: 1440-05-15 Jumādā
   **Gulikakālaḥ**—12:20-13:45  \n___________________\n- **Śūlam**—
  Udīchī (►11:12)\; **Parihāraḥ**–Kṣīram  \n___________________\
  n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:dinakṣayaḥ
+DTSTART;VALUE=DATE:20190122
+DTEND;VALUE=DATE:20190123
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/special-tithis/description_only/dinakS
+ ayaH.toml)<br/>- Tags: RareDays<br/><br/><br/><br/>## Details<br/>- Refere
+ nces<br/>  - Smriti Muktaphalam Varnashrama Dharma Kanda<br/>- [Edit confi
+ g file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/spec
+ ial-tithis/description_only/dinakSayaH.toml)<br/>- Tags: RareDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5395,26 +5433,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sāmba-daśamī (sūryapūjā)
-DTSTART;VALUE=DATE:20190215
-DTEND;VALUE=DATE:20190216
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/temples/Odisha/lunar_month/tithi/11/10/sAmba-daza
- mI_or_sUryapUjA.toml)<br/>- Tags: LessCommonFestivals OdishaTempleFestival
- s<br/><br/><br/><br/>## Details<br/>- References<br/>  - https://hindupad.
- com/samba-dashami-2009-samba-dasami-or-surya-puja-in-orissa/<br/>- [Edit c
- onfig file](https://github.com/jyotisham/adyatithi/blob/master/temples/Odi
- sha/lunar_month/tithi/11/10/sAmba-dazamI_or_sUryapUjA.toml)<br/>- Tags: Le
- ssCommonFestivals OdishaTempleFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Tiruchchendūr Murugan Māchit Tiruviḻā 8M Nāḷ—Pachchai Ch
  ātti Alaṅkāram
 DTSTART;VALUE=DATE:20190215
@@ -5611,6 +5629,24 @@ DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Māghaḥ (lunar) month
   config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruS
  ha/xatra/lunar_month/tithi/11/12/bhISma-dvAdazI.toml)<br/>- Tags: SpecialP
  uja
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:dinakṣayaḥ
+DTSTART;VALUE=DATE:20190217
+DTEND;VALUE=DATE:20190218
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/special-tithis/description_only/dinakS
+ ayaH.toml)<br/>- Tags: RareDays<br/><br/><br/><br/>## Details<br/>- Refere
+ nces<br/>  - Smriti Muktaphalam Varnashrama Dharma Kanda<br/>- [Edit confi
+ g file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/spec
+ ial-tithis/description_only/dinakSayaH.toml)<br/>- Tags: RareDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6547,6 +6583,24 @@ DESCRIPTION:- Indian civil date: 1940-12-04\, Islamic: 1440-06-17 Jumādā
  _\n- **Rāhukālaḥ**—09:27-10:54\; **Yamaghaṇṭaḥ**—13:50-15:17
  \; **Gulikakālaḥ**—06:31-07:59  \n___________________\n- **Śūlam**
  —Prāchī (►09:38)\; **Parihāraḥ**–Dadhi  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:dinakṣayaḥ
+DTSTART;VALUE=DATE:20190223
+DTEND;VALUE=DATE:20190224
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/special-tithis/description_only/dinakS
+ ayaH.toml)<br/>- Tags: RareDays<br/><br/><br/><br/>## Details<br/>- Refere
+ nces<br/>  - Smriti Muktaphalam Varnashrama Dharma Kanda<br/>- [Edit confi
+ g file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/spec
+ ial-tithis/description_only/dinakSayaH.toml)<br/>- Tags: RareDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9630,6 +9684,24 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Phālgunaḥ (lunar) month
  com/jyotisham/adyatithi/blob/master/mahApuruSha/vaiShNava-misc/lunar_month
  /tithi/12/15/caitanya-mahAprabhu~jayantI.toml)<br/>- Tags: MahapurushaEven
  ts
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:dinakṣayaḥ
+DTSTART;VALUE=DATE:20190321
+DTEND;VALUE=DATE:20190322
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/special-tithis/description_only/dinakS
+ ayaH.toml)<br/>- Tags: RareDays<br/><br/><br/><br/>## Details<br/>- Refere
+ nces<br/>  - Smriti Muktaphalam Varnashrama Dharma Kanda<br/>- [Edit confi
+ g file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/spec
+ ial-tithis/description_only/dinakSayaH.toml)<br/>- Tags: RareDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12733,6 +12805,24 @@ DESCRIPTION:Observed on Śukla-Daśamī tithi of Caitraḥ (lunar) month (
  >  - Smriti Kaustubham p.101<br/>- [Edit config file](https://github.com/j
  yotisham/adyatithi/blob/master/general/lunar_month/tithi/01/10/dharmarAja-
  dazamI.toml)<br/>- Tags: LessCommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:dinakṣayaḥ
+DTSTART;VALUE=DATE:20190415
+DTEND;VALUE=DATE:20190416
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/special-tithis/description_only/dinakS
+ ayaH.toml)<br/>- Tags: RareDays<br/><br/><br/><br/>## Details<br/>- Refere
+ nces<br/>  - Smriti Muktaphalam Varnashrama Dharma Kanda<br/>- [Edit confi
+ g file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/spec
+ ial-tithis/description_only/dinakSayaH.toml)<br/>- Tags: RareDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16863,6 +16953,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:dinakṣayaḥ
+DTSTART;VALUE=DATE:20190517
+DTEND;VALUE=DATE:20190518
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/special-tithis/description_only/dinakS
+ ayaH.toml)<br/>- Tags: RareDays<br/><br/><br/><br/>## Details<br/>- Refere
+ nces<br/>  - Smriti Muktaphalam Varnashrama Dharma Kanda<br/>- [Edit confi
+ g file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/spec
+ ial-tithis/description_only/dinakSayaH.toml)<br/>- Tags: RareDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:kāñcī 39 jagadguru śrī-saccidvilāsēndra sarasvatī ārādha
  nā #1147
 DTSTART;VALUE=DATE:20190517
@@ -19478,6 +19586,24 @@ DESCRIPTION:- Indian civil date: 1941-03-17\, Islamic: 1440-10-03 Shawwāl
  kālaḥ**—10:32-12:07\; **Yamaghaṇṭaḥ**—15:18-16:54\; **Gulikak
  ālaḥ**—07:20-08:56  \n___________________\n- **Śūlam**—Pratīchī
   (►10:51)\; **Parihāraḥ**–Guḍam  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:dinakṣayaḥ
+DTSTART;VALUE=DATE:20190607
+DTEND;VALUE=DATE:20190608
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/special-tithis/description_only/dinakS
+ ayaH.toml)<br/>- Tags: RareDays<br/><br/><br/><br/>## Details<br/>- Refere
+ nces<br/>  - Smriti Muktaphalam Varnashrama Dharma Kanda<br/>- [Edit confi
+ g file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/spec
+ ial-tithis/description_only/dinakSayaH.toml)<br/>- Tags: RareDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22309,6 +22435,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:dinakṣayaḥ
+DTSTART;VALUE=DATE:20190630
+DTEND;VALUE=DATE:20190701
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/special-tithis/description_only/dinakS
+ ayaH.toml)<br/>- Tags: RareDays<br/><br/><br/><br/>## Details<br/>- Refere
+ nces<br/>  - Smriti Muktaphalam Varnashrama Dharma Kanda<br/>- [Edit confi
+ g file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/spec
+ ial-tithis/description_only/dinakSayaH.toml)<br/>- Tags: RareDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:pradōṣa-vratam
 DTSTART;TZID=Asia/Calcutta:20190630T183522
 DTEND;TZID=Asia/Calcutta:20190630T195945
@@ -23432,6 +23576,24 @@ DESCRIPTION:The Brahmotsavam of Nataraja at Chidambaram happens specially
   Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/b
  lob/master/temples/Tamil/relative_event/naTarAjar_An2i_tirumaJcan2am/offse
  t__01/cidambarE_muttuppallakku.toml)<br/>- Tags: TamilnaduTempleFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:dinakṣayaḥ
+DTSTART;VALUE=DATE:20190708
+DTEND;VALUE=DATE:20190709
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/special-tithis/description_only/dinakS
+ ayaH.toml)<br/>- Tags: RareDays<br/><br/><br/><br/>## Details<br/>- Refere
+ nces<br/>  - Smriti Muktaphalam Varnashrama Dharma Kanda<br/>- [Edit confi
+ g file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/spec
+ ial-tithis/description_only/dinakSayaH.toml)<br/>- Tags: RareDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26200,6 +26362,24 @@ DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha).<br/><br/>## Details<br/>- [Edit config file](h
  ttps://github.com/jyotisham/adyatithi/blob/master/gRhya/general/descriptio
  n_only/darsheShTiH.toml)<br/>- Tags: MonthlyFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:dinakṣayaḥ
+DTSTART;VALUE=DATE:20190801
+DTEND;VALUE=DATE:20190802
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/special-tithis/description_only/dinakS
+ ayaH.toml)<br/>- Tags: RareDays<br/><br/><br/><br/>## Details<br/>- Refere
+ nces<br/>  - Smriti Muktaphalam Varnashrama Dharma Kanda<br/>- [Edit confi
+ g file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/spec
+ ial-tithis/description_only/dinakSayaH.toml)<br/>- Tags: RareDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -29619,6 +29799,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:dinakṣayaḥ
+DTSTART;VALUE=DATE:20190826
+DTEND;VALUE=DATE:20190827
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/special-tithis/description_only/dinakS
+ ayaH.toml)<br/>- Tags: RareDays<br/><br/><br/><br/>## Details<br/>- Refere
+ nces<br/>  - Smriti Muktaphalam Varnashrama Dharma Kanda<br/>- [Edit confi
+ g file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/spec
+ ial-tithis/description_only/dinakSayaH.toml)<br/>- Tags: RareDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:smārta-ajā-ēkādaśī
 DTSTART;VALUE=DATE:20190826
 DTEND;VALUE=DATE:20190827
@@ -30652,6 +30850,24 @@ DESCRIPTION:Observed on Śukla-Dvitīyā tithi of Bhādrapadaḥ (lunar) m
  Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devat
  A/graha/lunar_month/tithi/06/02/aGgAraka~jayantI.toml)<br/>- Tags: OtherJa
  yantis
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:dinakṣayaḥ
+DTSTART;VALUE=DATE:20190901
+DTEND;VALUE=DATE:20190902
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/special-tithis/description_only/dinakS
+ ayaH.toml)<br/>- Tags: RareDays<br/><br/><br/><br/>## Details<br/>- Refere
+ nces<br/>  - Smriti Muktaphalam Varnashrama Dharma Kanda<br/>- [Edit confi
+ g file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/spec
+ ial-tithis/description_only/dinakSayaH.toml)<br/>- Tags: RareDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -34266,6 +34482,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:dinakṣayaḥ
+DTSTART;VALUE=DATE:20190927
+DTEND;VALUE=DATE:20190928
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/special-tithis/description_only/dinakS
+ ayaH.toml)<br/>- Tags: RareDays<br/><br/><br/><br/>## Details<br/>- Refere
+ nces<br/>  - Smriti Muktaphalam Varnashrama Dharma Kanda<br/>- [Edit confi
+ g file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/spec
+ ial-tithis/description_only/dinakSayaH.toml)<br/>- Tags: RareDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:kātyāyanī-jayantī
 DTSTART;VALUE=DATE:20190927
 DTEND;VALUE=DATE:20190928
@@ -37607,6 +37841,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:dinakṣayaḥ
+DTSTART;VALUE=DATE:20191021
+DTEND;VALUE=DATE:20191022
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/special-tithis/description_only/dinakS
+ ayaH.toml)<br/>- Tags: RareDays<br/><br/><br/><br/>## Details<br/>- Refere
+ nces<br/>  - Smriti Muktaphalam Varnashrama Dharma Kanda<br/>- [Edit confi
+ g file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/spec
+ ial-tithis/description_only/dinakSayaH.toml)<br/>- Tags: RareDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:jīmūtavāhana-pūjā
 DTSTART;VALUE=DATE:20191021
 DTEND;VALUE=DATE:20191022
@@ -38842,6 +39094,24 @@ DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mast
  er/devatA/graha/description_only/candra-darzanam.toml)<br/>- Tags: Chandra
  Darshanam
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:dinakṣayaḥ
+DTSTART;VALUE=DATE:20191029
+DTEND;VALUE=DATE:20191030
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/special-tithis/description_only/dinakS
+ ayaH.toml)<br/>- Tags: RareDays<br/><br/><br/><br/>## Details<br/>- Refere
+ nces<br/>  - Smriti Muktaphalam Varnashrama Dharma Kanda<br/>- [Edit confi
+ g file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/spec
+ ial-tithis/description_only/dinakSayaH.toml)<br/>- Tags: RareDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -42350,6 +42620,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:dinakṣayaḥ
+DTSTART;VALUE=DATE:20191123
+DTEND;VALUE=DATE:20191124
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/special-tithis/description_only/dinakS
+ ayaH.toml)<br/>- Tags: RareDays<br/><br/><br/><br/>## Details<br/>- Refere
+ nces<br/>  - Smriti Muktaphalam Varnashrama Dharma Kanda<br/>- [Edit confi
+ g file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/spec
+ ial-tithis/description_only/dinakSayaH.toml)<br/>- Tags: RareDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:dvipuṣkara-yōgaḥ
 DTSTART;TZID=Asia/Calcutta:20191123T144231
 DTEND;TZID=Asia/Calcutta:20191124T034317
@@ -45018,6 +45306,24 @@ DESCRIPTION:- Indian civil date: 1941-09-24\, Islamic: 1441-04-17 Rabīʿ
  laḥ**—16:16-17:40\; **Yamaghaṇṭaḥ**—12:03-13:28\; **Gulikakāl
  aḥ**—14:52-16:16  \n___________________\n- **Śūlam**—Pratīchī (
  ►10:56)\; **Parihāraḥ**–Guḍam  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:dinakṣayaḥ
+DTSTART;VALUE=DATE:20191215
+DTEND;VALUE=DATE:20191216
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/special-tithis/description_only/dinakS
+ ayaH.toml)<br/>- Tags: RareDays<br/><br/><br/><br/>## Details<br/>- Refere
+ nces<br/>  - Smriti Muktaphalam Varnashrama Dharma Kanda<br/>- [Edit confi
+ g file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/spec
+ ial-tithis/description_only/dinakSayaH.toml)<br/>- Tags: RareDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
