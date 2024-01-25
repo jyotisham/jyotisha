@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20240125072737
+SEQUENCE:20240125075506
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -3263,25 +3263,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/mahApuruSha/general-indic-non-tropical/lunar_mont
  h/tithi/10/15/kumAra-vyAsa-jayantI.toml)<br/>- Tags: OtherJayantis
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:महापौषी-योगः
-DTSTART;VALUE=DATE:20240125
-DTEND;VALUE=DATE:20240126
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/special-tithis/description_only/mahA-p
- auSI-yOgaH.toml)<br/>- Tags: RareDays Combinations<br/><br/><br/><br/>## D
- etails<br/>- References<br/>  - Smriti Muktaphalam Shraddha Kanda Uttarabh
- aga<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/m
- aster/time_focus/special-tithis/description_only/mahA-pauSI-yOgaH.toml)<br
- />- Tags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20656,25 +20637,6 @@ DESCRIPTION:Observed on Viśākhā nakshatra of Vr̥ṣabhaḥ (sidereal s
  dyatithi/blob/master/devatA/kaumAra/sidereal_solar_month/nakshatra/02/16/k
  RttikA-vaizAkhOtsavaH.toml)<br/>- Tags: TamilnaduTempleFestivals CommonFes
  tivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:महावैशाखी-योगः
-DTSTART;VALUE=DATE:20240523
-DTEND;VALUE=DATE:20240524
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/time_focus/special-tithis/description_only/mahA-v
- aizAkhI-yOgaH.toml)<br/>- Tags: RareDays Combinations<br/><br/><br/><br/>#
- # Details<br/>- References<br/>  - Smriti Muktaphalam Shraddha Kanda Uttar
- abhaga<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blo
- b/master/time_focus/special-tithis/description_only/mahA-vaizAkhI-yOgaH.to
- ml)<br/>- Tags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
