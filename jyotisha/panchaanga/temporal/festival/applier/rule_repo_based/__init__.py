@@ -8,21 +8,26 @@ from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
 
 
 class RuleLookupAssigner(FestivalAssigner):
+  def assign_varalakshmi_vratam(self):
+    if 'yajurvEda-upAkarma' not in self.panchaanga.festival_id_to_days:
+      logging.error('yajurvEda-upAkarma not in festival_id_to_instance!')
+    else:
+      # Extended for longer calendars where more than one upAkarma may be there
+      for d in self.panchaanga.festival_id_to_days['yajurvEda-upAkarma']:
+        self.panchaanga.add_festival(fest_id='varalakSmI-vratam', date=d - ((d.get_weekday() - 5) % 7))
+
   def assign_relative_festivals(self):
     """ Add "RELATIVE" festival_id_to_instance --- festival_id_to_instance that happen before or after another festival with an exact timedelta! Example: 1 day after makara sankrAnti.
     
     :return: 
     """
-    if 'yajurvEda-upAkarma' not in self.panchaanga.festival_id_to_days:
-      logging.error('yajurvEda-upAkarma not in festival_id_to_instance!')
-    elif 'varalakSmI-vratam' in self.rules_collection.name_to_rule:
-      # Extended for longer calendars where more than one upAkarma may be there
-      for d in self.panchaanga.festival_id_to_days['yajurvEda-upAkarma']:
-        self.panchaanga.add_festival(fest_id='varalakSmI-vratam', date=d - ((d.get_weekday() - 5) % 7))
 
+    if 'varalakSmI-vratam' in self.rules_collection.name_to_rule:
+      self.assign_varalakshmi_vratam()    
+    
     name_to_rule = self.rules_collection.name_to_rule
 
-    # Iterate over relative events.
+    # Iterate over all other relative events.
     for festival_name in name_to_rule:
       # Skip over non-relative events.
       if name_to_rule[festival_name].timing is None or name_to_rule[festival_name].timing.offset is None:

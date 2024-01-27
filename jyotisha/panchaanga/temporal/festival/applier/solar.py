@@ -625,6 +625,8 @@ class SolarFestivalAssigner(FestivalAssigner):
             # logging.debug('* %d-%02d-%02d> %s!' % (y, m, dt, festival_name))
       
   def assign_revati_dvadashi_yoga(self):
+    if 'cAturmAsya-vrata-pAraNa-niSiddha-yOgaH' not in self.rules_collection.name_to_rule:
+      return
     for d, daily_panchaanga in enumerate(self.daily_panchaangas):
       if daily_panchaanga.lunar_date.month.index == 8 and daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index in (11, 12):
         self._assign_yoga('cAturmAsya-vrata-pAraNa-niSiddha-yOgaH', [(zodiac.AngaType.NAKSHATRA_PADA, 108), (zodiac.AngaType.TITHI, 12)],
