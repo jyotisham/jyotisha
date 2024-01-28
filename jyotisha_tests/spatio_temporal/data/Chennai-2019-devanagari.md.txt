@@ -34526,7 +34526,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अशोकाष्टमी-व्रत-आरम्भः, जीमूतवाहन-पूजा, पातार्क-योगः, मध्याष्टमी, महाव्यतीपात-श्राद्धम्, वन-रक्षक-वैष्णव-हत्या #२८९
+- अशोकाष्टमी-व्रत-आरम्भः, जीवपुत्रिकाष्टमी/जीमूतवाहन-पूजा, पातार्क-योगः, मध्याष्टमी, महाव्यतीपात-श्राद्धम्, वन-रक्षक-वैष्णव-हत्या #२८९
 ##### अशोकाष्टमी-व्रत-आरम्भः
 
 Observed on Kr̥ṣṇa-Aṣṭamī tithi of Bhādrapadaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -34540,17 +34540,38 @@ Observed on Kr̥ṣṇa-Aṣṭamī tithi of Bhādrapadaḥ (lunar) month (Sūry
 - Tags: SpecialVratam VratamStart SpecialPeriodStart
 
 
-##### जीमूतवाहन-पूजा
+##### जीवपुत्रिकाष्टमी/जीमूतवाहन-पूजा
 
-Observed on Kr̥ṣṇa-Aṣṭamī tithi of Bhādrapadaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
+Observed on Kr̥ṣṇa-Aṣṭamī tithi of Bhādrapadaḥ (lunar) month (Pradōṣaḥ/paraviddha). 
 
-Jeemuutavahana is an atma-tyagi vidyadhara Chakravarti. Saved Shankhachuda's (Naaga) life by offering himself to Garuda. From that day Garuda stopped eating snakes.
+Women fast on this day for obtaining progeny, and also perform puja of Jimutavahana. Jimutavahana is an atma-tyagi vidyadhara chakravarti. He saved Shankhachuda's (Naaga) life by offering himself to Garuda. From that day, Garuda stopped eating snakes.
+
+जीवत्पुत्रिकाऽष्टमी---  
+[पूर्णिमान्त]आश्विनकृष्णाष्टमी जीवत्पुत्रिकाख्या। तथा हि भविष्ये---  
+इषे मास्यसिते पक्षे चाष्टमी या तिथिर्भवेत्।  
+पुत्रसौभाग्यदा स्त्रीणां ख्याता सा जीवपुत्रिका॥  
+शालिवाहनराजस्य पुत्रो जीमूतवाहनः।  
+तस्यां पूज्यः स नारीभिः पुत्रसौभाग्यलिप्सया॥  
+इयमष्टमी प्रदोषव्यापिन्युपोष्या।  
+प्रदोषसमये स्त्रीभिः पूज्यो जीमूतवाहनः।  
+पुष्करिणीं विधायाथ प्राङ्गणे चतुरस्रिकाम्॥  
+इति भविष्यपुराणात्।  
+यद्युभयदिने प्रदोषव्याप्तिः तदाऽपरेऽहन्येव प्रधानकालानुरोधात्, नवम्यधिकरणकपारणानुरोधाच्च   
+पूर्वदिने व्रते तु वक्ष्यमाणवचनेन अष्टम्यां पारणे दोषश्रवणेन तदन्ते निशिपारणनिषेधेन च उपवासद्वयापत्तिः।  
+यदि पूर्वेयुः प्रदोषव्याप्तिर्न परेद्युरिति तदा पूर्वेयुरेव प्रदोषानुरोधबोधकपूर्वोक्तवचनात्।  
+पूर्वेद्युरपरेद्युर्वा प्रदोषे यत्र चाष्टमी।  
+तत्र पूज्यः सदा स्त्रीभी राजा जीमूतवाहनः॥  
+इति विष्णुधर्मोत्तरीयाच्च।  
+---कृत्यसारसमुच्चयः
+
+
 
 ###### Details
 - References
+  - Krtyasarasamucchaya p. 19
   - Aamade Jyotishi
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/06/23/jImUtavAhana-pUjA~1.toml)
-- Tags: PuranaEvents
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/06/23/jIvaputrikASTamI.toml)
+- Tags: LessCommonFestivals
 
 
 ##### मध्याष्टमी
@@ -38517,7 +38538,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- जीमूतवाहन-पूजा, जीवपुत्रिकाष्टमी, दिनक्षयः, पञ्च-पर्व-पूजा (अष्टमी), मङ्गल-व्रतम्, महालक्ष्मी-व्रतम्
+- दिनक्षयः, पञ्च-पर्व-पूजा (अष्टमी), मङ्गल-व्रतम्, महालक्ष्मी-व्रतम्
 ##### दिनक्षयः
 
 
@@ -38587,32 +38608,6 @@ A day within which two consecutive tithis end is called dinakṣaya. On such day
   - Smriti Muktaphalam Varnashrama Dharma Kanda
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/special-tithis/description_only/dinakSayaH.toml)
 - Tags: RareDays
-
-
-##### जीमूतवाहन-पूजा
-
-Observed on Kr̥ṣṇa-Aṣṭamī tithi of Āśvayujaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
-
-In North India, for progeny
-
-###### Details
-- References
-  - Kielhorn (1897)
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/07/23/jImUtavAhana-pUjA~2.toml)
-- Tags: SpecialPuja LessCommonFestivals
-
-
-##### जीवपुत्रिकाष्टमी
-
-Observed on Kr̥ṣṇa-Aṣṭamī tithi of Āśvayujaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
-
-
-
-###### Details
-- References
-  - Krutyasaara samucchayam
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/07/23/jIvaputrikASTamI.toml)
-- Tags: LessCommonFestivals
 
 
 ##### मङ्गल-व्रतम्
@@ -41267,7 +41262,22 @@ The Shukla-paksha Ekadashi of kārttika month is known as utthāna-ēkādaśī.
 भोक्ष्यामि पुण्डरीकाक्ष शरणं मे भवाच्युत॥  
 प्रमादादथवाऽऽलस्याद्धरे केशव माधव।  
 व्रतस्यास्य च वै विघ्नो न भवेत्त्वत्प्रसादतः॥  
---पद्मपुराणे
+--पद्मपुराणे  
+कृत्यसारसमुच्चयः---  
+ब्रह्मपुराणे---  
+एकादश्यां तु शुक्लायां कार्तिके मासि केशवम्।  
+सुप्तं प्रबोधयेद्रात्रौ भक्तिश्रद्धासमन्वितः॥  
+अथ विष्णूत्थापनमन्त्राः---  
+ब्रह्मेन्द्ररुद्रैरभिवन्द्यमानो  
+भवानृषिर्वन्दितवन्दनीयः।  
+प्राप्ता तवेयं किल कौमुदाख्या  
+जागृष्व जागृष्व च लोकनाथ॥  
+मेघा गता निर्मलपूर्णचन्द्रः  
+शारद्यपुष्पाणि मनोहराणि।  
+अहं ददानीति च पुण्यहेतोर्-  
+जागृष्व जागृष्व च लोकनाथ॥  
+उत्तिष्ठोत्तिष्ठ गोविन्द त्यज्य निद्रां जगत्पते।  
+त्वया चोत्थीयमानेन उत्थितं भुवनत्रयम्॥
 
 
 
