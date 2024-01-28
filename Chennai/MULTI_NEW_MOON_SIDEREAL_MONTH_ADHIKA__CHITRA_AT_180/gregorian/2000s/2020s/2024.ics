@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20240128175950
+SEQUENCE:20240128191147
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -44062,6 +44062,26 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:जीवपुत्रिकाष्टमी/जीमूत
+ वाहन-पूजा
+DTSTART;VALUE=DATE:20240924
+DTEND;VALUE=DATE:20240925
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/06/23/jIvaputrikASTamI.
+ toml)<br/>- Tags: LessCommonFestivals<br/><br/><br/><br/>## Details<br/>- 
+ References<br/>  - Krtyasarasamucchaya p. 19<br/>  - Aamade Jyotishi<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gen
+ eral/lunar_month/tithi/06/23/jIvaputrikASTamI.toml)<br/>- Tags: LessCommon
+ Festivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:मध्याष्टमी
 DTSTART;VALUE=DATE:20240924
 DTEND;VALUE=DATE:20240925
@@ -44292,25 +44312,6 @@ DESCRIPTION:Observed on Kr̥ṣṇa-Aṣṭamī tithi of Bhādrapadaḥ (l
  github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/06/23
  /azOkASTamI-vrata-ArambhaH.toml)<br/>- Tags: SpecialVratam VratamStart Spe
  cialPeriodStart
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:जीमूतवाहन-पूजा
-DTSTART;VALUE=DATE:20240925
-DTEND;VALUE=DATE:20240926
-DESCRIPTION:Observed on Kr̥ṣṇa-Aṣṭamī tithi of Bhādrapadaḥ (l
- unar) month (Sūryōdayaḥ/puurvaviddha). <br/><br/>Jeemuutavahana is an 
- atma-tyagi vidyadhara Chakravarti. Saved Shankhachuda's (Naaga) life by of
- fering himself to Garuda. From that day Garuda stopped eating snakes.<br/>
- <br/>## Details<br/>- References<br/>  - Aamade Jyotishi<br/>- [Edit confi
- g file](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_m
- onth/tithi/06/23/jImUtavAhana-pUjA~1.toml)<br/>- Tags: PuranaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -49167,41 +49168,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  <br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
  isham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/guru
  puSya-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDays
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:जीमूतवाहन-पूजा
-DTSTART;VALUE=DATE:20241024
-DTEND;VALUE=DATE:20241025
-DESCRIPTION:Observed on Kr̥ṣṇa-Aṣṭamī tithi of Āśvayujaḥ (lu
- nar) month (Sūryōdayaḥ/puurvaviddha). <br/><br/>In North India\, for p
- rogeny<br/><br/>## Details<br/>- References<br/>  - Kielhorn (1897)<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gene
- ral/lunar_month/tithi/07/23/jImUtavAhana-pUjA~2.toml)<br/>- Tags: SpecialP
- uja LessCommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:जीवपुत्रिकाष्टमी
-DTSTART;VALUE=DATE:20241024
-DTEND;VALUE=DATE:20241025
-DESCRIPTION:Observed on Kr̥ṣṇa-Aṣṭamī tithi of Āśvayujaḥ (lu
- nar) month (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<b
- r/>- References<br/>  - Krutyasaara samucchayam<br/>- [Edit config file](h
- ttps://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tith
- i/07/23/jIvaputrikASTamI.toml)<br/>- Tags: LessCommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
