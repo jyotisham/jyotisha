@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20240127154618
+SEQUENCE:20240128132607
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -48006,13 +48006,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:शरत्-पूर्णिमा
+SUMMARY:शरत्-पूर्णिमा/नवान्न-पूर
+ ्णिमा
 DTSTART;VALUE=DATE:20241017
 DTEND;VALUE=DATE:20241018
 DESCRIPTION:Observed on Paurṇamāsī tithi of Āśvayujaḥ (lunar) mont
  h (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edi
  t config file](https://github.com/jyotisham/adyatithi/blob/master/general/
- lunar_month/tithi/07/15/zarad-pUrNimA.toml)<br/>- Tags: PurnimaDays Common
+ lunar_month/tithi/07/15/zarat-pUrNimA.toml)<br/>- Tags: PurnimaDays Common
  Festivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
