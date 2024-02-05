@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20240128232013
+SEQUENCE:20240205210747
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -3245,6 +3245,25 @@ DESCRIPTION:- Indian civil date: 1945-11-02\, Islamic: 1445-07-11 Rajab\,
  ालः**—13:45-15:10  \n___________________\n- **शूलम्**—
  प्राची (►09:41)\; **परिहारः**–दधि  \n_
  __________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अयोध्यायां राम-मन्दिर-पु
+ नः-प्रतिष्ठापन-दिनम् #१
+DTSTART;VALUE=DATE:20240122
+DTEND;VALUE=DATE:20240123
+DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Pauṣaḥ (lunar) mont
+ h (Madhyāhnaḥ/paraviddha). The event occurred in 5124 (Kali era).  <br/
+ ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
+ m/jyotisham/adyatithi/blob/master/temples/North/lunar_month/tithi/10/12/ay
+ odhyAyAM~rAma-mandira-punaH-pratiSThApana-dinam.toml)<br/>- Tags: UttarPra
+ deshTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
