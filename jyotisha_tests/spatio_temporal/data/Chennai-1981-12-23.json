@@ -302,6 +302,16 @@
           "base_url": "https://github.com/jyotisham/adyatithi/blob/master/time_focus/yugAdiH",
           "jsonClass": "RulesRepo",
           "name": "time_focus/yugAdiH"
+        },
+        {
+          "base_url": "https://github.com/jyotisham/adyatithi/blob/master/time_focus/kalpAdiH",
+          "jsonClass": "RulesRepo",
+          "name": "time_focus/kalpAdiH"
+        },
+        {
+          "base_url": "https://github.com/jyotisham/adyatithi/blob/master/time_focus/manvAdiH",
+          "jsonClass": "RulesRepo",
+          "name": "time_focus/manvAdiH"
         }
       ]
     },

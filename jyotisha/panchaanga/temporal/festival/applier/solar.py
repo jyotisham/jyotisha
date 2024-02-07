@@ -9,7 +9,7 @@ from jyotisha.panchaanga.temporal import names
 from jyotisha.panchaanga.temporal import zodiac, tithi
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
 from jyotisha.panchaanga.temporal.festival import FestivalInstance
-from jyotisha.panchaanga.temporal.interval import Interval
+from jyotisha.panchaanga.temporal.interval import Interval, get_interval
 from jyotisha.panchaanga.temporal.zodiac import Ayanamsha
 from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision
 from jyotisha.panchaanga.temporal.body import Graha
@@ -36,6 +36,8 @@ class SolarFestivalAssigner(FestivalAssigner):
     self.assign_month_day_muDavan_muzhukku()
     self.assign_month_day_tulA_kAvErI_snAna_ArambhaH()
     self.assign_month_day_kuchela()
+    self.assign_month_day_ushah_kaala_festival_period('dhanurmasa', 'solar_sidereal')
+    self.assign_month_day_ushah_kaala_festival_period('sahOmasa', 'tropical')
     self.assign_month_day_mesha_sankraanti()
     self.assign_vishesha_vyatipata()
     # self.assign_saayana_vyatipata_vaidhrti()
@@ -43,6 +45,7 @@ class SolarFestivalAssigner(FestivalAssigner):
     self.assign_garbhottam()
     self.assign_padmaka_yoga()
     self.assign_revati_dvadashi_yoga()
+    self.assign_ayushmad_bava_saumya_yoga()
 
 
   def assign_pitr_dina(self):
@@ -358,6 +361,36 @@ class SolarFestivalAssigner(FestivalAssigner):
         self.panchaanga.add_festival(
           fest_id='kucEla-dinam', date=daily_panchaanga.date)
 
+  def assign_month_day_ushah_kaala_festival_period(self, fest_id, month_type):
+    if 'dhanurmasa-uSaHkAla-pUjA-ArambhaH' not in self.rules_collection.name_to_rule:
+      return
+    date_attr = month_type + '_date_sunset'
+    start_fest_id = fest_id + '-uSaHkAla-pUjA-ArambhaH'
+    end_fest_id = fest_id + '-uSaHkAla-pUjA-samApanam'
+
+    for d, daily_panchaanga in enumerate(self.daily_panchaangas):
+      # DHANURMASA/SAHOMASA PUJA
+      # This can start on the first or second day of the masa, not before; depending on the time of the month transition
+      if getattr(daily_panchaanga, date_attr).month == 9 and getattr(daily_panchaanga, date_attr).day == 1:
+        ushah_kaala = get_interval(start_jd=daily_panchaanga.jd_previous_sunset, end_jd=daily_panchaanga.jd_sunrise, part_index=range(25,28), num_parts=30)
+        jd_transition = getattr(daily_panchaanga, date_attr).month_transition
+        if jd_transition is None:
+          # Transit happened before sunrise; so fetch it from the previous day's panchaanga
+          jd_transition = getattr(self.daily_panchaangas[d - 1], date_attr).month_transition
+        if jd_transition > ushah_kaala.jd_end:
+          self.panchaanga.add_festival(fest_id=start_fest_id, date=self.daily_panchaangas[d + 1].date)
+        else:
+          self.panchaanga.add_festival(fest_id=start_fest_id, date=daily_panchaanga.date)
+
+      if getattr(daily_panchaanga, date_attr).month_transition and getattr(self.daily_panchaangas[d - 1], date_attr).month == 9:
+        # Makara Sankramana (sidereal_solar) / Uttarayana (tropical)
+        # Check if happens before the start of ushah kaala
+        ushah_kaala = get_interval(start_jd=daily_panchaanga.jd_sunset, end_jd=daily_panchaanga.jd_next_sunrise, part_index=range(25,28), num_parts=30)
+        if getattr(daily_panchaanga, date_attr).month_transition < ushah_kaala.jd_start:
+          self.panchaanga.add_festival(fest_id=end_fest_id, date=daily_panchaanga.date)
+        else:
+          self.panchaanga.add_festival(fest_id=end_fest_id, date=self.daily_panchaangas[d + 1].date)
+  
   def assign_month_day_muDavan_muzhukku(self):
     if 'muDavan2_muzhukku' not in self.rules_collection.name_to_rule:
       return
@@ -526,7 +559,19 @@ class SolarFestivalAssigner(FestivalAssigner):
         if dp_nakshatra is not None:
           self._assign_yoga('dvipuSkara-yOgaH~%d' % wday, [(zodiac.AngaType.NAKSHATRA, dp_nakshatra), (zodiac.AngaType.TITHI, p_tithi)],
             jd_start=daily_panchaanga.jd_sunrise, jd_end=daily_panchaanga.jd_next_sunrise, show_debug_info=False)
-      
+
+  def assign_ayushmad_bava_saumya_yoga(self):
+    if 'AyuSmad-bava-saumya-saMyOgaH' not in self.rules_collection.name_to_rule:
+      return
+    BAVA_KARANA = list(range(2, 52, 7))
+    AYUSHMAD_YOGA = 3
+    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
+      # AYUSHMAN BAVA SAUMYA
+      if self.daily_panchaangas[d].date.get_weekday() == 3:
+        for karana_ID in BAVA_KARANA:
+          self._assign_yoga('AyuSmad-bava-saumya-saMyOgaH', [(zodiac.AngaType.YOGA, AYUSHMAD_YOGA), (zodiac.AngaType.KARANA, karana_ID)],
+                            jd_start=self.daily_panchaangas[d].jd_sunrise, jd_end=self.daily_panchaangas[d].jd_sunset, show_debug_info=False)
+
 
   def assign_padmaka_yoga(self):
     if 'padmaka-yOga-puNyakAlaH' not in self.rules_collection.name_to_rule:
@@ -580,6 +625,8 @@ class SolarFestivalAssigner(FestivalAssigner):
             # logging.debug('* %d-%02d-%02d> %s!' % (y, m, dt, festival_name))
       
   def assign_revati_dvadashi_yoga(self):
+    if 'cAturmAsya-vrata-pAraNa-niSiddha-yOgaH' not in self.rules_collection.name_to_rule:
+      return
     for d, daily_panchaanga in enumerate(self.daily_panchaangas):
       if daily_panchaanga.lunar_date.month.index == 8 and daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index in (11, 12):
         self._assign_yoga('cAturmAsya-vrata-pAraNa-niSiddha-yOgaH', [(zodiac.AngaType.NAKSHATRA_PADA, 108), (zodiac.AngaType.TITHI, 12)],

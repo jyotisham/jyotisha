@@ -38,6 +38,15 @@ class TithiFestivalAssigner(FestivalAssigner):
     self.assign_yama_chaturthi()
     self.assign_vajapeyaphala_snana_yoga()
     self.assign_mahaa_paurnamii()
+    self.assign_dinakshaya()
+
+  def assign_dinakshaya(self):
+    if 'dinakSayaH' not in self.rules_collection.name_to_rule:
+      return
+    for d in range(self.panchaanga.duration + self.panchaanga.duration_prior_padding):
+      day_panchaanga = self.daily_panchaangas[d]
+      if len(day_panchaanga.sunrise_day_angas.tithis_with_ends)==3:
+        self.panchaanga.add_festival(fest_id='dinakSayaH', date=day_panchaanga.date)
   
   def assign_chaturthi_vratam(self):
     if "vikaTa-mahAgaNapati_saGkaTahara-caturthI-vratam" not in self.rules_collection.name_to_rule:
@@ -295,7 +304,7 @@ class TithiFestivalAssigner(FestivalAssigner):
         self.panchaanga.add_festival(fest_id='vyaJjulI~mahAdvAdazI', date=day_panchaanga.date)
 
       if (day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index % 15) == 11 and (self.daily_panchaangas[d + 1].sunrise_day_angas.tithi_at_sunrise.index % 15) == 13:
-        self.panchaanga.add_festival(fest_id='trisparzA~mahAdvAdazI', date=day_panchaanga.date)
+        self.panchaanga.add_festival(fest_id='trisprzA~mahAdvAdazI', date=day_panchaanga.date)
 
       if (day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index % 15) == 0 and (self.daily_panchaangas[d + 1].sunrise_day_angas.tithi_at_sunrise.index % 15) == 0:
         # Might miss out on those parva days right after Dec 31!
@@ -500,7 +509,7 @@ class TithiFestivalAssigner(FestivalAssigner):
 
 
   def assign_mahaa_paurnamii(self):
-    if 'mahAcaitrI-yOgaH' not in self.rules_collection.name_to_rule:
+    if 'mahA-caitrI-yOgaH' not in self.rules_collection.name_to_rule:
       return
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       day_panchaanga = self.daily_panchaangas[d]

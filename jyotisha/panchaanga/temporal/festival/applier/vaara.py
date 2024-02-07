@@ -2,6 +2,7 @@ import sys
 
 from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
+from jyotisha.panchaanga.temporal.festival.applier import solar
 from jyotisha.panchaanga.temporal.festival import FestivalInstance
 from jyotisha.panchaanga.temporal.interval import Interval
 from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, AngaType
@@ -16,7 +17,6 @@ class VaraFestivalAssigner(FestivalAssigner):
     self.assign_masa_vara_yoga_kaarttika()
     self.assign_masa_vara_yoga_fests_tn()
     self.assign_nakshatra_vara_yoga_vratam()
-    self.assign_ayushman_bava_saumya_yoga()
     self.assign_tithi_vara_yoga_mangala_angaaraka()
     self.assign_tithi_vara_yoga_kRSNAGgAraka()
     self.assign_vara_yoga_vratam()
@@ -104,73 +104,41 @@ class VaraFestivalAssigner(FestivalAssigner):
   def assign_nakshatra_vara_yoga_vratam(self):
     if 'Adityahasta-yOgaH' not in self.rules_collection.name_to_rule:
       return 
+
+    AMRITA_SIDDHI_YOGAS = [(13, 0, 'Adityahasta-yOgaH'), (8, 0, 'ravipuSya-yOgaH'),
+                 (22, 1, 'sOmazrAvaNI-yOgaH'), (5, 1, 'sOmamRgazIrSa-yOgaH'),
+                 (1, 2, 'bhaumAzvinI-yOgaH'), 
+                 (17, 3, 'budhAnurAdhA-yOgaH'), (8, 4, 'gurupuSya-yOgaH'),
+                 (27, 5, 'bhRgurEvatI-yOgaH'), (4, 6, 'zanirOhiNI-yOgaH')]
+
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       # NAKSHATRA-WEEKDAY FESTIVALS
-      for (nwd_fest_n, nwd_fest_wd, nwd_fest_name) in ((13, 0, 'Adityahasta-yOgaH'),
-                                                       (8, 0, 'ravipuSya-yOgaH'),
-                                                       (22, 1, 'sOmazrAvaNI-yOgaH'),
-                                                       (5, 1, 'sOmamRgazIrSa-yOgaH'),
-                                                       (1, 2, 'bhaumAzvinI-yOgaH'),
-                                                       # (6, 2, 'bhaumArdrA-yOgaH'), removed because no pramANam
-                                                       (17, 3, 'budhAnurAdhA-yOgaH'),
-                                                       (8, 4, 'gurupuSya-yOgaH'),
-                                                       (27, 5, 'bhRgurEvatI-yOgaH'),
-                                                       (4, 6, 'zanirOhiNI-yOgaH'),
-                                                       ):
-        n_prev = ((nwd_fest_n - 2) % 27) + 1
-        if (self.daily_panchaangas[d].sunrise_day_angas.nakshatra_at_sunrise.index == nwd_fest_n or self.daily_panchaangas[d].sunrise_day_angas.nakshatra_at_sunrise.index == n_prev) and self.daily_panchaangas[
-          d].date.get_weekday() == nwd_fest_wd:
-          # Is it necessarily only at sunrise?
-          d0_angas = self.daily_panchaangas[d].day_length_based_periods.dinamaana.get_boundary_angas(anga_type=AngaType.NAKSHATRA, ayanaamsha_id=self.ayanaamsha_id)
-
-          # if any(x == nwd_fest_n for x in [self.daily_panchaangas[d].sunrise_day_angas.nakshatra_at_sunrise.index, d0_angas.start.index, d0_angas.end.index]):
-          #   self.panchaanga.add_festival(fest_id=nwd_fest_name, date=self.daily_panchaangas[d].date)
-
+      for (festival_nakshatra, festival_weekday, festival_name) in AMRITA_SIDDHI_YOGAS:
+        if self.daily_panchaangas[d].date.get_weekday() == festival_weekday:
           nakshatram_praatah = self.daily_panchaangas[d].sunrise_day_angas.nakshatra_at_sunrise.index
           nakshatram_saayam = NakshatraDivision(jd=self.daily_panchaangas[d].jd_sunset, ayanaamsha_id=self.panchaanga.computation_system.ayanaamsha_id).get_anga(anga_type=AngaType.NAKSHATRA).index
-
-          if nakshatram_praatah == nakshatram_saayam == n_prev:
-            continue
-
-          if nwd_fest_n == nakshatram_praatah == nakshatram_saayam:
-            self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=nwd_fest_name), date=self.daily_panchaangas[d].date)
-          else:
-            (nakshatra_ID, nakshatra_end_jd) = (self.daily_panchaangas[d].sunrise_day_angas.nakshatras_with_ends[0].anga.index,
-                                                self.daily_panchaangas[d].sunrise_day_angas.nakshatras_with_ends[0].jd_end)
-
-            if nwd_fest_n == nakshatram_praatah:
-              # assert nwd_fest_n == nakshatra_ID
-              self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=nwd_fest_name, interval=Interval(jd_start=None, jd_end=nakshatra_end_jd)), date=self.daily_panchaangas[d].date)
-            elif nwd_fest_n == nakshatram_saayam:
-              # assert n_prev == nakshatra_ID
-              self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=nwd_fest_name, interval=Interval(jd_start=nakshatra_end_jd, jd_end=None)), date=self.daily_panchaangas[d].date)
+          if festival_nakshatra in [nakshatram_praatah, nakshatram_saayam]:
+            if festival_nakshatra == nakshatram_praatah == nakshatram_saayam:
+              self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=festival_name), date=self.daily_panchaangas[d].date)
             else:
-              logging.error('Should never be here!')
+              nakshatra_end_jd = self.daily_panchaangas[d].sunrise_day_angas.nakshatras_with_ends[0].jd_end
+
+              if festival_nakshatra == nakshatram_praatah:
+                interval = Interval(jd_start=None, jd_end=nakshatra_end_jd)
+              elif festival_nakshatra == nakshatram_saayam:
+                interval = Interval(jd_start=nakshatra_end_jd, jd_end=None)
+              
+              self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=festival_name, interval=interval), date=self.daily_panchaangas[d].date)
 
   def assign_vara_yoga_vratam(self):
     if 'pAtArka-yOgaH' not in self.rules_collection.name_to_rule:
       return 
+    PAATA_YOGA = 17 # vyatipAta
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
-      d0_angas = self.daily_panchaangas[d].day_length_based_periods.dinamaana.get_boundary_angas(anga_type=AngaType.YOGA, ayanaamsha_id=self.ayanaamsha_id)
-      if any(x == 17 for x in [d0_angas.start.index, d0_angas.end.index]) and self.daily_panchaangas[d].date.get_weekday() == 0:
-        self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='pAtArka-yOgaH'), date=self.daily_panchaangas[d].date)
-
-  def assign_ayushman_bava_saumya_yoga(self):
-    if 'AyuSmad-bava-saumya-saMyOgaH' not in self.rules_collection.name_to_rule:
-      return
-    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
-      # AYUSHMAN BAVA SAUMYA
-      if self.daily_panchaangas[d].date.get_weekday() == 3 and NakshatraDivision(self.daily_panchaangas[d].jd_sunrise, ayanaamsha_id=self.ayanaamsha_id).get_anga(
-          zodiac.AngaType.YOGA).index == 3:
-        if NakshatraDivision(self.daily_panchaangas[d].jd_sunrise, ayanaamsha_id=self.ayanaamsha_id).get_anga(
-            zodiac.AngaType.KARANA).index in list(range(2, 52, 7)):
-          self.panchaanga.add_festival(fest_id='AyuSmad-bava-saumya-saMyOgaH', date=self.daily_panchaangas[d].date)
-      if self.daily_panchaangas[d].date.get_weekday() == 3 and NakshatraDivision(self.daily_panchaangas[d].jd_sunset, ayanaamsha_id=self.ayanaamsha_id).get_anga(
-          zodiac.AngaType.YOGA).index == 3:
-        if NakshatraDivision(self.daily_panchaangas[d].jd_sunset, ayanaamsha_id=self.ayanaamsha_id).get_anga(
-            zodiac.AngaType.KARANA).index in list(range(2, 52, 7)):
-          self.panchaanga.add_festival(fest_id='AyuSmad-bava-saumya-saMyOgaH', date=self.daily_panchaangas[d].date)
-
+      if self.daily_panchaangas[d].date.get_weekday() == 0:
+        d_yogas = self.daily_panchaangas[d].day_length_based_periods.dinamaana.get_boundary_angas(anga_type=AngaType.YOGA, ayanaamsha_id=self.ayanaamsha_id)
+        if PAATA_YOGA in [d_yogas.start.index, d_yogas.end.index]:
+          self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='pAtArka-yOgaH'), date=self.daily_panchaangas[d].date)
 
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])
