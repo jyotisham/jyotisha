@@ -36,14 +36,14 @@ class VaraFestivalAssigner(FestivalAssigner):
           self.panchaanga.add_festival(fest_id=festival_name, date=self.daily_panchaangas[d].date)
 
   def assign_masa_vara_yoga_kaarttika(self):
-    festival_name = 'kArttikA~sOmavAsaraH'
+    festival_name = 'kArttika~sOmavAsaraH'
     if festival_name not in self.rules_collection.name_to_rule:
       return
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
 
       # KRTTIKA SOMAVASARA
       if self.daily_panchaangas[d].lunar_date.month.index == 8 and self.daily_panchaangas[d].date.get_weekday() == 1:
-        self.panchaanga.add_festival(fest_id='kArttikA~sOmavAsaraH', date=self.daily_panchaangas[d].date)
+        self.panchaanga.add_festival(fest_id='kArttika~sOmavAsaraH', date=self.daily_panchaangas[d].date)
 
   def assign_masa_vara_yoga_fests_tn(self):
     festival_name = 'AvaNi~JAyir2r2ukkizhamai'
