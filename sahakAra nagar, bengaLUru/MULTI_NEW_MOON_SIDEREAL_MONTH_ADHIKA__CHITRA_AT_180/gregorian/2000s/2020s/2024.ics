@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20240211223209
+SEQUENCE:20240211223607
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -24155,6 +24155,23 @@ DESCRIPTION:- Indian civil date: 1946-03-28\, Islamic: 1445-12-11 Ḏū al
  *गुलिककालः**—12:20-13:56  \n___________________\n- **
  शूलम्**—उदीची (►11:04)\; **परिहारः**
  –क्षीरम्  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अग्र-युद्धम् #२३६
+DTSTART;VALUE=DATE:20240618
+DTEND;VALUE=DATE:20240619
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/06/18/Agra-
+ yuddham.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit confi
+ g file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xat
+ ra-later/gregorian/day/06/18/Agra-yuddham.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
