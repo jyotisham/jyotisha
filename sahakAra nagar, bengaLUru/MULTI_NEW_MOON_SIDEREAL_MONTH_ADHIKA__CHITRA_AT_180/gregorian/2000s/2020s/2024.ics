@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20240207110121
+SEQUENCE:20240211222835
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -24164,6 +24164,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अग्र-युद्धम् #२३६
+DTSTART;VALUE=DATE:20240618
+DTEND;VALUE=DATE:20240619
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/xatra-later/gregorian/day/06/18/Agra-
+ yuddham.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit confi
+ g file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xat
+ ra-later/gregorian/day/06/18/Agra-yuddham.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:झांसीराज्ञी लक्ष्मी हता 
  #१६६
 DTSTART;VALUE=DATE:20240618
@@ -45362,11 +45379,11 @@ SUMMARY:कार्त्तिक-सोमवासरः
 DTSTART;VALUE=DATE:20241104
 DTEND;VALUE=DATE:20241105
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/devatA/shaiva/description_only/kArttikA~sOmavAsar
+ am/adyatithi/blob/master/devatA/shaiva/description_only/kArttika~sOmavAsar
  aH.toml)<br/>- Tags: MonthWeekdayFestivals<br/><br/><br/><br/>## Details<b
  r/>- References<br/>  - Skanda Puranam<br/>- [Edit config file](https://gi
  thub.com/jyotisham/adyatithi/blob/master/devatA/shaiva/description_only/kA
- rttikA~sOmavAsaraH.toml)<br/>- Tags: MonthWeekdayFestivals
+ rttika~sOmavAsaraH.toml)<br/>- Tags: MonthWeekdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -46199,11 +46216,11 @@ SUMMARY:कार्त्तिक-सोमवासरः
 DTSTART;VALUE=DATE:20241111
 DTEND;VALUE=DATE:20241112
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/devatA/shaiva/description_only/kArttikA~sOmavAsar
+ am/adyatithi/blob/master/devatA/shaiva/description_only/kArttika~sOmavAsar
  aH.toml)<br/>- Tags: MonthWeekdayFestivals<br/><br/><br/><br/>## Details<b
  r/>- References<br/>  - Skanda Puranam<br/>- [Edit config file](https://gi
  thub.com/jyotisham/adyatithi/blob/master/devatA/shaiva/description_only/kA
- rttikA~sOmavAsaraH.toml)<br/>- Tags: MonthWeekdayFestivals
+ rttika~sOmavAsaraH.toml)<br/>- Tags: MonthWeekdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -47739,11 +47756,11 @@ SUMMARY:कार्त्तिक-सोमवासरः
 DTSTART;VALUE=DATE:20241118
 DTEND;VALUE=DATE:20241119
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/devatA/shaiva/description_only/kArttikA~sOmavAsar
+ am/adyatithi/blob/master/devatA/shaiva/description_only/kArttika~sOmavAsar
  aH.toml)<br/>- Tags: MonthWeekdayFestivals<br/><br/><br/><br/>## Details<b
  r/>- References<br/>  - Skanda Puranam<br/>- [Edit config file](https://gi
  thub.com/jyotisham/adyatithi/blob/master/devatA/shaiva/description_only/kA
- rttikA~sOmavAsaraH.toml)<br/>- Tags: MonthWeekdayFestivals
+ rttika~sOmavAsaraH.toml)<br/>- Tags: MonthWeekdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -48752,11 +48769,11 @@ SUMMARY:कार्त्तिक-सोमवासरः
 DTSTART;VALUE=DATE:20241125
 DTEND;VALUE=DATE:20241126
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/devatA/shaiva/description_only/kArttikA~sOmavAsar
+ am/adyatithi/blob/master/devatA/shaiva/description_only/kArttika~sOmavAsar
  aH.toml)<br/>- Tags: MonthWeekdayFestivals<br/><br/><br/><br/>## Details<b
  r/>- References<br/>  - Skanda Puranam<br/>- [Edit config file](https://gi
  thub.com/jyotisham/adyatithi/blob/master/devatA/shaiva/description_only/kA
- rttikA~sOmavAsaraH.toml)<br/>- Tags: MonthWeekdayFestivals
+ rttika~sOmavAsaraH.toml)<br/>- Tags: MonthWeekdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
