@@ -36,8 +36,8 @@ class SolarFestivalAssigner(FestivalAssigner):
     self.assign_month_day_muDavan_muzhukku()
     self.assign_month_day_tulA_kAvErI_snAna_ArambhaH()
     self.assign_month_day_kuchela()
-    self.assign_month_day_ushah_kaala_festival_period('dhanurmasa', 'solar_sidereal')
-    self.assign_month_day_ushah_kaala_festival_period('sahOmasa', 'tropical')
+    self.assign_month_day_ushah_kaala_festival_period('dhanurmAsa', 'solar_sidereal')
+    self.assign_month_day_ushah_kaala_festival_period('sahOmAsa', 'tropical')
     self.assign_month_day_mesha_sankraanti()
     self.assign_vishesha_vyatipata()
     # self.assign_saayana_vyatipata_vaidhrti()
@@ -362,11 +362,12 @@ class SolarFestivalAssigner(FestivalAssigner):
           fest_id='kucEla-dinam', date=daily_panchaanga.date)
 
   def assign_month_day_ushah_kaala_festival_period(self, fest_id, month_type):
-    if 'dhanurmasa-uSaHkAla-pUjA-ArambhaH' not in self.rules_collection.name_to_rule:
-      return
     date_attr = month_type + '_date_sunset'
     start_fest_id = fest_id + '-uSaHkAla-pUjA-ArambhaH'
     end_fest_id = fest_id + '-uSaHkAla-pUjA-samApanam'
+    if start_fest_id not in self.rules_collection.name_to_rule:
+      logging.debug('Festival %s not in rules collection!' % start_fest_id)
+      return
 
     for d, daily_panchaanga in enumerate(self.daily_panchaangas):
       # DHANURMASA/SAHOMASA PUJA

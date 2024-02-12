@@ -1419,10 +1419,10 @@ SUMMARY:dhanurmāsa-uṣaḥkāla-pūjā-samāpanam
 DTSTART;VALUE=DATE:20190114
 DTEND;VALUE=DATE:20190115
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/general/description_only/dhanurmasa-uSaHkAla-pUjA
+ am/adyatithi/blob/master/general/description_only/dhanurmAsa-uSaHkAla-pUjA
  -samApanam.toml)<br/>- Tags: SpecialPujas CommonFestivals SpecialPeriodEnd
  <br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com
- /jyotisham/adyatithi/blob/master/general/description_only/dhanurmasa-uSaHk
+ /jyotisham/adyatithi/blob/master/general/description_only/dhanurmAsa-uSaHk
  Ala-pUjA-samApanam.toml)<br/>- Tags: SpecialPujas CommonFestivals SpecialP
  eriodEnd
 TRANSP:TRANSPARENT
@@ -42659,10 +42659,16 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sahōmasa-uṣaḥkāla-pūjā-ārambhaḥ
+SUMMARY:sahōmāsa-uṣaḥkāla-pūjārambhaḥ
 DTSTART;VALUE=DATE:20191123
 DTEND;VALUE=DATE:20191124
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/description_only/sahOmAsa-uSaHkAla-pUjA-A
+ rambhaH.toml)<br/>- Tags: SpecialPujas CommonFestivals SpecialPeriodStart<
+ br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/
+ jyotisham/adyatithi/blob/master/general/description_only/sahOmAsa-uSaHkAla
+ -pUjA-ArambhaH.toml)<br/>- Tags: SpecialPujas CommonFestivals SpecialPerio
+ dStart
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -45553,10 +45559,10 @@ SUMMARY:dhanurmāsa-uṣaḥkāla-pūjārambhaḥ
 DTSTART;VALUE=DATE:20191217
 DTEND;VALUE=DATE:20191218
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/general/description_only/dhanurmasa-uSaHkAla-pUjA
+ am/adyatithi/blob/master/general/description_only/dhanurmAsa-uSaHkAla-pUjA
  -ArambhaH.toml)<br/>- Tags: SpecialPujas CommonFestivals SpecialPeriodStar
  t<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
- m/jyotisham/adyatithi/blob/master/general/description_only/dhanurmasa-uSaH
+ m/jyotisham/adyatithi/blob/master/general/description_only/dhanurmAsa-uSaH
  kAla-pUjA-ArambhaH.toml)<br/>- Tags: SpecialPujas CommonFestivals SpecialP
  eriodStart
 TRANSP:TRANSPARENT
@@ -46047,7 +46053,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sahōmasa-uṣaḥkāla-pūjā-
+SUMMARY:sahōmāsaḥuṣaḥkāla-pūjā-
 DTSTART;VALUE=DATE:20191122
 DTEND;VALUE=DATE:20191223
 DESCRIPTION:
@@ -46060,10 +46066,16 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sahōmasa-uṣaḥkāla-pūjā-samāpanam
+SUMMARY:sahōmāsa-uṣaḥkāla-pūjā-samāpanam
 DTSTART;VALUE=DATE:20191222
 DTEND;VALUE=DATE:20191223
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/description_only/sahOmAsa-uSaHkAla-pUjA-s
+ amApanam.toml)<br/>- Tags: SpecialPujas CommonFestivals SpecialPeriodEnd<b
+ r/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/j
+ yotisham/adyatithi/blob/master/general/description_only/sahOmAsa-uSaHkAla-
+ pUjA-samApanam.toml)<br/>- Tags: SpecialPujas CommonFestivals SpecialPerio
+ dEnd
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
