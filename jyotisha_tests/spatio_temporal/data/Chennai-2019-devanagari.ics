@@ -16782,14 +16782,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:girijā-kalyāṇam
+SUMMARY:girijā-vivāhaḥ
 DTSTART;VALUE=DATE:20190516
 DTEND;VALUE=DATE:20190517
 DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Vaiśākhaḥ (lunar) m
  onth (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [
- Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devat
- A/umA/lunar_month/tithi/02/12/girijA-kalyANam.toml)<br/>- Tags: SringeriFe
- stivals
+ Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahAp
+ uruSha/zRGgErI-maTha/lunar_month/tithi/02/12/girijA-vivAhaH.toml)<br/>- Ta
+ gs: SringeriFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
