@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20240212130031
+SEQUENCE:20240302091721
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -20080,23 +20080,6 @@ DESCRIPTION:Ṣaḍaśīti Punyakala.<br/><br/>सङ्क्रान्
  ुभे<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
  ithub.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description
  _only/SaDazIti-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:गिरिजा-कल्याणम्
-DTSTART;VALUE=DATE:20240520
-DTEND;VALUE=DATE:20240521
-DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Vaiśākhaḥ (lunar) m
- onth (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [
- Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devat
- A/umA/lunar_month/tithi/02/12/girijA-kalyANam.toml)<br/>- Tags: SringeriFe
- stivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
