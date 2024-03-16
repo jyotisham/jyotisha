@@ -141,15 +141,15 @@
 {\small{\mbox{प्रातः सन्ध्या \textsf{\arg[2]}{\scriptsize\RIGHTarrow}\textsf{\arg[3]} माध्याह्निक \textsf{\arg[5]}{\scriptsize\RIGHTarrow}\textsf{\arg[6]} 
 सायं \textsf{\arg[10]}{\scriptsize\RIGHTarrow}\textsf{\arg[11]}}\hfill शयन \textsf{\arg[12]}{\scriptsize\RIGHTarrow}\textsf{\arg[13]}}\\[-4.5ex]}
 }
-\newcommand{\sunmoonrsdata}[5]{%
-\mbox{\large\sun{\small\UParrow}\textsf{#1}~\sun{\small\DOWNarrow}\textsf{#2}}\hfill
-\mbox{\large\rightmoon{\small\UParrow}\textsf{#3}~\rightmoon{\small\DOWNarrow}\textsf{#4}}\\
-#5
+\newcommand{\sunmoonrsdata}[6]{%
+\mbox{\large\sun{\small\UParrow}{#1}~~\sun{#5}~~\sun{\small\DOWNarrow}{#2}\hspace{1ex}}\hfill
+\mbox{\large\rightmoon{\small\UParrow}{#3}~\rightmoon{\small\DOWNarrow}{#4}}\\
+#6
  }
-\newcommand{\sunmoonsrdata}[5]{%
-\mbox{\large\sun{\small\UParrow}\textsf{#1}~\sun{\small\DOWNarrow}\textsf{#2}}\hfill
-\mbox{\large\rightmoon{\small\DOWNarrow}\textsf{#4}~\rightmoon{\small\UParrow}\textsf{#3}}\\
-#5
+\newcommand{\sunmoonsrdata}[6]{%
+\mbox{\large\sun{\small\UParrow}{#1}~~\sun{#5}~~\sun{\small\DOWNarrow}{#2}\hspace{1ex}}\hfill
+\mbox{\large\rightmoon{\small\DOWNarrow}{#4}~\rightmoon{\small\UParrow}{#3}}\\
+#6
  }
 \newcommand{\ahorAtram}{अहोरात्रम्}
 \newcommand{\tithi}[2]{\raisebox{-1pt}{\moon[scale=0.8]{#1}}\hspace{2pt}#2}
@@ -182,6 +182,7 @@
 \small राहु॰~\textsf{#1}~~यम॰~\textsf{#2}~~गुलिक॰~\textsf{#3}%Rahu Yama Gulika
 \end{minipage}
 }
+\newcommand{\prev}[1]{\textcolor{gray}{#1}}
 \newcommand{\caldata}[7]{%
 \clearpage
 \begin{minipage}{\linewidth}
