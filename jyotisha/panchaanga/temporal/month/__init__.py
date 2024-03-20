@@ -111,8 +111,9 @@ class SolsticePostDark10AdhikaAssigner(LunarMonthAssigner):
   independent of location  
   for our adhika-mAsa computation here.  
   
-  The day-number is exactly set to be 1 if tithi at noon is 1,  
+  The day-number is exactly set to be 1 if tithi at noon is 1 or 2,  
   with the previous day's number set exactly to 30 (potentially skipping 29).
+  It's also possible for day 30 to be duplicated.
   This gels with the ancient tradition of marking parva-boundaries,  
   when the fall in pUrvAhNa,  
   by darsha-pUrNamAseShTi-s (or sthAlIpAka-s),  
@@ -122,7 +123,7 @@ class SolsticePostDark10AdhikaAssigner(LunarMonthAssigner):
   On other days, it can just one greater than the previous day's number.
 
   So, this approximates the nepAli-kauNDinyAyana-family system.  
-  Solstice vs tithi data for the latter: See https://vishvasa.github.io/jyotiSham/history/kauNDinyAyana/
+  Solstice vs tithi data for the latter: See https://vishvasa.github.io/jyotiSham/kAla-mAnam/kauNDinyAyana/adhika-mAsa-gaNanam/
   """
 
   @classmethod
@@ -180,7 +181,14 @@ class SolsticePostDark10AdhikaAssigner(LunarMonthAssigner):
     if noon_tithi == 1:
       jd_prev_day_noon = daily_panchaanga.get_jd_prev_day_noon()
       tithi_span = anga_finder.find(jd1=jd_prev_day_noon, jd2=jd_noon, target_anga_id=1)
-      if tithi_span is not None and (tithi_span.jd_start is None or tithi_span.jd_start > jd_prev_day_noon):
+      if tithi_span is not None and tithi_span.jd_start is not None and (tithi_span.jd_start > jd_prev_day_noon):
+        return 1
+      else:
+        return 2
+    elif noon_tithi == 2:
+      jd_prev_day_noon = daily_panchaanga.get_jd_prev_day_noon()
+      tithi_span = anga_finder.find(jd1=jd_prev_day_noon, jd2=jd_noon, target_anga_id=1)
+      if tithi_span is not None and tithi_span.jd_start is not None and (tithi_span.jd_start > jd_prev_day_noon):
         return 1
       else:
         return 2

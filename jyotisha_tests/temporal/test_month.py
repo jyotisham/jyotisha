@@ -39,10 +39,6 @@ def test_SolsticePostDark10AdhikaAssigner():
   """See https://vishvasa.github.io/jyotiSham/kAla-mAnam/kauNDinyAyana/adhika-mAsa-gaNanam/
  for a convenient list of verified solsticial lunar months."""
 
-  panchaanga = daily.DailyPanchaanga(
-    city=chennai, date=Date(2024, 3, 21), computation_system=ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180)
-  assert panchaanga.lunar_date.month.index == 2
-
 
   panchaanga = daily.DailyPanchaanga(
     city=chennai, date=Date(2019, 12, 1), computation_system=ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180)
@@ -82,3 +78,9 @@ def test_SolsticePostDark10AdhikaAssigner():
     city=chennai, date=Date(2022, 12, 21), computation_system=ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180)
   assert panchaanga.lunar_date.month.index == 10.5
 
+
+  # sphuTa-tithi at noon on this day is 2, but it follows a short tithi 1 - (2024-03-10 14:30:23.078209+, 2024-03-11 10:45:26.293762+05:30)
+  panchaanga = daily.DailyPanchaanga(
+    city=chennai, date=Date(2024, 3, 11), computation_system=ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180)
+  assert panchaanga.lunar_date.month.index == 2
+  assert panchaanga.lunar_date.month.index == 2
