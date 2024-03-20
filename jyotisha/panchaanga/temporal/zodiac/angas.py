@@ -27,7 +27,9 @@ class AngaType(common.JsonObject):
   DEGREE = None
   GRAHA_RASHI = {}
 
-  def __init__(self, name, name_hk, num_angas, body_weights={}, mean_period_days=None, names_dict=None):
+  def __init__(self, name, name_hk, num_angas, body_weights=None, mean_period_days=None, names_dict=None):
+    if body_weights is None:
+      body_weights = {}
     super(AngaType, self).__init__()
     self.name = name
     self.name_hk = name_hk
@@ -126,7 +128,7 @@ class Anga(common.JsonObject):
     return NAME_TO_TYPE[self.anga_type_id]
 
   def __repr__(self):
-    return "%s: %02d" % (self.anga_type_id, self.index)
+    return "%s: %02.1f" % (self.anga_type_id, self.index)
 
   def __sub__(self, other):
     """ 

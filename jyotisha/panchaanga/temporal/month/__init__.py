@@ -188,7 +188,7 @@ class SolsticePostDark10AdhikaAssigner(LunarMonthAssigner):
       if previous_day_panchaanga is not None:
         return previous_day_panchaanga.lunar_date.index + 1
       return noon_tithi
-    elif noon_tithi >= 29:
+    elif noon_tithi in [29, 30]:
       jd_next_day_noon = daily_panchaanga.get_jd_next_day_noon()
       tithi_span = anga_finder.find(jd1=(daily_panchaanga.jd_sunrise + daily_panchaanga.jd_sunset)/2, jd2=jd_next_day_noon, target_anga_id=1)
       if tithi_span is None:

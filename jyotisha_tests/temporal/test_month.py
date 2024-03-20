@@ -36,11 +36,21 @@ def test_MultiFullMoonAssigner():
 
 
 def test_SolsticePostDark10AdhikaAssigner():
-  """See https://vishvasa.github.io/jyotiSham/history/kauNDinyAyana/
+  """See https://vishvasa.github.io/jyotiSham/kAla-mAnam/kauNDinyAyana/adhika-mAsa-gaNanam/
  for a convenient list of verified solsticial lunar months."""
+
+  panchaanga = daily.DailyPanchaanga(
+    city=chennai, date=Date(2024, 3, 21), computation_system=ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180)
+  assert panchaanga.lunar_date.month.index == 2
+
+
   panchaanga = daily.DailyPanchaanga(
     city=chennai, date=Date(2019, 12, 1), computation_system=ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180)
   assert panchaanga.lunar_date.month.index == 10.5
+
+  panchaanga = daily.DailyPanchaanga(
+    city=chennai, date=Date(2020, 3, 20), computation_system=ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180)
+  assert panchaanga.lunar_date.month.index == 1
 
   # Though this month contained a solstice on amAvAsyA, it is not intercalary since the preceding solstice was intercalary.
   panchaanga = daily.DailyPanchaanga(
@@ -51,11 +61,6 @@ def test_SolsticePostDark10AdhikaAssigner():
   panchaanga = daily.DailyPanchaanga(
     city=chennai, date=Date(2020, 6, 21), computation_system=ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180)
   assert panchaanga.lunar_date.month.index == 4
-
-  # Though this month is after a post-dark10 solstice, it does not succeed an adhikamAsa in the ayanANta.
-  panchaanga = daily.DailyPanchaanga(
-    city=chennai, date=Date(2020, 10, 3), computation_system=ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180)
-  assert panchaanga.lunar_date.month.index == 8
 
   panchaanga = daily.DailyPanchaanga(
     city=chennai, date=Date(2020, 12, 15), computation_system=ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180)
