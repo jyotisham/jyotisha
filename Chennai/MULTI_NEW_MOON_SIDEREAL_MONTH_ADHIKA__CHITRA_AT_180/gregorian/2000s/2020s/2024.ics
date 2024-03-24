@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20240323155407
+SEQUENCE:20240324150554
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -37492,18 +37492,12 @@ BEGIN:VEVENT
 SUMMARY:हयग्रीव-जयन्ती
 DTSTART;VALUE=DATE:20240819
 DTEND;VALUE=DATE:20240820
-DESCRIPTION:Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) mon
- th (Sūryōdayaḥ/puurvaviddha). <br/><br/>Lord Hayagriva did upadesha of
-  all four Vedas to Brahma.<br/><br/>ओङ्कारोद्गीथ
- रूपाय ऋग्यजुस्साममूर्तये। 
-  <br/>नमोऽस्तुदेवदेवाय वाच्छि
- तार्थप्रदायिने॥  <br/>अज्ञानत
- िमिरं छिन्धि ज्ञानं चाशु प्
- रयच्छ मे।  <br/>देहि मे देव देवे
- श हयशीर्ष नमोऽस्तु ते॥<br/><br/><br/
- ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
- atithi/blob/master/devatA/vaiShNava/lunar_month/tithi/05/15/hayagrIva~jaya
- ntI.toml)<br/>- Tags: OtherAvatarams
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/05/15/hayagrIv
+ a~jayantI.toml)<br/>- Tags: OtherAvatarams<br/><br/><br/><br/>## Details<b
+ r/>- References<br/>  - Skanda Puranam<br/>- [Edit config file](https://gi
+ thub.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tith
+ i/05/15/hayagrIva~jayantI.toml)<br/>- Tags: OtherAvatarams
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -37607,14 +37601,12 @@ BEGIN:VEVENT
 SUMMARY:रक्षाबन्धनम्
 DTSTART;VALUE=DATE:20240819
 DTEND;VALUE=DATE:20240820
-DESCRIPTION:Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) mon
- th (Sūryōdayaḥ/puurvaviddha). <br/><br/>Rakshabandhanam<br/><br/>य
- ेन बद्धो बली राजा दानवेन्द्
- रो महाबलः।  <br/>तेन त्वामभिबध
- ्नामि रक्षे मा चल मा चल॥<br/><br/><b
- r/><br/>## Details<br/>- References<br/>  - Dharma Sindhu 56<br/>- [Edit c
- onfig file](https://github.com/jyotisham/adyatithi/blob/master/general/lun
- ar_month/tithi/05/15/rakSAbandhanam.toml)<br/>- Tags: CommonFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/05/15/rakSAbandhanam.to
+ ml)<br/>- Tags: CommonFestivals<br/><br/><br/><br/>## Details<br/>- Refere
+ nces<br/>  - Skanda Puranam<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/blob/master/general/lunar_month/tithi/05/15/rakSAbandhan
+ am.toml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
