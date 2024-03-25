@@ -6,7 +6,7 @@ publishDir = "build_github"
 disablePathToLower = true
 
 [params]
-githubEditMePathBase = "https://github.com/jyotisham/jyotisha/edit/master/hugo-source/content/"
+githubEditMePathBase = "https://github.com/jyotisham/jyotisha/edit/generated-output/"
 contactLink = "https://github.com/jyotisham/jyotisha/issues/new"
 env = "production"
 disqusShortcode = "snaskrit-coders-site"
