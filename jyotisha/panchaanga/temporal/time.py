@@ -44,9 +44,9 @@ class Hour(JsonObject):
     secs = secs % 3600
 
     suffix = default_suffix
-    if format[-1] == '*':
+    if format[-1] in ['*', "!"]:
       if hour >= 24:
-        suffix = '*'
+        suffix = format[-1]
     elif format[-1] == '+':
       if hour >= 24:
         hour -= 24
@@ -60,7 +60,7 @@ class Hour(JsonObject):
     secs = secs % 60
     second = secs
 
-    if format in ('hh:mm', 'hh:mm*'):
+    if format in ('hh:mm', 'hh:mm*', 'hh:mm!'):
       # Rounding done if 30 seconds have elapsed
       return '%02d:%02d%s' % (hour, minute + ((secs + (msec >= 500)) >= 30) * rounding, suffix)
     elif format in ('hh:mm:ss', 'hh:mm:ss*'):
@@ -90,6 +90,9 @@ class Hour(JsonObject):
       return ('%d-%d-%d' % (gg, pp, vv))
     else:
       raise Exception("""Unknown format: %s""" % format)
+
+  def to_md(self):
+    return self.to_string(format='hh:mm!')
 
   def __repr__(self):
     return self.to_string(format='hh:mm:ss')

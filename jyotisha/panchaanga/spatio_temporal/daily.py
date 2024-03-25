@@ -109,7 +109,7 @@ class DayAngas(common.JsonObject):
       return anga_span.anga
     return None
 
-  def get_anga_data_str(self, anga_type, script, reference_jd):
+  def get_anga_data_md(self, anga_type, script, reference_jd):
     anga_data_str = ''
     angas_with_ends = self.get_angas_with_ends(anga_type=anga_type)
     for anga_span in angas_with_ends:

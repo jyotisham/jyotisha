@@ -115,7 +115,7 @@ class AngaSpan(Interval):
     if anga_end_jd is None:
       anga_end_str = ""
     else:
-      anga_end_str = Hour(24 * (anga_end_jd - reference_jd)).to_string()
+      anga_end_str = Hour(24 * (anga_end_jd - reference_jd)).to_md()
     return f"{anga}►{anga_end_str}"
 
 class FifteenFoldDivision(common.JsonObject):
