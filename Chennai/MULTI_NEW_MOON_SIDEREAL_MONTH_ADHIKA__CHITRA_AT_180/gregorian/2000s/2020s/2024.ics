@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20240325140136
+SEQUENCE:20240330164553
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -42448,6 +42448,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:शक्रध्वजोत्थापनम्
+DTSTART;VALUE=DATE:20240915
+DTEND;VALUE=DATE:20240916
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/06/12/zakradhv
+ ajotthApanam.toml)<br/>- Tags: LessCommonFestivals<br/><br/><br/><br/>## D
+ etails<br/>- References<br/>  - Nirnaya Sindhu (Nirnaya Sagara) p. 104<br/
+ >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/d
+ evatA/vaiShNava/lunar_month/tithi/06/12/zakradhvajotthApanam.toml)<br/>- T
+ ags: LessCommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:श्रवण-व्रतम्
 DTSTART;VALUE=DATE:20240915
 DTEND;VALUE=DATE:20240916
@@ -47446,6 +47465,29 @@ DESCRIPTION:The Shukla-paksha Ekadashi of āśvayuja month is known as pā
  - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/ti
  me_focus/monthly/ekAdashI/description_only/pApAGkuzA-EkAdazI.toml)<br/>- T
  ags: MonthlyVratam EkadashiVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:शक्रध्वजपातः
+DTSTART;VALUE=DATE:20241014
+DTEND;VALUE=DATE:20241015
+DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Āśvayujaḥ (lunar) m
+ onth (Sūryōdayaḥ/puurvaviddha). <br/><br/>The flag hoisted in the hono
+ ur of Indra is lowered on this day. It is also a day of anadhyayanam.<br/>
+ <br/>याज्ञवल्क्यः---  <br/>त्वहोरा
+ त्रं शक्रपाते तथोच्छ्रये। [
+ अनध्यायः]  <br/>शक्रपातः --- आश्व
+ युक्छुक्लद्वादशी॥<br/><br/><br/><br/>## 
+ Details<br/>- References<br/>  - Smriti Muktaphalam Part 1 (SVR)\, p. 150<
+ br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/maste
+ r/general/lunar_month/tithi/07/12/zakradhvajapAtaH.toml)<br/>- Tags: LessC
+ ommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
