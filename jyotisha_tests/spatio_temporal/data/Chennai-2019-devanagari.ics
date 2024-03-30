@@ -32277,6 +32277,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:śakradhvajōtthāpanam
+DTSTART;VALUE=DATE:20190910
+DTEND;VALUE=DATE:20190911
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/06/12/zakradhv
+ ajotthApanam.toml)<br/>- Tags: LessCommonFestivals<br/><br/><br/><br/>## D
+ etails<br/>- References<br/>  - Nirnaya Sindhu (Nirnaya Sagara) p. 104<br/
+ >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/d
+ evatA/vaiShNava/lunar_month/tithi/06/12/zakradhvajotthApanam.toml)<br/>- T
+ ags: LessCommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Bhādrapadaḥ-06-13  \,Makaraḥ-Śravaṇaḥ🌛🌌  \,  Siṁ
  haḥ-Pūrvaphalgunī-05-26🌞🌌  \,  Nabhasyaḥ-06-20🌞🪐  \, Bud
  haḥ
@@ -36510,6 +36529,27 @@ DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Āśvayujaḥ (lunar) m
  /github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/07/1
  2/payOvrata-samApanam.toml)<br/>- Tags: VratamStart SpecialPeriodStart Com
  monFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:śakradhvajapātaḥ
+DTSTART;VALUE=DATE:20191010
+DTEND;VALUE=DATE:20191011
+DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Āśvayujaḥ (lunar) m
+ onth (Sūryōdayaḥ/puurvaviddha). <br/><br/>The flag hoisted in the hono
+ ur of Indra is lowered on this day. It is also a day of anadhyayanam.<br/>
+ <br/>yājñavalkyaḥ---  <br/>tvahōrātraṁ śakrapātē tathōcchrayē
+ । [anadhyāyaḥ]  <br/>śakrapātaḥ --- āśvayukchukladvādaśī॥<
+ br/><br/><br/><br/>## Details<br/>- References<br/>  - Smriti Muktaphalam 
+ Part 1 (SVR)\, p. 150<br/>- [Edit config file](https://github.com/jyotisha
+ m/adyatithi/blob/master/general/lunar_month/tithi/07/12/zakradhvajapAtaH.t
+ oml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
