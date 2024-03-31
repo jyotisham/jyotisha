@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20240331233732
+SEQUENCE:20240331235157
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -301,6 +301,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240103T180130
+DTEND;TZID=Asia/Calcutta:20240104T064633
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -972,6 +988,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240109T180455
+DTEND;TZID=Asia/Calcutta:20240110T064823
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:बाजीरावेण कान्होजि-रक्ष
  णम् #३०४
 DTSTART;VALUE=DATE:20240109
@@ -1152,6 +1184,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240110T180530
+DTEND;TZID=Asia/Calcutta:20240111T064837
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:बोधायन-कात्यायन-मार्गशी
  र्ष-अमावास्या
 DTSTART;VALUE=DATE:20240110
@@ -1304,6 +1352,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240111T180604
+DTEND;TZID=Asia/Calcutta:20240112T064851
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -1771,6 +1835,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240113T180711
+DTEND;TZID=Asia/Calcutta:20240114T064916
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:अवरङ्गज़ेबः पण्ढरपुरमन्
  दिरम् अनाशयत् #३१९
 DTSTART;VALUE=DATE:20240113
@@ -1885,6 +1965,41 @@ DESCRIPTION:- Indian civil date: 1945-10-24\, Islamic: 1445-07-03 Rajab\,
  टः**—12:28-13:53\; **गुलिककालः**—15:18-16:42  \n
  ___________________\n- **शूलम्**—प्रतीची (►11:
  20)\; **परिहारः**–गुडम्  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240114T180745
+DTEND;TZID=Asia/Calcutta:20240115T064927
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;VALUE=DATE:20240114
+DTEND;VALUE=DATE:20240115
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ rAtrisaGkramaNa.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## D
+ etails<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/time_focu
+ s/adhyayana/description_only/anadhyAyaH~rAtrisaGkramaNa.toml)<br/>- Tags: 
+ Anadhyayana Days
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2133,6 +2248,22 @@ DESCRIPTION:- Indian civil date: 1945-10-25\, Islamic: 1445-07-04 Rajab\,
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240115T064927
+DTEND;TZID=Asia/Calcutta:20240115T180818
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ rAtrisaGkramaNa~parAhNE.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><
+ br/>## Details<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<br/
+ >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/t
+ ime_focus/adhyayana/description_only/anadhyAyaH~rAtrisaGkramaNa~parAhNE.to
+ ml)<br/>- Tags: Anadhyayana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -2437,6 +2568,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240117T180924
+DTEND;TZID=Asia/Calcutta:20240118T064952
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:पौषः-10-08  \,मेषः-अश्विनी🌛🌌  
  \,  मकरः-उत्तराषाढा-10-04🌞🌌  \,  सह
  स्यः-10-28🌞🪐  \, गुरुः
@@ -2718,6 +2865,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240120T181100
+DTEND;TZID=Asia/Calcutta:20240121T065008
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:हकीकतरायहत्या #२९१
 DTSTART;VALUE=DATE:20240120
 DTEND;VALUE=DATE:20240121
@@ -2889,6 +3052,41 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  ham/adyatithi/blob/master/time_focus/adhyayana/relative_event/manvAdiH~%28
  cAkSuSaH~%5B6%5D%29/offset__00/anadhyAyaH~manvAdi~6.toml)<br/>- Tags: Anad
  hyayana Days
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240121T181131
+DTEND;TZID=Asia/Calcutta:20240122T065011
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;VALUE=DATE:20240121
+DTEND;VALUE=DATE:20240122
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ rAtrisaGkramaNa.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## D
+ etails<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/time_focu
+ s/adhyayana/description_only/anadhyAyaH~rAtrisaGkramaNa.toml)<br/>- Tags: 
+ Anadhyayana Days
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3103,6 +3301,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240122T065011
+DTEND;TZID=Asia/Calcutta:20240122T181202
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ rAtrisaGkramaNa~parAhNE.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><
+ br/>## Details<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<br/
+ >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/t
+ ime_focus/adhyayana/description_only/anadhyAyaH~rAtrisaGkramaNa~parAhNE.to
+ ml)<br/>- Tags: Anadhyayana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:सोममृगशीर्ष-योगः
 DTSTART;VALUE=DATE:20240122
 DTEND;VALUE=DATE:20240123
@@ -3184,6 +3398,22 @@ DESCRIPTION:- Indian civil date: 1945-11-03\, Islamic: 1445-07-12 Rajab\,
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240123T181232
+DTEND;TZID=Asia/Calcutta:20240124T065013
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -3333,6 +3563,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240124T181302
+DTEND;TZID=Asia/Calcutta:20240125T065013
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:पौषः-10-15  \,कर्कटः-पुनर्वसु
  ः🌛🌌  \,  मकरः-श्रवणः-10-11🌞🌌  \,  तप
  ः-11-05🌞🪐  \, गुरुः
@@ -3430,6 +3676,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240125T181331
+DTEND;TZID=Asia/Calcutta:20240126T065011
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -4503,6 +4765,22 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240202T181709
+DTEND;TZID=Asia/Calcutta:20240203T064920
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
 DTSTART;VALUE=DATE:20240202
 DTEND;VALUE=DATE:20240203
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -5159,6 +5437,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240207T181907
+DTEND;TZID=Asia/Calcutta:20240208T064814
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta:20240207T181907
 DTEND;TZID=Asia/Calcutta:20240207T195245
@@ -5284,6 +5578,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240208T181929
+DTEND;TZID=Asia/Calcutta:20240209T064758
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:मासशिवरात्रिः
 DTSTART;VALUE=DATE:20240208
 DTEND;VALUE=DATE:20240209
@@ -5399,6 +5709,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240209T181950
+DTEND;TZID=Asia/Calcutta:20240210T064740
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -5854,6 +6180,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240211T182031
+DTEND;TZID=Asia/Calcutta:20240212T064703
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:चन्द्र-दर्शनम्
 DTSTART;TZID=Asia/Calcutta:20240211T182031
 DTEND;TZID=Asia/Calcutta:20240211T195653
@@ -5993,6 +6335,38 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240212T182051
+DTEND;TZID=Asia/Calcutta:20240213T064643
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ divAsaGkramaNa~pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br
+ /><br/>## Details<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<
+ br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/maste
+ r/time_focus/adhyayana/description_only/anadhyAyaH~divAsaGkramaNa~pUrvarAt
+ rau.toml)<br/>- Tags: Anadhyayana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240212T182051
+DTEND;TZID=Asia/Calcutta:20240213T064643
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:शान्ता वरकुन्द-चतुर्थी
 DTSTART;VALUE=DATE:20240212
 DTEND;VALUE=DATE:20240213
@@ -6071,6 +6445,25 @@ DESCRIPTION:- Indian civil date: 1945-11-24\, Islamic: 1445-08-03 Shaʿbā
  **—12:33-14:00  \n___________________\n- **शूलम्**—उदी
  ची (►11:24)\; **परिहारः**–क्षीरम्  \n_
  __________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;VALUE=DATE:20240213
+DTEND;VALUE=DATE:20240214
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ divAsaGkramaNa.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## De
+ tails<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus
+ /adhyayana/description_only/anadhyAyaH~divAsaGkramaNa.toml)<br/>- Tags: An
+ adhyayana Days
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6515,6 +6908,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240215T182146
+DTEND;TZID=Asia/Calcutta:20240216T064537
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:मन्वादिः-(वैवस्वतः-[७])
 DTSTART;VALUE=DATE:20240215
 DTEND;VALUE=DATE:20240216
@@ -6800,6 +7209,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240217T182219
+DTEND;TZID=Asia/Calcutta:20240218T064449
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:भारतीय-नौ-सैनिक-विद्रोहः
   #७८
 DTSTART;VALUE=DATE:20240217
@@ -6988,6 +7413,38 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240218T182235
+DTEND;TZID=Asia/Calcutta:20240219T064424
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ divAsaGkramaNa~pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br
+ /><br/>## Details<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<
+ br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/maste
+ r/time_focus/adhyayana/description_only/anadhyAyaH~divAsaGkramaNa~pUrvarAt
+ rau.toml)<br/>- Tags: Anadhyayana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240218T182235
+DTEND;TZID=Asia/Calcutta:20240219T064424
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:श्यामळानवरात्रः
 DTSTART;VALUE=DATE:20240210
 DTEND;VALUE=DATE:20240219
@@ -7126,6 +7583,25 @@ DESCRIPTION:Event occured on 1946-02-19 (gregorian). <br/><br/>British ann
  ounced they will leave India<br/><br/>## Details<br/>- [Edit config file](
  https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xatra-later
  /gregorian/day/02/19/AngleyA_bhAratatyAgam_aghoShayan.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;VALUE=DATE:20240219
+DTEND;VALUE=DATE:20240220
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ divAsaGkramaNa.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## De
+ tails<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus
+ /adhyayana/description_only/anadhyAyaH~divAsaGkramaNa.toml)<br/>- Tags: An
+ adhyayana Days
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7641,6 +8117,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240222T182333
+DTEND;TZID=Asia/Calcutta:20240223T064234
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:देवी-पर्व-११
 DTSTART;VALUE=DATE:20240222
 DTEND;VALUE=DATE:20240223
@@ -7797,6 +8289,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240223T182346
+DTEND;TZID=Asia/Calcutta:20240224T064205
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:पञ्च-पर्व-पूजा (पूर्णिमा)
 DTSTART;VALUE=DATE:20240223
 DTEND;VALUE=DATE:20240224
@@ -7894,6 +8402,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240224T182359
+DTEND;TZID=Asia/Calcutta:20240225T064135
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -8839,6 +9363,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240302T182514
+DTEND;TZID=Asia/Calcutta:20240303T063748
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:माघ-अष्टका-पूर्वेद्युः
 DTSTART;VALUE=DATE:20240302
 DTEND;VALUE=DATE:20240303
@@ -9715,6 +10255,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240308T182602
+DTEND;TZID=Asia/Calcutta:20240309T063414
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:मासशिवरात्रिः
 DTSTART;VALUE=DATE:20240308
 DTEND;VALUE=DATE:20240309
@@ -9912,6 +10468,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240309T182609
+DTEND;TZID=Asia/Calcutta:20240310T063337
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:बोधायन-कात्यायन-माघ-अमाव
  ास्या
 DTSTART;VALUE=DATE:20240309
@@ -10026,6 +10598,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240310T182616
+DTEND;TZID=Asia/Calcutta:20240311T063259
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -10496,6 +11084,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240312T182628
+DTEND;TZID=Asia/Calcutta:20240313T063143
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:दिनक्षयः
 DTSTART;VALUE=DATE:20240312
 DTEND;VALUE=DATE:20240313
@@ -10630,6 +11234,38 @@ DESCRIPTION:- Indian civil date: 1945-12-23\, Islamic: 1445-09-03 Ramaḍ
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240313T182634
+DTEND;TZID=Asia/Calcutta:20240314T063105
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ divAsaGkramaNa~pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br
+ /><br/>## Details<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<
+ br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/maste
+ r/time_focus/adhyayana/description_only/anadhyAyaH~divAsaGkramaNa~pUrvarAt
+ rau.toml)<br/>- Tags: Anadhyayana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240313T182634
+DTEND;TZID=Asia/Calcutta:20240314T063105
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -10772,6 +11408,25 @@ DESCRIPTION:- Indian civil date: 1945-12-24\, Islamic: 1445-09-04 Ramaḍ
  —06:31-08:00\; **गुलिककालः**—09:29-10:59  \n________
  ___________\n- **शूलम्**—दक्षिणा (►14:28)\; **
  परिहारः**–तैलम्  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;VALUE=DATE:20240314
+DTEND;VALUE=DATE:20240315
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ divAsaGkramaNa.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## De
+ tails<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus
+ /adhyayana/description_only/anadhyAyaH~divAsaGkramaNa.toml)<br/>- Tags: An
+ adhyayana Days
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11128,6 +11783,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240316T182649
+DTEND;TZID=Asia/Calcutta:20240317T062908
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:द्विपुष्कर-योगः
 DTSTART;TZID=Asia/Calcutta:20240316T160422
 DTEND;TZID=Asia/Calcutta:20240316T213900
@@ -11353,6 +12024,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240318T182659
+DTEND;TZID=Asia/Calcutta:20240319T062749
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:फाल्गुनः-12-10  \,मिथुनम्-पुन
  र्वसुः🌛🌌  \,  मीनः-उत्तरप्रो
  ष्ठपदा-12-06🌞🌌  \,  तपस्यः-12-30🌞🪐  \,
@@ -11416,6 +12103,38 @@ DESCRIPTION:- Indian civil date: 1945-12-29\, Islamic: 1445-09-09 Ramaḍ
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240319T182703
+DTEND;TZID=Asia/Calcutta:20240320T062709
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ divAsaGkramaNa~pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br
+ /><br/>## Details<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<
+ br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/maste
+ r/time_focus/adhyayana/description_only/anadhyAyaH~divAsaGkramaNa~pUrvarAt
+ rau.toml)<br/>- Tags: Anadhyayana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240319T182703
+DTEND;TZID=Asia/Calcutta:20240320T062709
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -11504,6 +12223,25 @@ DESCRIPTION:- Indian civil date: 1945-12-30\, Islamic: 1445-09-10 Ramaḍ
  ककालः**—10:57-12:27  \n___________________\n- **शूलम
  ्**—उदीची (►12:51)\; **परिहारः**–क्ष
  ीरम्  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;VALUE=DATE:20240320
+DTEND;VALUE=DATE:20240321
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ divAsaGkramaNa.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## De
+ tails<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus
+ /adhyayana/description_only/anadhyAyaH~divAsaGkramaNa.toml)<br/>- Tags: An
+ adhyayana Days
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11927,6 +12665,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240322T182715
+DTEND;TZID=Asia/Calcutta:20240323T062509
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:मोहितशर्मा-वीरगतिः #१५
 DTSTART;VALUE=DATE:20240322
 DTEND;VALUE=DATE:20240323
@@ -12028,6 +12782,41 @@ DESCRIPTION:- Indian civil date: 1946-01-03\, Islamic: 1445-09-13 Ramaḍ
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;VALUE=DATE:20240323
+DTEND;VALUE=DATE:20240324
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/lunar_month/tithi/00/14/anad
+ hyAyaH~14.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Details
+ <br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit confi
+ g file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/adhy
+ ayana/lunar_month/tithi/00/14/anadhyAyaH~14.toml)<br/>- Tags: Anadhyayana 
+ Days
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240323T182719
+DTEND;TZID=Asia/Calcutta:20240324T062429
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -12200,6 +12989,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240324T182723
+DTEND;TZID=Asia/Calcutta:20240325T062349
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:होलिका-पूर्णिमा
 DTSTART;VALUE=DATE:20240324
 DTEND;VALUE=DATE:20240325
@@ -12340,6 +13145,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240325T182727
+DTEND;TZID=Asia/Calcutta:20240326T062309
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -13422,6 +14243,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240401T182753
+DTEND;TZID=Asia/Calcutta:20240402T061831
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:पञ्च-पर्व-पूजा (अष्टमी)
 DTSTART;VALUE=DATE:20240401
 DTEND;VALUE=DATE:20240402
@@ -13967,6 +14804,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240406T182813
+DTEND;TZID=Asia/Calcutta:20240407T061518
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:मार्ताण्डवर्मणा वान्-गो
  लॆनॆस्सॆ-प्रत्याख्यानम् #२
  ८१
@@ -14132,6 +14985,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240407T182818
+DTEND;TZID=Asia/Calcutta:20240408T061440
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -14315,6 +15184,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240408T182823
+DTEND;TZID=Asia/Calcutta:20240409T061403
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -15225,6 +16110,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240412T182843
+DTEND;TZID=Asia/Calcutta:20240413T061137
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:अवरङ्गज़ेबो जज़ियादण्डम् 
  आदिशति #३४५
 DTSTART;VALUE=DATE:20240412
@@ -15380,6 +16281,41 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/maste
  r/devatA/kaumAra/description_only/SaSThI-vratam.toml)<br/>- Tags: MonthlyV
  ratam ShashthiVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240413T182849
+DTEND;TZID=Asia/Calcutta:20240414T061101
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;VALUE=DATE:20240413
+DTEND;VALUE=DATE:20240414
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ rAtrisaGkramaNa.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## D
+ etails<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/time_focu
+ s/adhyayana/description_only/anadhyAyaH~rAtrisaGkramaNa.toml)<br/>- Tags: 
+ Anadhyayana Days
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15607,6 +16543,22 @@ DESCRIPTION:- Indian civil date: 1946-01-25\, Islamic: 1445-10-05 Shawwāl
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240414T061101
+DTEND;TZID=Asia/Calcutta:20240414T182855
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ rAtrisaGkramaNa~parAhNE.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><
+ br/>## Details<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<br/
+ >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/t
+ ime_focus/adhyayana/description_only/anadhyAyaH~rAtrisaGkramaNa~parAhNE.to
+ ml)<br/>- Tags: Anadhyayana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -15864,6 +16816,22 @@ DESCRIPTION:- Indian civil date: 1946-01-26\, Islamic: 1445-10-06 Shawwāl
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240415T182901
+DTEND;TZID=Asia/Calcutta:20240416T060952
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -16623,6 +17591,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240419T182928
+DTEND;TZID=Asia/Calcutta:20240420T060738
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:गङ्गा-अन्त्य-पुष्कर-आरम्
  भः
 DTSTART;VALUE=DATE:20240419
@@ -16809,6 +17793,41 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240420T182935
+DTEND;TZID=Asia/Calcutta:20240421T060706
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;VALUE=DATE:20240420
+DTEND;VALUE=DATE:20240421
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ rAtrisaGkramaNa.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## D
+ etails<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/time_focu
+ s/adhyayana/description_only/anadhyAyaH~rAtrisaGkramaNa.toml)<br/>- Tags: 
+ Anadhyayana Days
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:भ्रातृप्राप्ति-व्रत-आरम
  ्भः
 DTSTART;VALUE=DATE:20240420
@@ -16963,6 +17982,38 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  otisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/Ad
  ityahasta-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDa
  ys
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240421T182943
+DTEND;TZID=Asia/Calcutta:20240422T060634
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240421T060706
+DTEND;TZID=Asia/Calcutta:20240421T182943
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ rAtrisaGkramaNa~parAhNE.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><
+ br/>## Details<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<br/
+ >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/t
+ ime_focus/adhyayana/description_only/anadhyAyaH~rAtrisaGkramaNa~parAhNE.to
+ ml)<br/>- Tags: Anadhyayana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -17131,6 +18182,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240422T182951
+DTEND;TZID=Asia/Calcutta:20240423T060604
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:मदन-चतुर्दशी
 DTSTART;VALUE=DATE:20240422
 DTEND;VALUE=DATE:20240423
@@ -17291,6 +18358,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240423T182959
+DTEND;TZID=Asia/Calcutta:20240424T060533
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -18254,6 +19337,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240430T183106
+DTEND;TZID=Asia/Calcutta:20240501T060220
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:दिनक्षयः
 DTSTART;VALUE=DATE:20240430
 DTEND;VALUE=DATE:20240501
@@ -19107,6 +20206,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240506T183217
+DTEND;TZID=Asia/Calcutta:20240507T060003
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:मासशिवरात्रिः
 DTSTART;VALUE=DATE:20240506
 DTEND;VALUE=DATE:20240507
@@ -19260,6 +20375,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240507T183230
+DTEND;TZID=Asia/Calcutta:20240508T055943
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -20220,6 +21351,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240512T183341
+DTEND;TZID=Asia/Calcutta:20240513T055815
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:लावण्य-गौरी-व्रतम्
 DTSTART;VALUE=DATE:20240512
 DTEND;VALUE=DATE:20240513
@@ -20398,6 +21545,38 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240513T183356
+DTEND;TZID=Asia/Calcutta:20240514T055800
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ divAsaGkramaNa~pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br
+ /><br/>## Details<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<
+ br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/maste
+ r/time_focus/adhyayana/description_only/anadhyAyaH~divAsaGkramaNa~pUrvarAt
+ rau.toml)<br/>- Tags: Anadhyayana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240513T183356
+DTEND;TZID=Asia/Calcutta:20240514T055800
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:२००८ वर्षे जयपुरे विस्फो
  टाः #१६
 DTSTART;VALUE=DATE:20240513
@@ -20497,6 +21676,41 @@ DESCRIPTION:- Indian civil date: 1946-02-24\, Islamic: 1445-11-06 Ḏū al
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;VALUE=DATE:20240514
+DTEND;VALUE=DATE:20240515
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ divAsaGkramaNa.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## De
+ tails<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus
+ /adhyayana/description_only/anadhyAyaH~divAsaGkramaNa.toml)<br/>- Tags: An
+ adhyayana Days
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240514T183411
+DTEND;TZID=Asia/Calcutta:20240515T055746
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -20963,6 +22177,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240518T183514
+DTEND;TZID=Asia/Calcutta:20240519T055658
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:निमिषाम्बा-जयन्ती
 DTSTART;VALUE=DATE:20240518
 DTEND;VALUE=DATE:20240519
@@ -21098,6 +22328,38 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240519T183531
+DTEND;TZID=Asia/Calcutta:20240520T055648
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ divAsaGkramaNa~pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br
+ /><br/>## Details<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<
+ br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/maste
+ r/time_focus/adhyayana/description_only/anadhyAyaH~divAsaGkramaNa~pUrvarAt
+ rau.toml)<br/>- Tags: Anadhyayana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240519T183531
+DTEND;TZID=Asia/Calcutta:20240520T055648
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -21273,6 +22535,25 @@ DESCRIPTION:Ṣaḍaśīti Punyakala.<br/><br/>सङ्क्रान्
  ुभे<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
  ithub.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description
  _only/SaDazIti-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;VALUE=DATE:20240520
+DTEND;VALUE=DATE:20240521
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ divAsaGkramaNa.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## De
+ tails<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus
+ /adhyayana/description_only/anadhyAyaH~divAsaGkramaNa.toml)<br/>- Tags: An
+ adhyayana Days
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -21541,6 +22822,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240521T183604
+DTEND;TZID=Asia/Calcutta:20240522T055630
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:छिन्नमस्ता-जयन्ती
 DTSTART;VALUE=DATE:20240521
 DTEND;VALUE=DATE:20240522
@@ -21659,6 +22956,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240522T183621
+DTEND;TZID=Asia/Calcutta:20240523T055623
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -21827,6 +23140,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240523T183638
+DTEND;TZID=Asia/Calcutta:20240524T055616
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -22941,6 +24270,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240530T183842
+DTEND;TZID=Asia/Calcutta:20240531T055554
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:पञ्च-पर्व-पूजा (अष्टमी)
 DTSTART;VALUE=DATE:20240530
 DTEND;VALUE=DATE:20240531
@@ -23479,6 +24824,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240604T184012
+DTEND;TZID=Asia/Calcutta:20240605T055603
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:मासशिवरात्रिः
 DTSTART;VALUE=DATE:20240604
 DTEND;VALUE=DATE:20240605
@@ -23657,6 +25018,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240605T184030
+DTEND;TZID=Asia/Calcutta:20240606T055607
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:बोधायन-कात्यायन-वैशाख-अम
  ावास्या
 DTSTART;VALUE=DATE:20240605
@@ -23788,6 +25165,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240606T184048
+DTEND;TZID=Asia/Calcutta:20240607T055612
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -24806,6 +26199,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240613T184246
+DTEND;TZID=Asia/Calcutta:20240614T055704
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:धूमावती-जयन्ती
 DTSTART;VALUE=DATE:20240613
 DTEND;VALUE=DATE:20240614
@@ -24931,6 +26340,41 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240614T184302
+DTEND;TZID=Asia/Calcutta:20240615T055714
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;VALUE=DATE:20240614
+DTEND;VALUE=DATE:20240615
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ rAtrisaGkramaNa.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## D
+ etails<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/time_focu
+ s/adhyayana/description_only/anadhyAyaH~rAtrisaGkramaNa.toml)<br/>- Tags: 
+ Anadhyayana Days
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:ज्येष्ठाष्टमी
 DTSTART;VALUE=DATE:20240614
 DTEND;VALUE=DATE:20240615
@@ -25031,6 +26475,22 @@ DESCRIPTION:- Indian civil date: 1946-03-25\, Islamic: 1445-12-08 Ḏū al
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240615T055714
+DTEND;TZID=Asia/Calcutta:20240615T184318
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ rAtrisaGkramaNa~parAhNE.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><
+ br/>## Details<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<br/
+ >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/t
+ ime_focus/adhyayana/description_only/anadhyAyaH~rAtrisaGkramaNa~parAhNE.to
+ ml)<br/>- Tags: Anadhyayana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -25650,6 +27110,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240619T184416
+DTEND;TZID=Asia/Calcutta:20240620T055811
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:बुधानुराधा-योगः
 DTSTART;TZID=Asia/Calcutta:20240619T172147
 DTEND;TZID=Asia/Calcutta:20240620T000000
@@ -25829,6 +27305,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240620T184429
+DTEND;TZID=Asia/Calcutta:20240621T055824
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -26093,6 +27585,41 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240621T184442
+DTEND;TZID=Asia/Calcutta:20240622T055837
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;VALUE=DATE:20240621
+DTEND;VALUE=DATE:20240622
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ rAtrisaGkramaNa.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## D
+ etails<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/time_focu
+ s/adhyayana/description_only/anadhyAyaH~rAtrisaGkramaNa.toml)<br/>- Tags: 
+ Anadhyayana Days
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:दक्षिणायनारम्भः
 DTSTART;VALUE=DATE:20240621
 DTEND;VALUE=DATE:20240622
@@ -26283,6 +27810,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240622T055837
+DTEND;TZID=Asia/Calcutta:20240622T184454
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ rAtrisaGkramaNa~parAhNE.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><
+ br/>## Details<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<br/
+ >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/t
+ ime_focus/adhyayana/description_only/anadhyAyaH~rAtrisaGkramaNa~parAhNE.to
+ ml)<br/>- Tags: Anadhyayana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -27069,6 +28612,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240628T184557
+DTEND;TZID=Asia/Calcutta:20240629T060020
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:हल्दीघाटी-युद्धम् #४४८
 DTSTART;VALUE=DATE:20240628
 DTEND;VALUE=DATE:20240629
@@ -27721,6 +29280,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240703T184632
+DTEND;TZID=Asia/Calcutta:20240704T060141
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:दिनक्षयः
 DTSTART;VALUE=DATE:20240703
 DTEND;VALUE=DATE:20240704
@@ -27921,6 +29496,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240704T184637
+DTEND;TZID=Asia/Calcutta:20240705T060158
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:मासशिवरात्रिः
 DTSTART;VALUE=DATE:20240704
 DTEND;VALUE=DATE:20240705
@@ -28037,6 +29628,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240705T184641
+DTEND;TZID=Asia/Calcutta:20240706T060215
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -29013,6 +30620,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240713T184644
+DTEND;TZID=Asia/Calcutta:20240714T060428
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:हरिसिंहेनाटक-ग्रहणम् #२१
  १
 DTSTART;VALUE=DATE:20240713
@@ -29163,6 +30786,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240714T184640
+DTEND;TZID=Asia/Calcutta:20240715T060445
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:महिषघ्नी-पूजा
 DTSTART;VALUE=DATE:20240714
 DTEND;VALUE=DATE:20240715
@@ -29276,6 +30915,38 @@ DESCRIPTION:Observed on Śukla-Navamī tithi of Āṣāḍhaḥ (lunar) mo
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240715T184636
+DTEND;TZID=Asia/Calcutta:20240716T060501
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ divAsaGkramaNa~pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br
+ /><br/>## Details<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<
+ br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/maste
+ r/time_focus/adhyayana/description_only/anadhyAyaH~divAsaGkramaNa~pUrvarAt
+ rau.toml)<br/>- Tags: Anadhyayana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240715T184636
+DTEND;TZID=Asia/Calcutta:20240716T060501
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -29408,6 +31079,25 @@ DESCRIPTION:Observed on Śukla-Daśamī tithi of Āṣāḍhaḥ (lunar) m
  atī)<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
  isham/adyatithi/blob/master/general/lunar_month/tithi/04/10/AzA~dazamI.tom
  l)<br/>- Tags: LessCommonFestivals SpecialPuja
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;VALUE=DATE:20240716
+DTEND;VALUE=DATE:20240717
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ divAsaGkramaNa.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## De
+ tails<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus
+ /adhyayana/description_only/anadhyAyaH~divAsaGkramaNa.toml)<br/>- Tags: An
+ adhyayana Days
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -29588,6 +31278,22 @@ DESCRIPTION:- Indian civil date: 1946-04-26\, Islamic: 1446-01-10 Al-Muḥ
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240717T210309
+DTEND;TZID=Asia/Calcutta:20240718T031052
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ dvAdazI-yOgaH.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Det
+ ails<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/
+ adhyayana/description_only/anadhyAyaH~dvAdazI-yOgaH.toml)<br/>- Tags: Anad
+ hyayana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -29956,6 +31662,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240719T184609
+DTEND;TZID=Asia/Calcutta:20240720T060604
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:शुक्रवार-शुक्ल-प्रदोष-व्
  रतम्
 DTSTART;TZID=Asia/Calcutta:20240719T184609
@@ -30055,6 +31777,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240720T184601
+DTEND;TZID=Asia/Calcutta:20240721T060619
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -30288,6 +32026,22 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240721T184551
+DTEND;TZID=Asia/Calcutta:20240722T060634
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ divAsaGkramaNa~pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br
+ /><br/>## Details<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<
+ br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/maste
+ r/time_focus/adhyayana/description_only/anadhyAyaH~divAsaGkramaNa~pUrvarAt
+ rau.toml)<br/>- Tags: Anadhyayana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
 DTSTART;VALUE=DATE:20240721
 DTEND;VALUE=DATE:20240722
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -30301,6 +32055,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240721T184551
+DTEND;TZID=Asia/Calcutta:20240722T060634
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -30541,6 +32311,25 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  ham/adyatithi/blob/master/time_focus/adhyayana/relative_event/cAturmAsya-d
  vitIyA~1/offset__00/anadhyAyaH~cAturmAsya-dvitIyA~1.toml)<br/>- Tags: Anad
  hyayana Days
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;VALUE=DATE:20240722
+DTEND;VALUE=DATE:20240723
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ divAsaGkramaNa.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## De
+ tails<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus
+ /adhyayana/description_only/anadhyAyaH~divAsaGkramaNa.toml)<br/>- Tags: An
+ adhyayana Days
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -31265,6 +33054,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240727T184433
+DTEND;TZID=Asia/Calcutta:20240728T060758
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:चामुण्डेश्वरी-जयन्ती
 DTSTART;VALUE=DATE:20240727
 DTEND;VALUE=DATE:20240728
@@ -31977,6 +33782,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240802T184245
+DTEND;TZID=Asia/Calcutta:20240803T060911
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:केरल-रामसिंह-हत्या #७७
 DTSTART;VALUE=DATE:20240802
 DTEND;VALUE=DATE:20240803
@@ -32109,6 +33930,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240803T184223
+DTEND;TZID=Asia/Calcutta:20240804T060922
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -32267,6 +34104,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240804T184201
+DTEND;TZID=Asia/Calcutta:20240805T060932
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -33428,6 +35281,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240811T183905
+DTEND;TZID=Asia/Calcutta:20240812T061036
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:अव्यङ्ग-सप्तमी
 DTSTART;VALUE=DATE:20240811
 DTEND;VALUE=DATE:20240812
@@ -33618,6 +35487,41 @@ DESCRIPTION:- Indian civil date: 1946-05-21\, Islamic: 1446-02-06 Ṣafar\
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;VALUE=DATE:20240812
+DTEND;VALUE=DATE:20240813
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/lunar_month/tithi/00/08/anad
+ hyAyaH~8.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Details<
+ br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit config
+  file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/adhya
+ yana/lunar_month/tithi/00/08/anadhyAyaH~8.toml)<br/>- Tags: Anadhyayana Da
+ ys
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240812T183837
+DTEND;TZID=Asia/Calcutta:20240813T061043
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -34043,6 +35947,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240815T183707
+DTEND;TZID=Asia/Calcutta:20240816T061104
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:भारते स्वातन्त्र्य-दिनो
  त्सवः #७७
 DTSTART;VALUE=DATE:20240815
@@ -34177,6 +36097,41 @@ DESCRIPTION:Very widely celebrated in Tamil Nadu temples\, Fridays in the
  ils<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/m
  aster/tamil/description_only/ADi~veLLikkizhamai.toml)<br/>- Tags: MonthWee
  kdayFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240816T183636
+DTEND;TZID=Asia/Calcutta:20240817T061110
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;VALUE=DATE:20240816
+DTEND;VALUE=DATE:20240817
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ rAtrisaGkramaNa.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## D
+ etails<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/time_focu
+ s/adhyayana/description_only/anadhyAyaH~rAtrisaGkramaNa.toml)<br/>- Tags: 
+ Anadhyayana Days
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -34364,6 +36319,38 @@ DESCRIPTION:Observed on Śukla-Trayōdaśī tithi of Śrāvaṇaḥ (lunar
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240817T183604
+DTEND;TZID=Asia/Calcutta:20240818T061115
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240817T061110
+DTEND;TZID=Asia/Calcutta:20240817T183604
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ rAtrisaGkramaNa~parAhNE.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><
+ br/>## Details<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<br/
+ >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/t
+ ime_focus/adhyayana/description_only/anadhyAyaH~rAtrisaGkramaNa~parAhNE.to
+ ml)<br/>- Tags: Anadhyayana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -34607,6 +36594,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240818T183531
+DTEND;TZID=Asia/Calcutta:20240819T061120
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:श्रवण-व्रतम्
 DTSTART;VALUE=DATE:20240818
 DTEND;VALUE=DATE:20240819
@@ -34723,6 +36726,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240819T183458
+DTEND;TZID=Asia/Calcutta:20240820T061125
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -35385,6 +37404,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240822T183315
+DTEND;TZID=Asia/Calcutta:20240823T061138
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:बहुला-चतुर्थी
 DTSTART;VALUE=DATE:20240822
 DTEND;VALUE=DATE:20240823
@@ -35612,6 +37647,41 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240823T183239
+DTEND;TZID=Asia/Calcutta:20240824T061142
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;VALUE=DATE:20240823
+DTEND;VALUE=DATE:20240824
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ rAtrisaGkramaNa.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## D
+ etails<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/time_focu
+ s/adhyayana/description_only/anadhyAyaH~rAtrisaGkramaNa.toml)<br/>- Tags: 
+ Anadhyayana Days
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:भृगुरेवती-योगः
 DTSTART;VALUE=DATE:20240823
 DTEND;VALUE=DATE:20240824
@@ -35714,6 +37784,22 @@ DESCRIPTION:- Indian civil date: 1946-06-02\, Islamic: 1446-02-18 Ṣafar\
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240824T061142
+DTEND;TZID=Asia/Calcutta:20240824T183203
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ rAtrisaGkramaNa~parAhNE.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><
+ br/>## Details<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<br/
+ >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/t
+ ime_focus/adhyayana/description_only/anadhyAyaH~rAtrisaGkramaNa~parAhNE.to
+ ml)<br/>- Tags: Anadhyayana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -35870,6 +37956,22 @@ DESCRIPTION:Do puja to Surya/Suryanamaskaram.<br/><br/>## Details<br/>- [E
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240825T183127
+DTEND;TZID=Asia/Calcutta:20240826T061148
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -36751,6 +38853,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240831T182737
+DTEND;TZID=Asia/Calcutta:20240901T061202
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:घाशीरामो हतः #२३३
 DTSTART;VALUE=DATE:20240831
 DTEND;VALUE=DATE:20240901
@@ -36904,6 +39022,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240901T182657
+DTEND;TZID=Asia/Calcutta:20240902T061204
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -37239,6 +39373,22 @@ DESCRIPTION:- Indian civil date: 1946-06-12\, Islamic: 1446-02-28 Ṣafar\
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240903T182537
+DTEND;TZID=Asia/Calcutta:20240904T061206
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -38403,6 +40553,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240910T182046
+DTEND;TZID=Asia/Calcutta:20240911T061210
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:अनन्तफल-सप्तमी
 DTSTART;VALUE=DATE:20240910
 DTEND;VALUE=DATE:20240911
@@ -39080,6 +41246,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;VALUE=DATE:20240914
+DTEND;VALUE=DATE:20240915
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ dvAdazI-yOgaH.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Det
+ ails<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/
+ adhyayana/description_only/anadhyAyaH~dvAdazI-yOgaH.toml)<br/>- Tags: Anad
+ hyayana Days
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:भुवनेश्वरी-जयन्ती
 DTSTART;VALUE=DATE:20240914
 DTEND;VALUE=DATE:20240915
@@ -39273,6 +41458,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240915T181712
+DTEND;TZID=Asia/Calcutta:20240916T061210
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -39545,6 +41746,41 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240916T181629
+DTEND;TZID=Asia/Calcutta:20240917T061210
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;VALUE=DATE:20240916
+DTEND;VALUE=DATE:20240917
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ rAtrisaGkramaNa.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## D
+ etails<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/time_focu
+ s/adhyayana/description_only/anadhyAyaH~rAtrisaGkramaNa.toml)<br/>- Tags: 
+ Anadhyayana Days
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:दूर्व-त्रि-व्रतम्
 DTSTART;VALUE=DATE:20240916
 DTEND;VALUE=DATE:20240917
@@ -39755,6 +41991,38 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240917T181546
+DTEND;TZID=Asia/Calcutta:20240918T061210
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240917T061210
+DTEND;TZID=Asia/Calcutta:20240917T181546
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ rAtrisaGkramaNa~parAhNE.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><
+ br/>## Details<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<br/
+ >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/t
+ ime_focus/adhyayana/description_only/anadhyAyaH~rAtrisaGkramaNa~parAhNE.to
+ ml)<br/>- Tags: Anadhyayana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -40629,6 +42897,22 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240922T181211
+DTEND;TZID=Asia/Calcutta:20240923T061212
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
 DTSTART;VALUE=DATE:20240922
 DTEND;VALUE=DATE:20240923
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -40878,6 +43162,41 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240923T181129
+DTEND;TZID=Asia/Calcutta:20240924T061212
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;VALUE=DATE:20240923
+DTEND;VALUE=DATE:20240924
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ rAtrisaGkramaNa.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## D
+ etails<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/time_focu
+ s/adhyayana/description_only/anadhyAyaH~rAtrisaGkramaNa.toml)<br/>- Tags: 
+ Anadhyayana Days
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:दक्षिण-विषुव-दिनम्
 DTSTART;VALUE=DATE:20240923
 DTEND;VALUE=DATE:20240924
@@ -40996,6 +43315,38 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240924T181046
+DTEND;TZID=Asia/Calcutta:20240925T061213
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240924T061212
+DTEND;TZID=Asia/Calcutta:20240924T181046
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ rAtrisaGkramaNa~parAhNE.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><
+ br/>## Details<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<br/
+ >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/t
+ ime_focus/adhyayana/description_only/anadhyAyaH~rAtrisaGkramaNa~parAhNE.to
+ ml)<br/>- Tags: Anadhyayana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -41780,6 +44131,22 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20240930T180635
+DTEND;TZID=Asia/Calcutta:20241001T061223
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
 DTSTART;VALUE=DATE:20240930
 DTEND;VALUE=DATE:20241001
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -41956,6 +44323,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20241001T180554
+DTEND;TZID=Asia/Calcutta:20241002T061225
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -42151,6 +44534,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20241002T180513
+DTEND;TZID=Asia/Calcutta:20241003T061228
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -42416,6 +44815,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20241003T180433
+DTEND;TZID=Asia/Calcutta:20241004T061231
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -43343,6 +45758,22 @@ DESCRIPTION:- Indian civil date: 1946-07-18\, Islamic: 1446-04-06 Rabīʿ
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20241010T180003
+DTEND;TZID=Asia/Calcutta:20241011T061303
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -44520,6 +46951,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20241015T175705
+DTEND;TZID=Asia/Calcutta:20241016T061338
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:भौमवार-शुक्ल-प्रदोष-व्रत
  म्
 DTSTART;TZID=Asia/Calcutta:20241015T175705
@@ -44667,6 +47114,38 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20241016T175631
+DTEND;TZID=Asia/Calcutta:20241017T061347
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ divAsaGkramaNa~pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br
+ /><br/>## Details<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<
+ br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/maste
+ r/time_focus/adhyayana/description_only/anadhyAyaH~divAsaGkramaNa~pUrvarAt
+ rau.toml)<br/>- Tags: Anadhyayana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20241016T175631
+DTEND;TZID=Asia/Calcutta:20241017T061347
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -44876,6 +47355,41 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;VALUE=DATE:20241017
+DTEND;VALUE=DATE:20241018
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ divAsaGkramaNa.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## De
+ tails<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus
+ /adhyayana/description_only/anadhyAyaH~divAsaGkramaNa.toml)<br/>- Tags: An
+ adhyayana Days
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20241017T175558
+DTEND;TZID=Asia/Calcutta:20241018T061356
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -45884,6 +48398,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20241022T175324
+DTEND;TZID=Asia/Calcutta:20241023T061448
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:जसवन्त-सिंहो मृतः #३४६
 DTSTART;VALUE=DATE:20241022
 DTEND;VALUE=DATE:20241023
@@ -46003,6 +48533,41 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20241023T175255
+DTEND;TZID=Asia/Calcutta:20241024T061501
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;VALUE=DATE:20241023
+DTEND;VALUE=DATE:20241024
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ rAtrisaGkramaNa.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## D
+ etails<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/time_focu
+ s/adhyayana/description_only/anadhyAyaH~rAtrisaGkramaNa.toml)<br/>- Tags: 
+ Anadhyayana Days
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:शिवराजो विजयपुरम् आक्रा
  मति #३५१
 DTSTART;VALUE=DATE:20241023
@@ -46103,6 +48668,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20241024T061501
+DTEND;TZID=Asia/Calcutta:20241024T175227
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ rAtrisaGkramaNa~parAhNE.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><
+ br/>## Details<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<br/
+ >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/t
+ ime_focus/adhyayana/description_only/anadhyAyaH~rAtrisaGkramaNa~parAhNE.to
+ ml)<br/>- Tags: Anadhyayana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -46958,6 +49539,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20241030T174959
+DTEND;TZID=Asia/Calcutta:20241031T061644
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:बाबर-राक्षसालयस्य पुरतो 
  राम-सेवक-हननम् #३३
 DTSTART;VALUE=DATE:20241030
@@ -47142,6 +49739,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20241031T174938
+DTEND;TZID=Asia/Calcutta:20241101T061702
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -47374,6 +49987,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20241101T174918
+DTEND;TZID=Asia/Calcutta:20241102T061720
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -48349,6 +50978,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20241108T174723
+DTEND;TZID=Asia/Calcutta:20241109T061942
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-08  \,मकरः-श्रव
  णः🌛🌌  \,  तुला-विशाखा-07-24🌞🌌  \,  ऊ
  र्जः-08-18🌞🪐  \, शनिः
@@ -48900,6 +51545,22 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20241113T053818
+DTEND;TZID=Asia/Calcutta:20241113T130149
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ dvAdazI-yOgaH.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Det
+ ails<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/
+ adhyayana/description_only/anadhyAyaH~dvAdazI-yOgaH.toml)<br/>- Tags: Anad
+ hyayana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
 DTSTART;VALUE=DATE:20241112
 DTEND;VALUE=DATE:20241113
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -49113,6 +51774,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20241113T174633
+DTEND;TZID=Asia/Calcutta:20241114T062142
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -49442,6 +52119,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20241114T174626
+DTEND;TZID=Asia/Calcutta:20241115T062208
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:दिनक्षयः
 DTSTART;VALUE=DATE:20241114
 DTEND;VALUE=DATE:20241115
@@ -49606,6 +52299,22 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20241115T174620
+DTEND;TZID=Asia/Calcutta:20241116T062234
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ divAsaGkramaNa~pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br
+ /><br/>## Details<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<
+ br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/maste
+ r/time_focus/adhyayana/description_only/anadhyAyaH~divAsaGkramaNa~pUrvarAt
+ rau.toml)<br/>- Tags: Anadhyayana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
 DTSTART;VALUE=DATE:20241115
 DTEND;VALUE=DATE:20241116
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -49619,6 +52328,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20241115T174620
+DTEND;TZID=Asia/Calcutta:20241116T062234
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -49983,6 +52708,25 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
   Muktaphalam SVR p.  163<br/>- [Edit config file](https://github.com/jyoti
  sham/adyatithi/blob/master/time_focus/adhyayana/relative_event/cAturmAsya-
  dvitIyA~2/offset__-1/anadhyAyaH~cAturmAsya-prathamA~2.toml)<br/>- Tags: An
+ adhyayana Days
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;VALUE=DATE:20241116
+DTEND;VALUE=DATE:20241117
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ divAsaGkramaNa.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## De
+ tails<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus
+ /adhyayana/description_only/anadhyAyaH~divAsaGkramaNa.toml)<br/>- Tags: An
  adhyayana Days
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -50907,6 +53651,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20241121T174611
+DTEND;TZID=Asia/Calcutta:20241122T062522
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:गुरुपुष्य-योगः
 DTSTART;TZID=Asia/Calcutta:20241121T000000
 DTEND;TZID=Asia/Calcutta:20241121T153311
@@ -51030,6 +53790,41 @@ DESCRIPTION:- Indian civil date: 1946-09-01\, Islamic: 1446-05-20 Jumādā
  टः**—14:56-16:21\; **गुलिककालः**—07:50-09:15  \n
  ___________________\n- **शूलम्**—प्रतीची (►10:
  57)\; **परिहारः**–गुडम्  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20241122T174613
+DTEND;TZID=Asia/Calcutta:20241123T062551
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;VALUE=DATE:20241122
+DTEND;VALUE=DATE:20241123
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ rAtrisaGkramaNa.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## D
+ etails<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/time_focu
+ s/adhyayana/description_only/anadhyAyaH~rAtrisaGkramaNa.toml)<br/>- Tags: 
+ Anadhyayana Days
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -51212,6 +54007,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20241123T062551
+DTEND;TZID=Asia/Calcutta:20241123T174617
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ rAtrisaGkramaNa~parAhNE.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><
+ br/>## Details<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<br/
+ >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/t
+ ime_focus/adhyayana/description_only/anadhyAyaH~rAtrisaGkramaNa~parAhNE.to
+ ml)<br/>- Tags: Anadhyayana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -51843,6 +54654,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20241128T174652
+DTEND;TZID=Asia/Calcutta:20241129T062858
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta:20241128T174652
 DTEND;TZID=Asia/Calcutta:20241128T192208
@@ -51927,6 +54754,41 @@ DESCRIPTION:- Indian civil date: 1946-09-08\, Islamic: 1446-05-27 Jumādā
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;VALUE=DATE:20241129
+DTEND;VALUE=DATE:20241130
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/lunar_month/tithi/00/29/anad
+ hyAyaH~29.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Details
+ <br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit confi
+ g file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/adhy
+ ayana/lunar_month/tithi/00/29/anadhyAyaH~29.toml)<br/>- Tags: Anadhyayana 
+ Days
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20241129T174702
+DTEND;TZID=Asia/Calcutta:20241130T062930
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -52068,6 +54930,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20241130T174714
+DTEND;TZID=Asia/Calcutta:20241201T063003
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -52234,6 +55112,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20241201T174726
+DTEND;TZID=Asia/Calcutta:20241202T063035
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -53106,6 +56000,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20241207T174904
+DTEND;TZID=Asia/Calcutta:20241208T063354
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:द्विपुष्कर-योगः
 DTSTART;TZID=Asia/Calcutta:20241207T110634
 DTEND;TZID=Asia/Calcutta:20241207T164834
@@ -53897,6 +56807,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20241213T175115
+DTEND;TZID=Asia/Calcutta:20241214T063711
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:भरणी दीपम्
 DTSTART;VALUE=DATE:20241213
 DTEND;VALUE=DATE:20241214
@@ -54104,6 +57030,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20241214T175139
+DTEND;TZID=Asia/Calcutta:20241215T063743
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -54325,6 +57267,41 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  g file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/adhy
  ayana/lunar_month/tithi/00/15/anadhyAyaH~15.toml)<br/>- Tags: Anadhyayana 
  Days
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20241215T175205
+DTEND;TZID=Asia/Calcutta:20241216T063815
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;VALUE=DATE:20241215
+DTEND;VALUE=DATE:20241216
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ rAtrisaGkramaNa.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## D
+ etails<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/blob/master/time_focu
+ s/adhyayana/description_only/anadhyAyaH~rAtrisaGkramaNa.toml)<br/>- Tags: 
+ Anadhyayana Days
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -54580,6 +57557,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20241216T063815
+DTEND;TZID=Asia/Calcutta:20241216T175231
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ rAtrisaGkramaNa~parAhNE.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><
+ br/>## Details<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<br/
+ >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/t
+ ime_focus/adhyayana/description_only/anadhyAyaH~rAtrisaGkramaNa~parAhNE.to
+ ml)<br/>- Tags: Anadhyayana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -55030,6 +58023,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20241219T175354
+DTEND;TZID=Asia/Calcutta:20241220T064020
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:गोवा-मोक्षः #६३
 DTSTART;VALUE=DATE:20241219
 DTEND;VALUE=DATE:20241220
@@ -55168,6 +58177,38 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20241220T175423
+DTEND;TZID=Asia/Calcutta:20241221T064050
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ divAsaGkramaNa~pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br
+ /><br/>## Details<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<
+ br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/maste
+ r/time_focus/adhyayana/description_only/anadhyAyaH~divAsaGkramaNa~pUrvarAt
+ rau.toml)<br/>- Tags: Anadhyayana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20241220T175423
+DTEND;TZID=Asia/Calcutta:20241221T064050
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:गोविन्द-पन्त-हत्या #२६४
 DTSTART;VALUE=DATE:20241220
 DTEND;VALUE=DATE:20241221
@@ -55264,6 +58305,25 @@ DESCRIPTION:- Indian civil date: 1946-09-30\, Islamic: 1446-06-19 Jumādā
  ककालः**—06:40-08:05  \n___________________\n- **शूलम
  ्**—प्राची (►09:40)\; **परिहारः**–दध
  ि  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;VALUE=DATE:20241221
+DTEND;VALUE=DATE:20241222
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ divAsaGkramaNa.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## De
+ tails<br/>- References<br/>  - Smriti Muktaphalam SVR p.  162<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus
+ /adhyayana/description_only/anadhyAyaH~divAsaGkramaNa.toml)<br/>- Tags: An
+ adhyayana Days
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -55532,6 +58592,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20241222T175523
+DTEND;TZID=Asia/Calcutta:20241223T064149
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -56286,6 +59362,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20241228T175834
+DTEND;TZID=Asia/Calcutta:20241229T064432
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:चिमाजी-देह-त्यागः #२८४
 DTSTART;VALUE=DATE:20241228
 DTEND;VALUE=DATE:20241229
@@ -56411,6 +59503,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20241229T175907
+DTEND;TZID=Asia/Calcutta:20241230T064457
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -56587,6 +59695,22 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;TZID=Asia/Calcutta:20241230T175941
+DTEND;TZID=Asia/Calcutta:20241231T064521
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~
+ pUrvarAtrau.toml)<br/>- Tags: Anadhyayana Days<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Muktaphalam SVR p.  148<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
+ hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
+ ana Days
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
