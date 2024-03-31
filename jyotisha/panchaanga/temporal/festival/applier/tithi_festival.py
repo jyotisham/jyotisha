@@ -39,6 +39,7 @@ class TithiFestivalAssigner(FestivalAssigner):
     self.assign_vajapeyaphala_snana_yoga()
     self.assign_mahaa_paurnamii()
     self.assign_dinakshaya()
+    self.assign_anadhyayana_days()
 
   def assign_dinakshaya(self):
     if 'dinakSayaH' not in self.rules_collection.name_to_rule:
@@ -47,6 +48,47 @@ class TithiFestivalAssigner(FestivalAssigner):
       day_panchaanga = self.daily_panchaangas[d]
       if len(day_panchaanga.sunrise_day_angas.tithis_with_ends)==3:
         self.panchaanga.add_festival(fest_id='dinakSayaH', date=day_panchaanga.date)
+
+  def assign_anadhyayana_days(self):
+    if 'anadhyAyaH~1' not in self.rules_collection.name_to_rule:
+      return
+
+    def _add_sankranti_anadhyayana_days(self, day_panchaanga, jd_transition):
+      if day_panchaanga.jd_sunrise < jd_transition < day_panchaanga.jd_sunset:
+        # Sankranti during day time
+        self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='anadhyAyaH~divAsaGkramaNa~pUrvarAtrau', interval=self.daily_panchaangas[d - 1].get_interval(interval_id="raatrimaana")), date=day_panchaanga.date - 1)
+        self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='anadhyAyaH~divAsaGkramaNa', interval=day_panchaanga.get_interval(interval_id="full_day")), date=day_panchaanga.date)
+        # self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='anadhyAyaH~divAsaGkramaNa~pararAtrau', interval=day_panchaanga.get_interval(interval_id="raatrimaana")), date=day_panchaanga.date)
+      else:
+        # Sankranti during night time
+        # self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='anadhyAyaH~rAtrisaGkramaNa~pUrvAhNE', interval=day_panchaanga.get_interval(interval_id="dinamaana")), date=day_panchaanga.date)
+        self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='anadhyAyaH~rAtrisaGkramaNa', interval=day_panchaanga.get_interval(interval_id="full_day")), date=day_panchaanga.date)
+        self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='anadhyAyaH~rAtrisaGkramaNa~parAhNE', interval=self.daily_panchaangas[d + 1].get_interval(interval_id="dinamaana")), date=day_panchaanga.date + 1)
+    
+    for d in range(self.panchaanga.duration + self.panchaanga.duration_prior_padding):
+      day_panchaanga = self.daily_panchaangas[d]
+      
+      # Assign Adhika Trayodashi (Anadhyayana)
+      if len(day_panchaanga.sunrise_day_angas.tithis_with_ends)==0 and day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index%15 == 13:
+        self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='anadhyAyaH~adhika-trayOdazI', interval=day_panchaanga.get_interval(interval_id="full_day")), date=day_panchaanga.date)
+        self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='anadhyAyaH~14', interval=day_panchaanga.get_interval(interval_id="full_day")), date=day_panchaanga.date + 1)
+
+      if day_panchaanga.solar_sidereal_date_sunset.month_transition is not None:
+          # We have a Sidereal Solar Sankranti!
+          _add_sankranti_anadhyayana_days(self, day_panchaanga, day_panchaanga.solar_sidereal_date_sunset.month_transition)
+
+      if day_panchaanga.tropical_date_sunset.month_transition is not None:
+          # We have a Tropical Sankranti!
+          _add_sankranti_anadhyayana_days(self, day_panchaanga, day_panchaanga.tropical_date_sunset.month_transition)
+    
+    for d in range(self.panchaanga.duration + self.panchaanga.duration_prior_padding):
+      day_panchaanga = self.daily_panchaangas[d]
+      day_festivals = day_panchaanga.festival_id_to_instance.values()
+      for f in list(day_festivals):
+        if 'anadhyAyaH' in f.name:
+          self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='anadhyAyaH~pUrvarAtrau', interval=self.daily_panchaangas[d - 1].get_interval(interval_id="raatrimaana")), date=day_panchaanga.date - 1)
+      
+
   
   def assign_chaturthi_vratam(self):
     if "vikaTa-mahAgaNapati_saGkaTahara-caturthI-vratam" not in self.rules_collection.name_to_rule:
