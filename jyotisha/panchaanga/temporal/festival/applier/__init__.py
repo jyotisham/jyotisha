@@ -88,7 +88,7 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       for f in [fest.name for fest in self.daily_panchaangas[d].festival_id_to_instance.values()]:
         if f in [fest.name for fest in self.daily_panchaangas[d + 1].festival_id_to_instance.values()]:
-          if 'sAyana' not in f:
+          if 'sAyana' not in f and 'anadhyAyaH' not in f:
             self.panchaanga.delete_festival_date(fest_id=f, date=self.daily_panchaangas[d].date)
             logging.warning('%s on both days %d and %d! Deleted %d' % (f, d, d + 1, d))
 
