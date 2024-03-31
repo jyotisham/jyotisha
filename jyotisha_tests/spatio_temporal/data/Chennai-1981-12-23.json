@@ -309,6 +309,11 @@
           "name": "time_focus/kalpAdiH"
         },
         {
+          "base_url": "https://github.com/jyotisham/adyatithi/blob/master/time_focus/adhyayana",
+          "jsonClass": "RulesRepo",
+          "name": "time_focus/adhyayana"
+        },
+        {
           "base_url": "https://github.com/jyotisham/adyatithi/blob/master/time_focus/manvAdiH",
           "jsonClass": "RulesRepo",
           "name": "time_focus/manvAdiH"
