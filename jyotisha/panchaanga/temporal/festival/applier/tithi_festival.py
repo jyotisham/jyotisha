@@ -101,18 +101,9 @@ class TithiFestivalAssigner(FestivalAssigner):
       # SANKATAHARA chaturthi
       if self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise.index == 18 or self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise.index == 19:
         day_panchaanga = self.daily_panchaangas[d]
-        ldiff_moonrise_yest = (Graha.singleton(Graha.MOON).get_longitude(self.daily_panchaangas[d - 1].graha_rise_jd[Graha.MOON]) - Graha.singleton(
-          Graha.SUN).get_longitude(self.daily_panchaangas[d - 1].graha_rise_jd[Graha.MOON])) % 360
-        ldiff_moonrise = (Graha.singleton(Graha.MOON).get_longitude(day_panchaanga.graha_rise_jd[Graha.MOON]) - Graha.singleton(Graha.SUN).get_longitude(
-          day_panchaanga.graha_rise_jd[Graha.MOON])) % 360
-        ldiff_moonrise_tmrw = (Graha.singleton(Graha.MOON).get_longitude(self.daily_panchaangas[d + 1].graha_rise_jd[Graha.MOON]) - Graha.singleton(
-          Graha.SUN).get_longitude(self.daily_panchaangas[d + 1].graha_rise_jd[Graha.MOON])) % 360
-        tithi_moonrise_yest = int(1 + floor(ldiff_moonrise_yest / 12.0))
-        tithi_moonrise = int(1 + floor(ldiff_moonrise / 12.0))
-        tithi_moonrise_tmrw = int(1 + floor(ldiff_moonrise_tmrw / 12.0))
-        # tithi_moonrise_yest = day_panchaanga.sunrise_day_angas.get_anga_at_jd(jd=self.daily_panchaangas[d - 1].jd_moonrise, anga_type=AngaType.TITHI).anga.index
-        # tithi_moonrise = day_panchaanga.sunrise_day_angas.get_anga_at_jd(jd=day_panchaanga.jd_moonrise, anga_type=AngaType.TITHI).anga.index
-        # tithi_moonrise_tmrw = day_panchaanga.sunrise_day_angas.get_anga_at_jd(jd=self.daily_panchaangas[d + 1].jd_moonrise, anga_type=AngaType.TITHI).anga.index
+        tithi_moonrise_yest = self.daily_panchaangas[d - 1].sunrise_day_angas.get_anga_at_jd(jd=self.daily_panchaangas[d - 1].graha_rise_jd[Graha.MOON], anga_type=AngaType.TITHI).index
+        tithi_moonrise = day_panchaanga.sunrise_day_angas.get_anga_at_jd(jd=day_panchaanga.graha_rise_jd[Graha.MOON], anga_type=AngaType.TITHI).index
+        tithi_moonrise_tmrw = self.daily_panchaangas[d + 1].sunrise_day_angas.get_anga_at_jd(jd=self.daily_panchaangas[d + 1].graha_rise_jd[Graha.MOON], anga_type=AngaType.TITHI).index
 
         _m = day_panchaanga.lunar_date.month.index
         if floor(_m) != _m:
