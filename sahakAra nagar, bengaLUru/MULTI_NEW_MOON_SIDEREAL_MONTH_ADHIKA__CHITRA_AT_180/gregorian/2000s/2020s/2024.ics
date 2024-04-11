@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20240331235157
+SEQUENCE:20240411102825
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -36733,6 +36733,25 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:अनध्यायः
+DTSTART;VALUE=DATE:20240819
+DTEND;VALUE=DATE:20240820
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/relative_event/RgvEda-upAkar
+ ma/offset__00/anadhyAyaH~RgvEda-upAkarma~1.toml)<br/>- Tags: Anadhyayana D
+ ays<br/><br/><br/><br/>## Details<br/>- References<br/>  - Kurma Puranam A
+ dhyaya 14<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/
+ blob/master/time_focus/adhyayana/relative_event/RgvEda-upAkarma/offset__00
+ /anadhyAyaH~RgvEda-upAkarma~1.toml)<br/>- Tags: Anadhyayana Days
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
 DTSTART;TZID=Asia/Calcutta:20240819T183458
 DTEND;TZID=Asia/Calcutta:20240820T061125
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -36742,6 +36761,25 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  fig file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/ad
  hyayana/description_only/anadhyAyaH~pUrvarAtrau.toml)<br/>- Tags: Anadhyay
  ana Days
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;VALUE=DATE:20240819
+DTEND;VALUE=DATE:20240820
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/relative_event/yajurvEda-upA
+ karma/offset__00/anadhyAyaH~yajur-upAkarma~1.toml)<br/>- Tags: Anadhyayana
+  Days<br/><br/><br/><br/>## Details<br/>- References<br/>  - Kurma Puranam
+  Adhyaya 14<br/>- [Edit config file](https://github.com/jyotisham/adyatith
+ i/blob/master/time_focus/adhyayana/relative_event/yajurvEda-upAkarma/offse
+ t__00/anadhyAyaH~yajur-upAkarma~1.toml)<br/>- Tags: Anadhyayana Days
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -37087,6 +37125,44 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;VALUE=DATE:20240820
+DTEND;VALUE=DATE:20240821
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/relative_event/RgvEda-upAkar
+ ma/offset__01/anadhyAyaH~RgvEda-upAkarma~2.toml)<br/>- Tags: Anadhyayana D
+ ays<br/><br/><br/><br/>## Details<br/>- References<br/>  - Kurma Puranam A
+ dhyaya 14<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/
+ blob/master/time_focus/adhyayana/relative_event/RgvEda-upAkarma/offset__01
+ /anadhyAyaH~RgvEda-upAkarma~2.toml)<br/>- Tags: Anadhyayana Days
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;VALUE=DATE:20240820
+DTEND;VALUE=DATE:20240821
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/relative_event/yajurvEda-upA
+ karma/offset__01/anadhyAyaH~yajur-upAkarma~2.toml)<br/>- Tags: Anadhyayana
+  Days<br/><br/><br/><br/>## Details<br/>- References<br/>  - Kurma Puranam
+  Adhyaya 14<br/>- [Edit config file](https://github.com/jyotisham/adyatith
+ i/blob/master/time_focus/adhyayana/relative_event/yajurvEda-upAkarma/offse
+ t__01/anadhyAyaH~yajur-upAkarma~2.toml)<br/>- Tags: Anadhyayana Days
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:अशून्यशयन-व्रतम्
 DTSTART;VALUE=DATE:20240820
 DTEND;VALUE=DATE:20240821
@@ -37265,6 +37341,44 @@ DESCRIPTION:- Indian civil date: 1946-05-30\, Islamic: 1446-02-15 Ṣafar\
  —07:44-09:17\; **गुलिककालः**—10:49-12:22  \n________
  ___________\n- **शूलम्**—उदीची (►12:47)\; **पर
  िहारः**–क्षीरम्  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;VALUE=DATE:20240821
+DTEND;VALUE=DATE:20240822
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/relative_event/RgvEda-upAkar
+ ma/offset__02/anadhyAyaH~RgvEda-upAkarma~3.toml)<br/>- Tags: Anadhyayana D
+ ays<br/><br/><br/><br/>## Details<br/>- References<br/>  - Kurma Puranam A
+ dhyaya 14<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/
+ blob/master/time_focus/adhyayana/relative_event/RgvEda-upAkarma/offset__02
+ /anadhyAyaH~RgvEda-upAkarma~3.toml)<br/>- Tags: Anadhyayana Days
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अनध्यायः
+DTSTART;VALUE=DATE:20240821
+DTEND;VALUE=DATE:20240822
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/adhyayana/relative_event/yajurvEda-upA
+ karma/offset__02/anadhyAyaH~yajur-upAkarma~3.toml)<br/>- Tags: Anadhyayana
+  Days<br/><br/><br/><br/>## Details<br/>- References<br/>  - Kurma Puranam
+  Adhyaya 14<br/>- [Edit config file](https://github.com/jyotisham/adyatith
+ i/blob/master/time_focus/adhyayana/relative_event/yajurvEda-upAkarma/offse
+ t__02/anadhyAyaH~yajur-upAkarma~3.toml)<br/>- Tags: Anadhyayana Days
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -39757,11 +39871,11 @@ DTSTART;VALUE=DATE:20240905
 DTEND;VALUE=DATE:20240906
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/adhyayana/relative_event/sAmavEda-upAk
- arma/offset__00/anadhyAyaH~yajur-upAkarma~1.toml)<br/>- Tags: Anadhyayana 
- Days<br/><br/><br/><br/>## Details<br/>- References<br/>  - Kurma Puranam 
- Adhyaya 14<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /blob/master/time_focus/adhyayana/relative_event/sAmavEda-upAkarma/offset_
- _00/anadhyAyaH~yajur-upAkarma~1.toml)<br/>- Tags: Anadhyayana Days
+ arma/offset__00/anadhyAyaH~sAmavEda-upAkarma~1.toml)<br/>- Tags: Anadhyaya
+ na Days<br/><br/><br/><br/>## Details<br/>- References<br/>  - Kurma Puran
+ am Adhyaya 14<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/blob/master/time_focus/adhyayana/relative_event/sAmavEda-upAkarma/offs
+ et__00/anadhyAyaH~sAmavEda-upAkarma~1.toml)<br/>- Tags: Anadhyayana Days
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -39916,11 +40030,11 @@ DTSTART;VALUE=DATE:20240906
 DTEND;VALUE=DATE:20240907
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/adhyayana/relative_event/sAmavEda-upAk
- arma/offset__01/anadhyAyaH~yajur-upAkarma~2.toml)<br/>- Tags: Anadhyayana 
- Days<br/><br/><br/><br/>## Details<br/>- References<br/>  - Kurma Puranam 
- Adhyaya 14<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /blob/master/time_focus/adhyayana/relative_event/sAmavEda-upAkarma/offset_
- _01/anadhyAyaH~yajur-upAkarma~2.toml)<br/>- Tags: Anadhyayana Days
+ arma/offset__01/anadhyAyaH~sAmavEda-upAkarma~2.toml)<br/>- Tags: Anadhyaya
+ na Days<br/><br/><br/><br/>## Details<br/>- References<br/>  - Kurma Puran
+ am Adhyaya 14<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/blob/master/time_focus/adhyayana/relative_event/sAmavEda-upAkarma/offs
+ et__01/anadhyAyaH~sAmavEda-upAkarma~2.toml)<br/>- Tags: Anadhyayana Days
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -40041,11 +40155,11 @@ DTSTART;VALUE=DATE:20240907
 DTEND;VALUE=DATE:20240908
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/adhyayana/relative_event/sAmavEda-upAk
- arma/offset__02/anadhyAyaH~yajur-upAkarma~3.toml)<br/>- Tags: Anadhyayana 
- Days<br/><br/><br/><br/>## Details<br/>- References<br/>  - Kurma Puranam 
- Adhyaya 14<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /blob/master/time_focus/adhyayana/relative_event/sAmavEda-upAkarma/offset_
- _02/anadhyAyaH~yajur-upAkarma~3.toml)<br/>- Tags: Anadhyayana Days
+ arma/offset__02/anadhyAyaH~sAmavEda-upAkarma~3.toml)<br/>- Tags: Anadhyaya
+ na Days<br/><br/><br/><br/>## Details<br/>- References<br/>  - Kurma Puran
+ am Adhyaya 14<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/blob/master/time_focus/adhyayana/relative_event/sAmavEda-upAkarma/offs
+ et__02/anadhyAyaH~sAmavEda-upAkarma~3.toml)<br/>- Tags: Anadhyayana Days
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
