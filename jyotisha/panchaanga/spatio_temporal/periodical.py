@@ -168,6 +168,7 @@ class Panchaanga(common.JsonObject):
     rule_lookup_assigner.assign_relative_festivals()
     # self._sync_festivals_dict_and_daily_festivals(here_to_daily=True, daily_to_here=True)
     generic_assigner.assign_festival_numbers()
+    tithi_festival.TithiFestivalAssigner(panchaanga=self).assign_relative_anadhyayana_days()
     self.clear_padding_day_festivals()
 
 

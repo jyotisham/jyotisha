@@ -80,16 +80,20 @@ class TithiFestivalAssigner(FestivalAssigner):
       if day_panchaanga.tropical_date_sunset.month_transition is not None:
           # We have a Tropical Sankranti!
           _add_sankranti_anadhyayana_days(self, day_panchaanga, day_panchaanga.tropical_date_sunset.month_transition)
-    
+
+  def assign_relative_anadhyayana_days(self):    
+    # Assign Anadhyayana on purva ratri for any anadhyayana day
     for d in range(self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       day_panchaanga = self.daily_panchaangas[d]
+      prev_day_panchaanga = self.daily_panchaangas[d - 1]
       day_festivals = day_panchaanga.festival_id_to_instance.values()
+      prev_day_festivals = prev_day_panchaanga.festival_id_to_instance.values()
       for f in list(day_festivals):
-        if 'anadhyAyaH' in f.name:
-          self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='anadhyAyaH~pUrvarAtrau', interval=self.daily_panchaangas[d - 1].get_interval(interval_id="raatrimaana")), date=day_panchaanga.date - 1)
+        if 'anadhyAyaH' in f.name and 'pUrvarAtrau' not in f.name:
+          if not any('anadhyAyaH' in prev_day_f.name for prev_day_f in prev_day_festivals):
+            logging.debug((d, prev_day_festivals))
+            self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='anadhyAyaH~pUrvarAtrau', interval=self.daily_panchaangas[d - 1].get_interval(interval_id="raatrimaana")), date=day_panchaanga.date - 1)
       
-
-  
   def assign_chaturthi_vratam(self):
     if "vikaTa-mahAgaNapati_saGkaTahara-caturthI-vratam" not in self.rules_collection.name_to_rule:
       return
