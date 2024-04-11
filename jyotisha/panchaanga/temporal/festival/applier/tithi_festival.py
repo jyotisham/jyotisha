@@ -91,7 +91,7 @@ class TithiFestivalAssigner(FestivalAssigner):
       for f in list(day_festivals):
         if 'anadhyAyaH' in f.name and 'pUrvarAtrau' not in f.name:
           if not any('anadhyAyaH' in prev_day_f.name for prev_day_f in prev_day_festivals):
-            logging.debug((d, prev_day_festivals))
+            # logging.debug((d, prev_day_festivals))
             self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='anadhyAyaH~pUrvarAtrau', interval=self.daily_panchaangas[d - 1].get_interval(interval_id="raatrimaana")), date=day_panchaanga.date - 1)
       
   def assign_chaturthi_vratam(self):
@@ -110,6 +110,9 @@ class TithiFestivalAssigner(FestivalAssigner):
         tithi_moonrise_yest = int(1 + floor(ldiff_moonrise_yest / 12.0))
         tithi_moonrise = int(1 + floor(ldiff_moonrise / 12.0))
         tithi_moonrise_tmrw = int(1 + floor(ldiff_moonrise_tmrw / 12.0))
+        # tithi_moonrise_yest = day_panchaanga.sunrise_day_angas.get_anga_at_jd(jd=self.daily_panchaangas[d - 1].jd_moonrise, anga_type=AngaType.TITHI).anga.index
+        # tithi_moonrise = day_panchaanga.sunrise_day_angas.get_anga_at_jd(jd=day_panchaanga.jd_moonrise, anga_type=AngaType.TITHI).anga.index
+        # tithi_moonrise_tmrw = day_panchaanga.sunrise_day_angas.get_anga_at_jd(jd=self.daily_panchaangas[d + 1].jd_moonrise, anga_type=AngaType.TITHI).anga.index
 
         _m = day_panchaanga.lunar_date.month.index
         if floor(_m) != _m:
