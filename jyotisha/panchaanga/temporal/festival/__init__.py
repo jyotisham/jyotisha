@@ -146,14 +146,6 @@ def get_description(festival_instance, fest_details_dict, script, truncate=True,
       desc += 'When `caturthI` occurs on a Tuesday, it is known as `aGgArakI` and is even more sacred.'
     else:
       logging.warning('No description found for caturthI festival %s!' % fest_id)
-  elif fest_id.startswith('(sAyana)~'):
-  # Use nirayana puNyakAla descriptions for sAyana
-    fest_id = fest_id.replace('(sAyana)~', '')
-    if fest_id in fest_details_dict:
-      desc = fest_details_dict[fest_id].get_description_string(
-        script=script, include_url=True, include_shlokas=True, truncate=truncate, header_md=header_md)
-    else:
-      logging.warning('No description found for sAyana festival %s!' % fest_id)
   elif 'amAvAsyA' in fest_id:
     desc = ''
     fest_id_orig = fest_id
@@ -204,6 +196,14 @@ def get_description(festival_instance, fest_details_dict, script, truncate=True,
         script=script, include_url=True, include_shlokas=True, truncate=truncate, header_md=header_md)
     else:
       logging.warning('No description found for festival %s!' % planet_trans)
+  elif fest_id.find('saMvatsaraH') != -1:
+    # Handle new year fest descriptions differently
+    new_yr_fest = fest_id.split('~')[0]  # get rid of ~(rAshi name) etc.
+    if new_yr_fest in fest_details_dict:
+      desc = fest_details_dict[new_yr_fest].get_description_string(
+        script=script, include_url=True, include_shlokas=True, truncate=truncate, header_md=header_md)
+    else:
+      logging.warning('No description found for festival %s!' % new_yr_fest)
   elif fest_id in fest_details_dict:
       desc = fest_details_dict[fest_id].get_description_string(
         script=script, include_url=True, include_shlokas=True, truncate=truncate, include_images=False, header_md=header_md)
@@ -257,13 +257,6 @@ def get_description_tex(festival_instance, fest_details_dict, script):
       desc['url'] += ' ' + ravichaturthi_fest_desc['url']
     else:
       logging.warning('No description found for caturthI festival %s!' % fest_id)
-  elif fest_id.startswith('(sAyana)~'):
-  # Use nirayana puNyakAla descriptions for sAyana
-    fest_id = fest_id.replace('(sAyana)~', '')
-    if fest_id in fest_details_dict:
-      desc = fest_details_dict[fest_id].get_description_dict(script=script)
-    else:
-      logging.warning('No description found for sAyana festival %s!' % fest_id)
   elif 'amAvAsyA' in fest_id:
     desc = {}
     fest_id_orig = fest_id
@@ -324,6 +317,13 @@ def get_description_tex(festival_instance, fest_details_dict, script):
       desc = fest_details_dict[planet_trans].get_description_dict(script=script)
     else:
       logging.warning('No description found for festival %s!' % planet_trans)
+  elif fest_id.find('saMvatsaraH') != -1:
+    # Handle new year fest descriptions differently
+    new_yr_fest = fest_id.split('~')[0]  # get rid of ~(rAshi name) etc.
+    if new_yr_fest in fest_details_dict:
+      desc = fest_details_dict[new_yr_fest].get_description_dict(script=script)
+    else:
+      logging.warning('No description found for festival %s!' % new_yr_fest)
   elif fest_id in fest_details_dict:
       desc = fest_details_dict[fest_id].get_description_dict(script=script)
 

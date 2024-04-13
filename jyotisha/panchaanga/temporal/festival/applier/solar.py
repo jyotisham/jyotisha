@@ -57,7 +57,7 @@ class SolarFestivalAssigner(FestivalAssigner):
 
 
   def assign_sidereal_sankranti_punyakaala(self):
-    if 'mESa-viSu-puNyakAlaH' not in self.rules_collection.name_to_rule:
+    if 'viSu-puNyakAlaH' not in self.rules_collection.name_to_rule:
       return 
 
     fname = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data/misc_data/sankranti_punyakaala.toml')
@@ -123,7 +123,7 @@ class SolarFestivalAssigner(FestivalAssigner):
 
 
   def assign_tropical_sankranti_punyakaala(self):
-    if 'mESa-viSu-puNyakAlaH' not in self.rules_collection.name_to_rule:
+    if 'viSu-puNyakAlaH' not in self.rules_collection.name_to_rule:
       return 
 
     fname = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data/misc_data/sankranti_punyakaala.toml')
@@ -139,7 +139,7 @@ class SolarFestivalAssigner(FestivalAssigner):
         punya_kaala_str = names.NAMES['TROPICAL_SANKRANTI_PUNYAKALA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][sankranti_id] + '-puNyakAlaH'
         if sankranti_id%3 != 1:
           # Except for Ayana/Vishuva, add sAyana tag!
-          punya_kaala_str = '(sAyana)~' + punya_kaala_str
+          punya_kaala_str = 'sAyana-' + punya_kaala_str
         jd_transition = self.daily_panchaangas[d].tropical_date_sunset.month_transition
         # TODO: convert carefully to relative nadikas!
         punya_kaala_start_jd = jd_transition - PUNYA_KAALA[sankranti_id][0] * 1/60
@@ -196,7 +196,7 @@ class SolarFestivalAssigner(FestivalAssigner):
             self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='sAyana-ravi-saGkramaNa-puNyakAlaH', interval=Interval(jd_start=saamaanya_punya_kaala_start_jd, jd_end=saamaanya_punya_kaala_end_jd)), date=self.daily_panchaangas[fday].date)
 
   def assign_tropical_sankranti(self):
-    if 'mESa-viSu-puNyakAlaH' not in self.rules_collection.name_to_rule:
+    if 'viSu-puNyakAlaH' not in self.rules_collection.name_to_rule:
       return 
     RTU_MASA_TAGS = {
         1: "/vasantaRtuH",
@@ -464,7 +464,7 @@ class SolarFestivalAssigner(FestivalAssigner):
     return yoga_happens
 
   def assign_month_day_mesha_sankraanti(self):
-    if 'mESa-saGkrAntiH' not in self.rules_collection.name_to_rule:
+    if 'sauramAna-saMvatsarArambhaH' not in self.rules_collection.name_to_rule:
       return 
     for d, daily_panchaanga in enumerate(self.daily_panchaangas):
       # MESHA SANKRANTI
@@ -476,7 +476,7 @@ class SolarFestivalAssigner(FestivalAssigner):
         yname = yname.rstrip('H')
         if yname[-1] == 'I':
           yname = yname[:-1] + 'i'
-        new_yr = 'mESa-saGkrAntiH' + '~(' + yname + \
+        new_yr = 'sauramAna-saMvatsarArambhaH' + '~(' + yname + \
                  '-' + 'saMvatsaraH' + ')'
         # self.panchaanga.festival_id_to_days[new_yr] = [d]
         self.panchaanga.add_festival(fest_id=new_yr, date=self.daily_panchaangas[d].date)
