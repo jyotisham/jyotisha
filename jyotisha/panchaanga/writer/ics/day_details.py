@@ -1,5 +1,5 @@
 from icalendar import Calendar, Event
-
+from datetime import datetime
 from indic_transliteration import sanscript
 from jyotisha.panchaanga.writer.ics import util
 from jyotisha.panchaanga.writer.md.day_details import day_summary
@@ -30,9 +30,15 @@ def get_day_summary_event(d, panchaanga, script):
   event.add('description', details)
   tz = daily_panchaanga.city.get_timezone_obj()
   dt_start = tz.julian_day_to_local_datetime(jd=daily_panchaanga.jd_sunrise)
+  event.add('dtstamp', datetime.now())
+  print(daily_panchaanga.date)
   event.add('dtstart', dt_start)
   event.add('dtend', tz.julian_day_to_local_datetime(jd=daily_panchaanga.jd_next_sunrise))
-  event.add_component(util.get_4_hr_display_alarm())
+  uid = f"{dt_start.strftime('%Y%m%d')}_day_summary"
+  event.add('uid', uid)
+  alarm_4h =  util.get_4_hr_display_alarm()
+  alarm_4h.add('description', 'Reminder')
+  event.add_component(alarm_4h)
   event['X-MICROSOFT-CDO-ALLDAYEVENT'] = 'TRUE'
   event['TRANSP'] = 'TRANSPARENT'
   event['X-MICROSOFT-CDO-BUSYSTATUS'] = 'FREE'

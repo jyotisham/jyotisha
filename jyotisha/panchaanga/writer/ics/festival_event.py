@@ -8,7 +8,7 @@ from jyotisha import custom_transliteration
 from jyotisha.panchaanga.temporal.festival import FestivalInstance, rules, get_description
 from jyotisha.panchaanga.temporal.interval import Interval
 from jyotisha.panchaanga.writer.ics.util import get_4_hr_display_alarm
-from datetime import datetime, date, timedelta
+from datetime import datetime
 
 from jyotisha.util import default_if_none
 
@@ -80,6 +80,7 @@ def festival_instance_to_event(festival_instance, languages, scripts, panchaanga
   event.add('summary', fest_name)
   desc = get_description(festival_instance=festival_instance, script=scripts[0], fest_details_dict=fest_details_dict, header_md="##")
   event.add('description', desc.strip().replace('\n', '<br/>'))
+  event.add('dtstamp', datetime.now())
 
   if all_day or not festival_instance._show_interval():
     t1 = panchaanga.city.get_timezone_obj().julian_day_to_local_datetime(jd=festival_instance.interval.jd_start)
@@ -96,8 +97,12 @@ def festival_instance_to_event(festival_instance, languages, scripts, panchaanga
     event.add('dtstart', t1)
     event.add('dtend', t2)
 
-  alarm = get_4_hr_display_alarm()
-  event.add_component(alarm)
+  uid = f'{fest_name}_{t1.isoformat()}'.replace(' ', '')
+  event.add('uid', uid)
+
+  alarm_4h =  get_4_hr_display_alarm()
+  alarm_4h.add('description', 'Reminder: ' + fest_name)
+  event.add_component(alarm_4h)
   return event
 
 
