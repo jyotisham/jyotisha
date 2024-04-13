@@ -1,9 +1,6 @@
-from datetime import timedelta
-
-from icalendar import Calendar, Alarm, Event
+from icalendar import Calendar, Event
 
 from indic_transliteration import sanscript
-from jyotisha.panchaanga.temporal import names
 from jyotisha.panchaanga.writer.ics import util
 from jyotisha.panchaanga.writer.md.day_details import day_summary
 
@@ -11,33 +8,12 @@ from jyotisha.panchaanga.writer.md.day_details import day_summary
 def writeDailyICS(panchaanga, script=sanscript.DEVANAGARI):
   """Write out the panchaanga TeX using a specified template
   """
-  compute_lagnams=panchaanga.computation_system.festival_options.set_lagnas
-
-  samvatsara_id = (panchaanga.year - 1568) % 60 + 1  # distance from prabhava
-  samvatsara_names = (names.NAMES['SAMVATSARA_NAMES']['sa'][script][samvatsara_id],
-                      names.NAMES['SAMVATSARA_NAMES']['sa'][script][(samvatsara_id % 60) + 1])
-
-  yname_solar = samvatsara_names[0]  # Assign year name until Mesha Sankranti
-  yname_lunar = samvatsara_names[0]  # Assign year name until Mesha Sankranti
-
-
   ics_calendar = Calendar()
-
-  alarm = Alarm()
-  alarm.add('action', 'DISPLAY')
-  alarm.add('trigger', timedelta(hours=-4))  # default alarm, with a 4 hour reminder
 
   daily_panchaangas = panchaanga.daily_panchaangas_sorted()
   for d, daily_panchaanga in enumerate(daily_panchaangas):
     if daily_panchaanga.date < panchaanga.start_date or daily_panchaanga.date > panchaanga.end_date:
       continue
-
-    if daily_panchaanga.solar_sidereal_date_sunset.month == 1:
-      # Flip the year name for the remaining days
-      yname_solar = samvatsara_names[1]
-    if daily_panchaanga.lunar_date.month.index == 1:
-      # Flip the year name for the remaining days
-      yname_lunar = samvatsara_names[1]
 
     event = get_day_summary_event(d, panchaanga, script)
 
