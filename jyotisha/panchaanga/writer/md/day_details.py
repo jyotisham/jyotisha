@@ -282,6 +282,8 @@ def get_raashi_data_str(daily_panchaanga, script):
 def get_lagna_data_str(daily_panchaanga, script):
   jd = daily_panchaanga.julian_day_start
   lagna_data_str = ''
+  if daily_panchaanga.lagna_data is None:
+    daily_panchaanga.get_lagna_data()
   for lagna_ID, lagna_end_jd in daily_panchaanga.lagna_data:
     lagna = names.NAMES['RASHI_NAMES']['sa'][script][lagna_ID]
     lagna_data_str = '%s; %s►%s' % \
