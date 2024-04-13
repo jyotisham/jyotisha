@@ -56,6 +56,8 @@ def compute_calendar(panchaanga, languages=None, scripts=None, set_sequence=True
 
 def set_calendar_metadata(ics_calendar, panchaanga, set_sequence):
   timezone = Timezone()
+  ics_calendar.add('prodid', '-//ICS writer//github.com/jyotisha//')
+  ics_calendar.add('version', '2.0')
   timezone.add('TZID', panchaanga.city.timezone)
   ics_calendar.add_component(timezone)
   if set_sequence:
