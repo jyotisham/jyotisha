@@ -61,9 +61,15 @@ class TithiFestivalAssigner(FestivalAssigner):
         # self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='anadhyAyaH~divAsaGkramaNa~pararAtrau', interval=day_panchaanga.get_interval(interval_id="raatrimaana")), date=day_panchaanga.date)
       else:
         # Sankranti during night time
-        # self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='anadhyAyaH~rAtrisaGkramaNa~pUrvAhNE', interval=day_panchaanga.get_interval(interval_id="dinamaana")), date=day_panchaanga.date)
-        self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='anadhyAyaH~rAtrisaGkramaNa', interval=day_panchaanga.get_interval(interval_id="full_day")), date=day_panchaanga.date)
-        self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='anadhyAyaH~rAtrisaGkramaNa~parAhNE', interval=self.daily_panchaangas[d + 1].get_interval(interval_id="dinamaana")), date=day_panchaanga.date + 1)
+        if day_panchaanga.jd_sunset < jd_transition < day_panchaanga.jd_next_sunrise:
+          # self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='anadhyAyaH~rAtrisaGkramaNa~pUrvAhNE', interval=day_panchaanga.get_interval(interval_id="dinamaana")), date=day_panchaanga.date)
+          self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='anadhyAyaH~rAtrisaGkramaNa', interval=day_panchaanga.get_interval(interval_id="full_day")), date=day_panchaanga.date)
+          self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='anadhyAyaH~rAtrisaGkramaNa~parAhNE', interval=self.daily_panchaangas[d + 1].get_interval(interval_id="dinamaana")), date=day_panchaanga.date + 1)
+        elif day_panchaanga.jd_previous_sunset < jd_transition < day_panchaanga.jd_sunrise:
+          self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='anadhyAyaH~rAtrisaGkramaNa', interval=self.daily_panchaangas[d - 1].get_interval(interval_id="full_day")), date=self.daily_panchaangas[d - 1].date)
+          self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='anadhyAyaH~rAtrisaGkramaNa~parAhNE', interval=self.daily_panchaangas[d].get_interval(interval_id="dinamaana")), date=day_panchaanga.date)
+        else:
+          logging.warning(f'Transition unusually marked on {day_panchaanga.date}: jd_sunrise={day_panchaanga.jd_sunrise}, jd_sunset={day_panchaanga.jd_sunset}, jd_transition={jd_transition}, jd_next_sunrise={day_panchaanga.jd_next_sunrise}')
     
     for d in range(self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       day_panchaanga = self.daily_panchaangas[d]
