@@ -238,7 +238,7 @@ def handle_chaturthi(fest_id, fest_details_dict, script, desc):
       if fest_id in fest_details_dict:
         desc = fest_details_dict[fest_id].get_description_dict(script=script)
         special_chaturthi_fest_desc = fest_details_dict[f'{prefix}caturthI'].get_description_dict(script=script)
-        desc['detailed'] += special_chaturthi_fest_desc['detailed']
+        desc['detailed'] += ' ' + special_chaturthi_fest_desc['detailed']
         desc['references'] += special_chaturthi_fest_desc['references']
         desc['shlokas'] += special_chaturthi_fest_desc['shlokas']
         desc['url'] += ' ' + special_chaturthi_fest_desc['url']
