@@ -143,7 +143,6 @@ def get_description(festival_instance, fest_details_dict, script, truncate=True,
     if fest_id in fest_details_dict:
       desc = fest_details_dict[fest_id].get_description_string(
         script=script, header_md=header_md)
-      desc += 'When `caturthI` occurs on a Tuesday, it is known as `aGgArakI` and is even more sacred.'
     else:
       logging.warning('No description found for caturthI festival %s!' % fest_id)
   elif 'amAvAsyA' in fest_id:
@@ -232,30 +231,19 @@ def get_description(festival_instance, fest_details_dict, script, truncate=True,
                                                                               truncate=True, header_md=header_md)
   return default_if_none(desc, "")
 
-def handle_angaraki_chaturthi(fest_id, fest_details_dict, script, desc):
-  fest_id = fest_id.replace('aGgArakI~', '')
-  if fest_id in fest_details_dict:
-    desc = fest_details_dict[fest_id].get_description_dict(script=script)
-    ravichaturthi_fest_desc = fest_details_dict['aGgArakI-caturthI'].get_description_dict(script=script)
-    desc['detailed'] += ravichaturthi_fest_desc['detailed']
-    desc['references'] += ravichaturthi_fest_desc['references']
-    desc['shlokas'] += ravichaturthi_fest_desc['shlokas']
-    desc['url'] += ' ' + ravichaturthi_fest_desc['url']
-  else:
-    logging.warning('No description found for caturthI festival %s!' % fest_id)
-  return desc
-
-def handle_ravivara_chaturthi(fest_id, fest_details_dict, script, desc):
-  fest_id = fest_id.replace('ravivAra-', '')
-  if fest_id in fest_details_dict:
-    desc = fest_details_dict[fest_id].get_description_dict(script=script)
-    ravichaturthi_fest_desc = fest_details_dict['ravivAra-caturthI'].get_description_dict(script=script)
-    desc['detailed'] += ravichaturthi_fest_desc['detailed']
-    desc['references'] += ravichaturthi_fest_desc['references']
-    desc['shlokas'] += ravichaturthi_fest_desc['shlokas']
-    desc['url'] += ' ' + ravichaturthi_fest_desc['url']
-  else:
-    logging.warning('No description found for caturthI festival %s!' % fest_id)
+def handle_chaturthi(fest_id, fest_details_dict, script, desc):
+  for prefix in ['ravivAra-', 'aGgArakI~']:
+    if fest_id.startswith(prefix):
+      fest_id = fest_id.replace(prefix, '')
+      if fest_id in fest_details_dict:
+        desc = fest_details_dict[fest_id].get_description_dict(script=script)
+        special_chaturthi_fest_desc = fest_details_dict[f'{prefix}caturthI'].get_description_dict(script=script)
+        desc['detailed'] += special_chaturthi_fest_desc['detailed']
+        desc['references'] += special_chaturthi_fest_desc['references']
+        desc['shlokas'] += special_chaturthi_fest_desc['shlokas']
+        desc['url'] += ' ' + special_chaturthi_fest_desc['url']
+      else:
+        logging.warning('No description found for caturthI festival %s!' % fest_id)
   return desc
 
 def handle_amavasya(fest_id, fest_details_dict, script, desc):
@@ -333,8 +321,7 @@ def handle_new_year(fest_id, fest_details_dict, script, desc):
   return desc
 
 PATTERNS_TO_HANDLERS = {
-  'aGgArakI.*saGkaTahara-caturthI-vratam': handle_angaraki_chaturthi,
-  'ravivAra.*saGkaTahara-caturthI-vratam': handle_ravivara_chaturthi,
+  '.*saGkaTahara-caturthI-vratam': handle_chaturthi,
   '.*amAvAsyA.*': handle_amavasya,
   '.*-.*-EkAdazI': handle_ekadashi,
   '.*saGkrAntiH.*': handle_sankranti,
@@ -370,6 +357,7 @@ def _get_description_dict(festival_instance, fest_details_dict, script):
 
 def get_description_tex(festival_instance, fest_details_dict, script):
   # Returns '{blurb}{detailed-description}{image}{shlokas}{references}'
+  fest_id = festival_instance.name.replace('__', '_or_')
   desc = _get_description_dict(festival_instance, fest_details_dict, script)
   if desc == {}:
     logging.warning('No description found for %s' % fest_id)
