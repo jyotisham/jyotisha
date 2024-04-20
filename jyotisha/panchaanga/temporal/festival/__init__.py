@@ -355,10 +355,7 @@ def _get_description_dict(festival_instance, fest_details_dict, script):
 
   return desc
 
-def get_description_tex(festival_instance, fest_details_dict, script):
-  # Returns '{blurb}{detailed-description}{image}{shlokas}{references}'
-  fest_id = festival_instance.name.replace('__', '_or_')
-  desc = _get_description_dict(festival_instance, fest_details_dict, script)
+def _texify_description_dict(desc, fest_id):
   if desc == {}:
     logging.warning('No description found for %s' % fest_id)
     return '{}{}{}{}{} %%EMPTY DESCRIPTION!'
@@ -367,12 +364,45 @@ def get_description_tex(festival_instance, fest_details_dict, script):
     desc['detailed'] = desc['detailed'][:1].capitalize() + desc['detailed'][1:]
     desc['shlokas'] = desc['shlokas'].strip('\n').replace('\n', '\\\\').replace('\\\\\\\\', '\\\\').replace('\\\\  \\\\', '\\\\\\smallskip ')
     desc['references'] = desc['references'].replace('- References\n  ', '')
-    return '{%s}\n{%s}\n{%s}\n{%s}\n{%s}\n{%s}' % (desc['blurb'].replace('_', '\\_'), 
+    return '{%s}\n{%s}\n{%s}\n{%s}\n{%s}\n{%s}' % (desc['blurb'].replace('_', '\\_').replace('##~##','~'), 
                                      desc['detailed'].replace('_', '\\_'),
                                      desc['image'], desc['shlokas'],
                                      desc['references'].replace('_', '\\_'),
                                      '|'.join(['\\href{%s}{\\scriptsize EDIT...}' % url.replace('%', '\\%') for url in desc['url'].split(' ')]),
                                      )
+  
+def get_description_tex(festival_instance, fest_details_dict, script):
+  # Returns '{blurb}{detailed-description}{image}{shlokas}{references}'
+  fest_id = festival_instance.name.replace('__', '_or_')
+  desc = _get_description_dict(festival_instance, fest_details_dict, script)
+  return _texify_description_dict(desc, fest_id)
+
+def get_combined_description_tex(festival_instance_list, fest_details_dict, script):
+  def _removeDuplicates(listofElements):
+    spacers = ['']
+    uniqueList = []
+    for elem in listofElements:
+        if elem not in uniqueList or elem in spacers:
+            uniqueList.append(elem)
+
+    return uniqueList
+
+  combined_desc = {'shlokas': '', 'url': '', 'blurb': '', 'image': '', 'references': '', 'detailed': ''}
+  combined_desc_list = []
+  for festival_instance in festival_instance_list:
+    desc = _get_description_dict(festival_instance, fest_details_dict, script)
+    if len(desc):
+      combined_desc_list.append(desc)
+
+  combined_desc['detailed'] = ' '.join([desc['detailed'] for desc in combined_desc_list])
+  combined_desc['shlokas'] = '\n'.join(_removeDuplicates(('\n'.join([desc['shlokas'] for desc in combined_desc_list]).split('\n'))))
+  combined_desc['references'] = '\n'.join([desc['references'] for desc in combined_desc_list])
+  combined_desc['url'] = ' '.join([desc['url'] for desc in combined_desc_list])
+  combined_desc['blurb'] = (' '.join([desc['blurb'] for desc in combined_desc_list])).strip()
+  combined_desc['image'] = (' '.join([desc['image'] for desc in combined_desc_list])).strip()
+
+  return _texify_description_dict(combined_desc, 'anadhyAyaH')
+
 
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])
