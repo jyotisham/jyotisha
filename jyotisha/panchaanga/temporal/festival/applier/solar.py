@@ -641,7 +641,7 @@ class SolarFestivalAssigner(FestivalAssigner):
         if daily_panchaanga.lunar_date.month.index in [4, 6, 8]:
           if daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == 12 or self.daily_panchaangas[d + 1].sunrise_day_angas.tithi_at_sunrise.index == 12:
             for _nakshatra in [17, 22, 27]:
-              self._assign_yoga('anadhyAyaH~dvAdazI-yOgaH', [(zodiac.AngaType.NAKSHATRA, _nakshatra), (zodiac.AngaType.TITHI, 12)], jd_start=daily_panchaanga.jd_sunrise - 1, jd_end=daily_panchaanga.jd_sunset + 2)
+              self._assign_yoga('anadhyAyaH~dvAdazI-yOgaH', [(zodiac.AngaType.NAKSHATRA, _nakshatra), (zodiac.AngaType.TITHI, 12)], jd_start=daily_panchaanga.jd_sunrise - 1, jd_end=daily_panchaanga.jd_sunset + 2, show_debug_info=False)
 
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])
