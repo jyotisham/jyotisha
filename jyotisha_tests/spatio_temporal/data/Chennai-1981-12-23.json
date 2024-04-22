@@ -234,6 +234,11 @@
           "name": "time_focus/amrita-siddhi"
         },
         {
+          "base_url": "https://github.com/jyotisham/adyatithi/blob/master/time_focus/nakta-vrata-yoga",
+          "jsonClass": "RulesRepo",
+          "name": "time_focus/nakta-vrata-yoga"
+        },
+        {
           "base_url": "https://github.com/jyotisham/adyatithi/blob/master/time_focus/Rtu",
           "jsonClass": "RulesRepo",
           "name": "time_focus/Rtu"
