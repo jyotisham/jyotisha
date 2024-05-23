@@ -92,12 +92,15 @@ class TithiFestivalAssigner(FestivalAssigner):
     for d in range(self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       day_panchaanga = self.daily_panchaangas[d]
       prev_day_panchaanga = self.daily_panchaangas[d - 1]
-      day_festivals = day_panchaanga.festival_id_to_instance.values()
-      prev_day_festivals = prev_day_panchaanga.festival_id_to_instance.values()
-      for f in list(day_festivals):
+      day_anadhyayana_festivals = [f for f in day_panchaanga.festival_id_to_instance.values() if 'anadhyAyaH' in f.name]
+      prev_day_anadhyayana_festivals = [f for f in prev_day_panchaanga.festival_id_to_instance.values()  if 'anadhyAyaH' in f.name]
+      for f in list(day_anadhyayana_festivals):
         if 'anadhyAyaH' in f.name and 'pUrvarAtrau' not in f.name:
-          if not any('anadhyAyaH' in prev_day_f.name for prev_day_f in prev_day_festivals):
+          if any('anadhyAyaH' in prev_day_f.name for prev_day_f in prev_day_anadhyayana_festivals):
             # logging.debug((d, prev_day_festivals))
+            if all('AhNE' in prev_day_f.name for prev_day_f in prev_day_anadhyayana_festivals):
+              self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='anadhyAyaH~pUrvarAtrau', interval=self.daily_panchaangas[d - 1].get_interval(interval_id="raatrimaana")), date=day_panchaanga.date - 1)
+          else:
             self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='anadhyAyaH~pUrvarAtrau', interval=self.daily_panchaangas[d - 1].get_interval(interval_id="raatrimaana")), date=day_panchaanga.date - 1)
       
   def assign_chaturthi_vratam(self):
