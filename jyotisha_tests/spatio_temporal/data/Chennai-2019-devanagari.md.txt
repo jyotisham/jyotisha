@@ -20261,7 +20261,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अनध्यायः, अन्नमाचार्य-जयन्ती, अर्धनारीश्वर-व्रतम्, काञ्ची कामकोटि-मठ-प्रतिष्ठापन-जयन्ती #२५०१, कृत्तिकावैषाखोत्सवः, नम्माऴ्वार् तिरुनक्षत्तिरम्, पञ्च-पर्व-पूजा (पूर्णिमा), पार्वणव्रतम् पूर्णिमायाम्, पूर्णिमा-व्रतम्, वेङ्कटाचले पूर्णिमा-गरुड-सेवा, वैशाख-पूर्णिमा-स्नानम्, वैशाख-मास-अन्तिमत्रयतिथि-व्रत-समापनम्, शरभ-जयन्ती, सम्पत्-गौरी-व्रतम्
+- अनध्यायः, अन्नमाचार्य-जयन्ती, अर्धनारीश्वर-व्रतम्, काञ्ची कामकोटि-मठ-प्रतिष्ठापन-जयन्ती #२५०१, नम्माऴ्वार् तिरुनक्षत्तिरम्, पञ्च-पर्व-पूजा (पूर्णिमा), पार्वणव्रतम् पूर्णिमायाम्, पूर्णिमा-व्रतम्, वेङ्कटाचले पूर्णिमा-गरुड-सेवा, वैशाख-पूर्णिमा-स्नानम्, वैशाख-मास-अन्तिमत्रयतिथि-व्रत-समापनम्, शरभ-जयन्ती, सम्पत्-गौरी-व्रतम्
 ##### अनध्यायः
 
 Observed on Paurṇamāsī tithi of every (lunar) month (Sāṅgavaḥ/paraviddha). 
@@ -20320,19 +20320,6 @@ Adi Shankara founded Kamakoti Mutt, Kanchi in Siddharthi year with himself as fi
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/02/15/kAJcI_kAmakOTi-maTha-pratiSThApana~jayantI.toml)
 - Tags: AdiShankaraHistory CommonFestivals
-
-
-##### कृत्तिकावैषाखोत्सवः
-
-Observed on Viśākhā nakshatra of Vr̥ṣabhaḥ (sidereal solar) month (Sūryōdayaḥ/puurvaviddha). 
-
-Special puja for Subrahmanya Swami in temples. Birth of Subrahmanya Swami. Worship Him with red flowers.
-
-सूर्ये वृषभराशौ कृत्तिकासु सति, चन्द्रमसि च विपरीतदिशि विशाखासु सत्य् आचर्यते सुब्रह्मण्यजन्मोत्सवः (पूर्वं श्रवण-कार्त्तिकोत्सवे जातानां षण्णाम् बालानाम् कृत्तिकाभिर् वर्ध्यमाननाम् एकीकरणेन पार्वत्या)।
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/kaumAra/sidereal_solar_month/nakshatra/02/16/kRttikA-vaizAkhOtsavaH.toml)
-- Tags: TamilnaduTempleFestivals CommonFestivals
 
 
 ##### नम्माऴ्वार् तिरुनक्षत्तिरम्
@@ -20415,7 +20402,7 @@ Lord Malayappa rides on Garuda Vahanam in all four mada streets. This usually ha
 
 Observed on Paurṇamāsī tithi of Vaiśākhaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
 
-Last three days of vaiśākha-māsaḥ. anantaphaladam! Perform Shiva/Vishnu Puja, Bhagavata Parayanam, BhagavadGita Parayanam, Vishnu Sahasranama Parayanam, dāna of apūpa, pāyasa etc.
+Last three days of vaiśākha-māsaḥ. anantaphaladam! Perform Shiva/Vishnu Puja, Bhagavata Parayanam, BhagavadGita Parayanam, Vishnu Sahasranama Parayanam, dāna of apūpa, pāyasa etc. On this purnima day, perform abhisheka of Maha Vishnu chanting Vishnu Sahasranama.
 
 यः माधवे वैशाखमासे, त्रयोदशीचतुर्दशीपूर्णिमासु तिथिषु स्नानादिकं करोति  
 स निश्चयेन मोक्षं प्राप्नुयात्। यथा पुरा धनशर्मा ब्राह्मणः त्रयः प्रेताश्च  
@@ -20542,9 +20529,16 @@ Perform snana four ghatikas before sunrise (during aruṇōdayaḥ, when the Moo
 स्नानदानविहीना वै तासु रौरवगामिनः॥  
 कृत्यसारसमुच्चये---  
 वैशाखपूर्णिमामभिधाय विष्णुपुराणे---  
-कृष्णाजिनं तिलान् कृष्णान् हिरण्यं मधुसर्पिषी ।  
-ददाति यस्तु विप्राय सर्व तरति दुष्कृतम्॥ इति।  
-अस्यां गङ्गास्नाने ओं अद्येत्यादि गङ्गास्नानजन्यफलसहस्रगुणाधिकफलप्राप्तिकामो गङ्गायां स्नानमहं करिष्ये।
+कृष्णाजिनं तिलान् कृष्णान् हिरण्यं मधुसर्पिषी।  
+ददाति यस्तु विप्राय सर्वं तरति दुष्कृतम्॥ इति।  
+अस्यां गङ्गास्नाने ओं अद्येत्यादि गङ्गास्नानजन्यफलसहस्रगुणाधिकफलप्राप्तिकामो गङ्गायां स्नानमहं करिष्ये।  
+स्मृति-कौस्तुभे---  
+निर्णयामृते यमगाथासु---  
+यस्तु कृष्णाजिनं दद्यात्सखुरं शृङ्गसंयुतम्।  
+तिलैः प्रच्छाद्य वासोभिः सर्वरत्नैरलङ्कृतम्॥  
+वैशाख्यां पौर्णमास्यां तु विशाखासु विशेषतः।  
+ससमुद्रगुहा तेन सशैलवनकानना।  
+सप्तद्वीपान्विता दत्ता पृथिवी नात्र संशयः॥
 
 
 
@@ -24076,7 +24070,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अनध्यायः, अलर्मेल्मङ्गापुरे प्लवोत्सवः, काञ्ची २ जगद्गुरु श्री-सुरेश्वराचार्य आराधना #२४२५, गवामयन-द्वादशी, चम्पक-द्वादशी, रामलक्ष्मण-द्वादशी, वैकाचि-विशाखम्, शुक्रवार-शुक्ल-प्रदोष-व्रतम्
+- अनध्यायः, अलर्मेल्मङ्गापुरे प्लवोत्सवः, काञ्ची २ जगद्गुरु श्री-सुरेश्वराचार्य आराधना #२४२५, कृत्तिकावैषाखोत्सवः, गवामयन-द्वादशी, चम्पक-द्वादशी, रामलक्ष्मण-द्वादशी, वैकाचि-विशाखम्, शुक्रवार-शुक्ल-प्रदोष-व्रतम्
 ##### अलर्मेल्मङ्गापुरे प्लवोत्सवः
 
 
@@ -24161,6 +24155,19 @@ A native of Gauḍadeśa, born in Kashmir, pious, Śrī Sureśvara, secured the 
   - www.kamakoti.org
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/03/12/kAJcI_2_jagadguru_zrI~surEzvarAcArya_ArAdhanA.toml)
 - Tags: KanchiAradhanaDays
+
+
+##### कृत्तिकावैषाखोत्सवः
+
+Observed on Viśākhā nakshatra of Vr̥ṣabhaḥ (sidereal solar) month (Madhyāhnaḥ##~##(Trēdhā)/puurvaviddha). 
+
+Special puja for Subrahmanya Swami in temples. Birth of Subrahmanya Swami. Worship Him with red flowers.
+
+सूर्ये वृषभराशौ कृत्तिकासु सति, चन्द्रमसि च विपरीतदिशि विशाखासु सत्य् आचर्यते सुब्रह्मण्यजन्मोत्सवः (पूर्वं श्रवण-कार्त्तिकोत्सवे जातानां षण्णाम् बालानाम् कृत्तिकाभिर् वर्ध्यमाननाम् एकीकरणेन पार्वत्या)।
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/kaumAra/sidereal_solar_month/nakshatra/02/16/kRttikA-vaizAkhOtsavaH.toml)
+- Tags: TamilnaduTempleFestivals CommonFestivals
 
 
 ##### रामलक्ष्मण-द्वादशी
