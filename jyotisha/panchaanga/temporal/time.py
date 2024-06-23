@@ -60,7 +60,7 @@ class Hour(JsonObject):
     secs = secs % 60
     second = secs
 
-    if format in ('hh:mm', 'hh:mm*', 'hh:mm!'):
+    if format in ('hh:mm', 'hh:mm*', 'hh:mm!', 'hh:mm+'):
       # Rounding done if 30 seconds have elapsed
       return '%02d:%02d%s' % (hour, minute + ((secs + (msec >= 500)) >= 30) * rounding, suffix)
     elif format in ('hh:mm:ss', 'hh:mm:ss*'):
