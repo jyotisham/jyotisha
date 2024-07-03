@@ -949,21 +949,21 @@
   "festival_id_to_instance": {},
   "graha_rise_jd": {
     "jupiter": 2444962.3697,
-    "ketu": 2444961.6081,
+    "ketu": 2444961.6051,
     "mars": 2444962.2808,
     "mercury": 2444961.5634,
     "moon": 2444962.461,
-    "rahu": 2444962.0777,
+    "rahu": 2444962.0745,
     "saturn": 2444962.3299,
     "venus": 2444961.6456
   },
   "graha_set_jd": {
     "jupiter": 2444961.8536,
-    "ketu": 2444962.0777,
+    "ketu": 2444962.0745,
     "mars": 2444961.7799,
     "mercury": 2444962.0327,
     "moon": 2444961.9159,
-    "rahu": 2444961.6081,
+    "rahu": 2444961.6051,
     "saturn": 2444961.8205,
     "venus": 2444962.1201
   },
@@ -1010,7 +1010,7 @@
         {
           "anga": {
             "anga_type_id": "RASHI_KETU",
-            "index": 10,
+            "index": 9,
             "jsonClass": "Anga"
           },
           "jsonClass": "AngaSpan"
@@ -1040,7 +1040,7 @@
         {
           "anga": {
             "anga_type_id": "RASHI_RAHU",
-            "index": 4,
+            "index": 3,
             "jsonClass": "Anga"
           },
           "jsonClass": "AngaSpan"
