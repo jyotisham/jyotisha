@@ -363,6 +363,8 @@ class SolarFestivalAssigner(FestivalAssigner):
           fest_id='kucEla-dinam', date=daily_panchaanga.date)
 
   def assign_month_day_ushah_kaala_festival_period(self, fest_id, month_type):
+    if 'dhanurmAsa-uSaHkAla-pUjA-ArambhaH' not in self.rules_collection.name_to_rule and 'sahOmAsa-uSaHkAla-pUjA-ArambhaH' not in self.rules_collection.name_to_rule:
+      return
     date_attr = month_type + '_date_sunset'
     start_fest_id = fest_id + '-uSaHkAla-pUjA-ArambhaH'
     end_fest_id = fest_id + '-uSaHkAla-pUjA-samApanam'
