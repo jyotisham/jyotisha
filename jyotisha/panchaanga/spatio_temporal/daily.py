@@ -175,6 +175,7 @@ class DailyPanchaanga(common.JsonObject):
     self.tropical_date_sunset = None
 
     self.lunar_date = None
+    # self.lunar_dates_alternate = {}
     
     self.festival_id_to_instance = {}
     self.mauDhyas = None

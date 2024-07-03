@@ -1,5 +1,7 @@
 import sys
 
+import methodtools
+
 from jyotisha.panchaanga.temporal import zodiac, tithi, time
 from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, AngaSpanFinder, Ayanamsha
 from jyotisha.panchaanga.temporal.zodiac.angas import AngaType, Anga, Tithi
@@ -22,6 +24,7 @@ class LunarMonthAssigner(JsonObject):
   def set_date(self, daily_panchaanga, previous_day_panchaanga=None):
     pass
 
+  @methodtools.lru_cache()
   @classmethod
   def get_assigner(cls, computation_system):
     if computation_system.lunar_month_assigner_type == LunarMonthAssigner.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA:

@@ -60,7 +60,7 @@ class Graha(JsonObject):
     elif self.body_name == Graha.SATURN:
       body_id = swe.SATURN
     elif self.body_name == Graha.RAHU:
-      body_id = swe._RAHU
+      body_id = swe.TRUE_NODE
     return body_id
 
   @methodtools.lru_cache(maxsize=10)
@@ -77,7 +77,7 @@ class Graha(JsonObject):
       return (self.get_longitude(jd=jd) - Ayanamsha.singleton(ayanaamsha_id).get_offset(jd)) % 360
     else:
       if self.body_name == Graha.KETU:
-        return (swe.calc_ut(jd, swe._RAHU)[0][0] + 180) % 360
+        return (swe.calc_ut(jd, swe.TRUE_NODE)[0][0] + 180) % 360
       return swe.calc_ut(jd, self._get_swisseph_id())[0][0]
 
   @methodtools.lru_cache(maxsize=10)

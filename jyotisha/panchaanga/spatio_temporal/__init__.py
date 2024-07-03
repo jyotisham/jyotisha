@@ -94,8 +94,8 @@ class City(JsonObject):
       return self.get_setting_time(julian_day_start=julian_day_start, body=Graha.RAHU)
     # rise_trans expects UT time
     return swe.rise_trans(
-      jd_start=julian_day_start, body=graha._get_swisseph_id(),
-      lon=self.longitude, lat=self.latitude,
+      julian_day_start, body=graha._get_swisseph_id(),
+      geopos=[self.longitude, self.latitude, 0],
       rsmi=CALC_RISE)[1][0]
 
   def get_setting_time(self, julian_day_start, body):
@@ -105,15 +105,15 @@ class City(JsonObject):
       return self.get_rising_time(julian_day_start=julian_day_start, body=Graha.RAHU)
     # rise_trans expects UT time
     return swe.rise_trans(
-      jd_start=julian_day_start, body=graha._get_swisseph_id(),
-      lon=self.longitude, lat=self.latitude,
+      julian_day_start, body=graha._get_swisseph_id(),
+      geopos=[self.longitude, self.latitude, 0],
       rsmi=CALC_SET)[1][0]
 
   def get_solar_eclipse_time(self, jd_start):
-    return swe.sol_eclipse_when_loc(julday=jd_start, lon=self.longitude, lat=self.latitude)
+    return swe.sol_eclipse_when_loc(jd_start, geopos=[self.longitude, self.latitude, 0],)
 
   def get_lunar_eclipse_time(self, jd_start):
-    return swe.lun_eclipse_when_loc(jd_start, lon=self.longitude, lat=self.latitude)
+    return swe.lun_eclipse_when_loc(jd_start, geopos=[self.longitude, self.latitude, 0],)
 
   def get_zodiac_longitude_eastern_horizon(self, jd):
     """ Get the ID of the raashi what is currently rising.
