@@ -41,6 +41,10 @@ emit(panchaanga,
      output_stream=open("/some/path.tex", 'w'), languages=["sa", "ta"], scripts=[sanscript.DEVANAGARI, sanscript.TAMIL])
 ```
 
+Note that there are several "ComputationalSystem" options.  
+Please see jyotisha/panchaanga/temporal/__init__.py .  
+Particularly, lunar month assignment can be sidereal (luni-solar) or tropical, pUrNImAnta or amAnta.  
+One can also select the festival cateogries to enable or disable; pick a different "ayanAMsha" (for setting naxatra boundaries).
 
 ### API usage
 - Please look at the [test cases](https://github.com/jyotisham/jyotisha/tree/master/jyotisha_tests) - they are your best guide for how to do stuff like getting panchAnga for a day.
