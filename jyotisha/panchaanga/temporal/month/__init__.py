@@ -1,12 +1,12 @@
 import sys
 
 import methodtools
-
-from jyotisha.panchaanga.temporal import zodiac, tithi, time
-from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, AngaSpanFinder, Ayanamsha
-from jyotisha.panchaanga.temporal.zodiac.angas import AngaType, Anga, Tithi
 from sanskrit_data.schema import common
 from sanskrit_data.schema.common import JsonObject
+
+from jyotisha.panchaanga.temporal import zodiac, tithi
+from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, AngaSpanFinder, Ayanamsha
+from jyotisha.panchaanga.temporal.zodiac.angas import AngaType, Anga, Tithi
 
 
 class LunarMonthAssigner(JsonObject):
@@ -78,11 +78,12 @@ class MultiLunarPhaseSolarMonthAdhikaAssigner(LunarMonthAssigner):
       return this_new_moon_solar_raashi
 
   def set_date(self, daily_panchaanga, previous_day_panchaanga=None):
+    month_start_tithi = (self.month_end_tithi + 1) % 30
     if previous_day_panchaanga is not None:
-      span = previous_day_panchaanga.sunrise_day_angas.find_anga_span(Anga.get_cached(anga_type_id=AngaType.TITHI.name, index=1))
+      span = previous_day_panchaanga.sunrise_day_angas.find_anga_span(Anga.get_cached(anga_type_id=AngaType.TITHI.name, index=month_start_tithi))
 
       # If a prathamA tithi has started post-sunrise yesterday (and has potentially ended before today's sunrise), or if today we have a prathamA at sunrise
-      if (span is not None and span.jd_start is not None) or previous_day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == 1:
+      if (span is not None and span.jd_start is not None) or previous_day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == month_start_tithi:
         self.set_date(daily_panchaanga=daily_panchaanga, previous_day_panchaanga=None)
       else:
         daily_panchaanga.lunar_date = Tithi(month=previous_day_panchaanga.lunar_date.month, index=daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index)

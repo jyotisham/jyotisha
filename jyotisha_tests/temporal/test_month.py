@@ -33,6 +33,9 @@ def test_MultiFullMoonAssigner():
   panchaanga = daily.DailyPanchaanga(
     city=chennai, date=Date(2018, 7, 14), computation_system=ComputationSystem.MULTI_FULL_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180, previous_day_panchaanga=panchaanga)
   assert panchaanga.lunar_date.month.index == 4
+  panchaanga = daily.DailyPanchaanga(
+    city=chennai, date=Date(2024, 6, 23), computation_system=ComputationSystem.MULTI_FULL_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180)
+  assert panchaanga.lunar_date.month.index == 4
 
 
 def test_SolsticePostDark10AdhikaAssigner():
