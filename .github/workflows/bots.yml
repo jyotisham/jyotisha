@@ -30,7 +30,6 @@ jobs:
     strategy:
       matrix:
         python-version: [3.9]
-#         python-version: [3.5, 3.6, 3.7, 3.8]
 
     steps:
     - uses: actions/checkout@master
@@ -57,11 +56,9 @@ jobs:
       env:
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       run: |
-#        python -m "jyotisha.bot.telegram_bot" --token "$TELEGRAM_BOT_TOKEN" --city "sahakAra nagar, bengaLUru" --channel_id 1001205695765 --md_url_base "https://raw.githubusercontent.com/jyotisham/jyotisha/generated-output/" --html_url_base "https://jyotisham.github.io/jyotisha/output/" --computation_system_str SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_AT_180 --date ${{ steps.date.outputs.prev_date }}${{github.event.inputs.prev_date }} --next_day
         python -m "jyotisha.bot.telegram_bot" --token "$TELEGRAM_BOT_TOKEN"  --city "sahakAra nagar, bengaLUru" --channel_id 1001205695765 --md_url_base "https://raw.githubusercontent.com/jyotisham/jyotisha/generated-output/" --html_url_base "https://jyotisham.github.io/jyotisha/output/" --computation_system_str MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_AT_180 --date ${{ steps.date.outputs.prev_date }}${{github.event.inputs.prev_date }} --next_day
     - name: Discord message
       env:
         DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
       run: |
-#        python -m "jyotisha.bot.discord_bot" --token "$DISCORD_BOT_TOKEN" --city "sahakAra nagar, bengaLUru" --channel_id 1019492853132570744 --md_url_base "https://raw.githubusercontent.com/jyotisham/jyotisha/generated-output/" --html_url_base "https://jyotisham.github.io/jyotisha/output/" --computation_system_str SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_AT_180 --date ${{ steps.date.outputs.prev_date }}${{github.event.inputs.prev_date }} --next_day
         python -m "jyotisha.bot.discord_bot" --token "$DISCORD_BOT_TOKEN"  --city "sahakAra nagar, bengaLUru" --channel_id 1019492760513953792 --md_url_base "https://raw.githubusercontent.com/jyotisham/jyotisha/generated-output/" --html_url_base "https://jyotisham.github.io/jyotisha/output/" --computation_system_str MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_AT_180 --date ${{ steps.date.outputs.prev_date }}${{github.event.inputs.prev_date }} --next_day
