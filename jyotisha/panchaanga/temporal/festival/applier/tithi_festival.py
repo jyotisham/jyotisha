@@ -360,13 +360,13 @@ class TithiFestivalAssigner(FestivalAssigner):
         if (d - 3) > 0:
           self.panchaanga.add_festival(fest_id='pakSavardhinI~mahAdvAdazI', date=day_panchaanga.date - 3)
 
-      if day_panchaanga.sunrise_day_angas.nakshatra_at_sunrise.index == 4 and (day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index % 15) == 12:
+      if day_panchaanga.sunrise_day_angas.nakshatra_at_sunrise.index == 8 and (day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index % 15) == 12:
         self.panchaanga.add_festival(fest_id='pApanAzinI~mahAdvAdazI', date=day_panchaanga.date)
 
-      if day_panchaanga.sunrise_day_angas.nakshatra_at_sunrise.index == 7 and (day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index % 15) == 12:
+      if day_panchaanga.sunrise_day_angas.nakshatra_at_sunrise.index == 4 and day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == 12:
         self.panchaanga.add_festival(fest_id='jayantI~mahAdvAdazI', date=day_panchaanga.date)
 
-      if day_panchaanga.sunrise_day_angas.nakshatra_at_sunrise.index == 8 and (day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index % 15) == 12:
+      if day_panchaanga.sunrise_day_angas.nakshatra_at_sunrise.index == 7 and (day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index % 15) == 12:
         self.panchaanga.add_festival(fest_id='jayA~mahAdvAdazI', date=day_panchaanga.date)
 
       if day_panchaanga.sunrise_day_angas.nakshatra_at_sunrise.index == 8 and (day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index % 15) == 12 and day_panchaanga.lunar_date.month.index == 12:
@@ -374,34 +374,40 @@ class TithiFestivalAssigner(FestivalAssigner):
         # Last occurred on 27-02-1961 - pushya nakshatra and phalguna krishna dvadashi (or shukla!?)
         self.panchaanga.add_festival(fest_id='gOvinda~mahAdvAdazI', date=day_panchaanga.date)
 
+      def _add_shravana_dvaadashi(dvadashi_tithi, date):
+        if dvadashi_tithi < 15:
+          # Shukla Paksha
+          self.panchaanga.add_festival(fest_id='vijayA~zravaNa-mahAdvAdazI', date=date)
+        else:
+          self.panchaanga.add_festival(fest_id='zravaNa-mahAdvAdazI', date=date)
+
+
       if (day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index % 15) == 12:
         if day_panchaanga.sunrise_day_angas.nakshatra_at_sunrise.index in [21, 22, 23]:
           # We have a dvaadashii near shravana, check for Shravana sparsha
           for td in [x.sunrise_day_angas.tithis_with_ends for x in self.daily_panchaangas[d:d + 2]]:
-            (t12, t12_end) = (td[0].anga, td[0].jd_end)
+            (t12, t12_end) = (td[0].anga.index, td[0].jd_end)
             if t12_end is None:
               continue
             if (t12 % 15) == 11:
-              if NakshatraDivision(t12_end, ayanaamsha_id=self.ayanaamsha_id).get_anga(
-                  zodiac.AngaType.NAKSHATRA).index == 22:
+              if NakshatraDivision(t12_end, ayanaamsha_id=self.ayanaamsha_id).get_anga(zodiac.AngaType.NAKSHATRA).index == 22:
                 if (day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index % 15) == 12 and (self.daily_panchaangas[d + 1].sunrise_day_angas.tithi_at_sunrise.index % 15) == 12:
-                  self.panchaanga.add_festival(fest_id='vijayA/zravaNa-mahAdvAdazI', date=day_panchaanga.date)
+                  _add_shravana_dvaadashi(t12, date=day_panchaanga.date)
                 elif (day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index % 15) == 12:
-                  self.panchaanga.add_festival(fest_id='vijayA/zravaNa-mahAdvAdazI', date=day_panchaanga.date)
+                  _add_shravana_dvaadashi(t12, date=day_panchaanga.date)
                 elif (self.daily_panchaangas[d + 1].sunrise_day_angas.tithi_at_sunrise.index % 15) == 12:
-                  self.panchaanga.add_festival(fest_id='vijayA/zravaNa-mahAdvAdazI', date=day_panchaanga.date + 1)
+                  _add_shravana_dvaadashi(t12, date=day_panchaanga.date + 1)
             if (t12 % 15) == 12:
-              if NakshatraDivision(t12_end, ayanaamsha_id=self.ayanaamsha_id).get_anga(
-                  zodiac.AngaType.NAKSHATRA).index == 22:
+              if NakshatraDivision(t12_end, ayanaamsha_id=self.ayanaamsha_id).get_anga(zodiac.AngaType.NAKSHATRA).index == 22:
                 if (day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index % 15) == 12 and (self.daily_panchaangas[d + 1].sunrise_day_angas.tithi_at_sunrise.index % 15) == 12:
-                  self.panchaanga.add_festival(fest_id='vijayA/zravaNa-mahAdvAdazI', date=day_panchaanga.date)
+                  _add_shravana_dvaadashi(t12, date=day_panchaanga.date)
                 elif (day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index % 15) == 12:
-                  self.panchaanga.add_festival(fest_id='vijayA/zravaNa-mahAdvAdazI', date=day_panchaanga.date)
+                  _add_shravana_dvaadashi(t12, date=day_panchaanga.date)
                 elif (self.daily_panchaangas[d + 1].sunrise_day_angas.tithi_at_sunrise.index % 15) == 12:
-                  self.panchaanga.add_festival(fest_id='vijayA/zravaNa-mahAdvAdazI', date=day_panchaanga.date + 1)
+                  _add_shravana_dvaadashi(t12, date=day_panchaanga.date + 1)
 
       if day_panchaanga.sunrise_day_angas.nakshatra_at_sunrise.index == 22 and (day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index % 15) == 12:
-        self.panchaanga.add_festival(fest_id='vijayA/zravaNa-mahAdvAdazI', date=day_panchaanga.date)
+        _add_shravana_dvaadashi(day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index, date=day_panchaanga.date)
 
   def assign_pradosha_vratam(self):
     if 'pradOSa-vratam' not in self.rules_collection.name_to_rule:
