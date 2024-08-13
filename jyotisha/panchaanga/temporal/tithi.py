@@ -145,7 +145,7 @@ class ShraddhaTithiAssigner(PeriodicPanchaangaApplier):
       if dp.solar_sidereal_date_sunset.month_transition is not None:
         madhyaraatri_start = dp.day_length_based_periods.fifteen_fold_division.vaidhaatra.jd_start
         madhyaraatri_end = dp.day_length_based_periods.fifteen_fold_division.vaidhaatra.jd_end
-        if dp.solar_sidereal_date_sunset.month_transition < madhyaraatri_end:
+        if dp.solar_sidereal_date_sunset.month_transition < madhyaraatri_start:
           sankranti_dushta_days.append(dp.date)
         else:
           sankranti_dushta_days.append(dp.date + 1)
