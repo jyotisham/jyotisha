@@ -106,7 +106,7 @@ class VaraFestivalAssigner(FestivalAssigner):
       return 
 
     AMRITA_SIDDHI_YOGAS = [(13, 0, 'Adityahasta'), (8, 0, 'ravipuSya'),
-                 (22, 1, 'sOmazrAvaNI'), (5, 1, 'sOmamRgazIrSa'),
+                 (22, 1, 'sOmazravaNa'), (5, 1, 'sOmamRgazIrSa'),
                  (1, 2, 'bhaumAzvinI'), 
                  (17, 3, 'budhAnurAdhA'), (8, 4, 'gurupuSya'),
                  (27, 5, 'bhRgurEvatI'), (4, 6, 'zanirOhiNI')]
