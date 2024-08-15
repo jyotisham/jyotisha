@@ -4652,7 +4652,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अनध्यायः, तिरुनॆल्वेलि नॆल्लैयप्पर् पत्र दीप तिरुविऴा, पञ्च-पर्व-पूजा (अमावास्या), पार्वणव्रतम् अमावास्यायाम्, पिण्ड-पितृ-यज्ञः, महोदय-पुण्यकालः, व्यतीपात-श्राद्धम्, श्रवण-व्रतम्, सर्व-मौनि (पौष/मकर) अमावास्या (अलभ्यम्–पुष्कला), सोमवती अमावास्या, सोमश्रावणी-योगः
+- अनध्यायः, तिरुनॆल्वेलि नॆल्लैयप्पर् पत्र दीप तिरुविऴा, पञ्च-पर्व-पूजा (अमावास्या), पार्वणव्रतम् अमावास्यायाम्, पिण्ड-पितृ-यज्ञः, महोदय-पुण्यकालः, व्यतीपात-श्राद्धम्, श्रवण-व्रतम्, सर्व-मौनि (पौष/मकर) अमावास्या (अलभ्यम्–पुष्कला), सोमवती अमावास्या, सोमश्रवण-योगः
 ##### अनध्यायः
 
 Observed on Amāvāsyā tithi of every (lunar) month (Sāṅgavaḥ/paraviddha). 
@@ -4763,7 +4763,7 @@ amāvāsyā on a Monday is as sacred as a solar eclipse. Particularly good for p
 - Tags: RareDays Combinations AmavasyaDays
 
 
-##### सोमश्रावणी-योगः
+##### सोमश्रवण-योगः
 
 
 
@@ -4776,7 +4776,7 @@ For instance, in Devi Atharvashirsha, it is said bhaumāśvinyāṁ mahādevī-s
 
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/sOmazrAvaNI-yOgaH.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/sOmazravaNa-yOgaH.toml)
 - Tags: RareDays Combinations AmritaSiddhiYogaDays
 
 
@@ -8826,20 +8826,6 @@ When a tripādanakṣatra is conjoined with a bhadrā tithi i.e. dvitīyā, sapt
 
 
 ##### श्रवण-महाद्वादशी
-
-
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/dvAdashI/description_only/vijayA_or_zravaNa-mahAdvAdazI.toml)
-- Tags: RareDays Combinations SpecialVratam
-
-
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/dvAdashI/description_only/vijayA_or_zravaNa-mahAdvAdazI.toml)
-- Tags: RareDays Combinations SpecialVratam
-
-
 ##### श्रवण-व्रतम्
 
 Observed on every occurrence of Śravaṇaḥ nakshatra (Sāṅgavaḥ/puurvaviddha). 
@@ -8905,7 +8891,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अनध्यायः, पञ्च-पर्व-पूजा (चतुर्दशी), महाशिवरात्रिः, मासशिवरात्रिः, सोमश्रावणी-योगः
+- अनध्यायः, पञ्च-पर्व-पूजा (चतुर्दशी), महाशिवरात्रिः, मासशिवरात्रिः, सोमश्रवण-योगः
 ##### अनध्यायः
 - 18:14→06:26
 
@@ -8961,7 +8947,7 @@ Observed on Kr̥ṣṇa-Caturdaśī tithi of every (lunar) month (Āśvinaḥ/pa
 - Tags: Pancha Parva
 
 
-##### सोमश्रावणी-योगः
+##### सोमश्रवण-योगः
 - →12:08
 
 
@@ -8975,7 +8961,7 @@ For instance, in Devi Atharvashirsha, it is said bhaumāśvinyāṁ mahādevī-s
 
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/sOmazrAvaNI-yOgaH.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/sOmazravaNa-yOgaH.toml)
 - Tags: RareDays Combinations AmritaSiddhiYogaDays
 
 
@@ -14802,14 +14788,14 @@ Anadhyayana during the night, as it precedes saṅkramaṇa during the day tomor
 
 Observed on Śukla-Aṣṭamī tithi of Caitraḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
 
-ब्रह्मोवाच  
+ब्रह्मोवाच---  
 अशोककलिका ह्यष्टौ ये पिबन्ति पुनर्वसौ।  
 चैत्रे मासि सिताष्टम्यां न ते शोकमवाप्नुयुः॥  
   
 प्राशन-मन्त्रः---  
 त्वामशोक हराभीष्ट  मधुमाससमुद्भव।  
 पिबामि शोकसन्तप्तो मामशोकं सदा कुरु॥  
--- गरुड-पुराणात्
+---गरुड-पुराणात्
 
 
 
@@ -14840,7 +14826,7 @@ Observed on Śukla-Aṣṭamī tithi of Caitraḥ (lunar) month (Sūryōdayaḥ/
 Perform snanam in Brahmaputra.
 
 स्कान्दे---  
-चैत्रे मासि सिताष्टभ्यां यो नरो नियतेन्द्रियः।  
+चैत्रे मासि सिताष्टम्यां यो नरो नियतेन्द्रियः।  
 स्नायाल्लौहित्यतोयेषु स याति ब्रह्मणः पदम्॥  
 लौहित्यो ब्रह्मपुत्रः। तत्र सङ्कल्पः---  
 ओमद्येत्यादि सर्वपापक्षयपूर्वकब्रह्मपदगमनकामो ब्रह्मपुत्रस्नानमहं करिष्ये इति।  
@@ -32121,7 +32107,20 @@ Jayanti Day of Sri Anantarama Dikshitar.
 
 Varalakshmi Vratam. Perform puja of (Vara)Mahalakshmi.
 
+उक्तञ्च भविष्योत्तरे---  
+श्रावणशुक्लपूर्णिमोपान्तभार्गवदिने वरलक्ष्मीव्रतं कार्यम्।  
+श्रावणस्य सिते पक्षे पूर्णिमोपान्तभार्गवे।  
+वरलक्ष्मीव्रतं कार्यं मोक्षसम्पत्फलप्रदम्॥ इति।  
+यदा पूर्णिमायामेव भृगुवारस्सम्भवति तस्मिन्नेव दिने वरलक्ष्मीव्रतं कार्यम्।  
+नोपान्तभार्गवदिने । उक्तञ्च कौमुद्याम्---  
+यस्मिन् वै श्रावणे मासि शुक्लान्ते तु भृगोर्दिने।  
+प्रारभ्य तद्व्रतं तत्र वरलक्ष्म्या यतात्मभिः॥ इति।
+
+
+
 ###### Details
+- References
+  - VrataNirnayaKalpavalli
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/lakShmI/description_only/varalakSmI-vratam.toml)
 - Tags: CommonFestivals SpecialVratam
 
@@ -37215,7 +37214,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अगस्त्यार्घ्यम्, अनध्यायः, अनध्यायः, अनन्त-द्वादशी, त्रिपुष्कर-योगः, दधि-व्रत-समापनम्, पयोव्रत-आरम्भः, वामन-जयन्ती, विजया श्रवण-महाद्वादशी, शक्रध्वजोत्थापनम्, हरिवासरः
+- अगस्त्यार्घ्यम्, अनध्यायः, अनध्यायः, अनन्त-द्वादशी, त्रिपुष्कर-योगः, दधि-व्रत-समापनम्, पयोव्रत-आरम्भः, वामन-जयन्ती, विजया-श्रवण-महाद्वादशी, शक्रध्वजोत्थापनम्, हरिवासरः
 ##### अगस्त्यार्घ्यम्
 
 
@@ -37421,7 +37420,93 @@ Vamana Jayanti---Avatara Dinam of Shri Mahavishnu, born as Vamana Murti to Aditi
 - Tags: Dashavataram CommonFestivals
 
 
-##### विजया श्रवण-महाद्वादशी
+##### विजया-श्रवण-महाद्वादशी
+
+
+
+Shukla Dvadashi tithi, combined with Shravana nakshatra. Jayā, Vijayā, Jayantī, and Pāpanāśinī—all these days have the power to destroy sins and should be observed by those seeking specific benefits. Dvadashi tithi, combined with Shravana nakshatra is extremely special. In this case, it is acceptable to skip the Ekadashi fast and fast primarily on Shravana Dvadashi. Those who are able to fast on both days may fast on both days. The Shravana Dvadashi fast is nitya, meaning there is a pratyavāya for not performing it. It is said the the puṇya accumulated over the previous five years is destroyed, by not fasting on Shravana Dvadashi.
+
+जया च विजया चैव जयन्ती पापनाशिनी।  
+सर्वपापहराश्चैताः कर्तव्याः फलकाङ्क्षिभिः॥४॥  
+यदा च शुक्लद्वादश्यां नक्षत्रं श्रवणं भवेत्॥६॥  
+विजया सा समाख्याता तिथीनामुत्तमा तिथिः।  
+सहस्रगुणितं दानं यस्यां वै विप्रभोजनम्॥७॥  
+होमस्तथोपवासश्च सहस्राधिकफलप्रदः।  
+---श्रीपाद्मे महापुराण उत्तरखण्ड उमापतिनारदसंवादे उत्पन्नैकादशीकृतमुरवधो नाम चत्वारिंशोऽध्यायः॥४०॥  
+श्रवणद्वादशीव्रते नदीसङ्गमे स्नात्वा कलशे स्वर्णमयं जनार्दननामानं विष्णुं  
+सम्पूज्य वस्त्रयज्ञोपवीतोपानहच्छत्रादि समर्प्य उपोष्य पारणादिने दध्योदनयुतं   
+वस्त्रवेष्टितं जलपूर्णघटं छत्रादियुतां पूजितां सपरिवारां तां प्रतिमां च दद्यात्॥  
+तत्र मन्त्रः---  
+नमो नमस्ते गोविन्द बुधश्रवणसंज्ञक।  
+अघौघसङ्क्षयं कृत्वा सर्वसौख्यप्रदो भव॥  
+---धर्मसिन्धौ  
+हेमाद्रौ मत्स्यपुराणे---  
+द्वादशी श्रवणायुक्ता कृत्स्ना पुण्यतमा तिथिः।  
+न तु सा तेन संयुक्ता तावत्येव प्रशस्यते॥  
+श्रवणशब्द स्त्रीलिङ्गोऽपीति हेमाद्रिः। श्रवणस्पृष्टेति पाठान्तरं च।  
+हेमाद्राविमां प्रकृत्य नारदीय पुराणे---  
+तिथिनक्षत्रयोर्योगो योगश्चैव नराधिप।  
+द्विकलो यदि लभ्येत स ज्ञेयो ह्याष्टयामिकः॥  
+---पुरुषार्थचिन्तामणौ  
+तत्रैकादश्यां द्वादशीश्रवणयोगे सैवोपोष्या।  
+एकादशी द्वादशी च वैष्णव्यमपि तत्र चेत्।  
+तद्विष्णुशृङ्खलं नाम विष्णुसायुज्यकृद् भवेत्॥ इति विष्णुधर्मोक्तेः।  
+नारदीयेऽपि---  
+संस्पृश्यैकादशीं राजन् द्वादशीं यदि संस्पृशेत्।  
+श्रवणं ज्योतिषां श्रेष्ठं ब्रह्महत्यां व्यपोहति॥  
+द्वादशी श्रवणस्पृष्टा स्पृशेदेकादशीं यदि।  
+स एव वैष्णवो योगो विष्णुशृङ्खलसंज्ञितः॥ इति हेमाद्रौ मात्स्योक्तेश्च।  
+दिनद्वये द्वादशी-श्रवणयोगेऽपि पूर्वा। निर्णयामृते त्वस्य पूर्वार्धमन्यथा पठितम्---  
+द्वादशी श्रवणर्क्षं च स्पृशेदेकादशीं यदि। इति।  
+तेन हेमाद्रिमते एकादश्याः श्रवणयोगाभावेऽपि तद्युक्त-द्वादशीयोगमात्रेण विष्णुशृङ्खलं भवति।  
+---निर्णयसिन्धौ  
+यदा द्वादश्यां श्रवणनक्षत्रं भवेत् तदा शुद्धैकादशीमपि परित्यज्य द्वादश्यामेवोपवसेत्।  
+तथा च नारदः---  
+शुक्ला वा यदि वा कृष्णा द्वादशी श्रवणान्विता।  
+तयोरेवोपवासश्च त्रयोदश्यां तु पारणम्॥  
+एकादश्यां त्वविद्धायां द्वादश्यां श्रवणं यदि।  
+उपोष्या द्वादशी पुण्या सर्वपापक्षयावहा॥ इति।  
+स्मृत्यन्तरेऽपि---  
+एकादशीं परित्यज्य द्वादशीं समुपोषयेत्।  
+पूर्वोपवासजं पुण्यं सर्वं प्राप्नोत्यसंशयम्॥ इति।  
+शक्तस्तूपवासद्वयं कुर्यात्।  
+एकादशीमपोष्यैव द्वादशीं समुपोषयेत्।  
+तत्र द्विधोपवासः स्यादुभयोर्देवता हरिः॥ इति।  
+अत्र देवतैक्यात्पूर्वोपवासस्य पारणं नास्तीत्युक्तं भवति।  
+विद्धायामपि द्वादश्यां फलाधिक्यमुक्तं स्मृत्यन्तरे---  
+द्वादश्येकादशीयुक्ता तत्र च श्रवणं यदि।  
+सा विष्णुशृङ्खला ज्ञेया सायुज्यफलदायिनी॥  
+गौतमोऽपि---  
+द्वादशीं श्रवणर्क्षं च स्पृशेदेकादशी यदि।  
+स एव वैष्णवो योगो विष्णुशृङ्खलसंज्ञकः॥ इति।  
+इयं च श्रवणद्वादशी नित्या---  
+द्वादशीं श्रवणोपेतां यो नोपोष्यति दुर्मतिः।  
+पञ्चसंवत्सरकृतं पुण्यं तस्य विनश्यति॥  
+इत्यकरणे प्रत्यवायस्मरणात्   
+---वैद्यनाथ-दीक्षितीये  
+कृत्यसारसमुच्चये कार्तिकमासकृत्ये---  
+मत्स्यपुराणे---  
+द्वादशीशुक्लपक्षे तु नभस्ये श्रवणं यदि।  
+उपोष्यकादशीं तत्र द्वादशीमप्युपोषयेत्॥  
+द्वादश्यां तु दिने भाद्रे हृषीकेशर्क्षसंयुते।  
+उपवासद्वयं कुर्याद् विष्णुप्रीणनतत्परः॥  
+ब्रह्माण्डे---  
+द्वादश्येकादशी सौम्यः श्रवणं च चतुष्टयम्।  
+देवदुन्दुभियोगोऽयं शतमन्युफलप्रदः॥  
+नभस्ये भाद्रे, हृषीकेशर्क्षं श्रवणा, सौम्यो बुधः। मन्युर्यज्ञः।   
+वराहपुराणे---  
+एकादशीमुपोष्यैव द्वादशीमप्युपोषयेत्।  
+न चात्र विधिलोपः स्यादुभयोर्दैवता हरिः॥
+
+
+
+###### Details
+- References
+  - Padma-Purāṇam
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/dvAdashI/description_only/vijayA~zravaNa-mahAdvAdazI.toml)
+- Tags: RareDays Combinations SpecialVratam
+
+
 ##### शक्रध्वजोत्थापनम्
 
 Observed on Śukla-Dvādaśī tithi of Bhādrapadaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -41884,7 +41969,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अनध्यायः, आयुध-पूजा, एऩादिनाथ नायऩ्मार् (९) गुरुपूजै, बुद्ध-जयन्ती, भद्रकाळी-व्रतम्, महानवमी/सरस्वती-पूजा, विजयदशमी, शमी-पूजा/अपराजिता-पूजा, शरन्नवरात्र-समापनम्, सरस्वती-विसर्जनम्, सोमश्रावणी-योगः
+- अनध्यायः, आयुध-पूजा, एऩादिनाथ नायऩ्मार् (९) गुरुपूजै, बुद्ध-जयन्ती, भद्रकाळी-व्रतम्, महानवमी/सरस्वती-पूजा, विजयदशमी, शमी-पूजा/अपराजिता-पूजा, शरन्नवरात्र-समापनम्, सरस्वती-विसर्जनम्, सोमश्रवण-योगः
 ##### आयुध-पूजा
 
 Observed on Śukla-Navamī tithi of Āśvayujaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -41990,7 +42075,7 @@ MaatruNavami, NaamaNavami Vratam, DurgaNavami-Vratam, Shourya-Vratam, Mahaaphala
 - Tags: CommonFestivals
 
 
-##### सोमश्रावणी-योगः
+##### सोमश्रवण-योगः
 - 17:22→
 
 
@@ -42004,7 +42089,7 @@ For instance, in Devi Atharvashirsha, it is said bhaumāśvinyāṁ mahādevī-s
 
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/sOmazrAvaNI-yOgaH.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/sOmazravaNa-yOgaH.toml)
 - Tags: RareDays Combinations AmritaSiddhiYogaDays
 
 
@@ -46221,7 +46306,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अनध्यायः, कार्तवीर्यार्जुन-जयन्ती, कार्त्तिक-सोमवासरः, गोपाष्टमी, ताम्रपर्णी-अन्त्य-पुष्कर-समापनम्, पुष्कर-मेला-प्रारम्भः, पॊय्गैयाऴ्वार् तिरुनक्षत्तिरम्, श्रवण-व्रतम्, सोमश्रावणी-योगः
+- अनध्यायः, कार्तवीर्यार्जुन-जयन्ती, कार्त्तिक-सोमवासरः, गोपाष्टमी, ताम्रपर्णी-अन्त्य-पुष्कर-समापनम्, पुष्कर-मेला-प्रारम्भः, पॊय्गैयाऴ्वार् तिरुनक्षत्तिरम्, श्रवण-व्रतम्, सोमश्रवण-योगः
 ##### अनध्यायः
 
 Observed on Śukla-Aṣṭamī tithi of every (lunar) month (Sāṅgavaḥ/paraviddha). 
@@ -46360,7 +46445,7 @@ Finally - Pushkar’s Kartik Purnima festival - pilgrims bathe in the waters of 
 - Tags: 
 
 
-##### सोमश्रावणी-योगः
+##### सोमश्रवण-योगः
 
 
 
@@ -46373,7 +46458,7 @@ For instance, in Devi Atharvashirsha, it is said bhaumāśvinyāṁ mahādevī-s
 
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/sOmazrAvaNI-yOgaH.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/sOmazravaNa-yOgaH.toml)
 - Tags: RareDays Combinations AmritaSiddhiYogaDays
 
 
@@ -51174,7 +51259,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- काञ्ची ३२ जगद्गुरु श्री-चिदानन्दघनेन्द्र सरस्वती आराधना #१३४८, मार्गशीर्ष-शिवलिङ्ग-षष्ठी, सुब्रह्मण्य-षष्ठी-व्रतम्, सोमश्रावणी-योगः
+- काञ्ची ३२ जगद्गुरु श्री-चिदानन्दघनेन्द्र सरस्वती आराधना #१३४८, मार्गशीर्ष-शिवलिङ्ग-षष्ठी, सुब्रह्मण्य-षष्ठी-व्रतम्, सोमश्रवण-योगः
 ##### काञ्ची ३२ जगद्गुरु श्री-चिदानन्दघनेन्द्र सरस्वती आराधना #१३४८
 
 Observed on Śukla-Ṣaṣṭhī tithi of Mārgaśīrṣaḥ (lunar) month (Aparāhṇaḥ/vyaapti). The event occurred in 3773 (Kali era).  
@@ -51219,7 +51304,7 @@ Have darshan of Shivalingam today; removes Shivapachara doshas in the family.
 - Tags: SpecialPuja
 
 
-##### सोमश्रावणी-योगः
+##### सोमश्रवण-योगः
 - →11:40
 
 
@@ -51233,7 +51318,7 @@ For instance, in Devi Atharvashirsha, it is said bhaumāśvinyāṁ mahādevī-s
 
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/sOmazrAvaNI-yOgaH.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/sOmazravaNa-yOgaH.toml)
 - Tags: RareDays Combinations AmritaSiddhiYogaDays
 
 
