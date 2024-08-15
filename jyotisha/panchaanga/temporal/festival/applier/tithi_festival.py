@@ -617,14 +617,17 @@ class TithiFestivalAssigner(FestivalAssigner):
       day_panchaanga = self.daily_panchaangas[d]
       # Chandra Darshanam
       if day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == 1 or day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == 2:
-        tithi_moonset = temporal.tithi.get_tithi(day_panchaanga.graha_set_jd[Graha.MOON]).index
-        tithi_moonset_tmrw = temporal.tithi.get_tithi(self.daily_panchaangas[d + 1].graha_set_jd[Graha.MOON]).index
+        # Compute the tithi at the correct instant, for checking chandra-darshanam
+        # Multiple schools of thought: sunset (30), moonset, 31, 29
+        # 
+        tithi_check = temporal.tithi.get_tithi(day_panchaanga.graha_set_jd[Graha.MOON]).index
+        tithi_check_tmrw = temporal.tithi.get_tithi(self.daily_panchaangas[d + 1].graha_set_jd[Graha.MOON]).index
         fest_name = 'candra-darzanam'
         if day_panchaanga.lunar_date.month.index == 6:
           fest_name = 'bhAdrapada-' + fest_name
-        if tithi_moonset <= 2:
-          if tithi_moonset == 1:
-            # TODO: Fix based on mauDHya logic for chandra
+        if tithi_check <= 2:
+          if tithi_check == 1:
+            # TODO: Fix based on mauDhya logic for chandra
             fest = FestivalInstance(name=fest_name, interval=Interval(jd_start=self.daily_panchaangas[d+1].jd_sunset, jd_end=self.daily_panchaangas[d+1].graha_set_jd[Graha.MOON]))
             self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[d+1].date)
             
@@ -633,7 +636,7 @@ class TithiFestivalAssigner(FestivalAssigner):
             fest = FestivalInstance(name=fest_name, interval=Interval(jd_start=self.daily_panchaangas[d].jd_sunset, jd_end=self.daily_panchaangas[d].graha_set_jd[Graha.MOON]))
             self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[d].date)
             d += 25
-        elif tithi_moonset_tmrw == 2:
+        elif tithi_check_tmrw == 2:
           fest = FestivalInstance(name=fest_name, interval=Interval(jd_start=self.daily_panchaangas[d+1].jd_sunset, jd_end=self.daily_panchaangas[d+1].graha_set_jd[Graha.MOON]))
           self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[d+1].date)
           d += 25
