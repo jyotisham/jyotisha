@@ -106,10 +106,10 @@ class ShraddhaTithiAssigner(PeriodicPanchaangaApplier):
           for i in range(nTithis - 1):
             if debug_shraaddha_tithi:
               logging.debug((nTithis, lunar_tithi_days[m][t], i))
-            d1, span1 = lunar_tithi_days[m][t][i]
-            d2, span2 = lunar_tithi_days[m][t][i + 1]
-            if d2 - d1 == 1:
-              if span1 > span2:
+            d0, span0 = lunar_tithi_days[m][t][i]
+            d1, span1 = lunar_tithi_days[m][t][i + 1]
+            if d1 - d0 == 1:
+              if span0 > span1:
                 if debug_shraaddha_tithi:
                   logging.debug('deleting %d from %s' % (i + 1, str(lunar_tithi_days[m][t])))
                 del_id = i + 1
@@ -217,10 +217,10 @@ class ShraddhaTithiAssigner(PeriodicPanchaangaApplier):
           for i in range(nTithis - 1):
             if debug_shraaddha_tithi:
               logging.debug((nTithis, solar_tithi_days[m][t], i))
-            d1, span1 = solar_tithi_days[m][t][i]
-            d2, span2 = solar_tithi_days[m][t][i + 1]
-            if d2 - d1 == 1:
-              if span1 > span2 or d2 in sankranti_dushta_days:
+            d0, span0 = solar_tithi_days[m][t][i]
+            d1, span1 = solar_tithi_days[m][t][i + 1]
+            if d1 - d0 == 1:
+              if span0 > span1 or d1 in sankranti_dushta_days:
                 if debug_shraaddha_tithi:
                   logging.debug(('deleting %d from %s' % (i + 1, str(solar_tithi_days[m][t]))))
                 del_id = i + 1
@@ -237,18 +237,50 @@ class ShraddhaTithiAssigner(PeriodicPanchaangaApplier):
         nTithis = len(solar_tithi_days[m][t])
         if nTithis > 1:
           assert nTithis == 2
-          d1, span1 = solar_tithi_days[m][t][0]
-          d2, span2 = solar_tithi_days[m][t][1]
-          if d1 in sankranti_dushta_days and d2 in sankranti_dushta_days:
-            if debug_shraaddha_tithi:
-              logging.debug('deleting %d from %s' % (0, str(solar_tithi_days[m][t])))
-            fday = int(solar_tithi_days[m][t][0][0] - self.panchaanga.daily_panchaangas_sorted()[0].date)
-            # Add Shunya tithi
-            if 0 not in self.daily_panchaangas[fday].solar_shraaddha_tithi:
-              self.daily_panchaangas[fday].solar_shraaddha_tithi.append(0)
-            del solar_tithi_days[m][t][0]
+          d0, span0 = solar_tithi_days[m][t][0]
+          d1, span1 = solar_tithi_days[m][t][1]
+          if d0 in sankranti_dushta_days and d1 in sankranti_dushta_days:
+            d0_panchaanga = self.panchaanga.daily_panchaanga_for_date(d0)
+            d0_aparaahna = d0_panchaanga.get_interval(interval_id="aparaahna")
+            d1_panchaanga = self.panchaanga.daily_panchaanga_for_date(d1)
+            d1_aparaahna = d1_panchaanga.get_interval(interval_id="aparaahna")
+            d0_in_aparaahna = False
+            d1_in_aparaahna = False
+            sankranti_0 = d0_panchaanga.solar_sidereal_date_sunset.month_transition
+            sankranti_1 = d1_panchaanga.solar_sidereal_date_sunset.month_transition
+            if sankranti_0 is not None:
+              d0_in_aparaahna = d0_aparaahna.jd_start < sankranti_0 < d0_aparaahna.jd_end
+            if sankranti_1 is not None:
+              d1_in_aparaahna = d1_aparaahna.jd_start < sankranti_1 < d1_aparaahna.jd_end
+            if d0_in_aparaahna and d1_in_aparaahna:
+              logging.debug('Both sankrantis are in aparaahna, so doing more checks!')
+              # What is the span of each tithi in aparaahna in the maasa?
+              span0 = (d0_aparaahna.jd_end - sankranti_0) / (d0_aparaahna.jd_end - d0_aparaahna.jd_start)
+              span1 = (sankranti_1 - d1_aparaahna.jd_start) / (d1_aparaahna.jd_end - d1_aparaahna.jd_start)
+              logging.debug((span0, span1))
+              if span0 > span1:
+                if debug_shraaddha_tithi:
+                  logging.debug('deleting %d from %s' % (1, str(solar_tithi_days[m][t])))
+                del solar_tithi_days[m][t][1]
+              else:
+                if debug_shraaddha_tithi:
+                  logging.debug('deleting %d from %s' % (0, str(solar_tithi_days[m][t])))
+                del solar_tithi_days[m][t][0]
+            elif sankranti_0 < d0_panchaanga.get_interval(interval_id="puurvaahna").jd_end:
+              # First sankranti is in puurvahna, so keep it
+              if debug_shraaddha_tithi:
+                logging.debug('deleting %d from %s' % (1, str(solar_tithi_days[m][t])))
+              del solar_tithi_days[m][t][1]
+            else:
+              if debug_shraaddha_tithi:
+                logging.debug('deleting %d from %s' % (0, str(solar_tithi_days[m][t])))
+              fday = int(solar_tithi_days[m][t][0][0] - self.panchaanga.daily_panchaangas_sorted()[0].date)
+              # Add Shunya tithi
+              if 0 not in self.daily_panchaangas[fday].solar_shraaddha_tithi:
+                self.daily_panchaangas[fday].solar_shraaddha_tithi.append(0)
+              del solar_tithi_days[m][t][0]
           else:
-            if d2 in sankranti_dushta_days:
+            if d1 in sankranti_dushta_days:
               if debug_shraaddha_tithi:
                 logging.debug('deleting %d from %s' % (1, str(solar_tithi_days[m][t])))
               fday = int(solar_tithi_days[m][t][1][0] - self.panchaanga.daily_panchaangas_sorted()[0].date)
