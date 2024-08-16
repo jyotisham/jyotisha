@@ -444,11 +444,11 @@ class DailyPanchaanga(common.JsonObject):
     # Zero latitude, and traditional "Zero" longitude (traditional = Ujjayini Mahakaleshwar)
     LANKA = City(name='Lanka', name_hk='laGkA', latitude=0, longitude=75.7682178, timezone="Asia/Kolkata")
 
-    jd_sunrise = LANKA.get_rising_time(julian_day_start=self.julian_day_start, body=Graha.SUN)
-    jd_next_sunrise = LANKA.get_rising_time(julian_day_start=self.julian_day_start + 1, body=Graha.SUN)
+    lanka_jd_sunrise = LANKA.get_rising_time(julian_day_start=self.julian_day_start, body=Graha.SUN)
+    lanka_jd_next_sunrise = LANKA.get_rising_time(julian_day_start=self.julian_day_start + 1, body=Graha.SUN)
 
     for i, hora in enumerate(hora_list):
-      hora_end_time = get_interval(start_jd=jd_sunrise, end_jd=jd_next_sunrise, part_index=i, num_parts=24).jd_end
+      hora_end_time = get_interval(start_jd=lanka_jd_sunrise, end_jd=lanka_jd_next_sunrise, part_index=i, num_parts=24).jd_end
       self.hora_data.append((hora, HORA_GRAHAS[hora], hora_end_time))
 
     return self.hora_data
