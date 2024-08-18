@@ -83,6 +83,18 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
       self.panchaanga.delete_festival(fest_id='mahA~kArttikI')
       # An error here implies the festival_id_to_instance were not assigned: adhika
       # mAsa calc errors??
+    
+    # Check if Mahalaya Paksha does not go beyond prathamA
+    if 'mahAlaya-pakSa-tarpaNa-pUrtiH' in self.panchaanga.festival_id_to_days:
+      mahalaya_end_date = list(self.panchaanga.festival_id_to_days['mahAlaya-pakSa-tarpaNa-pUrtiH'])[0]
+      mahalaya_start_date = list(self.panchaanga.festival_id_to_days['mahAlaya-pakSa-ArambhaH'])[0]
+      len_mahalaya = int(mahalaya_end_date - mahalaya_start_date + 1)
+      if len_mahalaya < 16:
+        # Can move at most to prathamA, by one day
+        logging.warning(f'Moving end of mahAlaya-pakSa since it is {len_mahalaya}<16 days long')
+        self.panchaanga.delete_festival_date(fest_id='mahAlaya-pakSa-tarpaNa-pUrtiH', date=mahalaya_end_date)
+        # Adding to next day instead
+        self.panchaanga.add_festival(fest_id='mahAlaya-pakSa-tarpaNa-pUrtiH', date=mahalaya_end_date + 1)
 
     # Remove paraviddha assigned on consecutive days
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
