@@ -659,6 +659,12 @@
         "jsonClass": "Interval",
         "name": "पूर्वाह्णः~(त्रेधा)"
       },
+      "puurvaraatri3": {
+        "jd_end": 2444962.1878,
+        "jd_start": 2444962.0104,
+        "jsonClass": "Interval",
+        "name": "पूर्वरात्रिः~(त्रेधा)"
+      },
       "puushaka": {
         "jd_end": 2444962.1523,
         "jd_start": 2444962.1168,
