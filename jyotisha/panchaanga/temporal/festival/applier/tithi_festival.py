@@ -34,7 +34,6 @@ class TithiFestivalAssigner(FestivalAssigner):
     self.assign_ekaadashii_vratam()
     self.assign_mahaadvaadashii()
     self.assign_pradosha_vratam()
-    self.assign_vaarunii_trayodashi()
     self.assign_yama_chaturthi()
     self.assign_vajapeyaphala_snana_yoga()
     self.assign_mahaa_paurnamii()
@@ -668,23 +667,6 @@ class TithiFestivalAssigner(FestivalAssigner):
     if 'candra-darzanam' not in self.rules_collection.name_to_rule:
       self.panchaanga.delete_festival(fest_id='candra-darzanam')
       self.panchaanga.delete_festival(fest_id='bhAdrapada-candra-darzanam')
-
-  def assign_vaarunii_trayodashi(self):
-    if 'vAruNI~trayOdazI' not in self.rules_collection.name_to_rule:
-      return
-    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
-      day_panchaanga = self.daily_panchaangas[d]
-      # VARUNI TRAYODASHI
-      if day_panchaanga.lunar_date.month.index == 12 and day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == 28:
-        if NakshatraDivision(day_panchaanga.jd_sunrise, ayanaamsha_id=self.ayanaamsha_id).get_anga(
-            zodiac.AngaType.NAKSHATRA).index == 24:
-          vtr_name = 'vAruNI~trayOdazI'
-          if day_panchaanga.date.get_weekday() == 6:
-            vtr_name = 'mahA' + vtr_name
-            if NakshatraDivision(day_panchaanga.jd_sunrise, ayanaamsha_id=self.ayanaamsha_id).get_anga(
-                zodiac.AngaType.YOGA).index == 23:
-              vtr_name = 'mahA' + vtr_name
-          self.panchaanga.add_festival(fest_id=vtr_name, date=day_panchaanga.date)
 
 
 # Essential for depickling to work.

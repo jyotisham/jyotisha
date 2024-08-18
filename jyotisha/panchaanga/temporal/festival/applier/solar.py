@@ -47,7 +47,7 @@ class SolarFestivalAssigner(FestivalAssigner):
     self.assign_revati_dvadashi_yoga()
     self.assign_ayushmad_bava_saumya_yoga()
     self.assign_anadhyayana_dvadashi_yoga()
-
+    self.assign_vaarunii_trayodashi()
 
   def assign_pitr_dina(self):
     self.assign_gajachhaya_yoga()
@@ -461,6 +461,7 @@ class SolarFestivalAssigner(FestivalAssigner):
         fday = int(floor(jd_start) - floor(self.daily_panchaangas[0].julian_day_start))
         if (jd_start < self.daily_panchaangas[fday].jd_sunrise):
           fday -= 1
+        logging.debug(f'Adding {yoga_name} from {Interval(jd_start=jd_start, jd_end=jd_end)} on {self.daily_panchaangas[fday].date}')
         self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=yoga_name, interval=Interval(jd_start=jd_start, jd_end=jd_end)), date=self.daily_panchaangas[fday].date)
 
     return yoga_happens
@@ -644,6 +645,21 @@ class SolarFestivalAssigner(FestivalAssigner):
           if daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == 12 or self.daily_panchaangas[d + 1].sunrise_day_angas.tithi_at_sunrise.index == 12:
             for _nakshatra in [17, 22, 27]:
               self._assign_yoga('anadhyAyaH~dvAdazI-yOgaH', [(zodiac.AngaType.NAKSHATRA, _nakshatra), (zodiac.AngaType.TITHI, 12)], jd_start=daily_panchaanga.jd_sunrise - 1, jd_end=daily_panchaanga.jd_sunset + 2, show_debug_info=False)
+
+  def assign_vaarunii_trayodashi(self):
+    if 'vAruNI~trayOdazI' not in self.rules_collection.name_to_rule:
+      return
+    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
+      day_panchaanga = self.daily_panchaangas[d]
+      tithi_sunrise = day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index
+      tithi_sunset = day_panchaanga.sunrise_day_angas.get_anga_at_jd(jd=day_panchaanga.jd_sunset, anga_type=zodiac.AngaType.TITHI).index
+      # VARUNI TRAYODASHI
+      if day_panchaanga.lunar_date.month.index == 12 and (tithi_sunrise == 28 or tithi_sunset == 28):
+        if day_panchaanga.date.get_weekday() == 6:
+          if not self._assign_yoga('mahAmahAvAruNI~trayOdazI', [(zodiac.AngaType.NAKSHATRA, 24), (zodiac.AngaType.TITHI, 28), (zodiac.AngaType.YOGA, 23)], jd_start = day_panchaanga.jd_sunrise, jd_end = day_panchaanga.jd_next_sunrise):
+            self._assign_yoga('mahAvAruNI~trayOdazI', [(zodiac.AngaType.NAKSHATRA, 24), (zodiac.AngaType.TITHI, 28)], jd_start = day_panchaanga.jd_sunrise, jd_end = day_panchaanga.jd_next_sunrise)
+        else:
+            self._assign_yoga('vAruNI~trayOdazI', [(zodiac.AngaType.NAKSHATRA, 24), (zodiac.AngaType.TITHI, 28)], jd_start = day_panchaanga.jd_sunrise, jd_end = day_panchaanga.jd_next_sunrise)
 
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])
