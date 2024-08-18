@@ -137,6 +137,7 @@ class FifteenFoldDivision(common.JsonObject):
     self.puurvaahna3 = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=0, num_parts=3)
     self.madhyaahna3 = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=1, num_parts=3)
     self.aparaahna3 = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=2, num_parts=3)
+    self.puurvaraatri3 = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=0, num_parts=3)
 
     self.praatas_sandhyaa = get_interval(start_jd=jd_previous_sunset, end_jd=jd_sunrise, part_index=14, num_parts=15) + get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=range(0,4), num_parts=15)
     self.maadhyaahnika_sandhyaa = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=range(5,13), num_parts=15)

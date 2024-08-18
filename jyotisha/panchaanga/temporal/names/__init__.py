@@ -105,6 +105,7 @@ python_to_devanaagarii = {
   "maadhyaahnika_sandhyaa": "माध्याह्निकसन्ध्यावन्दनकालः",
   "puurvaahna": "पूर्वाह्णः",
   "puurvaahna3": "पूर्वाह्णः~(त्रेधा)",
+  "puurvaraatri3": "पूर्वरात्रिः~(त्रेधा)",
   "raatrimaana": "रात्रिमानम्",
   "dinamaana": "दिनमानम्",
   "sunrise": "सूर्योदयः",
