@@ -266,7 +266,7 @@ class ShraddhaTithiAssigner(PeriodicPanchaangaApplier):
                 if debug_shraaddha_tithi:
                   logging.debug('deleting %d from %s' % (0, str(solar_tithi_days[m][t])))
                 del solar_tithi_days[m][t][0]
-            elif sankranti_0 < d0_panchaanga.get_interval(interval_id="puurvaahna").jd_end:
+            elif sankranti_0 is not None and sankranti_0 < d0_panchaanga.get_interval(interval_id="puurvaahna").jd_end:
               # First sankranti is in puurvahna, so keep it
               if debug_shraaddha_tithi:
                 logging.debug('deleting %d from %s' % (1, str(solar_tithi_days[m][t])))
