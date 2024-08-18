@@ -31,6 +31,7 @@ class TithiFestivalAssigner(FestivalAssigner):
     self.assign_chaturthi_vratam()
     self.assign_shasthi_vratam()
     self.assign_vishesha_saptami()
+    self.assign_vishesha_akshaya_tritiya()
     self.assign_ekaadashii_vratam()
     self.assign_mahaadvaadashii()
     self.assign_pradosha_vratam()
@@ -536,6 +537,19 @@ class TithiFestivalAssigner(FestivalAssigner):
       # SOMAMAVASYA
       if day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == 30 and day_panchaanga.date.get_weekday() == 1:
         self.panchaanga.add_festival(fest_id='sOmavatI amAvAsyA', date=day_panchaanga.date)
+
+  def assign_vishesha_akshaya_tritiya(self):
+    if 'akSaya-tRtIyA' not in self.rules_collection.name_to_rule:
+      return
+    akshaya_tritiya_days = list(self.panchaanga.festival_id_to_days['akSaya-tRtIyA']) 
+    for day in akshaya_tritiya_days:
+      d = int(day - self.daily_panchaangas[0].date)
+      day_panchaanga = self.daily_panchaangas[d]
+      nakshatra_sunrise = day_panchaanga.sunrise_day_angas.get_anga_at_jd(jd=day_panchaanga.jd_sunrise, anga_type=AngaType.NAKSHATRA).index
+      nakshatra_sunset = day_panchaanga.sunrise_day_angas.get_anga_at_jd(jd=day_panchaanga.jd_sunset, anga_type=AngaType.NAKSHATRA).index
+      if day_panchaanga.date.get_weekday() == 3 and 4 in [nakshatra_sunrise, nakshatra_sunset]: # Wednesday - Rohini
+        self.panchaanga.delete_festival_date(fest_id='akSaya-tRtIyA', date=day_panchaanga.date)
+        self.panchaanga.add_festival(fest_id='akSaya-tRtIyA~(alabhyam–budha-rOhiNI)', date=day_panchaanga.date)
 
   def assign_amaavaasya_vyatiipaata(self):
     if 'vyatIpAta-yOgaH_(alabhyam)' not in self.rules_collection.name_to_rule:
