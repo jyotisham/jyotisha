@@ -328,11 +328,11 @@ class DailyPanchaanga(common.JsonObject):
       month_transitions = Graha.singleton(Graha.SUN).get_transits(jd_start=self.jd_sunset-approx_day-5, jd_end=self.jd_sunset + 4, anga_type=AngaType.RASHI, ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0)
       if month_transitions[-1].jd > self.jd_previous_sunset and month_transitions[-1].jd <= self.jd_sunset:
         tropical_date_sunset_day = 1
-        tropical_date_sunset_month = month_transitions[-1].value_2
+        tropical_date_sunset_month = month_transitions[-1].value_2  % 12 + 1 
         month_transition_jd = month_transitions[-1].jd
       else:
         tropical_date_sunset_day = len(self.city.get_sunsets_in_period(jd_start=month_transitions[0].jd, jd_end=self.jd_sunset + 1/48.0))
-        tropical_date_sunset_month = month_transitions[0].value_2
+        tropical_date_sunset_month = month_transitions[0].value_2 % 12 + 1
     self.tropical_date_sunset = time.BasicDateWithTransitions(month=tropical_date_sunset_month, day=tropical_date_sunset_day, month_transition=month_transition_jd)
 
 
