@@ -109,6 +109,11 @@
           "name": "gRhya/Apastamba"
         },
         {
+          "base_url": "https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba_seasonal",
+          "jsonClass": "RulesRepo",
+          "name": "gRhya/Apastamba_seasonal"
+        },
+        {
           "base_url": "https://github.com/jyotisham/adyatithi/blob/master/gRhya/general",
           "jsonClass": "RulesRepo",
           "name": "gRhya/general"
