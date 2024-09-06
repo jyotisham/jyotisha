@@ -39,6 +39,11 @@ from jyotisha.panchaanga.writer.tex.daily_tex_writer import emit
 from indic_transliteration import sanscript
 emit(panchaanga,
      output_stream=open("/some/path.tex", 'w'), languages=["sa", "ta"], scripts=[sanscript.DEVANAGARI, sanscript.TAMIL])
+
+## ICS
+from jyotisha.panchaanga.writer import ics
+ics_calendar = ics.compute_calendar(panchaanga)
+ics.write_to_file(ics_calendar, "/some/path.ics")
 ```
 
 Note that there are several "ComputationalSystem" options.  
