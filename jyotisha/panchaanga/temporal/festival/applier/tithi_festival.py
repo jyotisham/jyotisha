@@ -595,7 +595,7 @@ class TithiFestivalAssigner(FestivalAssigner):
           self.panchaanga.add_festival(fest_id=festival_name, date=day_panchaanga.date)
 
   def assign_yama_chaturthi(self):
-    if 'yamacaturthI-vratam' not in self.rules_collection.name_to_rule:
+    if 'bharaNI-yamArcanA' not in self.rules_collection.name_to_rule:
       return
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       day_panchaanga = self.daily_panchaangas[d]
@@ -607,7 +607,7 @@ class TithiFestivalAssigner(FestivalAssigner):
         zodiac.AngaType.NAKSHATRA).index
       if day_panchaanga.date.get_weekday() == 6 and (day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index in [4, 19] or tithi_sunset in [4, 19]):
         if day_panchaanga.sunrise_day_angas.nakshatra_at_sunrise.index == 2 or  nakshatra_sunset == 2:
-          festival_name = 'yamacaturthI-vratam'
+          festival_name = 'bharaNI-yamArcanA'
           self.panchaanga.add_festival(fest_id=festival_name, date=day_panchaanga.date)
 
   def assign_vajapeyaphala_snana_yoga(self):
