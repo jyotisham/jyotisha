@@ -7417,7 +7417,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अनध्यायः, अनध्यायः, तिरुच्चॆन्दूर् माचित् तिरुविऴा निऱैवु, पार्वणव्रतम् पूर्णिमायाम्, पूर्णिमा-पूजा, पूर्णिमा-व्रतम्, माघ-पूर्णिमा, माघ-पूर्णिमा-स्नानम्, माघ-मास-अन्तिमत्रयतिथि-व्रत-समापनम्, माचि-चॆव्वाय्, ललिता-जयन्ती, वेङ्कटाचले पूर्णिमा-गरुड-सेवा
+- अनध्यायः, अनध्यायः, तिरुच्चॆन्दूर् माचित् तिरुविऴा निऱैवु, पार्वणव्रतम् पूर्णिमायाम्, पूर्णिमा-पूजा, पूर्णिमा-व्रतम्, माघ-पूर्णिमा, माघ-पूर्णिमा-स्नानम्, माघ-मास-अन्तिमत्रयतिथि-व्रत-समापनम्, माचि-चॆव्वाय्, ललिता-जयन्ती, विषुवदिनम्, वेङ्कटाचले पूर्णिमा-गरुड-सेवा
 ##### अनध्यायः
 
 Observed on Paurṇamāsī tithi of every (lunar) month (Sāṅgavaḥ/paraviddha). 
@@ -7635,6 +7635,17 @@ Bhagavan Malayappa rides on Garuda Vahanam in all four mada streets. This usuall
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/temples/venkaTAchala/lunar_month/tithi/00/15/vEGkaTAcalE_pUrNimA~garuDa-sEvA.toml)
 - Tags: AndhraTempleFestivals
+
+
+##### विषुवदिनम्
+
+Observed on day 1 of Madhuḥ (tropical) month (Sūryōdayaḥ/puurvaviddha). 
+
+Vernal equinox
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/Rtu/tropical/day/01/01/viSuva-dinam.toml)
+- Tags: 
 
 
 
@@ -11866,7 +11877,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अनध्यायः, अनध्यायः, अनध्यायः, आम्र-कुसुम-प्राशनम्, उमा-कपालीश्वर-दर्शनम्, कपाली विडैयाऱ्ऱि तॊडक्कम्, चैतन्य-महाप्रभु-जयन्ती #५३४, दिनक्षयः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, पूर्ण-स्थालीपाकः, पूर्णमासेष्टिः, पूर्णिमा-व्रतम्, मीनोत्तरफाल्गुनोत्सवः, विषुवदिनम्, होलि
+- अनध्यायः, अनध्यायः, अनध्यायः, आम्र-कुसुम-प्राशनम्, उमा-कपालीश्वर-दर्शनम्, कपाली विडैयाऱ्ऱि तॊडक्कम्, चैतन्य-महाप्रभु-जयन्ती #५३४, दिनक्षयः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, पूर्ण-स्थालीपाकः, पूर्णमासेष्टिः, पूर्णिमा-व्रतम्, मीनोत्तरफाल्गुनोत्सवः, होलि
 ##### आम्र-कुसुम-प्राशनम्
 
 Observed on Kr̥ṣṇa-Prathamā tithi of Phālgunaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -12094,17 +12105,6 @@ Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/description_only/sthAlIpAkaH_16.toml)
 - Tags: MonthlyFestivals
-
-
-##### विषुवदिनम्
-
-Observed on day 1 of Mādhavaḥ (tropical) month (Sūryōdayaḥ/puurvaviddha). 
-
-Vernal equinox
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/Rtu/tropical/day/02/01/viSuva-dinam.toml)
-- Tags: 
 
 
 
@@ -21528,7 +21528,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अनध्यायः, अनध्यायः, काञ्ची जगद्गुरु श्री-शङ्कर विजयेन्द्र सरस्वती आश्रम-स्वीकार-दिनम् #३७, तिरुञाऩसम्बन्धमूर्त्ति नायऩ्मार् (२८) गुरुपूजै, तिरुनीलकण्ठ याऴ्प्पाण नायऩ्मार् (६१) गुरुपूजै, तिरुनीलनक्क नायऩ्मार् (२६) गुरुपूजै, दक्षिणायन-पुण्यकालः, पार्थिव-कल्पादिः, मुरुग नायऩ्मार् (१६) गुरुपूजै, शुचि-मासः/दक्षिणायनम्, सायन-रवि-सङ्क्रमण-पुण्यकालः, सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः
+- अनध्यायः, अनध्यायः, काञ्ची जगद्गुरु श्री-शङ्कर विजयेन्द्र सरस्वती आश्रम-स्वीकार-दिनम् #३७, तिरुञाऩसम्बन्धमूर्त्ति नायऩ्मार् (२८) गुरुपूजै, तिरुनीलकण्ठ याऴ्प्पाण नायऩ्मार् (६१) गुरुपूजै, तिरुनीलनक्क नायऩ्मार् (२६) गुरुपूजै, दक्षिणायन-पुण्यकालः, दक्षिणायनारम्भः, पार्थिव-कल्पादिः, मुरुग नायऩ्मार् (१६) गुरुपूजै, शुचि-मासः/दक्षिणायनम्, सायन-रवि-सङ्क्रमण-पुण्यकालः, सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः
 ##### अनध्यायः
 
 
@@ -21600,6 +21600,17 @@ For a wonderfully detailed exposition on the topic, see https://sites.google.com
   - Smriti Muktaphalam SVR p. 267
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti/description_only/dakSiNAyana-puNyakAlaH.toml)
 - Tags: SunSankranti CommonFestivals
+
+
+##### दक्षिणायनारम्भः
+
+Observed on day 1 of Śuciḥ (tropical) month (Sūryōdayaḥ/puurvaviddha). 
+
+Summer solstice.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/Rtu/tropical/day/04/01/daxiNAyanArambhaH.toml)
+- Tags: 
 
 
 ##### काञ्ची जगद्गुरु श्री-शङ्कर विजयेन्द्र सरस्वती आश्रम-स्वीकार-दिनम् #३७
@@ -26105,7 +26116,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अनध्यायः, दक्षिणायनारम्भः
+- अनध्यायः
 ##### अनध्यायः
 - 05:47→18:34
 
@@ -26124,17 +26135,6 @@ Anadhyayana during the day, since saṅkramaṇa happened during night time yest
   - Smriti Muktaphalam SVR p.  162
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/adhyayana/description_only/anadhyAyaH~rAtrisaGkramaNa~parAhNE.toml)
 - Tags: Anadhyayana Days
-
-
-##### दक्षिणायनारम्भः
-
-Observed on day 1 of Nabhaḥ (tropical) month (Sūryōdayaḥ/puurvaviddha). 
-
-Summer solstice.
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/Rtu/tropical/day/05/01/daxiNAyanArambhaH.toml)
-- Tags: 
 
 
 
@@ -34935,7 +34935,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अनध्यायः, अनध्यायः, अनध्यायः, अनध्यायः, इष-मासः/शरदृतुः, काञ्ची २१ जगद्गुरु श्री-सार्वभौमगुरुः चन्द्रचूडेन्द्र सरस्वती आराधना #१५७३, कृत्तिका-व्रतम्, पञ्च-पर्व-पूजा (अष्टमी), मन्वादिः-(दक्षः-[९]), विषु-पुण्यकालः, श्रीकृष्णजन्माष्टमी, सायन-रवि-सङ्क्रमण-पुण्यकालः, सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः
+- अनध्यायः, अनध्यायः, अनध्यायः, अनध्यायः, इष-मासः/शरदृतुः, काञ्ची २१ जगद्गुरु श्री-सार्वभौमगुरुः चन्द्रचूडेन्द्र सरस्वती आराधना #१५७३, कृत्तिका-व्रतम्, दक्षिण-विषुव-दिनम्, पञ्च-पर्व-पूजा (अष्टमी), मन्वादिः-(दक्षः-[९]), विषु-पुण्यकालः, श्रीकृष्णजन्माष्टमी, सायन-रवि-सङ्क्रमण-पुण्यकालः, सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः
 ##### अनध्यायः
 
 Observed on Kr̥ṣṇa-Aṣṭamī tithi of every (lunar) month (Sāṅgavaḥ/paraviddha). 
@@ -35015,6 +35015,17 @@ Anadhyayana on account of viṣu. On the days of Ayana (solstices), Vishu (equin
   - Smriti Muktaphalam SVR p.  155
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/adhyayana/relative_event/viSu-puNyakAlaH/offset__00/anadhyAyaH~viSu.toml)
 - Tags: Anadhyayana Days
+
+
+##### दक्षिण-विषुव-दिनम्
+
+Observed on day 1 of Iṣaḥ (tropical) month (Sūryōdayaḥ/puurvaviddha). 
+
+Vernal equinox
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/Rtu/tropical/day/07/01/daxiNa-viSuva-dinam.toml)
+- Tags: 
 
 
 ##### इष-मासः/शरदृतुः
@@ -40697,7 +40708,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अनध्यायः, अविधवा-नवमी, ऊर्ज-मासः, दक्षिण-विषुव-दिनम्, दुर्गा/गौरी-पूजा, सायन-विष्णुपदी-पुण्यकालः, सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः
+- अनध्यायः, अविधवा-नवमी, ऊर्ज-मासः, दुर्गा/गौरी-पूजा, सायन-विष्णुपदी-पुण्यकालः, सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः
 ##### ऊर्ज-मासः
 - 13:20→
 
@@ -40762,17 +40773,6 @@ In honour of Avidhavaas (in the family), by holding a feast for Suvasinis and Ka
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR/lunar_month/tithi/06/24/avidhavA-navamI.toml)
 - Tags: SpecialPuja CommonFestivals
-
-
-##### दक्षिण-विषुव-दिनम्
-
-Observed on day 1 of Ūrjaḥ (tropical) month (Sūryōdayaḥ/puurvaviddha). 
-
-Vernal equinox
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/Rtu/tropical/day/08/01/daxiNa-viSuva-dinam.toml)
-- Tags: 
 
 
 ##### दुर्गा/गौरी-पूजा
@@ -51096,7 +51096,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अनध्यायः, अनध्यायः, आऩाय नायऩ्मार् (१४) गुरुपूजै, उत्तरायण-पुण्यकालः, त्रिस्पृशा-महाद्वादशी, दिनक्षयः, द्विपुष्कर-योगः, वैष्णव-उत्पन्ना-एकादशी, सहोमास-उषःकाल-पूजा-समापनम्, सायन-सङ्क्रमण-दिन-पूर्वाह्ण-पुण्यकालः, स्मार्त-उत्पन्ना-एकादशी (सन्न्यस्त), हरिवासरः
+- अनध्यायः, अनध्यायः, आऩाय नायऩ्मार् (१४) गुरुपूजै, उत्तरायण-पुण्यकालः, उत्तरायणारम्भः, त्रिस्पृशा-महाद्वादशी, दिनक्षयः, द्विपुष्कर-योगः, वैष्णव-उत्पन्ना-एकादशी, सहोमास-उषःकाल-पूजा-समापनम्, सायन-सङ्क्रमण-दिन-पूर्वाह्ण-पुण्यकालः, स्मार्त-उत्पन्ना-एकादशी (सन्न्यस्त), हरिवासरः
 ##### आऩाय नायऩ्मार् (१४) गुरुपूजै
 
 Observed on Hastaḥ nakshatra of Vr̥ścikaḥ (sidereal solar) month (Prātaḥ/paraviddha). 
@@ -51463,6 +51463,17 @@ Dvadashi tithi, which starts after sunrise on a day and ends before sunrise on t
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/dvAdashI/description_only/trisprzA~mahAdvAdazI.toml)
 - Tags: RareDays Combinations SpecialVratam
+
+
+##### उत्तरायणारम्भः
+
+Observed on day 1 of Sahasyaḥ (tropical) month (Sūryōdayaḥ/puurvaviddha). 
+
+Winter solstice.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/Rtu/tropical/day/10/01/uttarAyaNArambhaH.toml)
+- Tags: 
 
 
 ##### उत्तरायण-पुण्यकालः
@@ -55427,7 +55438,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अनध्यायः, उत्तरायणारम्भः, गणितज्ञ-रामानुज-जन्म #१३२, तपो-मासः/शिशिरऋतुः, त्रिपुष्कर-योगः, माऩक्कञ्चाऱ नायऩ्मार् (१२) गुरुपूजै, सर्व-सफला-एकादशी, सायन-विष्णुपदी-पुण्यकालः, सायन-सङ्क्रमण-दिन-पूर्वाह्ण-पुण्यकालः
+- अनध्यायः, गणितज्ञ-रामानुज-जन्म #१३२, तपो-मासः/शिशिरऋतुः, त्रिपुष्कर-योगः, माऩक्कञ्चाऱ नायऩ्मार् (१२) गुरुपूजै, सर्व-सफला-एकादशी, सायन-विष्णुपदी-पुण्यकालः, सायन-सङ्क्रमण-दिन-पूर्वाह्ण-पुण्यकालः
 ##### अनध्यायः
 
 
@@ -55655,17 +55666,6 @@ When a tripādanakṣatra is conjoined with a bhadrā tithi i.e. dvitīyā, sapt
   - SmritiMuktaPhalam Part 5, SVR
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations/description_only/tripuSkara-yOgaH~0.toml)
 - Tags: RareDays Combinations
-
-
-##### उत्तरायणारम्भः
-
-Observed on day 1 of Tapaḥ (tropical) month (Sūryōdayaḥ/puurvaviddha). 
-
-Winter solstice.
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/Rtu/tropical/day/11/01/uttarAyaNArambhaH.toml)
-- Tags: 
 
 
 
