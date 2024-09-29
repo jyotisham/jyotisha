@@ -135,7 +135,7 @@ class SolarFestivalAssigner(FestivalAssigner):
 
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       if self.daily_panchaangas[d].tropical_date_sunset.month_transition is not None:
-        sankranti_id = self.daily_panchaangas[d + 1].tropical_date_sunset.month
+        sankranti_id = (self.daily_panchaangas[d + 1].tropical_date_sunset.month - 2) % 12 + 1
         punya_kaala_str = names.NAMES['TROPICAL_SANKRANTI_PUNYAKALA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][sankranti_id] + '-puNyakAlaH'
         if sankranti_id%3 != 1:
           # Except for Ayana/Vishuva, add sAyana tag!
@@ -218,7 +218,7 @@ class SolarFestivalAssigner(FestivalAssigner):
         jd_transition = self.daily_panchaangas[d].tropical_date_sunset.month_transition
 
         # Addsankranti
-        masa_id = (self.daily_panchaangas[d + 1].tropical_date_sunset.month - 1) % 12 + 1
+        masa_id = (self.daily_panchaangas[d + 1].tropical_date_sunset.month - 2) % 12 + 1
         masa_name = names.NAMES['RTU_MASA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][masa_id] + RTU_MASA_TAGS[masa_id]
         if jd_transition < self.daily_panchaangas[d].jd_sunrise:
           fday = d - 1
@@ -375,7 +375,8 @@ class SolarFestivalAssigner(FestivalAssigner):
     for d, daily_panchaanga in enumerate(self.daily_panchaangas):
       # DHANURMASA/SAHOMASA PUJA
       # This can start on the first or second day of the masa, not before; depending on the time of the month transition
-      if getattr(daily_panchaanga, date_attr).month == 9 and getattr(daily_panchaanga, date_attr).day == 1:
+      # This is for sidereal_solar 9 and tropical 10 as per 6eeec085f56947db5de32d8bfea51957c4dde789
+      if getattr(daily_panchaanga, date_attr).month == (9 + int(month_type=='tropical')) and getattr(daily_panchaanga, date_attr).day == 1:
         ushah_kaala = get_interval(start_jd=daily_panchaanga.jd_previous_sunset, end_jd=daily_panchaanga.jd_sunrise, part_index=range(25,28), num_parts=30)
         jd_transition = getattr(daily_panchaanga, date_attr).month_transition
         if jd_transition is None:
@@ -386,7 +387,7 @@ class SolarFestivalAssigner(FestivalAssigner):
         else:
           self.panchaanga.add_festival(fest_id=start_fest_id, date=daily_panchaanga.date)
 
-      if getattr(daily_panchaanga, date_attr).month_transition and getattr(self.daily_panchaangas[d - 1], date_attr).month == 9:
+      if getattr(daily_panchaanga, date_attr).month_transition and getattr(self.daily_panchaangas[d - 1], date_attr).month == (9 + int(month_type=='tropical')):
         # Makara Sankramana (sidereal_solar) / Uttarayana (tropical)
         # Check if happens before the start of ushah kaala
         ushah_kaala = get_interval(start_jd=daily_panchaanga.jd_sunset, end_jd=daily_panchaanga.jd_next_sunrise, part_index=range(25,28), num_parts=30)
