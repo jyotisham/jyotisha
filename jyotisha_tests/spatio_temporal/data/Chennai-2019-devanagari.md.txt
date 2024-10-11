@@ -43005,7 +43005,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अनध्यायः, आयुध-पूजा, एऩादिनाथ नायऩ्मार् (९) गुरुपूजै, बुद्ध-जयन्ती, भद्रकाळी-व्रतम्, महानवमी/सरस्वती-पूजा, युद्धदेवता-आराधना/अपराजिता-पूजा, विजयदशमी, शमी-पूजा, शरन्नवरात्र-समापनम्, सरस्वती-विसर्जनम्, सोमश्रवण-योगः
+- अनध्यायः, आयुध-पूजा, एऩादिनाथ नायऩ्मार् (९) गुरुपूजै, बुद्ध-जयन्ती, भद्रकाळी-व्रतम्, महानवमी/सरस्वती-पूजा, युद्धदेवता-आराधना/अपराजिता-पूजा, विजयदशमी—यात्रा-मुहूर्तः, शमी-पूजा, शरन्नवरात्र-समापनम्, सरस्वती-विसर्जनम्, सोमश्रवण-योगः
 ##### आयुध-पूजा
 
 
@@ -43175,7 +43175,7 @@ Observed on Uttarāṣāḍhā nakshatra of Āśvayujaḥ (lunar) month (Madhyā
 - Tags: CommonFestivals
 
 
-##### विजयदशमी
+##### विजयदशमी—यात्रा-मुहूर्तः
 
 Observed on Śukla-Daśamī tithi of Āśvayujaḥ (lunar) month (Pradōṣaḥ/puurvaviddha). 
 
@@ -43184,12 +43184,28 @@ Sri Rama's army built tents on ocean bank before crossing on Shravana star (Anan
 Best day for AksharaaBhyaasam
 
 आश्विनस्य सिते पक्षे दशम्यां तारकोदये।  
-स कालो विजयो ज्ञेयः सर्वकार्यार्थसिद्धये॥ (ज्योतिर्निबन्धः)
+स कालो विजयो ज्ञेयः सर्वकार्यार्थसिद्धये॥ (ज्योतिर्निबन्धः)  
+स्मृति-कौस्तुभे---  
+अस्यामेव दशम्यां विजयमुहूर्तव्यापिन्यां देशान्तरयात्रार्थिभिर्यात्रा विधेया---  
+आश्विनस्य सिते पक्षे दशम्यां सर्वरात्रिषु।  
+सायङ्काले शुभा यात्रा दिवा वा विजयक्षणे॥  
+इति भृगुवचनात्।  
+सर्वेति चन्द्रानुकूल्यं नापेक्ष्यमित्याशयः।  
+ईषत् सन्ध्यामतिक्रान्तः किंचिदुद्भिन्नतारकः।  
+विजयो नाम कालोऽयं सर्वकार्यार्थसाधकः॥  
+इति ज्योति शास्त्रोक्तविजयमुहूर्ताभिप्रायं सायमिति।  
+एकादशो मुहूर्तोऽपि विजयः परिकीर्तितः।  
+तस्मिन्सर्वैर्विधातव्या यात्रा विजयकाङ्क्षिभिः॥  
+इति भृगूक्तविजयमुहूर्तस्यानुकूल्यत्वाशयं दिवा वेति।  
+एकादशीयुक्ते उक्तमुहूर्तेऽपि प्रस्थानं न विधेयम्।  
+दशमी यः समुल्लङ्घ्य प्रस्थानं कुरुते नरः।  
+तस्य संवत्सरं राज्ये न कोऽपि विजयो भवेत्॥  
+इति स्कान्दनिषेधात्।
 
 
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/07/10/vijayadazamI.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/07/10/vijayadazamI_yAtrA.toml)
 - Tags: CommonFestivals
 
 
@@ -43295,7 +43311,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- कूष्माण्ड-दशमी, गङ्गावतरणम्, दशहरा, दुर्गा-पूजा, मध्वाचार्य-जयन्ती #७८२, श्रवण-व्रतम्
+- कूष्माण्ड-दशमी, गङ्गावतरणम्, दशहरा, दुर्गा-पूजा, मध्वाचार्य-जयन्ती #७८२, विजयदशमी—विद्यारम्भः, श्रवण-व्रतम्
 ##### दशहरा
 
 Observed on Śukla-Daśamī tithi of Āśvayujaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -43350,6 +43366,17 @@ Jayanti of Madhvacharya, a proponent of Dvaita Vedanta
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/mAdhva-misc/lunar_month/tithi/07/10/madhvAcArya~jayantI.toml)
 - Tags: MahapurushaEvents
+
+
+##### विजयदशमी—विद्यारम्भः
+
+Observed on Śukla-Daśamī tithi of Āśvayujaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
+
+Best day for AksharaaBhyaasam
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/07/10/vijayadazamI_vidyArambhaH.toml)
+- Tags: CommonFestivals
 
 
 ##### श्रवण-व्रतम्
