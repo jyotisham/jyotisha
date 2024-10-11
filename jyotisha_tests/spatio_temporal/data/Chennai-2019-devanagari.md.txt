@@ -43005,7 +43005,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अनध्यायः, आयुध-पूजा, एऩादिनाथ नायऩ्मार् (९) गुरुपूजै, बुद्ध-जयन्ती, भद्रकाळी-व्रतम्, महानवमी/सरस्वती-पूजा, विजयदशमी, शमी-पूजा/अपराजिता-पूजा, शरन्नवरात्र-समापनम्, सरस्वती-विसर्जनम्, सोमश्रवण-योगः
+- अनध्यायः, आयुध-पूजा, एऩादिनाथ नायऩ्मार् (९) गुरुपूजै, बुद्ध-जयन्ती, भद्रकाळी-व्रतम्, महानवमी/सरस्वती-पूजा, युद्धदेवता-आराधना/अपराजिता-पूजा, विजयदशमी, शमी-पूजा, शरन्नवरात्र-समापनम्, सरस्वती-विसर्जनम्, सोमश्रवण-योगः
 ##### आयुध-पूजा
 
 
@@ -43193,7 +43193,18 @@ Best day for AksharaaBhyaasam
 - Tags: CommonFestivals
 
 
-##### शमी-पूजा/अपराजिता-पूजा
+##### युद्धदेवता-आराधना/अपराजिता-पूजा
+
+Observed on Śukla-Daśamī tithi of Āśvayujaḥ (lunar) month (Pradōṣaḥ/puurvaviddha). 
+
+
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/07/10/yuddhadEvatA-ArAdhanA.toml)
+- Tags: LessCommonFestivals
+
+
+##### शमी-पूजा
 
 Observed on Śukla-Daśamī tithi of Āśvayujaḥ (lunar) month (Pradōṣaḥ/puurvaviddha). 
 
@@ -43284,7 +43295,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- कूष्माण्ड-दशमी, गङ्गावतरणम्, दशहरा, दुर्गा-पूजा, मध्वाचार्य-जयन्ती #७८२, युद्धदेवता-आराधना, श्रवण-व्रतम्
+- कूष्माण्ड-दशमी, गङ्गावतरणम्, दशहरा, दुर्गा-पूजा, मध्वाचार्य-जयन्ती #७८२, श्रवण-व्रतम्
 ##### दशहरा
 
 Observed on Śukla-Daśamī tithi of Āśvayujaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -43339,17 +43350,6 @@ Jayanti of Madhvacharya, a proponent of Dvaita Vedanta
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/mAdhva-misc/lunar_month/tithi/07/10/madhvAcArya~jayantI.toml)
 - Tags: MahapurushaEvents
-
-
-##### युद्धदेवता-आराधना
-
-Observed on Śukla-Daśamī tithi of Āśvayujaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
-
-
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/07/10/yuddhadEvatA-ArAdhanA.toml)
-- Tags: LessCommonFestivals
 
 
 ##### श्रवण-व्रतम्
