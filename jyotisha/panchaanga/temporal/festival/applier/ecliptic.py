@@ -115,6 +115,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
     
     while 1:
       next_eclipse_lun = self.panchaanga.city.get_lunar_eclipse_time(jd)
+      logging.debug(next_eclipse_lun)
       jd = next_eclipse_lun[1][0]
       jd_eclipse_lunar_start = next_eclipse_lun[1][2]
       jd_eclipse_lunar_end = next_eclipse_lun[1][3]
@@ -165,6 +166,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
         lunar_eclipse_str = '★cUDAmaNi-' + lunar_eclipse_str
 
       fest = FestivalInstance(name=lunar_eclipse_str, interval=Interval(jd_start=jd_eclipse_lunar_start, jd_end=jd_eclipse_lunar_end))
+      logging.warning(f'Lunar eclipse: {jd_eclipse_lunar_start} → {jd_eclipse_lunar_end}')
       self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[fday].date)
       jd += MIN_DAYS_NEXT_ECLIPSE
 
