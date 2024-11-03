@@ -277,8 +277,8 @@ class TithiFestivalAssigner(FestivalAssigner):
             self.panchaanga.add_festival(fest_id=
               'sarva-' + names.get_ekaadashii_name(ekaadashii_paksha, day_panchaanga.lunar_date.month.index),
               date=self.daily_panchaangas[smaarta_ekaadashii_fday].date)
-            if ekaadashii_paksha == 'shukla':
-              if day_panchaanga.solar_sidereal_date_sunset.month == 9:
+            if day_panchaanga.solar_sidereal_date_sunset.month == 9:
+              if ekaadashii_paksha == 'shukla':
                 self.panchaanga.add_festival(fest_id='sarva-vaikuNTha-EkAdazI', date=self.daily_panchaangas[smaarta_ekaadashii_fday].date)
           else:
             self.panchaanga.add_festival(fest_id=
@@ -287,8 +287,8 @@ class TithiFestivalAssigner(FestivalAssigner):
             self.panchaanga.add_festival(
               fest_id='vaiSNava-' + names.get_ekaadashii_name(ekaadashii_paksha, day_panchaanga.lunar_date.month.index), date=
               self.daily_panchaangas[vaishnava_ekaadashii_fday].date)
-            if ekaadashii_paksha == 'shukla':
-              if day_panchaanga.solar_sidereal_date_sunset.month == 9:
+            if day_panchaanga.solar_sidereal_date_sunset.month == 9:
+              if ekaadashii_paksha == 'shukla':
                 self.panchaanga.add_festival(fest_id='smArta-vaikuNTha-EkAdazI', date=self.daily_panchaangas[smaarta_ekaadashii_fday].date)
                 self.panchaanga.add_festival(fest_id='vaiSNava-vaikuNTha-EkAdazI', date=self.daily_panchaangas[vaishnava_ekaadashii_fday].date)
         else:
@@ -312,7 +312,8 @@ class TithiFestivalAssigner(FestivalAssigner):
             # self.add_festival('guruvAyupura-EkAdazI', smaarta_ekaadashii_fday)
             self.panchaanga.add_festival(fest_id='guruvAyupura-EkAdazI', date=self.daily_panchaangas[vaishnava_ekaadashii_fday].date)
             self.panchaanga.add_festival(fest_id='kaizika-EkAdazI', date=self.daily_panchaangas[vaishnava_ekaadashii_fday].date)
-
+          if int(day_panchaanga.lunar_date.month.index) == 12 and ekaadashii_paksha == 'shukla':
+            self.panchaanga.add_festival(fest_id='raMgabharI_EkAdazI', date=self.daily_panchaangas[smaarta_ekaadashii_fday].date)
           # Harivasara Computation
           if ekaadashii_paksha == 'shukla':
             def f(x):
