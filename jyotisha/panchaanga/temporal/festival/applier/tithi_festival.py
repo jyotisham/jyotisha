@@ -314,25 +314,13 @@ class TithiFestivalAssigner(FestivalAssigner):
             self.panchaanga.add_festival(fest_id='kaizika-EkAdazI', date=self.daily_panchaangas[vaishnava_ekaadashii_fday].date)
           if int(day_panchaanga.lunar_date.month.index) == 12 and ekaadashii_paksha == 'shukla':
             self.panchaanga.add_festival(fest_id='raMgabharI_EkAdazI', date=self.daily_panchaangas[smaarta_ekaadashii_fday].date)
+
           # Harivasara Computation
-          if ekaadashii_paksha == 'shukla':
-            def f(x):
-              tp_float = NakshatraDivision(x, ayanaamsha_id=self.ayanaamsha_id).get_anga_float(
-                zodiac.AngaType.TITHI_PADA)
-              return tp_float - 45
-            harivasara_end = brentq(
-              f,
-              self.daily_panchaangas[smaarta_ekaadashii_fday].jd_sunrise - 2,
-              self.daily_panchaangas[smaarta_ekaadashii_fday].jd_sunrise + 2)
-          else:
-            def f(x):
-              tp_float = NakshatraDivision(x, ayanaamsha_id=self.ayanaamsha_id).get_anga_float(
-                zodiac.AngaType.TITHI_PADA)
-              return tp_float - 105
-            harivasara_end = brentq(
-              f,
-              self.daily_panchaangas[smaarta_ekaadashii_fday].jd_sunrise - 2,
-              self.daily_panchaangas[smaarta_ekaadashii_fday].jd_sunrise + 2)
+          def f(x):
+            tp_float = NakshatraDivision(x, ayanaamsha_id=self.ayanaamsha_id).get_anga_float(zodiac.AngaType.TITHI_PADA)
+            return tp_float - (45 if ekaadashii_paksha == 'shukla' else 105)
+
+          harivasara_end = brentq(f, self.daily_panchaangas[smaarta_ekaadashii_fday].jd_sunrise - 2, self.daily_panchaangas[smaarta_ekaadashii_fday].jd_sunrise + 2)
           _date = self.panchaanga.city.get_timezone_obj().julian_day_to_local_time(julian_day=harivasara_end)
           _date.set_time_to_day_start()
           fday_hv = time.utc_gregorian_to_jd(_date) - time.utc_gregorian_to_jd(self.daily_panchaangas[0].date)
