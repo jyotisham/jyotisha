@@ -362,7 +362,7 @@ def _texify_description_dict(desc, fest_id):
   else:
     desc['detailed'] = desc['detailed'].replace('&', '\\&').replace('\n', '\\\\').replace('\\\\\\\\', '\\\\').replace('## ', '')
     desc['detailed'] = desc['detailed'][:1].capitalize() + desc['detailed'][1:]
-    desc['shlokas'] = desc['shlokas'].strip('\n').replace('\n', '\\\\').replace('\\\\\\\\', '\\\\').replace('\\\\  \\\\', '\\\\\\smallskip ')
+    desc['shlokas'] = desc['shlokas'].strip('\n').replace('\n', '\\\\').replace('\\\\\\\\', '\\\\').replace('\\\\  \\\\', '\\\\\\smallskip ').replace('[','{}[')
     desc['references'] = desc['references'].replace('- References\n  ', '')
     return '{%s}\n{%s}\n{%s}\n{%s}\n{%s}\n{%s}' % (desc['blurb'].replace('_', '\\_').replace('##~##','~'), 
                                      desc['detailed'].replace('_', '\\_'),
