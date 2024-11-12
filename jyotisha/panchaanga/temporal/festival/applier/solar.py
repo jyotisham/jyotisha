@@ -460,8 +460,11 @@ class SolarFestivalAssigner(FestivalAssigner):
           logging.debug('No %s involving %s in span %s!' % (msg, yoga_name, Interval(jd_start=jd_start_in, jd_end=jd_end_in)))
       else:
         fday = int(floor(jd_start) - floor(self.daily_panchaangas[0].julian_day_start))
-        if (jd_start < self.daily_panchaangas[fday].jd_sunrise):
+        if jd_start < self.daily_panchaangas[fday].jd_sunrise:
           fday -= 1
+        jd_midnight_local = self.daily_panchaangas[fday + 1].julian_day_start
+        if jd_start > jd_midnight_local and jd_end > self.daily_panchaangas[fday + 1].jd_sunrise:
+          fday += 1
         if show_debug_info:
           logging.debug(f'Adding {yoga_name} from {Interval(jd_start=jd_start, jd_end=jd_end)} on {self.daily_panchaangas[fday].date}')
         self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=yoga_name, interval=Interval(jd_start=jd_start, jd_end=jd_end)), date=self.daily_panchaangas[fday].date)
