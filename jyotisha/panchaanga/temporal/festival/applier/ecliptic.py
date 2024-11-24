@@ -1,3 +1,4 @@
+import os
 import sys
 from math import floor
 import logging
@@ -17,10 +18,116 @@ class EclipticFestivalAssigner(FestivalAssigner):
     self.set_jupiter_transits()
     self.compute_solar_eclipses()
     self.compute_lunar_eclipses()
+    self.assign_tropical_sankranti_punyakaala()
+    self.assign_tropical_sankranti()
     # for graha1 in [Graha.MOON, Graha.JUPITER, Graha.VENUS, Graha.MERCURY, Graha.MARS, Graha.SATURN, Graha.RAHU]:
     #   for graha2 in [Graha.MOON, Graha.JUPITER, Graha.VENUS, Graha.MERCURY, Graha.MARS, Graha.SATURN, Graha.RAHU]:
     #     if graha1 > graha2:
     #       self.compute_conjunctions(graha1, graha2)
+
+  def assign_tropical_sankranti_punyakaala(self):
+    if 'viSu-puNyakAlaH' not in self.rules_collection.name_to_rule:
+      return
+
+    fname = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data/misc_data/sankranti_punyakaala.toml')
+    with open(fname) as f:
+      import toml
+      punyakaala_dict = toml.load(f)
+
+      PUNYA_KAALA = {int(s): punyakaala_dict['PUNYA_KAALA'][s] for s in punyakaala_dict['PUNYA_KAALA']}
+
+    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
+      if self.daily_panchaangas[d].tropical_date_sunset.month_transition is not None:
+        sankranti_id = (self.daily_panchaangas[d + 1].tropical_date_sunset.month - 2) % 12 + 1
+        punya_kaala_str = names.NAMES['TROPICAL_SANKRANTI_PUNYAKALA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][sankranti_id] + '-puNyakAlaH'
+        if sankranti_id%3 != 1:
+          # Except for Ayana/Vishuva, add sAyana tag!
+          punya_kaala_str = 'sAyana-' + punya_kaala_str
+        jd_transition = self.daily_panchaangas[d].tropical_date_sunset.month_transition
+        # TODO: convert carefully to relative nadikas!
+        punya_kaala_start_jd = jd_transition - PUNYA_KAALA[sankranti_id][0] * 1/60
+        punya_kaala_end_jd = jd_transition + PUNYA_KAALA[sankranti_id][1] * 1/60
+
+        if self.daily_panchaangas[d - 1].jd_sunset < jd_transition < self.daily_panchaangas[d].jd_sunrise:
+          fday = d - 1
+        else:
+          fday = d
+
+        if sankranti_id == 10:
+          if jd_transition > self.daily_panchaangas[fday].jd_sunset:
+            fday += 1
+            is_puurva_half_day = True
+          else:
+            is_puurva_half_day = jd_transition < self.daily_panchaangas[fday].day_length_based_periods.puurvaahna.jd_end
+        elif sankranti_id == 4:
+          if jd_transition > self.daily_panchaangas[fday].jd_sunset:
+            is_puurva_half_day = False
+          else:
+            is_puurva_half_day = jd_transition < self.daily_panchaangas[fday].day_length_based_periods.puurvaahna.jd_end
+        else:
+          is_puurva_half_day = jd_transition < self.daily_panchaangas[fday].day_length_based_periods.puurvaahna.jd_end
+
+        if is_puurva_half_day:
+          half_day = 'pUrvAhNa'
+          half_day_interval = self.daily_panchaangas[fday].day_length_based_periods.puurvaahna
+        else:
+          half_day = 'aparAhNa'
+          half_day_interval = self.daily_panchaangas[fday].day_length_based_periods.aparaahna
+        self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='sAyana-saGkramaNa-dina-%s-puNyakAlaH' % half_day, interval=half_day_interval), date=self.daily_panchaangas[fday].date)
+
+        punya_kaala_start_jd = max(punya_kaala_start_jd, self.daily_panchaangas[fday].jd_sunrise)
+        punya_kaala_end_jd = min(punya_kaala_end_jd, self.daily_panchaangas[fday].jd_sunset)
+        if punya_kaala_end_jd > punya_kaala_start_jd:
+          self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=punya_kaala_str, interval=Interval(jd_start=punya_kaala_start_jd, jd_end=punya_kaala_end_jd)), date=self.daily_panchaangas[fday].date)
+        else:
+          self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=punya_kaala_str, interval=Interval(jd_start=None, jd_end=None)),
+                                                date=self.daily_panchaangas[fday].date)
+
+        if sankranti_id not in [2, 5, 8, 11]: # these cases are redundant!
+          saamaanya_punya_kaala_start_jd = jd_transition - 16 * 1/60
+          saamaanya_punya_kaala_end_jd = jd_transition + 16 * 1/60
+
+          saamaanya_punya_kaala_start_jd = max(saamaanya_punya_kaala_start_jd, self.daily_panchaangas[fday].jd_sunrise)
+          # if sankranti_id == 10 and saamaanya_punya_kaala_start_jd < jd_transition < saamaanya_punya_kaala_end_jd:
+          #   saamaanya_punya_kaala_start_jd = jd_transition
+
+          saamaanya_punya_kaala_end_jd = min(saamaanya_punya_kaala_end_jd, self.daily_panchaangas[fday].jd_sunset)
+          # if sankranti_id == 4 and saamaanya_punya_kaala_start_jd < jd_transition < saamaanya_punya_kaala_end_jd:
+          #   saamaanya_punya_kaala_end_jd = jd_transition
+
+          if saamaanya_punya_kaala_end_jd > saamaanya_punya_kaala_start_jd:
+            self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='sAyana-ravi-saGkramaNa-puNyakAlaH', interval=Interval(jd_start=saamaanya_punya_kaala_start_jd, jd_end=saamaanya_punya_kaala_end_jd)), date=self.daily_panchaangas[fday].date)
+
+  def assign_tropical_sankranti(self):
+    if 'viSu-puNyakAlaH' not in self.rules_collection.name_to_rule:
+      return
+    RTU_MASA_TAGS = {
+      1: "/vasantaRtuH",
+      2: "",
+      3: "/grISmaRtuH",
+      4: "",
+      5: "/varSaRtuH/dakSiNAyanam",
+      6: "",
+      7: "/zaradRtuH",
+      8: "",
+      9: "/hEmantaRtuH",
+      10: "",
+      11: "/ziziraRtuH/uttarAyaNam",
+      12: "",
+    }
+
+    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
+      if self.daily_panchaangas[d].tropical_date_sunset.month_transition is not None:
+        jd_transition = self.daily_panchaangas[d].tropical_date_sunset.month_transition
+
+        # Addsankranti
+        masa_id = (self.daily_panchaangas[d + 1].tropical_date_sunset.month - 2) % 12 + 1
+        masa_name = names.NAMES['RTU_MASA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][masa_id] + RTU_MASA_TAGS[masa_id]
+        if jd_transition < self.daily_panchaangas[d].jd_sunrise:
+          fday = d - 1
+        else:
+          fday = d
+        self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=masa_name, interval=Interval(jd_start=jd_transition, jd_end=None)), date=self.daily_panchaangas[fday].date)
 
   def compute_conjunctions(self, Graha1, Graha2, delta=0.0):
     # Compute the time of conjunction between Graha1 and Graha2
