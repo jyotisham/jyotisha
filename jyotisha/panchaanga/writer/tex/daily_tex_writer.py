@@ -96,7 +96,7 @@ def emit(panchaanga, time_format="hh:mm", languages=None, scripts=None, output_s
 
     # Assign samvatsara, ayana, rtu #
     sar_data = '{%s}{%s}{%s}' % (yname,
-                                 names.NAMES['AYANA_NAMES']['sa'][scripts[0]][daily_panchaanga.solar_sidereal_date_sunset.month],
+                                 names.NAMES['AYANA_NAMES']['sa'][scripts[0]][daily_panchaanga.solar_sidereal_date_sunset.month % 12 + 1],
                                  names.NAMES['RTU_NAMES']['sa'][scripts[0]][daily_panchaanga.solar_sidereal_date_sunset.month])
 
     if daily_panchaanga.solar_sidereal_date_sunset.month_transition is None:
