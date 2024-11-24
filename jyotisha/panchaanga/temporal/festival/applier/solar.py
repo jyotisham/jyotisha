@@ -202,14 +202,14 @@ class SolarFestivalAssigner(FestivalAssigner):
         1: "/vasantaRtuH",
         2: "",
         3: "/grISmaRtuH",
-        4: "/dakSiNAyanam",
-        5: "/varSaRtuH",
+        4: "",
+        5: "/varSaRtuH/dakSiNAyanam",
         6: "",
         7: "/zaradRtuH",
         8: "",
         9: "/hEmantaRtuH",
-        10: "/uttarAyaNam",
-        11: "/ziziraRtuH",
+        10: "",
+        11: "/ziziraRtuH/uttarAyaNam",
         12: "",
     }
 
