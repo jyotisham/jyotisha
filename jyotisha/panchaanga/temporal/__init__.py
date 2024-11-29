@@ -2,6 +2,7 @@ import logging
 import os
 import sys
 
+import methodtools
 import regex
 from sanskrit_data.schema import common
 from sanskrit_data.schema.common import JsonObject
@@ -59,7 +60,7 @@ class FestivalOptions(JsonObject):
     :param no_fests: 
     :param fest_repos: 
     :param fest_ids_included_unimplemented: TODO: rename when actually implemented 
-    :param fest_ids_excluded_unimplemented:  TODO: rename when actually implemented 
+    :param fest_repos_excluded_patterns
     :param aparaahna_as_second_half: 
     :param prefer_eight_fold_day_division: 
     :param set_pancha_paxi_activities: 
@@ -75,12 +76,18 @@ class FestivalOptions(JsonObject):
     self.init_repos()
 
     self.fest_id_patterns_excluded = fest_id_patterns_excluded
-    if fest_id_patterns_excluded is not None:
-      self.fest_id_patterns_excluded = regex.compile("|".join(fest_id_patterns_excluded))
     self.fest_ids_included_unimplemented = fest_ids_included_unimplemented
 
     self.prefer_eight_fold_day_division = prefer_eight_fold_day_division
     self.julian_handling = julian_handling
+
+  @methodtools.lru_cache()
+  def get_fest_id_pattern_excluded(self):
+    if self.fest_id_patterns_excluded is not None:
+      return regex.compile("|".join(self.fest_id_patterns_excluded))
+    else:
+      return regex.compile("")
+
 
   def init_repos(self):
     if not hasattr(self, "repos") or self.repos is None:
