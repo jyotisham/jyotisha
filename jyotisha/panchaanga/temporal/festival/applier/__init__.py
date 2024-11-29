@@ -17,8 +17,9 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
   def __init__(self, panchaanga):
     super(FestivalAssigner, self).__init__(panchaanga=panchaanga)
     self.festival_id_to_days = panchaanga.festival_id_to_days
+    self.festival_options = panchaanga.computation_system.festival_options
     self.rules_collection = rules.RulesCollection.get_cached(
-      repos_tuple=tuple(panchaanga.computation_system.festival_options.repos), julian_handling=panchaanga.computation_system.festival_options.julian_handling)
+      repos_tuple=tuple(panchaanga.computation_system.festival_options.repos), julian_handling=self.festival_options.julian_handling)
 
   @timebudget
   def assign_festival_numbers(self):

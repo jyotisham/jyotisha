@@ -52,7 +52,7 @@ def get_2_day_interval_boundary_angas(kaala, anga_type, p0, p1):
 
 
 class FestivalOptions(JsonObject):
-  def __init__(self, set_lagnas=None, no_fests=None, fest_repos=None, fest_ids_included_unimplemented=None, fest_ids_excluded_unimplemented=None, fest_repos_excluded_patterns=None, aparaahna_as_second_half=False, prefer_eight_fold_day_division=False, set_pancha_paxi_activities=None, julian_handling=RulesCollection.JULIAN_TO_GREGORIAN):
+  def __init__(self, set_lagnas=None, no_fests=None, fest_repos=None, fest_ids_included_unimplemented=None, fest_id_patterns_excluded=None, fest_repos_excluded_patterns=None, aparaahna_as_second_half=False, prefer_eight_fold_day_division=False, set_pancha_paxi_activities=None, julian_handling=RulesCollection.JULIAN_TO_GREGORIAN):
     """
     
     :param set_lagnas: 
@@ -74,7 +74,9 @@ class FestivalOptions(JsonObject):
     self.repos = fest_repos
     self.init_repos()
 
-    self.fest_ids_excluded_unimplemented = fest_ids_excluded_unimplemented
+    self.fest_id_patterns_excluded = fest_id_patterns_excluded
+    if fest_id_patterns_excluded is not None:
+      self.fest_id_patterns_excluded = regex.compile("|".join(fest_id_patterns_excluded))
     self.fest_ids_included_unimplemented = fest_ids_included_unimplemented
 
     self.prefer_eight_fold_day_division = prefer_eight_fold_day_division

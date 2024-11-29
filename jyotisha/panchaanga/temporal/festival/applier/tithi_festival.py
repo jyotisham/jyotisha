@@ -436,6 +436,11 @@ class TithiFestivalAssigner(FestivalAssigner):
         self.panchaanga.add_festival(fest_id=pref + 'pradOSa-vratam', date=self.daily_panchaangas[fday].date, interval_id="pradosha")
 
   def assign_ishti_sthaaliipaaka(self):
+    """
+    सम्बद्धविचारो ऽत्र - https://github.com/jyotisham/jyotisha/issues/132
+    
+    :return: 
+    """
     if 'darsheShTiH' not in self.rules_collection.name_to_rule:
       return
     tithi_finder = zodiac.AngaSpanFinder.get_cached(ayanaamsha_id=Ayanamsha.CHITRA_AT_180,

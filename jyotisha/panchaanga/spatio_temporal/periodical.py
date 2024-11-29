@@ -5,6 +5,7 @@ from collections import defaultdict
 from typing import Dict
 
 import methodtools
+import regex
 from timebudget import timebudget
 
 from jyotisha.panchaanga.spatio_temporal import daily
@@ -202,7 +203,13 @@ class Panchaanga(common.JsonObject):
 
   def add_festival(self, fest_id, date, interval_id="full_day"):
     if date.get_date_str() not in self.date_str_to_panchaanga:
-      return 
+      return
+    excluded_id_pattern = self.computation_system.festival_options.fest_id_patterns_excluded
+    if excluded_id_pattern is not None:
+      if excluded_id_pattern.fullmatch(fest_id):
+        return 
+
+
     interval = self.date_str_to_panchaanga[date.get_date_str()].get_interval(interval_id=interval_id)
     self.add_festival_instance(date=date, festival_instance=FestivalInstance(name=fest_id, interval=interval))
 
