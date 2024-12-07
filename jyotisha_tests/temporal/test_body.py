@@ -4,6 +4,7 @@ import numpy
 
 from jyotisha.panchaanga.temporal import body
 from jyotisha.panchaanga.temporal.body import Graha, Transit
+from jyotisha.panchaanga.temporal.zodiac import Ayanamsha
 
 logging.basicConfig(
   level=logging.DEBUG,
@@ -17,6 +18,8 @@ def test_graha_get_longitude():
 def test_longitude_difference():
   numpy.testing.assert_approx_equal(body.longitude_difference(jd=2458484.545, body1=Graha.singleton(Graha.SUN), body2=Graha.singleton(Graha.MARS)), -79.66, significant=2)
   numpy.testing.assert_approx_equal(body.longitude_difference(jd=2458485.5453, body1=Graha.singleton(Graha.SUN), body2=Graha.singleton(Graha.MARS)), -79.31, significant=2)
+  # A.D. 2024 December 8	01:03 UT (6:33 IST)
+  numpy.testing.assert_approx_equal(body.longitude_difference(jd=2460652.544190, body1=Graha.singleton(Graha.SUN), body2=Graha.singleton(Graha.JUPITER)), -179.80360178539186, significant=2)
 
 
 def test_graha_get_next_raashi_transit():

@@ -24,7 +24,6 @@ class AngaType(common.JsonObject):
   SOLAR_NAKSH = None
   SOLAR_NAKSH_PADA = None
   SAMVATSARA = None
-  DEGREE = None
   GRAHA_RASHI = {}
 
   def __init__(self, name, name_hk, num_angas, body_weights=None, mean_period_days=None, names_dict=None):
@@ -89,7 +88,6 @@ AngaType.RASHI = AngaType(name='RASHI', name_hk="rAziH", num_angas=12, body_weig
 AngaType.YOGA = AngaType(name='YOGA', name_hk="yOgaH", num_angas=27, body_weights={Graha.MOON: 1, Graha.SUN: 1}, mean_period_days=29.541)
 AngaType.YOGA_PADA = AngaType(name='YOGA_PADA', name_hk="yOga-pAdaH", num_angas=108, body_weights={Graha.MOON: 1, Graha.SUN: 1}, mean_period_days=29.541)
 AngaType.KARANA = AngaType(name='KARANA', name_hk="karaNam", num_angas=60, body_weights={Graha.MOON: 1, Graha.SUN: -1}, mean_period_days=29.4)
-AngaType.DEGREE = AngaType(name='DEGREE', name_hk=None, num_angas=360)
 AngaType.SIDEREAL_MONTH = AngaType(name='SIDEREAL_MONTH', name_hk="rAzi-mAsaH", num_angas=12, body_weights={Graha.MOON: 0, Graha.SUN: 1}, mean_period_days=365.242)
 AngaType.TROPICAL_MONTH = AngaType(name='TROPICAL_MONTH', name_hk="Artava-mAsaH", num_angas=12, body_weights={Graha.MOON: 0, Graha.SUN: 1}, mean_period_days=365.242)
 AngaType.SOLAR_NAKSH = AngaType(name='SOLAR_NAKSH', name_hk="saura-nakSatram", num_angas=27, body_weights={Graha.MOON: 0, Graha.SUN: 1}, mean_period_days=365.242)
@@ -105,6 +103,10 @@ AngaType.GRAHA_RASHI[Graha.RAHU] = AngaType(name='RASHI_RAHU', name_hk="rAhu-rAz
 AngaType.GRAHA_RASHI[Graha.KETU] = AngaType(name='RASHI_KETU', name_hk="kEtu-rAziH", num_angas=12, body_weights={Graha.KETU: 1}, mean_period_days=6798.383)
 
 class Anga(common.JsonObject):
+  """
+  Crucial assumption about an anga is that it'r range starts with 1, and not 0.
+  
+  """
   def __init__(self, index, anga_type_id):
     super(Anga, self).__init__()
     self.index = index

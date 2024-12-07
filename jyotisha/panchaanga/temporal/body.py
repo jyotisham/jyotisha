@@ -81,11 +81,6 @@ class Graha(JsonObject):
         return (swe.degnorm(swe.calc_ut(jd, swe.TRUE_NODE)[0][0]) + 180) % 360
       return swe.degnorm(swe.calc_ut(jd, self._get_swisseph_id())[0][0])
 
-  @methodtools.lru_cache(maxsize=10)
-  def get_longitude_anga(self, jd):
-    from jyotisha.panchaanga.temporal import Anga, AngaType
-    return Anga(index=self.get_longitude(jd=jd) + 1, anga_type_id=AngaType.DEGREE.name)
-
   def get_transits(self, jd_start: float, jd_end: float, ayanaamsha_id: str, anga_type: object) -> [Transit]:
     """Returns the next transit of the given planet e.g. jupiter
 
@@ -146,8 +141,24 @@ class Graha(JsonObject):
 
 
 def longitude_difference(jd, body1, body2):
-  return body1.get_longitude_anga(jd=jd) - body2.get_longitude_anga(jd=jd)
-
+  """
+  
+  Specs - 15 - 24 == -9, 15-4 = 11, 15 - 290 = 85
+  
+  :param jd: 
+  :param body1: 
+  :param body2: 
+  :return: 
+  """
+  diff = body1.get_longitude(jd=jd) - body2.get_longitude(jd=jd)
+  if diff <= 180 and diff >= 0:
+    return diff
+  if diff <= 0 and diff >= -180:
+    return diff
+  if diff > 180:
+    return diff - 360
+  if diff < -180:
+    return 360 + diff
 
 def get_star_longitude(star, jd):
   """ Calculate star longitude based on sefstars.txt.

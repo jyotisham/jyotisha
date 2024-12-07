@@ -18,18 +18,6 @@ def test_minus():
   assert a1 - 1 == angas.Anga.get_cached(index=12, anga_type_id=angas.AngaType.RASHI.name)
 
 
-def test_degree_minus():
-  a1 = angas.Anga.get_cached(index=26, anga_type_id=angas.AngaType.DEGREE.name)
-  a2 = angas.Anga(index=1, anga_type_id=angas.AngaType.DEGREE.name)
-  assert a1 - a2 == 25
-
-  a2 = angas.Anga(index=359, anga_type_id=angas.AngaType.DEGREE.name)
-  assert a1 - a2 == 27
-  assert a2 - a1 == -27
-
-  a2 = angas.Anga(index=359.5, anga_type_id=angas.AngaType.DEGREE.name)
-  assert a1 - a2 == 26.5
-
 def test_comparison():
   a1 = angas.Anga.get_cached(index=27, anga_type_id=angas.AngaType.NAKSHATRA.name)
   a3 = angas.Anga.get_cached(index=27, anga_type_id=angas.AngaType.NAKSHATRA.name)

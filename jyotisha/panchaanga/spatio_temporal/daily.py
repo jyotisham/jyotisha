@@ -522,7 +522,10 @@ class DailyPanchaanga(common.JsonObject):
       return abs(body.longitude_difference(jd=jd, body1=body1, body2=body2)) < gap
 
     sign = lambda x: -1 if x < 0 else (1 if x > 0 else (0 if x == 0 else None))
-    return has_collision(jd=self.jd_sunrise) or has_collision(jd=self.jd_next_sunrise) or sign(body.longitude_difference(jd=self.jd_sunrise, body1=body1, body2=body2)) != sign(body.longitude_difference(jd=self.jd_next_sunrise, body1=body1, body2=body2))
+    
+    # the last condition avoids marking गुरुः (179.04° → -179.80°) as a conjunction
+    crossover_inbetween = sign(body.longitude_difference(jd=self.jd_sunrise, body1=body1, body2=body2)) != sign(body.longitude_difference(jd=self.jd_next_sunrise, body1=body1, body2=body2)) and abs(body.longitude_difference(jd=self.jd_sunrise, body1=body1, body2=body2)) < 90
+    return has_collision(jd=self.jd_sunrise) or has_collision(jd=self.jd_next_sunrise) or crossover_inbetween
 
   def set_mauDhyas(self):
     sun = Graha.singleton(body_name=Graha.SUN)
