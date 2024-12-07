@@ -76,9 +76,10 @@ class Graha(JsonObject):
       from jyotisha.panchaanga.temporal.zodiac import Ayanamsha
       return (self.get_longitude(jd=jd) - Ayanamsha.singleton(ayanaamsha_id).get_offset(jd)) % 360
     else:
+      
       if self.body_name == Graha.KETU:
-        return (swe.calc_ut(jd, swe.TRUE_NODE)[0][0] + 180) % 360
-      return swe.calc_ut(jd, self._get_swisseph_id())[0][0]
+        return (swe.degnorm(swe.calc_ut(jd, swe.TRUE_NODE)[0][0]) + 180) % 360
+      return swe.degnorm(swe.calc_ut(jd, self._get_swisseph_id())[0][0])
 
   @methodtools.lru_cache(maxsize=10)
   def get_longitude_anga(self, jd):
