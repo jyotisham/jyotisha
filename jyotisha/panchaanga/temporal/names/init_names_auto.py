@@ -9,7 +9,7 @@ from indic_transliteration import sanscript
 logging.basicConfig(level=logging.DEBUG,
                     format="%(levelname)s: %(asctime)s {%(filename)s:%(lineno)d}: %(message)s ")
 
-scripts = [sanscript.roman.HK_DRAVIDIAN, sanscript.ISO, sanscript.TAMIL, sanscript.TELUGU, sanscript.GRANTHA, sanscript.MALAYALAM]
+scripts = [sanscript.roman.HK_DRAVIDIAN, sanscript.ISO, sanscript.TAMIL, sanscript.TELUGU, sanscript.GRANTHA, sanscript.MALAYALAM, sanscript.KANNADA]
 
 
 def init_names_auto(fname=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'festival/data/period_names/misc_names.toml')):
