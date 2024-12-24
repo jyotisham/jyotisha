@@ -290,7 +290,7 @@ class EightFoldDivision(common.JsonObject):
                        get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=2, num_parts=4),
                        get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=3, num_parts=4)]
     self.shayana = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=3, num_parts=8)
-    self.dinaanta = get_interval(jd_sunset, end_jd=jd_next_sunrise, part_index=5, num_parts=8)
+    self.dinaanta = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=5, num_parts=8)
 
     self.praatah = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=0, num_parts=8)
     self.saangava = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=2, num_parts=8)
