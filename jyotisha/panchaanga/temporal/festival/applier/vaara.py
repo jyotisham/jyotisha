@@ -120,10 +120,6 @@ class VaraFestivalAssigner(FestivalAssigner):
                  (1, 2, 'bhaumAzvinI'), 
                  (17, 3, 'budhAnurAdhA'), (8, 4, 'gurupuSya'),
                  (27, 5, 'bhRgurEvatI'), (4, 6, 'zanirOhiNI')]
-    VARA_VRATA_YOGAS = [(13, 0, 'Adityahasta'), (14, 1, 'sOmacitrA'),
-                        (15, 2, 'aGgArakasvAtI'), (16, 3, 'budhavizAkhA'),
-                        (17, 4, 'guru-anurAdhA'), (18, 5, 'bhRgujyESTha'),
-                        (19, 6, 'zanimUlA')]
 
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       # NAKSHATRA-WEEKDAY FESTIVALS
@@ -143,6 +139,25 @@ class VaraFestivalAssigner(FestivalAssigner):
                 interval = Interval(jd_start=nakshatra_end_jd, jd_end=None)
               
               self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=f'{festival_name}-yOgaH', interval=interval), date=self.daily_panchaangas[d].date)
+
+    if 'Adityahasta-naktavrata-yOgaH' not in self.rules_collection.name_to_rule:
+      return
+
+    VARA_VRATA_YOGAS = [(13, 0, 'Adityahasta'), (14, 1, 'sOmacitrA'),
+                        (15, 2, 'aGgArakasvAtI'), (16, 3, 'budhavizAkhA'),
+                        (17, 4, 'guru-anurAdhA'), (18, 5, 'bhRgujyESTha'),
+                        (19, 6, 'zanimUlA')]
+
+    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
+      for (festival_nakshatra, festival_weekday, festival_name) in VARA_VRATA_YOGAS:
+        if self.daily_panchaangas[d].date.get_weekday() == festival_weekday:
+          nakshatram_saayam = NakshatraDivision(jd=self.daily_panchaangas[d].jd_sunset, ayanaamsha_id=self.panchaanga.computation_system.ayanaamsha_id).get_anga(anga_type=AngaType.NAKSHATRA).index
+          raatri_end = self.daily_panchaangas[d].day_length_based_periods.eight_fold_division.raatri_yaama[0].jd_end
+          nakshatram_raatri = NakshatraDivision(jd=raatri_end, ayanaamsha_id=self.panchaanga.computation_system.ayanaamsha_id).get_anga(anga_type=AngaType.NAKSHATRA).index
+          if festival_nakshatra in [nakshatram_saayam, nakshatram_raatri]:
+            self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=f'{festival_name}-naktavrata-yOgaH'),
+                                                  date=self.daily_panchaangas[d].date)
+
 
   def assign_vara_yoga_yoga_vratam(self):
     if 'pAtArka-yOgaH' not in self.rules_collection.name_to_rule:
