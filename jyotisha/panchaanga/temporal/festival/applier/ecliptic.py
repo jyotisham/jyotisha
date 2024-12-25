@@ -121,7 +121,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
         jd_transition = self.daily_panchaangas[d].tropical_date_sunset.month_transition
 
         # Addsankranti
-        masa_id = (self.daily_panchaangas[d + 1].tropical_date_sunset.month - 2) % 12 + 1
+        masa_id = (self.daily_panchaangas[d + 1].tropical_date_sunset.month - 1) % 12 + 1
         masa_name = names.NAMES['RTU_MASA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][masa_id] + RTU_MASA_TAGS[masa_id]
         if jd_transition < self.daily_panchaangas[d].jd_sunrise:
           fday = d - 1
