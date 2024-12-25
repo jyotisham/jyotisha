@@ -19,7 +19,7 @@ class VaraFestivalAssigner(FestivalAssigner):
     self.assign_nakshatra_vara_yoga_vratam()
     self.assign_tithi_vara_yoga_mangala_angaaraka()
     self.assign_tithi_vara_yoga_kRSNAGgAraka()
-    self.assign_vara_yoga_vratam()
+    self.assign_vara_yoga_yoga_vratam()
     self.assign_tithi_vara_yoga_budhaaShTamii()
 
 
@@ -144,7 +144,7 @@ class VaraFestivalAssigner(FestivalAssigner):
               
               self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=f'{festival_name}-yOgaH', interval=interval), date=self.daily_panchaangas[d].date)
 
-  def assign_vara_yoga_vratam(self):
+  def assign_vara_yoga_yoga_vratam(self):
     if 'pAtArka-yOgaH' not in self.rules_collection.name_to_rule:
       return 
     PAATA_YOGA = 17 # vyatipAta
