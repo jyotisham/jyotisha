@@ -76,6 +76,8 @@ class FestivalOptions(JsonObject):
     if self.tropical_month_start == "madhava_at_equinox":
       self.fest_repos_excluded_patterns += [".*viSuvAdi.*"]
     else:
+      if ".*viSuvAdi.*" in self.fest_repos_excluded_patterns:
+        self.fest_repos_excluded_patterns.remove(".*viSuvAdi.*")
       self.fest_repos_excluded_patterns += [".*ayanAdi.*"]
 
     self.repos = fest_repos
@@ -106,6 +108,7 @@ class FestivalOptions(JsonObject):
         for x in self.fest_repos_excluded_patterns:
           if regex.fullmatch(x, repo.name):
             include = False
+            logging.warning(f'Excluding {repo.name} based on pattern {x}')
             break
         if include:
           repos.append(repo)
