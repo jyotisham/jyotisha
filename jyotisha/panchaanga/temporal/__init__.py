@@ -53,7 +53,7 @@ def get_2_day_interval_boundary_angas(kaala, anga_type, p0, p1):
 
 
 class FestivalOptions(JsonObject):
-  def __init__(self, set_lagnas=None, no_fests=None, fest_repos=None, fest_ids_included_unimplemented=None, fest_id_patterns_excluded=None, fest_repos_excluded_patterns=None, aparaahna_as_second_half=False, prefer_eight_fold_day_division=False, set_pancha_paxi_activities=None, julian_handling=RulesCollection.JULIAN_TO_GREGORIAN):
+  def __init__(self, set_lagnas=None, no_fests=None, fest_repos=None, fest_ids_included_unimplemented=None, fest_id_patterns_excluded=None, fest_repos_excluded_patterns=[], aparaahna_as_second_half=False, prefer_eight_fold_day_division=False, set_pancha_paxi_activities=None, julian_handling=RulesCollection.JULIAN_TO_GREGORIAN, tropical_month_start="mAdhava_at_equinox"):
     """
     
     :param set_lagnas: 
@@ -71,7 +71,15 @@ class FestivalOptions(JsonObject):
     self.set_pancha_paxi_activities = set_pancha_paxi_activities
     self.aparaahna_as_second_half = aparaahna_as_second_half
     self.no_fests = no_fests
+    self.tropical_month_start = tropical_month_start
     self.fest_repos_excluded_patterns = fest_repos_excluded_patterns
+    if self.tropical_month_start == "mAdhava_at_equinox":
+      self.fest_repos_excluded_patterns += [".*viSuvAdi.*"]
+    else:
+      if ".*viSuvAdi.*" in self.fest_repos_excluded_patterns:
+        self.fest_repos_excluded_patterns.remove(".*viSuvAdi.*")
+      self.fest_repos_excluded_patterns += [".*ayanAdi.*"]
+
     self.repos = fest_repos
     self.init_repos()
 
@@ -100,6 +108,7 @@ class FestivalOptions(JsonObject):
         for x in self.fest_repos_excluded_patterns:
           if regex.fullmatch(x, repo.name):
             include = False
+            logging.warning(f'Excluding {repo.name} based on pattern {x}')
             break
         if include:
           repos.append(repo)

@@ -29,6 +29,9 @@
     "ayanaamsha_id": "CHITRA_AT_180",
     "festival_options": {
       "aparaahna_as_second_half": false,
+      "fest_repos_excluded_patterns": [
+        ".*viSuvAdi.*"
+      ],
       "jsonClass": "FestivalOptions",
       "julian_handling": "converted to Gregorian",
       "prefer_eight_fold_day_division": false,
@@ -244,9 +247,9 @@
           "name": "time_focus/nakta-vrata-yoga"
         },
         {
-          "base_url": "https://github.com/jyotisham/adyatithi/blob/master/time_focus/Rtu",
+          "base_url": "https://github.com/jyotisham/adyatithi/blob/master/time_focus/Rtu/tropical-ayanAdi",
           "jsonClass": "RulesRepo",
-          "name": "time_focus/Rtu"
+          "name": "time_focus/Rtu/tropical-ayanAdi"
         },
         {
           "base_url": "https://github.com/jyotisham/adyatithi/blob/master/time_focus/luno-tropical/smArta",
@@ -328,7 +331,8 @@
           "jsonClass": "RulesRepo",
           "name": "time_focus/manvAdiH"
         }
-      ]
+      ],
+      "tropical_month_start": "mAdhava_at_equinox"
     },
     "graha_lopa_measures": {
       "graha_id_to_lopa_measure": {

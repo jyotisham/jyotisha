@@ -101,7 +101,8 @@ class EclipticFestivalAssigner(FestivalAssigner):
   def assign_tropical_sankranti(self):
     if 'viSu-puNyakAlaH' not in self.rules_collection.name_to_rule:
       return
-    RTU_MASA_TAGS = {
+    if self.panchaanga.computation_system.festival_options.tropical_month_start == 'mAdhava_at_equinox':
+      RTU_MASA_TAGS = {
       1: "/vasantaRtuH",
       2: "",
       3: "/grISmaRtuH",
@@ -114,14 +115,31 @@ class EclipticFestivalAssigner(FestivalAssigner):
       10: "",
       11: "/ziziraRtuH/uttarAyaNam",
       12: "",
-    }
-
+      }
+    else:
+      RTU_MASA_TAGS = {
+        1: "/vasantaRtuH",
+        2: "",
+        3: "/grISmaRtuH",
+        4: "/dakSiNAyanam",
+        5: "/varSaRtuH",
+        6: "",
+        7: "/zaradRtuH",
+        8: "",
+        9: "/hEmantaRtuH",
+        10: "/uttarAyaNam",
+        11: "/ziziraRtuH",
+        12: "",
+      }
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       if self.daily_panchaangas[d].tropical_date_sunset.month_transition is not None:
         jd_transition = self.daily_panchaangas[d].tropical_date_sunset.month_transition
 
         # Addsankranti
-        masa_id = (self.daily_panchaangas[d + 1].tropical_date_sunset.month - 1) % 12 + 1
+        if self.panchaanga.computation_system.festival_options.tropical_month_start == 'mAdhava_at_equinox':
+          masa_id = self.daily_panchaangas[d + 1].tropical_date_sunset.month
+        else:
+          masa_id = (self.daily_panchaangas[d + 1].tropical_date_sunset.month - 2) % 12 + 1
         masa_name = names.NAMES['RTU_MASA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][masa_id] + RTU_MASA_TAGS[masa_id]
         if jd_transition < self.daily_panchaangas[d].jd_sunrise:
           fday = d - 1
