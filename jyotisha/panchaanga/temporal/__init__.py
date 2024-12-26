@@ -53,7 +53,7 @@ def get_2_day_interval_boundary_angas(kaala, anga_type, p0, p1):
 
 
 class FestivalOptions(JsonObject):
-  def __init__(self, set_lagnas=None, no_fests=None, fest_repos=None, fest_ids_included_unimplemented=None, fest_id_patterns_excluded=None, fest_repos_excluded_patterns=[], aparaahna_as_second_half=False, prefer_eight_fold_day_division=False, set_pancha_paxi_activities=None, julian_handling=RulesCollection.JULIAN_TO_GREGORIAN, tropical_month_start="madhava_at_equinox"):
+  def __init__(self, set_lagnas=None, no_fests=None, fest_repos=None, fest_ids_included_unimplemented=None, fest_id_patterns_excluded=None, fest_repos_excluded_patterns=[], aparaahna_as_second_half=False, prefer_eight_fold_day_division=False, set_pancha_paxi_activities=None, julian_handling=RulesCollection.JULIAN_TO_GREGORIAN, tropical_month_start="mAdhava_at_equinox"):
     """
     
     :param set_lagnas: 
@@ -73,7 +73,7 @@ class FestivalOptions(JsonObject):
     self.no_fests = no_fests
     self.tropical_month_start = tropical_month_start
     self.fest_repos_excluded_patterns = fest_repos_excluded_patterns
-    if self.tropical_month_start == "madhava_at_equinox":
+    if self.tropical_month_start == "mAdhava_at_equinox":
       self.fest_repos_excluded_patterns += [".*viSuvAdi.*"]
     else:
       if ".*viSuvAdi.*" in self.fest_repos_excluded_patterns:
