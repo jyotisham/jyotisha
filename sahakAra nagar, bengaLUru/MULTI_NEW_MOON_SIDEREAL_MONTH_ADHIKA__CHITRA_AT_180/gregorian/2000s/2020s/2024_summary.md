@@ -31,7 +31,7 @@ fest_id_patterns_excluded = [ "sthAlIpAkaH_\\d+",]
 fest_repos_excluded_patterns = [ ".*kAnchI.*", ".*mAdhva.*", ".*smArta-misc.*", ".*zRGgErI.*", ".*nAyanmAr.*", ".*sangIta-kRt.*", ".*temples.*",]
 julian_handling = "converted to Gregorian"
 prefer_eight_fold_day_division = true
-tropical_month_start = "madhava_at_equinox"
+tropical_month_start = "mAdhava_at_equinox"
 jsonClass = "FestivalOptions"
 
 ```

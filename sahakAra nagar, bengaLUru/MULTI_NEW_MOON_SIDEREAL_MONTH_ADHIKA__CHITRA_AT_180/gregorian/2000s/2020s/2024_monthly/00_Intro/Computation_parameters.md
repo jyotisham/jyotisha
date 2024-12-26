@@ -25,7 +25,7 @@ saturn = 15
 ## Event options
  ```
 aparaahna_as_second_half = true
-tropical_month_start = "madhava_at_equinox"
+tropical_month_start = "mAdhava_at_equinox"
 prefer_eight_fold_day_division = true
 julian_handling = "converted to Gregorian"
 fest_repos_excluded_patterns = [ ".*kAnchI.*", ".*mAdhva.*", ".*smArta-misc.*", ".*zRGgErI.*", ".*nAyanmAr.*", ".*sangIta-kRt.*", ".*temples.*",]
