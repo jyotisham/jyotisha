@@ -27,6 +27,7 @@ def to_table_dict(panchaanga, script=sanscript.DEVANAGARI):
       day_dict["lunar_year (maudUdI)"] = daily_panchaanga.get_year_number(month_type=RulesRepo.LUNAR_MONTH_DIR, era_id=era.ERA_TIPU_MAULUDI)
     day_dict["lunar_samvatsara"] = daily_panchaanga.get_samvatsara(month_type=RulesRepo.LUNAR_MONTH_DIR).get_name(script=script)
     day_dict["lunar_year (shaka)"] = daily_panchaanga.get_year_number(month_type=RulesRepo.LUNAR_MONTH_DIR, era_id=era.ERA_SHAKA)
+    day_dict["lunar_year (vikrama)"] = daily_panchaanga.get_year_number(month_type=RulesRepo.LUNAR_MONTH_DIR, era_id=era.ERA_VIKRAMA)
     day_dict["lunar_year (kali)"] = daily_panchaanga.get_year_number(month_type=RulesRepo.LUNAR_MONTH_DIR, era_id=era.ERA_KALI)
     day_dict["tropical"] = daily_panchaanga.get_date(month_type=RulesRepo.TROPICAL_MONTH_DIR).get_date_str()
     day_dict["tropical_month"] = daily_panchaanga.get_month_str(month_type=RulesRepo.TROPICAL_MONTH_DIR, script=script)
