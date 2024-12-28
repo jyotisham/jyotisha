@@ -74,7 +74,8 @@ class FestivalOptions(JsonObject):
     self.tropical_month_start = tropical_month_start
     self.fest_repos_excluded_patterns = fest_repos_excluded_patterns
     if self.tropical_month_start == "mAdhava_at_equinox":
-      self.fest_repos_excluded_patterns += [".*viSuvAdi.*"]
+      if ".*viSuvAdi.*" not in self.fest_repos_excluded_patterns:
+        self.fest_repos_excluded_patterns += [".*viSuvAdi.*"]
     else:
       if ".*viSuvAdi.*" in self.fest_repos_excluded_patterns:
         self.fest_repos_excluded_patterns.remove(".*viSuvAdi.*")
