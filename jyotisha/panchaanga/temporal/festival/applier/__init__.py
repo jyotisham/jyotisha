@@ -68,7 +68,7 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
             fest_num = period_start_year + year_offset - fest_start_year
 
           if fest_num <= 0:
-            logging.debug('Festival %s is only in the future!' % festival_name)
+            # logging.debug('Festival %s is only in the future!' % festival_name)
             self.panchaanga.delete_festival_date(fest_id=festival_name, date=assigned_day)
           else:
             self.panchaanga.date_str_to_panchaanga[assigned_day.get_date_str()].festival_id_to_instance[festival_name].ordinal = fest_num
