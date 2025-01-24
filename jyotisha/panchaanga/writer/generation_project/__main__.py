@@ -21,12 +21,4 @@ vish_bhaaskara_computation_system = ComputationSystem.read_from_file(filename=os
 
 # bengaLUru
 # Used by https://t.me/bengaluru_panchaanga
-generation_project.dump_detailed(year=year, city=bengaLUru, year_type=era.ERA_GREGORIAN, computation_system=kauNdinyaayana_bhaaskara_gRhya_computation_system)
 generation_project.dump_detailed(year=year, city=bengaLUru, year_type=era.ERA_GREGORIAN, computation_system=vish_bhaaskara_computation_system)
-generation_project.dump_detailed(year=year, city=chennai, year_type=era.ERA_GREGORIAN)
-
-
-# chennai
-# Requested for bAlAsubrahmaNya's father. And kArtik potentially.
-# chennai = spatio_temporal.City.get_city_from_db("Chennai")
-# generation_project.dump_detailed(year=year, city=chennai, year_type=era.ERA_GREGORIAN)

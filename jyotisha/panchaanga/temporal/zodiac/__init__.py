@@ -93,7 +93,7 @@ class NakshatraDivision(common.JsonObject):
     ecliptic_south_pole_with_ra = ecliptic_to_equatorial(longitude=20, latitude=-90)
     # logging.debug(ecliptic_south_pole_with_ra)
     for index, (boundary_ra, boundary_declination) in enumerate(equatorial_boundary_coordinates_with_ra):
-      print(
+      logging.debug(
         '3 %(north_pole_ra)f %(north_pole_dec)f %(boundary_ra)f %(boundary_declination)f %(south_pole_ra)f %(south_pole_dec)f 2 N%(sector_id_1)02d N%(sector_id_2)02d' % dict(
           north_pole_ra=ecliptic_north_pole_with_ra[0],
           north_pole_dec=ecliptic_north_pole_with_ra[1],
