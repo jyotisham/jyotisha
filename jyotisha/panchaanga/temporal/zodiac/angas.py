@@ -19,7 +19,6 @@ class AngaType(common.JsonObject):
   RASHI = None
   YOGA = None
   KARANA = None
-  SIDEREAL_MONTH = None
   TROPICAL_MONTH = None
   SOLAR_NAKSH = None
   SOLAR_NAKSH_PADA = None
@@ -88,12 +87,12 @@ AngaType.RASHI = AngaType(name='RASHI', name_hk="rAziH", num_angas=12, body_weig
 AngaType.YOGA = AngaType(name='YOGA', name_hk="yOgaH", num_angas=27, body_weights={Graha.MOON: 1, Graha.SUN: 1}, mean_period_days=29.541)
 AngaType.YOGA_PADA = AngaType(name='YOGA_PADA', name_hk="yOga-pAdaH", num_angas=108, body_weights={Graha.MOON: 1, Graha.SUN: 1}, mean_period_days=29.541)
 AngaType.KARANA = AngaType(name='KARANA', name_hk="karaNam", num_angas=60, body_weights={Graha.MOON: 1, Graha.SUN: -1}, mean_period_days=29.4)
-AngaType.SIDEREAL_MONTH = AngaType(name='SIDEREAL_MONTH', name_hk="rAzi-mAsaH", num_angas=12, body_weights={Graha.MOON: 0, Graha.SUN: 1}, mean_period_days=365.242)
 AngaType.TROPICAL_MONTH = AngaType(name='TROPICAL_MONTH', name_hk="Artava-mAsaH", num_angas=12, body_weights={Graha.MOON: 0, Graha.SUN: 1}, mean_period_days=365.242)
 AngaType.SOLAR_NAKSH = AngaType(name='SOLAR_NAKSH', name_hk="saura-nakSatram", num_angas=27, body_weights={Graha.MOON: 0, Graha.SUN: 1}, mean_period_days=365.242)
 AngaType.SOLAR_NAKSH_PADA = AngaType(name='SOLAR_NAKSH_PADA', name_hk="saura-nakSatra-pAdaH", num_angas=108, body_weights={Graha.MOON: 0, Graha.SUN: 1}, mean_period_days=365.242)
 AngaType.SAMVATSARA = AngaType(name='SAMVATSARA', name_hk="saMvatsaraH", num_angas=64, mean_period_days=None)
 
+AngaType.GRAHA_RASHI[Graha.SUN] = AngaType(name='RASHI_SUN', name_hk="sUrya-rAziH", num_angas=12, body_weights={Graha.SUN: 1}, mean_period_days=365.242)
 AngaType.GRAHA_RASHI[Graha.MERCURY] = AngaType(name='RASHI_MERCURY', name_hk="budha-rAziH", num_angas=12, body_weights={Graha.MERCURY: 1}, mean_period_days=87.97)
 AngaType.GRAHA_RASHI[Graha.VENUS] = AngaType(name='RASHI_VENUS', name_hk="zukra-rAziH", num_angas=12, body_weights={Graha.VENUS: 1}, mean_period_days=224.7)
 AngaType.GRAHA_RASHI[Graha.MARS] = AngaType(name='RASHI_MARS', name_hk="maGgala-rAziH", num_angas=12, body_weights={Graha.MARS: 1}, mean_period_days=686.98)
@@ -119,9 +118,7 @@ class Anga(common.JsonObject):
 
   def get_name(self, script=sanscript.roman.HK_DRAVIDIAN):
     name_dict = NAME_TO_TYPE[self.anga_type_id].names_dict
-    if self.anga_type_id == AngaType.SIDEREAL_MONTH.name:
-      return names.get_chandra_masa(month=self.index, script=script)
-    elif name_dict is not None:
+    if name_dict is not None:
       return name_dict[script][self.index]
     else:
       return None

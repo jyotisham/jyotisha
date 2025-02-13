@@ -169,7 +169,7 @@ def print_khachakra_stithi(daily_panchaanga, output_stream, script, subsection_m
   solar_nakshatra_str = daily_panchaanga.sunrise_day_angas.get_anga_data_md(anga_type=AngaType.SOLAR_NAKSH,
                                                                             script=script,
                                                                             reference_jd=daily_panchaanga.julian_day_start)
-  solar_raashi_str = daily_panchaanga.sunrise_day_angas.get_anga_data_md(anga_type=AngaType.SIDEREAL_MONTH,
+  solar_raashi_str = daily_panchaanga.sunrise_day_angas.get_anga_data_md(anga_type=AngaType.GRAHA_RASHI[Graha.SUN],
                                                                          script=script,
                                                                          reference_jd=daily_panchaanga.julian_day_start)
   print('- 🌌🌞%s  \n  - %s ' % (solar_nakshatra_str, solar_raashi_str), file=output_stream)

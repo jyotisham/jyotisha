@@ -48,7 +48,6 @@ class DayAngas(common.JsonObject):
     self.karanas_with_ends = None
     self.solar_nakshatras_with_ends = None
     self.raashis_with_ends = None
-    self.solar_raashis_with_ends = None
     self.graha_raashis_with_ends = {}
 
   def get_angas_with_ends(self, anga_type):
@@ -65,8 +64,6 @@ class DayAngas(common.JsonObject):
       anga_spans = self.karanas_with_ends
     elif anga_type == AngaType.SOLAR_NAKSH:
       anga_spans = self.solar_nakshatras_with_ends
-    elif anga_type == AngaType.SIDEREAL_MONTH:
-      anga_spans = self.solar_raashis_with_ends
     elif anga_type in AngaType.GRAHA_RASHI.values():
       anga_spans = self.graha_raashis_with_ends[anga_type.get_body_str()]
     return anga_spans
@@ -255,7 +252,6 @@ class DailyPanchaanga(common.JsonObject):
       self.sunrise_day_angas.karanas_with_ends = AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=zodiac.AngaType.KARANA).get_all_angas_in_period(jd1=self.jd_sunrise, jd2=self.jd_next_sunrise)
       
       self.sunrise_day_angas.raashis_with_ends = AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=zodiac.AngaType.RASHI).get_all_angas_in_period(jd1=self.jd_sunrise, jd2=self.jd_next_sunrise)
-      self.sunrise_day_angas.solar_raashis_with_ends = AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=zodiac.AngaType.SIDEREAL_MONTH).get_all_angas_in_period(jd1=self.jd_sunrise, jd2=self.jd_next_sunrise)
       
       self.sunrise_day_angas.solar_nakshatras_with_ends = AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=zodiac.AngaType.SOLAR_NAKSH).get_all_angas_in_period(jd1=self.jd_sunrise, jd2=self.jd_next_sunrise)
 
@@ -297,12 +293,12 @@ class DailyPanchaanga(common.JsonObject):
     # If solar transition happens before the current sunset but after the previous sunset, then that is taken to be solar day 1.
     self.compute_graha_transitions(previous_day_panchaanga=previous_day_panchaanga)
     solar_month_sunset = NakshatraDivision(jd=self.jd_sunset, ayanaamsha_id=self.computation_system.ayanaamsha_id).get_anga(
-      anga_type=AngaType.SIDEREAL_MONTH)
+      anga_type=AngaType.GRAHA_RASHI[Graha.SUN])
 
     solar_sidereal_month_end_jd = None
     # Some months are really short, like Dhanurmasa ending 1970-Jan-14. So >=28 is used...
     if previous_day_panchaanga is None or previous_day_panchaanga.solar_sidereal_date_sunset.day >= 28 :
-      anga_finder = zodiac.AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=AngaType.SIDEREAL_MONTH)
+      anga_finder = zodiac.AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=AngaType.GRAHA_RASHI[Graha.SUN])
       solar_month_sunset_span = anga_finder.find(jd1=self.jd_sunset - 32, jd2=self.jd_sunset + 5, target_anga_id=solar_month_sunset)
       solar_sidereal_month_day_sunset = len(self.city.get_sunsets_in_period(jd_start=solar_month_sunset_span.jd_start, jd_end=self.jd_sunset + 1/48.0))
       if solar_sidereal_month_day_sunset == 1 and solar_month_sunset_span.jd_start > self.jd_sunrise:
@@ -548,7 +544,7 @@ class DailyPanchaanga(common.JsonObject):
 
 
   def set_graha_raashis(self):
-    for graha_id in [Graha.MERCURY, Graha.VENUS, Graha.MARS, Graha.JUPITER, Graha.SATURN, Graha.RAHU, Graha.KETU]:
+    for graha_id in [Graha.MERCURY, Graha.VENUS, Graha.MARS, Graha.JUPITER, Graha.SATURN, Graha.RAHU, Graha.KETU, Graha.SUN]:
       self.sunrise_day_angas.graha_raashis_with_ends[graha_id] = AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=zodiac.AngaType.GRAHA_RASHI[graha_id]).get_all_angas_in_period(jd1=self.jd_sunrise, jd2=self.jd_next_sunrise)
 
 # Essential for depickling to work.
