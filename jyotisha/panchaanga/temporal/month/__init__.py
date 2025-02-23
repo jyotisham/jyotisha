@@ -65,7 +65,7 @@ class MultiLunarPhaseSolarMonthAdhikaAssigner(LunarMonthAssigner):
     # tithi_at_sunrise gives a rough indication of the number of days since last adhika_maasa_det_tithi. We now find a more precise interval below.
     anga_finder = zodiac.AngaSpanFinder.get_cached(ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0, anga_type=zodiac.AngaType.TITHI)
 
-    if self.adhika_maasa_det_tithi <= daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index:
+    if self.adhika_maasa_det_tithi < daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index:
       approx_days_since_last_det_tithi =  daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index - self.adhika_maasa_det_tithi
     else:
       days_to_next_det_tithi = self.adhika_maasa_det_tithi - daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index
