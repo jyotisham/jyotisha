@@ -22,7 +22,7 @@ function setIst() {
   console.log(dateSuffix);
   
   document.getElementById("blr_kaundinyAyana").href = `/jyotisha/output/sahakAra-nagar-bengaLUru/SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_AT_180/gregorian/2000s/${dateSuffix}/`;
-  document.getElementById("blr_common").href = `/jyotisha/output/sahakAra-nagar-bengaLUru/MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_AT_180/gregorian/2000s/${dateSuffix}/`;
+  document.getElementById("blr_common").href = `/jyotisha/output/sahakAra-nagar-bengaLUru/MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA_AMAANTA__CHITRA_AT_180/gregorian/2000s/${dateSuffix}/`;
 }
 setIst();
 </script>

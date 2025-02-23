@@ -8,7 +8,7 @@ title = "1229 Summary"
 
 #### Basic parameters
 ```
-lunar_month_assigner_type = "MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA"
+lunar_month_assigner_type = "MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA_AMAANTA"
 ayanaamsha_id = "CHITRA_AT_180"
 jsonClass = "ComputationSystem"
 
