@@ -27,6 +27,7 @@ saturn = 15
 #### Event options
  ```
 aparaahna_as_second_half = false
+no_fests = true
 tropical_month_start = "mAdhava_at_equinox"
 fest_repos_excluded_patterns = [ ".*viSuvAdi.*",]
 prefer_eight_fold_day_division = false
