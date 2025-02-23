@@ -4,8 +4,8 @@ islamic = "0551-11-10"
 islamic_month = "Ḏū al-Qaʿdah"
 julian = "1156-12-25"
 Indian_civil = "1078-10-11"
-lunar = "10-12"
-lunar_month = "पौषः"
+lunar = "09-12"
+lunar_month = "मार्गशीर्षः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -17,7 +17,7 @@ sidereal_solar_month = "धनुः"
 tithis = "**तिथिः** — शुक्ल-द्वादशी►19:48; शुक्ल-त्रयोदशी►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — रोहिणी►20:18; मृगशीर्षम्►"
-festivals = "तैत्तिरीय-उत्सर्गो रोहिण्याम्, जयन्ती-महाद्वादशी, अनध्यायः, भोगि"
+festivals = ""
 
 [[data]]
 gregorian = "1157-01-02"
@@ -25,8 +25,8 @@ islamic = "0551-11-11"
 islamic_month = "Ḏū al-Qaʿdah"
 julian = "1156-12-26"
 Indian_civil = "1078-10-12"
-lunar = "10-13"
-lunar_month = "पौषः"
+lunar = "09-13"
+lunar_month = "मार्गशीर्षः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -38,7 +38,7 @@ sidereal_solar_month = "मकरः"
 tithis = "**तिथिः** — शुक्ल-त्रयोदशी►19:42; शुक्ल-चतुर्दशी►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — मृगशीर्षम्►20:48; आर्द्रा►"
-festivals = "मकर-ज्योतिः, प्रदोष-व्रतम्, अनध्यायः, सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः, मकर-सङ्क्रमण-पुण्यकालः, रवि-सङ्क्रमण-पुण्यकालः, धनुर्मास-उषःकाल-पूजा-समापनम्, मधुरै मीऩाक्षी कोयिलिल् कल् याऩैक्कु करुम्बु कोडुत्त लीलै"
+festivals = ""
 
 [[data]]
 gregorian = "1157-01-03"
@@ -46,8 +46,8 @@ islamic = "0551-11-12"
 islamic_month = "Ḏū al-Qaʿdah"
 julian = "1156-12-27"
 Indian_civil = "1078-10-13"
-lunar = "10-14"
-lunar_month = "पौषः"
+lunar = "09-14"
+lunar_month = "मार्गशीर्षः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -59,7 +59,7 @@ sidereal_solar_month = "मकरः"
 tithis = "**तिथिः** — शुक्ल-चतुर्दशी►19:59; पौर्णमासी►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — आर्द्रा►21:40; पुनर्वसुः►"
-festivals = "वैधृति-श्राद्धम्, काञ्ची ८ जगद्गुरु श्री-कैवल्यानन्दयोगेन्द्र सरस्वती आराधना #११२८, अनध्यायः, देवी-पर्व-१०, पूर्णिमा-पूजा, पञ्च-पर्व-पूजा (पूर्णिमा), इन्द्र-पूजा/गो-पूजा, कऩुप्-पॊङ्गल्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-01-04"
@@ -67,8 +67,8 @@ islamic = "0551-11-13"
 islamic_month = "Ḏū al-Qaʿdah"
 julian = "1156-12-28"
 Indian_civil = "1078-10-14"
-lunar = "10-15"
-lunar_month = "पौषः"
+lunar = "09-15"
+lunar_month = "मार्गशीर्षः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -80,7 +80,7 @@ sidereal_solar_month = "मकरः"
 tithis = "**तिथिः** — पौर्णमासी►20:40; कृष्ण-प्रथमा►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — पुनर्वसुः►22:55; पुष्यः►"
-festivals = "शाकम्भरी-जयन्ती, तैत्तिरीय-उत्सर्गः पौर्णमास्याम्, बदरी ज्योतिर्मठ-प्रतिष्ठापन-जयन्ती #१६४२, तुङ्गभद्रा-शृङ्गगिरि शारदामठ-प्रतिष्ठापन-जयन्ती #१६४०, पूर्णिमा-व्रतम्, वेङ्कटाचले पूर्णिमा-गरुड-सेवा, अनध्यायः, तै-वॆळ्ळिक्किऴमै, पार्वणव्रतम् पूर्णिमायाम् (गृह्योक्तमानम्), पार्वणव्रतम् पूर्णिमायाम्, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-01-05"
@@ -88,8 +88,8 @@ islamic = "0551-11-14"
 islamic_month = "Ḏū al-Qaʿdah"
 julian = "1156-12-29"
 Indian_civil = "1078-10-15"
-lunar = "11-16"
-lunar_month = "माघः"
+lunar = "10-16"
+lunar_month = "पौषः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -101,7 +101,7 @@ sidereal_solar_month = "मकरः"
 tithis = "**तिथिः** — कृष्ण-प्रथमा►21:46; कृष्ण-द्वितीया►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — पुष्यः►24:34!; आश्रेषा►"
-festivals = "पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, स्थालीपाकः (गृह्योक्तमानम्), अनध्यायः, पूर्णमासेष्टिः, पूर्ण-स्थालीपाकः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-01-06"
@@ -109,8 +109,8 @@ islamic = "0551-11-15"
 islamic_month = "Ḏū al-Qaʿdah"
 julian = "1156-12-30"
 Indian_civil = "1078-10-16"
-lunar = "11-17"
-lunar_month = "माघः"
+lunar = "10-17"
+lunar_month = "पौषः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -122,7 +122,7 @@ sidereal_solar_month = "मकरः"
 tithis = "**तिथिः** — कृष्ण-द्वितीया►23:18; कृष्ण-तृतीया►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — आश्रेषा►26:39!; मघा►"
-festivals = "आनन्दपालो गर्जनमहामदेन जितः #१४९, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-01-07"
@@ -130,8 +130,8 @@ islamic = "0551-11-16"
 islamic_month = "Ḏū al-Qaʿdah"
 julian = "1156-12-31"
 Indian_civil = "1078-10-17"
-lunar = "11-18"
-lunar_month = "माघः"
+lunar = "10-18"
+lunar_month = "पौषः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -143,7 +143,7 @@ sidereal_solar_month = "मकरः"
 tithis = "**तिथिः** — कृष्ण-तृतीया►25:15!; कृष्ण-चतुर्थी►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — मघा►29:07!; पूर्वफल्गुनी►"
-festivals = "तिरुमऴिचैयाऴ्वार् तिरुनक्षत्तिरम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-01-08"
@@ -151,8 +151,8 @@ islamic = "0551-11-17"
 islamic_month = "Ḏū al-Qaʿdah"
 julian = "1157-01-01"
 Indian_civil = "1078-10-18"
-lunar = "11-19"
-lunar_month = "माघः"
+lunar = "10-19"
+lunar_month = "पौषः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -164,7 +164,7 @@ sidereal_solar_month = "मकरः"
 tithis = "**तिथिः** — कृष्ण-चतुर्थी►27:34!; कृष्ण-पञ्चमी►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — पूर्वफल्गुनी►"
-festivals = "अङ्गारकी द्विजप्रिय-महागणपति सङ्कटहर-चतुर्थी-व्रतम्, सुखा-अङ्गारकी-चतुर्थी"
+festivals = ""
 
 [[data]]
 gregorian = "1157-01-09"
@@ -172,8 +172,8 @@ islamic = "0551-11-18"
 islamic_month = "Ḏū al-Qaʿdah"
 julian = "1157-01-02"
 Indian_civil = "1078-10-19"
-lunar = "11-20"
-lunar_month = "माघः"
+lunar = "10-20"
+lunar_month = "पौषः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -193,8 +193,8 @@ islamic = "0551-11-19"
 islamic_month = "Ḏū al-Qaʿdah"
 julian = "1157-01-03"
 Indian_civil = "1078-10-20"
-lunar = "11-21"
-lunar_month = "माघः"
+lunar = "10-21"
+lunar_month = "पौषः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -206,7 +206,7 @@ sidereal_solar_month = "मकरः"
 tithis = "**तिथिः** — कृष्ण-षष्ठी►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — उत्तरफल्गुनी►10:55; हस्तः►"
-festivals = "चण्डेश्वर नायऩ्मार् (२०) गुरुपूजै, यशोदा-जयन्ती, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-01-11"
@@ -214,8 +214,8 @@ islamic = "0551-11-20"
 islamic_month = "Ḏū al-Qaʿdah"
 julian = "1157-01-04"
 Indian_civil = "1078-10-21"
-lunar = "11-21"
-lunar_month = "माघः"
+lunar = "10-21"
+lunar_month = "पौषः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -227,7 +227,7 @@ sidereal_solar_month = "मकरः"
 tithis = "**तिथिः** — कृष्ण-षष्ठी►08:45; कृष्ण-सप्तमी►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — हस्तः►13:56; चित्रा►"
-festivals = "निक्षुभार्क-सप्तमी, तै-वॆळ्ळिक्किऴमै, माघ-अष्टका-पूर्वेद्युः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-01-12"
@@ -235,8 +235,8 @@ islamic = "0551-11-21"
 islamic_month = "Ḏū al-Qaʿdah"
 julian = "1157-01-05"
 Indian_civil = "1078-10-22"
-lunar = "11-22"
-lunar_month = "माघः"
+lunar = "10-22"
+lunar_month = "पौषः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -248,7 +248,7 @@ sidereal_solar_month = "मकरः"
 tithis = "**तिथिः** — कृष्ण-सप्तमी►11:12; कृष्ण-अष्टमी►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — चित्रा►16:45; स्वाती►"
-festivals = "शबरी-जयन्ती, माघ-अष्टका-श्राद्धम्, पञ्च-पर्व-पूजा (अष्टमी), द्विपुष्कर-योगः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-01-13"
@@ -256,8 +256,8 @@ islamic = "0551-11-22"
 islamic_month = "Ḏū al-Qaʿdah"
 julian = "1157-01-06"
 Indian_civil = "1078-10-23"
-lunar = "11-23"
-lunar_month = "माघः"
+lunar = "10-23"
+lunar_month = "पौषः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -269,7 +269,7 @@ sidereal_solar_month = "मकरः"
 tithis = "**तिथिः** — कृष्ण-अष्टमी►13:15; कृष्ण-नवमी►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — स्वाती►19:09; विशाखा►"
-festivals = "अनध्यायः, माघ-अन्वष्टका-श्राद्धम्, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-01-14"
@@ -277,8 +277,8 @@ islamic = "0551-11-23"
 islamic_month = "Ḏū al-Qaʿdah"
 julian = "1157-01-07"
 Indian_civil = "1078-10-24"
-lunar = "11-24"
-lunar_month = "माघः"
+lunar = "10-24"
+lunar_month = "पौषः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -290,7 +290,7 @@ sidereal_solar_month = "मकरः"
 tithis = "**तिथिः** — कृष्ण-नवमी►14:41; कृष्ण-दशमी►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — विशाखा►20:55; अनूराधा►"
-festivals = "तिरुनीलकण्ठ नायऩ्मार् (२) गुरुपूजै"
+festivals = ""
 
 [[data]]
 gregorian = "1157-01-15"
@@ -298,8 +298,8 @@ islamic = "0551-11-24"
 islamic_month = "Ḏū al-Qaʿdah"
 julian = "1157-01-08"
 Indian_civil = "1078-10-25"
-lunar = "11-25"
-lunar_month = "माघः"
+lunar = "10-25"
+lunar_month = "पौषः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -319,8 +319,8 @@ islamic = "0551-11-25"
 islamic_month = "Ḏū al-Qaʿdah"
 julian = "1157-01-09"
 Indian_civil = "1078-10-26"
-lunar = "11-26"
-lunar_month = "माघः"
+lunar = "10-26"
+lunar_month = "पौषः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -332,7 +332,7 @@ sidereal_solar_month = "मकरः"
 tithis = "**तिथिः** — कृष्ण-एकादशी►15:09; कृष्ण-द्वादशी►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — ज्येष्ठा►22:05; मूला►"
-festivals = "सर्व-विजया-एकादशी"
+festivals = ""
 
 [[data]]
 gregorian = "1157-01-17"
@@ -340,8 +340,8 @@ islamic = "0551-11-26"
 islamic_month = "Ḏū al-Qaʿdah"
 julian = "1157-01-10"
 Indian_civil = "1078-10-27"
-lunar = "11-27"
-lunar_month = "माघः"
+lunar = "10-27"
+lunar_month = "पौषः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -353,7 +353,7 @@ sidereal_solar_month = "मकरः"
 tithis = "**तिथिः** — कृष्ण-द्वादशी►14:06; कृष्ण-त्रयोदशी►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — मूला►21:26; पूर्वाषाढा►"
-festivals = "प्रदोष-व्रतम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-01-18"
@@ -361,8 +361,8 @@ islamic = "0551-11-27"
 islamic_month = "Ḏū al-Qaʿdah"
 julian = "1157-01-11"
 Indian_civil = "1078-10-28"
-lunar = "11-28"
-lunar_month = "माघः"
+lunar = "10-28"
+lunar_month = "पौषः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -374,7 +374,7 @@ sidereal_solar_month = "मकरः"
 tithis = "**तिथिः** — कृष्ण-त्रयोदशी►12:17; कृष्ण-चतुर्दशी►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — पूर्वाषाढा►20:04; उत्तराषाढा►"
-festivals = "महाशिवरात्रिः, मासशिवरात्रिः, पञ्च-पर्व-पूजा (चतुर्दशी), तै-वॆळ्ळिक्किऴमै, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-01-19"
@@ -382,8 +382,8 @@ islamic = "0551-11-28"
 islamic_month = "Ḏū al-Qaʿdah"
 julian = "1157-01-12"
 Indian_civil = "1078-10-29"
-lunar = "11-29"
-lunar_month = "माघः"
+lunar = "10-29"
+lunar_month = "पौषः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -395,7 +395,7 @@ sidereal_solar_month = "मकरः"
 tithis = "**तिथिः** — कृष्ण-चतुर्दशी►09:49; अमावास्या►30:51!; शुक्ल-प्रथमा►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — उत्तराषाढा►18:06; श्रवणः►"
-festivals = "अनध्यायः, कलियुगादिः, पञ्च-पर्व-पूजा (अमावास्या), तिरुनॆल्वेलि नॆल्लैयप्पर् पत्र दीप तिरुविऴा, माघ-स्नानपूर्तिः, पिण्ड-पितृ-यज्ञः, अनध्यायः, सर्व-मौनि (माघ/मकर) अमावास्या, दिनक्षयः, अनध्यायः, पार्वणव्रतम् अमावास्यायाम् (गृह्योक्तमानम्), पार्वणव्रतम् अमावास्यायाम्, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-01-20"
@@ -403,8 +403,8 @@ islamic = "0551-11-29"
 islamic_month = "Ḏū al-Qaʿdah"
 julian = "1157-01-13"
 Indian_civil = "1078-10-30"
-lunar = "11-01"
-lunar_month = "माघः"
+lunar = "10-01"
+lunar_month = "पौषः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -416,7 +416,7 @@ sidereal_solar_month = "मकरः"
 tithis = "**तिथिः** — शुक्ल-प्रथमा►27:35!; शुक्ल-द्वितीया►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — श्रवणः►15:43; श्रविष्ठा►"
-festivals = "श्रवण-व्रतम्, व्यतीपात-श्राद्धम्, श्यामळानवरात्र-आरम्भः, पार्वण-प्रायश्चित्तावकाशः दर्शे, स्थालीपाकः (गृह्योक्तमानम्), अनध्यायः, सायन-सङ्क्रमण-दिन-पूर्वाह्ण-पुण्यकालः, सायन-विष्णुपदी-पुण्यकालः, तपस्य-मासः, दर्शेष्टिः, दर्श-स्थालीपाकः, अनध्यायः, द्विपुष्कर-योगः, पातार्क-योगः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-01-21"
@@ -424,8 +424,8 @@ islamic = "0551-11-30"
 islamic_month = "Ḏū al-Qaʿdah"
 julian = "1157-01-14"
 Indian_civil = "1078-11-01"
-lunar = "11-02"
-lunar_month = "माघः"
+lunar = "10-02"
+lunar_month = "पौषः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -437,7 +437,7 @@ sidereal_solar_month = "मकरः"
 tithis = "**तिथिः** — शुक्ल-द्वितीया►24:10!; शुक्ल-तृतीया►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — श्रविष्ठा►13:06; शतभिषक्►"
-festivals = "चन्द्र-दर्शनम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-01-22"
@@ -445,8 +445,8 @@ islamic = "0551-12-01"
 islamic_month = "Ḏū al-Ḥijjah"
 julian = "1157-01-15"
 Indian_civil = "1078-11-02"
-lunar = "11-03"
-lunar_month = "माघः"
+lunar = "10-03"
+lunar_month = "पौषः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -458,7 +458,7 @@ sidereal_solar_month = "मकरः"
 tithis = "**तिथिः** — शुक्ल-तृतीया►20:49; शुक्ल-चतुर्थी►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — शतभिषक्►10:26; पूर्वप्रोष्ठपदा►"
-festivals = "अप्पूदियडिगळ् नायऩ्मार् (२५) गुरुपूजै"
+festivals = ""
 
 [[data]]
 gregorian = "1157-01-23"
@@ -466,8 +466,8 @@ islamic = "0551-12-02"
 islamic_month = "Ḏū al-Ḥijjah"
 julian = "1157-01-16"
 Indian_civil = "1078-11-03"
-lunar = "11-04"
-lunar_month = "माघः"
+lunar = "10-04"
+lunar_month = "पौषः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -479,7 +479,7 @@ sidereal_solar_month = "मकरः"
 tithis = "**तिथिः** — शुक्ल-चतुर्थी►17:39; शुक्ल-पञ्चमी►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — पूर्वप्रोष्ठपदा►07:54; उत्तरप्रोष्ठपदा►29:39!; रेवती►"
-festivals = "शान्ता-वरकुन्द-चतुर्थी, मार्कण्डेय-जयन्ती, शुक्ल-चतुर्थी-व्रतम्, तिरुच्चॆन्दूर् मुरुगऩ् माचित् तिरुविऴा तॊडक्कम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-01-24"
@@ -487,8 +487,8 @@ islamic = "0551-12-03"
 islamic_month = "Ḏū al-Ḥijjah"
 julian = "1157-01-17"
 Indian_civil = "1078-11-04"
-lunar = "11-05"
-lunar_month = "माघः"
+lunar = "10-05"
+lunar_month = "पौषः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -500,7 +500,7 @@ sidereal_solar_month = "मकरः"
 tithis = "**तिथिः** — शुक्ल-पञ्चमी►14:52; शुक्ल-षष्ठी►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — रेवती►27:50!; अश्विनी►"
-festivals = "कलिक्कम्ब नायऩ्मार् (४३) गुरुपूजै, सर्प-पूजा, माघी-सरस्वती-पूजा, वसन्त-पञ्चमी/श्री-पञ्चमी/मदन-पञ्चमी, श्रीराम-वनवास-गमनम्, शङ्करभगवत्पादस्य कैलासात् पुनरागमनम्, तिरुच्चॆन्दूर् मुरुगऩ् माचित् तिरुविऴा 2म् नाळ्, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-01-25"
@@ -508,8 +508,8 @@ islamic = "0551-12-04"
 islamic_month = "Ḏū al-Ḥijjah"
 julian = "1157-01-18"
 Indian_civil = "1078-11-05"
-lunar = "11-06"
-lunar_month = "माघः"
+lunar = "10-06"
+lunar_month = "पौषः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -521,7 +521,7 @@ sidereal_solar_month = "मकरः"
 tithis = "**तिथिः** — शुक्ल-षष्ठी►12:31; शुक्ल-सप्तमी►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — अश्विनी►26:30!; अपभरणी►"
-festivals = "तिरुनॆल्वेलि नॆल्लैयप्पर् नॆल्लुक्कु वेलि कट्टिय लीलै, मन्वादिः-(वैवस्वतः-[७]), षष्ठी-व्रतम्, तै-वॆळ्ळिक्किऴमै, तिरुच्चॆन्दूर् मुरुगऩ् माचित् तिरुविऴा 3म् नाळ्—मुरुगऩ् भवऩि, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-01-26"
@@ -529,8 +529,8 @@ islamic = "0551-12-05"
 islamic_month = "Ḏū al-Ḥijjah"
 julian = "1157-01-19"
 Indian_civil = "1078-11-06"
-lunar = "11-07"
-lunar_month = "माघः"
+lunar = "10-07"
+lunar_month = "पौषः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -542,7 +542,7 @@ sidereal_solar_month = "मकरः"
 tithis = "**तिथिः** — शुक्ल-सप्तमी►10:43; शुक्ल-अष्टमी►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — अपभरणी►25:45!; कृत्तिका►"
-festivals = "रथ-सप्तमी, नर्मदा-जयन्ती, अचला-सप्तमी-व्रतम्, द्वारका-मठ-प्रतिष्ठापन-जयन्ती #१६४७, भीष्माष्टमी, अनध्यायः, तिरुच्चॆन्दूर् मुरुगऩ् माचित् तिरुविऴा 4म् नाळ्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-01-27"
@@ -550,8 +550,8 @@ islamic = "0551-12-06"
 islamic_month = "Ḏū al-Ḥijjah"
 julian = "1157-01-20"
 Indian_civil = "1078-11-07"
-lunar = "11-08"
-lunar_month = "माघः"
+lunar = "10-08"
+lunar_month = "पौषः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -563,7 +563,7 @@ sidereal_solar_month = "मकरः"
 tithis = "**तिथिः** — शुक्ल-अष्टमी►09:30; शुक्ल-नवमी►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — कृत्तिका►25:32!; रोहिणी►"
-festivals = "मकर-श्रवण-कार्त्तिकोत्सवः, कृत्तिका-व्रतम्, खोडियार-माता-जयन्ती, तिरुच्चॆन्दूर् मुरुगऩ् माचित् तिरुविऴा 5म् नाळ्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-01-28"
@@ -571,8 +571,8 @@ islamic = "0551-12-07"
 islamic_month = "Ḏū al-Ḥijjah"
 julian = "1157-01-21"
 Indian_civil = "1078-11-08"
-lunar = "11-09"
-lunar_month = "माघः"
+lunar = "10-09"
+lunar_month = "पौषः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -584,7 +584,7 @@ sidereal_solar_month = "मकरः"
 tithis = "**तिथिः** — शुक्ल-नवमी►08:50; शुक्ल-दशमी►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — रोहिणी►25:52!; मृगशीर्षम्►"
-festivals = "श्यामळानवरात्र-समापनम्, मध्व-नवमी, काञ्ची ११ जगद्गुरु श्री-शिवानन्द चिद्घनेन्द्र सरस्वती आराधना #९८५, तिरुच्चॆन्दूर् मुरुगऩ् माचित् तिरुविऴा 6म् नाळ्—वॆळ्ळित् तेर् भवऩि"
+festivals = ""
 
 [[data]]
 gregorian = "1157-01-29"
@@ -592,8 +592,8 @@ islamic = "0551-12-08"
 islamic_month = "Ḏū al-Ḥijjah"
 julian = "1157-01-22"
 Indian_civil = "1078-11-09"
-lunar = "11-10"
-lunar_month = "माघः"
+lunar = "10-10"
+lunar_month = "पौषः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -605,7 +605,7 @@ sidereal_solar_month = "मकरः"
 tithis = "**तिथिः** — शुक्ल-दशमी►08:43; शुक्ल-एकादशी►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — मृगशीर्षम्►26:40!; आर्द्रा►"
-festivals = "कण्णप्प नायऩ्मार् (१०) गुरुपूजै, वैधृति-श्राद्धम्, तिरुच्चॆन्दूर् मुरुगऩ् माचित् तिरुविऴा 7म् नाळ्—उरुगु चत्तच् चेवै/चिगप्पु चात्ति अलङ्कारम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-01-30"
@@ -613,8 +613,8 @@ islamic = "0551-12-09"
 islamic_month = "Ḏū al-Ḥijjah"
 julian = "1157-01-23"
 Indian_civil = "1078-11-10"
-lunar = "11-11"
-lunar_month = "माघः"
+lunar = "10-11"
+lunar_month = "पौषः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -626,7 +626,7 @@ sidereal_solar_month = "मकरः"
 tithis = "**तिथिः** — शुक्ल-एकादशी►09:03; शुक्ल-द्वादशी►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — आर्द्रा►27:54!; पुनर्वसुः►"
-festivals = "अरिवाट्टाय नायऩ्मार् (१३) गुरुपूजै, सर्व-भैमी-एकादशी, कपाली तॆप्पोत्सवम्, तिरुच्चॆन्दूर् मुरुगऩ् माचित् तिरुविऴा 8म् नाळ्—पच्चै चात्ति अलङ्कारम्, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-01-31"
@@ -634,8 +634,8 @@ islamic = "0551-12-10"
 islamic_month = "Ḏū al-Ḥijjah"
 julian = "1157-01-24"
 Indian_civil = "1078-11-11"
-lunar = "11-12"
-lunar_month = "माघः"
+lunar = "10-12"
+lunar_month = "पौषः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -647,7 +647,7 @@ sidereal_solar_month = "मकरः"
 tithis = "**तिथिः** — शुक्ल-द्वादशी►09:50; शुक्ल-त्रयोदशी►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — पुनर्वसुः►29:30!; पुष्यः►"
-festivals = "मकर-पुष्योत्सवः, वराह-द्वादशी, तिलपद्म-द्वादशी/तिलोत्पत्ति, भीष्म-द्वादशी, वराह-कल्पादिः, जया-महाद्वादशी, प्रदोष-व्रतम्, अनध्यायः, कपाली तॆप्पोत्सवम्, तिरुच्चॆन्दूर् मुरुगऩ् माचित् तिरुविऴा 9म् नाळ्—तङ्ग कैलाच वाहऩम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-02-01"
@@ -655,8 +655,8 @@ islamic = "0551-12-11"
 islamic_month = "Ḏū al-Ḥijjah"
 julian = "1157-01-25"
 Indian_civil = "1078-11-12"
-lunar = "11-13"
-lunar_month = "माघः"
+lunar = "10-13"
+lunar_month = "पौषः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -668,7 +668,7 @@ sidereal_solar_month = "कुम्भः"
 tithis = "**तिथिः** — शुक्ल-त्रयोदशी►10:59; शुक्ल-चतुर्दशी►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — पुष्यः►31:26!; आश्रेषा►"
-festivals = "नटराजर् महाभिषेकम्, माघ-मास-अन्तिमत्रयतिथि-व्रत-आरम्भः, देवी-पर्व-११, अनध्यायः, सङ्क्रमण-दिन-पूर्वाह्ण-पुण्यकालः, कुम्भ-रवि-सङ्क्रमण-विष्णुपदी-पुण्यकालः, कपाली तॆप्पोत्सवम्, तिरुच्चॆन्दूर् मुरुगऩ् माचित् तिरुविऴा 10म् नाळ्—तेर्, कलियुगान्तः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-02-02"
@@ -676,8 +676,8 @@ islamic = "0551-12-12"
 islamic_month = "Ḏū al-Ḥijjah"
 julian = "1157-01-26"
 Indian_civil = "1078-11-13"
-lunar = "11-14"
-lunar_month = "माघः"
+lunar = "10-14"
+lunar_month = "पौषः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -689,7 +689,7 @@ sidereal_solar_month = "कुम्भः"
 tithis = "**तिथिः** — शुक्ल-चतुर्दशी►12:28; पौर्णमासी►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — आश्रेषा►"
-festivals = "माघ-मास-अन्तिमत्रयतिथि-व्रतम्, अनध्यायः, पूर्णिमा-पूजा, पञ्च-पर्व-पूजा (पूर्णिमा), वेङ्कटाचले पूर्णिमा-गरुड-सेवा, तिरुच्चॆन्दूर् मुरुगऩ् तॆप्पम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-02-03"
@@ -697,8 +697,8 @@ islamic = "0551-12-13"
 islamic_month = "Ḏū al-Ḥijjah"
 julian = "1157-01-27"
 Indian_civil = "1078-11-14"
-lunar = "11-15"
-lunar_month = "माघः"
+lunar = "10-15"
+lunar_month = "पौषः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -710,7 +710,7 @@ sidereal_solar_month = "कुम्भः"
 tithis = "**तिथिः** — पौर्णमासी►14:16; कृष्ण-प्रथमा►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — आश्रेषा►09:40; मघा►"
-festivals = "तिरुच्चॆन्दूर् माचित् तिरुविऴा निऱैवु, ललिता-जयन्ती, माघ-मास-अन्तिमत्रयतिथि-व्रत-समापनम्, माघ-पूर्णिमा-स्नानम्, माघ-पूर्णिमा, पूर्णिमा-व्रतम्, अनध्यायः, पार्वणव्रतम् पूर्णिमायाम् (गृह्योक्तमानम्), पार्वणव्रतम् पूर्णिमायाम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-02-04"
@@ -718,8 +718,8 @@ islamic = "0551-12-14"
 islamic_month = "Ḏū al-Ḥijjah"
 julian = "1157-01-28"
 Indian_civil = "1078-11-15"
-lunar = "12-16"
-lunar_month = "फाल्गुनः"
+lunar = "11-16"
+lunar_month = "माघः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -731,7 +731,7 @@ sidereal_solar_month = "कुम्भः"
 tithis = "**तिथिः** — कृष्ण-प्रथमा►16:22; कृष्ण-द्वितीया►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — मघा►12:11; पूर्वफल्गुनी►"
-festivals = "कुम्भमाघोत्सवः, आम्र-कुसुम-प्राशनम्, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, स्थालीपाकः (गृह्योक्तमानम्), अनध्यायः, पूर्णमासेष्टिः, पूर्ण-स्थालीपाकः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-02-05"
@@ -739,8 +739,8 @@ islamic = "0551-12-15"
 islamic_month = "Ḏū al-Ḥijjah"
 julian = "1157-01-29"
 Indian_civil = "1078-11-16"
-lunar = "12-17"
-lunar_month = "फाल्गुनः"
+lunar = "11-17"
+lunar_month = "माघः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -752,7 +752,7 @@ sidereal_solar_month = "कुम्भः"
 tithis = "**तिथिः** — कृष्ण-द्वितीया►18:43; कृष्ण-तृतीया►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — पूर्वफल्गुनी►14:58; उत्तरफल्गुनी►"
-festivals = "चातुर्मास्य-द्वितीया, त्रिपुष्कर-योगः, माचि-चॆव्वाय्, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-02-06"
@@ -760,8 +760,8 @@ islamic = "0551-12-16"
 islamic_month = "Ḏū al-Ḥijjah"
 julian = "1157-01-30"
 Indian_civil = "1078-11-17"
-lunar = "12-18"
-lunar_month = "फाल्गुनः"
+lunar = "11-18"
+lunar_month = "माघः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -773,7 +773,7 @@ sidereal_solar_month = "कुम्भः"
 tithis = "**तिथिः** — कृष्ण-तृतीया►21:16; कृष्ण-चतुर्थी►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — उत्तरफल्गुनी►17:56; हस्तः►"
-festivals = "ब्रह्म-कल्पादिः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-02-07"
@@ -781,8 +781,8 @@ islamic = "0551-12-17"
 islamic_month = "Ḏū al-Ḥijjah"
 julian = "1157-01-31"
 Indian_civil = "1078-11-18"
-lunar = "12-19"
-lunar_month = "फाल्गुनः"
+lunar = "11-19"
+lunar_month = "माघः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -794,7 +794,7 @@ sidereal_solar_month = "कुम्भः"
 tithis = "**तिथिः** — कृष्ण-चतुर्थी►23:54; कृष्ण-पञ्चमी►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — हस्तः►21:00; चित्रा►"
-festivals = "ऎऱिपत्त नायऩ्मार् (८) गुरुपूजै, भालचन्द्र-महागणपति-सङ्कटहर-चतुर्थी-व्रतम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-02-08"
@@ -802,8 +802,8 @@ islamic = "0551-12-18"
 islamic_month = "Ḏū al-Ḥijjah"
 julian = "1157-02-01"
 Indian_civil = "1078-11-19"
-lunar = "12-20"
-lunar_month = "फाल्गुनः"
+lunar = "11-20"
+lunar_month = "माघः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -815,7 +815,7 @@ sidereal_solar_month = "कुम्भः"
 tithis = "**तिथिः** — कृष्ण-पञ्चमी►26:26!; कृष्ण-षष्ठी►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — चित्रा►24:00!; स्वाती►"
-festivals = "रङ्ग-पञ्चमी"
+festivals = ""
 
 [[data]]
 gregorian = "1157-02-09"
@@ -823,8 +823,8 @@ islamic = "0551-12-19"
 islamic_month = "Ḏū al-Ḥijjah"
 julian = "1157-02-02"
 Indian_civil = "1078-11-20"
-lunar = "12-21"
-lunar_month = "फाल्गुनः"
+lunar = "11-21"
+lunar_month = "माघः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -836,7 +836,7 @@ sidereal_solar_month = "कुम्भः"
 tithis = "**तिथिः** — कृष्ण-षष्ठी►28:41!; कृष्ण-सप्तमी►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — स्वाती►26:45!; विशाखा►"
-festivals = "प्रोक्लस्-जन्म #७४५, त्रिपुष्कर-योगः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-02-10"
@@ -844,8 +844,8 @@ islamic = "0551-12-20"
 islamic_month = "Ḏū al-Ḥijjah"
 julian = "1157-02-03"
 Indian_civil = "1078-11-21"
-lunar = "12-22"
-lunar_month = "फाल्गुनः"
+lunar = "11-22"
+lunar_month = "माघः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -857,7 +857,7 @@ sidereal_solar_month = "कुम्भः"
 tithis = "**तिथिः** — कृष्ण-सप्तमी►30:26!; कृष्ण-अष्टमी►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — विशाखा►29:02!; अनूराधा►"
-festivals = "भानुसप्तमी, त्रिपुष्कर-योगः, फाल्गुन-अष्टका-पूर्वेद्युः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-02-11"
@@ -865,8 +865,8 @@ islamic = "0551-12-21"
 islamic_month = "Ḏū al-Ḥijjah"
 julian = "1157-02-04"
 Indian_civil = "1078-11-22"
-lunar = "12-23"
-lunar_month = "फाल्गुनः"
+lunar = "11-23"
+lunar_month = "माघः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -878,7 +878,7 @@ sidereal_solar_month = "कुम्भः"
 tithis = "**तिथिः** — कृष्ण-अष्टमी►31:30!; कृष्ण-नवमी►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — अनूराधा►30:40!; ज्येष्ठा►"
-festivals = "फाल्गुन-अष्टका-श्राद्धम्, पञ्च-पर्व-पूजा (अष्टमी), अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-02-12"
@@ -886,8 +886,8 @@ islamic = "0551-12-22"
 islamic_month = "Ḏū al-Ḥijjah"
 julian = "1157-02-05"
 Indian_civil = "1078-11-23"
-lunar = "12-24"
-lunar_month = "फाल्गुनः"
+lunar = "11-24"
+lunar_month = "माघः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -899,7 +899,7 @@ sidereal_solar_month = "कुम्भः"
 tithis = "**तिथिः** — कृष्ण-नवमी►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — ज्येष्ठा►"
-festivals = "माचि-चॆव्वाय्, फाल्गुन-अन्वष्टका-श्राद्धम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-02-13"
@@ -907,8 +907,8 @@ islamic = "0551-12-23"
 islamic_month = "Ḏū al-Ḥijjah"
 julian = "1157-02-06"
 Indian_civil = "1078-11-24"
-lunar = "12-24"
-lunar_month = "फाल्गुनः"
+lunar = "11-24"
+lunar_month = "माघः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -920,7 +920,7 @@ sidereal_solar_month = "कुम्भः"
 tithis = "**तिथिः** — कृष्ण-नवमी►07:44; कृष्ण-दशमी►31:06!; कृष्ण-एकादशी►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — ज्येष्ठा►07:31; मूला►"
-festivals = "दिनक्षयः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-02-14"
@@ -928,8 +928,8 @@ islamic = "0551-12-24"
 islamic_month = "Ḏū al-Ḥijjah"
 julian = "1157-02-07"
 Indian_civil = "1078-11-25"
-lunar = "12-26"
-lunar_month = "फाल्गुनः"
+lunar = "11-26"
+lunar_month = "माघः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -941,7 +941,7 @@ sidereal_solar_month = "कुम्भः"
 tithis = "**तिथिः** — कृष्ण-एकादशी►29:35!; कृष्ण-द्वादशी►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — मूला►07:31; पूर्वाषाढा►30:40!; उत्तराषाढा►"
-festivals = "देवी-पर्व-१२, कारि नायऩ्मार् (४८) गुरुपूजै, स्मार्त-पापमोचनी-एकादशी"
+festivals = ""
 
 [[data]]
 gregorian = "1157-02-15"
@@ -949,8 +949,8 @@ islamic = "0551-12-25"
 islamic_month = "Ḏū al-Ḥijjah"
 julian = "1157-02-08"
 Indian_civil = "1078-11-26"
-lunar = "12-27"
-lunar_month = "फाल्गुनः"
+lunar = "11-27"
+lunar_month = "माघः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -962,7 +962,7 @@ sidereal_solar_month = "कुम्भः"
 tithis = "**तिथिः** — कृष्ण-द्वादशी►27:18!; कृष्ण-त्रयोदशी►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — उत्तराषाढा►29:02!; श्रवणः►"
-festivals = "व्यतीपात-श्राद्धम्, वैष्णव-पापमोचनी-एकादशी, हरिवासरः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-02-16"
@@ -970,8 +970,8 @@ islamic = "0551-12-26"
 islamic_month = "Ḏū al-Ḥijjah"
 julian = "1157-02-09"
 Indian_civil = "1078-11-27"
-lunar = "12-28"
-lunar_month = "फाल्गुनः"
+lunar = "11-28"
+lunar_month = "माघः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -983,7 +983,7 @@ sidereal_solar_month = "कुम्भः"
 tithis = "**तिथिः** — कृष्ण-त्रयोदशी►24:21!; कृष्ण-चतुर्दशी►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — श्रवणः►26:47!; श्रविष्ठा►"
-festivals = "श्रवण-व्रतम्, मासशिवरात्रिः, पञ्च-पर्व-पूजा (चतुर्दशी), शनि-प्रदोष-व्रतम्, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-02-17"
@@ -991,8 +991,8 @@ islamic = "0551-12-27"
 islamic_month = "Ḏū al-Ḥijjah"
 julian = "1157-02-10"
 Indian_civil = "1078-11-28"
-lunar = "12-29"
-lunar_month = "फाल्गुनः"
+lunar = "11-29"
+lunar_month = "माघः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -1004,7 +1004,7 @@ sidereal_solar_month = "कुम्भः"
 tithis = "**तिथिः** — कृष्ण-चतुर्दशी►20:55; अमावास्या►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — श्रविष्ठा►24:03!; शतभिषक्►"
-festivals = "अनध्यायः, पञ्च-पर्व-पूजा (अमावास्या), बोधायन-कात्यायन-फाल्गुन-अमावास्या"
+festivals = ""
 
 [[data]]
 gregorian = "1157-02-18"
@@ -1012,8 +1012,8 @@ islamic = "0551-12-28"
 islamic_month = "Ḏū al-Ḥijjah"
 julian = "1157-02-11"
 Indian_civil = "1078-11-29"
-lunar = "12-30"
-lunar_month = "फाल्गुनः"
+lunar = "11-30"
+lunar_month = "माघः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -1025,7 +1025,7 @@ sidereal_solar_month = "कुम्भः"
 tithis = "**तिथिः** — अमावास्या►17:11; शुक्ल-प्रथमा►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — शतभिषक्►21:03; पूर्वप्रोष्ठपदा►"
-festivals = "कॊच्चॆङ्गट् चोऴ नायऩ्मार् (६०) गुरुपूजै, मन्वादिः-(रैवतः-[५]), पिण्ड-पितृ-यज्ञः, अनध्यायः, सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः, सायन-षडशीति-पुण्यकालः, मधु-मासः/वसन्तऋतुः, फाल्गुन-अमावास्या (अलभ्यम्–शतभिषक्, पुष्कला), बोधायन-कात्यायन-इष्टिः, सोमवती अमावास्या, अनध्यायः, पार्वणव्रतम् अमावास्यायाम् (गृह्योक्तमानम्), पार्वणव्रतम् अमावास्यायाम्, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-02-19"
@@ -1033,8 +1033,8 @@ islamic = "0551-12-29"
 islamic_month = "Ḏū al-Ḥijjah"
 julian = "1157-02-12"
 Indian_civil = "1078-11-30"
-lunar = "12-01"
-lunar_month = "फाल्गुनः"
+lunar = "11-01"
+lunar_month = "माघः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -1046,7 +1046,7 @@ sidereal_solar_month = "कुम्भः"
 tithis = "**तिथिः** — शुक्ल-प्रथमा►13:21; शुक्ल-द्वितीया►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — पूर्वप्रोष्ठपदा►18:00; उत्तरप्रोष्ठपदा►"
-festivals = "पयोव्रत-आरम्भः, पार्वण-प्रायश्चित्तावकाशः दर्शे, स्थालीपाकः (गृह्योक्तमानम्), अनध्यायः, दर्शेष्टिः, दर्श-स्थालीपाकः, चन्द्र-दर्शनम्, अनध्यायः, त्रिपुष्कर-योगः, माचि-चॆव्वाय्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-02-20"
@@ -1054,8 +1054,8 @@ islamic = "0552-01-01"
 islamic_month = "Al-Muḥarram"
 julian = "1157-02-13"
 Indian_civil = "1078-12-01"
-lunar = "12-02"
-lunar_month = "फाल्गुनः"
+lunar = "11-02"
+lunar_month = "माघः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -1067,7 +1067,7 @@ sidereal_solar_month = "कुम्भः"
 tithis = "**तिथिः** — शुक्ल-द्वितीया►09:36; शुक्ल-तृतीया►30:07!; शुक्ल-चतुर्थी►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — उत्तरप्रोष्ठपदा►15:04; रेवती►"
-festivals = "फूलेरा-दूज्, दिनक्षयः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-02-21"
@@ -1075,8 +1075,8 @@ islamic = "0552-01-02"
 islamic_month = "Al-Muḥarram"
 julian = "1157-02-14"
 Indian_civil = "1078-12-02"
-lunar = "12-04"
-lunar_month = "फाल्गुनः"
+lunar = "11-04"
+lunar_month = "माघः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -1088,7 +1088,7 @@ sidereal_solar_month = "कुम्भः"
 tithis = "**तिथिः** — शुक्ल-चतुर्थी►27:04!; शुक्ल-पञ्चमी►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — रेवती►12:27; अश्विनी►"
-festivals = "शुक्ल-चतुर्थी-व्रतम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-02-22"
@@ -1096,8 +1096,8 @@ islamic = "0552-01-03"
 islamic_month = "Al-Muḥarram"
 julian = "1157-02-15"
 Indian_civil = "1078-12-03"
-lunar = "12-05"
-lunar_month = "फाल्गुनः"
+lunar = "11-05"
+lunar_month = "माघः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -1117,8 +1117,8 @@ islamic = "0552-01-04"
 islamic_month = "Al-Muḥarram"
 julian = "1157-02-16"
 Indian_civil = "1078-12-04"
-lunar = "12-06"
-lunar_month = "फाल्गुनः"
+lunar = "11-06"
+lunar_month = "माघः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -1130,7 +1130,7 @@ sidereal_solar_month = "कुम्भः"
 tithis = "**तिथिः** — शुक्ल-षष्ठी►22:46; शुक्ल-सप्तमी►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — अपभरणी►08:47; कृत्तिका►"
-festivals = "कृत्तिका-व्रतम्, वैधृति-श्राद्धम्, षष्ठी-व्रतम्, त्रिपुष्कर-योगः, कपालीश्वर-ध्वजारोहणम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-02-24"
@@ -1138,8 +1138,8 @@ islamic = "0552-01-05"
 islamic_month = "Al-Muḥarram"
 julian = "1157-02-17"
 Indian_civil = "1078-12-05"
-lunar = "12-07"
-lunar_month = "फाल्गुनः"
+lunar = "11-07"
+lunar_month = "माघः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -1151,7 +1151,7 @@ sidereal_solar_month = "कुम्भः"
 tithis = "**तिथिः** — शुक्ल-सप्तमी►21:39; शुक्ल-अष्टमी►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — कृत्तिका►07:55; रोहिणी►"
-festivals = "नन्दा-सप्तमी, विजया-भानुसप्तमी, त्रिपुष्कर-योगः, कपाली सूर्य-चन्द्र-वट्टम्, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-02-25"
@@ -1159,8 +1159,8 @@ islamic = "0552-01-06"
 islamic_month = "Al-Muḥarram"
 julian = "1157-02-18"
 Indian_civil = "1078-12-06"
-lunar = "12-08"
-lunar_month = "फाल्गुनः"
+lunar = "11-08"
+lunar_month = "माघः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -1172,7 +1172,7 @@ sidereal_solar_month = "कुम्भः"
 tithis = "**तिथिः** — शुक्ल-अष्टमी►21:15; शुक्ल-नवमी►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — रोहिणी►07:46; मृगशीर्षम्►"
-festivals = "अनध्यायः, सोममृगशीर्ष-योगः, कपाल्यधिकार-नन्दी, कपाली भूतण् भूतकी"
+festivals = ""
 
 [[data]]
 gregorian = "1157-02-26"
@@ -1180,8 +1180,8 @@ islamic = "0552-01-07"
 islamic_month = "Al-Muḥarram"
 julian = "1157-02-19"
 Indian_civil = "1078-12-07"
-lunar = "12-09"
-lunar_month = "फाल्गुनः"
+lunar = "11-09"
+lunar_month = "माघः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -1193,7 +1193,7 @@ sidereal_solar_month = "कुम्भः"
 tithis = "**तिथिः** — शुक्ल-नवमी►21:32; शुक्ल-दशमी►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — मृगशीर्षम्►08:18; आर्द्रा►"
-festivals = "माचि-चॆव्वाय्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-02-27"
@@ -1201,8 +1201,8 @@ islamic = "0552-01-08"
 islamic_month = "Al-Muḥarram"
 julian = "1157-02-20"
 Indian_civil = "1078-12-08"
-lunar = "12-10"
-lunar_month = "फाल्गुनः"
+lunar = "11-10"
+lunar_month = "माघः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -1214,7 +1214,7 @@ sidereal_solar_month = "कुम्भः"
 tithis = "**तिथिः** — शुक्ल-दशमी►22:24; शुक्ल-एकादशी►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — आर्द्रा►09:27; पुनर्वसुः►"
-festivals = "कपाली चवुडल् विमाऩम्, कपालि-वृषभ-वाहनम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-02-28"
@@ -1222,8 +1222,8 @@ islamic = "0552-01-09"
 islamic_month = "Al-Muḥarram"
 julian = "1157-02-21"
 Indian_civil = "1078-12-09"
-lunar = "12-11"
-lunar_month = "फाल्गुनः"
+lunar = "11-11"
+lunar_month = "माघः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -1235,7 +1235,7 @@ sidereal_solar_month = "कुम्भः"
 tithis = "**तिथिः** — शुक्ल-एकादशी►23:46; शुक्ल-द्वादशी►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — पुनर्वसुः►11:08; पुष्यः►"
-festivals = "कुलशेखर आऴ्वार् तिरुनक्षत्तिरम्, सर्व-आमलकी-एकादशी, रंगभरी एकादशी, गुरुपुष्य-योगः, कपाली पल्लक्कु विऴा, वेङ्कटाचले प्लवोत्सव-प्रारम्भः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-03-01"
@@ -1243,8 +1243,8 @@ islamic = "0552-01-10"
 islamic_month = "Al-Muḥarram"
 julian = "1157-02-22"
 Indian_civil = "1078-12-10"
-lunar = "12-12"
-lunar_month = "फाल्गुनः"
+lunar = "11-12"
+lunar_month = "माघः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -1256,7 +1256,7 @@ sidereal_solar_month = "कुम्भः"
 tithis = "**तिथिः** — शुक्ल-द्वादशी►25:32!; शुक्ल-त्रयोदशी►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — पुष्यः►13:15; आश्रेषा►"
-festivals = "नरसिंह-द्वादशी, पयोव्रत-समापनम्, पापनाशिनी-महाद्वादशी, गोविन्द-महाद्वादशी, पक्षवर्धिनी-महाद्वादशी, कपालीश्वरयात्रा, वेङ्कटाचले प्लवोत्सवः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-03-02"
@@ -1264,8 +1264,8 @@ islamic = "0552-01-11"
 islamic_month = "Al-Muḥarram"
 julian = "1157-02-23"
 Indian_civil = "1078-12-11"
-lunar = "12-13"
-lunar_month = "फाल्गुनः"
+lunar = "11-13"
+lunar_month = "माघः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -1277,7 +1277,7 @@ sidereal_solar_month = "कुम्भः"
 tithis = "**तिथिः** — शुक्ल-त्रयोदशी►27:35!; शुक्ल-चतुर्दशी►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — आश्रेषा►15:42; मघा►"
-festivals = "शनिवार-शुक्ल-प्रदोष-व्रतम्, अनध्यायः, सावित्री-व्रतम्, कपाली अऱुपत्तु मूवर्, वेङ्कटाचले प्लवोत्सवः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-03-03"
@@ -1285,8 +1285,8 @@ islamic = "0552-01-12"
 islamic_month = "Al-Muḥarram"
 julian = "1157-02-24"
 Indian_civil = "1078-12-12"
-lunar = "12-14"
-lunar_month = "फाल्गुनः"
+lunar = "11-14"
+lunar_month = "माघः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -1298,7 +1298,7 @@ sidereal_solar_month = "मीनः"
 tithis = "**तिथिः** — शुक्ल-चतुर्दशी►29:52!; पौर्णमासी►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — मघा►18:23; पूर्वफल्गुनी►"
-festivals = "काम-दहनम्, अनध्यायः, अनध्यायः, सङ्क्रमण-दिन-पूर्वाह्ण-पुण्यकालः, मीन-रवि-सङ्क्रमण-षडशीति-पुण्यकालः, रवि-सङ्क्रमण-पुण्यकालः, वेङ्कटाचले प्लवोत्सवः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-03-04"
@@ -1306,8 +1306,8 @@ islamic = "0552-01-13"
 islamic_month = "Al-Muḥarram"
 julian = "1157-02-25"
 Indian_civil = "1078-12-13"
-lunar = "12-15"
-lunar_month = "फाल्गुनः"
+lunar = "11-15"
+lunar_month = "माघः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -1319,7 +1319,7 @@ sidereal_solar_month = "मीनः"
 tithis = "**तिथिः** — पौर्णमासी►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — पूर्वफल्गुनी►21:15; उत्तरफल्गुनी►"
-festivals = "कऱ्पगाम्बाळ्–कपालीश्वरर् तिरुक्कल्याणम्, होलिका-पूर्णिमा, वेङ्कटाचले प्लवोत्सव-समापनम्, मन्वादिः-(रुद्र-सावर्णिः-[१२]), पूर्णिमा-पूजा, पञ्च-पर्व-पूजा (पूर्णिमा), पूर्णिमा-व्रतम्, वेङ्कटाचले पूर्णिमा-गरुड-सेवा, अनध्यायः, पार्वणव्रतम् पूर्णिमायाम् (गृह्योक्तमानम्), पार्वणव्रतम् पूर्णिमायाम्, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-03-05"
@@ -1327,8 +1327,8 @@ islamic = "0552-01-14"
 islamic_month = "Al-Muḥarram"
 julian = "1157-02-26"
 Indian_civil = "1078-12-14"
-lunar = "12-15"
-lunar_month = "फाल्गुनः"
+lunar = "11-15"
+lunar_month = "माघः"
 lunar_samvatsara = "धाता"
 "lunar_year (shaka)" = 1078
 "lunar_year (vikrama)" = 1213
@@ -1340,7 +1340,7 @@ sidereal_solar_month = "मीनः"
 tithis = "**तिथिः** — पौर्णमासी►08:19; कृष्ण-प्रथमा►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — उत्तरफल्गुनी►24:13!; हस्तः►"
-festivals = "पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, स्थालीपाकः (गृह्योक्तमानम्), अनध्यायः, पूर्णमासेष्टिः, पूर्ण-स्थालीपाकः, होलि, उमा-कपालीश्वर-दर्शनम्, कपाली विडैयाऱ्ऱि तॊडक्कम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-03-06"
@@ -1348,12 +1348,12 @@ islamic = "0552-01-15"
 islamic_month = "Al-Muḥarram"
 julian = "1157-02-27"
 Indian_civil = "1078-12-15"
-lunar = "01-16"
-lunar_month = "चैत्रः"
-lunar_samvatsara = "ईश्वरः"
-"lunar_year (shaka)" = 1079
-"lunar_year (vikrama)" = 1214
-"lunar_year (kali)" = 4258
+lunar = "12-16"
+lunar_month = "फाल्गुनः"
+lunar_samvatsara = "धाता"
+"lunar_year (shaka)" = 1078
+"lunar_year (vikrama)" = 1213
+"lunar_year (kali)" = 4257
 tropical = "01-16"
 tropical_month = "मधुः"
 sidereal_solar = "12-04"
@@ -1361,7 +1361,7 @@ sidereal_solar_month = "मीनः"
 tithis = "**तिथिः** — कृष्ण-प्रथमा►10:50; कृष्ण-द्वितीया►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — हस्तः►27:14!; चित्रा►"
-festivals = "अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-03-07"
@@ -1369,12 +1369,12 @@ islamic = "0552-01-16"
 islamic_month = "Al-Muḥarram"
 julian = "1157-02-28"
 Indian_civil = "1078-12-16"
-lunar = "01-17"
-lunar_month = "चैत्रः"
-lunar_samvatsara = "ईश्वरः"
-"lunar_year (shaka)" = 1079
-"lunar_year (vikrama)" = 1214
-"lunar_year (kali)" = 4258
+lunar = "12-17"
+lunar_month = "फाल्गुनः"
+lunar_samvatsara = "धाता"
+"lunar_year (shaka)" = 1078
+"lunar_year (vikrama)" = 1213
+"lunar_year (kali)" = 4257
 tropical = "01-17"
 tropical_month = "मधुः"
 sidereal_solar = "12-05"
@@ -1390,12 +1390,12 @@ islamic = "0552-01-17"
 islamic_month = "Al-Muḥarram"
 julian = "1157-03-01"
 Indian_civil = "1078-12-17"
-lunar = "01-18"
-lunar_month = "चैत्रः"
-lunar_samvatsara = "ईश्वरः"
-"lunar_year (shaka)" = 1079
-"lunar_year (vikrama)" = 1214
-"lunar_year (kali)" = 4258
+lunar = "12-18"
+lunar_month = "फाल्गुनः"
+lunar_samvatsara = "धाता"
+"lunar_year (shaka)" = 1078
+"lunar_year (vikrama)" = 1213
+"lunar_year (kali)" = 4257
 tropical = "01-18"
 tropical_month = "मधुः"
 sidereal_solar = "12-06"
@@ -1403,7 +1403,7 @@ sidereal_solar_month = "मीनः"
 tithis = "**तिथिः** — कृष्ण-तृतीया►15:49; कृष्ण-चतुर्थी►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — स्वाती►"
-festivals = "कारैक्काल् अम्मैयार् (२४) गुरुपूजै, विकट-महागणपति-सङ्कटहर-चतुर्थी-व्रतम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-03-09"
@@ -1411,12 +1411,12 @@ islamic = "0552-01-18"
 islamic_month = "Al-Muḥarram"
 julian = "1157-03-02"
 Indian_civil = "1078-12-18"
-lunar = "01-19"
-lunar_month = "चैत्रः"
-lunar_samvatsara = "ईश्वरः"
-"lunar_year (shaka)" = 1079
-"lunar_year (vikrama)" = 1214
-"lunar_year (kali)" = 4258
+lunar = "12-19"
+lunar_month = "फाल्गुनः"
+lunar_samvatsara = "धाता"
+"lunar_year (shaka)" = 1078
+"lunar_year (vikrama)" = 1213
+"lunar_year (kali)" = 4257
 tropical = "01-19"
 tropical_month = "मधुः"
 sidereal_solar = "12-07"
@@ -1432,12 +1432,12 @@ islamic = "0552-01-19"
 islamic_month = "Al-Muḥarram"
 julian = "1157-03-03"
 Indian_civil = "1078-12-19"
-lunar = "01-20"
-lunar_month = "चैत्रः"
-lunar_samvatsara = "ईश्वरः"
-"lunar_year (shaka)" = 1079
-"lunar_year (vikrama)" = 1214
-"lunar_year (kali)" = 4258
+lunar = "12-20"
+lunar_month = "फाल्गुनः"
+lunar_samvatsara = "धाता"
+"lunar_year (shaka)" = 1078
+"lunar_year (vikrama)" = 1213
+"lunar_year (kali)" = 4257
 tropical = "01-20"
 tropical_month = "मधुः"
 sidereal_solar = "12-08"
@@ -1445,7 +1445,7 @@ sidereal_solar_month = "मीनः"
 tithis = "**तिथिः** — कृष्ण-पञ्चमी►19:51; कृष्ण-षष्ठी►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — विशाखा►11:30; अनूराधा►"
-festivals = "वराह-जयन्ती"
+festivals = ""
 
 [[data]]
 gregorian = "1157-03-11"
@@ -1453,12 +1453,12 @@ islamic = "0552-01-20"
 islamic_month = "Al-Muḥarram"
 julian = "1157-03-04"
 Indian_civil = "1078-12-20"
-lunar = "01-21"
-lunar_month = "चैत्रः"
-lunar_samvatsara = "ईश्वरः"
-"lunar_year (shaka)" = 1079
-"lunar_year (vikrama)" = 1214
-"lunar_year (kali)" = 4258
+lunar = "12-21"
+lunar_month = "फाल्गुनः"
+lunar_samvatsara = "धाता"
+"lunar_year (shaka)" = 1078
+"lunar_year (vikrama)" = 1213
+"lunar_year (kali)" = 4257
 tropical = "01-21"
 tropical_month = "मधुः"
 sidereal_solar = "12-09"
@@ -1474,12 +1474,12 @@ islamic = "0552-01-21"
 islamic_month = "Al-Muḥarram"
 julian = "1157-03-05"
 Indian_civil = "1078-12-21"
-lunar = "01-22"
-lunar_month = "चैत्रः"
-lunar_samvatsara = "ईश्वरः"
-"lunar_year (shaka)" = 1079
-"lunar_year (vikrama)" = 1214
-"lunar_year (kali)" = 4258
+lunar = "12-22"
+lunar_month = "फाल्गुनः"
+lunar_samvatsara = "धाता"
+"lunar_year (shaka)" = 1078
+"lunar_year (vikrama)" = 1213
+"lunar_year (kali)" = 4257
 tropical = "01-22"
 tropical_month = "मधुः"
 sidereal_solar = "12-10"
@@ -1487,7 +1487,7 @@ sidereal_solar_month = "मीनः"
 tithis = "**तिथिः** — कृष्ण-सप्तमी►21:47; कृष्ण-अष्टमी►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — ज्येष्ठा►14:58; मूला►"
-festivals = "व्यतीपात-श्राद्धम्, पञ्च-पर्व-पूजा (अष्टमी), अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-03-13"
@@ -1495,12 +1495,12 @@ islamic = "0552-01-22"
 islamic_month = "Al-Muḥarram"
 julian = "1157-03-06"
 Indian_civil = "1078-12-22"
-lunar = "01-23"
-lunar_month = "चैत्रः"
-lunar_samvatsara = "ईश्वरः"
-"lunar_year (shaka)" = 1079
-"lunar_year (vikrama)" = 1214
-"lunar_year (kali)" = 4258
+lunar = "12-23"
+lunar_month = "फाल्गुनः"
+lunar_samvatsara = "धाता"
+"lunar_year (shaka)" = 1078
+"lunar_year (vikrama)" = 1213
+"lunar_year (kali)" = 4257
 tropical = "01-23"
 tropical_month = "मधुः"
 sidereal_solar = "12-11"
@@ -1508,7 +1508,7 @@ sidereal_solar_month = "मीनः"
 tithis = "**तिथिः** — कृष्ण-अष्टमी►21:38; कृष्ण-नवमी►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — मूला►15:40; पूर्वाषाढा►"
-festivals = "अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-03-14"
@@ -1516,12 +1516,12 @@ islamic = "0552-01-23"
 islamic_month = "Al-Muḥarram"
 julian = "1157-03-07"
 Indian_civil = "1078-12-23"
-lunar = "01-24"
-lunar_month = "चैत्रः"
-lunar_samvatsara = "ईश्वरः"
-"lunar_year (shaka)" = 1079
-"lunar_year (vikrama)" = 1214
-"lunar_year (kali)" = 4258
+lunar = "12-24"
+lunar_month = "फाल्गुनः"
+lunar_samvatsara = "धाता"
+"lunar_year (shaka)" = 1078
+"lunar_year (vikrama)" = 1213
+"lunar_year (kali)" = 4257
 tropical = "01-24"
 tropical_month = "मधुः"
 sidereal_solar = "12-12"
@@ -1537,12 +1537,12 @@ islamic = "0552-01-24"
 islamic_month = "Al-Muḥarram"
 julian = "1157-03-08"
 Indian_civil = "1078-12-24"
-lunar = "01-25"
-lunar_month = "चैत्रः"
-lunar_samvatsara = "ईश्वरः"
-"lunar_year (shaka)" = 1079
-"lunar_year (vikrama)" = 1214
-"lunar_year (kali)" = 4258
+lunar = "12-25"
+lunar_month = "फाल्गुनः"
+lunar_samvatsara = "धाता"
+"lunar_year (shaka)" = 1078
+"lunar_year (vikrama)" = 1213
+"lunar_year (kali)" = 4257
 tropical = "01-25"
 tropical_month = "मधुः"
 sidereal_solar = "12-13"
@@ -1550,7 +1550,7 @@ sidereal_solar_month = "मीनः"
 tithis = "**तिथिः** — कृष्ण-दशमी►18:56; कृष्ण-एकादशी►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — उत्तराषाढा►14:42; श्रवणः►"
-festivals = "कपाली विडैयाऱ्ऱि निऱैवु"
+festivals = ""
 
 [[data]]
 gregorian = "1157-03-16"
@@ -1558,12 +1558,12 @@ islamic = "0552-01-25"
 islamic_month = "Al-Muḥarram"
 julian = "1157-03-09"
 Indian_civil = "1078-12-25"
-lunar = "01-26"
-lunar_month = "चैत्रः"
-lunar_samvatsara = "ईश्वरः"
-"lunar_year (shaka)" = 1079
-"lunar_year (vikrama)" = 1214
-"lunar_year (kali)" = 4258
+lunar = "12-26"
+lunar_month = "फाल्गुनः"
+lunar_samvatsara = "धाता"
+"lunar_year (shaka)" = 1078
+"lunar_year (vikrama)" = 1213
+"lunar_year (kali)" = 4257
 tropical = "01-26"
 tropical_month = "मधुः"
 sidereal_solar = "12-14"
@@ -1571,7 +1571,7 @@ sidereal_solar_month = "मीनः"
 tithis = "**तिथिः** — कृष्ण-एकादशी►16:28; कृष्ण-द्वादशी►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — श्रवणः►13:06; श्रविष्ठा►"
-festivals = "श्रवण-व्रतम्, सर्व-वरूथिनी-एकादशी, द्विपुष्कर-योगः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-03-17"
@@ -1579,12 +1579,12 @@ islamic = "0552-01-26"
 islamic_month = "Al-Muḥarram"
 julian = "1157-03-10"
 Indian_civil = "1078-12-26"
-lunar = "01-27"
-lunar_month = "चैत्रः"
-lunar_samvatsara = "ईश्वरः"
-"lunar_year (shaka)" = 1079
-"lunar_year (vikrama)" = 1214
-"lunar_year (kali)" = 4258
+lunar = "12-27"
+lunar_month = "फाल्गुनः"
+lunar_samvatsara = "धाता"
+"lunar_year (shaka)" = 1078
+"lunar_year (vikrama)" = 1213
+"lunar_year (kali)" = 4257
 tropical = "01-27"
 tropical_month = "मधुः"
 sidereal_solar = "12-15"
@@ -1592,7 +1592,7 @@ sidereal_solar_month = "मीनः"
 tithis = "**तिथिः** — कृष्ण-द्वादशी►13:25; कृष्ण-त्रयोदशी►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — श्रविष्ठा►10:52; शतभिषक्►"
-festivals = "देवी-पर्व-१, मत्स्य-जयन्ती, दण्डियडिगळ् नायऩ्मार् (३१) गुरुपूजै, प्रदोष-व्रतम्, द्विपुष्कर-योगः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-03-18"
@@ -1600,12 +1600,12 @@ islamic = "0552-01-27"
 islamic_month = "Al-Muḥarram"
 julian = "1157-03-11"
 Indian_civil = "1078-12-27"
-lunar = "01-28"
-lunar_month = "चैत्रः"
-lunar_samvatsara = "ईश्वरः"
-"lunar_year (shaka)" = 1079
-"lunar_year (vikrama)" = 1214
-"lunar_year (kali)" = 4258
+lunar = "12-28"
+lunar_month = "फाल्गुनः"
+lunar_samvatsara = "धाता"
+"lunar_year (shaka)" = 1078
+"lunar_year (vikrama)" = 1213
+"lunar_year (kali)" = 4257
 tropical = "01-28"
 tropical_month = "मधुः"
 sidereal_solar = "12-16"
@@ -1613,7 +1613,7 @@ sidereal_solar_month = "मीनः"
 tithis = "**तिथिः** — कृष्ण-त्रयोदशी►09:54; कृष्ण-चतुर्दशी►30:08!; अमावास्या►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — शतभिषक्►08:11; पूर्वप्रोष्ठपदा►29:13!; उत्तरप्रोष्ठपदा►"
-festivals = "मासशिवरात्रिः, पञ्च-पर्व-पूजा (चतुर्दशी), गङ्गा-स्नानम्, अनध्यायः, दिनक्षयः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-03-19"
@@ -1621,12 +1621,12 @@ islamic = "0552-01-28"
 islamic_month = "Al-Muḥarram"
 julian = "1157-03-12"
 Indian_civil = "1078-12-28"
-lunar = "01-30"
-lunar_month = "चैत्रः"
-lunar_samvatsara = "ईश्वरः"
-"lunar_year (shaka)" = 1079
-"lunar_year (vikrama)" = 1214
-"lunar_year (kali)" = 4258
+lunar = "12-30"
+lunar_month = "फाल्गुनः"
+lunar_samvatsara = "धाता"
+"lunar_year (shaka)" = 1078
+"lunar_year (vikrama)" = 1213
+"lunar_year (kali)" = 4257
 tropical = "01-29"
 tropical_month = "मधुः"
 sidereal_solar = "12-17"
@@ -1634,7 +1634,7 @@ sidereal_solar_month = "मीनः"
 tithis = "**तिथिः** — अमावास्या►26:16!; शुक्ल-प्रथमा►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — उत्तरप्रोष्ठपदा►26:09!; रेवती►"
-festivals = "भार्गव-राम-पूजा, वह्नि-व्रतम्, पिण्ड-पितृ-यज्ञः, पञ्च-पर्व-पूजा (अमावास्या), अनध्यायः, सर्व-चैत्र-अमावास्या (अलभ्यम्–पुष्कला), पार्वणव्रतम् अमावास्यायाम् (गृह्योक्तमानम्), पार्वणव्रतम् अमावास्यायाम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-03-20"
@@ -1642,12 +1642,12 @@ islamic = "0552-01-29"
 islamic_month = "Al-Muḥarram"
 julian = "1157-03-13"
 Indian_civil = "1078-12-29"
-lunar = "01-01"
-lunar_month = "चैत्रः"
-lunar_samvatsara = "ईश्वरः"
-"lunar_year (shaka)" = 1079
-"lunar_year (vikrama)" = 1214
-"lunar_year (kali)" = 4258
+lunar = "12-01"
+lunar_month = "फाल्गुनः"
+lunar_samvatsara = "धाता"
+"lunar_year (shaka)" = 1078
+"lunar_year (vikrama)" = 1213
+"lunar_year (kali)" = 4257
 tropical = "01-30"
 tropical_month = "मधुः"
 sidereal_solar = "12-18"
@@ -1655,7 +1655,7 @@ sidereal_solar_month = "मीनः"
 tithis = "**तिथिः** — शुक्ल-प्रथमा►22:30; शुक्ल-द्वितीया►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — रेवती►23:11; अश्विनी►"
-festivals = "वसन्तनवरात्र-आरम्भः, काञ्ची १५ जगद्गुरु श्री-गङ्गाधरेन्द्र सरस्वती आराधना #८२९, काञ्ची २७ जगद्गुरु श्री-चिद्विलासेन्द्र सरस्वती आराधना #५८१, युगादिः/चान्द्रमान-संवत्सरारम्भः, श्वेतवराह-कल्पादिः, पार्वण-प्रायश्चित्तावकाशः दर्शे, स्थालीपाकः (गृह्योक्तमानम्), अनध्यायः, सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः, विषु-पुण्यकालः, माधव-मासः, दर्शेष्टिः, दर्श-स्थालीपाकः, अनध्यायः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-03-21"
@@ -1663,12 +1663,12 @@ islamic = "0552-01-30"
 islamic_month = "Al-Muḥarram"
 julian = "1157-03-14"
 Indian_civil = "1078-12-30"
-lunar = "01-02"
-lunar_month = "चैत्रः"
-lunar_samvatsara = "ईश्वरः"
-"lunar_year (shaka)" = 1079
-"lunar_year (vikrama)" = 1214
-"lunar_year (kali)" = 4258
+lunar = "12-02"
+lunar_month = "फाल्गुनः"
+lunar_samvatsara = "धाता"
+"lunar_year (shaka)" = 1078
+"lunar_year (vikrama)" = 1213
+"lunar_year (kali)" = 4257
 tropical = "02-01"
 tropical_month = "माधवः"
 sidereal_solar = "12-19"
@@ -1676,7 +1676,7 @@ sidereal_solar_month = "मीनः"
 tithis = "**तिथिः** — शुक्ल-द्वितीया►19:01; शुक्ल-तृतीया►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — अश्विनी►20:29; अपभरणी►"
-festivals = "विषुवदिनम्, वैधृति-श्राद्धम्, बालेन्दुव्रतम्, झूलेलाल-जयन्ती, आन्दोलन-तृतीया, चन्द्र-दर्शनम्, अनध्यायः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-03-22"
@@ -1684,12 +1684,12 @@ islamic = "0552-02-01"
 islamic_month = "Ṣafar"
 julian = "1157-03-15"
 Indian_civil = "1079-01-01"
-lunar = "01-03"
-lunar_month = "चैत्रः"
-lunar_samvatsara = "ईश्वरः"
-"lunar_year (shaka)" = 1079
-"lunar_year (vikrama)" = 1214
-"lunar_year (kali)" = 4258
+lunar = "12-03"
+lunar_month = "फाल्गुनः"
+lunar_samvatsara = "धाता"
+"lunar_year (shaka)" = 1078
+"lunar_year (vikrama)" = 1213
+"lunar_year (kali)" = 4257
 tropical = "02-02"
 tropical_month = "माधवः"
 sidereal_solar = "12-20"
@@ -1697,7 +1697,7 @@ sidereal_solar_month = "मीनः"
 tithis = "**तिथिः** — शुक्ल-तृतीया►15:57; शुक्ल-चतुर्थी►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — अपभरणी►18:15; कृत्तिका►"
-festivals = "कृत्तिका-व्रतम्, अरुन्धती-व्रतम्, पार्वतीश्वरयोरान्दोलनव्रतम्, गौरी-तृतीया/सौभाग्य-गौरी-व्रतम्, मन्वादिः-(उत्तमः-[३]), महातारा-जयन्ती, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-03-23"
@@ -1705,12 +1705,12 @@ islamic = "0552-02-02"
 islamic_month = "Ṣafar"
 julian = "1157-03-16"
 Indian_civil = "1079-01-02"
-lunar = "01-04"
-lunar_month = "चैत्रः"
-lunar_samvatsara = "ईश्वरः"
-"lunar_year (shaka)" = 1079
-"lunar_year (vikrama)" = 1214
-"lunar_year (kali)" = 4258
+lunar = "12-04"
+lunar_month = "फाल्गुनः"
+lunar_samvatsara = "धाता"
+"lunar_year (shaka)" = 1078
+"lunar_year (vikrama)" = 1213
+"lunar_year (kali)" = 4257
 tropical = "02-03"
 tropical_month = "माधवः"
 sidereal_solar = "12-21"
@@ -1718,7 +1718,7 @@ sidereal_solar_month = "मीनः"
 tithis = "**तिथिः** — शुक्ल-चतुर्थी►13:29; शुक्ल-पञ्चमी►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — कृत्तिका►16:36; रोहिणी►"
-festivals = "शुक्ल-चतुर्थी-व्रतम्, कूर्म-कल्पादिः, शनिरोहिणी-योगः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-03-24"
@@ -1726,12 +1726,12 @@ islamic = "0552-02-03"
 islamic_month = "Ṣafar"
 julian = "1157-03-17"
 Indian_civil = "1079-01-03"
-lunar = "01-05"
-lunar_month = "चैत्रः"
-lunar_samvatsara = "ईश्वरः"
-"lunar_year (shaka)" = 1079
-"lunar_year (vikrama)" = 1214
-"lunar_year (kali)" = 4258
+lunar = "12-05"
+lunar_month = "फाल्गुनः"
+lunar_samvatsara = "धाता"
+"lunar_year (shaka)" = 1078
+"lunar_year (vikrama)" = 1213
+"lunar_year (kali)" = 4257
 tropical = "02-04"
 tropical_month = "माधवः"
 sidereal_solar = "12-22"
@@ -1739,7 +1739,7 @@ sidereal_solar_month = "मीनः"
 tithis = "**तिथिः** — शुक्ल-पञ्चमी►11:41; शुक्ल-षष्ठी►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — रोहिणी►15:40; मृगशीर्षम्►"
-festivals = "नेच नायऩ्मार् (५९) गुरुपूजै, लक्ष्मी-पञ्चमी, हय-पूजा, शालिहोत्र-व्रत-आरम्भः, षष्ठी-व्रतम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-03-25"
@@ -1747,12 +1747,12 @@ islamic = "0552-02-04"
 islamic_month = "Ṣafar"
 julian = "1157-03-18"
 Indian_civil = "1079-01-04"
-lunar = "01-06"
-lunar_month = "चैत्रः"
-lunar_samvatsara = "ईश्वरः"
-"lunar_year (shaka)" = 1079
-"lunar_year (vikrama)" = 1214
-"lunar_year (kali)" = 4258
+lunar = "12-06"
+lunar_month = "फाल्गुनः"
+lunar_samvatsara = "धाता"
+"lunar_year (shaka)" = 1078
+"lunar_year (vikrama)" = 1213
+"lunar_year (kali)" = 4257
 tropical = "02-05"
 tropical_month = "माधवः"
 sidereal_solar = "12-23"
@@ -1760,7 +1760,7 @@ sidereal_solar_month = "मीनः"
 tithis = "**तिथिः** — शुक्ल-षष्ठी►10:40; शुक्ल-सप्तमी►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — मृगशीर्षम्►15:28; आर्द्रा►"
-festivals = "यमुना-जयन्ती, सोममृगशीर्ष-योगः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-03-26"
@@ -1768,12 +1768,12 @@ islamic = "0552-02-05"
 islamic_month = "Ṣafar"
 julian = "1157-03-19"
 Indian_civil = "1079-01-05"
-lunar = "01-07"
-lunar_month = "चैत्रः"
-lunar_samvatsara = "ईश्वरः"
-"lunar_year (shaka)" = 1079
-"lunar_year (vikrama)" = 1214
-"lunar_year (kali)" = 4258
+lunar = "12-07"
+lunar_month = "फाल्गुनः"
+lunar_samvatsara = "धाता"
+"lunar_year (shaka)" = 1078
+"lunar_year (vikrama)" = 1213
+"lunar_year (kali)" = 4257
 tropical = "02-06"
 tropical_month = "माधवः"
 sidereal_solar = "12-24"
@@ -1781,7 +1781,7 @@ sidereal_solar_month = "मीनः"
 tithis = "**तिथिः** — शुक्ल-सप्तमी►10:25; शुक्ल-अष्टमी►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — आर्द्रा►16:03; पुनर्वसुः►"
-festivals = "गणनाथ नायऩ्मार् (३८) गुरुपूजै, सूर्यस्य दमनकपूजा, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-03-27"
@@ -1789,12 +1789,12 @@ islamic = "0552-02-06"
 islamic_month = "Ṣafar"
 julian = "1157-03-20"
 Indian_civil = "1079-01-06"
-lunar = "01-08"
-lunar_month = "चैत्रः"
-lunar_samvatsara = "ईश्वरः"
-"lunar_year (shaka)" = 1079
-"lunar_year (vikrama)" = 1214
-"lunar_year (kali)" = 4258
+lunar = "12-08"
+lunar_month = "फाल्गुनः"
+lunar_samvatsara = "धाता"
+"lunar_year (shaka)" = 1078
+"lunar_year (vikrama)" = 1213
+"lunar_year (kali)" = 4257
 tropical = "02-07"
 tropical_month = "माधवः"
 sidereal_solar = "12-25"
@@ -1802,7 +1802,7 @@ sidereal_solar_month = "मीनः"
 tithis = "**तिथिः** — शुक्ल-अष्टमी►10:56; शुक्ल-नवमी►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — पुनर्वसुः►17:21; पुष्यः►"
-festivals = "अशोकाष्टमी, भवान्युत्पत्तिः, ब्रह्मपुत्रस्नानम्, काञ्ची ४३ जगद्गुरु श्री-आनन्दघनेन्द्र सरस्वती आराधना #१४४, वाजपेयफल-स्नान-योगः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-03-28"
@@ -1810,12 +1810,12 @@ islamic = "0552-02-07"
 islamic_month = "Ṣafar"
 julian = "1157-03-21"
 Indian_civil = "1079-01-07"
-lunar = "01-09"
-lunar_month = "चैत्रः"
-lunar_samvatsara = "ईश्वरः"
-"lunar_year (shaka)" = 1079
-"lunar_year (vikrama)" = 1214
-"lunar_year (kali)" = 4258
+lunar = "12-09"
+lunar_month = "फाल्गुनः"
+lunar_samvatsara = "धाता"
+"lunar_year (shaka)" = 1078
+"lunar_year (vikrama)" = 1213
+"lunar_year (kali)" = 4257
 tropical = "02-08"
 tropical_month = "माधवः"
 sidereal_solar = "12-26"
@@ -1823,7 +1823,7 @@ sidereal_solar_month = "मीनः"
 tithis = "**तिथिः** — शुक्ल-नवमी►12:06; शुक्ल-दशमी►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — पुष्यः►19:15; आश्रेषा►"
-festivals = "मुऩैयडुवार् नायऩ्मार् (५२) गुरुपूजै, श्रीरामनवमी, वसन्तनवरात्र-समापनम्, धर्मराज-दशमी, गुरुपुष्य-योगः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-03-29"
@@ -1831,12 +1831,12 @@ islamic = "0552-02-08"
 islamic_month = "Ṣafar"
 julian = "1157-03-22"
 Indian_civil = "1079-01-08"
-lunar = "01-10"
-lunar_month = "चैत्रः"
-lunar_samvatsara = "ईश्वरः"
-"lunar_year (shaka)" = 1079
-"lunar_year (vikrama)" = 1214
-"lunar_year (kali)" = 4258
+lunar = "12-10"
+lunar_month = "फाल्गुनः"
+lunar_samvatsara = "धाता"
+"lunar_year (shaka)" = 1078
+"lunar_year (vikrama)" = 1213
+"lunar_year (kali)" = 4257
 tropical = "02-09"
 tropical_month = "माधवः"
 sidereal_solar = "12-27"
@@ -1844,7 +1844,7 @@ sidereal_solar_month = "मीनः"
 tithis = "**तिथिः** — शुक्ल-दशमी►13:49; शुक्ल-एकादशी►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — आश्रेषा►21:39; मघा►"
-festivals = "ऋषीणां दमनकपूजा"
+festivals = ""
 
 [[data]]
 gregorian = "1157-03-30"
@@ -1852,12 +1852,12 @@ islamic = "0552-02-09"
 islamic_month = "Ṣafar"
 julian = "1157-03-23"
 Indian_civil = "1079-01-09"
-lunar = "01-11"
-lunar_month = "चैत्रः"
-lunar_samvatsara = "ईश्वरः"
-"lunar_year (shaka)" = 1079
-"lunar_year (vikrama)" = 1214
-"lunar_year (kali)" = 4258
+lunar = "12-11"
+lunar_month = "फाल्गुनः"
+lunar_samvatsara = "धाता"
+"lunar_year (shaka)" = 1078
+"lunar_year (vikrama)" = 1213
+"lunar_year (kali)" = 4257
 tropical = "02-10"
 tropical_month = "माधवः"
 sidereal_solar = "12-28"
@@ -1865,7 +1865,7 @@ sidereal_solar_month = "मीनः"
 tithis = "**तिथिः** — शुक्ल-एकादशी►15:56; शुक्ल-द्वादशी►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — मघा►24:24!; पूर्वफल्गुनी►"
-festivals = "श्रीकृष्णदोलोत्सवः, समुद्र-मन्थनम्, सर्व-कामदा-एकादशी"
+festivals = ""
 
 [[data]]
 gregorian = "1157-03-31"
@@ -1873,12 +1873,12 @@ islamic = "0552-02-10"
 islamic_month = "Ṣafar"
 julian = "1157-03-24"
 Indian_civil = "1079-01-10"
-lunar = "01-12"
-lunar_month = "चैत्रः"
-lunar_samvatsara = "ईश्वरः"
-"lunar_year (shaka)" = 1079
-"lunar_year (vikrama)" = 1214
-"lunar_year (kali)" = 4258
+lunar = "12-12"
+lunar_month = "फाल्गुनः"
+lunar_samvatsara = "धाता"
+"lunar_year (shaka)" = 1078
+"lunar_year (vikrama)" = 1213
+"lunar_year (kali)" = 4257
 tropical = "02-11"
 tropical_month = "माधवः"
 sidereal_solar = "12-29"
@@ -1886,7 +1886,7 @@ sidereal_solar_month = "मीनः"
 tithis = "**तिथिः** — शुक्ल-द्वादशी►18:19; शुक्ल-त्रयोदशी►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — पूर्वफल्गुनी►27:20!; उत्तरफल्गुनी►"
-festivals = "तुलसी-जननं-क्षीरसागरतः, विष्णु-दमनकोत्सवः, भ्रातृप्राप्ति-व्रत-आरम्भः, दमनकारोपण-द्वादशी"
+festivals = ""
 
 [[data]]
 gregorian = "1157-04-01"
@@ -1894,12 +1894,12 @@ islamic = "0552-02-11"
 islamic_month = "Ṣafar"
 julian = "1157-03-25"
 Indian_civil = "1079-01-11"
-lunar = "01-13"
-lunar_month = "चैत्रः"
-lunar_samvatsara = "ईश्वरः"
-"lunar_year (shaka)" = 1079
-"lunar_year (vikrama)" = 1214
-"lunar_year (kali)" = 4258
+lunar = "12-13"
+lunar_month = "फाल्गुनः"
+lunar_samvatsara = "धाता"
+"lunar_year (shaka)" = 1078
+"lunar_year (vikrama)" = 1213
+"lunar_year (kali)" = 4257
 tropical = "02-12"
 tropical_month = "माधवः"
 sidereal_solar = "12-30"
@@ -1907,7 +1907,7 @@ sidereal_solar_month = "मीनः"
 tithis = "**तिथिः** — शुक्ल-त्रयोदशी►20:48; शुक्ल-चतुर्दशी►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — उत्तरफल्गुनी►30:21!; हस्तः►"
-festivals = "मीनोत्तरफाल्गुनोत्सवः, मदन-त्रयोदशी, दमनक-चोरी-उत्सवः, सोम-प्रदोष-व्रतम्, अनध्यायः, वेङ्कटाचले वसन्तोत्सव-प्रारम्भः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-04-02"
@@ -1915,12 +1915,12 @@ islamic = "0552-02-12"
 islamic_month = "Ṣafar"
 julian = "1157-03-26"
 Indian_civil = "1079-01-12"
-lunar = "01-14"
-lunar_month = "चैत्रः"
-lunar_samvatsara = "ईश्वरः"
-"lunar_year (shaka)" = 1079
-"lunar_year (vikrama)" = 1214
-"lunar_year (kali)" = 4258
+lunar = "12-14"
+lunar_month = "फाल्गुनः"
+lunar_samvatsara = "धाता"
+"lunar_year (shaka)" = 1078
+"lunar_year (vikrama)" = 1213
+"lunar_year (kali)" = 4257
 tropical = "02-13"
 tropical_month = "माधवः"
 sidereal_solar = "01-01"
@@ -1928,7 +1928,7 @@ sidereal_solar_month = "मेषः"
 tithis = "**तिथिः** — शुक्ल-चतुर्दशी►23:18; पौर्णमासी►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — हस्तः►"
-festivals = "निम्ब-कुसुम-भक्षणम्, नृसिंह-दोलोत्सवः, मदन-चतुर्दशी, दमनक-चतुर्दशी, अनध्यायः, अनध्यायः, सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः, मेष-सङ्क्रमण-पुण्यकालः, रवि-सङ्क्रमण-पुण्यकालः, सौरमान-संवत्सरारम्भः (ईश्वर-संवत्सरः), पञ्चाङ्ग-पठनम्, विषुक्कऩि, वेङ्कटाचले वसन्तोत्सवः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-04-03"
@@ -1936,12 +1936,12 @@ islamic = "0552-02-13"
 islamic_month = "Ṣafar"
 julian = "1157-03-27"
 Indian_civil = "1079-01-13"
-lunar = "01-15"
-lunar_month = "चैत्रः"
-lunar_samvatsara = "ईश्वरः"
-"lunar_year (shaka)" = 1079
-"lunar_year (vikrama)" = 1214
-"lunar_year (kali)" = 4258
+lunar = "12-15"
+lunar_month = "फाल्गुनः"
+lunar_samvatsara = "धाता"
+"lunar_year (shaka)" = 1078
+"lunar_year (vikrama)" = 1213
+"lunar_year (kali)" = 4257
 tropical = "02-14"
 tropical_month = "माधवः"
 sidereal_solar = "01-02"
@@ -1949,7 +1949,7 @@ sidereal_solar_month = "मेषः"
 tithis = "**तिथिः** — पौर्णमासी►25:42!; कृष्ण-प्रथमा►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — हस्तः►09:21; चित्रा►"
-festivals = "गजेन्द्र-मोक्षः, श्री-हनूमत्-जयन्ती, चैत्र-पूर्णिमा, चित्रगुप्त-व्रतम्, वेङ्कटाचले वसन्तोत्सव-समापनम्, मन्वादिः-(रौच्यः-[१३]), पूर्णिमा-पूजा, पञ्च-पर्व-पूजा (पूर्णिमा), पूर्णिमा-व्रतम्, वेङ्कटाचले पूर्णिमा-गरुड-सेवा, अनध्यायः, पार्वणव्रतम् पूर्णिमायाम् (गृह्योक्तमानम्), पार्वणव्रतम् पूर्णिमायाम्, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-04-04"
@@ -1957,8 +1957,8 @@ islamic = "0552-02-14"
 islamic_month = "Ṣafar"
 julian = "1157-03-28"
 Indian_civil = "1079-01-14"
-lunar = "02-16"
-lunar_month = "वैशाखः"
+lunar = "01-16"
+lunar_month = "चैत्रः"
 lunar_samvatsara = "ईश्वरः"
 "lunar_year (shaka)" = 1079
 "lunar_year (vikrama)" = 1214
@@ -1970,7 +1970,7 @@ sidereal_solar_month = "मेषः"
 tithis = "**तिथिः** — कृष्ण-प्रथमा►27:56!; कृष्ण-द्वितीया►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — चित्रा►12:13; स्वाती►"
-festivals = "पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, स्थालीपाकः (गृह्योक्तमानम्), अनध्यायः, पूर्णमासेष्टिः, पूर्ण-स्थालीपाकः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-04-05"
@@ -1978,8 +1978,8 @@ islamic = "0552-02-15"
 islamic_month = "Ṣafar"
 julian = "1157-03-29"
 Indian_civil = "1079-01-15"
-lunar = "02-17"
-lunar_month = "वैशाखः"
+lunar = "01-17"
+lunar_month = "चैत्रः"
 lunar_samvatsara = "ईश्वरः"
 "lunar_year (shaka)" = 1079
 "lunar_year (vikrama)" = 1214
@@ -1999,8 +1999,8 @@ islamic = "0552-02-16"
 islamic_month = "Ṣafar"
 julian = "1157-03-30"
 Indian_civil = "1079-01-16"
-lunar = "02-18"
-lunar_month = "वैशाखः"
+lunar = "01-18"
+lunar_month = "चैत्रः"
 lunar_samvatsara = "ईश्वरः"
 "lunar_year (shaka)" = 1079
 "lunar_year (vikrama)" = 1214
@@ -2012,7 +2012,7 @@ sidereal_solar_month = "मेषः"
 tithis = "**तिथिः** — कृष्ण-तृतीया►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — विशाखा►17:15; अनूराधा►"
-festivals = "व्यतीपात-श्राद्धम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-04-07"
@@ -2020,8 +2020,8 @@ islamic = "0552-02-17"
 islamic_month = "Ṣafar"
 julian = "1157-03-31"
 Indian_civil = "1079-01-17"
-lunar = "02-18"
-lunar_month = "वैशाखः"
+lunar = "01-18"
+lunar_month = "चैत्रः"
 lunar_samvatsara = "ईश्वरः"
 "lunar_year (shaka)" = 1079
 "lunar_year (vikrama)" = 1214
@@ -2033,7 +2033,7 @@ sidereal_solar_month = "मेषः"
 tithis = "**तिथिः** — कृष्ण-तृतीया►07:30; कृष्ण-चतुर्थी►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — अनूराधा►19:16; ज्येष्ठा►"
-festivals = "रविवार-एकदन्त-महागणपति सङ्कटहर-चतुर्थी-व्रतम्, पद्मक-योग-पुण्यकालः, पातार्क-योगः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-04-08"
@@ -2041,8 +2041,8 @@ islamic = "0552-02-18"
 islamic_month = "Ṣafar"
 julian = "1157-04-01"
 Indian_civil = "1079-01-18"
-lunar = "02-19"
-lunar_month = "वैशाखः"
+lunar = "01-19"
+lunar_month = "चैत्रः"
 lunar_samvatsara = "ईश्वरः"
 "lunar_year (shaka)" = 1079
 "lunar_year (vikrama)" = 1214
@@ -2062,8 +2062,8 @@ islamic = "0552-02-19"
 islamic_month = "Ṣafar"
 julian = "1157-04-02"
 Indian_civil = "1079-01-19"
-lunar = "02-20"
-lunar_month = "वैशाखः"
+lunar = "01-20"
+lunar_month = "चैत्रः"
 lunar_samvatsara = "ईश्वरः"
 "lunar_year (shaka)" = 1079
 "lunar_year (vikrama)" = 1214
@@ -2075,7 +2075,7 @@ sidereal_solar_month = "मेषः"
 tithis = "**तिथिः** — कृष्ण-पञ्चमी►09:19; कृष्ण-षष्ठी►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — मूला►21:49; पूर्वाषाढा►"
-festivals = "प्राणहिता-अन्त्य-पुष्कर-आरम्भः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-04-10"
@@ -2083,8 +2083,8 @@ islamic = "0552-02-20"
 islamic_month = "Ṣafar"
 julian = "1157-04-03"
 Indian_civil = "1079-01-20"
-lunar = "02-21"
-lunar_month = "वैशाखः"
+lunar = "01-21"
+lunar_month = "चैत्रः"
 lunar_samvatsara = "ईश्वरः"
 "lunar_year (shaka)" = 1079
 "lunar_year (vikrama)" = 1214
@@ -2096,7 +2096,7 @@ sidereal_solar_month = "मेषः"
 tithis = "**तिथिः** — कृष्ण-षष्ठी►09:23; कृष्ण-सप्तमी►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — पूर्वाषाढा►22:14; उत्तराषाढा►"
-festivals = "अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-04-11"
@@ -2104,8 +2104,8 @@ islamic = "0552-02-21"
 islamic_month = "Ṣafar"
 julian = "1157-04-04"
 Indian_civil = "1079-01-21"
-lunar = "02-22"
-lunar_month = "वैशाखः"
+lunar = "01-22"
+lunar_month = "चैत्रः"
 lunar_samvatsara = "ईश्वरः"
 "lunar_year (shaka)" = 1079
 "lunar_year (vikrama)" = 1214
@@ -2117,7 +2117,7 @@ sidereal_solar_month = "मेषः"
 tithis = "**तिथिः** — कृष्ण-सप्तमी►08:49; कृष्ण-अष्टमी►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — उत्तराषाढा►22:01; श्रवणः►"
-festivals = "पञ्च-पर्व-पूजा (अष्टमी), अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-04-12"
@@ -2125,8 +2125,8 @@ islamic = "0552-02-22"
 islamic_month = "Ṣafar"
 julian = "1157-04-05"
 Indian_civil = "1079-01-22"
-lunar = "02-23"
-lunar_month = "वैशाखः"
+lunar = "01-23"
+lunar_month = "चैत्रः"
 lunar_samvatsara = "ईश्वरः"
 "lunar_year (shaka)" = 1079
 "lunar_year (vikrama)" = 1214
@@ -2138,7 +2138,7 @@ sidereal_solar_month = "मेषः"
 tithis = "**तिथिः** — कृष्ण-अष्टमी►07:36; कृष्ण-नवमी►29:45!; कृष्ण-दशमी►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — श्रवणः►21:09; श्रविष्ठा►"
-festivals = "नटराजर् चित्तिरै ओणम् महाभिषेकम्, श्रवण-व्रतम्, दिनक्षयः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-04-13"
@@ -2146,8 +2146,8 @@ islamic = "0552-02-23"
 islamic_month = "Ṣafar"
 julian = "1157-04-06"
 Indian_civil = "1079-01-23"
-lunar = "02-25"
-lunar_month = "वैशाखः"
+lunar = "01-25"
+lunar_month = "चैत्रः"
 lunar_samvatsara = "ईश्वरः"
 "lunar_year (shaka)" = 1079
 "lunar_year (vikrama)" = 1214
@@ -2167,8 +2167,8 @@ islamic = "0552-02-24"
 islamic_month = "Ṣafar"
 julian = "1157-04-07"
 Indian_civil = "1079-01-24"
-lunar = "02-26"
-lunar_month = "वैशाखः"
+lunar = "01-26"
+lunar_month = "चैत्रः"
 lunar_samvatsara = "ईश्वरः"
 "lunar_year (shaka)" = 1079
 "lunar_year (vikrama)" = 1214
@@ -2180,7 +2180,7 @@ sidereal_solar_month = "मेषः"
 tithis = "**तिथिः** — कृष्ण-एकादशी►24:27!; कृष्ण-द्वादशी►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — शतभिषक्►17:44; पूर्वप्रोष्ठपदा►"
-festivals = "तिरुनावुक्करछ नायऩ्मार् (२१) गुरुपूजै, सर्व-अपरा-एकादशी, त्रिपुष्कर-योगः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-04-15"
@@ -2188,8 +2188,8 @@ islamic = "0552-02-25"
 islamic_month = "Ṣafar"
 julian = "1157-04-08"
 Indian_civil = "1079-01-25"
-lunar = "02-27"
-lunar_month = "वैशाखः"
+lunar = "01-27"
+lunar_month = "चैत्रः"
 lunar_samvatsara = "ईश्वरः"
 "lunar_year (shaka)" = 1079
 "lunar_year (vikrama)" = 1214
@@ -2201,7 +2201,7 @@ sidereal_solar_month = "मेषः"
 tithis = "**तिथिः** — कृष्ण-द्वादशी►21:12; कृष्ण-त्रयोदशी►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — पूर्वप्रोष्ठपदा►15:23; उत्तरप्रोष्ठपदा►"
-festivals = "वैधृति-श्राद्धम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-04-16"
@@ -2209,8 +2209,8 @@ islamic = "0552-02-26"
 islamic_month = "Ṣafar"
 julian = "1157-04-09"
 Indian_civil = "1079-01-26"
-lunar = "02-28"
-lunar_month = "वैशाखः"
+lunar = "01-28"
+lunar_month = "चैत्रः"
 lunar_samvatsara = "ईश्वरः"
 "lunar_year (shaka)" = 1079
 "lunar_year (vikrama)" = 1214
@@ -2222,7 +2222,7 @@ sidereal_solar_month = "मेषः"
 tithis = "**तिथिः** — कृष्ण-त्रयोदशी►17:44; कृष्ण-चतुर्दशी►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — उत्तरप्रोष्ठपदा►12:46; रेवती►"
-festivals = "मासशिवरात्रिः, पञ्च-पर्व-पूजा (चतुर्दशी), प्रदोष-व्रतम्, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-04-17"
@@ -2230,8 +2230,8 @@ islamic = "0552-02-27"
 islamic_month = "Ṣafar"
 julian = "1157-04-10"
 Indian_civil = "1079-01-27"
-lunar = "02-29"
-lunar_month = "वैशाखः"
+lunar = "01-29"
+lunar_month = "चैत्रः"
 lunar_samvatsara = "ईश्वरः"
 "lunar_year (shaka)" = 1079
 "lunar_year (vikrama)" = 1214
@@ -2243,7 +2243,7 @@ sidereal_solar_month = "मेषः"
 tithis = "**तिथिः** — कृष्ण-चतुर्दशी►14:13; अमावास्या►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — रेवती►10:03; अश्विनी►"
-festivals = "अनध्यायः, पञ्च-पर्व-पूजा (अमावास्या), सर्व-वैशाख-अमावास्या, पार्वणव्रतम् अमावास्यायाम् (गृह्योक्तमानम्), पार्वणव्रतम् अमावास्यायाम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-04-18"
@@ -2251,8 +2251,8 @@ islamic = "0552-02-28"
 islamic_month = "Ṣafar"
 julian = "1157-04-11"
 Indian_civil = "1079-01-28"
-lunar = "02-30"
-lunar_month = "वैशाखः"
+lunar = "01-30"
+lunar_month = "चैत्रः"
 lunar_samvatsara = "ईश्वरः"
 "lunar_year (shaka)" = 1079
 "lunar_year (vikrama)" = 1214
@@ -2264,7 +2264,7 @@ sidereal_solar_month = "मेषः"
 tithis = "**तिथिः** — अमावास्या►10:47; शुक्ल-प्रथमा►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — अश्विनी►07:24; अपभरणी►28:58!; कृत्तिका►"
-festivals = "प्रोक्लस्-मृत्युः #६७२, पिण्ड-पितृ-यज्ञः, अनध्यायः, पार्वण-प्रायश्चित्तावकाशः दर्शे, स्थालीपाकः (गृह्योक्तमानम्), चिऱुत्तॊण्ड नायऩ्मार् (३६) गुरुपूजै, अनध्यायः, दर्शेष्टिः, दर्श-स्थालीपाकः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-04-19"
@@ -2272,8 +2272,8 @@ islamic = "0552-02-29"
 islamic_month = "Ṣafar"
 julian = "1157-04-12"
 Indian_civil = "1079-01-29"
-lunar = "02-01"
-lunar_month = "वैशाखः"
+lunar = "01-01"
+lunar_month = "चैत्रः"
 lunar_samvatsara = "ईश्वरः"
 "lunar_year (shaka)" = 1079
 "lunar_year (vikrama)" = 1214
@@ -2285,7 +2285,7 @@ sidereal_solar_month = "मेषः"
 tithis = "**तिथिः** — शुक्ल-प्रथमा►07:36; शुक्ल-द्वितीया►28:50!; शुक्ल-तृतीया►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — कृत्तिका►26:56!; रोहिणी►"
-festivals = "कृत्तिका-व्रतम्, चन्द्र-दर्शनम्, दिनक्षयः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-04-20"
@@ -2293,8 +2293,8 @@ islamic = "0552-03-01"
 islamic_month = "Rabīʿ alʾ Awwal/Ūlā"
 julian = "1157-04-13"
 Indian_civil = "1079-01-30"
-lunar = "02-03"
-lunar_month = "वैशाखः"
+lunar = "01-03"
+lunar_month = "चैत्रः"
 lunar_samvatsara = "ईश्वरः"
 "lunar_year (shaka)" = 1079
 "lunar_year (vikrama)" = 1214
@@ -2306,7 +2306,7 @@ sidereal_solar_month = "मेषः"
 tithis = "**तिथिः** — शुक्ल-तृतीया►26:36!; शुक्ल-चतुर्थी►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — रोहिणी►25:26!; मृगशीर्षम्►"
-festivals = "मङ्गैयर्क्करचियार् नायऩ्मार् (५०) गुरुपूजै, प्राणहिता-अन्त्य-पुष्कर-समापनम्, सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः, सायन-विष्णुपदी-पुण्यकालः, शुक्र-मासः/ग्रीष्मऋतुः, अनध्यायः, शनिरोहिणी-योगः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-04-21"
@@ -2314,8 +2314,8 @@ islamic = "0552-03-02"
 islamic_month = "Rabīʿ alʾ Awwal/Ūlā"
 julian = "1157-04-14"
 Indian_civil = "1079-02-01"
-lunar = "02-04"
-lunar_month = "वैशाखः"
+lunar = "01-04"
+lunar_month = "चैत्रः"
 lunar_samvatsara = "ईश्वरः"
 "lunar_year (shaka)" = 1079
 "lunar_year (vikrama)" = 1214
@@ -2327,7 +2327,7 @@ sidereal_solar_month = "मेषः"
 tithis = "**तिथिः** — शुक्ल-चतुर्थी►25:02!; शुक्ल-पञ्चमी►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — मृगशीर्षम्►24:35!; आर्द्रा►"
-festivals = "शुक्ल-चतुर्थी-व्रतम्, गुरु-सङ्क्रान्तिः, गङ्गा-आद्य-पुष्कर-आरम्भः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-04-22"
@@ -2335,8 +2335,8 @@ islamic = "0552-03-03"
 islamic_month = "Rabīʿ alʾ Awwal/Ūlā"
 julian = "1157-04-15"
 Indian_civil = "1079-02-02"
-lunar = "02-05"
-lunar_month = "वैशाखः"
+lunar = "01-05"
+lunar_month = "चैत्रः"
 lunar_samvatsara = "ईश्वरः"
 "lunar_year (shaka)" = 1079
 "lunar_year (vikrama)" = 1214
@@ -2348,7 +2348,7 @@ sidereal_solar_month = "मेषः"
 tithis = "**तिथिः** — शुक्ल-पञ्चमी►24:12!; शुक्ल-षष्ठी►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — आर्द्रा►24:28!; पुनर्वसुः►"
-festivals = "विऱऩ्मिण्ड नायऩ्मार् (६) गुरुपूजै, रामानुज-जन्म-नक्षत्रम् #१४१, अग्निनक्षत्र-आरम्भः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-04-23"
@@ -2356,8 +2356,8 @@ islamic = "0552-03-04"
 islamic_month = "Rabīʿ alʾ Awwal/Ūlā"
 julian = "1157-04-16"
 Indian_civil = "1079-02-03"
-lunar = "02-06"
-lunar_month = "वैशाखः"
+lunar = "01-06"
+lunar_month = "चैत्रः"
 lunar_samvatsara = "ईश्वरः"
 "lunar_year (shaka)" = 1079
 "lunar_year (vikrama)" = 1214
@@ -2369,7 +2369,7 @@ sidereal_solar_month = "मेषः"
 tithis = "**तिथिः** — शुक्ल-षष्ठी►24:09!; शुक्ल-सप्तमी►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — पुनर्वसुः►25:06!; पुष्यः►"
-festivals = "षष्ठी-व्रतम्, त्रिपुष्कर-योगः, मीऩाक्षी तङ्ग कुदिरै वाहऩम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-04-24"
@@ -2377,8 +2377,8 @@ islamic = "0552-03-05"
 islamic_month = "Rabīʿ alʾ Awwal/Ūlā"
 julian = "1157-04-17"
 Indian_civil = "1079-02-04"
-lunar = "02-07"
-lunar_month = "वैशाखः"
+lunar = "01-07"
+lunar_month = "चैत्रः"
 lunar_samvatsara = "ईश्वरः"
 "lunar_year (shaka)" = 1079
 "lunar_year (vikrama)" = 1214
@@ -2390,7 +2390,7 @@ sidereal_solar_month = "मेषः"
 tithis = "**तिथिः** — शुक्ल-सप्तमी►24:51!; शुक्ल-अष्टमी►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — पुष्यः►26:29!; आश्रेषा►"
-festivals = "अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-04-25"
@@ -2398,8 +2398,8 @@ islamic = "0552-03-06"
 islamic_month = "Rabīʿ alʾ Awwal/Ūlā"
 julian = "1157-04-18"
 Indian_civil = "1079-02-05"
-lunar = "02-08"
-lunar_month = "वैशाखः"
+lunar = "01-08"
+lunar_month = "चैत्रः"
 lunar_samvatsara = "ईश्वरः"
 "lunar_year (shaka)" = 1079
 "lunar_year (vikrama)" = 1214
@@ -2411,7 +2411,7 @@ sidereal_solar_month = "मेषः"
 tithis = "**तिथिः** — शुक्ल-अष्टमी►26:14!; शुक्ल-नवमी►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — आश्रेषा►28:31!; मघा►"
-festivals = "अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-04-26"
@@ -2419,8 +2419,8 @@ islamic = "0552-03-07"
 islamic_month = "Rabīʿ alʾ Awwal/Ūlā"
 julian = "1157-04-19"
 Indian_civil = "1079-02-06"
-lunar = "02-09"
-lunar_month = "वैशाखः"
+lunar = "01-09"
+lunar_month = "चैत्रः"
 lunar_samvatsara = "ईश्वरः"
 "lunar_year (shaka)" = 1079
 "lunar_year (vikrama)" = 1214
@@ -2440,8 +2440,8 @@ islamic = "0552-03-08"
 islamic_month = "Rabīʿ alʾ Awwal/Ūlā"
 julian = "1157-04-20"
 Indian_civil = "1079-02-07"
-lunar = "02-10"
-lunar_month = "वैशाखः"
+lunar = "01-10"
+lunar_month = "चैत्रः"
 lunar_samvatsara = "ईश्वरः"
 "lunar_year (shaka)" = 1079
 "lunar_year (vikrama)" = 1214
@@ -2461,8 +2461,8 @@ islamic = "0552-03-09"
 islamic_month = "Rabīʿ alʾ Awwal/Ūlā"
 julian = "1157-04-21"
 Indian_civil = "1079-02-08"
-lunar = "02-10"
-lunar_month = "वैशाखः"
+lunar = "01-10"
+lunar_month = "चैत्रः"
 lunar_samvatsara = "ईश्वरः"
 "lunar_year (shaka)" = 1079
 "lunar_year (vikrama)" = 1214
@@ -2474,7 +2474,7 @@ sidereal_solar_month = "मेषः"
 tithis = "**तिथिः** — शुक्ल-दशमी►06:27; शुक्ल-एकादशी►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — पूर्वफल्गुनी►09:56; उत्तरफल्गुनी►"
-festivals = "मीऩाक्षी तिरुक्कल्याणम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-04-29"
@@ -2482,8 +2482,8 @@ islamic = "0552-03-10"
 islamic_month = "Rabīʿ alʾ Awwal/Ūlā"
 julian = "1157-04-22"
 Indian_civil = "1079-02-09"
-lunar = "02-11"
-lunar_month = "वैशाखः"
+lunar = "01-11"
+lunar_month = "चैत्रः"
 lunar_samvatsara = "ईश्वरः"
 "lunar_year (shaka)" = 1079
 "lunar_year (vikrama)" = 1214
@@ -2495,7 +2495,7 @@ sidereal_solar_month = "मेषः"
 tithis = "**तिथिः** — शुक्ल-एकादशी►08:55; शुक्ल-द्वादशी►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — उत्तरफल्गुनी►12:58; हस्तः►"
-festivals = "सर्व-मोहिनी-एकादशी"
+festivals = ""
 
 [[data]]
 gregorian = "1157-04-30"
@@ -2503,8 +2503,8 @@ islamic = "0552-03-11"
 islamic_month = "Rabīʿ alʾ Awwal/Ūlā"
 julian = "1157-04-23"
 Indian_civil = "1079-02-10"
-lunar = "02-12"
-lunar_month = "वैशाखः"
+lunar = "01-12"
+lunar_month = "चैत्रः"
 lunar_samvatsara = "ईश्वरः"
 "lunar_year (shaka)" = 1079
 "lunar_year (vikrama)" = 1214
@@ -2516,7 +2516,7 @@ sidereal_solar_month = "मेषः"
 tithis = "**तिथिः** — शुक्ल-द्वादशी►11:23; शुक्ल-त्रयोदशी►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — हस्तः►15:58; चित्रा►"
-festivals = "भौमवार-शुक्ल-प्रदोष-व्रतम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-05-01"
@@ -2524,8 +2524,8 @@ islamic = "0552-03-12"
 islamic_month = "Rabīʿ alʾ Awwal/Ūlā"
 julian = "1157-04-24"
 Indian_civil = "1079-02-11"
-lunar = "02-13"
-lunar_month = "वैशाखः"
+lunar = "01-13"
+lunar_month = "चैत्रः"
 lunar_samvatsara = "ईश्वरः"
 "lunar_year (shaka)" = 1079
 "lunar_year (vikrama)" = 1214
@@ -2537,7 +2537,7 @@ sidereal_solar_month = "मेषः"
 tithis = "**तिथिः** — शुक्ल-त्रयोदशी►13:42; शुक्ल-चतुर्दशी►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — चित्रा►18:47; स्वाती►"
-festivals = "मधुरकवि आऴ्वार् तिरुनक्षत्तिरम्, इचैञाऩियार् नायऩ्मार् (६३) गुरुपूजै, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-05-02"
@@ -2545,8 +2545,8 @@ islamic = "0552-03-13"
 islamic_month = "Rabīʿ alʾ Awwal/Ūlā"
 julian = "1157-04-25"
 Indian_civil = "1079-02-12"
-lunar = "02-14"
-lunar_month = "वैशाखः"
+lunar = "01-14"
+lunar_month = "चैत्रः"
 lunar_samvatsara = "ईश्वरः"
 "lunar_year (shaka)" = 1079
 "lunar_year (vikrama)" = 1214
@@ -2558,7 +2558,7 @@ sidereal_solar_month = "मेषः"
 tithis = "**तिथिः** — शुक्ल-चतुर्दशी►15:43; पौर्णमासी►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — स्वाती►21:19; विशाखा►"
-festivals = "चित्रा-पूर्णिमा, तिरुक्कुऱिप्पुत् तॊण्ड नायऩ्मार् (१९) गुरुपूजै, व्यतीपात-श्राद्धम्, अनध्यायः, पूर्णिमा-पूजा, पञ्च-पर्व-पूजा (पूर्णिमा), वेङ्कटाचले पूर्णिमा-गरुड-सेवा, गङ्गा-आद्य-पुष्कर-समापनम्, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-05-03"
@@ -2566,8 +2566,8 @@ islamic = "0552-03-14"
 islamic_month = "Rabīʿ alʾ Awwal/Ūlā"
 julian = "1157-04-26"
 Indian_civil = "1079-02-13"
-lunar = "02-15"
-lunar_month = "वैशाखः"
+lunar = "01-15"
+lunar_month = "चैत्रः"
 lunar_samvatsara = "ईश्वरः"
 "lunar_year (shaka)" = 1079
 "lunar_year (vikrama)" = 1214
@@ -2579,7 +2579,7 @@ sidereal_solar_month = "वृषभः"
 tithis = "**तिथिः** — पौर्णमासी►17:22; कृष्ण-प्रथमा►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — विशाखा►23:28; अनूराधा►"
-festivals = "पूर्णिमा-व्रतम्, अनध्यायः, अनध्यायः, सङ्क्रमण-दिन-पूर्वाह्ण-पुण्यकालः, वृषभ-रवि-सङ्क्रमण-विष्णुपदी-पुण्यकालः, पार्वणव्रतम् पूर्णिमायाम् (गृह्योक्तमानम्), पार्वणव्रतम् पूर्णिमायाम्, द्वापरयुगान्तः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-05-04"
@@ -2600,7 +2600,7 @@ sidereal_solar_month = "वृषभः"
 tithis = "**तिथिः** — कृष्ण-प्रथमा►18:35; कृष्ण-द्वितीया►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — अनूराधा►25:13!; ज्येष्ठा►"
-festivals = "पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, स्थालीपाकः (गृह्योक्तमानम्), अनध्यायः, पूर्णमासेष्टिः, पूर्ण-स्थालीपाकः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-05-05"
@@ -2621,7 +2621,7 @@ sidereal_solar_month = "वृषभः"
 tithis = "**तिथिः** — कृष्ण-द्वितीया►19:21; कृष्ण-तृतीया►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — ज्येष्ठा►26:31!; मूला►"
-festivals = "नारद-जयन्ती"
+festivals = ""
 
 [[data]]
 gregorian = "1157-05-06"
@@ -2642,7 +2642,7 @@ sidereal_solar_month = "वृषभः"
 tithis = "**तिथिः** — कृष्ण-तृतीया►19:40; कृष्ण-चतुर्थी►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — मूला►27:21!; पूर्वाषाढा►"
-festivals = "पार्थिव-कल्पादिः, एकदन्त-महागणपति-सङ्कटहर-चतुर्थी-व्रतम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-05-07"
@@ -2663,7 +2663,7 @@ sidereal_solar_month = "वृषभः"
 tithis = "**तिथिः** — कृष्ण-चतुर्थी►19:29; कृष्ण-पञ्चमी►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — पूर्वाषाढा►27:44!; उत्तराषाढा►"
-festivals = "सावित्री-व्रतम्, सती-अनसूया-जयन्ती, काञ्ची ३० जगद्गुरु श्री-बोधेन्द्र सरस्वती २ आराधना #५०३, सुखा-अङ्गारकी-चतुर्थी"
+festivals = ""
 
 [[data]]
 gregorian = "1157-05-08"
@@ -2684,7 +2684,7 @@ sidereal_solar_month = "वृषभः"
 tithis = "**तिथिः** — कृष्ण-पञ्चमी►18:51; कृष्ण-षष्ठी►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — उत्तराषाढा►27:39!; श्रवणः►"
-festivals = "कश्यप-महर्षि-जयन्ती"
+festivals = ""
 
 [[data]]
 gregorian = "1157-05-09"
@@ -2705,7 +2705,7 @@ sidereal_solar_month = "वृषभः"
 tithis = "**तिथिः** — कृष्ण-षष्ठी►17:45; कृष्ण-सप्तमी►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — श्रवणः►27:07!; श्रविष्ठा►"
-festivals = "श्रवण-व्रतम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-05-10"
@@ -2726,7 +2726,7 @@ sidereal_solar_month = "वृषभः"
 tithis = "**तिथिः** — कृष्ण-सप्तमी►16:13; कृष्ण-अष्टमी►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — श्रविष्ठा►26:10!; शतभिषक्►"
-festivals = "मयिलै-वॆळ्ळीश्वरर्-ब्रह्मोत्सवम्, पञ्च-पर्व-पूजा (अष्टमी), अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-05-11"
@@ -2747,7 +2747,7 @@ sidereal_solar_month = "वृषभः"
 tithis = "**तिथिः** — कृष्ण-अष्टमी►14:17; कृष्ण-नवमी►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — शतभिषक्►24:50!; पूर्वप्रोष्ठपदा►"
-festivals = "वैधृति-श्राद्धम्, अनध्यायः, काञ्ची ७ जगद्गुरु श्री-आनन्दज्ञानेन्द्र सरस्वती आराधना #१२१२"
+festivals = ""
 
 [[data]]
 gregorian = "1157-05-12"
@@ -2789,7 +2789,7 @@ sidereal_solar_month = "वृषभः"
 tithis = "**तिथिः** — कृष्ण-दशमी►09:25; कृष्ण-एकादशी►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — उत्तरप्रोष्ठपदा►21:16; रेवती►"
-festivals = "श्री-हनूमत्-जयन्ती (आन्ध्र-सम्प्रदायः), स्मार्त-अपरा-एकादशी (गृहस्थ)"
+festivals = ""
 
 [[data]]
 gregorian = "1157-05-14"
@@ -2810,7 +2810,7 @@ sidereal_solar_month = "वृषभः"
 tithis = "**तिथिः** — कृष्ण-एकादशी►06:37; कृष्ण-द्वादशी►27:42!; कृष्ण-त्रयोदशी►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — रेवती►19:12; अश्विनी►"
-festivals = "भद्रकाळी-जयन्ती, स्मार्त-अपरा-एकादशी (सन्न्यस्त), वैष्णव-अपरा-एकादशी, हरिवासरः, त्रिस्पृशा-महाद्वादशी, दिनक्षयः, भौमाश्विनी-योगः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-05-15"
@@ -2831,7 +2831,7 @@ sidereal_solar_month = "वृषभः"
 tithis = "**तिथिः** — कृष्ण-त्रयोदशी►24:47!; कृष्ण-चतुर्दशी►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — अश्विनी►17:04; अपभरणी►"
-festivals = "मासशिवरात्रिः, पञ्च-पर्व-पूजा (चतुर्दशी), प्रदोष-व्रतम्, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-05-16"
@@ -2852,7 +2852,7 @@ sidereal_solar_month = "वृषभः"
 tithis = "**तिथिः** — कृष्ण-चतुर्दशी►21:58; अमावास्या►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — अपभरणी►15:00; कृत्तिका►"
-festivals = "कऴऱ्चिङ्ग नायऩ्मार् (५३) गुरुपूजै, कृत्तिका-व्रतम्, काञ्ची ३ जगद्गुरु श्री-सर्वज्ञात्मेन्द्र सरस्वती आराधना #१५२१, अनध्यायः, पञ्च-पर्व-पूजा (अमावास्या), बोधायन-कात्यायन-वैशाख-अमावास्या"
+festivals = ""
 
 [[data]]
 gregorian = "1157-05-17"
@@ -2873,7 +2873,7 @@ sidereal_solar_month = "वृषभः"
 tithis = "**तिथिः** — अमावास्या►19:23; शुक्ल-प्रथमा►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — कृत्तिका►13:08; रोहिणी►"
-festivals = "शनि-जयन्ती, शुक-महर्षि-जयन्ती, वैशाख-मास-समापनम्, वैशाख-स्नानपूर्तिः, पिण्ड-पितृ-यज्ञः, अनध्यायः, वैशाख-अमावास्या, बोधायन-कात्यायन-इष्टिः, अग्निनक्षत्र-समापनम्, पार्वणव्रतम् अमावास्यायाम् (गृह्योक्तमानम्), पार्वणव्रतम् अमावास्यायाम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-05-18"
@@ -2894,7 +2894,7 @@ sidereal_solar_month = "वृषभः"
 tithis = "**तिथिः** — शुक्ल-प्रथमा►17:10; शुक्ल-द्वितीया►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — रोहिणी►11:36; मृगशीर्षम्►"
-festivals = "पराशर-महर्षि-जयन्ती, वैशाख-मास-आरम्भः, पार्वण-प्रायश्चित्तावकाशः दर्शे, स्थालीपाकः (गृह्योक्तमानम्), अनध्यायः, दर्शेष्टिः, दर्श-स्थालीपाकः, चन्द्र-दर्शनम्, द्विपुष्कर-योगः, शनिरोहिणी-योगः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-05-19"
@@ -2915,7 +2915,7 @@ sidereal_solar_month = "वृषभः"
 tithis = "**तिथिः** — शुक्ल-द्वितीया►15:26; शुक्ल-तृतीया►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — मृगशीर्षम्►10:31; आर्द्रा►"
-festivals = "देवी-पर्व-२, राज-मातङ्गी-जयन्ती, कृतयुगादिः, द्विपुष्कर-योगः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-05-20"
@@ -2936,7 +2936,7 @@ sidereal_solar_month = "वृषभः"
 tithis = "**तिथिः** — शुक्ल-तृतीया►14:18; शुक्ल-चतुर्थी►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — आर्द्रा►10:00; पुनर्वसुः►"
-festivals = "बलराम-जयन्ती, अक्षय-तृतीया, चन्दन-पूजा, बगलामुखी-जयन्ती, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-05-21"
@@ -2957,7 +2957,7 @@ sidereal_solar_month = "वृषभः"
 tithis = "**तिथिः** — शुक्ल-चतुर्थी►13:50; शुक्ल-पञ्चमी►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — पुनर्वसुः►10:09; पुष्यः►"
-festivals = "वार्ता-गौरी-व्रतम्, शुक्ल-चतुर्थी-व्रतम्, सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः, सायन-षडशीति-पुण्यकालः, शुचि-मासः, अनध्यायः, सुखा-अङ्गारकी-चतुर्थी"
+festivals = ""
 
 [[data]]
 gregorian = "1157-05-22"
@@ -2978,7 +2978,7 @@ sidereal_solar_month = "वृषभः"
 tithis = "**तिथिः** — शुक्ल-पञ्चमी►14:07; शुक्ल-षष्ठी►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — पुष्यः►11:00; आश्रेषा►"
-festivals = "नमिनन्दियडिगळ् नायऩ्मार् (२७) गुरुपूजै, सर्प-पूजा, लावण्य-गौरी-व्रतम्, शङ्कर-जयन्ती #१६६६, काञ्ची ४० जगद्गुरु श्री-महादेवेन्द्र सरस्वती २ आराधना #२४३, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-05-23"
@@ -2999,7 +2999,7 @@ sidereal_solar_month = "वृषभः"
 tithis = "**तिथिः** — शुक्ल-षष्ठी►15:05; शुक्ल-सप्तमी►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — आश्रेषा►12:34; मघा►"
-festivals = "सोमासिमार नायऩ्मार् (३३) गुरुपूजै, रामानुज-जयन्ती #१४१, षष्ठी-व्रतम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-05-24"
@@ -3020,7 +3020,7 @@ sidereal_solar_month = "वृषभः"
 tithis = "**तिथिः** — शुक्ल-सप्तमी►16:42; शुक्ल-अष्टमी►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — मघा►14:44; पूर्वफल्गुनी►"
-festivals = "गङ्गा-सप्तमी, शर्करा-सप्तमी, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-05-25"
@@ -3041,7 +3041,7 @@ sidereal_solar_month = "वृषभः"
 tithis = "**तिथिः** — शुक्ल-अष्टमी►18:48; शुक्ल-नवमी►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — पूर्वफल्गुनी►17:24; उत्तरफल्गुनी►"
-festivals = "काञ्ची २६ जगद्गुरु श्री-प्रज्ञाघनेन्द्र सरस्वती आराधना #५९४, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-05-26"
@@ -3062,7 +3062,7 @@ sidereal_solar_month = "वृषभः"
 tithis = "**तिथिः** — शुक्ल-नवमी►21:10; शुक्ल-दशमी►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — उत्तरफल्गुनी►20:20; हस्तः►"
-festivals = "सीतानवमी, वसिष्ठ-महर्षि-जयन्ती, पुरी गोवर्धन-मठ-प्रतिष्ठापन-जयन्ती #१६४२, सिंहाचलं-चन्दन-महोत्सवः, आदित्यहस्त-नक्त-व्रत-योगः, वेङ्कटाचले पद्मावती-परिणयोत्सव-प्रारम्भः (गज-वाहनम्)"
+festivals = ""
 
 [[data]]
 gregorian = "1157-05-27"
@@ -3083,7 +3083,7 @@ sidereal_solar_month = "वृषभः"
 tithis = "**तिथिः** — शुक्ल-दशमी►23:37; शुक्ल-एकादशी►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — हस्तः►23:21; चित्रा►"
-festivals = "व्यतीपात-श्राद्धम्, निमिषाम्बा-जयन्ती, श्री-वासवी-जयन्ती, वेङ्कटाचले पद्मावती-परिणयम् (अश्व-वाहनम्)"
+festivals = ""
 
 [[data]]
 gregorian = "1157-05-28"
@@ -3104,7 +3104,7 @@ sidereal_solar_month = "वृषभः"
 tithis = "**तिथिः** — शुक्ल-एकादशी►25:54!; शुक्ल-द्वादशी►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — चित्रा►26:13!; स्वाती►"
-festivals = "बुध-जयन्ती, काञ्ची १ जगद्गुरु श्री-आदि-शङ्कर भगवत्पाद आराधना #१६३३, सर्व-मोहिनी-एकादशी, द्विपुष्कर-योगः, वेङ्कटाचले पद्मावती-परिणयोत्सव-समापनम् (गरुड-वाहनम्)"
+festivals = ""
 
 [[data]]
 gregorian = "1157-05-29"
@@ -3125,7 +3125,7 @@ sidereal_solar_month = "वृषभः"
 tithis = "**तिथिः** — शुक्ल-द्वादशी►27:50!; शुक्ल-त्रयोदशी►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — स्वाती►28:45!; विशाखा►"
-festivals = "रुक्मिणी-द्वादशी, मधुसूदन-पूजा, परशुराम-द्वादशी, गिरिजा-विवाहः, हरिवासरः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-05-30"
@@ -3146,7 +3146,7 @@ sidereal_solar_month = "वृषभः"
 tithis = "**तिथिः** — शुक्ल-त्रयोदशी►29:18!; शुक्ल-चतुर्दशी►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — विशाखा►"
-festivals = "कृत्तिकावैषाखोत्सवः, वैकाचि-विशाखम्, नम्माऴ्वार् तिरुनक्षत्तिरम्, वैशाख-मास-अन्तिमत्रयतिथि-व्रत-आरम्भः, प्रदोष-व्रतम्, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-05-31"
@@ -3167,7 +3167,7 @@ sidereal_solar_month = "वृषभः"
 tithis = "**तिथिः** — शुक्ल-चतुर्दशी►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — विशाखा►06:49; अनूराधा►"
-festivals = "छिन्नमस्ता-जयन्ती, नृसिंह-जयन्ती, काञ्ची ३९ जगद्गुरु श्री-सच्चिद्विलासेन्द्र सरस्वती आराधना #२८५, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-06-01"
@@ -3188,7 +3188,7 @@ sidereal_solar_month = "वृषभः"
 tithis = "**तिथिः** — शुक्ल-चतुर्दशी►06:13; पौर्णमासी►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — अनूराधा►08:21; ज्येष्ठा►"
-festivals = "पूर्णिमा-पूजा, पञ्च-पर्व-पूजा (पूर्णिमा), वेङ्कटाचले पूर्णिमा-गरुड-सेवा, अनध्यायः, पार्वणव्रतम् पूर्णिमायाम् (गृह्योक्तमानम्), पार्वणव्रतम् पूर्णिमायाम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-06-02"
@@ -3209,7 +3209,7 @@ sidereal_solar_month = "वृषभः"
 tithis = "**तिथिः** — पौर्णमासी►06:34; कृष्ण-प्रथमा►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — ज्येष्ठा►09:20; मूला►"
-festivals = "अर्धनारीश्वर-व्रतम्, शरभ-जयन्ती, सम्पत्-गौरी-व्रतम्, वैशाख-मास-अन्तिमत्रयतिथि-व्रत-समापनम्, वैशाख-पूर्णिमा-स्नानम्, काञ्ची कामकोटि-मठ-प्रतिष्ठापन-जयन्ती #१६३९, अन्नमाचार्य-जयन्ती, पूर्णिमा-व्रतम्, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, स्थालीपाकः (गृह्योक्तमानम्), अनध्यायः, पूर्णमासेष्टिः, पूर्ण-स्थालीपाकः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-06-03"
@@ -3230,7 +3230,7 @@ sidereal_solar_month = "वृषभः"
 tithis = "**तिथिः** — कृष्ण-प्रथमा►06:23; कृष्ण-द्वितीया►29:42!; कृष्ण-तृतीया►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — मूला►09:47; पूर्वाषाढा►"
-festivals = "मुरुग नायऩ्मार् (१६) गुरुपूजै, तिरुञाऩसम्बन्धमूर्त्ति नायऩ्मार् (२८) गुरुपूजै, तिरुनीलकण्ठ याऴ्प्पाण नायऩ्मार् (६१) गुरुपूजै, तिरुनीलनक्क नायऩ्मार् (२६) गुरुपूजै, दिनक्षयः, अनध्यायः, सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः, मिथुन-रवि-सङ्क्रमण-षडशीति-पुण्यकालः, रवि-सङ्क्रमण-पुण्यकालः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-06-04"
@@ -3251,7 +3251,7 @@ sidereal_solar_month = "मिथुनम्"
 tithis = "**तिथिः** — कृष्ण-तृतीया►28:35!; कृष्ण-चतुर्थी►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — पूर्वाषाढा►09:46; उत्तराषाढा►"
-festivals = "अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-06-05"
@@ -3272,7 +3272,7 @@ sidereal_solar_month = "मिथुनम्"
 tithis = "**तिथिः** — कृष्ण-चतुर्थी►27:08!; कृष्ण-पञ्चमी►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — उत्तराषाढा►09:20; श्रवणः►"
-festivals = "कृष्णपिङ्गल-महागणपति-सङ्कटहर-चतुर्थी-व्रतम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-06-06"
@@ -3293,7 +3293,7 @@ sidereal_solar_month = "मिथुनम्"
 tithis = "**तिथिः** — कृष्ण-पञ्चमी►25:24!; कृष्ण-षष्ठी►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — श्रवणः►08:35; श्रविष्ठा►"
-festivals = "श्रवण-व्रतम्, वैधृति-श्राद्धम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-06-07"
@@ -3335,7 +3335,7 @@ sidereal_solar_month = "मिथुनम्"
 tithis = "**तिथिः** — कृष्ण-सप्तमी►21:20; कृष्ण-अष्टमी►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — शतभिषक्►06:21; पूर्वप्रोष्ठपदा►28:59!; उत्तरप्रोष्ठपदा►"
-festivals = "पञ्च-पर्व-पूजा (अष्टमी), त्रिपुष्कर-योगः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-06-09"
@@ -3356,7 +3356,7 @@ sidereal_solar_month = "मिथुनम्"
 tithis = "**तिथिः** — कृष्ण-अष्टमी►19:07; कृष्ण-नवमी►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — उत्तरप्रोष्ठपदा►27:31!; रेवती►"
-festivals = "विनायकाष्टमी, त्रिलोचनाष्टमी, शीतलाष्टमी, तिन्दुकाष्टमी, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-06-10"
@@ -3377,7 +3377,7 @@ sidereal_solar_month = "मिथुनम्"
 tithis = "**तिथिः** — कृष्ण-नवमी►16:49; कृष्ण-दशमी►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — रेवती►26:01!; अश्विनी►"
-festivals = "एयर्कोऩ् कलिक्काम नायऩ्मार् (२९) गुरुपूजै, दुर्गा-स्वापनम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-06-11"
@@ -3398,7 +3398,7 @@ sidereal_solar_month = "मिथुनम्"
 tithis = "**तिथिः** — कृष्ण-दशमी►14:31; कृष्ण-एकादशी►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — अश्विनी►24:30!; अपभरणी►"
-festivals = "भौमाश्विनी-योगः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-06-12"
@@ -3419,7 +3419,7 @@ sidereal_solar_month = "मिथुनम्"
 tithis = "**तिथिः** — कृष्ण-एकादशी►12:13; कृष्ण-द्वादशी►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — अपभरणी►23:02; कृत्तिका►"
-festivals = "कूर्म-जयन्ती, सर्व-योगिनी-एकादशी"
+festivals = ""
 
 [[data]]
 gregorian = "1157-06-13"
@@ -3440,7 +3440,7 @@ sidereal_solar_month = "मिथुनम्"
 tithis = "**तिथिः** — कृष्ण-द्वादशी►10:01; कृष्ण-त्रयोदशी►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — कृत्तिका►21:42; रोहिणी►"
-festivals = "कृत्तिका-व्रतम्, प्रदोष-व्रतम्, चिदम्बरे ध्वजारोहणम्/पञ्चमूर्ति-रथोत्सवः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-06-14"
@@ -3461,7 +3461,7 @@ sidereal_solar_month = "मिथुनम्"
 tithis = "**तिथिः** — कृष्ण-त्रयोदशी►07:59; कृष्ण-चतुर्दशी►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — रोहिणी►20:33; मृगशीर्षम्►"
-festivals = "मासशिवरात्रिः, पञ्च-पर्व-पूजा (चतुर्दशी), अनध्यायः, चिदम्बरे रजत-चन्द्रप्रभ-वाहनम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-06-15"
@@ -3482,7 +3482,7 @@ sidereal_solar_month = "मिथुनम्"
 tithis = "**तिथिः** — कृष्ण-चतुर्दशी►06:11; अमावास्या►28:43!; शुक्ल-प्रथमा►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — मृगशीर्षम्►19:43; आर्द्रा►"
-festivals = "पञ्च-पर्व-पूजा (अमावास्या), अनध्यायः, भोगशायि-पूजा, पिण्ड-पितृ-यज्ञः, सर्व-ज्यैष्ठ-अमावास्या, दिनक्षयः, पार्वणव्रतम् अमावास्यायाम् (गृह्योक्तमानम्), पार्वणव्रतम् अमावास्यायाम्, चिदम्बरे स्वर्ण-सूर्यप्रभ-वाहनम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-06-16"
@@ -3503,7 +3503,7 @@ sidereal_solar_month = "मिथुनम्"
 tithis = "**तिथिः** — शुक्ल-प्रथमा►27:41!; शुक्ल-द्वितीया►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — आर्द्रा►19:16; पुनर्वसुः►"
-festivals = "पुन्नाग-गौरी-व्रतम्, भद्र-चतुष्टय-व्रतम्, करवीर-व्रतम्, पार्वण-प्रायश्चित्तावकाशः दर्शे, स्थालीपाकः (गृह्योक्तमानम्), अनध्यायः, दर्शेष्टिः, दर्श-स्थालीपाकः, त्रिपुष्कर-योगः, चिदम्बरे रजत-भूत-वाहनम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-06-17"
@@ -3524,7 +3524,7 @@ sidereal_solar_month = "मिथुनम्"
 tithis = "**तिथिः** — शुक्ल-द्वितीया►27:12!; शुक्ल-तृतीया►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — पुनर्वसुः►19:19; पुष्यः►"
-festivals = "शृङ्गेरी ३२ जगद्गुरु श्री-नृसिंह भारती आराधना, चन्द्र-दर्शनम्, चिदम्बरे रजत-ऋषभ-वाहनम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-06-18"
@@ -3545,7 +3545,7 @@ sidereal_solar_month = "मिथुनम्"
 tithis = "**तिथिः** — शुक्ल-तृतीया►27:18!; शुक्ल-चतुर्थी►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — पुष्यः►19:56; आश्रेषा►"
-festivals = "रम्भा-तृतीया, चिदम्बरे रजत-गजवाहनम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-06-19"
@@ -3566,7 +3566,7 @@ sidereal_solar_month = "मिथुनम्"
 tithis = "**तिथिः** — शुक्ल-चतुर्थी►28:03!; शुक्ल-पञ्चमी►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — आश्रेषा►21:11; मघा►"
-festivals = "पुगऴ्त्तुणै नायऩ्मार् (५६) गुरुपूजै, कदली-गौरी-व्रतम्/पूजा, उमा-अवतारः, शुक्ल-चतुर्थी-व्रतम्, चिदम्बरे कैलास-वाहनम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-06-20"
@@ -3587,7 +3587,7 @@ sidereal_solar_month = "मिथुनम्"
 tithis = "**तिथिः** — शुक्ल-पञ्चमी►29:26!; शुक्ल-षष्ठी►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — मघा►23:02; पूर्वफल्गुनी►"
-festivals = "माणिक्कवाचकर् गुरुपूजै, श्रीनिवासमङ्गापुरे साक्षात्कार-वैभवोत्सव-आरम्भः, चिदम्बरे भिक्षाटन-स्वर्णरथः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-06-21"
@@ -3608,7 +3608,7 @@ sidereal_solar_month = "मिथुनम्"
 tithis = "**तिथिः** — शुक्ल-षष्ठी►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — पूर्वफल्गुनी►25:26!; उत्तरफल्गुनी►"
-festivals = "अमरनीति नायऩ्मार् (७) गुरुपूजै, व्यतीपात-श्राद्धम्, विन्ध्यावासिनी-देवी-पूजा, आरण्य-गौरी-व्रतम्, काञ्ची ६ जगद्गुरु श्री-शुद्धानन्देन्द्र सरस्वती आराधना #१२८१, श्रीनिवासमङ्गापुरे साक्षात्कार-वैभवोत्सवः, षष्ठी-व्रतम्, अनध्यायः, चिदम्बरे रथोत्सवः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-06-22"
@@ -3629,7 +3629,7 @@ sidereal_solar_month = "मिथुनम्"
 tithis = "**तिथिः** — शुक्ल-षष्ठी►07:20; शुक्ल-सप्तमी►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — उत्तरफल्गुनी►28:15!; हस्तः►"
-festivals = "दक्षिणायनारम्भः, नटराजर् आऩि तिरुमञ्चऩम्, काञ्ची २३ जगद्गुरु श्री-सच्चित्सुखेन्द्र सरस्वती आराधना #६४६, सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः, दक्षिणायन-पुण्यकालः, सायन-रवि-सङ्क्रमण-पुण्यकालः, नभो-मासः/वर्षऋतुः/दक्षिणायनम्, अनध्यायः, त्रिपुष्कर-योगः, श्रीनिवासमङ्गापुरे साक्षात्कार-वैभवोत्सव-समापनम्, चिदम्बरे नटराजस्य राजसभायां महाभिषेकः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-06-23"
@@ -3650,7 +3650,7 @@ sidereal_solar_month = "मिथुनम्"
 tithis = "**तिथिः** — शुक्ल-सप्तमी►09:37; शुक्ल-अष्टमी►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — हस्तः►"
-festivals = "वरुण-पूजा, धूमावती-जयन्ती, काञ्ची १६ जगद्गुरु श्री-उज्ज्वल शङ्करेन्द्र सरस्वती आराधना #७९१, विजया-भानुसप्तमी, भद्रा-सप्तमी, आदित्यहस्त-योगः, आदित्यहस्त-नक्त-व्रत-योगः, चिदम्बरे मुत्तुप्पल्लक्कु, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-06-24"
@@ -3671,7 +3671,7 @@ sidereal_solar_month = "मिथुनम्"
 tithis = "**तिथिः** — शुक्ल-अष्टमी►12:04; शुक्ल-नवमी►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — हस्तः►07:16; चित्रा►"
-festivals = "ज्येष्ठाष्टमी, अनध्यायः, सोमचित्रा-नक्तव्रत-योगः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-06-25"
@@ -3692,7 +3692,7 @@ sidereal_solar_month = "मिथुनम्"
 tithis = "**तिथिः** — शुक्ल-नवमी►14:26; शुक्ल-दशमी►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — चित्रा►10:14; स्वाती►"
-festivals = "सुदर्शन-जयन्ती, महेश-नवमी, ब्रह्माणी-पूजा, शुक्ल-देवी-पूजा, देवी-पर्व-३, काञ्ची १७ जगद्गुरु श्री-सदाशिवेन्द्र सरस्वती आराधना #७८३, अङ्गारकस्वाती-नक्तव्रत-योगः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-06-26"
@@ -3713,7 +3713,7 @@ sidereal_solar_month = "मिथुनम्"
 tithis = "**तिथिः** — शुक्ल-दशमी►16:28; शुक्ल-एकादशी►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — स्वाती►12:55; विशाखा►"
-festivals = "पॆरियाऴ्वार् तिरुनक्षत्तिरम्, दशहरा/गङ्गावतरणम्/दशपापहरा-दशमी, रामेश्वर-दर्शनम्, बुधविशाखा-नक्तव्रत-योगः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-06-27"
@@ -3734,7 +3734,7 @@ sidereal_solar_month = "मिथुनम्"
 tithis = "**तिथिः** — शुक्ल-एकादशी►17:59; शुक्ल-द्वादशी►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — विशाखा►15:08; अनूराधा►"
-festivals = "सर्व-पाण्डव-निर्जला-एकादशी, गुरु-अनुराधा-नक्तव्रत-योगः, अलर्मेल्मङ्गापुरे प्लवोत्सव-प्रारम्भः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-06-28"
@@ -3755,7 +3755,7 @@ sidereal_solar_month = "मिथुनम्"
 tithis = "**तिथिः** — शुक्ल-द्वादशी►18:50; शुक्ल-त्रयोदशी►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — अनूराधा►16:43; ज्येष्ठा►"
-festivals = "रामलक्ष्मण-द्वादशी, गवामयन-द्वादशी, काञ्ची २ जगद्गुरु श्री-सुरेश्वराचार्य आराधना #१५६३, चम्पक-द्वादशी, शुक्रवार-शुक्ल-प्रदोष-व्रतम्, भृगुज्येष्ठ-नक्तव्रत-योगः, अलर्मेल्मङ्गापुरे प्लवोत्सवः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-06-29"
@@ -3776,7 +3776,7 @@ sidereal_solar_month = "मिथुनम्"
 tithis = "**तिथिः** — शुक्ल-त्रयोदशी►19:00; शुक्ल-चतुर्दशी►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — ज्येष्ठा►17:37; मूला►"
-festivals = "ज्येष्ठाभिषेकः, दुर्गन्ध-दौर्भाग्य-नाशक-त्रयोदशी, शनिमूला-नक्तव्रत-योगः, अलर्मेल्मङ्गापुरे प्लवोत्सवः, वेङ्कटाचले ज्येष्ठ-अभिद्येयकाभिषेकः (वज्र-कवचम्), अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-06-30"
@@ -3797,7 +3797,7 @@ sidereal_solar_month = "मिथुनम्"
 tithis = "**तिथिः** — शुक्ल-चतुर्दशी►18:28; पौर्णमासी►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — मूला►17:51; पूर्वाषाढा►"
-festivals = "अनध्यायः, पूर्णिमा-पूजा, पञ्च-पर्व-पूजा (पूर्णिमा), वेङ्कटाचले पूर्णिमा-गरुड-सेवा, अलर्मेल्मङ्गापुरे प्लवोत्सवः, वेङ्कटाचले ज्येष्ठ-अभिद्येयकाभिषेकः (मुत्यल-कवचम्)"
+festivals = ""
 
 [[data]]
 gregorian = "1157-07-01"
@@ -3818,7 +3818,7 @@ sidereal_solar_month = "मिथुनम्"
 tithis = "**तिथिः** — पौर्णमासी►17:20; कृष्ण-प्रथमा►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — पूर्वाषाढा►17:28; उत्तराषाढा►"
-festivals = "वैधृति-श्राद्धम्, वट-पूर्णिमा/वट-सावित्री-व्रतम्, कृषि-पूर्णिमा, कबीरदास-जयन्ती, अलर्मेल्मङ्गापुरे प्लवोत्सव-समापनम्, वेङ्कटाचले ज्येष्ठ-अभिद्येयकाभिषेकः (स्वर्ण-कवचम्), मन्वादिः-(भौत्यः-[१४]), पूर्णिमा-व्रतम्, अनध्यायः, पार्वणव्रतम् पूर्णिमायाम् (गृह्योक्तमानम्), पार्वणव्रतम् पूर्णिमायाम्, अनध्यायः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-07-02"
@@ -3839,7 +3839,7 @@ sidereal_solar_month = "मिथुनम्"
 tithis = "**तिथिः** — कृष्ण-प्रथमा►15:40; कृष्ण-द्वितीया►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — उत्तराषाढा►16:35; श्रवणः►"
-festivals = "मृगशीर्ष-व्रतम्, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, स्थालीपाकः (गृह्योक्तमानम्), अनध्यायः, अशून्यशयन-व्रतम्, चातुर्मास्य-द्वितीया, पूर्णमासेष्टिः, पूर्ण-स्थालीपाकः, त्रिपुष्कर-योगः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-07-03"
@@ -3860,7 +3860,7 @@ sidereal_solar_month = "मिथुनम्"
 tithis = "**तिथिः** — कृष्ण-द्वितीया►13:38; कृष्ण-तृतीया►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — श्रवणः►15:19; श्रविष्ठा►"
-festivals = "श्रवण-व्रतम्, अष्टनाग-पूजा, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-07-04"
@@ -3881,7 +3881,7 @@ sidereal_solar_month = "मिथुनम्"
 tithis = "**तिथिः** — कृष्ण-तृतीया►11:20; कृष्ण-चतुर्थी►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — श्रविष्ठा►13:47; शतभिषक्►"
-festivals = "गजानन-महागणपति-सङ्कटहर-चतुर्थी-व्रतम्, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-07-05"
@@ -3902,7 +3902,7 @@ sidereal_solar_month = "कर्कटः"
 tithis = "**तिथिः** — कृष्ण-चतुर्थी►08:54; कृष्ण-पञ्चमी►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — शतभिषक्►12:09; पूर्वप्रोष्ठपदा►"
-festivals = "सर्वनदी-रजस्वला, अनध्यायः, सङ्क्रमण-दिन-पूर्वाह्ण-पुण्यकालः, कर्कट-सङ्क्रमण-पुण्यकालः, रवि-सङ्क्रमण-पुण्यकालः, आडि-वॆळ्ळिक्किऴमै"
+festivals = ""
 
 [[data]]
 gregorian = "1157-07-06"
@@ -3923,7 +3923,7 @@ sidereal_solar_month = "कर्कटः"
 tithis = "**तिथिः** — कृष्ण-पञ्चमी►06:26; कृष्ण-षष्ठी►28:01!; कृष्ण-सप्तमी►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — पूर्वप्रोष्ठपदा►10:29; उत्तरप्रोष्ठपदा►"
-festivals = "सर्वनदी-रजस्वला, दिनक्षयः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-07-07"
@@ -3944,7 +3944,7 @@ sidereal_solar_month = "कर्कटः"
 tithis = "**तिथिः** — कृष्ण-सप्तमी►25:44!; कृष्ण-अष्टमी►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — उत्तरप्रोष्ठपदा►08:53; रेवती►"
-festivals = "सर्वनदी-रजस्वला, चामुण्डेश्वरी-जयन्ती, भानुसप्तमी, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-07-08"
@@ -3965,7 +3965,7 @@ sidereal_solar_month = "कर्कटः"
 tithis = "**तिथिः** — कृष्ण-अष्टमी►23:36; कृष्ण-नवमी►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — रेवती►07:25; अश्विनी►"
-festivals = "पञ्च-पर्व-पूजा (अष्टमी), अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-07-09"
@@ -3986,7 +3986,7 @@ sidereal_solar_month = "कर्कटः"
 tithis = "**तिथिः** — कृष्ण-नवमी►21:40; कृष्ण-दशमी►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — अश्विनी►06:08; अपभरणी►29:03!; कृत्तिका►"
-festivals = "भौमाश्विनी-योगः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-07-10"
@@ -4007,7 +4007,7 @@ sidereal_solar_month = "कर्कटः"
 tithis = "**तिथिः** — कृष्ण-दशमी►19:57; कृष्ण-एकादशी►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — कृत्तिका►28:11!; रोहिणी►"
-festivals = "कर्कट-कार्त्तिक-पूजा, मूर्त्ति नायऩ्मार् (१५) गुरुपूजै, पुगऴ्च्चोऴ नायऩ्मार् (४०) गुरुपूजै, कृत्तिका-व्रतम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-07-11"
@@ -4028,7 +4028,7 @@ sidereal_solar_month = "कर्कटः"
 tithis = "**तिथिः** — कृष्ण-एकादशी►18:28; कृष्ण-द्वादशी►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — रोहिणी►27:32!; मृगशीर्षम्►"
-festivals = "तिरुप्पाणाऴ्वार् तिरुनक्षत्तिरम्, देवी-पर्व-४, सर्व-कामिका-एकादशी"
+festivals = ""
 
 [[data]]
 gregorian = "1157-07-12"
@@ -4049,7 +4049,7 @@ sidereal_solar_month = "कर्कटः"
 tithis = "**तिथिः** — कृष्ण-द्वादशी►17:14; कृष्ण-त्रयोदशी►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — मृगशीर्षम्►27:10!; आर्द्रा►"
-festivals = "प्रदोष-व्रतम्, आडि-वॆळ्ळिक्किऴमै"
+festivals = ""
 
 [[data]]
 gregorian = "1157-07-13"
@@ -4070,7 +4070,7 @@ sidereal_solar_month = "कर्कटः"
 tithis = "**तिथिः** — कृष्ण-त्रयोदशी►16:17; कृष्ण-चतुर्दशी►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — आर्द्रा►27:07!; पुनर्वसुः►"
-festivals = "कूऱ्ऱुव नायऩ्मार् (३९) गुरुपूजै, मासशिवरात्रिः, पञ्च-पर्व-पूजा (चतुर्दशी), अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-07-14"
@@ -4091,7 +4091,7 @@ sidereal_solar_month = "कर्कटः"
 tithis = "**तिथिः** — कृष्ण-चतुर्दशी►15:42; अमावास्या►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — पुनर्वसुः►27:26!; पुष्यः►"
-festivals = "अनध्यायः, पञ्च-पर्व-पूजा (अमावास्या), बोधायन-कात्यायन-आषाढ (कर्कट) अमावास्या"
+festivals = ""
 
 [[data]]
 gregorian = "1157-07-15"
@@ -4112,7 +4112,7 @@ sidereal_solar_month = "कर्कटः"
 tithis = "**तिथिः** — अमावास्या►15:30; शुक्ल-प्रथमा►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — पुष्यः►28:10!; आश्रेषा►"
-festivals = "आषाढ-स्नानपूर्तिः, दीप-पूजा, पति-सञ्जीवनी-व्रतम्, काञ्ची ३८ जगद्गुरु श्री-अभिनवशङ्करेन्द्र सरस्वती आराधना #३१८, काञ्ची ४६ जगद्गुरु श्री-सान्द्रानन्दबोधेन्द्र सरस्वती आराधना #६०, पिण्ड-पितृ-यज्ञः, अनध्यायः, आषाढ (कर्कट) अमावास्या (अलभ्यम्–पुष्यः, पुष्कला), बोधायन-कात्यायन-इष्टिः, सोमवती अमावास्या, पार्वणव्रतम् अमावास्यायाम् (गृह्योक्तमानम्), पार्वणव्रतम् अमावास्यायाम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-07-16"
@@ -4133,7 +4133,7 @@ sidereal_solar_month = "कर्कटः"
 tithis = "**तिथिः** — शुक्ल-प्रथमा►15:48; शुक्ल-द्वितीया►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — आश्रेषा►29:24!; मघा►"
-festivals = "वाराही-नवरात्र-आरम्भः, काञ्ची २५ जगद्गुरु श्री-सच्चिदानन्दघनेन्द्र सरस्वती आराधना #६१०, पार्वण-प्रायश्चित्तावकाशः दर्शे, स्थालीपाकः (गृह्योक्तमानम्), अनध्यायः, व्यतीपात-श्राद्धम्, दर्शेष्टिः, दर्श-स्थालीपाकः, चन्द्र-दर्शनम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-07-17"
@@ -4154,7 +4154,7 @@ sidereal_solar_month = "कर्कटः"
 tithis = "**तिथिः** — शुक्ल-द्वितीया►16:36; शुक्ल-तृतीया►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — मघा►"
-festivals = "अमृतलक्ष्मी-व्रतम्, जगन्नाथ-रथ-यात्रा"
+festivals = ""
 
 [[data]]
 gregorian = "1157-07-18"
@@ -4196,7 +4196,7 @@ sidereal_solar_month = "कर्कटः"
 tithis = "**तिथिः** — शुक्ल-चतुर्थी►19:48; शुक्ल-पञ्चमी►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — पूर्वफल्गुनी►09:25; उत्तरफल्गुनी►"
-festivals = "तिरुवाडिप्पूरम्, शुक्ल-चतुर्थी-व्रतम्, आडि-वॆळ्ळिक्किऴमै"
+festivals = ""
 
 [[data]]
 gregorian = "1157-07-20"
@@ -4217,7 +4217,7 @@ sidereal_solar_month = "कर्कटः"
 tithis = "**तिथिः** — शुक्ल-पञ्चमी►22:03; शुक्ल-षष्ठी►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — उत्तरफल्गुनी►12:07; हस्तः►"
-festivals = "स्कन्द-पञ्चमी, शमी-गौरी-व्रतम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-07-21"
@@ -4238,7 +4238,7 @@ sidereal_solar_month = "कर्कटः"
 tithis = "**तिथिः** — शुक्ल-षष्ठी►24:33!; शुक्ल-सप्तमी►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — हस्तः►15:07; चित्रा►"
-festivals = "काञ्ची ३५ जगद्गुरु श्री-चित्सुखेन्द्र सरस्वती आराधना #४२१, कुमार-षष्ठी-व्रतम्, द्विपुष्कर-योगः, आदित्यहस्त-योगः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-07-22"
@@ -4259,7 +4259,7 @@ sidereal_solar_month = "कर्कटः"
 tithis = "**तिथिः** — शुक्ल-सप्तमी►27:03!; शुक्ल-अष्टमी►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — चित्रा►18:12; स्वाती►"
-festivals = "आडिप्-पॆरुक्कु, पॆरुमिऴलैक् कुऱुम्ब नायऩ्मार् (२३) गुरुपूजै, वैवस्वत-सप्तमी, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-07-23"
@@ -4280,7 +4280,7 @@ sidereal_solar_month = "कर्कटः"
 tithis = "**तिथिः** — शुक्ल-अष्टमी►29:18!; शुक्ल-नवमी►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — स्वाती►21:08; विशाखा►"
-festivals = "कऴऱिऱ्ऱऱिवार्/चेरमाऩ् पॆरुमाळ् नायऩ्मार् (३७) गुरुपूजै, सुन्दरमूर्त्ति नायऩ्मार् (१) गुरुपूजै/तिरुवाडि स्वाति, महिषघ्नी-पूजा, अनध्यायः, सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः, सायन-विष्णुपदी-पुण्यकालः, नभस्य-मासः, अनध्यायः, अङ्गारकस्वाती-नक्तव्रत-योगः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-07-24"
@@ -4301,7 +4301,7 @@ sidereal_solar_month = "कर्कटः"
 tithis = "**तिथिः** — शुक्ल-नवमी►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — विशाखा►23:40; अनूराधा►"
-festivals = "ऐन्द्री-दुर्गा-पूजा, वाराही-नवरात्र-समापनम्, उपेन्द्र-नवमी, काञ्ची १२ जगद्गुरु श्री-चन्द्रशेखरेन्द्र सरस्वती आराधना #९२३, अनध्यायः, बुधविशाखा-नक्तव्रत-योगः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-07-25"
@@ -4322,7 +4322,7 @@ sidereal_solar_month = "कर्कटः"
 tithis = "**तिथिः** — शुक्ल-नवमी►07:05; शुक्ल-दशमी►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — अनूराधा►25:36!; ज्येष्ठा►"
-festivals = "मन्वादिः-(सूर्य-सावर्णिः-[८]), गुरु-अनुराधा-नक्तव्रत-योगः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-07-26"
@@ -4343,7 +4343,7 @@ sidereal_solar_month = "कर्कटः"
 tithis = "**तिथिः** — शुक्ल-दशमी►08:11; शुक्ल-एकादशी►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — ज्येष्ठा►26:47!; मूला►"
-festivals = "कोट्पुलि नायऩ्मार् (५७) गुरुपूजै, कलिय नायऩ्मार् (४४) गुरुपूजै, आशा-दशमी, आडि-वॆळ्ळिक्किऴमै, भृगुज्येष्ठ-नक्तव्रत-योगः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-07-27"
@@ -4364,7 +4364,7 @@ sidereal_solar_month = "कर्कटः"
 tithis = "**तिथिः** — शुक्ल-एकादशी►08:29; शुक्ल-द्वादशी►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — मूला►27:10!; पूर्वाषाढा►"
-festivals = "वैधृति-श्राद्धम्, गोपद्म-व्रत-आरम्भः, काञ्ची ३१ जगद्गुरु श्री-ब्रह्मानन्दघनेन्द्र सरस्वती आराधना #४९०, सर्व-शयन-एकादशी, शनिमूला-नक्तव्रत-योगः, विष्णु-शयनोत्सवः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-07-28"
@@ -4385,7 +4385,7 @@ sidereal_solar_month = "कर्कटः"
 tithis = "**तिथिः** — शुक्ल-द्वादशी►07:59; शुक्ल-त्रयोदशी►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — पूर्वाषाढा►26:47!; उत्तराषाढा►"
-festivals = "वासुदेव-द्वादशी, शाकव्रत-आरम्भः, चातुर्मास्यव्रत-आरम्भः, रविवार-शुक्ल-प्रदोष-व्रतम्, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-07-29"
@@ -4406,7 +4406,7 @@ sidereal_solar_month = "कर्कटः"
 tithis = "**तिथिः** — शुक्ल-त्रयोदशी►06:42; शुक्ल-चतुर्दशी►28:46!; पौर्णमासी►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — उत्तराषाढा►25:42!; श्रवणः►"
-festivals = "अनध्यायः, पवित्र-चतुर्दशी, दिनक्षयः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-07-30"
@@ -4427,7 +4427,7 @@ sidereal_solar_month = "कर्कटः"
 tithis = "**तिथिः** — पौर्णमासी►26:18!; कृष्ण-प्रथमा►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — श्रवणः►24:05!; श्रविष्ठा►"
-festivals = "श्रवण-व्रतम्, शिव-शयनोत्सवः, आषाढ-पूर्णिमा-स्नानम्, गुरु-पूर्णिमा/व्यास-पूजा, कोकिल-व्रतम्, काञ्ची १० जगद्गुरु श्री-सुरेश्वरेन्द्र सरस्वती आराधना #१०३१, यतिचातुर्मास्यव्रत-आरम्भः, मन्वादिः-(ब्रह्म-सावर्णिः-[१०]), पूर्णिमा-पूजा, पञ्च-पर्व-पूजा (पूर्णिमा), पूर्णिमा-व्रतम्, वेङ्कटाचले पूर्णिमा-गरुड-सेवा, अनध्यायः, पार्वणव्रतम् पूर्णिमायाम् (गृह्योक्तमानम्), पार्वणव्रतम् पूर्णिमायाम्, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-07-31"
@@ -4448,7 +4448,7 @@ sidereal_solar_month = "कर्कटः"
 tithis = "**तिथिः** — कृष्ण-प्रथमा►23:27; कृष्ण-द्वितीया►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — श्रविष्ठा►22:04; शतभिषक्►"
-festivals = "सहस्रगायत्रीजपः प्रायश्चित्तार्थः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, स्थालीपाकः (गृह्योक्तमानम्), अनध्यायः, अशून्यशयन-व्रतम्, पूर्णमासेष्टिः, पूर्ण-स्थालीपाकः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-08-01"
@@ -4469,7 +4469,7 @@ sidereal_solar_month = "कर्कटः"
 tithis = "**तिथिः** — कृष्ण-द्वितीया►20:25; कृष्ण-तृतीया►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — शतभिषक्►19:50; पूर्वप्रोष्ठपदा►"
-festivals = "भीम-चण्डी-जयन्ती, बृहती-वृक्षक-पूजा"
+festivals = ""
 
 [[data]]
 gregorian = "1157-08-02"
@@ -4490,7 +4490,7 @@ sidereal_solar_month = "कर्कटः"
 tithis = "**तिथिः** — कृष्ण-तृतीया►17:19; कृष्ण-चतुर्थी►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — पूर्वप्रोष्ठपदा►17:33; उत्तरप्रोष्ठपदा►"
-festivals = "तुष्टि-प्राप्ति-तृतीया, कज्जली-तृतीया, बहुला-चतुर्थी, हेरम्ब-महागणपति महासङ्कटहर-चतुर्थी-व्रतम्, आडि-वॆळ्ळिक्किऴमै"
+festivals = ""
 
 [[data]]
 gregorian = "1157-08-03"
@@ -4532,7 +4532,7 @@ sidereal_solar_month = "कर्कटः"
 tithis = "**तिथिः** — कृष्ण-पञ्चमी►11:31; कृष्ण-षष्ठी►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — रेवती►13:23; अश्विनी►"
-festivals = "रक्षा-पञ्चमी, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-08-05"
@@ -4553,7 +4553,7 @@ sidereal_solar_month = "सिंहः"
 tithis = "**तिथिः** — कृष्ण-षष्ठी►09:02; कृष्ण-सप्तमी►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — अश्विनी►11:43; अपभरणी►"
-festivals = "हल-षष्ठी, अनध्यायः, सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः, सिंह-रवि-सङ्क्रमण-विष्णुपदी-पुण्यकालः, कृतयुगान्तः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-08-06"
@@ -4574,7 +4574,7 @@ sidereal_solar_month = "सिंहः"
 tithis = "**तिथिः** — कृष्ण-सप्तमी►06:55; कृष्ण-अष्टमी►29:12!; कृष्ण-नवमी►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — अपभरणी►10:26; कृत्तिका►"
-festivals = "कृत्तिका-व्रतम्, श्रीकृष्णजन्माष्टमी, काञ्ची २१ जगद्गुरु श्री-सार्वभौमगुरुः चन्द्रचूडेन्द्र सरस्वती आराधना #७११, मन्वादिः-(दक्षः-[९]), पञ्च-पर्व-पूजा (अष्टमी), अनध्यायः, श्रीकृष्णदेवराय-राज्याभिषेकः, दिनक्षयः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-08-07"
@@ -4595,7 +4595,7 @@ sidereal_solar_month = "सिंहः"
 tithis = "**तिथिः** — कृष्ण-नवमी►27:54!; कृष्ण-दशमी►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — कृत्तिका►09:33; रोहिणी►"
-festivals = "कौमार-पूजा, चण्डिका-पूजा, काञ्ची २४ जगद्गुरु श्री-चित्सुखेन्द्र सरस्वती आराधना #६३१, नन्दोत्सवः, वरगूर् उऱियडि उत्सवम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-08-08"
@@ -4637,7 +4637,7 @@ sidereal_solar_month = "सिंहः"
 tithis = "**तिथिः** — कृष्ण-एकादशी►26:30!; कृष्ण-द्वादशी►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — मृगशीर्षम्►08:59; आर्द्रा►"
-festivals = "सर्व-अजा-एकादशी, तिरुच्चॆन्दूर् मुरुगऩ् आवणित् तिरुविऴा तॊडक्कम्/कॊडियेऱ्ऱम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-08-10"
@@ -4658,7 +4658,7 @@ sidereal_solar_month = "सिंहः"
 tithis = "**तिथिः** — कृष्ण-द्वादशी►26:23!; कृष्ण-त्रयोदशी►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — आर्द्रा►09:18; पुनर्वसुः►"
-festivals = "रोहिणी-द्वादशी, हरिवासरः, त्रिपुष्कर-योगः, तिरुच्चॆन्दूर् मुरुगऩ् आवणित् तिरुविऴा 2म् नाळ्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-08-11"
@@ -4679,7 +4679,7 @@ sidereal_solar_month = "सिंहः"
 tithis = "**तिथिः** — कृष्ण-त्रयोदशी►26:40!; कृष्ण-चतुर्दशी►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — पुनर्वसुः►09:59; पुष्यः►"
-festivals = "व्यतीपात-श्राद्धम्, प्रदोष-व्रतम्, आवणि-ञायिऱ्ऱुक्किऴमै, रविपुष्य-योगः, पातार्क-योगः, तिरुच्चॆन्दूर् मुरुगऩ् आवणित् तिरुविऴा 3म् नाळ्—मुरुगऩ् भवऩि, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-08-12"
@@ -4700,7 +4700,7 @@ sidereal_solar_month = "सिंहः"
 tithis = "**तिथिः** — कृष्ण-चतुर्दशी►27:21!; अमावास्या►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — पुष्यः►11:04; आश्रेषा►"
-festivals = "चॆरुत्तुणै नायऩ्मार् (५४) गुरुपूजै, अघोर-चतुर्दशी, मासशिवरात्रिः, पञ्च-पर्व-पूजा (चतुर्दशी), अनध्यायः, तिरुच्चॆन्दूर् मुरुगऩ् आवणित् तिरुविऴा 4म् नाळ्—याऩै वाहनत्तिल् मुरुगऩ्-अम्बाळ् भवऩि"
+festivals = ""
 
 [[data]]
 gregorian = "1157-08-13"
@@ -4721,7 +4721,7 @@ sidereal_solar_month = "सिंहः"
 tithis = "**तिथिः** — अमावास्या►28:28!; शुक्ल-प्रथमा►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — आश्रेषा►12:32; मघा►"
-festivals = "दर्भ-सङ्ग्रहः, अतिपत्त नायऩ्मार् (४२) गुरुपूजै, ६४ योगिनी-पूजा, देवी-पर्व-५, वृषभ-पूजा, पिण्ड-पितृ-यज्ञः, पञ्च-पर्व-पूजा (अमावास्या), अनध्यायः, सर्व-श्रावण-अमावास्या (अलभ्यम्–पुष्कला), पार्वणव्रतम् अमावास्यायाम् (गृह्योक्तमानम्), पार्वणव्रतम् अमावास्यायाम्, तिरुच्चॆन्दूर् मुरुगऩ् आवणित् तिरुविऴा 5म् नाळ्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-08-14"
@@ -4742,7 +4742,7 @@ sidereal_solar_month = "सिंहः"
 tithis = "**तिथिः** — शुक्ल-प्रथमा►30:00!; शुक्ल-द्वितीया►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — मघा►14:25; पूर्वफल्गुनी►"
-festivals = "इळैयाऩ्कुडि माऱ नायऩ्मार् (४) गुरुपूजै, काञ्ची ४१ जगद्गुरु श्री-गङ्गाधरेन्द्र सरस्वती २ आराधना #२०८, पार्वण-प्रायश्चित्तावकाशः दर्शे, स्थालीपाकः (गृह्योक्तमानम्), अनध्यायः, दर्शेष्टिः, दर्श-स्थालीपाकः, तिरुच्चॆन्दूर् मुरुगऩ् आवणित् तिरुविऴा 6म् नाळ्—वॆळ्ळित् तेर् भवऩि"
+festivals = ""
 
 [[data]]
 gregorian = "1157-08-15"
@@ -4763,7 +4763,7 @@ sidereal_solar_month = "सिंहः"
 tithis = "**तिथिः** — शुक्ल-द्वितीया►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — पूर्वफल्गुनी►16:43; उत्तरफल्गुनी►"
-festivals = "मनोरथ-द्वितीया, सत्यनारायण-जयन्ती, चन्द्र-दर्शनम्, तिरुच्चॆन्दूर् मुरुगऩ् आवणित् तिरुविऴा 7म् नाळ्—चिगप्पु चात्ति अलङ्कारम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-08-16"
@@ -4784,7 +4784,7 @@ sidereal_solar_month = "सिंहः"
 tithis = "**तिथिः** — शुक्ल-द्वितीया►07:57; शुक्ल-तृतीया►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — उत्तरफल्गुनी►19:24; हस्तः►"
-festivals = "तिरुच्चॆन्दूर् मुरुगऩ् आवणित् तिरुविऴा 8म् नाळ्—पच्चै चात्ति अलङ्कारम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-08-17"
@@ -4805,7 +4805,7 @@ sidereal_solar_month = "सिंहः"
 tithis = "**तिथिः** — शुक्ल-तृतीया►10:16; शुक्ल-चतुर्थी►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — हस्तः►22:23; चित्रा►"
-festivals = "पार्वती-पवित्रारोपणम्, स्वर्ण-गौरी-व्रतम्, हरियाली-तृतीया, मधुश्रावणि-व्रतम्, एकविंशति-दिवस-गणपति-व्रत-आरम्भः, शुक्ल-चतुर्थी-व्रतम्, तैत्तिरीय-उपाकर्म हस्ते, तिरुच्चॆन्दूर् मुरुगऩ् आवणित् तिरुविऴा 9म् नाळ्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-08-18"
@@ -4826,7 +4826,7 @@ sidereal_solar_month = "सिंहः"
 tithis = "**तिथिः** — शुक्ल-चतुर्थी►12:50; शुक्ल-पञ्चमी►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — चित्रा►25:32!; स्वाती►"
-festivals = "दूर्वा-गणपति-व्रतम्, आवणि-ञायिऱ्ऱुक्किऴमै, तिरुच्चॆन्दूर् मुरुगऩ् आवणित् तिरुविऴा 10म् नाळ्—तेर्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-08-19"
@@ -4847,7 +4847,7 @@ sidereal_solar_month = "सिंहः"
 tithis = "**तिथिः** — शुक्ल-पञ्चमी►15:28; शुक्ल-षष्ठी►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — स्वाती►28:39!; विशाखा►"
-festivals = "नाग-पञ्चमी, गरुड-पञ्चमी, तिरुच्चॆन्दूर् मुरुगऩ् आवणित् तिरुविऴा 11म् नाळ्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-08-20"
@@ -4868,7 +4868,7 @@ sidereal_solar_month = "सिंहः"
 tithis = "**तिथिः** — शुक्ल-षष्ठी►17:57; शुक्ल-सप्तमी►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — विशाखा►"
-festivals = "तिरुच्चॆन्दूर् आवणित् तिरुविऴा निऱैवु, सूपौदन-व्रतम्, षष्ठी-व्रतम्, त्रिपुष्कर-योगः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-08-21"
@@ -4889,7 +4889,7 @@ sidereal_solar_month = "सिंहः"
 tithis = "**तिथिः** — शुक्ल-सप्तमी►20:04; शुक्ल-अष्टमी►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — विशाखा►07:32; अनूराधा►"
-festivals = "वैधृति-श्राद्धम्, शीतला-सप्तमी, अव्यङ्ग-सप्तमी, द्वादश-सप्तमी, पापनाशनी-सप्तमी, तुलसीदास-जयन्ती, बुधानुराधा-योगः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-08-22"
@@ -4910,7 +4910,7 @@ sidereal_solar_month = "सिंहः"
 tithis = "**तिथिः** — शुक्ल-अष्टमी►21:35; शुक्ल-नवमी►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — अनूराधा►09:55; ज्येष्ठा►"
-festivals = "कुलच्चिऱै नायऩ्मार् (२२) गुरुपूजै, दुर्गा-व्रत-आरम्भः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-08-23"
@@ -4931,7 +4931,7 @@ sidereal_solar_month = "सिंहः"
 tithis = "**तिथिः** — शुक्ल-नवमी►22:19; शुक्ल-दशमी►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — ज्येष्ठा►11:38; मूला►"
-festivals = "कौमारी-पूजा, सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः, सायन-षडशीति-पुण्यकालः, इष-मासः/शरदृतुः, अनध्यायः, वरलक्ष्मी-व्रतम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-08-24"
@@ -4952,7 +4952,7 @@ sidereal_solar_month = "सिंहः"
 tithis = "**तिथिः** — शुक्ल-दशमी►22:12; शुक्ल-एकादशी►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — मूला►12:33; पूर्वाषाढा►"
-festivals = "गजेन्द्र-मोक्षः, कुङ्गिलियक्कलय नायऩ्मार् (११) गुरुपूजै, पिट्टुक्कु मण् चुमन्द लीलै, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-08-25"
@@ -4973,7 +4973,7 @@ sidereal_solar_month = "सिंहः"
 tithis = "**तिथिः** — शुक्ल-एकादशी►21:13; शुक्ल-द्वादशी►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — पूर्वाषाढा►12:36; उत्तराषाढा►"
-festivals = "काञ्ची २९ जगद्गुरु श्री-पूर्णबोधेन्द्र सरस्वती आराधना #५४०, सर्व-पवित्रोपान-एकादशी, त्रिपुष्कर-योगः, आवणि-ञायिऱ्ऱुक्किऴमै"
+festivals = ""
 
 [[data]]
 gregorian = "1157-08-26"
@@ -4994,7 +4994,7 @@ sidereal_solar_month = "सिंहः"
 tithis = "**तिथिः** — शुक्ल-द्वादशी►19:26; शुक्ल-त्रयोदशी►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — उत्तराषाढा►11:50; श्रवणः►"
-festivals = "दामोदर-द्वादशी, दधि-व्रत-आरम्भः, शाकव्रत-समापनम्, विजया-श्रवण-महाद्वादशी, सोम-प्रदोष-व्रतम्, सोमश्रवण-योगः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-08-27"
@@ -5015,7 +5015,7 @@ sidereal_solar_month = "सिंहः"
 tithis = "**तिथिः** — शुक्ल-त्रयोदशी►16:57; शुक्ल-चतुर्दशी►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — श्रवणः►10:20; श्रविष्ठा►"
-festivals = "नटराजर् महाभिषेकम्, ओणम्, श्रवण-व्रतम्, अनङ्ग-त्रयोदशी, ऋग्वेद-उपाकर्म, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-08-28"
@@ -5036,7 +5036,7 @@ sidereal_solar_month = "सिंहः"
 tithis = "**तिथिः** — शुक्ल-चतुर्दशी►13:56; पौर्णमासी►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — श्रविष्ठा►08:14; शतभिषक्►29:44!; पूर्वप्रोष्ठपदा►"
-festivals = "अनध्यायः, काञ्ची २० जगद्गुरु श्री-मूकशङ्करेन्द्र सरस्वती आराधना #७२१, पूर्णिमा-पूजा, पञ्च-पर्व-पूजा (पूर्णिमा), वेङ्कटाचले पूर्णिमा-गरुड-सेवा, यजुर्वेद-उपाकर्म, पार्वणव्रतम् पूर्णिमायाम् (गृह्योक्तमानम्), पार्वणव्रतम् पूर्णिमायाम्, अनध्यायः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-08-29"
@@ -5057,7 +5057,7 @@ sidereal_solar_month = "सिंहः"
 tithis = "**तिथिः** — पौर्णमासी►10:33; कृष्ण-प्रथमा►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — पूर्वप्रोष्ठपदा►26:59!; उत्तरप्रोष्ठपदा►"
-festivals = "गायत्री-जयन्ती, हयग्रीव-जयन्ती, सर्प-बलि-प्रारम्भः, श्रावण्युपवासः प्रायश्चित्तार्थः, नारिकेल-पूर्णिमा, रक्षाबन्धनम्, संस्कृत-दिवसः, वैखानस-महर्षि-जयन्ती, पूर्णिमा-व्रतम्, अनध्यायः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, स्थालीपाकः (गृह्योक्तमानम्), अनध्यायः, पूर्णमासेष्टिः, पूर्ण-स्थालीपाकः, अगस्त्यार्घ्यम्, अनध्यायः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-08-30"
@@ -5078,7 +5078,7 @@ sidereal_solar_month = "सिंहः"
 tithis = "**तिथिः** — कृष्ण-प्रथमा►06:58; कृष्ण-द्वितीया►27:23!; कृष्ण-तृतीया►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — उत्तरप्रोष्ठपदा►24:12!; रेवती►"
-festivals = "अशून्यशयन-व्रतम्, महालय-पक्ष-आरम्भः, दिनक्षयः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-08-31"
@@ -5099,7 +5099,7 @@ sidereal_solar_month = "सिंहः"
 tithis = "**तिथिः** — कृष्ण-तृतीया►23:57; कृष्ण-चतुर्थी►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — रेवती►21:32; अश्विनी►"
-festivals = "गौरी-व्रतम्, कजरी-तृतीया"
+festivals = ""
 
 [[data]]
 gregorian = "1157-09-01"
@@ -5120,7 +5120,7 @@ sidereal_solar_month = "सिंहः"
 tithis = "**तिथिः** — कृष्ण-चतुर्थी►20:48; कृष्ण-पञ्चमी►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — अश्विनी►19:09; अपभरणी►"
-festivals = "दिक्पाल-पूजा, रविवार-विघ्नराज-महागणपति सङ्कटहर-चतुर्थी-व्रतम्, आवणि-ञायिऱ्ऱुक्किऴमै, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-09-02"
@@ -5141,7 +5141,7 @@ sidereal_solar_month = "सिंहः"
 tithis = "**तिथिः** — कृष्ण-पञ्चमी►18:05; कृष्ण-षष्ठी►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — अपभरणी►17:10; कृत्तिका►"
-festivals = "कृत्तिका-व्रतम्, नाग-पूजा, सप्तर्षि-पूजा/अर्घ्यम्, चन्द्र-षष्ठी, महाभरणी, अगस्त्यार्घ्यम्, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-09-03"
@@ -5162,7 +5162,7 @@ sidereal_solar_month = "सिंहः"
 tithis = "**तिथिः** — कृष्ण-षष्ठी►15:52; कृष्ण-सप्तमी►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — कृत्तिका►15:42; रोहिणी►"
-festivals = "श्री-जयन्ती, कपिल-षष्ठी, काञ्ची ३३ जगद्गुरु श्री-सच्चिदानन्दघनेन्द्र सरस्वती २ आराधना #४६६, शृङ्गेरी ३५ जगद्गुरु श्री-अभिनव विद्यातीर्थ महास्वामी आराधना, अगस्त्यार्घ्यम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-09-04"
@@ -5183,7 +5183,7 @@ sidereal_solar_month = "सिंहः"
 tithis = "**तिथिः** — कृष्ण-सप्तमी►14:13; कृष्ण-अष्टमी►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — रोहिणी►14:48; मृगशीर्षम्►"
-festivals = "महालक्ष्मी-व्रत-समापनम्, महाकाली-जयन्ती, जीवपुत्रिकाष्टमी/जीमूतवाहन-पूजा, पञ्च-पर्व-पूजा (अष्टमी), मध्याष्टमी, अनध्यायः, अगस्त्यार्घ्यम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-09-05"
@@ -5204,7 +5204,7 @@ sidereal_solar_month = "कन्या"
 tithis = "**तिथिः** — कृष्ण-अष्टमी►13:10; कृष्ण-नवमी►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — मृगशीर्षम्►14:29; आर्द्रा►"
-festivals = "विश्वकर्म-जयन्ती, अशोकाष्टमी-व्रत-आरम्भः, अनध्यायः, अविधवा-नवमी, अनध्यायः, सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः, कन्या-रवि-सङ्क्रमण-षडशीति-पुण्यकालः, रवि-सङ्क्रमण-पुण्यकालः, महाव्यतीपात-श्राद्धम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-09-06"
@@ -5225,7 +5225,7 @@ sidereal_solar_month = "कन्या"
 tithis = "**तिथिः** — कृष्ण-नवमी►12:42; कृष्ण-दशमी►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — आर्द्रा►14:44; पुनर्वसुः►"
-festivals = "दुर्गा/गौरी-पूजा, एकविंशति-दिवस-गणपति-व्रत-समापनम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-09-07"
@@ -5246,7 +5246,7 @@ sidereal_solar_month = "कन्या"
 tithis = "**तिथिः** — कृष्ण-दशमी►12:48; कृष्ण-एकादशी►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — पुनर्वसुः►15:32; पुष्यः►"
-festivals = "पुरट्टाचि-चऩिक्किऴमै"
+festivals = ""
 
 [[data]]
 gregorian = "1157-09-08"
@@ -5267,7 +5267,7 @@ sidereal_solar_month = "कन्या"
 tithis = "**तिथिः** — कृष्ण-एकादशी►13:24; कृष्ण-द्वादशी►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — पुष्यः►16:49; आश्रेषा►"
-festivals = "यति-महालयम्, सर्व-इन्दिरा-एकादशी, रविपुष्य-योगः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-09-09"
@@ -5288,7 +5288,7 @@ sidereal_solar_month = "कन्या"
 tithis = "**तिथिः** — कृष्ण-द्वादशी►14:28; कृष्ण-त्रयोदशी►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — आश्रेषा►18:33; मघा►"
-festivals = "सोम-प्रदोष-व्रतम्, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-09-10"
@@ -5309,7 +5309,7 @@ sidereal_solar_month = "कन्या"
 tithis = "**तिथिः** — कृष्ण-त्रयोदशी►15:57; कृष्ण-चतुर्दशी►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — मघा►20:40; पूर्वफल्गुनी►"
-festivals = "काञ्ची ४४ जगद्गुरु श्री-पूर्णबोधेन्द्र सरस्वती २ आराधना #११८, द्वापरयुगादिः, मासशिवरात्रिः, पञ्च-पर्व-पूजा (चतुर्दशी), अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-09-11"
@@ -5330,7 +5330,7 @@ sidereal_solar_month = "कन्या"
 tithis = "**तिथिः** — कृष्ण-चतुर्दशी►17:48; अमावास्या►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — पूर्वफल्गुनी►23:08; उत्तरफल्गुनी►"
-festivals = "शस्त्रहतचतुर्दशी, कात्यायनी-जयन्ती, अनध्यायः, पञ्च-पर्व-पूजा (अमावास्या)"
+festivals = ""
 
 [[data]]
 gregorian = "1157-09-12"
@@ -5351,7 +5351,7 @@ sidereal_solar_month = "कन्या"
 tithis = "**तिथिः** — अमावास्या►19:59; शुक्ल-प्रथमा►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — उत्तरफल्गुनी►25:54!; हस्तः►"
-festivals = "महालय-पक्ष-समापनम्, अश्वशिरो-देव-पूजा, सुजन्मप्राप्ति-व्रतम्, शृङ्गेरी ३४ जगद्गुरु श्री-चन्द्रशेखर भारती आराधना, पिण्ड-पितृ-यज्ञः, अनध्यायः, सर्व-(भाद्रपद) महालय अमावास्या (अलभ्यम्–पुष्कला), पार्वणव्रतम् अमावास्यायाम् (गृह्योक्तमानम्), पार्वणव्रतम् अमावास्यायाम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-09-13"
@@ -5372,7 +5372,7 @@ sidereal_solar_month = "कन्या"
 tithis = "**तिथिः** — शुक्ल-प्रथमा►22:26; शुक्ल-द्वितीया►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — हस्तः►28:53!; चित्रा►"
-festivals = "पार्वण-प्रायश्चित्तावकाशः दर्शे, स्थालीपाकः (गृह्योक्तमानम्), अनध्यायः, सामवेद-उपाकर्म, दर्शेष्टिः, दर्श-स्थालीपाकः, अनध्यायः, महालय-पक्ष-तर्पण-पूर्तिः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-09-14"
@@ -5393,7 +5393,7 @@ sidereal_solar_month = "कन्या"
 tithis = "**तिथिः** — शुक्ल-द्वितीया►25:03!; शुक्ल-तृतीया►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — चित्रा►"
-festivals = "अङ्गारक-जयन्ती, कल्कि-जयन्ती, भाद्रपद-चन्द्र-दर्शनम्, द्विपुष्कर-योगः, पुरट्टाचि-चऩिक्किऴमै, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-09-15"
@@ -5414,7 +5414,7 @@ sidereal_solar_month = "कन्या"
 tithis = "**तिथिः** — शुक्ल-तृतीया►27:44!; शुक्ल-चतुर्थी►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — चित्रा►08:02; स्वाती►"
-festivals = "वैधृति-श्राद्धम्, विपत्तार-गौरी-व्रतम्, हरितालिका-व्रतम्, मन्वादिः-(तामसः-[४]), अनध्यायः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-09-16"
@@ -5435,7 +5435,7 @@ sidereal_solar_month = "कन्या"
 tithis = "**तिथिः** — शुक्ल-चतुर्थी►30:19!; शुक्ल-पञ्चमी►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — स्वाती►11:12; विशाखा►"
-festivals = "श्रीविनायक-चतुर्थी, शुक्ल-चतुर्थी-व्रतम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-09-17"
@@ -5456,7 +5456,7 @@ sidereal_solar_month = "कन्या"
 tithis = "**तिथिः** — शुक्ल-पञ्चमी►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — विशाखा►14:14; अनूराधा►"
-festivals = "भाद्रपदिक-नाग-पञ्चमी, ऋषि-पञ्चमी-व्रतम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-09-18"
@@ -5477,7 +5477,7 @@ sidereal_solar_month = "कन्या"
 tithis = "**तिथिः** — शुक्ल-पञ्चमी►08:38; शुक्ल-षष्ठी►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — अनूराधा►16:56; ज्येष्ठा►"
-festivals = "षष्ठीदेवी-षष्ठी-व्रतम्, बुधानुराधा-योगः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-09-19"
@@ -5498,7 +5498,7 @@ sidereal_solar_month = "कन्या"
 tithis = "**तिथिः** — शुक्ल-षष्ठी►10:29; शुक्ल-सप्तमी►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — ज्येष्ठा►19:09; मूला►"
-festivals = "सूर्य-षष्ठी, ललिता-षष्ठी, कुमारिका-स्वपनम्, मन्थन-षष्ठी"
+festivals = ""
 
 [[data]]
 gregorian = "1157-09-20"
@@ -5519,7 +5519,7 @@ sidereal_solar_month = "कन्या"
 tithis = "**तिथिः** — शुक्ल-सप्तमी►11:41; शुक्ल-अष्टमी►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — मूला►20:41; पूर्वाषाढा►"
-festivals = "कुक्कुटी-व्रतम्, अमुक्ताभरण-सप्तमी, अनन्तफल-सप्तमी, देवी-पर्व-६, दूर्वाष्टमी, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-09-21"
@@ -5540,7 +5540,7 @@ sidereal_solar_month = "कन्या"
 tithis = "**तिथिः** — शुक्ल-अष्टमी►12:07; शुक्ल-नवमी►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — पूर्वाषाढा►21:27; उत्तराषाढा►"
-festivals = "राधाष्टमी, दधीचि-महर्षि-जयन्ति, अनध्यायः, पुरट्टाचि-चऩिक्किऴमै"
+festivals = ""
 
 [[data]]
 gregorian = "1157-09-22"
@@ -5561,7 +5561,7 @@ sidereal_solar_month = "कन्या"
 tithis = "**तिथिः** — शुक्ल-नवमी►11:43; शुक्ल-दशमी►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — उत्तराषाढा►21:22; श्रवणः►"
-festivals = "एऩादिनाथ नायऩ्मार् (९) गुरुपूजै, महालक्ष्मी-व्रत-आरम्भः, नन्दा-नवमी, अदुःखनवमी, गोधूमा-नवमी, तालनवमी, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-09-23"
@@ -5582,7 +5582,7 @@ sidereal_solar_month = "कन्या"
 tithis = "**तिथिः** — शुक्ल-दशमी►10:28; शुक्ल-एकादशी►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — श्रवणः►20:29; श्रविष्ठा►"
-festivals = "श्रवण-व्रतम्, वितस्तोत्सवः, दशावतार-व्रतम्, सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः, विषु-पुण्यकालः, सायन-रवि-सङ्क्रमण-पुण्यकालः, ऊर्ज-मासः, स्मार्त-परिवर्तिनी-एकादशी (गृहस्थ), अनध्यायः, सोमश्रवण-योगः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-09-24"
@@ -5603,7 +5603,7 @@ sidereal_solar_month = "कन्या"
 tithis = "**तिथिः** — शुक्ल-एकादशी►08:26; शुक्ल-द्वादशी►29:44!; शुक्ल-त्रयोदशी►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — श्रविष्ठा►18:52; शतभिषक्►"
-festivals = "दक्षिण-विषुव-दिनम्, कटदानोत्सवः, भुवनेश्वरी-जयन्ती, वामन-जयन्ती, शक्रध्वजोत्थापनम्, अनन्त-द्वादशी, दधि-व्रत-समापनम्, पयोव्रत-आरम्भः, स्मार्त-परिवर्तिनी-एकादशी (सन्न्यस्त), वैष्णव-परिवर्तिनी-एकादशी, हरिवासरः, त्रिस्पृशा-महाद्वादशी, दिनक्षयः, अनध्यायः, द्विपुष्कर-योगः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-09-25"
@@ -5624,7 +5624,7 @@ sidereal_solar_month = "कन्या"
 tithis = "**तिथिः** — शुक्ल-त्रयोदशी►26:31!; शुक्ल-चतुर्दशी►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — शतभिषक्►16:39; पूर्वप्रोष्ठपदा►"
-festivals = "नरचिङ्गमुऩैयरैय नायऩ्मार् (४१) गुरुपूजै, दूर्व-त्रि-व्रतम्, गो-त्रिरात्र-व्रतम्, प्रदोष-व्रतम्, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-09-26"
@@ -5645,7 +5645,7 @@ sidereal_solar_month = "कन्या"
 tithis = "**तिथिः** — शुक्ल-चतुर्दशी►22:55; पौर्णमासी►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — पूर्वप्रोष्ठपदा►13:59; उत्तरप्रोष्ठपदा►"
-festivals = "नटराजर् महाभिषेकम्, अनन्त-पद्मनाभ-व्रतम्, अनन्त-चतुर्दशी, अनध्यायः, पञ्च-पर्व-पूजा (पूर्णिमा)"
+festivals = ""
 
 [[data]]
 gregorian = "1157-09-27"
@@ -5666,7 +5666,7 @@ sidereal_solar_month = "कन्या"
 tithis = "**तिथिः** — पौर्णमासी►19:08; कृष्ण-प्रथमा►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — उत्तरप्रोष्ठपदा►11:03; रेवती►"
-festivals = "उपाङ्ग-ललिता-गौरी-व्रतम्, उमा-महेश्वर-व्रतम्, दिक्पाल-पूजा, विश्वरूप-यात्रा, यतिचातुर्मास्यव्रत-समापनम्, पूर्णिमा-पूजा, पूर्णिमा-व्रतम्, वेङ्कटाचले पूर्णिमा-गरुड-सेवा, अनध्यायः, भृगुरेवती-योगः, पार्वणव्रतम् पूर्णिमायाम् (गृह्योक्तमानम्), पार्वणव्रतम् पूर्णिमायाम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-09-28"
@@ -5687,7 +5687,7 @@ sidereal_solar_month = "कन्या"
 tithis = "**तिथिः** — कृष्ण-प्रथमा►15:20; कृष्ण-द्वितीया►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — रेवती►08:01; अश्विनी►29:05!; अपभरणी►"
-festivals = "जयावाप्ति-व्रतम्, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, स्थालीपाकः (गृह्योक्तमानम्), अनध्यायः, अशून्यशयन-व्रतम्, रुद्र-पशुपति नायऩ्मार् (१७) गुरुपूजै, पूर्णमासेष्टिः, पूर्ण-स्थालीपाकः, पुरट्टाचि-चऩिक्किऴमै"
+festivals = ""
 
 [[data]]
 gregorian = "1157-09-29"
@@ -5708,7 +5708,7 @@ sidereal_solar_month = "कन्या"
 tithis = "**तिथिः** — कृष्ण-द्वितीया►11:41; कृष्ण-तृतीया►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — अपभरणी►26:25!; कृत्तिका►"
-festivals = "चन्द्रोदय-गौरी-व्रतम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-09-30"
@@ -5729,7 +5729,7 @@ sidereal_solar_month = "कन्या"
 tithis = "**तिथिः** — कृष्ण-तृतीया►08:21; कृष्ण-चतुर्थी►29:29!; कृष्ण-पञ्चमी►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — कृत्तिका►24:11!; रोहिणी►"
-festivals = "कृत्तिका-व्रतम्, कनक-गणेश-व्रतम्, ललिता-गौरी-व्रतम्, वक्रतुण्ड-महागणपति-सङ्कटहर-चतुर्थी-व्रतम्, करक-चतुर्थी, दिनक्षयः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-10-01"
@@ -5750,7 +5750,7 @@ sidereal_solar_month = "कन्या"
 tithis = "**तिथिः** — कृष्ण-पञ्चमी►27:12!; कृष्ण-षष्ठी►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — रोहिणी►22:29; मृगशीर्षम्►"
-festivals = "तिरुनाळैप्पोवार् नायऩ्मार् (१८) गुरुपूजै, व्यतीपात-श्राद्धम्, घोटक-पञ्चमी"
+festivals = ""
 
 [[data]]
 gregorian = "1157-10-02"
@@ -5792,7 +5792,7 @@ sidereal_solar_month = "कन्या"
 tithis = "**तिथिः** — कृष्ण-सप्तमी►24:41!; कृष्ण-अष्टमी►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — आर्द्रा►21:07; पुनर्वसुः►"
-festivals = "अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-10-04"
@@ -5813,7 +5813,7 @@ sidereal_solar_month = "कन्या"
 tithis = "**तिथिः** — कृष्ण-अष्टमी►24:32!; कृष्ण-नवमी►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — पुनर्वसुः►21:30; पुष्यः►"
-festivals = "महालक्ष्मी-व्रतम्, मङ्गल-व्रतम्, पञ्च-पर्व-पूजा (अष्टमी), अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-10-05"
@@ -5834,7 +5834,7 @@ sidereal_solar_month = "कन्या"
 tithis = "**तिथिः** — कृष्ण-नवमी►25:04!; कृष्ण-दशमी►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — पुष्यः►22:34; आश्रेषा►"
-festivals = "भीमसेन-जयन्ती, अनध्यायः, पुरट्टाचि-चऩिक्किऴमै"
+festivals = ""
 
 [[data]]
 gregorian = "1157-10-06"
@@ -5855,7 +5855,7 @@ sidereal_solar_month = "तुला"
 tithis = "**तिथिः** — कृष्ण-दशमी►26:15!; कृष्ण-एकादशी►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — आश्रेषा►24:15!; मघा►"
-festivals = "आकाशदीप-आरम्भः, अनध्यायः, सङ्क्रमण-दिन-पूर्वाह्ण-पुण्यकालः, तुला-सङ्क्रमण-पुण्यकालः, रवि-सङ्क्रमण-पुण्यकालः, तुला-कावेरी-स्नान-आरम्भः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-10-07"
@@ -5876,7 +5876,7 @@ sidereal_solar_month = "तुला"
 tithis = "**तिथिः** — कृष्ण-एकादशी►27:57!; कृष्ण-द्वादशी►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — मघा►26:27!; पूर्वफल्गुनी►"
-festivals = "शृङ्गेरी ३४ जगद्गुरु श्री-चन्द्रशेखर भारती-३ जयन्ती, सर्व-रमा-एकादशी"
+festivals = ""
 
 [[data]]
 gregorian = "1157-10-08"
@@ -5897,7 +5897,7 @@ sidereal_solar_month = "तुला"
 tithis = "**तिथिः** — कृष्ण-द्वादशी►30:04!; कृष्ण-त्रयोदशी►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — पूर्वफल्गुनी►29:03!; उत्तरफल्गुनी►"
-festivals = "चत्ति नायऩ्मार् (४५) गुरुपूजै, गोवत्स-द्वादशी, वसुदेव-पूजा, व्याघ्र-द्वादशी, हरिवासरः, त्रिपुष्कर-योगः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-10-09"
@@ -5918,7 +5918,7 @@ sidereal_solar_month = "तुला"
 tithis = "**तिथिः** — कृष्ण-त्रयोदशी►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — उत्तरफल्गुनी►"
-festivals = "धन्वन्तरि-जयन्ती, (यम)-दीप-त्रयोदशी, धन-त्रयोदशी, गो-त्रिरात्र-व्रतम्, प्रदोष-व्रतम्, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-10-10"
@@ -5939,7 +5939,7 @@ sidereal_solar_month = "तुला"
 tithis = "**तिथिः** — कृष्ण-त्रयोदशी►08:29; कृष्ण-चतुर्दशी►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — उत्तरफल्गुनी►07:56; हस्तः►"
-festivals = "वैधृति-श्राद्धम्, देवी-पर्व-७, मासशिवरात्रिः, पञ्च-पर्व-पूजा (चतुर्दशी), अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-10-11"
@@ -5960,7 +5960,7 @@ sidereal_solar_month = "तुला"
 tithis = "**तिथिः** — कृष्ण-चतुर्दशी►11:05; अमावास्या►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — हस्तः►10:59; चित्रा►"
-festivals = "प्रेत-चतुर्दशी, दीपोत्सव-चतुर्दशी/यम-तर्पणम्, नरक-चतुर्दशी-स्नानम्, शृङ्गेरी ३५ जगद्गुरु श्री-अभिनव विद्यातीर्थ महास्वामी जयन्ती, अनध्यायः, दीपावली/लक्ष्मी-कुबेर-पूजा, पञ्च-पर्व-पूजा (अमावास्या), सर्व-आश्वयुज-अमावास्या, भृगुवार-सुब्रह्मण्य-व्रतम्, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-10-12"
@@ -5981,7 +5981,7 @@ sidereal_solar_month = "तुला"
 tithis = "**तिथिः** — अमावास्या►13:45; शुक्ल-प्रथमा►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — चित्रा►14:07; स्वाती►"
-festivals = "आग्रयण-होमः द्राविडेषु, केदार-गौरी-व्रतम्, श्रीराम-पट्टाभिषेकः, विक्रमादित्य-पट्टाभिषेकः, पिण्ड-पितृ-यज्ञः, अनध्यायः, बोधायन-कात्यायन-इष्टिः, पार्वणव्रतम् अमावास्यायाम् (गृह्योक्तमानम्), पार्वणव्रतम् अमावास्यायाम्, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-10-13"
@@ -6002,7 +6002,7 @@ sidereal_solar_month = "तुला"
 tithis = "**तिथिः** — शुक्ल-प्रथमा►16:23; शुक्ल-द्वितीया►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — स्वाती►17:13; विशाखा►"
-festivals = "दौहित्र-प्रतिपत्, गृहदेवी-पूजा, स्तन्यवृद्धि-गौरी-व्रतम्, शरन्नवरात्र-आरम्भः, अग्रसेन-महाराज-जयन्ती, पार्वण-प्रायश्चित्तावकाशः दर्शे, स्थालीपाकः (गृह्योक्तमानम्), अनध्यायः, दर्शेष्टिः, दर्श-स्थालीपाकः, चन्द्र-दर्शनम्, त्रिपुष्कर-योगः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-10-14"
@@ -6023,7 +6023,7 @@ sidereal_solar_month = "तुला"
 tithis = "**तिथिः** — शुक्ल-द्वितीया►18:53; शुक्ल-तृतीया►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — विशाखा►20:10; अनूराधा►"
-festivals = "अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-10-15"
@@ -6044,7 +6044,7 @@ sidereal_solar_month = "तुला"
 tithis = "**तिथिः** — शुक्ल-तृतीया►21:08; शुक्ल-चतुर्थी►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — अनूराधा►22:53; ज्येष्ठा►"
-festivals = "पूचलार् नायऩ्मार् (५८) गुरुपूजै, मेघपालीय-तृतीया"
+festivals = ""
 
 [[data]]
 gregorian = "1157-10-16"
@@ -6065,7 +6065,7 @@ sidereal_solar_month = "तुला"
 tithis = "**तिथिः** — शुक्ल-चतुर्थी►23:00; शुक्ल-पञ्चमी►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — ज्येष्ठा►25:13!; मूला►"
-festivals = "देवता-सुवासिनी-पूजा, शुक्ल-चतुर्थी-व्रतम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-10-17"
@@ -6086,7 +6086,7 @@ sidereal_solar_month = "तुला"
 tithis = "**तिथिः** — शुक्ल-पञ्चमी►24:23!; शुक्ल-षष्ठी►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — मूला►27:05!; पूर्वाषाढा►"
-festivals = "ऐयडिगळ् काडवर्कोऩ् नायऩ्मार् (४६) गुरुपूजै, आश्विन-नाग-पञ्चमी, ललिता-पञ्चमी, उपाङ्ग-ललिता-व्रतम्, शान्ति-पञ्चमी-व्रतम्, सरस्वती-आवाहनम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-10-18"
@@ -6107,7 +6107,7 @@ sidereal_solar_month = "तुला"
 tithis = "**तिथिः** — शुक्ल-षष्ठी►25:09!; शुक्ल-सप्तमी►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — पूर्वाषाढा►28:22!; उत्तराषाढा►"
-festivals = "सरस्वती-पूजा, षष्ठी-व्रतम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-10-19"
@@ -6128,7 +6128,7 @@ sidereal_solar_month = "तुला"
 tithis = "**तिथिः** — शुक्ल-सप्तमी►25:15!; शुक्ल-अष्टमी►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — उत्तराषाढा►28:58!; श्रवणः►"
-festivals = "पत्रिका-प्रवेश-पूजा, शुभ-सप्तमी, काञ्ची ४५ जगद्गुरु श्री-परमशिवेन्द्र सरस्वती १ आराधना #९७, सरस्वती-विसर्जनम्, त्रिपुष्कर-योगः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-10-20"
@@ -6149,7 +6149,7 @@ sidereal_solar_month = "तुला"
 tithis = "**तिथिः** — शुक्ल-अष्टमी►24:38!; शुक्ल-नवमी►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — श्रवणः►28:52!; श्रविष्ठा►"
-festivals = "पॊय्गैयाऴ्वार् तिरुनक्षत्तिरम्, श्रवण-व्रतम्, भद्रकाळी-पूजा, दुर्गाष्टमी, काल-त्रिरात्र-व्रतम्, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-10-21"
@@ -6170,7 +6170,7 @@ sidereal_solar_month = "तुला"
 tithis = "**तिथिः** — शुक्ल-नवमी►23:18; शुक्ल-दशमी►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — श्रविष्ठा►28:04!; शतभिषक्►"
-festivals = "भूतत्ताऴ्वार् तिरुनक्षत्तिरम्, भद्रकाळी-व्रतम्, महानवमी/सरस्वती-पूजा, शरन्नवरात्र-समापनम्, काञ्ची १९ जगद्गुरु श्री-मार्तण्ड विद्याघनेन्द्र सरस्वती आराधना #७६०, मन्वादिः-(स्वायम्भुवः-[१]), आयुध-पूजा, अनध्यायः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-10-22"
@@ -6191,7 +6191,7 @@ sidereal_solar_month = "तुला"
 tithis = "**तिथिः** — शुक्ल-दशमी►21:16; शुक्ल-एकादशी►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — शतभिषक्►26:37!; पूर्वप्रोष्ठपदा►"
-festivals = "पेयाऴ्वार् तिरुनक्षत्तिरम्, राजराज-चोऴ-दानोत्सवः #१७३, शमी-पूजा, गङ्गावतरणम्, दुर्गा-पूजा, बुद्ध-जयन्ती, दशहरा, कूष्माण्ड-दशमी, विजयदशमी—विद्यारम्भः, विजयदशमी—यात्रा-मुहूर्तः, युद्धदेवता-आराधना/अपराजिता-पूजा, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-10-23"
@@ -6212,7 +6212,7 @@ sidereal_solar_month = "तुला"
 tithis = "**तिथिः** — शुक्ल-एकादशी►18:39; शुक्ल-द्वादशी►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — पूर्वप्रोष्ठपदा►24:36!; उत्तरप्रोष्ठपदा►"
-festivals = "सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः, सायन-विष्णुपदी-पुण्यकालः, सहो-मासः/हेमन्तऋतुः, सर्व-पापाङ्कुशा-एकादशी, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-10-24"
@@ -6233,7 +6233,7 @@ sidereal_solar_month = "तुला"
 tithis = "**तिथिः** — शुक्ल-द्वादशी►15:33; शुक्ल-त्रयोदशी►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — उत्तरप्रोष्ठपदा►22:07; रेवती►"
-festivals = "द्विदल-व्रत-आरम्भः, पयोव्रत-समापनम्, शक्रध्वजपातः, प्रदोष-व्रतम्, अनध्यायः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-10-25"
@@ -6254,7 +6254,7 @@ sidereal_solar_month = "तुला"
 tithis = "**तिथिः** — शुक्ल-त्रयोदशी►12:06; शुक्ल-चतुर्दशी►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — रेवती►19:21; अश्विनी►"
-festivals = "अनध्यायः, भृगुरेवती-योगः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-10-26"
@@ -6275,7 +6275,7 @@ sidereal_solar_month = "तुला"
 tithis = "**तिथिः** — शुक्ल-चतुर्दशी►08:28; पौर्णमासी►28:47!; कृष्ण-प्रथमा►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — अश्विनी►16:27; अपभरणी►"
-festivals = "महा-अन्नाभिषेकः, तिरुमूल नायऩ्मार् (३०) गुरुपूजै, अपत्य-नीराजनम्, को-जागर्ति-व्रतम्, काञ्ची ३६ जगद्गुरु श्री-चित्सुखानन्देन्द्र सरस्वती आराधना #४००, पूर्णिमा-पूजा, पञ्च-पर्व-पूजा (पूर्णिमा), वेङ्कटाचले पूर्णिमा-गरुड-सेवा, अनध्यायः, आग्रयण-होमः द्राविडेषु, व्यतीपात-श्राद्धम्, कुमार-पूर्णिमा/महा-अश्विनी, कुन्ती-(पार्वती)-व्रतम्, कौमुदी-उत्सवः, लक्ष्मी-इन्द्र-कुबेर-पूजा, शरत्-पूर्णिमा/नवान्न-पूर्णिमा, वाल्मीकि-महर्षि-जयन्ती, चन्द्र-ग्रहणम्-(राहुग्रस्त), दिनक्षयः, पार्वणव्रतम् पूर्णिमायाम् (गृह्योक्तमानम्), पार्वणव्रतम् पूर्णिमायाम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-10-27"
@@ -6296,7 +6296,7 @@ sidereal_solar_month = "तुला"
 tithis = "**तिथिः** — कृष्ण-प्रथमा►25:15!; कृष्ण-द्वितीया►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — अपभरणी►13:34; कृत्तिका►"
-festivals = "निऩ्ऱचीर् नॆडुमाऱ नायऩ्मार् (४९) गुरुपूजै, कृत्तिका-व्रतम्, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, स्थालीपाकः (गृह्योक्तमानम्), अनध्यायः, पूर्णमासेष्टिः, पूर्ण-स्थालीपाकः, त्रिपुष्कर-योगः, पद्मक-योगः, पातार्क-योगः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-10-28"
@@ -6317,7 +6317,7 @@ sidereal_solar_month = "तुला"
 tithis = "**तिथिः** — कृष्ण-द्वितीया►22:00; कृष्ण-तृतीया►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — कृत्तिका►10:54; रोहिणी►"
-festivals = "इडङ्कऴि नायऩ्मार् (५५) गुरुपूजै, चातुर्मास्य-द्वितीया, कार्त्तिक-सोमवासरः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-10-29"
@@ -6338,7 +6338,7 @@ sidereal_solar_month = "तुला"
 tithis = "**तिथिः** — कृष्ण-तृतीया►19:12; कृष्ण-चतुर्थी►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — रोहिणी►08:35; मृगशीर्षम्►30:49!; आर्द्रा►"
-festivals = "सौभाग्य-सुन्दरी-व्रतम्, काञ्ची ९ जगद्गुरु श्री-कृपाशङ्करेन्द्र सरस्वती आराधना #१०८९, अङ्गारकी गणाधिप-महागणपति सङ्कटहर-चतुर्थी-व्रतम्, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-10-30"
@@ -6401,7 +6401,7 @@ sidereal_solar_month = "तुला"
 tithis = "**तिथिः** — कृष्ण-षष्ठी►14:50; कृष्ण-सप्तमी►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — पुष्यः►29:43!; आश्रेषा►"
-festivals = "तिरुविशलूर् गङ्गाकर्षण-महोत्सव-आरम्भः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-11-02"
@@ -6422,7 +6422,7 @@ sidereal_solar_month = "तुला"
 tithis = "**तिथिः** — कृष्ण-सप्तमी►14:57; कृष्ण-अष्टमी►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — आश्रेषा►30:55!; मघा►"
-festivals = "सावित्री-कल्पादिः, कालभैरवाष्टमी, पञ्च-पर्व-पूजा (अष्टमी), अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-11-03"
@@ -6443,7 +6443,7 @@ sidereal_solar_month = "तुला"
 tithis = "**तिथिः** — कृष्ण-अष्टमी►15:53; कृष्ण-नवमी►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — मघा►"
-festivals = "कालाष्टमी, काञ्ची ४२ जगद्गुरु श्री-ब्रह्मानन्दघनेन्द्र सरस्वती २ आराधना #१८०, महादेवाष्टमी, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-11-04"
@@ -6464,7 +6464,7 @@ sidereal_solar_month = "तुला"
 tithis = "**तिथिः** — कृष्ण-नवमी►17:29; कृष्ण-दशमी►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — मघा►08:50; पूर्वफल्गुनी►"
-festivals = "कामाक्षी-आविर्भावः, अनध्यायः, कार्त्तिक-सोमवासरः, तुला-कावेरी-स्नान-समापनम्, आकाशदीप-समापनम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-11-05"
@@ -6485,7 +6485,7 @@ sidereal_solar_month = "वृश्चिकः"
 tithis = "**तिथिः** — कृष्ण-दशमी►19:39; कृष्ण-एकादशी►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — पूर्वफल्गुनी►11:19; उत्तरफल्गुनी►"
-festivals = "कृत्तिका-मण्डल-पारायण-आरम्भः, वैधृति-श्राद्धम्, काञ्ची २८ जगद्गुरु श्री-महादेवेन्द्र सरस्वती १ आराधना #५५७, अनध्यायः, सङ्क्रमण-दिन-पूर्वाह्ण-पुण्यकालः, वृश्चिक-रवि-सङ्क्रमण-विष्णुपदी-पुण्यकालः, मुडवऩ् मुऴुक्कु, त्रेतायुगान्तः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-11-06"
@@ -6506,7 +6506,7 @@ sidereal_solar_month = "वृश्चिकः"
 tithis = "**तिथिः** — कृष्ण-एकादशी►22:11; कृष्ण-द्वादशी►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — उत्तरफल्गुनी►14:12; हस्तः►"
-festivals = "सर्व-उत्पन्ना-एकादशी"
+festivals = ""
 
 [[data]]
 gregorian = "1157-11-07"
@@ -6527,7 +6527,7 @@ sidereal_solar_month = "वृश्चिकः"
 tithis = "**तिथिः** — कृष्ण-द्वादशी►24:54!; कृष्ण-त्रयोदशी►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — हस्तः►17:18; चित्रा►"
-festivals = "आऩाय नायऩ्मार् (१४) गुरुपूजै, पक्षवर्धिनी-महाद्वादशी"
+festivals = ""
 
 [[data]]
 gregorian = "1157-11-08"
@@ -6548,7 +6548,7 @@ sidereal_solar_month = "वृश्चिकः"
 tithis = "**तिथिः** — कृष्ण-त्रयोदशी►27:37!; कृष्ण-चतुर्दशी►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — चित्रा►20:27; स्वाती►"
-festivals = "प्रदोष-व्रतम्, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-11-09"
@@ -6569,7 +6569,7 @@ sidereal_solar_month = "वृश्चिकः"
 tithis = "**तिथिः** — कृष्ण-चतुर्दशी►30:10!; अमावास्या►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — स्वाती►23:30; विशाखा►"
-festivals = "मासशिवरात्रिः, पञ्च-पर्व-पूजा (चतुर्दशी), अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-11-10"
@@ -6590,7 +6590,7 @@ sidereal_solar_month = "वृश्चिकः"
 tithis = "**तिथिः** — अमावास्या►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — विशाखा►26:18!; अनूराधा►"
-festivals = "आग्रयण-होमः द्राविडेषु, कार्त्तिक-स्नानपूर्तिः, तिरुविशलूर् गङ्गाकर्षण-महोत्सव-समापनम्, पञ्च-पर्व-पूजा (अमावास्या), अनध्यायः, सर्व-कार्त्तिक-अमावास्या (अलभ्यम्–विशाखा), कार्त्तिगै-ञायिऱ्ऱुक्किऴमै, पार्वणव्रतम् अमावास्यायाम् (गृह्योक्तमानम्), पार्वणव्रतम् अमावास्यायाम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-11-11"
@@ -6611,7 +6611,7 @@ sidereal_solar_month = "वृश्चिकः"
 tithis = "**तिथिः** — अमावास्या►08:28; शुक्ल-प्रथमा►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — अनूराधा►28:49!; ज्येष्ठा►"
-festivals = "पिण्ड-पितृ-यज्ञः, गोवर्धन-पूजा, पार्वण-प्रायश्चित्तावकाशः दर्शे, स्थालीपाकः (गृह्योक्तमानम्), अनध्यायः, दर्शेष्टिः, दर्श-स्थालीपाकः, सोमवती अमावास्या, कार्त्तिक-सोमवासरः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-11-12"
@@ -6632,7 +6632,7 @@ sidereal_solar_month = "वृश्चिकः"
 tithis = "**तिथिः** — शुक्ल-प्रथमा►10:25; शुक्ल-द्वितीया►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — ज्येष्ठा►30:57!; मूला►"
-festivals = "अनध्यायः, यम/भ्रातृ-द्वितीया, चन्द्र-दर्शनम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-11-13"
@@ -6653,7 +6653,7 @@ sidereal_solar_month = "वृश्चिकः"
 tithis = "**तिथिः** — शुक्ल-द्वितीया►11:59; शुक्ल-तृतीया►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — मूला►"
-festivals = "मूर्क्ख नायऩ्मार् (३२) गुरुपूजै"
+festivals = ""
 
 [[data]]
 gregorian = "1157-11-14"
@@ -6674,7 +6674,7 @@ sidereal_solar_month = "वृश्चिकः"
 tithis = "**तिथिः** — शुक्ल-तृतीया►13:06; शुक्ल-चतुर्थी►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — मूला►08:40; पूर्वाषाढा►"
-festivals = "शुक्ल-चतुर्थी-व्रतम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-11-15"
@@ -6695,7 +6695,7 @@ sidereal_solar_month = "वृश्चिकः"
 tithis = "**तिथिः** — शुक्ल-चतुर्थी►13:44; शुक्ल-पञ्चमी►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — पूर्वाषाढा►09:56; उत्तराषाढा►"
-festivals = "चिऱप्पुलि नायऩ्मार् (३५) गुरुपूजै"
+festivals = ""
 
 [[data]]
 gregorian = "1157-11-16"
@@ -6716,7 +6716,7 @@ sidereal_solar_month = "वृश्चिकः"
 tithis = "**तिथिः** — शुक्ल-पञ्चमी►13:53; शुक्ल-षष्ठी►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — उत्तराषाढा►10:44; श्रवणः►"
-festivals = "सर्प-पूजा, देवसेना-पञ्चमी, जया-व्रतम्, पाण्डव-(लाभ)-पञ्चमी"
+festivals = ""
 
 [[data]]
 gregorian = "1157-11-17"
@@ -6737,7 +6737,7 @@ sidereal_solar_month = "वृश्चिकः"
 tithis = "**तिथिः** — शुक्ल-षष्ठी►13:32; शुक्ल-सप्तमी►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — श्रवणः►11:03; श्रविष्ठा►"
-festivals = "श्रवण-व्रतम्, स्कन्दषष्ठी-व्रतम्, द्विपुष्कर-योगः, पद्मक-योगः, कार्त्तिगै-ञायिऱ्ऱुक्किऴमै, पुष्कर-मेला-प्रारम्भः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-11-18"
@@ -6758,7 +6758,7 @@ sidereal_solar_month = "वृश्चिकः"
 tithis = "**तिथिः** — शुक्ल-सप्तमी►12:39; शुक्ल-अष्टमी►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — श्रविष्ठा►10:51; शतभिषक्►"
-festivals = "गोपाष्टमी, कार्त्तिक-सोमवासरः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-11-19"
@@ -6779,7 +6779,7 @@ sidereal_solar_month = "वृश्चिकः"
 tithis = "**तिथिः** — शुक्ल-अष्टमी►11:15; शुक्ल-नवमी►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — शतभिषक्►10:08; पूर्वप्रोष्ठपदा►"
-festivals = "कार्तवीर्यार्जुन-जयन्ती, अनध्यायः, तुलसी-विवाहोत्सव-आरम्भः, देवी-पर्व-८, अक्षया/कूष्माण्ड-नवमी, काञ्ची २२ जगद्गुरु श्री-परिपूर्णबोधेन्द्र सरस्वती आराधना #६७७, त्रेतायुगादिः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-11-20"
@@ -6800,7 +6800,7 @@ sidereal_solar_month = "वृश्चिकः"
 tithis = "**तिथिः** — शुक्ल-नवमी►09:21; शुक्ल-दशमी►31:01!; शुक्ल-एकादशी►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — पूर्वप्रोष्ठपदा►08:56; उत्तरप्रोष्ठपदा►"
-festivals = "जगद्धात्री-पूजा, कंस-वधः, दिनक्षयः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-11-21"
@@ -6821,7 +6821,7 @@ sidereal_solar_month = "वृश्चिकः"
 tithis = "**तिथिः** — शुक्ल-एकादशी►28:17!; शुक्ल-द्वादशी►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — उत्तरप्रोष्ठपदा►07:18; रेवती►29:17!; अश्विनी►"
-festivals = "व्यतीपात-श्राद्धम्, आदि-शङ्कर मानसिक-सन्न्यास-दिनम्, भीष्म-पञ्चक-व्रत-आरम्भः, स्मार्त-उत्थान-एकादशी, अनध्यायः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-11-22"
@@ -6842,7 +6842,7 @@ sidereal_solar_month = "वृश्चिकः"
 tithis = "**तिथिः** — शुक्ल-द्वादशी►25:17!; शुक्ल-त्रयोदशी►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — अश्विनी►26:59!; अपभरणी►"
-festivals = "तुलसी-विवाहः, बृन्दावन-द्वादशी, द्विदल-व्रत-समापनम्, गोपद्म-व्रत-समापनम्, प्रबोधोत्सवः, याज्ञवल्क्य-जयन्ती, चातुर्मास्यव्रत-समापनम्, मन्वादिः-(स्वारोचिषः-[२]), सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः, सायन-षडशीति-पुण्यकालः, सायन-रवि-सङ्क्रमण-पुण्यकालः, सहस्य-मासः, वैष्णव-उत्थान-एकादशी, गुरुवायुपुर-एकादशी, कैशिक-एकादशी, हरिवासरः, अनध्यायः, अनध्यायः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-11-23"
@@ -6863,7 +6863,7 @@ sidereal_solar_month = "वृश्चिकः"
 tithis = "**तिथिः** — शुक्ल-त्रयोदशी►22:07; शुक्ल-चतुर्दशी►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — अपभरणी►24:32!; कृत्तिका►"
-festivals = "भरणी-दीपम्, कार्त्तिगै, तिरुवण्णामलै-दीपम्, कार्त्तिक-मास-अन्तिमत्रयतिथि-व्रत-आरम्भः, शनिवार-शुक्ल-प्रदोष-व्रतम्, सहोमास-उषःकाल-पूजारम्भः, कैशिक-द्वादशी, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-11-24"
@@ -6884,7 +6884,7 @@ sidereal_solar_month = "वृश्चिकः"
 tithis = "**तिथिः** — शुक्ल-चतुर्दशी►18:54; पौर्णमासी►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — कृत्तिका►22:04; रोहिणी►"
-festivals = "सर्वालय-दीपम्, तिरुमङ्गैयाऴ्वार् तिरुनक्षत्तिरम्, कणम्पुल्ल नायऩ्मार् (४७) गुरुपूजै, कृत्तिका-व्रतम्, मणिकर्णिका-स्नानम्/वैकुण्ठ-चतुर्दशी, अनध्यायः, त्रिपुरोत्सवः, पूर्णिमा-पूजा, पञ्च-पर्व-पूजा (पूर्णिमा), वेङ्कटाचले पूर्णिमा-गरुड-सेवा, कार्त्तिगै-ञायिऱ्ऱुक्किऴमै"
+festivals = ""
 
 [[data]]
 gregorian = "1157-11-25"
@@ -6905,7 +6905,7 @@ sidereal_solar_month = "वृश्चिकः"
 tithis = "**तिथिः** — पौर्णमासी►15:48; कृष्ण-प्रथमा►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — रोहिणी►19:44; मृगशीर्षम्►"
-festivals = "आग्रयण-होमः द्राविडेषु, कार्त्तिक-मास-अन्तिमत्रयतिथि-व्रत-समापनम्, कार्त्तिक-पूर्णिमा-स्नानम्, श्री-गोविन्द भगवत्पाद आराधना, भीष्म-पञ्चक-व्रत-समापनम्, पुष्कर-मेला-समाप्तिः, मन्वादिः-(धर्म-सावर्णिः-[११]), पूर्णिमा-व्रतम्, अनध्यायः, कार्त्तिक-सोमवासरः, पार्वणव्रतम् पूर्णिमायाम् (गृह्योक्तमानम्), पार्वणव्रतम् पूर्णिमायाम्, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-11-26"
@@ -6926,7 +6926,7 @@ sidereal_solar_month = "वृश्चिकः"
 tithis = "**तिथिः** — कृष्ण-प्रथमा►12:58; कृष्ण-द्वितीया►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — मृगशीर्षम्►17:41; आर्द्रा►"
-festivals = "काञ्ची १३ जगद्गुरु श्री-सच्चिद्घनेन्द्र सरस्वती आराधना #८८६, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, स्थालीपाकः (गृह्योक्तमानम्), अनध्यायः, पूर्णमासेष्टिः, पूर्ण-स्थालीपाकः, द्विपुष्कर-योगः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-11-27"
@@ -6947,7 +6947,7 @@ sidereal_solar_month = "वृश्चिकः"
 tithis = "**तिथिः** — कृष्ण-द्वितीया►10:34; कृष्ण-तृतीया►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — आर्द्रा►16:06; पुनर्वसुः►"
-festivals = "परशुराम-जयन्ती"
+festivals = ""
 
 [[data]]
 gregorian = "1157-11-28"
@@ -6968,7 +6968,7 @@ sidereal_solar_month = "वृश्चिकः"
 tithis = "**तिथिः** — कृष्ण-तृतीया►08:44; कृष्ण-चतुर्थी►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — पुनर्वसुः►15:07; पुष्यः►"
-festivals = "आखुरथ-महागणपति-सङ्कटहर-चतुर्थी-व्रतम्, गुरुपुष्य-योगः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-11-29"
@@ -6989,7 +6989,7 @@ sidereal_solar_month = "वृश्चिकः"
 tithis = "**तिथिः** — कृष्ण-चतुर्थी►07:36; कृष्ण-पञ्चमी►31:16!; कृष्ण-षष्ठी►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — पुष्यः►14:50; आश्रेषा►"
-festivals = "दिनक्षयः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-11-30"
@@ -7010,7 +7010,7 @@ sidereal_solar_month = "वृश्चिकः"
 tithis = "**तिथिः** — कृष्ण-षष्ठी►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — आश्रेषा►15:21; मघा►"
-festivals = "वैधृति-श्राद्धम्, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-12-01"
@@ -7031,7 +7031,7 @@ sidereal_solar_month = "वृश्चिकः"
 tithis = "**तिथिः** — कृष्ण-षष्ठी►07:46; कृष्ण-सप्तमी►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — मघा►16:41; पूर्वफल्गुनी►"
-festivals = "कार्त्तिगै-ञायिऱ्ऱुक्किऴमै, मार्गशीर्ष-अष्टका-पूर्वेद्युः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-12-02"
@@ -7052,7 +7052,7 @@ sidereal_solar_month = "वृश्चिकः"
 tithis = "**तिथिः** — कृष्ण-सप्तमी►09:04; कृष्ण-अष्टमी►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — पूर्वफल्गुनी►18:44; उत्तरफल्गुनी►"
-festivals = "मार्गशीर्ष-अष्टका-श्राद्धम्, काञ्ची ४ जगद्गुरु श्री-सत्यबोधेन्द्र सरस्वती आराधना #१४२५, पञ्च-पर्व-पूजा (अष्टमी), अनध्यायः, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-12-03"
@@ -7073,7 +7073,7 @@ sidereal_solar_month = "वृश्चिकः"
 tithis = "**तिथिः** — कृष्ण-अष्टमी►11:03; कृष्ण-नवमी►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — उत्तरफल्गुनी►21:22; हस्तः►"
-festivals = "जयपाल-पराजयः पुरुषपुरे #१५६, मॆय्प्पॊरुळ् नायऩ्मार् (५) गुरुपूजै, अनध्यायः, अनध्यायः, मार्गशीर्ष-अन्वष्टका-श्राद्धम्, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-12-04"
@@ -7094,7 +7094,7 @@ sidereal_solar_month = "धनुः"
 tithis = "**तिथिः** — कृष्ण-नवमी►13:32; कृष्ण-दशमी►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — हस्तः►24:24!; चित्रा►"
-festivals = "अनध्यायः, सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः, धनूरवि-सङ्क्रमण-षडशीति-पुण्यकालः, रवि-सङ्क्रमण-पुण्यकालः, कुचेल-दिनम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-12-05"
@@ -7115,7 +7115,7 @@ sidereal_solar_month = "धनुः"
 tithis = "**तिथिः** — कृष्ण-दशमी►16:16; कृष्ण-एकादशी►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — चित्रा►27:33!; स्वाती►"
-festivals = "धनुर्मास-उषःकाल-पूजारम्भः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-12-06"
@@ -7136,7 +7136,7 @@ sidereal_solar_month = "धनुः"
 tithis = "**तिथिः** — कृष्ण-एकादशी►19:00; कृष्ण-द्वादशी►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — स्वाती►30:38!; विशाखा►"
-festivals = "माऩक्कञ्चाऱ नायऩ्मार् (१२) गुरुपूजै, सर्व-सफला-एकादशी"
+festivals = ""
 
 [[data]]
 gregorian = "1157-12-07"
@@ -7157,7 +7157,7 @@ sidereal_solar_month = "धनुः"
 tithis = "**तिथिः** — कृष्ण-द्वादशी►21:31; कृष्ण-त्रयोदशी►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — विशाखा►"
-festivals = "त्रिपुष्कर-योगः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-12-08"
@@ -7178,7 +7178,7 @@ sidereal_solar_month = "धनुः"
 tithis = "**तिथिः** — कृष्ण-त्रयोदशी►23:38; कृष्ण-चतुर्दशी►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — विशाखा►09:25; अनूराधा►"
-festivals = "प्रदोष-व्रतम्, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-12-09"
@@ -7199,7 +7199,7 @@ sidereal_solar_month = "धनुः"
 tithis = "**तिथिः** — कृष्ण-चतुर्दशी►25:17!; अमावास्या►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — अनूराधा►11:48; ज्येष्ठा►"
-festivals = "मासशिवरात्रिः, पञ्च-पर्व-पूजा (चतुर्दशी), अनध्यायः, कमला-जयन्ती"
+festivals = ""
 
 [[data]]
 gregorian = "1157-12-10"
@@ -7220,7 +7220,7 @@ sidereal_solar_month = "धनुः"
 tithis = "**तिथिः** — अमावास्या►26:24!; शुक्ल-प्रथमा►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — ज्येष्ठा►13:41; मूला►"
-festivals = "श्री-हनूमत्-जयन्ती, तॊण्डरडिप्पॊडियाऴ्वार् तिरुनक्षत्तिरम्, काञ्ची १४ जगद्गुरु श्री-विद्याघनेन्द्र सरस्वती आराधना #८४१, काञ्ची ३४ जगद्गुरु श्री-चन्द्रशेखरेन्द्र सरस्वती २ आराधना #४४८, ख्येचिमावस पोष्त/खिचडी-अमावास्या, पिण्ड-पितृ-यज्ञः, पञ्च-पर्व-पूजा (अमावास्या), अनध्यायः, सर्व-मार्गशीर्ष-अमावास्या (अलभ्यम्–पुष्कला), पार्वणव्रतम् अमावास्यायाम् (गृह्योक्तमानम्), पार्वणव्रतम् अमावास्यायाम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-12-11"
@@ -7241,7 +7241,7 @@ sidereal_solar_month = "धनुः"
 tithis = "**तिथिः** — शुक्ल-प्रथमा►27:00!; शुक्ल-द्वितीया►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — मूला►15:03; पूर्वाषाढा►"
-festivals = "वनदुर्गानवरात्र-आरम्भः, धन-व्रतम्, काञ्ची १८ जगद्गुरु श्री-योगतिलक सुरेन्द्र सरस्वती आराधना #७७३, पार्वण-प्रायश्चित्तावकाशः दर्शे, स्थालीपाकः (गृह्योक्तमानम्), अनध्यायः, दर्शेष्टिः, दर्श-स्थालीपाकः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-12-12"
@@ -7262,7 +7262,7 @@ sidereal_solar_month = "धनुः"
 tithis = "**तिथिः** — शुक्ल-द्वितीया►27:07!; शुक्ल-तृतीया►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — पूर्वाषाढा►15:57; उत्तराषाढा►"
-festivals = "चाक्किय नायऩ्मार् (३४) गुरुपूजै, तिन्त्रिणी-गौरी-व्रतम्, चन्द्र-दर्शनम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-12-13"
@@ -7304,7 +7304,7 @@ sidereal_solar_month = "धनुः"
 tithis = "**तिथिः** — शुक्ल-चतुर्थी►26:07!; शुक्ल-पञ्चमी►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — श्रवणः►16:29; श्रविष्ठा►"
-festivals = "श्रवण-व्रतम्, बदरी-गौरी-व्रतम्, शुक्ल-चतुर्थी-व्रतम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-12-15"
@@ -7325,7 +7325,7 @@ sidereal_solar_month = "धनुः"
 tithis = "**तिथिः** — शुक्ल-पञ्चमी►25:06!; शुक्ल-षष्ठी►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — श्रविष्ठा►16:14; शतभिषक्►"
-festivals = "देवी-पर्व-९"
+festivals = ""
 
 [[data]]
 gregorian = "1157-12-16"
@@ -7346,7 +7346,7 @@ sidereal_solar_month = "धनुः"
 tithis = "**तिथिः** — शुक्ल-षष्ठी►23:48; शुक्ल-सप्तमी►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — शतभिषक्►15:40; पूर्वप्रोष्ठपदा►"
-festivals = "मार्गशीर्ष-शिवलिङ्ग-षष्ठी, काञ्ची ३२ जगद्गुरु श्री-चिदानन्दघनेन्द्र सरस्वती आराधना #४८६, सुब्रह्मण्य-षष्ठी-व्रतम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-12-17"
@@ -7367,7 +7367,7 @@ sidereal_solar_month = "धनुः"
 tithis = "**तिथिः** — शुक्ल-सप्तमी►22:13; शुक्ल-अष्टमी►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — पूर्वप्रोष्ठपदा►14:50; उत्तरप्रोष्ठपदा►"
-festivals = "महाधनुर्व्यतीपात-स्नानम्, नन्दा-सप्तमी, मित्र-सप्तमी, काञ्ची ५ जगद्गुरु श्री-ज्ञानानन्देन्द्र सरस्वती आराधना #१३६२, त्रिपुष्कर-योगः, महाधनुर्व्यतीपात-श्राद्धम्, गर्भोट्टम् आरम्भम्, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-12-18"
@@ -7388,7 +7388,7 @@ sidereal_solar_month = "धनुः"
 tithis = "**तिथिः** — शुक्ल-अष्टमी►20:23; शुक्ल-नवमी►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — उत्तरप्रोष्ठपदा►13:45; रेवती►"
-festivals = "अनध्यायः, बुधाष्टमी"
+festivals = ""
 
 [[data]]
 gregorian = "1157-12-19"
@@ -7409,7 +7409,7 @@ sidereal_solar_month = "धनुः"
 tithis = "**तिथिः** — शुक्ल-नवमी►18:20; शुक्ल-दशमी►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — रेवती►12:26; अश्विनी►"
-festivals = "वायिलार् नायऩ्मार् (५१) गुरुपूजै, वनदुर्गानवरात्र-समापनम्, प्रलय-कल्पादिः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-12-20"
@@ -7430,7 +7430,7 @@ sidereal_solar_month = "धनुः"
 tithis = "**तिथिः** — शुक्ल-दशमी►16:04; शुक्ल-एकादशी►"
 vaara = "शुक्रः"
 lunar_nakshatras = "**नक्षत्रम्** — अश्विनी►10:55; अपभरणी►"
-festivals = "अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-12-21"
@@ -7451,7 +7451,7 @@ sidereal_solar_month = "धनुः"
 tithis = "**तिथिः** — शुक्ल-एकादशी►13:40; शुक्ल-द्वादशी►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — अपभरणी►09:13; कृत्तिका►31:26!; रोहिणी►"
-festivals = "उन्दु-मदक्कळिऱ्ऱऩ्, कृत्तिका-व्रतम्, गीता-जयन्ती, तपो-मासः/शिशिरऋतुः/उत्तरायणम्, सर्व-मोक्षदा-एकादशी, सर्व-वैकुण्ठ-एकादशी, अनध्यायः, त्रिपुष्कर-योगः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-12-22"
@@ -7472,7 +7472,7 @@ sidereal_solar_month = "धनुः"
 tithis = "**तिथिः** — शुक्ल-द्वादशी►11:10; शुक्ल-त्रयोदशी►"
 vaara = "भानुः"
 lunar_nakshatras = "**नक्षत्रम्** — रोहिणी►29:39!; मृगशीर्षम्►"
-festivals = "उत्तरायणारम्भः, सायन-सङ्क्रमण-दिन-पूर्वाह्ण-पुण्यकालः, उत्तरायण-पुण्यकालः, सायन-रवि-सङ्क्रमण-पुण्यकालः, जयन्ती-महाद्वादशी, रविवार-शुक्ल-प्रदोष-व्रतम्, अनध्यायः, सहोमास-उषःकाल-पूजा-समापनम्, कृत्तिका-मण्डल-पारायण-समापनम्, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-12-23"
@@ -7493,7 +7493,7 @@ sidereal_solar_month = "धनुः"
 tithis = "**तिथिः** — शुक्ल-त्रयोदशी►08:41; शुक्ल-चतुर्दशी►30:19!; पौर्णमासी►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — मृगशीर्षम्►27:57!; आर्द्रा►"
-festivals = "अन्धकासुर-वधः, अनध्यायः, दिनक्षयः, सोममृगशीर्ष-योगः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-12-24"
@@ -7514,7 +7514,7 @@ sidereal_solar_month = "धनुः"
 tithis = "**तिथिः** — पौर्णमासी►28:13!; कृष्ण-प्रथमा►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — आर्द्रा►26:30!; पुनर्वसुः►"
-festivals = "आर्द्रादर्शनम्, चडैय नायऩ्मार् (६२) गुरुपूजै, अन्नपूर्णा-जयन्ती, त्रिपुर-भैरवी-जयन्ती, सर्प-बल्युत्सर्जनम्, दत्तात्रेय-जयन्ती, मार्गशीर्ष-पूर्णिमा, पूर्णिमा-पूजा, पञ्च-पर्व-पूजा (पूर्णिमा), पूर्णिमा-व्रतम्, वेङ्कटाचले पूर्णिमा-गरुड-सेवा, अनध्यायः, पार्वणव्रतम् पूर्णिमायाम् (गृह्योक्तमानम्), पार्वणव्रतम् पूर्णिमायाम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-12-25"
@@ -7535,7 +7535,7 @@ sidereal_solar_month = "धनुः"
 tithis = "**तिथिः** — कृष्ण-प्रथमा►26:31!; कृष्ण-द्वितीया►"
 vaara = "बुधः"
 lunar_nakshatras = "**नक्षत्रम्** — पुनर्वसुः►25:27!; पुष्यः►"
-festivals = "वैधृति-श्राद्धम्, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, स्थालीपाकः (गृह्योक्तमानम्), अनध्यायः, पूर्णमासेष्टिः, पूर्ण-स्थालीपाकः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-12-26"
@@ -7556,7 +7556,7 @@ sidereal_solar_month = "धनुः"
 tithis = "**तिथिः** — कृष्ण-द्वितीया►25:21!; कृष्ण-तृतीया►"
 vaara = "गुरुः"
 lunar_nakshatras = "**नक्षत्रम्** — पुष्यः►24:54!; आश्रेषा►"
-festivals = "काञ्ची ३७ जगद्गुरु श्री-विद्याघनेन्द्र सरस्वती ३ आराधना #३७०, गुरुपुष्य-योगः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-12-27"
@@ -7598,7 +7598,7 @@ sidereal_solar_month = "धनुः"
 tithis = "**तिथिः** — कृष्ण-चतुर्थी►25:05!; कृष्ण-पञ्चमी►"
 vaara = "शनिः"
 lunar_nakshatras = "**नक्षत्रम्** — मघा►25:49!; पूर्वफल्गुनी►"
-festivals = "लम्बोदर-महागणपति-सङ्कटहर-चतुर्थी-व्रतम्"
+festivals = ""
 
 [[data]]
 gregorian = "1157-12-29"
@@ -7640,7 +7640,7 @@ sidereal_solar_month = "धनुः"
 tithis = "**तिथिः** — कृष्ण-षष्ठी►27:49!; कृष्ण-सप्तमी►"
 vaara = "सोमः"
 lunar_nakshatras = "**नक्षत्रम्** — उत्तरफल्गुनी►29:37!; हस्तः►"
-festivals = "कूडारवल्ली, इयऱ्पगै नायऩ्मार् (३) गुरुपूजै, गर्भोट्टम् मुडिवु, अनध्यायः"
+festivals = ""
 
 [[data]]
 gregorian = "1157-12-31"
@@ -7661,5 +7661,5 @@ sidereal_solar_month = "धनुः"
 tithis = "**तिथिः** — कृष्ण-सप्तमी►30:08!; कृष्ण-अष्टमी►"
 vaara = "मङ्गलः"
 lunar_nakshatras = "**नक्षत्रम्** — हस्तः►"
-festivals = "कऱवैगळ् पिऩ्चॆऩ्ऱु, पौष-अष्टका-पूर्वेद्युः, अनध्यायः"
+festivals = ""
 
