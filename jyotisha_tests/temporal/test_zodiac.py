@@ -1,5 +1,5 @@
 import numpy
-from jyotisha.panchaanga.temporal import zodiac, time
+from jyotisha.panchaanga.temporal import zodiac, time, Graha
 from jyotisha.panchaanga.temporal.time import Date
 from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, Ayanamsha, AngaSpanFinder
 from jyotisha.panchaanga.temporal.zodiac.angas import AngaType
@@ -33,11 +33,11 @@ def test_get_anga():
   assert nd.get_anga(
     anga_type=AngaType.TITHI).index == 30
   assert nd.get_anga(
-    anga_type=AngaType.SIDEREAL_MONTH).index == 3
+    anga_type=AngaType.GRAHA_RASHI[Graha.SUN]).index == 3
 
   # Just before meSha sankrAnti
   assert NakshatraDivision(jd=time.ist_timezone.local_time_to_julian_day(Date(2018, 4, 13)), ayanaamsha_id=Ayanamsha.CHITRA_AT_180).get_anga(
-    anga_type=AngaType.SIDEREAL_MONTH).index == 12
+    anga_type=AngaType.GRAHA_RASHI[Graha.SUN]).index == 12
 
 
   # 5:6:0.00 UT on December 23, 1981
@@ -50,7 +50,7 @@ def test_get_anga():
 
 def test_get_anga_span_solar_month():
   from jyotisha.panchaanga.temporal import time
-  span_finder = AngaSpanFinder.get_cached(anga_type=AngaType.SIDEREAL_MONTH, ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
+  span_finder = AngaSpanFinder.get_cached(anga_type=AngaType.GRAHA_RASHI[Graha.SUN], ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
 
   numpy.testing.assert_array_almost_equal(span_finder.find(jd1=2458222.0333434483-32, jd2=2458222.0333434483 + 4, target_anga_id=12,).to_tuple(), (2458192.24785228, 2458222.6026552585), decimal=3)
 
@@ -78,6 +78,17 @@ def test_get_tithis_in_period():
                                                          2458961.5055956016,
                                                          2458991.1712410315,
                                                          2459020.765607745], decimal=3)
+
+
+
+
+def test_get_solarrashis_in_period():
+  span_finder = AngaSpanFinder.get_cached(anga_type=AngaType.GRAHA_RASHI[Graha.SUN], ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
+  spans = span_finder.get_all_angas_in_period(jd1=time.ist_timezone.local_time_to_julian_day(Date(year=2025, month=2, day=5)), jd2=time.ist_timezone.local_time_to_julian_day(Date(year=2025, month=2, day=16)))
+  jds = [x.jd_start for x in spans]
+  numpy.testing.assert_almost_equal(jds[1], 
+                                                2460719.1718087345, decimal=3)
+
 
 
 def test_get_karanas_in_period():

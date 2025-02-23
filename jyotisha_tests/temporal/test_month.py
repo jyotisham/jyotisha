@@ -10,17 +10,17 @@ def test_MultiNewMoonAssigner():
   # Online - https://www.drikpanchang.com/panchang/month-panchang.html?date=13/07/2018
   # karka-sankrAnti was on 16th.
   panchaanga = daily.DailyPanchaanga(
-    city=chennai, date=Date(2018, 7, 13), computation_system=ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180)
+    city=chennai, date=Date(2018, 7, 13), computation_system=ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA_AMAANTA__CHITRA_180)
   assert panchaanga.lunar_date.month.index == 3
   panchaanga = daily.DailyPanchaanga(
     # dvitIyA following amAvAsyA - can trip up previous day panchAnga utilization logic.
-    city=chennai, date=Date(2018, 7, 14), computation_system=ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180, previous_day_panchaanga=panchaanga)
+    city=chennai, date=Date(2018, 7, 14), computation_system=ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA_AMAANTA__CHITRA_180, previous_day_panchaanga=panchaanga)
   assert panchaanga.lunar_date.month.index == 4
 
 
   # Online : https://www.drikpanchang.com/panchang/month-panchang.html?date=21/07/2018
   panchaanga = daily.DailyPanchaanga(
-    city=chennai, date=Date(2018, 7, 21), computation_system=ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180)
+    city=chennai, date=Date(2018, 7, 21), computation_system=ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA_AMAANTA__CHITRA_180)
   assert panchaanga.lunar_date.month.index == 4
 
 

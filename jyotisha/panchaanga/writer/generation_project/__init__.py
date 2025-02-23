@@ -9,7 +9,7 @@ import shutil
 import toml
 from doc_curation.md import library
 from doc_curation.md.file import MdFile
-from doc_curation.md.library import metadata_helper
+from doc_curation.md.library import metadata_helper, arrangement
 
 import jyotisha
 from indic_transliteration import sanscript
@@ -50,22 +50,25 @@ def dump_ics_md_pair(panchaanga, period_str):
   library.fix_index_files(dir_path=output_dir, transliteration_target=None, dry_run=False)
 
 
-def dump_detailed(year, city, year_type, computation_system=ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180, allow_precomputed=False):
+def dump_detailed(year, city, year_type, computation_system=ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA_AMAANTA__CHITRA_180, allow_precomputed=False):
   logging.info("Generating detailed panchaanga for %s year %d (%s), with computation system %s ", city.name, year, year_type, str(computation_system))
   panchaanga = annual.get_panchaanga_for_year(city=city, year=year, computation_system=computation_system, year_type=year_type, allow_precomputed=allow_precomputed)
   dump_ics_md_pair(panchaanga=panchaanga, period_str="%s/%04d" % (year_type, year))
   dump_summary(year=year, city=city, year_type=year_type, computation_system=computation_system, allow_precomputed=True)
 
 
-def dump_summary(year, city, script=sanscript.DEVANAGARI, year_type=era.ERA_GREGORIAN, computation_system=ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180, allow_precomputed=False):
+def dump_summary(year, city, script=sanscript.DEVANAGARI, year_type=era.ERA_GREGORIAN, computation_system=ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA_AMAANTA__CHITRA_180, allow_precomputed=False):
+  out_path = get_canonical_path(city=city.name, computation_system_str=str(computation_system), year=year, year_type=year_type)
+  if os.path.exists(out_path + ".toml"):
+    logging.info(f"{out_path}.toml extists. skipping")
+    return 
   logging.info("Generating summary panchaanga for %s year %d (%s), with computation system %s ", city.name, year, year_type, str(computation_system))
   panchaanga = annual.get_panchaanga_for_year(city=city, year=year, computation_system=computation_system, year_type=year_type, allow_precomputed=allow_precomputed)
   year_table = to_table_dict(panchaanga=panchaanga )
-  out_path = get_canonical_path(city=panchaanga.city.name, computation_system_str=str(panchaanga.computation_system), year=year, year_type=year_type)
   os.makedirs(os.path.dirname(out_path), exist_ok=True)
   with codecs.open(out_path + ".toml", "w") as fp:
     toml.dump(year_table, fp)
-  library.fix_index_files(dir_path=output_dir, transliteration_target=None, dry_run=False)
+  arrangement.fix_index_files(dir_path=output_dir, transliteration_target=None, dry_run=False)
 
   computation_params = get_computation_parameters_md(panchaanga=panchaanga, scripts=[script])
   out_path_md = out_path + "_summary.md"

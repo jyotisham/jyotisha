@@ -195,7 +195,7 @@ class SolarFestivalAssigner(FestivalAssigner):
           if sankranti_id == NAYAKA_MAP[nayaka]:
             nava_nayakas[nayaka] = names.NAMES['VARA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][self.daily_panchaangas[d].date.get_weekday()]
 
-    finder = zodiac.AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=zodiac.AngaType.SIDEREAL_MONTH)
+    finder = zodiac.AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=zodiac.AngaType.GRAHA_RASHI[Graha.SUN])
     anga = finder.find(jd1 = self.panchaanga.jd_start - 32, jd2=self.panchaanga.jd_start, target_anga_id=12)
     mina_start = anga.jd_start
 

@@ -84,9 +84,13 @@ def decide_puurvaviddha(p0, p1, target_anga, kaala):
     # touch the kaala on either day!
     if d0_angas.end == prev_anga and d1_angas.start == next_anga:
       # The following may need per-festival assignment, but this is reasonable, typically
-      d_offset = {'सूर्योदयः': 0, 'sunrise': 0, 'चन्द्रोदयः': 0, 'moonrise': 0, 'पूर्वाह्णः': 0, 'प्रातः': 0, 'साङ्गवः': 0, 'मध्याह्नः': 1, 
-                  'मध्याह्नः~(त्रेधा)': 1, 'अपराह्णः': 1, 'सायाह्नः': 1, 'मध्यरात्रिः': 1, 'रात्रिमानम्': 1, 
-                  'सूर्यास्तमयः': 1, 'sunset': 1, 'प्रदोषः': 1, 'पूर्वरात्रिः~(त्रेधा)': 1, 'निशीथः': 1, 'प्राक्तनारुणोदयः': 1}[kaala]
+      # TODO: eliminate sunrise and moonrise below.
+      d_offset_map = {'सूर्योदयः': 0, 'sunrise': 0,  'चन्द्रोदयः': 0, 'moonrise': 0, 'पूर्वाह्णः': 0, 'प्रातः': 0, 'साङ्गवः': 0, 'चैत्रः': 0, 'मध्याह्नः': 1,
+                      'मध्याह्नः~(त्रेधा)': 1, 'अपराह्णः': 1, 'सायाह्नः': 1, 'मध्यरात्रिः': 1, 'रात्रिमानम्': 1,
+                      'सूर्यास्तमयः': 1, 'sunset': 1, 'प्रदोषः': 1, 'पूर्वरात्रिः~(त्रेधा)': 1, 'निशीथः': 1, 'प्राक्तनारुणोदयः': 1}
+      if kaala not in d_offset_map.keys():
+        logging.error(f"Could not find {kaala}")
+      d_offset = d_offset_map[kaala]
       # Need to assign a day to the festival here
       # since the anga did not touch kaala on either day
       # BUT ONLY IF YESTERDAY WASN'T ALREADY ASSIGNED,

@@ -106,7 +106,7 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
       # mAsa calc errors??
     
     # Check if Mahalaya Paksha does not go beyond prathamA
-    if 'mahAlaya-pakSa-tarpaNa-pUrtiH' in self.panchaanga.festival_id_to_days:
+    if len(self.panchaanga.festival_id_to_days.get('mahAlaya-pakSa-tarpaNa-pUrtiH', [])) > 0 and len(self.panchaanga.festival_id_to_days.get('mahAlaya-pakSa-ArambhaH', [])) > 0:
       mahalaya_end_date = list(self.panchaanga.festival_id_to_days['mahAlaya-pakSa-tarpaNa-pUrtiH'])[0]
       mahalaya_start_date = list(self.panchaanga.festival_id_to_days['mahAlaya-pakSa-ArambhaH'])[0]
       len_mahalaya = int(mahalaya_end_date - mahalaya_start_date + 1)

@@ -345,7 +345,7 @@
       "jsonClass": "GrahaLopaMeasures"
     },
     "jsonClass": "ComputationSystem",
-    "lunar_month_assigner_type": "MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA",
+    "lunar_month_assigner_type": "MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA_AMAANTA",
     "short_id": "चि॰"
   },
   "date": {
@@ -993,7 +993,7 @@
     "index": 27,
     "jsonClass": "Tithi",
     "month": {
-      "anga_type_id": "SIDEREAL_MONTH",
+      "anga_type_id": "RASHI_SUN",
       "index": 9,
       "jsonClass": "Anga"
     }
@@ -1066,6 +1066,16 @@
           "anga": {
             "anga_type_id": "RASHI_SATURN",
             "index": 6,
+            "jsonClass": "Anga"
+          },
+          "jsonClass": "AngaSpan"
+        }
+      ],
+      "sun": [
+        {
+          "anga": {
+            "anga_type_id": "RASHI_SUN",
+            "index": 9,
             "jsonClass": "Anga"
           },
           "jsonClass": "AngaSpan"
@@ -1153,16 +1163,6 @@
         "anga": {
           "anga_type_id": "SOLAR_NAKSH",
           "index": 19,
-          "jsonClass": "Anga"
-        },
-        "jsonClass": "AngaSpan"
-      }
-    ],
-    "solar_raashis_with_ends": [
-      {
-        "anga": {
-          "anga_type_id": "SIDEREAL_MONTH",
-          "index": 9,
           "jsonClass": "Anga"
         },
         "jsonClass": "AngaSpan"

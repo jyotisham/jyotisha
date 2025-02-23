@@ -45,7 +45,7 @@ def get_panchaanga_for_kali_year(city, year, precomputed_json_dir="~/Documents/j
   else:
     logging.info('No precomputed data available or allowed. Computing panchaanga...\n')
     start_year_civil = year - era.get_year_0_offset(era_id=era.ERA_KALI)
-    anga_span_finder = AngaSpanFinder.get_cached(ayanaamsha_id=Ayanamsha.CHITRA_AT_180, anga_type=AngaType.SIDEREAL_MONTH)
+    anga_span_finder = AngaSpanFinder.get_cached(ayanaamsha_id=Ayanamsha.CHITRA_AT_180, anga_type=AngaType.GRAHA_RASHI[Graha.SUN])
     start_mesha = anga_span_finder.find(jd1=time.utc_gregorian_to_jd(Date(year=start_year_civil, month=2, day=1)), jd2=time.utc_gregorian_to_jd(Date(year=start_year_civil, month=7, day=1)), target_anga_id=1)
     jd_next_sunset_start_mesha = city.get_setting_time(julian_day_start=start_mesha.jd_start, body=Graha.SUN)
     end_mina = anga_span_finder.find(jd1=time.utc_gregorian_to_jd(Date(year=start_year_civil  + 1, month=1, day=1)), jd2=time.utc_gregorian_to_jd(Date(year=start_year_civil + 1, month=6, day=1)), target_anga_id=1)
@@ -79,7 +79,7 @@ def get_panchaanga_for_shaka_year(city, year, precomputed_json_dir="~/Documents/
     logging.info('No precomputed data available. Computing panchaanga...\n')
     SHAKA_CIVIL_ERA_DIFF = 78
     start_year_civil = year + era.get_year_0_offset(era_id=era.ERA_SHAKA)
-    anga_span_finder = AngaSpanFinder.get_cached(ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0, anga_type=AngaType.SIDEREAL_MONTH)
+    anga_span_finder = AngaSpanFinder.get_cached(ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0, anga_type=AngaType.GRAHA_RASHI[Graha.SUN])
     start_equinox = anga_span_finder.find(jd1=time.utc_gregorian_to_jd(Date(year=start_year_civil, month=3, day=1)), jd2=time.utc_gregorian_to_jd(Date(year=start_year_civil, month=5, day=1)), target_anga_id=1)
     end_equinox = anga_span_finder.find(jd1=time.utc_gregorian_to_jd(Date(year=start_year_civil  + 1, month=3, day=1)), jd2=time.utc_gregorian_to_jd(Date(year=start_year_civil + 1, month=5, day=1)), target_anga_id=1)
     tz = Timezone(city.timezone)

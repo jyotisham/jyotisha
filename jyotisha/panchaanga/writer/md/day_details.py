@@ -59,7 +59,8 @@ def day_summary(d, panchaanga, script, subsection_md):
 
 
 def print_year_details(daily_panchaanga, output_stream, script):
-  # Why include Islamic date? Hindus are today in close contact with muslim societies and are impacted by their calendric reckoning (eg. spikes in anti-hindu violence during ramadan https://swarajyamag.com/politics/behind-the-spikes-in-islamic-terror-during-ramzan , frenzies after Friday jumma etc..). It is the job of a good panchaanga to inform it's user about predictable (spiritual and other) situations in his surroundings.
+  # Why include Islamic date? Hindus are today in close contact with muslim societies and are impacted by their calendric reckoning (eg. spikes in anti-hindu violence during ramadan https://swarajyamag.com/politics/behind-the-spikes-in-islamic-terror-during-ramzan , frenzies after Friday jumma etc..). It is the job of a good panchaanga to inform it's user about predictable (spiritual and other) situations in his surroundings.  
+  # Further several historical records from Islamic sources are used in order to determine exact date of events relevant to Hindus.
   islamic_date = daily_panchaanga.date.to_islamic_date()
   islamic_month_name = daily_panchaanga.get_month_str(month_type=RulesRepo.ISLAMIC_MONTH_DIR, script=None)
   sidereal_month_name = "सं- %s, तं- %s, म- %s, प- %s, अ- %s" % (
@@ -169,7 +170,7 @@ def print_khachakra_stithi(daily_panchaanga, output_stream, script, subsection_m
   solar_nakshatra_str = daily_panchaanga.sunrise_day_angas.get_anga_data_md(anga_type=AngaType.SOLAR_NAKSH,
                                                                             script=script,
                                                                             reference_jd=daily_panchaanga.julian_day_start)
-  solar_raashi_str = daily_panchaanga.sunrise_day_angas.get_anga_data_md(anga_type=AngaType.SIDEREAL_MONTH,
+  solar_raashi_str = daily_panchaanga.sunrise_day_angas.get_anga_data_md(anga_type=AngaType.GRAHA_RASHI[Graha.SUN],
                                                                          script=script,
                                                                          reference_jd=daily_panchaanga.julian_day_start)
   print('- 🌌🌞%s  \n  - %s ' % (solar_nakshatra_str, solar_raashi_str), file=output_stream)
