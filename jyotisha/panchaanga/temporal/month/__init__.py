@@ -43,10 +43,13 @@ class LunarMonthAssigner(JsonObject):
 class MultiLunarPhaseSolarMonthAdhikaAssigner(LunarMonthAssigner):
   """Let us consider a lunar month defined as ending with a particular lunar tithi. This assigner marks a month as adhika iff that month does not have a solar sankrAnti."""
 
-  def __init__(self, ayanaamsha_id, month_end_tithi, adhika_maasa_det_tithi):
+  def __init__(self, ayanaamsha_id, month_end_tithi, adhika_maasa_det_tithi=None):
     super(MultiLunarPhaseSolarMonthAdhikaAssigner, self).__init__(ayanaamsha_id=ayanaamsha_id)
     self.month_end_tithi = month_end_tithi
-    self.adhika_maasa_det_tithi = adhika_maasa_det_tithi
+    if adhika_maasa_det_tithi is None:
+      self.adhika_maasa_det_tithi = month_end_tithi
+    else:
+      self.adhika_maasa_det_tithi = adhika_maasa_det_tithi
 
   """
   
@@ -59,8 +62,7 @@ class MultiLunarPhaseSolarMonthAdhikaAssigner(LunarMonthAssigner):
     
     :return: 
     """
-    # tithi_at_sunrise gives a rough indication of the number of days since last new moon. We now find a more precise interval below.
-    #TODO: Use adhika_maasa_det_tithi below.
+    # tithi_at_sunrise gives a rough indication of the number of days since last adhika_maasa_det_tithi. We now find a more precise interval below.
     anga_finder = zodiac.AngaSpanFinder.get_cached(ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0, anga_type=zodiac.AngaType.TITHI)
 
     if self.month_end_tithi < daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index:
@@ -68,19 +70,23 @@ class MultiLunarPhaseSolarMonthAdhikaAssigner(LunarMonthAssigner):
     else:
       approx_days_since_last_end_tithi = daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index + (30 - self.month_end_tithi)
 
-    last_lunar_phase = anga_finder.find(
+    last_month_end_tithi = anga_finder.find(
       jd1=daily_panchaanga.jd_sunrise - approx_days_since_last_end_tithi - 3, jd2=daily_panchaanga.jd_sunrise - approx_days_since_last_end_tithi + 3, target_anga_id=self.month_end_tithi)
-    this_lunar_phase = anga_finder.find(
-      jd1=last_lunar_phase.jd_start + 24, jd2=last_lunar_phase.jd_start + 32,
+    last_month_end_solar_raashi = NakshatraDivision(last_month_end_tithi.jd_end, ayanaamsha_id=self.ayanaamsha_id).get_solar_raashi()
+
+    next_month_end_tithi = anga_finder.find(
+      jd1=last_month_end_tithi.jd_start + 24, jd2=last_month_end_tithi.jd_start + 32,
       target_anga_id=self.month_end_tithi)
-    last_lunar_phase_solar_raashi = NakshatraDivision(last_lunar_phase.jd_end, ayanaamsha_id=self.ayanaamsha_id).get_solar_raashi()
-    this_lunar_phase_solar_raashi = NakshatraDivision(this_lunar_phase.jd_end, ayanaamsha_id=self.ayanaamsha_id).get_solar_raashi()
-    is_adhika = last_lunar_phase_solar_raashi == this_lunar_phase_solar_raashi
+    next_month_end_solar_raashi = NakshatraDivision(next_month_end_tithi.jd_end, ayanaamsha_id=self.ayanaamsha_id).get_solar_raashi()
+
+
+    # TODO: Use adhika_maasa_det_tithi below.
+    is_adhika = last_month_end_solar_raashi == next_month_end_solar_raashi
 
     if is_adhika:
-      return this_lunar_phase_solar_raashi + .5
+      return next_month_end_solar_raashi + .5
     else:
-      return this_lunar_phase_solar_raashi
+      return next_month_end_solar_raashi
 
   def set_date(self, daily_panchaanga, previous_day_panchaanga=None):
     month_start_tithi = (self.month_end_tithi + 1) % 30
