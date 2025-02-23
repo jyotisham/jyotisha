@@ -9,7 +9,7 @@ import shutil
 import toml
 from doc_curation.md import library
 from doc_curation.md.file import MdFile
-from doc_curation.md.library import metadata_helper
+from doc_curation.md.library import metadata_helper, arrangement
 
 import jyotisha
 from indic_transliteration import sanscript
@@ -65,7 +65,7 @@ def dump_summary(year, city, script=sanscript.DEVANAGARI, year_type=era.ERA_GREG
   os.makedirs(os.path.dirname(out_path), exist_ok=True)
   with codecs.open(out_path + ".toml", "w") as fp:
     toml.dump(year_table, fp)
-  library.fix_index_files(dir_path=output_dir, transliteration_target=None, dry_run=False)
+  arrangement.fix_index_files(dir_path=output_dir, transliteration_target=None, dry_run=False)
 
   computation_params = get_computation_parameters_md(panchaanga=panchaanga, scripts=[script])
   out_path_md = out_path + "_summary.md"

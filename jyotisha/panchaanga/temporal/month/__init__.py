@@ -65,23 +65,39 @@ class MultiLunarPhaseSolarMonthAdhikaAssigner(LunarMonthAssigner):
     # tithi_at_sunrise gives a rough indication of the number of days since last adhika_maasa_det_tithi. We now find a more precise interval below.
     anga_finder = zodiac.AngaSpanFinder.get_cached(ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0, anga_type=zodiac.AngaType.TITHI)
 
-    if self.month_end_tithi < daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index:
-      approx_days_since_last_end_tithi =  daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index - self.month_end_tithi
+    if self.adhika_maasa_det_tithi < daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index:
+      approx_days_since_last_det_tithi =  daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index - self.adhika_maasa_det_tithi
     else:
-      approx_days_since_last_end_tithi = daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index + (30 - self.month_end_tithi)
+      approx_days_since_last_det_tithi = daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index + (30 - self.adhika_maasa_det_tithi)
 
-    last_month_end_tithi = anga_finder.find(
-      jd1=daily_panchaanga.jd_sunrise - approx_days_since_last_end_tithi - 3, jd2=daily_panchaanga.jd_sunrise - approx_days_since_last_end_tithi + 3, target_anga_id=self.month_end_tithi)
-    last_month_end_solar_raashi = NakshatraDivision(last_month_end_tithi.jd_end, ayanaamsha_id=self.ayanaamsha_id).get_solar_raashi()
+    prev_det_tithi = anga_finder.find(
+      jd1=daily_panchaanga.jd_sunrise - approx_days_since_last_det_tithi - 3, jd2=daily_panchaanga.jd_sunrise - approx_days_since_last_det_tithi + 3, target_anga_id=self.adhika_maasa_det_tithi)
 
-    next_month_end_tithi = anga_finder.find(
-      jd1=last_month_end_tithi.jd_start + 24, jd2=last_month_end_tithi.jd_start + 32,
-      target_anga_id=self.month_end_tithi)
-    next_month_end_solar_raashi = NakshatraDivision(next_month_end_tithi.jd_end, ayanaamsha_id=self.ayanaamsha_id).get_solar_raashi()
+    prev_det_tithi_solar_raashi = NakshatraDivision(prev_det_tithi.jd_end, ayanaamsha_id=self.ayanaamsha_id).get_solar_raashi()
 
 
-    # TODO: Use adhika_maasa_det_tithi below.
-    is_adhika = last_month_end_solar_raashi == next_month_end_solar_raashi
+    next_det_tithi = anga_finder.find(
+      jd1=prev_det_tithi.jd_start + 24, jd2=prev_det_tithi.jd_start + 32,
+      target_anga_id=self.adhika_maasa_det_tithi)
+    next_det_tithi_solar_raashi = NakshatraDivision(next_det_tithi.jd_end, ayanaamsha_id=self.ayanaamsha_id).get_solar_raashi()
+
+
+    is_adhika = prev_det_tithi_solar_raashi == next_det_tithi_solar_raashi
+
+
+    if self.month_end_tithi == self.adhika_maasa_det_tithi:
+      next_month_end_solar_raashi = next_det_tithi_solar_raashi
+    else:
+      if self.month_end_tithi < daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index:
+        approx_days_to_month_end =  30 - (daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index - self.month_end_tithi)
+      else:
+        approx_days_to_month_end = self.month_end_tithi - daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index
+
+
+      next_month_end_tithi = anga_finder.find(
+        jd1=daily_panchaanga.jd_sunrise, jd2=daily_panchaanga.jd_sunrise + approx_days_to_month_end + 3,
+        target_anga_id=self.month_end_tithi)
+      next_month_end_solar_raashi = NakshatraDivision(next_month_end_tithi.jd_end, ayanaamsha_id=self.ayanaamsha_id).get_solar_raashi()
 
     if is_adhika:
       return next_month_end_solar_raashi + .5
