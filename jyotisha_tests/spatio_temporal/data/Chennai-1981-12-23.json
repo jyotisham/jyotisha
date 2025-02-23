@@ -345,7 +345,7 @@
       "jsonClass": "GrahaLopaMeasures"
     },
     "jsonClass": "ComputationSystem",
-    "lunar_month_assigner_type": "MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA",
+    "lunar_month_assigner_type": "MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA_AMAANTA",
     "short_id": "चि॰"
   },
   "date": {

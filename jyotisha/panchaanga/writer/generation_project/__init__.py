@@ -50,14 +50,14 @@ def dump_ics_md_pair(panchaanga, period_str):
   library.fix_index_files(dir_path=output_dir, transliteration_target=None, dry_run=False)
 
 
-def dump_detailed(year, city, year_type, computation_system=ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180, allow_precomputed=False):
+def dump_detailed(year, city, year_type, computation_system=ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA_AMAANTA__CHITRA_180, allow_precomputed=False):
   logging.info("Generating detailed panchaanga for %s year %d (%s), with computation system %s ", city.name, year, year_type, str(computation_system))
   panchaanga = annual.get_panchaanga_for_year(city=city, year=year, computation_system=computation_system, year_type=year_type, allow_precomputed=allow_precomputed)
   dump_ics_md_pair(panchaanga=panchaanga, period_str="%s/%04d" % (year_type, year))
   dump_summary(year=year, city=city, year_type=year_type, computation_system=computation_system, allow_precomputed=True)
 
 
-def dump_summary(year, city, script=sanscript.DEVANAGARI, year_type=era.ERA_GREGORIAN, computation_system=ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180, allow_precomputed=False):
+def dump_summary(year, city, script=sanscript.DEVANAGARI, year_type=era.ERA_GREGORIAN, computation_system=ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA_AMAANTA__CHITRA_180, allow_precomputed=False):
   logging.info("Generating summary panchaanga for %s year %d (%s), with computation system %s ", city.name, year, year_type, str(computation_system))
   panchaanga = annual.get_panchaanga_for_year(city=city, year=year, computation_system=computation_system, year_type=year_type, allow_precomputed=allow_precomputed)
   year_table = to_table_dict(panchaanga=panchaanga )
