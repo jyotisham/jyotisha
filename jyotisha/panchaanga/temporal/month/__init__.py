@@ -65,10 +65,11 @@ class MultiLunarPhaseSolarMonthAdhikaAssigner(LunarMonthAssigner):
     # tithi_at_sunrise gives a rough indication of the number of days since last adhika_maasa_det_tithi. We now find a more precise interval below.
     anga_finder = zodiac.AngaSpanFinder.get_cached(ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0, anga_type=zodiac.AngaType.TITHI)
 
-    if self.adhika_maasa_det_tithi < daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index:
+    if self.adhika_maasa_det_tithi <= daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index:
       approx_days_since_last_det_tithi =  daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index - self.adhika_maasa_det_tithi
     else:
-      approx_days_since_last_det_tithi = daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index + (30 - self.adhika_maasa_det_tithi)
+      days_to_next_det_tithi = self.adhika_maasa_det_tithi - daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index
+      approx_days_since_last_det_tithi =  30 - days_to_next_det_tithi
 
     prev_det_tithi = anga_finder.find(
       jd1=daily_panchaanga.jd_sunrise - approx_days_since_last_det_tithi - 3, jd2=daily_panchaanga.jd_sunrise - approx_days_since_last_det_tithi + 3, target_anga_id=self.adhika_maasa_det_tithi)
@@ -82,35 +83,56 @@ class MultiLunarPhaseSolarMonthAdhikaAssigner(LunarMonthAssigner):
     next_det_tithi_solar_raashi = NakshatraDivision(next_det_tithi.jd_end, ayanaamsha_id=self.ayanaamsha_id).get_solar_raashi()
 
 
+    # adhika masa is always common to amanta and purnimanta mana-s and based on no sankranti between two amavasya-s only.
+    # 
+    # Hence those following purnimanta mana will have in order:
+    # 
+    # Shuddha Krishna Paksha
+    # Adhika Shukla Paksha
+    # Adhika Krishna Paksha
+    # Shuddha Shukla Paksha
     is_adhika = prev_det_tithi_solar_raashi == next_det_tithi_solar_raashi
 
+    #TODO: Check pUrNimAnta month computation logic below. 
 
     if self.month_end_tithi == self.adhika_maasa_det_tithi:
-      next_month_end_solar_raashi = next_det_tithi_solar_raashi
+      month_id = next_det_tithi_solar_raashi
+      prev_month_end_solar_raashi = prev_det_tithi_solar_raashi
     else:
       if self.month_end_tithi < daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index:
-        approx_days_to_month_end =  30 - (daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index - self.month_end_tithi)
+        approx_days_since_month_end = daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index - self.month_end_tithi 
+        # approx_days_to_month_end =  30 - approx_days_since_month_end
       else:
         approx_days_to_month_end = self.month_end_tithi - daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index
+        approx_days_since_month_end = 30 - approx_days_to_month_end
 
 
-      next_month_end_tithi = anga_finder.find(
-        jd1=daily_panchaanga.jd_sunrise, jd2=daily_panchaanga.jd_sunrise + approx_days_to_month_end + 3,
+      prev_month_end_tithi = anga_finder.find(
+        jd1=daily_panchaanga.jd_sunrise - approx_days_since_month_end - 3, jd2=daily_panchaanga.jd_sunrise,
         target_anga_id=self.month_end_tithi)
-      next_month_end_solar_raashi = NakshatraDivision(next_month_end_tithi.jd_end, ayanaamsha_id=self.ayanaamsha_id).get_solar_raashi()
+      prev_month_end_solar_raashi = NakshatraDivision(prev_month_end_tithi.jd_end, ayanaamsha_id=self.ayanaamsha_id).get_solar_raashi()
+      if daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index >= self.month_end_tithi and daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index <= self.adhika_maasa_det_tithi:
+        month_id = next_det_tithi_solar_raashi
+      else:
+        month_id = prev_det_tithi_solar_raashi
 
     if is_adhika:
-      return next_month_end_solar_raashi + .5
-    else:
-      return next_month_end_solar_raashi
+      month_id = month_id + .5
+
+    return month_id
 
   def set_date(self, daily_panchaanga, previous_day_panchaanga=None):
     month_start_tithi = (self.month_end_tithi + 1) % 30
     if previous_day_panchaanga is not None:
-      span = previous_day_panchaanga.sunrise_day_angas.find_anga_span(Anga.get_cached(anga_type_id=AngaType.TITHI.name, index=month_start_tithi))
+      month_start_span = previous_day_panchaanga.sunrise_day_angas.find_anga_span(Anga.get_cached(anga_type_id=AngaType.TITHI.name, index=month_start_tithi))
+      det_tithi_span = None
+      if self.adhika_maasa_det_tithi != self.month_end_tithi:
+        det_tithi_span = previous_day_panchaanga.sunrise_day_angas.find_anga_span(Anga.get_cached(anga_type_id=AngaType.TITHI.name, index=self.adhika_maasa_det_tithi))
 
-      # If a prathamA tithi has started post-sunrise yesterday (and has potentially ended before today's sunrise), or if today we have a prathamA at sunrise
-      if (span is not None and span.jd_start is not None) or previous_day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == month_start_tithi:
+      # If a month-start tithi has started post-sunrise yesterday (and has potentially ended before today's sunrise), or if today we have a month-start at sunrise
+      if (month_start_span is not None and month_start_span.jd_start is not None) or previous_day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == month_start_tithi:
+        self.set_date(daily_panchaanga=daily_panchaanga, previous_day_panchaanga=None)
+      elif (det_tithi_span is not None and det_tithi_span.jd_end is not None) or previous_day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == self.adhika_maasa_det_tithi:
         self.set_date(daily_panchaanga=daily_panchaanga, previous_day_panchaanga=None)
       else:
         daily_panchaanga.lunar_date = Tithi(month=previous_day_panchaanga.lunar_date.month, index=daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index)

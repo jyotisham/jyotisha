@@ -57,9 +57,9 @@ def dump_detailed(year, city, year_type, computation_system=ComputationSystem.MU
   dump_summary(year=year, city=city, year_type=year_type, computation_system=computation_system, allow_precomputed=True)
 
 
-def dump_summary(year, city, script=sanscript.DEVANAGARI, year_type=era.ERA_GREGORIAN, computation_system=ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA_AMAANTA__CHITRA_180, allow_precomputed=False):
+def dump_summary(year, city, script=sanscript.DEVANAGARI, year_type=era.ERA_GREGORIAN, computation_system=ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA_AMAANTA__CHITRA_180, allow_precomputed=False, overwrite=False):
   out_path = get_canonical_path(city=city.name, computation_system_str=str(computation_system), year=year, year_type=year_type)
-  if os.path.exists(out_path + ".toml"):
+  if os.path.exists(out_path + ".toml") and not overwrite:
     logging.info(f"{out_path}.toml extists. skipping")
     return 
   logging.info("Generating summary panchaanga for %s year %d (%s), with computation system %s ", city.name, year, year_type, str(computation_system))

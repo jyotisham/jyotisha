@@ -8,8 +8,8 @@ def dump_delhi_history():
   c = City.get_city_from_db(name="Delhi")
   # for year in range(850, 1149):
   #   dump_summary(year=year, city=c)
-  for year in range(924, 2100):
-    dump_summary(year=year, city=c, computation_system=ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA_PURNIMANTA__CHITRA_180)
+  for year in range(924, 2050):
+    dump_summary(year=year, city=c, computation_system=ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA_PURNIMANTA__CHITRA_180, overwrite=True)
 
 
 def dump_mysore_history():
