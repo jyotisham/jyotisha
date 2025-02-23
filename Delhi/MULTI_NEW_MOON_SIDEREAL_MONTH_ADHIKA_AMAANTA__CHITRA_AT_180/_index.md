@@ -1,4 +1,4 @@
 +++
-title = "+MULTI NEW MOON SIDEREAL MONTH ADHIKA  CHITRA AT 180"
+title = "+multi new moon adhika amAnta  chitra at 180"
 
 +++
