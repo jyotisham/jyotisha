@@ -1,0 +1,1 @@
+Some fonts can be easily updated by using [this script in font_curation package](https://github.com/sanskrit-coders/sanskrit-fonts/blob/master/font_curation/update_fonts.py).
