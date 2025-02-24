@@ -83,39 +83,27 @@ class MultiLunarPhaseSolarMonthAdhikaAssigner(LunarMonthAssigner):
     next_det_tithi_solar_raashi = NakshatraDivision(next_det_tithi.jd_end, ayanaamsha_id=self.ayanaamsha_id).get_solar_raashi()
 
 
-    # adhika masa is always common to amanta and purnimanta mana-s and based on no sankranti between two amavasya-s only.
-    # 
-    # Hence those following purnimanta mana will have in order:
-    # 
-    # Shuddha Krishna Paksha
-    # Adhika Shukla Paksha
-    # Adhika Krishna Paksha
-    # Shuddha Shukla Paksha
     is_adhika = prev_det_tithi_solar_raashi == next_det_tithi_solar_raashi
 
     #TODO: Check pUrNimAnta month computation logic below. 
 
     if self.month_end_tithi == self.adhika_maasa_det_tithi:
       month_id = next_det_tithi_solar_raashi
-      prev_month_end_solar_raashi = prev_det_tithi_solar_raashi
+    elif is_adhika:
+      # adhika masa is always common to amanta and purnimanta mana-s and based on no sankranti between two amavasya-s only.
+      # 
+      # Hence those following purnimanta mana will have in order:
+      # 
+      # Shuddha Krishna Paksha
+      # Adhika Shukla Paksha
+      # Adhika Krishna Paksha
+      # Shuddha Shukla Paksha
+
+      month_id = next_det_tithi_solar_raashi
     else:
-      if self.month_end_tithi < daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index:
-        approx_days_since_month_end = daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index - self.month_end_tithi 
-        # approx_days_to_month_end =  30 - approx_days_since_month_end
-      else:
-        approx_days_to_month_end = self.month_end_tithi - daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index
-        approx_days_since_month_end = 30 - approx_days_to_month_end
-
-
-      prev_month_end_tithi = anga_finder.find(
-        jd1=daily_panchaanga.jd_sunrise - approx_days_since_month_end - 3, jd2=daily_panchaanga.jd_sunrise,
-        target_anga_id=self.month_end_tithi)
-      prev_month_end_solar_raashi = NakshatraDivision(prev_month_end_tithi.jd_end, ayanaamsha_id=self.ayanaamsha_id).get_solar_raashi()
       if daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index >= self.month_end_tithi and daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index <= self.adhika_maasa_det_tithi:
-        if not is_adhika:
-          month_id = next_det_tithi_solar_raashi + 1
-        else:
-          month_id = next_det_tithi_solar_raashi
+        # Get rashi of sun on the post-pUrNimA amAvAsya.
+        month_id = next_det_tithi_solar_raashi + 1
       else:
         month_id = next_det_tithi_solar_raashi
           
