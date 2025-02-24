@@ -112,9 +112,13 @@ class MultiLunarPhaseSolarMonthAdhikaAssigner(LunarMonthAssigner):
         target_anga_id=self.month_end_tithi)
       prev_month_end_solar_raashi = NakshatraDivision(prev_month_end_tithi.jd_end, ayanaamsha_id=self.ayanaamsha_id).get_solar_raashi()
       if daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index >= self.month_end_tithi and daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index <= self.adhika_maasa_det_tithi:
-        month_id = next_det_tithi_solar_raashi
+        if not is_adhika:
+          month_id = next_det_tithi_solar_raashi + 1
+        else:
+          month_id = next_det_tithi_solar_raashi
       else:
-        month_id = prev_det_tithi_solar_raashi
+        month_id = next_det_tithi_solar_raashi
+          
 
     if is_adhika:
       month_id = month_id + .5
