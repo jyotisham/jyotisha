@@ -4,16 +4,15 @@
     <title>&#43;output on ज्योतिषम् py</title>
     <link>https://jyotisham.github.io/jyotisha/output/</link>
     <description>Recent content in &#43;output on ज्योतिषम् py</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://jyotisham.github.io/jyotisha/output/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://jyotisham.github.io/jyotisha/output/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Today</title>
       <link>https://jyotisham.github.io/jyotisha/output/today/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://jyotisham.github.io/jyotisha/output/today/</guid>
-      <description>बॆङ्गळूरु-नगरस्य  आर्तव-चान्द्रम् - उप-कौण्डिन्यायन-मानम् साधारण-सौर-नक्षत्र-मूल-मानम्  function setIst() { let today = new Date(); console.log(today); let year = today.getFullYear(); let decade = Math.floor(year / 10); let month = today.getMonth() + 1; let date = today.getDate(); let dateSuffix = `${decade}0s/${year}_monthly/${year}-${month.toString().padStart(2, &#34;0&#34;)}/${year}-${month.toString().padStart(2, &#34;0&#34;)}-${date.toString().padStart(2, &#34;0&#34;)}`; console.log(dateSuffix); document.getElementById(&#34;blr_kaundinyAyana&#34;).href = `/jyotisha/output/sahakAra-nagar-bengaLUru/SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_AT_180/gregorian/2000s/${dateSuffix}/`; document.getElementById(&#34;blr_common&#34;).href = `/jyotisha/output/sahakAra-nagar-bengaLUru/MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA_AMAANTA__CHITRA_AT_180/gregorian/2000s/${dateSuffix}/`; } setIst();  </description>
+      <description>&lt;h2 id=&#34;बङगळर-नगरसय&#34;&gt;बॆङ्गळूरु-नगरस्य&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a id=&#34;blr_kaundinyAyana&#34;&gt;आर्तव-चान्द्रम् - उप-कौण्डिन्यायन-मानम्&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a id=&#34;blr_common&#34;&gt;साधारण-सौर-नक्षत्र-मूल-मानम्&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;script source=&#34;javascript&#34;&gt;&#xA;&#xA;function setIst() {&#xA;  let today = new Date();&#xA;  console.log(today);&#xA;  let year = today.getFullYear();&#xA;  let decade = Math.floor(year / 10);&#xA;  let month = today.getMonth() + 1;&#xA;  let date = today.getDate();&#xA;  let dateSuffix = `${decade}0s/${year}_monthly/${year}-${month.toString().padStart(2, &#34;0&#34;)}/${year}-${month.toString().padStart(2, &#34;0&#34;)}-${date.toString().padStart(2, &#34;0&#34;)}`;&#xA;  console.log(dateSuffix);&#xA;  &#xA;  document.getElementById(&#34;blr_kaundinyAyana&#34;).href = `/jyotisha/output/sahakAra-nagar-bengaLUru/SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_AT_180/gregorian/2000s/${dateSuffix}/`;&#xA;  document.getElementById(&#34;blr_common&#34;).href = `/jyotisha/output/sahakAra-nagar-bengaLUru/MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA_AMAANTA__CHITRA_AT_180/gregorian/2000s/${dateSuffix}/`;&#xA;}&#xA;setIst();&#xA;&lt;/script&gt;</description>
     </item>
-    
   </channel>
 </rss>
