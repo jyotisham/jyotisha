@@ -174,7 +174,7 @@ class DailyPanchaanga(common.JsonObject):
 
     self.lunar_date = None
     # self.lunar_dates_alternate = {}
-    
+
     self.festival_id_to_instance = {}
     self.mauDhyas = None
     self.amauDhyas = None
@@ -238,21 +238,21 @@ class DailyPanchaanga(common.JsonObject):
 
     if force_recomputation or self.sunrise_day_angas is None:
       self.sunrise_day_angas = DayAngas()
-      # Deliberately passing ASHVINI_STARTING_0 below since it is cheapest. Tithi is independent of ayanAmsha. 
+      # Deliberately passing ASHVINI_STARTING_0 below since it is cheapest. Tithi is independent of ayanAmsha.
       self.sunrise_day_angas.tithis_with_ends = AngaSpanFinder.get_cached(ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0, anga_type=zodiac.AngaType.TITHI).get_all_angas_in_period(jd1=self.jd_sunrise, jd2=self.jd_next_sunrise)
       self.sunrise_day_angas.tithi_at_sunrise = self.sunrise_day_angas.tithis_with_ends[0].anga
       self.sunrise_day_angas.tithi_at_noon = self.sunrise_day_angas.get_anga_at_jd(jd=(self.jd_sunrise + self.jd_sunset)/2, anga_type=zodiac.AngaType.TITHI)
-      
+
       self.sunrise_day_angas.nakshatras_with_ends = AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=zodiac.AngaType.NAKSHATRA).get_all_angas_in_period(jd1=self.jd_sunrise, jd2=self.jd_next_sunrise)
       self.sunrise_day_angas.nakshatra_at_sunrise = self.sunrise_day_angas.nakshatras_with_ends[0].anga
-      
+
       self.sunrise_day_angas.yogas_with_ends = AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=zodiac.AngaType.YOGA).get_all_angas_in_period(jd1=self.jd_sunrise, jd2=self.jd_next_sunrise)
       self.sunrise_day_angas.yoga_at_sunrise = self.sunrise_day_angas.yogas_with_ends[0].anga
-      
+
       self.sunrise_day_angas.karanas_with_ends = AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=zodiac.AngaType.KARANA).get_all_angas_in_period(jd1=self.jd_sunrise, jd2=self.jd_next_sunrise)
-      
+
       self.sunrise_day_angas.raashis_with_ends = AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=zodiac.AngaType.RASHI).get_all_angas_in_period(jd1=self.jd_sunrise, jd2=self.jd_next_sunrise)
-      
+
       self.sunrise_day_angas.solar_nakshatras_with_ends = AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=zodiac.AngaType.SOLAR_NAKSH).get_all_angas_in_period(jd1=self.jd_sunrise, jd2=self.jd_next_sunrise)
 
   def get_interval(self, interval_id):
@@ -315,7 +315,7 @@ class DailyPanchaanga(common.JsonObject):
     if previous_day_panchaanga is not None:
       tropical_date_sunset_day = previous_day_panchaanga.tropical_date_sunset.day + 1
       tropical_date_sunset_month = previous_day_panchaanga.tropical_date_sunset.month
-    
+
     if previous_day_panchaanga is None or previous_day_panchaanga.tropical_date_sunset.day > 28 :
       nd = zodiac.NakshatraDivision(jd=self.jd_sunset, ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0)
       fractional_month = nd.get_fractional_division_for_body(body=Graha.singleton(Graha.SUN), anga_type=AngaType.RASHI)
@@ -324,7 +324,7 @@ class DailyPanchaanga(common.JsonObject):
       month_transitions = Graha.singleton(Graha.SUN).get_transits(jd_start=self.jd_sunset-approx_day-5, jd_end=self.jd_sunset + 4, anga_type=AngaType.RASHI, ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0)
       if month_transitions[-1].jd > self.jd_previous_sunset and month_transitions[-1].jd <= self.jd_sunset:
         tropical_date_sunset_day = 1
-        tropical_date_sunset_month = month_transitions[-1].value_2  % 12 + 1 
+        tropical_date_sunset_month = month_transitions[-1].value_2  % 12 + 1
         month_transition_jd = month_transitions[-1].jd
       else:
         tropical_date_sunset_day = len(self.city.get_sunsets_in_period(jd_start=month_transitions[0].jd, jd_end=self.jd_sunset + 1/48.0))
@@ -363,14 +363,14 @@ class DailyPanchaanga(common.JsonObject):
       return names.month_map[self.date.month]
 
   def get_samvatsara_offset_1987(self, month_type):
-    # The below is a crude variable name: sidereal lunar month could be only approximately equinox-referrent. 
+    # The below is a crude variable name: sidereal lunar month could be only approximately equinox-referrent.
     equinox_referrent_date = self.get_date(month_type=month_type)
-    # For a few millennia around 1987, it is safe to assume that lunar year starts wihtin the first 5 months of the Gregorian year. This means that only the tail end of the lunar year occurs within the first few months of the year. And only in that case, would we need to offset relative to 1988 rather than 1987.  
+    # For a few millennia around 1987, it is safe to assume that lunar year starts wihtin the first 5 months of the Gregorian year. This means that only the tail end of the lunar year occurs within the first few months of the year. And only in that case, would we need to offset relative to 1988 rather than 1987.
     # TODO: Implement samvatsara skipping logic.  https://github.com/jyotisham/jyotisha/issues/83
     if equinox_referrent_date.month >= 7 and self.date.month <= 5:
       samvatsara_offset_1987_lunar = (self.date.year - 1988) % 60
     else:
-      samvatsara_offset_1987_lunar = (self.date.year - 1987) % 60 
+      samvatsara_offset_1987_lunar = (self.date.year - 1987) % 60
     return samvatsara_offset_1987_lunar
 
   def get_samvatsara(self, month_type, samvatsara_1987=Anga(index=1, anga_type_id=AngaType.SAMVATSARA.name)):
@@ -381,10 +381,10 @@ class DailyPanchaanga(common.JsonObject):
 
 
   def get_year_number(self, month_type, era_id):
-    # The below is a crude variable name: sidereal lunar month could be only approximately equinox-referrent. 
+    # The below is a crude variable name: sidereal lunar month could be only approximately equinox-referrent.
     equinox_referrent_date = self.get_date(month_type=month_type)
     year_0_offset = era.get_year_0_offset(era_id=era_id)
-    # For a few millennia around 1987, it is safe to assume that lunar year starts wihtin the first 5 months of the Gregorian year. This means that only the tail end of the lunar year occurs within the first few months of the year. And only in that case, would we need to offset relative to 1988 rather than 1987.  
+    # For a few millennia around 1987, it is safe to assume that lunar year starts wihtin the first 5 months of the Gregorian year. This means that only the tail end of the lunar year occurs within the first few months of the year. And only in that case, would we need to offset relative to 1988 rather than 1987.
     if equinox_referrent_date.month >= 7 and self.date.month <= 5:
       year_index = (self.date.year - 1 + year_0_offset)
     else:
@@ -421,7 +421,7 @@ class DailyPanchaanga(common.JsonObject):
     self.hora_data = []
     if getattr(self, "jd_sunrise", None) is None or self.jd_sunrise is None:
       self.compute_graha_transitions()
-    
+
     HORA_SUNRISE = [Graha.SUN, Graha.MOON, Graha.MARS, Graha.MERCURY, Graha.JUPITER, Graha.VENUS, Graha.SATURN]
     # HORA_GRAHAS = [Graha.SUN, Graha.VENUS, Graha.MERCURY, Graha.MOON, Graha.SATURN, Graha.JUPITER, Graha.MARS]
     HORA_GRAHAS = (HORA_SUNRISE * 5)[0::5]
@@ -454,7 +454,8 @@ class DailyPanchaanga(common.JsonObject):
     """Returns the lagna data
 
         Args:
-          debug
+          ayanaamsha_id: The ayanamsha to be used for calculations.
+          debug: Boolean flag to enable debugging.
 
         Returns:
           tuples detailing the end time of each lagna, beginning with the one
@@ -470,18 +471,20 @@ class DailyPanchaanga(common.JsonObject):
 
     lagna_list = [(x + lagna_sunrise - 1) % 12 + 1 for x in range(13)]
 
-    lbrack = self.jd_sunrise - 3 / 24
+    lbrack = self.jd_sunrise
     rbrack = self.jd_sunrise + 3 / 24
 
     for lagna in lagna_list:
-      # print('---\n', lagna)
       if debug:
         logging.debug(('lagna sunrise', self.city.get_lagna_float(self.jd_sunrise, ayanaamsha_id=ayanaamsha_id)))
         logging.debug(('lbrack', self.city.get_lagna_float(lbrack, int(-lagna), ayanaamsha_id=ayanaamsha_id)))
         logging.debug(('rbrack', self.city.get_lagna_float(rbrack, int(-lagna), ayanaamsha_id=ayanaamsha_id)))
 
-      lagna_end_time = brentq(self.city.get_lagna_float, lbrack, rbrack,
-                              args=(-lagna, ayanaamsha_id, debug))
+      try:
+        lagna_end_time = brentq(self.city.get_lagna_float, lbrack, rbrack,
+                                args=(-lagna, ayanaamsha_id, debug))
+      except ValueError:
+        logging.debug("Unable to bracket lagna %d on %s" % (lagna, self.date.get_date_str()))
       lbrack = lagna_end_time + 1 / 24
       rbrack = lagna_end_time + 3 / 24
       if lagna_end_time < self.jd_next_sunrise:
@@ -496,18 +499,18 @@ class DailyPanchaanga(common.JsonObject):
     paxa_id = int((self.sunrise_day_angas.tithi_at_sunrise.index - 1) / 15) + 1
     activities_table = pancha_paxi.get_activities_table(weekday_id=self.date.get_weekday(), paxa_id=paxa_id)
 
-    from jyotisha.panchaanga.temporal import interval   
+    from jyotisha.panchaanga.temporal import interval
     for bird in ["cock", "crow", "owl", "peacock", "vulture"]:
       activities = activities_table[bird]
-      
+
       for i in range(0, 120):
         activity_interval = interval.get_interval(start_jd=self.jd_sunrise, end_jd=self.jd_sunset, num_parts=120, part_index=i, name=activities[i])
         self.paxi_activities.add_activity_interval(bird=bird, activity_interval=activity_interval)
-      
+
       for i in range(120, 240):
         activity_interval = interval.get_interval(start_jd=self.jd_sunset, end_jd=self.jd_next_sunrise, num_parts=120, part_index=i - 120, name=activities[i])
         self.paxi_activities.add_activity_interval(bird=bird, activity_interval=activity_interval)
-    
+
     return self.paxi_activities
 
   def day_has_conjunction(self, body1, body2, gap=None):
@@ -518,7 +521,7 @@ class DailyPanchaanga(common.JsonObject):
       return abs(body.longitude_difference(jd=jd, body1=body1, body2=body2)) < gap
 
     sign = lambda x: -1 if x < 0 else (1 if x > 0 else (0 if x == 0 else None))
-    
+
     # the last condition avoids marking गुरुः (179.04° → -179.80°) as a conjunction
     crossover_inbetween = sign(body.longitude_difference(jd=self.jd_sunrise, body1=body1, body2=body2)) != sign(body.longitude_difference(jd=self.jd_next_sunrise, body1=body1, body2=body2)) and abs(body.longitude_difference(jd=self.jd_sunrise, body1=body1, body2=body2)) < 90
     return has_collision(jd=self.jd_sunrise) or has_collision(jd=self.jd_next_sunrise) or crossover_inbetween
