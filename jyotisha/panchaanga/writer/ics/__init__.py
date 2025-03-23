@@ -62,8 +62,9 @@ def set_calendar_metadata(ics_calendar, panchaanga, set_sequence):
   timezone.add('TZID', panchaanga.city.timezone)
   timezone_standard = TimezoneStandard()
   timezone_standard.add('DTSTART', datetime(1970, 1, 1, 0, 0, 0))
-  timezone_standard.add('TZOFFSETFROM', timedelta(hours=panchaanga.city.tz_offset))
-  timezone_standard.add('TZOFFSETTO', timedelta(hours=panchaanga.city.tz_offset))
+  # The following lines need to be fixed for daylight savings time
+  # timezone_standard.add('TZOFFSETFROM', timedelta(hours=panchaanga.city.timezone.tz_offset))
+  # timezone_standard.add('TZOFFSETTO', timedelta(hours=panchaanga.city.timezone.tz_offset))
   timezone.add_component(timezone_standard)
   ics_calendar.add_component(timezone)
 
