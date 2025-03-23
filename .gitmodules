@@ -1,6 +1,6 @@
 [submodule "jyotisha/panchaanga/temporal/festival/data"]
 	path = jyotisha/panchaanga/temporal/festival/data
-	url = https://github.com/sanskrit-coders/adyatithi.git
+	url = https://github.com/jyotisham/adyatithi.git
 	update = merge
 	branch = master
 [submodule "hugo-source/themes/sanskrit-documentation-theme-hugo"]
