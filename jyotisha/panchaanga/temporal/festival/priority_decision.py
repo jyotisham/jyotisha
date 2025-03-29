@@ -179,6 +179,6 @@ def decide(p0, p1, target_anga, kaala, priority, ayanaamsha_id):
   elif priority == 'vyaapti':
     decision = decide_vyaapti(p0=p0, p1=p1, target_anga=target_anga, kaala=kaala, ayanaamsha_id=ayanaamsha_id)
   else:
-    ValueError('Unknown priority %s' % priority)
+    raise ValueError('Unknown priority %s' % priority)
   return decision
 
