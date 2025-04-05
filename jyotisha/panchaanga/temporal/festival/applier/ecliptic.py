@@ -20,6 +20,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
     self.compute_lunar_eclipses()
     self.assign_tropical_sankranti_punyakaala()
     self.assign_tropical_sankranti()
+    self.set_other_graha_transits()
     # for graha1 in [Graha.MOON, Graha.JUPITER, Graha.VENUS, Graha.MERCURY, Graha.MARS, Graha.SATURN, Graha.RAHU]:
     #   for graha2 in [Graha.MOON, Graha.JUPITER, Graha.VENUS, Graha.MERCURY, Graha.MARS, Graha.SATURN, Graha.RAHU]:
     #     if graha1 > graha2:
@@ -240,7 +241,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
     
     while 1:
       next_eclipse_lun = self.panchaanga.city.get_lunar_eclipse_time(jd)
-      logging.debug(next_eclipse_lun)
+      # logging.debug(next_eclipse_lun)
       jd = next_eclipse_lun[1][0]
       jd_eclipse_lunar_start = next_eclipse_lun[1][2]
       jd_eclipse_lunar_end = next_eclipse_lun[1][3]
@@ -309,8 +310,8 @@ class EclipticFestivalAssigner(FestivalAssigner):
         (jd_transit, rashi1, rashi2) = (transit.jd, transit.value_1, transit.value_2)
         if self.panchaanga.jd_start - 13 < jd_transit < jd_end:
           fday = int(jd_transit - self.daily_panchaangas[0].julian_day_start)
-          # if jd_transit < self.daily_panchaangas[fday].julian_day_start:
-          #   fday -= 1
+          if jd_transit < self.daily_panchaangas[fday].jd_sunrise:
+            fday -= 1
           fest = TransitionFestivalInstance(name='guru-saGkrAntiH', 
             status_1_hk=names.NAMES['RASHI_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][rashi1], 
             status_2_hk=names.NAMES['RASHI_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][rashi2], interval
@@ -333,6 +334,30 @@ class EclipticFestivalAssigner(FestivalAssigner):
               fest_id='%s-antya-puSkara-samApanam' % names.NAMES['PUSHKARA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][rashi1], date=self.daily_panchaangas[fday_pushkara].date - 1)
             self.panchaanga.add_festival(
               fest_id='%s-antya-puSkara-ArambhaH' % names.NAMES['PUSHKARA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][rashi1], date=self.daily_panchaangas[fday_pushkara].date - 12)
+
+  def set_other_graha_transits(self):
+    if 'guru-saGkrAntiH' not in self.rules_collection.name_to_rule:
+      return 
+    jd_end = self.panchaanga.jd_start + self.panchaanga.duration 
+    GRAHA_NAMES = {Graha.VENUS: 'zukraH', Graha.MERCURY: 'budhaH', Graha.MARS: 'aGgArakaH', 
+        Graha.SATURN: 'zaniH', Graha.RAHU: 'rAhuH', Graha.KETU: 'kEtuH'}
+    
+    for graha in Graha.MERCURY, Graha.VENUS, Graha.MARS, Graha.SATURN, Graha.RAHU, Graha.KETU:
+      transits = Graha.singleton(graha).get_transits(self.panchaanga.jd_start, jd_end, anga_type=AngaType.RASHI,
+                                                           ayanaamsha_id=self.ayanaamsha_id)
+      if len(transits) > 0:
+        for i, transit in enumerate(transits):
+          (jd_transit, rashi1, rashi2) = (transit.jd, transit.value_1, transit.value_2)
+          if self.panchaanga.jd_start < jd_transit < jd_end:
+            fday = int(jd_transit - self.daily_panchaangas[0].julian_day_start)
+            if jd_transit < self.daily_panchaangas[fday].jd_sunrise:
+              fday -= 1
+            fest = TransitionFestivalInstance(name='%s-saGkrAntiH' % GRAHA_NAMES[graha][:-1],
+              status_1_hk=names.NAMES['RASHI_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][rashi1], 
+              status_2_hk=names.NAMES['RASHI_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][rashi2], interval
+              =Interval(jd_start=jd_transit, jd_end=None))
+            self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[fday].date)
+
 
 
 MIN_DAYS_NEXT_ECLIPSE = 25
