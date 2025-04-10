@@ -28,7 +28,7 @@ def get_tithi(jd):
   return NakshatraDivision(jd=jd, ayanaamsha_id=Ayanamsha.VERNAL_EQUINOX_AT_0).get_anga(AngaType.TITHI)
 
 
-class ShraddhaTithiAssigner(PeriodicPanchaangaApplier):
+class ShraadhaTithiAssigner(PeriodicPanchaangaApplier):
   def reset_shraaddha_tithis(self):
     for daily_panchaanga in self.daily_panchaangas:
       daily_panchaanga.solar_shraaddha_tithi = []
