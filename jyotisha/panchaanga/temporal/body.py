@@ -138,6 +138,15 @@ class Graha(JsonObject):
       logging.info("Could not find a transit of %s between %s (%f) and %s (%f)", self.body_name, ist_timezone.julian_day_to_local_time_str(jd_start), jd_start, ist_timezone.julian_day_to_local_time_str(jd_end), jd_end)
     return transits
 
+  def get_speed(self, jd):
+    """
+    Get the speed of the body in degrees per day.
+    
+    :param jd: 
+    :return: 
+    """
+    delta = 0.0001
+    return (self.get_longitude(jd + delta) - self.get_longitude(jd - delta)) / (2 * delta)
 
 
 def longitude_difference(jd, body1, body2):
