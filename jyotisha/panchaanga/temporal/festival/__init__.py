@@ -103,7 +103,7 @@ class FestivalInstance(common.JsonObject):
       return False
 
     if self.interval.jd_start is not None and self.interval.jd_end is not None and self.interval.get_jd_length() > 0.9:
-      long_festivals_list = ['SaDazIti', 'puSkara-yOga'] # phrases that can be used to map to long festivals
+      long_festivals_list = ['SaDazIti', 'puSkara-yOga', 'gajacchAyA-yOgaH'] # phrases that can be used to map to long festivals
       if not any(fest_name in self.name for fest_name in long_festivals_list):
         return False
 
