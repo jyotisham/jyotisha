@@ -258,7 +258,7 @@ def handle_amavasya(fest_id, fest_details_dict, script, desc):
       if ama_fest in fest_details_dict:
         ama_fest_desc = fest_details_dict[ama_fest].get_description_dict(script=script)
         if desc:
-          desc['detailed'] += ama_fest_desc['detailed']
+          desc['detailed'] += " " + ama_fest_desc['detailed']
           desc['references'] += ama_fest_desc['references']
           desc['shlokas'] += ama_fest_desc['shlokas']
           desc['url'] += ' ' + ama_fest_desc['url']
