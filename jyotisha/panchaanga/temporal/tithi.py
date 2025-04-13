@@ -204,7 +204,11 @@ class ShraadhaTithiAssigner(PeriodicPanchaangaApplier):
         else:
           m = dp.solar_sidereal_date_sunset.month
           solar_tithi_days[m][t.anga.index].append(tithi_details_tuple)
-
+    if debug_shraaddha_tithi:
+      # Pretty print the tithi days
+      for m in range(1, 13):
+        for t in range(1, 31):
+          logging.debug((m, t, len(solar_tithi_days[m][t]), solar_tithi_days[m][t]))
     # Process multiple tithis
     for m in range(1, 13):
       for t in range(1, 31):
