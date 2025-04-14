@@ -68,7 +68,7 @@ class SolarFestivalAssigner(FestivalAssigner):
       PUNYA_KAALA = {int(s): punyakaala_dict['PUNYA_KAALA'][s] for s in punyakaala_dict['PUNYA_KAALA']}
    
     is_puurva_half_day = True
-    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
+    for d in range(self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       if self.daily_panchaangas[d].solar_sidereal_date_sunset.month_transition is not None:
         sankranti_id = self.daily_panchaangas[d + 1].solar_sidereal_date_sunset.month
         
