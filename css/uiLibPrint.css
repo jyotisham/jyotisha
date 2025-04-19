@@ -1,0 +1,22 @@
+.noPrint {
+    display: none;
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+    border-style: dotted;
+    border-color: grey;
+}
+
+header {
+    font-size: x-small;
+}
+
+div[name="contentRow"] {
+    font-size: large;
+}
+
+.print-two-col {
+    column-count: 2;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+}
