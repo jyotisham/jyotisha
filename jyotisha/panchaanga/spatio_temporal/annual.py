@@ -28,7 +28,15 @@ def load_panchaanga(fname, fallback_fn):
     panchaanga.dump_to_file(filename=fname)
     return panchaanga
   
-
+def get_kali_year_jds(year):
+  """
+  Returns the start and end Julian days for the given Kali year.
+  """
+  start_year_civil = year - era.get_year_0_offset(era_id=era.ERA_KALI)
+  anga_span_finder = AngaSpanFinder.get_cached(ayanaamsha_id=Ayanamsha.CHITRA_AT_180, anga_type=AngaType.GRAHA_RASHI[Graha.SUN])
+  start_mesha = anga_span_finder.find(jd1=time.utc_gregorian_to_jd(Date(year=start_year_civil, month=2, day=1)), jd2=time.utc_gregorian_to_jd(Date(year=start_year_civil, month=7, day=1)), target_anga_id=1)
+  end_mina = anga_span_finder.find(jd1=time.utc_gregorian_to_jd(Date(year=start_year_civil  + 1, month=1, day=1)), jd2=time.utc_gregorian_to_jd(Date(year=start_year_civil + 1, month=6, day=1)), target_anga_id=1)
+  return start_mesha.jd_start, end_mina.jd_start
 
 def get_panchaanga_for_kali_year(city, year, precomputed_json_dir="~/Documents/jyotisha", computation_system: ComputationSystem = None, allow_precomputed=True, recompute_festivals=True, include_next_year_first_day=False):
   year = int(year)
@@ -44,12 +52,9 @@ def get_panchaanga_for_kali_year(city, year, precomputed_json_dir="~/Documents/j
     return panchaanga
   else:
     logging.info('No precomputed data available or allowed. Computing panchaanga...\n')
-    start_year_civil = year - era.get_year_0_offset(era_id=era.ERA_KALI)
-    anga_span_finder = AngaSpanFinder.get_cached(ayanaamsha_id=Ayanamsha.CHITRA_AT_180, anga_type=AngaType.GRAHA_RASHI[Graha.SUN])
-    start_mesha = anga_span_finder.find(jd1=time.utc_gregorian_to_jd(Date(year=start_year_civil, month=2, day=1)), jd2=time.utc_gregorian_to_jd(Date(year=start_year_civil, month=7, day=1)), target_anga_id=1)
-    jd_next_sunset_start_mesha = city.get_setting_time(julian_day_start=start_mesha.jd_start, body=Graha.SUN)
-    end_mina = anga_span_finder.find(jd1=time.utc_gregorian_to_jd(Date(year=start_year_civil  + 1, month=1, day=1)), jd2=time.utc_gregorian_to_jd(Date(year=start_year_civil + 1, month=6, day=1)), target_anga_id=1)
-    jd_preceding_sunset_end_mina = city.get_setting_time(julian_day_start=end_mina.jd_start - 1, body=Graha.SUN)
+    mesha_start, mina_end = get_kali_year_jds(year=year)
+    jd_next_sunset_start_mesha = city.get_setting_time(julian_day_start=mesha_start, body=Graha.SUN)
+    jd_preceding_sunset_end_mina = city.get_setting_time(julian_day_start=mina_end - 1, body=Graha.SUN)
     tz = Timezone(city.timezone)
     panchaanga = periodical.Panchaanga(city=city, start_date=tz.julian_day_to_local_time(julian_day=jd_next_sunset_start_mesha), end_date=tz.julian_day_to_local_time(julian_day=jd_preceding_sunset_end_mina + include_next_year_first_day), year_type = era.ERA_KALI, computation_system=computation_system, recompute_festivals=False)
     panchaanga.update_festival_details(compute_shraadha_tithis=True)
