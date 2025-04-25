@@ -54,9 +54,11 @@ class SolarFestivalAssigner(FestivalAssigner):
     self.assign_vishesha_vyatipata()
 
 
-  def assign_sidereal_sankranti_punyakaala(self):
-    if 'viSu-puNyakAlaH' not in self.rules_collection.name_to_rule:
+  def assign_sidereal_sankranti_punyakaala(self, force_computation=False):
+    if 'viSu-puNyakAlaH' not in self.rules_collection.name_to_rule and not force_computation:
       return 
+    
+    sankranti_days = []
 
     fname = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data/misc_data/sankranti_punyakaala.toml')
     with open(fname) as f:
@@ -66,7 +68,7 @@ class SolarFestivalAssigner(FestivalAssigner):
       PUNYA_KAALA = {int(s): punyakaala_dict['PUNYA_KAALA'][s] for s in punyakaala_dict['PUNYA_KAALA']}
    
     is_puurva_half_day = True
-    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
+    for d in range(self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       if self.daily_panchaangas[d].solar_sidereal_date_sunset.month_transition is not None:
         sankranti_id = self.daily_panchaangas[d + 1].solar_sidereal_date_sunset.month
         
@@ -110,7 +112,7 @@ class SolarFestivalAssigner(FestivalAssigner):
         else:
           self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=punya_kaala_str, interval=Interval(jd_start=None, jd_end=None)),
                                                 date=self.daily_panchaangas[fday].date)
-
+        sankranti_days.append(self.daily_panchaangas[fday].date)
         if sankranti_id not in [2, 5, 8, 11]: # these cases are redundant!
           saamaanya_punya_kaala_start_jd = jd_transition - 16 * 1/60
           saamaanya_punya_kaala_end_jd = jd_transition + 16 * 1/60
@@ -119,6 +121,7 @@ class SolarFestivalAssigner(FestivalAssigner):
           if saamaanya_punya_kaala_end_jd > saamaanya_punya_kaala_start_jd: 
             self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='ravi-saGkramaNa-puNyakAlaH', interval=Interval(jd_start=saamaanya_punya_kaala_start_jd, jd_end=saamaanya_punya_kaala_end_jd)), date=self.daily_panchaangas[fday].date)
 
+    return sankranti_days
 
   def assign_agni_nakshatra(self):
     if 'agninakSatra-ArambhaH' not in self.rules_collection.name_to_rule:

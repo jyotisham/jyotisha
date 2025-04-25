@@ -6,6 +6,7 @@ from jyotisha.panchaanga.temporal import PeriodicPanchaangaApplier, interval, ge
 from jyotisha.panchaanga.temporal import time
 from jyotisha.panchaanga.temporal.zodiac.angas import AngaType, Anga
 from jyotisha.panchaanga.temporal.festival import FestivalInstance
+from jyotisha.panchaanga.temporal.festival.applier import solar
 
 from sanskrit_data.schema import common
 
@@ -28,7 +29,7 @@ def get_tithi(jd):
   return NakshatraDivision(jd=jd, ayanaamsha_id=Ayanamsha.VERNAL_EQUINOX_AT_0).get_anga(AngaType.TITHI)
 
 
-class ShraddhaTithiAssigner(PeriodicPanchaangaApplier):
+class ShraadhaTithiAssigner(PeriodicPanchaangaApplier):
   def reset_shraaddha_tithis(self):
     for daily_panchaanga in self.daily_panchaangas:
       daily_panchaanga.solar_shraaddha_tithi = []
@@ -140,15 +141,18 @@ class ShraddhaTithiAssigner(PeriodicPanchaangaApplier):
                                             interval=self.panchaanga.daily_panchaanga_for_date(nap_end_dt).get_interval(interval_id="full_day")), date=nap_end_dt)
 
     # Compute Sankranti Days
-    sankranti_dushta_days = []
-    for dp in self.panchaanga.daily_panchaangas_sorted()[2:self.panchaanga.duration + 2]:
-      if dp.solar_sidereal_date_sunset.month_transition is not None:
-        madhyaraatri_start = dp.day_length_based_periods.fifteen_fold_division.vaidhaatra.jd_start
-        madhyaraatri_end = dp.day_length_based_periods.fifteen_fold_division.vaidhaatra.jd_end
-        if dp.solar_sidereal_date_sunset.month_transition < madhyaraatri_start:
-          sankranti_dushta_days.append(dp.date)
-        else:
-          sankranti_dushta_days.append(dp.date + 1)
+    # sankranti_dushta_days = []
+    sankranti_dushta_days = solar.SolarFestivalAssigner(panchaanga=self.panchaanga).assign_sidereal_sankranti_punyakaala(force_computation=True)
+
+    # for dp in self.panchaanga.daily_panchaangas_sorted()[2:self.panchaanga.duration + 2]:
+    #   if dp.solar_sidereal_date_sunset.month_transition is not None:
+    #     madhyaraatri_start = dp.day_length_based_periods.fifteen_fold_division.vaidhaatra.jd_start
+    #     madhyaraatri_end = dp.day_length_based_periods.fifteen_fold_division.vaidhaatra.jd_end
+    #     #TODO: Should ideally assign based on the punyakaala day!
+    #     if dp.solar_sidereal_date_sunset.month_transition < madhyaraatri_start:
+    #       sankranti_dushta_days.append(dp.date)
+    #     else:
+    #       sankranti_dushta_days.append(dp.date + 1)
 
     # Compute Solar Month Tithis
     solar_tithi_days = [{t: [] for t in range(0, 32)} for _m in range(13)]
@@ -204,7 +208,11 @@ class ShraddhaTithiAssigner(PeriodicPanchaangaApplier):
         else:
           m = dp.solar_sidereal_date_sunset.month
           solar_tithi_days[m][t.anga.index].append(tithi_details_tuple)
-
+    if debug_shraaddha_tithi:
+      # Pretty print the tithi days
+      for m in range(1, 13):
+        for t in range(1, 31):
+          logging.debug((m, t, len(solar_tithi_days[m][t]), solar_tithi_days[m][t]))
     # Process multiple tithis
     for m in range(1, 13):
       for t in range(1, 31):

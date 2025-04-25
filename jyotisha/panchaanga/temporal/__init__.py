@@ -73,16 +73,13 @@ class FestivalOptions(JsonObject):
     self.no_fests = no_fests
     self.tropical_month_start = tropical_month_start
     self.fest_repos_excluded_patterns = fest_repos_excluded_patterns
-    if self.tropical_month_start == "mAdhava_at_equinox":
-      if ".*viSuvAdi.*" not in self.fest_repos_excluded_patterns:
-        self.fest_repos_excluded_patterns += [".*viSuvAdi.*"]
-    else:
-      if ".*viSuvAdi.*" in self.fest_repos_excluded_patterns:
-        self.fest_repos_excluded_patterns.remove(".*viSuvAdi.*")
-      self.fest_repos_excluded_patterns += [".*ayanAdi.*"]
-
     self.repos = fest_repos
     self.init_repos()
+
+    if self.tropical_month_start == "mAdhava_at_equinox":
+      self.repos = [repo for repo in self.repos if "viSuvAdi" not in repo.name]
+    else:
+      self.repos = [repo for repo in self.repos if "ayanAdi" not in repo.name]
 
     self.fest_id_patterns_excluded = fest_id_patterns_excluded
     self.fest_ids_included_unimplemented = fest_ids_included_unimplemented

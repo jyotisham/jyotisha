@@ -2,6 +2,9 @@ import os
 import sys
 from math import floor
 import logging
+
+import swisseph as swe
+
 from jyotisha.panchaanga.temporal import names
 from jyotisha.panchaanga.temporal import interval
 from jyotisha.panchaanga.temporal.body import Graha
@@ -20,11 +23,11 @@ class EclipticFestivalAssigner(FestivalAssigner):
     self.compute_lunar_eclipses()
     self.assign_tropical_sankranti_punyakaala()
     self.assign_tropical_sankranti()
-    # for graha1 in [Graha.MOON, Graha.JUPITER, Graha.VENUS, Graha.MERCURY, Graha.MARS, Graha.SATURN, Graha.RAHU]:
-    #   for graha2 in [Graha.MOON, Graha.JUPITER, Graha.VENUS, Graha.MERCURY, Graha.MARS, Graha.SATURN, Graha.RAHU]:
-    #     if graha1 > graha2:
-    #       self.compute_conjunctions(graha1, graha2)
-
+    self.set_other_graha_transits()
+    # for graha in (Graha.MERCURY, Graha.VENUS, Graha.MARS, Graha.JUPITER, Graha.SATURN):
+    #   self.add_maudhya_events(graha)
+    # self.add_graha_yuddhas()
+    
   def assign_tropical_sankranti_punyakaala(self):
     if 'viSu-puNyakAlaH' not in self.rules_collection.name_to_rule:
       return
@@ -147,49 +150,203 @@ class EclipticFestivalAssigner(FestivalAssigner):
           fday = d
         self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=masa_name, interval=Interval(jd_start=jd_transition, jd_end=None)), date=self.daily_panchaangas[fday].date)
 
-  def compute_conjunctions(self, Graha1, Graha2, delta=0.0):
-    # Compute the time of conjunction between Graha1 and Graha2
-    GRAHA_NAMES = {Graha.SUN: 'sUryaH', Graha.MOON: 'candraH', Graha.JUPITER: 'guruH',
-        Graha.VENUS: 'zukraH', Graha.MERCURY: 'budhaH', Graha.MARS: 'aGgArakaH', 
-        Graha.SATURN: 'zanaizcaraH', Graha.RAHU: 'rAhuH'}
-    if delta == 0.0:
-      try:
-        t = brentq(lambda jd: Graha.singleton(Graha1).get_longitude(jd) - Graha.singleton(Graha2).get_longitude(jd),
-                 self.panchaanga.jd_start, self.panchaanga.jd_end)
-      except ValueError:
-        t = None
-        logging.error('Not able to bracket!')
-        
-      if t is not None and self.panchaanga.jd_start < t < self.panchaanga.jd_end:
-        fday = [self.daily_panchaangas[i].jd_sunrise < t < self.daily_panchaangas[i + 1].jd_sunrise for i in range(self.panchaanga.duration)].index(True)
-        fest = FestivalInstance(name='graha-yuddhaH (%s–%s)' % (GRAHA_NAMES[Graha1], GRAHA_NAMES[Graha2]), interval=Interval(jd_start=None, jd_end=t))
-        self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[fday].date)
-    else:
-      # mauDhya / combustion with some degrees assigned
-      try:
-        t_start = brentq(lambda jd: Graha.singleton(Graha1).get_longitude(jd) - Graha.singleton(Graha2).get_longitude(jd) - delta,
-                 self.panchaanga.jd_start, self.panchaanga.jd_end)
-      except ValueError:
-        t_start = None
-        logging.error('Not able to bracket!')
+  def is_retrograde(self, graha: int, jd: float) -> bool:
+    """
+    Check if a graha is retrograde at a given Julian day.
+    :param graha: Graha constant (e.g., Graha.SUN, Graha.MOON, etc.)
+    :param jd: Julian day
+    :return: True if the graha is retrograde, False otherwise
+    """
+    g = Graha.singleton(graha)
+    return g.get_speed(jd) < 0
 
-      try:
-        t_end = brentq(lambda jd: Graha.singleton(Graha1).get_longitude(jd) - Graha.singleton(Graha2).get_longitude(jd) + delta,
-                 self.panchaanga.jd_start, self.panchaanga.jd_end)
-      except ValueError:
-        t_end = None
-        logging.error('Not able to bracket!')
+  def get_setting_direction(self, graha: int, jd: float) -> str:
+    """
+    Get the setting direction of a graha at a given Julian day.
+    :param graha: Graha constant (e.g., Graha.VENUS, Graha.JUPITER, etc.)
+    :param jd: Julian day
+    :return: "prAk" if the graha sets in the east, "pratyak" if it sets in the west
+    """
+    CALC_SET = swe.CALC_SET | swe.BIT_DISC_CENTER | swe.BIT_NO_REFRACTION
+    geo_lon = self.panchaanga.city.longitude
+    geo_lat = self.panchaanga.city.latitude
+    graha = Graha.singleton(graha)._get_swisseph_id()
+    rs = swe.rise_trans(jd, body=graha, geopos=[geo_lon, geo_lat, 0], rsmi=CALC_SET)[1]
+    az = rs[3]
+    #TODO: Fix this!
+    return "prAk" if az < 180 else "pratyak"
 
-      if t_start is not None and self.panchaanga.jd_start < t_start < self.panchaanga.jd_end:
-        fday = [self.daily_panchaangas[i].jd_sunrise < t_start < self.daily_panchaangas[i + 1].jd_sunrise for i in range(self.panchaanga.duration)].index(True)
-        fest = FestivalInstance(name='%s–mauDhya' % GRAHA_NAMES[Graha1], interval=Interval(jd_start=t_start, jd_end=None))
-        self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[fday].date)
+  def get_rising_direction(self, graha: int, jd: float) -> str:
+    """
+    Get the rising direction of a graha at a given Julian day.
+    :param graha: Graha constant (e.g., Graha.VENUS, Graha.JUPITER, etc.)
+    :param jd: Julian day
+    :return: "prAk" if the graha rises in the east, "pratyak" if it rises in the west
+    """
+    CALC_RISE = swe.CALC_RISE | swe.BIT_DISC_CENTER | swe.BIT_NO_REFRACTION
+    geo_lon = self.panchaanga.city.longitude
+    geo_lat = self.panchaanga.city.latitude
+    graha = Graha.singleton(graha)._get_swisseph_id()
+    rs = swe.rise_trans(jd, body=graha, geopos=[geo_lon, geo_lat, 0], rsmi=CALC_RISE)[1]
+    az = rs[3]
+    #TODO: Fix this!
+    return "prAk" if az < 180 else "pratyak"
 
-      if t_end is not None and self.panchaanga.jd_start < t_end < self.panchaanga.jd_end:
-        fday = [self.daily_panchaangas[i].jd_sunrise < t_end < self.daily_panchaangas[i + 1].jd_sunrise for i in range(self.panchaanga.duration)].index(True)
-        fest = FestivalInstance(name='%s–mauDhya' % GRAHA_NAMES[Graha1], interval=Interval(jd_start=None, jd_end=t_end))
-        self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[fday].date)
+ 
+  def compute_maudhya_intervals(self, graha: int, jd_start: float, jd_end: float, step: float = 0.5) -> list[tuple[float, float, str, str]]:
+    """
+    Compute combustion (maudhya) intervals for a graha between jd_start and jd_end.
+    Each interval includes:
+      - setting direction at the start (t_start)
+      - rising direction at the end (t_end)
+    """
+    MAUDHYA_LIMITS = {
+        Graha.MERCURY: {'prograde': 14.0, 'retrograde': 12.0},
+        Graha.VENUS: {'prograde': 10.0, 'retrograde': 8.0},
+        Graha.MARS: {'prograde': 17.0, 'retrograde': 17.0},
+        Graha.JUPITER: {'prograde': 11.0, 'retrograde': 11.0},
+        Graha.SATURN: {'prograde': 15.0, 'retrograde': 15.0},
+    }
 
+    is_retro = self.is_retrograde(graha, jd_start)
+    delta = MAUDHYA_LIMITS[graha]["retrograde" if is_retro else "prograde"]
+
+    conjunction_intervals = self.compute_conjunction_intervals(
+        graha1=graha,
+        graha2=Graha.SUN,
+        jd_start=jd_start,
+        jd_end=jd_end,
+        delta=delta,
+        step=step
+    )
+    
+    intervals = []
+    
+    for t_start, t_zero, t_end in conjunction_intervals:
+        try:
+            dir_set = self.get_setting_direction(graha, t_start)
+            dir_rise = self.get_rising_direction(graha, t_end)
+            intervals.append((t_start, t_end, dir_rise, dir_set))
+        except Exception as e:
+            logging.warning(f"Could not determine directions for maudhya interval ({t_start}, {t_end}): {e}")
+    return intervals
+
+
+  def add_maudhya_events(self, graha: int):
+    GRAHA_NAMES = {Graha.VENUS: 'zukraH', Graha.MERCURY: 'budhaH', Graha.MARS: 'aGgArakaH', 
+        Graha.SATURN: 'zaniH', Graha.JUPITER: 'guruH'}
+    maudhya_intervals = self.compute_maudhya_intervals(graha, self.panchaanga.jd_start, self.panchaanga.jd_end)
+    for t_start, t_end, dir_rise, dir_set in maudhya_intervals:
+        try:
+            fday = int(t_start - self.daily_panchaangas[0].julian_day_start)
+            if t_start < self.daily_panchaangas[fday].jd_sunrise:
+                fday -= 1
+            self.panchaanga.add_festival_instance(FestivalInstance(
+                name=f"{GRAHA_NAMES[graha]}–astamayaH ({dir_set})",
+                interval=Interval(jd_start=t_start, jd_end=None)
+            ), date=self.daily_panchaangas[fday].date)
+        except ValueError:
+            logging.warning("Could not assign festival day for maudhya start event.")
+        try:
+          fday = int(t_end - self.daily_panchaangas[0].julian_day_start)
+          if t_end < self.daily_panchaangas[fday].jd_sunrise:
+            fday -= 1
+          self.panchaanga.add_festival_instance(FestivalInstance(
+              name=f"{GRAHA_NAMES[graha]}–udayaH ({dir_rise})",
+              interval=Interval(jd_start=None, jd_end=t_end)
+          ), date=self.daily_panchaangas[fday].date)
+        except ValueError:
+          logging.warning("Could not assign festival day for maudhya end event.")
+
+  def compute_conjunction_intervals(
+    self,
+    graha1: int,
+    graha2: int,
+    jd_start: float,
+    jd_end: float,
+    delta: float = 1.0,
+    step: float = 0.5,
+    debug: bool = False
+    ) -> list[tuple[float, float, float]]:
+    """
+    Compute intervals where the longitude difference between two grahas is less than `delta`.
+    Returns a list of (t_start, t_zero, t_end) tuples.
+    """
+    g1 = Graha.singleton(graha1)
+    g2 = Graha.singleton(graha2)
+    intervals = []
+
+    inside = False
+    t_start = None
+    jd = jd_start
+
+    while jd <= jd_end:
+        lon_diff = abs(g1.get_longitude(jd, ayanaamsha_id=self.ayanaamsha_id) - g2.get_longitude(jd, ayanaamsha_id=self.ayanaamsha_id))
+        lon_diff = min(lon_diff, 360 - lon_diff)  # shortest arc
+
+        if not inside and lon_diff < delta:
+            try:
+                t_start = brentq(
+                    lambda x: abs(g1.get_longitude(x, ayanaamsha_id=self.ayanaamsha_id) - g2.get_longitude(x, ayanaamsha_id=self.ayanaamsha_id)) - delta,
+                    jd - step,
+                    jd
+                )
+                inside = True
+            except ValueError:
+                logging.warning(f"Could not bracket start of proximity at {jd}")
+        elif inside and lon_diff > delta:
+            try:
+                t_end = brentq(
+                    lambda x: abs(g1.get_longitude(x, ayanaamsha_id=self.ayanaamsha_id) - g2.get_longitude(x, ayanaamsha_id=self.ayanaamsha_id)) - delta,
+                    jd - step,
+                    jd
+                )
+                # Now compute t_zero (exact conjunction)
+                try:
+                    t_zero = brentq(
+                        lambda x: g1.get_longitude(x, ayanaamsha_id=self.ayanaamsha_id) - g2.get_longitude(x, ayanaamsha_id=self.ayanaamsha_id),
+                        t_start,
+                        t_end
+                    )
+                    intervals.append((t_start, t_zero, t_end))
+                except ValueError:
+                    logging.warning(f"Could not find t_zero between {t_start} and {t_end}")
+                inside = False
+            except ValueError:
+                logging.warning(f"Could not bracket end of proximity at {jd}")
+        jd += step
+
+    if debug:
+      # Show the longitudes of each graha at the start and end of the interval
+      logging.debug(f"Intervals for {graha1} and {graha2}:")
+      for t_start, t_zero, t_end in intervals:
+          logging.debug(f"  Interval   : {Interval(jd_start=t_start, jd_end=t_end)}")
+          logging.debug(f"  Conjunction: {Interval(jd_start=t_zero, jd_end=t_zero)}")
+          logging.debug(f"  Start: t_start, {g1.get_longitude(t_start, ayanaamsha_id=self.ayanaamsha_id)}, {g2.get_longitude(t_start, ayanaamsha_id=self.ayanaamsha_id)}")
+          logging.debug(f"  End: t_end, {g1.get_longitude(t_end, ayanaamsha_id=self.ayanaamsha_id)}, {g2.get_longitude(t_end, ayanaamsha_id=self.ayanaamsha_id)}")
+
+    return intervals
+  
+  def add_graha_yuddhas(self):
+    TARA_GRAHAS = (Graha.MERCURY, Graha.VENUS, Graha.MARS, Graha.JUPITER, Graha.SATURN)
+    GRAHA_NAMES = {Graha.VENUS: 'zukraH', Graha.MERCURY: 'budhaH', Graha.MARS: 'aGgArakaH', 
+        Graha.SATURN: 'zaniH', Graha.JUPITER: 'guruH'}
+
+    for graha1 in TARA_GRAHAS:
+      for graha2 in TARA_GRAHAS:
+        if graha1 < graha2:
+          intervals = self.compute_conjunction_intervals(graha1, graha2, self.panchaanga.jd_start, self.panchaanga.jd_end, delta=1.0, debug=False)
+          for t_start, t_zero, t_end in intervals:
+            # Check for Maudhya!
+            if t_start is not None and self.panchaanga.jd_start < t_start < self.panchaanga.jd_end:
+              fday = int(t_start - self.daily_panchaangas[0].julian_day_start)
+              if t_start < self.daily_panchaangas[fday].jd_sunrise:
+                fday -= 1
+              fest = FestivalInstance(
+                  name=f'graha-yuddhaH ({GRAHA_NAMES[graha1]}–{GRAHA_NAMES[graha2]})',
+                  interval=Interval(jd_start=t_start, jd_end=t_end)
+              )
+              self.panchaanga.add_festival_instance(fest, date=self.daily_panchaangas[fday].date)
 
   def compute_solar_eclipses(self):
     if 'sUrya-grahaNam' not in self.rules_collection.name_to_rule:
@@ -240,7 +397,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
     
     while 1:
       next_eclipse_lun = self.panchaanga.city.get_lunar_eclipse_time(jd)
-      logging.debug(next_eclipse_lun)
+      # logging.debug(next_eclipse_lun)
       jd = next_eclipse_lun[1][0]
       jd_eclipse_lunar_start = next_eclipse_lun[1][2]
       jd_eclipse_lunar_end = next_eclipse_lun[1][3]
@@ -309,8 +466,8 @@ class EclipticFestivalAssigner(FestivalAssigner):
         (jd_transit, rashi1, rashi2) = (transit.jd, transit.value_1, transit.value_2)
         if self.panchaanga.jd_start - 13 < jd_transit < jd_end:
           fday = int(jd_transit - self.daily_panchaangas[0].julian_day_start)
-          # if jd_transit < self.daily_panchaangas[fday].julian_day_start:
-          #   fday -= 1
+          if jd_transit < self.daily_panchaangas[fday].jd_sunrise:
+            fday -= 1
           fest = TransitionFestivalInstance(name='guru-saGkrAntiH', 
             status_1_hk=names.NAMES['RASHI_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][rashi1], 
             status_2_hk=names.NAMES['RASHI_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][rashi2], interval
@@ -333,6 +490,30 @@ class EclipticFestivalAssigner(FestivalAssigner):
               fest_id='%s-antya-puSkara-samApanam' % names.NAMES['PUSHKARA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][rashi1], date=self.daily_panchaangas[fday_pushkara].date - 1)
             self.panchaanga.add_festival(
               fest_id='%s-antya-puSkara-ArambhaH' % names.NAMES['PUSHKARA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][rashi1], date=self.daily_panchaangas[fday_pushkara].date - 12)
+
+  def set_other_graha_transits(self):
+    if 'guru-saGkrAntiH' not in self.rules_collection.name_to_rule:
+      return 
+    jd_end = self.panchaanga.jd_start + self.panchaanga.duration 
+    GRAHA_NAMES = {Graha.VENUS: 'zukraH', Graha.MERCURY: 'budhaH', Graha.MARS: 'aGgArakaH', 
+        Graha.SATURN: 'zaniH', Graha.RAHU: 'rAhuH', Graha.KETU: 'kEtuH'}
+    
+    for graha in Graha.MERCURY, Graha.VENUS, Graha.MARS, Graha.SATURN, Graha.RAHU, Graha.KETU:
+      transits = Graha.singleton(graha).get_transits(self.panchaanga.jd_start, jd_end, anga_type=AngaType.RASHI,
+                                                           ayanaamsha_id=self.ayanaamsha_id)
+      if len(transits) > 0:
+        for i, transit in enumerate(transits):
+          (jd_transit, rashi1, rashi2) = (transit.jd, transit.value_1, transit.value_2)
+          if self.panchaanga.jd_start < jd_transit < jd_end:
+            fday = int(jd_transit - self.daily_panchaangas[0].julian_day_start)
+            if jd_transit < self.daily_panchaangas[fday].jd_sunrise:
+              fday -= 1
+            fest = TransitionFestivalInstance(name='%s-saGkrAntiH' % GRAHA_NAMES[graha][:-1],
+              status_1_hk=names.NAMES['RASHI_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][rashi1], 
+              status_2_hk=names.NAMES['RASHI_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][rashi2], interval
+              =Interval(jd_start=jd_transit, jd_end=None))
+            self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[fday].date)
+
 
 
 MIN_DAYS_NEXT_ECLIPSE = 25

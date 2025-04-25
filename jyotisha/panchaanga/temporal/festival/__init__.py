@@ -103,7 +103,7 @@ class FestivalInstance(common.JsonObject):
       return False
 
     if self.interval.jd_start is not None and self.interval.jd_end is not None and self.interval.get_jd_length() > 0.9:
-      long_festivals_list = ['SaDazIti', 'puSkara-yOga'] # phrases that can be used to map to long festivals
+      long_festivals_list = ['SaDazIti', 'puSkara-yOga', 'gajacchAyA-yOgaH'] # phrases that can be used to map to long festivals
       if not any(fest_name in self.name for fest_name in long_festivals_list):
         return False
 
@@ -258,7 +258,7 @@ def handle_amavasya(fest_id, fest_details_dict, script, desc):
       if ama_fest in fest_details_dict:
         ama_fest_desc = fest_details_dict[ama_fest].get_description_dict(script=script)
         if desc:
-          desc['detailed'] += ama_fest_desc['detailed']
+          desc['detailed'] += " " + ama_fest_desc['detailed']
           desc['references'] += ama_fest_desc['references']
           desc['shlokas'] += ama_fest_desc['shlokas']
           desc['url'] += ' ' + ama_fest_desc['url']
@@ -362,7 +362,7 @@ def _texify_description_dict(desc, fest_id):
   else:
     desc['detailed'] = desc['detailed'].replace('&', '\\&').replace('\n', '\\\\').replace('\\\\\\\\', '\\\\').replace('## ', '')
     desc['detailed'] = desc['detailed'][:1].capitalize() + desc['detailed'][1:]
-    desc['shlokas'] = desc['shlokas'].strip('\n').replace('\n', '\\\\').replace('\\\\\\\\', '\\\\').replace('\\\\  \\\\', '\\\\\\smallskip ').replace('[','{}[')
+    desc['shlokas'] = desc['shlokas'].strip('\n').replace('\n', '\\\\').replace('\\\\\\\\', '\\\\').replace('\\\\  \\\\', '\\\\\\smallskip ').replace('[','{}%\n[')
     desc['references'] = desc['references'].replace('- References\n  ', '')
     return '{%s}\n{%s}\n{%s}\n{%s}\n{%s}\n{%s}' % (desc['blurb'].replace('_', '\\_').replace('##~##','~'), 
                                      desc['detailed'].replace('_', '\\_'),

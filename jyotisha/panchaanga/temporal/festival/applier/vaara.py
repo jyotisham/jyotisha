@@ -126,16 +126,17 @@ class VaraFestivalAssigner(FestivalAssigner):
       for (festival_nakshatra, festival_weekday, festival_name) in AMRITA_SIDDHI_YOGAS:
         if self.daily_panchaangas[d].date.get_weekday() == festival_weekday:
           nakshatram_praatah = self.daily_panchaangas[d].sunrise_day_angas.nakshatra_at_sunrise.index
-          nakshatram_saayam = NakshatraDivision(jd=self.daily_panchaangas[d].jd_sunset, ayanaamsha_id=self.panchaanga.computation_system.ayanaamsha_id).get_anga(anga_type=AngaType.NAKSHATRA).index
-          if festival_nakshatra in [nakshatram_praatah, nakshatram_saayam]:
-            if festival_nakshatra == nakshatram_praatah == nakshatram_saayam:
+          raatri_end = self.daily_panchaangas[d].day_length_based_periods.eight_fold_division.raatri_yaama[0].jd_end
+          nakshatram_raatri = NakshatraDivision(jd=raatri_end, ayanaamsha_id=self.panchaanga.computation_system.ayanaamsha_id).get_anga(anga_type=AngaType.NAKSHATRA).index
+          if festival_nakshatra in [nakshatram_praatah, nakshatram_raatri]:
+            if festival_nakshatra == nakshatram_praatah == nakshatram_raatri:
               self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=f'{festival_name}-yOgaH'), date=self.daily_panchaangas[d].date)
             else:
               nakshatra_end_jd = self.daily_panchaangas[d].sunrise_day_angas.nakshatras_with_ends[0].jd_end
 
               if festival_nakshatra == nakshatram_praatah:
                 interval = Interval(jd_start=None, jd_end=nakshatra_end_jd)
-              elif festival_nakshatra == nakshatram_saayam:
+              elif festival_nakshatra == nakshatram_raatri:
                 interval = Interval(jd_start=nakshatra_end_jd, jd_end=None)
               
               self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=f'{festival_name}-yOgaH', interval=interval), date=self.daily_panchaangas[d].date)

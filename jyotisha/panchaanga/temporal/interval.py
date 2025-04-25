@@ -242,6 +242,31 @@ class FifteenFoldDivision(common.JsonObject):
   def get_virile_intervals(self):
     return [x for x in self.tb_muhuurtas if not x.is_nirviirya]
 
+  def get_relative_ghatika_interval(self, ghatika_start, ghatika_end):
+    """Get start and end time of a given interval in a given span with specified fractions
+
+    Args:
+      :param ghatika_start float (relative ghatika)
+      :param ghatika_end float (relative ghatika)
+      :return: interval
+
+    """
+    assert 0 <= ghatika_start <= ghatika_end <= 60
+    jd_sunrise = self.raudra.jd_start
+    jd_sunset = self.shankara.jd_start
+    jd_next_sunrise = self.naabhasvata.jd_end
+
+    if 0 <= ghatika_start <= 30:
+      jd_start = jd_sunrise + (ghatika_start / 60) * (jd_sunset - jd_sunrise)
+    elif 30 < ghatika_start <= 60:
+      jd_start = jd_sunset + ((ghatika_start - 30) / 60) * (jd_next_sunrise - jd_sunset)
+    if 0 <= ghatika_end <= 30:
+      jd_end = jd_sunrise + (ghatika_end / 60) * (jd_sunset - jd_sunrise)
+    elif 30 < ghatika_end <= 60:
+      jd_end = jd_sunset + ((ghatika_end - 30) / 60) * (jd_next_sunrise - jd_sunset)
+    
+    return Interval(jd_start=jd_start, jd_end=jd_end)
+
 
 
 class EightFoldDivision(common.JsonObject):

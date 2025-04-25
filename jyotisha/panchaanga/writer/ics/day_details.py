@@ -33,7 +33,7 @@ def get_day_summary_event(d, panchaanga, script):
   tz = daily_panchaanga.city.get_timezone_obj()
   dt_start = tz.julian_day_to_local_datetime(jd=daily_panchaanga.jd_sunrise)
   event.add('dtstamp', datetime.now())
-  logging.debug(daily_panchaanga.date)
+  # logging.debug(daily_panchaanga.date)
   event.add('dtstart', dt_start)
   event.add('dtend', tz.julian_day_to_local_datetime(jd=daily_panchaanga.jd_next_sunrise))
   uid = f"{dt_start.strftime('%Y%m%d')}_day_summary"
