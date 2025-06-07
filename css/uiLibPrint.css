@@ -1,0 +1,31 @@
+.noPrint {
+    display: none;
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+    border-style: dotted;
+    border-color: grey;
+}
+
+header {
+    font-size: x-small;
+}
+
+@page {
+    /*width: 150mm;*/
+    /*height: 300mm;*/
+    /*margin: 0.5em;*/
+    /*border: 1px solid black;*/
+}
+
+body {
+    border: 1px solid black;
+}
+
+main {
+    margin: 0em;
+    column-gap: 0.5em;
+    line-height: 110%;
+    column-rule: 1px solid black;
+}
+
