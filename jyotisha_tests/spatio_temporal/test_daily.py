@@ -114,6 +114,18 @@ def test_get_anga_data_1981_12_23():
   assert angas == [16, 17]
 
 
+def test_get_anga_data_md():
+  panchaanga = daily.DailyPanchaanga(chennai, date=Date(2025, 6, 6))
+  md = panchaanga.sunrise_day_angas.get_anga_data_md(anga_type=AngaType.NAKSHATRA, script=sanscript.DEVANAGARI,
+                                                reference_jd=panchaanga.julian_day_start)
+  assert md == "**नक्षत्रम्** — हस्तः►06:32; चित्रा►"
+
+  md = panchaanga.sunrise_day_angas.get_anga_data_md(anga_type=AngaType.RASHI, script=sanscript.DEVANAGARI,
+                                                     reference_jd=panchaanga.julian_day_start)
+
+  assert md == "**राशिः** — कन्या►20:05; तुला►"
+
+
 def test_get_pancha_paxi_activities():
   city = City.get_city_from_db('Chennai')
   from jyotisha.panchaanga.temporal import zodiac

@@ -164,8 +164,8 @@ def print_khachakra_stithi(daily_panchaanga, output_stream, script, subsection_m
   print('- |🌞-🌛|%s  ' % (tithi_data_str), file=output_stream)
   nakshatra_data_str = daily_panchaanga.sunrise_day_angas.get_anga_data_md(anga_type=AngaType.NAKSHATRA, script=script,
                                                                            reference_jd=daily_panchaanga.julian_day_start)
-  chandrashtama_rashi_data_str, rashi_data_str = get_raashi_data_str(daily_panchaanga, script)
-  print('- 🌌🌛%s (%s)  ' % (nakshatra_data_str, rashi_data_str), file=output_stream)
+  raashi_data_str = daily_panchaanga.sunrise_day_angas.get_anga_data_md(anga_type=AngaType.RASHI, script=sanscript.DEVANAGARI,reference_jd=daily_panchaanga.julian_day_start)
+  print('- 🌌🌛%s (%s)  ' % (nakshatra_data_str, raashi_data_str), file=output_stream)
   
   solar_nakshatra_str = daily_panchaanga.sunrise_day_angas.get_anga_data_md(anga_type=AngaType.SOLAR_NAKSH,
                                                                             script=script,
@@ -259,25 +259,6 @@ def add_sun_moon_rise_info(daily_panchaanga, output_stream, script):
       print(f'|{body_final}|{set_str}|{rise_str}|     |', file=output_stream)
 
 
-def get_raashi_data_str(daily_panchaanga, script):
-  jd = daily_panchaanga.julian_day_start
-  chandrashtama_rashi_data_str = ''
-  for raashi_span in daily_panchaanga.sunrise_day_angas.raashis_with_ends:
-    (rashi_ID, rashi_end_jd) = (raashi_span.anga.index, raashi_span.jd_end)
-    rashi = names.NAMES['RASHI_NAMES']['sa'][script][rashi_ID]
-    if rashi_end_jd is None:
-      rashi_data_str = '%s' % (rashi)
-      chandrashtama_rashi_data_str = '- **%s**—%s' % (translate_or_transliterate('चन्द्राष्टम-राशिः', script, source_script=sanscript.DEVANAGARI),
-                                                      names.NAMES['RASHI_NAMES']['sa'][script][((rashi_ID - 8) % 12) + 1])
-    else:
-      rashi_data_str = '%s►%s' % (
-        rashi, Hour(24 * (rashi_end_jd - jd)).to_string())
-      chandrashtama_rashi_data_str = '- **%s**—%s►%s; %s ➥' % (
-        translate_or_transliterate('चन्द्राष्टम-राशिः', script, source_script=sanscript.DEVANAGARI),
-        names.NAMES['RASHI_NAMES']['sa'][script][((rashi_ID - 8) % 12) + 1],
-        Hour(24 * (rashi_end_jd - jd)).to_string(),
-        names.NAMES['RASHI_NAMES']['sa'][script][((rashi_ID - 7) % 12) + 1])
-  return chandrashtama_rashi_data_str, rashi_data_str
 
 
 def get_lagna_data_str(daily_panchaanga, script):

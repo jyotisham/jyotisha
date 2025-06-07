@@ -59,7 +59,7 @@ class DayAngas(common.JsonObject):
     elif anga_type == AngaType.YOGA:
       anga_spans = self.yogas_with_ends
     elif anga_type == AngaType.RASHI:
-      anga_spans = self.rashis_with_ends
+      anga_spans = self.raashis_with_ends
     elif anga_type == AngaType.KARANA:
       anga_spans = self.karanas_with_ends
     elif anga_type == AngaType.SOLAR_NAKSH:
