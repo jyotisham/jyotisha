@@ -104,7 +104,7 @@ class TithiFestivalAssigner(FestivalAssigner):
             self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='anadhyAyaH~pUrvarAtrau', interval=self.daily_panchaangas[d - 1].get_interval(interval_id="raatrimaana")), date=day_panchaanga.date - 1)
       
   def assign_chaturthi_vratam(self):
-    if "vikaTa-mahAgaNapati_saGkaTahara-caturthI-vratam" not in self.rules_collection.name_to_rule:
+    if "vikaTa-mahAgaNapati-saGkaTahara-caturthI-vratam" not in self.rules_collection.name_to_rule:
       return
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       # SANKATAHARA chaturthi
@@ -117,7 +117,7 @@ class TithiFestivalAssigner(FestivalAssigner):
         _m = day_panchaanga.lunar_date.month.index
         if floor(_m) != _m:
           _m = 13  # Adhika masa
-        chaturthi_name = names.NAMES['SANKATAHARA_CHATURTHI_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][_m] + '-mahAgaNapati_'
+        chaturthi_name = names.NAMES['SANKATAHARA_CHATURTHI_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][_m] + '-mahAgaNapati-'
         def _add_chaturthi_fest(p, chaturthi_name):
           chaturthi_vaara = p.date.get_weekday()
           chaturthi_vaara_tag = 'aGgArakI~' if chaturthi_vaara == 2 else 'ravivAra-' if chaturthi_vaara == 0 else ''
