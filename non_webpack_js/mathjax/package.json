@@ -1,0 +1,90 @@
+{
+  "_from": "mathjax@3",
+  "_id": "mathjax@3.0.5",
+  "_inBundle": false,
+  "_integrity": "sha512-9M7VulhltkD8sIebWutK/VfAD+m+6BIFqfpjDh9Pz/etoKUtjO6UMnOhUcDmNl6iApE8C9xrUmaMyNZkZAlrMw==",
+  "_location": "/mathjax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "mathjax@3",
+    "name": "mathjax",
+    "escapedName": "mathjax",
+    "rawSpec": "3",
+    "saveSpec": null,
+    "fetchSpec": "3"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/mathjax/-/mathjax-3.0.5.tgz",
+  "_shasum": "707e703a9c1d95f0790bbd404b895566f459d514",
+  "_spec": "mathjax@3",
+  "_where": "/home/vvasuki/vvasuki-git/notes-hugo/themes/sanskrit-documentation-theme-hugo/webpack_src",
+  "bugs": {
+    "url": "http://github.com/mathjax/MathJax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Beautiful math in all browsers. MathJax is an open-source JavaScript display engine for LaTeX, MathML, and AsciiMath notation that works in all browsers. This package includes the packaged components (install mathjax-full to get the source code).",
+  "devDependencies": {
+    "mathjax-full": "3.0.5"
+  },
+  "files": [
+    "/es5"
+  ],
+  "homepage": "https://github.com/mathjax/MathJax#readme",
+  "keywords": [
+    "math",
+    "svg",
+    "mathml",
+    "tex",
+    "latex",
+    "asciimath",
+    "browser",
+    "node"
+  ],
+  "license": "Apache-2.0",
+  "main": "es5/node-main.js",
+  "maintainers": [
+    {
+      "name": "MathJax Consortium",
+      "email": "info@mathjax.org",
+      "url": "http://www.mathjax.org"
+    }
+  ],
+  "name": "mathjax",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mathjax/MathJax.git"
+  },
+  "scripts": {
+    "clean": "npm run --silent clean:es5 && npm run --silent clean:node",
+    "clean:es5": "rm -rf es5",
+    "clean:node": "rm -rf node_modules package-lock.json",
+    "compile": "cd node_modules/mathjax-full && npm run --silent compile",
+    "components": "cd node_modules/mathjax-full && npm run --silent make-components",
+    "get-es5": "npm run --silent install:mj3 && npm run --silent move",
+    "install:all": "npm run --silent install:mj3 && npm run --silent install:mj3-deps",
+    "install:mj3": "npm install",
+    "install:mj3-deps": "cd node_modules/mathjax-full && npm install",
+    "line": "echo '--------------------------------------------'",
+    "make-es5": "npm run --silent install:all && npm run --silent compile && npm run --silent components && npm run --silent move",
+    "message": "echo \"$(tput setaf 4)${npm_package_config_message}$(tput setaf 0)\" && echo",
+    "move": "npm run --silent clean:es5 && mv node_modules/mathjax-full/es5 .",
+    "postget-es5": "npm run --silent title --mathjax:title='Cleaning Up...' && npm run --silent clean:node",
+    "postmake-es5": "npm run --silent title --mathjax:title='Cleaning Up...' && npm run --silent clean:node",
+    "precompile": "npm run --silent title --mathjax:title='Compiling MathJax...'",
+    "precomponents": "npm run --silent title --mathjax:title='Building MathJax Components...'",
+    "preget-es5": "npm run --silent clean:node",
+    "preinstall:mj3": "npm run --silent title --mathjax:title='Installing MathJax...'",
+    "preinstall:mj3-deps": "npm run --silent message --mathjax:message='Installing MathJax Dependencies...'",
+    "premake-es5": "npm run --silent clean:node",
+    "premove": "npm run --silent title --mathjax:title='Moving MathJax Components...'",
+    "test": "echo 'No tests defined'",
+    "title": "npm run --silent line && npm run --silent message --mathjax:message=\"${npm_package_config_title}\""
+  },
+  "version": "3.0.5"
+}
