@@ -378,10 +378,10 @@ class EclipticFestivalAssigner(FestivalAssigner):
           jd += MIN_DAYS_NEXT_ECLIPSE
           continue
         if abs (Graha.singleton(Graha.SUN).get_longitude(jd_eclipse_solar_end) - Graha.singleton(Graha.RAHU).get_longitude(
-            jd_eclipse_solar_end)) < 5:
-          grasta = 'rAhugrast'
+            jd_eclipse_solar_end)) < 10:
+          grasta = 'rAhumukhagrast'
         else:
-          grasta = 'kEtugrast'
+          grasta = 'rAhupucchagrast'
         solar_eclipse_str = 'sUrya-grahaNaM~(' + grasta + suff + ')'
         if self.daily_panchaangas[fday].date.get_weekday() == 0:
           solar_eclipse_str = '★cUDAmaNi-' + solar_eclipse_str
@@ -434,12 +434,12 @@ class EclipticFestivalAssigner(FestivalAssigner):
       # print '%%', jd, fday, self.date_str_to_panchaanga[fday].jd_sunrise,
       # self.date_str_to_panchaanga[fday-1].jd_sunrise, eclipse_lunar_start,
       # eclipse_lunar_end
-      
-      if Graha.singleton(Graha.MOON).get_longitude(jd_eclipse_lunar_end) < Graha.singleton(Graha.SUN).get_longitude(
-          jd_eclipse_lunar_end):
-        grasta = 'rAhugrast'
+
+      if abs (Graha.singleton(Graha.MOON).get_longitude(jd_eclipse_lunar_end) - Graha.singleton(Graha.RAHU).get_longitude(
+            jd_eclipse_lunar_end)) < 10:
+        grasta = 'rAhumukhagrast'
       else:
-        grasta = 'kEtugrast'
+        grasta = 'rAhupucchagrast'
 
       grasta += suff
 
@@ -498,7 +498,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
     GRAHA_NAMES = {Graha.VENUS: 'zukraH', Graha.MERCURY: 'budhaH', Graha.MARS: 'aGgArakaH', 
         Graha.SATURN: 'zaniH', Graha.RAHU: 'rAhuH', Graha.KETU: 'kEtuH'}
     
-    for graha in Graha.MERCURY, Graha.VENUS, Graha.MARS, Graha.SATURN, Graha.RAHU, Graha.KETU:
+    for graha in Graha.MERCURY, Graha.VENUS, Graha.MARS, Graha.SATURN, Graha.RAHU:
       transits = Graha.singleton(graha).get_transits(self.panchaanga.jd_start, jd_end, anga_type=AngaType.RASHI,
                                                            ayanaamsha_id=self.ayanaamsha_id)
       if len(transits) > 0:
