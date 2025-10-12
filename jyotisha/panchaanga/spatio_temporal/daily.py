@@ -284,8 +284,24 @@ class DailyPanchaanga(common.JsonObject):
       return None
 
   def get_interval_anga_spans(self, interval_id, anga_type):
-    interval = self.get_interval(interval_id=interval_id)
-    return (self.sunrise_day_angas.get_anga_spans_in_interval(interval=interval, anga_type=anga_type), interval)
+    if interval_id == 'प्राक्तनारुणोदयः':
+      import copy
+      SUNRISE_DAY_PADDING = 0.2 # To account for "प्राक्तनारुणोदयः" festivals etc.
+      interval = self.get_interval(interval_id=interval_id)
+      sunrise_day_angas_extended = copy.deepcopy(self.sunrise_day_angas) # Created to include arunodaya angas, and not modify the original.
+
+      if anga_type == AngaType.TITHI:
+        sunrise_day_angas_extended.tithis_with_ends = AngaSpanFinder.get_cached(ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0, anga_type=AngaType.TITHI).get_all_angas_in_period(jd1=self.jd_sunrise - SUNRISE_DAY_PADDING, jd2=self.jd_next_sunrise)
+      elif anga_type == AngaType.NAKSHATRA:
+        sunrise_day_angas_extended.nakshatras_with_ends = AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=AngaType.NAKSHATRA).get_all_angas_in_period(jd1=self.jd_sunrise - SUNRISE_DAY_PADDING, jd2=self.jd_next_sunrise)
+      elif anga_type == AngaType.YOGA:
+        sunrise_day_angas_extended.yogas_with_ends = AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=AngaType.YOGA).get_all_angas_in_period(jd1=self.jd_sunrise - SUNRISE_DAY_PADDING, jd2=self.jd_next_sunrise)
+      else:
+        logging.warning(f'Interval {interval_id} is not supported for anga type {anga_type}. Using normal sunrise to next sunrise interval.')
+      return (sunrise_day_angas_extended.get_anga_spans_in_interval(interval=interval, anga_type=anga_type), interval)
+    else:
+      interval = self.get_interval(interval_id=interval_id)
+      return (self.sunrise_day_angas.get_anga_spans_in_interval(interval=interval, anga_type=anga_type), interval)
 
   def compute_solar_day_sunset(self, previous_day_panchaanga=None):
     """Compute the solar month and day for a given Julian day at sunset.
