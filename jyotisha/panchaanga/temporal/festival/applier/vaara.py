@@ -87,13 +87,15 @@ class VaraFestivalAssigner(FestivalAssigner):
       return
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       # KRISHNA ANGARAKA CHATURDASHI
-      if self.daily_panchaangas[d].date.get_weekday() == 2 and self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise.index == 29:
-        # Double-check rule. When should the vyApti be?
+      tithi_sunrise = self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise.index
+      tithi_purvaahna_end = self.daily_panchaangas[d].sunrise_day_angas.get_anga_at_jd(jd=self.daily_panchaangas[d].day_length_based_periods.puurvaahna.jd_end, anga_type=AngaType.TITHI).index
+      if self.daily_panchaangas[d].date.get_weekday() == 2 and (tithi_sunrise == 29 or tithi_purvaahna_end == 29):
+        # Double-check rule. When should the vyApti be? Since Smriti Muktaphalam says सदैव वा, we can at least stretch to the end of purvAahna.
         self.panchaanga.add_festival(fest_id='kRSNAGgAraka-caturdazI-puNyakAlaH or yamatarpaNam', date=self.daily_panchaangas[d].date)
         if self.daily_panchaangas[d].lunar_date.month.index == 1:
           self.panchaanga.add_festival(fest_id='pizAcamOcanam', date=self.daily_panchaangas[d].date)
 
-  def assign_tithi_vara_yoga_budhaaShTamii(self):
+    def assign_tithi_vara_yoga_budhaaShTamii(self):
     if 'budhASTamI' not in self.rules_collection.name_to_rule:
       return 
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
