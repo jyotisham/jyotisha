@@ -21,7 +21,7 @@ class VaraFestivalAssigner(FestivalAssigner):
     self.assign_tithi_vara_yoga_kRSNAGgAraka()
     self.assign_vara_yoga_yoga_vratam()
     self.assign_tithi_vara_yoga_budhaaShTamii()
-
+    self.assign_vishesha_mahashivaratri()
 
   def assign_bhriguvara_subrahmanya_vratam(self):
     festival_name = 'bhRguvAra-subrahmaNya-vratam'
@@ -95,7 +95,26 @@ class VaraFestivalAssigner(FestivalAssigner):
         if self.daily_panchaangas[d].lunar_date.month.index == 1:
           self.panchaanga.add_festival(fest_id='pizAcamOcanam', date=self.daily_panchaangas[d].date)
 
-    def assign_tithi_vara_yoga_budhaaShTamii(self):
+  def assign_vishesha_mahashivaratri(self):
+    if 'mahAzivarAtriH' not in self.rules_collection.name_to_rule:
+      return
+    mahashivaratri_days = list(self.panchaanga.festival_id_to_days['mahAzivarAtriH']) 
+    for day in mahashivaratri_days:
+      d = int(day - self.daily_panchaangas[0].date)
+      yoga_sunrise = self.daily_panchaangas[d].sunrise_day_angas.get_anga_at_jd(jd=self.daily_panchaangas[d].jd_sunrise, anga_type=AngaType.YOGA).index
+      yoga_next_sunrise = self.daily_panchaangas[d+1].sunrise_day_angas.get_anga_at_jd(jd=self.daily_panchaangas[d+1].jd_sunrise, anga_type=AngaType.YOGA).index
+      has_shiva_yoga = 20 in [yoga_sunrise, yoga_next_sunrise]
+      mahashivaratri_weekday = self.daily_panchaangas[d].date.get_weekday()
+      fdate = self.daily_panchaangas[d].date
+
+      if mahashivaratri_weekday == 2:
+        self.panchaanga.delete_festival_date(fest_id='mahAzivarAtriH', date=fdate)
+        self.panchaanga.add_festival(fest_id='★bhaumavAra-mahAzivarAtriH' if has_shiva_yoga else 'bhaumavAra-mahAzivarAtriH', date=fdate)
+      elif mahashivaratri_weekday == 0: 
+        self.panchaanga.delete_festival_date(fest_id='mahAzivarAtriH', date=fdate)
+        self.panchaanga.add_festival(fest_id='★ravivAra-mahAzivarAtriH' if has_shiva_yoga else 'ravivAra-mahAzivarAtriH', date=fdate)
+
+  def assign_tithi_vara_yoga_budhaaShTamii(self):
     if 'budhASTamI' not in self.rules_collection.name_to_rule:
       return 
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
