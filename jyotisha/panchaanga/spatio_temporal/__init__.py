@@ -77,6 +77,17 @@ class City(JsonObject):
     df = pandas.read_csv(os.path.join(os.path.dirname(__file__), "data", "places_lat_lon_tz_db.tsv"), sep="\t", index_col="Name", keep_default_na=False)
     city = City(name=name, name_hk=df.at[name, "saMskRta-nAma"], latitude=df.at[name, "Lat"], longitude=df.at[name, "Long"], timezone=df.at[name, "Timezone"])
     return city
+  
+  @classmethod
+  def get_city_df(cls):
+    import pandas
+    if not hasattr(cls, "_city_df"):
+        cls._city_df = pandas.read_csv(
+            os.path.join(os.path.dirname(__file__), "data", "places_lat_lon_tz_db.tsv"),
+            sep="\t",
+            keep_default_na=False,
+        )
+    return cls._city_df.copy()
 
   def get_transliterated_name(self, script):
     if self.name_hk is not None and self.name_hk != "":
