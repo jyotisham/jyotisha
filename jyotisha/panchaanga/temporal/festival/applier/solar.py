@@ -93,8 +93,23 @@ class SolarFestivalAssigner(FestivalAssigner):
             fday = d # Previous day only for Kataka Sankramana
             is_puurva_half_day = jd_transition < self.daily_panchaangas[d].day_length_based_periods.puurvaahna.jd_end
           else:
-            fday = d + 1
-            is_puurva_half_day = True
+            if jd_transition > self.daily_panchaangas[d].day_length_based_periods.fifteen_fold_division.vaidhaatra.jd_end:
+              fday = d + 1
+              is_puurva_half_day = True
+            else:
+              # Decide based on tithi at sunset being same as tithi at transit
+              if sankranti_id % 3 == 0: 
+                fday = d + 1
+                is_puurva_half_day = True
+              else:
+                tithi_sunset = self.daily_panchaangas[d].sunrise_day_angas.get_anga_at_jd(jd=self.daily_panchaangas[d].jd_sunset, anga_type=zodiac.AngaType.TITHI).index
+                tithi_transit = self.daily_panchaangas[d].sunrise_day_angas.get_anga_at_jd(jd=jd_transition, anga_type=zodiac.AngaType.TITHI).index
+                if tithi_sunset == tithi_transit:
+                  fday = d
+                  is_puurva_half_day = False
+                else:
+                  fday = d + 1
+                  is_puurva_half_day = True
         
         if is_puurva_half_day:
           half_day = 'pUrvAhNa'
