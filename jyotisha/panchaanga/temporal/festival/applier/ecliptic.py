@@ -62,7 +62,6 @@ class EclipticFestivalAssigner(FestivalAssigner):
       punya_kaala_end_jd = jd_transition + PUNYA_KAALA[sankranti_id][1] * 1/60
 
       if jd_transition < self.daily_panchaangas[d].day_length_based_periods.fifteen_fold_division.aahneya.jd_end:
-        logging.debug((d, sankranti_id))
         fday = d
         is_puurva_half_day = jd_transition < self.daily_panchaangas[d].day_length_based_periods.puurvaahna.jd_end
         if sankranti_id == 10: # Uttarayana
@@ -78,24 +77,22 @@ class EclipticFestivalAssigner(FestivalAssigner):
           is_puurva_half_day = jd_transition < self.daily_panchaangas[d].day_length_based_periods.puurvaahna.jd_end
         else:
           if jd_transition > self.daily_panchaangas[d].day_length_based_periods.fifteen_fold_division.vaidhaatra.jd_end:
-            logging.debug('Crossed vaidhaatra')
+            # logging.debug('Crossed vaidhaatra')
             fday = d + 1
             is_puurva_half_day = True
           else:
             # Decide based on tithi at sunset being same as tithi at transit
-            logging.debug('Deciding based on tithi at sunset and transit')
+            # logging.debug('Deciding based on tithi at sunset and transit')
             if sankranti_id % 3 == 0: 
               fday = d + 1
               is_puurva_half_day = True
             else:
-              logging.debug(d)
               tithi_sunset = self.daily_panchaangas[d].sunrise_day_angas.get_anga_at_jd(jd=self.daily_panchaangas[d].jd_sunset, anga_type=zodiac.AngaType.TITHI).index
               tithi_transit = self.daily_panchaangas[d].sunrise_day_angas.get_anga_at_jd(jd=jd_transition, anga_type=zodiac.AngaType.TITHI).index
               if tithi_sunset == tithi_transit:
                 fday = d
                 is_puurva_half_day = False
               else:
-                logging.debug(d)
                 fday = d + 1
                 is_puurva_half_day = True
 
