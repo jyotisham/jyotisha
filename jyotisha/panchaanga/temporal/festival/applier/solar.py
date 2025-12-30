@@ -369,6 +369,10 @@ class SolarFestivalAssigner(FestivalAssigner):
         if show_debug_info:
           msg = ' + '.join(['%s %d' % (intersect_list[i][0], intersect_list[i][1]) for i in range(len(intersect_list))])
           logging.debug('No %s involving %s in span %s!' % (msg, yoga_name, Interval(jd_start=jd_start_in, jd_end=jd_end_in)))
+      elif (jd_end - jd_start) < 1/1800:  # Less than 1 Kalā
+        if show_debug_info:
+          msg = ' + '.join(['%s %d' % (intersect_list[i][0], intersect_list[i][1]) for i in range(len(intersect_list))])
+          logging.debug('Not assigning %s involving %s in span %s due to extremely short duration (%s seconds)!' % (msg, yoga_name, Interval(jd_start=jd_start_in, jd_end=jd_end_in), (jd_end - jd_start) * 24 * 60 * 60))
       else:
         fday = int(floor(jd_start) - floor(self.daily_panchaangas[0].julian_day_start))
         if jd_start < self.daily_panchaangas[fday].jd_sunrise:
