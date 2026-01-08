@@ -44,10 +44,10 @@ def dump_ics_md_pair(panchaanga, period_str):
   monthly_md_file = MdFile(file_path=monthly_file_path)
   metadata_helper.set_title_from_filename(md_file=monthly_md_file, dry_run=False, transliteration_target=None)
   monthly_md_file.split_to_bits(source_script=None, dry_run=False, title_index_pattern=None)
-  library.apply_function(fn=MdFile.split_to_bits, dir_path=monthly_dir, frontmatter_type=MdFile.TOML, source_script=None, dry_run=False, title_index_pattern=None)
+  library.apply_function(fn=MdFile.split_to_bits, dir_path=monthly_dir, source_script=None, dry_run=False, title_index_pattern=None)
   logging.info("%s exists? %s", monthly_dir, os.path.exists(monthly_dir))
 
-  library.fix_index_files(dir_path=output_dir, transliteration_target=None, dry_run=False)
+  arrangement.fix_index_files(dir_path=output_dir, transliteration_target=None, dry_run=False)
 
 
 def dump_detailed(year, city, year_type, computation_system=ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA_AMAANTA__CHITRA_180, allow_precomputed=False):
