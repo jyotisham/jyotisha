@@ -314,6 +314,8 @@ class TithiFestivalAssigner(FestivalAssigner):
             self.panchaanga.add_festival(fest_id='kaizika-EkAdazI', date=self.daily_panchaangas[vaishnava_ekaadashii_fday].date)
           if int(day_panchaanga.lunar_date.month.index) == 12 and ekaadashii_paksha == 'shukla':
             self.panchaanga.add_festival(fest_id='raMgabharI_EkAdazI', date=self.daily_panchaangas[smaarta_ekaadashii_fday].date)
+          if int(day_panchaanga.lunar_date.month.index) == 4 and ekaadashii_paksha == 'shukla':
+            self.panchaanga.add_festival(fest_id='ASADhI-vArI', date=self.daily_panchaangas[smaarta_ekaadashii_fday].date)
 
           # Harivasara Computation
           def f(x):

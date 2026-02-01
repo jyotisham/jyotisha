@@ -205,6 +205,11 @@
           "name": "temples/Andhra"
         },
         {
+          "base_url": "https://github.com/jyotisham/adyatithi/blob/master/temples/Maharashtra",
+          "jsonClass": "RulesRepo",
+          "name": "temples/Maharashtra"
+        },
+        {
           "base_url": "https://github.com/jyotisham/adyatithi/blob/master/temples/Kerala",
           "jsonClass": "RulesRepo",
           "name": "temples/Kerala"
