@@ -9,7 +9,7 @@
     <meta name="MobileOptimized" content="320">
 
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.83.1" />
+    <meta name="generator" content="Hugo 0.143.0">
     
     
       <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
@@ -18,28 +18,37 @@
     <link href="/jyotisha/software/for_users/" rel="alternate" type="application/rss+xml" title="ज्योतिषम् py" />
     <link href="/jyotisha/software/for_users/" rel="feed" type="application/rss+xml" title="ज्योतिषम् py" />
 
-    <meta property="og:title" content="For users" />
-<meta property="og:description" content="For detailed examples and help, please see individual module files - especially test files in this package.
-Installation or upgrade:  Install the pyswisseph library specially as described in the contribution section. Install the jyotisha package  (Prefer this to get the latest code:)sudo pip install git&#43;https://github.com/jyotisham/jyotisha/@master -U sudo pip install jyotisha -U   Web.  Usage Simple invocation  The simplest way to invoke the code and generate calendars in a variety of forms (icalendar/ ics, tex [which can then be converted to pdf], markdown [which can then be presented as html]) is to use python invocations of the type seen in:  tests such as those in jyotisha_tests/spatio_temporal/writer Calendar generation projects such as those under this folder - jyotisha/panchaanga/writer/generation_project   Command line usage - can be invoked via some shell scripts at karthik&rsquo;s panchaanga repo." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://jyotisham.github.io/jyotisha/software/for_users/" /><meta property="article:section" content="software" />
+    <meta property="og:url" content="https://jyotisham.github.io/jyotisha/software/for_users/">
+  <meta property="og:site_name" content="ज्योतिषम् py">
+  <meta property="og:title" content="For users">
+  <meta property="og:description" content="For detailed examples and help, please see individual module files - especially test files in this package.
+Installation or upgrade: Install the pyswisseph library specially as described in the contribution section. Install the jyotisha package (Prefer this to get the latest code:)sudo pip install git&#43;https://github.com/jyotisham/jyotisha/@master -U sudo pip install jyotisha -U Web. Usage Simple invocation The simplest way to invoke the code and generate calendars in a variety of forms (icalendar/ ics, tex [which can then be converted to pdf], markdown [which can then be presented as html]) is to use python invocations of the type seen in: tests such as those in jyotisha_tests/spatio_temporal/writer Calendar generation projects such as those under this folder - jyotisha/panchaanga/writer/generation_project Command line usage - can be invoked via some shell scripts at karthik’s panchaanga repo. But these often go out of date - so you might need to debug them. See this issue. Sample code to output panchaanga # Produce a panchaanga from jyotisha.panchaanga.spatio_temporal import City, annual, periodical from jyotisha.panchaanga.temporal import ComputationSystem from jyotisha.panchaanga.temporal.time import Date city = City(&#39;Chennai&#39;, &#34;13:05:24&#34;, &#34;80:16:12&#34;, &#34;Asia/Calcutta&#34;) panchaanga = annual.get_panchaanga_for_civil_year(city=city, year=2021, computation_system=ComputationSystem.TEST, allow_precomputed=False) ## Markdown from jyotisha.panchaanga.writer import md from doc_curation.md.file import MdFile md_file = MdFile(file_path=&#34;/some/path.md&#34;) md_file.dump_to_file(metadata={&#34;title&#34;: str(2019)}, content=md.make_md(panchaanga=panchaanga), dry_run=False) ## Tex from jyotisha.panchaanga.writer.tex.daily_tex_writer import emit from indic_transliteration import sanscript emit(panchaanga, output_stream=open(&#34;/some/path.tex&#34;, &#39;w&#39;), languages=[&#34;sa&#34;, &#34;ta&#34;], scripts=[sanscript.DEVANAGARI, sanscript.TAMIL]) ## ICS from jyotisha.panchaanga.writer import ics ics_calendar = ics.compute_calendar(panchaanga) ics.write_to_file(ics_calendar, &#34;/some/path.ics&#34;) Note that there are several “ComputationalSystem” options.
+Please see jyotisha/panchaanga/temporal/init.py .
+Particularly, lunar month assignment can be sidereal (luni-solar) or tropical, pUrNImAnta or amAnta.
+One can also select the festival cateogries to enable or disable; pick a different “ayanAMsha” (for setting naxatra boundaries).">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="software">
 
-
-
-<meta itemprop="name" content="For users">
-<meta itemprop="description" content="For detailed examples and help, please see individual module files - especially test files in this package.
-Installation or upgrade:  Install the pyswisseph library specially as described in the contribution section. Install the jyotisha package  (Prefer this to get the latest code:)sudo pip install git&#43;https://github.com/jyotisham/jyotisha/@master -U sudo pip install jyotisha -U   Web.  Usage Simple invocation  The simplest way to invoke the code and generate calendars in a variety of forms (icalendar/ ics, tex [which can then be converted to pdf], markdown [which can then be presented as html]) is to use python invocations of the type seen in:  tests such as those in jyotisha_tests/spatio_temporal/writer Calendar generation projects such as those under this folder - jyotisha/panchaanga/writer/generation_project   Command line usage - can be invoked via some shell scripts at karthik&rsquo;s panchaanga repo.">
-
-<meta itemprop="wordCount" content="360">
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="For users"/>
-<meta name="twitter:description" content="For detailed examples and help, please see individual module files - especially test files in this package.
-Installation or upgrade:  Install the pyswisseph library specially as described in the contribution section. Install the jyotisha package  (Prefer this to get the latest code:)sudo pip install git&#43;https://github.com/jyotisham/jyotisha/@master -U sudo pip install jyotisha -U   Web.  Usage Simple invocation  The simplest way to invoke the code and generate calendars in a variety of forms (icalendar/ ics, tex [which can then be converted to pdf], markdown [which can then be presented as html]) is to use python invocations of the type seen in:  tests such as those in jyotisha_tests/spatio_temporal/writer Calendar generation projects such as those under this folder - jyotisha/panchaanga/writer/generation_project   Command line usage - can be invoked via some shell scripts at karthik&rsquo;s panchaanga repo."/>
+  <meta itemprop="name" content="For users">
+  <meta itemprop="description" content="For detailed examples and help, please see individual module files - especially test files in this package.
+Installation or upgrade: Install the pyswisseph library specially as described in the contribution section. Install the jyotisha package (Prefer this to get the latest code:)sudo pip install git&#43;https://github.com/jyotisham/jyotisha/@master -U sudo pip install jyotisha -U Web. Usage Simple invocation The simplest way to invoke the code and generate calendars in a variety of forms (icalendar/ ics, tex [which can then be converted to pdf], markdown [which can then be presented as html]) is to use python invocations of the type seen in: tests such as those in jyotisha_tests/spatio_temporal/writer Calendar generation projects such as those under this folder - jyotisha/panchaanga/writer/generation_project Command line usage - can be invoked via some shell scripts at karthik’s panchaanga repo. But these often go out of date - so you might need to debug them. See this issue. Sample code to output panchaanga # Produce a panchaanga from jyotisha.panchaanga.spatio_temporal import City, annual, periodical from jyotisha.panchaanga.temporal import ComputationSystem from jyotisha.panchaanga.temporal.time import Date city = City(&#39;Chennai&#39;, &#34;13:05:24&#34;, &#34;80:16:12&#34;, &#34;Asia/Calcutta&#34;) panchaanga = annual.get_panchaanga_for_civil_year(city=city, year=2021, computation_system=ComputationSystem.TEST, allow_precomputed=False) ## Markdown from jyotisha.panchaanga.writer import md from doc_curation.md.file import MdFile md_file = MdFile(file_path=&#34;/some/path.md&#34;) md_file.dump_to_file(metadata={&#34;title&#34;: str(2019)}, content=md.make_md(panchaanga=panchaanga), dry_run=False) ## Tex from jyotisha.panchaanga.writer.tex.daily_tex_writer import emit from indic_transliteration import sanscript emit(panchaanga, output_stream=open(&#34;/some/path.tex&#34;, &#39;w&#39;), languages=[&#34;sa&#34;, &#34;ta&#34;], scripts=[sanscript.DEVANAGARI, sanscript.TAMIL]) ## ICS from jyotisha.panchaanga.writer import ics ics_calendar = ics.compute_calendar(panchaanga) ics.write_to_file(ics_calendar, &#34;/some/path.ics&#34;) Note that there are several “ComputationalSystem” options.
+Please see jyotisha/panchaanga/temporal/init.py .
+Particularly, lunar month assignment can be sidereal (luni-solar) or tropical, pUrNImAnta or amAnta.
+One can also select the festival cateogries to enable or disable; pick a different “ayanAMsha” (for setting naxatra boundaries).">
+  <meta itemprop="wordCount" content="360">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="For users">
+  <meta name="twitter:description" content="For detailed examples and help, please see individual module files - especially test files in this package.
+Installation or upgrade: Install the pyswisseph library specially as described in the contribution section. Install the jyotisha package (Prefer this to get the latest code:)sudo pip install git&#43;https://github.com/jyotisham/jyotisha/@master -U sudo pip install jyotisha -U Web. Usage Simple invocation The simplest way to invoke the code and generate calendars in a variety of forms (icalendar/ ics, tex [which can then be converted to pdf], markdown [which can then be presented as html]) is to use python invocations of the type seen in: tests such as those in jyotisha_tests/spatio_temporal/writer Calendar generation projects such as those under this folder - jyotisha/panchaanga/writer/generation_project Command line usage - can be invoked via some shell scripts at karthik’s panchaanga repo. But these often go out of date - so you might need to debug them. See this issue. Sample code to output panchaanga # Produce a panchaanga from jyotisha.panchaanga.spatio_temporal import City, annual, periodical from jyotisha.panchaanga.temporal import ComputationSystem from jyotisha.panchaanga.temporal.time import Date city = City(&#39;Chennai&#39;, &#34;13:05:24&#34;, &#34;80:16:12&#34;, &#34;Asia/Calcutta&#34;) panchaanga = annual.get_panchaanga_for_civil_year(city=city, year=2021, computation_system=ComputationSystem.TEST, allow_precomputed=False) ## Markdown from jyotisha.panchaanga.writer import md from doc_curation.md.file import MdFile md_file = MdFile(file_path=&#34;/some/path.md&#34;) md_file.dump_to_file(metadata={&#34;title&#34;: str(2019)}, content=md.make_md(panchaanga=panchaanga), dry_run=False) ## Tex from jyotisha.panchaanga.writer.tex.daily_tex_writer import emit from indic_transliteration import sanscript emit(panchaanga, output_stream=open(&#34;/some/path.tex&#34;, &#39;w&#39;), languages=[&#34;sa&#34;, &#34;ta&#34;], scripts=[sanscript.DEVANAGARI, sanscript.TAMIL]) ## ICS from jyotisha.panchaanga.writer import ics ics_calendar = ics.compute_calendar(panchaanga) ics.write_to_file(ics_calendar, &#34;/some/path.ics&#34;) Note that there are several “ComputationalSystem” options.
+Please see jyotisha/panchaanga/temporal/init.py .
+Particularly, lunar month assignment can be sidereal (luni-solar) or tropical, pUrNImAnta or amAnta.
+One can also select the festival cateogries to enable or disable; pick a different “ayanAMsha” (for setting naxatra boundaries).">
 <script type="text/javascript">
     
     let baseURL = "https:\/\/jyotisham.github.io\/jyotisha\/";
     let basePath = "/" + baseURL.split("/").slice(3).join("/");
-    let siteParams = JSON.parse("{\u0022contactlink\u0022:\u0022https:\/\/github.com\/jyotisham\/jyotisha\/issues\/new\u0022,\u0022disqusshortcode\u0022:\u0022snaskrit-coders-site\u0022,\u0022env\u0022:\u0022production\u0022,\u0022githubeditmepathbase\u0022:\u0022https:\/\/github.com\/jyotisham\/jyotisha\/edit\/generated-output\/\u0022,\u0022mainSections\u0022:[\u0022output\u0022],\u0022mainsections\u0022:[\u0022output\u0022]}");
+    let siteParams = JSON.parse("{\u0022contactlink\u0022:\u0022https:\/\/github.com\/jyotisham\/jyotisha\/issues\/new\u0022,\u0022disqusshortcode\u0022:\u0022snaskrit-coders-site\u0022,\u0022env\u0022:\u0022production\u0022,\u0022githubeditmepathbase\u0022:\u0022https:\/\/github.com\/jyotisham\/jyotisha\/edit\/generated-output\/\u0022}");
     let pageDefaultsList = JSON.parse("[{\u0022scope\u0022:{\u0022pathPrefix\u0022:\u0022\u0022},\u0022values\u0022:{\u0022comments\u0022:true,\u0022footernav\u0022:\u0022top_bar\u0022,\u0022layout\u0022:\u0022page\u0022,\u0022search\u0022:true,\u0022sidebar\u0022:\u0022home_sidebar\u0022,\u0022topnav\u0022:\u0022top_bar\u0022,\u0022unicode_script\u0022:\u0022devanagari\u0022}}]");
     let sidebarsData = JSON.parse("{\u0022home_sidebar\u0022:{\u0022contents\u0022:[{\u0022url\u0022:\u0022recdir:\/\/\u0022},{\u0022contents\u0022:[{\u0022title\u0022:\u0022ज्योतिषसाङ्गणकानां जालक्षेत्रम्\u0022,\u0022url\u0022:\u0022https:\/\/jyotisham.github.io\/\u0022},{\u0022title\u0022:\u0022Software survey\u0022,\u0022url\u0022:\u0022https:\/\/jyotisham.github.io\/software-survey\u0022},{\u0022title\u0022:\u0022सङ्गणकादेशस्रोतः\u0022,\u0022url\u0022:\u0022https:\/\/github.com\/sanskrit-coders\/\u0022},{\u0022title\u0022:\u0022ज्योतिषे विश्वासः\u0022,\u0022url\u0022:\u0022https:\/\/vvasuki.github.io\/jyotiSham\/\u0022}],\u0022title\u0022:\u0022प्रकीर्णम्\u0022}],\u0022title\u0022:\u0022भागाः\u0022},\u0022top_bar\u0022:[{\u0022title\u0022:\u0022म\\u003ci class=\\\u0022fas fa-random\\\u0022\\u003e\\u003c\/i\\u003e\u0022,\u0022url\u0022:\u0022\/mantraH\/random\/mantraH\/\u0022},{\u0022title\u0022:\u0022स\\u003ci class=\\\u0022fas fa-random\\\u0022\\u003e\\u003c\/i\\u003e\u0022,\u0022url\u0022:\u0022\/mantraH\/random\/sAma\/\u0022}]}");
     
@@ -144,7 +153,7 @@ Installation or upgrade:  Install the pyswisseph library specially as described 
     <nav role="navigation" class="col">
       <div id="div_top_bar" class="row">
         <div class="col-md-3 justify-content-start">
-          <a  href="/jyotisha/" class="btn col border">
+          <a  href="/" class="btn col border">
             <i class="fas fa-gopuram ">ज्योतिषम् py <br/> For users</i>
           </a>
         </div>
@@ -362,30 +371,30 @@ Installation or upgrade:  Install the pyswisseph library specially as described 
 <li>Command line usage - can be invoked via some shell scripts at <a href="https://github.com/karthikraman/panchangam">karthik&rsquo;s panchaanga repo</a>. But these often go out of date - so you might need to debug them. See <a href="https://github.com/jyotisham/jyotisha/issues/10">this issue</a>.</li>
 </ul>
 <h4 id="sample-code-to-output-panchaanga">Sample code to output panchaanga</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Produce a panchaanga</span>
-<span style="color:#f92672">from</span> jyotisha.panchaanga.spatio_temporal <span style="color:#f92672">import</span> City, annual, periodical
-<span style="color:#f92672">from</span> jyotisha.panchaanga.temporal <span style="color:#f92672">import</span> ComputationSystem
-<span style="color:#f92672">from</span> jyotisha.panchaanga.temporal.time <span style="color:#f92672">import</span> Date
-city <span style="color:#f92672">=</span> City(<span style="color:#e6db74">&#39;Chennai&#39;</span>, <span style="color:#e6db74">&#34;13:05:24&#34;</span>, <span style="color:#e6db74">&#34;80:16:12&#34;</span>, <span style="color:#e6db74">&#34;Asia/Calcutta&#34;</span>)
-panchaanga <span style="color:#f92672">=</span> annual<span style="color:#f92672">.</span>get_panchaanga_for_civil_year(city<span style="color:#f92672">=</span>city, year<span style="color:#f92672">=</span><span style="color:#ae81ff">2021</span>, computation_system<span style="color:#f92672">=</span>ComputationSystem<span style="color:#f92672">.</span>TEST, allow_precomputed<span style="color:#f92672">=</span>False)
-
-<span style="color:#75715e">## Markdown</span>
-<span style="color:#f92672">from</span> jyotisha.panchaanga.writer <span style="color:#f92672">import</span> md
-<span style="color:#f92672">from</span> doc_curation.md.file <span style="color:#f92672">import</span> MdFile
-md_file <span style="color:#f92672">=</span> MdFile(file_path<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/some/path.md&#34;</span>)
-md_file<span style="color:#f92672">.</span>dump_to_file(metadata<span style="color:#f92672">=</span>{<span style="color:#e6db74">&#34;title&#34;</span>: str(<span style="color:#ae81ff">2019</span>)}, content<span style="color:#f92672">=</span>md<span style="color:#f92672">.</span>make_md(panchaanga<span style="color:#f92672">=</span>panchaanga), dry_run<span style="color:#f92672">=</span>False)
-
-<span style="color:#75715e">## Tex</span>
-<span style="color:#f92672">from</span> jyotisha.panchaanga.writer.tex.daily_tex_writer <span style="color:#f92672">import</span> emit
-<span style="color:#f92672">from</span> indic_transliteration <span style="color:#f92672">import</span> sanscript
-emit(panchaanga,
-     output_stream<span style="color:#f92672">=</span>open(<span style="color:#e6db74">&#34;/some/path.tex&#34;</span>, <span style="color:#e6db74">&#39;w&#39;</span>), languages<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#34;sa&#34;</span>, <span style="color:#e6db74">&#34;ta&#34;</span>], scripts<span style="color:#f92672">=</span>[sanscript<span style="color:#f92672">.</span>DEVANAGARI, sanscript<span style="color:#f92672">.</span>TAMIL])
-
-<span style="color:#75715e">## ICS</span>
-<span style="color:#f92672">from</span> jyotisha.panchaanga.writer <span style="color:#f92672">import</span> ics
-ics_calendar <span style="color:#f92672">=</span> ics<span style="color:#f92672">.</span>compute_calendar(panchaanga)
-ics<span style="color:#f92672">.</span>write_to_file(ics_calendar, <span style="color:#e6db74">&#34;/some/path.ics&#34;</span>)
-</code></pre></div><p>Note that there are several &ldquo;ComputationalSystem&rdquo; options.<br>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Produce a panchaanga</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> jyotisha.panchaanga.spatio_temporal <span style="color:#f92672">import</span> City, annual, periodical
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> jyotisha.panchaanga.temporal <span style="color:#f92672">import</span> ComputationSystem
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> jyotisha.panchaanga.temporal.time <span style="color:#f92672">import</span> Date
+</span></span><span style="display:flex;"><span>city <span style="color:#f92672">=</span> City(<span style="color:#e6db74">&#39;Chennai&#39;</span>, <span style="color:#e6db74">&#34;13:05:24&#34;</span>, <span style="color:#e6db74">&#34;80:16:12&#34;</span>, <span style="color:#e6db74">&#34;Asia/Calcutta&#34;</span>)
+</span></span><span style="display:flex;"><span>panchaanga <span style="color:#f92672">=</span> annual<span style="color:#f92672">.</span>get_panchaanga_for_civil_year(city<span style="color:#f92672">=</span>city, year<span style="color:#f92672">=</span><span style="color:#ae81ff">2021</span>, computation_system<span style="color:#f92672">=</span>ComputationSystem<span style="color:#f92672">.</span>TEST, allow_precomputed<span style="color:#f92672">=</span><span style="color:#66d9ef">False</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## Markdown</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> jyotisha.panchaanga.writer <span style="color:#f92672">import</span> md
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> doc_curation.md.file <span style="color:#f92672">import</span> MdFile
+</span></span><span style="display:flex;"><span>md_file <span style="color:#f92672">=</span> MdFile(file_path<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/some/path.md&#34;</span>)
+</span></span><span style="display:flex;"><span>md_file<span style="color:#f92672">.</span>dump_to_file(metadata<span style="color:#f92672">=</span>{<span style="color:#e6db74">&#34;title&#34;</span>: str(<span style="color:#ae81ff">2019</span>)}, content<span style="color:#f92672">=</span>md<span style="color:#f92672">.</span>make_md(panchaanga<span style="color:#f92672">=</span>panchaanga), dry_run<span style="color:#f92672">=</span><span style="color:#66d9ef">False</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## Tex</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> jyotisha.panchaanga.writer.tex.daily_tex_writer <span style="color:#f92672">import</span> emit
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> indic_transliteration <span style="color:#f92672">import</span> sanscript
+</span></span><span style="display:flex;"><span>emit(panchaanga,
+</span></span><span style="display:flex;"><span>     output_stream<span style="color:#f92672">=</span>open(<span style="color:#e6db74">&#34;/some/path.tex&#34;</span>, <span style="color:#e6db74">&#39;w&#39;</span>), languages<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#34;sa&#34;</span>, <span style="color:#e6db74">&#34;ta&#34;</span>], scripts<span style="color:#f92672">=</span>[sanscript<span style="color:#f92672">.</span>DEVANAGARI, sanscript<span style="color:#f92672">.</span>TAMIL])
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## ICS</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> jyotisha.panchaanga.writer <span style="color:#f92672">import</span> ics
+</span></span><span style="display:flex;"><span>ics_calendar <span style="color:#f92672">=</span> ics<span style="color:#f92672">.</span>compute_calendar(panchaanga)
+</span></span><span style="display:flex;"><span>ics<span style="color:#f92672">.</span>write_to_file(ics_calendar, <span style="color:#e6db74">&#34;/some/path.ics&#34;</span>)
+</span></span></code></pre></div><p>Note that there are several &ldquo;ComputationalSystem&rdquo; options.<br>
 Please see jyotisha/panchaanga/temporal/<strong>init</strong>.py .<br>
 Particularly, lunar month assignment can be sidereal (luni-solar) or tropical, pUrNImAnta or amAnta.<br>
 One can also select the festival cateogries to enable or disable; pick a different &ldquo;ayanAMsha&rdquo; (for setting naxatra boundaries).</p>
@@ -474,7 +483,7 @@ One can also select the festival cateogries to enable or disable; pick a differe
     <a class="btn btn-secondary" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
     <div class="btn small border">
       
-      <a href="https://github.com/jyotisham/jyotisha/actions"><img src=""> Built </a> on 2026 Feb 1 11:26:55 UTC. (<a href="http://google.com/search?q=11%3a26%3a55%20UTC to IST">IST</a>)
+      <a href="https://github.com/jyotisham/jyotisha/actions"><img src=""> Built </a> on 2026 Feb 1 11:39:04 UTC. (<a href="http://google.com/search?q=11%3a39%3a04%20UTC to IST">IST</a>)
     </div>
   </div>
 </footer>
