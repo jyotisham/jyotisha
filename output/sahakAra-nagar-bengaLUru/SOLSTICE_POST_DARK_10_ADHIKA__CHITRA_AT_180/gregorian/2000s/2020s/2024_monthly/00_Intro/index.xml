@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#43;00 Intro on ज्योतिषम् py</title>
+    <link>https://jyotisham.github.io/jyotisha/output/sahakAra-nagar-bengaLUru/SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_AT_180/gregorian/2000s/2020s/2024_monthly/00_Intro/</link>
+    <description>Recent content in &#43;00 Intro on ज्योतिषम् py</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://jyotisham.github.io/jyotisha/output/sahakAra-nagar-bengaLUru/SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_AT_180/gregorian/2000s/2020s/2024_monthly/00_Intro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Computation parameters</title>
+      <link>https://jyotisham.github.io/jyotisha/output/sahakAra-nagar-bengaLUru/SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_AT_180/gregorian/2000s/2020s/2024_monthly/00_Intro/Computation_parameters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jyotisham.github.io/jyotisha/output/sahakAra-nagar-bengaLUru/SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_AT_180/gregorian/2000s/2020s/2024_monthly/00_Intro/Computation_parameters/</guid>
+      <description> 🌏क्षेत्रम् (सहकार-नगरम्, कल्याणपुरी)  Basic parameters lunar_month_assigner_type = &amp;quot;SOLSTICE_POST_DARK_10_ADHIKA&amp;quot; ayanaamsha_id = &amp;quot;CHITRA_AT_180&amp;quot; jsonClass = &amp;quot;ComputationSystem&amp;quot; [graha_lopa_measures] jsonClass = &amp;quot;GrahaLopaMeasures&amp;quot; [graha_lopa_measures.graha_id_to_lopa_measure] jupiter = 11 venus = 9 mercury = 13 mars = 17 saturn = 15 Event options aparaahna_as_second_half = true prefer_eight_fold_day_division = true julian_handling = &amp;quot;converted to Gregorian&amp;quot; jsonClass = &amp;quot;FestivalOptions&amp;quot;  Repos: gRhya/general, gRhya/Apastamba, luno-tropical/smArta  </description>
+    </item>
+    
+    <item>
+      <title>Related files</title>
+      <link>https://jyotisham.github.io/jyotisha/output/sahakAra-nagar-bengaLUru/SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_AT_180/gregorian/2000s/2020s/2024_monthly/00_Intro/Related_files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jyotisham.github.io/jyotisha/output/sahakAra-nagar-bengaLUru/SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_AT_180/gregorian/2000s/2020s/2024_monthly/00_Intro/Related_files/</guid>
+      <description> ics  </description>
+    </item>
+    
+  </channel>
+</rss>

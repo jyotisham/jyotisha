@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#43;Software on ज्योतिषम् py</title>
+    <link>https://jyotisham.github.io/jyotisha/software/</link>
+    <description>Recent content in &#43;Software on ज्योतिषम् py</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://jyotisham.github.io/jyotisha/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contributing</title>
+      <link>https://jyotisham.github.io/jyotisha/software/contributing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jyotisham.github.io/jyotisha/software/contributing/</guid>
+      <description>Contributions welcome! Please see some basic comments (pertaining to the time format used internally, API layers required) in the base jyotisha package though.
+Testing and autotesting Every push to this repository SHOULD pass tests. We should have a rich, functional set of tests at various levels. Saves everyone&amp;rsquo;s time.
+You can see the status of failing tests and builds at https://github.com/jyotisham/jyotisha/actions . PS: You can probably subscribe to get email notification on failed workflow runs as well - I&amp;rsquo;m getting these.</description>
+    </item>
+    
+    <item>
+      <title>For users</title>
+      <link>https://jyotisham.github.io/jyotisha/software/for_users/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jyotisham.github.io/jyotisha/software/for_users/</guid>
+      <description>For detailed examples and help, please see individual module files - especially test files in this package.
+Installation or upgrade:  Install the pyswisseph library specially as described in the contribution section. Install the jyotisha package  (Prefer this to get the latest code:)sudo pip install git+https://github.com/jyotisham/jyotisha/@master -U sudo pip install jyotisha -U   Web.  Usage Simple invocation  The simplest way to invoke the code and generate calendars in a variety of forms (icalendar/ ics, tex [which can then be converted to pdf], markdown [which can then be presented as html]) is to use python invocations of the type seen in:  tests such as those in jyotisha_tests/spatio_temporal/writer Calendar generation projects such as those under this folder - jyotisha/panchaanga/writer/generation_project   Command line usage - can be invoked via some shell scripts at karthik&amp;rsquo;s panchaanga repo.</description>
+    </item>
+    
+  </channel>
+</rss>

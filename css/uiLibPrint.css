@@ -1,0 +1,30 @@
+.noPrint {
+    display: none;
+}
+
+body {
+    border: 1px solid black;
+    line-height: 110%;
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+    border-style: dotted;
+    border-color: grey;
+}
+
+header {
+    font-size: x-small;
+}
+
+@page {
+    /*width: 150mm;*/
+    /*height: 300mm;*/
+    /*margin: 0.5em;*/
+    /*border: 1px solid black;*/
+}
+
+.inline_comment {
+    font-size: 90%;
+    color: black;
+}
+
