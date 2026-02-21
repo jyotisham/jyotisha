@@ -25,8 +25,12 @@ CODE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 # SE_BIT_HINDU_RISING (SE_BIT_DISC_CENTER|SE_BIT_NO_REFRACTION|SE_BIT_GEOCTR_NO_ECL_LAT)
 # risings according to Hindu astrology 
 # TODO: Ignoring ecliptic latitude may be theoretically unfounded. Examine.
-CALC_RISE = 512 + 256 + 128 + 1
-CALC_SET = 512 + 256 + 128 + 2
+# CALC_RISE = 512 + 256 + 128 + 1
+# CALC_SET = 512 + 256 + 128 + 2
+# CALC_RISE = 512 + 256 + 1
+# CALC_SET = 512 + 256 + 2
+CALC_RISE = swe.CALC_RISE | swe.BIT_DISC_CENTER | swe.BIT_NO_REFRACTION
+CALC_SET = swe.CALC_SET | swe.BIT_DISC_CENTER | swe.BIT_NO_REFRACTION
 
 
 class City(JsonObject):
