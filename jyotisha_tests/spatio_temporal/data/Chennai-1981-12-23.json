@@ -359,13 +359,13 @@
   },
   "day_length_based_periods": {
     "aparaahna": {
-      "jd_end": 2444962.0104,
+      "jd_end": 2444962.0103,
       "jd_start": 2444961.7763,
       "jsonClass": "Interval",
       "name": "अपराह्णः"
     },
     "dinamaana": {
-      "jd_end": 2444962.0104,
+      "jd_end": 2444962.0103,
       "jd_start": 2444961.5423,
       "jsonClass": "Interval",
       "name": "दिनमानम्"
@@ -388,7 +388,7 @@
           "jsonClass": "Interval"
         },
         {
-          "jd_end": 2444962.0104,
+          "jd_end": 2444962.0103,
           "jd_start": 2444961.8933,
           "jsonClass": "Interval"
         }
@@ -439,7 +439,7 @@
       "raatri_yaama": [
         {
           "jd_end": 2444962.1434,
-          "jd_start": 2444962.0104,
+          "jd_start": 2444962.0103,
           "jsonClass": "Interval"
         },
         {
@@ -472,7 +472,7 @@
       },
       "saayaahna": {
         "jd_end": 2444962.0769,
-        "jd_start": 2444962.0104,
+        "jd_start": 2444962.0103,
         "jsonClass": "Interval",
         "name": "सायाह्नः"
       },
@@ -527,20 +527,20 @@
         "name": "अपराह्णः"
       },
       "aparaahna3": {
-        "jd_end": 2444962.0104,
+        "jd_end": 2444962.0103,
         "jd_start": 2444961.8543,
         "jsonClass": "Interval",
         "name": "अपराह्णः~(त्रेधा)"
       },
       "bodha": {
-        "jd_end": 2444962.0104,
-        "jd_start": 2444961.9792,
+        "jd_end": 2444962.0103,
+        "jd_start": 2444961.9791,
         "jsonClass": "Interval",
         "name": "बोधः"
       },
       "braahma": {
         "jd_end": 2444961.5068,
-        "jd_start": 2444961.4713,
+        "jd_start": 2444961.4714,
         "jsonClass": "Interval",
         "name": "ब्राह्मं मुहूर्तम्"
       },
@@ -655,13 +655,13 @@
       },
       "pradosha": {
         "jd_end": 2444962.0769,
-        "jd_start": 2444962.0104,
+        "jd_start": 2444962.0103,
         "jsonClass": "Interval",
         "name": "प्रदोषः"
       },
       "preceding_arunodaya": {
         "jd_end": 2444961.5423,
-        "jd_start": 2444961.4713,
+        "jd_start": 2444961.4714,
         "jsonClass": "Interval",
         "name": "प्राक्तनारुणोदयः"
       },
@@ -673,7 +673,7 @@
       },
       "puurvaraatri3": {
         "jd_end": 2444962.1878,
-        "jd_start": 2444962.0104,
+        "jd_start": 2444962.0103,
         "jsonClass": "Interval",
         "name": "पूर्वरात्रिः~(त्रेधा)"
       },
@@ -714,14 +714,14 @@
         "name": "सावित्रः"
       },
       "saayaahna": {
-        "jd_end": 2444962.0104,
+        "jd_end": 2444962.0103,
         "jd_start": 2444961.9167,
         "jsonClass": "Interval",
         "name": "सायाह्नः"
       },
       "saayam_sandhyaa": {
         "jd_end": 2444962.0458,
-        "jd_start": 2444961.9792,
+        "jd_start": 2444961.9791,
         "jsonClass": "Interval",
         "name": "सायंसन्ध्यावन्दनकालः"
       },
@@ -733,7 +733,7 @@
       },
       "shankara": {
         "jd_end": 2444962.0458,
-        "jd_start": 2444962.0104,
+        "jd_start": 2444962.0103,
         "jsonClass": "Interval",
         "name": "शङ्करः"
       },
@@ -896,7 +896,7 @@
           "ahna": 4,
           "ahna_part": 1,
           "is_nirviirya": false,
-          "jd_end": 2444961.9792,
+          "jd_end": 2444961.9791,
           "jd_start": 2444961.9479,
           "jsonClass": "TbSayanaMuhuurta",
           "muhuurta_id": 13,
@@ -906,8 +906,8 @@
           "ahna": 4,
           "ahna_part": 2,
           "is_nirviirya": false,
-          "jd_end": 2444962.0104,
-          "jd_start": 2444961.9792,
+          "jd_end": 2444962.0103,
+          "jd_start": 2444961.9791,
           "jsonClass": "TbSayanaMuhuurta",
           "muhuurta_id": 14,
           "name": "सायाह्नः-मु॰3"
@@ -926,7 +926,7 @@
         "name": "वैष्णवः"
       },
       "varuna": {
-        "jd_end": 2444961.9792,
+        "jd_end": 2444961.9791,
         "jd_start": 2444961.9479,
         "jsonClass": "Interval",
         "name": "वरुणः"
@@ -959,36 +959,36 @@
     },
     "raatrimaana": {
       "jd_end": 2444962.5427,
-      "jd_start": 2444962.0104,
+      "jd_start": 2444962.0103,
       "jsonClass": "Interval",
       "name": "रात्रिमानम्"
     }
   },
   "festival_id_to_instance": {},
   "graha_rise_jd": {
-    "jupiter": 2444962.3697,
+    "jupiter": 2444962.37,
     "ketu": 2444961.6051,
-    "mars": 2444962.2808,
-    "mercury": 2444961.5634,
-    "moon": 2444962.461,
+    "mars": 2444962.282,
+    "mercury": 2444961.5654,
+    "moon": 2444962.463,
     "rahu": 2444962.0745,
-    "saturn": 2444962.3299,
-    "venus": 2444961.6456
+    "saturn": 2444962.3309,
+    "venus": 2444961.6461
   },
   "graha_set_jd": {
-    "jupiter": 2444961.8536,
+    "jupiter": 2444961.8555,
     "ketu": 2444962.0745,
-    "mars": 2444961.7799,
-    "mercury": 2444962.0327,
-    "moon": 2444961.9159,
+    "mars": 2444961.7836,
+    "mercury": 2444962.0315,
+    "moon": 2444961.9189,
     "rahu": 2444961.6051,
-    "saturn": 2444961.8205,
+    "saturn": 2444961.8245,
     "venus": 2444962.1201
   },
   "jd_next_sunrise": 2444962.5427,
   "jd_previous_sunset": 2444961.01,
   "jd_sunrise": 2444961.5423,
-  "jd_sunset": 2444962.0104,
+  "jd_sunset": 2444962.0103,
   "jsonClass": "DailyPanchaanga",
   "julian_day_start": 2444961.2708,
   "lunar_date": {
