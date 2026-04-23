@@ -257,13 +257,13 @@ class FifteenFoldDivision(common.JsonObject):
     jd_next_sunrise = self.naabhasvata.jd_end
 
     if 0 <= ghatika_start <= 30:
-      jd_start = jd_sunrise + (ghatika_start / 60) * (jd_sunset - jd_sunrise)
+      jd_start = jd_sunrise + (ghatika_start / 30) * (jd_sunset - jd_sunrise)
     elif 30 < ghatika_start <= 60:
-      jd_start = jd_sunset + ((ghatika_start - 30) / 60) * (jd_next_sunrise - jd_sunset)
+      jd_start = jd_sunset + ((ghatika_start - 30) / 30) * (jd_next_sunrise - jd_sunset)
     if 0 <= ghatika_end <= 30:
-      jd_end = jd_sunrise + (ghatika_end / 60) * (jd_sunset - jd_sunrise)
+      jd_end = jd_sunrise + (ghatika_end / 30) * (jd_sunset - jd_sunrise)
     elif 30 < ghatika_end <= 60:
-      jd_end = jd_sunset + ((ghatika_end - 30) / 60) * (jd_next_sunrise - jd_sunset)
+      jd_end = jd_sunset + ((ghatika_end - 30) / 30) * (jd_next_sunrise - jd_sunset)
     
     return Interval(jd_start=jd_start, jd_end=jd_end)
 
