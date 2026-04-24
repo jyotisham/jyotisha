@@ -562,7 +562,7 @@ Karachi		25.1932024	67.1554619	Asia/Karachi
 Bangkok		13.7245995	100.6331108	Asia/Bangkok
 KualaLumpur		3.1385026	101.6044172	Asia/Kuala_Lumpur
 Nashua		42.752961	-71.496875	US/Eastern
-Perur		10.9665347	76.90935	Asia/Kolkata
+Perur		10.9665347	76.90935	Asia/Calcutta
 Chattogram (Chittagong)		22.34	91.83	Asia/Dhaka
 Dhaka		23.76	90.39	Asia/Dhaka
 Sylhet		24.9	91.87	Asia/Dhaka
@@ -589,3 +589,6 @@ Quetta		30.18	66.98	Asia/Karachi
 Hinglaj Mata		25.16	64.3	Asia/Karachi
 Raleigh		35.8395263	-78.7274517	America/New_York
 Aylesbury		51.7484485	-0.642153	Europe/London
+Loveland		39.2689476	-84.263826	America/New_York
+SantaClara		37.3541	-121.9552	US/Pacific
+Achankovil	accan~kOvil	9.0914	77.1252	Asia/Calcutta
