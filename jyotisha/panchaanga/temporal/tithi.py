@@ -314,7 +314,7 @@ class ShraadhaTithiAssigner(PeriodicPanchaangaApplier):
     for m in range(1, 13):
       for t in range(1, 31):
         fday = int(solar_tithi_days[m][t][0][0] - self.panchaanga.daily_panchaangas_sorted()[0].date)
-        if 0 in self.daily_panchaangas[fday].solar_shraaddha_tithi:
+        if 0 in self.daily_panchaangas[fday].solar_shraaddha_tithi and debug_shraaddha_tithi:
           logging.warning('No longer shUnya')
           self.daily_panchaangas[fday].solar_shraaddha_tithi.remove(0)
         self.daily_panchaangas[fday].solar_shraaddha_tithi.append((m, t))
