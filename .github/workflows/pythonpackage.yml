@@ -67,7 +67,7 @@ jobs:
           pip install pytest
           pytest jyotisha_tests
       - name: Upload package
-        uses: pypa/gh-action-pypi-publish@master
+        uses: pypa/gh-action-pypi-publish@release/v1
         if: ${{ github.event_name != 'pull_request' && steps.pytest.conclusion == 'success'}}
         with:
           user: __token__
