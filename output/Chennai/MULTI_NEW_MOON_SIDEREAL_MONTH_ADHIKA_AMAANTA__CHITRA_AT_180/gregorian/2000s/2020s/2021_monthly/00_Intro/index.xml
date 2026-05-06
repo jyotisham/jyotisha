@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#43;00 Intro on ज्योतिषम् py</title>
+    <link>https://jyotisham.github.io/jyotisha/output/Chennai/MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA_AMAANTA__CHITRA_AT_180/gregorian/2000s/2020s/2021_monthly/00_Intro/</link>
+    <description>Recent content in &#43;00 Intro on ज्योतिषम् py</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://jyotisham.github.io/jyotisha/output/Chennai/MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA_AMAANTA__CHITRA_AT_180/gregorian/2000s/2020s/2021_monthly/00_Intro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Computation parameters</title>
+      <link>https://jyotisham.github.io/jyotisha/output/Chennai/MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA_AMAANTA__CHITRA_AT_180/gregorian/2000s/2020s/2021_monthly/00_Intro/Computation_parameters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jyotisham.github.io/jyotisha/output/Chennai/MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA_AMAANTA__CHITRA_AT_180/gregorian/2000s/2020s/2021_monthly/00_Intro/Computation_parameters/</guid>
+      <description> 🌏क्षेत्रम् (मद्रपुरी)  Basic parameters lunar_month_assigner_type = &amp;quot;MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA_AMAANTA&amp;quot; ayanaamsha_id = &amp;quot;CHITRA_AT_180&amp;quot; jsonClass = &amp;quot;ComputationSystem&amp;quot; [graha_lopa_measures] jsonClass = &amp;quot;GrahaLopaMeasures&amp;quot; [graha_lopa_measures.graha_id_to_lopa_measure] jupiter = 11 venus = 9 mercury = 13 mars = 17 saturn = 15 Event options aparaahna_as_second_half = false prefer_eight_fold_day_division = false julian_handling = &amp;quot;converted to Gregorian&amp;quot; jsonClass = &amp;quot;FestivalOptions&amp;quot;  Repos: devatA/gaNapati, devatA/graha, devatA/kaumAra, devatA/lakShmI, devatA/misc-fauna, devatA/misc-flora, devatA/nadI, devatA/pitR, devatA/shaiva, devatA/shakti, devatA/devIparva, devatA/dashamahAvidyA, devatA/umA, devatA/vaiShNava, gRhya/Apastamba, gRhya/general, general, mahApuruSha/ALvAr, mahApuruSha/RShi, mahApuruSha/general-indic, mahApuruSha/kAnchI-maTha, mahApuruSha/general-tropical, mahApuruSha/zRGgErI-maTha, mahApuruSha/mAdhva-misc, mahApuruSha/nAyanAr, mahApuruSha/sangIta-kRt, mahApuruSha/smArta-misc, mahApuruSha/vaiShNava-misc, mahApuruSha/xatra, mahApuruSha/xatra-later, tamil, temples/Andhra, temples/Kerala, temples/North, temples/Odisha, temples/Tamil, temples/venkaTAchala, time_focus/Eclipses, time_focus/amrita-siddhi, time_focus/Rtu, time_focus/misc, time_focus/misc_combinations, time_focus/special-tithis, time_focus/tithi-vara-combinations, time_focus/monthly/amAvAsyA, time_focus/monthly/dvAdashI, time_focus/monthly/ekAdashI, time_focus/monthly/pradoSha, time_focus/nakShatra, time_focus/puShkara, time_focus/sankrAnti, time_focus/yugAdiH  </description>
+    </item>
+    
+    <item>
+      <title>Related files</title>
+      <link>https://jyotisham.github.io/jyotisha/output/Chennai/MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA_AMAANTA__CHITRA_AT_180/gregorian/2000s/2020s/2021_monthly/00_Intro/Related_files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jyotisham.github.io/jyotisha/output/Chennai/MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA_AMAANTA__CHITRA_AT_180/gregorian/2000s/2020s/2021_monthly/00_Intro/Related_files/</guid>
+      <description> ics  </description>
+    </item>
+    
+  </channel>
+</rss>
