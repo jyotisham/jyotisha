@@ -33364,6 +33364,17 @@
           "jsonClass": "FestivalInstance",
           "name": "anadhyAyaH~pUrvarAtrau"
         },
+        "gOvinda-dAmOdara-svAmigal-ArAdhana": {
+          "interval": {
+            "jd_end": 2458517.5476,
+            "jd_start": 2458516.5478,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "gOvinda-dAmOdara-svAmigal-ArAdhana",
+          "ordinal": 15
+        },
         "mAsazivarAtriH": {
           "interval": {
             "jd_end": 2458517.5476,
@@ -65097,6 +65108,17 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "darsheShTiH"
+        },
+        "gOvinda-dAmOdara-svAmigal-jayantI": {
+          "interval": {
+            "jd_end": 2458550.5379,
+            "jd_start": 2458549.5384,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "gOvinda-dAmOdara-svAmigal-jayantI",
+          "ordinal": 89
         },
         "kAJcI_67_jagadguru_zrI~mahAdEvEndra_sarasvatI_5_ArAdhanA": {
           "interval": {
@@ -135464,6 +135486,16 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "sthAlIpAkaH_16"
+        },
+        "tiruvaLLuva-nAyanmAr-jayantI": {
+          "interval": {
+            "jd_end": 2458623.5112,
+            "jd_start": 2458622.5113,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "tiruvaLLuva-nAyanmAr-jayantI"
         }
       },
       "graha_rise_jd": {
@@ -384447,6 +384479,22 @@
         "year": 2019
       }
     ],
+    "gOvinda-dAmOdara-svAmigal-ArAdhana": [
+      {
+        "day": 2,
+        "jsonClass": "Date",
+        "month": 2,
+        "year": 2019
+      }
+    ],
+    "gOvinda-dAmOdara-svAmigal-jayantI": [
+      {
+        "day": 7,
+        "jsonClass": "Date",
+        "month": 3,
+        "year": 2019
+      }
+    ],
     "gRhadEvI-pUjA": [
       {
         "day": 29,
@@ -390992,6 +391040,14 @@
         "day": 3,
         "jsonClass": "Date",
         "month": 8,
+        "year": 2019
+      }
+    ],
+    "tiruvaLLuva-nAyanmAr-jayantI": [
+      {
+        "day": 19,
+        "jsonClass": "Date",
+        "month": 5,
         "year": 2019
       }
     ],

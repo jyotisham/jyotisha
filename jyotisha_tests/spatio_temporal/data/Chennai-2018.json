@@ -15271,6 +15271,17 @@
           "jsonClass": "FestivalInstance",
           "name": "dhanurmAsa-uSaHkAla-pUjA-samApanam"
         },
+        "gOvinda-dAmOdara-svAmigal-ArAdhana": {
+          "interval": {
+            "jd_end": 2458133.5478,
+            "jd_start": 2458132.5477,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "gOvinda-dAmOdara-svAmigal-ArAdhana",
+          "ordinal": 14
+        },
         "madhurai_mIn2AkSI_kOyilil_kal_yAn2aikku_karumbu_kODutta_lIlai": {
           "interval": {
             "jd_end": 2458133.5478,
@@ -48977,6 +48988,17 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "anadhyAyaH~rAtrisaGkramaNa"
+        },
+        "gOvinda-dAmOdara-svAmigal-jayantI": {
+          "interval": {
+            "jd_end": 2458168.5441,
+            "jd_start": 2458167.5444,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "gOvinda-dAmOdara-svAmigal-jayantI",
+          "ordinal": 88
         },
         "madhu-mAsaH__vasantaRtuH": {
           "interval": {
@@ -144881,6 +144903,16 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "pUrNimA~vratam"
+        },
+        "tiruvaLLuva-nAyanmAr-jayantI": {
+          "interval": {
+            "jd_end": 2458268.5105,
+            "jd_start": 2458267.5105,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "tiruvaLLuva-nAyanmAr-jayantI"
         },
         "vEGkaTAcalE_pUrNimA~garuDa-sEvA": {
           "interval": {
@@ -384059,6 +384091,22 @@
         "year": 2018
       }
     ],
+    "gOvinda-dAmOdara-svAmigal-ArAdhana": [
+      {
+        "day": 14,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2018
+      }
+    ],
+    "gOvinda-dAmOdara-svAmigal-jayantI": [
+      {
+        "day": 18,
+        "jsonClass": "Date",
+        "month": 2,
+        "year": 2018
+      }
+    ],
     "gOvinda~mahAdvAdazI": [
       {
         "day": 27,
@@ -390448,6 +390496,14 @@
         "day": 13,
         "jsonClass": "Date",
         "month": 8,
+        "year": 2018
+      }
+    ],
+    "tiruvaLLuva-nAyanmAr-jayantI": [
+      {
+        "day": 29,
+        "jsonClass": "Date",
+        "month": 5,
         "year": 2018
       }
     ],
