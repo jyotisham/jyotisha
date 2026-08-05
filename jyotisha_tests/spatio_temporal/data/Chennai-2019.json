@@ -218725,6 +218725,16 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "pancha-parva-2"
+        },
+        "zravaNa-vratam": {
+          "interval": {
+            "jd_end": 2458710.5209,
+            "jd_start": 2458709.5208,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "zravaNa-vratam"
         }
       },
       "graha_rise_jd": {
@@ -219814,16 +219824,6 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "yajurvEda-upAkarma"
-        },
-        "zravaNa-vratam": {
-          "interval": {
-            "jd_end": 2458711.521,
-            "jd_start": 2458710.5209,
-            "jsonClass": "Interval",
-            "name": "full_day"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "zravaNa-vratam"
         }
       },
       "graha_rise_jd": {
@@ -392917,7 +392917,7 @@
         "year": 2019
       },
       {
-        "day": 15,
+        "day": 14,
         "jsonClass": "Date",
         "month": 8,
         "year": 2019

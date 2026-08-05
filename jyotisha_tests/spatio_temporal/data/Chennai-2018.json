@@ -45075,6 +45075,16 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "vyatIpAta-zrAddham"
+        },
+        "zravaNa-vratam": {
+          "interval": {
+            "jd_end": 2458164.5452,
+            "jd_start": 2458163.5455,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "zravaNa-vratam"
         }
       },
       "graha_rise_jd": {
@@ -46084,16 +46094,6 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "sarva-mAgha-amAvAsyA_(alabhyam–mAgha-zraviSThA,_puSkalA)"
-        },
-        "zravaNa-vratam": {
-          "interval": {
-            "jd_end": 2458165.545,
-            "jd_start": 2458164.5452,
-            "jsonClass": "Interval",
-            "name": "full_day"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "zravaNa-vratam"
         }
       },
       "graha_rise_jd": {
@@ -124063,6 +124063,16 @@
         "sOmazravaNa-yOgaH": {
           "jsonClass": "FestivalInstance",
           "name": "sOmazravaNa-yOgaH"
+        },
+        "zravaNa-vratam": {
+          "interval": {
+            "jd_end": 2458246.5133,
+            "jd_start": 2458245.5135,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "zravaNa-vratam"
         }
       },
       "graha_rise_jd": {
@@ -124959,16 +124969,6 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "anadhyAyaH~23"
-        },
-        "zravaNa-vratam": {
-          "interval": {
-            "jd_end": 2458247.513,
-            "jd_start": 2458246.5133,
-            "jsonClass": "Interval",
-            "name": "full_day"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "zravaNa-vratam"
         }
       },
       "graha_rise_jd": {
@@ -392305,7 +392305,7 @@
         "year": 2018
       },
       {
-        "day": 15,
+        "day": 14,
         "jsonClass": "Date",
         "month": 2,
         "year": 2018
@@ -392323,7 +392323,7 @@
         "year": 2018
       },
       {
-        "day": 8,
+        "day": 7,
         "jsonClass": "Date",
         "month": 5,
         "year": 2018
