@@ -42064,7 +42064,7 @@
           "jsonClass": "FestivalInstance",
           "name": "acalA~saptamI-vratam"
         },
-        "anadhyAyaH~manvAdi~7": {
+        "anadhyAyaH~manvAdi~8": {
           "interval": {
             "jd_end": 2458527.1295,
             "jd_start": 2458526.1303,
@@ -42072,7 +42072,7 @@
             "name": "full_day"
           },
           "jsonClass": "FestivalInstance",
-          "name": "anadhyAyaH~manvAdi~7"
+          "name": "anadhyAyaH~manvAdi~8"
         },
         "dvArakA-maTha-pratiSThApana~jayantI": {
           "interval": {
@@ -42085,7 +42085,7 @@
           "name": "dvArakA-maTha-pratiSThApana~jayantI",
           "ordinal": 2509
         },
-        "manvAdiH~(vaivasvataH~[7])": {
+        "manvAdiH~(sUrya-sAvarNiH~[8])": {
           "interval": {
             "jd_end": 2458527.1295,
             "jd_start": 2458526.1303,
@@ -42093,7 +42093,7 @@
             "name": "full_day"
           },
           "jsonClass": "FestivalInstance",
-          "name": "manvAdiH~(vaivasvataH~[7])"
+          "name": "manvAdiH~(sUrya-sAvarNiH~[8])"
         },
         "narmadA~jayantI": {
           "interval": {
@@ -185145,7 +185145,7 @@
           "jsonClass": "FestivalInstance",
           "name": "aindrI-durgA-pUjA"
         },
-        "anadhyAyaH~manvAdi~8": {
+        "anadhyAyaH~manvAdi~7": {
           "interval": {
             "jd_end": 2458676.0421,
             "jd_start": 2458675.0417,
@@ -185153,7 +185153,7 @@
             "name": "full_day"
           },
           "jsonClass": "FestivalInstance",
-          "name": "anadhyAyaH~manvAdi~8"
+          "name": "anadhyAyaH~manvAdi~7"
         },
         "kAJcI_48_jagadguru_zrI~advaitAnandabOdhEndra_sarasvatI_ArAdhanA": {
           "interval": {
@@ -185166,7 +185166,7 @@
           "name": "kAJcI_48_jagadguru_zrI~advaitAnandabOdhEndra_sarasvatI_ArAdhanA",
           "ordinal": 820
         },
-        "manvAdiH~(sUrya-sAvarNiH~[8])": {
+        "manvAdiH~(vaivasvataH~[7])": {
           "interval": {
             "jd_end": 2458676.0421,
             "jd_start": 2458675.0417,
@@ -185174,7 +185174,7 @@
             "name": "full_day"
           },
           "jsonClass": "FestivalInstance",
-          "name": "manvAdiH~(sUrya-sAvarNiH~[8])"
+          "name": "manvAdiH~(vaivasvataH~[7])"
         },
         "periyAzhvAr_tirunakSattiram": {
           "interval": {
@@ -189958,7 +189958,7 @@
           "name": "kAJcI_10_jagadguru_zrI~surEzvarEndra_sarasvatI_ArAdhanA",
           "ordinal": 1893
         },
-        "kOkila-vratam": {
+        "kOkilA-vratam": {
           "interval": {
             "jd_end": 2458681.0445,
             "jd_start": 2458680.044,
@@ -189966,7 +189966,7 @@
             "name": "full_day"
           },
           "jsonClass": "FestivalInstance",
-          "name": "kOkila-vratam"
+          "name": "kOkilA-vratam"
         },
         "manvAdiH~(brahma-sAvarNiH~[10])": {
           "interval": {
@@ -201401,14 +201401,6 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "tiruppANAzhvAr_tirunakSattiram"
-        },
-        "zanirOhiNI-yOgaH": {
-          "interval": {
-            "jd_start": 2458692.0821,
-            "jsonClass": "Interval"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "zanirOhiNI-yOgaH"
         }
       },
       "graha_rise_jd": {
@@ -209292,14 +209284,6 @@
         "Adityahasta-naktavrata-yOgaH": {
           "jsonClass": "FestivalInstance",
           "name": "Adityahasta-naktavrata-yOgaH"
-        },
-        "Adityahasta-yOgaH": {
-          "interval": {
-            "jd_start": 2458700.3417,
-            "jsonClass": "Interval"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "Adityahasta-yOgaH"
         },
         "garuDa-paJcamI": {
           "interval": {
@@ -236503,16 +236487,6 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "vipattAra-gaurI-vratam"
-        },
-        "zrIvinAyaka-caturthI": {
-          "interval": {
-            "jd_end": 2458729.072,
-            "jd_start": 2458728.0715,
-            "jsonClass": "Interval",
-            "name": "full_day"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "zrIvinAyaka-caturthI"
         }
       },
       "graha_rise_jd": {
@@ -237441,6 +237415,16 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "tiruccendUr_murugan2_AvaNit_tiruvizhA_##10##m_nAL—tEr"
+        },
+        "zrIvinAyaka-caturthI": {
+          "interval": {
+            "jd_end": 2458730.0726,
+            "jd_start": 2458729.072,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "zrIvinAyaka-caturthI"
         },
         "zukla-caturthI-vratam": {
           "interval": {
@@ -329374,14 +329358,6 @@
         }
       },
       "festival_id_to_instance": {
-        "bhRgurEvatI-yOgaH": {
-          "interval": {
-            "jd_start": 2458824.2256,
-            "jsonClass": "Interval"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "bhRgurEvatI-yOgaH"
-        },
         "vyatIpAta-zrAddham": {
           "interval": {
             "jd_end": 2458825.1359,
@@ -380200,12 +380176,6 @@
     ],
     "Adityahasta-yOgaH": [
       {
-        "day": 4,
-        "jsonClass": "Date",
-        "month": 8,
-        "year": 2019
-      },
-      {
         "day": 1,
         "jsonClass": "Date",
         "month": 9,
@@ -381860,17 +381830,17 @@
     ],
     "anadhyAyaH~manvAdi~7": [
       {
-        "day": 11,
+        "day": 10,
         "jsonClass": "Date",
-        "month": 2,
+        "month": 7,
         "year": 2019
       }
     ],
     "anadhyAyaH~manvAdi~8": [
       {
-        "day": 10,
+        "day": 11,
         "jsonClass": "Date",
-        "month": 7,
+        "month": 2,
         "year": 2019
       }
     ],
@@ -383055,12 +383025,6 @@
         "day": 5,
         "jsonClass": "Date",
         "month": 4,
-        "year": 2019
-      },
-      {
-        "day": 6,
-        "jsonClass": "Date",
-        "month": 12,
         "year": 2019
       }
     ],
@@ -385901,7 +385865,7 @@
         "year": 2019
       }
     ],
-    "kOkila-vratam": [
+    "kOkilA-vratam": [
       {
         "day": 15,
         "jsonClass": "Date",
@@ -387399,9 +387363,9 @@
     ],
     "manvAdiH~(sUrya-sAvarNiH~[8])": [
       {
-        "day": 10,
+        "day": 11,
         "jsonClass": "Date",
-        "month": 7,
+        "month": 2,
         "year": 2019
       }
     ],
@@ -387439,9 +387403,9 @@
     ],
     "manvAdiH~(vaivasvataH~[7])": [
       {
-        "day": 11,
+        "day": 10,
         "jsonClass": "Date",
-        "month": 2,
+        "month": 7,
         "year": 2019
       }
     ],
@@ -392731,12 +392695,6 @@
         "year": 2019
       },
       {
-        "day": 27,
-        "jsonClass": "Date",
-        "month": 7,
-        "year": 2019
-      },
-      {
         "day": 24,
         "jsonClass": "Date",
         "month": 8,
@@ -392925,7 +392883,7 @@
     ],
     "zrIvinAyaka-caturthI": [
       {
-        "day": 1,
+        "day": 2,
         "jsonClass": "Date",
         "month": 9,
         "year": 2019

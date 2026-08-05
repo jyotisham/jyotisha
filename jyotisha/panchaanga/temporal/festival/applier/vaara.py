@@ -136,31 +136,44 @@ class VaraFestivalAssigner(FestivalAssigner):
     if 'Adityahasta-yOgaH' not in self.rules_collection.name_to_rule:
       return 
 
-    AMRITA_SIDDHI_YOGAS = [(13, 0, 'Adityahasta'), (8, 0, 'ravipuSya'),
-                 (22, 1, 'sOmazravaNa'), (5, 1, 'sOmamRgazIrSa'),
-                 (1, 2, 'bhaumAzvinI'), 
-                 (17, 3, 'budhAnurAdhA'), (8, 4, 'gurupuSya'),
-                 (27, 5, 'bhRgurEvatI'), (4, 6, 'zanirOhiNI')]
+    AMRITA_SIDDHI_YOGAS = [(13, 0, 'Adityahasta', 5), (8, 0, 'ravipuSya', None),
+                 (22, 1, 'sOmazravaNa', 6), (5, 1, 'sOmamRgazIrSa', 6),
+                 (1, 2, 'bhaumAzvinI', 7), 
+                 (17, 3, 'budhAnurAdhA', 8), (8, 4, 'gurupuSya', 9),
+                 (27, 5, 'bhRgurEvatI', 10), (4, 6, 'zanirOhiNI', 11)]
 
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       # NAKSHATRA-WEEKDAY FESTIVALS
-      for (festival_nakshatra, festival_weekday, festival_name) in AMRITA_SIDDHI_YOGAS:
+      for (festival_nakshatra, festival_weekday, festival_name, visha_yoga_tithi) in AMRITA_SIDDHI_YOGAS:
         if self.daily_panchaangas[d].date.get_weekday() == festival_weekday:
           nakshatram_praatah = self.daily_panchaangas[d].sunrise_day_angas.nakshatra_at_sunrise.index
           raatri_end = self.daily_panchaangas[d].day_length_based_periods.eight_fold_division.raatri_yaama[0].jd_end
           nakshatram_raatri = NakshatraDivision(jd=raatri_end, ayanaamsha_id=self.panchaanga.computation_system.ayanaamsha_id).get_anga(anga_type=AngaType.NAKSHATRA).index
           if festival_nakshatra in [nakshatram_praatah, nakshatram_raatri]:
+            tithi_sunset = self.daily_panchaangas[d].sunrise_day_angas.get_anga_at_jd(jd=self.daily_panchaangas[d].jd_sunset, anga_type=AngaType.TITHI) % 15
+            tithi_sunrise = self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise.index % 15
             if festival_nakshatra == nakshatram_praatah == nakshatram_raatri:
-              self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=f'{festival_name}-yOgaH'), date=self.daily_panchaangas[d].date)
+              if visha_yoga_tithi not in (tithi_sunrise, tithi_sunset):
+                self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=f'{festival_name}-yOgaH'), date=self.daily_panchaangas[d].date)
+              else:
+                logging.warning(f'Not assigning Amrita Siddhi Yoga ({festival_name} on {self.daily_panchaangas[d].date} due to Tithi ({visha_yoga_tithi}))')
             else:
               nakshatra_end_jd = self.daily_panchaangas[d].sunrise_day_angas.nakshatras_with_ends[0].jd_end
 
               if festival_nakshatra == nakshatram_praatah:
+                tithi_end = self.daily_panchaangas[d].sunrise_day_angas.get_anga_at_jd(jd=nakshatra_end_jd, anga_type=AngaType.TITHI) % 15
+                tithi_start = tithi_sunrise
                 interval = Interval(jd_start=None, jd_end=nakshatra_end_jd)
               elif festival_nakshatra == nakshatram_raatri:
+                tithi_start = self.daily_panchaangas[d].sunrise_day_angas.get_anga_at_jd(jd=nakshatra_end_jd, anga_type=AngaType.TITHI) % 15
+                tithi_end = self.daily_panchaangas[d].sunrise_day_angas.get_anga_at_jd(jd=raatri_end, anga_type=AngaType.TITHI) % 15
                 interval = Interval(jd_start=nakshatra_end_jd, jd_end=None)
-              
-              self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=f'{festival_name}-yOgaH', interval=interval), date=self.daily_panchaangas[d].date)
+
+              if visha_yoga_tithi not in (tithi_start, tithi_end):
+                self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=f'{festival_name}-yOgaH', interval=interval), date=self.daily_panchaangas[d].date)
+              else:
+                logging.warning(f'Not assigning Amrita Siddhi Yoga ({festival_name} on {self.daily_panchaangas[d].date} due to Tithi ({visha_yoga_tithi}))')
+
 
     if 'Adityahasta-naktavrata-yOgaH' not in self.rules_collection.name_to_rule:
       return
