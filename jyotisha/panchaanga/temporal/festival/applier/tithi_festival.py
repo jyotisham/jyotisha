@@ -40,6 +40,35 @@ class TithiFestivalAssigner(FestivalAssigner):
     self.assign_mahaa_paurnamii()
     self.assign_dinakshaya()
     self.assign_anadhyayana_days()
+    self.check_festival_corner_cases()
+
+  def check_festival_corner_cases(self):
+    """ Post-hoc corrections to festival days already assigned by the generic TOML-rule-driven engine (priority_decision.decide()), for cases that generic priority can't fully express on its own.
+
+    Unlike the assign_* methods above (which assign festival days from scratch), each check_* method here only overrules a day already present in self.panchaanga.festival_id_to_days.
+    """
+    self.check_vinayaka_chaturthi()
+    # self.check_guru_purnima()          # future: same aparaahna-touch-based full-vyaapti override, kaala="saangava".
+    # self.check_kamakshi_avirbhava()    # future: ditto.
+
+  def check_vinayaka_chaturthi(self):
+    # Base assignment (kaala="madhyaahna", priority="puurvaviddha") already picks the right day whenever
+    # only one of the two candidate days touches madhyaahna. It defaults to day 1 whenever day 1 touches
+    # madhyaahna, without checking day 2 at all -- so the one case it can't express is the traditional
+    # exception: if day 2's tithi has puurna (full) vyaapti of madhyaahna, day 2 should win instead.
+    # Full vyaapti of day 2's madhyaahna is evidenced by the tithi extending into (touching) day 2's aparaahna.
+    festival_name = 'zrIvinAyaka-caturthI'
+    if festival_name not in self.rules_collection.name_to_rule:
+      return
+    if festival_name not in self.panchaanga.festival_id_to_days:
+      return
+    for assigned_date in list(self.panchaanga.festival_id_to_days[festival_name]):
+      day_panchaanga = self.panchaanga.date_str_to_panchaanga[assigned_date.get_date_str()]
+      next_day_panchaanga = self.panchaanga.date_str_to_panchaanga[(assigned_date + 1).get_date_str()]
+      (_, d1_apar_angas) = get_2_day_interval_boundary_angas(kaala="aparaahna", anga_type=AngaType.TITHI, p0=day_panchaanga, p1=next_day_panchaanga)
+      if d1_apar_angas.start.index == 4 or d1_apar_angas.end.index == 4:
+        self.panchaanga.delete_festival_date(fest_id=festival_name, date=assigned_date)
+        self.panchaanga.add_festival(fest_id=festival_name, date=assigned_date + 1)
 
   def assign_dinakshaya(self):
     if 'dinakSayaH' not in self.rules_collection.name_to_rule:
