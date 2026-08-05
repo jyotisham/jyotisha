@@ -49850,6 +49850,16 @@
           "jsonClass": "FestivalInstance",
           "name": "mAci~cevvAy"
         },
+        "mAci~magham": {
+          "interval": {
+            "jd_end": 2458534.5439,
+            "jd_start": 2458533.5442,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "mAci~magham"
+        },
         "mAgha-mAsa-antimatrayatithi-vrata-samApanam": {
           "interval": {
             "jd_end": 2458534.5439,
@@ -50899,16 +50909,6 @@
           "jsonClass": "FestivalInstance",
           "name": "kAJcI_51_jagadguru_zrI~vidyAtIrthEndra_sarasvatI_ArAdhanA",
           "ordinal": 634
-        },
-        "mAci~magham": {
-          "interval": {
-            "jd_end": 2458535.5435,
-            "jd_start": 2458534.5439,
-            "jsonClass": "Interval",
-            "name": "full_day"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "mAci~magham"
         },
         "pArvaNa-prAyashcittAvakAshaH_16": {
           "interval": {
@@ -386581,7 +386581,7 @@
     ],
     "mAci~magham": [
       {
-        "day": 20,
+        "day": 19,
         "jsonClass": "Date",
         "month": 2,
         "year": 2019

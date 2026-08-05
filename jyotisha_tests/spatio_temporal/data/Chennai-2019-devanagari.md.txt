@@ -7592,7 +7592,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अनध्यायः, अनध्यायः, तिरुच्चॆन्दूर् माचित् तिरुविऴा निऱैवु, पार्वणव्रतम् पूर्णिमायाम्, पूर्णिमा-पूजा, पूर्णिमा-व्रतम्, माघ-पूर्णिमा, माघ-पूर्णिमा-स्नानम्, माघ-मास-अन्तिमत्रयतिथि-व्रत-समापनम्, माचि-चॆव्वाय्, ललिता-जयन्ती, वेङ्कटाचले पूर्णिमा-गरुड-सेवा, सायन-रवि-सङ्क्रमण-पुण्यकालः, सायन-षडशीति-पुण्यकालः, सायन-सङ्क्रमण-दिन-पूर्वाह्ण-पुण्यकालः
+- अनध्यायः, अनध्यायः, कुम्भमाघोत्सवः, तिरुच्चॆन्दूर् माचित् तिरुविऴा निऱैवु, पार्वणव्रतम् पूर्णिमायाम्, पूर्णिमा-पूजा, पूर्णिमा-व्रतम्, माघ-पूर्णिमा, माघ-पूर्णिमा-स्नानम्, माघ-मास-अन्तिमत्रयतिथि-व्रत-समापनम्, माचि-चॆव्वाय्, ललिता-जयन्ती, वेङ्कटाचले पूर्णिमा-गरुड-सेवा, सायन-रवि-सङ्क्रमण-पुण्यकालः, सायन-षडशीति-पुण्यकालः, सायन-सङ्क्रमण-दिन-पूर्वाह्ण-पुण्यकालः
 ##### अनध्यायः
 
 Observed on Paurṇamāsī tithi of every (lunar) month (Sāṅgavaḥ/paraviddha). 
@@ -7657,6 +7657,25 @@ Do upavāsam (at least do not take salt) and pray to Bhagavan Shiva (Vaidyanatha
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/tamil/description_only/mAci~cevvAy.toml)
 - Tags: MonthWeekdayFestivals
+
+
+##### कुम्भमाघोत्सवः
+
+Observed on Maghā nakshatra of Kumbhaḥ (sidereal solar) month (Madhyāhnaḥ##~##(Trēdhā)/puurvaviddha). 
+
+कुम्भसंस्थे दिनकरे पौर्णम्यां पितृदैवते।
+सकृत्सन्दर्शनात् शम्भो ब्रह्मघ्नकलुषं हर॥
+---कुम्भघोण-माहात्म्ये ब्रह्म-प्रार्थना
+
+कुम्भराशौ सूर्ये सति, खे विपरीतदिशि मघासु च चन्द्रमसि सति पर्वेदम्। 
+
+एतादृशे दिने दाक्षायणी दक्षेण लब्धा। गुहेन शिवायोपदिष्टश्च प्रणवः। वराहेण पृथिवी चोद्धृता। 
+
+कुम्भघोणक्षेत्रे स्नानस्य विशेषः। शिवानुग्रहेण तत्र सर्वा अपि नद्यः पापनिवृत्त्याय आयन्ति।
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/general/sidereal_solar_month/nakshatra/11/10/mAci~magham.toml)
+- Tags: TamilnaduTempleFestivals CommonFestivals
 
 
 ##### माघ-मास-अन्तिमत्रयतिथि-व्रत-समापनम्
@@ -7974,7 +7993,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अनध्यायः, काञ्ची ५१ जगद्गुरु-श्री-विद्यातीर्थेन्द्र-सरस्वती-आराधना #६३४, कुम्भमाघोत्सवः, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, पूर्ण-स्थालीपाकः, पूर्णमासेष्टिः
+- अनध्यायः, काञ्ची ५१ जगद्गुरु-श्री-विद्यातीर्थेन्द्र-सरस्वती-आराधना #६३४, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, पूर्ण-स्थालीपाकः, पूर्णमासेष्टिः
 ##### अनध्यायः
 
 Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month (Sāṅgavaḥ/paraviddha). 
@@ -8034,25 +8053,6 @@ Sarvajñaviṣṇu (name of Śrī Vidyātīrtha before initiation), son of Śār
   - Punya Shloka Manjari
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/11/16/kAJcI_51_jagadguru_zrI~vidyAtIrthEndra_sarasvatI_ArAdhanA.toml)
 - Tags: KanchiAradhanaDays
-
-
-##### कुम्भमाघोत्सवः
-
-Observed on Maghā nakshatra of Kumbhaḥ (sidereal solar) month (Sūryōdayaḥ/puurvaviddha). 
-
-कुम्भसंस्थे दिनकरे पौर्णम्यां पितृदैवते।
-सकृत्सन्दर्शनात् शम्भो ब्रह्मघ्नकलुषं हर॥
----कुम्भघोण-माहात्म्ये ब्रह्म-प्रार्थना
-
-कुम्भराशौ सूर्ये सति, खे विपरीतदिशि मघासु च चन्द्रमसि सति पर्वेदम्। 
-
-एतादृशे दिने दाक्षायणी दक्षेण लब्धा। गुहेन शिवायोपदिष्टश्च प्रणवः। वराहेण पृथिवी चोद्धृता। 
-
-कुम्भघोणक्षेत्रे स्नानस्य विशेषः। शिवानुग्रहेण तत्र सर्वा अपि नद्यः पापनिवृत्त्याय आयन्ति।
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/general/sidereal_solar_month/nakshatra/11/10/mAci~magham.toml)
-- Tags: TamilnaduTempleFestivals CommonFestivals
 
 
 ##### पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्
