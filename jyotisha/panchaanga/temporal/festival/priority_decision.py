@@ -6,6 +6,7 @@ Main function in this module is the :func:`decide` function.
 import logging
 
 from jyotisha.panchaanga.temporal import zodiac, get_2_day_interval_boundary_angas
+from jyotisha.util import default_if_none
 
 
 class FestivalDecision(object):
@@ -105,6 +106,22 @@ def decide_puurvaviddha(p0, p1, target_anga, kaala):
   return FestivalDecision.from_details(boundary_angas_list=[d0_angas, d1_angas], fday=fday, panchaangas=[p0, p1])
 
 
+def _compare_vyaapti_duration(d0_angas, d1_angas, target_anga, ayanaamsha_id):
+  """ Compares the target anga's true duration overlap with d0's vs d1's kaala, for cases where boundary
+  sampling alone can't distinguish the two (eg. both fully cover their kaala, or the anga only touches the
+  shared boundary between the two kaalas). Returns 0 or 1 (the day with the greater overlap).
+  """
+  anga_span = zodiac.AngaSpanFinder(ayanaamsha_id=ayanaamsha_id, anga_type=target_anga.get_type()).find(jd1=d0_angas.interval.jd_start, jd2=d1_angas.interval.jd_end, target_anga_id=target_anga)
+  # A None boundary means the anga's true start/end lies outside [jd1, jd2] in that direction (eg. it started
+  # before d0's kaala even began) -- clamp to the search window's own edge, which is the correct "at least
+  # this much" measure for comparison purposes here.
+  anga_start = default_if_none(anga_span.jd_start, d0_angas.interval.jd_start)
+  anga_end = default_if_none(anga_span.jd_end, d1_angas.interval.jd_end)
+  vyapti_0 = max(d0_angas.interval.jd_end - anga_start, 0)
+  vyapti_1 = max(anga_end - d1_angas.interval.jd_start, 0)
+  return 1 if vyapti_1 > vyapti_0 else 0
+
+
 def decide_vyaapti(p0, p1, target_anga, ayanaamsha_id, kaala):
   (d0_angas, d1_angas) = get_2_day_interval_boundary_angas(kaala=kaala, anga_type=target_anga.get_type(), p0=p0, p1=p1)
   # if kaala not in ['अपराह्णः']:
@@ -138,22 +155,19 @@ def decide_vyaapti(p0, p1, target_anga, ayanaamsha_id, kaala):
 
   # Easy cases where d1 has greater vyApti
   elif d1_angas.start == q and d1_angas.end == q:
-    # d0_angas <= q
-    # This is a potential tie-breaker where both d1 and d2 are fully covered.
-    fday = 1
+    if d0_angas.start == q and d0_angas.end == q:
+      # Both d0 and d1 fully cover the kaala -- a genuine tie (eg. an unusually long-duration anga spanning
+      # both days' kaalas in full); compare true durations rather than defaulting to d1.
+      fday = _compare_vyaapti_duration(d0_angas=d0_angas, d1_angas=d1_angas, target_anga=target_anga, ayanaamsha_id=ayanaamsha_id)
+    else:
+      fday = 1
   elif d0_angas.end < q and d1_angas.start >= q:
     # Covers p p r r, [p, p, q, r], [p, p, q, q]
     fday = 1
 
   elif d0_angas.end == q and d1_angas.start == q:
     # The <e> p q q r: vyApti case
-    anga_span = zodiac.AngaSpanFinder(ayanaamsha_id=ayanaamsha_id, anga_type=target_anga.get_type()).find(jd1=d0_angas.interval.jd_start, jd2=d1_angas.interval.jd_end, target_anga_id=target_anga)
-    vyapti_0 = max(d0_angas.interval.jd_end - anga_span.jd_start, 0)
-    vyapti_1 = max(anga_span.jd_end - d1_angas.interval.jd_start, 0)
-    if vyapti_1 > vyapti_0:
-      fday = 0 + 1
-    else:
-      fday = 0
+    fday = _compare_vyaapti_duration(d0_angas=d0_angas, d1_angas=d1_angas, target_anga=target_anga, ayanaamsha_id=ayanaamsha_id)
 
   else:
     # logging.info("vyaapti: %s, %s, %s. Some weird case", str(d0_angas.to_tuple()), str(d1_angas.to_tuple()), str(target_anga.index))
