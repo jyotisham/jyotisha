@@ -23,9 +23,9 @@ def test_compare_vyaapti_duration_aparaahna_full_coverage_always_picks_day2():
 def test_vyaapti_moves_to_day2_when_both_days_fully_cover_kaala():
   # 2028, Chennai: the amAvAsyA tithi is unusually long (~26.7 hours) and fully covers aparaahna on
   # both 2028-02-24 and 2028-02-25. Per the rule above (aparaahna, both days fully covering -> always
-  # day 2), the assignment must land on 2028-02-25, not on 2028-02-24 merely because that day was
-  # reached first in the day-by-day scan (see _should_assign_festival's former unconditional
-  # "yesterday already assigned" guard for priority='vyaapti').
+  # day 2), the assignment must land on 2028-02-25. apply_month_anga_events's look-ahead defers
+  # committing 2028-02-24 (decide_vyaapti((23,24)) picks 24, but 25 also touches the anga, so
+  # commitment is deferred) until the (24, 25) pairing settles it definitively in favour of 25.
   computation_system = ComputationSystem.DEFAULT
   panchaanga = periodical.Panchaanga(city=chennai, start_date=Date(2028, 2, 20), end_date=Date(2028, 2, 28), computation_system=computation_system)
 
@@ -45,11 +45,10 @@ def test_vyaapti_does_not_shift_onto_spurious_tail_bleed():
   # covers -> decide_vyaapti unambiguously picks 2020-03-27, no tiebreak needed). 2020-03-28's aparaahna
   # is already fully into tithi 4 -- decide_vyaapti((2020-03-27, 2020-03-28)) correctly re-confirms
   # 2020-03-27 on its own (2020-03-27 fully covers its own kaala while 2020-03-28 doesn't touch tithi 3
-  # at all), so this specific date doesn't exercise apply_month_anga_events's adjacent-conflict
-  # resolution -- decide_vyaapti's own branches already agree end-to-end. Kept as an end-to-end sanity
-  # check (a hypothetical case with a genuine "partial touch mistaken for a claim" boundary pattern
-  # would instead need the conflict resolution in apply_month_anga_events, exercised more directly by
-  # test_compare_vyaapti_duration_aparaahna_full_coverage_always_picks_day2 for the full-coverage case).
+  # at all), so this specific date doesn't need apply_month_anga_events's look-ahead deferral to kick in
+  # -- decide_vyaapti's own branches already agree end-to-end. Kept as an end-to-end sanity check (the
+  # look-ahead deferral itself is exercised more directly by
+  # test_vyaapti_does_not_prematurely_commit_when_next_day_also_touches, below).
   computation_system = ComputationSystem.DEFAULT
   panchaanga = periodical.Panchaanga(city=chennai, start_date=Date(2020, 3, 20), end_date=Date(2020, 4, 1), computation_system=computation_system)
 
@@ -58,3 +57,23 @@ def test_vyaapti_does_not_shift_onto_spurious_tail_bleed():
 
   day28 = panchaanga.date_str_to_panchaanga[Date(2020, 3, 28).get_date_str()]
   assert festival_name not in day28.festival_id_to_instance
+
+
+def test_vyaapti_does_not_prematurely_commit_when_next_day_also_touches():
+  # 2028, Chennai: manvAdiH~(uttamaH~[3]) (priority='vyaapti', kaala='aparaahna', tithi 3).
+  # 2028-03-28's aparaahna fully covers tithi 3; 2028-03-29's aparaahna only touches tithi 3 briefly at
+  # its very start (~30 min) before moving into tithi 4. decide_vyaapti((27, 28)) picks 28 outright, but
+  # since 29 also touches the anga, apply_month_anga_events must defer committing 28 rather than
+  # assigning it immediately -- otherwise a later, unrelated pairing (29, 30), which sees 29 touching
+  # tithi 3 at its start and 30 having moved fully into tithi 4, would independently (and wrongly) also
+  # want to claim the festival for 29, displacing the correct assignment on 28 via the generic
+  # delete-previous-and-reassign cleanup. The (28, 29) pairing settles it: since 28 fully covers its
+  # kaala while 29 only briefly touches it, compare_vyaapti_duration correctly favours 28.
+  computation_system = ComputationSystem.DEFAULT
+  panchaanga = periodical.Panchaanga(city=chennai, start_date=Date(2028, 3, 24), end_date=Date(2028, 4, 2), computation_system=computation_system)
+
+  festival_name = 'manvAdiH~(uttamaH~[3])'
+  assert panchaanga.festival_id_to_days[festival_name] == {Date(2028, 3, 28)}
+
+  day29 = panchaanga.date_str_to_panchaanga[Date(2028, 3, 29).get_date_str()]
+  assert festival_name not in day29.festival_id_to_instance
