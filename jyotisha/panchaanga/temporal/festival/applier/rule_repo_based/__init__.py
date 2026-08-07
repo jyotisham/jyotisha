@@ -216,12 +216,14 @@ class RuleLookupAssigner(FestivalAssigner):
           if len(self.festival_id_to_days[fest_id]) > 0:
             previous_fest_day = sorted(self.festival_id_to_days[fest_id])[-1]
             p_previous_fday = self.panchaanga.date_str_to_panchaanga[previous_fest_day.get_date_str()]
-            # Regarding the fest_rule.timing.month_number != 0 below:
-            # This is required so as to avoid omissions as in the following case: sthAlIpAka_1 (which occurs every lunar month on tithi 1 at pUrvaviddha pUrvAhNa) occurs within the same "sunrise lunar month" but on different "pUrvAhNa lunar months" on 2019-07-03 and 2019-08-01.
-            # Plus, a gap of not much more than 1 month is desirable for monthly festivals even otherwise - https://github.com/jyotisham/jyotisha/issues/54#issuecomment-735355325 .
-            if fest_rule.timing.month_number != 0 and p_fday.date - previous_fest_day <= 32 and p_previous_fday.get_date(month_type=month_type).month == month:
-              self.panchaanga.delete_festival_date(fest_id=fest_id, date=previous_fest_day)
-            elif priority == 'vyaapti' and abs(p_fday.date - previous_fest_day) == 1:
+            # priority == 'vyaapti' with a 1-day gap is checked FIRST, ahead of the month_number-based clause
+            # below: such a gap is always an adjacent-day conflict for the *same* occurrence (never a distinct
+            # month's occurrence, which is never just 1 day away), so it must be settled by direct duration
+            # comparison rather than falling through to the month_number clause's unconditional delete (which
+            # would otherwise win first for the very common case of a month-scoped vyaapti festival, ie.
+            # fest_rule.timing.month_number != 0, silently discarding the comparison this whole mechanism exists
+            # for).
+            if priority == 'vyaapti' and abs(p_fday.date - previous_fest_day) == 1:
               # previous_fest_day and p_fday.date are adjacent candidates for the same vyaapti-priority
               # occurrence. Neither day's own pairwise decide_vyaapti() result can be trusted here on its
               # own -- a boundary-touch match can be a spurious re-detection of the tail/lead of an
@@ -236,6 +238,11 @@ class RuleLookupAssigner(FestivalAssigner):
               else:
                 # The already-assigned day wins the direct comparison; discard this candidate.
                 assign_festival = False
+            # Regarding the fest_rule.timing.month_number != 0 below:
+            # This is required so as to avoid omissions as in the following case: sthAlIpAka_1 (which occurs every lunar month on tithi 1 at pUrvaviddha pUrvAhNa) occurs within the same "sunrise lunar month" but on different "pUrvAhNa lunar months" on 2019-07-03 and 2019-08-01.
+            # Plus, a gap of not much more than 1 month is desirable for monthly festivals even otherwise - https://github.com/jyotisham/jyotisha/issues/54#issuecomment-735355325 .
+            elif fest_rule.timing.month_number != 0 and p_fday.date - previous_fest_day <= 32 and p_previous_fday.get_date(month_type=month_type).month == month:
+              self.panchaanga.delete_festival_date(fest_id=fest_id, date=previous_fest_day)
           # TODO : Set intervals for preceeding_arunodaya differently?
 
           if assign_festival:
