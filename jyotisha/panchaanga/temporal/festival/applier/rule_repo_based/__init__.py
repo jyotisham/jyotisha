@@ -170,7 +170,7 @@ class RuleLookupAssigner(FestivalAssigner):
         # Example where False should be returned: Suppose festival is on tithi 27 of solar sidereal month 10; last day of month 9 could have tithi 27, but not day 1 of month 10; though a much later day of month 10 has tithi 27.
         return False
 
-    return priority not in ('puurvaviddha', 'vyaapti') or \
+    return priority not in ('puurvaviddha', 'vyaapti', 'paraviddha') or 'anadhyAyaH' in fest_rule.id or \
                       (p_fday.date - 1 not in self.festival_id_to_days[fest_rule.id])
 
 
@@ -204,13 +204,18 @@ class RuleLookupAssigner(FestivalAssigner):
       target_anga = Anga.get_cached(index=fest_rule.timing.anga_number, anga_type_id=anga_type_str.upper())
       decision = priority_decision.decide(p0=panchaangas[1], p1=panchaangas[2], target_anga=target_anga, kaala=kaala, ayanaamsha_id=self.ayanaamsha_id, priority=priority)
 
-      if decision is not None and priority == 'vyaapti' and decision.fday == 1:
-        # decide_vyaapti() picked today (panchaangas[2]) over yesterday based on just this pair. Since an
-        # anga can never touch 3 consecutive days' kaalas (max anga duration < 2x kaala spacing), a look
-        # at tomorrow settles whether today's win is final: if tomorrow's kaala doesn't touch target_anga
-        # at all, today can't lose to it later, so commit now. If tomorrow does touch, today's boundary
-        # match may just be tomorrow's leading edge bleeding backwards -- defer entirely and let the
-        # (today, tomorrow) pairing in the next iteration make the definitive call.
+      if decision is not None and priority in ('vyaapti', 'paraviddha') and decision.fday == 1 and 'anadhyAyaH' not in fest_id:
+        # decide_vyaapti()/decide_paraviddha() picked today (panchaangas[2]) over yesterday based on just
+        # this pair. Since an anga can never touch 3 consecutive days' kaalas (max anga duration < 2x kaala
+        # spacing), a look at tomorrow settles whether today's win is final: if tomorrow's kaala doesn't
+        # touch target_anga at all, today can't lose to it later, so commit now. If tomorrow does touch,
+        # today's boundary match may just be tomorrow's leading edge bleeding backwards (or, for paraviddha,
+        # a genuine straddle that itself continues into tomorrow, in which case paraviddha's own "prefer the
+        # later day" rule means tomorrow should win outright) -- defer entirely and let the (today, tomorrow)
+        # pairing in the next iteration make the definitive call.
+        # anadhyAyaH (non-study day) festivals are exempt: unlike other paraviddha festivals, a genuine
+        # 2-day straddle is traditionally observed on *both* days, not resolved down to one (see the same
+        # exemption in FestivalAssigner.cleanup_festivals's adjacent-day cleanup).
         tomorrow = self.panchaanga.date_str_to_panchaanga.get((date + 1).get_date_str(), None)
         if tomorrow is not None:
           (_, tomorrow_angas) = get_2_day_interval_boundary_angas(kaala=kaala, anga_type=target_anga.get_type(), p0=panchaangas[2], p1=tomorrow)
