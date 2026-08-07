@@ -2,7 +2,7 @@ import logging
 
 from timebudget import timebudget
 
-from jyotisha.panchaanga.temporal import Anga, AngaType
+from jyotisha.panchaanga.temporal import Anga, AngaType, get_2_day_interval_boundary_angas
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
 from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
 
@@ -170,7 +170,12 @@ class RuleLookupAssigner(FestivalAssigner):
         # Example where False should be returned: Suppose festival is on tithi 27 of solar sidereal month 10; last day of month 9 could have tithi 27, but not day 1 of month 10; though a much later day of month 10 has tithi 27.
         return False
 
-    return priority not in ('puurvaviddha', 'vyaapti') or \
+    # vyaapti is deliberately not guarded here the way puurvaviddha is: a boundary-touch match on an adjacent
+    # day can't be trusted or distrusted just from its own pairwise decide_vyaapti() result (it may be a
+    # spurious re-detection of an occurrence's tail/lead that an adjacent day-pair already resolved, or it may
+    # be the correct day). apply_month_anga_events settles any such adjacent-day conflict itself, by directly
+    # comparing true vyaapti duration between the two specific candidate days -- see there.
+    return priority != 'puurvaviddha' or \
                       (p_fday.date - 1 not in self.festival_id_to_days[fest_rule.id])
 
 
@@ -213,10 +218,26 @@ class RuleLookupAssigner(FestivalAssigner):
             p_previous_fday = self.panchaanga.date_str_to_panchaanga[previous_fest_day.get_date_str()]
             # Regarding the fest_rule.timing.month_number != 0 below:
             # This is required so as to avoid omissions as in the following case: sthAlIpAka_1 (which occurs every lunar month on tithi 1 at pUrvaviddha pUrvAhNa) occurs within the same "sunrise lunar month" but on different "pUrvAhNa lunar months" on 2019-07-03 and 2019-08-01.
-            # Plus, a gap of not much more than 1 month is desirable for monthly festivals even otherwise - https://github.com/jyotisham/jyotisha/issues/54#issuecomment-735355325 . 
+            # Plus, a gap of not much more than 1 month is desirable for monthly festivals even otherwise - https://github.com/jyotisham/jyotisha/issues/54#issuecomment-735355325 .
             if fest_rule.timing.month_number != 0 and p_fday.date - previous_fest_day <= 32 and p_previous_fday.get_date(month_type=month_type).month == month:
               self.panchaanga.delete_festival_date(fest_id=fest_id, date=previous_fest_day)
+            elif priority == 'vyaapti' and abs(p_fday.date - previous_fest_day) == 1:
+              # previous_fest_day and p_fday.date are adjacent candidates for the same vyaapti-priority
+              # occurrence. Neither day's own pairwise decide_vyaapti() result can be trusted here on its
+              # own -- a boundary-touch match can be a spurious re-detection of the tail/lead of an
+              # occurrence the other, adjacent day-pair already resolved. Settle it directly: whichever of
+              # the two specific days has the greater true anga-duration overlap with the kaala wins.
+              earlier, later = (p_previous_fday, p_fday) if previous_fest_day < p_fday.date else (p_fday, p_previous_fday)
+              (earlier_angas, later_angas) = get_2_day_interval_boundary_angas(kaala=kaala, anga_type=target_anga.get_type(), p0=earlier, p1=later)
+              later_wins = priority_decision.compare_vyaapti_duration(d0_angas=earlier_angas, d1_angas=later_angas, target_anga=target_anga, ayanaamsha_id=self.ayanaamsha_id) == 1
+              new_day_is_later = p_fday.date > previous_fest_day
+              if later_wins == new_day_is_later:
+                self.panchaanga.delete_festival_date(fest_id=fest_id, date=previous_fest_day)
+              else:
+                # The already-assigned day wins the direct comparison; discard this candidate.
+                assign_festival = False
           # TODO : Set intervals for preceeding_arunodaya differently?
 
-          self.panchaanga.add_festival(fest_id=fest_id, date=p_fday.date)
+          if assign_festival:
+            self.panchaanga.add_festival(fest_id=fest_id, date=p_fday.date)
 
