@@ -106,11 +106,23 @@ def decide_puurvaviddha(p0, p1, target_anga, kaala):
   return FestivalDecision.from_details(boundary_angas_list=[d0_angas, d1_angas], fday=fday, panchaangas=[p0, p1])
 
 
-def _compare_vyaapti_duration(d0_angas, d1_angas, target_anga, ayanaamsha_id):
+def compare_vyaapti_duration(d0_angas, d1_angas, target_anga, ayanaamsha_id):
   """ Compares the target anga's true duration overlap with d0's vs d1's kaala, for cases where boundary
   sampling alone can't distinguish the two (eg. both fully cover their kaala, or the anga only touches the
   shared boundary between the two kaalas). Returns 0 or 1 (the day with the greater overlap).
+
+  Also used directly by RuleLookupAssigner.apply_month_anga_events to settle conflicts between a new
+  candidate day and an already-assigned adjacent day for priority='vyaapti' festivals -- see there for why
+  that's necessary (a boundary-touch match can be a spurious re-detection of an occurrence's tail/lead that
+  an adjacent day-pair already resolved, so it can't be trusted just because decide_vyaapti() returned it).
   """
+  if d0_angas.interval.name == 'अपराह्णः' and d0_angas.start == target_anga and d0_angas.end == target_anga and d1_angas.start == target_anga and d1_angas.end == target_anga:
+    # Both d0 and d1 fully cover aparaahna -- an unusually long-duration anga spanning both days' kaalas
+    # in full. Traditional practice (this is typically a shraaddha-type observance) is to prefer the
+    # second day outright here, rather than compare true durations -- and rather than lean on day-length
+    # (ahas) trend, since ahas only increases toward the second day for part of the year.
+    return 1
+
   anga_span = zodiac.AngaSpanFinder(ayanaamsha_id=ayanaamsha_id, anga_type=target_anga.get_type()).find(jd1=d0_angas.interval.jd_start, jd2=d1_angas.interval.jd_end, target_anga_id=target_anga)
   # A None boundary means the anga's true start/end lies outside [jd1, jd2] in that direction (eg. it started
   # before d0's kaala even began) -- clamp to the search window's own edge, which is the correct "at least
@@ -158,10 +170,7 @@ def decide_vyaapti(p0, p1, target_anga, ayanaamsha_id, kaala):
     if d0_angas.start == q and d0_angas.end == q:
       # Both d0 and d1 fully cover the kaala -- a genuine tie (eg. an unusually long-duration anga spanning
       # both days' kaalas in full); compare true durations rather than defaulting to d1.
-      if kaala == 'अपराह्णः':
-        fday = 1 # Go for the second day, since it's likely a shraaddha type festival - rather than depend on ahas!! (Ahas will be longer on d + 1 only in part of the year!)
-      else:
-        fday = _compare_vyaapti_duration(d0_angas=d0_angas, d1_angas=d1_angas, target_anga=target_anga, ayanaamsha_id=ayanaamsha_id)
+      fday = compare_vyaapti_duration(d0_angas=d0_angas, d1_angas=d1_angas, target_anga=target_anga, ayanaamsha_id=ayanaamsha_id)
     else:
       fday = 1
   elif d0_angas.end < q and d1_angas.start >= q:
@@ -170,7 +179,7 @@ def decide_vyaapti(p0, p1, target_anga, ayanaamsha_id, kaala):
 
   elif d0_angas.end == q and d1_angas.start == q:
     # The <e> p q q r: vyApti case
-    fday = _compare_vyaapti_duration(d0_angas=d0_angas, d1_angas=d1_angas, target_anga=target_anga, ayanaamsha_id=ayanaamsha_id)
+    fday = compare_vyaapti_duration(d0_angas=d0_angas, d1_angas=d1_angas, target_anga=target_anga, ayanaamsha_id=ayanaamsha_id)
 
   else:
     # logging.info("vyaapti: %s, %s, %s. Some weird case", str(d0_angas.to_tuple()), str(d1_angas.to_tuple()), str(target_anga.index))
