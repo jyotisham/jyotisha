@@ -2,7 +2,7 @@ import logging
 
 from timebudget import timebudget
 
-from jyotisha.panchaanga.temporal import Anga, AngaType
+from jyotisha.panchaanga.temporal import Anga, AngaType, get_2_day_interval_boundary_angas
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
 from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
 
@@ -228,7 +228,23 @@ class RuleLookupAssigner(FestivalAssigner):
             if (fest_rule.timing.month_number != 0 and p_fday.date - previous_fest_day <= 32 and p_previous_fday.get_date(month_type=month_type).month == month) or \
                (priority == 'vyaapti' and p_fday.date - previous_fest_day == 1):
               self.panchaanga.delete_festival_date(fest_id=fest_id, date=previous_fest_day)
+            elif priority == 'vyaapti' and abs(p_fday.date - previous_fest_day) == 1:
+              # previous_fest_day and p_fday.date are adjacent candidates for the same vyaapti-priority
+              # occurrence. Neither day's own pairwise decide_vyaapti() result can be trusted here on its
+              # own -- a boundary-touch match can be a spurious re-detection of the tail/lead of an
+              # occurrence the other, adjacent day-pair already resolved. Settle it directly: whichever of
+              # the two specific days has the greater true anga-duration overlap with the kaala wins.
+              earlier, later = (p_previous_fday, p_fday) if previous_fest_day < p_fday.date else (p_fday, p_previous_fday)
+              (earlier_angas, later_angas) = get_2_day_interval_boundary_angas(kaala=kaala, anga_type=target_anga.get_type(), p0=earlier, p1=later)
+              later_wins = priority_decision.compare_vyaapti_duration(d0_angas=earlier_angas, d1_angas=later_angas, target_anga=target_anga, ayanaamsha_id=self.ayanaamsha_id) == 1
+              new_day_is_later = p_fday.date > previous_fest_day
+              if later_wins == new_day_is_later:
+                self.panchaanga.delete_festival_date(fest_id=fest_id, date=previous_fest_day)
+              else:
+                # The already-assigned day wins the direct comparison; discard this candidate.
+                assign_festival = False
           # TODO : Set intervals for preceeding_arunodaya differently?
 
-          self.panchaanga.add_festival(fest_id=fest_id, date=p_fday.date)
+          if assign_festival:
+            self.panchaanga.add_festival(fest_id=fest_id, date=p_fday.date)
 

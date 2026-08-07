@@ -158,7 +158,10 @@ def decide_vyaapti(p0, p1, target_anga, ayanaamsha_id, kaala):
     if d0_angas.start == q and d0_angas.end == q:
       # Both d0 and d1 fully cover the kaala -- a genuine tie (eg. an unusually long-duration anga spanning
       # both days' kaalas in full); compare true durations rather than defaulting to d1.
-      fday = _compare_vyaapti_duration(d0_angas=d0_angas, d1_angas=d1_angas, target_anga=target_anga, ayanaamsha_id=ayanaamsha_id)
+      if kaala == 'अपराह्णः':
+        fday = 1 # Go for the second day, since it's likely a shraaddha type festival - rather than depend on ahas!! (Ahas will be longer on d + 1 only in part of the year!)
+      else:
+        fday = _compare_vyaapti_duration(d0_angas=d0_angas, d1_angas=d1_angas, target_anga=target_anga, ayanaamsha_id=ayanaamsha_id)
     else:
       fday = 1
   elif d0_angas.end < q and d1_angas.start >= q:
