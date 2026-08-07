@@ -30,7 +30,7 @@ class FestivalDecision(object):
       return FestivalDecision(day_panchaanga=day_panchaanga, boundary_angas=boundary_angas, fday=fday)
 
 
-def decide_paraviddha(p0, p1, target_anga, kaala):
+def decide_paraviddha(p0, p1, target_anga, kaala, ayanaamsha_id):
   (d0_angas, d1_angas) = get_2_day_interval_boundary_angas(kaala=kaala, anga_type=target_anga.get_type(), p0=p0, p1=p1)
   prev_anga = target_anga - 1
   next_anga = target_anga + 1
@@ -47,6 +47,17 @@ def decide_paraviddha(p0, p1, target_anga, kaala):
       fday = 1
   elif d0_angas.start == target_anga and d0_angas.end == target_anga:
     fday = 0
+  elif d0_angas.end == target_anga and d1_angas.start == target_anga:
+    # d0 only touches target_anga right at its own kaala-end, and d1's kaala also touches it (at its own
+    # start) without fully covering it either -- a genuine short straddle across both days, with neither
+    # day exclusively owning it. Unlike the branches above (which involve a day that fully covers the
+    # kaala), a flat "prefer second" isn't safe here: the split between the two days can be a landslide
+    # either way. Compare true durations instead, except for praatah kaala, which keeps its existing
+    # "prefer first" convention (matching the analogous branch above).
+    if kaala == 'प्रातः':
+      fday = 0
+    else:
+      fday = compare_vyaapti_duration(d0_angas=d0_angas, d1_angas=d1_angas, target_anga=target_anga, ayanaamsha_id=ayanaamsha_id)
   elif d0_angas.end == target_anga:
     fday = 0
   elif d1_angas.start == target_anga:
@@ -110,6 +121,8 @@ def compare_vyaapti_duration(d0_angas, d1_angas, target_anga, ayanaamsha_id):
   """ Compares the target anga's true duration overlap with d0's vs d1's kaala, for cases where boundary
   sampling alone can't distinguish the two (eg. both fully cover their kaala, or the anga only touches the
   shared boundary between the two kaalas). Returns 0 or 1 (the day with the greater overlap).
+
+  Used by both decide_vyaapti and decide_paraviddha's genuine-straddle branches.
   """
   if d0_angas.interval.name == 'अपराह्णः' and d0_angas.start == target_anga and d0_angas.end == target_anga and d1_angas.start == target_anga and d1_angas.end == target_anga:
     # Both d0 and d1 fully cover aparaahna -- an unusually long-duration anga spanning both days' kaalas
@@ -194,7 +207,7 @@ def decide(p0, p1, target_anga, kaala, priority, ayanaamsha_id):
   :return: FestivalDecision object.
   """
   if priority == 'paraviddha':
-    decision = decide_paraviddha(p0=p0, p1=p1, target_anga=target_anga, kaala=kaala)
+    decision = decide_paraviddha(p0=p0, p1=p1, target_anga=target_anga, kaala=kaala, ayanaamsha_id=ayanaamsha_id)
   elif priority == 'puurvaviddha':
     decision = decide_puurvaviddha(p0=p0, p1=p1, target_anga=target_anga, kaala=kaala)
   elif priority == 'vyaapti':
