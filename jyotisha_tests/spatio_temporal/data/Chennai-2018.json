@@ -101682,16 +101682,6 @@
         }
       },
       "festival_id_to_instance": {
-        "anadhyAyaH~29": {
-          "interval": {
-            "jd_end": 2458223.5208,
-            "jd_start": 2458222.5212,
-            "jsonClass": "Interval",
-            "name": "full_day"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "anadhyAyaH~29"
-        },
         "anadhyAyaH~divAsaGkramaNa": {
           "interval": {
             "jd_end": 2458223.5208,
@@ -102722,6 +102712,16 @@
         }
       },
       "festival_id_to_instance": {
+        "anadhyAyaH~29": {
+          "interval": {
+            "jd_end": 2458224.5204,
+            "jd_start": 2458223.5208,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "anadhyAyaH~29"
+        },
         "anadhyAyaH~30": {
           "interval": {
             "jd_end": 2458224.5204,
@@ -380771,7 +380771,7 @@
         "year": 2018
       },
       {
-        "day": 14,
+        "day": 15,
         "jsonClass": "Date",
         "month": 4,
         "year": 2018

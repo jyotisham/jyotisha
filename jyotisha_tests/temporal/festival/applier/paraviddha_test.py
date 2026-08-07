@@ -39,14 +39,15 @@ def test_anadhyayana_paraviddha_still_allows_genuine_two_day_straddle():
   assert {Date(2019, 8, 23), Date(2019, 8, 24)} <= panchaanga.festival_id_to_days[festival_name]
 
 
-def test_paraviddha_short_straddle_compares_true_duration_not_flat_prefer_second():
+def test_paraviddha_short_straddle_prefers_second_regardless_of_duration():
   # 2023, Chennai: yama_or_bhrAtR-dvitIyA (priority='paraviddha', tithi 2, kaala='aparAhNa'). dvitIyA
   # touches 2023-11-14's aparAhNa only in its last ~42 minutes (d0.end == target, a bare trailing touch)
   # and 2023-11-15's aparAhNa only in its first ~46 minutes (d1.start == target, before crossing to
-  # tritIyA) -- a genuine but comparably brief straddle on both sides, not one day exclusively owning it.
+  # tritIyA) -- a genuine straddle across both days, not one day exclusively owning it.
   # decide_paraviddha used to special-case d0.end == target_anga unconditionally as "day 1 wins",
-  # without checking whether day 2 also had a claim; the correct answer here is day 2 (2023-11-15), by a
-  # narrow true-duration margin (46 vs 42 minutes).
+  # without checking whether day 2 also had a claim. paraviddha means "touched by what follows" --
+  # if the anga touches both days at all, day 2 wins outright, with no regard to which day's touch is
+  # longer (unlike vyaapti). See also test_paraviddha_short_straddle_prefers_second_even_when_day_one_dominates.
   computation_system = ComputationSystem.DEFAULT
   panchaanga = periodical.Panchaanga(city=chennai, start_date=Date(2023, 11, 8), end_date=Date(2023, 11, 20), computation_system=computation_system)
 
@@ -54,26 +55,25 @@ def test_paraviddha_short_straddle_compares_true_duration_not_flat_prefer_second
   assert panchaanga.festival_id_to_days[festival_name] == {Date(2023, 11, 15)}
 
 
-def test_paraviddha_short_straddle_keeps_day_one_when_it_dominates():
+def test_paraviddha_short_straddle_prefers_second_even_when_day_one_dominates():
   # 2018, Chennai: anadhyAyaH~29 (priority='paraviddha', tithi 29/caturdazI, kaala='sAGgavaH'). Unlike
   # the yama_or_bhrAtR-dvitIyA case above, here caturdazI dominates 2018-04-14's sAGgava (~104 of 148
   # minutes) and only brushes the first ~10 minutes of 2018-04-15's sAGgava before crossing to
-  # amAvAsyA. A flat "prefer second whenever both days touch" would wrongly move this to 2018-04-15;
-  # the true-duration comparison must keep it on 2018-04-14.
+  # amAvAsyA. paraviddha's "prefer second" rule is not duration-weighted (that's vyaapti's job) --
+  # even though day 1's claim is far larger, the festival still moves to 2018-04-15, since the anga
+  # touches both days' kaalas at all.
   computation_system = ComputationSystem.DEFAULT
   panchaanga = periodical.Panchaanga(city=chennai, start_date=Date(2018, 4, 10), end_date=Date(2018, 4, 18), computation_system=computation_system)
 
   festival_name = 'anadhyAyaH~29'
-  assert panchaanga.festival_id_to_days[festival_name] == {Date(2018, 4, 14)}
+  assert panchaanga.festival_id_to_days[festival_name] == {Date(2018, 4, 15)}
 
 
 def test_paraviddha_exclusive_trailing_touch_still_resolves_without_d1_claim():
   # 2019, Chennai: zrIrAmanavamI (priority='paraviddha', tithi 9/navamI, kaala='madhyAhna'). navamI
   # touches 2019-04-13's madhyAhna only at its very end (d0.end == target_anga) and 2019-04-14's
-  # madhyAhna doesn't touch navamI at all (already dazamI). This exercises the plain "d0 touches
-  # exclusively, d1 doesn't touch at all" branch, distinct from the genuine-straddle case above --
-  # regression coverage for an earlier version of the straddle fix that accidentally dropped this
-  # exclusive-touch fallback entirely, leaving the festival unassigned.
+  # madhyAhna doesn't touch navamI at all (already dazamI) -- an exclusive, unambiguous claim for
+  # day 1, distinct from the genuine-straddle cases above where day 2 also has a claim.
   computation_system = ComputationSystem.DEFAULT
   panchaanga = periodical.Panchaanga(city=chennai, start_date=Date(2019, 4, 8), end_date=Date(2019, 4, 18), computation_system=computation_system)
 
