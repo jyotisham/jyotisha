@@ -110,11 +110,6 @@ def compare_vyaapti_duration(d0_angas, d1_angas, target_anga, ayanaamsha_id):
   """ Compares the target anga's true duration overlap with d0's vs d1's kaala, for cases where boundary
   sampling alone can't distinguish the two (eg. both fully cover their kaala, or the anga only touches the
   shared boundary between the two kaalas). Returns 0 or 1 (the day with the greater overlap).
-
-  Also used directly by RuleLookupAssigner.apply_month_anga_events to settle conflicts between a new
-  candidate day and an already-assigned adjacent day for priority='vyaapti' festivals -- see there for why
-  that's necessary (a boundary-touch match can be a spurious re-detection of an occurrence's tail/lead that
-  an adjacent day-pair already resolved, so it can't be trusted just because decide_vyaapti() returned it).
   """
   if d0_angas.interval.name == 'अपराह्णः' and d0_angas.start == target_anga and d0_angas.end == target_anga and d1_angas.start == target_anga and d1_angas.end == target_anga:
     # Both d0 and d1 fully cover aparaahna -- an unusually long-duration anga spanning both days' kaalas
