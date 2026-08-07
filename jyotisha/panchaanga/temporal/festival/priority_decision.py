@@ -116,6 +116,13 @@ def compare_vyaapti_duration(d0_angas, d1_angas, target_anga, ayanaamsha_id):
   that's necessary (a boundary-touch match can be a spurious re-detection of an occurrence's tail/lead that
   an adjacent day-pair already resolved, so it can't be trusted just because decide_vyaapti() returned it).
   """
+  if d0_angas.interval.name == 'अपराह्णः' and d0_angas.start == target_anga and d0_angas.end == target_anga and d1_angas.start == target_anga and d1_angas.end == target_anga:
+    # Both d0 and d1 fully cover aparaahna -- an unusually long-duration anga spanning both days' kaalas
+    # in full. Traditional practice (this is typically a shraaddha-type observance) is to prefer the
+    # second day outright here, rather than compare true durations -- and rather than lean on day-length
+    # (ahas) trend, since ahas only increases toward the second day for part of the year.
+    return 1
+
   anga_span = zodiac.AngaSpanFinder(ayanaamsha_id=ayanaamsha_id, anga_type=target_anga.get_type()).find(jd1=d0_angas.interval.jd_start, jd2=d1_angas.interval.jd_end, target_anga_id=target_anga)
   # A None boundary means the anga's true start/end lies outside [jd1, jd2] in that direction (eg. it started
   # before d0's kaala even began) -- clamp to the search window's own edge, which is the correct "at least
