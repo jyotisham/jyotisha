@@ -1,6 +1,6 @@
 import os
 import sys
-from math import floor, acos, cos, degrees, radians, sin
+from math import floor
 import logging
 
 import swisseph as swe
@@ -8,7 +8,7 @@ import swisseph as swe
 from jyotisha.panchaanga.temporal import names
 from jyotisha.panchaanga.temporal import interval
 from jyotisha.panchaanga.temporal import zodiac
-from jyotisha.panchaanga.temporal.body import Graha
+from jyotisha.panchaanga.temporal.body import Graha, oblique_ascension
 from jyotisha.panchaanga.temporal.festival import FestivalInstance, TransitionFestivalInstance
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
 from jyotisha.panchaanga.temporal.interval import Interval
@@ -226,10 +226,13 @@ class EclipticFestivalAssigner(FestivalAssigner):
       - setting direction at the start (t_start)
       - rising direction at the end (t_end)
 
-    :param use_latitude: see compute_conjunction_intervals. Recommended for
-      Moon (vikSepa up to ~5.14deg is a large fraction of its 12deg maudhya
-      limit); optional for Mercury/Venus (vikSepa up to ~7-9deg); makes little
-      difference for Mars/Jupiter/Saturn (vikSepa well under 3deg).
+    :param use_latitude: see compute_conjunction_intervals - applies the
+      akSAMza (observer-latitude, oblique-ascension) correction rather than
+      plain ecliptic longitude. This is the empirically-verified convention
+      used by drik-gaNita candra-darzanam tables and is recommended whenever
+      self.panchaanga.city is meaningful for the event (definitely for Moon;
+      likely appropriate for the other grahas too, though only validated
+      against a reference table for Moon so far).
     """
     MAUDHYA_LIMITS = {
         Graha.MERCURY: {'prograde': 14.0, 'retrograde': 12.0},
@@ -333,13 +336,18 @@ class EclipticFestivalAssigner(FestivalAssigner):
     Compute intervals where the angular separation between two grahas is less than `delta`.
     Returns a list of (t_start, t_zero, t_end) tuples.
 
-    :param use_latitude: If False (default), separation is just the longitude
-      difference (kranti-vRtta/ecliptic-longitude convention). If True, the
-      separation is the true angular distance, accounting for each graha's
-      ecliptic latitude (vikSepa) via the spherical law of cosines. The
-      conjunction instant t_zero is always the same-longitude moment,
-      regardless of this flag - latitude only affects where the delta-degree
-      entry/exit boundaries (t_start/t_end) fall.
+    :param use_latitude: If False (default), separation is just the ecliptic
+      longitude difference (kranti-vRtta convention). If True, the entry/exit
+      boundaries (t_start/t_end) are instead found using the difference in
+      oblique ascension (OA = RA - asin(tan(dec)*tan(observer_latitude))) at
+      self.panchaanga.city.latitude - the standard akSAMza (observer-latitude)
+      correction for rise/set-relative, site-dependent phenomena like
+      combustion visibility. This is NOT the same as correcting for a graha's
+      own ecliptic latitude (vikSepa/zara), which is a geocentric, observer-
+      independent quantity and is the wrong correction for this purpose - see
+      https://groups.io/g/swisseph/message/710 . The conjunction instant
+      t_zero is always the same-ecliptic-longitude moment, regardless of this
+      flag.
     """
     g1 = Graha.singleton(graha1)
     g2 = Graha.singleton(graha2)
@@ -352,14 +360,14 @@ class EclipticFestivalAssigner(FestivalAssigner):
         return (diff + 180) % 360 - 180
 
     def separation(jd):
-        delta_lambda = wrapped_longitude_diff(jd)
         if not use_latitude:
-            return abs(delta_lambda)
-        beta1 = radians(g1.get_latitude(jd))
-        beta2 = radians(g2.get_latitude(jd))
-        cos_sep = cos(beta1) * cos(beta2) * cos(radians(delta_lambda)) + sin(beta1) * sin(beta2)
-        cos_sep = max(-1.0, min(1.0, cos_sep))
-        return degrees(acos(cos_sep))
+            return abs(wrapped_longitude_diff(jd))
+        observer_latitude = self.panchaanga.city.latitude
+        ra1, dec1 = g1.get_ra_dec(jd)
+        ra2, dec2 = g2.get_ra_dec(jd)
+        oa1 = oblique_ascension(ra1, dec1, observer_latitude)
+        oa2 = oblique_ascension(ra2, dec2, observer_latitude)
+        return abs((oa1 - oa2 + 180) % 360 - 180)
 
     inside = False
     t_start = None
