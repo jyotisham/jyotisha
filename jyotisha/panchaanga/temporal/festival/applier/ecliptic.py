@@ -296,9 +296,13 @@ class EclipticFestivalAssigner(FestivalAssigner):
 
 
   def add_maudhya_events(self, graha: int):
-    GRAHA_NAMES = {Graha.VENUS: 'zukraH', Graha.MERCURY: 'budhaH', Graha.MARS: 'aGgArakaH', 
-        Graha.SATURN: 'zaniH', Graha.JUPITER: 'guruH'}
-    maudhya_intervals = self.compute_maudhya_intervals(graha, self.panchaanga.jd_start, self.panchaanga.jd_end)
+    GRAHA_NAMES = {Graha.VENUS: 'zukraH', Graha.MERCURY: 'budhaH', Graha.MARS: 'aGgArakaH',
+        Graha.SATURN: 'zaniH', Graha.JUPITER: 'guruH', Graha.MOON: 'candraH'}
+    # use_latitude=True: apply the akSAMza (observer-latitude, oblique-ascension)
+    # correction - see compute_conjunction_intervals docstring. This is the
+    # empirically-validated convention, and applies uniformly to every graha,
+    # Chandra included, not just the five star-planets.
+    maudhya_intervals = self.compute_maudhya_intervals(graha, self.panchaanga.jd_start, self.panchaanga.jd_end, use_latitude=True)
     for t_start, t_end, dir_rise, dir_set in maudhya_intervals:
         try:
             fday = int(t_start - self.daily_panchaangas[0].julian_day_start)
