@@ -1,6 +1,6 @@
 import os
 import sys
-from math import floor
+from math import floor, acos, cos, degrees, radians, sin
 import logging
 
 import swisseph as swe
@@ -219,12 +219,17 @@ class EclipticFestivalAssigner(FestivalAssigner):
     return "prAk" if az < 180 else "pratyak"
 
  
-  def compute_maudhya_intervals(self, graha: int, jd_start: float, jd_end: float, step: float = 0.5) -> list[tuple[float, float, str, str]]:
+  def compute_maudhya_intervals(self, graha: int, jd_start: float, jd_end: float, step: float = 0.5, use_latitude: bool = False) -> list[tuple[float, float, str, str]]:
     """
     Compute combustion (maudhya) intervals for a graha between jd_start and jd_end.
     Each interval includes:
       - setting direction at the start (t_start)
       - rising direction at the end (t_end)
+
+    :param use_latitude: see compute_conjunction_intervals. Recommended for
+      Moon (vikSepa up to ~5.14deg is a large fraction of its 12deg maudhya
+      limit); optional for Mercury/Venus (vikSepa up to ~7-9deg); makes little
+      difference for Mars/Jupiter/Saturn (vikSepa well under 3deg).
     """
     MAUDHYA_LIMITS = {
         Graha.MERCURY: {'prograde': 14.0, 'retrograde': 12.0},
@@ -232,20 +237,49 @@ class EclipticFestivalAssigner(FestivalAssigner):
         Graha.MARS: {'prograde': 17.0, 'retrograde': 17.0},
         Graha.JUPITER: {'prograde': 11.0, 'retrograde': 11.0},
         Graha.SATURN: {'prograde': 15.0, 'retrograde': 15.0},
+        Graha.MOON: {'prograde': 12.0, 'retrograde': 12.0},
     }
 
-    is_retro = self.is_retrograde(graha, jd_start)
-    delta = MAUDHYA_LIMITS[graha]["retrograde" if is_retro else "prograde"]
-
-    conjunction_intervals = self.compute_conjunction_intervals(
+    limits = MAUDHYA_LIMITS[graha]
+    # Prograde/retrograde state (and hence the applicable delta) can differ
+    # from one conjunction to the next within [jd_start, jd_end], so we can't
+    # just check it once at jd_start. Scan wide first (using the looser of
+    # the two limits) to bracket every conjunction, then re-bracket each one
+    # individually with the delta that actually applies to it.
+    scan_delta = max(limits['prograde'], limits['retrograde'])
+    candidate_intervals = self.compute_conjunction_intervals(
         graha1=graha,
         graha2=Graha.SUN,
         jd_start=jd_start,
         jd_end=jd_end,
-        delta=delta,
-        step=step
+        delta=scan_delta,
+        step=step,
+        use_latitude=use_latitude
     )
-    
+
+    conjunction_intervals = []
+    for t_start, t_zero, t_end in candidate_intervals:
+        is_retro = self.is_retrograde(graha, t_zero)
+        delta = limits["retrograde" if is_retro else "prograde"]
+        if delta == scan_delta:
+            conjunction_intervals.append((t_start, t_zero, t_end))
+            continue
+        # delta is narrower than scan_delta: re-bracket within the
+        # already-found (wider) window using the correct, narrower delta.
+        refined = self.compute_conjunction_intervals(
+            graha1=graha,
+            graha2=Graha.SUN,
+            jd_start=t_start,
+            jd_end=t_end,
+            delta=delta,
+            step=step,
+            use_latitude=use_latitude
+        )
+        if refined:
+            conjunction_intervals.append(refined[0])
+        else:
+            logging.warning(f"Could not refine maudhya interval near jd={t_zero} for {graha} with delta={delta}")
+
     intervals = []
     
     for t_start, t_zero, t_end in conjunction_intervals:
@@ -292,48 +326,60 @@ class EclipticFestivalAssigner(FestivalAssigner):
     jd_end: float,
     delta: float = 1.0,
     step: float = 0.5,
-    debug: bool = False
+    debug: bool = False,
+    use_latitude: bool = False
     ) -> list[tuple[float, float, float]]:
     """
-    Compute intervals where the longitude difference between two grahas is less than `delta`.
+    Compute intervals where the angular separation between two grahas is less than `delta`.
     Returns a list of (t_start, t_zero, t_end) tuples.
+
+    :param use_latitude: If False (default), separation is just the longitude
+      difference (kranti-vRtta/ecliptic-longitude convention). If True, the
+      separation is the true angular distance, accounting for each graha's
+      ecliptic latitude (vikSepa) via the spherical law of cosines. The
+      conjunction instant t_zero is always the same-longitude moment,
+      regardless of this flag - latitude only affects where the delta-degree
+      entry/exit boundaries (t_start/t_end) fall.
     """
     g1 = Graha.singleton(graha1)
     g2 = Graha.singleton(graha2)
     intervals = []
+
+    def wrapped_longitude_diff(jd):
+        # Signed difference in (-180, 180], avoiding the 0deg/360deg wraparound
+        # bug that raw subtraction has near conjunction/opposition boundaries.
+        diff = g1.get_longitude(jd, ayanaamsha_id=self.ayanaamsha_id) - g2.get_longitude(jd, ayanaamsha_id=self.ayanaamsha_id)
+        return (diff + 180) % 360 - 180
+
+    def separation(jd):
+        delta_lambda = wrapped_longitude_diff(jd)
+        if not use_latitude:
+            return abs(delta_lambda)
+        beta1 = radians(g1.get_latitude(jd))
+        beta2 = radians(g2.get_latitude(jd))
+        cos_sep = cos(beta1) * cos(beta2) * cos(radians(delta_lambda)) + sin(beta1) * sin(beta2)
+        cos_sep = max(-1.0, min(1.0, cos_sep))
+        return degrees(acos(cos_sep))
 
     inside = False
     t_start = None
     jd = jd_start
 
     while jd <= jd_end:
-        lon_diff = abs(g1.get_longitude(jd, ayanaamsha_id=self.ayanaamsha_id) - g2.get_longitude(jd, ayanaamsha_id=self.ayanaamsha_id))
-        lon_diff = min(lon_diff, 360 - lon_diff)  # shortest arc
+        sep = separation(jd)
 
-        if not inside and lon_diff < delta:
+        if not inside and sep < delta:
             try:
-                t_start = brentq(
-                    lambda x: abs(g1.get_longitude(x, ayanaamsha_id=self.ayanaamsha_id) - g2.get_longitude(x, ayanaamsha_id=self.ayanaamsha_id)) - delta,
-                    jd - step,
-                    jd
-                )
+                t_start = brentq(lambda x: separation(x) - delta, jd - step, jd)
                 inside = True
             except ValueError:
                 logging.warning(f"Could not bracket start of proximity at {jd}")
-        elif inside and lon_diff > delta:
+        elif inside and sep > delta:
             try:
-                t_end = brentq(
-                    lambda x: abs(g1.get_longitude(x, ayanaamsha_id=self.ayanaamsha_id) - g2.get_longitude(x, ayanaamsha_id=self.ayanaamsha_id)) - delta,
-                    jd - step,
-                    jd
-                )
-                # Now compute t_zero (exact conjunction)
+                t_end = brentq(lambda x: separation(x) - delta, jd - step, jd)
+                # Now compute t_zero (exact conjunction), always longitude-based.
                 try:
-                    t_zero = brentq(
-                        lambda x: g1.get_longitude(x, ayanaamsha_id=self.ayanaamsha_id) - g2.get_longitude(x, ayanaamsha_id=self.ayanaamsha_id),
-                        t_start,
-                        t_end
-                    )
+                    t_zero = brentq(wrapped_longitude_diff, t_start, t_end)
                     intervals.append((t_start, t_zero, t_end))
                 except ValueError:
                     logging.warning(f"Could not find t_zero between {t_start} and {t_end}")

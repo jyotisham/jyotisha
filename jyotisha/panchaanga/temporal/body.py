@@ -81,6 +81,17 @@ class Graha(JsonObject):
         return (swe.degnorm(swe.calc_ut(jd, swe.TRUE_NODE)[0][0]) + 180) % 360
       return swe.degnorm(swe.calc_ut(jd, self._get_swisseph_id())[0][0])
 
+  @methodtools.lru_cache(maxsize=10)
+  def get_latitude(self, jd):
+    """
+    Ecliptic latitude in degrees (signed; north of the ecliptic is positive).
+    Unlike longitude, this is unaffected by ayanaamsha, since precession
+    correction is a rotation about the ecliptic pole.
+    """
+    if self.body_name == Graha.KETU:
+      return -swe.calc_ut(jd, swe.TRUE_NODE)[0][1]
+    return swe.calc_ut(jd, self._get_swisseph_id())[0][1]
+
   def get_transits(self, jd_start: float, jd_end: float, ayanaamsha_id: str, anga_type: object) -> [Transit]:
     """Returns the next transit of the given planet e.g. jupiter
 
