@@ -156,7 +156,6 @@ class ShraaddhaTithiAssigner(PeriodicPanchaangaApplier):
 
     # Compute Solar Month Tithis
     solar_tithi_days = [{t: [] for t in range(0, 32)} for _m in range(13)]
-    chandramana_fallback_tithis = set()
     yest_tithis, aparaahna = self.panchaanga.daily_panchaangas_sorted()[1].get_interval_anga_spans(interval_id="aparaahna",
                                                                                               anga_type=AngaType.TITHI)
     for dp in self.panchaanga.daily_panchaangas_sorted()[2:self.panchaanga.duration + 2]:
@@ -325,11 +324,11 @@ class ShraaddhaTithiAssigner(PeriodicPanchaangaApplier):
           # No tithi found, use chandramana tithi!
           # सौरमासे तिथ्यलाभे चान्द्रमानेन कारयेत्
           solar_tithi_days[m][t] = lunar_tithi_days[m][t]
-          chandramana_fallback_tithis.add((m, t))
-          if not solar_tithi_days[m][t] and debug_shraaddha_tithi:
-            logging.warning('No chAndramAna tithi available either for %d, %d (a-tithiH in both systems)' % (m, t))
-          elif debug_shraaddha_tithi:
-            logging.warning('Using lunar tithi for %d, %d: %s' % (m, t, str(solar_tithi_days[m][t])))
+          if debug_shraaddha_tithi:
+            if not solar_tithi_days[m][t]:
+              logging.warning('No chAndramAna tithi available either for %d, %d (a-tithiH in both systems)' % (m, t))
+            else:
+              logging.warning('Using lunar tithi for %d, %d: %s' % (m, t, str(solar_tithi_days[m][t])))
 
     for m in range(1, 13):
       for t in range(1, 31):
@@ -341,7 +340,7 @@ class ShraaddhaTithiAssigner(PeriodicPanchaangaApplier):
           if debug_shraaddha_tithi:
             logging.warning('No longer shUnya')
           self.daily_panchaangas[fday].solar_shraaddha_tithi.remove(0)
-        self.daily_panchaangas[fday].solar_shraaddha_tithi.append((m, t, (m, t) in chandramana_fallback_tithis))
+        self.daily_panchaangas[fday].solar_shraaddha_tithi.append((m, t))
 
     for m in lunar_month_list:
       for t in range(1, 31):
