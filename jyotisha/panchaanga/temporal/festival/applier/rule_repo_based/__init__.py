@@ -3,18 +3,52 @@ import logging
 from timebudget import timebudget
 
 from jyotisha.panchaanga.temporal import Anga, AngaType, get_2_day_interval_boundary_angas
+from jyotisha.panchaanga.temporal.festival import priority_decision
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
 from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
 
 
 class RuleLookupAssigner(FestivalAssigner):
   def assign_varalakshmi_vratam(self):
-    if 'yajurvEda-upAkarma' not in self.panchaanga.festival_id_to_days:
-      logging.error('yajurvEda-upAkarma not in festival_id_to_instance!')
-    else:
-      # Extended for longer calendars where more than one upAkarma may be there
-      for d in self.panchaanga.festival_id_to_days['yajurvEda-upAkarma']:
-        self.panchaanga.add_festival(fest_id='varalakSmI-vratam', date=d - ((d.get_weekday() - 5) % 7))
+    """ varalakSmI-vratam is set directly off zrAvaNa-pUrNimA (tithi 15 of nija zrAvaNa mAsa, decided at
+    madhyAhna kAla with paraviddha priority), rather than anchored off yajurvEda-upAkarma -- upAkarma may be
+    absent from a given festival set, or its own timing rule need not coincide with paraviddha/madhyAhna.
+    """
+    target_anga = Anga.get_cached(index=15, anga_type_id=AngaType.TITHI.name)
+    kaala = "madhyaahna"
+    purnima_date = None
+    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
+      day_panchaanga = self.daily_panchaangas[d]
+      prev_day_panchaanga = self.daily_panchaangas[d - 1]
+      if day_panchaanga.lunar_date.month.index != 5 and prev_day_panchaanga.lunar_date.month.index != 5:
+        # pUrNimA's madhyAhna-touch can land on either the last day of (nija) zrAvaNa mAsa or the first
+        # day of the next mAsa, depending on when the mAsa transition itself falls -- so a pair straddling
+        # the mAsa boundary must still be checked as long as one side of it is zrAvaNa.
+        continue
+      decision = priority_decision.decide_paraviddha(p0=prev_day_panchaanga, p1=day_panchaanga, target_anga=target_anga, kaala=kaala)
+      if decision is None or decision.fday is None:
+        continue
+      if decision.fday == 1:
+        # decide_paraviddha() picked today over yesterday based on just this pair; a look at tomorrow
+        # settles whether today's win is final (mirrors the same look-ahead used for generic paraviddha
+        # festivals in apply_month_anga_events, and for the same reason: a tithi can never touch 3
+        # consecutive days' kaalas, so if tomorrow's kaala doesn't touch pUrNimA at all, today's win stands;
+        # if it does, resolve directly against tomorrow rather than risk a stale answer).
+        next_day_panchaanga = self.daily_panchaangas[d + 1]
+        tomorrow_decision = priority_decision.decide_paraviddha(p0=day_panchaanga, p1=next_day_panchaanga, target_anga=target_anga, kaala=kaala)
+        if tomorrow_decision is not None and tomorrow_decision.fday is not None:
+          decision = tomorrow_decision
+      purnima_date = decision.day_panchaanga.date
+
+    if purnima_date is None:
+      logging.error('Could not determine zrAvaNa-pUrNimA (for varalakSmI-vratam)!')
+      return
+
+    # varalakSmI-vratam sits on the Friday preceding pUrNimA; if pUrNimA itself is a Friday, it moves a
+    # full week earlier rather than coinciding with pUrNimA.
+    days_since_friday = (purnima_date.get_weekday() - 5) % 7
+    offset = days_since_friday if days_since_friday != 0 else 7
+    self.panchaanga.add_festival(fest_id='varalakSmI-vratam', date=purnima_date - offset)
 
   def assign_relative_festivals(self):
     """ Add "RELATIVE" festival_id_to_instance --- festival_id_to_instance that happen before or after another festival with an exact timedelta! Example: 1 day after makara sankrAnti.
