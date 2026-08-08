@@ -60,21 +60,25 @@ def get_hora_data_str(daily_panchaanga, scripts, time_format):
 
 def get_solar_shraaddha_tithi_data_str(daily_panchaanga, scripts, time_format):
     if not daily_panchaanga.solar_shraaddha_tithi:
-        return '---'
+        return jyotisha.custom_transliteration.tr('a-tithiH', scripts[0])
 
     if daily_panchaanga.solar_shraaddha_tithi[0] == 0:
         return jyotisha.custom_transliteration.tr('zUnyatithiH', scripts[0])
 
-    showMonth = any(m != daily_panchaanga.solar_sidereal_date_sunset.month for m, t in daily_panchaanga.solar_shraaddha_tithi)
+    showMonth = any(m != daily_panchaanga.solar_sidereal_date_sunset.month for m, t, _is_chandramana in daily_panchaanga.solar_shraaddha_tithi)
     tithi_strings = []
 
-    for month, tithi in daily_panchaanga.solar_shraaddha_tithi:
+    for month, tithi, is_chandramana in daily_panchaanga.solar_shraaddha_tithi:
         tithi_name = names.NAMES['TITHI_NAMES']['sa'][scripts[0]][tithi].split('-')[-1]
         if showMonth:
             rashi_name = names.NAMES['RASHI_NAMES']['sa'][scripts[0]][month]
             tithi_strings.append(f"{tithi_name} ({rashi_name})")
         else:
             tithi_strings.append(tithi_name)
+        if is_chandramana:
+            # This tithi could not be obtained via sauramAna (aparaahna-vyApti in the solar month); it was
+            # obtained via chAndramAna instead, per सौरमासे तिथ्यलाभे चान्द्रमानेन कारयेत्.
+            tithi_strings[-1] += f" ({jyotisha.custom_transliteration.tr('cAndramAnena', scripts[0])})"
 
     tithi_count = len(daily_panchaanga.solar_shraaddha_tithi)
     if tithi_count == 1:
@@ -89,7 +93,7 @@ def get_solar_shraaddha_tithi_data_str(daily_panchaanga, scripts, time_format):
 
 def get_lunar_shraaddha_tithi_data_str(daily_panchaanga, scripts, time_format):
     if not daily_panchaanga.lunar_shraaddha_tithi:
-        return '---'
+        return jyotisha.custom_transliteration.tr('a-tithiH', scripts[0])
 
     tithi_strings = []
 

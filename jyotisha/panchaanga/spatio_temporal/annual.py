@@ -48,7 +48,7 @@ def get_panchaanga_for_kali_year(city, year, precomputed_json_dir="~/Documents/j
     # Fest repos to be used might have changed in this call.
     panchaanga.computation_system = computation_system
     if recompute_festivals:
-      panchaanga.update_festival_details(compute_shraadha_tithis=True)
+      panchaanga.update_festival_details(compute_shraaddha_tithis=True)
     return panchaanga
   else:
     logging.info('No precomputed data available or allowed. Computing panchaanga...\n')
@@ -57,7 +57,7 @@ def get_panchaanga_for_kali_year(city, year, precomputed_json_dir="~/Documents/j
     jd_preceding_sunset_end_mina = city.get_setting_time(julian_day_start=mina_end - 1, body=Graha.SUN)
     tz = Timezone(city.timezone)
     panchaanga = periodical.Panchaanga(city=city, start_date=tz.julian_day_to_local_time(julian_day=jd_next_sunset_start_mesha), end_date=tz.julian_day_to_local_time(julian_day=jd_preceding_sunset_end_mina + include_next_year_first_day), year_type = era.ERA_KALI, computation_system=computation_system, recompute_festivals=False)
-    panchaanga.update_festival_details(compute_shraadha_tithis=True)
+    panchaanga.update_festival_details(compute_shraaddha_tithis=True)
     panchaanga.year = year
     # Festival data may be updated more frequently and a precomputed panchaanga may go out of sync. Hence we keep this method separate.
     logging.info('Writing computed panchaanga to %s...\n' % fname)
@@ -78,7 +78,7 @@ def get_panchaanga_for_shaka_year(city, year, precomputed_json_dir="~/Documents/
     panchaanga = load_panchaanga(fname=fname, fallback_fn=fn)
     # Fest repos to be used might have changed in this call.
     panchaanga.computation_system = computation_system
-    panchaanga.update_festival_details(compute_shraadha_tithis=True)
+    panchaanga.update_festival_details(compute_shraaddha_tithis=True)
     return panchaanga
   else:
     logging.info('No precomputed data available. Computing panchaanga...\n')

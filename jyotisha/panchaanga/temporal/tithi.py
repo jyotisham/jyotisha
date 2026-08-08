@@ -29,7 +29,7 @@ def get_tithi(jd):
   return NakshatraDivision(jd=jd, ayanaamsha_id=Ayanamsha.VERNAL_EQUINOX_AT_0).get_anga(AngaType.TITHI)
 
 
-class ShraadhaTithiAssigner(PeriodicPanchaangaApplier):
+class ShraaddhaTithiAssigner(PeriodicPanchaangaApplier):
   def reset_shraaddha_tithis(self):
     for daily_panchaanga in self.daily_panchaangas:
       daily_panchaanga.solar_shraaddha_tithi = []
@@ -156,6 +156,7 @@ class ShraadhaTithiAssigner(PeriodicPanchaangaApplier):
 
     # Compute Solar Month Tithis
     solar_tithi_days = [{t: [] for t in range(0, 32)} for _m in range(13)]
+    chandramana_fallback_tithis = set()
     yest_tithis, aparaahna = self.panchaanga.daily_panchaangas_sorted()[1].get_interval_anga_spans(interval_id="aparaahna",
                                                                                               anga_type=AngaType.TITHI)
     for dp in self.panchaanga.daily_panchaangas_sorted()[2:self.panchaanga.duration + 2]:
@@ -186,6 +187,11 @@ class ShraadhaTithiAssigner(PeriodicPanchaangaApplier):
         if dp.solar_sidereal_date_sunset.month_transition is not None:
           if start_time > dp.solar_sidereal_date_sunset.month_transition:
             m = dp.solar_sidereal_date_sunset.month
+            if m == 1 and (start_time - self.panchaanga.jd_start) > 200:
+              # This is meSha of *next* year (the year-end sankrAnti wrap-around), not this year's meSha.
+              # Bucket 0 is otherwise unused for solar months, so park it there to avoid colliding with
+              # this year's real meSha entries (see the "previous year's mIna" case below for the same idiom).
+              m = 0
             solar_tithi_days[m][t.anga.index].append(tithi_details_tuple)
           elif end_time < dp.solar_sidereal_date_sunset.month_transition:
             if dp.solar_sidereal_date_sunset.day == 1:
@@ -202,11 +208,22 @@ class ShraadhaTithiAssigner(PeriodicPanchaangaApplier):
           elif start_time < dp.solar_sidereal_date_sunset.month_transition < end_time:
             # Assign to both!
             m = dp.solar_sidereal_date_sunset.month
-            solar_tithi_days[m][t.anga.index].append(tithi_details_tuple)
-            if m != 1:
-              solar_tithi_days[m - 1][t.anga.index].append(tithi_details_tuple)
+            is_year_end_wraparound = m == 1 and (start_time - self.panchaanga.jd_start) > 200
+            if is_year_end_wraparound:
+              # "m" here is next year's meSha (year-end wrap-around), so this day's earlier portion
+              # is really this year's last mIna tithi - credit mIna (12) instead of dropping it, and
+              # do not pollute this year's meSha (1) bucket with next year's data.
+              solar_tithi_days[12][t.anga.index].append(tithi_details_tuple)
+            else:
+              solar_tithi_days[m][t.anga.index].append(tithi_details_tuple)
+              if m != 1:
+                solar_tithi_days[m - 1][t.anga.index].append(tithi_details_tuple)
+              # else: m==1 here is the genuine start-of-year transition; the "previous month" is
+              # *last* year's mIna, out of scope for this year (same idiom as the case below).
         else:
           m = dp.solar_sidereal_date_sunset.month
+          if m == 1 and (start_time - self.panchaanga.jd_start) > 200:
+            m = 0
           solar_tithi_days[m][t.anga.index].append(tithi_details_tuple)
     if debug_shraaddha_tithi:
       # Pretty print the tithi days
@@ -308,17 +325,23 @@ class ShraadhaTithiAssigner(PeriodicPanchaangaApplier):
           # No tithi found, use chandramana tithi!
           # सौरमासे तिथ्यलाभे चान्द्रमानेन कारयेत्
           solar_tithi_days[m][t] = lunar_tithi_days[m][t]
-          if debug_shraaddha_tithi:
+          chandramana_fallback_tithis.add((m, t))
+          if not solar_tithi_days[m][t] and debug_shraaddha_tithi:
+            logging.warning('No chAndramAna tithi available either for %d, %d (a-tithiH in both systems)' % (m, t))
+          elif debug_shraaddha_tithi:
             logging.warning('Using lunar tithi for %d, %d: %s' % (m, t, str(solar_tithi_days[m][t])))
 
     for m in range(1, 13):
       for t in range(1, 31):
+        if not solar_tithi_days[m][t]:
+          # Neither sauramAna nor chAndramAna produced this tithi (a-tithiH in both systems); nothing to assign.
+          continue
         fday = int(solar_tithi_days[m][t][0][0] - self.panchaanga.daily_panchaangas_sorted()[0].date)
         if 0 in self.daily_panchaangas[fday].solar_shraaddha_tithi:
           if debug_shraaddha_tithi:
             logging.warning('No longer shUnya')
           self.daily_panchaangas[fday].solar_shraaddha_tithi.remove(0)
-        self.daily_panchaangas[fday].solar_shraaddha_tithi.append((m, t))
+        self.daily_panchaangas[fday].solar_shraaddha_tithi.append((m, t, (m, t) in chandramana_fallback_tithis))
 
     for m in lunar_month_list:
       for t in range(1, 31):
