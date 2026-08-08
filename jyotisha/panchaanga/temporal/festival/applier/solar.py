@@ -625,11 +625,19 @@ class SolarFestivalAssigner(FestivalAssigner):
 
     fday_start, fday_end = day_of(jd_start), day_of(jd_end)
 
-    if fday_start == fday_end:
-      fday = fday_start
+    # maghA's ~1.08-day duration means it can prevail at two (rarely, but possibly three)
+    # consecutive sunrises; a day only "owns" the anga if it prevails at that day's sunrise
+    # (the traditional anchor, as elsewhere in this codebase's sunrise_day_angas), so we can't
+    # just take fday_start/fday_end as the two candidates -- a day in between whose sunrise
+    # also falls within the window (as happens when maghA spans two full days) would be missed.
+    sunrise_candidates = [fday for fday in range(fday_start, fday_end + 1)
+                          if jd_start <= self.daily_panchaangas[fday].jd_sunrise <= jd_end]
+
+    if len(sunrise_candidates) <= 1:
+      fday = sunrise_candidates[0] if sunrise_candidates else fday_start
     else:
-      # maghA spans two days: prefer whichever day's vRSabha-lagna overlaps with (or, failing
-      # that, lies closest to) the guru-siMha + sUrya-kumbha + candra-maghA window.
+      # maghA prevails at more than one sunrise: prefer whichever day's vRSabha-lagna overlaps
+      # with (or, failing that, lies closest to) the guru-siMha + sUrya-kumbha + candra-maghA window.
       def vrishabha_interval(fday):
         day_panchaanga = self.daily_panchaangas[fday]
         lagna_start = day_panchaanga.jd_sunrise
@@ -640,14 +648,14 @@ class SolarFestivalAssigner(FestivalAssigner):
         return None
 
       candidates = []
-      for fday in (fday_start, fday_end):
+      for fday in sunrise_candidates:
         vrishabha_span = vrishabha_interval(fday)
         if vrishabha_span is None:
           continue
         overlap = min(jd_end, vrishabha_span[1]) - max(jd_start, vrishabha_span[0])
         candidates.append((overlap, fday))
 
-      fday = max(candidates)[1] if candidates else fday_start
+      fday = max(candidates)[1] if candidates else sunrise_candidates[0]
 
     self.panchaanga.add_festival_instance(
       festival_instance=FestivalInstance(name='mahAmaghOtsavaH', interval=Interval(jd_start=jd_start, jd_end=jd_end)),
