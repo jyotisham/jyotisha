@@ -333092,16 +333092,6 @@
           "jsonClass": "FestivalInstance",
           "name": "kaNampulla_nAyan2mAr_(47)_gurupUjai"
         },
-        "pizAcamOcanyAtrA": {
-          "interval": {
-            "jd_end": 2458828.5378,
-            "jd_start": 2458827.5374,
-            "jsonClass": "Interval",
-            "name": "full_day"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "pizAcamOcanyAtrA"
-        },
         "tirumaGgaiyAzhvAr_tirunakSattiram": {
           "interval": {
             "jd_end": 2458828.5378,
@@ -334082,6 +334072,16 @@
           "jsonClass": "FestivalInstance",
           "name": "pancha-parva-2"
         },
+        "pizAcamOcanyAtrA": {
+          "interval": {
+            "jd_end": 2458829.5382,
+            "jd_start": 2458828.5378,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "pizAcamOcanyAtrA"
+        },
         "sarvAlaya~dIpam": {
           "interval": {
             "jd_end": 2458829.5382,
@@ -335027,16 +335027,6 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "anadhyAyaH~15"
-        },
-        "anadhyAyaH~16": {
-          "interval": {
-            "jd_end": 2458830.5385,
-            "jd_start": 2458829.5382,
-            "jsonClass": "Interval",
-            "name": "full_day"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "anadhyAyaH~16"
         },
         "annapUrNA~jayantI": {
           "interval": {
@@ -336040,7 +336030,18 @@
           "name": "रात्रिमानम्"
         }
       },
-      "festival_id_to_instance": {},
+      "festival_id_to_instance": {
+        "anadhyAyaH~16": {
+          "interval": {
+            "jd_end": 2458831.5389,
+            "jd_start": 2458830.5385,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "anadhyAyaH~16"
+        }
+      },
       "graha_rise_jd": {
         "jupiter": 2458830.5737,
         "ketu": 2458830.5919,
@@ -348530,16 +348531,6 @@
         }
       },
       "festival_id_to_instance": {
-        "anadhyAyaH~1": {
-          "interval": {
-            "jd_end": 2458844.5435,
-            "jd_start": 2458843.5432,
-            "jsonClass": "Interval",
-            "name": "full_day"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "anadhyAyaH~1"
-        },
         "anadhyAyaH~30": {
           "interval": {
             "jd_end": 2458844.5435,
@@ -349523,6 +349514,16 @@
         }
       },
       "festival_id_to_instance": {
+        "anadhyAyaH~1": {
+          "interval": {
+            "jd_end": 2458845.5438,
+            "jd_start": 2458844.5435,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "anadhyAyaH~1"
+        },
         "cAkkiya_nAyan2mAr_(34)_gurupUjai": {
           "interval": {
             "jd_end": 2458845.5438,
@@ -380798,7 +380799,7 @@
         "year": 2019
       },
       {
-        "day": 26,
+        "day": 27,
         "jsonClass": "Date",
         "month": 12,
         "year": 2019
@@ -381032,7 +381033,7 @@
         "year": 2019
       },
       {
-        "day": 12,
+        "day": 13,
         "jsonClass": "Date",
         "month": 12,
         "year": 2019
@@ -388875,7 +388876,7 @@
     ],
     "pizAcamOcanyAtrA": [
       {
-        "day": 10,
+        "day": 11,
         "jsonClass": "Date",
         "month": 12,
         "year": 2019

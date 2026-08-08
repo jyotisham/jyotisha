@@ -47,7 +47,9 @@ def decide_paraviddha(p0, p1, target_anga, kaala):
       fday = 1
   elif d0_angas.start == target_anga and d0_angas.end == target_anga:
     fday = 0
-  elif d0_angas.end == target_anga:
+  elif d0_angas.end == target_anga and d1_angas.start != target_anga:
+    # d0 only touches target_anga right at its own kaala-end (a brief trailing touch), and d1's kaala
+    # does not touch it at all -- an exclusive, unambiguous claim for d0.
     fday = 0
   elif d1_angas.start == target_anga:
     if d1_angas.interval.name in ['प्रातः']:

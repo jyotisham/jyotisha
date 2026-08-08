@@ -14073,16 +14073,6 @@
         }
       },
       "festival_id_to_instance": {
-        "anadhyAyaH~8": {
-          "interval": {
-            "jd_end": 2458498.1446,
-            "jd_start": 2458497.1448,
-            "jsonClass": "Interval",
-            "name": "full_day"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "anadhyAyaH~8"
-        },
         "anadhyAyaH~rAtrisaGkramaNa": {
           "interval": {
             "jd_end": 2458498.1446,
@@ -15062,6 +15052,16 @@
         }
       },
       "festival_id_to_instance": {
+        "anadhyAyaH~8": {
+          "interval": {
+            "jd_end": 2458499.1444,
+            "jd_start": 2458498.1446,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "anadhyAyaH~8"
+        },
         "anadhyAyaH~rAtrisaGkramaNa~parAhNE": {
           "interval": {
             "jd_end": 2458498.547,
@@ -333146,16 +333146,6 @@
           "jsonClass": "FestivalInstance",
           "name": "pUrNimA~pUjA"
         },
-        "pancha-parva-2": {
-          "interval": {
-            "jd_end": 2458829.1382,
-            "jd_start": 2458828.1376,
-            "jsonClass": "Interval",
-            "name": "full_day"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "pancha-parva-2"
-        },
         "pizAcamOcanyAtrA": {
           "interval": {
             "jd_end": 2458829.1382,
@@ -334165,6 +334155,16 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "pUrNimA~vratam"
+        },
+        "pancha-parva-2": {
+          "interval": {
+            "jd_end": 2458830.1387,
+            "jd_start": 2458829.1382,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "pancha-parva-2"
         },
         "sarpa-bali-utsarjanam": {
           "interval": {
@@ -381358,7 +381358,7 @@
     ],
     "anadhyAyaH~8": [
       {
-        "day": 13,
+        "day": 14,
         "jsonClass": "Date",
         "month": 1,
         "year": 2019
@@ -388523,7 +388523,7 @@
         "year": 2019
       },
       {
-        "day": 10,
+        "day": 11,
         "jsonClass": "Date",
         "month": 12,
         "year": 2019
