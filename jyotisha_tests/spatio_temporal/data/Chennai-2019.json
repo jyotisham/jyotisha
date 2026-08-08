@@ -210188,6 +210188,16 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "taittirIya-upAkarma_haste"
+        },
+        "zukla-yajurvEda-upAkarma": {
+          "interval": {
+            "jd_end": 2458701.52,
+            "jd_start": 2458700.5199,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "zukla-yajurvEda-upAkarma"
         }
       },
       "graha_rise_jd": {
@@ -219683,6 +219693,26 @@
           "jsonClass": "FestivalInstance",
           "name": "anadhyAyaH~yajur-upAkarma~1"
         },
+        "bOdhAyana-yajurvEda-upAkarma": {
+          "interval": {
+            "jd_end": 2458711.521,
+            "jd_start": 2458710.5209,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "bOdhAyana-yajurvEda-upAkarma"
+        },
+        "bOdhAyana-yajurvEda-upAkarma~zAntipUrvakam": {
+          "interval": {
+            "jd_end": 2458711.521,
+            "jd_start": 2458710.5209,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "bOdhAyana-yajurvEda-upAkarma~zAntipUrvakam"
+        },
         "balabhadra~janmOtsavaH": {
           "interval": {
             "jd_end": 2458711.521,
@@ -219833,6 +219863,16 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "yajurvEda-upAkarma"
+        },
+        "yajurvEda-upAkarma~zAntipUrvakam": {
+          "interval": {
+            "jd_end": 2458711.521,
+            "jd_start": 2458710.5209,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "yajurvEda-upAkarma~zAntipUrvakam"
         }
       },
       "graha_rise_jd": {
@@ -382706,6 +382746,22 @@
         "year": 2019
       }
     ],
+    "bOdhAyana-yajurvEda-upAkarma": [
+      {
+        "day": 15,
+        "jsonClass": "Date",
+        "month": 8,
+        "year": 2019
+      }
+    ],
+    "bOdhAyana-yajurvEda-upAkarma~zAntipUrvakam": [
+      {
+        "day": 15,
+        "jsonClass": "Date",
+        "month": 8,
+        "year": 2019
+      }
+    ],
     "bRhatI-vRkSaka-pUjA": [
       {
         "day": 17,
@@ -392379,6 +392435,14 @@
         "year": 2019
       }
     ],
+    "yajurvEda-upAkarma~zAntipUrvakam": [
+      {
+        "day": 15,
+        "jsonClass": "Date",
+        "month": 8,
+        "year": 2019
+      }
+    ],
     "yama_or_bhrAtR-dvitIyA": [
       {
         "day": 29,
@@ -393078,6 +393142,14 @@
         "day": 11,
         "jsonClass": "Date",
         "month": 6,
+        "year": 2019
+      }
+    ],
+    "zukla-yajurvEda-upAkarma": [
+      {
+        "day": 5,
+        "jsonClass": "Date",
+        "month": 8,
         "year": 2019
       }
     ],

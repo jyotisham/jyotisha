@@ -209313,6 +209313,16 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "nAga-paJcamI"
+        },
+        "zukla-yajurvEda-upAkarma": {
+          "interval": {
+            "jd_end": 2458701.0555,
+            "jd_start": 2458700.0549,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "zukla-yajurvEda-upAkarma"
         }
       },
       "graha_rise_jd": {
@@ -218832,6 +218842,26 @@
           "jsonClass": "FestivalInstance",
           "name": "anadhyAyaH~yajur-upAkarma~1"
         },
+        "bOdhAyana-yajurvEda-upAkarma": {
+          "interval": {
+            "jd_end": 2458711.0614,
+            "jd_start": 2458710.0608,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "bOdhAyana-yajurvEda-upAkarma"
+        },
+        "bOdhAyana-yajurvEda-upAkarma~zAntipUrvakam": {
+          "interval": {
+            "jd_end": 2458711.0614,
+            "jd_start": 2458710.0608,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "bOdhAyana-yajurvEda-upAkarma~zAntipUrvakam"
+        },
         "balabhadra~janmOtsavaH": {
           "interval": {
             "jd_end": 2458711.0614,
@@ -218992,6 +219022,16 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "yajurvEda-upAkarma"
+        },
+        "yajurvEda-upAkarma~zAntipUrvakam": {
+          "interval": {
+            "jd_end": 2458711.0614,
+            "jd_start": 2458710.0608,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "yajurvEda-upAkarma~zAntipUrvakam"
         },
         "zravaNa-vratam": {
           "interval": {
@@ -236457,6 +236497,16 @@
           "jsonClass": "FestivalInstance",
           "name": "anadhyAyaH~manvAdi~4"
         },
+        "anadhyAyaH~sAmavEda-upAkarma~1": {
+          "interval": {
+            "jd_end": 2458729.072,
+            "jd_start": 2458728.0715,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "anadhyAyaH~sAmavEda-upAkarma~1"
+        },
         "haritAlikA-vratam": {
           "interval": {
             "jd_end": 2458729.072,
@@ -236476,6 +236526,16 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "manvAdiH~(tAmasaH~[4])"
+        },
+        "sAmavEda-upAkarma": {
+          "interval": {
+            "jd_end": 2458729.072,
+            "jd_start": 2458728.0715,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "sAmavEda-upAkarma"
         },
         "tiruccendUr_murugan2_AvaNit_tiruvizhA_##9##m_nAL": {
           "interval": {
@@ -237414,6 +237474,16 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "RSi-paJcamI-vratam"
+        },
+        "anadhyAyaH~sAmavEda-upAkarma~2": {
+          "interval": {
+            "jd_end": 2458730.0726,
+            "jd_start": 2458729.072,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "anadhyAyaH~sAmavEda-upAkarma~2"
         },
         "tiruccendUr_murugan2_AvaNit_tiruvizhA_##10##m_nAL—tEr": {
           "interval": {
@@ -238372,6 +238442,16 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "SaSThIdEvI-SaSThI-vratam"
+        },
+        "anadhyAyaH~sAmavEda-upAkarma~3": {
+          "interval": {
+            "jd_end": 2458731.0732,
+            "jd_start": 2458730.0726,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "anadhyAyaH~sAmavEda-upAkarma~3"
         },
         "balarAma~jayantI~2": {
           "interval": {
@@ -262654,16 +262734,6 @@
           "jsonClass": "FestivalInstance",
           "name": "anadhyAyaH~30"
         },
-        "anadhyAyaH~sAmavEda-upAkarma~1": {
-          "interval": {
-            "jd_end": 2458756.088,
-            "jd_start": 2458755.0874,
-            "jsonClass": "Interval",
-            "name": "full_day"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "anadhyAyaH~sAmavEda-upAkarma~1"
-        },
         "azvazirO-dEva-pUjA": {
           "interval": {
             "jd_end": 2458756.088,
@@ -262762,16 +262832,6 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "puraTTAci~can2ikkizhamai"
-        },
-        "sAmavEda-upAkarma": {
-          "interval": {
-            "jd_end": 2458756.088,
-            "jd_start": 2458755.0874,
-            "jsonClass": "Interval",
-            "name": "full_day"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "sAmavEda-upAkarma"
         },
         "sthAlIpAkaH_1": {
           "interval": {
@@ -263744,16 +263804,6 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "anadhyAyaH~Azvayuk~2"
-        },
-        "anadhyAyaH~sAmavEda-upAkarma~2": {
-          "interval": {
-            "jd_end": 2458757.0886,
-            "jd_start": 2458756.088,
-            "jsonClass": "Interval",
-            "name": "full_day"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "anadhyAyaH~sAmavEda-upAkarma~2"
         },
         "candra-darzanam": {
           "interval": {
@@ -264751,16 +264801,6 @@
         }
       },
       "festival_id_to_instance": {
-        "anadhyAyaH~sAmavEda-upAkarma~3": {
-          "interval": {
-            "jd_end": 2458758.0892,
-            "jd_start": 2458757.0886,
-            "jsonClass": "Interval",
-            "name": "full_day"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "anadhyAyaH~sAmavEda-upAkarma~3"
-        },
         "mEghapAlIya-tRtIyA": {
           "interval": {
             "jd_end": 2458758.0892,
@@ -382433,7 +382473,7 @@
     ],
     "anadhyAyaH~sAmavEda-upAkarma~1": [
       {
-        "day": 28,
+        "day": 1,
         "jsonClass": "Date",
         "month": 9,
         "year": 2019
@@ -382441,7 +382481,7 @@
     ],
     "anadhyAyaH~sAmavEda-upAkarma~2": [
       {
-        "day": 29,
+        "day": 2,
         "jsonClass": "Date",
         "month": 9,
         "year": 2019
@@ -382449,7 +382489,7 @@
     ],
     "anadhyAyaH~sAmavEda-upAkarma~3": [
       {
-        "day": 30,
+        "day": 3,
         "jsonClass": "Date",
         "month": 9,
         "year": 2019
@@ -382804,6 +382844,22 @@
         "day": 27,
         "jsonClass": "Date",
         "month": 10,
+        "year": 2019
+      }
+    ],
+    "bOdhAyana-yajurvEda-upAkarma": [
+      {
+        "day": 14,
+        "jsonClass": "Date",
+        "month": 8,
+        "year": 2019
+      }
+    ],
+    "bOdhAyana-yajurvEda-upAkarma~zAntipUrvakam": [
+      {
+        "day": 14,
+        "jsonClass": "Date",
+        "month": 8,
         "year": 2019
       }
     ],
@@ -389422,7 +389478,7 @@
     ],
     "sAmavEda-upAkarma": [
       {
-        "day": 28,
+        "day": 1,
         "jsonClass": "Date",
         "month": 9,
         "year": 2019
@@ -392466,6 +392522,14 @@
         "year": 2019
       }
     ],
+    "yajurvEda-upAkarma~zAntipUrvakam": [
+      {
+        "day": 14,
+        "jsonClass": "Date",
+        "month": 8,
+        "year": 2019
+      }
+    ],
     "yama_or_bhrAtR-dvitIyA": [
       {
         "day": 29,
@@ -393169,6 +393233,14 @@
         "day": 11,
         "jsonClass": "Date",
         "month": 6,
+        "year": 2019
+      }
+    ],
+    "zukla-yajurvEda-upAkarma": [
+      {
+        "day": 4,
+        "jsonClass": "Date",
+        "month": 8,
         "year": 2019
       }
     ],

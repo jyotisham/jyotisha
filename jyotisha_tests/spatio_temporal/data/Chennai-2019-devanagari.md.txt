@@ -33637,7 +33637,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- गरुड-पञ्चमी, तैत्तिरीय-उपाकर्म हस्ते, नाग-पञ्चमी
+- गरुड-पञ्चमी, तैत्तिरीय-उपाकर्म हस्ते, नाग-पञ्चमी, शुक्ल-यजुर्वेद-उपाकर्म
 ##### गरुड-पञ्चमी
 
 Observed on Śukla-Pañcamī tithi of Śrāvaṇaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -33700,6 +33700,17 @@ Observed on Hastaḥ nakshatra of Śrāvaṇaḥ (lunar) month (Sūryōdayaḥ/p
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba/lunar_month/nakshatra/05/13/taittirIya-upAkarma_haste.toml)
+- Tags: CommonFestivals
+
+
+##### शुक्ल-यजुर्वेद-उपाकर्म
+
+
+
+For zukla Yajurveda zAkhA-s (eg. mAdhyandina, kANva). Date is computed in code (ūpakarmaFestivalāssigner.assign_shukla_yajurveda_upakarma, in jyotisha) rather than by this file: zrAvaNa-pUrNimA at ghatikA 12 (start of madhyAhna), paraviddha -- same primary as the (kRSNa) yajurvEda-upAkarma rule. If that day has an eclipse (before relative ghatikA 45), saGkramaNa, or zukra-mAudhya flaw, zukla-paJcamI of zrAvaNa is used instead (unconditionally, without re-checking it for the same flaws) -- like RgvEda-upAkarma's switch, rather than a pUrNimA of a different masa as in the (kRSNa) yajurvEda-upAkarma / bOdhAyana-yajurvEda-upAkarma rules.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/description_only/zukla-yajurvEda-upAkarma.toml)
 - Tags: CommonFestivals
 
 
@@ -34930,15 +34941,15 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अनध्यायः, अनध्यायः, अनध्यायः, ऋग्वेद-उपाकर्म, काञ्ची २० जगद्गुरु-श्री-मूकशङ्करेन्द्र-सरस्वती-आराधना #१५८३, गायत्री-जयन्ती, नारिकेल-पूर्णिमा, पार्वणव्रतम् पूर्णिमायाम्, पूर्णिमा-व्रतम्, बलभद्र-जन्मोत्सवः, महाश्रावणी-योगः, यजुर्वेद-उपाकर्म, रक्षाबन्धनम्, वेङ्कटाचले पूर्णिमा-गरुड-सेवा, वैखानस-महर्षि-जयन्ती, श्रावण्युपवासः प्रायश्चित्तार्थः, संस्कृत-दिवसः, सर्प-बलि-प्रारम्भः, हयग्रीव-जयन्ती
+- अनध्यायः, अनध्यायः, अनध्यायः, ऋग्वेद-उपाकर्म, काञ्ची २० जगद्गुरु-श्री-मूकशङ्करेन्द्र-सरस्वती-आराधना #१५८३, गायत्री-जयन्ती, नारिकेल-पूर्णिमा, पार्वणव्रतम् पूर्णिमायाम्, पूर्णिमा-व्रतम्, बलभद्र-जन्मोत्सवः, बोधायन-यजुर्वेद-उपाकर्म, बोधायन-यजुर्वेद-उपाकर्म शान्तिपूर्वकम्, महाश्रावणी-योगः, यजुर्वेद-उपाकर्म, यजुर्वेद-उपाकर्म शान्तिपूर्वकम्, रक्षाबन्धनम्, वेङ्कटाचले पूर्णिमा-गरुड-सेवा, वैखानस-महर्षि-जयन्ती, श्रावण्युपवासः प्रायश्चित्तार्थः, संस्कृत-दिवसः, सर्प-बलि-प्रारम्भः, हयग्रीव-जयन्ती
 ##### ऋग्वेद-उपाकर्म
 
-Observed on Śravaṇaḥ nakshatra of Śrāvaṇaḥ (lunar) month (Maitraḥ/paraviddha). 
 
 
+Date is computed in code (ūpakarmaFestivalāssigner.assign_rigveda_upakarma, in jyotisha) rather than by this file: the first occurrence of zravaNa-nakSatra in zrAvaNa-mAsa, switching to zukla-paJcamI of zrAvaNa if that day has an eclipse (before relative ghatikA 45), saGkramaNa, or guru-mAudhya flaw.
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_month/nakshatra/05/22/RgvEda-upAkarma.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/description_only/RgvEda-upAkarma.toml)
 - Tags: CommonFestivals
 
 
@@ -35002,6 +35013,18 @@ The three days around upākarma and utsarga are anadhyayana days, where one is n
 - Tags: Anadhyayana Days
 
 
+##### बोधायन-यजुर्वेद-उपाकर्म
+
+
+
+For followers of the bOdhAyana zAkhA of the kRSNa-yajurveda. Date is computed in code (ūpakarmaFestivalāssigner.assign_bodhaayana_upakarma, in jyotisha): the chain zrAvaNa-pUrNimA -> ASADha-pUrNimA -> bhAdrapada-pUrNimA (each at ghatikA 12, start of madhyAhna, paraviddha; note ASADha comes before bhAdrapada here, unlike the general yajurvEda-upAkarma rule) is checked in order, and the first one with no eclipse (before relative ghatikA 45), saGkramaNa, or zukra-mAudhya flaw is used. If all three are flawed: a mAudhya-only flaw on zrAvaNa-pUrNimA is remediable, so it is used anyway, performed zAntipUrvakam (bōdhāyana-yajurvēda-upākarma~śāntipūrvakam); but an eclipse/saGkramaNa flaw on zrAvaNa-pUrNimA has no such remedy, so ASADha-pUrNimA (the first switch in this chain) is used instead, accepted despite its own flaws.
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/general/description_only/bOdhAyana-yajurvEda-upAkarma.toml)
+- Tags: CommonFestivals
+
+
+##### बोधायन-यजुर्वेद-उपाकर्म शान्तिपूर्वकम्
 ##### बलभद्र-जन्मोत्सवः
 
 Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) month (Sāṅgavaḥ/paraviddha). 
@@ -35284,7 +35307,9 @@ Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) month (Sūryōdayaḥ
 
 ##### यजुर्वेद-उपाकर्म
 
-Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) month (Madhyāhnaḥ/paraviddha). 
+
+
+For general/non-bOdhAyana (kRSNa) Yajurveda zAkhA-s (eg. Apastamba, taittirIya). Date is computed in code (ūpakarmaFestivalāssigner.assign_yajurveda_upakarma, in jyotisha) rather than by this file: the chain zrAvaNa-pUrNimA -> bhAdrapada-pUrNimA -> ASADha-pUrNimA (each at ghatikA 12, start of madhyAhna, paraviddha) is checked in order, and the first one with no eclipse (before relative ghatikA 45), saGkramaNa, or zukra-mAudhya flaw is used. If all three are flawed: a mAudhya-only flaw on zrAvaNa-pUrNimA is remediable, so it is used anyway, performed zAntipUrvakam (yajurvēda-upākarma~śāntipūrvakam); but an eclipse/saGkramaNa flaw on zrAvaNa-pUrNimA has no such remedy, so bhAdrapada-pUrNimA (the first switch in the chain) is used instead, accepted despite its own flaws. See also śukla-yajurvēda-upākarma (zukla Yajurveda; switches to zukla-paJcamI instead) and bōdhāyana-yajurvēda-upākarma (bOdhAyana zAkhA; chain is zrAvaNa -> ASADha -> bhAdrapada instead).
 
 ###### आपस्तम्बसूत्रेषु
 (आर्तव)श्रवणा(पूर्व)पक्ष ओषधीषु जातासु हस्तेन पौर्णमास्यां वा ऽध्यायोपाकर्म।  
@@ -35303,10 +35328,11 @@ Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) month (Madhyāhnaḥ/
 - [अत्र](https://vishvasa.github.io/vedAH_yajuH/taittirIyam/sUtram/ApastambaH/gRhyam/karmANi/adhyayana-vrataani/upAkaraNam/) ।
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_month/tithi/05/15/yajurvEda-upAkarma.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/description_only/yajurvEda-upAkarma.toml)
 - Tags: CommonFestivals
 
 
+##### यजुर्वेद-उपाकर्म शान्तिपूर्वकम्
 
 ### 2019-08-16
 
@@ -38435,12 +38461,12 @@ Observed on Śukla-Tr̥tīyā tithi of Bhādrapadaḥ (lunar) month (Aparāhṇa
 
 ##### सामवेद-उपाकर्म
 
-Observed on Hastaḥ nakshatra of Bhādrapadaḥ (lunar) month (Madhyāhnaḥ/paraviddha). 
 
 
+Date is computed in code (ūpakarmaFestivalāssigner.assign_saamopakarma, in jyotisha) rather than by this file: the first occurrence of hasta-nakSatra in bhAdrapada-mAsa. (The switch rule for when this day has an eclipse/saGkrAnti/mAudhya flaw is not yet settled; see the TODO in that function.)
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/lunar_month/nakshatra/06/13/sAmavEda-upAkarma.toml)
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/description_only/sAmavEda-upAkarma.toml)
 - Tags: CommonFestivals
 
 
