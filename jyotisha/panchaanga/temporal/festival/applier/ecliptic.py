@@ -890,6 +890,21 @@ class EclipticFestivalAssigner(FestivalAssigner):
             )
             self.panchaanga.add_festival_instance(fest, date=self.daily_panchaangas[fday].date)
 
+  def _get_general_eclipse_note(self, script):
+    rule = self.rules_collection.name_to_rule.get('grahaNa-sAmAnya-niyamAH')
+    if rule is None:
+      return ''
+    return rule.get_description_dict(script=script).get('detailed', '').strip()
+
+  def _yaama_niyama_start(self, fday, jd_contact_start, n_yaamas):
+    from jyotisha.panchaanga.temporal.festival import eclipse_description
+    if fday - 1 < 0 or fday + 1 >= len(self.daily_panchaangas):
+      return None
+    prev_edf = self.daily_panchaangas[fday - 1].day_length_based_periods.eight_fold_division
+    edf = self.daily_panchaangas[fday].day_length_based_periods.eight_fold_division
+    yaama_intervals = prev_edf.ahar_yaama + prev_edf.raatri_yaama + edf.ahar_yaama + edf.raatri_yaama
+    return eclipse_description.yaama_aligned_start(yaama_intervals, jd_contact_start, n_yaamas)
+
   def compute_solar_eclipses(self):
     if 'sUrya-grahaNam' not in self.rules_collection.name_to_rule:
       return
@@ -933,10 +948,12 @@ class EclipticFestivalAssigner(FestivalAssigner):
         if is_cudamani:
           solar_eclipse_str = '★cUDAmaNi-' + solar_eclipse_str
         eclipse_angas = NakshatraDivision(jd, ayanaamsha_id=self.ayanaamsha_id)
+        niyama_start_jd = self._yaama_niyama_start(fday, jd_contact_start, eclipse_description.SOLAR_NIYAMA_YAAMAS_BEFORE)
         description = eclipse_description.describe_solar_eclipse(
           grasta=grasta, suff=suff, is_cudamani=is_cudamani, attr=next_eclipse_sol[2], retflag=next_eclipse_sol[0],
           jd_contact_start=jd_contact_start, jd_contact_end=jd_contact_end,
           nakshatra_index=eclipse_angas.get_anga(AngaType.NAKSHATRA).index, rashi_index=eclipse_angas.get_anga(AngaType.RASHI).index,
+          niyama_start_jd=niyama_start_jd, general_note=self._get_general_eclipse_note(sanscript.ISO),
           tz=self.panchaanga.city.get_timezone_obj())
         fest = FestivalInstance(name=solar_eclipse_str, interval=Interval(jd_start=jd_eclipse_solar_start, jd_end=jd_eclipse_solar_end),
                                  description=description)
@@ -1013,11 +1030,13 @@ class EclipticFestivalAssigner(FestivalAssigner):
         jd_contact_end = jd_eclipse_lunar_end
 
       eclipse_angas = NakshatraDivision(jd, ayanaamsha_id=self.ayanaamsha_id)
+      niyama_start_jd = self._yaama_niyama_start(fday, jd_contact_start, eclipse_description.LUNAR_NIYAMA_YAAMAS_BEFORE)
       description = eclipse_description.describe_lunar_eclipse(
         grasta=grasta, suff=suff, is_cudamani=is_cudamani,
         attr=next_eclipse_lun[2], retflag=next_eclipse_lun[0],
         jd_contact_start=jd_contact_start, jd_contact_end=jd_contact_end,
         nakshatra_index=eclipse_angas.get_anga(AngaType.NAKSHATRA).index, rashi_index=eclipse_angas.get_anga(AngaType.RASHI).index,
+        niyama_start_jd=niyama_start_jd, general_note=self._get_general_eclipse_note(sanscript.ISO),
         tz=self.panchaanga.city.get_timezone_obj())
       fest = FestivalInstance(name=lunar_eclipse_str, interval=Interval(jd_start=jd_eclipse_lunar_start, jd_end=jd_eclipse_lunar_end),
                                description=description)

@@ -23,10 +23,34 @@ NODE_NAMES = {
   'rAhupucchagrast': dict(en='Ketu node (descending/puccha)'),
 }
 
-# 4 yamas (~12h) before first contact for a solar eclipse, 3 yamas (~9h) for
-# a lunar eclipse; ends at the eclipse's end (mokSha).
-SOLAR_NIYAMA_HOURS_BEFORE = 12
-LUNAR_NIYAMA_HOURS_BEFORE = 9
+# Food restriction begins at the start of the yaama that is 4 yaamas (solar)
+# or 3 yaamas (lunar) before the yaama in which first contact falls -- not a
+# flat 12h/9h offset from the contact instant. num_yaamas_before is passed
+# the aligned yaama list computed in ecliptic.py; hours-based figures below
+# are only the fallback used if that alignment isn't available.
+SOLAR_NIYAMA_YAAMAS_BEFORE = 4
+LUNAR_NIYAMA_YAAMAS_BEFORE = 3
+SOLAR_NIYAMA_HOURS_BEFORE_FALLBACK = 12
+LUNAR_NIYAMA_HOURS_BEFORE_FALLBACK = 9
+
+
+def yaama_aligned_start(yaama_intervals, jd, n_yaamas):
+  """
+  :param yaama_intervals: chronologically-ordered Intervals (jd_start/jd_end), each ~a yaama,
+    spanning enough time to contain `jd` and at least `n_yaamas` before it
+  :param jd: the instant to locate (e.g. first contact)
+  :param n_yaamas: how many yaamas to step back
+  :return: jd_start of the yaama `n_yaamas` before the one containing `jd`, or None if `jd`
+    isn't covered or stepping back runs past the start of `yaama_intervals`
+  """
+  idx = None
+  for i, y in enumerate(yaama_intervals):
+    if y.jd_start is not None and y.jd_end is not None and y.jd_start <= jd < y.jd_end:
+      idx = i
+      break
+  if idx is None or idx - n_yaamas < 0:
+    return None
+  return yaama_intervals[idx - n_yaamas].jd_start
 
 # Nakshatra offsets (from the grahaNa nakshatra, 0-indexed) that receive
 # ashubha phala: preceding, the grahaNa nakshatra itself, succeeding, the
@@ -115,7 +139,7 @@ def _assemble(blurb, detailed_parts):
 
 
 def describe_solar_eclipse(grasta, suff, is_cudamani, attr, retflag, jd_contact_start, jd_contact_end, nakshatra_index,
-                            rashi_index, tz, script=sanscript.ISO):
+                            rashi_index, tz, niyama_start_jd=None, general_note='', script=sanscript.ISO):
   """
   :param grasta: 'rAhumukhagrast' or 'rAhupucchagrast'
   :param suff: 'a' (plain), 'Odaya' (grastodaya) or 'Astamana' (grastAstamana)
@@ -126,6 +150,9 @@ def describe_solar_eclipse(grasta, suff, is_cudamani, attr, retflag, jd_contact_
   :param nakshatra_index: 1-indexed nakshatra of the eclipse (Sun/Moon are conjunct)
   :param rashi_index: 1-indexed rashi of the eclipse
   :param tz: a Timezone instance, for rendering the food-restriction window
+  :param niyama_start_jd: start of food restriction, yaama-aligned (see yaama_aligned_start);
+    falls back to a flat SOLAR_NIYAMA_HOURS_BEFORE_FALLBACK offset from jd_contact_start if None
+  :param general_note: fixed do's/don'ts text (from a TOML rule) to append, or ''
   """
   node_en = NODE_NAMES[grasta]['en']
   ecl_type = _solar_eclipse_type(retflag)
@@ -142,19 +169,22 @@ def describe_solar_eclipse(grasta, suff, is_cudamani, attr, retflag, jd_contact_
   detailed.append(
     "Magnitude: %.0f%% of the solar diameter is covered (parimāṇa ≈%.1f of the traditional 12 aṅgulas)." % (
       magnitude * 100, parimana_angula))
-  niyama_start_jd = jd_contact_start - SOLAR_NIYAMA_HOURS_BEFORE / 24.0
+  if niyama_start_jd is None:
+    niyama_start_jd = jd_contact_start - SOLAR_NIYAMA_HOURS_BEFORE_FALLBACK / 24.0
   niyama_text = Interval(jd_start=niyama_start_jd, jd_end=jd_contact_end, name='bhojana-niyama').to_hour_text(tz=tz, script=script)
-  detailed.append("Avoid food: %s (%dh before first contact until the eclipse's end)." % (
-    niyama_text, SOLAR_NIYAMA_HOURS_BEFORE))
+  detailed.append("Avoid food: %s (from %d yaamas before the yaama of first contact, until the eclipse's end)." % (
+    niyama_text, SOLAR_NIYAMA_YAAMAS_BEFORE))
   detailed.append(_shanti_note(nakshatra_index, rashi_index, script))
   if is_cudamani:
     detailed.append("Falling on a Sunday, this is an especially auspicious `cUDAmaNi` (crest-jewel) eclipse.")
+  if general_note:
+    detailed.append(general_note)
 
   return _assemble(blurb, detailed)
 
 
 def describe_lunar_eclipse(grasta, suff, is_cudamani, attr, retflag, jd_contact_start, jd_contact_end, nakshatra_index,
-                            rashi_index, tz, script=sanscript.ISO):
+                            rashi_index, tz, niyama_start_jd=None, general_note='', script=sanscript.ISO):
   """
   :param attr: the 20-tuple returned by swe.lun_eclipse_when_loc as its 3rd element
   :param retflag: the int retflag returned by swe.lun_eclipse_when_loc
@@ -162,6 +192,9 @@ def describe_lunar_eclipse(grasta, suff, is_cudamani, attr, retflag, jd_contact_
   :param jd_contact_end: penumbral-end JD (unclipped by moonrise/moonset)
   :param nakshatra_index: 1-indexed nakshatra of the eclipsed Moon
   :param rashi_index: 1-indexed rashi of the eclipsed Moon
+  :param niyama_start_jd: start of food restriction, yaama-aligned; falls back to a flat
+    LUNAR_NIYAMA_HOURS_BEFORE_FALLBACK offset from jd_contact_start if None
+  :param general_note: fixed do's/don'ts text (from a TOML rule) to append, or ''
   """
   node_en = NODE_NAMES[grasta]['en']
   ecl_type = _lunar_eclipse_type(retflag)
@@ -177,12 +210,15 @@ def describe_lunar_eclipse(grasta, suff, is_cudamani, attr, retflag, jd_contact_
     detailed.append("The eclipse is %s." % note)
   detailed.append(
     "Umbral magnitude: %.2f (parimāṇa ≈%.1f of the traditional 12 aṅgulas)." % (magnitude, parimana_angula))
-  niyama_start_jd = jd_contact_start - LUNAR_NIYAMA_HOURS_BEFORE / 24.0
+  if niyama_start_jd is None:
+    niyama_start_jd = jd_contact_start - LUNAR_NIYAMA_HOURS_BEFORE_FALLBACK / 24.0
   niyama_text = Interval(jd_start=niyama_start_jd, jd_end=jd_contact_end, name='bhojana-niyama').to_hour_text(tz=tz, script=script)
-  detailed.append("Avoid food: %s (%dh before first contact until the eclipse's end)." % (
-    niyama_text, LUNAR_NIYAMA_HOURS_BEFORE))
+  detailed.append("Avoid food: %s (from %d yaamas before the yaama of first contact, until the eclipse's end)." % (
+    niyama_text, LUNAR_NIYAMA_YAAMAS_BEFORE))
   detailed.append(_shanti_note(nakshatra_index, rashi_index, script))
   if is_cudamani:
     detailed.append("Falling on a Monday, this is an especially auspicious `cUDAmaNi` (crest-jewel) eclipse.")
+  if general_note:
+    detailed.append(general_note)
 
   return _assemble(blurb, detailed)
