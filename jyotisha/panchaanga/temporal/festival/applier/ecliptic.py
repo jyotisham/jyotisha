@@ -13,7 +13,7 @@ from jyotisha.panchaanga.temporal.festival import FestivalInstance, TransitionFe
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
 from jyotisha.panchaanga.temporal.interval import Interval
 from jyotisha.panchaanga.temporal.zodiac import AngaType
-from scipy.optimize import brentq
+from scipy.optimize import brentq, minimize_scalar
 from sanskrit_data.schema import common
 from indic_transliteration import sanscript
 
@@ -411,26 +411,154 @@ class EclipticFestivalAssigner(FestivalAssigner):
 
     return intervals
   
+  def get_angular_separation(self, graha1: int, graha2: int, jd: float) -> float:
+    """
+    True angular separation (degrees) between two grahas, accounting for both
+    longitude and ecliptic latitude. Graha-yuddha (amshu-vimarda) is defined
+    by proximity of the two discs, not merely by longitude, so latitude must
+    be taken into account to identify the interval and moment of conflict
+    correctly.
+    """
+    g1 = Graha.singleton(graha1)
+    g2 = Graha.singleton(graha2)
+    dlon = ((g1.get_longitude(jd, ayanaamsha_id=self.ayanaamsha_id) -
+             g2.get_longitude(jd, ayanaamsha_id=self.ayanaamsha_id) + 180) % 360) - 180
+    dlat = g1.get_latitude(jd) - g2.get_latitude(jd)
+    return (dlon ** 2 + dlat ** 2) ** 0.5
+
+  def compute_yuddha_intervals(self, graha1: int, graha2: int, jd_start: float, jd_end: float, delta: float = 1.0, step: float = 0.5) -> list[tuple[float, float, float]]:
+    """
+    Compute intervals during which the true angular separation (see
+    get_angular_separation) between two grahas is less than `delta` degrees,
+    together with the jd of closest approach (t_zero) within each interval.
+    Returns a list of (t_start, t_zero, t_end) tuples.
+    """
+    intervals = []
+    inside = False
+    t_start = None
+    jd = jd_start
+
+    def sep(x):
+      return self.get_angular_separation(graha1, graha2, x)
+
+    while jd <= jd_end:
+      d = sep(jd)
+      if not inside and d < delta:
+        try:
+          t_start = brentq(lambda x: sep(x) - delta, jd - step, jd)
+          inside = True
+        except ValueError:
+          logging.warning(f"Could not bracket start of graha-yuddha at {jd}")
+      elif inside and d > delta:
+        try:
+          t_end = brentq(lambda x: sep(x) - delta, jd - step, jd)
+          t_zero = minimize_scalar(sep, bounds=(t_start, t_end), method='bounded').x
+          intervals.append((t_start, t_zero, t_end))
+        except ValueError:
+          logging.warning(f"Could not bracket end of graha-yuddha at {jd}")
+        inside = False
+      jd += step
+    return intervals
+
+  @staticmethod
+  def format_dms(value_degrees: float) -> str:
+    """Format an angle (in degrees) as D°MM′SS.SS″."""
+    total_sec = abs(value_degrees) * 3600
+    d = int(total_sec // 3600)
+    m = int((total_sec % 3600) // 60)
+    s = total_sec % 60
+    return f"{d}°{m:02d}′{s:05.2f}″"
+
+  @staticmethod
+  def format_arcmin(value_degrees: float) -> str:
+    """Format an angle (in degrees, expected to be small) as MM′SS.SS″ (arcminutes not wrapped modulo 60)."""
+    total_sec = abs(value_degrees) * 3600
+    m = int(total_sec // 60)
+    s = total_sec % 60
+    return f"{m}′{s:05.2f}″"
+
+  def get_graha_yuddha_details(self, graha1: int, graha2: int, jd: float) -> dict:
+    """
+    Compute the full set of graha-yuddha (amshu-vimarda) details at the
+    moment `jd` of closest approach between graha1 and graha2: their
+    separation, and for each graha: longitude (with nakshatra/pada/rashi),
+    latitude, motion (gati, direct/retrograde), apparent angular diameter
+    (with increasing/decreasing trend), and elongation from the sun.
+
+    The graha with the larger apparent diameter (i.e. nearer the earth, and
+    hence brighter/more prominent) is taken to be the victor (jayI) -- per
+    the classical criterion that the smaller, fainter graha is defeated.
+    """
+    details = {'separation': self.get_angular_separation(graha1, graha2, jd)}
+    dt = 0.01
+    for graha in (graha1, graha2):
+      g = Graha.singleton(graha)
+      lon = g.get_longitude(jd, ayanaamsha_id=self.ayanaamsha_id)
+      lat = g.get_latitude(jd)
+      speed = g.get_speed(jd)
+      sun_lon = Graha.singleton(Graha.SUN).get_longitude(jd, ayanaamsha_id=self.ayanaamsha_id)
+      elongation, diameter = g.get_phenomena(jd)
+      _, diameter_next = g.get_phenomena(jd + dt)
+      nak_index = int(lon // zodiac.AngaType.NAKSHATRA.arc_length) + 1
+      pada = int((lon % zodiac.AngaType.NAKSHATRA.arc_length) // (zodiac.AngaType.NAKSHATRA.arc_length / 4)) + 1
+      rashi_index = int(lon // zodiac.AngaType.RASHI.arc_length) + 1
+      elong_diff = ((lon - sun_lon + 180) % 360) - 180
+      details[graha] = {
+          'longitude': lon,
+          'nakshatra': names.NAMES['NAKSHATRA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][nak_index],
+          'pada': pada,
+          'rashi': names.NAMES['RASHI_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][rashi_index],
+          'latitude': lat,
+          'lat_dir': 'S' if lat < 0 else 'N',
+          'speed': speed,
+          'motion': 'vakra' if speed < 0 else 'Rju',
+          'diameter': diameter,
+          'diameter_trend': 'increasing' if diameter_next > diameter else 'decreasing',
+          'elongation': elongation,
+          'elong_dir': 'W' if elong_diff < 0 else 'E',
+      }
+    details['winner'] = graha1 if details[graha1]['diameter'] >= details[graha2]['diameter'] else graha2
+    return details
+
   def add_graha_yuddhas(self):
     TARA_GRAHAS = (Graha.MERCURY, Graha.VENUS, Graha.MARS, Graha.JUPITER, Graha.SATURN)
-    GRAHA_NAMES = {Graha.VENUS: 'zukraH', Graha.MERCURY: 'budhaH', Graha.MARS: 'aGgArakaH', 
+    GRAHA_NAMES = {Graha.VENUS: 'zukraH', Graha.MERCURY: 'budhaH', Graha.MARS: 'aGgArakaH',
         Graha.SATURN: 'zaniH', Graha.JUPITER: 'guruH'}
 
     for graha1 in TARA_GRAHAS:
       for graha2 in TARA_GRAHAS:
         if graha1 < graha2:
-          intervals = self.compute_conjunction_intervals(graha1, graha2, self.panchaanga.jd_start, self.panchaanga.jd_end, delta=1.0, debug=False)
+          intervals = self.compute_yuddha_intervals(graha1, graha2, self.panchaanga.jd_start, self.panchaanga.jd_end, delta=1.0)
           for t_start, t_zero, t_end in intervals:
-            # Check for Maudhya!
-            if t_start is not None and self.panchaanga.jd_start < t_start < self.panchaanga.jd_end:
-              fday = int(t_start - self.daily_panchaangas[0].julian_day_start)
-              if t_start < self.daily_panchaangas[fday].jd_sunrise:
-                fday -= 1
-              fest = FestivalInstance(
-                  name=f'graha-yuddhaH ({GRAHA_NAMES[graha1]}–{GRAHA_NAMES[graha2]})',
-                  interval=Interval(jd_start=t_start, jd_end=t_end)
-              )
-              self.panchaanga.add_festival_instance(fest, date=self.daily_panchaangas[fday].date)
+            if not (self.panchaanga.jd_start < t_zero < self.panchaanga.jd_end):
+              continue
+            fday = int(t_zero - self.daily_panchaangas[0].julian_day_start)
+            if t_zero < self.daily_panchaangas[fday].jd_sunrise:
+              fday -= 1
+
+            details = self.get_graha_yuddha_details(graha1, graha2, t_zero)
+
+            def graha_detail_log(graha):
+              d = details[graha]
+              return (f"  {GRAHA_NAMES[graha]}: nakSatram {d['nakshatra']}-{d['pada']} rAziH {d['rashi']},"
+                      f" akSAMSaH {self.format_dms(d['latitude'])} {d['lat_dir']},"
+                      f" gatiH {self.format_arcmin(d['speed'])} {d['motion']},"
+                      f" bimba-vyAsaH {self.format_arcmin(d['diameter'])} {d['diameter_trend']},"
+                      f" digaMSaH {self.format_dms(d['elongation'])} {d['elong_dir']}")
+
+            logging.debug(
+                f"graha-yuddhaH ({GRAHA_NAMES[graha1]}-{GRAHA_NAMES[graha2]}) at jd={t_zero}:\n"
+                f"  aMSu-vimardaH: {self.format_dms(details['separation'])}\n"
+                f"{graha_detail_log(graha1)}\n"
+                f"{graha_detail_log(graha2)}\n"
+                f"  jayI: {GRAHA_NAMES[details['winner']]}"
+            )
+
+            fest = FestivalInstance(
+                name=f"graha-yuddhaH~({GRAHA_NAMES[graha1]}-{GRAHA_NAMES[graha2]},~jayI~{GRAHA_NAMES[details['winner']]})",
+                interval=Interval(jd_start=t_start, jd_end=t_end)
+            )
+            self.panchaanga.add_festival_instance(fest, date=self.daily_panchaangas[fday].date)
 
   def compute_solar_eclipses(self):
     if 'sUrya-grahaNam' not in self.rules_collection.name_to_rule:
