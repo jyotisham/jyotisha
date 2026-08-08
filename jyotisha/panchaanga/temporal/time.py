@@ -281,7 +281,7 @@ class Date(BasicDate):
     return self.as_tuple()
 
   def __repr__(self):
-    return repr(self.to_datetime())
+    return self.get_date_str()
 
   def __hash__(self):
     return hash(repr(self))
