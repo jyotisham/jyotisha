@@ -33752,6 +33752,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:śanirōhiṇī-yōgaḥ
+DTSTART;TZID=Asia/Calcutta:20190727T192813
+DTEND;TZID=Asia/Calcutta:20190727T194622
+DTSTAMP:20260808T164132Z
+UID:śanirōhiṇī-yōgaḥ_2019-07-27T19:28:13.440020+05:30
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/zanirOh
+ iNI-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDays<br/
+ ><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyo
+ tisham/adyatithi/blob/master/time_focus/amrita-siddhi/description_only/zan
+ irOhiNI-yOgaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaDays
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder: śanirōhiṇī-yōgaḥ
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Āṣāḍhaḥ-04-26  \,Vr̥ṣabhaḥ-Rōhiṇī🌛🌌  \,  Ka
  rkaṭaḥ-Puṣyaḥ-04-12🌞🌌  \,  Nabhasyaḥ-06-06🌞🪐  \, Bh
  ānuḥ

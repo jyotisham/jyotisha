@@ -201404,6 +201404,15 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "pugazhccOzha_nAyan2mAr_(40)_gurupUjai"
+        },
+        "zanirOhiNI-yOgaH": {
+          "interval": {
+            "jd_end": 2458692.0947,
+            "jd_start": 2458692.0821,
+            "jsonClass": "Interval"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "zanirOhiNI-yOgaH"
         }
       },
       "graha_rise_jd": {
@@ -392595,6 +392604,12 @@
       }
     ],
     "zanirOhiNI-yOgaH": [
+      {
+        "day": 27,
+        "jsonClass": "Date",
+        "month": 7,
+        "year": 2019
+      },
       {
         "day": 24,
         "jsonClass": "Date",
