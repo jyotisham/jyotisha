@@ -394,11 +394,16 @@ class TithiFestivalAssigner(FestivalAssigner):
         self.panchaanga.add_festival(fest_id='gOvinda~mahAdvAdazI', date=day_panchaanga.date)
 
       def _add_shravana_dvaadashi(dvadashi_tithi, date):
+        if date.get_weekday() == 3:
+          suff = ' (budhayutA★)'
+        else:
+          suff = ''
+
         if dvadashi_tithi < 15:
           # Shukla Paksha
-          self.panchaanga.add_festival(fest_id='vijayA~zravaNa-mahAdvAdazI', date=date)
+          self.panchaanga.add_festival(fest_id='vijayA~zravaNa-mahAdvAdazI' + suff, date=date)
         else:
-          self.panchaanga.add_festival(fest_id='zravaNa-mahAdvAdazI', date=date)
+          self.panchaanga.add_festival(fest_id='zravaNa-mahAdvAdazI' + suff, date=date)
 
 
       if (day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index % 15) == 12:
