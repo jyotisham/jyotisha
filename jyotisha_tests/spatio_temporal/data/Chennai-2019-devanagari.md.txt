@@ -1787,7 +1787,7 @@ Anadhyayana during the day/night, as it precedes saṅkramaṇa tonight. When sa
 
 
 
-
+Bhogi, the first day of the Tamil Poṅgal festival, observed on the day before Makara Saṅkramaṇa; old and unwanted belongings are discarded and burnt in bonfires.
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/tamil/relative_event/makara-saGkramaNa-puNyakAlaH/offset__-1/bhOgi.toml)
@@ -2086,7 +2086,7 @@ When the next day is anadhyayana, for whatever reason, one must not perform adhy
 
 
 
-
+Worship of Indra and/or cattle (Go-pūjā), performed on the day after Makara Saṅkramaṇa; corresponds to Māṭṭu Poṅgal in Tamil Nadu, when cattle are bathed, decorated and worshipped.
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/general/relative_event/makara-saGkramaNa-puNyakAlaH/offset__01/indra-pUjA_or_gO-pUjA.toml)
@@ -2134,7 +2134,7 @@ kr̥ttikā-vratam for Bhagavan Subrahmanya. Observe fast for the entire day, and
 
 
 
-
+Kanu Pongal is observed on the morning after Thai Pongal, the day of Makara Saṅkramaṇa. At dawn, women and girls lay turmeric leaves in the open courtyard and set out offerings of pongal, coloured rice balls, sugarcane, etc. for crows and other birds, praying, as they do so, for the well-being and prosperity of their brothers.
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/tamil/relative_event/makara-saGkramaNa-puNyakAlaH/offset__01/kan2up~poGgal.toml)
@@ -2641,7 +2641,7 @@ The story also carries a deeper, symbolic meaning. Tinnanar's journey represents
 
 
 
-
+First day of the teppotsavam (float festival) at the Kapālīśvarar temple, Mylapore, held the day before Taippūcam; the deities are taken in procession on a floating raft in the temple tank.
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/temples/Tamil/relative_event/taippUcam/offset__-1/kapAlI_teppOtsavam~1.toml)
@@ -2840,7 +2840,7 @@ Son of Śivayya of Śrīśaila, known as Manganna, held that position by his dir
 
 
 
-
+Second, principal day of the teppotsavam (float festival) at the Kapālīśvarar temple, Mylapore, coinciding with Taippūcam.
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/temples/Tamil/relative_event/taippUcam/offset__00/kapAlI_teppOtsavam~2.toml)
@@ -3172,7 +3172,7 @@ Adi Shankara founded Jyotir Mutt, Badarinath in Rakshasa year Totakacharya as fi
 
 
 
-
+Third and concluding day of the teppotsavam (float festival) at the Kapālīśvarar temple, Mylapore, held the day after Taippūcam.
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/temples/Tamil/relative_event/taippUcam/offset__01/kapAlI_teppOtsavam~3.toml)
@@ -10588,7 +10588,7 @@ ___________________
 
 
 
-
+Dhvajārohaṇam (ceremonial flag-hoisting) marking the commencement of the Kapālīśvarar temple's Paṅguni Brahmotsavam, nine days before the Tirukkalyāṇam of Karpagāmbāḷ and Kapālīśvarar.
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/temples/Tamil/relative_event/kar2pagAmbAL%E2%80%93kapAlIzvarar_tirukkalyANam/offset__-9/kapAlI_dhvajArOhaNam.toml)
@@ -10738,7 +10738,7 @@ kr̥ttikā-vratam for Bhagavan Subrahmanya. Observe fast for the entire day, and
 
 
 
-
+Sūrya-candra vaṭṭam (sun-and-moon disc vāhana) procession during the Kapālīśvarar temple's Paṅguni Brahmotsavam, eight days before Tirukkalyāṇam.
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/temples/Tamil/relative_event/kar2pagAmbAL%E2%80%93kapAlIzvarar_tirukkalyANam/offset__-8/kapAlI_sUrya~candra~vaTTam.toml)
@@ -10909,7 +10909,7 @@ The sight of the majestic silver Nandi adorned with flowers and jewels, carrying
 
 
 
-
+Bhūtaṉ-Bhūtakī procession — a folk vāhana depicting Śiva's gaṇas — during the Kapālīśvarar temple's Paṅguni Brahmotsavam, seven days before Tirukkalyāṇam.
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/temples/Tamil/relative_event/kar2pagAmbAL%E2%80%93kapAlIzvarar_tirukkalyANam/offset__-7/kapAlI_bhUtaN_bhUtakI.toml)
@@ -11154,7 +11154,7 @@ Generally in orthodox Tamil families, the married women fast till the vrata time
 
 
 
-
+Cavuḍal vimāṉam vāhana procession during the Kapālīśvarar temple's Paṅguni Brahmotsavam, five days before Tirukkalyāṇam.
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/temples/Tamil/relative_event/kar2pagAmbAL%E2%80%93kapAlIzvarar_tirukkalyANam/offset__-5/kapAlI_cavuDal_vimAn2am.toml)
@@ -11295,7 +11295,7 @@ ___________________
 
 
 
-
+Pallakku vizhā (palanquin festival) during the Kapālīśvarar temple's Paṅguni Brahmotsavam, four days before Tirukkalyāṇam.
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/temples/Tamil/relative_event/kar2pagAmbAL%E2%80%93kapAlIzvarar_tirukkalyANam/offset__-4/kapAlI_pallakku_vizhA.toml)
@@ -11383,7 +11383,7 @@ ___________________
 
 
 
-
+Tēr (temple chariot) festival — the principal car procession of Karpagāmbāḷ and Kapālīśvarar — three days before Tirukkalyāṇam.
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/temples/Tamil/relative_event/kar2pagAmbAL%E2%80%93kapAlIzvarar_tirukkalyANam/offset__-3/kapAlI_tEr.toml)
@@ -12379,7 +12379,7 @@ Festival of colours is celebrated today.
 
 
 
-
+Umā-Maheśvara darśanam, when Karpagāmbāḷ and Kapālīśvarar are presented together for devotees' darśana on the day after Tirukkalyāṇam.
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/temples/Tamil/relative_event/kar2pagAmbAL%E2%80%93kapAlIzvarar_tirukkalyANam/offset__01/kapAlI_umA-mahEzvara_darican2am.toml)
@@ -12390,7 +12390,7 @@ Festival of colours is celebrated today.
 
 
 
-
+Commencement (toḍakkam) of the viḍaiyāṟṟi (valedictory send-off) rites at the Kapālīśvarar temple, beginning on the day after Tirukkalyāṇam.
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/temples/Tamil/relative_event/kar2pagAmbAL%E2%80%93kapAlIzvarar_tirukkalyANam/offset__01/kapAlI_viDaiyAr2r2i_toDakkam.toml)
@@ -13605,7 +13605,7 @@ When a tripādanakṣatra is conjoined with a bhadrā tithi i.e. dvitīyā, sapt
 
 
 
-
+Conclusion (niṟaivu) of the viḍaiyāṟṟi (valedictory send-off) rites, marking the end of the Kapālīśvarar temple's Paṅguni Brahmotsavam, eleven days after Tirukkalyāṇam.
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/temples/Tamil/relative_event/kar2pagAmbAL%E2%80%93kapAlIzvarar_tirukkalyANam/offset__11/kapAlI_viDaiyAr2r2i_nir2aivu.toml)
@@ -29077,6 +29077,8 @@ When the next day is anadhyayana, for whatever reason, one must not perform adhy
 
 
 
+Mahābhiṣeka (ceremonial bath) of Naṭarāja performed in the Rājasabhā (Chit Sabhā) of the Chidambaram temple, the culminating rite of Āṇi Tirumañjanam.
+
 मौलौ गङ्गा-शशाङ्कौ करचरणतले शीतलाङ्गा भुजङ्गाः  
 वामे भागे दयार्द्रा हिमगिरिदुहिता चन्दनं सर्वगात्रे।  
 इत्थं शीतं प्रभूतं तव कनकसभानाथ सोढुं क्व शक्तिः  
@@ -39813,6 +39815,8 @@ ___________________
 ##### अगस्त्यार्घ्यम्
 
 
+
+Offering of arghya (a ceremonial water oblation) to sage Agastya, performed seven days before the Sun's transit into Kanyā (Virgo) rāśi, as prescribed in the Hemādri and Vratanirṇayakalpavallī.
 
 कन्यासङ्क्रमणादर्वाग्वै सप्तमदिने अगस्त्यार्घ्यं दातव्यम्। उक्तं च हेमाद्रौ।  
 कन्यायामागते सूर्ये अर्वाग्वै सप्तमे दिने।  
@@ -56104,7 +56108,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अनध्यायः, कणम्पुल्ल नायऩ्मार् (४७) गुरुपूजै, कृत्तिका-व्रतम्, तिरुमङ्गैयाऴ्वार् तिरुनक्षत्तिरम्, पिशाचमोचनयात्रा
+- अनध्यायः, कणम्पुल्ल नायऩ्मार् (४७) गुरुपूजै, कृत्तिका-व्रतम्, तिरुमङ्गैयाऴ्वार् तिरुनक्षत्तिरम्
 ##### अनध्यायः
 - 17:38→06:24
 
@@ -56179,35 +56183,6 @@ Kanampulla Nayanmar, a wealthy resident of Irukkuvelur, was renowned for his pro
 - Tags: NayanmarGurupujai
 
 
-##### पिशाचमोचनयात्रा
-
-Observed on Śukla-Caturdaśī tithi of Mārgaśīrṣaḥ (lunar) month (Pūrvāhṇaḥ/paraviddha). 
-
-O great ascetic, today, on the fourteenth tithi of the bright half, in the month of Mārgaśīrṣa, The bathing and other rites performed here lead to the deliverance from the state of a Pishācha. Having bathed near Kapardīśvara on the fourteenth tithi of the bright half of Mārgaśīrṣa, And dying even elsewhere, one does not attain the state of a Pishacha. Those humans who perform this annual journey (yātrā), Will overcome the sins incurred by accepting gifts/fees at a sacred place (tīrtha-pratigrahāt pāpāt). Having bathed at the Pishācha-Mochana Tīrtha, and having duly worshipped Kapardīśa (https://maps.app.goo.gl/tnyPhvCrr4etPC7o7), And having performed the offering of food (annadāna), one becomes fearless both here (in this world) and hereafter. At the Pishācha-Mochana Tīrtha, one should raise/take a 'loṣṭadroṇa' [a measure/amount of water]—in the other world, they are not tormented even by a slight thirst. Thus, the Pishācha-Mochana Yātrā (pilgrimage) is described by the verses of the Skanda Sanatkumāra Saṃhitā in the work Kāśī-Tattva-Prakāśikā. Since the tithis of the forenoon (pūrvāhṇa) are auspicious for rites concerning the gods, the Chaturdashī (fourteenth tithi) that prevails in the forenoon is to be taken for the observance of this yātrā.
-
-मार्गशुक्लचतुर्दश्याम्---  
-अद्य शुक्लचतुर्दश्यां मार्गे मासि तपोनिधे।  
-अत्र सानादिकं कार्य पैशाच्यपरिमोचनम्॥  
-मार्गशुक्लचतुर्दश्यां कपर्दीश्वरसन्निधौ।  
-मात्वाऽन्यत्रापि मरणान्न पैशाच्यमवाप्नुयात्॥  
-इमां सांवत्सरी यात्रा ये करिष्यन्ति मानवाः।  
-तीर्थप्रतिग्रहात् पापात् ते तरिष्यन्ति मानवाः॥  
-पैशाचमोचने स्नात्वा कपर्दीशं समर्च्य च।  
-कृत्वा तत्रान्नदानं च इहामुत्र च निर्भयः॥  
-पिशाचमोचने तीर्थे लोष्टद्रोणं समुद्धरेत्।  
-न पीड्यते परे लोके स्वल्पयाऽपि पिपासया॥  
-इति काशीतत्त्वप्रकाशिकायां स्कान्दसनत्कुमारसंहितावचनैः पिशाचमोचनयात्रोक्ता। तत्र  
-``पौर्वाह्णिकास्तु तिथयो देवकार्ये शुभप्रदाः॥'' इतिवचनात्पौर्वाह्णिकी चतुर्दशी ग्राह्या।
-
-
-
-###### Details
-- References
-  - Purushartha Chintamani p. 311
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/temples/North/lunar_month/tithi/09/14/pizAcamOcanyAtrA.toml)
-- Tags: Temple Festivals
-
-
 ##### तिरुमङ्गैयाऴ्वार् तिरुनक्षत्तिरम्
 
 Observed on Kr̥ttikā nakshatra of Vr̥ścikaḥ (sidereal solar) month (Prātaḥ/paraviddha). 
@@ -56272,7 +56247,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अनध्यायः, त्रिपुर-भैरवी-जयन्ती, दत्तात्रेय-जयन्ती, पञ्च-पर्व-पूजा (पूर्णिमा), पार्वणव्रतम् पूर्णिमायाम्, पूर्णिमा-पूजा, मार्गशीर्ष-पूर्णिमा, सर्वालय-दीपम्
+- अनध्यायः, त्रिपुर-भैरवी-जयन्ती, दत्तात्रेय-जयन्ती, पञ्च-पर्व-पूजा (पूर्णिमा), पार्वणव्रतम् पूर्णिमायाम्, पिशाचमोचनयात्रा, पूर्णिमा-पूजा, मार्गशीर्ष-पूर्णिमा, सर्वालय-दीपम्
 ##### अनध्यायः
 
 Observed on Śukla-Caturdaśī tithi of every (lunar) month (Sāṅgavaḥ/paraviddha). 
@@ -56378,6 +56353,35 @@ Observed on Paurṇamāsī tithi of every (lunar) month (Āśvinaḥ/paraviddha)
 - Tags: Pancha Parva
 
 
+##### पिशाचमोचनयात्रा
+
+Observed on Śukla-Caturdaśī tithi of Mārgaśīrṣaḥ (lunar) month (Pūrvāhṇaḥ/paraviddha). 
+
+O great ascetic, today, on the fourteenth tithi of the bright half, in the month of Mārgaśīrṣa, The bathing and other rites performed here lead to the deliverance from the state of a Pishācha. Having bathed near Kapardīśvara on the fourteenth tithi of the bright half of Mārgaśīrṣa, And dying even elsewhere, one does not attain the state of a Pishacha. Those humans who perform this annual journey (yātrā), Will overcome the sins incurred by accepting gifts/fees at a sacred place (tīrtha-pratigrahāt pāpāt). Having bathed at the Pishācha-Mochana Tīrtha, and having duly worshipped Kapardīśa (https://maps.app.goo.gl/tnyPhvCrr4etPC7o7), And having performed the offering of food (annadāna), one becomes fearless both here (in this world) and hereafter. At the Pishācha-Mochana Tīrtha, one should raise/take a 'loṣṭadroṇa' [a measure/amount of water]—in the other world, they are not tormented even by a slight thirst. Thus, the Pishācha-Mochana Yātrā (pilgrimage) is described by the verses of the Skanda Sanatkumāra Saṃhitā in the work Kāśī-Tattva-Prakāśikā. Since the tithis of the forenoon (pūrvāhṇa) are auspicious for rites concerning the gods, the Chaturdashī (fourteenth tithi) that prevails in the forenoon is to be taken for the observance of this yātrā.
+
+मार्गशुक्लचतुर्दश्याम्---  
+अद्य शुक्लचतुर्दश्यां मार्गे मासि तपोनिधे।  
+अत्र सानादिकं कार्य पैशाच्यपरिमोचनम्॥  
+मार्गशुक्लचतुर्दश्यां कपर्दीश्वरसन्निधौ।  
+मात्वाऽन्यत्रापि मरणान्न पैशाच्यमवाप्नुयात्॥  
+इमां सांवत्सरी यात्रा ये करिष्यन्ति मानवाः।  
+तीर्थप्रतिग्रहात् पापात् ते तरिष्यन्ति मानवाः॥  
+पैशाचमोचने स्नात्वा कपर्दीशं समर्च्य च।  
+कृत्वा तत्रान्नदानं च इहामुत्र च निर्भयः॥  
+पिशाचमोचने तीर्थे लोष्टद्रोणं समुद्धरेत्।  
+न पीड्यते परे लोके स्वल्पयाऽपि पिपासया॥  
+इति काशीतत्त्वप्रकाशिकायां स्कान्दसनत्कुमारसंहितावचनैः पिशाचमोचनयात्रोक्ता। तत्र  
+``पौर्वाह्णिकास्तु तिथयो देवकार्ये शुभप्रदाः॥'' इतिवचनात्पौर्वाह्णिकी चतुर्दशी ग्राह्या।
+
+
+
+###### Details
+- References
+  - Purushartha Chintamani p. 311
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/temples/North/lunar_month/tithi/09/14/pizAcamOcanyAtrA.toml)
+- Tags: Temple Festivals
+
+
 ##### सर्वालय-दीपम्
 
 Observed on Paurṇamāsī tithi of Vr̥ścikaḥ (sidereal solar) month (Rātrimānam/puurvaviddha). 
@@ -56453,7 +56457,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अनध्यायः, अनध्यायः, अन्नपूर्णा-जयन्ती, आग्रयण-होमः द्राविडेषु, काञ्ची १३ जगद्गुरु-श्री-सच्चिद्घनेन्द्र-सरस्वती-आराधना #१७४८, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, पूर्ण-स्थालीपाकः, पूर्णमासेष्टिः, पूर्णिमा-व्रतम्, महामार्गशीर्षी-योगः, वेङ्कटाचले पूर्णिमा-गरुड-सेवा, सर्प-बल्युत्सर्जनम्
+- अनध्यायः, अन्नपूर्णा-जयन्ती, आग्रयण-होमः द्राविडेषु, काञ्ची १३ जगद्गुरु-श्री-सच्चिद्घनेन्द्र-सरस्वती-आराधना #१७४८, पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्, पूर्ण-स्थालीपाकः, पूर्णमासेष्टिः, पूर्णिमा-व्रतम्, महामार्गशीर्षी-योगः, वेङ्कटाचले पूर्णिमा-गरुड-सेवा, सर्प-बल्युत्सर्जनम्
 ##### आग्रयण-होमः द्राविडेषु
 
 Observed on Paurṇamāsī tithi of Vr̥ścikaḥ (sidereal solar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -56488,35 +56492,6 @@ Anadhyayana on account of pūrṇimā. Several tithis in a month are nitya-anadh
 - References
   - Smriti Muktaphalam SVR p.  148
 - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/adhyayana/lunar_month/tithi/00/15/anadhyAyaH~15.toml)
-- Tags: Anadhyayana Days
-
-
-##### अनध्यायः
-
-Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month (Sāṅgavaḥ/paraviddha). 
-
-Anadhyayana on account of prathamā. Several tithis in a month are nitya-anadhyayana days, including prathamā, aṣṭamī, chaturdaśī, amāvāsyā and pūrṇimā. Manu has said that performing adhyayana on these days destroys the Guru (Amavasya), Shishya (Chaturdashi) and the vīrya of the brahma (vēda) itself (Ashtami/Purnima). Similarly, Jabali Rishi has said that Adhyayana on prathama hurts the buddhi while adhyayana on chaturdaśī hurts the brahma (vēda) itself! Interestingly, Bhagavan Hanuman also remarks while describing the condition of Sita Devi to the rest of the vanaras and Rkshas that she was frail by nature, had further grown emaciated, owing to separation from her beloved Shri Rama, much like the vidyā of a scholar continuing his studies on a pratipat!
-
-हारीतः—  
-प्रतिपत्सु चतुर्दश्यामष्टम्यां पर्वणोर्द्वयोः।  
-श्वोऽनध्यायेऽद्य शर्वर्यां नाधीयीत कदाचन॥  
-मनुः—  
-अमावास्या गुरुं हन्ति शिष्यं हन्ति चतुर्दशी।  
-ब्रह्माष्टकापौर्णमास्यस्तस्मात्ताः परिवर्जयेत्॥  
-जाबालिः—  
-नाधीयीत नरो नित्यमादावन्ते च पक्षयोः।  
-आदौ च हीयते बुद्धिरन्ते च ब्रह्म हीयते॥  
-पक्षादिः प्रतिपत्, पक्षान्तः चतुर्दशी॥  
-तथा रामायणे हनुमद्वचनम्—  
-सा प्रकृत्यैव तन्वङ्गी तद्वियोगाच्च कर्शिता।  
-प्रतिपत्पाठशीलस्य विद्येव तनुतां गता॥५-५९-३१॥
-
-
-
-###### Details
-- References
-  - Smriti Muktaphalam SVR p.  148
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/adhyayana/lunar_month/tithi/00/16/anadhyAyaH~16.toml)
 - Tags: Anadhyayana Days
 
 
@@ -56703,6 +56678,38 @@ ___________________
 ___________________
 - **शूलम्**—प्रतीची (►10:55); **परिहारः**–गुडम्  
 ___________________
+
+#### उत्सवाः
+- अनध्यायः
+##### अनध्यायः
+
+Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month (Sāṅgavaḥ/paraviddha). 
+
+Anadhyayana on account of prathamā. Several tithis in a month are nitya-anadhyayana days, including prathamā, aṣṭamī, chaturdaśī, amāvāsyā and pūrṇimā. Manu has said that performing adhyayana on these days destroys the Guru (Amavasya), Shishya (Chaturdashi) and the vīrya of the brahma (vēda) itself (Ashtami/Purnima). Similarly, Jabali Rishi has said that Adhyayana on prathama hurts the buddhi while adhyayana on chaturdaśī hurts the brahma (vēda) itself! Interestingly, Bhagavan Hanuman also remarks while describing the condition of Sita Devi to the rest of the vanaras and Rkshas that she was frail by nature, had further grown emaciated, owing to separation from her beloved Shri Rama, much like the vidyā of a scholar continuing his studies on a pratipat!
+
+हारीतः—  
+प्रतिपत्सु चतुर्दश्यामष्टम्यां पर्वणोर्द्वयोः।  
+श्वोऽनध्यायेऽद्य शर्वर्यां नाधीयीत कदाचन॥  
+मनुः—  
+अमावास्या गुरुं हन्ति शिष्यं हन्ति चतुर्दशी।  
+ब्रह्माष्टकापौर्णमास्यस्तस्मात्ताः परिवर्जयेत्॥  
+जाबालिः—  
+नाधीयीत नरो नित्यमादावन्ते च पक्षयोः।  
+आदौ च हीयते बुद्धिरन्ते च ब्रह्म हीयते॥  
+पक्षादिः प्रतिपत्, पक्षान्तः चतुर्दशी॥  
+तथा रामायणे हनुमद्वचनम्—  
+सा प्रकृत्यैव तन्वङ्गी तद्वियोगाच्च कर्शिता।  
+प्रतिपत्पाठशीलस्य विद्येव तनुतां गता॥५-५९-३१॥
+
+
+
+###### Details
+- References
+  - Smriti Muktaphalam SVR p.  148
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/adhyayana/lunar_month/tithi/00/16/anadhyAyaH~16.toml)
+- Tags: Anadhyayana Days
+
+
 
 ### 2019-12-14
 
@@ -58645,36 +58652,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- अनध्यायः, अनध्यायः, दर्श-स्थालीपाकः, दर्शेष्टिः, पार्वण-प्रायश्चित्तावकाशः दर्शे, पिण्ड-पितृ-यज्ञः, मार्गशीर्ष-मास-समापनम्, श्री-हनूमत्-जयन्ती, सूर्य-ग्रहणं (राहुपुच्छग्रस्त)
-##### अनध्यायः
-
-Observed on Śukla-Prathamā tithi of every (lunar) month (Sāṅgavaḥ/paraviddha). 
-
-Anadhyayana on account of prathamā. Several tithis in a month are nitya-anadhyayana days, including prathamā, aṣṭamī, chaturdaśī, amāvāsyā and pūrṇimā. Manu has said that performing adhyayana on these days destroys the Guru (Amavasya), Shishya (Chaturdashi) and the vīrya of the brahma (vēda) itself (Ashtami/Purnima). Similarly, Jabali Rishi has said that Adhyayana on prathama hurts the buddhi while adhyayana on chaturdaśī hurts the brahma (vēda) itself! Interestingly, Bhagavan Hanuman also remarks while describing the condition of Sita Devi to the rest of the vanaras and Rkshas that she was frail by nature, had further grown emaciated, owing to separation from her beloved Shri Rama, much like the vidyā of a scholar continuing his studies on a pratipat!
-
-हारीतः—  
-प्रतिपत्सु चतुर्दश्यामष्टम्यां पर्वणोर्द्वयोः।  
-श्वोऽनध्यायेऽद्य शर्वर्यां नाधीयीत कदाचन॥  
-मनुः—  
-अमावास्या गुरुं हन्ति शिष्यं हन्ति चतुर्दशी।  
-ब्रह्माष्टकापौर्णमास्यस्तस्मात्ताः परिवर्जयेत्॥  
-जाबालिः—  
-नाधीयीत नरो नित्यमादावन्ते च पक्षयोः।  
-आदौ च हीयते बुद्धिरन्ते च ब्रह्म हीयते॥  
-पक्षादिः प्रतिपत्, पक्षान्तः चतुर्दशी॥  
-तथा रामायणे हनुमद्वचनम्—  
-सा प्रकृत्यैव तन्वङ्गी तद्वियोगाच्च कर्शिता।  
-प्रतिपत्पाठशीलस्य विद्येव तनुतां गता॥५-५९-३१॥
-
-
-
-###### Details
-- References
-  - Smriti Muktaphalam SVR p.  148
-- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/adhyayana/lunar_month/tithi/00/01/anadhyAyaH~1.toml)
-- Tags: Anadhyayana Days
-
-
+- अनध्यायः, दर्श-स्थालीपाकः, दर्शेष्टिः, पार्वण-प्रायश्चित्तावकाशः दर्शे, पिण्ड-पितृ-यज्ञः, मार्गशीर्ष-मास-समापनम्, श्री-हनूमत्-जयन्ती, सूर्य-ग्रहणं (राहुपुच्छग्रस्त)
 ##### अनध्यायः
 
 Observed on Amāvāsyā tithi of every (lunar) month (Sāṅgavaḥ/paraviddha). 
@@ -58825,7 +58803,36 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- चन्द्र-दर्शनम्, चाक्किय नायऩ्मार् (३४) गुरुपूजै, पौष-मास-आरम्भः
+- अनध्यायः, चन्द्र-दर्शनम्, चाक्किय नायऩ्मार् (३४) गुरुपूजै, पौष-मास-आरम्भः
+##### अनध्यायः
+
+Observed on Śukla-Prathamā tithi of every (lunar) month (Sāṅgavaḥ/paraviddha). 
+
+Anadhyayana on account of prathamā. Several tithis in a month are nitya-anadhyayana days, including prathamā, aṣṭamī, chaturdaśī, amāvāsyā and pūrṇimā. Manu has said that performing adhyayana on these days destroys the Guru (Amavasya), Shishya (Chaturdashi) and the vīrya of the brahma (vēda) itself (Ashtami/Purnima). Similarly, Jabali Rishi has said that Adhyayana on prathama hurts the buddhi while adhyayana on chaturdaśī hurts the brahma (vēda) itself! Interestingly, Bhagavan Hanuman also remarks while describing the condition of Sita Devi to the rest of the vanaras and Rkshas that she was frail by nature, had further grown emaciated, owing to separation from her beloved Shri Rama, much like the vidyā of a scholar continuing his studies on a pratipat!
+
+हारीतः—  
+प्रतिपत्सु चतुर्दश्यामष्टम्यां पर्वणोर्द्वयोः।  
+श्वोऽनध्यायेऽद्य शर्वर्यां नाधीयीत कदाचन॥  
+मनुः—  
+अमावास्या गुरुं हन्ति शिष्यं हन्ति चतुर्दशी।  
+ब्रह्माष्टकापौर्णमास्यस्तस्मात्ताः परिवर्जयेत्॥  
+जाबालिः—  
+नाधीयीत नरो नित्यमादावन्ते च पक्षयोः।  
+आदौ च हीयते बुद्धिरन्ते च ब्रह्म हीयते॥  
+पक्षादिः प्रतिपत्, पक्षान्तः चतुर्दशी॥  
+तथा रामायणे हनुमद्वचनम्—  
+सा प्रकृत्यैव तन्वङ्गी तद्वियोगाच्च कर्शिता।  
+प्रतिपत्पाठशीलस्य विद्येव तनुतां गता॥५-५९-३१॥
+
+
+
+###### Details
+- References
+  - Smriti Muktaphalam SVR p.  148
+- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus/adhyayana/lunar_month/tithi/00/01/anadhyAyaH~1.toml)
+- Tags: Anadhyayana Days
+
+
 ##### चाक्किय नायऩ्मार् (३४) गुरुपूजै
 
 Observed on Pūrvāṣāḍhā nakshatra of Dhanuḥ (sidereal solar) month (Prātaḥ/paraviddha). 
