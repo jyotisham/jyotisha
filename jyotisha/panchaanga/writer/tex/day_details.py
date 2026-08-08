@@ -123,8 +123,8 @@ def get_shraaddha_tithi_data_str(daily_panchaanga, scripts, time_format):
         return solar_str
 
     lunar_str = get_lunar_shraaddha_tithi_data_str(daily_panchaanga, scripts, time_format)
-    chandramana_tag = jyotisha.custom_transliteration.tr('cAndramAnam', scripts[0])
-    return f"{lunar_str} ({chandramana_tag}), {solar_str}"
+    chandramana_tag = jyotisha.custom_transliteration.tr('cAndramAna', scripts[0])
+    return f"{lunar_str} ({chandramana_tag})/{solar_str}"
 
 
 def get_raahu_yama_gulika_strings(daily_panchaanga, time_format):
