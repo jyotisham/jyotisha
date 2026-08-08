@@ -891,8 +891,8 @@ class EclipticFestivalAssigner(FestivalAssigner):
             self.panchaanga.add_festival_instance(fest, date=self.daily_panchaangas[fday].date)
 
   def compute_solar_eclipses(self):
-    if 'sUrya-grahaNam' not in self.rules_collection.name_to_rule:
-      return 
+    if 'sUrya-grahaNaM' not in self.rules_collection.name_to_rule:
+      return
     jd = self.panchaanga.jd_start
     while 1:
       next_eclipse_sol = self.panchaanga.city.get_solar_eclipse_time(jd_start=jd)
