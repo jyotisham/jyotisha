@@ -624,20 +624,26 @@ class SolarFestivalAssigner(FestivalAssigner):
       return fday
 
     fday_start, fday_end = day_of(jd_start), day_of(jd_end)
+    candidates = list(range(fday_start, fday_end + 1))
 
-    # maghA's ~1.08-day duration means it can prevail at two (rarely, but possibly three)
-    # consecutive sunrises; a day only "owns" the anga if it prevails at that day's sunrise
-    # (the traditional anchor, as elsewhere in this codebase's sunrise_day_angas), so we can't
-    # just take fday_start/fday_end as the two candidates -- a day in between whose sunrise
-    # also falls within the window (as happens when maghA spans two full days) would be missed.
-    sunrise_candidates = [fday for fday in range(fday_start, fday_end + 1)
-                          if jd_start <= self.daily_panchaangas[fday].jd_sunrise <= jd_end]
-
-    if len(sunrise_candidates) <= 1:
-      fday = sunrise_candidates[0] if sunrise_candidates else fday_start
+    if len(candidates) == 1:
+      fday = candidates[0]
     else:
-      # maghA prevails at more than one sunrise: prefer whichever day's vRSabha-lagna overlaps
-      # with (or, failing that, lies closest to) the guru-siMha + sUrya-kumbha + candra-maghA window.
+      # maghA (and hence the whole yoga) touches more than one calendar day. The snAna is
+      # traditionally best done in the afternoon, so prefer whichever day the yoga actually
+      # overlaps vRSabha-lagna on; vRSabha-lagna can miss every candidate day by just a few
+      # minutes though (it's a ~2-hour window against a multi-month-narrowed yoga), in which
+      # case fall back to whichever day's madhyAhna (early-afternoon kaala) it overlaps instead.
+      def best_by_overlap(get_interval_fn):
+        scored = []
+        for fday in candidates:
+          span = get_interval_fn(fday)
+          if span is None:
+            continue
+          overlap = min(jd_end, span[1]) - max(jd_start, span[0])
+          scored.append((overlap, fday))
+        return max(scored) if scored else None
+
       def vrishabha_interval(fday):
         day_panchaanga = self.daily_panchaangas[fday]
         lagna_start = day_panchaanga.jd_sunrise
@@ -647,15 +653,20 @@ class SolarFestivalAssigner(FestivalAssigner):
           lagna_start = lagna_end
         return None
 
-      candidates = []
-      for fday in sunrise_candidates:
-        vrishabha_span = vrishabha_interval(fday)
-        if vrishabha_span is None:
-          continue
-        overlap = min(jd_end, vrishabha_span[1]) - max(jd_start, vrishabha_span[0])
-        candidates.append((overlap, fday))
+      def madhyaahna_interval(fday):
+        madhyaahna = self.daily_panchaangas[fday].day_length_based_periods.fifteen_fold_division.madhyaahna
+        return (madhyaahna.jd_start, madhyaahna.jd_end)
 
-      fday = max(candidates)[1] if candidates else sunrise_candidates[0]
+      lagna_best = best_by_overlap(vrishabha_interval)
+      madhyaahna_best = best_by_overlap(madhyaahna_interval)
+      if lagna_best is not None and lagna_best[0] > 0:
+        fday = lagna_best[1]
+      elif madhyaahna_best is not None:
+        fday = madhyaahna_best[1]
+      elif lagna_best is not None:
+        fday = lagna_best[1]
+      else:
+        fday = fday_start
 
     self.panchaanga.add_festival_instance(
       festival_instance=FestivalInstance(name='mahAmaghOtsavaH', interval=Interval(jd_start=jd_start, jd_end=jd_end)),
