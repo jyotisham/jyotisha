@@ -132,13 +132,26 @@ class VaraFestivalAssigner(FestivalAssigner):
           self.panchaanga.add_festival(fest_id='budhASTamI', date=self.daily_panchaangas[d].date)
 
 
+  def _get_visha_yoga_pinned_end(self, d, visha_yoga_tithi, jd1, jd2):
+    """Find when the visha yoga tithi begins within (jd1, jd2), if at all.
+
+    Used to trim (pin) the end of an amrita siddhi yoga interval so that it
+    stops just before the visha yoga tithi sets in, rather than being
+    discarded altogether. Returns None if the visha tithi already prevailed
+    at jd1 (i.e. there's no transition point within the window to pin to).
+    """
+    for tithi_span in self.daily_panchaangas[d].sunrise_day_angas.tithis_with_ends:
+      if tithi_span.anga.index % 15 == visha_yoga_tithi and tithi_span.jd_start is not None and jd1 < tithi_span.jd_start < jd2:
+        return tithi_span.jd_start
+    return None
+
   def assign_nakshatra_vara_yoga_vratam(self):
     if 'Adityahasta-yOgaH' not in self.rules_collection.name_to_rule:
-      return 
+      return
 
     AMRITA_SIDDHI_YOGAS = [(13, 0, 'Adityahasta', 5), (8, 0, 'ravipuSya', None),
                  (22, 1, 'sOmazravaNa', 6), (5, 1, 'sOmamRgazIrSa', 6),
-                 (1, 2, 'bhaumAzvinI', 7), 
+                 (1, 2, 'bhaumAzvinI', 7),
                  (17, 3, 'budhAnurAdhA', 8), (8, 4, 'gurupuSya', 9),
                  (27, 5, 'bhRgurEvatI', 10), (4, 6, 'zanirOhiNI', 11)]
 
@@ -156,7 +169,12 @@ class VaraFestivalAssigner(FestivalAssigner):
               if visha_yoga_tithi not in (tithi_sunrise, tithi_sunset):
                 self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=f'{festival_name}-yOgaH'), date=self.daily_panchaangas[d].date)
               else:
-                logging.warning(f'Not assigning Amrita Siddhi Yoga ({festival_name} on {self.daily_panchaangas[d].date} due to Tithi ({visha_yoga_tithi}))')
+                pinned_end = self._get_visha_yoga_pinned_end(d=d, visha_yoga_tithi=visha_yoga_tithi, jd1=self.daily_panchaangas[d].jd_sunrise, jd2=self.daily_panchaangas[d].jd_sunset)
+                if pinned_end is not None:
+                  interval = Interval(jd_start=None, jd_end=pinned_end)
+                  self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=f'{festival_name}-yOgaH', interval=interval), date=self.daily_panchaangas[d].date)
+                else:
+                  logging.warning(f'Not assigning Amrita Siddhi Yoga ({festival_name} on {self.daily_panchaangas[d].date} due to Tithi ({visha_yoga_tithi}))')
             else:
               nakshatra_end_jd = self.daily_panchaangas[d].sunrise_day_angas.nakshatras_with_ends[0].jd_end
 
@@ -164,15 +182,22 @@ class VaraFestivalAssigner(FestivalAssigner):
                 tithi_end = self.daily_panchaangas[d].sunrise_day_angas.get_anga_at_jd(jd=nakshatra_end_jd, anga_type=AngaType.TITHI) % 15
                 tithi_start = tithi_sunrise
                 interval = Interval(jd_start=None, jd_end=nakshatra_end_jd)
+                search_jd1, search_jd2 = self.daily_panchaangas[d].jd_sunrise, nakshatra_end_jd
               elif festival_nakshatra == nakshatram_raatri:
                 tithi_start = self.daily_panchaangas[d].sunrise_day_angas.get_anga_at_jd(jd=nakshatra_end_jd, anga_type=AngaType.TITHI) % 15
                 tithi_end = self.daily_panchaangas[d].sunrise_day_angas.get_anga_at_jd(jd=raatri_end, anga_type=AngaType.TITHI) % 15
                 interval = Interval(jd_start=nakshatra_end_jd, jd_end=None)
+                search_jd1, search_jd2 = nakshatra_end_jd, raatri_end
 
               if visha_yoga_tithi not in (tithi_start, tithi_end):
                 self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=f'{festival_name}-yOgaH', interval=interval), date=self.daily_panchaangas[d].date)
               else:
-                logging.warning(f'Not assigning Amrita Siddhi Yoga ({festival_name} on {self.daily_panchaangas[d].date} due to Tithi ({visha_yoga_tithi}))')
+                pinned_end = self._get_visha_yoga_pinned_end(d=d, visha_yoga_tithi=visha_yoga_tithi, jd1=search_jd1, jd2=search_jd2)
+                if pinned_end is not None:
+                  pinned_interval = Interval(jd_start=interval.jd_start, jd_end=pinned_end)
+                  self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=f'{festival_name}-yOgaH', interval=pinned_interval), date=self.daily_panchaangas[d].date)
+                else:
+                  logging.warning(f'Not assigning Amrita Siddhi Yoga ({festival_name} on {self.daily_panchaangas[d].date} due to Tithi ({visha_yoga_tithi}))')
 
 
     if 'Adityahasta-naktavrata-yOgaH' not in self.rules_collection.name_to_rule:
