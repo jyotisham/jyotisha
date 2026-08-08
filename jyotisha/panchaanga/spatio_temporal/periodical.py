@@ -12,7 +12,7 @@ from jyotisha.panchaanga.spatio_temporal import daily
 from jyotisha.panchaanga.temporal import time, set_constants, ComputationSystem, AngaType, era
 from jyotisha.panchaanga.temporal.festival import FestivalInstance
 from jyotisha.panchaanga.temporal.festival.applier import tithi_festival, ecliptic, solar, vaara, rule_repo_based, \
-  FestivalAssigner
+  upakarma, FestivalAssigner
 from jyotisha.panchaanga.temporal.time import Date
 from jyotisha.panchaanga.temporal.tithi import ShraadhaTithiAssigner
 from jyotisha.panchaanga.temporal.zodiac.angas import Tithi
@@ -161,6 +161,7 @@ class Panchaanga(common.JsonObject):
     if compute_shraadha_tithis:
       ShraadhaTithiAssigner(panchaanga=self).assign_shraaddha_tithi()
     ecliptic.EclipticFestivalAssigner(panchaanga=self).assign_all()
+    upakarma.UpakarmaFestivalAssigner(panchaanga=self).assign_all()
     tithi_festival.TithiFestivalAssigner(panchaanga=self).assign_all()
     solar.SolarFestivalAssigner(panchaanga=self).assign_all()
     vaara.VaraFestivalAssigner(panchaanga=self).assign_all()
