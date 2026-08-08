@@ -891,8 +891,9 @@ class EclipticFestivalAssigner(FestivalAssigner):
             self.panchaanga.add_festival_instance(fest, date=self.daily_panchaangas[fday].date)
 
   def compute_solar_eclipses(self):
-    if 'sUrya-grahaNaM' not in self.rules_collection.name_to_rule:
+    if 'sUrya-grahaNam' not in self.rules_collection.name_to_rule:
       return
+    from jyotisha.panchaanga.temporal.festival import eclipse_description
     jd = self.panchaanga.jd_start
     while 1:
       next_eclipse_sol = self.panchaanga.city.get_solar_eclipse_time(jd_start=jd)
@@ -906,6 +907,8 @@ class EclipticFestivalAssigner(FestivalAssigner):
       else:
         fday = int(jd_eclipse_solar_end - self.daily_panchaangas[0].julian_day_start)
         suff = 'a'
+        jd_contact_start = jd_eclipse_solar_start
+        jd_contact_end = jd_eclipse_solar_end
         if (jd_eclipse_solar_start < self.daily_panchaangas[fday].jd_sunrise):
           # Grastodaya
           suff = 'Odaya'
@@ -924,10 +927,15 @@ class EclipticFestivalAssigner(FestivalAssigner):
           grasta = 'rAhumukhagrast'
         else:
           grasta = 'rAhupucchagrast'
-        solar_eclipse_str = 'sUrya-grahaNaM~(' + grasta + suff + ')'
-        if self.daily_panchaangas[fday].date.get_weekday() == 0:
+        solar_eclipse_str = 'sUrya-grahaNam~(' + grasta + suff + ')'
+        is_cudamani = self.daily_panchaangas[fday].date.get_weekday() == 0
+        if is_cudamani:
           solar_eclipse_str = '★cUDAmaNi-' + solar_eclipse_str
-        fest = FestivalInstance(name=solar_eclipse_str, interval=Interval(jd_start=jd_eclipse_solar_start, jd_end=jd_eclipse_solar_end))
+        description = eclipse_description.describe_solar_eclipse(
+          grasta=grasta, suff=suff, is_cudamani=is_cudamani, attr=next_eclipse_sol[2], retflag=next_eclipse_sol[0],
+          jd_contact_start=jd_contact_start, jd_contact_end=jd_contact_end, tz=self.panchaanga.city.get_timezone_obj())
+        fest = FestivalInstance(name=solar_eclipse_str, interval=Interval(jd_start=jd_eclipse_solar_start, jd_end=jd_eclipse_solar_end),
+                                 description=description)
       self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[fday].date)
       jd = jd + MIN_DAYS_NEXT_ECLIPSE
 
@@ -935,14 +943,17 @@ class EclipticFestivalAssigner(FestivalAssigner):
     if '★cUDAmaNi-candra-grahaNam' not in self.rules_collection.name_to_rule:
       return
       # Set location
+    from jyotisha.panchaanga.temporal.festival import eclipse_description
     jd = self.panchaanga.jd_start
-    
+
     while 1:
       next_eclipse_lun = self.panchaanga.city.get_lunar_eclipse_time(jd)
       # logging.debug(next_eclipse_lun)
       jd = next_eclipse_lun[1][0]
       jd_eclipse_lunar_start = next_eclipse_lun[1][2]
       jd_eclipse_lunar_end = next_eclipse_lun[1][3]
+      jd_contact_start = next_eclipse_lun[1][6]  # penumbral begin (eclipse begin)
+      jd_contact_end = next_eclipse_lun[1][7]  # penumbral end (eclipse end)
 
       if jd > self.panchaanga.jd_end:
         break
@@ -972,7 +983,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
       fday = int(jd_eclipse_lunar_start - self.daily_panchaangas[0].julian_day_start)
       if jd_eclipse_lunar_start < self.daily_panchaangas[fday].jd_sunrise:
         fday -= 1
-      
+
       # print '%%', jd, fday, self.date_str_to_panchaanga[fday].jd_sunrise,
       # self.date_str_to_panchaanga[fday-1].jd_sunrise, eclipse_lunar_start,
       # eclipse_lunar_end
@@ -983,13 +994,25 @@ class EclipticFestivalAssigner(FestivalAssigner):
       else:
         grasta = 'rAhupucchagrast'
 
-      grasta += suff
-
-      lunar_eclipse_str = 'candra-grahaNam~(' + grasta + ')'
-      if self.daily_panchaangas[fday].date.get_weekday() == 1:
+      lunar_eclipse_str = 'candra-grahaNam~(' + grasta + suff + ')'
+      is_cudamani = self.daily_panchaangas[fday].date.get_weekday() == 1
+      if is_cudamani:
         lunar_eclipse_str = '★cUDAmaNi-' + lunar_eclipse_str
 
-      fest = FestivalInstance(name=lunar_eclipse_str, interval=Interval(jd_start=jd_eclipse_lunar_start, jd_end=jd_eclipse_lunar_end))
+      # Penumbral contact times (tret[6]/tret[7]) may be unset for a below-horizon
+      # partial phase; fall back to the (possibly moonrise/moonset-clipped) display
+      # interval so sutaka isn't computed relative to jd=0.0.
+      if not jd_contact_start:
+        jd_contact_start = jd_eclipse_lunar_start
+      if not jd_contact_end:
+        jd_contact_end = jd_eclipse_lunar_end
+
+      description = eclipse_description.describe_lunar_eclipse(
+        grasta=grasta, suff=suff, is_cudamani=is_cudamani,
+        attr=next_eclipse_lun[2], retflag=next_eclipse_lun[0],
+        jd_contact_start=jd_contact_start, jd_contact_end=jd_contact_end, tz=self.panchaanga.city.get_timezone_obj())
+      fest = FestivalInstance(name=lunar_eclipse_str, interval=Interval(jd_start=jd_eclipse_lunar_start, jd_end=jd_eclipse_lunar_end),
+                               description=description)
       logging.warning(f'Lunar eclipse: {jd_eclipse_lunar_start} → {jd_eclipse_lunar_end}')
       self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[fday].date)
       jd += MIN_DAYS_NEXT_ECLIPSE

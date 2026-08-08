@@ -16,12 +16,19 @@ festival_id_to_json = {}
 
 
 class FestivalInstance(common.JsonObject):
-  def __init__(self, name, interval=None, ordinal=None, exclude=None):
+  def __init__(self, name, interval=None, ordinal=None, exclude=None, description=None):
     super(FestivalInstance, self).__init__()
     self.name = name
     self.interval = interval
     self.exclude = exclude
     self.ordinal = ordinal
+    # Optional pre-computed description dict (keys: blurb, detailed, image,
+    # references, url, shlokas), for festivals whose description depends on
+    # the specific occurrence (e.g. eclipses) rather than just the festival
+    # id, and is therefore computed by the applier at creation time instead
+    # of being looked up from a TOML rule by name. When set, this takes
+    # precedence over any TOML-based lookup.
+    self.description = description
 
   def get_detailed_name_with_timings(self, timezone, reference_date=None):
     name = self.name
@@ -137,6 +144,9 @@ class TransitionFestivalInstance(FestivalInstance):
 
 def get_description(festival_instance, fest_details_dict, script, truncate=True, header_md="#####"):
   fest_id = festival_instance.name.replace('__', '_or_')
+  if getattr(festival_instance, 'description', None) is not None:
+    desc_dict = festival_instance.description
+    return "%s\n\n%s" % (desc_dict['blurb'], desc_dict['detailed'])
   desc = None
   if re.match('aGgArakI.*saGkaTahara-caturthI-vratam', fest_id):
     fest_id = fest_id.replace('aGgArakI~', '')
@@ -330,6 +340,8 @@ PATTERNS_TO_HANDLERS = {
 
 def _get_description_dict(festival_instance, fest_details_dict, script):
   fest_id = festival_instance.name.replace('__', '_or_')
+  if getattr(festival_instance, 'description', None) is not None:
+    return festival_instance.description
   desc = {}
 
   for pattern, handler in PATTERNS_TO_HANDLERS.items():
