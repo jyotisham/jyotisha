@@ -216,8 +216,15 @@ class RuleLookupAssigner(FestivalAssigner):
         # anadhyAyaH (non-study day) festivals are exempt: unlike other paraviddha festivals, a genuine
         # 2-day straddle is traditionally observed on *both* days, not resolved down to one (see the same
         # exemption in FestivalAssigner.cleanup_festivals's adjacent-day cleanup).
+        # If tomorrow has already crossed into a different month, don't defer: tomorrow's own turn will
+        # never re-evaluate this festival at all (_get_relevant_festivals filters by month), so a deferral
+        # here would just lose the assignment outright rather than let a later pairing confirm it -- see
+        # the arivATTAya/tiruvADippUram/mAnakkaJcAra regressions this caused. What the *correct* day should
+        # be when a genuine touch is precluded by the month transit is a separate, not-yet-settled question
+        # (see conversation); for now this just restores the pre-look-ahead behaviour of committing today
+        # outright, rather than attempting a new rule.
         tomorrow = self.panchaanga.date_str_to_panchaanga.get((date + 1).get_date_str(), None)
-        if tomorrow is not None:
+        if tomorrow is not None and tomorrow.get_date(month_type=month_type).month == month:
           (_, tomorrow_angas) = get_2_day_interval_boundary_angas(kaala=kaala, anga_type=target_anga.get_type(), p0=panchaangas[2], p1=tomorrow)
           if tomorrow_angas.start == target_anga or tomorrow_angas.end == target_anga:
             decision = None

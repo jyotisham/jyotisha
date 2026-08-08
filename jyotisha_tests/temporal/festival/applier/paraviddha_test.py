@@ -79,3 +79,19 @@ def test_paraviddha_exclusive_trailing_touch_still_resolves_without_d1_claim():
 
   festival_name = 'zrIrAmanavamI'
   assert panchaanga.festival_id_to_days[festival_name] == {Date(2019, 4, 13)}
+
+
+def test_paraviddha_does_not_defer_past_a_month_boundary():
+  # 2015, Chennai: tiruvADippUram (priority='paraviddha', sidereal_solar_month=4, nakshatra 11/pUrva-
+  # phalgunI, kaala='prAtaH'). decide_paraviddha((2015-08-15, 2015-08-16)) picks 2015-08-16 outright
+  # (2015-08-15 doesn't touch nakSatra 11 at all; 2015-08-16 fully covers it). The look-ahead would
+  # normally peek at 2015-08-17 next -- which *does* briefly touch nakSatra 11 at its own start -- and
+  # defer. But 2015-08-17 has already crossed into sidereal_solar_month 5, so _get_relevant_festivals
+  # (which filters by month) never reconsiders this month=4 festival on 2015-08-17's own turn; a
+  # deferral here would lose the assignment outright instead of letting a later pairing confirm it, as
+  # happened for an earlier, spurious month=4 candidate on 2015-07-20 that must not survive either.
+  computation_system = ComputationSystem.DEFAULT
+  panchaanga = periodical.Panchaanga(city=chennai, start_date=Date(2015, 6, 1), end_date=Date(2015, 12, 1), computation_system=computation_system)
+
+  festival_name = 'tiruvADippUram'
+  assert panchaanga.festival_id_to_days[festival_name] == {Date(2015, 8, 16)}
