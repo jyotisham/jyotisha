@@ -32,15 +32,21 @@ class UpakarmaFestivalAssigner(FestivalAssigner):
   since those require looking beyond a single candidate day. Hence these are hand-coded here instead.
   """
 
-  # Traditionally, it is guru (Jupiter) mAudhya (combustion) that voids Vedic adhyayana-related rites.
-  MAUDHYA_GRAHA = Graha.JUPITER
+  # Each veda's upAkarma is voided by mAudhya (combustion) of its own governing graha, not a common one:
+  # Rgveda <-> guru, (kRSNa/zukla/bOdhAyana) Yajurveda <-> zukra, sAmaveda <-> aGgAraka.
+  MAUDHYA_GRAHA_BY_VEDA = {
+    'RgvEda-upAkarma': Graha.JUPITER,
+    'yajurvEda-upAkarma': Graha.VENUS,
+    'bOdhAyana-yajurvEda-upAkarma': Graha.VENUS,
+    'sAmavEda-upAkarma': Graha.MARS,
+  }
   # "Eclipse before midnight" is read as: the eclipse begins before relative ghatikA 45 (ie. within the
   # first half of the following night; ghatikA 30 is sunset, 60 is next sunrise) of the candidate day.
   ECLIPSE_CUTOFF_RELATIVE_GHATIKA = 45
 
   def __init__(self, panchaanga):
     super().__init__(panchaanga=panchaanga)
-    self._guru_maudhya_intervals_cache = None
+    self._maudhya_intervals_cache = {}
 
   def assign_all(self):
     self.assign_saamopakarma()
@@ -106,37 +112,42 @@ class UpakarmaFestivalAssigner(FestivalAssigner):
     day_panchaanga = self.panchaanga.date_str_to_panchaanga.get(date.get_date_str(), None)
     return day_panchaanga is not None and day_panchaanga.solar_sidereal_date_sunset.month_transition is not None
 
-  def _guru_maudhya_intervals(self):
-    if self._guru_maudhya_intervals_cache is None:
+  def _maudhya_intervals(self, graha):
+    if graha not in self._maudhya_intervals_cache:
       from jyotisha.panchaanga.temporal.festival.applier.ecliptic import EclipticFestivalAssigner
       ecliptic_assigner = EclipticFestivalAssigner(panchaanga=self.panchaanga)
-      self._guru_maudhya_intervals_cache = ecliptic_assigner.compute_maudhya_intervals(
-        self.MAUDHYA_GRAHA, self.panchaanga.jd_start - 30, self.panchaanga.jd_end + 30)
-    return self._guru_maudhya_intervals_cache
+      self._maudhya_intervals_cache[graha] = ecliptic_assigner.compute_maudhya_intervals(
+        graha, self.panchaanga.jd_start - 30, self.panchaanga.jd_end + 30)
+    return self._maudhya_intervals_cache[graha]
 
-  def _has_maudhya_flaw(self, date):
-    """ True iff guru is in mAudhya (combust) at any point during the civil day `date`. """
+  def _has_maudhya_flaw(self, date, graha):
+    """ True iff `graha` is in mAudhya (combust) at any point during the civil day `date`. """
     day_panchaanga = self.panchaanga.date_str_to_panchaanga.get(date.get_date_str(), None)
     if day_panchaanga is None:
       return False
-    return any(t_start <= day_panchaanga.jd_sunset and t_end >= day_panchaanga.jd_sunrise
-               for (t_start, t_end, _, _) in self._guru_maudhya_intervals())
+    flawed = any(t_start <= day_panchaanga.jd_sunset and t_end >= day_panchaanga.jd_sunrise
+                 for (t_start, t_end, _, _) in self._maudhya_intervals(graha))
+    if flawed:
+      logging.info('%s mAudhya (combustion) flaw on %s.', graha, date.get_date_str())
+    return flawed
 
-  def _has_flaw(self, date):
-    """ True iff `date` has an eclipse-before-relative-ghatikA-45, a saGkramaNa, or a guru-mAudhya flaw --
-    any of which is traditionally grounds to switch the upAkarma day, per the veda-specific rules below.
+  def _has_flaw(self, date, fest_id):
+    """ True iff `date` has an eclipse-before-relative-ghatikA-45, a saGkramaNa, or a mAudhya flaw of
+    `fest_id`'s governing graha -- any of which is traditionally grounds to switch the upAkarma day, per
+    the veda-specific rules below.
     """
+    graha = self.MAUDHYA_GRAHA_BY_VEDA[fest_id]
     return date is not None and (
-      self._has_eclipse_flaw(date) or self._has_sankramana_flaw(date) or self._has_maudhya_flaw(date))
+      self._has_eclipse_flaw(date) or self._has_sankramana_flaw(date) or self._has_maudhya_flaw(date, graha))
 
-  def _select_first_unflawed_purnima(self, masa_order, kaala='मध्याह्नः'):
+  def _select_first_unflawed_purnima(self, fest_id, masa_order, kaala='मध्याह्नः'):
     """ Returns the Date of the first (in `masa_order`) unflawed zrAvaNI-style pUrNimA -- ie. the first
     masa in the list whose paraviddha pUrNimA at `kaala` has no eclipse/saGkrAnti/mAudhya flaw.
     """
     for masa_index in masa_order:
       date = self._first_anga_occurrence_in_masa(masa_index=masa_index, anga_type=AngaType.TITHI,
                                                    anga_index=TITHI_PURNIMA, kaala=kaala, priority='paraviddha')
-      if date is not None and not self._has_flaw(date):
+      if date is not None and not self._has_flaw(date, fest_id):
         return date
     return None
 
@@ -153,7 +164,7 @@ class UpakarmaFestivalAssigner(FestivalAssigner):
 
     date = self._first_anga_occurrence_in_masa(masa_index=MASA_SHRAVANA, anga_type=AngaType.NAKSHATRA,
                                                 anga_index=NAKSHATRA_SHRAVANA, kaala='मैत्रः', priority='paraviddha')
-    if date is not None and self._has_flaw(date):
+    if date is not None and self._has_flaw(date, fest_id):
       switched_date = self._first_day_with_sunrise_tithi_in_masa(MASA_SHRAVANA, TITHI_SHUKLA_PANCHAMI)
       if switched_date is not None:
         date = switched_date
@@ -177,15 +188,22 @@ class UpakarmaFestivalAssigner(FestivalAssigner):
     self.panchaanga.delete_festival(fest_id=fest_id)
     self.panchaanga.delete_festival(fest_id=fest_id + '~zAntipUrvakam')
 
-    date = self._select_first_unflawed_purnima(masa_order=[MASA_SHRAVANA, MASA_BHADRAPADA, MASA_ASHADHA])
+    date = self._select_first_unflawed_purnima(fest_id=fest_id, masa_order=[MASA_SHRAVANA, MASA_BHADRAPADA, MASA_ASHADHA])
     if date is not None:
       self.panchaanga.add_festival(fest_id=fest_id, date=date)
       return
 
-    # All 3 candidate pUrNimA-s are flawed -- return to zrAvaNI pUrNimA, performed zAntipUrvakam.
+    # All 3 candidate pUrNimA-s are flawed -- return to zrAvaNI pUrNimA, performed zAntipUrvakam. This is
+    # still the same upAkarma occasion (just performed with a preliminary expiatory rite), so `fest_id`
+    # itself is also assigned at this date -- festivals defined relative to `fest_id` (eg. varalakSmI-vratam
+    # in `RuleLookupAssigner.assign_varalakshmi_vratam`) should resolve the same way regardless of whether
+    # the zAntipUrvakam variant was needed.
     shravana_purnima = self._first_anga_occurrence_in_masa(masa_index=MASA_SHRAVANA, anga_type=AngaType.TITHI,
                                                             anga_index=TITHI_PURNIMA, kaala='मध्याह्नः', priority='paraviddha')
     if shravana_purnima is not None:
+      logging.info('%s: all of zrAvaNa/bhAdrapada/ASADha pUrNimA are flawed; falling back to zrAvaNa-pUrNimA '
+                    '(%s) zAntipUrvakam.', fest_id, shravana_purnima.get_date_str())
+      self.panchaanga.add_festival(fest_id=fest_id, date=shravana_purnima)
       self.panchaanga.add_festival(fest_id=fest_id + '~zAntipUrvakam', date=shravana_purnima)
 
   # ---------------------------------------------------------------------
@@ -200,7 +218,7 @@ class UpakarmaFestivalAssigner(FestivalAssigner):
     self.panchaanga.delete_festival(fest_id=fest_id)
     self.panchaanga.delete_festival(fest_id=fest_id + '~zAntipUrvakam')
 
-    date = self._select_first_unflawed_purnima(masa_order=[MASA_SHRAVANA, MASA_ASHADHA, MASA_BHADRAPADA])
+    date = self._select_first_unflawed_purnima(fest_id=fest_id, masa_order=[MASA_SHRAVANA, MASA_ASHADHA, MASA_BHADRAPADA])
     if date is not None:
       self.panchaanga.add_festival(fest_id=fest_id, date=date)
       return
@@ -208,6 +226,9 @@ class UpakarmaFestivalAssigner(FestivalAssigner):
     shravana_purnima = self._first_anga_occurrence_in_masa(masa_index=MASA_SHRAVANA, anga_type=AngaType.TITHI,
                                                             anga_index=TITHI_PURNIMA, kaala='मध्याह्नः', priority='paraviddha')
     if shravana_purnima is not None:
+      logging.info('%s: all of zrAvaNa/ASADha/bhAdrapada pUrNimA are flawed; falling back to zrAvaNa-pUrNimA '
+                    '(%s) zAntipUrvakam.', fest_id, shravana_purnima.get_date_str())
+      self.panchaanga.add_festival(fest_id=fest_id, date=shravana_purnima)
       self.panchaanga.add_festival(fest_id=fest_id + '~zAntipUrvakam', date=shravana_purnima)
 
   # ---------------------------------------------------------------------
@@ -222,7 +243,7 @@ class UpakarmaFestivalAssigner(FestivalAssigner):
 
     date = self._first_anga_occurrence_in_masa(masa_index=MASA_BHADRAPADA, anga_type=AngaType.NAKSHATRA,
                                                 anga_index=NAKSHATRA_HASTA, kaala='मध्याह्नः', priority='paraviddha')
-    if date is not None and self._has_flaw(date):
+    if date is not None and self._has_flaw(date, fest_id):
       date = self._saamopakarma_switch(date)
 
     if date is not None:
