@@ -1,6 +1,6 @@
 import logging
 
-from jyotisha.panchaanga.temporal import Anga
+from jyotisha.panchaanga.temporal import Anga, get_2_day_interval_boundary_angas
 from jyotisha.panchaanga.temporal.body import Graha
 from jyotisha.panchaanga.temporal.festival import priority_decision
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
@@ -12,6 +12,7 @@ import sys
 MASA_ASHADHA = 4
 MASA_SHRAVANA = 5
 MASA_BHADRAPADA = 6
+MASA_NAMES = {MASA_ASHADHA: 'ASADha', MASA_SHRAVANA: 'zrAvaNa', MASA_BHADRAPADA: 'bhAdrapada'}
 
 NAKSHATRA_HASTA = 13
 NAKSHATRA_SHRAVANA = 22
@@ -65,11 +66,6 @@ class UpakarmaFestivalAssigner(FestivalAssigner):
     (of `anga_type`) prevailing at `kaala` -- decided via the same puurvaviddha/paraviddha/vyaapti
     machinery (`festival.priority_decision`) the generic engine uses, but stopping at the first match
     within the masa instead of accumulating/overwriting with later ones.
-
-    Note: unlike `RuleLookupAssigner.apply_month_anga_events`, this does not re-confirm a paraviddha/vyaapti
-    "today" pick by also looking a day further ahead (see the comment there on why that look-ahead
-    matters near month boundaries). For a first-occurrence-in-masa search that edge case is rare enough
-    to accept for now; revisit if it turns out to matter in practice.
     """
     target_anga = Anga.get_cached(index=anga_index, anga_type_id=anga_type.name)
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
@@ -79,6 +75,20 @@ class UpakarmaFestivalAssigner(FestivalAssigner):
       next_panchaanga = self.daily_panchaangas[d + 1]
       decision = priority_decision.decide(p0=day_panchaanga, p1=next_panchaanga, target_anga=target_anga,
                                            kaala=kaala, priority=priority, ayanaamsha_id=self.ayanaamsha_id)
+      if decision is not None and priority in ('vyaapti', 'paraviddha') and decision.fday == 1:
+        # decide() picked "tomorrow" (next_panchaanga) over "today" (day_panchaanga) based on just this
+        # pair. Since an anga can never touch 3 consecutive days' kaalas, a look at the day after that
+        # settles whether tomorrow's win is final: if the anga doesn't touch that day's kaala at all,
+        # tomorrow's win stands; if it does, tomorrow's boundary match may just be the day-after's leading
+        # edge bleeding backwards (or a genuine straddle continuing further) -- settle it directly by
+        # calling decide() on the (tomorrow, day-after) pair. Mirrors the same look-ahead in
+        # `RuleLookupAssigner.apply_month_anga_events` (see the comment there); omitting it is what caused
+        # zrAvaNa-pUrNimA 2027 to be mis-resolved as 08-16 instead of the correct 08-17.
+        day_after_next = self.daily_panchaangas[d + 2]
+        (_, day_after_next_angas) = get_2_day_interval_boundary_angas(kaala=kaala, anga_type=anga_type, p0=next_panchaanga, p1=day_after_next)
+        if day_after_next_angas.start == target_anga or day_after_next_angas.end == target_anga:
+          decision = priority_decision.decide(p0=next_panchaanga, p1=day_after_next, target_anga=target_anga,
+                                               kaala=kaala, priority=priority, ayanaamsha_id=self.ayanaamsha_id)
       if decision is not None and decision.fday is not None and decision.fday != -1:
         return decision.day_panchaanga.date
     return None
@@ -109,16 +119,10 @@ class UpakarmaFestivalAssigner(FestivalAssigner):
         return True
     return False
 
-  def _falls_on_sankramana(self, date):
+  def _has_sankramana_flaw(self, date):
+    """ True iff a (sidereal solar) saGkramaNa falls on `date` itself. """
     day_panchaanga = self.panchaanga.date_str_to_panchaanga.get(date.get_date_str(), None)
     return day_panchaanga is not None and day_panchaanga.solar_sidereal_date_sunset.month_transition is not None
-
-  def _has_sankramana_flaw(self, date):
-    """ True iff a (sidereal solar) saGkramaNa falls on `date`, or on the civil day immediately following it.
-    A saGkramaNa occurring the next day still voids the previous day, since the transit's puNyakAla is
-    traditionally understood to extend backward from the exact moment of the transit.
-    """
-    return self._falls_on_sankramana(date) or self._falls_on_sankramana(date + 1)
 
   def _maudhya_intervals(self, graha):
     if graha not in self._maudhya_intervals_cache:
@@ -139,14 +143,20 @@ class UpakarmaFestivalAssigner(FestivalAssigner):
       logging.info('%s mAudhya (combustion) flaw on %s.', graha, date.get_date_str())
     return flawed
 
+  def _has_hard_flaw(self, date):
+    """ True iff `date` has an eclipse-before-relative-ghatikA-45 or a saGkramaNa. Unlike mAudhya, neither
+    admits a zAntipUrvakam-style remedy, so a hard flaw rules out even the "return to zrAvaNa-pUrNimA,
+    performed zAntipUrvakam" fallback in `_assign_purnima_switch_upakarma`.
+    """
+    return date is not None and (self._has_eclipse_flaw(date) or self._has_sankramana_flaw(date))
+
   def _has_flaw(self, date, fest_id):
-    """ True iff `date` has an eclipse-before-relative-ghatikA-45, a saGkramaNa, or a mAudhya flaw of
-    `fest_id`'s governing graha -- any of which is traditionally grounds to switch the upAkarma day, per
-    the veda-specific rules below.
+    """ True iff `date` has a hard flaw (see `_has_hard_flaw`) or a mAudhya flaw of `fest_id`'s governing
+    graha -- any of which is traditionally grounds to switch the upAkarma day, per the veda-specific rules
+    below.
     """
     graha = self.MAUDHYA_GRAHA_BY_VEDA[fest_id]
-    return date is not None and (
-      self._has_eclipse_flaw(date) or self._has_sankramana_flaw(date) or self._has_maudhya_flaw(date, graha))
+    return date is not None and (self._has_hard_flaw(date) or self._has_maudhya_flaw(date, graha))
 
   def _shravana_purnima(self):
     return self._first_anga_occurrence_in_masa(masa_index=MASA_SHRAVANA, anga_type=AngaType.TITHI,
@@ -199,48 +209,64 @@ class UpakarmaFestivalAssigner(FestivalAssigner):
 
   # ---------------------------------------------------------------------
   # (kRSNa) Yajurveda: shared implementation for the general/non-bOdhAyana zAkhA-s and for bOdhAyana.
-  # Primary is zrAvaNa-pUrNimA (as above). If that has an eclipse/saGkrAnti/mAudhya flaw, switch
-  # unconditionally to the pUrNimA of `switch_masa_index` -- that switch date is *not* itself re-checked
-  # for flaws, nor is there any further fallback beyond it, since each zAkhA has exactly one designated
-  # switch. Only if that pUrNimA can't be found at all (not merely flawed) does it fall back to
-  # zrAvaNa-pUrNimA itself, performed zAntipUrvakam (a preliminary expiatory rite) -- still the same
-  # upAkarma occasion, so `fest_id` itself is assigned at that date too (not just the zAntipUrvakam
-  # variant), so festivals computed relative to `fest_id` (eg. varalakSmI-vratam, via
-  # `RuleLookupAssigner.assign_varalakshmi_vratam`) resolve the same way regardless.
+  # `masa_chain` is [zrAvaNa, switch_1, switch_2] in priority order (the two zAkhA-groups differ only in
+  # whether ASADha or bhAdrapada comes first). Each candidate pUrNimA is checked in turn -- for eclipse,
+  # saGkrAnti, and mAudhya of the veda's governing graha -- and the first unflawed one is used.
+  #
+  # If all three are flawed: mAudhya alone is traditionally remediable (zAntipUrvakam, a preliminary
+  # expiatory rite), so if zrAvaNa-pUrNimA's own flaw is *only* mAudhya (no eclipse/saGkrAnti), it is used
+  # anyway, performed zAntipUrvakam -- and `fest_id` itself is assigned at that date too (not just the
+  # zAntipUrvakam variant), so festivals computed relative to `fest_id` (eg. varalakSmI-vratam, via
+  # `RuleLookupAssigner.assign_varalakshmi_vratam`) resolve the same way regardless. But eclipse/saGkrAnti
+  # admit no such remedy: if zrAvaNa-pUrNimA itself has one of *those*, the zAntipUrvakam fallback isn't
+  # available either, so the first switch candidate is used instead, accepted despite its own (mAudhya)
+  # flaw, since it's the least-flawed option left.
   # ---------------------------------------------------------------------
 
-  def _assign_purnima_switch_upakarma(self, fest_id, switch_masa_index, switch_masa_name):
+  def _assign_purnima_switch_upakarma(self, fest_id, masa_chain):
     if fest_id not in self.rules_collection.name_to_rule:
       return
     self.panchaanga.delete_festival(fest_id=fest_id)
     self.panchaanga.delete_festival(fest_id=fest_id + '~zAntipUrvakam')
 
-    shravana_purnima = self._shravana_purnima()
-    date = shravana_purnima
-    if shravana_purnima is not None and self._has_flaw(shravana_purnima, fest_id):
-      switched_date = self._first_anga_occurrence_in_masa(masa_index=switch_masa_index, anga_type=AngaType.TITHI,
-                                                            anga_index=TITHI_PURNIMA, kaala='मध्याह्नः', priority='paraviddha')
-      if switched_date is not None:
-        date = switched_date
-      else:
-        logging.info('%s: zrAvaNa-pUrNimA (%s) is flawed and no %s-pUrNimA switch date was found; falling '
-                      'back to zrAvaNa-pUrNimA zAntipUrvakam.', fest_id, shravana_purnima.get_date_str(), switch_masa_name)
-        self.panchaanga.add_festival(fest_id=fest_id, date=shravana_purnima)
-        self.panchaanga.add_festival(fest_id=fest_id + '~zAntipUrvakam', date=shravana_purnima)
+    dates = [self._first_anga_occurrence_in_masa(masa_index=masa_index, anga_type=AngaType.TITHI,
+                                                  anga_index=TITHI_PURNIMA, kaala='मध्याह्नः', priority='paraviddha')
+             for masa_index in masa_chain]
+
+    for date in dates:
+      if date is not None and not self._has_flaw(date, fest_id):
+        self.panchaanga.add_festival(fest_id=fest_id, date=date)
         return
 
-    if date is not None:
-      self.panchaanga.add_festival(fest_id=fest_id, date=date)
+    chain_desc = '/'.join(MASA_NAMES[masa_index] for masa_index in masa_chain)
+    shravana_purnima = dates[0]
+    if shravana_purnima is not None and not self._has_hard_flaw(shravana_purnima):
+      logging.info('%s: %s-pUrNimA are all flawed; zrAvaNa-pUrNimA (%s) has only a mAudhya flaw, so '
+                    'falling back to it, performed zAntipUrvakam.', fest_id, chain_desc, shravana_purnima.get_date_str())
+      self.panchaanga.add_festival(fest_id=fest_id, date=shravana_purnima)
+      self.panchaanga.add_festival(fest_id=fest_id + '~zAntipUrvakam', date=shravana_purnima)
+      return
+
+    for date in dates[1:]:
+      if date is not None:
+        logging.info('%s: %s-pUrNimA are all flawed, and zrAvaNa-pUrNimA (%s) itself has an eclipse/'
+                      'saGkrAnti flaw (no zAntipUrvakam remedy for that) -- falling through to %s.',
+                      fest_id, chain_desc, shravana_purnima.get_date_str() if shravana_purnima else None, date.get_date_str())
+        self.panchaanga.add_festival(fest_id=fest_id, date=date)
+        return
+
+    logging.error('%s: could not resolve a date -- all of %s were either not found or flawed, with no '
+                   'fallback available.', fest_id, chain_desc)
 
   def assign_yajurveda_upakarma(self):
-    """ General/non-bOdhAyana (kRSNa) Yajurveda zAkhA-s (eg. Apastamba, taittirIya): switch is bhAdrapada-pUrNimA. """
-    self._assign_purnima_switch_upakarma(fest_id='yajurvEda-upAkarma', switch_masa_index=MASA_BHADRAPADA,
-                                          switch_masa_name='bhAdrapada')
+    """ General/non-bOdhAyana (kRSNa) Yajurveda zAkhA-s (eg. Apastamba, taittirIya): chain is
+    zrAvaNa -> bhAdrapada -> ASADha. """
+    self._assign_purnima_switch_upakarma(fest_id='yajurvEda-upAkarma', masa_chain=[MASA_SHRAVANA, MASA_BHADRAPADA, MASA_ASHADHA])
 
   def assign_bodhaayana_upakarma(self):
-    """ bOdhAyana zAkhA of the (kRSNa) Yajurveda: switch is ASADha-pUrNimA (not bhAdrapada). """
-    self._assign_purnima_switch_upakarma(fest_id='bOdhAyana-yajurvEda-upAkarma', switch_masa_index=MASA_ASHADHA,
-                                          switch_masa_name='ASADha')
+    """ bOdhAyana zAkhA of the (kRSNa) Yajurveda: chain is zrAvaNa -> ASADha -> bhAdrapada (reversed order
+    vs. the general rule above). """
+    self._assign_purnima_switch_upakarma(fest_id='bOdhAyana-yajurvEda-upAkarma', masa_chain=[MASA_SHRAVANA, MASA_ASHADHA, MASA_BHADRAPADA])
 
   # ---------------------------------------------------------------------
   # Samaveda: first hasta-nakSatra in bhAdrapada. Switch rule not yet settled -- see TODO below.
