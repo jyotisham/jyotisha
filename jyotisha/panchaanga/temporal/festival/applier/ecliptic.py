@@ -357,7 +357,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
     if 'candra-darzanam' not in self.rules_collection.name_to_rule and not force_computation:
       return
     maudhya_intervals = self.compute_maudhya_intervals(Graha.MOON, self.panchaanga.jd_start, self.panchaanga.jd_end, use_latitude=True)
-    for t_start, t_end, dir_rise, dir_set in maudhya_intervals:
+    for t_start, t_zero, t_end, dir_rise, dir_set in maudhya_intervals:
       try:
         fday = int(t_end - self.daily_panchaangas[0].julian_day_start)
         if t_end < self.daily_panchaangas[fday].jd_sunrise:

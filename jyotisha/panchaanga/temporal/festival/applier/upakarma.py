@@ -138,7 +138,7 @@ class UpakarmaFestivalAssigner(FestivalAssigner):
     if day_panchaanga is None:
       return False
     flawed = any(t_start <= day_panchaanga.jd_sunset and t_end >= day_panchaanga.jd_sunrise
-                 for (t_start, t_end, _, _) in self._maudhya_intervals(graha))
+                 for (t_start, _, t_end, _, _) in self._maudhya_intervals(graha))
     if flawed:
       logging.info('%s mAudhya (combustion) flaw on %s.', graha, date.get_date_str())
     return flawed
