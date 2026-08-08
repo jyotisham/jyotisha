@@ -34,10 +34,18 @@ class EclipticFestivalAssigner(FestivalAssigner):
     self.assign_tropical_sankranti_punyakaala()
     self.assign_tropical_sankranti()
     self.set_other_graha_transits()
-    # for graha in (Graha.MERCURY, Graha.VENUS, Graha.MARS, Graha.JUPITER, Graha.SATURN):
-    #   self.add_maudhya_events(graha)
-    # self.add_graha_yuddhas()
-    
+    for graha in (Graha.MERCURY, Graha.VENUS, Graha.MARS, Graha.JUPITER, Graha.SATURN):
+      self.add_maudhya_events(graha)
+    self.add_graha_yuddhas()
+    # Force computation, mirroring the old assign_chandra_darshanam_legacy()
+    # call in TithiFestivalAssigner: assign_bodhaayana_amaavaasyaa() (which
+    # runs later, in TithiFestivalAssigner.assign_all()) needs
+    # festival_id_to_days['candra-darzanam'] regardless of whether the user's
+    # ruleset actually wants candra-darzanam reported; it deletes the festival
+    # again at the end if not.
+    self.assign_chandra_darshanam(force_computation=True)
+
+
   def assign_tropical_sankranti_punyakaala(self):
     if 'viSu-puNyakAlaH' not in self.rules_collection.name_to_rule:
       return
@@ -336,6 +344,39 @@ class EclipticFestivalAssigner(FestivalAssigner):
           ), date=self.daily_panchaangas[fday].date)
         except ValueError:
           logging.warning("Could not assign festival day for maudhya end event.")
+
+  def assign_chandra_darshanam(self, force_computation=False):
+    """
+    candra-darzanam (new-crescent visibility): the first evening the Moon
+    clears the Sun by the maudhya threshold (12deg, akSAMza/oblique-ascension
+    corrected for self.panchaanga.city.latitude) - see compute_maudhya_intervals.
+    Empirically validated to the minute against a real drik-gaNita reference
+    table. Supersedes TithiFestivalAssigner.assign_chandra_darshanam_legacy()'s
+    tithi-at-moonset heuristic, which is retained there for reference.
+    """
+    if 'candra-darzanam' not in self.rules_collection.name_to_rule and not force_computation:
+      return
+    maudhya_intervals = self.compute_maudhya_intervals(Graha.MOON, self.panchaanga.jd_start, self.panchaanga.jd_end, use_latitude=True)
+    for t_start, t_end, dir_rise, dir_set in maudhya_intervals:
+      try:
+        fday = int(t_end - self.daily_panchaangas[0].julian_day_start)
+        if t_end < self.daily_panchaangas[fday].jd_sunrise:
+          fday -= 1
+        if t_end > self.daily_panchaangas[fday].jd_sunset:
+          # This panchaanga-day's sunset has already passed by t_end (the Moon
+          # hadn't cleared the akSAMza threshold yet that evening) - the first
+          # upcoming viewing opportunity is the following evening.
+          fday += 1
+        fest_name = 'candra-darzanam'
+        if self.daily_panchaangas[fday].lunar_date.month.index == 6:
+          fest_name = 'bhAdrapada-' + fest_name
+        fest = FestivalInstance(
+            name=fest_name,
+            interval=Interval(jd_start=self.daily_panchaangas[fday].jd_sunset, jd_end=self.daily_panchaangas[fday].graha_set_jd[Graha.MOON])
+        )
+        self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[fday].date)
+      except (ValueError, IndexError):
+        logging.warning(f"Could not assign candra-darzanam for maudhya interval ending {t_end}.")
 
   def compute_conjunction_intervals(
     self,
