@@ -81,6 +81,28 @@ class Graha(JsonObject):
         return (swe.degnorm(swe.calc_ut(jd, swe.TRUE_NODE)[0][0]) + 180) % 360
       return swe.degnorm(swe.calc_ut(jd, self._get_swisseph_id())[0][0])
 
+  @methodtools.lru_cache(maxsize=10)
+  def get_latitude(self, jd):
+    """
+    Ecliptic latitude in degrees (signed; north of the ecliptic is positive).
+    Unlike longitude, this is unaffected by ayanaamsha, since precession
+    correction is a rotation about the ecliptic pole.
+    """
+    if self.body_name == Graha.KETU:
+      return -swe.calc_ut(jd, swe.TRUE_NODE)[0][1]
+    return swe.calc_ut(jd, self._get_swisseph_id())[0][1]
+
+  @methodtools.lru_cache(maxsize=10)
+  def get_ra_dec(self, jd):
+    """
+    (right ascension, declination) in degrees, equatorial coordinates.
+    """
+    if self.body_name == Graha.KETU:
+      ra, dec = swe.calc_ut(jd, swe.TRUE_NODE, swe.FLG_EQUATORIAL)[0][0:2]
+      return (ra + 180) % 360, -dec
+    ra, dec = swe.calc_ut(jd, self._get_swisseph_id(), swe.FLG_EQUATORIAL)[0][0:2]
+    return ra, dec
+
   def get_transits(self, jd_start: float, jd_end: float, ayanaamsha_id: str, anga_type: object) -> [Transit]:
     """Returns the next transit of the given planet e.g. jupiter
 
@@ -168,6 +190,25 @@ def longitude_difference(jd, body1, body2):
     return diff - 360
   if diff < -180:
     return 360 + diff
+
+
+def oblique_ascension(ra, dec, latitude):
+  """
+  Oblique ascension (degrees): the point on the celestial equator that rises
+  (or sets) at the same local sidereal time as a body of the given right
+  ascension/declination, for an observer at the given geographic latitude.
+
+  OA = RA - ascensional_difference, ascensional_difference = asin(tan(dec) * tan(latitude)).
+
+  This is the standard latitude ("akSAMza") correction for site-dependent
+  rise/set-relative phenomena (e.g. combustion/visibility), as distinct from
+  a graha's own ecliptic latitude (vikSepa/zara), which is a different,
+  observer-independent quantity. Using plain ecliptic longitude in place of
+  this is a common but incorrect shortcut for such phenomena.
+  """
+  x = math.tan(math.radians(dec)) * math.tan(math.radians(latitude))
+  x = max(-1.0, min(1.0, x))
+  return (ra - math.degrees(math.asin(x))) % 360
 
 def get_star_longitude(star, jd):
   """ Calculate star longitude based on sefstars.txt.
