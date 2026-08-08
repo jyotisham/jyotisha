@@ -208,26 +208,23 @@ class RuleLookupAssigner(FestivalAssigner):
         # decide_vyaapti()/decide_paraviddha() picked today (panchaangas[2]) over yesterday based on just
         # this pair. Since an anga can never touch 3 consecutive days' kaalas (max anga duration < 2x kaala
         # spacing), a look at tomorrow settles whether today's win is final: if tomorrow's kaala doesn't
-        # touch target_anga at all, today can't lose to it later, so commit now. If tomorrow does touch,
-        # today's boundary match may just be tomorrow's leading edge bleeding backwards (or, for paraviddha,
-        # a genuine straddle that itself continues into tomorrow, in which case paraviddha's own "prefer the
-        # later day" rule means tomorrow should win outright) -- defer entirely and let the (today, tomorrow)
-        # pairing in the next iteration make the definitive call.
+        # touch target_anga at all, today can't lose to it later, so today's decision stands. If tomorrow
+        # does touch, today's boundary match may just be tomorrow's leading edge bleeding backwards (or, for
+        # paraviddha, a genuine straddle that itself continues into tomorrow) -- settle it directly, by
+        # calling decide() on the (today, tomorrow) pair ourselves right now, rather than deferring and
+        # hoping a future turn resolves it. Deferring is unsafe whenever tomorrow's own turn might never
+        # actually reconsider this festival at all -- eg. at a month boundary, where _get_relevant_festivals
+        # (which filters candidates by month) would silently exclude a month-scoped festival on tomorrow's
+        # turn, losing the assignment outright instead of confirming it (this broke arivATTAya, tiruvADippUram
+        # and mAn2akkaJcAra in practice). Resolving inline sidesteps that dependency entirely.
         # anadhyAyaH (non-study day) festivals are exempt: unlike other paraviddha festivals, a genuine
         # 2-day straddle is traditionally observed on *both* days, not resolved down to one (see the same
         # exemption in FestivalAssigner.cleanup_festivals's adjacent-day cleanup).
-        # If tomorrow has already crossed into a different month, don't defer: tomorrow's own turn will
-        # never re-evaluate this festival at all (_get_relevant_festivals filters by month), so a deferral
-        # here would just lose the assignment outright rather than let a later pairing confirm it -- see
-        # the arivATTAya/tiruvADippUram/mAnakkaJcAra regressions this caused. What the *correct* day should
-        # be when a genuine touch is precluded by the month transit is a separate, not-yet-settled question
-        # (see conversation); for now this just restores the pre-look-ahead behaviour of committing today
-        # outright, rather than attempting a new rule.
         tomorrow = self.panchaanga.date_str_to_panchaanga.get((date + 1).get_date_str(), None)
-        if tomorrow is not None and tomorrow.get_date(month_type=month_type).month == month:
+        if tomorrow is not None:
           (_, tomorrow_angas) = get_2_day_interval_boundary_angas(kaala=kaala, anga_type=target_anga.get_type(), p0=panchaangas[2], p1=tomorrow)
           if tomorrow_angas.start == target_anga or tomorrow_angas.end == target_anga:
-            decision = None
+            decision = priority_decision.decide(p0=panchaangas[2], p1=tomorrow, target_anga=target_anga, kaala=kaala, ayanaamsha_id=self.ayanaamsha_id, priority=priority)
 
       if decision is not None:
         p_fday = decision.day_panchaanga
