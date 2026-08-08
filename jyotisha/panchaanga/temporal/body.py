@@ -170,17 +170,6 @@ class Graha(JsonObject):
     delta = 0.0001
     return (self.get_longitude(jd + delta) - self.get_longitude(jd - delta)) / (2 * delta)
 
-  def get_latitude(self, jd):
-    """
-    Get the geocentric ecliptic latitude of the body in degrees (+ve == north).
-
-    :param jd:
-    :return:
-    """
-    if self.body_name == Graha.KETU:
-      return -swe.calc_ut(jd, swe.TRUE_NODE)[0][1]
-    return swe.calc_ut(jd, self._get_swisseph_id())[0][1]
-
   def get_phenomena(self, jd):
     """
     Get the (elongation from the sun, apparent angular diameter of disc) of
