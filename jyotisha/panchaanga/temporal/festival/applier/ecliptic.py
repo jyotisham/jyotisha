@@ -894,6 +894,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
     if 'sUrya-grahaNam' not in self.rules_collection.name_to_rule:
       return
     from jyotisha.panchaanga.temporal.festival import eclipse_description
+    from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision
     jd = self.panchaanga.jd_start
     while 1:
       next_eclipse_sol = self.panchaanga.city.get_solar_eclipse_time(jd_start=jd)
@@ -931,9 +932,12 @@ class EclipticFestivalAssigner(FestivalAssigner):
         is_cudamani = self.daily_panchaangas[fday].date.get_weekday() == 0
         if is_cudamani:
           solar_eclipse_str = '★cUDAmaNi-' + solar_eclipse_str
+        eclipse_angas = NakshatraDivision(jd, ayanaamsha_id=self.ayanaamsha_id)
         description = eclipse_description.describe_solar_eclipse(
           grasta=grasta, suff=suff, is_cudamani=is_cudamani, attr=next_eclipse_sol[2], retflag=next_eclipse_sol[0],
-          jd_contact_start=jd_contact_start, jd_contact_end=jd_contact_end, tz=self.panchaanga.city.get_timezone_obj())
+          jd_contact_start=jd_contact_start, jd_contact_end=jd_contact_end,
+          nakshatra_index=eclipse_angas.get_anga(AngaType.NAKSHATRA).index, rashi_index=eclipse_angas.get_anga(AngaType.RASHI).index,
+          tz=self.panchaanga.city.get_timezone_obj())
         fest = FestivalInstance(name=solar_eclipse_str, interval=Interval(jd_start=jd_eclipse_solar_start, jd_end=jd_eclipse_solar_end),
                                  description=description)
       self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[fday].date)
@@ -944,6 +948,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
       return
       # Set location
     from jyotisha.panchaanga.temporal.festival import eclipse_description
+    from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision
     jd = self.panchaanga.jd_start
 
     while 1:
@@ -1001,16 +1006,19 @@ class EclipticFestivalAssigner(FestivalAssigner):
 
       # Penumbral contact times (tret[6]/tret[7]) may be unset for a below-horizon
       # partial phase; fall back to the (possibly moonrise/moonset-clipped) display
-      # interval so sutaka isn't computed relative to jd=0.0.
+      # interval so the food-restriction window isn't computed relative to jd=0.0.
       if not jd_contact_start:
         jd_contact_start = jd_eclipse_lunar_start
       if not jd_contact_end:
         jd_contact_end = jd_eclipse_lunar_end
 
+      eclipse_angas = NakshatraDivision(jd, ayanaamsha_id=self.ayanaamsha_id)
       description = eclipse_description.describe_lunar_eclipse(
         grasta=grasta, suff=suff, is_cudamani=is_cudamani,
         attr=next_eclipse_lun[2], retflag=next_eclipse_lun[0],
-        jd_contact_start=jd_contact_start, jd_contact_end=jd_contact_end, tz=self.panchaanga.city.get_timezone_obj())
+        jd_contact_start=jd_contact_start, jd_contact_end=jd_contact_end,
+        nakshatra_index=eclipse_angas.get_anga(AngaType.NAKSHATRA).index, rashi_index=eclipse_angas.get_anga(AngaType.RASHI).index,
+        tz=self.panchaanga.city.get_timezone_obj())
       fest = FestivalInstance(name=lunar_eclipse_str, interval=Interval(jd_start=jd_eclipse_lunar_start, jd_end=jd_eclipse_lunar_end),
                                description=description)
       logging.warning(f'Lunar eclipse: {jd_eclipse_lunar_start} → {jd_eclipse_lunar_end}')

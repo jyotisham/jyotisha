@@ -3,40 +3,48 @@
 Eclipse festival ids are combinatorial (node x grastOdaya/grastAstamana/plain
 x cUDAmaNi), and every individual occurrence differs in magnitude and timing.
 Rather than maintaining a static TOML description file per combination (which
-also forces every eclipse of a given "type" to share one canned description,
-regardless of how partial/total/long it actually was), this module builds the
-description directly from the astronomical circumstances of each occurrence,
-computed by ecliptic.py at the time the festival instance is created.
+also forces every eclipse of a given "type" to share one canned description),
+this module builds the description directly from the astronomical
+circumstances of each occurrence, computed by ecliptic.py at the time the
+festival instance is created.
 
-Sūtaka timing follows the common Dharmasindhu/Nirṇayasindhu rule (starts a
-fixed interval before first contact, ends at the eclipse's last contact).
-This is a widely cited approximation, not a fixed pan-tradition rule; treat
-it as such. Determining which janma-nakshatras call for graha-śānti is not
-attempted here -- it needs a specific classical source/table, which hasn't
-been pinned down yet.
+Food-restriction (bhojana-niyama) timing and the graha-shanti nakshatra/rashi
+rules below follow this panchaanga's own "General notes for all grahanas"
+instructions.
 """
 import swisseph as swe
 from indic_transliteration import sanscript
 
 from jyotisha.panchaanga.temporal.interval import Interval
+from jyotisha.panchaanga.temporal.zodiac import AngaType
 
 NODE_NAMES = {
   'rAhumukhagrast': dict(en='Rahu node (ascending/mukha)'),
   'rAhupucchagrast': dict(en='Ketu node (descending/puccha)'),
 }
 
-# Widely-cited approximation (Dharmasindhu/Nirnayasindhu): sutaka begins a
-# fixed interval before first contact and ends at the eclipse's last
-# contact. Regional/sectarian practice varies (e.g. some traditions waive
-# sutaka for eclipses that are not visible from the location); this is not
-# accounted for here.
-SOLAR_SUTAKA_HOURS_BEFORE = 12
-LUNAR_SUTAKA_HOURS_BEFORE = 9
+# 4 yamas (~12h) before first contact for a solar eclipse, 3 yamas (~9h) for
+# a lunar eclipse; ends at the eclipse's end (mokSha).
+SOLAR_NIYAMA_HOURS_BEFORE = 12
+LUNAR_NIYAMA_HOURS_BEFORE = 9
 
-SUTAKA_REFERENCE_NOTE = (
+# Nakshatra offsets (from the grahaNa nakshatra, 0-indexed) that receive
+# ashubha phala: preceding, the grahaNa nakshatra itself, succeeding, the
+# 10th (anujanma) and 19th (trijanma) counted inclusively from it.
+SHANTI_NAKSHATRA_OFFSETS = [-1, 0, 1, 9, 18]
+
+# Rashi phala, counted inclusively from the grahaNa rashi (1 = the grahaNa
+# rashi itself).
+RASHI_PHALA_POSITIONS = {
+  'shubha': [3, 4, 8, 11],
+  'ashubha': [5, 7, 9, 12],
+  'more_ashubha': [1, 2, 6, 10],
+}
+
+REFERENCE_NOTE = (
   "- References\n"
-  "  - Sūtaka window shown uses the common 12h(solar)/9h(lunar)-before-first-contact rule "
-  "(Dharmasindhu/Nirṇayasindhu); regional and sectarian practice varies.\n"
+  "  - Food-restriction timing and graha-shanti nakshatra/rashi lists follow this pancAnga's "
+  "\"General notes for all grahanas\" instructions.\n"
 )
 
 
@@ -66,8 +74,33 @@ def _suffix_note(suff, rise_or_set_word):
   if suff == 'Odaya':
     return "already in progress at %s (grastodaya)" % rise_or_set_word[0]
   if suff == 'Astamana':
-    return "still in progress at %s (grastāstamana)" % rise_or_set_word[1]
+    return "still in progress at %s (grastAstamana)" % rise_or_set_word[1]
   return None
+
+
+def _shanti_nakshatra_names(nakshatra_index, script):
+  names_dict = AngaType.NAKSHATRA.names_dict[script]
+  names = [names_dict[((nakshatra_index - 1 + o) % 27) + 1] for o in SHANTI_NAKSHATRA_OFFSETS]
+  return names  # [preceding, grahaNa, succeeding, anujanma (10th), trijanma (19th)]
+
+
+def _rashi_phala_names(rashi_index, script):
+  names_dict = AngaType.RASHI.names_dict[script]
+  return {
+    category: [names_dict[((rashi_index - 1 + (pos - 1)) % 12) + 1] for pos in positions]
+    for category, positions in RASHI_PHALA_POSITIONS.items()
+  }
+
+
+def _shanti_note(nakshatra_index, rashi_index, script):
+  nak_names = _shanti_nakshatra_names(nakshatra_index, script)
+  rashi_phala = _rashi_phala_names(rashi_index, script)
+  return (
+    "Those with janma nakshatra %s (preceding/grahaNa/succeeding), or %s (anujanma) or %s (trijanma) "
+    "get ashubha phala and should consider graha-shanti next day. "
+    "By rashi: %s get more ashubha phala, %s somewhat ashubha, %s shubha phala." % (
+      '/'.join(nak_names[0:3]), nak_names[3], nak_names[4],
+      ', '.join(rashi_phala['more_ashubha']), ', '.join(rashi_phala['ashubha']), ', '.join(rashi_phala['shubha'])))
 
 
 def _assemble(blurb, detailed_parts):
@@ -75,13 +108,14 @@ def _assemble(blurb, detailed_parts):
     'blurb': blurb,
     'detailed': ' '.join(detailed_parts),
     'image': '',
-    'references': SUTAKA_REFERENCE_NOTE,
+    'references': REFERENCE_NOTE,
     'url': '',
     'shlokas': '',
   }
 
 
-def describe_solar_eclipse(grasta, suff, is_cudamani, attr, retflag, jd_contact_start, jd_contact_end, tz, script=sanscript.ISO):
+def describe_solar_eclipse(grasta, suff, is_cudamani, attr, retflag, jd_contact_start, jd_contact_end, nakshatra_index,
+                            rashi_index, tz, script=sanscript.ISO):
   """
   :param grasta: 'rAhumukhagrast' or 'rAhupucchagrast'
   :param suff: 'a' (plain), 'Odaya' (grastodaya) or 'Astamana' (grastAstamana)
@@ -89,7 +123,9 @@ def describe_solar_eclipse(grasta, suff, is_cudamani, attr, retflag, jd_contact_
   :param retflag: the int retflag returned by swe.sol_eclipse_when_loc
   :param jd_contact_start: first-contact JD (unclipped by sunrise/sunset)
   :param jd_contact_end: last-contact JD (unclipped by sunrise/sunset)
-  :param tz: a Timezone instance, for rendering the sutaka window
+  :param nakshatra_index: 1-indexed nakshatra of the eclipse (Sun/Moon are conjunct)
+  :param rashi_index: 1-indexed rashi of the eclipse
+  :param tz: a Timezone instance, for rendering the food-restriction window
   """
   node_en = NODE_NAMES[grasta]['en']
   ecl_type = _solar_eclipse_type(retflag)
@@ -106,22 +142,26 @@ def describe_solar_eclipse(grasta, suff, is_cudamani, attr, retflag, jd_contact_
   detailed.append(
     "Magnitude: %.0f%% of the solar diameter is covered (parimāṇa ≈%.1f of the traditional 12 aṅgulas)." % (
       magnitude * 100, parimana_angula))
-  sutaka_start_jd = jd_contact_start - SOLAR_SUTAKA_HOURS_BEFORE / 24.0
-  sutaka_text = Interval(jd_start=sutaka_start_jd, jd_end=jd_contact_end, name='sUtaka').to_hour_text(tz=tz, script=script)
-  detailed.append("Sūtaka (approx.): %s — begins %dh before first contact, ends at the eclipse's end." % (
-    sutaka_text, SOLAR_SUTAKA_HOURS_BEFORE))
+  niyama_start_jd = jd_contact_start - SOLAR_NIYAMA_HOURS_BEFORE / 24.0
+  niyama_text = Interval(jd_start=niyama_start_jd, jd_end=jd_contact_end, name='bhojana-niyama').to_hour_text(tz=tz, script=script)
+  detailed.append("Avoid food: %s (%dh before first contact until the eclipse's end)." % (
+    niyama_text, SOLAR_NIYAMA_HOURS_BEFORE))
+  detailed.append(_shanti_note(nakshatra_index, rashi_index, script))
   if is_cudamani:
     detailed.append("Falling on a Sunday, this is an especially auspicious `cUDAmaNi` (crest-jewel) eclipse.")
 
   return _assemble(blurb, detailed)
 
 
-def describe_lunar_eclipse(grasta, suff, is_cudamani, attr, retflag, jd_contact_start, jd_contact_end, tz, script=sanscript.ISO):
+def describe_lunar_eclipse(grasta, suff, is_cudamani, attr, retflag, jd_contact_start, jd_contact_end, nakshatra_index,
+                            rashi_index, tz, script=sanscript.ISO):
   """
   :param attr: the 20-tuple returned by swe.lun_eclipse_when_loc as its 3rd element
   :param retflag: the int retflag returned by swe.lun_eclipse_when_loc
   :param jd_contact_start: penumbral-begin JD (unclipped by moonrise/moonset)
   :param jd_contact_end: penumbral-end JD (unclipped by moonrise/moonset)
+  :param nakshatra_index: 1-indexed nakshatra of the eclipsed Moon
+  :param rashi_index: 1-indexed rashi of the eclipsed Moon
   """
   node_en = NODE_NAMES[grasta]['en']
   ecl_type = _lunar_eclipse_type(retflag)
@@ -137,10 +177,11 @@ def describe_lunar_eclipse(grasta, suff, is_cudamani, attr, retflag, jd_contact_
     detailed.append("The eclipse is %s." % note)
   detailed.append(
     "Umbral magnitude: %.2f (parimāṇa ≈%.1f of the traditional 12 aṅgulas)." % (magnitude, parimana_angula))
-  sutaka_start_jd = jd_contact_start - LUNAR_SUTAKA_HOURS_BEFORE / 24.0
-  sutaka_text = Interval(jd_start=sutaka_start_jd, jd_end=jd_contact_end, name='sUtaka').to_hour_text(tz=tz, script=script)
-  detailed.append("Sūtaka (approx.): %s — begins %dh before first contact, ends at the eclipse's end." % (
-    sutaka_text, LUNAR_SUTAKA_HOURS_BEFORE))
+  niyama_start_jd = jd_contact_start - LUNAR_NIYAMA_HOURS_BEFORE / 24.0
+  niyama_text = Interval(jd_start=niyama_start_jd, jd_end=jd_contact_end, name='bhojana-niyama').to_hour_text(tz=tz, script=script)
+  detailed.append("Avoid food: %s (%dh before first contact until the eclipse's end)." % (
+    niyama_text, LUNAR_NIYAMA_HOURS_BEFORE))
+  detailed.append(_shanti_note(nakshatra_index, rashi_index, script))
   if is_cudamani:
     detailed.append("Falling on a Monday, this is an especially auspicious `cUDAmaNi` (crest-jewel) eclipse.")
 
