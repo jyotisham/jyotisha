@@ -46,6 +46,7 @@ class SolarFestivalAssigner(FestivalAssigner):
     self.assign_ayushmad_bava_saumya_yoga()
     self.assign_anadhyayana_dvadashi_yoga()
     self.assign_vaarunii_trayodashi()
+    self.assign_mahamagha_utsava()
 
   def assign_pitr_dina(self):
     self.assign_gajachhaya_yoga()
@@ -580,6 +581,77 @@ class SolarFestivalAssigner(FestivalAssigner):
             self._assign_yoga('mahAvAruNI~trayOdazI', [(zodiac.AngaType.NAKSHATRA, 24), (zodiac.AngaType.TITHI, 28)], jd_start = day_panchaanga.jd_sunrise, jd_end = day_panchaanga.jd_next_sunrise)
         else:
             self._assign_yoga('vAruNI~trayOdazI', [(zodiac.AngaType.NAKSHATRA, 24), (zodiac.AngaType.TITHI, 28)], jd_start = day_panchaanga.jd_sunrise, jd_end = day_panchaanga.jd_next_sunrise)
+
+  def assign_mahamagha_utsava(self):
+    if 'mahAmaghOtsavaH' not in self.rules_collection.name_to_rule:
+      return
+    ayanaamsha_id = self.computation_system.ayanaamsha_id
+    SIMHA, KUMBHA, MAGHA, VRISHABHA = 5, 11, 10, 2
+
+    # guru transits siMha only once in ~12 years; narrow down within that transit before
+    # looking for the (yearly) sUrya-kumbha and (monthly) candra-maghA occurrences.
+    jupiter_finder = zodiac.AngaSpanFinder.get_cached(ayanaamsha_id=ayanaamsha_id, anga_type=zodiac.AngaType.GRAHA_RASHI[Graha.JUPITER])
+    jupiter_span = jupiter_finder.find(jd1=self.panchaanga.jd_start, jd2=self.panchaanga.jd_end, target_anga_id=SIMHA)
+    if jupiter_span is None:
+      return
+    # jd_start/jd_end may be None if the transit boundary lies outside the queried period;
+    # in that case, guru is already/still in siMha for the entire queried period.
+    jd1 = jupiter_span.jd_start if jupiter_span.jd_start is not None else self.panchaanga.jd_start
+    jd2 = jupiter_span.jd_end if jupiter_span.jd_end is not None else self.panchaanga.jd_end
+
+    sun_finder = zodiac.AngaSpanFinder.get_cached(ayanaamsha_id=ayanaamsha_id, anga_type=zodiac.AngaType.GRAHA_RASHI[Graha.SUN])
+    sun_span = sun_finder.find(jd1=jd1, jd2=jd2, target_anga_id=KUMBHA)
+    if sun_span is None:
+      # guru-siMha and sUrya-kumbha do not coincide in this period.
+      return
+    jd1 = sun_span.jd_start if sun_span.jd_start is not None else jd1
+    jd2 = sun_span.jd_end if sun_span.jd_end is not None else jd2
+
+    nakshatra_finder = zodiac.AngaSpanFinder.get_cached(ayanaamsha_id=ayanaamsha_id, anga_type=zodiac.AngaType.NAKSHATRA)
+    magha_span = nakshatra_finder.find(jd1=jd1, jd2=jd2, target_anga_id=MAGHA)
+    if magha_span is None:
+      return
+
+    jd_start = magha_span.jd_start if magha_span.jd_start is not None else jd1
+    jd_end = magha_span.jd_end if magha_span.jd_end is not None else jd2
+    if jd_start >= jd_end:
+      return
+
+    def day_of(jd):
+      fday = int(floor(jd) - floor(self.daily_panchaangas[0].julian_day_start))
+      if jd < self.daily_panchaangas[fday].jd_sunrise:
+        fday -= 1
+      return fday
+
+    fday_start, fday_end = day_of(jd_start), day_of(jd_end)
+
+    if fday_start == fday_end:
+      fday = fday_start
+    else:
+      # maghA spans two days: prefer whichever day's vRSabha-lagna overlaps with (or, failing
+      # that, lies closest to) the guru-siMha + sUrya-kumbha + candra-maghA window.
+      def vrishabha_interval(fday):
+        day_panchaanga = self.daily_panchaangas[fday]
+        lagna_start = day_panchaanga.jd_sunrise
+        for lagna_id, lagna_end in day_panchaanga.get_lagna_data(ayanaamsha_id=ayanaamsha_id):
+          if lagna_id == VRISHABHA:
+            return (lagna_start, lagna_end)
+          lagna_start = lagna_end
+        return None
+
+      candidates = []
+      for fday in (fday_start, fday_end):
+        vrishabha_span = vrishabha_interval(fday)
+        if vrishabha_span is None:
+          continue
+        overlap = min(jd_end, vrishabha_span[1]) - max(jd_start, vrishabha_span[0])
+        candidates.append((overlap, fday))
+
+      fday = max(candidates)[1] if candidates else fday_start
+
+    self.panchaanga.add_festival_instance(
+      festival_instance=FestivalInstance(name='mahAmaghOtsavaH', interval=Interval(jd_start=jd_start, jd_end=jd_end)),
+      date=self.daily_panchaangas[fday].date)
 
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])
