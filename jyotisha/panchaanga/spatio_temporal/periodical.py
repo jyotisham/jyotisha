@@ -14,7 +14,7 @@ from jyotisha.panchaanga.temporal.festival import FestivalInstance
 from jyotisha.panchaanga.temporal.festival.applier import tithi_festival, ecliptic, solar, vaara, rule_repo_based, \
   FestivalAssigner
 from jyotisha.panchaanga.temporal.time import Date
-from jyotisha.panchaanga.temporal.tithi import ShraadhaTithiAssigner
+from jyotisha.panchaanga.temporal.tithi import ShraaddhaTithiAssigner
 from jyotisha.panchaanga.temporal.zodiac.angas import Tithi
 from jyotisha.util import default_if_none
 from sanskrit_data import collection_helper
@@ -149,7 +149,7 @@ class Panchaanga(common.JsonObject):
       self.delete_festivals_on_date(date=dp.date)
 
   @timebudget
-  def update_festival_details(self, compute_shraadha_tithis=False):
+  def update_festival_details(self, compute_shraaddha_tithis=False):
     """
 
     Festival data may be updated more frequently and a precomputed panchaanga may go out of sync. Hence we keep this method separate.
@@ -158,8 +158,8 @@ class Panchaanga(common.JsonObject):
     self._reset_festivals()
     rule_lookup_assigner = rule_repo_based.RuleLookupAssigner(panchaanga=self)
     rule_lookup_assigner.apply_festival_from_rules_repos()
-    if compute_shraadha_tithis:
-      ShraadhaTithiAssigner(panchaanga=self).assign_shraaddha_tithi()
+    if compute_shraaddha_tithis:
+      ShraaddhaTithiAssigner(panchaanga=self).assign_shraaddha_tithi()
     ecliptic.EclipticFestivalAssigner(panchaanga=self).assign_all()
     tithi_festival.TithiFestivalAssigner(panchaanga=self).assign_all()
     solar.SolarFestivalAssigner(panchaanga=self).assign_all()

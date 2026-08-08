@@ -29,7 +29,7 @@ def get_tithi(jd):
   return NakshatraDivision(jd=jd, ayanaamsha_id=Ayanamsha.VERNAL_EQUINOX_AT_0).get_anga(AngaType.TITHI)
 
 
-class ShraadhaTithiAssigner(PeriodicPanchaangaApplier):
+class ShraaddhaTithiAssigner(PeriodicPanchaangaApplier):
   def reset_shraaddha_tithis(self):
     for daily_panchaanga in self.daily_panchaangas:
       daily_panchaanga.solar_shraaddha_tithi = []
@@ -155,7 +155,9 @@ class ShraadhaTithiAssigner(PeriodicPanchaangaApplier):
     #       sankranti_dushta_days.append(dp.date + 1)
 
     # Compute Solar Month Tithis
-    solar_tithi_days = [{t: [] for t in range(0, 32)} for _m in range(13)]
+    # Bucket 13 parks the year-end sankrAnti wrap-around (next year's meSha), mirroring the 13/14
+    # convention used for lunar month wrap-around above; it is never read back (loops below stop at 12).
+    solar_tithi_days = [{t: [] for t in range(0, 32)} for _m in range(14)]
     yest_tithis, aparaahna = self.panchaanga.daily_panchaangas_sorted()[1].get_interval_anga_spans(interval_id="aparaahna",
                                                                                               anga_type=AngaType.TITHI)
     for dp in self.panchaanga.daily_panchaangas_sorted()[2:self.panchaanga.duration + 2]:
@@ -186,6 +188,11 @@ class ShraadhaTithiAssigner(PeriodicPanchaangaApplier):
         if dp.solar_sidereal_date_sunset.month_transition is not None:
           if start_time > dp.solar_sidereal_date_sunset.month_transition:
             m = dp.solar_sidereal_date_sunset.month
+            if m == 1 and (start_time - self.panchaanga.jd_start) > 200:
+              # This is meSha of *next* year (the year-end sankrAnti wrap-around, reached via the padding
+              # days), not this year's meSha - bucket it as "13", mirroring the lunar 13/14 convention for
+              # next year's chaitra/vaishAkha, instead of colliding with this year's real meSha entries.
+              m = 13
             solar_tithi_days[m][t.anga.index].append(tithi_details_tuple)
           elif end_time < dp.solar_sidereal_date_sunset.month_transition:
             if dp.solar_sidereal_date_sunset.day == 1:
@@ -202,11 +209,16 @@ class ShraadhaTithiAssigner(PeriodicPanchaangaApplier):
           elif start_time < dp.solar_sidereal_date_sunset.month_transition < end_time:
             # Assign to both!
             m = dp.solar_sidereal_date_sunset.month
+            if m == 1 and (start_time - self.panchaanga.jd_start) > 200:
+              # Same year-end wrap-around as above; bucket as "13" rather than this year's meSha (1).
+              m = 13
             solar_tithi_days[m][t.anga.index].append(tithi_details_tuple)
             if m != 1:
               solar_tithi_days[m - 1][t.anga.index].append(tithi_details_tuple)
         else:
           m = dp.solar_sidereal_date_sunset.month
+          if m == 1 and (start_time - self.panchaanga.jd_start) > 200:
+            m = 13
           solar_tithi_days[m][t.anga.index].append(tithi_details_tuple)
     if debug_shraaddha_tithi:
       # Pretty print the tithi days
@@ -309,10 +321,16 @@ class ShraadhaTithiAssigner(PeriodicPanchaangaApplier):
           # सौरमासे तिथ्यलाभे चान्द्रमानेन कारयेत्
           solar_tithi_days[m][t] = lunar_tithi_days[m][t]
           if debug_shraaddha_tithi:
-            logging.warning('Using lunar tithi for %d, %d: %s' % (m, t, str(solar_tithi_days[m][t])))
+            if not solar_tithi_days[m][t]:
+              logging.warning('No chAndramAna tithi available either for %d, %d (a-tithiH in both systems)' % (m, t))
+            else:
+              logging.warning('Using lunar tithi for %d, %d: %s' % (m, t, str(solar_tithi_days[m][t])))
 
     for m in range(1, 13):
       for t in range(1, 31):
+        if not solar_tithi_days[m][t]:
+          # Neither sauramAna nor chAndramAna produced this tithi (a-tithiH in both systems); nothing to assign.
+          continue
         fday = int(solar_tithi_days[m][t][0][0] - self.panchaanga.daily_panchaangas_sorted()[0].date)
         if 0 in self.daily_panchaangas[fday].solar_shraaddha_tithi:
           if debug_shraaddha_tithi:

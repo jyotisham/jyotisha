@@ -151,9 +151,9 @@ class FifteenFoldDivision(common.JsonObject):
     self.madhyaraatri = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=2, num_parts=5)
     self.nishiitha = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=7, num_parts=15)
 
-    self.shraadhaarambha_mukhya = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=7, num_parts=15)
-    self.shraadhaarambha_gauna = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=6, num_parts=15)
-    self.shraadha_kaala = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=range(7, 12), num_parts=15)
+    self.shraaddhaarambha_mukhya = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=7, num_parts=15)
+    self.shraaddhaarambha_gauna = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=6, num_parts=15)
+    self.shraaddha_kaala = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=range(7, 12), num_parts=15)
 
     # रौद्रश्चैत्रस्तथा मैत्रस्तथा सालकटः स्मृतः ।
     # सावित्रश्च जयन्तश्च गान्धर्वः कुतपस्तथा ।

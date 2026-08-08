@@ -60,7 +60,7 @@ def get_hora_data_str(daily_panchaanga, scripts, time_format):
 
 def get_solar_shraaddha_tithi_data_str(daily_panchaanga, scripts, time_format):
     if not daily_panchaanga.solar_shraaddha_tithi:
-        return '---'
+        return jyotisha.custom_transliteration.tr('a-tithiH', scripts[0])
 
     if daily_panchaanga.solar_shraaddha_tithi[0] == 0:
         return jyotisha.custom_transliteration.tr('zUnyatithiH', scripts[0])
@@ -89,7 +89,7 @@ def get_solar_shraaddha_tithi_data_str(daily_panchaanga, scripts, time_format):
 
 def get_lunar_shraaddha_tithi_data_str(daily_panchaanga, scripts, time_format):
     if not daily_panchaanga.lunar_shraaddha_tithi:
-        return '---'
+        return jyotisha.custom_transliteration.tr('a-tithiH', scripts[0])
 
     tithi_strings = []
 
@@ -106,6 +106,25 @@ def get_lunar_shraaddha_tithi_data_str(daily_panchaanga, scripts, time_format):
         return f"{tithi_strings[0]}/{tithi_strings[1]}/{tithi_strings[2]} ({jyotisha.custom_transliteration.tr('tithitrayam', scripts[0])})"
 
     return '/'.join(tithi_strings)
+
+
+def get_shraaddha_tithi_data_str(daily_panchaanga, scripts, time_format):
+    """sauramAna (solar) is the default and is shown unlabelled; chAndramAna (lunar) is shown
+    alongside, labelled, only when it disagrees with sauramAna about which tithi(s) prevail that day
+    (e.g. a sauramAna zUnyatithiH day that does have a chAndramAna tithi, or vice versa)."""
+    if daily_panchaanga.solar_shraaddha_tithi and daily_panchaanga.solar_shraaddha_tithi[0] == 0:
+        solar_tithi_set = set()
+    else:
+        solar_tithi_set = {t for _m, t in daily_panchaanga.solar_shraaddha_tithi}
+    lunar_tithi_set = set(daily_panchaanga.lunar_shraaddha_tithi)
+
+    solar_str = get_solar_shraaddha_tithi_data_str(daily_panchaanga, scripts, time_format)
+    if solar_tithi_set == lunar_tithi_set:
+        return solar_str
+
+    lunar_str = get_lunar_shraaddha_tithi_data_str(daily_panchaanga, scripts, time_format)
+    chandramana_tag = jyotisha.custom_transliteration.tr('cAndramAna', scripts[0])
+    return f"{lunar_str} ({chandramana_tag})/{solar_str}"
 
 
 def get_raahu_yama_gulika_strings(daily_panchaanga, time_format):
