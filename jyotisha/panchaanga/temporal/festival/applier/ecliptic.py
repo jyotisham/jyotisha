@@ -471,12 +471,19 @@ class EclipticFestivalAssigner(FestivalAssigner):
     by proximity of the two discs, not merely by longitude, so latitude must
     be taken into account to identify the interval and moment of conflict
     correctly.
+
+    Uses topocentric (parallax-corrected, for self.panchaanga.city) positions
+    rather than geocentric ones -- graha-yuddha is a locally-observed
+    phenomenon, and parallax (mainly affecting the nearer of the two grahas)
+    can shift the moment of closest apparent approach measurably.
     """
     g1 = Graha.singleton(graha1)
     g2 = Graha.singleton(graha2)
-    dlon = ((g1.get_longitude(jd, ayanaamsha_id=self.ayanaamsha_id) -
-             g2.get_longitude(jd, ayanaamsha_id=self.ayanaamsha_id) + 180) % 360) - 180
-    dlat = g1.get_latitude(jd) - g2.get_latitude(jd)
+    city = self.panchaanga.city
+    lon1, lat1 = g1.get_topocentric_lon_lat(jd, city.longitude, city.latitude, ayanaamsha_id=self.ayanaamsha_id)
+    lon2, lat2 = g2.get_topocentric_lon_lat(jd, city.longitude, city.latitude, ayanaamsha_id=self.ayanaamsha_id)
+    dlon = ((lon1 - lon2 + 180) % 360) - 180
+    dlat = lat1 - lat2
     return (dlon ** 2 + dlat ** 2) ** 0.5
 
   def compute_yuddha_intervals(self, graha1: int, graha2: int, jd_start: float, jd_end: float, delta: float = 1.0, step: float = 0.5) -> list[tuple[float, float, float]]:
@@ -534,9 +541,11 @@ class EclipticFestivalAssigner(FestivalAssigner):
     """
     Compute the full set of graha-yuddha (amshu-vimarda) details at the
     moment `jd` of closest approach between graha1 and graha2: their
-    separation, and for each graha: longitude (with nakshatra/pada/rashi),
-    latitude, motion (gati, direct/retrograde), apparent angular diameter
-    (with increasing/decreasing trend), and elongation from the sun.
+    center-to-center and disc-to-disc (edge-to-edge) separation, and for each
+    graha: (topocentric) longitude (with nakshatra/pada/rashi), latitude,
+    motion (gati, direct/retrograde), apparent angular diameter (with
+    increasing/decreasing trend), apparent magnitude, and elongation from
+    the sun.
 
     The graha with the larger apparent diameter (i.e. nearer the earth, and
     hence brighter/more prominent) is taken to be the victor (jayI) -- per
@@ -544,14 +553,14 @@ class EclipticFestivalAssigner(FestivalAssigner):
     """
     details = {'separation': self.get_angular_separation(graha1, graha2, jd)}
     dt = 0.01
+    city = self.panchaanga.city
+    sun_lon, _ = Graha.singleton(Graha.SUN).get_topocentric_lon_lat(jd, city.longitude, city.latitude, ayanaamsha_id=self.ayanaamsha_id)
     for graha in (graha1, graha2):
       g = Graha.singleton(graha)
-      lon = g.get_longitude(jd, ayanaamsha_id=self.ayanaamsha_id)
-      lat = g.get_latitude(jd)
+      lon, lat = g.get_topocentric_lon_lat(jd, city.longitude, city.latitude, ayanaamsha_id=self.ayanaamsha_id)
       speed = g.get_speed(jd)
-      sun_lon = Graha.singleton(Graha.SUN).get_longitude(jd, ayanaamsha_id=self.ayanaamsha_id)
-      elongation, diameter = g.get_phenomena(jd)
-      _, diameter_next = g.get_phenomena(jd + dt)
+      elongation, diameter, magnitude = g.get_phenomena(jd, geo_lon=city.longitude, geo_lat=city.latitude)
+      _, diameter_next, _ = g.get_phenomena(jd + dt, geo_lon=city.longitude, geo_lat=city.latitude)
       nak_index = int(lon // zodiac.AngaType.NAKSHATRA.arc_length) + 1
       pada = int((lon % zodiac.AngaType.NAKSHATRA.arc_length) // (zodiac.AngaType.NAKSHATRA.arc_length / 4)) + 1
       rashi_index = int(lon // zodiac.AngaType.RASHI.arc_length) + 1
@@ -567,9 +576,14 @@ class EclipticFestivalAssigner(FestivalAssigner):
           'motion': 'vakra' if speed < 0 else 'Rju',
           'diameter': diameter,
           'diameter_trend': 'increasing' if diameter_next > diameter else 'decreasing',
+          'magnitude': magnitude,
           'elongation': elongation,
           'elong_dir': 'W' if elong_diff < 0 else 'E',
       }
+    # Disc (rim-to-rim) separation: center-to-center separation minus the sum
+    # of the two angular radii -- the actual visible gap between the discs,
+    # as opposed to 'separation' above (a center-to-center distance).
+    details['disc_separation'] = details['separation'] - (details[graha1]['diameter'] + details[graha2]['diameter']) / 2
     details['winner'] = graha1 if details[graha1]['diameter'] >= details[graha2]['diameter'] else graha2
     details['loser'] = graha2 if details['winner'] == graha1 else graha1
     return details
@@ -608,10 +622,13 @@ class EclipticFestivalAssigner(FestivalAssigner):
         Elongation:     27°13'32.29" W
     """
     tz = self.panchaanga.city.get_timezone_obj()
+    disc_sep = details['disc_separation']
+    disc_sep_str = ("overlapping by " + self.format_dms(disc_sep)) if disc_sep < 0 else self.format_dms(disc_sep)
     lines = [
         f"{event_label}",
         f"Date: {tz.julian_day_to_local_time_str(jd)} -",
-        f"  Separation: {self.format_dms(details['separation'])}",
+        f"  Separation (center-to-center): {self.format_dms(details['separation'])}",
+        f"  Separation (disc/edge-to-edge): {disc_sep_str}",
     ]
     for graha in (graha1, graha2):
       d = details[graha]
@@ -620,6 +637,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
       lines.append(f"           lat: {self.format_dms(d['latitude'])} {d['lat_dir']}")
       lines.append(f"           gati: {self.format_arcmin(d['speed'])} {d['motion']}")
       lines.append(f"           dia: {self.format_arcmin(d['diameter'])} {d['diameter_trend']}")
+      lines.append(f"           magnitude: {d['magnitude']:+.2f}")
       lines.append(f"           elongation: {self.format_dms(d['elongation'])} {d['elong_dir']}")
     if include_winner:
       lines.append(f"  jayI (victor): {GRAHA_NAMES.get(details['winner'], details['winner'])}")

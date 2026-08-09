@@ -7721,8 +7721,8 @@
         },
         "graha-yuddhaH~(guruH-aGgArakaH,~jayI~guruH)": {
           "interval": {
-            "jd_end": 2458127.6237,
-            "jd_start": 2458123.3995,
+            "jd_end": 2458127.6234,
+            "jd_start": 2458123.3976,
             "jsonClass": "Interval"
           },
           "jsonClass": "FestivalInstance",
@@ -14340,8 +14340,8 @@
         },
         "graha-yuddhaH~(budhaH-zaniH,~jayI~zaniH)": {
           "interval": {
-            "jd_end": 2458132.3451,
-            "jd_start": 2458131.1285,
+            "jd_end": 2458132.3443,
+            "jd_start": 2458131.1292,
             "jsonClass": "Interval"
           },
           "jsonClass": "FestivalInstance",
@@ -320444,8 +320444,8 @@
       "festival_id_to_instance": {
         "graha-yuddhaH~(guruH-budhaH,~jayI~guruH)": {
           "interval": {
-            "jd_end": 2458450.9452,
-            "jd_start": 2458449.8257,
+            "jd_end": 2458450.9444,
+            "jd_start": 2458449.8249,
             "jsonClass": "Interval"
           },
           "jsonClass": "FestivalInstance",
@@ -343256,8 +343256,8 @@
         },
         "graha-yuddhaH~(guruH-budhaH,~jayI~guruH)": {
           "interval": {
-            "jd_end": 2458474.8333,
-            "jd_start": 2458473.8163,
+            "jd_end": 2458474.8356,
+            "jd_start": 2458473.8155,
             "jsonClass": "Interval"
           },
           "jsonClass": "FestivalInstance",
