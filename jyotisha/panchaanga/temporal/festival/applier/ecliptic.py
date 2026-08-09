@@ -22,8 +22,8 @@ GRAHA_NAMES = {Graha.SUN: 'sUryaH', Graha.MOON: 'candraH', Graha.VENUS: 'zukraH'
     Graha.SATURN: 'zaniH', Graha.JUPITER: 'guruH'}
 
 # Genitive-case forms, for events that are properties/periods "of" a graha
-# (e.g. "guroH vArdhakya-prArambhaH" - "the start of Guru's old age").
-GRAHA_GENITIVE_NAMES = {Graha.VENUS: 'zukrasya', Graha.JUPITER: 'guroH'}
+# (e.g. "gurOH vArdhakya-prArambhaH" - "the start of Guru's old age").
+GRAHA_GENITIVE_NAMES = {Graha.VENUS: 'zukrasya', Graha.JUPITER: 'gurOH'}
 
 # bAlya (infancy, after udaya) and vArdhakya (old age, before asta) durations,
 # in days, flanking a maudhya (combustion) period. Per:
@@ -453,8 +453,8 @@ class EclipticFestivalAssigner(FestivalAssigner):
     """
     For zukra/bRhaspati (see BAALYA_VARDHAKYA_DAYS): add both boundaries of
     vArdhakya (old age, ending when the graha enters combustion) and bAlya
-    (infancy, starting when it emerges) - e.g. guroH~vArdhakya-prArambhaH
-    and guroH~vArdhakya-samApanam.
+    (infancy, starting when it emerges) - e.g. gurOH~vArdhakya-prArambhaH
+    and gurOH~vArdhakya-samApanam.
 
     Scans well beyond [self.panchaanga.jd_start, self.panchaanga.jd_end] (60
     days of padding, comfortably more than the 15-day maximum vArdhakya/
