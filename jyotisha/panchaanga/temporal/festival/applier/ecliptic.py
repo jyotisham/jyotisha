@@ -430,6 +430,16 @@ class EclipticFestivalAssigner(FestivalAssigner):
     t_start = None
     jd = jd_start
 
+    if separation(jd_start) < delta:
+        # Already within the threshold at the start of the scan window (e.g. a
+        # maudhya/conjunction period straddling jd_start) -- there is no
+        # outside->inside crossing to bracket within [jd_start, jd_end], so
+        # every subsequent sample would otherwise hit the not-inside branch
+        # and fail to bracket forever (both endpoints on the same side),
+        # silently dropping the whole interval. Clamp the start to jd_start.
+        inside = True
+        t_start = jd_start
+
     while jd <= jd_end:
         sep = separation(jd)
 
@@ -452,6 +462,17 @@ class EclipticFestivalAssigner(FestivalAssigner):
             except ValueError:
                 logging.warning(f"Could not bracket end of proximity at {jd}")
         jd += step
+
+    if inside:
+        # Still inside at the end of the scan window (the period's true exit
+        # is beyond jd_end) -- clamp the end to jd_end rather than silently
+        # dropping the interval. t_zero may or may not fall within range;
+        # skip it (with a warning) if it doesn't.
+        try:
+            t_zero = brentq(wrapped_longitude_diff, t_start, jd_end)
+            intervals.append((t_start, t_zero, jd_end))
+        except ValueError:
+            logging.warning(f"Proximity interval starting {t_start} does not end (or reach exact conjunction) by jd_end={jd_end}; dropping it")
 
     if debug:
       # Show the longitudes of each graha at the start and end of the interval
@@ -523,6 +544,25 @@ class EclipticFestivalAssigner(FestivalAssigner):
     def lon_diff(x):
       return self.get_topocentric_longitude_difference(graha1, graha2, x)
 
+    def find_t_zero(t_start, t_end):
+      try:
+        return brentq(lon_diff, t_start, t_end)
+      except ValueError:
+        # No exact longitude-equality moment in this window (can happen
+        # when the discs' proximity is dominated by latitude rather than
+        # longitude) -- fall back to the minimum-separation instant.
+        logging.warning(f"No longitude-equality moment between {t_start} and {t_end}; using minimum-separation instant instead")
+        return minimize_scalar(sep, bounds=(t_start, t_end), method='bounded').x
+
+    if sep(jd_start) < delta:
+      # Already within the threshold at the start of the scan window -- there
+      # is no outside->inside crossing to bracket within [jd_start, jd_end],
+      # so every subsequent sample would otherwise hit the not-inside branch
+      # and fail to bracket forever (both endpoints on the same side),
+      # silently dropping the whole interval. Clamp the start to jd_start.
+      inside = True
+      t_start = jd_start
+
     while jd <= jd_end:
       d = sep(jd)
       if not inside and d < delta:
@@ -534,19 +574,18 @@ class EclipticFestivalAssigner(FestivalAssigner):
       elif inside and d > delta:
         try:
           t_end = brentq(lambda x: sep(x) - delta, jd - step, jd)
-          try:
-            t_zero = brentq(lon_diff, t_start, t_end)
-          except ValueError:
-            # No exact longitude-equality moment in this window (can happen
-            # when the discs' proximity is dominated by latitude rather than
-            # longitude) -- fall back to the minimum-separation instant.
-            logging.warning(f"No longitude-equality moment between {t_start} and {t_end}; using minimum-separation instant instead")
-            t_zero = minimize_scalar(sep, bounds=(t_start, t_end), method='bounded').x
-          intervals.append((t_start, t_zero, t_end))
+          intervals.append((t_start, find_t_zero(t_start, t_end), t_end))
         except ValueError:
           logging.warning(f"Could not bracket end of graha-yuddha at {jd}")
         inside = False
       jd += step
+
+    if inside:
+      # Still inside at the end of the scan window (the period's true exit is
+      # beyond jd_end) -- clamp the end to jd_end rather than silently
+      # dropping the interval.
+      intervals.append((t_start, find_t_zero(t_start, jd_end), jd_end))
+
     return intervals
 
   @staticmethod
