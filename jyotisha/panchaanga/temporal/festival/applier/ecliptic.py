@@ -17,6 +17,15 @@ from scipy.optimize import brentq, minimize_scalar
 from sanskrit_data.schema import common
 from indic_transliteration import sanscript
 
+GRAHA_NAMES = {Graha.SUN: 'sUryaH', Graha.MOON: 'candraH', Graha.VENUS: 'zukraH', Graha.MERCURY: 'budhaH', Graha.MARS: 'aGgArakaH',
+    Graha.SATURN: 'zaniH', Graha.JUPITER: 'guruH'}
+
+# Dedicated logger (and log file) for graha-yuddha, maudhya etc. events -- see
+# EclipticFestivalAssigner.get_graha_events_log_path()/add_graha_events_log_handler().
+graha_events_logger = logging.getLogger('jyotisha.graha_events')
+graha_events_logger.setLevel(logging.INFO)
+
+
 class EclipticFestivalAssigner(FestivalAssigner):
   def assign_all(self):
     self.set_jupiter_transits()
@@ -219,7 +228,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
     return "prAk" if az < 180 else "pratyak"
 
  
-  def compute_maudhya_intervals(self, graha: int, jd_start: float, jd_end: float, step: float = 0.5, use_latitude: bool = False) -> list[tuple[float, float, str, str]]:
+  def compute_maudhya_intervals(self, graha: int, jd_start: float, jd_end: float, step: float = 0.5, use_latitude: bool = False) -> list[tuple[float, float, float, str, str]]:
     """
     Compute combustion (maudhya) intervals for a graha between jd_start and jd_end.
     Each interval includes:
@@ -284,26 +293,29 @@ class EclipticFestivalAssigner(FestivalAssigner):
             logging.warning(f"Could not refine maudhya interval near jd={t_zero} for {graha} with delta={delta}")
 
     intervals = []
-    
+
     for t_start, t_zero, t_end in conjunction_intervals:
         try:
             dir_set = self.get_setting_direction(graha, t_start)
             dir_rise = self.get_rising_direction(graha, t_end)
-            intervals.append((t_start, t_end, dir_rise, dir_set))
+            intervals.append((t_start, t_zero, t_end, dir_rise, dir_set))
         except Exception as e:
             logging.warning(f"Could not determine directions for maudhya interval ({t_start}, {t_end}): {e}")
     return intervals
 
 
-  def add_maudhya_events(self, graha: int):
-    GRAHA_NAMES = {Graha.VENUS: 'zukraH', Graha.MERCURY: 'budhaH', Graha.MARS: 'aGgArakaH',
-        Graha.SATURN: 'zaniH', Graha.JUPITER: 'guruH', Graha.MOON: 'candraH'}
+  def add_maudhya_events(self, graha: int, log_path=None):
+    log_path = self.add_graha_events_log_handler(log_path)
     # use_latitude=True: apply the akSAMza (observer-latitude, oblique-ascension)
     # correction - see compute_conjunction_intervals docstring. This is the
     # empirically-validated convention, and applies uniformly to every graha,
     # Chandra included, not just the five star-planets.
     maudhya_intervals = self.compute_maudhya_intervals(graha, self.panchaanga.jd_start, self.panchaanga.jd_end, use_latitude=True)
-    for t_start, t_end, dir_rise, dir_set in maudhya_intervals:
+    for t_start, t_zero, t_end, dir_rise, dir_set in maudhya_intervals:
+        details = self.get_graha_yuddha_details(graha, Graha.SUN, t_zero)
+        graha_events_logger.info(self.format_graha_event_report(
+            event_label=f"maudhyam ({GRAHA_NAMES[graha]})", graha1=graha, graha2=Graha.SUN, jd=t_zero,
+            details=details, include_winner=False))
         try:
             fday = int(t_start - self.daily_panchaangas[0].julian_day_start)
             if t_start < self.daily_panchaangas[fday].jd_sunrise:
@@ -520,10 +532,60 @@ class EclipticFestivalAssigner(FestivalAssigner):
     details['winner'] = graha1 if details[graha1]['diameter'] >= details[graha2]['diameter'] else graha2
     return details
 
-  def add_graha_yuddhas(self):
+  def get_graha_events_log_path(self) -> str:
+    """Default path for the graha-events (maudhya, graha-yuddha, ...) log file."""
+    city_str = self.panchaanga.city.name.replace(' ', '_').replace('/', '_')
+    fname = f"{city_str}_{self.panchaanga.start_date.year}-{self.panchaanga.end_date.year}_graha_events.log"
+    return os.path.join(os.getcwd(), fname)
+
+  def add_graha_events_log_handler(self, log_path: str = None) -> str:
+    """
+    Ensure graha_events_logger writes to `log_path` (or get_graha_events_log_path()
+    if not given), and return the path used. Safe to call repeatedly -- a given
+    file is only attached once.
+    """
+    log_path = os.path.abspath(log_path or self.get_graha_events_log_path())
+    if not any(isinstance(h, logging.FileHandler) and h.baseFilename == log_path for h in graha_events_logger.handlers):
+      os.makedirs(os.path.dirname(log_path), exist_ok=True)
+      handler = logging.FileHandler(log_path)
+      handler.setFormatter(logging.Formatter('%(message)s'))
+      graha_events_logger.addHandler(handler)
+    return log_path
+
+  def format_graha_event_report(self, event_label: str, graha1: int, graha2: int, jd: float, details: dict, include_winner: bool = True) -> str:
+    """
+    Render `details` (as returned by get_graha_yuddha_details) as a
+    human-readable multi-line report, in the spirit of:
+
+      Date: 2021-Mar-05 08:57 -
+        Amshuvimarda ,   0°19'42.70" separation
+        Guru   , lat:    0°35'08.87" S
+                 gati:     13'28.59" riju
+                 dia:       0'32.48" increasing
+        ...
+        Elongation:     27°13'32.29" W
+    """
+    tz = self.panchaanga.city.get_timezone_obj()
+    lines = [
+        f"{event_label}",
+        f"Date: {tz.julian_day_to_local_time_str(jd)} -",
+        f"  Separation: {self.format_dms(details['separation'])}",
+    ]
+    for graha in (graha1, graha2):
+      d = details[graha]
+      name = GRAHA_NAMES.get(graha, graha)
+      lines.append(f"  {name}, longitude: {self.format_dms(d['longitude'])} {d['nakshatra']}-{d['pada']} {d['rashi']}")
+      lines.append(f"           lat: {self.format_dms(d['latitude'])} {d['lat_dir']}")
+      lines.append(f"           gati: {self.format_arcmin(d['speed'])} {d['motion']}")
+      lines.append(f"           dia: {self.format_arcmin(d['diameter'])} {d['diameter_trend']}")
+      lines.append(f"           elongation: {self.format_dms(d['elongation'])} {d['elong_dir']}")
+    if include_winner:
+      lines.append(f"  jayI (victor): {GRAHA_NAMES.get(details['winner'], details['winner'])}")
+    return "\n".join(lines) + "\n"
+
+  def add_graha_yuddhas(self, log_path=None):
     TARA_GRAHAS = (Graha.MERCURY, Graha.VENUS, Graha.MARS, Graha.JUPITER, Graha.SATURN)
-    GRAHA_NAMES = {Graha.VENUS: 'zukraH', Graha.MERCURY: 'budhaH', Graha.MARS: 'aGgArakaH',
-        Graha.SATURN: 'zaniH', Graha.JUPITER: 'guruH'}
+    log_path = self.add_graha_events_log_handler(log_path)
 
     for graha1 in TARA_GRAHAS:
       for graha2 in TARA_GRAHAS:
@@ -537,22 +599,9 @@ class EclipticFestivalAssigner(FestivalAssigner):
               fday -= 1
 
             details = self.get_graha_yuddha_details(graha1, graha2, t_zero)
-
-            def graha_detail_log(graha):
-              d = details[graha]
-              return (f"  {GRAHA_NAMES[graha]}: nakSatram {d['nakshatra']}-{d['pada']} rAziH {d['rashi']},"
-                      f" akSAMSaH {self.format_dms(d['latitude'])} {d['lat_dir']},"
-                      f" gatiH {self.format_arcmin(d['speed'])} {d['motion']},"
-                      f" bimba-vyAsaH {self.format_arcmin(d['diameter'])} {d['diameter_trend']},"
-                      f" digaMSaH {self.format_dms(d['elongation'])} {d['elong_dir']}")
-
-            logging.debug(
-                f"graha-yuddhaH ({GRAHA_NAMES[graha1]}-{GRAHA_NAMES[graha2]}) at jd={t_zero}:\n"
-                f"  aMSu-vimardaH: {self.format_dms(details['separation'])}\n"
-                f"{graha_detail_log(graha1)}\n"
-                f"{graha_detail_log(graha2)}\n"
-                f"  jayI: {GRAHA_NAMES[details['winner']]}"
-            )
+            graha_events_logger.info(self.format_graha_event_report(
+                event_label=f"graha-yuddhaH ({GRAHA_NAMES[graha1]}-{GRAHA_NAMES[graha2]})", graha1=graha1, graha2=graha2,
+                jd=t_zero, details=details))
 
             fest = FestivalInstance(
                 name=f"graha-yuddhaH~({GRAHA_NAMES[graha1]}-{GRAHA_NAMES[graha2]},~jayI~{GRAHA_NAMES[details['winner']]})",
