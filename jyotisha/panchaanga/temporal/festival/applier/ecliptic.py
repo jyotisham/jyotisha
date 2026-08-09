@@ -492,19 +492,18 @@ class EclipticFestivalAssigner(FestivalAssigner):
     Empirically validated to the minute against a real drik-gaNita reference
     table. Supersedes TithiFestivalAssigner.assign_chandra_darshanam_legacy()'s
     tithi-at-moonset heuristic, which is retained there for reference.
+
+    Unlike add_baalya_vardhakya_events, this deliberately doesn't scan past
+    [jd_start, jd_end] or special-case a clamped mi.t_end: the Moon's
+    maudhya cycle is a couple of days at most, so a clamped interval right
+    at jd_end is rare and the following evening's occurrence (computed on
+    the next run, with jd_start shifted forward) covers it -- not worth the
+    extra complexity that matters for the slow-moving grahas' bAlya/vArdhakya.
     """
     if 'candra-darzanam' not in self.rules_collection.name_to_rule and not force_computation:
       return
     maudhya_intervals = self.compute_maudhya_intervals(Graha.MOON, self.panchaanga.jd_start, self.panchaanga.jd_end, use_latitude=True)
     for mi in maudhya_intervals:
-      if mi.end_clamped:
-        # The Moon hadn't actually cleared the akSAMza threshold by jd_end --
-        # mi.t_end is just the scan boundary, not a real clearing moment, so
-        # there is no real candra-darzanam to report here (the moon isn't
-        # visible yet as the period ends). The true clearing happens shortly
-        # after, outside this panchaanga's computed range.
-        logging.warning(f"Moon's maudhya interval starting {mi.t_start} does not clear by jd_end={mi.t_end}; no candra-darzanam within range.")
-        continue
       try:
         fday = int(mi.t_end - self.daily_panchaangas[0].julian_day_start)
         if mi.t_end < self.daily_panchaangas[fday].jd_sunrise:
