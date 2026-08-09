@@ -7719,14 +7719,14 @@
           "status_1_hk": "vRzcikaH",
           "status_2_hk": "dhanuH"
         },
-        "graha-yuddhaH~(guruH-aGgArakaH,~jayI~guruH)": {
+        "graha-yuddhaH~(★guruH-aGgArakaH)": {
           "interval": {
             "jd_end": 2458127.6234,
             "jd_start": 2458123.3976,
             "jsonClass": "Interval"
           },
           "jsonClass": "FestivalInstance",
-          "name": "graha-yuddhaH~(guruH-aGgArakaH,~jayI~guruH)"
+          "name": "graha-yuddhaH~(★guruH-aGgArakaH)"
         },
         "tyAgarAja-ArAdhanA": {
           "interval": {
@@ -14338,14 +14338,14 @@
           "jsonClass": "FestivalInstance",
           "name": "bhOgi"
         },
-        "graha-yuddhaH~(budhaH-zaniH,~jayI~zaniH)": {
+        "graha-yuddhaH~(★zaniH-budhaH)": {
           "interval": {
             "jd_end": 2458132.3443,
             "jd_start": 2458131.1292,
             "jsonClass": "Interval"
           },
           "jsonClass": "FestivalInstance",
-          "name": "graha-yuddhaH~(budhaH-zaniH,~jayI~zaniH)"
+          "name": "graha-yuddhaH~(★zaniH-budhaH)"
         },
         "pakSavardhinI~mahAdvAdazI": {
           "interval": {
@@ -320442,14 +320442,14 @@
         }
       },
       "festival_id_to_instance": {
-        "graha-yuddhaH~(guruH-budhaH,~jayI~guruH)": {
+        "graha-yuddhaH~(★guruH-budhaH)": {
           "interval": {
             "jd_end": 2458450.9444,
             "jd_start": 2458449.8249,
             "jsonClass": "Interval"
           },
           "jsonClass": "FestivalInstance",
-          "name": "graha-yuddhaH~(guruH-budhaH,~jayI~guruH)"
+          "name": "graha-yuddhaH~(★guruH-budhaH)"
         },
         "tiruvizalUr_gaGgAkarSaNa-mahOtsava-ArambhaH": {
           "interval": {
@@ -343254,14 +343254,14 @@
           "jsonClass": "FestivalInstance",
           "name": "anadhyAyaH~rAtrisaGkramaNa"
         },
-        "graha-yuddhaH~(guruH-budhaH,~jayI~guruH)": {
+        "graha-yuddhaH~(★guruH-budhaH)": {
           "interval": {
             "jd_end": 2458474.8356,
             "jd_start": 2458473.8155,
             "jsonClass": "Interval"
           },
           "jsonClass": "FestivalInstance",
-          "name": "graha-yuddhaH~(guruH-budhaH,~jayI~guruH)"
+          "name": "graha-yuddhaH~(★guruH-budhaH)"
         },
         "pizAcamOcanyAtrA": {
           "interval": {
@@ -384439,15 +384439,7 @@
         "year": 2018
       }
     ],
-    "graha-yuddhaH~(budhaH-zaniH,~jayI~zaniH)": [
-      {
-        "day": 13,
-        "jsonClass": "Date",
-        "month": 1,
-        "year": 2018
-      }
-    ],
-    "graha-yuddhaH~(guruH-aGgArakaH,~jayI~guruH)": [
+    "graha-yuddhaH~(★guruH-aGgArakaH)": [
       {
         "day": 6,
         "jsonClass": "Date",
@@ -384455,7 +384447,7 @@
         "year": 2018
       }
     ],
-    "graha-yuddhaH~(guruH-budhaH,~jayI~guruH)": [
+    "graha-yuddhaH~(★guruH-budhaH)": [
       {
         "day": 27,
         "jsonClass": "Date",
@@ -384466,6 +384458,14 @@
         "day": 21,
         "jsonClass": "Date",
         "month": 12,
+        "year": 2018
+      }
+    ],
+    "graha-yuddhaH~(★zaniH-budhaH)": [
+      {
+        "day": 13,
+        "jsonClass": "Date",
+        "month": 1,
         "year": 2018
       }
     ],
