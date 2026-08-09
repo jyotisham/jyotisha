@@ -21,6 +21,10 @@ from indic_transliteration import sanscript
 GRAHA_NAMES = {Graha.SUN: 'sUryaH', Graha.MOON: 'candraH', Graha.VENUS: 'zukraH', Graha.MERCURY: 'budhaH', Graha.MARS: 'aGgArakaH',
     Graha.SATURN: 'zaniH', Graha.JUPITER: 'guruH'}
 
+# Genitive-case forms, for events that are properties/periods "of" a graha
+# (e.g. "guroH vArdhakya-prArambhaH" - "the start of Guru's old age").
+GRAHA_GENITIVE_NAMES = {Graha.VENUS: 'zukrasya', Graha.JUPITER: 'guroH'}
+
 # bAlya (infancy, after udaya) and vArdhakya (old age, before asta) durations,
 # in days, flanking a maudhya (combustion) period. Per:
 #   zaizavaM prAk tu paJcAhaM pazcAd dazadinaM smRtam
@@ -407,48 +411,78 @@ class EclipticFestivalAssigner(FestivalAssigner):
         except ValueError:
           logging.warning("Could not assign festival day for maudhya end event.")
 
-        self.add_baalya_vardhakya_events(graha, mi)
-
-  def add_baalya_vardhakya_events(self, graha: int, mi: MaudhyaInterval):
+  def assign_baalya_vardhakya(self):
     """
-    For zukra/bRhaspati (see BAALYA_VARDHAKYA_DAYS): mark the start of
-    vArdhakya (old age), `vardhakya_days` before the graha enters combustion
-    (mi.t_start, already marked by astamayaH), and the end of bAlya
-    (infancy), `baalya_days` after it emerges (mi.t_end, already marked by
-    udayaH). Only one boundary each is added, since the other boundary of
-    each period coincides with the existing astamayaH/udayaH instant.
+    Add bAlya/vArdhakya events for every graha in BAALYA_VARDHAKYA_DAYS (see
+    add_baalya_vardhakya_events).
 
-    Skipped on a clamped side (see compute_maudhya_intervals) -- if the
-    astamayaH/udayaH itself isn't a real event within the computed range,
-    neither is the vArdhakya/bAlya period flanking it.
+    Deliberately NOT called from assign_all() (and hence not from
+    add_maudhya_events itself): these events are meant to be computed via
+    look-ahead/look-behind beyond the requested [jd_start, jd_end], but
+    Panchaanga.clear_padding_day_festivals() (run at the very end of
+    update_festival_details(), after assign_all()) wipes any festival
+    landing on a padding day, on the premise that padding-day festival
+    assignments in general aren't trustworthy without further look-ahead.
+    That's exactly what add_baalya_vardhakya_events's own wider scan
+    already provides, so it must run after clear_padding_day_festivals(),
+    not as part of the normal assign_all() pass, or its results would be
+    wiped right back out. See Panchaanga.update_festival_details().
+    """
+    for graha in BAALYA_VARDHAKYA_DAYS:
+      self.add_baalya_vardhakya_events(graha)
+
+  def _jd_to_display_date(self, jd: float):
+    """
+    Civil date to attribute `jd` to: sunrise-relative within
+    self.daily_panchaangas' covered range (matching the rest of this class),
+    falling back to a plain local-midnight-based date outside it. The
+    fallback loses exact sunrise-relative attribution (no sunrise is
+    computed for a date outside the covered range), but that only matters
+    for an occurrence within a few hours of a civil-day boundary, and only
+    when it falls outside the requested period in the first place.
+    """
+    fday = int(jd - self.daily_panchaangas[0].julian_day_start)
+    if 0 <= fday < len(self.daily_panchaangas):
+      if jd < self.daily_panchaangas[fday].jd_sunrise:
+        fday -= 1
+      if 0 <= fday < len(self.daily_panchaangas):
+        return self.daily_panchaangas[fday].date
+    return self.panchaanga.city.get_timezone_obj().julian_day_to_local_time(julian_day=jd)
+
+  def add_baalya_vardhakya_events(self, graha: int):
+    """
+    For zukra/bRhaspati (see BAALYA_VARDHAKYA_DAYS): add both boundaries of
+    vArdhakya (old age, ending when the graha enters combustion) and bAlya
+    (infancy, starting when it emerges) - e.g. guroH~vArdhakya-prArambhaH
+    and guroH~vArdhakya-samApanam.
+
+    Scans well beyond [self.panchaanga.jd_start, self.panchaanga.jd_end] (60
+    days of padding, comfortably more than the 15-day maximum vArdhakya/
+    bAlya duration) so that a vArdhakya/bAlya period poking into the
+    requested range from just before/after it is still pinned to its true
+    date, rather than being silently skipped the way add_maudhya_events's
+    own astamayaH/udayaH are when genuinely clamped -- these dates matter
+    (e.g. for a front/summary page) even when the graha's actual astamayaH/
+    udayaH instant falls just outside the requested period itself.
     """
     days = BAALYA_VARDHAKYA_DAYS.get(graha)
     if days is None:
       return
-    if not mi.start_clamped:
-      try:
-        vardhakya_start = mi.t_start - days['vardhakya']
-        fday = int(vardhakya_start - self.daily_panchaangas[0].julian_day_start)
-        if vardhakya_start < self.daily_panchaangas[fday].jd_sunrise:
-          fday -= 1
-        self.panchaanga.add_festival_instance(FestivalInstance(
-            name=f"{GRAHA_NAMES[graha]}–vArdhakyam~ArambhaH",
-            interval=Interval(jd_start=vardhakya_start, jd_end=None)
-        ), date=self.daily_panchaangas[fday].date)
-      except (ValueError, IndexError):
-        logging.warning(f"Could not assign festival day for {GRAHA_NAMES[graha]} vArdhakyam start.")
-    if not mi.end_clamped:
-      try:
-        baalya_end = mi.t_end + days['baalya']
-        fday = int(baalya_end - self.daily_panchaangas[0].julian_day_start)
-        if baalya_end < self.daily_panchaangas[fday].jd_sunrise:
-          fday -= 1
-        self.panchaanga.add_festival_instance(FestivalInstance(
-            name=f"{GRAHA_NAMES[graha]}–bAlyam~samApanam",
-            interval=Interval(jd_start=None, jd_end=baalya_end)
-        ), date=self.daily_panchaangas[fday].date)
-      except (ValueError, IndexError):
-        logging.warning(f"Could not assign festival day for {GRAHA_NAMES[graha]} bAlyam end.")
+    pad = 60
+    maudhya_intervals = self.compute_maudhya_intervals(
+        graha, self.panchaanga.jd_start - pad, self.panchaanga.jd_end + pad, use_latitude=True)
+    genitive = GRAHA_GENITIVE_NAMES[graha]
+    for mi in maudhya_intervals:
+      if not mi.start_clamped:
+        self._add_point_festival(f"{genitive}~vArdhakya-prArambhaH", mi.t_start - days['vardhakya'])
+        self._add_point_festival(f"{genitive}~vArdhakya-samApanam", mi.t_start)
+      if not mi.end_clamped:
+        self._add_point_festival(f"{genitive}~bAlya-prArambhaH", mi.t_end)
+        self._add_point_festival(f"{genitive}~bAlya-samApanam", mi.t_end + days['baalya'])
+
+  def _add_point_festival(self, name: str, jd: float):
+    date = self._jd_to_display_date(jd)
+    self.panchaanga.add_festival_instance(FestivalInstance(name=name, interval=Interval(jd_start=jd, jd_end=None)), date=date)
 
   def assign_chandra_darshanam(self, force_computation=False):
     """
