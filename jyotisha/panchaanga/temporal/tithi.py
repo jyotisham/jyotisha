@@ -287,9 +287,13 @@ class ShraaddhaTithiAssigner(PeriodicPanchaangaApplier):
                   logging.debug('deleting %d from %s' % (0, str(solar_tithi_days[m][t])))
                 del solar_tithi_days[m][t][0]
             elif sankranti_0 is not None and sankranti_0 < d0_panchaanga.get_interval(interval_id="puurvaahna").jd_end:
-              # First sankranti is in puurvahna, so keep it
+              # First sankranti is in puurvahna, so the first candidate's flaw is disregarded - keep it.
               if debug_shraaddha_tithi:
                 logging.debug('deleting %d from %s' % (1, str(solar_tithi_days[m][t])))
+              fday = int(solar_tithi_days[m][t][1][0] - self.panchaanga.daily_panchaangas_sorted()[0].date)
+              # Add Shunya tithi (rather than silently dropping the second candidate)
+              if 0 not in self.daily_panchaangas[fday].solar_shraaddha_tithi:
+                self.daily_panchaangas[fday].solar_shraaddha_tithi.append(0)
               del solar_tithi_days[m][t][1]
             else:
               if debug_shraaddha_tithi:
