@@ -163,12 +163,24 @@ class Graha(JsonObject):
   def get_speed(self, jd):
     """
     Get the speed of the body in degrees per day.
-    
-    :param jd: 
-    :return: 
+
+    :param jd:
+    :return:
     """
     delta = 0.0001
     return (self.get_longitude(jd + delta) - self.get_longitude(jd - delta)) / (2 * delta)
+
+  def get_phenomena(self, jd):
+    """
+    Get the (elongation from the sun, apparent angular diameter of disc) of
+    the body at a given jd, both in degrees, using swisseph's phenomena
+    computation (accounts for the body's actual distance from the earth).
+
+    :param jd:
+    :return: (elongation_degrees, diameter_degrees)
+    """
+    attr = swe.pheno_ut(jd, self._get_swisseph_id())
+    return attr[2], attr[3]
 
 
 def longitude_difference(jd, body1, body2):
