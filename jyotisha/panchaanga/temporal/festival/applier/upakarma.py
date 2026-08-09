@@ -3,6 +3,7 @@ import logging
 from jyotisha.panchaanga.temporal import Anga, get_2_day_interval_boundary_angas
 from jyotisha.panchaanga.temporal.body import Graha
 from jyotisha.panchaanga.temporal.festival import priority_decision
+from jyotisha.panchaanga.temporal.festival.applier.ecliptic import BAALYA_VARDHAKYA_DAYS
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
 from jyotisha.panchaanga.temporal.zodiac import AngaType
 from sanskrit_data.schema import common
@@ -143,6 +144,25 @@ class UpakarmaFestivalAssigner(FestivalAssigner):
       logging.info('%s mAudhya (combustion) flaw on %s.', graha, date.get_date_str())
     return flawed
 
+  def _has_baalya_vardhakya_flaw(self, date, graha):
+    """ True iff `graha` is in bAlya (infancy) or vArdhakya (old age) -- the periods immediately
+    flanking mAudhya, see BAALYA_VARDHAKYA_DAYS -- at any point during the civil day `date`.
+    Only zukra/bRhaspati have these defined; other grahas never flag here.
+    """
+    days = BAALYA_VARDHAKYA_DAYS.get(graha)
+    if days is None:
+      return False
+    day_panchaanga = self.panchaanga.date_str_to_panchaanga.get(date.get_date_str(), None)
+    if day_panchaanga is None:
+      return False
+    flawed = any(
+      (mi.t_start - days['vardhakya'] <= day_panchaanga.jd_sunset and mi.t_start >= day_panchaanga.jd_sunrise) or
+      (mi.t_end <= day_panchaanga.jd_sunset and mi.t_end + days['baalya'] >= day_panchaanga.jd_sunrise)
+      for mi in self._maudhya_intervals(graha))
+    if flawed:
+      logging.info('%s bAlya/vArdhakya flaw on %s.', graha, date.get_date_str())
+    return flawed
+
   def _has_hard_flaw(self, date):
     """ True iff `date` has an eclipse-before-relative-ghatikA-45 or a saGkramaNa. Unlike mAudhya, neither
     admits a zAntipUrvakam-style remedy, so a hard flaw rules out even the "return to zrAvaNa-pUrNimA,
@@ -151,12 +171,13 @@ class UpakarmaFestivalAssigner(FestivalAssigner):
     return date is not None and (self._has_eclipse_flaw(date) or self._has_sankramana_flaw(date))
 
   def _has_flaw(self, date, fest_id):
-    """ True iff `date` has a hard flaw (see `_has_hard_flaw`) or a mAudhya flaw of `fest_id`'s governing
-    graha -- any of which is traditionally grounds to switch the upAkarma day, per the veda-specific rules
-    below.
+    """ True iff `date` has a hard flaw (see `_has_hard_flaw`) or a mAudhya/bAlya/vArdhakya flaw of
+    `fest_id`'s governing graha -- any of which is traditionally grounds to switch the upAkarma day,
+    per the veda-specific rules below.
     """
     graha = self.MAUDHYA_GRAHA_BY_VEDA[fest_id]
-    return date is not None and (self._has_hard_flaw(date) or self._has_maudhya_flaw(date, graha))
+    return date is not None and (self._has_hard_flaw(date) or self._has_maudhya_flaw(date, graha)
+                                  or self._has_baalya_vardhakya_flaw(date, graha))
 
   def _shravana_purnima(self):
     return self._first_anga_occurrence_in_masa(masa_index=MASA_SHRAVANA, anga_type=AngaType.TITHI,
