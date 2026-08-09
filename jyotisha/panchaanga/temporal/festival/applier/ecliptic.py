@@ -1,6 +1,7 @@
 import os
 import sys
 from math import floor
+from typing import NamedTuple
 import logging
 
 import swisseph as swe
@@ -24,6 +25,32 @@ GRAHA_NAMES = {Graha.SUN: 'sUryaH', Graha.MOON: 'candraH', Graha.VENUS: 'zukraH'
 # EclipticFestivalAssigner.get_graha_events_log_path()/add_graha_events_log_handler().
 graha_events_logger = logging.getLogger('jyotisha.graha_events')
 graha_events_logger.setLevel(logging.INFO)
+
+
+class ConjunctionInterval(NamedTuple):
+  """
+  A period during which two grahas' separation is below some delta.
+  start_clamped/end_clamped are True when t_start/t_end is not a genuine
+  entry/exit crossing but the edge of the queried [jd_start, jd_end] window
+  itself -- i.e. the period was already in progress when the scan started,
+  or was still in progress when the scan ended (see compute_conjunction_intervals).
+  """
+  t_start: float
+  t_zero: float
+  t_end: float
+  start_clamped: bool = False
+  end_clamped: bool = False
+
+
+class MaudhyaInterval(NamedTuple):
+  """Like ConjunctionInterval, with the graha's setting/rising direction at t_start/t_end."""
+  t_start: float
+  t_zero: float
+  t_end: float
+  dir_set: str
+  dir_rise: str
+  start_clamped: bool = False
+  end_clamped: bool = False
 
 
 class EclipticFestivalAssigner(FestivalAssigner):
@@ -236,12 +263,16 @@ class EclipticFestivalAssigner(FestivalAssigner):
     return "prAk" if az < 180 else "pratyak"
 
  
-  def compute_maudhya_intervals(self, graha: int, jd_start: float, jd_end: float, step: float = 0.5, use_latitude: bool = False) -> list[tuple[float, float, float, str, str]]:
+  def compute_maudhya_intervals(self, graha: int, jd_start: float, jd_end: float, step: float = 0.5, use_latitude: bool = False) -> list[MaudhyaInterval]:
     """
     Compute combustion (maudhya) intervals for a graha between jd_start and jd_end.
     Each interval includes:
       - setting direction at the start (t_start)
       - rising direction at the end (t_end)
+    dir_set/dir_rise are None when start_clamped/end_clamped (see
+    ConjunctionInterval) -- there is no genuine setting/rising moment at a
+    clamped boundary, since the graha was already combust (or still is) at
+    that point, not becoming so right then.
 
     :param use_latitude: see compute_conjunction_intervals - applies the
       akSAMza (observer-latitude, oblique-ascension) correction rather than
@@ -278,19 +309,19 @@ class EclipticFestivalAssigner(FestivalAssigner):
     )
 
     conjunction_intervals = []
-    for t_start, t_zero, t_end in candidate_intervals:
-        is_retro = self.is_retrograde(graha, t_zero)
+    for ci in candidate_intervals:
+        is_retro = self.is_retrograde(graha, ci.t_zero)
         delta = limits["retrograde" if is_retro else "prograde"]
         if delta == scan_delta:
-            conjunction_intervals.append((t_start, t_zero, t_end))
+            conjunction_intervals.append(ci)
             continue
         # delta is narrower than scan_delta: re-bracket within the
         # already-found (wider) window using the correct, narrower delta.
         refined = self.compute_conjunction_intervals(
             graha1=graha,
             graha2=Graha.SUN,
-            jd_start=t_start,
-            jd_end=t_end,
+            jd_start=ci.t_start,
+            jd_end=ci.t_end,
             delta=delta,
             step=step,
             use_latitude=use_latitude
@@ -298,17 +329,17 @@ class EclipticFestivalAssigner(FestivalAssigner):
         if refined:
             conjunction_intervals.append(refined[0])
         else:
-            logging.warning(f"Could not refine maudhya interval near jd={t_zero} for {graha} with delta={delta}")
+            logging.warning(f"Could not refine maudhya interval near jd={ci.t_zero} for {graha} with delta={delta}")
 
     intervals = []
 
-    for t_start, t_zero, t_end in conjunction_intervals:
+    for ci in conjunction_intervals:
         try:
-            dir_set = self.get_setting_direction(graha, t_start)
-            dir_rise = self.get_rising_direction(graha, t_end)
-            intervals.append((t_start, t_zero, t_end, dir_rise, dir_set))
+            dir_set = None if ci.start_clamped else self.get_setting_direction(graha, ci.t_start)
+            dir_rise = None if ci.end_clamped else self.get_rising_direction(graha, ci.t_end)
+            intervals.append(MaudhyaInterval(ci.t_start, ci.t_zero, ci.t_end, dir_set, dir_rise, ci.start_clamped, ci.end_clamped))
         except Exception as e:
-            logging.warning(f"Could not determine directions for maudhya interval ({t_start}, {t_end}): {e}")
+            logging.warning(f"Could not determine directions for maudhya interval ({ci.t_start}, {ci.t_end}): {e}")
     return intervals
 
 
@@ -319,29 +350,49 @@ class EclipticFestivalAssigner(FestivalAssigner):
     # empirically-validated convention, and applies uniformly to every graha,
     # Chandra included, not just the five star-planets.
     maudhya_intervals = self.compute_maudhya_intervals(graha, self.panchaanga.jd_start, self.panchaanga.jd_end, use_latitude=True)
-    for t_start, t_zero, t_end, dir_rise, dir_set in maudhya_intervals:
-        details = self.get_graha_yuddha_details(graha, Graha.SUN, t_zero)
+    for mi in maudhya_intervals:
+        details = self.get_graha_yuddha_details(graha, Graha.SUN, mi.t_zero)
         graha_events_logger.info(self.format_graha_event_report(
-            event_label=f"maudhyam ({GRAHA_NAMES[graha]})", graha1=graha, graha2=Graha.SUN, jd=t_zero,
+            event_label=f"maudhyam ({GRAHA_NAMES[graha]})", graha1=graha, graha2=Graha.SUN, jd=mi.t_zero,
             details=details, include_winner=False))
         try:
-            fday = int(t_start - self.daily_panchaangas[0].julian_day_start)
-            if t_start < self.daily_panchaangas[fday].jd_sunrise:
+            fday = int(mi.t_start - self.daily_panchaangas[0].julian_day_start)
+            if mi.t_start < self.daily_panchaangas[fday].jd_sunrise:
                 fday -= 1
-            self.panchaanga.add_festival_instance(FestivalInstance(
-                name=f"{GRAHA_NAMES[graha]}–astamayaH ({dir_set})",
-                interval=Interval(jd_start=t_start, jd_end=None)
-            ), date=self.daily_panchaangas[fday].date)
+            if mi.start_clamped:
+              # The graha was already combust when this panchaanga's period
+              # began -- the true astamayaH (setting into combustion) happened
+              # earlier, outside the computed range, so don't claim it as an
+              # event at this (arbitrary, boundary) instant. Note the ongoing
+              # state instead.
+              self.panchaanga.add_festival_instance(FestivalInstance(
+                  name=f"{GRAHA_NAMES[graha]}–maudhyam~(pUrvam~ArabdhaH)",
+                  interval=Interval(jd_start=mi.t_start, jd_end=None)
+              ), date=self.daily_panchaangas[fday].date)
+            else:
+              self.panchaanga.add_festival_instance(FestivalInstance(
+                  name=f"{GRAHA_NAMES[graha]}–astamayaH ({mi.dir_set})",
+                  interval=Interval(jd_start=mi.t_start, jd_end=None)
+              ), date=self.daily_panchaangas[fday].date)
         except ValueError:
             logging.warning("Could not assign festival day for maudhya start event.")
         try:
-          fday = int(t_end - self.daily_panchaangas[0].julian_day_start)
-          if t_end < self.daily_panchaangas[fday].jd_sunrise:
+          fday = int(mi.t_end - self.daily_panchaangas[0].julian_day_start)
+          if mi.t_end < self.daily_panchaangas[fday].jd_sunrise:
             fday -= 1
-          self.panchaanga.add_festival_instance(FestivalInstance(
-              name=f"{GRAHA_NAMES[graha]}–udayaH ({dir_rise})",
-              interval=Interval(jd_start=None, jd_end=t_end)
-          ), date=self.daily_panchaangas[fday].date)
+          if mi.end_clamped:
+            # Symmetric to start_clamped: the graha is still combust at the
+            # end of this panchaanga's period, with the true udayaH (rising
+            # out of combustion) beyond the computed range.
+            self.panchaanga.add_festival_instance(FestivalInstance(
+                name=f"{GRAHA_NAMES[graha]}–maudhyam~(uttaram~sthitaH)",
+                interval=Interval(jd_start=None, jd_end=mi.t_end)
+            ), date=self.daily_panchaangas[fday].date)
+          else:
+            self.panchaanga.add_festival_instance(FestivalInstance(
+                name=f"{GRAHA_NAMES[graha]}–udayaH ({mi.dir_rise})",
+                interval=Interval(jd_start=None, jd_end=mi.t_end)
+            ), date=self.daily_panchaangas[fday].date)
         except ValueError:
           logging.warning("Could not assign festival day for maudhya end event.")
 
@@ -357,12 +408,20 @@ class EclipticFestivalAssigner(FestivalAssigner):
     if 'candra-darzanam' not in self.rules_collection.name_to_rule and not force_computation:
       return
     maudhya_intervals = self.compute_maudhya_intervals(Graha.MOON, self.panchaanga.jd_start, self.panchaanga.jd_end, use_latitude=True)
-    for t_start, t_zero, t_end, dir_rise, dir_set in maudhya_intervals:
+    for mi in maudhya_intervals:
+      if mi.end_clamped:
+        # The Moon hadn't actually cleared the akSAMza threshold by jd_end --
+        # mi.t_end is just the scan boundary, not a real clearing moment, so
+        # there is no real candra-darzanam to report here (the moon isn't
+        # visible yet as the period ends). The true clearing happens shortly
+        # after, outside this panchaanga's computed range.
+        logging.warning(f"Moon's maudhya interval starting {mi.t_start} does not clear by jd_end={mi.t_end}; no candra-darzanam within range.")
+        continue
       try:
-        fday = int(t_end - self.daily_panchaangas[0].julian_day_start)
-        if t_end < self.daily_panchaangas[fday].jd_sunrise:
+        fday = int(mi.t_end - self.daily_panchaangas[0].julian_day_start)
+        if mi.t_end < self.daily_panchaangas[fday].jd_sunrise:
           fday -= 1
-        if t_end > self.daily_panchaangas[fday].jd_sunset:
+        if mi.t_end > self.daily_panchaangas[fday].jd_sunset:
           # This panchaanga-day's sunset has already passed by t_end (the Moon
           # hadn't cleared the akSAMza threshold yet that evening) - the first
           # upcoming viewing opportunity is the following evening.
@@ -376,7 +435,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
         )
         self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[fday].date)
       except (ValueError, IndexError):
-        logging.warning(f"Could not assign candra-darzanam for maudhya interval ending {t_end}.")
+        logging.warning(f"Could not assign candra-darzanam for maudhya interval ending {mi.t_end}.")
 
   def compute_conjunction_intervals(
     self,
@@ -388,10 +447,10 @@ class EclipticFestivalAssigner(FestivalAssigner):
     step: float = 0.5,
     debug: bool = False,
     use_latitude: bool = False
-    ) -> list[tuple[float, float, float]]:
+    ) -> list[ConjunctionInterval]:
     """
     Compute intervals where the angular separation between two grahas is less than `delta`.
-    Returns a list of (t_start, t_zero, t_end) tuples.
+    Returns a list of ConjunctionInterval.
 
     :param use_latitude: If False (default), separation is just the ecliptic
       longitude difference (kranti-vRtta convention). If True, the entry/exit
@@ -427,6 +486,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
         return abs((oa1 - oa2 + 180) % 360 - 180)
 
     inside = False
+    start_clamped = False
     t_start = None
     jd = jd_start
 
@@ -438,6 +498,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
         # and fail to bracket forever (both endpoints on the same side),
         # silently dropping the whole interval. Clamp the start to jd_start.
         inside = True
+        start_clamped = True
         t_start = jd_start
 
     while jd <= jd_end:
@@ -447,6 +508,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
             try:
                 t_start = brentq(lambda x: separation(x) - delta, jd - step, jd)
                 inside = True
+                start_clamped = False
             except ValueError:
                 logging.warning(f"Could not bracket start of proximity at {jd}")
         elif inside and sep > delta:
@@ -455,7 +517,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
                 # Now compute t_zero (exact conjunction), always longitude-based.
                 try:
                     t_zero = brentq(wrapped_longitude_diff, t_start, t_end)
-                    intervals.append((t_start, t_zero, t_end))
+                    intervals.append(ConjunctionInterval(t_start, t_zero, t_end, start_clamped, False))
                 except ValueError:
                     logging.warning(f"Could not find t_zero between {t_start} and {t_end}")
                 inside = False
@@ -470,18 +532,18 @@ class EclipticFestivalAssigner(FestivalAssigner):
         # skip it (with a warning) if it doesn't.
         try:
             t_zero = brentq(wrapped_longitude_diff, t_start, jd_end)
-            intervals.append((t_start, t_zero, jd_end))
+            intervals.append(ConjunctionInterval(t_start, t_zero, jd_end, start_clamped, True))
         except ValueError:
             logging.warning(f"Proximity interval starting {t_start} does not end (or reach exact conjunction) by jd_end={jd_end}; dropping it")
 
     if debug:
       # Show the longitudes of each graha at the start and end of the interval
       logging.debug(f"Intervals for {graha1} and {graha2}:")
-      for t_start, t_zero, t_end in intervals:
-          logging.debug(f"  Interval   : {Interval(jd_start=t_start, jd_end=t_end)}")
-          logging.debug(f"  Conjunction: {Interval(jd_start=t_zero, jd_end=t_zero)}")
-          logging.debug(f"  Start: t_start, {g1.get_longitude(t_start, ayanaamsha_id=self.ayanaamsha_id)}, {g2.get_longitude(t_start, ayanaamsha_id=self.ayanaamsha_id)}")
-          logging.debug(f"  End: t_end, {g1.get_longitude(t_end, ayanaamsha_id=self.ayanaamsha_id)}, {g2.get_longitude(t_end, ayanaamsha_id=self.ayanaamsha_id)}")
+      for ci in intervals:
+          logging.debug(f"  Interval   : {Interval(jd_start=ci.t_start, jd_end=ci.t_end)} (start_clamped={ci.start_clamped}, end_clamped={ci.end_clamped})")
+          logging.debug(f"  Conjunction: {Interval(jd_start=ci.t_zero, jd_end=ci.t_zero)}")
+          logging.debug(f"  Start: t_start, {g1.get_longitude(ci.t_start, ayanaamsha_id=self.ayanaamsha_id)}, {g2.get_longitude(ci.t_start, ayanaamsha_id=self.ayanaamsha_id)}")
+          logging.debug(f"  End: t_end, {g1.get_longitude(ci.t_end, ayanaamsha_id=self.ayanaamsha_id)}, {g2.get_longitude(ci.t_end, ayanaamsha_id=self.ayanaamsha_id)}")
 
     return intervals
   
