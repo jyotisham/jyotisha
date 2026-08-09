@@ -571,6 +571,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
           'elong_dir': 'W' if elong_diff < 0 else 'E',
       }
     details['winner'] = graha1 if details[graha1]['diameter'] >= details[graha2]['diameter'] else graha2
+    details['loser'] = graha2 if details['winner'] == graha1 else graha1
     return details
 
   def get_graha_events_log_path(self) -> str:
@@ -645,7 +646,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
                 jd=t_zero, details=details))
 
             fest = FestivalInstance(
-                name=f"graha-yuddhaH~({GRAHA_NAMES[graha1]}-{GRAHA_NAMES[graha2]},~jayI~{GRAHA_NAMES[details['winner']]})",
+                name=f"graha-yuddhaH~(★{GRAHA_NAMES[details['winner']]}-{GRAHA_NAMES[details['loser']]})",
                 interval=Interval(jd_start=t_start, jd_end=t_end)
             )
             self.panchaanga.add_festival_instance(fest, date=self.daily_panchaangas[fday].date)
