@@ -464,6 +464,15 @@ class EclipticFestivalAssigner(FestivalAssigner):
 
     return intervals
   
+  def get_topocentric_longitude_difference(self, graha1: int, graha2: int, jd: float) -> float:
+    """Signed topocentric longitude difference (degrees, in (-180, 180]) between two grahas."""
+    g1 = Graha.singleton(graha1)
+    g2 = Graha.singleton(graha2)
+    city = self.panchaanga.city
+    lon1, _ = g1.get_topocentric_lon_lat(jd, city.longitude, city.latitude, ayanaamsha_id=self.ayanaamsha_id)
+    lon2, _ = g2.get_topocentric_lon_lat(jd, city.longitude, city.latitude, ayanaamsha_id=self.ayanaamsha_id)
+    return ((lon1 - lon2 + 180) % 360) - 180
+
   def get_angular_separation(self, graha1: int, graha2: int, jd: float) -> float:
     """
     True angular separation (degrees) between two grahas, accounting for both
@@ -490,8 +499,18 @@ class EclipticFestivalAssigner(FestivalAssigner):
     """
     Compute intervals during which the true angular separation (see
     get_angular_separation) between two grahas is less than `delta` degrees,
-    together with the jd of closest approach (t_zero) within each interval.
-    Returns a list of (t_start, t_zero, t_end) tuples.
+    together with the jd of exact longitude-equality (t_zero, the classical
+    "yuti" instant) within each interval. Returns a list of
+    (t_start, t_zero, t_end) tuples.
+
+    t_zero is the moment of exact (topocentric) longitude equality, not the
+    moment of minimum total (longitude+latitude) separation -- verified
+    against a published graha-yuddha report (the 2020-Dec-21 Jupiter-Saturn
+    "great conjunction"): the report's timestamp and longitude match the
+    longitude-equality instant to the second/arcsecond, while the
+    minimum-separation instant (found by minimizing get_angular_separation)
+    was off by ~45 minutes, since the separation curve for slow-moving grahas
+    is nearly flat near its minimum.
     """
     intervals = []
     inside = False
@@ -500,6 +519,9 @@ class EclipticFestivalAssigner(FestivalAssigner):
 
     def sep(x):
       return self.get_angular_separation(graha1, graha2, x)
+
+    def lon_diff(x):
+      return self.get_topocentric_longitude_difference(graha1, graha2, x)
 
     while jd <= jd_end:
       d = sep(jd)
@@ -512,7 +534,14 @@ class EclipticFestivalAssigner(FestivalAssigner):
       elif inside and d > delta:
         try:
           t_end = brentq(lambda x: sep(x) - delta, jd - step, jd)
-          t_zero = minimize_scalar(sep, bounds=(t_start, t_end), method='bounded').x
+          try:
+            t_zero = brentq(lon_diff, t_start, t_end)
+          except ValueError:
+            # No exact longitude-equality moment in this window (can happen
+            # when the discs' proximity is dominated by latitude rather than
+            # longitude) -- fall back to the minimum-separation instant.
+            logging.warning(f"No longitude-equality moment between {t_start} and {t_end}; using minimum-separation instant instead")
+            t_zero = minimize_scalar(sep, bounds=(t_start, t_end), method='bounded').x
           intervals.append((t_start, t_zero, t_end))
         except ValueError:
           logging.warning(f"Could not bracket end of graha-yuddha at {jd}")
