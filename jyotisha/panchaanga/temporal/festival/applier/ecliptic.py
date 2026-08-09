@@ -692,8 +692,12 @@ class EclipticFestivalAssigner(FestivalAssigner):
                 event_label=f"graha-yuddhaH ({GRAHA_NAMES[graha1]}-{GRAHA_NAMES[graha2]})", graha1=graha1, graha2=graha2,
                 jd=t_zero, details=details))
 
+            # Both grahas share the same longitude at t_zero by definition, so
+            # either side's nakshatra/rashi identifies where the yuddha peaks.
+            peak_rashi = details[graha1]['rashi']
+            peak_nakshatra = details[graha1]['nakshatra']
             fest = FestivalInstance(
-                name=f"graha-yuddhaH~(★{GRAHA_NAMES[details['winner']]}-{GRAHA_NAMES[details['loser']]})",
+                name=f"graha-yuddhaH~(★{GRAHA_NAMES[details['winner']]}-{GRAHA_NAMES[details['loser']]},~{peak_nakshatra}~{peak_rashi})",
                 interval=Interval(jd_start=t_start, jd_end=t_end)
             )
             self.panchaanga.add_festival_instance(fest, date=self.daily_panchaangas[fday].date)
