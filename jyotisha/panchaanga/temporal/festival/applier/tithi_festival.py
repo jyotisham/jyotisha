@@ -9,7 +9,7 @@ from jyotisha.panchaanga import temporal
 from jyotisha.panchaanga.temporal import time, get_2_day_interval_boundary_angas
 from jyotisha.panchaanga.temporal import zodiac, tithi
 from jyotisha.panchaanga.temporal.body import Graha
-from jyotisha.panchaanga.temporal.festival import FestivalInstance, EkadashiFestivalInstance
+from jyotisha.panchaanga.temporal.festival import FestivalInstance, EkadashiFestivalInstance, AdhyayanaFestivalInstance
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
 from jyotisha.panchaanga.temporal.interval import Interval
 from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, AngaType, Ayanamsha
@@ -134,7 +134,46 @@ class TithiFestivalAssigner(FestivalAssigner):
               self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='anadhyAyaH~pUrvarAtrau', interval=self.daily_panchaangas[d - 1].get_interval(interval_id="raatrimaana")), date=day_panchaanga.date - 1)
           else:
             self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='anadhyAyaH~pUrvarAtrau', interval=self.daily_panchaangas[d - 1].get_interval(interval_id="raatrimaana")), date=day_panchaanga.date - 1)
-      
+
+  def _get_anadhyayana_boilerplate_dict(self, cluster, script):
+    from jyotisha.panchaanga.temporal.festival import adhyayana_description
+    boilerplate_id = adhyayana_description.CLUSTER_BOILERPLATE_IDS[cluster]
+    rule = self.rules_collection.name_to_rule.get(boilerplate_id)
+    if rule is None:
+      return {}
+    return rule.get_description_dict(script=script)
+
+  def upgrade_anadhyayana_festival_instances(self):
+    """Reclassify already-built anadhyAya FestivalInstances (from the generic
+    RuleLookupAssigner) into AdhyayanaFestivalInstances where they belong to one of the
+    collapsible clusters -- see adhyayana_description.classify(). Must run after all other
+    anadhyAya assignment/cleanup (assign_relative_anadhyayana_days,
+    cleanup_anadhyayana_festivals, cleanup_festivals), since those can themselves add/remove
+    anadhyAya instances; this only relabels instances already settled by that point.
+    """
+    from jyotisha.panchaanga.temporal.festival import adhyayana_description
+    for day_panchaanga in self.daily_panchaangas:
+      for fest_id, instance in list(day_panchaanga.festival_id_to_instance.items()):
+        if 'anadhyAyaH' not in fest_id or isinstance(instance, AdhyayanaFestivalInstance):
+          continue
+        rule = self.rules_collection.name_to_rule.get(fest_id)
+        if rule is None:
+          continue
+        cluster, label = adhyayana_description.classify(rule)
+        if cluster is None:
+          continue
+        script = sanscript.ISO
+        general_dict = self._get_anadhyayana_boilerplate_dict(cluster, script)
+        own_dict = rule.get_description_dict(script=script)
+        # A per-instance rule that still carries its own shlokas (a handful have an extra
+        # verse beyond the cluster's shared one) keeps them; otherwise fall back to the
+        # cluster boilerplate's shlokas.
+        shlokas = own_dict.get('shlokas', '') or general_dict.get('shlokas', '')
+        upgraded = AdhyayanaFestivalInstance(
+          base_instance=instance, cluster=cluster, label=label,
+          general_note=general_dict.get('detailed', '').strip(), shlokas=shlokas)
+        self.panchaanga.add_festival_instance(festival_instance=upgraded, date=day_panchaanga.date)
+
   def assign_chaturthi_vratam(self):
     if "vikaTa-mahAgaNapati-saGkaTahara-caturthI-vratam" not in self.rules_collection.name_to_rule:
       return

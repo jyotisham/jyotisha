@@ -172,6 +172,7 @@ class Panchaanga(common.JsonObject):
     tithi_festival.TithiFestivalAssigner(panchaanga=self).assign_relative_anadhyayana_days()
     generic_assigner.cleanup_anadhyayana_festivals()
     generic_assigner.cleanup_festivals()
+    tithi_festival.TithiFestivalAssigner(panchaanga=self).upgrade_anadhyayana_festival_instances()
     self.clear_padding_day_festivals()
     # Must run after clear_padding_day_festivals(): these events are
     # deliberately computed via look-ahead/look-behind beyond

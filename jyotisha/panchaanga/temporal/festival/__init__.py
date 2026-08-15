@@ -194,6 +194,27 @@ class EkadashiFestivalInstance(FestivalInstance):
     super().__init__(name=name, interval=interval, description=description)
 
 
+class AdhyayanaFestivalInstance(FestivalInstance):
+  """An anadhyAya (no Vedic study) day whose description is one of a handful of shared
+  boilerplate notes, layered with an optional per-instance label (see adhyayana_description.py).
+
+  Unlike PushkaraFestivalInstance/EkadashiFestivalInstance, these are not constructed fresh
+  by a dedicated method -- they start out as plain FestivalInstances built by the generic
+  RuleLookupAssigner, and get upgraded to this class post-hoc once all festivals for the run
+  are assigned (see TithiFestivalAssigner.upgrade_anadhyayana_festival_instances). `base_instance`
+  supplies the name/interval/ordinal/exclude to carry over unchanged.
+  """
+
+  def __init__(self, base_instance, cluster, label, general_note='', shlokas=''):
+    from jyotisha.panchaanga.temporal.festival import adhyayana_description
+    if label is not None:
+      description = adhyayana_description.describe_labeled(label=label, general_note=general_note, shlokas=shlokas)
+    else:
+      description = adhyayana_description.describe_boilerplate(general_note=general_note, shlokas=shlokas)
+    super().__init__(name=base_instance.name, interval=base_instance.interval, ordinal=base_instance.ordinal,
+                      exclude=base_instance.exclude, description=description, names=base_instance.names)
+
+
 def get_description(festival_instance, fest_details_dict, script, truncate=True, header_md="#####"):
   fest_id = festival_instance.name.replace('__', '_or_')
   if getattr(festival_instance, 'description', None) is not None:
