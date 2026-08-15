@@ -368,7 +368,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
     for mi in maudhya_intervals:
         details = self.get_graha_yuddha_details(graha, Graha.SUN, mi.t_zero)
         graha_events_logger.info(self.format_graha_event_report(
-            event_label=f"maudhyam ({GRAHA_NAMES[graha]})", graha1=graha, graha2=Graha.SUN, jd=mi.t_zero,
+            event_label=f"mauDhyam ({GRAHA_NAMES[graha]})", graha1=graha, graha2=Graha.SUN, jd=mi.t_zero,
             details=details, include_winner=False))
         try:
             fday = int(mi.t_start - self.daily_panchaangas[0].julian_day_start)
@@ -381,7 +381,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
               # event at this (arbitrary, boundary) instant. Note the ongoing
               # state instead.
               self.panchaanga.add_festival_instance(FestivalInstance(
-                  name=f"{GRAHA_NAMES[graha]}–maudhyam~(pUrvam~ArabdhaH)",
+                  name=f"{GRAHA_NAMES[graha]}–mauDhyam~(pUrvam~ArabdhaH)",
                   interval=Interval(jd_start=mi.t_start, jd_end=None)
               ), date=self.daily_panchaangas[fday].date)
             else:
@@ -400,7 +400,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
             # end of this panchaanga's period, with the true udayaH (rising
             # out of combustion) beyond the computed range.
             self.panchaanga.add_festival_instance(FestivalInstance(
-                name=f"{GRAHA_NAMES[graha]}–maudhyam~(uttaram~sthitaH)",
+                name=f"{GRAHA_NAMES[graha]}–mauDhyam~(uttaram~sthitaH)",
                 interval=Interval(jd_start=None, jd_end=mi.t_end)
             ), date=self.daily_panchaangas[fday].date)
           else:
