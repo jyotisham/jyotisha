@@ -9,7 +9,7 @@ from jyotisha.panchaanga import temporal
 from jyotisha.panchaanga.temporal import time, get_2_day_interval_boundary_angas
 from jyotisha.panchaanga.temporal import zodiac, tithi
 from jyotisha.panchaanga.temporal.body import Graha
-from jyotisha.panchaanga.temporal.festival import FestivalInstance
+from jyotisha.panchaanga.temporal.festival import FestivalInstance, EkadashiFestivalInstance
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
 from jyotisha.panchaanga.temporal.interval import Interval
 from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, AngaType, Ayanamsha
@@ -259,9 +259,30 @@ class TithiFestivalAssigner(FestivalAssigner):
             day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == 8:
           self.panchaanga.add_festival(fest_id='jayantI~aSTamI', date=day_panchaanga.date)
 
+  def _get_ekadashi_rule_dict(self, rule_id, script):
+    rule = self.rules_collection.name_to_rule.get(rule_id)
+    if rule is None:
+      return None
+    return rule.get_description_dict(script=script)
+
+  def _add_ekadashi_instance(self, paksha, month_index, variant, date, suffix=None):
+    ekad_base = names.get_ekaadashii_name(paksha, month_index)
+    legend_dict = self._get_ekadashi_rule_dict(ekad_base, sanscript.ISO)
+    general_dict = self._get_ekadashi_rule_dict('EkAdazI-sAmAnya-niyamAH', sanscript.ISO)
+    # A per-name rule (if it still exists) already carries its own shlokas -- the shared block
+    # plus any unique verses; only fall back to the shared block's shlokas otherwise.
+    shlokas = (legend_dict or general_dict or {}).get('shlokas', '')
+    fest = EkadashiFestivalInstance(
+      paksha=paksha, month_index=month_index, variant=variant, suffix=suffix,
+      interval=self.panchaanga.date_str_to_panchaanga[date.get_date_str()].get_interval(interval_id="full_day"),
+      legend=(legend_dict or {}).get('detailed', '').strip(),
+      general_note=(general_dict or {}).get('detailed', '').strip(),
+      shlokas=shlokas)
+    self.panchaanga.add_festival_instance(festival_instance=fest, date=date)
+
   def assign_ekaadashii_vratam(self):
     if "ajA-EkAdazI" not in self.rules_collection.name_to_rule:
-      return 
+      return
     for d in range(self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       day_panchaanga = self.daily_panchaangas[d]
       # EKADASHI Vratam
@@ -306,30 +327,27 @@ class TithiFestivalAssigner(FestivalAssigner):
         elif yati_ekaadashii_fday is None:
           if smaarta_ekaadashii_fday == vaishnava_ekaadashii_fday:
             # It's sarva ekaadashii
-            self.panchaanga.add_festival(fest_id=
-              'sarva-' + names.get_ekaadashii_name(ekaadashii_paksha, day_panchaanga.lunar_date.month.index),
-              date=self.daily_panchaangas[smaarta_ekaadashii_fday].date)
+            self._add_ekadashi_instance(paksha=ekaadashii_paksha, month_index=day_panchaanga.lunar_date.month.index,
+                                        variant='sarva', date=self.daily_panchaangas[smaarta_ekaadashii_fday].date)
             if day_panchaanga.solar_sidereal_date_sunset.month == 9:
               if ekaadashii_paksha == 'shukla':
                 self.panchaanga.add_festival(fest_id='sarva-vaikuNTha-EkAdazI', date=self.daily_panchaangas[smaarta_ekaadashii_fday].date)
           else:
-            self.panchaanga.add_festival(fest_id=
-              'smArta-' + names.get_ekaadashii_name(ekaadashii_paksha, day_panchaanga.lunar_date.month.index), date=
-              self.daily_panchaangas[smaarta_ekaadashii_fday].date)
-            self.panchaanga.add_festival(
-              fest_id='vaiSNava-' + names.get_ekaadashii_name(ekaadashii_paksha, day_panchaanga.lunar_date.month.index), date=
-              self.daily_panchaangas[vaishnava_ekaadashii_fday].date)
+            self._add_ekadashi_instance(paksha=ekaadashii_paksha, month_index=day_panchaanga.lunar_date.month.index,
+                                        variant='smArta', date=self.daily_panchaangas[smaarta_ekaadashii_fday].date)
+            self._add_ekadashi_instance(paksha=ekaadashii_paksha, month_index=day_panchaanga.lunar_date.month.index,
+                                        variant='vaiSNava', date=self.daily_panchaangas[vaishnava_ekaadashii_fday].date)
             if day_panchaanga.solar_sidereal_date_sunset.month == 9:
               if ekaadashii_paksha == 'shukla':
                 self.panchaanga.add_festival(fest_id='smArta-vaikuNTha-EkAdazI', date=self.daily_panchaangas[smaarta_ekaadashii_fday].date)
                 self.panchaanga.add_festival(fest_id='vaiSNava-vaikuNTha-EkAdazI', date=self.daily_panchaangas[vaishnava_ekaadashii_fday].date)
         else:
-          self.panchaanga.add_festival(fest_id='smArta-' + names.get_ekaadashii_name(ekaadashii_paksha,
-                                                                                     day_panchaanga.lunar_date.month.index) + ' (gRhastha)', date=self.daily_panchaangas[smaarta_ekaadashii_fday].date)
-          self.panchaanga.add_festival(fest_id='smArta-' + names.get_ekaadashii_name(ekaadashii_paksha, self.daily_panchaangas[
-            d].lunar_date.month.index) + ' (sannyasta)', date=self.daily_panchaangas[yati_ekaadashii_fday].date)
-          self.panchaanga.add_festival(
-            fest_id='vaiSNava-' + names.get_ekaadashii_name(ekaadashii_paksha, day_panchaanga.lunar_date.month.index), date=self.daily_panchaangas[vaishnava_ekaadashii_fday].date)
+          self._add_ekadashi_instance(paksha=ekaadashii_paksha, month_index=day_panchaanga.lunar_date.month.index,
+                                      variant='smArta', suffix='(gRhastha)', date=self.daily_panchaangas[smaarta_ekaadashii_fday].date)
+          self._add_ekadashi_instance(paksha=ekaadashii_paksha, month_index=self.daily_panchaangas[d].lunar_date.month.index,
+                                      variant='smArta', suffix='(sannyasta)', date=self.daily_panchaangas[yati_ekaadashii_fday].date)
+          self._add_ekadashi_instance(paksha=ekaadashii_paksha, month_index=day_panchaanga.lunar_date.month.index,
+                                      variant='vaiSNava', date=self.daily_panchaangas[vaishnava_ekaadashii_fday].date)
           if day_panchaanga.solar_sidereal_date_sunset.month == 9:
             if ekaadashii_paksha == 'shukla':
               self.panchaanga.add_festival(fest_id='smArta-vaikuNTha-EkAdazI (gRhastha)', date=self.daily_panchaangas[smaarta_ekaadashii_fday].date)

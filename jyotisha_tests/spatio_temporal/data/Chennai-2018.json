@@ -13401,13 +13401,21 @@
           "name": "kar2avaigaL_pin2cen2r2u"
         },
         "sarva-SaTtilA-EkAdazI": {
+          "description": {
+            "blurb": "ṣaṭtilā-ēkādaśī ",
+            "detailed": "The Krishna-paksha Ekadashi of `Pauṣa` month is known as `ṣaṭtilā-ēkādaśī`. The fruits of fasting on Ekādaśī are greatly extolled in the Padma Purana— A person who bathes at Śaṃkhoddhāra and beholds the image of Viṣṇu does not acquire even a sixteenth of the merit earned by fasting on Ekādaśī. O noble king, even if one gives four lakhs of coins on the days of the Sun's transition between Zodiac signs, it does not equal even a sixteenth of the merit from an Ekādaśī fast! Indeed, fasting on Ekādaśī grants the same religious merit as bathing at Prabhāsa during a lunar or solar eclipse. One who drinks the sacred water at Kedāra is freed from rebirth, and likewise, fasting on Ekādaśī removes the cycle of rebirth. The merit from an Ekādaśī fast is a hundred times greater than the reward of performing an Ashvamedha sacrifice on earth. Fasting on Ekādaśī yields a hundredfold more merit than gifting a thousand cows to a learned brāhmaṇa. Those who fast on Ekādaśī are considered equal to those whose bodies are inhabited by Brahma, Viṣṇu, and Śiva. The merit from observing the Ekādaśī vow is immeasurable, and difficult to obtain even by the Devas. There is no other vow like that of the Ekādaśī, that destroys sins.",
+            "image": "",
+            "references": "- References\n  - Shared Ekadashi shloka and merit paragraph follow EkAdazI-sAmAnya-niyamAH.\n",
+            "shlokas": "pakṣē pakṣē ca kartavyamēkādaśyāmupōṣaṇam।  \nyadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimātmanaḥ।  \nēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  \n  \nadya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  \nbhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  \npramādādathavā''lasyāddharē kēśava mādhava।  \nvratasyāsya ca vai vighnō na bhavēttvatprasādataḥ॥  \n--padmapurāṇē  \n  \nśrībrahmavaivartē mahāpurāṇē brahmakhaṇḍē sautiśaunakasaṁvādē nāradaṁ prati śivōpadēśē bhakṣyābhakṣyādivivaraṇaṁ nāma saptaviṁśatitamō'dhyāyaḥ---  \nēkādaśyāmanāhāraṁ gr̥hī vipraśca bhāratē।  \nsa ca tiṣṭhati vaikuṇṭhē yāvadvai brahmaṇō vayaḥ॥14॥  \n  \nēkādaśyupavāsaphalaṁ prōktaṁ pādmamahāpurāṇē---  \nśaṅkhōddhārē naraḥ snātvā dr̥ṣṭvā dēvaṁ gadādharam॥35॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nsaṅkrāntiṣu caturlakṣaṁ yō dadāti nr̥pōttama॥36॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nprabhāsakṣētrē yatpuṇyaṁ grahaṇē candrasūryayōḥ॥37॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \nkēdārē cōdakaṁ pītvā punarjanma na vidyatē॥38॥  \ntathā caikādaśī pārtha garbhavāsakṣayaṅkarī।  \naśvamēdhasya yajñasya pr̥thivyāṁ yatphalaṁ labhēt॥39॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \ntapasvinō gr̥hē yasya bhuñjatē ca dvijōttamāḥ॥40॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \ngōsahasrēṇa yatpuṇyaṁ datvā vēdāntapāragē॥41॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \nyēṣāṁ dēhē trayō dēvā brahmaviṣṇumahēśvarāḥ॥42॥  \nvasanti tēṣāṁ tē tulyā ēkādaśyupavāsinaḥ।  \ntē narāḥ puṇyakarmāṇō yē bhaktā haripūjakāḥ॥43॥  \nēkādaśīvratasyāpi puṇyasaṅkhyā na vidyatē।  \nētatpuṇyaṁ bhavēt tasya yatsurairapi durlabham॥44॥  \nēkādaśīsamaṁ nāsti vrataṁ pāpapraṇāśanam॥118॥  \n---śrīpādmē mahāpurāṇē pañcapañcāśatsāhasryāṁ saṁhitāyāmuttarakhaṇḍē umāmahēśvarasaṁvādē ēkādaśyutpatti-muravadhō nāma catvāriṁśō'dhyāyaḥ॥40॥  \n",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458131.5475,
             "jd_start": 2458130.5474,
             "jsonClass": "Interval",
             "name": "full_day"
           },
-          "jsonClass": "FestivalInstance",
+          "jsonClass": "EkadashiFestivalInstance",
           "name": "sarva-SaTtilA-EkAdazI"
         }
       },
@@ -27815,13 +27823,21 @@
           "status_2_hk": "makaraH"
         },
         "smArta-bhaimI-EkAdazI_(gRhastha)": {
+          "description": {
+            "blurb": "bhaimī-ēkādaśī ",
+            "detailed": "The Shukla-paksha Ekadashi of `Māgha` month is known as `bhaimī-ēkādaśī`. If this coincides with the nakshatram Punarvasu, the tithi is even more special and is known by the appellation jayā. The fruits of fasting on Ekādaśī are greatly extolled in the Padma Purana— A person who bathes at Śaṃkhoddhāra and beholds the image of Viṣṇu does not acquire even a sixteenth of the merit earned by fasting on Ekādaśī. O noble king, even if one gives four lakhs of coins on the days of the Sun's transition between Zodiac signs, it does not equal even a sixteenth of the merit from an Ekādaśī fast! Indeed, fasting on Ekādaśī grants the same religious merit as bathing at Prabhāsa during a lunar or solar eclipse. One who drinks the sacred water at Kedāra is freed from rebirth, and likewise, fasting on Ekādaśī removes the cycle of rebirth. The merit from an Ekādaśī fast is a hundred times greater than the reward of performing an Ashvamedha sacrifice on earth. Fasting on Ekādaśī yields a hundredfold more merit than gifting a thousand cows to a learned brāhmaṇa. Those who fast on Ekādaśī are considered equal to those whose bodies are inhabited by Brahma, Viṣṇu, and Śiva. The merit from observing the Ekādaśī vow is immeasurable, and difficult to obtain even by the Devas. There is no other vow like that of the Ekādaśī, that destroys sins.",
+            "image": "",
+            "references": "- References\n  - Shared Ekadashi shloka and merit paragraph follow EkAdazI-sAmAnya-niyamAH.\n",
+            "shlokas": "ēkādaśyāṁ yadā r̥kṣaṁ śuklapakṣē punarvasuḥ।  \nnāmnā sā ca jayā khyātā tithīnāmuttamā tithiḥ।  \ntāmupōṣya naraḥ pāpānmucyatē nātra saṁśayaḥ॥  \n--padmapurāṇē  \n  \npakṣē pakṣē ca kartavyamēkādaśyāmupōṣaṇam।  \nyadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimātmanaḥ।  \nēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  \n  \nadya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  \nbhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  \npramādādathavā''lasyāddharē kēśava mādhava।  \nvratasyāsya ca vai vighnō na bhavēttvatprasādataḥ॥  \n--padmapurāṇē  \n  \nśrībrahmavaivartē mahāpurāṇē brahmakhaṇḍē sautiśaunakasaṁvādē nāradaṁ prati śivōpadēśē bhakṣyābhakṣyādivivaraṇaṁ nāma saptaviṁśatitamō'dhyāyaḥ---  \nēkādaśyāmanāhāraṁ gr̥hī vipraśca bhāratē।  \nsa ca tiṣṭhati vaikuṇṭhē yāvadvai brahmaṇō vayaḥ॥14॥  \n  \nēkādaśyupavāsaphalaṁ prōktaṁ pādmamahāpurāṇē---  \nśaṅkhōddhārē naraḥ snātvā dr̥ṣṭvā dēvaṁ gadādharam॥35॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nsaṅkrāntiṣu caturlakṣaṁ yō dadāti nr̥pōttama॥36॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nprabhāsakṣētrē yatpuṇyaṁ grahaṇē candrasūryayōḥ॥37॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \nkēdārē cōdakaṁ pītvā punarjanma na vidyatē॥38॥  \ntathā caikādaśī pārtha garbhavāsakṣayaṅkarī।  \naśvamēdhasya yajñasya pr̥thivyāṁ yatphalaṁ labhēt॥39॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \ntapasvinō gr̥hē yasya bhuñjatē ca dvijōttamāḥ॥40॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \ngōsahasrēṇa yatpuṇyaṁ datvā vēdāntapāragē॥41॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \nyēṣāṁ dēhē trayō dēvā brahmaviṣṇumahēśvarāḥ॥42॥  \nvasanti tēṣāṁ tē tulyā ēkādaśyupavāsinaḥ।  \ntē narāḥ puṇyakarmāṇō yē bhaktā haripūjakāḥ॥43॥  \nēkādaśīvratasyāpi puṇyasaṅkhyā na vidyatē।  \nētatpuṇyaṁ bhavēt tasya yatsurairapi durlabham॥44॥  \nēkādaśīsamaṁ nāsti vrataṁ pāpapraṇāśanam॥118॥  \n---śrīpādmē mahāpurāṇē pañcapañcāśatsāhasryāṁ saṁhitāyāmuttarakhaṇḍē umāmahēśvarasaṁvādē ēkādaśyutpatti-muravadhō nāma catvāriṁśō'dhyāyaḥ॥40॥  \n",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458146.5482,
             "jd_start": 2458145.5482,
             "jsonClass": "Interval",
             "name": "full_day"
           },
-          "jsonClass": "FestivalInstance",
+          "jsonClass": "EkadashiFestivalInstance",
           "name": "smArta-bhaimI-EkAdazI_(gRhastha)"
         },
         "zanirOhiNI-yOgaH": {
@@ -28792,13 +28808,21 @@
           "name": "kaNNappa_nAyan2mAr_(10)_gurupUjai"
         },
         "smArta-bhaimI-EkAdazI_(sannyasta)": {
+          "description": {
+            "blurb": "bhaimī-ēkādaśī ",
+            "detailed": "The Shukla-paksha Ekadashi of `Māgha` month is known as `bhaimī-ēkādaśī`. If this coincides with the nakshatram Punarvasu, the tithi is even more special and is known by the appellation jayā. The fruits of fasting on Ekādaśī are greatly extolled in the Padma Purana— A person who bathes at Śaṃkhoddhāra and beholds the image of Viṣṇu does not acquire even a sixteenth of the merit earned by fasting on Ekādaśī. O noble king, even if one gives four lakhs of coins on the days of the Sun's transition between Zodiac signs, it does not equal even a sixteenth of the merit from an Ekādaśī fast! Indeed, fasting on Ekādaśī grants the same religious merit as bathing at Prabhāsa during a lunar or solar eclipse. One who drinks the sacred water at Kedāra is freed from rebirth, and likewise, fasting on Ekādaśī removes the cycle of rebirth. The merit from an Ekādaśī fast is a hundred times greater than the reward of performing an Ashvamedha sacrifice on earth. Fasting on Ekādaśī yields a hundredfold more merit than gifting a thousand cows to a learned brāhmaṇa. Those who fast on Ekādaśī are considered equal to those whose bodies are inhabited by Brahma, Viṣṇu, and Śiva. The merit from observing the Ekādaśī vow is immeasurable, and difficult to obtain even by the Devas. There is no other vow like that of the Ekādaśī, that destroys sins.",
+            "image": "",
+            "references": "- References\n  - Shared Ekadashi shloka and merit paragraph follow EkAdazI-sAmAnya-niyamAH.\n",
+            "shlokas": "ēkādaśyāṁ yadā r̥kṣaṁ śuklapakṣē punarvasuḥ।  \nnāmnā sā ca jayā khyātā tithīnāmuttamā tithiḥ।  \ntāmupōṣya naraḥ pāpānmucyatē nātra saṁśayaḥ॥  \n--padmapurāṇē  \n  \npakṣē pakṣē ca kartavyamēkādaśyāmupōṣaṇam।  \nyadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimātmanaḥ।  \nēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  \n  \nadya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  \nbhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  \npramādādathavā''lasyāddharē kēśava mādhava।  \nvratasyāsya ca vai vighnō na bhavēttvatprasādataḥ॥  \n--padmapurāṇē  \n  \nśrībrahmavaivartē mahāpurāṇē brahmakhaṇḍē sautiśaunakasaṁvādē nāradaṁ prati śivōpadēśē bhakṣyābhakṣyādivivaraṇaṁ nāma saptaviṁśatitamō'dhyāyaḥ---  \nēkādaśyāmanāhāraṁ gr̥hī vipraśca bhāratē।  \nsa ca tiṣṭhati vaikuṇṭhē yāvadvai brahmaṇō vayaḥ॥14॥  \n  \nēkādaśyupavāsaphalaṁ prōktaṁ pādmamahāpurāṇē---  \nśaṅkhōddhārē naraḥ snātvā dr̥ṣṭvā dēvaṁ gadādharam॥35॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nsaṅkrāntiṣu caturlakṣaṁ yō dadāti nr̥pōttama॥36॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nprabhāsakṣētrē yatpuṇyaṁ grahaṇē candrasūryayōḥ॥37॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \nkēdārē cōdakaṁ pītvā punarjanma na vidyatē॥38॥  \ntathā caikādaśī pārtha garbhavāsakṣayaṅkarī।  \naśvamēdhasya yajñasya pr̥thivyāṁ yatphalaṁ labhēt॥39॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \ntapasvinō gr̥hē yasya bhuñjatē ca dvijōttamāḥ॥40॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \ngōsahasrēṇa yatpuṇyaṁ datvā vēdāntapāragē॥41॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \nyēṣāṁ dēhē trayō dēvā brahmaviṣṇumahēśvarāḥ॥42॥  \nvasanti tēṣāṁ tē tulyā ēkādaśyupavāsinaḥ।  \ntē narāḥ puṇyakarmāṇō yē bhaktā haripūjakāḥ॥43॥  \nēkādaśīvratasyāpi puṇyasaṅkhyā na vidyatē।  \nētatpuṇyaṁ bhavēt tasya yatsurairapi durlabham॥44॥  \nēkādaśīsamaṁ nāsti vrataṁ pāpapraṇāśanam॥118॥  \n---śrīpādmē mahāpurāṇē pañcapañcāśatsāhasryāṁ saṁhitāyāmuttarakhaṇḍē umāmahēśvarasaṁvādē ēkādaśyutpatti-muravadhō nāma catvāriṁśō'dhyāyaḥ॥40॥  \n",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458147.5481,
             "jd_start": 2458146.5482,
             "jsonClass": "Interval",
             "name": "full_day"
           },
-          "jsonClass": "FestivalInstance",
+          "jsonClass": "EkadashiFestivalInstance",
           "name": "smArta-bhaimI-EkAdazI_(sannyasta)"
         },
         "tilapadma-dvAdazI_or_tilOtpatti": {
@@ -28822,13 +28846,21 @@
           "name": "trisprzA~mahAdvAdazI"
         },
         "vaiSNava-bhaimI-EkAdazI": {
+          "description": {
+            "blurb": "bhaimī-ēkādaśī ",
+            "detailed": "The Shukla-paksha Ekadashi of `Māgha` month is known as `bhaimī-ēkādaśī`. If this coincides with the nakshatram Punarvasu, the tithi is even more special and is known by the appellation jayā. The fruits of fasting on Ekādaśī are greatly extolled in the Padma Purana— A person who bathes at Śaṃkhoddhāra and beholds the image of Viṣṇu does not acquire even a sixteenth of the merit earned by fasting on Ekādaśī. O noble king, even if one gives four lakhs of coins on the days of the Sun's transition between Zodiac signs, it does not equal even a sixteenth of the merit from an Ekādaśī fast! Indeed, fasting on Ekādaśī grants the same religious merit as bathing at Prabhāsa during a lunar or solar eclipse. One who drinks the sacred water at Kedāra is freed from rebirth, and likewise, fasting on Ekādaśī removes the cycle of rebirth. The merit from an Ekādaśī fast is a hundred times greater than the reward of performing an Ashvamedha sacrifice on earth. Fasting on Ekādaśī yields a hundredfold more merit than gifting a thousand cows to a learned brāhmaṇa. Those who fast on Ekādaśī are considered equal to those whose bodies are inhabited by Brahma, Viṣṇu, and Śiva. The merit from observing the Ekādaśī vow is immeasurable, and difficult to obtain even by the Devas. There is no other vow like that of the Ekādaśī, that destroys sins.",
+            "image": "",
+            "references": "- References\n  - Shared Ekadashi shloka and merit paragraph follow EkAdazI-sAmAnya-niyamAH.\n",
+            "shlokas": "ēkādaśyāṁ yadā r̥kṣaṁ śuklapakṣē punarvasuḥ।  \nnāmnā sā ca jayā khyātā tithīnāmuttamā tithiḥ।  \ntāmupōṣya naraḥ pāpānmucyatē nātra saṁśayaḥ॥  \n--padmapurāṇē  \n  \npakṣē pakṣē ca kartavyamēkādaśyāmupōṣaṇam।  \nyadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimātmanaḥ।  \nēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  \n  \nadya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  \nbhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  \npramādādathavā''lasyāddharē kēśava mādhava।  \nvratasyāsya ca vai vighnō na bhavēttvatprasādataḥ॥  \n--padmapurāṇē  \n  \nśrībrahmavaivartē mahāpurāṇē brahmakhaṇḍē sautiśaunakasaṁvādē nāradaṁ prati śivōpadēśē bhakṣyābhakṣyādivivaraṇaṁ nāma saptaviṁśatitamō'dhyāyaḥ---  \nēkādaśyāmanāhāraṁ gr̥hī vipraśca bhāratē।  \nsa ca tiṣṭhati vaikuṇṭhē yāvadvai brahmaṇō vayaḥ॥14॥  \n  \nēkādaśyupavāsaphalaṁ prōktaṁ pādmamahāpurāṇē---  \nśaṅkhōddhārē naraḥ snātvā dr̥ṣṭvā dēvaṁ gadādharam॥35॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nsaṅkrāntiṣu caturlakṣaṁ yō dadāti nr̥pōttama॥36॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nprabhāsakṣētrē yatpuṇyaṁ grahaṇē candrasūryayōḥ॥37॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \nkēdārē cōdakaṁ pītvā punarjanma na vidyatē॥38॥  \ntathā caikādaśī pārtha garbhavāsakṣayaṅkarī।  \naśvamēdhasya yajñasya pr̥thivyāṁ yatphalaṁ labhēt॥39॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \ntapasvinō gr̥hē yasya bhuñjatē ca dvijōttamāḥ॥40॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \ngōsahasrēṇa yatpuṇyaṁ datvā vēdāntapāragē॥41॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \nyēṣāṁ dēhē trayō dēvā brahmaviṣṇumahēśvarāḥ॥42॥  \nvasanti tēṣāṁ tē tulyā ēkādaśyupavāsinaḥ।  \ntē narāḥ puṇyakarmāṇō yē bhaktā haripūjakāḥ॥43॥  \nēkādaśīvratasyāpi puṇyasaṅkhyā na vidyatē।  \nētatpuṇyaṁ bhavēt tasya yatsurairapi durlabham॥44॥  \nēkādaśīsamaṁ nāsti vrataṁ pāpapraṇāśanam॥118॥  \n---śrīpādmē mahāpurāṇē pañcapañcāśatsāhasryāṁ saṁhitāyāmuttarakhaṇḍē umāmahēśvarasaṁvādē ēkādaśyutpatti-muravadhō nāma catvāriṁśō'dhyāyaḥ॥40॥  \n",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458147.5481,
             "jd_start": 2458146.5482,
             "jsonClass": "Interval",
             "name": "full_day"
           },
-          "jsonClass": "FestivalInstance",
+          "jsonClass": "EkadashiFestivalInstance",
           "name": "vaiSNava-bhaimI-EkAdazI"
         },
         "varAha-dvAdazI": {
@@ -42227,13 +42259,21 @@
           "name": "anadhyAyaH~pUrvarAtrau"
         },
         "sarva-vijayA-EkAdazI": {
+          "description": {
+            "blurb": "vijayā-ēkādaśī ",
+            "detailed": "The Krishna-paksha Ekadashi of `Māgha` month is known as `vijayā-ēkādaśī`. The fruits of fasting on Ekādaśī are greatly extolled in the Padma Purana— A person who bathes at Śaṃkhoddhāra and beholds the image of Viṣṇu does not acquire even a sixteenth of the merit earned by fasting on Ekādaśī. O noble king, even if one gives four lakhs of coins on the days of the Sun's transition between Zodiac signs, it does not equal even a sixteenth of the merit from an Ekādaśī fast! Indeed, fasting on Ekādaśī grants the same religious merit as bathing at Prabhāsa during a lunar or solar eclipse. One who drinks the sacred water at Kedāra is freed from rebirth, and likewise, fasting on Ekādaśī removes the cycle of rebirth. The merit from an Ekādaśī fast is a hundred times greater than the reward of performing an Ashvamedha sacrifice on earth. Fasting on Ekādaśī yields a hundredfold more merit than gifting a thousand cows to a learned brāhmaṇa. Those who fast on Ekādaśī are considered equal to those whose bodies are inhabited by Brahma, Viṣṇu, and Śiva. The merit from observing the Ekādaśī vow is immeasurable, and difficult to obtain even by the Devas. There is no other vow like that of the Ekādaśī, that destroys sins.",
+            "image": "",
+            "references": "- References\n  - Shared Ekadashi shloka and merit paragraph follow EkAdazI-sAmAnya-niyamAH.\n",
+            "shlokas": "pakṣē pakṣē ca kartavyamēkādaśyāmupōṣaṇam।  \nyadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimātmanaḥ।  \nēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  \n  \nadya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  \nbhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  \npramādādathavā''lasyāddharē kēśava mādhava।  \nvratasyāsya ca vai vighnō na bhavēttvatprasādataḥ॥  \n--padmapurāṇē  \n  \nśrībrahmavaivartē mahāpurāṇē brahmakhaṇḍē sautiśaunakasaṁvādē nāradaṁ prati śivōpadēśē bhakṣyābhakṣyādivivaraṇaṁ nāma saptaviṁśatitamō'dhyāyaḥ---  \nēkādaśyāmanāhāraṁ gr̥hī vipraśca bhāratē।  \nsa ca tiṣṭhati vaikuṇṭhē yāvadvai brahmaṇō vayaḥ॥14॥  \n  \nēkādaśyupavāsaphalaṁ prōktaṁ pādmamahāpurāṇē---  \nśaṅkhōddhārē naraḥ snātvā dr̥ṣṭvā dēvaṁ gadādharam॥35॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nsaṅkrāntiṣu caturlakṣaṁ yō dadāti nr̥pōttama॥36॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nprabhāsakṣētrē yatpuṇyaṁ grahaṇē candrasūryayōḥ॥37॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \nkēdārē cōdakaṁ pītvā punarjanma na vidyatē॥38॥  \ntathā caikādaśī pārtha garbhavāsakṣayaṅkarī।  \naśvamēdhasya yajñasya pr̥thivyāṁ yatphalaṁ labhēt॥39॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \ntapasvinō gr̥hē yasya bhuñjatē ca dvijōttamāḥ॥40॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \ngōsahasrēṇa yatpuṇyaṁ datvā vēdāntapāragē॥41॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \nyēṣāṁ dēhē trayō dēvā brahmaviṣṇumahēśvarāḥ॥42॥  \nvasanti tēṣāṁ tē tulyā ēkādaśyupavāsinaḥ।  \ntē narāḥ puṇyakarmāṇō yē bhaktā haripūjakāḥ॥43॥  \nēkādaśīvratasyāpi puṇyasaṅkhyā na vidyatē।  \nētatpuṇyaṁ bhavēt tasya yatsurairapi durlabham॥44॥  \nēkādaśīsamaṁ nāsti vrataṁ pāpapraṇāśanam॥118॥  \n---śrīpādmē mahāpurāṇē pañcapañcāśatsāhasryāṁ saṁhitāyāmuttarakhaṇḍē umāmahēśvarasaṁvādē ēkādaśyutpatti-muravadhō nāma catvāriṁśō'dhyāyaḥ॥40॥  \n",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458161.546,
             "jd_start": 2458160.5462,
             "jsonClass": "Interval",
             "name": "full_day"
           },
-          "jsonClass": "FestivalInstance",
+          "jsonClass": "EkadashiFestivalInstance",
           "name": "sarva-vijayA-EkAdazI"
         }
       },
@@ -56619,13 +56659,21 @@
           "name": "raMgabharI_EkAdazI"
         },
         "sarva-AmalakI-EkAdazI": {
+          "description": {
+            "blurb": "āmalakī-ēkādaśī ",
+            "detailed": "The Shukla-paksha Ekadashi of `Phālguna` month is known as `āmalakī-ēkādaśī`. The fruits of fasting on Ekādaśī are greatly extolled in the Padma Purana— A person who bathes at Śaṃkhoddhāra and beholds the image of Viṣṇu does not acquire even a sixteenth of the merit earned by fasting on Ekādaśī. O noble king, even if one gives four lakhs of coins on the days of the Sun's transition between Zodiac signs, it does not equal even a sixteenth of the merit from an Ekādaśī fast! Indeed, fasting on Ekādaśī grants the same religious merit as bathing at Prabhāsa during a lunar or solar eclipse. One who drinks the sacred water at Kedāra is freed from rebirth, and likewise, fasting on Ekādaśī removes the cycle of rebirth. The merit from an Ekādaśī fast is a hundred times greater than the reward of performing an Ashvamedha sacrifice on earth. Fasting on Ekādaśī yields a hundredfold more merit than gifting a thousand cows to a learned brāhmaṇa. Those who fast on Ekādaśī are considered equal to those whose bodies are inhabited by Brahma, Viṣṇu, and Śiva. The merit from observing the Ekādaśī vow is immeasurable, and difficult to obtain even by the Devas. There is no other vow like that of the Ekādaśī, that destroys sins.",
+            "image": "",
+            "references": "- References\n  - Shared Ekadashi shloka and merit paragraph follow EkAdazI-sAmAnya-niyamAH.\n",
+            "shlokas": "pakṣē pakṣē ca kartavyamēkādaśyāmupōṣaṇam।  \nyadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimātmanaḥ।  \nēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  \n  \nadya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  \nbhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  \npramādādathavā''lasyāddharē kēśava mādhava।  \nvratasyāsya ca vai vighnō na bhavēttvatprasādataḥ॥  \n--padmapurāṇē  \n  \nśrībrahmavaivartē mahāpurāṇē brahmakhaṇḍē sautiśaunakasaṁvādē nāradaṁ prati śivōpadēśē bhakṣyābhakṣyādivivaraṇaṁ nāma saptaviṁśatitamō'dhyāyaḥ---  \nēkādaśyāmanāhāraṁ gr̥hī vipraśca bhāratē।  \nsa ca tiṣṭhati vaikuṇṭhē yāvadvai brahmaṇō vayaḥ॥14॥  \n  \nēkādaśyupavāsaphalaṁ prōktaṁ pādmamahāpurāṇē---  \nśaṅkhōddhārē naraḥ snātvā dr̥ṣṭvā dēvaṁ gadādharam॥35॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nsaṅkrāntiṣu caturlakṣaṁ yō dadāti nr̥pōttama॥36॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nprabhāsakṣētrē yatpuṇyaṁ grahaṇē candrasūryayōḥ॥37॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \nkēdārē cōdakaṁ pītvā punarjanma na vidyatē॥38॥  \ntathā caikādaśī pārtha garbhavāsakṣayaṅkarī।  \naśvamēdhasya yajñasya pr̥thivyāṁ yatphalaṁ labhēt॥39॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \ntapasvinō gr̥hē yasya bhuñjatē ca dvijōttamāḥ॥40॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \ngōsahasrēṇa yatpuṇyaṁ datvā vēdāntapāragē॥41॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \nyēṣāṁ dēhē trayō dēvā brahmaviṣṇumahēśvarāḥ॥42॥  \nvasanti tēṣāṁ tē tulyā ēkādaśyupavāsinaḥ।  \ntē narāḥ puṇyakarmāṇō yē bhaktā haripūjakāḥ॥43॥  \nēkādaśīvratasyāpi puṇyasaṅkhyā na vidyatē।  \nētatpuṇyaṁ bhavēt tasya yatsurairapi durlabham॥44॥  \nēkādaśīsamaṁ nāsti vrataṁ pāpapraṇāśanam॥118॥  \n---śrīpādmē mahāpurāṇē pañcapañcāśatsāhasryāṁ saṁhitāyāmuttarakhaṇḍē umāmahēśvarasaṁvādē ēkādaśyutpatti-muravadhō nāma catvāriṁśō'dhyāyaḥ॥40॥  \n",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458176.5414,
             "jd_start": 2458175.5418,
             "jsonClass": "Interval",
             "name": "full_day"
           },
-          "jsonClass": "FestivalInstance",
+          "jsonClass": "EkadashiFestivalInstance",
           "name": "sarva-AmalakI-EkAdazI"
         },
         "tiruccendUr_murugan2_mAcit_tiruvizhA_##9##m_nAL—taGga_kailAca_vAhan2am": {
@@ -71024,13 +71072,21 @@
           "name": "mAci~cevvAy"
         },
         "sarva-pApamOcanI-EkAdazI": {
+          "description": {
+            "blurb": "pāpamōcanī-ēkādaśī ",
+            "detailed": "The Krishna-paksha Ekadashi of `Phālguna` month is known as `pāpamōcanī-ēkādaśī`. The fruits of fasting on Ekādaśī are greatly extolled in the Padma Purana— A person who bathes at Śaṃkhoddhāra and beholds the image of Viṣṇu does not acquire even a sixteenth of the merit earned by fasting on Ekādaśī. O noble king, even if one gives four lakhs of coins on the days of the Sun's transition between Zodiac signs, it does not equal even a sixteenth of the merit from an Ekādaśī fast! Indeed, fasting on Ekādaśī grants the same religious merit as bathing at Prabhāsa during a lunar or solar eclipse. One who drinks the sacred water at Kedāra is freed from rebirth, and likewise, fasting on Ekādaśī removes the cycle of rebirth. The merit from an Ekādaśī fast is a hundred times greater than the reward of performing an Ashvamedha sacrifice on earth. Fasting on Ekādaśī yields a hundredfold more merit than gifting a thousand cows to a learned brāhmaṇa. Those who fast on Ekādaśī are considered equal to those whose bodies are inhabited by Brahma, Viṣṇu, and Śiva. The merit from observing the Ekādaśī vow is immeasurable, and difficult to obtain even by the Devas. There is no other vow like that of the Ekādaśī, that destroys sins.",
+            "image": "",
+            "references": "- References\n  - Shared Ekadashi shloka and merit paragraph follow EkAdazI-sAmAnya-niyamAH.\n",
+            "shlokas": "pakṣē pakṣē ca kartavyamēkādaśyāmupōṣaṇam।  \nyadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimātmanaḥ।  \nēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  \n  \nadya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  \nbhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  \npramādādathavā''lasyāddharē kēśava mādhava।  \nvratasyāsya ca vai vighnō na bhavēttvatprasādataḥ॥  \n--padmapurāṇē  \n  \nśrībrahmavaivartē mahāpurāṇē brahmakhaṇḍē sautiśaunakasaṁvādē nāradaṁ prati śivōpadēśē bhakṣyābhakṣyādivivaraṇaṁ nāma saptaviṁśatitamō'dhyāyaḥ---  \nēkādaśyāmanāhāraṁ gr̥hī vipraśca bhāratē।  \nsa ca tiṣṭhati vaikuṇṭhē yāvadvai brahmaṇō vayaḥ॥14॥  \n  \nēkādaśyupavāsaphalaṁ prōktaṁ pādmamahāpurāṇē---  \nśaṅkhōddhārē naraḥ snātvā dr̥ṣṭvā dēvaṁ gadādharam॥35॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nsaṅkrāntiṣu caturlakṣaṁ yō dadāti nr̥pōttama॥36॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nprabhāsakṣētrē yatpuṇyaṁ grahaṇē candrasūryayōḥ॥37॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \nkēdārē cōdakaṁ pītvā punarjanma na vidyatē॥38॥  \ntathā caikādaśī pārtha garbhavāsakṣayaṅkarī।  \naśvamēdhasya yajñasya pr̥thivyāṁ yatphalaṁ labhēt॥39॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \ntapasvinō gr̥hē yasya bhuñjatē ca dvijōttamāḥ॥40॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \ngōsahasrēṇa yatpuṇyaṁ datvā vēdāntapāragē॥41॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \nyēṣāṁ dēhē trayō dēvā brahmaviṣṇumahēśvarāḥ॥42॥  \nvasanti tēṣāṁ tē tulyā ēkādaśyupavāsinaḥ।  \ntē narāḥ puṇyakarmāṇō yē bhaktā haripūjakāḥ॥43॥  \nēkādaśīvratasyāpi puṇyasaṅkhyā na vidyatē।  \nētatpuṇyaṁ bhavēt tasya yatsurairapi durlabham॥44॥  \nēkādaśīsamaṁ nāsti vrataṁ pāpapraṇāśanam॥118॥  \n---śrīpādmē mahāpurāṇē pañcapañcāśatsāhasryāṁ saṁhitāyāmuttarakhaṇḍē umāmahēśvarasaṁvādē ēkādaśyutpatti-muravadhō nāma catvāriṁśō'dhyāyaḥ॥40॥  \n",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458191.5352,
             "jd_start": 2458190.5356,
             "jsonClass": "Interval",
             "name": "full_day"
           },
-          "jsonClass": "FestivalInstance",
+          "jsonClass": "EkadashiFestivalInstance",
           "name": "sarva-pApamOcanI-EkAdazI"
         }
       },
@@ -84752,13 +84808,21 @@
           "name": "samudra-manthanam"
         },
         "sarva-kAmadA-EkAdazI": {
+          "description": {
+            "blurb": "kāmadā-ēkādaśī ",
+            "detailed": "The Shukla-paksha Ekadashi of `Caitra` month is known as `kāmadā-ēkādaśī`. The fruits of fasting on Ekādaśī are greatly extolled in the Padma Purana— A person who bathes at Śaṃkhoddhāra and beholds the image of Viṣṇu does not acquire even a sixteenth of the merit earned by fasting on Ekādaśī. O noble king, even if one gives four lakhs of coins on the days of the Sun's transition between Zodiac signs, it does not equal even a sixteenth of the merit from an Ekādaśī fast! Indeed, fasting on Ekādaśī grants the same religious merit as bathing at Prabhāsa during a lunar or solar eclipse. One who drinks the sacred water at Kedāra is freed from rebirth, and likewise, fasting on Ekādaśī removes the cycle of rebirth. The merit from an Ekādaśī fast is a hundred times greater than the reward of performing an Ashvamedha sacrifice on earth. Fasting on Ekādaśī yields a hundredfold more merit than gifting a thousand cows to a learned brāhmaṇa. Those who fast on Ekādaśī are considered equal to those whose bodies are inhabited by Brahma, Viṣṇu, and Śiva. The merit from observing the Ekādaśī vow is immeasurable, and difficult to obtain even by the Devas. There is no other vow like that of the Ekādaśī, that destroys sins.",
+            "image": "",
+            "references": "- References\n  - Shared Ekadashi shloka and merit paragraph follow EkAdazI-sAmAnya-niyamAH.\n",
+            "shlokas": "pakṣē pakṣē ca kartavyamēkādaśyāmupōṣaṇam।  \nyadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimātmanaḥ।  \nēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  \n  \nadya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  \nbhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  \npramādādathavā''lasyāddharē kēśava mādhava।  \nvratasyāsya ca vai vighnō na bhavēttvatprasādataḥ॥  \n--padmapurāṇē  \n  \nśrībrahmavaivartē mahāpurāṇē brahmakhaṇḍē sautiśaunakasaṁvādē nāradaṁ prati śivōpadēśē bhakṣyābhakṣyādivivaraṇaṁ nāma saptaviṁśatitamō'dhyāyaḥ---  \nēkādaśyāmanāhāraṁ gr̥hī vipraśca bhāratē।  \nsa ca tiṣṭhati vaikuṇṭhē yāvadvai brahmaṇō vayaḥ॥14॥  \n  \nēkādaśyupavāsaphalaṁ prōktaṁ pādmamahāpurāṇē---  \nśaṅkhōddhārē naraḥ snātvā dr̥ṣṭvā dēvaṁ gadādharam॥35॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nsaṅkrāntiṣu caturlakṣaṁ yō dadāti nr̥pōttama॥36॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nprabhāsakṣētrē yatpuṇyaṁ grahaṇē candrasūryayōḥ॥37॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \nkēdārē cōdakaṁ pītvā punarjanma na vidyatē॥38॥  \ntathā caikādaśī pārtha garbhavāsakṣayaṅkarī।  \naśvamēdhasya yajñasya pr̥thivyāṁ yatphalaṁ labhēt॥39॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \ntapasvinō gr̥hē yasya bhuñjatē ca dvijōttamāḥ॥40॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \ngōsahasrēṇa yatpuṇyaṁ datvā vēdāntapāragē॥41॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \nyēṣāṁ dēhē trayō dēvā brahmaviṣṇumahēśvarāḥ॥42॥  \nvasanti tēṣāṁ tē tulyā ēkādaśyupavāsinaḥ।  \ntē narāḥ puṇyakarmāṇō yē bhaktā haripūjakāḥ॥43॥  \nēkādaśīvratasyāpi puṇyasaṅkhyā na vidyatē।  \nētatpuṇyaṁ bhavēt tasya yatsurairapi durlabham॥44॥  \nēkādaśīsamaṁ nāsti vrataṁ pāpapraṇāśanam॥118॥  \n---śrīpādmē mahāpurāṇē pañcapañcāśatsāhasryāṁ saṁhitāyāmuttarakhaṇḍē umāmahēśvarasaṁvādē ēkādaśyutpatti-muravadhō nāma catvāriṁśō'dhyāyaḥ॥40॥  \n",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458205.5288,
             "jd_start": 2458204.5292,
             "jsonClass": "Interval",
             "name": "full_day"
           },
-          "jsonClass": "FestivalInstance",
+          "jsonClass": "EkadashiFestivalInstance",
           "name": "sarva-kAmadA-EkAdazI"
         },
         "zrIkRSNadOlOtsavaH": {
@@ -99863,13 +99927,21 @@
           "name": "daNDiyaDigaL_nAyan2mAr_(31)_gurupUjai"
         },
         "sarva-varUthinI-EkAdazI": {
+          "description": {
+            "blurb": "varūthinī-ēkādaśī ",
+            "detailed": "The Krishna-paksha Ekadashi of `Caitra` month is known as `varūthinī-ēkādaśī`. The fruits of fasting on Ekādaśī are greatly extolled in the Padma Purana— A person who bathes at Śaṃkhoddhāra and beholds the image of Viṣṇu does not acquire even a sixteenth of the merit earned by fasting on Ekādaśī. O noble king, even if one gives four lakhs of coins on the days of the Sun's transition between Zodiac signs, it does not equal even a sixteenth of the merit from an Ekādaśī fast! Indeed, fasting on Ekādaśī grants the same religious merit as bathing at Prabhāsa during a lunar or solar eclipse. One who drinks the sacred water at Kedāra is freed from rebirth, and likewise, fasting on Ekādaśī removes the cycle of rebirth. The merit from an Ekādaśī fast is a hundred times greater than the reward of performing an Ashvamedha sacrifice on earth. Fasting on Ekādaśī yields a hundredfold more merit than gifting a thousand cows to a learned brāhmaṇa. Those who fast on Ekādaśī are considered equal to those whose bodies are inhabited by Brahma, Viṣṇu, and Śiva. The merit from observing the Ekādaśī vow is immeasurable, and difficult to obtain even by the Devas. There is no other vow like that of the Ekādaśī, that destroys sins.",
+            "image": "",
+            "references": "- References\n  - Shared Ekadashi shloka and merit paragraph follow EkAdazI-sAmAnya-niyamAH.\n",
+            "shlokas": "pakṣē pakṣē ca kartavyamēkādaśyāmupōṣaṇam।  \nyadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimātmanaḥ।  \nēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  \n  \nadya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  \nbhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  \npramādādathavā''lasyāddharē kēśava mādhava।  \nvratasyāsya ca vai vighnō na bhavēttvatprasādataḥ॥  \n--padmapurāṇē  \n  \nśrībrahmavaivartē mahāpurāṇē brahmakhaṇḍē sautiśaunakasaṁvādē nāradaṁ prati śivōpadēśē bhakṣyābhakṣyādivivaraṇaṁ nāma saptaviṁśatitamō'dhyāyaḥ---  \nēkādaśyāmanāhāraṁ gr̥hī vipraśca bhāratē।  \nsa ca tiṣṭhati vaikuṇṭhē yāvadvai brahmaṇō vayaḥ॥14॥  \n  \nēkādaśyupavāsaphalaṁ prōktaṁ pādmamahāpurāṇē---  \nśaṅkhōddhārē naraḥ snātvā dr̥ṣṭvā dēvaṁ gadādharam॥35॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nsaṅkrāntiṣu caturlakṣaṁ yō dadāti nr̥pōttama॥36॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nprabhāsakṣētrē yatpuṇyaṁ grahaṇē candrasūryayōḥ॥37॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \nkēdārē cōdakaṁ pītvā punarjanma na vidyatē॥38॥  \ntathā caikādaśī pārtha garbhavāsakṣayaṅkarī।  \naśvamēdhasya yajñasya pr̥thivyāṁ yatphalaṁ labhēt॥39॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \ntapasvinō gr̥hē yasya bhuñjatē ca dvijōttamāḥ॥40॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \ngōsahasrēṇa yatpuṇyaṁ datvā vēdāntapāragē॥41॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \nyēṣāṁ dēhē trayō dēvā brahmaviṣṇumahēśvarāḥ॥42॥  \nvasanti tēṣāṁ tē tulyā ēkādaśyupavāsinaḥ।  \ntē narāḥ puṇyakarmāṇō yē bhaktā haripūjakāḥ॥43॥  \nēkādaśīvratasyāpi puṇyasaṅkhyā na vidyatē।  \nētatpuṇyaṁ bhavēt tasya yatsurairapi durlabham॥44॥  \nēkādaśīsamaṁ nāsti vrataṁ pāpapraṇāśanam॥118॥  \n---śrīpādmē mahāpurāṇē pañcapañcāśatsāhasryāṁ saṁhitāyāmuttarakhaṇḍē umāmahēśvarasaṁvādē ēkādaśyutpatti-muravadhō nāma catvāriṁśō'dhyāyaḥ॥40॥  \n",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458221.5217,
             "jd_start": 2458220.5221,
             "jsonClass": "Interval",
             "name": "full_day"
           },
-          "jsonClass": "FestivalInstance",
+          "jsonClass": "EkadashiFestivalInstance",
           "name": "sarva-varUthinI-EkAdazI"
         },
         "vallabhAcArya~jayantI": {
@@ -113599,13 +113671,21 @@
           "name": "budha~jayantI"
         },
         "sarva-mOhinI-EkAdazI": {
+          "description": {
+            "blurb": "mōhinī-ēkādaśī ",
+            "detailed": "The Shukla-paksha Ekadashi of `Vaiśākha` month is known as `mōhinī-ēkādaśī`. The fruits of fasting on Ekādaśī are greatly extolled in the Padma Purana— A person who bathes at Śaṃkhoddhāra and beholds the image of Viṣṇu does not acquire even a sixteenth of the merit earned by fasting on Ekādaśī. O noble king, even if one gives four lakhs of coins on the days of the Sun's transition between Zodiac signs, it does not equal even a sixteenth of the merit from an Ekādaśī fast! Indeed, fasting on Ekādaśī grants the same religious merit as bathing at Prabhāsa during a lunar or solar eclipse. One who drinks the sacred water at Kedāra is freed from rebirth, and likewise, fasting on Ekādaśī removes the cycle of rebirth. The merit from an Ekādaśī fast is a hundred times greater than the reward of performing an Ashvamedha sacrifice on earth. Fasting on Ekādaśī yields a hundredfold more merit than gifting a thousand cows to a learned brāhmaṇa. Those who fast on Ekādaśī are considered equal to those whose bodies are inhabited by Brahma, Viṣṇu, and Śiva. The merit from observing the Ekādaśī vow is immeasurable, and difficult to obtain even by the Devas. There is no other vow like that of the Ekādaśī, that destroys sins.",
+            "image": "",
+            "references": "- References\n  - Shared Ekadashi shloka and merit paragraph follow EkAdazI-sAmAnya-niyamAH.\n",
+            "shlokas": "pakṣē pakṣē ca kartavyamēkādaśyāmupōṣaṇam।  \nyadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimātmanaḥ।  \nēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  \n  \nadya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  \nbhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  \npramādādathavā''lasyāddharē kēśava mādhava।  \nvratasyāsya ca vai vighnō na bhavēttvatprasādataḥ॥  \n--padmapurāṇē  \n  \nśrībrahmavaivartē mahāpurāṇē brahmakhaṇḍē sautiśaunakasaṁvādē nāradaṁ prati śivōpadēśē bhakṣyābhakṣyādivivaraṇaṁ nāma saptaviṁśatitamō'dhyāyaḥ---  \nēkādaśyāmanāhāraṁ gr̥hī vipraśca bhāratē।  \nsa ca tiṣṭhati vaikuṇṭhē yāvadvai brahmaṇō vayaḥ॥14॥  \n  \nēkādaśyupavāsaphalaṁ prōktaṁ pādmamahāpurāṇē---  \nśaṅkhōddhārē naraḥ snātvā dr̥ṣṭvā dēvaṁ gadādharam॥35॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nsaṅkrāntiṣu caturlakṣaṁ yō dadāti nr̥pōttama॥36॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nprabhāsakṣētrē yatpuṇyaṁ grahaṇē candrasūryayōḥ॥37॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \nkēdārē cōdakaṁ pītvā punarjanma na vidyatē॥38॥  \ntathā caikādaśī pārtha garbhavāsakṣayaṅkarī।  \naśvamēdhasya yajñasya pr̥thivyāṁ yatphalaṁ labhēt॥39॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \ntapasvinō gr̥hē yasya bhuñjatē ca dvijōttamāḥ॥40॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \ngōsahasrēṇa yatpuṇyaṁ datvā vēdāntapāragē॥41॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \nyēṣāṁ dēhē trayō dēvā brahmaviṣṇumahēśvarāḥ॥42॥  \nvasanti tēṣāṁ tē tulyā ēkādaśyupavāsinaḥ।  \ntē narāḥ puṇyakarmāṇō yē bhaktā haripūjakāḥ॥43॥  \nēkādaśīvratasyāpi puṇyasaṅkhyā na vidyatē।  \nētatpuṇyaṁ bhavēt tasya yatsurairapi durlabham॥44॥  \nēkādaśīsamaṁ nāsti vrataṁ pāpapraṇāśanam॥118॥  \n---śrīpādmē mahāpurāṇē pañcapañcāśatsāhasryāṁ saṁhitāyāmuttarakhaṇḍē umāmahēśvarasaṁvādē ēkādaśyutpatti-muravadhō nāma catvāriṁśō'dhyāyaḥ॥40॥  \n",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458235.5164,
             "jd_start": 2458234.5167,
             "jsonClass": "Interval",
             "name": "full_day"
           },
-          "jsonClass": "FestivalInstance",
+          "jsonClass": "EkadashiFestivalInstance",
           "name": "sarva-mOhinI-EkAdazI"
         },
         "vEGkaTAcalE_padmAvatI-pariNayOtsava-samApanam_(garuDa-vAhanam)": {
@@ -127838,13 +127918,21 @@
           "name": "bhadrakALI~jayantI"
         },
         "sarva-aparA-EkAdazI": {
+          "description": {
+            "blurb": "aparā-ēkādaśī ",
+            "detailed": "The Krishna-paksha Ekadashi of `Vaiśākha` month is known as `aparā-ēkādaśī`. The fruits of fasting on Ekādaśī are greatly extolled in the Padma Purana— A person who bathes at Śaṃkhoddhāra and beholds the image of Viṣṇu does not acquire even a sixteenth of the merit earned by fasting on Ekādaśī. O noble king, even if one gives four lakhs of coins on the days of the Sun's transition between Zodiac signs, it does not equal even a sixteenth of the merit from an Ekādaśī fast! Indeed, fasting on Ekādaśī grants the same religious merit as bathing at Prabhāsa during a lunar or solar eclipse. One who drinks the sacred water at Kedāra is freed from rebirth, and likewise, fasting on Ekādaśī removes the cycle of rebirth. The merit from an Ekādaśī fast is a hundred times greater than the reward of performing an Ashvamedha sacrifice on earth. Fasting on Ekādaśī yields a hundredfold more merit than gifting a thousand cows to a learned brāhmaṇa. Those who fast on Ekādaśī are considered equal to those whose bodies are inhabited by Brahma, Viṣṇu, and Śiva. The merit from observing the Ekādaśī vow is immeasurable, and difficult to obtain even by the Devas. There is no other vow like that of the Ekādaśī, that destroys sins.",
+            "image": "",
+            "references": "- References\n  - Shared Ekadashi shloka and merit paragraph follow EkAdazI-sAmAnya-niyamAH.\n",
+            "shlokas": "pakṣē pakṣē ca kartavyamēkādaśyāmupōṣaṇam।  \nyadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimātmanaḥ।  \nēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  \n  \nadya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  \nbhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  \npramādādathavā''lasyāddharē kēśava mādhava।  \nvratasyāsya ca vai vighnō na bhavēttvatprasādataḥ॥  \n--padmapurāṇē  \n  \nśrībrahmavaivartē mahāpurāṇē brahmakhaṇḍē sautiśaunakasaṁvādē nāradaṁ prati śivōpadēśē bhakṣyābhakṣyādivivaraṇaṁ nāma saptaviṁśatitamō'dhyāyaḥ---  \nēkādaśyāmanāhāraṁ gr̥hī vipraśca bhāratē।  \nsa ca tiṣṭhati vaikuṇṭhē yāvadvai brahmaṇō vayaḥ॥14॥  \n  \nēkādaśyupavāsaphalaṁ prōktaṁ pādmamahāpurāṇē---  \nśaṅkhōddhārē naraḥ snātvā dr̥ṣṭvā dēvaṁ gadādharam॥35॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nsaṅkrāntiṣu caturlakṣaṁ yō dadāti nr̥pōttama॥36॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nprabhāsakṣētrē yatpuṇyaṁ grahaṇē candrasūryayōḥ॥37॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \nkēdārē cōdakaṁ pītvā punarjanma na vidyatē॥38॥  \ntathā caikādaśī pārtha garbhavāsakṣayaṅkarī।  \naśvamēdhasya yajñasya pr̥thivyāṁ yatphalaṁ labhēt॥39॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \ntapasvinō gr̥hē yasya bhuñjatē ca dvijōttamāḥ॥40॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \ngōsahasrēṇa yatpuṇyaṁ datvā vēdāntapāragē॥41॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \nyēṣāṁ dēhē trayō dēvā brahmaviṣṇumahēśvarāḥ॥42॥  \nvasanti tēṣāṁ tē tulyā ēkādaśyupavāsinaḥ।  \ntē narāḥ puṇyakarmāṇō yē bhaktā haripūjakāḥ॥43॥  \nēkādaśīvratasyāpi puṇyasaṅkhyā na vidyatē।  \nētatpuṇyaṁ bhavēt tasya yatsurairapi durlabham॥44॥  \nēkādaśīsamaṁ nāsti vrataṁ pāpapraṇāśanam॥118॥  \n---śrīpādmē mahāpurāṇē pañcapañcāśatsāhasryāṁ saṁhitāyāmuttarakhaṇḍē umāmahēśvarasaṁvādē ēkādaśyutpatti-muravadhō nāma catvāriṁśō'dhyāyaḥ॥40॥  \n",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458250.5124,
             "jd_start": 2458249.5126,
             "jsonClass": "Interval",
             "name": "full_day"
           },
-          "jsonClass": "FestivalInstance",
+          "jsonClass": "EkadashiFestivalInstance",
           "name": "sarva-aparA-EkAdazI"
         }
       },
@@ -141121,13 +141209,21 @@
       },
       "festival_id_to_instance": {
         "sarva-padminI-EkAdazI": {
+          "description": {
+            "blurb": "padminī-ēkādaśī ",
+            "detailed": "The Shukla-paksha Ekadashi of `adhika-Jyaiṣṭha` month is known as `padminī-ēkādaśī`. The fruits of fasting on Ekādaśī are greatly extolled in the Padma Purana— A person who bathes at Śaṃkhoddhāra and beholds the image of Viṣṇu does not acquire even a sixteenth of the merit earned by fasting on Ekādaśī. O noble king, even if one gives four lakhs of coins on the days of the Sun's transition between Zodiac signs, it does not equal even a sixteenth of the merit from an Ekādaśī fast! Indeed, fasting on Ekādaśī grants the same religious merit as bathing at Prabhāsa during a lunar or solar eclipse. One who drinks the sacred water at Kedāra is freed from rebirth, and likewise, fasting on Ekādaśī removes the cycle of rebirth. The merit from an Ekādaśī fast is a hundred times greater than the reward of performing an Ashvamedha sacrifice on earth. Fasting on Ekādaśī yields a hundredfold more merit than gifting a thousand cows to a learned brāhmaṇa. Those who fast on Ekādaśī are considered equal to those whose bodies are inhabited by Brahma, Viṣṇu, and Śiva. The merit from observing the Ekādaśī vow is immeasurable, and difficult to obtain even by the Devas. There is no other vow like that of the Ekādaśī, that destroys sins.",
+            "image": "",
+            "references": "- References\n  - Shared Ekadashi shloka and merit paragraph follow EkAdazI-sAmAnya-niyamAH.\n",
+            "shlokas": "pakṣē pakṣē ca kartavyamēkādaśyāmupōṣaṇam।  \nyadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimātmanaḥ।  \nēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  \n  \nadya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  \nbhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  \npramādādathavā''lasyāddharē kēśava mādhava।  \nvratasyāsya ca vai vighnō na bhavēttvatprasādataḥ॥  \n--padmapurāṇē  \n  \nśrībrahmavaivartē mahāpurāṇē brahmakhaṇḍē sautiśaunakasaṁvādē nāradaṁ prati śivōpadēśē bhakṣyābhakṣyādivivaraṇaṁ nāma saptaviṁśatitamō'dhyāyaḥ---  \nēkādaśyāmanāhāraṁ gr̥hī vipraśca bhāratē।  \nsa ca tiṣṭhati vaikuṇṭhē yāvadvai brahmaṇō vayaḥ॥14॥  \n  \nēkādaśyupavāsaphalaṁ prōktaṁ pādmamahāpurāṇē---  \nśaṅkhōddhārē naraḥ snātvā dr̥ṣṭvā dēvaṁ gadādharam॥35॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nsaṅkrāntiṣu caturlakṣaṁ yō dadāti nr̥pōttama॥36॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nprabhāsakṣētrē yatpuṇyaṁ grahaṇē candrasūryayōḥ॥37॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \nkēdārē cōdakaṁ pītvā punarjanma na vidyatē॥38॥  \ntathā caikādaśī pārtha garbhavāsakṣayaṅkarī।  \naśvamēdhasya yajñasya pr̥thivyāṁ yatphalaṁ labhēt॥39॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \ntapasvinō gr̥hē yasya bhuñjatē ca dvijōttamāḥ॥40॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \ngōsahasrēṇa yatpuṇyaṁ datvā vēdāntapāragē॥41॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \nyēṣāṁ dēhē trayō dēvā brahmaviṣṇumahēśvarāḥ॥42॥  \nvasanti tēṣāṁ tē tulyā ēkādaśyupavāsinaḥ।  \ntē narāḥ puṇyakarmāṇō yē bhaktā haripūjakāḥ॥43॥  \nēkādaśīvratasyāpi puṇyasaṅkhyā na vidyatē।  \nētatpuṇyaṁ bhavēt tasya yatsurairapi durlabham॥44॥  \nēkādaśīsamaṁ nāsti vrataṁ pāpapraṇāśanam॥118॥  \n---śrīpādmē mahāpurāṇē pañcapañcāśatsāhasryāṁ saṁhitāyāmuttarakhaṇḍē umāmahēśvarasaṁvādē ēkādaśyutpatti-muravadhō nāma catvāriṁśō'dhyāyaḥ॥40॥  \n",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458264.5107,
             "jd_start": 2458263.5107,
             "jsonClass": "Interval",
             "name": "full_day"
           },
-          "jsonClass": "FestivalInstance",
+          "jsonClass": "EkadashiFestivalInstance",
           "name": "sarva-padminI-EkAdazI"
         }
       },
@@ -156051,13 +156147,21 @@
           "status_2_hk": "mithunam"
         },
         "sarva-paramA-EkAdazI": {
+          "description": {
+            "blurb": "paramā-ēkādaśī ",
+            "detailed": "The Krishna-paksha Ekadashi of `adhika-Jyaiṣṭha` month is known as `paramā-ēkādaśī`. The fruits of fasting on Ekādaśī are greatly extolled in the Padma Purana— A person who bathes at Śaṃkhoddhāra and beholds the image of Viṣṇu does not acquire even a sixteenth of the merit earned by fasting on Ekādaśī. O noble king, even if one gives four lakhs of coins on the days of the Sun's transition between Zodiac signs, it does not equal even a sixteenth of the merit from an Ekādaśī fast! Indeed, fasting on Ekādaśī grants the same religious merit as bathing at Prabhāsa during a lunar or solar eclipse. One who drinks the sacred water at Kedāra is freed from rebirth, and likewise, fasting on Ekādaśī removes the cycle of rebirth. The merit from an Ekādaśī fast is a hundred times greater than the reward of performing an Ashvamedha sacrifice on earth. Fasting on Ekādaśī yields a hundredfold more merit than gifting a thousand cows to a learned brāhmaṇa. Those who fast on Ekādaśī are considered equal to those whose bodies are inhabited by Brahma, Viṣṇu, and Śiva. The merit from observing the Ekādaśī vow is immeasurable, and difficult to obtain even by the Devas. There is no other vow like that of the Ekādaśī, that destroys sins.",
+            "image": "",
+            "references": "- References\n  - Shared Ekadashi shloka and merit paragraph follow EkAdazI-sAmAnya-niyamAH.\n",
+            "shlokas": "pakṣē pakṣē ca kartavyamēkādaśyāmupōṣaṇam।  \nyadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimātmanaḥ।  \nēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  \n  \nadya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  \nbhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  \npramādādathavā''lasyāddharē kēśava mādhava।  \nvratasyāsya ca vai vighnō na bhavēttvatprasādataḥ॥  \n--padmapurāṇē  \n  \nśrībrahmavaivartē mahāpurāṇē brahmakhaṇḍē sautiśaunakasaṁvādē nāradaṁ prati śivōpadēśē bhakṣyābhakṣyādivivaraṇaṁ nāma saptaviṁśatitamō'dhyāyaḥ---  \nēkādaśyāmanāhāraṁ gr̥hī vipraśca bhāratē।  \nsa ca tiṣṭhati vaikuṇṭhē yāvadvai brahmaṇō vayaḥ॥14॥  \n  \nēkādaśyupavāsaphalaṁ prōktaṁ pādmamahāpurāṇē---  \nśaṅkhōddhārē naraḥ snātvā dr̥ṣṭvā dēvaṁ gadādharam॥35॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nsaṅkrāntiṣu caturlakṣaṁ yō dadāti nr̥pōttama॥36॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nprabhāsakṣētrē yatpuṇyaṁ grahaṇē candrasūryayōḥ॥37॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \nkēdārē cōdakaṁ pītvā punarjanma na vidyatē॥38॥  \ntathā caikādaśī pārtha garbhavāsakṣayaṅkarī।  \naśvamēdhasya yajñasya pr̥thivyāṁ yatphalaṁ labhēt॥39॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \ntapasvinō gr̥hē yasya bhuñjatē ca dvijōttamāḥ॥40॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \ngōsahasrēṇa yatpuṇyaṁ datvā vēdāntapāragē॥41॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \nyēṣāṁ dēhē trayō dēvā brahmaviṣṇumahēśvarāḥ॥42॥  \nvasanti tēṣāṁ tē tulyā ēkādaśyupavāsinaḥ।  \ntē narāḥ puṇyakarmāṇō yē bhaktā haripūjakāḥ॥43॥  \nēkādaśīvratasyāpi puṇyasaṅkhyā na vidyatē।  \nētatpuṇyaṁ bhavēt tasya yatsurairapi durlabham॥44॥  \nēkādaśīsamaṁ nāsti vrataṁ pāpapraṇāśanam॥118॥  \n---śrīpādmē mahāpurāṇē pañcapañcāśatsāhasryāṁ saṁhitāyāmuttarakhaṇḍē umāmahēśvarasaṁvādē ēkādaśyutpatti-muravadhō nāma catvāriṁśō'dhyāyaḥ॥40॥  \n",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458280.5109,
             "jd_start": 2458279.5108,
             "jsonClass": "Interval",
             "name": "full_day"
           },
-          "jsonClass": "FestivalInstance",
+          "jsonClass": "EkadashiFestivalInstance",
           "name": "sarva-paramA-EkAdazI"
         }
       },
@@ -168798,13 +168902,21 @@
           "name": "periyAzhvAr_tirunakSattiram"
         },
         "sarva-pANDava-nirjalA-EkAdazI": {
+          "description": {
+            "blurb": "pāṇḍava-nirjalā-ēkādaśī ",
+            "detailed": "The Shukla-paksha Ekadashi of `Jyaiṣṭha` month is known as `pāṇḍava-nirjalā-ēkādaśī`. The fruits of fasting on Ekādaśī are greatly extolled in the Padma Purana— A person who bathes at Śaṃkhoddhāra and beholds the image of Viṣṇu does not acquire even a sixteenth of the merit earned by fasting on Ekādaśī. O noble king, even if one gives four lakhs of coins on the days of the Sun's transition between Zodiac signs, it does not equal even a sixteenth of the merit from an Ekādaśī fast! Indeed, fasting on Ekādaśī grants the same religious merit as bathing at Prabhāsa during a lunar or solar eclipse. One who drinks the sacred water at Kedāra is freed from rebirth, and likewise, fasting on Ekādaśī removes the cycle of rebirth. The merit from an Ekādaśī fast is a hundred times greater than the reward of performing an Ashvamedha sacrifice on earth. Fasting on Ekādaśī yields a hundredfold more merit than gifting a thousand cows to a learned brāhmaṇa. Those who fast on Ekādaśī are considered equal to those whose bodies are inhabited by Brahma, Viṣṇu, and Śiva. The merit from observing the Ekādaśī vow is immeasurable, and difficult to obtain even by the Devas. There is no other vow like that of the Ekādaśī, that destroys sins.",
+            "image": "",
+            "references": "- References\n  - Shared Ekadashi shloka and merit paragraph follow EkAdazI-sAmAnya-niyamAH.\n",
+            "shlokas": "pakṣē pakṣē ca kartavyamēkādaśyāmupōṣaṇam।  \nyadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimātmanaḥ।  \nēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  \n  \nadya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  \nbhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  \npramādādathavā''lasyāddharē kēśava mādhava।  \nvratasyāsya ca vai vighnō na bhavēttvatprasādataḥ॥  \n--padmapurāṇē  \n  \nśrībrahmavaivartē mahāpurāṇē brahmakhaṇḍē sautiśaunakasaṁvādē nāradaṁ prati śivōpadēśē bhakṣyābhakṣyādivivaraṇaṁ nāma saptaviṁśatitamō'dhyāyaḥ---  \nēkādaśyāmanāhāraṁ gr̥hī vipraśca bhāratē।  \nsa ca tiṣṭhati vaikuṇṭhē yāvadvai brahmaṇō vayaḥ॥14॥  \n  \nēkādaśyupavāsaphalaṁ prōktaṁ pādmamahāpurāṇē---  \nśaṅkhōddhārē naraḥ snātvā dr̥ṣṭvā dēvaṁ gadādharam॥35॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nsaṅkrāntiṣu caturlakṣaṁ yō dadāti nr̥pōttama॥36॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nprabhāsakṣētrē yatpuṇyaṁ grahaṇē candrasūryayōḥ॥37॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \nkēdārē cōdakaṁ pītvā punarjanma na vidyatē॥38॥  \ntathā caikādaśī pārtha garbhavāsakṣayaṅkarī।  \naśvamēdhasya yajñasya pr̥thivyāṁ yatphalaṁ labhēt॥39॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \ntapasvinō gr̥hē yasya bhuñjatē ca dvijōttamāḥ॥40॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \ngōsahasrēṇa yatpuṇyaṁ datvā vēdāntapāragē॥41॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \nyēṣāṁ dēhē trayō dēvā brahmaviṣṇumahēśvarāḥ॥42॥  \nvasanti tēṣāṁ tē tulyā ēkādaśyupavāsinaḥ।  \ntē narāḥ puṇyakarmāṇō yē bhaktā haripūjakāḥ॥43॥  \nēkādaśīvratasyāpi puṇyasaṅkhyā na vidyatē।  \nētatpuṇyaṁ bhavēt tasya yatsurairapi durlabham॥44॥  \nēkādaśīsamaṁ nāsti vrataṁ pāpapraṇāśanam॥118॥  \n---śrīpādmē mahāpurāṇē pañcapañcāśatsāhasryāṁ saṁhitāyāmuttarakhaṇḍē umāmahēśvarasaṁvādē ēkādaśyutpatti-muravadhō nāma catvāriṁśō'dhyāyaḥ॥40॥  \n",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458293.5126,
             "jd_start": 2458292.5124,
             "jsonClass": "Interval",
             "name": "full_day"
           },
-          "jsonClass": "FestivalInstance",
+          "jsonClass": "EkadashiFestivalInstance",
           "name": "sarva-pANDava-nirjalA-EkAdazI"
         },
         "tripuSkara-yOgaH~6": {
@@ -183887,13 +183999,21 @@
           "name": "kRttikA-vratam"
         },
         "sarva-yOginI-EkAdazI": {
+          "description": {
+            "blurb": "yōginī-ēkādaśī ",
+            "detailed": "The Krishna-paksha Ekadashi of `Jyaiṣṭha` month is known as `yōginī-ēkādaśī`. The fruits of fasting on Ekādaśī are greatly extolled in the Padma Purana— A person who bathes at Śaṃkhoddhāra and beholds the image of Viṣṇu does not acquire even a sixteenth of the merit earned by fasting on Ekādaśī. O noble king, even if one gives four lakhs of coins on the days of the Sun's transition between Zodiac signs, it does not equal even a sixteenth of the merit from an Ekādaśī fast! Indeed, fasting on Ekādaśī grants the same religious merit as bathing at Prabhāsa during a lunar or solar eclipse. One who drinks the sacred water at Kedāra is freed from rebirth, and likewise, fasting on Ekādaśī removes the cycle of rebirth. The merit from an Ekādaśī fast is a hundred times greater than the reward of performing an Ashvamedha sacrifice on earth. Fasting on Ekādaśī yields a hundredfold more merit than gifting a thousand cows to a learned brāhmaṇa. Those who fast on Ekādaśī are considered equal to those whose bodies are inhabited by Brahma, Viṣṇu, and Śiva. The merit from observing the Ekādaśī vow is immeasurable, and difficult to obtain even by the Devas. There is no other vow like that of the Ekādaśī, that destroys sins.",
+            "image": "",
+            "references": "- References\n  - Shared Ekadashi shloka and merit paragraph follow EkAdazI-sAmAnya-niyamAH.\n",
+            "shlokas": "pakṣē pakṣē ca kartavyamēkādaśyāmupōṣaṇam।  \nyadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimātmanaḥ।  \nēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  \n  \nadya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  \nbhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  \npramādādathavā''lasyāddharē kēśava mādhava।  \nvratasyāsya ca vai vighnō na bhavēttvatprasādataḥ॥  \n--padmapurāṇē  \n  \nśrībrahmavaivartē mahāpurāṇē brahmakhaṇḍē sautiśaunakasaṁvādē nāradaṁ prati śivōpadēśē bhakṣyābhakṣyādivivaraṇaṁ nāma saptaviṁśatitamō'dhyāyaḥ---  \nēkādaśyāmanāhāraṁ gr̥hī vipraśca bhāratē।  \nsa ca tiṣṭhati vaikuṇṭhē yāvadvai brahmaṇō vayaḥ॥14॥  \n  \nēkādaśyupavāsaphalaṁ prōktaṁ pādmamahāpurāṇē---  \nśaṅkhōddhārē naraḥ snātvā dr̥ṣṭvā dēvaṁ gadādharam॥35॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nsaṅkrāntiṣu caturlakṣaṁ yō dadāti nr̥pōttama॥36॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nprabhāsakṣētrē yatpuṇyaṁ grahaṇē candrasūryayōḥ॥37॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \nkēdārē cōdakaṁ pītvā punarjanma na vidyatē॥38॥  \ntathā caikādaśī pārtha garbhavāsakṣayaṅkarī।  \naśvamēdhasya yajñasya pr̥thivyāṁ yatphalaṁ labhēt॥39॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \ntapasvinō gr̥hē yasya bhuñjatē ca dvijōttamāḥ॥40॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \ngōsahasrēṇa yatpuṇyaṁ datvā vēdāntapāragē॥41॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \nyēṣāṁ dēhē trayō dēvā brahmaviṣṇumahēśvarāḥ॥42॥  \nvasanti tēṣāṁ tē tulyā ēkādaśyupavāsinaḥ।  \ntē narāḥ puṇyakarmāṇō yē bhaktā haripūjakāḥ॥43॥  \nēkādaśīvratasyāpi puṇyasaṅkhyā na vidyatē।  \nētatpuṇyaṁ bhavēt tasya yatsurairapi durlabham॥44॥  \nēkādaśīsamaṁ nāsti vrataṁ pāpapraṇāśanam॥118॥  \n---śrīpādmē mahāpurāṇē pañcapañcāśatsāhasryāṁ saṁhitāyāmuttarakhaṇḍē umāmahēśvarasaṁvādē ēkādaśyutpatti-muravadhō nāma catvāriṁśō'dhyāyaḥ॥40॥  \n",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458309.5155,
             "jd_start": 2458308.5154,
             "jsonClass": "Interval",
             "name": "full_day"
           },
-          "jsonClass": "FestivalInstance",
+          "jsonClass": "EkadashiFestivalInstance",
           "name": "sarva-yOginI-EkAdazI"
         }
       },
@@ -197417,13 +197537,21 @@
           "ordinal": 116
         },
         "sarva-zayana-EkAdazI": {
+          "description": {
+            "blurb": "śayana-ēkādaśī ",
+            "detailed": "The Shukla-paksha Ekadashi of `Āṣāḍha` month is known as `śayana-ēkādaśī`. Bhagavan Vishnu goes to sleep for four months beginning today. The fruits of fasting on Ekādaśī are greatly extolled in the Padma Purana— A person who bathes at Śaṃkhoddhāra and beholds the image of Viṣṇu does not acquire even a sixteenth of the merit earned by fasting on Ekādaśī. O noble king, even if one gives four lakhs of coins on the days of the Sun's transition between Zodiac signs, it does not equal even a sixteenth of the merit from an Ekādaśī fast! Indeed, fasting on Ekādaśī grants the same religious merit as bathing at Prabhāsa during a lunar or solar eclipse. One who drinks the sacred water at Kedāra is freed from rebirth, and likewise, fasting on Ekādaśī removes the cycle of rebirth. The merit from an Ekādaśī fast is a hundred times greater than the reward of performing an Ashvamedha sacrifice on earth. Fasting on Ekādaśī yields a hundredfold more merit than gifting a thousand cows to a learned brāhmaṇa. Those who fast on Ekādaśī are considered equal to those whose bodies are inhabited by Brahma, Viṣṇu, and Śiva. The merit from observing the Ekādaśī vow is immeasurable, and difficult to obtain even by the Devas. There is no other vow like that of the Ekādaśī, that destroys sins.",
+            "image": "",
+            "references": "- References\n  - Shared Ekadashi shloka and merit paragraph follow EkAdazI-sAmAnya-niyamAH.\n",
+            "shlokas": "hēmādrau brāhmē---  \nēkādaśyāṁ tu śuklāyāmāṣāḍhē bhagavān hariḥ।  \nbhujaṅgaśayanē śētē yadā kṣīrārṇavē svayam॥  \ntadā tatpratimā kāryā sarvalakṣaṇasaṁyutā।  \nsuptā tu śēṣaparyaṅkē śailamr̥dbhistu cārubhiḥ॥  \ntāmrārakūṭasahitaistathā citrapaṭēṣu vā।  \nlakṣmyā utsaṅgahastē ca vinyastacaraṇāmbujā॥  \n[lakṣamyā svahastavinyastamanōjñacaraṇāmbujā। ityapi pāṭhaḥ।]  \n[utsaṅgahastē utsaṅgasthitahastē।]   \nnānāvidhōpakaraṇaiḥ pūjyā ca vidhipūrvakam।  \nupavāsaśca kartavyō rātrau jāgaraṇaṁ tathā।  \ntasyāṁ rātryāṁ vyatītāyāṁ dvādaśyāṁ pūjayēt tathā।  \ntrayōdaśyāṁ tatō gītaṁ vādyaṁ nr̥tyaṁ nivēdayēt।  \npurāṇasamuccayē---  \nāṣāḍhasya sitē pakṣē ēkādaśyāmupōṣitaḥ।  \nsthāpayēt pratimāṁ tatra śaṅkhacakragadādharām॥  \npītāmbaradharāṁ saumyāṁ paryaṅkē svāstr̥tē śubhē।  \nśuklavastrasamācchannē sōpadhānē yudhiṣṭhira॥  \nitihāsapurāṇajñō viṣṇubhaktō'thavā pumān।  \nsnāpayitvā dadhikṣīraghr̥takṣaudrajalaistathā॥  \nsamālabhya śubhairgandhairdhūpairdīpairalaṅkr̥tām।  \npūjitāṁ kusumaiḥ śuklairmantrēṇānēna pāṇḍava॥  \nmantraśca---  \nsuptē tvayi jagannāthē jagatsuptaṁ bhavēdidam।  \nvibuddhē tvayi budhyēta tatsarva sacarācaram॥  \n  \nvāsudēva jagadyōnē prāptēyaṁ dvādaśī tava।  \nbhujaṅgaśayanē'bdhau ca sukhaṁ svapihi mādhava॥  \niyaṁ tu dvādaśī dēva śayanārthaṁ vinirmitā।  \n  \npakṣē pakṣē ca kartavyamēkādaśyāmupōṣaṇam।  \nyadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimātmanaḥ।  \nēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  \n  \nadya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  \nbhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  \npramādādathavā''lasyāddharē kēśava mādhava।  \nvratasyāsya ca vai vighnō na bhavēttvatprasādataḥ॥  \n--padmapurāṇē  \n  \nśrībrahmavaivartē mahāpurāṇē brahmakhaṇḍē sautiśaunakasaṁvādē nāradaṁ prati śivōpadēśē bhakṣyābhakṣyādivivaraṇaṁ nāma saptaviṁśatitamō'dhyāyaḥ---  \nēkādaśyāmanāhāraṁ gr̥hī vipraśca bhāratē।  \nsa ca tiṣṭhati vaikuṇṭhē yāvadvai brahmaṇō vayaḥ॥14॥  \n  \nēkādaśyupavāsaphalaṁ prōktaṁ pādmamahāpurāṇē---  \nśaṅkhōddhārē naraḥ snātvā dr̥ṣṭvā dēvaṁ gadādharam॥35॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nsaṅkrāntiṣu caturlakṣaṁ yō dadāti nr̥pōttama॥36॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nprabhāsakṣētrē yatpuṇyaṁ grahaṇē candrasūryayōḥ॥37॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \nkēdārē cōdakaṁ pītvā punarjanma na vidyatē॥38॥  \ntathā caikādaśī pārtha garbhavāsakṣayaṅkarī।  \naśvamēdhasya yajñasya pr̥thivyāṁ yatphalaṁ labhēt॥39॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \ntapasvinō gr̥hē yasya bhuñjatē ca dvijōttamāḥ॥40॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \ngōsahasrēṇa yatpuṇyaṁ datvā vēdāntapāragē॥41॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \nyēṣāṁ dēhē trayō dēvā brahmaviṣṇumahēśvarāḥ॥42॥  \nvasanti tēṣāṁ tē tulyā ēkādaśyupavāsinaḥ।  \ntē narāḥ puṇyakarmāṇō yē bhaktā haripūjakāḥ॥43॥  \nēkādaśīvratasyāpi puṇyasaṅkhyā na vidyatē।  \nētatpuṇyaṁ bhavēt tasya yatsurairapi durlabham॥44॥  \nēkādaśīsamaṁ nāsti vrataṁ pāpapraṇāśanam॥118॥  \n---śrīpādmē mahāpurāṇē pañcapañcāśatsāhasryāṁ saṁhitāyāmuttarakhaṇḍē umāmahēśvarasaṁvādē ēkādaśyutpatti-muravadhō nāma catvāriṁśō'dhyāyaḥ॥40॥  \n",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458323.5181,
             "jd_start": 2458322.518,
             "jsonClass": "Interval",
             "name": "full_day"
           },
-          "jsonClass": "FestivalInstance",
+          "jsonClass": "EkadashiFestivalInstance",
           "name": "sarva-zayana-EkAdazI"
         },
         "viSNu-zayanOtsavaH": {
@@ -211662,13 +211790,21 @@
           "name": "dvipuSkara-yOgaH~2"
         },
         "smArta-kAmikA-EkAdazI": {
+          "description": {
+            "blurb": "kāmikā-ēkādaśī ",
+            "detailed": "The Krishna-paksha Ekadashi of `Āṣāḍha` month is known as `kāmikā-ēkādaśī`. The fruits of fasting on Ekādaśī are greatly extolled in the Padma Purana— A person who bathes at Śaṃkhoddhāra and beholds the image of Viṣṇu does not acquire even a sixteenth of the merit earned by fasting on Ekādaśī. O noble king, even if one gives four lakhs of coins on the days of the Sun's transition between Zodiac signs, it does not equal even a sixteenth of the merit from an Ekādaśī fast! Indeed, fasting on Ekādaśī grants the same religious merit as bathing at Prabhāsa during a lunar or solar eclipse. One who drinks the sacred water at Kedāra is freed from rebirth, and likewise, fasting on Ekādaśī removes the cycle of rebirth. The merit from an Ekādaśī fast is a hundred times greater than the reward of performing an Ashvamedha sacrifice on earth. Fasting on Ekādaśī yields a hundredfold more merit than gifting a thousand cows to a learned brāhmaṇa. Those who fast on Ekādaśī are considered equal to those whose bodies are inhabited by Brahma, Viṣṇu, and Śiva. The merit from observing the Ekādaśī vow is immeasurable, and difficult to obtain even by the Devas. There is no other vow like that of the Ekādaśī, that destroys sins.",
+            "image": "",
+            "references": "- References\n  - Shared Ekadashi shloka and merit paragraph follow EkAdazI-sAmAnya-niyamAH.\n",
+            "shlokas": "pakṣē pakṣē ca kartavyamēkādaśyāmupōṣaṇam।  \nyadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimātmanaḥ।  \nēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  \n  \nadya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  \nbhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  \npramādādathavā''lasyāddharē kēśava mādhava।  \nvratasyāsya ca vai vighnō na bhavēttvatprasādataḥ॥  \n--padmapurāṇē  \n  \nśrībrahmavaivartē mahāpurāṇē brahmakhaṇḍē sautiśaunakasaṁvādē nāradaṁ prati śivōpadēśē bhakṣyābhakṣyādivivaraṇaṁ nāma saptaviṁśatitamō'dhyāyaḥ---  \nēkādaśyāmanāhāraṁ gr̥hī vipraśca bhāratē।  \nsa ca tiṣṭhati vaikuṇṭhē yāvadvai brahmaṇō vayaḥ॥14॥  \n  \nēkādaśyupavāsaphalaṁ prōktaṁ pādmamahāpurāṇē---  \nśaṅkhōddhārē naraḥ snātvā dr̥ṣṭvā dēvaṁ gadādharam॥35॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nsaṅkrāntiṣu caturlakṣaṁ yō dadāti nr̥pōttama॥36॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nprabhāsakṣētrē yatpuṇyaṁ grahaṇē candrasūryayōḥ॥37॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \nkēdārē cōdakaṁ pītvā punarjanma na vidyatē॥38॥  \ntathā caikādaśī pārtha garbhavāsakṣayaṅkarī।  \naśvamēdhasya yajñasya pr̥thivyāṁ yatphalaṁ labhēt॥39॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \ntapasvinō gr̥hē yasya bhuñjatē ca dvijōttamāḥ॥40॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \ngōsahasrēṇa yatpuṇyaṁ datvā vēdāntapāragē॥41॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \nyēṣāṁ dēhē trayō dēvā brahmaviṣṇumahēśvarāḥ॥42॥  \nvasanti tēṣāṁ tē tulyā ēkādaśyupavāsinaḥ।  \ntē narāḥ puṇyakarmāṇō yē bhaktā haripūjakāḥ॥43॥  \nēkādaśīvratasyāpi puṇyasaṅkhyā na vidyatē।  \nētatpuṇyaṁ bhavēt tasya yatsurairapi durlabham॥44॥  \nēkādaśīsamaṁ nāsti vrataṁ pāpapraṇāśanam॥118॥  \n---śrīpādmē mahāpurāṇē pañcapañcāśatsāhasryāṁ saṁhitāyāmuttarakhaṇḍē umāmahēśvarasaṁvādē ēkādaśyutpatti-muravadhō nāma catvāriṁśō'dhyāyaḥ॥40॥  \n",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458338.5202,
             "jd_start": 2458337.5201,
             "jsonClass": "Interval",
             "name": "full_day"
           },
-          "jsonClass": "FestivalInstance",
+          "jsonClass": "EkadashiFestivalInstance",
           "name": "smArta-kAmikA-EkAdazI"
         },
         "tiruppANAzhvAr_tirunakSattiram": {
@@ -212652,13 +212788,21 @@
           "name": "kUr2r2uva_nAyan2mAr_(39)_gurupUjai"
         },
         "vaiSNava-kAmikA-EkAdazI": {
+          "description": {
+            "blurb": "kāmikā-ēkādaśī ",
+            "detailed": "The Krishna-paksha Ekadashi of `Āṣāḍha` month is known as `kāmikā-ēkādaśī`. The fruits of fasting on Ekādaśī are greatly extolled in the Padma Purana— A person who bathes at Śaṃkhoddhāra and beholds the image of Viṣṇu does not acquire even a sixteenth of the merit earned by fasting on Ekādaśī. O noble king, even if one gives four lakhs of coins on the days of the Sun's transition between Zodiac signs, it does not equal even a sixteenth of the merit from an Ekādaśī fast! Indeed, fasting on Ekādaśī grants the same religious merit as bathing at Prabhāsa during a lunar or solar eclipse. One who drinks the sacred water at Kedāra is freed from rebirth, and likewise, fasting on Ekādaśī removes the cycle of rebirth. The merit from an Ekādaśī fast is a hundred times greater than the reward of performing an Ashvamedha sacrifice on earth. Fasting on Ekādaśī yields a hundredfold more merit than gifting a thousand cows to a learned brāhmaṇa. Those who fast on Ekādaśī are considered equal to those whose bodies are inhabited by Brahma, Viṣṇu, and Śiva. The merit from observing the Ekādaśī vow is immeasurable, and difficult to obtain even by the Devas. There is no other vow like that of the Ekādaśī, that destroys sins.",
+            "image": "",
+            "references": "- References\n  - Shared Ekadashi shloka and merit paragraph follow EkAdazI-sAmAnya-niyamAH.\n",
+            "shlokas": "pakṣē pakṣē ca kartavyamēkādaśyāmupōṣaṇam।  \nyadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimātmanaḥ।  \nēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  \n  \nadya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  \nbhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  \npramādādathavā''lasyāddharē kēśava mādhava।  \nvratasyāsya ca vai vighnō na bhavēttvatprasādataḥ॥  \n--padmapurāṇē  \n  \nśrībrahmavaivartē mahāpurāṇē brahmakhaṇḍē sautiśaunakasaṁvādē nāradaṁ prati śivōpadēśē bhakṣyābhakṣyādivivaraṇaṁ nāma saptaviṁśatitamō'dhyāyaḥ---  \nēkādaśyāmanāhāraṁ gr̥hī vipraśca bhāratē।  \nsa ca tiṣṭhati vaikuṇṭhē yāvadvai brahmaṇō vayaḥ॥14॥  \n  \nēkādaśyupavāsaphalaṁ prōktaṁ pādmamahāpurāṇē---  \nśaṅkhōddhārē naraḥ snātvā dr̥ṣṭvā dēvaṁ gadādharam॥35॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nsaṅkrāntiṣu caturlakṣaṁ yō dadāti nr̥pōttama॥36॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nprabhāsakṣētrē yatpuṇyaṁ grahaṇē candrasūryayōḥ॥37॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \nkēdārē cōdakaṁ pītvā punarjanma na vidyatē॥38॥  \ntathā caikādaśī pārtha garbhavāsakṣayaṅkarī।  \naśvamēdhasya yajñasya pr̥thivyāṁ yatphalaṁ labhēt॥39॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \ntapasvinō gr̥hē yasya bhuñjatē ca dvijōttamāḥ॥40॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \ngōsahasrēṇa yatpuṇyaṁ datvā vēdāntapāragē॥41॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \nyēṣāṁ dēhē trayō dēvā brahmaviṣṇumahēśvarāḥ॥42॥  \nvasanti tēṣāṁ tē tulyā ēkādaśyupavāsinaḥ।  \ntē narāḥ puṇyakarmāṇō yē bhaktā haripūjakāḥ॥43॥  \nēkādaśīvratasyāpi puṇyasaṅkhyā na vidyatē।  \nētatpuṇyaṁ bhavēt tasya yatsurairapi durlabham॥44॥  \nēkādaśīsamaṁ nāsti vrataṁ pāpapraṇāśanam॥118॥  \n---śrīpādmē mahāpurāṇē pañcapañcāśatsāhasryāṁ saṁhitāyāmuttarakhaṇḍē umāmahēśvarasaṁvādē ēkādaśyutpatti-muravadhō nāma catvāriṁśō'dhyāyaḥ॥40॥  \n",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458339.5203,
             "jd_start": 2458338.5202,
             "jsonClass": "Interval",
             "name": "full_day"
           },
-          "jsonClass": "FestivalInstance",
+          "jsonClass": "EkadashiFestivalInstance",
           "name": "vaiSNava-kAmikA-EkAdazI"
         }
       },
@@ -226147,13 +226291,21 @@
           "name": "anadhyAyaH~divAsaGkramaNa~pUrvarAtrau"
         },
         "sarva-zravaNa-putradA-EkAdazI": {
+          "description": {
+            "blurb": "śravaṇa-putradā-ēkādaśī ",
+            "detailed": "The Shukla-paksha Ekadashi of `Śrāvaṇa` month is known as `śravaṇa-putradā-ēkādaśī`. The fruits of fasting on Ekādaśī are greatly extolled in the Padma Purana— A person who bathes at Śaṃkhoddhāra and beholds the image of Viṣṇu does not acquire even a sixteenth of the merit earned by fasting on Ekādaśī. O noble king, even if one gives four lakhs of coins on the days of the Sun's transition between Zodiac signs, it does not equal even a sixteenth of the merit from an Ekādaśī fast! Indeed, fasting on Ekādaśī grants the same religious merit as bathing at Prabhāsa during a lunar or solar eclipse. One who drinks the sacred water at Kedāra is freed from rebirth, and likewise, fasting on Ekādaśī removes the cycle of rebirth. The merit from an Ekādaśī fast is a hundred times greater than the reward of performing an Ashvamedha sacrifice on earth. Fasting on Ekādaśī yields a hundredfold more merit than gifting a thousand cows to a learned brāhmaṇa. Those who fast on Ekādaśī are considered equal to those whose bodies are inhabited by Brahma, Viṣṇu, and Śiva. The merit from observing the Ekādaśī vow is immeasurable, and difficult to obtain even by the Devas. There is no other vow like that of the Ekādaśī, that destroys sins.",
+            "image": "",
+            "references": "- References\n  - Shared Ekadashi shloka and merit paragraph follow EkAdazI-sAmAnya-niyamAH.\n",
+            "shlokas": "pakṣē pakṣē ca kartavyamēkādaśyāmupōṣaṇam।  \nyadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimātmanaḥ।  \nēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  \n  \nadya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  \nbhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  \npramādādathavā''lasyāddharē kēśava mādhava।  \nvratasyāsya ca vai vighnō na bhavēttvatprasādataḥ॥  \n--padmapurāṇē  \n  \nśrībrahmavaivartē mahāpurāṇē brahmakhaṇḍē sautiśaunakasaṁvādē nāradaṁ prati śivōpadēśē bhakṣyābhakṣyādivivaraṇaṁ nāma saptaviṁśatitamō'dhyāyaḥ---  \nēkādaśyāmanāhāraṁ gr̥hī vipraśca bhāratē।  \nsa ca tiṣṭhati vaikuṇṭhē yāvadvai brahmaṇō vayaḥ॥14॥  \n  \nēkādaśyupavāsaphalaṁ prōktaṁ pādmamahāpurāṇē---  \nśaṅkhōddhārē naraḥ snātvā dr̥ṣṭvā dēvaṁ gadādharam॥35॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nsaṅkrāntiṣu caturlakṣaṁ yō dadāti nr̥pōttama॥36॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nprabhāsakṣētrē yatpuṇyaṁ grahaṇē candrasūryayōḥ॥37॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \nkēdārē cōdakaṁ pītvā punarjanma na vidyatē॥38॥  \ntathā caikādaśī pārtha garbhavāsakṣayaṅkarī।  \naśvamēdhasya yajñasya pr̥thivyāṁ yatphalaṁ labhēt॥39॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \ntapasvinō gr̥hē yasya bhuñjatē ca dvijōttamāḥ॥40॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \ngōsahasrēṇa yatpuṇyaṁ datvā vēdāntapāragē॥41॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \nyēṣāṁ dēhē trayō dēvā brahmaviṣṇumahēśvarāḥ॥42॥  \nvasanti tēṣāṁ tē tulyā ēkādaśyupavāsinaḥ।  \ntē narāḥ puṇyakarmāṇō yē bhaktā haripūjakāḥ॥43॥  \nēkādaśīvratasyāpi puṇyasaṅkhyā na vidyatē।  \nētatpuṇyaṁ bhavēt tasya yatsurairapi durlabham॥44॥  \nēkādaśīsamaṁ nāsti vrataṁ pāpapraṇāśanam॥118॥  \n---śrīpādmē mahāpurāṇē pañcapañcāśatsāhasryāṁ saṁhitāyāmuttarakhaṇḍē umāmahēśvarasaṁvādē ēkādaśyutpatti-muravadhō nāma catvāriṁśō'dhyāyaḥ॥40॥  \n",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458353.5214,
             "jd_start": 2458352.5214,
             "jsonClass": "Interval",
             "name": "full_day"
           },
-          "jsonClass": "FestivalInstance",
+          "jsonClass": "EkadashiFestivalInstance",
           "name": "sarva-zravaNa-putradA-EkAdazI"
         },
         "unmIlanI~mahAdvAdazI": {
@@ -240691,13 +240843,21 @@
           "name": "gurupuSya-yOgaH"
         },
         "sarva-ajA-EkAdazI": {
+          "description": {
+            "blurb": "ajā-ēkādaśī ",
+            "detailed": "The Krishna-paksha Ekadashi of `Śrāvaṇa` month is known as `ajā-ēkādaśī`. Satya Harishchandra performed this to get back family and kingdom. The fruits of fasting on Ekādaśī are greatly extolled in the Padma Purana— A person who bathes at Śaṃkhoddhāra and beholds the image of Viṣṇu does not acquire even a sixteenth of the merit earned by fasting on Ekādaśī. O noble king, even if one gives four lakhs of coins on the days of the Sun's transition between Zodiac signs, it does not equal even a sixteenth of the merit from an Ekādaśī fast! Indeed, fasting on Ekādaśī grants the same religious merit as bathing at Prabhāsa during a lunar or solar eclipse. One who drinks the sacred water at Kedāra is freed from rebirth, and likewise, fasting on Ekādaśī removes the cycle of rebirth. The merit from an Ekādaśī fast is a hundred times greater than the reward of performing an Ashvamedha sacrifice on earth. Fasting on Ekādaśī yields a hundredfold more merit than gifting a thousand cows to a learned brāhmaṇa. Those who fast on Ekādaśī are considered equal to those whose bodies are inhabited by Brahma, Viṣṇu, and Śiva. The merit from observing the Ekādaśī vow is immeasurable, and difficult to obtain even by the Devas. There is no other vow like that of the Ekādaśī, that destroys sins.",
+            "image": "",
+            "references": "- References\n  - Shared Ekadashi shloka and merit paragraph follow EkAdazI-sAmAnya-niyamAH.\n",
+            "shlokas": "pakṣē pakṣē ca kartavyamēkādaśyāmupōṣaṇam।  \nyadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimātmanaḥ।  \nēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  \n  \nadya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  \nbhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  \npramādādathavā''lasyāddharē kēśava mādhava।  \nvratasyāsya ca vai vighnō na bhavēttvatprasādataḥ॥  \n--padmapurāṇē  \n  \nśrībrahmavaivartē mahāpurāṇē brahmakhaṇḍē sautiśaunakasaṁvādē nāradaṁ prati śivōpadēśē bhakṣyābhakṣyādivivaraṇaṁ nāma saptaviṁśatitamō'dhyāyaḥ---  \nēkādaśyāmanāhāraṁ gr̥hī vipraśca bhāratē।  \nsa ca tiṣṭhati vaikuṇṭhē yāvadvai brahmaṇō vayaḥ॥14॥  \n  \nēkādaśyupavāsaphalaṁ prōktaṁ pādmamahāpurāṇē---  \nśaṅkhōddhārē naraḥ snātvā dr̥ṣṭvā dēvaṁ gadādharam॥35॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nsaṅkrāntiṣu caturlakṣaṁ yō dadāti nr̥pōttama॥36॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nprabhāsakṣētrē yatpuṇyaṁ grahaṇē candrasūryayōḥ॥37॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \nkēdārē cōdakaṁ pītvā punarjanma na vidyatē॥38॥  \ntathā caikādaśī pārtha garbhavāsakṣayaṅkarī।  \naśvamēdhasya yajñasya pr̥thivyāṁ yatphalaṁ labhēt॥39॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \ntapasvinō gr̥hē yasya bhuñjatē ca dvijōttamāḥ॥40॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \ngōsahasrēṇa yatpuṇyaṁ datvā vēdāntapāragē॥41॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \nyēṣāṁ dēhē trayō dēvā brahmaviṣṇumahēśvarāḥ॥42॥  \nvasanti tēṣāṁ tē tulyā ēkādaśyupavāsinaḥ।  \ntē narāḥ puṇyakarmāṇō yē bhaktā haripūjakāḥ॥43॥  \nēkādaśīvratasyāpi puṇyasaṅkhyā na vidyatē।  \nētatpuṇyaṁ bhavēt tasya yatsurairapi durlabham॥44॥  \nēkādaśīsamaṁ nāsti vrataṁ pāpapraṇāśanam॥118॥  \n---śrīpādmē mahāpurāṇē pañcapañcāśatsāhasryāṁ saṁhitāyāmuttarakhaṇḍē umāmahēśvarasaṁvādē ēkādaśyutpatti-muravadhō nāma catvāriṁśō'dhyāyaḥ॥40॥  \n",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458368.5218,
             "jd_start": 2458367.5218,
             "jsonClass": "Interval",
             "name": "full_day"
           },
-          "jsonClass": "FestivalInstance",
+          "jsonClass": "EkadashiFestivalInstance",
           "name": "sarva-ajA-EkAdazI"
         },
         "tiruccendUr_murugan2_AvaNit_tiruvizhA_4m_nAL": {
@@ -254428,13 +254588,21 @@
           "name": "kaTadAnOtsavaH"
         },
         "sarva-parivartinI-EkAdazI": {
+          "description": {
+            "blurb": "parivartinī-ēkādaśī ",
+            "detailed": "The Shukla-paksha Ekadashi of `Bhādrapada` month is known as `parivartinī-ēkādaśī`. Sideways turn inside sleep of Bhagavan Vishnu midway after Shayana Ekadashi. The fruits of fasting on Ekādaśī are greatly extolled in the Padma Purana— A person who bathes at Śaṃkhoddhāra and beholds the image of Viṣṇu does not acquire even a sixteenth of the merit earned by fasting on Ekādaśī. O noble king, even if one gives four lakhs of coins on the days of the Sun's transition between Zodiac signs, it does not equal even a sixteenth of the merit from an Ekādaśī fast! Indeed, fasting on Ekādaśī grants the same religious merit as bathing at Prabhāsa during a lunar or solar eclipse. One who drinks the sacred water at Kedāra is freed from rebirth, and likewise, fasting on Ekādaśī removes the cycle of rebirth. The merit from an Ekādaśī fast is a hundred times greater than the reward of performing an Ashvamedha sacrifice on earth. Fasting on Ekādaśī yields a hundredfold more merit than gifting a thousand cows to a learned brāhmaṇa. Those who fast on Ekādaśī are considered equal to those whose bodies are inhabited by Brahma, Viṣṇu, and Śiva. The merit from observing the Ekādaśī vow is immeasurable, and difficult to obtain even by the Devas. There is no other vow like that of the Ekādaśī, that destroys sins.",
+            "image": "",
+            "references": "- References\n  - Shared Ekadashi shloka and merit paragraph follow EkAdazI-sAmAnya-niyamAH.\n",
+            "shlokas": "vāsudēva jagannātha prāptēyaṁ dvādaśī tava।  \npārśvēna parivartasva sukhaṁ svapihi mādhava॥  \n  \npakṣē pakṣē ca kartavyamēkādaśyāmupōṣaṇam।  \nyadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimātmanaḥ।  \nēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  \n  \nadya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  \nbhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  \npramādādathavā''lasyāddharē kēśava mādhava।  \nvratasyāsya ca vai vighnō na bhavēttvatprasādataḥ॥  \n--padmapurāṇē  \n  \nśrībrahmavaivartē mahāpurāṇē brahmakhaṇḍē sautiśaunakasaṁvādē nāradaṁ prati śivōpadēśē bhakṣyābhakṣyādivivaraṇaṁ nāma saptaviṁśatitamō'dhyāyaḥ---  \nēkādaśyāmanāhāraṁ gr̥hī vipraśca bhāratē।  \nsa ca tiṣṭhati vaikuṇṭhē yāvadvai brahmaṇō vayaḥ॥14॥  \n  \nēkādaśyupavāsaphalaṁ prōktaṁ pādmamahāpurāṇē---  \nśaṅkhōddhārē naraḥ snātvā dr̥ṣṭvā dēvaṁ gadādharam॥35॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nsaṅkrāntiṣu caturlakṣaṁ yō dadāti nr̥pōttama॥36॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nprabhāsakṣētrē yatpuṇyaṁ grahaṇē candrasūryayōḥ॥37॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \nkēdārē cōdakaṁ pītvā punarjanma na vidyatē॥38॥  \ntathā caikādaśī pārtha garbhavāsakṣayaṅkarī।  \naśvamēdhasya yajñasya pr̥thivyāṁ yatphalaṁ labhēt॥39॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \ntapasvinō gr̥hē yasya bhuñjatē ca dvijōttamāḥ॥40॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \ngōsahasrēṇa yatpuṇyaṁ datvā vēdāntapāragē॥41॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \nyēṣāṁ dēhē trayō dēvā brahmaviṣṇumahēśvarāḥ॥42॥  \nvasanti tēṣāṁ tē tulyā ēkādaśyupavāsinaḥ।  \ntē narāḥ puṇyakarmāṇō yē bhaktā haripūjakāḥ॥43॥  \nēkādaśīvratasyāpi puṇyasaṅkhyā na vidyatē।  \nētatpuṇyaṁ bhavēt tasya yatsurairapi durlabham॥44॥  \nēkādaśīsamaṁ nāsti vrataṁ pāpapraṇāśanam॥118॥  \n---śrīpādmē mahāpurāṇē pañcapañcāśatsāhasryāṁ saṁhitāyāmuttarakhaṇḍē umāmahēśvarasaṁvādē ēkādaśyutpatti-muravadhō nāma catvāriṁśō'dhyāyaḥ॥40॥  \n",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458382.5218,
             "jd_start": 2458381.5218,
             "jsonClass": "Interval",
             "name": "full_day"
           },
-          "jsonClass": "FestivalInstance",
+          "jsonClass": "EkadashiFestivalInstance",
           "name": "sarva-parivartinI-EkAdazI"
         }
       },
@@ -268916,13 +269084,21 @@
       },
       "festival_id_to_instance": {
         "sarva-indirA-EkAdazI": {
+          "description": {
+            "blurb": "indirā-ēkādaśī ",
+            "detailed": "The Krishna-paksha Ekadashi of `Bhādrapada` month is known as `indirā-ēkādaśī`. Indrasena's son did Ekadashi and as a result he was shifted from hell to heaven. The fruits of fasting on Ekādaśī are greatly extolled in the Padma Purana— A person who bathes at Śaṃkhoddhāra and beholds the image of Viṣṇu does not acquire even a sixteenth of the merit earned by fasting on Ekādaśī. O noble king, even if one gives four lakhs of coins on the days of the Sun's transition between Zodiac signs, it does not equal even a sixteenth of the merit from an Ekādaśī fast! Indeed, fasting on Ekādaśī grants the same religious merit as bathing at Prabhāsa during a lunar or solar eclipse. One who drinks the sacred water at Kedāra is freed from rebirth, and likewise, fasting on Ekādaśī removes the cycle of rebirth. The merit from an Ekādaśī fast is a hundred times greater than the reward of performing an Ashvamedha sacrifice on earth. Fasting on Ekādaśī yields a hundredfold more merit than gifting a thousand cows to a learned brāhmaṇa. Those who fast on Ekādaśī are considered equal to those whose bodies are inhabited by Brahma, Viṣṇu, and Śiva. The merit from observing the Ekādaśī vow is immeasurable, and difficult to obtain even by the Devas. There is no other vow like that of the Ekādaśī, that destroys sins.",
+            "image": "",
+            "references": "- References\n  - Shared Ekadashi shloka and merit paragraph follow EkAdazI-sAmAnya-niyamAH.\n",
+            "shlokas": "pakṣē pakṣē ca kartavyamēkādaśyāmupōṣaṇam।  \nyadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimātmanaḥ।  \nēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  \n  \nadya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  \nbhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  \npramādādathavā''lasyāddharē kēśava mādhava।  \nvratasyāsya ca vai vighnō na bhavēttvatprasādataḥ॥  \n--padmapurāṇē  \n  \nśrībrahmavaivartē mahāpurāṇē brahmakhaṇḍē sautiśaunakasaṁvādē nāradaṁ prati śivōpadēśē bhakṣyābhakṣyādivivaraṇaṁ nāma saptaviṁśatitamō'dhyāyaḥ---  \nēkādaśyāmanāhāraṁ gr̥hī vipraśca bhāratē।  \nsa ca tiṣṭhati vaikuṇṭhē yāvadvai brahmaṇō vayaḥ॥14॥  \n  \nēkādaśyupavāsaphalaṁ prōktaṁ pādmamahāpurāṇē---  \nśaṅkhōddhārē naraḥ snātvā dr̥ṣṭvā dēvaṁ gadādharam॥35॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nsaṅkrāntiṣu caturlakṣaṁ yō dadāti nr̥pōttama॥36॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nprabhāsakṣētrē yatpuṇyaṁ grahaṇē candrasūryayōḥ॥37॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \nkēdārē cōdakaṁ pītvā punarjanma na vidyatē॥38॥  \ntathā caikādaśī pārtha garbhavāsakṣayaṅkarī।  \naśvamēdhasya yajñasya pr̥thivyāṁ yatphalaṁ labhēt॥39॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \ntapasvinō gr̥hē yasya bhuñjatē ca dvijōttamāḥ॥40॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \ngōsahasrēṇa yatpuṇyaṁ datvā vēdāntapāragē॥41॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \nyēṣāṁ dēhē trayō dēvā brahmaviṣṇumahēśvarāḥ॥42॥  \nvasanti tēṣāṁ tē tulyā ēkādaśyupavāsinaḥ।  \ntē narāḥ puṇyakarmāṇō yē bhaktā haripūjakāḥ॥43॥  \nēkādaśīvratasyāpi puṇyasaṅkhyā na vidyatē।  \nētatpuṇyaṁ bhavēt tasya yatsurairapi durlabham॥44॥  \nēkādaśīsamaṁ nāsti vrataṁ pāpapraṇāśanam॥118॥  \n---śrīpādmē mahāpurāṇē pañcapañcāśatsāhasryāṁ saṁhitāyāmuttarakhaṇḍē umāmahēśvarasaṁvādē ēkādaśyutpatti-muravadhō nāma catvāriṁśō'dhyāyaḥ॥40॥  \n",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458397.5221,
             "jd_start": 2458396.5221,
             "jsonClass": "Interval",
             "name": "full_day"
           },
-          "jsonClass": "FestivalInstance",
+          "jsonClass": "EkadashiFestivalInstance",
           "name": "sarva-indirA-EkAdazI"
         }
       },
@@ -283595,13 +283771,21 @@
           "ordinal": 1033
         },
         "sarva-pApAGkuzA-EkAdazI": {
+          "description": {
+            "blurb": "pāpāṅkuśā-ēkādaśī ",
+            "detailed": "The Shukla-paksha Ekadashi of `Āśvayuja` month is known as `pāpāṅkuśā-ēkādaśī`. The fruits of fasting on Ekādaśī are greatly extolled in the Padma Purana— A person who bathes at Śaṃkhoddhāra and beholds the image of Viṣṇu does not acquire even a sixteenth of the merit earned by fasting on Ekādaśī. O noble king, even if one gives four lakhs of coins on the days of the Sun's transition between Zodiac signs, it does not equal even a sixteenth of the merit from an Ekādaśī fast! Indeed, fasting on Ekādaśī grants the same religious merit as bathing at Prabhāsa during a lunar or solar eclipse. One who drinks the sacred water at Kedāra is freed from rebirth, and likewise, fasting on Ekādaśī removes the cycle of rebirth. The merit from an Ekādaśī fast is a hundred times greater than the reward of performing an Ashvamedha sacrifice on earth. Fasting on Ekādaśī yields a hundredfold more merit than gifting a thousand cows to a learned brāhmaṇa. Those who fast on Ekādaśī are considered equal to those whose bodies are inhabited by Brahma, Viṣṇu, and Śiva. The merit from observing the Ekādaśī vow is immeasurable, and difficult to obtain even by the Devas. There is no other vow like that of the Ekādaśī, that destroys sins.",
+            "image": "",
+            "references": "- References\n  - Shared Ekadashi shloka and merit paragraph follow EkAdazI-sAmAnya-niyamAH.\n",
+            "shlokas": "pakṣē pakṣē ca kartavyamēkādaśyāmupōṣaṇam।  \nyadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimātmanaḥ।  \nēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  \n  \nadya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  \nbhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  \npramādādathavā''lasyāddharē kēśava mādhava।  \nvratasyāsya ca vai vighnō na bhavēttvatprasādataḥ॥  \n--padmapurāṇē  \n  \nśrībrahmavaivartē mahāpurāṇē brahmakhaṇḍē sautiśaunakasaṁvādē nāradaṁ prati śivōpadēśē bhakṣyābhakṣyādivivaraṇaṁ nāma saptaviṁśatitamō'dhyāyaḥ---  \nēkādaśyāmanāhāraṁ gr̥hī vipraśca bhāratē।  \nsa ca tiṣṭhati vaikuṇṭhē yāvadvai brahmaṇō vayaḥ॥14॥  \n  \nēkādaśyupavāsaphalaṁ prōktaṁ pādmamahāpurāṇē---  \nśaṅkhōddhārē naraḥ snātvā dr̥ṣṭvā dēvaṁ gadādharam॥35॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nsaṅkrāntiṣu caturlakṣaṁ yō dadāti nr̥pōttama॥36॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nprabhāsakṣētrē yatpuṇyaṁ grahaṇē candrasūryayōḥ॥37॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \nkēdārē cōdakaṁ pītvā punarjanma na vidyatē॥38॥  \ntathā caikādaśī pārtha garbhavāsakṣayaṅkarī।  \naśvamēdhasya yajñasya pr̥thivyāṁ yatphalaṁ labhēt॥39॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \ntapasvinō gr̥hē yasya bhuñjatē ca dvijōttamāḥ॥40॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \ngōsahasrēṇa yatpuṇyaṁ datvā vēdāntapāragē॥41॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \nyēṣāṁ dēhē trayō dēvā brahmaviṣṇumahēśvarāḥ॥42॥  \nvasanti tēṣāṁ tē tulyā ēkādaśyupavāsinaḥ।  \ntē narāḥ puṇyakarmāṇō yē bhaktā haripūjakāḥ॥43॥  \nēkādaśīvratasyāpi puṇyasaṅkhyā na vidyatē।  \nētatpuṇyaṁ bhavēt tasya yatsurairapi durlabham॥44॥  \nēkādaśīsamaṁ nāsti vrataṁ pāpapraṇāśanam॥118॥  \n---śrīpādmē mahāpurāṇē pañcapañcāśatsāhasryāṁ saṁhitāyāmuttarakhaṇḍē umāmahēśvarasaṁvādē ēkādaśyutpatti-muravadhō nāma catvāriṁśō'dhyāyaḥ॥40॥  \n",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458412.5233,
             "jd_start": 2458411.5232,
             "jsonClass": "Interval",
             "name": "full_day"
           },
-          "jsonClass": "FestivalInstance",
+          "jsonClass": "EkadashiFestivalInstance",
           "name": "sarva-pApAGkuzA-EkAdazI"
         },
         "tripuSkara-yOgaH~6": {
@@ -297101,13 +297285,21 @@
           "name": "kAmAkSI-AvirbhAvaH"
         },
         "smArta-ramA-EkAdazI": {
+          "description": {
+            "blurb": "ramā-ēkādaśī ",
+            "detailed": "The Krishna-paksha Ekadashi of `Āśvayuja` month is known as `ramā-ēkādaśī`. The fruits of fasting on Ekādaśī are greatly extolled in the Padma Purana— A person who bathes at Śaṃkhoddhāra and beholds the image of Viṣṇu does not acquire even a sixteenth of the merit earned by fasting on Ekādaśī. O noble king, even if one gives four lakhs of coins on the days of the Sun's transition between Zodiac signs, it does not equal even a sixteenth of the merit from an Ekādaśī fast! Indeed, fasting on Ekādaśī grants the same religious merit as bathing at Prabhāsa during a lunar or solar eclipse. One who drinks the sacred water at Kedāra is freed from rebirth, and likewise, fasting on Ekādaśī removes the cycle of rebirth. The merit from an Ekādaśī fast is a hundred times greater than the reward of performing an Ashvamedha sacrifice on earth. Fasting on Ekādaśī yields a hundredfold more merit than gifting a thousand cows to a learned brāhmaṇa. Those who fast on Ekādaśī are considered equal to those whose bodies are inhabited by Brahma, Viṣṇu, and Śiva. The merit from observing the Ekādaśī vow is immeasurable, and difficult to obtain even by the Devas. There is no other vow like that of the Ekādaśī, that destroys sins.",
+            "image": "",
+            "references": "- References\n  - Shared Ekadashi shloka and merit paragraph follow EkAdazI-sAmAnya-niyamAH.\n",
+            "shlokas": "pakṣē pakṣē ca kartavyamēkādaśyāmupōṣaṇam।  \nyadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimātmanaḥ।  \nēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  \n  \nadya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  \nbhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  \npramādādathavā''lasyāddharē kēśava mādhava।  \nvratasyāsya ca vai vighnō na bhavēttvatprasādataḥ॥  \n--padmapurāṇē  \n  \nśrībrahmavaivartē mahāpurāṇē brahmakhaṇḍē sautiśaunakasaṁvādē nāradaṁ prati śivōpadēśē bhakṣyābhakṣyādivivaraṇaṁ nāma saptaviṁśatitamō'dhyāyaḥ---  \nēkādaśyāmanāhāraṁ gr̥hī vipraśca bhāratē।  \nsa ca tiṣṭhati vaikuṇṭhē yāvadvai brahmaṇō vayaḥ॥14॥  \n  \nēkādaśyupavāsaphalaṁ prōktaṁ pādmamahāpurāṇē---  \nśaṅkhōddhārē naraḥ snātvā dr̥ṣṭvā dēvaṁ gadādharam॥35॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nsaṅkrāntiṣu caturlakṣaṁ yō dadāti nr̥pōttama॥36॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nprabhāsakṣētrē yatpuṇyaṁ grahaṇē candrasūryayōḥ॥37॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \nkēdārē cōdakaṁ pītvā punarjanma na vidyatē॥38॥  \ntathā caikādaśī pārtha garbhavāsakṣayaṅkarī।  \naśvamēdhasya yajñasya pr̥thivyāṁ yatphalaṁ labhēt॥39॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \ntapasvinō gr̥hē yasya bhuñjatē ca dvijōttamāḥ॥40॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \ngōsahasrēṇa yatpuṇyaṁ datvā vēdāntapāragē॥41॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \nyēṣāṁ dēhē trayō dēvā brahmaviṣṇumahēśvarāḥ॥42॥  \nvasanti tēṣāṁ tē tulyā ēkādaśyupavāsinaḥ।  \ntē narāḥ puṇyakarmāṇō yē bhaktā haripūjakāḥ॥43॥  \nēkādaśīvratasyāpi puṇyasaṅkhyā na vidyatē।  \nētatpuṇyaṁ bhavēt tasya yatsurairapi durlabham॥44॥  \nēkādaśīsamaṁ nāsti vrataṁ pāpapraṇāśanam॥118॥  \n---śrīpādmē mahāpurāṇē pañcapañcāśatsāhasryāṁ saṁhitāyāmuttarakhaṇḍē umāmahēśvarasaṁvādē ēkādaśyutpatti-muravadhō nāma catvāriṁśō'dhyāyaḥ॥40॥  \n",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458426.5257,
             "jd_start": 2458425.5255,
             "jsonClass": "Interval",
             "name": "full_day"
           },
-          "jsonClass": "FestivalInstance",
+          "jsonClass": "EkadashiFestivalInstance",
           "name": "smArta-ramA-EkAdazI"
         },
         "tripuSkara-yOgaH~6": {
@@ -298067,13 +298259,21 @@
           "name": "tripuSkara-yOgaH~0"
         },
         "vaiSNava-ramA-EkAdazI": {
+          "description": {
+            "blurb": "ramā-ēkādaśī ",
+            "detailed": "The Krishna-paksha Ekadashi of `Āśvayuja` month is known as `ramā-ēkādaśī`. The fruits of fasting on Ekādaśī are greatly extolled in the Padma Purana— A person who bathes at Śaṃkhoddhāra and beholds the image of Viṣṇu does not acquire even a sixteenth of the merit earned by fasting on Ekādaśī. O noble king, even if one gives four lakhs of coins on the days of the Sun's transition between Zodiac signs, it does not equal even a sixteenth of the merit from an Ekādaśī fast! Indeed, fasting on Ekādaśī grants the same religious merit as bathing at Prabhāsa during a lunar or solar eclipse. One who drinks the sacred water at Kedāra is freed from rebirth, and likewise, fasting on Ekādaśī removes the cycle of rebirth. The merit from an Ekādaśī fast is a hundred times greater than the reward of performing an Ashvamedha sacrifice on earth. Fasting on Ekādaśī yields a hundredfold more merit than gifting a thousand cows to a learned brāhmaṇa. Those who fast on Ekādaśī are considered equal to those whose bodies are inhabited by Brahma, Viṣṇu, and Śiva. The merit from observing the Ekādaśī vow is immeasurable, and difficult to obtain even by the Devas. There is no other vow like that of the Ekādaśī, that destroys sins.",
+            "image": "",
+            "references": "- References\n  - Shared Ekadashi shloka and merit paragraph follow EkAdazI-sAmAnya-niyamAH.\n",
+            "shlokas": "pakṣē pakṣē ca kartavyamēkādaśyāmupōṣaṇam।  \nyadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimātmanaḥ।  \nēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  \n  \nadya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  \nbhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  \npramādādathavā''lasyāddharē kēśava mādhava।  \nvratasyāsya ca vai vighnō na bhavēttvatprasādataḥ॥  \n--padmapurāṇē  \n  \nśrībrahmavaivartē mahāpurāṇē brahmakhaṇḍē sautiśaunakasaṁvādē nāradaṁ prati śivōpadēśē bhakṣyābhakṣyādivivaraṇaṁ nāma saptaviṁśatitamō'dhyāyaḥ---  \nēkādaśyāmanāhāraṁ gr̥hī vipraśca bhāratē।  \nsa ca tiṣṭhati vaikuṇṭhē yāvadvai brahmaṇō vayaḥ॥14॥  \n  \nēkādaśyupavāsaphalaṁ prōktaṁ pādmamahāpurāṇē---  \nśaṅkhōddhārē naraḥ snātvā dr̥ṣṭvā dēvaṁ gadādharam॥35॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nsaṅkrāntiṣu caturlakṣaṁ yō dadāti nr̥pōttama॥36॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nprabhāsakṣētrē yatpuṇyaṁ grahaṇē candrasūryayōḥ॥37॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \nkēdārē cōdakaṁ pītvā punarjanma na vidyatē॥38॥  \ntathā caikādaśī pārtha garbhavāsakṣayaṅkarī।  \naśvamēdhasya yajñasya pr̥thivyāṁ yatphalaṁ labhēt॥39॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \ntapasvinō gr̥hē yasya bhuñjatē ca dvijōttamāḥ॥40॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \ngōsahasrēṇa yatpuṇyaṁ datvā vēdāntapāragē॥41॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \nyēṣāṁ dēhē trayō dēvā brahmaviṣṇumahēśvarāḥ॥42॥  \nvasanti tēṣāṁ tē tulyā ēkādaśyupavāsinaḥ।  \ntē narāḥ puṇyakarmāṇō yē bhaktā haripūjakāḥ॥43॥  \nēkādaśīvratasyāpi puṇyasaṅkhyā na vidyatē।  \nētatpuṇyaṁ bhavēt tasya yatsurairapi durlabham॥44॥  \nēkādaśīsamaṁ nāsti vrataṁ pāpapraṇāśanam॥118॥  \n---śrīpādmē mahāpurāṇē pañcapañcāśatsāhasryāṁ saṁhitāyāmuttarakhaṇḍē umāmahēśvarasaṁvādē ēkādaśyutpatti-muravadhō nāma catvāriṁśō'dhyāyaḥ॥40॥  \n",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458427.526,
             "jd_start": 2458426.5257,
             "jsonClass": "Interval",
             "name": "full_day"
           },
-          "jsonClass": "FestivalInstance",
+          "jsonClass": "EkadashiFestivalInstance",
           "name": "vaiSNava-ramA-EkAdazI"
         },
         "vaidhRti-zrAddham": {
@@ -312595,13 +312795,21 @@
           "name": "kaizika-EkAdazI"
         },
         "sarva-utthAna-EkAdazI": {
+          "description": {
+            "blurb": "utthāna-ēkādaśī ",
+            "detailed": "The Shukla-paksha Ekadashi of `Kārttika` month is known as `utthāna-ēkādaśī`. The fruits of fasting on Ekādaśī are greatly extolled in the Padma Purana— A person who bathes at Śaṃkhoddhāra and beholds the image of Viṣṇu does not acquire even a sixteenth of the merit earned by fasting on Ekādaśī. O noble king, even if one gives four lakhs of coins on the days of the Sun's transition between Zodiac signs, it does not equal even a sixteenth of the merit from an Ekādaśī fast! Indeed, fasting on Ekādaśī grants the same religious merit as bathing at Prabhāsa during a lunar or solar eclipse. One who drinks the sacred water at Kedāra is freed from rebirth, and likewise, fasting on Ekādaśī removes the cycle of rebirth. The merit from an Ekādaśī fast is a hundred times greater than the reward of performing an Ashvamedha sacrifice on earth. Fasting on Ekādaśī yields a hundredfold more merit than gifting a thousand cows to a learned brāhmaṇa. Those who fast on Ekādaśī are considered equal to those whose bodies are inhabited by Brahma, Viṣṇu, and Śiva. The merit from observing the Ekādaśī vow is immeasurable, and difficult to obtain even by the Devas. There is no other vow like that of the Ekādaśī, that destroys sins.",
+            "image": "",
+            "references": "- References\n  - Shared Ekadashi shloka and merit paragraph follow EkAdazI-sAmAnya-niyamAH.\n",
+            "shlokas": "pakṣē pakṣē ca kartavyamēkādaśyāmupōṣaṇam।  \nyadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimātmanaḥ।  \nēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  \n  \nadya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  \nbhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  \npramādādathavā''lasyāddharē kēśava mādhava।  \nvratasyāsya ca vai vighnō na bhavēttvatprasādataḥ॥  \n--padmapurāṇē  \n  \nśrībrahmavaivartē mahāpurāṇē brahmakhaṇḍē sautiśaunakasaṁvādē nāradaṁ prati śivōpadēśē bhakṣyābhakṣyādivivaraṇaṁ nāma saptaviṁśatitamō'dhyāyaḥ---  \nēkādaśyāmanāhāraṁ gr̥hī vipraśca bhāratē।  \nsa ca tiṣṭhati vaikuṇṭhē yāvadvai brahmaṇō vayaḥ॥14॥  \n  \nēkādaśyupavāsaphalaṁ prōktaṁ pādmamahāpurāṇē---  \nśaṅkhōddhārē naraḥ snātvā dr̥ṣṭvā dēvaṁ gadādharam॥35॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nsaṅkrāntiṣu caturlakṣaṁ yō dadāti nr̥pōttama॥36॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nprabhāsakṣētrē yatpuṇyaṁ grahaṇē candrasūryayōḥ॥37॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \nkēdārē cōdakaṁ pītvā punarjanma na vidyatē॥38॥  \ntathā caikādaśī pārtha garbhavāsakṣayaṅkarī।  \naśvamēdhasya yajñasya pr̥thivyāṁ yatphalaṁ labhēt॥39॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \ntapasvinō gr̥hē yasya bhuñjatē ca dvijōttamāḥ॥40॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \ngōsahasrēṇa yatpuṇyaṁ datvā vēdāntapāragē॥41॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \nyēṣāṁ dēhē trayō dēvā brahmaviṣṇumahēśvarāḥ॥42॥  \nvasanti tēṣāṁ tē tulyā ēkādaśyupavāsinaḥ।  \ntē narāḥ puṇyakarmāṇō yē bhaktā haripūjakāḥ॥43॥  \nēkādaśīvratasyāpi puṇyasaṅkhyā na vidyatē।  \nētatpuṇyaṁ bhavēt tasya yatsurairapi durlabham॥44॥  \nēkādaśīsamaṁ nāsti vrataṁ pāpapraṇāśanam॥118॥  \n---śrīpādmē mahāpurāṇē pañcapañcāśatsāhasryāṁ saṁhitāyāmuttarakhaṇḍē umāmahēśvarasaṁvādē ēkādaśyutpatti-muravadhō nāma catvāriṁśō'dhyāyaḥ॥40॥  \n",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458442.5302,
             "jd_start": 2458441.5299,
             "jsonClass": "Interval",
             "name": "full_day"
           },
-          "jsonClass": "FestivalInstance",
+          "jsonClass": "EkadashiFestivalInstance",
           "name": "sarva-utthAna-EkAdazI"
         }
       },
@@ -326291,13 +326499,21 @@
           "name": "sOmacitrA-naktavrata-yOgaH"
         },
         "sarva-utpannA-EkAdazI": {
+          "description": {
+            "blurb": "utpannā-ēkādaśī ",
+            "detailed": "The Krishna-paksha Ekadashi of `Kārttika` month is known as `utpannā-ēkādaśī`. Yudhiṣṭhira inquires about the origin of the auspicious Ekādaśī day and its importance in the universe, especially for the deities. In response, Bhagavan Viṣṇu narrates a story from the Kṛta yuga about a fierce demon named Mura, who terrorized the Devas, even defeating Indra and forcing them to flee from Svarga. Seeking help, Indra and the Devas approached Bhagavan Śiva, who directed them to Bhagavan Viṣṇu, the protector. The Devas, led by Indra, found Bhagavan Viṣṇu asleep in the water and pleaded for his help. Bhagavan Viṣṇu inquired about the demon, and Indra explained Mura's origins, his strength, and how he had created an alternate realm of Devas and occupied Svarga. Enraged, Bhagavan Viṣṇu vowed to defeat Mura and attacked his forces. Though many demons were killed, Mura proved to be a formidable opponent, leading to a protracted battle with Bhagavan Viṣṇu that lasted a thousand divine years. Eventually, exhausted, Bhagavan Viṣṇu retreated to the cave of Siṃhavatī in Badarikāśrama to rest. Mura pursued him, believing he had won. As Bhagavan Viṣṇu slept, Mura prepared to kill him. At that moment, a divine maiden, born from Bhagavan Viṣṇu's radiance, appeared and challenged Mura. In a fierce battle, the maiden, using her divine powers, defeated Mura and reduced him to ash with a single powerful sound. When Bhagavan Viṣṇu awoke, he was astonished to find Mura defeated and asked the maiden how she had accomplished this feat. She explained that she killed Mura to protect the world while Bhagavan Viṣṇu slept. Bhagavan Viṣṇu, impressed, offered her a boon. The maiden, who identified herself as Ekādaśī, requested to be the most auspicious of days, granting all those who fast in her honor health, wealth, righteousness, and ultimately, salvation. Bhagavan Viṣṇu granted her wish, decreeing that Ekādaśī would become the holiest day, capable of destroying all sins and conferring (even) salvation to those who observe it. Thus came about the birth of Ekādaśī and the Ekādaśī vrata itself---thus, this day in Kartika is known by the name of utpannā, i.e. birth. The fruits of fasting on Ekādaśī are greatly extolled in the Padma Purana— A person who bathes at Śaṃkhoddhāra and beholds the image of Viṣṇu does not acquire even a sixteenth of the merit earned by fasting on Ekādaśī. O noble king, even if one gives four lakhs of coins on the days of the Sun's transition between Zodiac signs, it does not equal even a sixteenth of the merit from an Ekādaśī fast! Indeed, fasting on Ekādaśī grants the same religious merit as bathing at Prabhāsa during a lunar or solar eclipse. One who drinks the sacred water at Kedāra is freed from rebirth, and likewise, fasting on Ekādaśī removes the cycle of rebirth. The merit from an Ekādaśī fast is a hundred times greater than the reward of performing an Ashvamedha sacrifice on earth. Fasting on Ekādaśī yields a hundredfold more merit than gifting a thousand cows to a learned brāhmaṇa. Those who fast on Ekādaśī are considered equal to those whose bodies are inhabited by Brahma, Viṣṇu, and Śiva. The merit from observing the Ekādaśī vow is immeasurable, and difficult to obtain even by the Devas. There is no other vow like that of the Ekādaśī, that destroys sins.",
+            "image": "",
+            "references": "- References\n  - Shared Ekadashi shloka and merit paragraph follow EkAdazI-sAmAnya-niyamAH.\n",
+            "shlokas": "pakṣē pakṣē ca kartavyamēkādaśyāmupōṣaṇam।  \nyadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimātmanaḥ।  \nēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  \n  \nadya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  \nbhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  \npramādādathavā''lasyāddharē kēśava mādhava।  \nvratasyāsya ca vai vighnō na bhavēttvatprasādataḥ॥  \n--padmapurāṇē  \n  \nśrībrahmavaivartē mahāpurāṇē brahmakhaṇḍē sautiśaunakasaṁvādē nāradaṁ prati śivōpadēśē bhakṣyābhakṣyādivivaraṇaṁ nāma saptaviṁśatitamō'dhyāyaḥ---  \nēkādaśyāmanāhāraṁ gr̥hī vipraśca bhāratē।  \nsa ca tiṣṭhati vaikuṇṭhē yāvadvai brahmaṇō vayaḥ॥14॥  \n  \nyudhiṣṭhira uvāca---  \nutpannā sā kathaṁ dēva puṇyā caikādaśī tithiḥ।  \nkathaṁ pavitrā viśvē'sminkathaṁ vai dēvatāpriyā॥49॥  \nśrībhagavānuvāca---  \npurā kr̥tayugē pārtha muranāmēti dānavaḥ।  \natyadbhutō mahāraudraḥ sarvadēvabhayaṅkaraḥ॥50॥  \n...  \nprasuptaṁ tatra māṁ dr̥ṣṭvā dānavō harṣamāgataḥ॥83॥  \nitthaṁ māṁ nirjitaṁ matvā praviṣṭaṁ śaṅkayā harim।  \nniḥsandēhaṁ haniṣyāmi dānavānāṁ bhayaṅkaram॥84॥  \nnirgatā kanyakā tatra viṣṇudēhādyudhiṣṭhira।  \nrūpavatī susaubhāgyā divyapraharaṇāyudhā॥85॥  \ntasya tējōṁ'śasambhūtā mahābalaparākramā।  \ndr̥ṣṭā sā dānavēndrēṇa muranāmnā yudhiṣṭhira॥86॥  \nyuddhaṁ samāhitaṁ tēna striyā caiva prayācitam।  \nkanyakā yudhyatē tatra sarvayuddhaviśāradā॥87॥  \nhuṅkārairbhasmasājjātō muranāmā mahāsuraḥ।  \nnihatē dānavē tasmiṁstatra dēvastvabudhyata॥88॥  \npatitaṁ dānavaṁ dr̥ṣṭvā tatō vismayamāgataḥ।  \nkēnāyaṁ ca hatō raudrō hyatyugrō mama śatrukaḥ॥89॥  \natyugraṁ ca kr̥taṁ karma mama kāruṇyatā kr̥tam।  \nkanyōvāca---  \ntēna dēvāśca gandharvāḥ sayakṣōragarākṣasāḥ॥90॥  \nindrādyāḥ sakalā jitvā svargāccaiva nirākr̥tāḥ।  \nhariḥ suptō mayā dr̥ṣṭō muraḥ pr̥ṣṭhē samāgataḥ॥91॥  \nsaṁhariṣyati trailōkyaṁ suptē caiva jarnādanē।  \nśrīkr̥ṣṇa uvāca---  \ntasyāstadvacanaṁ śrutvā viṣṇurvacanamabravīt॥92॥  \nśrīviṣṇuruvāca---  \nahaṁ ca nirjitō yēna kathaṁ sō'pi tvayā jitaḥ।  \nēkādaśyuvāca---  \ntvatprasādācca bhōḥ svāminmahādaityō mayā hataḥ॥93॥  \nśrībhagavānuvāca---  \nānandaṁ triṣu lōkēṣu munayō dēvatā gatāḥ।  \nbrūhi tvaṁ ca mayā bhadrē yattē manasi rōcatē।  \ndadāmi ca na sandēhō yatsurairapi durlabham॥94॥  \n...  \nēkādaśyuvāca---  \ntribhuvanēṣu ca dēvēśa caturyugēṣu sāmpratam।  \ntriṣu lōkēṣu sarvatra tādr̥śaṁ kuru mē prabhō॥98॥  \nsarvatīrthapradhānaṁ hi sarvavighnavināśinī।  \nsarvasiddhikarī dēvī tvatprasādādbhavāmyaham॥99॥  \nmāmupōṣyanti yē bhaktyā tava bhaktyā janārdana।  \nsarvasiddhirbhavēttēṣāṁ yadi tuṣṭō'si mē prabhō॥100॥  \nupavāsaṁ ca naktaṁ ca ēkabhaktaṁ karōti ca।  \ntasya vittaṁ ca dharmaṁ ca mōkṣaṁ vai dēhi mādhava॥101॥  \nviṣṇuruvāca---  \nyattvaṁ vadasi kalyāṇi tatsarvaṁ ca bhaviṣyati।  \nsarvānmanōrathānbhadrē dāsyasi tvaṁ ca nānyathā॥102॥  \nmama bhaktāśca yē lōkē yē ca bhaktāstu kārttikē।  \n---śrīpādmē mahāpurāṇē pañcapañcāśatsāhasryāṁ saṁhitāyāmuttarakhaṇḍē umāmahēśvarasaṁvādē ēkādaśyutpatti-muravadhō nāma catvāriṁśō'dhyāyaḥ॥40॥  \n  \nēkādaśyupavāsaphalaṁ prōktaṁ pādmamahāpurāṇē---  \nśaṅkhōddhārē naraḥ snātvā dr̥ṣṭvā dēvaṁ gadādharam॥35॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nsaṅkrāntiṣu caturlakṣaṁ yō dadāti nr̥pōttama॥36॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nprabhāsakṣētrē yatpuṇyaṁ grahaṇē candrasūryayōḥ॥37॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \nkēdārē cōdakaṁ pītvā punarjanma na vidyatē॥38॥  \ntathā caikādaśī pārtha garbhavāsakṣayaṅkarī।  \naśvamēdhasya yajñasya pr̥thivyāṁ yatphalaṁ labhēt॥39॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \ntapasvinō gr̥hē yasya bhuñjatē ca dvijōttamāḥ॥40॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \ngōsahasrēṇa yatpuṇyaṁ datvā vēdāntapāragē॥41॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \nyēṣāṁ dēhē trayō dēvā brahmaviṣṇumahēśvarāḥ॥42॥  \nvasanti tēṣāṁ tē tulyā ēkādaśyupavāsinaḥ।  \ntē narāḥ puṇyakarmāṇō yē bhaktā haripūjakāḥ॥43॥  \nēkādaśīvratasyāpi puṇyasaṅkhyā na vidyatē।  \nētatpuṇyaṁ bhavēt tasya yatsurairapi durlabham॥44॥  \nēkādaśīsamaṁ nāsti vrataṁ pāpapraṇāśanam॥118॥  \n---śrīpādmē mahāpurāṇē pañcapañcāśatsāhasryāṁ saṁhitāyāmuttarakhaṇḍē umāmahēśvarasaṁvādē ēkādaśyutpatti-muravadhō nāma catvāriṁśō'dhyāyaḥ॥40॥  \n",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458456.5352,
             "jd_start": 2458455.5348,
             "jsonClass": "Interval",
             "name": "full_day"
           },
-          "jsonClass": "FestivalInstance",
+          "jsonClass": "EkadashiFestivalInstance",
           "name": "sarva-utpannA-EkAdazI"
         }
       },
@@ -340507,13 +340723,21 @@
           "name": "bhaumAzvinI-yOgaH"
         },
         "smArta-mOkSadA-EkAdazI_(gRhastha)": {
+          "description": {
+            "blurb": "mōkṣadā-ēkādaśī ",
+            "detailed": "The Shukla-paksha Ekadashi of `Mārgaśīrṣa` month is known as `mōkṣadā-ēkādaśī`. During the bright half of Mārgaśīrṣa, the Mokṣadā Ekādaśī vratam is observed, and it is recommended that its religious merits be dedicated to deceased ancestors for their salvation, as stated by Brahmā. King Vaikhānasa, after hearing a sage's advice, returned home and observed this vow during Mārgaśīrṣa. Just as he dedicated its merits to his father, a shower of flowers fell from the sky, leading to a miracle --- celestial event where flowers showered from the sky, and Vaikhānasa's father and ancestors attained salvation! From the heavens, the father blessed his son and ascended to the divine realm. Observing the Mokṣadā Ekādaśī vratam eradicates sins and grants salvation after death. This Ekādaśī is deemed unparalleled in its ability to offer salvation. The extent of its religious merit is immeasurable, likened to a wish-fulfilling gem. Simply reading or hearing of this vratam bestows religious merit comparable to that of a Vājapeya sacrifice. The fruits of fasting on Ekādaśī are greatly extolled in the Padma Purana— A person who bathes at Śaṃkhoddhāra and beholds the image of Viṣṇu does not acquire even a sixteenth of the merit earned by fasting on Ekādaśī. O noble king, even if one gives four lakhs of coins on the days of the Sun's transition between Zodiac signs, it does not equal even a sixteenth of the merit from an Ekādaśī fast! Indeed, fasting on Ekādaśī grants the same religious merit as bathing at Prabhāsa during a lunar or solar eclipse. One who drinks the sacred water at Kedāra is freed from rebirth, and likewise, fasting on Ekādaśī removes the cycle of rebirth. The merit from an Ekādaśī fast is a hundred times greater than the reward of performing an Ashvamedha sacrifice on earth. Fasting on Ekādaśī yields a hundredfold more merit than gifting a thousand cows to a learned brāhmaṇa. Those who fast on Ekādaśī are considered equal to those whose bodies are inhabited by Brahma, Viṣṇu, and Śiva. The merit from observing the Ekādaśī vow is immeasurable, and difficult to obtain even by the Devas. There is no other vow like that of the Ekādaśī, that destroys sins.",
+            "image": "",
+            "references": "- References\n  - Shared Ekadashi shloka and merit paragraph follow EkAdazI-sAmAnya-niyamAH.\n",
+            "shlokas": "pakṣē pakṣē ca kartavyamēkādaśyāmupōṣaṇam।  \nyadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimātmanaḥ।  \nēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  \n  \nadya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  \nbhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  \npramādādathavā''lasyāddharē kēśava mādhava।  \nvratasyāsya ca vai vighnō na bhavēttvatprasādataḥ॥  \n--padmapurāṇē  \n  \nśrībrahmavaivartē mahāpurāṇē brahmakhaṇḍē sautiśaunakasaṁvādē nāradaṁ prati śivōpadēśē bhakṣyābhakṣyādivivaraṇaṁ nāma saptaviṁśatitamō'dhyāyaḥ---  \nēkādaśyāmanāhāraṁ gr̥hī vipraśca bhāratē।  \nsa ca tiṣṭhati vaikuṇṭhē yāvadvai brahmaṇō vayaḥ॥14॥  \n  \nēkādaśyupavāsaphalaṁ prōktaṁ pādmamahāpurāṇē---  \nśaṅkhōddhārē naraḥ snātvā dr̥ṣṭvā dēvaṁ gadādharam॥35॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nsaṅkrāntiṣu caturlakṣaṁ yō dadāti nr̥pōttama॥36॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nprabhāsakṣētrē yatpuṇyaṁ grahaṇē candrasūryayōḥ॥37॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \nkēdārē cōdakaṁ pītvā punarjanma na vidyatē॥38॥  \ntathā caikādaśī pārtha garbhavāsakṣayaṅkarī।  \naśvamēdhasya yajñasya pr̥thivyāṁ yatphalaṁ labhēt॥39॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \ntapasvinō gr̥hē yasya bhuñjatē ca dvijōttamāḥ॥40॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \ngōsahasrēṇa yatpuṇyaṁ datvā vēdāntapāragē॥41॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \nyēṣāṁ dēhē trayō dēvā brahmaviṣṇumahēśvarāḥ॥42॥  \nvasanti tēṣāṁ tē tulyā ēkādaśyupavāsinaḥ।  \ntē narāḥ puṇyakarmāṇō yē bhaktā haripūjakāḥ॥43॥  \nēkādaśīvratasyāpi puṇyasaṅkhyā na vidyatē।  \nētatpuṇyaṁ bhavēt tasya yatsurairapi durlabham॥44॥  \nēkādaśīsamaṁ nāsti vrataṁ pāpapraṇāśanam॥118॥  \n---śrīpādmē mahāpurāṇē pañcapañcāśatsāhasryāṁ saṁhitāyāmuttarakhaṇḍē umāmahēśvarasaṁvādē ēkādaśyutpatti-muravadhō nāma catvāriṁśō'dhyāyaḥ॥40॥  \nmārgaśīrṣē sitē pakṣē mōkṣā nāmēti nāmataḥ।  \nsarvaiścētad vrataṁ kāryaṁ pitrē puṇyaṁ pradīyatām॥39॥  \ntēna puṇyaprabhāvēna mōkṣastēṣāṁ bhaviṣyati।  \nsatyamētanmahābhāga brahmaṇō vacanaṁ yathā॥40॥  \nmunērvākyaṁ tataḥ śrutvā svagr̥haṁ punarāgataḥ।  \nmārgaśīrṣastathā māsaḥ prāptaḥ kaṣṭēna tēna vai॥41॥  \nmunērvākyēna tatkr̥tvā vrataṁ vaikhānasō nr̥paḥ।  \nadadatpuṇyamakhilaiḥ sārddhaṁ pitrē sa bhūmipaḥ॥42॥  \ndattē puṇyakṣaṇēnaiva puṣpavr̥ṣṭirabhūddivi।  \nvaikhānasasya tātō vai pitr̥bhirmōkṣamāviśat॥43॥  \nrājānaṁ cāntarikṣē sa giraṁ puṇyāmuvāca ha।  \nsvastisvastīti tē putra prōcya caivaṁ divaṁ gataḥ॥44॥  \nēvaṁ yaḥ kurutē rājan mōkṣāmēkādaśīṁ śubhām।  \ntasya pāpāni naśyanti mr̥tō mōkṣamavāpnuyāt॥45॥  \nnātaḥ paratarā kācinmōkṣadaikādaśī bhavēt।  \npuṇyasaṅkhyāṁ na jānāmi rājan mē priyakr̥d vratam॥46॥  \ncintāmaṇisamā hyēṣā nr̥ṇāṁ mōkṣapradāyinī।  \npaṭhanācchravaṇādasyā vājapēyaphalaṁ labhēt॥47॥  \n---iti śrīpādmē mahāpurāṇa uttarakhaṇḍa umāpatināradasaṁvādē mārgaśīrṣa-śukla-mōkṣadā ēkādaśī nāmaikacatvāriṁśō'dhyāyaḥ",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458471.5409,
             "jd_start": 2458470.5405,
             "jsonClass": "Interval",
             "name": "full_day"
           },
-          "jsonClass": "FestivalInstance",
+          "jsonClass": "EkadashiFestivalInstance",
           "name": "smArta-mOkSadA-EkAdazI_(gRhastha)"
         },
         "smArta-vaikuNTha-EkAdazI_(gRhastha)": {
@@ -341467,13 +341691,21 @@
           "name": "kucEla-dinam"
         },
         "smArta-mOkSadA-EkAdazI_(sannyasta)": {
+          "description": {
+            "blurb": "mōkṣadā-ēkādaśī ",
+            "detailed": "The Shukla-paksha Ekadashi of `Mārgaśīrṣa` month is known as `mōkṣadā-ēkādaśī`. During the bright half of Mārgaśīrṣa, the Mokṣadā Ekādaśī vratam is observed, and it is recommended that its religious merits be dedicated to deceased ancestors for their salvation, as stated by Brahmā. King Vaikhānasa, after hearing a sage's advice, returned home and observed this vow during Mārgaśīrṣa. Just as he dedicated its merits to his father, a shower of flowers fell from the sky, leading to a miracle --- celestial event where flowers showered from the sky, and Vaikhānasa's father and ancestors attained salvation! From the heavens, the father blessed his son and ascended to the divine realm. Observing the Mokṣadā Ekādaśī vratam eradicates sins and grants salvation after death. This Ekādaśī is deemed unparalleled in its ability to offer salvation. The extent of its religious merit is immeasurable, likened to a wish-fulfilling gem. Simply reading or hearing of this vratam bestows religious merit comparable to that of a Vājapeya sacrifice. The fruits of fasting on Ekādaśī are greatly extolled in the Padma Purana— A person who bathes at Śaṃkhoddhāra and beholds the image of Viṣṇu does not acquire even a sixteenth of the merit earned by fasting on Ekādaśī. O noble king, even if one gives four lakhs of coins on the days of the Sun's transition between Zodiac signs, it does not equal even a sixteenth of the merit from an Ekādaśī fast! Indeed, fasting on Ekādaśī grants the same religious merit as bathing at Prabhāsa during a lunar or solar eclipse. One who drinks the sacred water at Kedāra is freed from rebirth, and likewise, fasting on Ekādaśī removes the cycle of rebirth. The merit from an Ekādaśī fast is a hundred times greater than the reward of performing an Ashvamedha sacrifice on earth. Fasting on Ekādaśī yields a hundredfold more merit than gifting a thousand cows to a learned brāhmaṇa. Those who fast on Ekādaśī are considered equal to those whose bodies are inhabited by Brahma, Viṣṇu, and Śiva. The merit from observing the Ekādaśī vow is immeasurable, and difficult to obtain even by the Devas. There is no other vow like that of the Ekādaśī, that destroys sins.",
+            "image": "",
+            "references": "- References\n  - Shared Ekadashi shloka and merit paragraph follow EkAdazI-sAmAnya-niyamAH.\n",
+            "shlokas": "pakṣē pakṣē ca kartavyamēkādaśyāmupōṣaṇam।  \nyadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimātmanaḥ।  \nēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  \n  \nadya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  \nbhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  \npramādādathavā''lasyāddharē kēśava mādhava।  \nvratasyāsya ca vai vighnō na bhavēttvatprasādataḥ॥  \n--padmapurāṇē  \n  \nśrībrahmavaivartē mahāpurāṇē brahmakhaṇḍē sautiśaunakasaṁvādē nāradaṁ prati śivōpadēśē bhakṣyābhakṣyādivivaraṇaṁ nāma saptaviṁśatitamō'dhyāyaḥ---  \nēkādaśyāmanāhāraṁ gr̥hī vipraśca bhāratē।  \nsa ca tiṣṭhati vaikuṇṭhē yāvadvai brahmaṇō vayaḥ॥14॥  \n  \nēkādaśyupavāsaphalaṁ prōktaṁ pādmamahāpurāṇē---  \nśaṅkhōddhārē naraḥ snātvā dr̥ṣṭvā dēvaṁ gadādharam॥35॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nsaṅkrāntiṣu caturlakṣaṁ yō dadāti nr̥pōttama॥36॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nprabhāsakṣētrē yatpuṇyaṁ grahaṇē candrasūryayōḥ॥37॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \nkēdārē cōdakaṁ pītvā punarjanma na vidyatē॥38॥  \ntathā caikādaśī pārtha garbhavāsakṣayaṅkarī।  \naśvamēdhasya yajñasya pr̥thivyāṁ yatphalaṁ labhēt॥39॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \ntapasvinō gr̥hē yasya bhuñjatē ca dvijōttamāḥ॥40॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \ngōsahasrēṇa yatpuṇyaṁ datvā vēdāntapāragē॥41॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \nyēṣāṁ dēhē trayō dēvā brahmaviṣṇumahēśvarāḥ॥42॥  \nvasanti tēṣāṁ tē tulyā ēkādaśyupavāsinaḥ।  \ntē narāḥ puṇyakarmāṇō yē bhaktā haripūjakāḥ॥43॥  \nēkādaśīvratasyāpi puṇyasaṅkhyā na vidyatē।  \nētatpuṇyaṁ bhavēt tasya yatsurairapi durlabham॥44॥  \nēkādaśīsamaṁ nāsti vrataṁ pāpapraṇāśanam॥118॥  \n---śrīpādmē mahāpurāṇē pañcapañcāśatsāhasryāṁ saṁhitāyāmuttarakhaṇḍē umāmahēśvarasaṁvādē ēkādaśyutpatti-muravadhō nāma catvāriṁśō'dhyāyaḥ॥40॥  \nmārgaśīrṣē sitē pakṣē mōkṣā nāmēti nāmataḥ।  \nsarvaiścētad vrataṁ kāryaṁ pitrē puṇyaṁ pradīyatām॥39॥  \ntēna puṇyaprabhāvēna mōkṣastēṣāṁ bhaviṣyati।  \nsatyamētanmahābhāga brahmaṇō vacanaṁ yathā॥40॥  \nmunērvākyaṁ tataḥ śrutvā svagr̥haṁ punarāgataḥ।  \nmārgaśīrṣastathā māsaḥ prāptaḥ kaṣṭēna tēna vai॥41॥  \nmunērvākyēna tatkr̥tvā vrataṁ vaikhānasō nr̥paḥ।  \nadadatpuṇyamakhilaiḥ sārddhaṁ pitrē sa bhūmipaḥ॥42॥  \ndattē puṇyakṣaṇēnaiva puṣpavr̥ṣṭirabhūddivi।  \nvaikhānasasya tātō vai pitr̥bhirmōkṣamāviśat॥43॥  \nrājānaṁ cāntarikṣē sa giraṁ puṇyāmuvāca ha।  \nsvastisvastīti tē putra prōcya caivaṁ divaṁ gataḥ॥44॥  \nēvaṁ yaḥ kurutē rājan mōkṣāmēkādaśīṁ śubhām।  \ntasya pāpāni naśyanti mr̥tō mōkṣamavāpnuyāt॥45॥  \nnātaḥ paratarā kācinmōkṣadaikādaśī bhavēt।  \npuṇyasaṅkhyāṁ na jānāmi rājan mē priyakr̥d vratam॥46॥  \ncintāmaṇisamā hyēṣā nr̥ṇāṁ mōkṣapradāyinī।  \npaṭhanācchravaṇādasyā vājapēyaphalaṁ labhēt॥47॥  \n---iti śrīpādmē mahāpurāṇa uttarakhaṇḍa umāpatināradasaṁvādē mārgaśīrṣa-śukla-mōkṣadā ēkādaśī nāmaikacatvāriṁśō'dhyāyaḥ",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458472.5412,
             "jd_start": 2458471.5409,
             "jsonClass": "Interval",
             "name": "full_day"
           },
-          "jsonClass": "FestivalInstance",
+          "jsonClass": "EkadashiFestivalInstance",
           "name": "smArta-mOkSadA-EkAdazI_(sannyasta)"
         },
         "smArta-vaikuNTha-EkAdazI_(sannyasta)": {
@@ -341497,13 +341729,21 @@
           "name": "trisprzA~mahAdvAdazI"
         },
         "vaiSNava-mOkSadA-EkAdazI": {
+          "description": {
+            "blurb": "mōkṣadā-ēkādaśī ",
+            "detailed": "The Shukla-paksha Ekadashi of `Mārgaśīrṣa` month is known as `mōkṣadā-ēkādaśī`. During the bright half of Mārgaśīrṣa, the Mokṣadā Ekādaśī vratam is observed, and it is recommended that its religious merits be dedicated to deceased ancestors for their salvation, as stated by Brahmā. King Vaikhānasa, after hearing a sage's advice, returned home and observed this vow during Mārgaśīrṣa. Just as he dedicated its merits to his father, a shower of flowers fell from the sky, leading to a miracle --- celestial event where flowers showered from the sky, and Vaikhānasa's father and ancestors attained salvation! From the heavens, the father blessed his son and ascended to the divine realm. Observing the Mokṣadā Ekādaśī vratam eradicates sins and grants salvation after death. This Ekādaśī is deemed unparalleled in its ability to offer salvation. The extent of its religious merit is immeasurable, likened to a wish-fulfilling gem. Simply reading or hearing of this vratam bestows religious merit comparable to that of a Vājapeya sacrifice. The fruits of fasting on Ekādaśī are greatly extolled in the Padma Purana— A person who bathes at Śaṃkhoddhāra and beholds the image of Viṣṇu does not acquire even a sixteenth of the merit earned by fasting on Ekādaśī. O noble king, even if one gives four lakhs of coins on the days of the Sun's transition between Zodiac signs, it does not equal even a sixteenth of the merit from an Ekādaśī fast! Indeed, fasting on Ekādaśī grants the same religious merit as bathing at Prabhāsa during a lunar or solar eclipse. One who drinks the sacred water at Kedāra is freed from rebirth, and likewise, fasting on Ekādaśī removes the cycle of rebirth. The merit from an Ekādaśī fast is a hundred times greater than the reward of performing an Ashvamedha sacrifice on earth. Fasting on Ekādaśī yields a hundredfold more merit than gifting a thousand cows to a learned brāhmaṇa. Those who fast on Ekādaśī are considered equal to those whose bodies are inhabited by Brahma, Viṣṇu, and Śiva. The merit from observing the Ekādaśī vow is immeasurable, and difficult to obtain even by the Devas. There is no other vow like that of the Ekādaśī, that destroys sins.",
+            "image": "",
+            "references": "- References\n  - Shared Ekadashi shloka and merit paragraph follow EkAdazI-sAmAnya-niyamAH.\n",
+            "shlokas": "pakṣē pakṣē ca kartavyamēkādaśyāmupōṣaṇam।  \nyadīcchēdviṣṇusāyujyaṁ śriyaṁ santatimātmanaḥ।  \nēkādaśyāṁ na bhuñjīta pakṣayōrubhayōrapi॥  \n  \nadya sthitvā nirāhāraḥ śvōbhūtē paramēśvara।  \nbhōkṣyāmi puṇḍarīkākṣa śaraṇaṁ mē bhavācyuta॥  \npramādādathavā''lasyāddharē kēśava mādhava।  \nvratasyāsya ca vai vighnō na bhavēttvatprasādataḥ॥  \n--padmapurāṇē  \n  \nśrībrahmavaivartē mahāpurāṇē brahmakhaṇḍē sautiśaunakasaṁvādē nāradaṁ prati śivōpadēśē bhakṣyābhakṣyādivivaraṇaṁ nāma saptaviṁśatitamō'dhyāyaḥ---  \nēkādaśyāmanāhāraṁ gr̥hī vipraśca bhāratē।  \nsa ca tiṣṭhati vaikuṇṭhē yāvadvai brahmaṇō vayaḥ॥14॥  \n  \nēkādaśyupavāsaphalaṁ prōktaṁ pādmamahāpurāṇē---  \nśaṅkhōddhārē naraḥ snātvā dr̥ṣṭvā dēvaṁ gadādharam॥35॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nsaṅkrāntiṣu caturlakṣaṁ yō dadāti nr̥pōttama॥36॥  \nēkādaśyupavāsasya kalāṁ nārhati ṣōḍaśīm।  \nprabhāsakṣētrē yatpuṇyaṁ grahaṇē candrasūryayōḥ॥37॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \nkēdārē cōdakaṁ pītvā punarjanma na vidyatē॥38॥  \ntathā caikādaśī pārtha garbhavāsakṣayaṅkarī।  \naśvamēdhasya yajñasya pr̥thivyāṁ yatphalaṁ labhēt॥39॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \ntapasvinō gr̥hē yasya bhuñjatē ca dvijōttamāḥ॥40॥  \ntatphalaṁ jāyatē nūnamēkādaśyupavāsinaḥ।  \ngōsahasrēṇa yatpuṇyaṁ datvā vēdāntapāragē॥41॥  \ntasmācchataguṇaṁ puṇyamēkādaśyupavāsinaḥ।  \nyēṣāṁ dēhē trayō dēvā brahmaviṣṇumahēśvarāḥ॥42॥  \nvasanti tēṣāṁ tē tulyā ēkādaśyupavāsinaḥ।  \ntē narāḥ puṇyakarmāṇō yē bhaktā haripūjakāḥ॥43॥  \nēkādaśīvratasyāpi puṇyasaṅkhyā na vidyatē।  \nētatpuṇyaṁ bhavēt tasya yatsurairapi durlabham॥44॥  \nēkādaśīsamaṁ nāsti vrataṁ pāpapraṇāśanam॥118॥  \n---śrīpādmē mahāpurāṇē pañcapañcāśatsāhasryāṁ saṁhitāyāmuttarakhaṇḍē umāmahēśvarasaṁvādē ēkādaśyutpatti-muravadhō nāma catvāriṁśō'dhyāyaḥ॥40॥  \nmārgaśīrṣē sitē pakṣē mōkṣā nāmēti nāmataḥ।  \nsarvaiścētad vrataṁ kāryaṁ pitrē puṇyaṁ pradīyatām॥39॥  \ntēna puṇyaprabhāvēna mōkṣastēṣāṁ bhaviṣyati।  \nsatyamētanmahābhāga brahmaṇō vacanaṁ yathā॥40॥  \nmunērvākyaṁ tataḥ śrutvā svagr̥haṁ punarāgataḥ।  \nmārgaśīrṣastathā māsaḥ prāptaḥ kaṣṭēna tēna vai॥41॥  \nmunērvākyēna tatkr̥tvā vrataṁ vaikhānasō nr̥paḥ।  \nadadatpuṇyamakhilaiḥ sārddhaṁ pitrē sa bhūmipaḥ॥42॥  \ndattē puṇyakṣaṇēnaiva puṣpavr̥ṣṭirabhūddivi।  \nvaikhānasasya tātō vai pitr̥bhirmōkṣamāviśat॥43॥  \nrājānaṁ cāntarikṣē sa giraṁ puṇyāmuvāca ha।  \nsvastisvastīti tē putra prōcya caivaṁ divaṁ gataḥ॥44॥  \nēvaṁ yaḥ kurutē rājan mōkṣāmēkādaśīṁ śubhām।  \ntasya pāpāni naśyanti mr̥tō mōkṣamavāpnuyāt॥45॥  \nnātaḥ paratarā kācinmōkṣadaikādaśī bhavēt।  \npuṇyasaṅkhyāṁ na jānāmi rājan mē priyakr̥d vratam॥46॥  \ncintāmaṇisamā hyēṣā nr̥ṇāṁ mōkṣapradāyinī।  \npaṭhanācchravaṇādasyā vājapēyaphalaṁ labhēt॥47॥  \n---iti śrīpādmē mahāpurāṇa uttarakhaṇḍa umāpatināradasaṁvādē mārgaśīrṣa-śukla-mōkṣadā ēkādaśī nāmaikacatvāriṁśō'dhyāyaḥ",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458472.5412,
             "jd_start": 2458471.5409,
             "jsonClass": "Interval",
             "name": "full_day"
           },
-          "jsonClass": "FestivalInstance",
+          "jsonClass": "EkadashiFestivalInstance",
           "name": "vaiSNava-mOkSadA-EkAdazI"
         },
         "vaiSNava-vaikuNTha-EkAdazI": {

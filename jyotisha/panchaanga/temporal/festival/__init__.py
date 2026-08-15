@@ -174,6 +174,26 @@ class PushkaraFestivalInstance(FestivalInstance):
     super().__init__(name=name, interval=interval, description=description, names=names_dict)
 
 
+class EkadashiFestivalInstance(FestivalInstance):
+  """The regular sarva-/smArta-/vaiSNava- Ekadashi of a given paksha+month.
+
+  Named ekadashis added as bonus festivals alongside the regular one (vaikuNTha,
+  guruvAyupura, kaizika, raMgabharI, ASADhI-vArI) are not built via this class --
+  they keep going through the ordinary TOML lookup by their own exact fest_id.
+  """
+
+  def __init__(self, paksha, month_index, variant, interval, suffix=None, legend='', general_note='', shlokas=''):
+    from jyotisha.panchaanga.temporal import names
+    from jyotisha.panchaanga.temporal.festival import ekadashi_description
+    ekad_base = names.get_ekaadashii_name(paksha, month_index)
+    ekad_base_iso = sanscript.transliterate(ekad_base, sanscript.roman.HK_DRAVIDIAN, sanscript.ISO)
+    month_sa = names.get_chandra_masa(month=month_index, script=sanscript.ISO, visarga=False)
+    name = '%s-%s%s' % (variant, ekad_base, (' %s' % suffix) if suffix else '')
+    description = ekadashi_description.describe_ekadashi(
+      ekad_base=ekad_base_iso, paksha=paksha, month_sa=month_sa, legend=legend, general_note=general_note, shlokas=shlokas)
+    super().__init__(name=name, interval=interval, description=description)
+
+
 def get_description(festival_instance, fest_details_dict, script, truncate=True, header_md="#####"):
   fest_id = festival_instance.name.replace('__', '_or_')
   if getattr(festival_instance, 'description', None) is not None:
