@@ -23,6 +23,28 @@ NODE_NAMES = {
   'rAhupucchagrast': dict(en='Ketu node (descending/puccha)'),
 }
 
+# Devanagari roots for the human-readable `names` dict (get_human_names()),
+# mirroring what the old per-variant TOML files' [names].sa used to carry.
+# Without this, display falls back to auto-transliterating the raw fest_id
+# (e.g. 'राहुपुच्छग्रस्त' instead of the more idiomatic 'केतुग्रस्त').
+_NODE_SA_ROOT = {
+  'rAhumukhagrast': 'राहुग्रस्त',
+  'rAhupucchagrast': 'केतुग्रस्त',
+}
+_SUFF_SA = {
+  'a': '',
+  'Odaya': 'ोदय',
+  'Astamana': 'ास्तमन',
+}
+
+
+def sanskrit_name(luminary_sa, grasta, suff, is_cudamani):
+  """:param luminary_sa: 'सूर्य' or 'चन्द्र'"""
+  name = "%s-ग्रहणम्~(%s%s)" % (luminary_sa, _NODE_SA_ROOT[grasta], _SUFF_SA[suff])
+  if is_cudamani:
+    name = "★चूडामणि-" + name
+  return {"sa": [name]}
+
 # Food restriction begins at the start of the yaama that is 4 yaamas (solar)
 # or 3 yaamas (lunar) before the yaama in which first contact falls -- not a
 # flat 12h/9h offset from the contact instant. num_yaamas_before is passed

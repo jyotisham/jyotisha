@@ -955,8 +955,9 @@ class EclipticFestivalAssigner(FestivalAssigner):
           nakshatra_index=eclipse_angas.get_anga(AngaType.NAKSHATRA).index, rashi_index=eclipse_angas.get_anga(AngaType.RASHI).index,
           niyama_start_jd=niyama_start_jd, general_note=self._get_general_eclipse_note(sanscript.ISO),
           tz=self.panchaanga.city.get_timezone_obj())
+        names = eclipse_description.sanskrit_name(luminary_sa='सूर्य', grasta=grasta, suff=suff, is_cudamani=is_cudamani)
         fest = FestivalInstance(name=solar_eclipse_str, interval=Interval(jd_start=jd_eclipse_solar_start, jd_end=jd_eclipse_solar_end),
-                                 description=description)
+                                 description=description, names=names)
       self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[fday].date)
       jd = jd + MIN_DAYS_NEXT_ECLIPSE
 
@@ -1038,8 +1039,9 @@ class EclipticFestivalAssigner(FestivalAssigner):
         nakshatra_index=eclipse_angas.get_anga(AngaType.NAKSHATRA).index, rashi_index=eclipse_angas.get_anga(AngaType.RASHI).index,
         niyama_start_jd=niyama_start_jd, general_note=self._get_general_eclipse_note(sanscript.ISO),
         tz=self.panchaanga.city.get_timezone_obj())
+      names = eclipse_description.sanskrit_name(luminary_sa='चन्द्र', grasta=grasta, suff=suff, is_cudamani=is_cudamani)
       fest = FestivalInstance(name=lunar_eclipse_str, interval=Interval(jd_start=jd_eclipse_lunar_start, jd_end=jd_eclipse_lunar_end),
-                               description=description)
+                               description=description, names=names)
       logging.warning(f'Lunar eclipse: {jd_eclipse_lunar_start} → {jd_eclipse_lunar_end}')
       self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[fday].date)
       jd += MIN_DAYS_NEXT_ECLIPSE

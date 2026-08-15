@@ -16,7 +16,7 @@ festival_id_to_json = {}
 
 
 class FestivalInstance(common.JsonObject):
-  def __init__(self, name, interval=None, ordinal=None, exclude=None, description=None):
+  def __init__(self, name, interval=None, ordinal=None, exclude=None, description=None, names=None):
     super(FestivalInstance, self).__init__()
     self.name = name
     self.interval = interval
@@ -29,6 +29,11 @@ class FestivalInstance(common.JsonObject):
     # of being looked up from a TOML rule by name. When set, this takes
     # precedence over any TOML-based lookup.
     self.description = description
+    # Optional pre-computed human names dict (e.g. {"sa": ["चन्द्र-ग्रहणम्~(केतुग्रस्त)"]}),
+    # for the same class of festival as `description` above -- without this,
+    # get_human_names() falls back to auto-transliterating the raw fest_id,
+    # which is accurate but loses any curated/idiomatic naming.
+    self.names = names
 
   def get_detailed_name_with_timings(self, timezone, reference_date=None):
     name = self.name
@@ -42,6 +47,9 @@ class FestivalInstance(common.JsonObject):
       return "%s (%s)" % (name, self.interval.to_hour_text(script=sanscript.ISO, tz=timezone, reference_date=reference_date))
 
   def get_human_names(self, fest_details_dict):
+    if self.names is not None:
+      import copy
+      return copy.deepcopy(self.names)
     from jyotisha.panchaanga.temporal.festival import rules
     fest_details = fest_details_dict.get(self.name, rules.HinduCalendarEvent(id=self.name))
     if fest_details.names is None:
