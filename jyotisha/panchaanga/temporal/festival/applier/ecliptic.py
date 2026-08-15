@@ -1,6 +1,7 @@
 import os
 import sys
 from math import floor
+from typing import NamedTuple
 import logging
 
 import swisseph as swe
@@ -13,9 +14,59 @@ from jyotisha.panchaanga.temporal.festival import FestivalInstance, TransitionFe
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
 from jyotisha.panchaanga.temporal.interval import Interval
 from jyotisha.panchaanga.temporal.zodiac import AngaType
-from scipy.optimize import brentq
+from scipy.optimize import brentq, minimize_scalar
 from sanskrit_data.schema import common
 from indic_transliteration import sanscript
+
+GRAHA_NAMES = {Graha.SUN: 'sUryaH', Graha.MOON: 'candraH', Graha.VENUS: 'zukraH', Graha.MERCURY: 'budhaH', Graha.MARS: 'aGgArakaH',
+    Graha.SATURN: 'zaniH', Graha.JUPITER: 'guruH'}
+
+# Genitive-case forms, for events that are properties/periods "of" a graha
+# (e.g. "gurOH vArdhakya-prArambhaH" - "the start of Guru's old age").
+GRAHA_GENITIVE_NAMES = {Graha.VENUS: 'zukrasya', Graha.JUPITER: 'gurOH'}
+
+# bAlya (infancy, after udaya) and vArdhakya (old age, before asta) durations,
+# in days, flanking a maudhya (combustion) period. Per:
+#   zaizavaM prAk tu paJcAhaM pazcAd dazadinaM smRtam
+#   zaizavaM vArdhakaM pakSaM prAk pazcAc ca bRhaspateH
+# (first tradition; only stated for zukra and bRhaspati -- not applied to the
+# other tArA-grahas).
+BAALYA_VARDHAKYA_DAYS = {
+    Graha.VENUS: {'baalya': 5, 'vardhakya': 15},
+    Graha.JUPITER: {'baalya': 15, 'vardhakya': 15},
+}
+
+# Dedicated logger (and log file) for graha-yuddha, maudhya etc. events -- see
+# EclipticFestivalAssigner.get_graha_events_log_path()/add_graha_events_log_handler().
+graha_events_logger = logging.getLogger('jyotisha.graha_events')
+graha_events_logger.setLevel(logging.INFO)
+
+
+class ConjunctionInterval(NamedTuple):
+  """
+  A period during which two grahas' separation is below some delta.
+  start_clamped/end_clamped are True when t_start/t_end is not a genuine
+  entry/exit crossing but the edge of the queried [jd_start, jd_end] window
+  itself -- i.e. the period was already in progress when the scan started,
+  or was still in progress when the scan ended (see compute_conjunction_intervals).
+  """
+  t_start: float
+  t_zero: float
+  t_end: float
+  start_clamped: bool = False
+  end_clamped: bool = False
+
+
+class MaudhyaInterval(NamedTuple):
+  """Like ConjunctionInterval, with the graha's setting/rising direction at t_start/t_end."""
+  t_start: float
+  t_zero: float
+  t_end: float
+  dir_set: str
+  dir_rise: str
+  start_clamped: bool = False
+  end_clamped: bool = False
+
 
 class EclipticFestivalAssigner(FestivalAssigner):
   def assign_all(self):
@@ -25,10 +76,18 @@ class EclipticFestivalAssigner(FestivalAssigner):
     self.assign_tropical_sankranti_punyakaala()
     self.assign_tropical_sankranti()
     self.set_other_graha_transits()
-    # for graha in (Graha.MERCURY, Graha.VENUS, Graha.MARS, Graha.JUPITER, Graha.SATURN):
-    #   self.add_maudhya_events(graha)
-    # self.add_graha_yuddhas()
-    
+    for graha in (Graha.MERCURY, Graha.VENUS, Graha.MARS, Graha.JUPITER, Graha.SATURN):
+      self.add_maudhya_events(graha)
+    self.add_graha_yuddhas()
+    # Force computation, mirroring the old assign_chandra_darshanam_legacy()
+    # call in TithiFestivalAssigner: assign_bodhaayana_amaavaasyaa() (which
+    # runs later, in TithiFestivalAssigner.assign_all()) needs
+    # festival_id_to_days['candra-darzanam'] regardless of whether the user's
+    # ruleset actually wants candra-darzanam reported; it deletes the festival
+    # again at the end if not.
+    self.assign_chandra_darshanam(force_computation=True)
+
+
   def assign_tropical_sankranti_punyakaala(self):
     if 'viSu-puNyakAlaH' not in self.rules_collection.name_to_rule:
       return
@@ -219,12 +278,16 @@ class EclipticFestivalAssigner(FestivalAssigner):
     return "prAk" if az < 180 else "pratyak"
 
  
-  def compute_maudhya_intervals(self, graha: int, jd_start: float, jd_end: float, step: float = 0.5, use_latitude: bool = False) -> list[tuple[float, float, str, str]]:
+  def compute_maudhya_intervals(self, graha: int, jd_start: float, jd_end: float, step: float = 0.5, use_latitude: bool = False) -> list[MaudhyaInterval]:
     """
     Compute combustion (maudhya) intervals for a graha between jd_start and jd_end.
     Each interval includes:
       - setting direction at the start (t_start)
       - rising direction at the end (t_end)
+    dir_set/dir_rise are None when start_clamped/end_clamped (see
+    ConjunctionInterval) -- there is no genuine setting/rising moment at a
+    clamped boundary, since the graha was already combust (or still is) at
+    that point, not becoming so right then.
 
     :param use_latitude: see compute_conjunction_intervals - applies the
       akSAMza (observer-latitude, oblique-ascension) correction rather than
@@ -261,19 +324,19 @@ class EclipticFestivalAssigner(FestivalAssigner):
     )
 
     conjunction_intervals = []
-    for t_start, t_zero, t_end in candidate_intervals:
-        is_retro = self.is_retrograde(graha, t_zero)
+    for ci in candidate_intervals:
+        is_retro = self.is_retrograde(graha, ci.t_zero)
         delta = limits["retrograde" if is_retro else "prograde"]
         if delta == scan_delta:
-            conjunction_intervals.append((t_start, t_zero, t_end))
+            conjunction_intervals.append(ci)
             continue
         # delta is narrower than scan_delta: re-bracket within the
         # already-found (wider) window using the correct, narrower delta.
         refined = self.compute_conjunction_intervals(
             graha1=graha,
             graha2=Graha.SUN,
-            jd_start=t_start,
-            jd_end=t_end,
+            jd_start=ci.t_start,
+            jd_end=ci.t_end,
             delta=delta,
             step=step,
             use_latitude=use_latitude
@@ -281,49 +344,185 @@ class EclipticFestivalAssigner(FestivalAssigner):
         if refined:
             conjunction_intervals.append(refined[0])
         else:
-            logging.warning(f"Could not refine maudhya interval near jd={t_zero} for {graha} with delta={delta}")
+            logging.warning(f"Could not refine maudhya interval near jd={ci.t_zero} for {graha} with delta={delta}")
 
     intervals = []
-    
-    for t_start, t_zero, t_end in conjunction_intervals:
+
+    for ci in conjunction_intervals:
         try:
-            dir_set = self.get_setting_direction(graha, t_start)
-            dir_rise = self.get_rising_direction(graha, t_end)
-            intervals.append((t_start, t_end, dir_rise, dir_set))
+            dir_set = None if ci.start_clamped else self.get_setting_direction(graha, ci.t_start)
+            dir_rise = None if ci.end_clamped else self.get_rising_direction(graha, ci.t_end)
+            intervals.append(MaudhyaInterval(ci.t_start, ci.t_zero, ci.t_end, dir_set, dir_rise, ci.start_clamped, ci.end_clamped))
         except Exception as e:
-            logging.warning(f"Could not determine directions for maudhya interval ({t_start}, {t_end}): {e}")
+            logging.warning(f"Could not determine directions for maudhya interval ({ci.t_start}, {ci.t_end}): {e}")
     return intervals
 
 
-  def add_maudhya_events(self, graha: int):
-    GRAHA_NAMES = {Graha.VENUS: 'zukraH', Graha.MERCURY: 'budhaH', Graha.MARS: 'aGgArakaH',
-        Graha.SATURN: 'zaniH', Graha.JUPITER: 'guruH', Graha.MOON: 'candraH'}
+  def add_maudhya_events(self, graha: int, log_path=None):
+    log_path = self.add_graha_events_log_handler(log_path)
     # use_latitude=True: apply the akSAMza (observer-latitude, oblique-ascension)
     # correction - see compute_conjunction_intervals docstring. This is the
     # empirically-validated convention, and applies uniformly to every graha,
     # Chandra included, not just the five star-planets.
     maudhya_intervals = self.compute_maudhya_intervals(graha, self.panchaanga.jd_start, self.panchaanga.jd_end, use_latitude=True)
-    for t_start, t_end, dir_rise, dir_set in maudhya_intervals:
+    for mi in maudhya_intervals:
+        details = self.get_graha_yuddha_details(graha, Graha.SUN, mi.t_zero)
+        graha_events_logger.info(self.format_graha_event_report(
+            event_label=f"maudhyam ({GRAHA_NAMES[graha]})", graha1=graha, graha2=Graha.SUN, jd=mi.t_zero,
+            details=details, include_winner=False))
         try:
-            fday = int(t_start - self.daily_panchaangas[0].julian_day_start)
-            if t_start < self.daily_panchaangas[fday].jd_sunrise:
+            fday = int(mi.t_start - self.daily_panchaangas[0].julian_day_start)
+            if mi.t_start < self.daily_panchaangas[fday].jd_sunrise:
                 fday -= 1
-            self.panchaanga.add_festival_instance(FestivalInstance(
-                name=f"{GRAHA_NAMES[graha]}–astamayaH ({dir_set})",
-                interval=Interval(jd_start=t_start, jd_end=None)
-            ), date=self.daily_panchaangas[fday].date)
+            if mi.start_clamped:
+              # The graha was already combust when this panchaanga's period
+              # began -- the true astamayaH (setting into combustion) happened
+              # earlier, outside the computed range, so don't claim it as an
+              # event at this (arbitrary, boundary) instant. Note the ongoing
+              # state instead.
+              self.panchaanga.add_festival_instance(FestivalInstance(
+                  name=f"{GRAHA_NAMES[graha]}–maudhyam~(pUrvam~ArabdhaH)",
+                  interval=Interval(jd_start=mi.t_start, jd_end=None)
+              ), date=self.daily_panchaangas[fday].date)
+            else:
+              self.panchaanga.add_festival_instance(FestivalInstance(
+                  name=f"{GRAHA_NAMES[graha]}–astamayaH ({mi.dir_set})",
+                  interval=Interval(jd_start=mi.t_start, jd_end=None)
+              ), date=self.daily_panchaangas[fday].date)
         except ValueError:
             logging.warning("Could not assign festival day for maudhya start event.")
         try:
-          fday = int(t_end - self.daily_panchaangas[0].julian_day_start)
-          if t_end < self.daily_panchaangas[fday].jd_sunrise:
+          fday = int(mi.t_end - self.daily_panchaangas[0].julian_day_start)
+          if mi.t_end < self.daily_panchaangas[fday].jd_sunrise:
             fday -= 1
-          self.panchaanga.add_festival_instance(FestivalInstance(
-              name=f"{GRAHA_NAMES[graha]}–udayaH ({dir_rise})",
-              interval=Interval(jd_start=None, jd_end=t_end)
-          ), date=self.daily_panchaangas[fday].date)
+          if mi.end_clamped:
+            # Symmetric to start_clamped: the graha is still combust at the
+            # end of this panchaanga's period, with the true udayaH (rising
+            # out of combustion) beyond the computed range.
+            self.panchaanga.add_festival_instance(FestivalInstance(
+                name=f"{GRAHA_NAMES[graha]}–maudhyam~(uttaram~sthitaH)",
+                interval=Interval(jd_start=None, jd_end=mi.t_end)
+            ), date=self.daily_panchaangas[fday].date)
+          else:
+            self.panchaanga.add_festival_instance(FestivalInstance(
+                name=f"{GRAHA_NAMES[graha]}–udayaH ({mi.dir_rise})",
+                interval=Interval(jd_start=None, jd_end=mi.t_end)
+            ), date=self.daily_panchaangas[fday].date)
         except ValueError:
           logging.warning("Could not assign festival day for maudhya end event.")
+
+  def assign_baalya_vardhakya(self):
+    """
+    Add bAlya/vArdhakya events for every graha in BAALYA_VARDHAKYA_DAYS (see
+    add_baalya_vardhakya_events).
+
+    Deliberately NOT called from assign_all() (and hence not from
+    add_maudhya_events itself): these events are meant to be computed via
+    look-ahead/look-behind beyond the requested [jd_start, jd_end], but
+    Panchaanga.clear_padding_day_festivals() (run at the very end of
+    update_festival_details(), after assign_all()) wipes any festival
+    landing on a padding day, on the premise that padding-day festival
+    assignments in general aren't trustworthy without further look-ahead.
+    That's exactly what add_baalya_vardhakya_events's own wider scan
+    already provides, so it must run after clear_padding_day_festivals(),
+    not as part of the normal assign_all() pass, or its results would be
+    wiped right back out. See Panchaanga.update_festival_details().
+    """
+    for graha in BAALYA_VARDHAKYA_DAYS:
+      self.add_baalya_vardhakya_events(graha)
+
+  def _jd_to_display_date(self, jd: float):
+    """
+    Civil date to attribute `jd` to: sunrise-relative within
+    self.daily_panchaangas' covered range (matching the rest of this class),
+    falling back to a plain local-midnight-based date outside it. The
+    fallback loses exact sunrise-relative attribution (no sunrise is
+    computed for a date outside the covered range), but that only matters
+    for an occurrence within a few hours of a civil-day boundary, and only
+    when it falls outside the requested period in the first place.
+    """
+    fday = int(jd - self.daily_panchaangas[0].julian_day_start)
+    if 0 <= fday < len(self.daily_panchaangas):
+      if jd < self.daily_panchaangas[fday].jd_sunrise:
+        fday -= 1
+      if 0 <= fday < len(self.daily_panchaangas):
+        return self.daily_panchaangas[fday].date
+    return self.panchaanga.city.get_timezone_obj().julian_day_to_local_time(julian_day=jd)
+
+  def add_baalya_vardhakya_events(self, graha: int):
+    """
+    For zukra/bRhaspati (see BAALYA_VARDHAKYA_DAYS): add both boundaries of
+    vArdhakya (old age, ending when the graha enters combustion) and bAlya
+    (infancy, starting when it emerges) - e.g. gurOH~vArdhakya-prArambhaH
+    and gurOH~vArdhakya-samApanam.
+
+    Scans well beyond [self.panchaanga.jd_start, self.panchaanga.jd_end] (60
+    days of padding, comfortably more than the 15-day maximum vArdhakya/
+    bAlya duration) so that a vArdhakya/bAlya period poking into the
+    requested range from just before/after it is still pinned to its true
+    date, rather than being silently skipped the way add_maudhya_events's
+    own astamayaH/udayaH are when genuinely clamped -- these dates matter
+    (e.g. for a front/summary page) even when the graha's actual astamayaH/
+    udayaH instant falls just outside the requested period itself.
+    """
+    days = BAALYA_VARDHAKYA_DAYS.get(graha)
+    if days is None:
+      return
+    pad = 60
+    maudhya_intervals = self.compute_maudhya_intervals(
+        graha, self.panchaanga.jd_start - pad, self.panchaanga.jd_end + pad, use_latitude=True)
+    genitive = GRAHA_GENITIVE_NAMES[graha]
+    for mi in maudhya_intervals:
+      if not mi.start_clamped:
+        self._add_point_festival(f"{genitive}~vArdhakya-prArambhaH", mi.t_start - days['vardhakya'])
+        self._add_point_festival(f"{genitive}~vArdhakya-samApanam", mi.t_start)
+      if not mi.end_clamped:
+        self._add_point_festival(f"{genitive}~bAlya-prArambhaH", mi.t_end)
+        self._add_point_festival(f"{genitive}~bAlya-samApanam", mi.t_end + days['baalya'])
+
+  def _add_point_festival(self, name: str, jd: float):
+    date = self._jd_to_display_date(jd)
+    self.panchaanga.add_festival_instance(FestivalInstance(name=name, interval=Interval(jd_start=jd, jd_end=None)), date=date)
+
+  def assign_chandra_darshanam(self, force_computation=False):
+    """
+    candra-darzanam (new-crescent visibility): the first evening the Moon
+    clears the Sun by the maudhya threshold (12deg, akSAMza/oblique-ascension
+    corrected for self.panchaanga.city.latitude) - see compute_maudhya_intervals.
+    Empirically validated to the minute against a real drik-gaNita reference
+    table. Supersedes TithiFestivalAssigner.assign_chandra_darshanam_legacy()'s
+    tithi-at-moonset heuristic, which is retained there for reference.
+
+    Unlike add_baalya_vardhakya_events, this deliberately doesn't scan past
+    [jd_start, jd_end] or special-case a clamped mi.t_end: the Moon's
+    maudhya cycle is a couple of days at most, so a clamped interval right
+    at jd_end is rare and the following evening's occurrence (computed on
+    the next run, with jd_start shifted forward) covers it -- not worth the
+    extra complexity that matters for the slow-moving grahas' bAlya/vArdhakya.
+    """
+    if 'candra-darzanam' not in self.rules_collection.name_to_rule and not force_computation:
+      return
+    maudhya_intervals = self.compute_maudhya_intervals(Graha.MOON, self.panchaanga.jd_start, self.panchaanga.jd_end, use_latitude=True)
+    for mi in maudhya_intervals:
+      try:
+        fday = int(mi.t_end - self.daily_panchaangas[0].julian_day_start)
+        if mi.t_end < self.daily_panchaangas[fday].jd_sunrise:
+          fday -= 1
+        if mi.t_end > self.daily_panchaangas[fday].jd_sunset:
+          # This panchaanga-day's sunset has already passed by t_end (the Moon
+          # hadn't cleared the akSAMza threshold yet that evening) - the first
+          # upcoming viewing opportunity is the following evening.
+          fday += 1
+        fest_name = 'candra-darzanam'
+        if self.daily_panchaangas[fday].lunar_date.month.index == 6:
+          fest_name = 'bhAdrapada-' + fest_name
+        fest = FestivalInstance(
+            name=fest_name,
+            interval=Interval(jd_start=self.daily_panchaangas[fday].jd_sunset, jd_end=self.daily_panchaangas[fday].graha_set_jd[Graha.MOON])
+        )
+        self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[fday].date)
+      except (ValueError, IndexError):
+        logging.warning(f"Could not assign candra-darzanam for maudhya interval ending {mi.t_end}.")
 
   def compute_conjunction_intervals(
     self,
@@ -335,10 +534,10 @@ class EclipticFestivalAssigner(FestivalAssigner):
     step: float = 0.5,
     debug: bool = False,
     use_latitude: bool = False
-    ) -> list[tuple[float, float, float]]:
+    ) -> list[ConjunctionInterval]:
     """
     Compute intervals where the angular separation between two grahas is less than `delta`.
-    Returns a list of (t_start, t_zero, t_end) tuples.
+    Returns a list of ConjunctionInterval.
 
     :param use_latitude: If False (default), separation is just the ecliptic
       longitude difference (kranti-vRtta convention). If True, the entry/exit
@@ -374,8 +573,20 @@ class EclipticFestivalAssigner(FestivalAssigner):
         return abs((oa1 - oa2 + 180) % 360 - 180)
 
     inside = False
+    start_clamped = False
     t_start = None
     jd = jd_start
+
+    if separation(jd_start) < delta:
+        # Already within the threshold at the start of the scan window (e.g. a
+        # maudhya/conjunction period straddling jd_start) -- there is no
+        # outside->inside crossing to bracket within [jd_start, jd_end], so
+        # every subsequent sample would otherwise hit the not-inside branch
+        # and fail to bracket forever (both endpoints on the same side),
+        # silently dropping the whole interval. Clamp the start to jd_start.
+        inside = True
+        start_clamped = True
+        t_start = jd_start
 
     while jd <= jd_end:
         sep = separation(jd)
@@ -384,6 +595,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
             try:
                 t_start = brentq(lambda x: separation(x) - delta, jd - step, jd)
                 inside = True
+                start_clamped = False
             except ValueError:
                 logging.warning(f"Could not bracket start of proximity at {jd}")
         elif inside and sep > delta:
@@ -392,7 +604,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
                 # Now compute t_zero (exact conjunction), always longitude-based.
                 try:
                     t_zero = brentq(wrapped_longitude_diff, t_start, t_end)
-                    intervals.append((t_start, t_zero, t_end))
+                    intervals.append(ConjunctionInterval(t_start, t_zero, t_end, start_clamped, False))
                 except ValueError:
                     logging.warning(f"Could not find t_zero between {t_start} and {t_end}")
                 inside = False
@@ -400,37 +612,283 @@ class EclipticFestivalAssigner(FestivalAssigner):
                 logging.warning(f"Could not bracket end of proximity at {jd}")
         jd += step
 
+    if inside:
+        # Still inside at the end of the scan window (the period's true exit
+        # is beyond jd_end) -- clamp the end to jd_end rather than silently
+        # dropping the interval. t_zero may or may not fall within range;
+        # skip it (with a warning) if it doesn't.
+        try:
+            t_zero = brentq(wrapped_longitude_diff, t_start, jd_end)
+            intervals.append(ConjunctionInterval(t_start, t_zero, jd_end, start_clamped, True))
+        except ValueError:
+            logging.warning(f"Proximity interval starting {t_start} does not end (or reach exact conjunction) by jd_end={jd_end}; dropping it")
+
     if debug:
       # Show the longitudes of each graha at the start and end of the interval
       logging.debug(f"Intervals for {graha1} and {graha2}:")
-      for t_start, t_zero, t_end in intervals:
-          logging.debug(f"  Interval   : {Interval(jd_start=t_start, jd_end=t_end)}")
-          logging.debug(f"  Conjunction: {Interval(jd_start=t_zero, jd_end=t_zero)}")
-          logging.debug(f"  Start: t_start, {g1.get_longitude(t_start, ayanaamsha_id=self.ayanaamsha_id)}, {g2.get_longitude(t_start, ayanaamsha_id=self.ayanaamsha_id)}")
-          logging.debug(f"  End: t_end, {g1.get_longitude(t_end, ayanaamsha_id=self.ayanaamsha_id)}, {g2.get_longitude(t_end, ayanaamsha_id=self.ayanaamsha_id)}")
+      for ci in intervals:
+          logging.debug(f"  Interval   : {Interval(jd_start=ci.t_start, jd_end=ci.t_end)} (start_clamped={ci.start_clamped}, end_clamped={ci.end_clamped})")
+          logging.debug(f"  Conjunction: {Interval(jd_start=ci.t_zero, jd_end=ci.t_zero)}")
+          logging.debug(f"  Start: t_start, {g1.get_longitude(ci.t_start, ayanaamsha_id=self.ayanaamsha_id)}, {g2.get_longitude(ci.t_start, ayanaamsha_id=self.ayanaamsha_id)}")
+          logging.debug(f"  End: t_end, {g1.get_longitude(ci.t_end, ayanaamsha_id=self.ayanaamsha_id)}, {g2.get_longitude(ci.t_end, ayanaamsha_id=self.ayanaamsha_id)}")
 
     return intervals
   
-  def add_graha_yuddhas(self):
+  def get_topocentric_longitude_difference(self, graha1: int, graha2: int, jd: float) -> float:
+    """Signed topocentric longitude difference (degrees, in (-180, 180]) between two grahas."""
+    g1 = Graha.singleton(graha1)
+    g2 = Graha.singleton(graha2)
+    city = self.panchaanga.city
+    lon1, _ = g1.get_topocentric_lon_lat(jd, city.longitude, city.latitude, ayanaamsha_id=self.ayanaamsha_id)
+    lon2, _ = g2.get_topocentric_lon_lat(jd, city.longitude, city.latitude, ayanaamsha_id=self.ayanaamsha_id)
+    return ((lon1 - lon2 + 180) % 360) - 180
+
+  def get_angular_separation(self, graha1: int, graha2: int, jd: float) -> float:
+    """
+    True angular separation (degrees) between two grahas, accounting for both
+    longitude and ecliptic latitude. Graha-yuddha (amshu-vimarda) is defined
+    by proximity of the two discs, not merely by longitude, so latitude must
+    be taken into account to identify the interval and moment of conflict
+    correctly.
+
+    Uses topocentric (parallax-corrected, for self.panchaanga.city) positions
+    rather than geocentric ones -- graha-yuddha is a locally-observed
+    phenomenon, and parallax (mainly affecting the nearer of the two grahas)
+    can shift the moment of closest apparent approach measurably.
+    """
+    g1 = Graha.singleton(graha1)
+    g2 = Graha.singleton(graha2)
+    city = self.panchaanga.city
+    lon1, lat1 = g1.get_topocentric_lon_lat(jd, city.longitude, city.latitude, ayanaamsha_id=self.ayanaamsha_id)
+    lon2, lat2 = g2.get_topocentric_lon_lat(jd, city.longitude, city.latitude, ayanaamsha_id=self.ayanaamsha_id)
+    dlon = ((lon1 - lon2 + 180) % 360) - 180
+    dlat = lat1 - lat2
+    return (dlon ** 2 + dlat ** 2) ** 0.5
+
+  def compute_yuddha_intervals(self, graha1: int, graha2: int, jd_start: float, jd_end: float, delta: float = 1.0, step: float = 0.5) -> list[tuple[float, float, float]]:
+    """
+    Compute intervals during which the true angular separation (see
+    get_angular_separation) between two grahas is less than `delta` degrees,
+    together with the jd of exact longitude-equality (t_zero, the classical
+    "yuti" instant) within each interval. Returns a list of
+    (t_start, t_zero, t_end) tuples.
+
+    t_zero is the moment of exact (topocentric) longitude equality, not the
+    moment of minimum total (longitude+latitude) separation -- verified
+    against a published graha-yuddha report (the 2020-Dec-21 Jupiter-Saturn
+    "great conjunction"): the report's timestamp and longitude match the
+    longitude-equality instant to the second/arcsecond, while the
+    minimum-separation instant (found by minimizing get_angular_separation)
+    was off by ~45 minutes, since the separation curve for slow-moving grahas
+    is nearly flat near its minimum.
+    """
+    intervals = []
+    inside = False
+    t_start = None
+    jd = jd_start
+
+    def sep(x):
+      return self.get_angular_separation(graha1, graha2, x)
+
+    def lon_diff(x):
+      return self.get_topocentric_longitude_difference(graha1, graha2, x)
+
+    def find_t_zero(t_start, t_end):
+      try:
+        return brentq(lon_diff, t_start, t_end)
+      except ValueError:
+        # No exact longitude-equality moment in this window (can happen
+        # when the discs' proximity is dominated by latitude rather than
+        # longitude) -- fall back to the minimum-separation instant.
+        logging.warning(f"No longitude-equality moment between {t_start} and {t_end}; using minimum-separation instant instead")
+        return minimize_scalar(sep, bounds=(t_start, t_end), method='bounded').x
+
+    if sep(jd_start) < delta:
+      # Already within the threshold at the start of the scan window -- there
+      # is no outside->inside crossing to bracket within [jd_start, jd_end],
+      # so every subsequent sample would otherwise hit the not-inside branch
+      # and fail to bracket forever (both endpoints on the same side),
+      # silently dropping the whole interval. Clamp the start to jd_start.
+      inside = True
+      t_start = jd_start
+
+    while jd <= jd_end:
+      d = sep(jd)
+      if not inside and d < delta:
+        try:
+          t_start = brentq(lambda x: sep(x) - delta, jd - step, jd)
+          inside = True
+        except ValueError:
+          logging.warning(f"Could not bracket start of graha-yuddha at {jd}")
+      elif inside and d > delta:
+        try:
+          t_end = brentq(lambda x: sep(x) - delta, jd - step, jd)
+          intervals.append((t_start, find_t_zero(t_start, t_end), t_end))
+        except ValueError:
+          logging.warning(f"Could not bracket end of graha-yuddha at {jd}")
+        inside = False
+      jd += step
+
+    if inside:
+      # Still inside at the end of the scan window (the period's true exit is
+      # beyond jd_end) -- clamp the end to jd_end rather than silently
+      # dropping the interval.
+      intervals.append((t_start, find_t_zero(t_start, jd_end), jd_end))
+
+    return intervals
+
+  @staticmethod
+  def format_dms(value_degrees: float) -> str:
+    """Format an angle (in degrees) as D°MM′SS.SS″."""
+    total_sec = abs(value_degrees) * 3600
+    d = int(total_sec // 3600)
+    m = int((total_sec % 3600) // 60)
+    s = total_sec % 60
+    return f"{d}°{m:02d}′{s:05.2f}″"
+
+  @staticmethod
+  def format_arcmin(value_degrees: float) -> str:
+    """Format an angle (in degrees, expected to be small) as MM′SS.SS″ (arcminutes not wrapped modulo 60)."""
+    total_sec = abs(value_degrees) * 3600
+    m = int(total_sec // 60)
+    s = total_sec % 60
+    return f"{m}′{s:05.2f}″"
+
+  def get_graha_yuddha_details(self, graha1: int, graha2: int, jd: float) -> dict:
+    """
+    Compute the full set of graha-yuddha (amshu-vimarda) details at the
+    moment `jd` of closest approach between graha1 and graha2: their
+    center-to-center and disc-to-disc (edge-to-edge) separation, and for each
+    graha: (topocentric) longitude (with nakshatra/pada/rashi), latitude,
+    motion (gati, direct/retrograde), apparent angular diameter (with
+    increasing/decreasing trend), apparent magnitude, and elongation from
+    the sun.
+
+    The graha with the larger apparent diameter (i.e. nearer the earth, and
+    hence brighter/more prominent) is taken to be the victor (jayI) -- per
+    the classical criterion that the smaller, fainter graha is defeated.
+    """
+    details = {'separation': self.get_angular_separation(graha1, graha2, jd)}
+    dt = 0.01
+    city = self.panchaanga.city
+    sun_lon, _ = Graha.singleton(Graha.SUN).get_topocentric_lon_lat(jd, city.longitude, city.latitude, ayanaamsha_id=self.ayanaamsha_id)
+    for graha in (graha1, graha2):
+      g = Graha.singleton(graha)
+      lon, lat = g.get_topocentric_lon_lat(jd, city.longitude, city.latitude, ayanaamsha_id=self.ayanaamsha_id)
+      speed = g.get_speed(jd)
+      elongation, diameter, magnitude = g.get_phenomena(jd, geo_lon=city.longitude, geo_lat=city.latitude)
+      _, diameter_next, _ = g.get_phenomena(jd + dt, geo_lon=city.longitude, geo_lat=city.latitude)
+      nak_index = int(lon // zodiac.AngaType.NAKSHATRA.arc_length) + 1
+      pada = int((lon % zodiac.AngaType.NAKSHATRA.arc_length) // (zodiac.AngaType.NAKSHATRA.arc_length / 4)) + 1
+      rashi_index = int(lon // zodiac.AngaType.RASHI.arc_length) + 1
+      elong_diff = ((lon - sun_lon + 180) % 360) - 180
+      details[graha] = {
+          'longitude': lon,
+          'nakshatra': names.NAMES['NAKSHATRA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][nak_index],
+          'pada': pada,
+          'rashi': names.NAMES['RASHI_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][rashi_index],
+          'latitude': lat,
+          'lat_dir': 'S' if lat < 0 else 'N',
+          'speed': speed,
+          'motion': 'vakra' if speed < 0 else 'Rju',
+          'diameter': diameter,
+          'diameter_trend': 'increasing' if diameter_next > diameter else 'decreasing',
+          'magnitude': magnitude,
+          'elongation': elongation,
+          'elong_dir': 'W' if elong_diff < 0 else 'E',
+      }
+    # Disc (rim-to-rim) separation: center-to-center separation minus the sum
+    # of the two angular radii -- the actual visible gap between the discs,
+    # as opposed to 'separation' above (a center-to-center distance).
+    details['disc_separation'] = details['separation'] - (details[graha1]['diameter'] + details[graha2]['diameter']) / 2
+    details['winner'] = graha1 if details[graha1]['diameter'] >= details[graha2]['diameter'] else graha2
+    details['loser'] = graha2 if details['winner'] == graha1 else graha1
+    return details
+
+  def get_graha_events_log_path(self) -> str:
+    """Default path for the graha-events (maudhya, graha-yuddha, ...) log file."""
+    city_str = self.panchaanga.city.name.replace(' ', '_').replace('/', '_')
+    fname = f"{city_str}_{self.panchaanga.start_date.year}-{self.panchaanga.end_date.year}_graha_events.log"
+    return os.path.join(os.getcwd(), fname)
+
+  def add_graha_events_log_handler(self, log_path: str = None) -> str:
+    """
+    Ensure graha_events_logger writes to `log_path` (or get_graha_events_log_path()
+    if not given), and return the path used. Safe to call repeatedly -- a given
+    file is only attached once.
+    """
+    log_path = os.path.abspath(log_path or self.get_graha_events_log_path())
+    if not any(isinstance(h, logging.FileHandler) and h.baseFilename == log_path for h in graha_events_logger.handlers):
+      os.makedirs(os.path.dirname(log_path), exist_ok=True)
+      handler = logging.FileHandler(log_path)
+      handler.setFormatter(logging.Formatter('%(message)s'))
+      graha_events_logger.addHandler(handler)
+    return log_path
+
+  def format_graha_event_report(self, event_label: str, graha1: int, graha2: int, jd: float, details: dict, include_winner: bool = True) -> str:
+    """
+    Render `details` (as returned by get_graha_yuddha_details) as a
+    human-readable multi-line report, in the spirit of:
+
+      Date: 2021-Mar-05 08:57 -
+        Amshuvimarda ,   0°19'42.70" separation
+        Guru   , lat:    0°35'08.87" S
+                 gati:     13'28.59" riju
+                 dia:       0'32.48" increasing
+        ...
+        Elongation:     27°13'32.29" W
+    """
+    tz = self.panchaanga.city.get_timezone_obj()
+    disc_sep = details['disc_separation']
+    disc_sep_str = ("overlapping by " + self.format_dms(disc_sep)) if disc_sep < 0 else self.format_dms(disc_sep)
+    lines = [
+        f"{event_label}",
+        f"Date: {tz.julian_day_to_local_time_str(jd)} -",
+        f"  Separation (center-to-center): {self.format_dms(details['separation'])}",
+        f"  Separation (disc/edge-to-edge): {disc_sep_str}",
+    ]
+    for graha in (graha1, graha2):
+      d = details[graha]
+      name = GRAHA_NAMES.get(graha, graha)
+      lines.append(f"  {name}, longitude: {self.format_dms(d['longitude'])} {d['nakshatra']}-{d['pada']} {d['rashi']}")
+      lines.append(f"           lat: {self.format_dms(d['latitude'])} {d['lat_dir']}")
+      lines.append(f"           gati: {self.format_arcmin(d['speed'])} {d['motion']}")
+      lines.append(f"           dia: {self.format_arcmin(d['diameter'])} {d['diameter_trend']}")
+      lines.append(f"           magnitude: {d['magnitude']:+.2f}")
+      lines.append(f"           elongation: {self.format_dms(d['elongation'])} {d['elong_dir']}")
+    if include_winner:
+      lines.append(f"  jayI (victor): {GRAHA_NAMES.get(details['winner'], details['winner'])}")
+    return "\n".join(lines) + "\n"
+
+  def add_graha_yuddhas(self, log_path=None):
     TARA_GRAHAS = (Graha.MERCURY, Graha.VENUS, Graha.MARS, Graha.JUPITER, Graha.SATURN)
-    GRAHA_NAMES = {Graha.VENUS: 'zukraH', Graha.MERCURY: 'budhaH', Graha.MARS: 'aGgArakaH', 
-        Graha.SATURN: 'zaniH', Graha.JUPITER: 'guruH'}
+    log_path = self.add_graha_events_log_handler(log_path)
 
     for graha1 in TARA_GRAHAS:
       for graha2 in TARA_GRAHAS:
         if graha1 < graha2:
-          intervals = self.compute_conjunction_intervals(graha1, graha2, self.panchaanga.jd_start, self.panchaanga.jd_end, delta=1.0, debug=False)
+          intervals = self.compute_yuddha_intervals(graha1, graha2, self.panchaanga.jd_start, self.panchaanga.jd_end, delta=1.0)
           for t_start, t_zero, t_end in intervals:
-            # Check for Maudhya!
-            if t_start is not None and self.panchaanga.jd_start < t_start < self.panchaanga.jd_end:
-              fday = int(t_start - self.daily_panchaangas[0].julian_day_start)
-              if t_start < self.daily_panchaangas[fday].jd_sunrise:
-                fday -= 1
-              fest = FestivalInstance(
-                  name=f'graha-yuddhaH ({GRAHA_NAMES[graha1]}–{GRAHA_NAMES[graha2]})',
-                  interval=Interval(jd_start=t_start, jd_end=t_end)
-              )
-              self.panchaanga.add_festival_instance(fest, date=self.daily_panchaangas[fday].date)
+            if not (self.panchaanga.jd_start < t_zero < self.panchaanga.jd_end):
+              continue
+            fday = int(t_zero - self.daily_panchaangas[0].julian_day_start)
+            if t_zero < self.daily_panchaangas[fday].jd_sunrise:
+              fday -= 1
+
+            details = self.get_graha_yuddha_details(graha1, graha2, t_zero)
+            graha_events_logger.info(self.format_graha_event_report(
+                event_label=f"graha-yuddhaH ({GRAHA_NAMES[graha1]}-{GRAHA_NAMES[graha2]})", graha1=graha1, graha2=graha2,
+                jd=t_zero, details=details))
+
+            # Both grahas share the same longitude at t_zero by definition, so
+            # either side's nakshatra/rashi identifies where the yuddha peaks.
+            peak_rashi = details[graha1]['rashi']
+            peak_nakshatra = details[graha1]['nakshatra']
+            fest = FestivalInstance(
+                name=f"graha-yuddhaH~(★{GRAHA_NAMES[details['winner']]}-{GRAHA_NAMES[details['loser']]},~{peak_nakshatra}~{peak_rashi})",
+                interval=Interval(jd_start=t_start, jd_end=t_end)
+            )
+            self.panchaanga.add_festival_instance(fest, date=self.daily_panchaangas[fday].date)
 
   def compute_solar_eclipses(self):
     if 'sUrya-grahaNam' not in self.rules_collection.name_to_rule:

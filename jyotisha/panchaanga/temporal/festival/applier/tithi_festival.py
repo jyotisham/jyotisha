@@ -24,8 +24,11 @@ class TithiFestivalAssigner(FestivalAssigner):
     self.assign_solar_sidereal_amaavaasyaa()
     self.assign_ishti_sthaaliipaaka()
     self.assign_amaavaasya_vyatiipaata()
-    # Force computation of chandra darshanam for bodhayana amavasya's sake
-    self.assign_chandra_darshanam(force_computation=True)
+    # candra-darzanam is now computed in EclipticFestivalAssigner (drik-gaNita,
+    # akSAMza-corrected), which runs before this assigner - see assign_all()
+    # in ecliptic.py. It force-computes 'candra-darzanam'/'bhAdrapada-candra-
+    # darzanam' the same way this used to, so assign_bodhaayana_amaavaasyaa
+    # below still has festival_id_to_days['candra-darzanam'] to work with.
     self.assign_bodhaayana_amaavaasyaa()
     self.assign_amaavaasyaa_soma()
     self.assign_chaturthi_vratam()
@@ -651,7 +654,15 @@ class TithiFestivalAssigner(FestivalAssigner):
         festival_name = 'vAjapEyaphala-snAna-yOgaH'
         self.panchaanga.add_festival(fest_id=festival_name, date=day_panchaanga.date)
 
-  def assign_chandra_darshanam(self, force_computation=False):
+  def assign_chandra_darshanam_legacy(self, force_computation=False):
+    """
+    Legacy (tithi-at-moonset heuristic) chandra-darzanam computation, retained
+    for reference/comparison. No longer called by assign_all() - superseded by
+    EclipticFestivalAssigner.assign_chandra_darshanam(), which uses the
+    akSAMza-corrected drik-gaNita maudhya machinery instead of this tithi
+    heuristic (see the TODO that used to be a few lines below: "Fix based on
+    mauDhya logic for chandra").
+    """
     if 'candra-darzanam' not in self.rules_collection.name_to_rule and not force_computation:
       return
     d = self.panchaanga.duration_prior_padding

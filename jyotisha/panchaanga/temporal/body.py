@@ -163,12 +163,58 @@ class Graha(JsonObject):
   def get_speed(self, jd):
     """
     Get the speed of the body in degrees per day.
-    
-    :param jd: 
-    :return: 
+
+    :param jd:
+    :return:
     """
     delta = 0.0001
     return (self.get_longitude(jd + delta) - self.get_longitude(jd - delta)) / (2 * delta)
+
+  def get_phenomena(self, jd, geo_lon=None, geo_lat=None, geo_alt=0):
+    """
+    Get the (elongation from the sun, apparent angular diameter of disc,
+    apparent magnitude) of the body at a given jd, using swisseph's phenomena
+    computation (accounts for the body's actual distance from the earth, and
+    -- for diameter -- its true, oblateness-corrected volumetric-mean size,
+    not just its equatorial diameter).
+
+    :param jd:
+    :param geo_lon, geo_lat, geo_alt: if given, computes topocentric phenomena
+      (parallax-corrected for an observer at this location) instead of
+      geocentric. Matters little for diameter/magnitude, but keeps this
+      consistent with get_topocentric_lon_lat when both are used together.
+    :return: (elongation_degrees, diameter_degrees, magnitude)
+    """
+    flag = swe.FLG_SWIEPH
+    if geo_lon is not None and geo_lat is not None:
+      swe.set_topo(geo_lon, geo_lat, geo_alt)
+      flag |= swe.FLG_TOPOCTR
+    attr = swe.pheno_ut(jd, self._get_swisseph_id(), flag)
+    return attr[2], attr[3], attr[4]
+
+  def get_topocentric_lon_lat(self, jd, geo_lon, geo_lat, geo_alt=0, ayanaamsha_id=None):
+    """
+    (longitude, latitude) in degrees, topocentric -- i.e. parallax-corrected
+    for an observer at geo_lon/geo_lat/geo_alt, rather than geocentric (as
+    get_longitude/get_latitude are). Parallax is negligible for the ecliptic
+    latitude of distant bodies but can shift a nearby body's apparent
+    longitude by a measurable amount, which matters when precisely timing a
+    locally-observed phenomenon like graha-yuddha.
+
+    :param ayanaamsha_id: if given, the returned longitude is sidereal
+      (ayanaamsha-corrected), matching get_longitude's convention.
+    """
+    swe.set_topo(geo_lon, geo_lat, geo_alt)
+    if self.body_name == Graha.KETU:
+      res = swe.calc_ut(jd, swe.TRUE_NODE, swe.FLG_TOPOCTR)[0]
+      lon, lat = (res[0] + 180) % 360, -res[1]
+    else:
+      res = swe.calc_ut(jd, self._get_swisseph_id(), swe.FLG_TOPOCTR)[0]
+      lon, lat = swe.degnorm(res[0]), res[1]
+    if ayanaamsha_id is not None:
+      from jyotisha.panchaanga.temporal.zodiac import Ayanamsha
+      lon = (lon - Ayanamsha.singleton(ayanaamsha_id).get_offset(jd)) % 360
+    return lon, lat
 
 
 def longitude_difference(jd, body1, body2):
