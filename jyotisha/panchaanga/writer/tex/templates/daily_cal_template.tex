@@ -7,9 +7,11 @@
 \usepackage{setspace}
 \usepackage{multirow}
 \usepackage{pxfonts}
+\usepackage{amssymb}
 \usepackage{bbding}
-\usepackage{wasysym} 
+\usepackage{wasysym}
 \usepackage{fontspec}
+\usepackage{newunicodechar}
 \usepackage{multicol}
 \usepackage{supertabular}
 \usepackage{fancyhdr}
@@ -78,9 +80,15 @@
 % PDF SETUP
 % ---- FILL IN HERE THE DOC TITLE AND AUTHOR
 \defaultfontfeatures{Scale=MatchLowercase,Mapping=tex-text}
-\setmainfont{siddhanta.ttf}[Path=../fonts/,Script=Devanagari] 
+\setmainfont{siddhanta.ttf}[Path=../fonts/,Script=Devanagari]
 \setsansfont[Path=../fonts/,Scale=0.95,Numbers=Lining]{AlegreyaSans-Regular.ttf}
 % \newfontfamily\noto[Path=../fonts/, Ligatures=TeX]{NotoSansUI-Regular}
+% None of the fonts above (main, sans, or Tamil) actually contain U+2605 (★),
+% used as a highlight marker in some festival names -- pin it to the AMS
+% symbol font's \bigstar instead, regardless of whichever text font/script
+% happens to be active at that point (this sidesteps the per-script font
+% substitution fontspec does for the Script=Devanagari main font above).
+\newunicodechar{★}{\ensuremath{\bigstar}}
 %%%%%%% Numbers and counters %%%%%%%
 \newcount\num
 \newcount\tempone \newcount\temptwo
