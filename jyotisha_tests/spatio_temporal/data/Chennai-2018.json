@@ -31755,13 +31755,26 @@
           "name": "anadhyAyaH~15"
         },
         "candra-grahaNam~(rAhumukhagrastOdaya)": {
+          "description": {
+            "blurb": "Total lunar eclipse (parimāṇa ≈12.0 of 12 aṅgulas), Moon at the Rahu node (ascending/mukha). ",
+            "detailed": "The eclipse is already in progress at moonrise (grastodaya). Umbral magnitude: 1.32 (parimāṇa ≈12.0 of the traditional 12 aṅgulas). Avoid food: 09:30►21:38 (from 3 yaamas before the yaama of first contact, until the eclipse's end). Those with janma nakshatra Puṣyaḥ/Āśrēṣā/Maghā (preceding/grahaNa/succeeding), or Jyēṣṭhā (anujanma) or Rēvatī (trijanma) get ashubha phala and should consider graha-shanti next day. By rashi: Karkaṭaḥ, Siṁhaḥ, Dhanuḥ, Mēṣaḥ get more ashubha phala, Vr̥ścikaḥ, Makaraḥ, Mīnaḥ, Mithunam somewhat ashubha, Kanyā, Tulā, Kumbhaḥ, Vr̥ṣabhaḥ shubha phala. General notes: Avoid touching anything other than what's needed for the anushthana (especially bed/mat/cloth) until the mokSha snAna after the eclipse ends -- this is grahaNa Ashaucham. Do not sleep or attend to natural impulses during the eclipse. Mantra japa and dAna during the puNya kAla are of immense benefit. Do not view the eclipse with naked eyes. Pregnant women should avoid exposure to the sun/moon's light during the respective eclipse.",
+            "image": "",
+            "references": "- References\n  - Food-restriction timing and graha-shanti nakshatra/rashi lists follow this pancAnga's \"General notes for all grahanas\" instructions.\n",
+            "shlokas": "",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458150.1328,
             "jd_start": 2458150.0264,
             "jsonClass": "Interval"
           },
           "jsonClass": "FestivalInstance",
-          "name": "candra-grahaNam~(rAhumukhagrastOdaya)"
+          "name": "candra-grahaNam~(rAhumukhagrastOdaya)",
+          "names": {
+            "sa": [
+              "चन्द्र-ग्रहणम्~(राहुग्रस्तोदय)"
+            ]
+          }
         },
         "kapAlI_teppOtsavam~3": {
           "interval": {
@@ -201205,13 +201218,26 @@
           "name": "anadhyAyaH~manvAdi~10"
         },
         "candra-grahaNam~(rAhupucchagrasta)": {
+          "description": {
+            "blurb": "Total lunar eclipse (parimāṇa ≈12.0 of 12 aṅgulas), Moon at the Ketu node (descending/puccha). ",
+            "detailed": "Umbral magnitude: 1.61 (parimāṇa ≈12.0 of the traditional 12 aṅgulas). Avoid food: 12:15►04:58 (from 3 yaamas before the yaama of first contact, until the eclipse's end). Those with janma nakshatra Uttarāṣāḍhā/Śravaṇaḥ/Śraviṣṭhā (preceding/grahaNa/succeeding), or Rōhiṇī (anujanma) or Hastaḥ (trijanma) get ashubha phala and should consider graha-shanti next day. By rashi: Makaraḥ, Kumbhaḥ, Mithunam, Tulā get more ashubha phala, Vr̥ṣabhaḥ, Karkaṭaḥ, Kanyā, Dhanuḥ somewhat ashubha, Mīnaḥ, Mēṣaḥ, Siṁhaḥ, Vr̥ścikaḥ shubha phala. General notes: Avoid touching anything other than what's needed for the anushthana (especially bed/mat/cloth) until the mokSha snAna after the eclipse ends -- this is grahaNa Ashaucham. Do not sleep or attend to natural impulses during the eclipse. Mantra japa and dAna during the puNya kAla are of immense benefit. Do not view the eclipse with naked eyes. Pregnant women should avoid exposure to the sun/moon's light during the respective eclipse.",
+            "image": "",
+            "references": "- References\n  - Food-restriction timing and graha-shanti nakshatra/rashi lists follow this pancAnga's \"General notes for all grahanas\" instructions.\n",
+            "shlokas": "",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458327.4299,
             "jd_start": 2458327.267,
             "jsonClass": "Interval"
           },
           "jsonClass": "FestivalInstance",
-          "name": "candra-grahaNam~(rAhupucchagrasta)"
+          "name": "candra-grahaNam~(rAhupucchagrasta)",
+          "names": {
+            "sa": [
+              "चन्द्र-ग्रहणम्~(केतुग्रस्त)"
+            ]
+          }
         },
         "guru-pUrNimA_or_vyAsa-pUjA": {
           "interval": {
