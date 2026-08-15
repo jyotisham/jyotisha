@@ -148,7 +148,31 @@ class TransitionFestivalInstance(FestivalInstance):
       return custom_transliteration.tr("%s~(%s##\\To{}##%s)" % (name, self.status_1_hk, self.status_2_hk), script=scripts[0]) + "%s" % (self.interval.to_hour_tex(script=scripts[0], tz=timezone, reference_date=reference_date, time_format=time_format))
     else:
       return custom_transliteration.tr("%s~(%s##\\To{}##%s)" % (name, self.status_1_hk, self.status_2_hk), script=scripts[0])
-  
+
+
+class PushkaraFestivalInstance(FestivalInstance):
+  """One of the 4 roles (Adya/antya x ArambhaH/samApanam) of a river's 12-year Pushkara residency.
+
+  :param rashi_index: 1-indexed rashi (the *incoming* rashi for role='Adya', the *outgoing* one
+    for role='antya') -- both the river and its names are looked up from this alone.
+  """
+
+  def __init__(self, rashi_index, role, stage, interval, general_note='', shlokas=''):
+    from jyotisha.panchaanga.temporal import names
+    from jyotisha.panchaanga.temporal.festival import pushkara_description
+    river_hk = names.NAMES['PUSHKARA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][rashi_index]
+    river_deva = names.NAMES['PUSHKARA_NAMES']['sa'][sanscript.DEVANAGARI][rashi_index]
+    rashi_deva = names.NAMES['RASHI_NAMES']['sa'][sanscript.DEVANAGARI][rashi_index]
+    river_iso = names.NAMES['PUSHKARA_NAMES']['sa'][sanscript.ISO][rashi_index]
+    rashi_iso = names.NAMES['RASHI_NAMES']['sa'][sanscript.ISO][rashi_index]
+    name = '%s-%s-puSkara-%s' % (river_hk, role, stage)
+    description = pushkara_description.describe_pushkara(
+      role=role, stage=stage, rashi_sa=rashi_iso, river_sa=river_iso, general_note=general_note, shlokas=shlokas)
+    role_sa = 'आद्य' if role == pushkara_description.ROLE_ADYA else 'अन्त्य'
+    stage_sa = 'आरम्भः' if stage == pushkara_description.STAGE_ARAMBHAH else 'समापनम्'
+    names_dict = {"sa": ["%s-%s-पुष्कर-%s" % (river_deva, role_sa, stage_sa)]}
+    super().__init__(name=name, interval=interval, description=description, names=names_dict)
+
 
 def get_description(festival_instance, fest_details_dict, script, truncate=True, header_md="#####"):
   fest_id = festival_instance.name.replace('__', '_or_')

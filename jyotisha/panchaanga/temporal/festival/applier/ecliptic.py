@@ -10,7 +10,7 @@ from jyotisha.panchaanga.temporal import names
 from jyotisha.panchaanga.temporal import interval
 from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.body import Graha, oblique_ascension
-from jyotisha.panchaanga.temporal.festival import FestivalInstance, TransitionFestivalInstance
+from jyotisha.panchaanga.temporal.festival import FestivalInstance, TransitionFestivalInstance, PushkaraFestivalInstance
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
 from jyotisha.panchaanga.temporal.interval import Interval
 from jyotisha.panchaanga.temporal.zodiac import AngaType
@@ -1048,7 +1048,26 @@ class EclipticFestivalAssigner(FestivalAssigner):
 
   def set_jupiter_transits(self):
     if 'guru-saGkrAntiH' not in self.rules_collection.name_to_rule:
-      return 
+      return
+    from jyotisha.panchaanga.temporal.festival import pushkara_description
+    general_note_rule = self.rules_collection.name_to_rule.get('puSkara-sAmAnya-niyamAH')
+    if general_note_rule is not None:
+      general_note_dict = general_note_rule.get_description_dict(script=sanscript.ISO)
+      pushkara_general_note = general_note_dict['detailed']
+      pushkara_shlokas = general_note_dict['shlokas']
+    else:
+      pushkara_general_note = ''
+      pushkara_shlokas = ''
+
+    def _add_pushkara_instance(rashi_index, role, stage, date):
+      dp = self.panchaanga.date_str_to_panchaanga.get(date.get_date_str())
+      if dp is None:
+        return
+      fest = PushkaraFestivalInstance(rashi_index=rashi_index, role=role, stage=stage,
+                                       interval=dp.get_interval(interval_id="full_day"),
+                                       general_note=pushkara_general_note, shlokas=pushkara_shlokas)
+      self.panchaanga.add_festival_instance(festival_instance=fest, date=date)
+
     jd_end = self.panchaanga.jd_start + self.panchaanga.duration + 13
     check_window = 400  # Max t between two Jupiter transits is ~396 (checked across 180y)
     # Let's check for transitions in a relatively large window
@@ -1062,8 +1081,8 @@ class EclipticFestivalAssigner(FestivalAssigner):
           fday = int(jd_transit - self.daily_panchaangas[0].julian_day_start)
           if jd_transit < self.daily_panchaangas[fday].jd_sunrise:
             fday -= 1
-          fest = TransitionFestivalInstance(name='guru-saGkrAntiH', 
-            status_1_hk=names.NAMES['RASHI_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][rashi1], 
+          fest = TransitionFestivalInstance(name='guru-saGkrAntiH',
+            status_1_hk=names.NAMES['RASHI_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][rashi1],
             status_2_hk=names.NAMES['RASHI_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][rashi2], interval
             =Interval(jd_start=jd_transit, jd_end=None))
           self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[fday].date)
@@ -1076,14 +1095,11 @@ class EclipticFestivalAssigner(FestivalAssigner):
               fday_pushkara = fday
             else:
               fday_pushkara = fday + 1
-            self.panchaanga.add_festival(
-              fest_id='%s-Adya-puSkara-ArambhaH' % names.NAMES['PUSHKARA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][rashi2], date=self.daily_panchaangas[fday_pushkara].date)
-            self.panchaanga.add_festival(
-              fest_id='%s-Adya-puSkara-samApanam' % names.NAMES['PUSHKARA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][rashi2], date=self.daily_panchaangas[fday_pushkara].date + 11)
-            self.panchaanga.add_festival(
-              fest_id='%s-antya-puSkara-samApanam' % names.NAMES['PUSHKARA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][rashi1], date=self.daily_panchaangas[fday_pushkara].date - 1)
-            self.panchaanga.add_festival(
-              fest_id='%s-antya-puSkara-ArambhaH' % names.NAMES['PUSHKARA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][rashi1], date=self.daily_panchaangas[fday_pushkara].date - 12)
+            pushkara_date = self.daily_panchaangas[fday_pushkara].date
+            _add_pushkara_instance(rashi_index=rashi2, role=pushkara_description.ROLE_ADYA, stage=pushkara_description.STAGE_ARAMBHAH, date=pushkara_date)
+            _add_pushkara_instance(rashi_index=rashi2, role=pushkara_description.ROLE_ADYA, stage=pushkara_description.STAGE_SAMAPANAM, date=pushkara_date + 11)
+            _add_pushkara_instance(rashi_index=rashi1, role=pushkara_description.ROLE_ANTYA, stage=pushkara_description.STAGE_SAMAPANAM, date=pushkara_date - 1)
+            _add_pushkara_instance(rashi_index=rashi1, role=pushkara_description.ROLE_ANTYA, stage=pushkara_description.STAGE_ARAMBHAH, date=pushkara_date - 12)
 
   def set_other_graha_transits(self):
     if 'guru-saGkrAntiH' not in self.rules_collection.name_to_rule:

@@ -65,7 +65,12 @@ def get_full_festival_instance(festival_instance, daily_panchaangas, day_index):
                     'vrata-': 'vratam'}
     for _orig, _repl in REPLACEMENTS.items():
       new_fest_id = new_fest_id.replace(_orig, _repl)
-    full_festival_instance = FestivalInstance(name=new_fest_id, interval=Interval(jd_start=daily_panchaangas[start_d].julian_day_start, jd_end=festival_instance.interval.jd_start+1))
+    # Carry over any pre-computed description/names from the samApanam instance (e.g. Pushkara,
+    # whose description is computed dynamically rather than looked up from a TOML rule by the
+    # rewritten new_fest_id, which need not exist at all) -- otherwise this synthesized "full
+    # span" instance falls back to a TOML lookup for a fest_id nothing else ever creates.
+    full_festival_instance = FestivalInstance(name=new_fest_id, interval=Interval(jd_start=daily_panchaangas[start_d].julian_day_start, jd_end=festival_instance.interval.jd_start+1),
+                                              description=festival_instance.description, names=festival_instance.names)
     return full_festival_instance
 
 
