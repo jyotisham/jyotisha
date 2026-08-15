@@ -11,6 +11,20 @@ festival instance is created.
 Food-restriction (bhojana-niyama) timing and the graha-shanti nakshatra/rashi
 rules below follow this panchaanga's own "General notes for all grahanas"
 instructions.
+
+Unlike PushkaraFestivalInstance/EkadashiFestivalInstance, eclipses are NOT
+given their own FestivalInstance subclass. Those subclasses exist to carry
+family-specific *naming* logic (deriving a fest_id from role/rashi/paksha
+etc.) alongside the description. ecliptic.py already builds each eclipse's
+fest_id directly from swisseph data with no such derivation to centralize,
+and eclipses need no behavioral difference from plain FestivalInstance --
+tex_code/md_code and both description pipelines run completely unmodified.
+A subclass here would only relocate this module's calls into __init__ with
+a large raw-astronomy parameter list, coupling festival/__init__.py to
+eclipse-specific data for no functional gain. The free-function-module
+pattern (this file, invoked directly from ecliptic.py at FestivalInstance
+construction time) is the right shape whenever a family has no special
+behavior, just a special description.
 """
 import swisseph as swe
 from indic_transliteration import sanscript
