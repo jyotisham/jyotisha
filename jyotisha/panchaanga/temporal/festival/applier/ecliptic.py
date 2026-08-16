@@ -807,9 +807,9 @@ class EclipticFestivalAssigner(FestivalAssigner):
 
   def get_graha_events_log_path(self) -> str:
     """Default path for the graha-events (maudhya, graha-yuddha, ...) log file."""
-    city_str = self.panchaanga.city.name.replace(' ', '_').replace('/', '_')
-    fname = f"{city_str}_{self.panchaanga.start_date.year}-{self.panchaanga.end_date.year}_graha_events.log"
-    return os.path.join(os.getcwd(), fname)
+    city_str = self.panchaanga.city.name.replace(' ', '').replace('/', '_')
+    fname = f"{city_str}_{self.panchaanga.year}-graha-events.log"
+    return os.path.expanduser(os.path.join("~/Documents/jyotisha", fname))
 
   def add_graha_events_log_handler(self, log_path: str = None) -> str:
     """
