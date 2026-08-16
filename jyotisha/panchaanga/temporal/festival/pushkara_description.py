@@ -28,7 +28,7 @@ def _assemble(blurb, detailed, shlokas='', references='', url=''):
   }
 
 
-def describe_pushkara(role, stage, rashi_sa, river_sa, general_note='', shlokas='', references='', url=''):
+def describe_pushkara(role, stage, rashi_sa, river_sa, general_note='', shlokas='', references='', url='', legend=''):
   """
   :param role: ROLE_ADYA (pushkaram beginning as Guru enters the rashi) or ROLE_ANTYA
     (pushkaram ending as Guru is about to leave the rashi)
@@ -38,6 +38,11 @@ def describe_pushkara(role, stage, rashi_sa, river_sa, general_note='', shlokas=
     at render time, same as any other backtick term) associated with this role (the *incoming*
     rashi for Adya, the *outgoing* one for antya)
   :param river_sa: the river name (raw HK-Dravidian roman, same convention) for that rashi
+  :param legend: river-specific detail (e.g. notable temples/ghats where this river's
+    puSkaram is specially celebrated), from that river's own `<river>-puSkara-viSeSaH` TOML
+    entry if one exists, or '' -- appended as its own paragraph after the closing sentence.
+    Same role for all 4 (role x stage) instances of a given river, unlike `general_note` (all
+    12 rivers share the same one) or the closing sentence (role/stage-specific).
   """
   if role == ROLE_ADYA:
     stage_note = "begins" if stage == STAGE_ARAMBHAH else "ends its first 12 days"
@@ -52,5 +57,8 @@ def describe_pushkara(role, stage, rashi_sa, river_sa, general_note='', shlokas=
   blurb = ''
   # Matches the original TOML's own paragraph break between the boilerplate residency note and
   # the river-specific closing sentence (a literal single newline in the source `en` string).
-  detailed = "%s\n%s" % (general_note, closing) if general_note else closing
+  parts = ["%s\n%s" % (general_note, closing) if general_note else closing]
+  if legend:
+    parts.append(legend)
+  detailed = '\n\n'.join(parts)
   return _assemble(blurb, detailed, shlokas=shlokas, references=references, url=url)

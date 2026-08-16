@@ -1066,6 +1066,16 @@ class EclipticFestivalAssigner(FestivalAssigner):
       pushkara_references = ''
       pushkara_url = ''
 
+    def _get_river_legend(rashi_index):
+      """A river's own `<river>-puSkara-viSeSaH` entry (e.g. notable temples/ghats where that
+      river's puSkaram is specially celebrated), if one exists -- same for all 4 (role x stage)
+      instances of that river, unlike the role/stage-specific closing sentence."""
+      river_hk = names.NAMES['PUSHKARA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][rashi_index]
+      river_legend_rule = self.rules_collection.name_to_rule.get('%s-puSkara-viSeSaH' % river_hk.replace('/', '__'))
+      if river_legend_rule is None:
+        return ''
+      return river_legend_rule.get_description_dict(script=sanscript.DEVANAGARI)['detailed'].strip()
+
     def _add_pushkara_instance(rashi_index, role, stage, date):
       dp = self.panchaanga.date_str_to_panchaanga.get(date.get_date_str())
       if dp is None:
@@ -1073,7 +1083,8 @@ class EclipticFestivalAssigner(FestivalAssigner):
       fest = PushkaraFestivalInstance(rashi_index=rashi_index, role=role, stage=stage,
                                        interval=dp.get_interval(interval_id="full_day"),
                                        general_note=pushkara_general_note, shlokas=pushkara_shlokas,
-                                       references=pushkara_references, url=pushkara_url)
+                                       references=pushkara_references, url=pushkara_url,
+                                       legend=_get_river_legend(rashi_index))
       self.panchaanga.add_festival_instance(festival_instance=fest, date=date)
 
     jd_end = self.panchaanga.jd_start + self.panchaanga.duration + 13

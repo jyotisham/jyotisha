@@ -157,7 +157,8 @@ class PushkaraFestivalInstance(FestivalInstance):
     for role='antya') -- both the river and its names are looked up from this alone.
   """
 
-  def __init__(self, rashi_index, role, stage, interval, general_note='', shlokas='', references='', url=''):
+  def __init__(self, rashi_index, role, stage, interval, general_note='', shlokas='', references='', url='',
+               legend=''):
     from jyotisha.panchaanga.temporal import names
     from jyotisha.panchaanga.temporal.festival import pushkara_description
     river_hk = names.NAMES['PUSHKARA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][rashi_index]
@@ -167,7 +168,7 @@ class PushkaraFestivalInstance(FestivalInstance):
     name = '%s-%s-puSkara-%s' % (river_hk, role, stage)
     description = pushkara_description.describe_pushkara(
       role=role, stage=stage, rashi_sa=rashi_hk, river_sa=river_hk, general_note=general_note, shlokas=shlokas,
-      references=references, url=url)
+      references=references, url=url, legend=legend)
     role_sa = 'आद्य' if role == pushkara_description.ROLE_ADYA else 'अन्त्य'
     stage_sa = 'आरम्भः' if stage == pushkara_description.STAGE_ARAMBHAH else 'समापनम्'
     names_dict = {"sa": ["%s-%s-पुष्कर-%s" % (river_deva, role_sa, stage_sa)]}
