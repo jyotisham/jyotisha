@@ -953,7 +953,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
           grasta=grasta, suff=suff, is_cudamani=is_cudamani, attr=next_eclipse_sol[2], retflag=next_eclipse_sol[0],
           jd_contact_start=jd_contact_start, jd_contact_end=jd_contact_end,
           nakshatra_index=eclipse_angas.get_anga(AngaType.NAKSHATRA).index, rashi_index=eclipse_angas.get_anga(AngaType.RASHI).index,
-          niyama_start_jd=niyama_start_jd, general_note=self._get_general_eclipse_note(sanscript.ISO),
+          niyama_start_jd=niyama_start_jd, general_note=self._get_general_eclipse_note(sanscript.DEVANAGARI),
           tz=self.panchaanga.city.get_timezone_obj())
         names = eclipse_description.sanskrit_name(luminary_sa='सूर्य', grasta=grasta, suff=suff, is_cudamani=is_cudamani)
         fest = FestivalInstance(name=solar_eclipse_str, interval=Interval(jd_start=jd_eclipse_solar_start, jd_end=jd_eclipse_solar_end),
@@ -1037,7 +1037,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
         attr=next_eclipse_lun[2], retflag=next_eclipse_lun[0],
         jd_contact_start=jd_contact_start, jd_contact_end=jd_contact_end,
         nakshatra_index=eclipse_angas.get_anga(AngaType.NAKSHATRA).index, rashi_index=eclipse_angas.get_anga(AngaType.RASHI).index,
-        niyama_start_jd=niyama_start_jd, general_note=self._get_general_eclipse_note(sanscript.ISO),
+        niyama_start_jd=niyama_start_jd, general_note=self._get_general_eclipse_note(sanscript.DEVANAGARI),
         tz=self.panchaanga.city.get_timezone_obj())
       names = eclipse_description.sanskrit_name(luminary_sa='चन्द्र', grasta=grasta, suff=suff, is_cudamani=is_cudamani)
       fest = FestivalInstance(name=lunar_eclipse_str, interval=Interval(jd_start=jd_eclipse_lunar_start, jd_end=jd_eclipse_lunar_end),
@@ -1052,7 +1052,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
     from jyotisha.panchaanga.temporal.festival import pushkara_description
     general_note_rule = self.rules_collection.name_to_rule.get('puSkara-sAmAnya-niyamAH')
     if general_note_rule is not None:
-      general_note_dict = general_note_rule.get_description_dict(script=sanscript.ISO)
+      general_note_dict = general_note_rule.get_description_dict(script=sanscript.DEVANAGARI)
       pushkara_general_note = general_note_dict['detailed']
       pushkara_shlokas = general_note_dict['shlokas']
     else:

@@ -33,17 +33,19 @@ from jyotisha.panchaanga.temporal.interval import Interval
 from jyotisha.panchaanga.temporal.zodiac import AngaType
 
 NODE_NAMES = {
-  'rAhumukhagrast': dict(en='Rahu node (ascending/mukha)'),
-  'rAhupucchagrast': dict(en='Ketu node (descending/puccha)'),
+  'rAhumukhagrast': dict(en='Rahu node (mukha/ascending)'),
+  'rAhupucchagrast': dict(en='Rahu node (puccha/descending)'),
 }
 
-# Devanagari roots for the human-readable `names` dict (get_human_names()),
-# mirroring what the old per-variant TOML files' [names].sa used to carry.
-# Without this, display falls back to auto-transliterating the raw fest_id
-# (e.g. 'राहुपुच्छग्रस्त' instead of the more idiomatic 'केतुग्रस्त').
+# Devanagari roots for the human-readable `names` dict (get_human_names()).
+# Both nodes are attributed to Rahu (mukha = ascending, puccha = descending)
+# rather than invoking "Ketu" as a separately-named node -- Rahu/Ketu as two
+# distinct entities is an older convention; the mukha/puccha framing (already
+# used by the fest_id itself, e.g. 'rAhupucchagrasta') is more precise.
+# Without this, display falls back to auto-transliterating the raw fest_id.
 _NODE_SA_ROOT = {
-  'rAhumukhagrast': 'राहुग्रस्त',
-  'rAhupucchagrast': 'केतुग्रस्त',
+  'rAhumukhagrast': 'राहुमुखग्रस्त',
+  'rAhupucchagrast': 'राहुपुच्छग्रस्त',
 }
 _SUFF_SA = {
   'a': '',

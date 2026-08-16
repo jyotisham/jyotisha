@@ -162,7 +162,7 @@ class TithiFestivalAssigner(FestivalAssigner):
         cluster, label = adhyayana_description.classify(rule)
         if cluster is None:
           continue
-        script = sanscript.ISO
+        script = sanscript.DEVANAGARI
         general_dict = self._get_anadhyayana_boilerplate_dict(cluster, script)
         own_dict = rule.get_description_dict(script=script)
         # A per-instance rule that still carries its own shlokas (a handful have an extra
@@ -306,8 +306,8 @@ class TithiFestivalAssigner(FestivalAssigner):
 
   def _add_ekadashi_instance(self, paksha, month_index, variant, date, suffix=None):
     ekad_base = names.get_ekaadashii_name(paksha, month_index)
-    legend_dict = self._get_ekadashi_rule_dict(ekad_base, sanscript.ISO)
-    general_dict = self._get_ekadashi_rule_dict('EkAdazI-sAmAnya-niyamAH', sanscript.ISO)
+    legend_dict = self._get_ekadashi_rule_dict(ekad_base, sanscript.DEVANAGARI)
+    general_dict = self._get_ekadashi_rule_dict('EkAdazI-sAmAnya-niyamAH', sanscript.DEVANAGARI)
     # A per-name rule (if it still exists) already carries its own shlokas -- the shared block
     # plus any unique verses; only fall back to the shared block's shlokas otherwise.
     shlokas = (legend_dict or general_dict or {}).get('shlokas', '')

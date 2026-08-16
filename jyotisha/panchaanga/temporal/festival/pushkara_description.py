@@ -33,9 +33,11 @@ def describe_pushkara(role, stage, rashi_sa, river_sa, general_note='', shlokas=
   :param role: ROLE_ADYA (pushkaram beginning as Guru enters the rashi) or ROLE_ANTYA
     (pushkaram ending as Guru is about to leave the rashi)
   :param stage: STAGE_ARAMBHAH (start of this 12-day window) or STAGE_SAMAPANAM (end of it)
-  :param rashi_sa: the rashi name (ISO-transliterated, for embedding in English text) associated
-    with this role (the *incoming* rashi for Adya, the *outgoing* one for antya)
-  :param river_sa: the river name (ISO-transliterated) for that rashi
+  :param rashi_sa: the rashi name (raw HK-Dravidian roman, matching how backtick-quoted terms
+    are authored in TOML `en` descriptions -- transliterated to the actual output script only
+    at render time, same as any other backtick term) associated with this role (the *incoming*
+    rashi for Adya, the *outgoing* one for antya)
+  :param river_sa: the river name (raw HK-Dravidian roman, same convention) for that rashi
   """
   if role == ROLE_ADYA:
     stage_note = "begins" if stage == STAGE_ARAMBHAH else "ends its first 12 days"
@@ -44,6 +46,6 @@ def describe_pushkara(role, stage, rashi_sa, river_sa, general_note='', shlokas=
     stage_note = "begins its closing 12 days" if stage == STAGE_ARAMBHAH else "ends"
     closing = "As Guru is about to leave `%s`, `puSkararAja`'s residence in the `%s` river draws to a close." % (rashi_sa, river_sa)
 
-  blurb = "puSkara %s (%s), %s. " % (role, stage, river_sa)
+  blurb = "puSkara %s (%s), `%s`. " % (role, stage, river_sa)
   detailed = "%s %s" % (general_note, closing) if general_note else closing
   return _assemble(blurb, detailed, shlokas=shlokas)

@@ -161,13 +161,12 @@ class PushkaraFestivalInstance(FestivalInstance):
     from jyotisha.panchaanga.temporal import names
     from jyotisha.panchaanga.temporal.festival import pushkara_description
     river_hk = names.NAMES['PUSHKARA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][rashi_index]
+    rashi_hk = names.NAMES['RASHI_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][rashi_index]
     river_deva = names.NAMES['PUSHKARA_NAMES']['sa'][sanscript.DEVANAGARI][rashi_index]
     rashi_deva = names.NAMES['RASHI_NAMES']['sa'][sanscript.DEVANAGARI][rashi_index]
-    river_iso = names.NAMES['PUSHKARA_NAMES']['sa'][sanscript.ISO][rashi_index]
-    rashi_iso = names.NAMES['RASHI_NAMES']['sa'][sanscript.ISO][rashi_index]
     name = '%s-%s-puSkara-%s' % (river_hk, role, stage)
     description = pushkara_description.describe_pushkara(
-      role=role, stage=stage, rashi_sa=rashi_iso, river_sa=river_iso, general_note=general_note, shlokas=shlokas)
+      role=role, stage=stage, rashi_sa=rashi_hk, river_sa=river_hk, general_note=general_note, shlokas=shlokas)
     role_sa = 'आद्य' if role == pushkara_description.ROLE_ADYA else 'अन्त्य'
     stage_sa = 'आरम्भः' if stage == pushkara_description.STAGE_ARAMBHAH else 'समापनम्'
     names_dict = {"sa": ["%s-%s-पुष्कर-%s" % (river_deva, role_sa, stage_sa)]}
@@ -186,11 +185,10 @@ class EkadashiFestivalInstance(FestivalInstance):
     from jyotisha.panchaanga.temporal import names
     from jyotisha.panchaanga.temporal.festival import ekadashi_description
     ekad_base = names.get_ekaadashii_name(paksha, month_index)
-    ekad_base_iso = sanscript.transliterate(ekad_base, sanscript.roman.HK_DRAVIDIAN, sanscript.ISO)
-    month_sa = names.get_chandra_masa(month=month_index, script=sanscript.ISO, visarga=False)
+    month_sa = names.get_chandra_masa(month=month_index, script=sanscript.roman.HK_DRAVIDIAN, visarga=False)
     name = '%s-%s%s' % (variant, ekad_base, (' %s' % suffix) if suffix else '')
     description = ekadashi_description.describe_ekadashi(
-      ekad_base=ekad_base_iso, paksha=paksha, month_sa=month_sa, legend=legend, general_note=general_note, shlokas=shlokas)
+      ekad_base=ekad_base, paksha=paksha, month_sa=month_sa, legend=legend, general_note=general_note, shlokas=shlokas)
     super().__init__(name=name, interval=interval, description=description)
 
 
@@ -218,8 +216,11 @@ class AdhyayanaFestivalInstance(FestivalInstance):
 def get_description(festival_instance, fest_details_dict, script, truncate=True, header_md="#####"):
   fest_id = festival_instance.name.replace('__', '_or_')
   if getattr(festival_instance, 'description', None) is not None:
+    from jyotisha.panchaanga.temporal.festival.rules import summary
     desc_dict = festival_instance.description
-    return "%s\n\n%s" % (desc_dict['blurb'], desc_dict['detailed'])
+    blurb = summary.transliterate_backticked_terms(desc_dict.get('blurb', ''))
+    detailed = summary.transliterate_backticked_terms(desc_dict.get('detailed', ''))
+    return "%s\n\n%s" % (blurb, detailed)
   desc = None
   if re.match('aGgArakI.*saGkaTahara-caturthI-vratam', fest_id):
     fest_id = fest_id.replace('aGgArakI~', '')
@@ -414,7 +415,18 @@ PATTERNS_TO_HANDLERS = {
 def _get_description_dict(festival_instance, fest_details_dict, script):
   fest_id = festival_instance.name.replace('__', '_or_')
   if getattr(festival_instance, 'description', None) is not None:
-    return festival_instance.description
+    # Return a copy, not the stored reference: the same FestivalInstance can be rendered into
+    # multiple scripts (e.g. multiple tex outputs sharing one computed Panchaanga), and both
+    # backtick terms and shlokas are stored in their raw/canonical form (HK-Dravidian roman,
+    # Devanagari respectively) precisely so each render can transliterate them correctly here
+    # rather than baking one script in at construction time.
+    from jyotisha.panchaanga.temporal.festival.rules import summary
+    desc = dict(festival_instance.description)
+    desc['blurb'] = summary.transliterate_backticked_terms(desc.get('blurb', ''))
+    desc['detailed'] = summary.transliterate_backticked_terms(desc.get('detailed', ''))
+    if desc.get('shlokas'):
+      desc['shlokas'] = sanscript.transliterate(desc['shlokas'], sanscript.DEVANAGARI, script)
+    return desc
   desc = {}
 
   for pattern, handler in PATTERNS_TO_HANDLERS.items():

@@ -60,13 +60,13 @@ def describe_labeled(label, general_note, shlokas=''):
   """
   opening = "Anadhyayana on account of `%s`." % label
   detailed = "%s %s" % (opening, general_note) if general_note else opening
-  return _assemble(blurb="%s " % label, detailed=detailed, shlokas=shlokas)
+  return _assemble(blurb="`%s` " % label, detailed=detailed, shlokas=shlokas)
 
 
 def describe_boilerplate(general_note, shlokas=''):
   """For clusters with no per-instance label -- the shared note is the whole description
   (utsarga, aSTakA, shakradhvaja, the 3 cAturmAsya sub-clusters)."""
-  return _assemble(blurb='anadhyAyaH ', detailed=general_note, shlokas=shlokas)
+  return _assemble(blurb='`anadhyAyaH` ', detailed=general_note, shlokas=shlokas)
 
 
 def classify(rule):

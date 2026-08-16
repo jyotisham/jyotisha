@@ -32,14 +32,16 @@ def describe_ekadashi(ekad_base, paksha, month_sa, legend='', general_note='', s
   """
   :param ekad_base: e.g. 'AmalakI-EkAdazI' (names.get_ekaadashii_name's return value)
   :param paksha: 'shukla' or 'krishna'
-  :param month_sa: the lunar month name (ISO-transliterated, no visarga), e.g. 'phAlguna'
+  :param month_sa: the lunar month name (raw HK-Dravidian roman, no visarga), e.g. 'phAlguna' --
+    transliterated to the actual output script only at render time, same as any other
+    backtick-quoted term
   :param legend: any genuine unique story/detail for this ekad_base, or ''
   :param general_note: the shared shloka+merit boilerplate text, or ''
   :param shlokas: the shloka block to show -- the ekad_base's own (if it has unique verses
     beyond the shared ones) or else the shared EkAdazI-sAmAnya-niyamAH block
   """
   opening = "The %s-paksha Ekadashi of `%s` month is known as `%s`." % (PAKSHA_EN[paksha], month_sa, ekad_base)
-  blurb = "%s " % ekad_base
+  blurb = "`%s` " % ekad_base
 
   parts = [opening]
   if legend:
