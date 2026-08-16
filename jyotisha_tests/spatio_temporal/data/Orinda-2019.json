@@ -20005,6 +20005,14 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "vaidhRti-zrAddham"
+        },
+        "zaniH–udayaH_(prAk)": {
+          "interval": {
+            "jd_end": 2458503.3276,
+            "jsonClass": "Interval"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "zaniH–udayaH_(prAk)"
         }
       },
       "graha_rise_jd": {
@@ -103550,6 +103558,14 @@
           "jsonClass": "FestivalInstance",
           "name": "bhrAtRprApti-vrata-ArambhaH"
         },
+        "budhaH–astamayaH_(prAk)": {
+          "interval": {
+            "jd_start": 2458590.7595,
+            "jsonClass": "Interval"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "budhaH–astamayaH_(prAk)"
+        },
         "damanakArOpaNa-dvAdazI": {
           "interval": {
             "jd_end": 2458591.0662,
@@ -149630,6 +149646,14 @@
           "jsonClass": "FestivalInstance",
           "name": "bhadra-catuSTaya-vratam"
         },
+        "budhaH–udayaH_(prAk)": {
+          "interval": {
+            "jd_end": 2458638.9261,
+            "jsonClass": "Interval"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "budhaH–udayaH_(prAk)"
+        },
         "darsheShTiH": {
           "interval": {
             "jd_end": 2458639.0362,
@@ -164187,6 +164211,15 @@
         }
       },
       "festival_id_to_instance": {
+        "graha-yuddhaH~(★budhaH-aGgArakaH,~punarvasuH~mithunam)": {
+          "interval": {
+            "jd_end": 2458654.9806,
+            "jd_start": 2458651.7198,
+            "jsonClass": "Interval"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "graha-yuddhaH~(★budhaH-aGgArakaH,~punarvasuH~mithunam)"
+        },
         "tripuSkara-yOgaH~2": {
           "interval": {
             "jd_end": 2458653.9196,
@@ -175464,6 +175497,14 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "pancha-parva-4"
+        },
+        "zukrasya~vArdhakya-prArambhaH": {
+          "interval": {
+            "jd_start": 2458665.6293,
+            "jsonClass": "Interval"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "zukrasya~vArdhakya-prArambhaH"
         }
       },
       "graha_rise_jd": {
@@ -190017,6 +190058,22 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "vaidhRti-zrAddham"
+        },
+        "zukraH–astamayaH_(prAk)": {
+          "interval": {
+            "jd_start": 2458680.6293,
+            "jsonClass": "Interval"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "zukraH–astamayaH_(prAk)"
+        },
+        "zukrasya~vArdhakya-samApanam": {
+          "interval": {
+            "jd_start": 2458680.6293,
+            "jsonClass": "Interval"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "zukrasya~vArdhakya-samApanam"
         }
       },
       "graha_rise_jd": {
@@ -190955,6 +191012,14 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "anadhyAyaH~divAsaGkramaNa"
+        },
+        "budhaH–astamayaH_(prAk)": {
+          "interval": {
+            "jd_start": 2458681.4473,
+            "jsonClass": "Interval"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "budhaH–astamayaH_(prAk)"
         },
         "guru-pUrNimA_or_vyAsa-pUjA": {
           "interval": {
@@ -194881,7 +194946,16 @@
           "name": "रात्रिमानम्"
         }
       },
-      "festival_id_to_instance": {},
+      "festival_id_to_instance": {
+        "aGgArakaH–astamayaH_(prAk)": {
+          "interval": {
+            "jd_start": 2458685.2052,
+            "jsonClass": "Interval"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "aGgArakaH–astamayaH_(prAk)"
+        }
+      },
       "graha_rise_jd": {
         "jupiter": 2458685.5171,
         "ketu": 2458685.6145,
@@ -203347,6 +203421,14 @@
           "name": "budha-saGkrAntiH",
           "status_1_hk": "karkaTaH",
           "status_2_hk": "mithunam"
+        },
+        "budhaH–udayaH_(prAk)": {
+          "interval": {
+            "jd_end": 2458694.2736,
+            "jsonClass": "Interval"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "budhaH–udayaH_(prAk)"
         },
         "kUr2r2uva_nAyan2mAr_(39)_gurupUjai": {
           "interval": {
@@ -227625,6 +227707,14 @@
           "jsonClass": "FestivalInstance",
           "name": "anadhyAyaH~rAtrisaGkramaNa~parAhNE"
         },
+        "budhaH–astamayaH_(prAk)": {
+          "interval": {
+            "jd_start": 2458719.8762,
+            "jsonClass": "Interval"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "budhaH–astamayaH_(prAk)"
+        },
         "kAJcI_21_jagadguru_zrI~sArvabhaumaguruH_candracUDEndra_sarasvatI_ArAdhanA": {
           "interval": {
             "jd_end": 2458720.0668,
@@ -228632,6 +228722,15 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "caNDikA-pUjA"
+        },
+        "graha-yuddhaH~(★zukraH-aGgArakaH,~maghA~siMhaH)": {
+          "interval": {
+            "jd_end": 2458721.7926,
+            "jd_start": 2458718.6155,
+            "jsonClass": "Interval"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "graha-yuddhaH~(★zukraH-aGgArakaH,~maghA~siMhaH)"
         },
         "kAJcI_24_jagadguru_zrI~citsukhEndra_sarasvatI_ArAdhanA": {
           "interval": {
@@ -238473,6 +238572,15 @@
           "jsonClass": "FestivalInstance",
           "name": "bhAdrapdika-nAga-paJcamI"
         },
+        "graha-yuddhaH~(★budhaH-aGgArakaH,~pUrvaphalgunI~siMhaH)": {
+          "interval": {
+            "jd_end": 2458730.7606,
+            "jd_start": 2458729.5721,
+            "jsonClass": "Interval"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "graha-yuddhaH~(★budhaH-aGgArakaH,~pUrvaphalgunI~siMhaH)"
+        },
         "tiruccendUr_murugan2_AvaNit_tiruvizhA_##11##m_nAL": {
           "interval": {
             "jd_end": 2458731.0732,
@@ -248173,6 +248281,15 @@
           "jsonClass": "FestivalInstance",
           "name": "dikpAla-pUjA~1"
         },
+        "graha-yuddhaH~(★zukraH-budhaH,~uttaraphalgunI~kanyA)": {
+          "interval": {
+            "jd_end": 2458741.9604,
+            "jd_start": 2458738.2443,
+            "jsonClass": "Interval"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "graha-yuddhaH~(★zukraH-budhaH,~uttaraphalgunI~kanyA)"
+        },
         "kAJcI_59_jagadguru_zrI~bhagavannAma_bOdhEndra_sarasvatI_ArAdhanA": {
           "interval": {
             "jd_end": 2458741.079,
@@ -248243,6 +248360,22 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "yaticAturmAsyavrata-samApanam"
+        },
+        "zukraH–udayaH_(prAk)": {
+          "interval": {
+            "jd_end": 2458740.8477,
+            "jsonClass": "Interval"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "zukraH–udayaH_(prAk)"
+        },
+        "zukrasya~bAlya-prArambhaH": {
+          "interval": {
+            "jd_start": 2458740.8477,
+            "jsonClass": "Interval"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "zukrasya~bAlya-prArambhaH"
         }
       },
       "graha_rise_jd": {
@@ -252109,6 +252242,14 @@
           "jsonClass": "FestivalInstance",
           "name": "bhaumAzvinI-yOgaH"
         },
+        "budhaH–udayaH_(prAk)": {
+          "interval": {
+            "jd_end": 2458744.5812,
+            "jsonClass": "Interval"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "budhaH–udayaH_(prAk)"
+        },
         "dikpAla-pUjA~2": {
           "interval": {
             "jd_end": 2458745.0814,
@@ -253080,6 +253221,14 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "saptarSi-pUjA_or_arghyam"
+        },
+        "zukrasya~bAlya-samApanam": {
+          "interval": {
+            "jd_start": 2458745.8477,
+            "jsonClass": "Interval"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "zukrasya~bAlya-samApanam"
         }
       },
       "graha_rise_jd": {
@@ -276287,6 +276436,14 @@
         }
       },
       "festival_id_to_instance": {
+        "aGgArakaH–udayaH_(prAk)": {
+          "interval": {
+            "jd_end": 2458769.2103,
+            "jsonClass": "Interval"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "aGgArakaH–udayaH_(prAk)"
+        },
         "anadhyAyaH~14": {
           "interval": {
             "jd_end": 2458770.0968,
@@ -301534,6 +301691,14 @@
           "jsonClass": "FestivalInstance",
           "name": "bhISma-paJcaka-vrata-ArambhaH"
         },
+        "budhaH–astamayaH_(prAk)": {
+          "interval": {
+            "jd_start": 2458795.1543,
+            "jsonClass": "Interval"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "budhaH–astamayaH_(prAk)"
+        },
         "sarva-utthAna-EkAdazI": {
           "interval": {
             "jd_end": 2458796.1153,
@@ -309386,6 +309551,14 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "anadhyAyaH~divAsaGkramaNa~pUrvarAtrau"
+        },
+        "budhaH–udayaH_(prAk)": {
+          "interval": {
+            "jd_end": 2458803.2607,
+            "jsonClass": "Interval"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "budhaH–udayaH_(prAk)"
         },
         "gaNAdhipa-mahAgaNapati-saGkaTahara-caturthI-vratam": {
           "interval": {
@@ -322884,6 +323057,14 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "cir2appuli_nAyan2mAr_(35)_gurupUjai"
+        },
+        "gurOH~vArdhakya-prArambhaH": {
+          "interval": {
+            "jd_start": 2458817.5224,
+            "jsonClass": "Interval"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "gurOH~vArdhakya-prArambhaH"
         },
         "zukla-caturthI-vratam": {
           "interval": {
@@ -337062,6 +337243,22 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "anadhyAyaH~pUrvarAtrau"
+        },
+        "gurOH~vArdhakya-samApanam": {
+          "interval": {
+            "jd_start": 2458832.5224,
+            "jsonClass": "Interval"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "gurOH~vArdhakya-samApanam"
+        },
+        "guruH–astamayaH_(prAk)": {
+          "interval": {
+            "jd_start": 2458832.5224,
+            "jsonClass": "Interval"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "guruH–astamayaH_(prAk)"
         },
         "zukra-saGkrAntiH": {
           "interval": {
@@ -352406,7 +352603,16 @@
           "name": "रात्रिमानम्"
         }
       },
-      "festival_id_to_instance": {},
+      "festival_id_to_instance": {
+        "guruH–mauDhyam~(uttaram~sthitaH)": {
+          "interval": {
+            "jd_end": 2458848.5,
+            "jsonClass": "Interval"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "guruH–mauDhyam~(uttaram~sthitaH)"
+        }
+      },
       "graha_rise_jd": {
         "jupiter": 2458849.1362,
         "ketu": 2458849.1416,
@@ -362416,7 +362622,16 @@
           "name": "रात्रिमानम्"
         }
       },
-      "festival_id_to_instance": {},
+      "festival_id_to_instance": {
+        "gurOH~bAlya-prArambhaH": {
+          "interval": {
+            "jd_start": 2458859.5009,
+            "jsonClass": "Interval"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "gurOH~bAlya-prArambhaH"
+        }
+      },
       "graha_rise_jd": {
         "jupiter": 2458860.1134,
         "ketu": 2458860.1117,
@@ -376163,7 +376378,16 @@
           "name": "रात्रिमानम्"
         }
       },
-      "festival_id_to_instance": {},
+      "festival_id_to_instance": {
+        "gurOH~bAlya-samApanam": {
+          "interval": {
+            "jd_start": 2458874.5009,
+            "jsonClass": "Interval"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "gurOH~bAlya-samApanam"
+        }
+      },
       "graha_rise_jd": {
         "jupiter": 2458875.0819,
         "ketu": 2458875.0702,
@@ -380623,6 +380847,22 @@
         "year": 2019
       }
     ],
+    "aGgArakaH–astamayaH_(prAk)": [
+      {
+        "day": 20,
+        "jsonClass": "Date",
+        "month": 7,
+        "year": 2019
+      }
+    ],
+    "aGgArakaH–udayaH_(prAk)": [
+      {
+        "day": 12,
+        "jsonClass": "Date",
+        "month": 10,
+        "year": 2019
+      }
+    ],
     "aGgArakasvAtI-naktavrata-yOgaH": [
       {
         "day": 6,
@@ -383377,6 +383617,58 @@
         "year": 2019
       }
     ],
+    "budhaH–astamayaH_(prAk)": [
+      {
+        "day": 16,
+        "jsonClass": "Date",
+        "month": 4,
+        "year": 2019
+      },
+      {
+        "day": 16,
+        "jsonClass": "Date",
+        "month": 7,
+        "year": 2019
+      },
+      {
+        "day": 23,
+        "jsonClass": "Date",
+        "month": 8,
+        "year": 2019
+      },
+      {
+        "day": 7,
+        "jsonClass": "Date",
+        "month": 11,
+        "year": 2019
+      }
+    ],
+    "budhaH–udayaH_(prAk)": [
+      {
+        "day": 3,
+        "jsonClass": "Date",
+        "month": 6,
+        "year": 2019
+      },
+      {
+        "day": 29,
+        "jsonClass": "Date",
+        "month": 7,
+        "year": 2019
+      },
+      {
+        "day": 17,
+        "jsonClass": "Date",
+        "month": 9,
+        "year": 2019
+      },
+      {
+        "day": 15,
+        "jsonClass": "Date",
+        "month": 11,
+        "year": 2019
+      }
+    ],
     "budhavizAkhA-naktavrata-yOgaH": [
       {
         "day": 7,
@@ -384758,6 +385050,106 @@
         "year": 2019
       }
     ],
+    "graha-yuddhaH~(★budhaH-aGgArakaH,~pUrvaphalgunI~siMhaH)": [
+      {
+        "day": 3,
+        "jsonClass": "Date",
+        "month": 9,
+        "year": 2019
+      }
+    ],
+    "graha-yuddhaH~(★budhaH-aGgArakaH,~punarvasuH~mithunam)": [
+      {
+        "day": 18,
+        "jsonClass": "Date",
+        "month": 6,
+        "year": 2019
+      }
+    ],
+    "graha-yuddhaH~(★zukraH-aGgArakaH,~maghA~siMhaH)": [
+      {
+        "day": 24,
+        "jsonClass": "Date",
+        "month": 8,
+        "year": 2019
+      }
+    ],
+    "graha-yuddhaH~(★zukraH-budhaH,~uttaraphalgunI~kanyA)": [
+      {
+        "day": 13,
+        "jsonClass": "Date",
+        "month": 9,
+        "year": 2019
+      }
+    ],
+    "gurOH~bAlya-prArambhaH": [
+      {
+        "day": 7,
+        "hour": 0,
+        "jsonClass": "Date",
+        "minute": 15,
+        "month": 12,
+        "second": 1.7432,
+        "year": 2018
+      },
+      {
+        "day": 10,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2020
+      }
+    ],
+    "gurOH~bAlya-samApanam": [
+      {
+        "day": 22,
+        "hour": 0,
+        "jsonClass": "Date",
+        "minute": 15,
+        "month": 12,
+        "second": 1.7432,
+        "year": 2018
+      },
+      {
+        "day": 25,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2020
+      }
+    ],
+    "gurOH~vArdhakya-prArambhaH": [
+      {
+        "day": 30,
+        "hour": 5,
+        "jsonClass": "Date",
+        "minute": 48,
+        "month": 10,
+        "second": 36.9529,
+        "year": 2018
+      },
+      {
+        "day": 29,
+        "jsonClass": "Date",
+        "month": 11,
+        "year": 2019
+      }
+    ],
+    "gurOH~vArdhakya-samApanam": [
+      {
+        "day": 14,
+        "hour": 4,
+        "jsonClass": "Date",
+        "minute": 48,
+        "month": 11,
+        "second": 36.9529,
+        "year": 2018
+      },
+      {
+        "day": 14,
+        "jsonClass": "Date",
+        "month": 12,
+        "year": 2019
+      }
+    ],
     "guru-anurAdhA-naktavrata-yOgaH": [
       {
         "day": 8,
@@ -384791,6 +385183,22 @@
         "day": 4,
         "jsonClass": "Date",
         "month": 11,
+        "year": 2019
+      }
+    ],
+    "guruH–astamayaH_(prAk)": [
+      {
+        "day": 14,
+        "jsonClass": "Date",
+        "month": 12,
+        "year": 2019
+      }
+    ],
+    "guruH–mauDhyam~(uttaram~sthitaH)": [
+      {
+        "day": 30,
+        "jsonClass": "Date",
+        "month": 12,
         "year": 2019
       }
     ],
@@ -392752,6 +393160,14 @@
         "year": 2019
       }
     ],
+    "zaniH–udayaH_(prAk)": [
+      {
+        "day": 19,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2019
+      }
+    ],
     "zanimUlA-naktavrata-yOgaH": [
       {
         "day": 10,
@@ -393335,6 +393751,54 @@
         "day": 14,
         "jsonClass": "Date",
         "month": 12,
+        "year": 2019
+      }
+    ],
+    "zukraH–astamayaH_(prAk)": [
+      {
+        "day": 15,
+        "jsonClass": "Date",
+        "month": 7,
+        "year": 2019
+      }
+    ],
+    "zukraH–udayaH_(prAk)": [
+      {
+        "day": 13,
+        "jsonClass": "Date",
+        "month": 9,
+        "year": 2019
+      }
+    ],
+    "zukrasya~bAlya-prArambhaH": [
+      {
+        "day": 13,
+        "jsonClass": "Date",
+        "month": 9,
+        "year": 2019
+      }
+    ],
+    "zukrasya~bAlya-samApanam": [
+      {
+        "day": 18,
+        "jsonClass": "Date",
+        "month": 9,
+        "year": 2019
+      }
+    ],
+    "zukrasya~vArdhakya-prArambhaH": [
+      {
+        "day": 30,
+        "jsonClass": "Date",
+        "month": 6,
+        "year": 2019
+      }
+    ],
+    "zukrasya~vArdhakya-samApanam": [
+      {
+        "day": 15,
+        "jsonClass": "Date",
+        "month": 7,
         "year": 2019
       }
     ],

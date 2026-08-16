@@ -23,3 +23,4 @@ jyotisha_tests/update_test_json.py
 /jyotisha/panchaanga/temporal/festival/data/migrated
 /docs/_site/
 /docs/.jekyll-cache/
+jyotisha_tests/*.log

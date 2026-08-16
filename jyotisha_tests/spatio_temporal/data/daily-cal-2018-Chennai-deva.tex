@@ -7,9 +7,11 @@
 \usepackage{setspace}
 \usepackage{multirow}
 \usepackage{pxfonts}
+\usepackage{amssymb}
 \usepackage{bbding}
-\usepackage{wasysym} 
+\usepackage{wasysym}
 \usepackage{fontspec}
+\usepackage{newunicodechar}
 \usepackage{multicol}
 \usepackage{supertabular}
 \usepackage{fancyhdr}
@@ -78,9 +80,15 @@
 % PDF SETUP
 % ---- FILL IN HERE THE DOC TITLE AND AUTHOR
 \defaultfontfeatures{Scale=MatchLowercase,Mapping=tex-text}
-\setmainfont{siddhanta.ttf}[Path=../fonts/,Script=Devanagari] 
+\setmainfont{siddhanta.ttf}[Path=../fonts/,Script=Devanagari]
 \setsansfont[Path=../fonts/,Scale=0.95,Numbers=Lining]{AlegreyaSans-Regular.ttf}
 % \newfontfamily\noto[Path=../fonts/, Ligatures=TeX]{NotoSansUI-Regular}
+% None of the fonts above (main, sans, or Tamil) actually contain U+2605 (★),
+% used as a highlight marker in some festival names -- pin it to the AMS
+% symbol font's \bigstar instead, regardless of whichever text font/script
+% happens to be active at that point (this sidesteps the per-script font
+% substitution fontspec does for the Script=Devanagari main font above).
+\newunicodechar{★}{\ensuremath{\bigstar}}
 %%%%%%% Numbers and counters %%%%%%%
 \newcount\num
 \newcount\tempone \newcount\temptwo
@@ -289,7 +297,7 @@
 {\anga{आयुष्मान्}{\time{10-50}{10:40}}\hspace{1ex}\uanga{सौभाग्यः}}%
 {\prev{\anga{कौलवम्}{\time{*58-32}{05:59}}}\hspace{1ex}\anga{तैतिलम्}{\time{28-4}{17:09}}\hspace{1ex}\anga{गरजा}{\time{55-3}{04:31*}}\hspace{1ex}\uanga{वणिजा}}{}
 }
-{बुध-सङ्क्रान्तिः~(वृश्चिकः\To{}धनुः)~19:29\RIGHTarrow{}\eventsep त्यागराज-आराधना/बहुल-पञ्चमी~\#{१७१}}
+{बुध-सङ्क्रान्तिः~(वृश्चिकः\To{}धनुः)~19:29\RIGHTarrow{}\eventsep ग्रह-युद्धः (★गुरुः-अङ्गारकः, विशाखा तुला)\eventsep त्यागराज-आराधना/बहुल-पञ्चमी~\#{१७१}}
 {Sat} 
 \cfoot{\rygdata{09:25--10:50}{13:39--15:03}{06:36--08:01}}
 \caldata{JANUARY}{7}{\sunmonth{धनुः}{23}{}{पौषः}{हेमन्तऋतुः}{भानुः}{हेमलम्बः}{दक्षिणायनम्}{हेमन्तऋतुः}}
@@ -366,7 +374,7 @@
 {\prev{\anga{गण्डः}{\time{*58-51}{06:09}}}\hspace{1ex}\fullanga{वृद्धिः}}%
 {\anga{कौलवम्}{\time{10-30}{10:36}}\hspace{1ex}\anga{तैतिलम्}{\time{44-0}{23:52}}\hspace{1ex}\uanga{गरजा}}{}
 }
-{अनध्यायः~17:56\RIGHTarrow{}06:38*\eventsep \tamil{போகி}\eventsep पक्षवर्धिनी-महाद्वादशी\eventsep शुक्र-सङ्क्रान्तिः~(धनुः\To{}मकरः)~14:26\RIGHTarrow{}}
+{अनध्यायः~17:56\RIGHTarrow{}06:38*\eventsep \tamil{போகி}\eventsep ग्रह-युद्धः (★शनिः-बुधः, मूला धनुः)\eventsep पक्षवर्धिनी-महाद्वादशी\eventsep शुक्र-सङ्क्रान्तिः~(धनुः\To{}मकरः)~14:26\RIGHTarrow{}}
 {Sat} 
 \cfoot{\rygdata{09:28--10:52}{13:42--15:07}{06:38--08:03}}
 \caldata{JANUARY}{14}{\sunmonth{मकरः}{1}{\mbox{धनुः{\tiny\RIGHTarrow}{13:24}}}{पौषः}{हेमन्तऋतुः}{भानुः}{हेमलम्बः}{उत्तरायणम्}{हेमन्तऋतुः}}
@@ -817,7 +825,7 @@
 {\prev{\anga{माहेन्द्रः}{\time{*59-54}{06:29}}}\hspace{1ex}\anga{वैधृतिः}{\time{53-26}{03:49*}}\hspace{1ex}\uanga{विष्कम्भः}}%
 {\anga{भद्रा}{\time{18-17}{13:39}}\hspace{1ex}\anga{बवम्}{\time{45-51}{00:43*}}\hspace{1ex}\uanga{बालवम्}}{}
 }
-{अनध्यायः\eventsep \tamil{திருச்செந்தூர் முருகன் மாசித் திருவிழா 6ம் நாள்—வெள்ளித் தேர் பவனி}\eventsep वैधृति-श्राद्धम्}
+{अनध्यायः\eventsep \tamil{திருச்செந்தூர் முருகன் மாசித் திருவிழா 6ம் நாள்—வெள்ளித் தேர் பவனி}\eventsep वैधृति-श्राद्धम्\eventsep शुक्रः–उदयः (प्राक्)\RIGHTarrow{}10:56\eventsep शुक्रस्य बाल्य-प्रारम्भः~10:56\RIGHTarrow{}}
 {Fri} 
 \cfoot{\rygdata{10:54--12:22}{15:17--16:45}{07:59--09:27}}
 \caldata{FEBRUARY}{24}{\sunmonth{कुम्भः}{12}{}{फाल्गुनः}{शिशिरऋतुः}{शनिः}{हेमलम्बः}{उत्तरायणम्}{शिशिरऋतुः}}
@@ -872,7 +880,7 @@
 {\anga{शोभनः}{\time{12-8}{11:14}}\hspace{1ex}\uanga{अतिगण्डः}}%
 {\anga{तैतिलम्}{\time{13-30}{11:46}}\hspace{1ex}\anga{गरजा}{\time{40-5}{22:21}}\hspace{1ex}\uanga{वणिजा}}{}
 }
-{अनध्यायः~18:14\RIGHTarrow{}06:28*\eventsep काम-दहनम्\eventsep \tamil{நடராஜர் மஹாபிஷேகம்}\eventsep \tamil{திருச்செந்தூர் முருகன் தெப்பம்}\eventsep वेङ्कटाचले प्लवोत्सवः}
+{अनध्यायः~18:14\RIGHTarrow{}06:28*\eventsep काम-दहनम्\eventsep \tamil{நடராஜர் மஹாபிஷேகம்}\eventsep \tamil{திருச்செந்தூர் முருகன் தெப்பம்}\eventsep वेङ्कटाचले प्लवोत्सवः\eventsep शुक्रस्य बाल्य-समापनम्~10:56\RIGHTarrow{}}
 {Wed} 
 \cfoot{\rygdata{12:21--13:49}{07:57--09:25}{10:53--12:21}}
 \caldata{MARCH}{1}{\sunmonth{कुम्भः}{17}{}{फाल्गुनः}{शिशिरऋतुः}{गुरुः}{हेमलम्बः}{उत्तरायणम्}{शिशिरऋतुः}}
@@ -1796,7 +1804,7 @@
 {\anga{हर्षणः}{\time{41-16}{22:41}}\hspace{1ex}\uanga{वज्रम्}}%
 {\anga{बालवम्}{\time{4-51}{07:49}}\hspace{1ex}\anga{कौलवम्}{\time{32-5}{19:13}}\hspace{1ex}\uanga{तैतिलम्}}{}
 }
-{}
+{बुधः–अस्तमयः (प्राक्)~11:42\RIGHTarrow{}}
 {Wed} 
 \cfoot{\rygdata{12:05--13:40}{07:20--08:55}{10:30--12:05}}
 \caldata{MAY}{24}{\sunmonth{वृषभः}{10}{}{अधिक-ज्यैष्ठः}{ग्रीष्मऋतुः}{गुरुः}{विलम्बः}{उत्तरायणम्}{वसन्तऋतुः}}
@@ -2071,7 +2079,7 @@
 {\anga{व्याघातः}{\time{19-9}{13:56}}\hspace{1ex}\uanga{हर्षणः}}%
 {\anga{भद्रा}{\time{13-47}{11:38}}\hspace{1ex}\anga{बवम्}{\time{39-50}{22:14}}\hspace{1ex}\uanga{बालवम्}}{}
 }
-{चिदम्बरे कैलास-वाहनम्\eventsep कदली-गौरी-व्रतम्/पूजा\eventsep रविपुष्य-योगः\RIGHTarrow{}06:18\eventsep उमा-अवतारः\eventsep शुक्ल-चतुर्थी-व्रतम्}
+{बुधः–उदयः (प्राक्)\RIGHTarrow{}14:35\eventsep चिदम्बरे कैलास-वाहनम्\eventsep कदली-गौरी-व्रतम्/पूजा\eventsep रविपुष्य-योगः\RIGHTarrow{}06:18\eventsep उमा-अवतारः\eventsep शुक्ल-चतुर्थी-व्रतम्}
 {Sun} 
 \cfoot{\rygdata{16:57--18:32}{12:09--13:45}{15:21--16:57}}
 \caldata{JUNE}{18}{\sunmonth{मिथुनम्}{4}{}{ज्यैष्ठः}{ग्रीष्मऋतुः}{सोमः}{विलम्बः}{उत्तरायणम्}{ग्रीष्मऋतुः}}
@@ -2577,7 +2585,7 @@
 {\anga{सुकर्म}{\time{20-31}{14:33}}\hspace{1ex}\uanga{धृतिः}}%
 {\anga{तैतिलम्}{\time{13-19}{11:33}}\hspace{1ex}\anga{गरजा}{\time{44-7}{23:55}}\hspace{1ex}\uanga{वणिजा}}{}
 }
-{}
+{बुधः–अस्तमयः (प्राक्)~09:09\RIGHTarrow{}}
 {Thu} 
 \cfoot{\rygdata{13:49--15:23}{05:58--07:32}{09:06--10:40}}
 \caldata{AUGUST}{3}{\sunmonth{कर्कटः}{18}{}{आषाढः}{ग्रीष्मऋतुः}{शुक्रः}{विलम्बः}{दक्षिणायनम्}{ग्रीष्मऋतुः}}
@@ -2731,7 +2739,7 @@
 {\anga{शुभः}{\time{25-56}{16:45}}\hspace{1ex}\uanga{शुक्लः}}%
 {\anga{कौलवम्}{\time{17-43}{13:21}}\hspace{1ex}\anga{तैतिलम्}{\time{47-6}{01:02*}}\hspace{1ex}\uanga{गरजा}}{}
 }
-{षष्ठी-व्रतम्\eventsep अनध्यायः~18:26\RIGHTarrow{}06:00*\eventsep \tamil{பெருமிழலைக் குறும்ப நாயன்மார் (23) குருபூஜை}\eventsep सूपौदन-व्रतम्}
+{षष्ठी-व्रतम्\eventsep अनध्यायः~18:26\RIGHTarrow{}06:00*\eventsep बुधः–उदयः (प्राक्)\RIGHTarrow{}08:03\eventsep \tamil{பெருமிழலைக் குறும்ப நாயன்மார் (23) குருபூஜை}\eventsep सूपौदन-व्रतम्}
 {Thu} 
 \cfoot{\rygdata{13:46--15:19}{06:00--07:33}{09:06--10:39}}
 \caldata{AUGUST}{17}{\sunmonth{सिंहः}{1}{\mbox{कर्कटः{\tiny\RIGHTarrow}{06:22}}}{श्रावणः}{वर्षऋतुः}{शुक्रः}{विलम्बः}{दक्षिणायनम्}{वर्षऋतुः}}
@@ -2951,7 +2959,7 @@
 {\anga{सिद्धिः}{\time{6-35}{08:42}}\hspace{1ex}\anga{व्यतीपातः}{\time{58-32}{05:27*}}\hspace{1ex}\uanga{वरीयान्}}%
 {\prev{\anga{वणिजा}{\time{*55-30}{04:15}}}\hspace{1ex}\anga{भद्रा}{\time{22-5}{15:01}}\hspace{1ex}\anga{बवम्}{\time{48-56}{01:40*}}\hspace{1ex}\uanga{बालवम्}}{}
 }
-{\tamil{திருச்செந்தூர் முருகன் ஆவணித் திருவிழா 3ம் நாள்—முருகன் பவனி}\eventsep व्यतीपात-श्राद्धम्}
+{बुधः–अस्तमयः (प्राक्)~23:14\RIGHTarrow{}\eventsep \tamil{திருச்செந்தூர் முருகன் ஆவணித் திருவிழா 3ம் நாள்—முருகன் பவனி}\eventsep व्यतीपात-श्राद्धम्}
 {Wed} 
 \cfoot{\rygdata{12:07--13:39}{07:32--09:04}{10:36--12:07}}
 \caldata{SEPTEMBER}{6}{\sunmonth{सिंहः}{21}{}{श्रावणः}{वर्षऋतुः}{गुरुः}{विलम्बः}{दक्षिणायनम्}{वर्षऋतुः}}
@@ -3292,7 +3300,7 @@
 {\anga{शुभः}{\time{44-30}{23:45}}\hspace{1ex}\uanga{शुक्लः}}%
 {\prev{\anga{कौलवम्}{\time{*59-54}{05:59}}}\hspace{1ex}\anga{तैतिलम्}{\time{26-58}{16:40}}\hspace{1ex}\anga{गरजा}{\time{53-23}{03:21*}}\hspace{1ex}\uanga{वणिजा}}{}
 }
-{अनध्यायः~17:52\RIGHTarrow{}06:01*\eventsep बुध-सङ्क्रान्तिः~(कन्या\To{}तुला)~12:22\RIGHTarrow{}\eventsep गजच्छाया-योगः~16:40\RIGHTarrow{}17:08\eventsep \tamil{புரட்டாசி~சனிக்கிழமை}\eventsep यति-महालयम्\eventsep शनि-प्रदोष-व्रतम्~17:52\RIGHTarrow{}19:23}
+{अनध्यायः~17:52\RIGHTarrow{}06:01*\eventsep बुध-सङ्क्रान्तिः~(कन्या\To{}तुला)~12:22\RIGHTarrow{}\eventsep गजच्छाया-योगः~16:40\RIGHTarrow{}17:08\eventsep \tamil{புரட்டாசி~சனிக்கிழமை}\eventsep यति-महालयम्\eventsep शनि-प्रदोष-व्रतम्~17:52\RIGHTarrow{}19:23\eventsep शुक्रस्य वार्धक्य-प्रारम्भः~12:39\RIGHTarrow{}}
 {Sat} 
 \cfoot{\rygdata{08:59--10:28}{13:25--14:54}{06:01--07:30}}
 \caldata{OCTOBER}{7}{\sunmonth{कन्या}{21}{}{भाद्रपदः}{वर्षऋतुः}{भानुः}{विलम्बः}{दक्षिणायनम्}{वर्षऋतुः}}
@@ -3336,7 +3344,7 @@
 {\anga{वैधृतिः}{\time{14-54}{11:53}}\hspace{1ex}\uanga{विष्कम्भः}}%
 {\anga{बवम्}{\time{3-32}{07:25}}\hspace{1ex}\anga{बालवम्}{\time{32-8}{18:41}}\hspace{1ex}\uanga{कौलवम्}}{}
 }
-{आश्विन-मास-आरम्भः\eventsep अनध्यायः\eventsep चन्द्र-दर्शनम्~17:49\RIGHTarrow{}18:59\eventsep गृहदेवी-पूजा\eventsep स्तन्यवृद्धि-गौरी-व्रतम्\eventsep शरन्नवरात्र-आरम्भः}
+{आश्विन-मास-आरम्भः\eventsep अनध्यायः\eventsep बुधः–उदयः (प्राक्)\RIGHTarrow{}19:36\eventsep चन्द्र-दर्शनम्~17:49\RIGHTarrow{}18:59\eventsep गृहदेवी-पूजा\eventsep स्तन्यवृद्धि-गौरी-व्रतम्\eventsep शरन्नवरात्र-आरम्भः}
 {Wed} 
 \cfoot{\rygdata{11:55--13:24}{07:30--08:59}{10:27--11:55}}
 \caldata{OCTOBER}{11}{\sunmonth{कन्या}{25}{}{आश्वयुजः}{शरदृतुः}{गुरुः}{विलम्बः}{दक्षिणायनम्}{वर्षऋतुः}}
@@ -3457,7 +3465,7 @@
 {\anga{वृद्धिः}{\time{14-7}{11:33}}\hspace{1ex}\uanga{ध्रुवः}}%
 {\anga{बवम्}{\time{7-10}{08:50}}\hspace{1ex}\anga{बालवम्}{\time{39-14}{21:31}}\hspace{1ex}\uanga{कौलवम्}}{}
 }
-{अनध्यायः\eventsep द्विदल-व्रत-आरम्भः\eventsep पयोव्रत-समापनम्\eventsep त्रिपुष्कर-योगः~06:03\RIGHTarrow{}21:31\eventsep शक्रध्वजपातः}
+{अनध्यायः\eventsep द्विदल-व्रत-आरम्भः\eventsep पयोव्रत-समापनम्\eventsep त्रिपुष्कर-योगः~06:03\RIGHTarrow{}21:31\eventsep शक्रध्वजपातः\eventsep शुक्रः–अस्तमयः (प्राक्)~12:39\RIGHTarrow{}\eventsep शुक्रस्य वार्धक्य-समापनम्~12:39\RIGHTarrow{}}
 {Sun} 
 \cfoot{\rygdata{16:16--17:43}{11:53--13:21}{14:48--16:16}}
 \caldata{OCTOBER}{22}{\sunmonth{तुला}{5}{}{आश्वयुजः}{शरदृतुः}{सोमः}{विलम्बः}{दक्षिणायनम्}{शरदृतुः}}
@@ -3545,7 +3553,7 @@
 {\anga{शिवः}{\time{35-27}{19:55}}\hspace{1ex}\uanga{सिद्धः}}%
 {\prev{\anga{कौलवम्}{\time{*54-57}{04:00}}}\hspace{1ex}\anga{तैतिलम्}{\time{23-15}{15:03}}\hspace{1ex}\anga{गरजा}{\time{50-23}{02:06*}}\hspace{1ex}\uanga{वणिजा}}{}
 }
-{घोटक-पञ्चमी\eventsep सेङ्गालिपुरम् अनन्तराम-दीक्षित-आराधना~\#{४९}\eventsep सोममृगशीर्ष-योगः\RIGHTarrow{}06:15}
+{घोटक-पञ्चमी\eventsep गुरोः वार्धक्य-प्रारम्भः~15:31\RIGHTarrow{}\eventsep सेङ्गालिपुरम् अनन्तराम-दीक्षित-आराधना~\#{४९}\eventsep सोममृगशीर्ष-योगः\RIGHTarrow{}06:15}
 {Mon} 
 \cfoot{\rygdata{07:32--08:58}{10:25--11:52}{13:19--14:46}}
 \caldata{OCTOBER}{30}{\sunmonth{तुला}{13}{}{आश्वयुजः}{शरदृतुः}{मङ्गलः}{विलम्बः}{दक्षिणायनम्}{शरदृतुः}}
@@ -3556,7 +3564,7 @@
 {\anga{सिद्धः}{\time{28-46}{17:11}}\hspace{1ex}\uanga{साध्यः}}%
 {\anga{वणिजा}{\time{18-16}{13:08}}\hspace{1ex}\anga{भद्रा}{\time{45-40}{00:09*}}\hspace{1ex}\uanga{बवम्}}{}
 }
-{त्रिपुष्कर-योगः~13:08\RIGHTarrow{}03:48*}
+{त्रिपुष्कर-योगः~13:08\RIGHTarrow{}03:48*\eventsep शुक्रः–उदयः (प्राक्)\RIGHTarrow{}04:07*\eventsep शुक्रस्य बाल्य-प्रारम्भः~04:07*\RIGHTarrow{}}
 {Tue} 
 \cfoot{\rygdata{14:46--16:12}{08:59--10:25}{11:52--13:19}}
 \caldata{OCTOBER}{31}{\sunmonth{तुला}{14}{}{आश्वयुजः}{शरदृतुः}{बुधः}{विलम्बः}{दक्षिणायनम्}{शरदृतुः}}
@@ -3611,7 +3619,7 @@
 {\anga{वैधृतिः}{\time{46-46}{00:37*}}\hspace{1ex}\uanga{विष्कम्भः}}%
 {\anga{कौलवम्}{\time{21-19}{14:18}}\hspace{1ex}\anga{तैतिलम्}{\time{48-40}{01:24*}}\hspace{1ex}\uanga{गरजा}}{}
 }
-{गोवत्स-द्वादशी\eventsep हरिवासरः\RIGHTarrow{}08:45\eventsep त्रिपुष्कर-योगः~06:07\RIGHTarrow{}21:32\eventsep वैष्णव-रमा-एकादशी\eventsep वैधृति-श्राद्धम्\eventsep वसुदेव-पूजा\eventsep व्याघ्र-द्वादशी}
+{गोवत्स-द्वादशी\eventsep हरिवासरः\RIGHTarrow{}08:45\eventsep त्रिपुष्कर-योगः~06:07\RIGHTarrow{}21:32\eventsep वैष्णव-रमा-एकादशी\eventsep वैधृति-श्राद्धम्\eventsep वसुदेव-पूजा\eventsep व्याघ्र-द्वादशी\eventsep शुक्रस्य बाल्य-समापनम्~04:07*\RIGHTarrow{}}
 {Sun} 
 \cfoot{\rygdata{16:11--17:37}{11:52--13:18}{14:45--16:11}}
 \caldata{NOVEMBER}{5}{\sunmonth{तुला}{19}{}{आश्वयुजः}{शरदृतुः}{सोमः}{विलम्बः}{दक्षिणायनम्}{शरदृतुः}}
@@ -3710,7 +3718,7 @@
 {\anga{शूलः}{\time{24-47}{15:37}}\hspace{1ex}\uanga{गण्डः}}%
 {\anga{कौलवम्}{\time{23-22}{15:04}}\hspace{1ex}\anga{तैतिलम्}{\time{55-41}{04:22*}}\hspace{1ex}\uanga{गरजा}}{}
 }
-{स्कन्दषष्ठी-व्रतम्\eventsep त्रिपुष्कर-योगः~04:22*\RIGHTarrow{}05:34*}
+{गुरोः वार्धक्य-समापनम्~15:31\RIGHTarrow{}\eventsep गुरुः–अस्तमयः (प्राक्)~15:31\RIGHTarrow{}\eventsep स्कन्दषष्ठी-व्रतम्\eventsep त्रिपुष्कर-योगः~04:22*\RIGHTarrow{}05:34*}
 {Tue} 
 \cfoot{\rygdata{14:44--16:10}{09:01--10:27}{11:53--13:18}}
 \caldata{NOVEMBER}{14}{\sunmonth{तुला}{28}{}{कार्त्तिकः}{शरदृतुः}{बुधः}{विलम्बः}{दक्षिणायनम्}{शरदृतुः}}
@@ -3809,7 +3817,7 @@
 {\anga{वरीयान्}{\time{19-0}{13:25}}\hspace{1ex}\uanga{परिघः}}%
 {\anga{वणिजा}{\time{17-35}{12:53}}\hspace{1ex}\anga{भद्रा}{\time{45-23}{00:05*}}\hspace{1ex}\uanga{बवम्}}{}
 }
-{अनध्यायः\eventsep अनध्यायः\eventsep अनध्यायः\eventsep \tamil{பரணீ~தீபம்}\eventsep \tamil{கார்த்திகை}\eventsep कार्त्तिक-मास-अन्तिमत्रयतिथि-व्रतम्\eventsep मणिकर्णिका-स्नानम्/वैकुण्ठ-चतुर्दशी\eventsep मन्वादिः-(धर्म-सावर्णिः-[११])\eventsep पार्वणव्रतम् पूर्णिमायाम्\eventsep पूर्णिमा-पूजा\eventsep पञ्च-पर्व-पूजा (पूर्णिमा)\eventsep सायन-षडशीति-पुण्यकालः~14:31\RIGHTarrow{}17:35\eventsep सायन-रवि-सङ्क्रमण-पुण्यकालः~08:07\RIGHTarrow{}17:35\eventsep सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः~11:54\RIGHTarrow{}17:35\eventsep सहस्य-मासः~14:31\RIGHTarrow{}\eventsep \tamil{ஸர்வாலய~தீபம்}\eventsep \tamil{திருவண்ணாமலை~தீபம்}\eventsep त्रिपुरोत्सवः\eventsep श्री-गोविन्द भगवत्पाद-आराधना}
+{अनध्यायः\eventsep अनध्यायः\eventsep अनध्यायः\eventsep \tamil{பரணீ~தீபம்}\eventsep बुधः–अस्तमयः (प्राक्)~18:33\RIGHTarrow{}\eventsep \tamil{கார்த்திகை}\eventsep कार्त्तिक-मास-अन्तिमत्रयतिथि-व्रतम्\eventsep मणिकर्णिका-स्नानम्/वैकुण्ठ-चतुर्दशी\eventsep मन्वादिः-(धर्म-सावर्णिः-[११])\eventsep पार्वणव्रतम् पूर्णिमायाम्\eventsep पूर्णिमा-पूजा\eventsep पञ्च-पर्व-पूजा (पूर्णिमा)\eventsep सायन-षडशीति-पुण्यकालः~14:31\RIGHTarrow{}17:35\eventsep सायन-रवि-सङ्क्रमण-पुण्यकालः~08:07\RIGHTarrow{}17:35\eventsep सायन-सङ्क्रमण-दिन-अपराह्ण-पुण्यकालः~11:54\RIGHTarrow{}17:35\eventsep सहस्य-मासः~14:31\RIGHTarrow{}\eventsep \tamil{ஸர்வாலய~தீபம்}\eventsep \tamil{திருவண்ணாமலை~தீபம்}\eventsep त्रिपुरोत्सवः\eventsep श्री-गोविन्द भगवत्पाद-आराधना}
 {Thu} 
 \cfoot{\rygdata{13:20--14:45}{06:14--07:39}{09:04--10:29}}
 \caldata{NOVEMBER}{23}{\sunmonth{वृश्चिकः}{7}{}{कार्त्तिकः}{शरदृतुः}{शुक्रः}{विलम्बः}{दक्षिणायनम्}{शरदृतुः}}
@@ -3864,7 +3872,7 @@
 {\anga{शुक्लः}{\time{33-20}{19:00}}\hspace{1ex}\uanga{ब्राह्मः}}%
 {\anga{कौलवम्}{\time{16-5}{12:21}}\hspace{1ex}\anga{तैतिलम्}{\time{43-6}{23:08}}\hspace{1ex}\uanga{गरजा}}{}
 }
-{तिरुविशलूर् गङ्गाकर्षण-महोत्सव-आरम्भः}
+{ग्रह-युद्धः (★गुरुः-बुधः, अनूराधा वृश्चिकः)\eventsep तिरुविशलूर् गङ्गाकर्षण-महोत्सव-आरम्भः}
 {Tue} 
 \cfoot{\rygdata{14:46--16:10}{09:06--10:31}{11:56--13:21}}
 \caldata{NOVEMBER}{28}{\sunmonth{वृश्चिकः}{12}{}{कार्त्तिकः}{शरदृतुः}{बुधः}{विलम्बः}{दक्षिणायनम्}{शरदृतुः}}
@@ -3919,7 +3927,7 @@
 {\prev{\anga{प्रीतिः}{\time{*57-32}{05:17}}}\hspace{1ex}\anga{आयुष्मान्}{\time{52-31}{03:10*}}\hspace{1ex}\uanga{सौभाग्यः}}%
 {\anga{भद्रा}{\time{20-25}{14:00}}\hspace{1ex}\anga{बवम्}{\time{48-31}{01:28*}}\hspace{1ex}\uanga{बालवम्}}{}
 }
-{आदित्यहस्त-नक्त-व्रत-योगः\eventsep आदित्यहस्त-योगः\eventsep \tamil{ஆனாய நாயன்மார் (14) குருபூஜை}\eventsep काञ्ची २८ जगद्गुरु-श्री-महादेवेन्द्र-सरस्वती-१-आराधना~\#{१४१८}\eventsep \tamil{கார்த்திகை~ஞாயிற்றுக்கிழமை}}
+{आदित्यहस्त-नक्त-व्रत-योगः\eventsep आदित्यहस्त-योगः\eventsep \tamil{ஆனாய நாயன்மார் (14) குருபூஜை}\eventsep बुधः–उदयः (प्राक्)\RIGHTarrow{}12:55\eventsep काञ्ची २८ जगद्गुरु-श्री-महादेवेन्द्र-सरस्वती-१-आराधना~\#{१४१८}\eventsep \tamil{கார்த்திகை~ஞாயிற்றுக்கிழமை}}
 {Sun} 
 \cfoot{\rygdata{16:12--17:36}{11:58--13:22}{14:47--16:12}}
 \caldata{DECEMBER}{3}{\sunmonth{वृश्चिकः}{17}{}{कार्त्तिकः}{शरदृतुः}{सोमः}{विलम्बः}{दक्षिणायनम्}{शरदृतुः}}
@@ -3985,7 +3993,7 @@
 {\anga{शूलः}{\time{37-36}{20:52}}\hspace{1ex}\uanga{गण्डः}}%
 {\anga{बवम्}{\time{20-17}{13:59}}\hspace{1ex}\anga{बालवम्}{\time{51-29}{02:46*}}\hspace{1ex}\uanga{कौलवम्}}{}
 }
-{अनध्यायः\eventsep चन्द्र-दर्शनम्~17:38\RIGHTarrow{}18:37\eventsep दर्शेष्टिः\eventsep धन-व्रतम्\eventsep मार्गशीर्ष-मास-आरम्भः\eventsep \tamil{மூர்க்க நாயன்மார் (32) குருபூஜை}\eventsep पार्वण-प्रायश्चित्तावकाशः दर्शे\eventsep दर्श-स्थालीपाकः\eventsep वनदुर्गानवरात्र-आरम्भः\eventsep शनिमूला-नक्तव्रत-योगः}
+{अनध्यायः\eventsep चन्द्र-दर्शनम्~17:38\RIGHTarrow{}18:37\eventsep दर्शेष्टिः\eventsep धन-व्रतम्\eventsep गुरोः बाल्य-प्रारम्भः~00:15*\RIGHTarrow{}\eventsep गुरुः–उदयः (प्राक्)\RIGHTarrow{}00:15*\eventsep मार्गशीर्ष-मास-आरम्भः\eventsep \tamil{மூர்க்க நாயன்மார் (32) குருபூஜை}\eventsep पार्वण-प्रायश्चित्तावकाशः दर्शे\eventsep दर्श-स्थालीपाकः\eventsep वनदुर्गानवरात्र-आरम्भः\eventsep शनिमूला-नक्तव्रत-योगः}
 {Sat} 
 \cfoot{\rygdata{09:11--10:36}{13:25--14:49}{06:22--07:47}}
 \caldata{DECEMBER}{9}{\sunmonth{वृश्चिकः}{23}{}{मार्गशीर्षः}{हेमन्तऋतुः}{भानुः}{विलम्बः}{दक्षिणायनम्}{शरदृतुः}}
@@ -4128,7 +4136,7 @@
 {\anga{साध्यः}{\time{26-18}{16:20}}\hspace{1ex}\uanga{शुभः}}%
 {\prev{\anga{तैतिलम्}{\time{*55-29}{04:34}}}\hspace{1ex}\anga{गरजा}{\time{23-51}{15:25}}\hspace{1ex}\anga{वणिजा}{\time{49-47}{02:09*}}\hspace{1ex}\uanga{भद्रा}}{}
 }
-{अनध्यायः\eventsep अनध्यायः\eventsep पिशाचमोचनयात्रा\eventsep तपो-मासः/शिशिरऋतुः/उत्तरायणम्~03:52*\RIGHTarrow{}}
+{अनध्यायः\eventsep अनध्यायः\eventsep ग्रह-युद्धः (★गुरुः-बुधः, अनूराधा वृश्चिकः)\eventsep पिशाचमोचनयात्रा\eventsep तपो-मासः/शिशिरऋतुः/उत्तरायणम्~03:52*\RIGHTarrow{}}
 {Fri} 
 \cfoot{\rygdata{10:42--12:06}{14:55--16:19}{07:54--09:18}}
 \caldata{DECEMBER}{22}{\sunmonth{धनुः}{7}{}{मार्गशीर्षः}{हेमन्तऋतुः}{शनिः}{विलम्बः}{दक्षिणायनम्}{हेमन्तऋतुः}}
@@ -4150,7 +4158,7 @@
 {\anga{शुक्लः}{\time{7-20}{09:15}}\hspace{1ex}\anga{ब्राह्मः}{\time{57-26}{05:25*}}\hspace{1ex}\uanga{माहेन्द्रः}}%
 {\anga{बालवम्}{\time{8-43}{09:46}}\hspace{1ex}\anga{कौलवम्}{\time{35-45}{20:12}}\hspace{1ex}\uanga{तैतिलम्}}{}
 }
-{आर्द्रादर्शनम्\eventsep अङ्गारक-सङ्क्रान्तिः~(कुम्भः\To{}मीनः)~12:17\RIGHTarrow{}\eventsep अनध्यायः\eventsep \tamil{சடைய நாயன்மார் (62) குருபூஜை}\eventsep काञ्ची १३ जगद्गुरु-श्री-सच्चिद्घनेन्द्र-सरस्वती-आराधना~\#{१७४७}\eventsep पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्\eventsep पूर्णमासेष्टिः\eventsep पूर्ण-स्थालीपाकः\eventsep त्रिपुष्कर-योगः~20:49\RIGHTarrow{}06:31*}
+{आर्द्रादर्शनम्\eventsep अङ्गारक-सङ्क्रान्तिः~(कुम्भः\To{}मीनः)~12:17\RIGHTarrow{}\eventsep अनध्यायः\eventsep \tamil{சடைய நாயன்மார் (62) குருபூஜை}\eventsep गुरोः बाल्य-समापनम्~00:15*\RIGHTarrow{}\eventsep काञ्ची १३ जगद्गुरु-श्री-सच्चिद्घनेन्द्र-सरस्वती-आराधना~\#{१७४७}\eventsep पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्\eventsep पूर्णमासेष्टिः\eventsep पूर्ण-स्थालीपाकः\eventsep त्रिपुष्कर-योगः~20:49\RIGHTarrow{}06:31*}
 {Sun} 
 \cfoot{\rygdata{16:20--17:44}{12:07--13:32}{14:56--16:20}}
 \caldata{DECEMBER}{24}{\sunmonth{धनुः}{9}{}{मार्गशीर्षः}{हेमन्तऋतुः}{सोमः}{विलम्बः}{दक्षिणायनम्}{हेमन्तऋतुः}}
