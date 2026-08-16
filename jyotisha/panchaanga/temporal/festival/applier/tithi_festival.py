@@ -174,10 +174,15 @@ class TithiFestivalAssigner(FestivalAssigner):
         # verse beyond the cluster's shared one) keeps them; otherwise fall back to the
         # cluster boilerplate's shlokas.
         shlokas = own_dict.get('shlokas', '') or general_dict.get('shlokas', '')
+        # A handful of files still carry a genuine unique legend in their own (otherwise-
+        # stripped) [description] beyond the label's shared boilerplate -- e.g. anadhyAyaH~1/~16
+        # (both label='prathamA') keep the Hanuman/Sita legend from the Ramayana.
+        legend = own_dict.get('detailed', '').strip()
         upgraded = AdhyayanaFestivalInstance(
           base_instance=instance, cluster=cluster, label=label,
           general_note=general_dict.get('detailed', '').strip(), shlokas=shlokas,
-          blurb=own_dict.get('blurb', ''), references=own_dict.get('references', ''), url=own_dict.get('url', ''))
+          blurb=own_dict.get('blurb', ''), references=own_dict.get('references', ''), url=own_dict.get('url', ''),
+          legend=legend)
         self.panchaanga.add_festival_instance(festival_instance=upgraded, date=day_panchaanga.date)
 
   def assign_chaturthi_vratam(self):

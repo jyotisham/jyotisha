@@ -206,11 +206,13 @@ class AdhyayanaFestivalInstance(FestivalInstance):
   supplies the name/interval/ordinal/exclude to carry over unchanged.
   """
 
-  def __init__(self, base_instance, cluster, label, general_note='', shlokas='', blurb='', references='', url=''):
+  def __init__(self, base_instance, cluster, label, general_note='', shlokas='', blurb='', references='', url='',
+               legend=''):
     from jyotisha.panchaanga.temporal.festival import adhyayana_description
     if label is not None:
       description = adhyayana_description.describe_labeled(
-        label=label, general_note=general_note, shlokas=shlokas, blurb=blurb, references=references, url=url)
+        label=label, general_note=general_note, shlokas=shlokas, blurb=blurb, references=references, url=url,
+        legend=legend)
     else:
       description = adhyayana_description.describe_boilerplate(
         general_note=general_note, shlokas=shlokas, blurb=blurb, references=references, url=url)

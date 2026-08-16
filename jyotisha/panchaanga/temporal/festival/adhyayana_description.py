@@ -54,23 +54,35 @@ def _assemble(blurb, detailed, shlokas='', references='', url=''):
   }
 
 
-def describe_labeled(label, general_note, shlokas='', blurb='', references='', url=''):
+def describe_labeled(label, general_note, shlokas='', blurb='', references='', url='', legend=''):
   """For clusters whose shared note is prefixed by a per-instance label
   (ayana_vishu: 'manvAdi'/'yugAdi'/'uttarAyaNa'/...; nitya_tithi: 'prathamA'/'aSTamI'/...).
 
   :param blurb: the rule's own get_timing_summary()-derived blurb (e.g. "Observed on
     Śukla-Aṣṭamī tithi of every (lunar) month (Sāṅgavaḥ/paraviddha)."), computed by the caller
-    from the still-populated [timing] block -- falls back to the bare label if not supplied.
+    from the still-populated [timing] block. No fallback if empty -- there's nothing
+    informative to substitute (the label is already in the title/heading).
+  :param legend: a genuine unique detail beyond the shared boilerplate that this specific rule
+    still carries in its own (otherwise-stripped) [description] -- e.g. anadhyAyaH~1/~16 (both
+    label='prathamA') keep the Hanuman/Sita legend from the Ramayana, which is specific to
+    prathamA and isn't part of the nitya_tithi boilerplate shared by aSTamI/caturdazI/etc.
+    Appended as the closing sentence, matching where it sat in the original single-paragraph
+    TOML text.
   """
   opening = "Anadhyayana on account of `%s`." % label
-  detailed = "%s %s" % (opening, general_note) if general_note else opening
-  return _assemble(blurb=blurb or "`%s` " % label, detailed=detailed, shlokas=shlokas, references=references, url=url)
+  parts = [opening]
+  if general_note:
+    parts.append(general_note)
+  if legend:
+    parts.append(legend)
+  detailed = " ".join(parts)
+  return _assemble(blurb=blurb, detailed=detailed, shlokas=shlokas, references=references, url=url)
 
 
 def describe_boilerplate(general_note, shlokas='', blurb='', references='', url=''):
   """For clusters with no per-instance label -- the shared note is the whole description
   (utsarga, aSTakA, shakradhvaja, the 3 cAturmAsya sub-clusters)."""
-  return _assemble(blurb=blurb or '`anadhyAyaH` ', detailed=general_note, shlokas=shlokas, references=references, url=url)
+  return _assemble(blurb=blurb, detailed=general_note, shlokas=shlokas, references=references, url=url)
 
 
 def classify(rule):

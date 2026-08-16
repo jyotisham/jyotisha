@@ -46,7 +46,10 @@ def describe_pushkara(role, stage, rashi_sa, river_sa, general_note='', shlokas=
     stage_note = "begins its closing 12 days" if stage == STAGE_ARAMBHAH else "ends"
     closing = "As Guru is about to leave `%s`, `puSkararAja`'s residence in the `%s` river draws to a close." % (rashi_sa, river_sa)
 
-  blurb = "puSkara %s (%s), `%s`. " % (role, stage, river_sa)
+  # No get_timing_summary()-equivalent exists for these (Python computes the schedule directly,
+  # never off a populated [timing] block), so there's nothing informative to put in blurb;
+  # leave it empty rather than repeat the role/stage/river already in the festival's own title.
+  blurb = ''
   # Matches the original TOML's own paragraph break between the boilerplate residency note and
   # the river-specific closing sentence (a literal single newline in the source `en` string).
   detailed = "%s\n%s" % (general_note, closing) if general_note else closing

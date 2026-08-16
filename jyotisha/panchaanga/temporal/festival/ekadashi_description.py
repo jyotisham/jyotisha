@@ -48,7 +48,11 @@ def describe_ekadashi(ekad_base, paksha, month_sa, legend='', general_note='', s
   :param url: ditto, the "edit this file" URL of whichever rule the above came from
   """
   opening = "The %s-paksha Ekadashi of `%s` month is known as `%s`." % (PAKSHA_EN[paksha], month_sa, ekad_base)
-  blurb = "`%s` " % ekad_base
+  # No get_timing_summary()-equivalent exists for these (they were never scheduled off a
+  # populated [timing] block to begin with -- Python computes their schedule directly), so
+  # there's nothing informative to put in blurb; leave it empty rather than repeat the name
+  # that's already in the festival's own title/heading.
+  blurb = ''
 
   first_para = "%s %s" % (opening, legend) if legend else opening
   parts = [first_para]
