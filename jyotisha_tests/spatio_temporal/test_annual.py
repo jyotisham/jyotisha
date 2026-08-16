@@ -2,7 +2,7 @@ import copy
 import logging
 import os
 
-from sanskrit_data import testing
+from sanskrit_data import collection_helper, testing
 from timebudget import timebudget
 
 from jyotisha.panchaanga.spatio_temporal import City, annual
@@ -34,6 +34,11 @@ def panchaanga_json_comparer(city, year):
   panchaanga = annual.get_panchaanga_for_civil_year(city=city, year=year, computation_system=test_computation_system,
                                                     allow_precomputed=False)
   timebudget.report(reset=True)
+  # collection_helper.assert_approx_equals() does not apply floating_point_precision rounding to
+  # values nested inside sets (only dicts/lists/JsonObjects), so festival_id_to_days (a dict of sets)
+  # must be converted to sorted lists first, else tiny cross-environment float noise in slow-moving
+  # festivals (e.g. vArdhakya-prArambhaH) spuriously fails the comparison.
+  panchaanga.festival_id_to_days = collection_helper.sets_to_lists(panchaanga.festival_id_to_days)
   testing.json_compare(actual_object=panchaanga, expected_content_path=expected_content_path)
 
 
