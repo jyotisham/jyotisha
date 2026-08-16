@@ -178,10 +178,17 @@ class TithiFestivalAssigner(FestivalAssigner):
         # stripped) [description] beyond the label's shared boilerplate -- e.g. anadhyAyaH~1/~16
         # (both label='prathamA') keep the Hanuman/Sita legend from the Ramayana.
         legend = own_dict.get('detailed', '').strip()
+        # references_primary lives only in the boilerplate for the fully-uniform clusters
+        # (utsarga/aSTakA/shakradhvaja/cAturmAsya), whose per-instance files had it stripped
+        # entirely -- fall back per-field, same reasoning as shlokas above.
+        references = own_dict.get('references', '') or general_dict.get('references', '')
+        # Both this instance's own file and the cluster boilerplate contribute to the
+        # description -- show edit links for both.
+        url = ' '.join(dict.fromkeys(u for u in (own_dict.get('url', ''), general_dict.get('url', '')) if u))
         upgraded = AdhyayanaFestivalInstance(
           base_instance=instance, cluster=cluster, label=label,
           general_note=general_dict.get('detailed', '').strip(), shlokas=shlokas,
-          blurb=own_dict.get('blurb', ''), references=own_dict.get('references', ''), url=own_dict.get('url', ''),
+          blurb=own_dict.get('blurb', ''), references=references, url=url,
           legend=legend)
         self.panchaanga.add_festival_instance(festival_instance=upgraded, date=day_panchaanga.date)
 
@@ -317,20 +324,22 @@ class TithiFestivalAssigner(FestivalAssigner):
 
   def _add_ekadashi_instance(self, paksha, month_index, variant, date, suffix=None):
     ekad_base = names.get_ekaadashii_name(paksha, month_index)
-    legend_dict = self._get_ekadashi_rule_dict(ekad_base, sanscript.DEVANAGARI)
-    general_dict = self._get_ekadashi_rule_dict('EkAdazI-sAmAnya-niyamAH', sanscript.DEVANAGARI)
-    # A per-name rule (if it still exists) already carries its own shlokas/references/url --
-    # the shared block plus any unique verses; only fall back to the shared block's otherwise
-    # (its own edit URL points at the shared boilerplate file, a reasonable stand-in for the
-    # now-deleted per-name file).
-    shlokas = (legend_dict or general_dict or {}).get('shlokas', '')
-    references = (legend_dict or general_dict or {}).get('references', '')
-    url = (legend_dict or general_dict or {}).get('url', '')
+    legend_dict = self._get_ekadashi_rule_dict(ekad_base, sanscript.DEVANAGARI) or {}
+    general_dict = self._get_ekadashi_rule_dict('EkAdazI-sAmAnya-niyamAH', sanscript.DEVANAGARI) or {}
+    # Fall back per-field, not per-dict: legend_dict is a real (non-None) dict whenever a
+    # per-name rule exists at all -- even a content-free stub, whose fields are all '' -- so
+    # `legend_dict or general_dict` would always pick legend_dict and silently drop the shared
+    # block's shlokas/references for every stubbed-but-not-yet-filled-in name.
+    shlokas = legend_dict.get('shlokas', '') or general_dict.get('shlokas', '')
+    references = legend_dict.get('references', '') or general_dict.get('references', '')
+    # Both the per-name file (if any -- even a content-free stub, as an invitation to fill it
+    # in) and the shared boilerplate contribute to this description -- show edit links for both.
+    url = ' '.join(dict.fromkeys(u for u in (legend_dict.get('url', ''), general_dict.get('url', '')) if u))
     fest = EkadashiFestivalInstance(
       paksha=paksha, month_index=month_index, variant=variant, suffix=suffix,
       interval=self.panchaanga.date_str_to_panchaanga[date.get_date_str()].get_interval(interval_id="full_day"),
-      legend=(legend_dict or {}).get('detailed', '').strip(),
-      general_note=(general_dict or {}).get('detailed', '').strip(),
+      legend=legend_dict.get('detailed', '').strip(),
+      general_note=general_dict.get('detailed', '').strip(),
       shlokas=shlokas, references=references, url=url)
     self.panchaanga.add_festival_instance(festival_instance=fest, date=date)
 
