@@ -17,18 +17,18 @@ STAGE_ARAMBHAH = 'ArambhaH'
 STAGE_SAMAPANAM = 'samApanam'
 
 
-def _assemble(blurb, detailed, shlokas=''):
+def _assemble(blurb, detailed, shlokas='', references='', url=''):
   return {
     'blurb': blurb,
     'detailed': detailed,
     'image': '',
-    'references': '- References\n  - Pushkara rashi/river pairing and the 12-day residency rule follow this pancAnga\'s puSkara-sAmAnya-niyamAH entry.\n',
-    'url': '',
+    'references': references,
+    'url': url,
     'shlokas': shlokas,
   }
 
 
-def describe_pushkara(role, stage, rashi_sa, river_sa, general_note='', shlokas=''):
+def describe_pushkara(role, stage, rashi_sa, river_sa, general_note='', shlokas='', references='', url=''):
   """
   :param role: ROLE_ADYA (pushkaram beginning as Guru enters the rashi) or ROLE_ANTYA
     (pushkaram ending as Guru is about to leave the rashi)
@@ -47,5 +47,7 @@ def describe_pushkara(role, stage, rashi_sa, river_sa, general_note='', shlokas=
     closing = "As Guru is about to leave `%s`, `puSkararAja`'s residence in the `%s` river draws to a close." % (rashi_sa, river_sa)
 
   blurb = "puSkara %s (%s), `%s`. " % (role, stage, river_sa)
-  detailed = "%s %s" % (general_note, closing) if general_note else closing
-  return _assemble(blurb, detailed, shlokas=shlokas)
+  # Matches the original TOML's own paragraph break between the boilerplate residency note and
+  # the river-specific closing sentence (a literal single newline in the source `en` string).
+  detailed = "%s\n%s" % (general_note, closing) if general_note else closing
+  return _assemble(blurb, detailed, shlokas=shlokas, references=references, url=url)

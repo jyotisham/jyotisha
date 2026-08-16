@@ -164,6 +164,11 @@ class TithiFestivalAssigner(FestivalAssigner):
           continue
         script = sanscript.DEVANAGARI
         general_dict = self._get_anadhyayana_boilerplate_dict(cluster, script)
+        # rule.get_description_dict() computes 'blurb' from get_timing_summary(rule) purely off
+        # rule.timing (unaffected by [description] having been stripped from these files), and
+        # 'references'/'url' from rule.references_primary/rule.get_url() -- all still correct
+        # for this specific instance, so reuse them rather than losing them by only pulling
+        # 'shlokas' out of this dict as before.
         own_dict = rule.get_description_dict(script=script)
         # A per-instance rule that still carries its own shlokas (a handful have an extra
         # verse beyond the cluster's shared one) keeps them; otherwise fall back to the
@@ -171,7 +176,8 @@ class TithiFestivalAssigner(FestivalAssigner):
         shlokas = own_dict.get('shlokas', '') or general_dict.get('shlokas', '')
         upgraded = AdhyayanaFestivalInstance(
           base_instance=instance, cluster=cluster, label=label,
-          general_note=general_dict.get('detailed', '').strip(), shlokas=shlokas)
+          general_note=general_dict.get('detailed', '').strip(), shlokas=shlokas,
+          blurb=own_dict.get('blurb', ''), references=own_dict.get('references', ''), url=own_dict.get('url', ''))
         self.panchaanga.add_festival_instance(festival_instance=upgraded, date=day_panchaanga.date)
 
   def assign_chaturthi_vratam(self):
@@ -308,15 +314,19 @@ class TithiFestivalAssigner(FestivalAssigner):
     ekad_base = names.get_ekaadashii_name(paksha, month_index)
     legend_dict = self._get_ekadashi_rule_dict(ekad_base, sanscript.DEVANAGARI)
     general_dict = self._get_ekadashi_rule_dict('EkAdazI-sAmAnya-niyamAH', sanscript.DEVANAGARI)
-    # A per-name rule (if it still exists) already carries its own shlokas -- the shared block
-    # plus any unique verses; only fall back to the shared block's shlokas otherwise.
+    # A per-name rule (if it still exists) already carries its own shlokas/references/url --
+    # the shared block plus any unique verses; only fall back to the shared block's otherwise
+    # (its own edit URL points at the shared boilerplate file, a reasonable stand-in for the
+    # now-deleted per-name file).
     shlokas = (legend_dict or general_dict or {}).get('shlokas', '')
+    references = (legend_dict or general_dict or {}).get('references', '')
+    url = (legend_dict or general_dict or {}).get('url', '')
     fest = EkadashiFestivalInstance(
       paksha=paksha, month_index=month_index, variant=variant, suffix=suffix,
       interval=self.panchaanga.date_str_to_panchaanga[date.get_date_str()].get_interval(interval_id="full_day"),
       legend=(legend_dict or {}).get('detailed', '').strip(),
       general_note=(general_dict or {}).get('detailed', '').strip(),
-      shlokas=shlokas)
+      shlokas=shlokas, references=references, url=url)
     self.panchaanga.add_festival_instance(festival_instance=fest, date=date)
 
   def assign_ekaadashii_vratam(self):

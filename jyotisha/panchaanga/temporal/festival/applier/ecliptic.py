@@ -1055,9 +1055,16 @@ class EclipticFestivalAssigner(FestivalAssigner):
       general_note_dict = general_note_rule.get_description_dict(script=sanscript.DEVANAGARI)
       pushkara_general_note = general_note_dict['detailed']
       pushkara_shlokas = general_note_dict['shlokas']
+      # No individual river TOML file exists anymore (all 72 were collapsed into this one
+      # boilerplate) -- point the "edit this file" link at the boilerplate instead of leaving
+      # it blank.
+      pushkara_references = general_note_dict['references']
+      pushkara_url = general_note_dict['url']
     else:
       pushkara_general_note = ''
       pushkara_shlokas = ''
+      pushkara_references = ''
+      pushkara_url = ''
 
     def _add_pushkara_instance(rashi_index, role, stage, date):
       dp = self.panchaanga.date_str_to_panchaanga.get(date.get_date_str())
@@ -1065,7 +1072,8 @@ class EclipticFestivalAssigner(FestivalAssigner):
         return
       fest = PushkaraFestivalInstance(rashi_index=rashi_index, role=role, stage=stage,
                                        interval=dp.get_interval(interval_id="full_day"),
-                                       general_note=pushkara_general_note, shlokas=pushkara_shlokas)
+                                       general_note=pushkara_general_note, shlokas=pushkara_shlokas,
+                                       references=pushkara_references, url=pushkara_url)
       self.panchaanga.add_festival_instance(festival_instance=fest, date=date)
 
     jd_end = self.panchaanga.jd_start + self.panchaanga.duration + 13

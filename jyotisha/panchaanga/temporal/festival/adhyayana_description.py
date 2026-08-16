@@ -43,30 +43,34 @@ NITYA_TITHI_LABELS = {
 }
 
 
-def _assemble(blurb, detailed, shlokas=''):
+def _assemble(blurb, detailed, shlokas='', references='', url=''):
   return {
     'blurb': blurb,
     'detailed': detailed,
     'image': '',
-    'references': '',
-    'url': '',
+    'references': references,
+    'url': url,
     'shlokas': shlokas,
   }
 
 
-def describe_labeled(label, general_note, shlokas=''):
+def describe_labeled(label, general_note, shlokas='', blurb='', references='', url=''):
   """For clusters whose shared note is prefixed by a per-instance label
   (ayana_vishu: 'manvAdi'/'yugAdi'/'uttarAyaNa'/...; nitya_tithi: 'prathamA'/'aSTamI'/...).
+
+  :param blurb: the rule's own get_timing_summary()-derived blurb (e.g. "Observed on
+    Śukla-Aṣṭamī tithi of every (lunar) month (Sāṅgavaḥ/paraviddha)."), computed by the caller
+    from the still-populated [timing] block -- falls back to the bare label if not supplied.
   """
   opening = "Anadhyayana on account of `%s`." % label
   detailed = "%s %s" % (opening, general_note) if general_note else opening
-  return _assemble(blurb="`%s` " % label, detailed=detailed, shlokas=shlokas)
+  return _assemble(blurb=blurb or "`%s` " % label, detailed=detailed, shlokas=shlokas, references=references, url=url)
 
 
-def describe_boilerplate(general_note, shlokas=''):
+def describe_boilerplate(general_note, shlokas='', blurb='', references='', url=''):
   """For clusters with no per-instance label -- the shared note is the whole description
   (utsarga, aSTakA, shakradhvaja, the 3 cAturmAsya sub-clusters)."""
-  return _assemble(blurb='`anadhyAyaH` ', detailed=general_note, shlokas=shlokas)
+  return _assemble(blurb=blurb or '`anadhyAyaH` ', detailed=general_note, shlokas=shlokas, references=references, url=url)
 
 
 def classify(rule):

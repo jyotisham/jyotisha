@@ -157,7 +157,7 @@ class PushkaraFestivalInstance(FestivalInstance):
     for role='antya') -- both the river and its names are looked up from this alone.
   """
 
-  def __init__(self, rashi_index, role, stage, interval, general_note='', shlokas=''):
+  def __init__(self, rashi_index, role, stage, interval, general_note='', shlokas='', references='', url=''):
     from jyotisha.panchaanga.temporal import names
     from jyotisha.panchaanga.temporal.festival import pushkara_description
     river_hk = names.NAMES['PUSHKARA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][rashi_index]
@@ -166,7 +166,8 @@ class PushkaraFestivalInstance(FestivalInstance):
     rashi_deva = names.NAMES['RASHI_NAMES']['sa'][sanscript.DEVANAGARI][rashi_index]
     name = '%s-%s-puSkara-%s' % (river_hk, role, stage)
     description = pushkara_description.describe_pushkara(
-      role=role, stage=stage, rashi_sa=rashi_hk, river_sa=river_hk, general_note=general_note, shlokas=shlokas)
+      role=role, stage=stage, rashi_sa=rashi_hk, river_sa=river_hk, general_note=general_note, shlokas=shlokas,
+      references=references, url=url)
     role_sa = 'आद्य' if role == pushkara_description.ROLE_ADYA else 'अन्त्य'
     stage_sa = 'आरम्भः' if stage == pushkara_description.STAGE_ARAMBHAH else 'समापनम्'
     names_dict = {"sa": ["%s-%s-पुष्कर-%s" % (river_deva, role_sa, stage_sa)]}
@@ -181,14 +182,16 @@ class EkadashiFestivalInstance(FestivalInstance):
   they keep going through the ordinary TOML lookup by their own exact fest_id.
   """
 
-  def __init__(self, paksha, month_index, variant, interval, suffix=None, legend='', general_note='', shlokas=''):
+  def __init__(self, paksha, month_index, variant, interval, suffix=None, legend='', general_note='', shlokas='',
+               references='', url=''):
     from jyotisha.panchaanga.temporal import names
     from jyotisha.panchaanga.temporal.festival import ekadashi_description
     ekad_base = names.get_ekaadashii_name(paksha, month_index)
     month_sa = names.get_chandra_masa(month=month_index, script=sanscript.roman.HK_DRAVIDIAN, visarga=False)
     name = '%s-%s%s' % (variant, ekad_base, (' %s' % suffix) if suffix else '')
     description = ekadashi_description.describe_ekadashi(
-      ekad_base=ekad_base, paksha=paksha, month_sa=month_sa, legend=legend, general_note=general_note, shlokas=shlokas)
+      ekad_base=ekad_base, paksha=paksha, month_sa=month_sa, legend=legend, general_note=general_note,
+      shlokas=shlokas, references=references, url=url)
     super().__init__(name=name, interval=interval, description=description)
 
 
@@ -203,12 +206,14 @@ class AdhyayanaFestivalInstance(FestivalInstance):
   supplies the name/interval/ordinal/exclude to carry over unchanged.
   """
 
-  def __init__(self, base_instance, cluster, label, general_note='', shlokas=''):
+  def __init__(self, base_instance, cluster, label, general_note='', shlokas='', blurb='', references='', url=''):
     from jyotisha.panchaanga.temporal.festival import adhyayana_description
     if label is not None:
-      description = adhyayana_description.describe_labeled(label=label, general_note=general_note, shlokas=shlokas)
+      description = adhyayana_description.describe_labeled(
+        label=label, general_note=general_note, shlokas=shlokas, blurb=blurb, references=references, url=url)
     else:
-      description = adhyayana_description.describe_boilerplate(general_note=general_note, shlokas=shlokas)
+      description = adhyayana_description.describe_boilerplate(
+        general_note=general_note, shlokas=shlokas, blurb=blurb, references=references, url=url)
     super().__init__(name=base_instance.name, interval=base_instance.interval, ordinal=base_instance.ordinal,
                       exclude=base_instance.exclude, description=description, names=base_instance.names)
 
