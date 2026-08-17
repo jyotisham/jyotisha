@@ -333,6 +333,16 @@
           "base_url": "https://github.com/jyotisham/adyatithi/blob/master/time_focus/manvAdiH",
           "jsonClass": "RulesRepo",
           "name": "time_focus/manvAdiH"
+        },
+        {
+          "base_url": "https://github.com/jyotisham/adyatithi/blob/master/time_focus/grahaYuddha",
+          "jsonClass": "RulesRepo",
+          "name": "time_focus/grahaYuddha"
+        },
+        {
+          "base_url": "https://github.com/jyotisham/adyatithi/blob/master/time_focus/grahaMaudhya",
+          "jsonClass": "RulesRepo",
+          "name": "time_focus/grahaMaudhya"
         }
       ],
       "tropical_month_start": "mAdhava_at_equinox"

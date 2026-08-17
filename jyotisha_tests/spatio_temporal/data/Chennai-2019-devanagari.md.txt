@@ -34,7 +34,7 @@ tropical_month_start = "mAdhava_at_equinox"
 jsonClass = "FestivalOptions"
 
 ```
-- Repos: [devatA/gaNapati](https://github.com/jyotisham/adyatithi/blob/master/devatA/gaNapati), [devatA/graha](https://github.com/jyotisham/adyatithi/blob/master/devatA/graha), [devatA/kaumAra](https://github.com/jyotisham/adyatithi/blob/master/devatA/kaumAra), [devatA/lakShmI](https://github.com/jyotisham/adyatithi/blob/master/devatA/lakShmI), [devatA/misc-fauna](https://github.com/jyotisham/adyatithi/blob/master/devatA/misc-fauna), [devatA/misc-flora](https://github.com/jyotisham/adyatithi/blob/master/devatA/misc-flora), [devatA/nadI](https://github.com/jyotisham/adyatithi/blob/master/devatA/nadI), [devatA/pitR](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR), [devatA/shaiva](https://github.com/jyotisham/adyatithi/blob/master/devatA/shaiva), [devatA/shakti](https://github.com/jyotisham/adyatithi/blob/master/devatA/shakti), [devatA/devIparva](https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva), [devatA/dashamahAvidyA](https://github.com/jyotisham/adyatithi/blob/master/devatA/dashamahAvidyA), [devatA/umA](https://github.com/jyotisham/adyatithi/blob/master/devatA/umA), [devatA/vaiShNava](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava), [gRhya/Apastamba](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba), [gRhya/Apastamba_seasonal](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba_seasonal), [gRhya/general](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general), [general](https://github.com/jyotisham/adyatithi/blob/master/general), [mahApuruSha/ALvAr](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/ALvAr), [mahApuruSha/RShi](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/RShi), [mahApuruSha/kAnchI-maTha](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha), [mahApuruSha/general-indic-tropical](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/general-indic-tropical), [mahApuruSha/zRGgErI-maTha](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/zRGgErI-maTha), [mahApuruSha/mAdhva-misc](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/mAdhva-misc), [mahApuruSha/nAyanmAr](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr), [mahApuruSha/sangIta-kRt](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/sangIta-kRt), [mahApuruSha/smArta-misc](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/smArta-misc), [mahApuruSha/vaiShNava-misc](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/vaiShNava-misc), [mahApuruSha/xatra](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xatra), [tamil](https://github.com/jyotisham/adyatithi/blob/master/tamil), [temples/Andhra](https://github.com/jyotisham/adyatithi/blob/master/temples/Andhra), [temples/Maharashtra](https://github.com/jyotisham/adyatithi/blob/master/temples/Maharashtra), [temples/Kerala](https://github.com/jyotisham/adyatithi/blob/master/temples/Kerala), [temples/North](https://github.com/jyotisham/adyatithi/blob/master/temples/North), [temples/Odisha](https://github.com/jyotisham/adyatithi/blob/master/temples/Odisha), [temples/Tamil](https://github.com/jyotisham/adyatithi/blob/master/temples/Tamil), [temples/venkaTAchala](https://github.com/jyotisham/adyatithi/blob/master/temples/venkaTAchala), [time_focus/Eclipses](https://github.com/jyotisham/adyatithi/blob/master/time_focus/Eclipses), [time_focus/amrita-siddhi](https://github.com/jyotisham/adyatithi/blob/master/time_focus/amrita-siddhi), [time_focus/nakta-vrata-yoga](https://github.com/jyotisham/adyatithi/blob/master/time_focus/nakta-vrata-yoga), [time_focus/Rtu/tropical-viSuvAdi](https://github.com/jyotisham/adyatithi/blob/master/time_focus/Rtu/tropical-viSuvAdi), [time_focus/Rtu/tropical-ayanAdi](https://github.com/jyotisham/adyatithi/blob/master/time_focus/Rtu/tropical-ayanAdi), [time_focus/luno-tropical/smArta](https://github.com/jyotisham/adyatithi/blob/master/time_focus/luno-tropical/smArta), [time_focus/misc](https://github.com/jyotisham/adyatithi/blob/master/time_focus/misc), [time_focus/misc_combinations](https://github.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations), [time_focus/special-tithis](https://github.com/jyotisham/adyatithi/blob/master/time_focus/special-tithis), [time_focus/tithi-vara-combinations](https://github.com/jyotisham/adyatithi/blob/master/time_focus/tithi-vara-combinations), [time_focus/monthly/amAvAsyA](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/amAvAsyA), [time_focus/monthly/dvAdashI](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/dvAdashI), [time_focus/monthly/ekAdashI](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI), [time_focus/monthly/pradoSha](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoSha), [time_focus/nakShatra](https://github.com/jyotisham/adyatithi/blob/master/time_focus/nakShatra), [time_focus/puShkara](https://github.com/jyotisham/adyatithi/blob/master/time_focus/puShkara), [time_focus/sankrAnti](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti), [time_focus/yugAdiH](https://github.com/jyotisham/adyatithi/blob/master/time_focus/yugAdiH), [time_focus/kalpAdiH](https://github.com/jyotisham/adyatithi/blob/master/time_focus/kalpAdiH), [time_focus/adhyayana](https://github.com/jyotisham/adyatithi/blob/master/time_focus/adhyayana), [time_focus/manvAdiH](https://github.com/jyotisham/adyatithi/blob/master/time_focus/manvAdiH)
+- Repos: [devatA/gaNapati](https://github.com/jyotisham/adyatithi/blob/master/devatA/gaNapati), [devatA/graha](https://github.com/jyotisham/adyatithi/blob/master/devatA/graha), [devatA/kaumAra](https://github.com/jyotisham/adyatithi/blob/master/devatA/kaumAra), [devatA/lakShmI](https://github.com/jyotisham/adyatithi/blob/master/devatA/lakShmI), [devatA/misc-fauna](https://github.com/jyotisham/adyatithi/blob/master/devatA/misc-fauna), [devatA/misc-flora](https://github.com/jyotisham/adyatithi/blob/master/devatA/misc-flora), [devatA/nadI](https://github.com/jyotisham/adyatithi/blob/master/devatA/nadI), [devatA/pitR](https://github.com/jyotisham/adyatithi/blob/master/devatA/pitR), [devatA/shaiva](https://github.com/jyotisham/adyatithi/blob/master/devatA/shaiva), [devatA/shakti](https://github.com/jyotisham/adyatithi/blob/master/devatA/shakti), [devatA/devIparva](https://github.com/jyotisham/adyatithi/blob/master/devatA/devIparva), [devatA/dashamahAvidyA](https://github.com/jyotisham/adyatithi/blob/master/devatA/dashamahAvidyA), [devatA/umA](https://github.com/jyotisham/adyatithi/blob/master/devatA/umA), [devatA/vaiShNava](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava), [gRhya/Apastamba](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba), [gRhya/Apastamba_seasonal](https://github.com/jyotisham/adyatithi/blob/master/gRhya/Apastamba_seasonal), [gRhya/general](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general), [general](https://github.com/jyotisham/adyatithi/blob/master/general), [mahApuruSha/ALvAr](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/ALvAr), [mahApuruSha/RShi](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/RShi), [mahApuruSha/kAnchI-maTha](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/kAnchI-maTha), [mahApuruSha/general-indic-tropical](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/general-indic-tropical), [mahApuruSha/zRGgErI-maTha](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/zRGgErI-maTha), [mahApuruSha/mAdhva-misc](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/mAdhva-misc), [mahApuruSha/nAyanmAr](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/nAyanmAr), [mahApuruSha/sangIta-kRt](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/sangIta-kRt), [mahApuruSha/smArta-misc](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/smArta-misc), [mahApuruSha/vaiShNava-misc](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/vaiShNava-misc), [mahApuruSha/xatra](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/xatra), [tamil](https://github.com/jyotisham/adyatithi/blob/master/tamil), [temples/Andhra](https://github.com/jyotisham/adyatithi/blob/master/temples/Andhra), [temples/Maharashtra](https://github.com/jyotisham/adyatithi/blob/master/temples/Maharashtra), [temples/Kerala](https://github.com/jyotisham/adyatithi/blob/master/temples/Kerala), [temples/North](https://github.com/jyotisham/adyatithi/blob/master/temples/North), [temples/Odisha](https://github.com/jyotisham/adyatithi/blob/master/temples/Odisha), [temples/Tamil](https://github.com/jyotisham/adyatithi/blob/master/temples/Tamil), [temples/venkaTAchala](https://github.com/jyotisham/adyatithi/blob/master/temples/venkaTAchala), [time_focus/Eclipses](https://github.com/jyotisham/adyatithi/blob/master/time_focus/Eclipses), [time_focus/amrita-siddhi](https://github.com/jyotisham/adyatithi/blob/master/time_focus/amrita-siddhi), [time_focus/nakta-vrata-yoga](https://github.com/jyotisham/adyatithi/blob/master/time_focus/nakta-vrata-yoga), [time_focus/Rtu/tropical-viSuvAdi](https://github.com/jyotisham/adyatithi/blob/master/time_focus/Rtu/tropical-viSuvAdi), [time_focus/Rtu/tropical-ayanAdi](https://github.com/jyotisham/adyatithi/blob/master/time_focus/Rtu/tropical-ayanAdi), [time_focus/luno-tropical/smArta](https://github.com/jyotisham/adyatithi/blob/master/time_focus/luno-tropical/smArta), [time_focus/misc](https://github.com/jyotisham/adyatithi/blob/master/time_focus/misc), [time_focus/misc_combinations](https://github.com/jyotisham/adyatithi/blob/master/time_focus/misc_combinations), [time_focus/special-tithis](https://github.com/jyotisham/adyatithi/blob/master/time_focus/special-tithis), [time_focus/tithi-vara-combinations](https://github.com/jyotisham/adyatithi/blob/master/time_focus/tithi-vara-combinations), [time_focus/monthly/amAvAsyA](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/amAvAsyA), [time_focus/monthly/dvAdashI](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/dvAdashI), [time_focus/monthly/ekAdashI](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/ekAdashI), [time_focus/monthly/pradoSha](https://github.com/jyotisham/adyatithi/blob/master/time_focus/monthly/pradoSha), [time_focus/nakShatra](https://github.com/jyotisham/adyatithi/blob/master/time_focus/nakShatra), [time_focus/puShkara](https://github.com/jyotisham/adyatithi/blob/master/time_focus/puShkara), [time_focus/sankrAnti](https://github.com/jyotisham/adyatithi/blob/master/time_focus/sankrAnti), [time_focus/yugAdiH](https://github.com/jyotisham/adyatithi/blob/master/time_focus/yugAdiH), [time_focus/kalpAdiH](https://github.com/jyotisham/adyatithi/blob/master/time_focus/kalpAdiH), [time_focus/adhyayana](https://github.com/jyotisham/adyatithi/blob/master/time_focus/adhyayana), [time_focus/manvAdiH](https://github.com/jyotisham/adyatithi/blob/master/time_focus/manvAdiH), [time_focus/grahaYuddha](https://github.com/jyotisham/adyatithi/blob/master/time_focus/grahaYuddha), [time_focus/grahaMaudhya](https://github.com/jyotisham/adyatithi/blob/master/time_focus/grahaMaudhya)
 
 ## 2019-01
 ### 2019-01-01
@@ -939,6 +939,10 @@ Observed on Śukla-Prathamā tithi of every (lunar) month (Sāṅgavaḥ/paravid
 Anadhyayana on account of prathamā. Several tithis in a month are nitya-anadhyayana days, including prathamā, aṣṭamī, chaturdaśī, amāvāsyā and pūrṇimā. Manu has said that performing adhyayana on these days destroys the Guru (Amavasya), Shishya (Chaturdashi) and the vīrya of the brahma (vēda) itself (Ashtami/Purnima). Similarly, Jabali Rishi has said that Adhyayana on prathama hurts the buddhi while adhyayana on chaturdaśī hurts the brahma (vēda) itself! Interestingly, Bhagavan Hanuman also remarks while describing the condition of Sita Devi to the rest of the vanaras and Rkshas that she was frail by nature, had further grown emaciated, owing to separation from her beloved Shri Rama, much like the vidyā of a scholar continuing his studies on a pratipat!
 ##### बुधः–अस्तमयः (प्राक्)
 - 16:27→
+
+
+
+budhaḥ sets into combustion (astamayaH), heading prāk (east), on 2019-Jan-07 16:27. At this moment budhaḥ is at mūlā-3 dhanuḥ (latitude 0°38′29.76″ S, moving r̥ju (direct)), magnitude -0.53, elongation 13°23′05.68″ W of the Sun. Combustion (mAudhyam) is generally considered to weaken a graha's ability to give full results in its significations; undertakings connected with budhaḥ are traditionally best avoided until it re-emerges.
 ##### चन्द्र-दर्शनम्
 - 17:53→19:01
 
@@ -2300,6 +2304,10 @@ Very widely celebrated in Tamil Nadu temples, Fridays in the month of tai are sp
 
 ##### शनिः–उदयः (प्राक्)
 - →12:44
+
+
+
+śaniḥ rises out of combustion (udayaH), heading prāk (east), on 2019-Jan-18 12:44. At this moment śaniḥ is at pūrvāṣāḍhā-2 dhanuḥ (latitude 0°27′51.20″ N, moving r̥ju (direct)), magnitude +0.56, elongation 14°29′17.57″ W of the Sun. Emergence from combustion restores a graha's full strength; this is generally considered an auspicious time to begin activities connected with śaniḥ's significations.
 
 ### 2019-01-19
 
@@ -7512,6 +7520,10 @@ ___________________
 ##### बुधः–उदयः (प्राक्)
 - →05:56
 
+
+
+budhaḥ rises out of combustion (udayaH), heading prāk (east), on 2019-Feb-22 05:55. At this moment budhaḥ is at pūrvaprōṣṭhapadā-2 kumbhaḥ (latitude 0°17′28.66″ N, moving r̥ju (direct)), magnitude -0.88, elongation 16°48′27.11″ E of the Sun. Emergence from combustion restores a graha's full strength; this is generally considered an auspicious time to begin activities connected with budhaḥ's significations.
+
 ### 2019-02-22
 
 #### माघः-11-18  ,कन्या-हस्तः🌛🌌  ,  कुम्भः-शतभिषक्-11-10🌞🌌  ,  मधुः-01-04🌞🪐  , शुक्रः
@@ -8590,6 +8602,10 @@ ___________________
 - काञ्ची ७० जगद्गुरु-श्री-शङ्कर-विजयेन्द्र-सरस्वती-जयन्ती #५१, त्रिपुष्कर-योगः, प्रदोष-व्रतम्, बुधः–अस्तमयः (प्राक्), श्रवण-महाद्वादशी
 ##### बुधः–अस्तमयः (प्राक्)
 - 02:23→
+
+
+
+budhaḥ sets into combustion (astamayaH), heading prāk (east), on 2019-Mar-04 02:23. At this moment budhaḥ is at uttaraprōṣṭhapadā-1 mīnaḥ (latitude 2°37′20.74″ N, moving r̥ju (direct)), magnitude +0.45, elongation 16°35′21.07″ E of the Sun. Combustion (mAudhyam) is generally considered to weaken a graha's ability to give full results in its significations; undertakings connected with budhaḥ are traditionally best avoided until it re-emerges.
 ##### काञ्ची ७० जगद्गुरु-श्री-शङ्कर-विजयेन्द्र-सरस्वती-जयन्ती #५१
 
 Observed on Uttarāṣāḍhā nakshatra of Kumbhaḥ (sidereal solar) month (Sāṅgavaḥ/paraviddha). The event occurred in 5069 (Kali era).  
@@ -11313,6 +11329,10 @@ Anadhyayana during the day, since saṅkramaṇa happened during night time yest
 Anadhyayana on account of viṣu. On the days of Ayana (solstices), Vishu (equinoxes), the day when Bhagavan Vishnu goes to sleep (Shayana Ekadashi) or awakens (Utthana Ekadashi) as well as the Manvadi and Yugadi days, one is not supposed to perform Adhyayana.
 ##### बुधः–उदयः (प्राक्)
 - →05:55
+
+
+
+budhaḥ rises out of combustion (udayaH), heading prāk (east), on 2019-Mar-22 05:55. At this moment budhaḥ is at pūrvaprōṣṭhapadā-2 kumbhaḥ (latitude 2°13′30.09″ N, moving vakra (retrograde)), magnitude +2.70, elongation 13°03′42.92″ W of the Sun. Emergence from combustion restores a graha's full strength; this is generally considered an auspicious time to begin activities connected with budhaḥ's significations.
 ##### चैतन्य-महाप्रभु-जयन्ती #५३४
 
 Observed on Paurṇamāsī tithi of Phālgunaḥ (lunar) month (Sūryōdayaḥ/puurvaviddha). The event occurred in 4586 (Kali era).  
@@ -17696,6 +17716,10 @@ Observed on Śukla-Prathamā tithi of every (lunar) month (Sāṅgavaḥ/paravid
 Anadhyayana on account of prathamā. Several tithis in a month are nitya-anadhyayana days, including prathamā, aṣṭamī, chaturdaśī, amāvāsyā and pūrṇimā. Manu has said that performing adhyayana on these days destroys the Guru (Amavasya), Shishya (Chaturdashi) and the vīrya of the brahma (vēda) itself (Ashtami/Purnima). Similarly, Jabali Rishi has said that Adhyayana on prathama hurts the buddhi while adhyayana on chaturdaśī hurts the brahma (vēda) itself! Interestingly, Bhagavan Hanuman also remarks while describing the condition of Sita Devi to the rest of the vanaras and Rkshas that she was frail by nature, had further grown emaciated, owing to separation from her beloved Shri Rama, much like the vidyā of a scholar continuing his studies on a pratipat!
 ##### बुधः–अस्तमयः (प्राक्)
 - 14:17→
+
+
+
+budhaḥ sets into combustion (astamayaH), heading prāk (east), on 2019-May-05 14:17. At this moment budhaḥ is at aśvinī-2 mēṣaḥ (latitude 2°07′33.71″ S, moving r̥ju (direct)), magnitude -0.62, elongation 17°15′35.05″ W of the Sun. Combustion (mAudhyam) is generally considered to weaken a graha's ability to give full results in its significations; undertakings connected with budhaḥ are traditionally best avoided until it re-emerges.
 ##### चिऱुत्तॊण्ड नायऩ्मार् (३६) गुरुपूजै
 
 Observed on Apabharaṇī nakshatra of Mēṣaḥ (sidereal solar) month (Prātaḥ/paraviddha). 
@@ -22059,6 +22083,10 @@ Anadhyayana on account of chaturdaśī. Several tithis in a month are nitya-anad
 ##### बोधायन-कात्यायन-वैशाख-अमावास्या
 ##### बुधः–उदयः (प्राक्)
 - →16:31
+
+
+
+budhaḥ rises out of combustion (udayaH), heading prāk (east), on 2019-Jun-02 16:31. At this moment budhaḥ is at mr̥gaśīrṣam-3 mithunam (latitude 1°54′31.71″ N, moving r̥ju (direct)), magnitude -1.04, elongation 13°56′37.55″ E of the Sun. Emergence from combustion restores a graha's full strength; this is generally considered an auspicious time to begin activities connected with budhaḥ's significations.
 ##### काञ्ची ३ जगद्गुरु-श्री-सर्वज्ञात्मेन्द्र-सरस्वती-आराधना #२३८३
 
 Observed on Kr̥ṣṇa-Caturdaśī tithi of Vaiśākhaḥ (lunar) month (Aparāhṇaḥ/vyaapti). The event occurred in 2738 (Kali era).  
@@ -24505,7 +24533,13 @@ Anadhyayana on account of prathamā. Several tithis in a month are nitya-anadhya
 
 Graha-yuddha (amshu-vimarda) between aṅgārakaḥ and budhaḥ in punarvasuḥ mithunam, center-to-center separation 0°13′26.33″.
 
-This is an amshu-vimarda (a collision of rays -- the discs themselves do not touch): center-to-center separation 0°13′26.33″, 0°13′20.80″ apart, disc-to-disc. aṅgārakaḥ at punarvasuḥ-3 mithunam (latitude 1°10′32.21″ N, Rju (direct), magnitude +1.79, elongation 24°24′30.41″ E). budhaḥ at punarvasuḥ-3 mithunam (latitude 1°23′58.54″ N, Rju (direct), magnitude +0.23, elongation 24°25′10.38″ E). Classical texts weigh both the northern position and the greater apparent brightness/nearness in deciding the victor (jayI) of a yuddha; here budhaḥ is towards the north (traditionally said to prevail), while by brightness/nearness (the larger apparent diameter) budhaḥ is taken as jayI over aṅgārakaḥ.
+This is an amshu-vimarda (a collision of rays -- the discs themselves do not touch): center-to-center separation 0°13′26.33″, 0°13′20.80″ apart, disc-to-disc. aṅgārakaḥ at punarvasuḥ-3 mithunam (latitude 1°10′32.21″ N, Rju (direct), magnitude +1.79, elongation 24°24′30.41″ E). budhaḥ at punarvasuḥ-3 mithunam (latitude 1°23′58.54″ N, Rju (direct), magnitude +0.23, elongation 24°25′10.38″ E). Classical texts weigh both the northern position and the greater apparent brightness/nearness in deciding the victor (jayI) of a yuddha; here budhaḥ is towards the north (traditionally said to prevail), while by brightness/nearness (the larger apparent diameter) budhaḥ is taken as jayI over aṅgārakaḥ. A graha-yuddha (also called amshu-vimarda, "collision of rays") occurs when two of the five tArA grahas -- budha, śukra, aṅgāraka, br̥haspati, śanaiśchara -- come within 1 aMsha (60 kalA) of each other in longitude, close enough that they may be difficult to tell apart in the sky. It is called yuddha proper only when their discs actually touch/overlap; otherwise, amshu-vimarda.
+
+The Surya Siddhanta itself cautions that this matter is described only to indicate the auspicious/inauspicious effects for people -- in reality the grahas remain far apart from one another and continue along their own paths. This is not to be received with fear, but as an advance, compassionate intimation from those who calculated these movements accurately, meant to help people take protective measures in time.
+
+Classical texts (e.g. Brihat Samhita ch. 17) weigh both which graha is to the north and which is more prominent (nearer/brighter, of larger apparent diameter) in declaring a victor (jayī) of the yuddha; the defeated (jita) graha's significations are said to suffer for a particular section of society -- this is never a universal ill effect. The traditional response is to increase one's spiritual efforts: japa, homa, dAna and parAyaNa (especially of the Navagraha stotra), with higher AvRtti for the two grahas actually involved, particularly if the day also coincides with some other puNya kAla (e.g. a sAyana saGkramaNa).
+
+Per the Narada Samhita (as cited in Muhurta Chintamani), the nakshatra in which a graha-yuddha occurs should be avoided for auspicious functions (vivAha, upanayana etc.) for six months following the event. If this cannot be avoided, perform parihAra for candra-bala.
 ##### पार्वण-प्रायश्चित्तावकाशः पौर्णमास्याम्
 
 Observed on Kr̥ṣṇa-Prathamā tithi of every (lunar) month (Pūrvāhṇaḥ/puurvaviddha). 
@@ -25451,6 +25485,10 @@ ___________________
 - शुक्रस्य वार्धक्य-प्रारम्भः
 ##### शुक्रस्य वार्धक्य-प्रारम्भः
 - 19:40→
+
+
+
+śukraḥ enters vArdhakya (old age) on 2019-Jun-27 19:40, 15 days before it sets into combustion (mAudhyam). At this moment śukraḥ is at mr̥gaśīrṣam-2 vr̥ṣabhaḥ (latitude 0°19′30.53″ S, moving r̥ju (direct)), magnitude -3.88, elongation 13°03′18.78″ W of the Sun. A graha in vArdhakya is considered weakened, giving reduced results, though less so than in outright mAudhya.
 
 ### 2019-06-28
 
@@ -27713,8 +27751,16 @@ Perform Vishnu Shayanotsava in the night.
 
 ##### शुक्रः–अस्तमयः (प्राक्)
 - 19:40→
+
+
+
+śukraḥ sets into combustion (astamayaH), heading prāk (east), on 2019-Jul-12 19:40. At this moment śukraḥ is at ārdrā-4 mithunam (latitude 0°16′55.69″ N, moving r̥ju (direct)), magnitude -3.90, elongation 8°59′34.58″ W of the Sun. Combustion (mAudhyam) is generally considered to weaken a graha's ability to give full results in its significations; undertakings connected with śukraḥ are traditionally best avoided until it re-emerges.
 ##### शुक्रस्य वार्धक्य-समापनम्
 - 19:40→
+
+
+
+śukraḥ's vArdhakya ends on 2019-Jul-12 19:40, as it sets into combustion (mAudhyam). At this moment śukraḥ is at ārdrā-4 mithunam (latitude 0°16′55.69″ N, moving r̥ju (direct)), magnitude -3.90, elongation 8°59′34.58″ W of the Sun.
 
 ### 2019-07-13
 
@@ -27966,6 +28012,10 @@ When the next day is anadhyayana, for whatever reason, one must not perform adhy
 
 ##### बुधः–अस्तमयः (प्राक्)
 - 20:55→
+
+
+
+budhaḥ sets into combustion (astamayaH), heading prāk (east), on 2019-Jul-14 20:55. At this moment budhaḥ is at puṣyaḥ-2 karkaṭaḥ (latitude 4°11′22.87″ S, moving vakra (retrograde)), magnitude +3.49, elongation 11°37′43.30″ E of the Sun. Combustion (mAudhyam) is generally considered to weaken a graha's ability to give full results in its significations; undertakings connected with budhaḥ are traditionally best avoided until it re-emerges.
 ##### ज्येष्ठाभिषेकः
 
 Observed on Jyēṣṭhā nakshatra of Mithunam (sidereal solar) month (Sūryōdayaḥ/puurvaviddha). 
@@ -28171,6 +28221,10 @@ Perform snana four ghatikas before sunrise (during aruṇodayaḥ, when the Moon
 
 ##### अङ्गारकः–अस्तमयः (प्राक्)
 - 20:37→
+
+
+
+aṅgārakaḥ sets into combustion (astamayaH), heading prāk (east), on 2019-Jul-16 20:37. At this moment aṅgārakaḥ is at puṣyaḥ-4 karkaṭaḥ (latitude 1°10′19.26″ N, moving r̥ju (direct)), magnitude +1.79, elongation 15°32′54.90″ E of the Sun. Combustion (mAudhyam) is generally considered to weaken a graha's ability to give full results in its significations; undertakings connected with aṅgārakaḥ are traditionally best avoided until it re-emerges.
 ##### अनध्यायः
 
 Observed on Paurṇamāsī tithi of every (lunar) month (Sāṅgavaḥ/paraviddha). 
@@ -30057,6 +30111,10 @@ ___________________
 - बुधः–उदयः (प्राक्), सोम-प्रदोष-व्रतम्, सोममृगशीर्ष-योगः
 ##### बुधः–उदयः (प्राक्)
 - →06:27
+
+
+
+budhaḥ rises out of combustion (udayaH), heading prāk (east), on 2019-Jul-29 06:27. At this moment budhaḥ is at punarvasuḥ-4 karkaṭaḥ (latitude 4°20′28.16″ S, moving vakra (retrograde)), magnitude +2.86, elongation 12°01′49.80″ W of the Sun. Emergence from combustion restores a graha's full strength; this is generally considered an auspicious time to begin activities connected with budhaḥ's significations.
 ##### सोम-प्रदोष-व्रतम्
 - 18:33→19:59
 
@@ -33502,6 +33560,10 @@ ___________________
 - बुधः–अस्तमयः (प्राक्), हल-षष्ठी/ललही-छठ
 ##### बुधः–अस्तमयः (प्राक्)
 - 18:39→
+
+
+
+budhaḥ sets into combustion (astamayaH), heading prāk (east), on 2019-Aug-21 18:39. At this moment budhaḥ is at āśrēṣā-2 karkaṭaḥ (latitude 1°05′51.58″ N, moving r̥ju (direct)), magnitude -1.20, elongation 13°21′11.99″ W of the Sun. Combustion (mAudhyam) is generally considered to weaken a graha's ability to give full results in its significations; undertakings connected with budhaḥ are traditionally best avoided until it re-emerges.
 ##### हल-षष्ठी/ललही-छठ
 
 Observed on Kr̥ṣṇa-Ṣaṣṭhī tithi of Śrāvaṇaḥ (lunar) month (Madhyāhnaḥ/paraviddha). 
@@ -34037,7 +34099,13 @@ Anadhyayana on account of aṣṭamī. Several tithis in a month are nitya-anadh
 
 Graha-yuddha (amshu-vimarda) between aṅgārakaḥ and śukraḥ in maghā siṁhaḥ, center-to-center separation 0°17′25.90″.
 
-This is an amshu-vimarda (a collision of rays -- the discs themselves do not touch): center-to-center separation 0°17′25.90″, 0°17′19.32″ apart, disc-to-disc. aṅgārakaḥ at maghā-4 siṁhaḥ (latitude 1°06′20.98″ N, Rju (direct), magnitude +1.69, elongation 3°05′03.55″ E). śukraḥ at maghā-4 siṁhaḥ (latitude 1°23′46.88″ N, Rju (direct), magnitude -3.91, elongation 3°12′00.11″ E). Classical texts weigh both the northern position and the greater apparent brightness/nearness in deciding the victor (jayI) of a yuddha; here śukraḥ is towards the north (traditionally said to prevail), while by brightness/nearness (the larger apparent diameter) śukraḥ is taken as jayI over aṅgārakaḥ.
+This is an amshu-vimarda (a collision of rays -- the discs themselves do not touch): center-to-center separation 0°17′25.90″, 0°17′19.32″ apart, disc-to-disc. aṅgārakaḥ at maghā-4 siṁhaḥ (latitude 1°06′20.98″ N, Rju (direct), magnitude +1.69, elongation 3°05′03.55″ E). śukraḥ at maghā-4 siṁhaḥ (latitude 1°23′46.88″ N, Rju (direct), magnitude -3.91, elongation 3°12′00.11″ E). Classical texts weigh both the northern position and the greater apparent brightness/nearness in deciding the victor (jayI) of a yuddha; here śukraḥ is towards the north (traditionally said to prevail), while by brightness/nearness (the larger apparent diameter) śukraḥ is taken as jayI over aṅgārakaḥ. A graha-yuddha (also called amshu-vimarda, "collision of rays") occurs when two of the five tArA grahas -- budha, śukra, aṅgāraka, br̥haspati, śanaiśchara -- come within 1 aMsha (60 kalA) of each other in longitude, close enough that they may be difficult to tell apart in the sky. It is called yuddha proper only when their discs actually touch/overlap; otherwise, amshu-vimarda.
+
+The Surya Siddhanta itself cautions that this matter is described only to indicate the auspicious/inauspicious effects for people -- in reality the grahas remain far apart from one another and continue along their own paths. This is not to be received with fear, but as an advance, compassionate intimation from those who calculated these movements accurately, meant to help people take protective measures in time.
+
+Classical texts (e.g. Brihat Samhita ch. 17) weigh both which graha is to the north and which is more prominent (nearer/brighter, of larger apparent diameter) in declaring a victor (jayī) of the yuddha; the defeated (jita) graha's significations are said to suffer for a particular section of society -- this is never a universal ill effect. The traditional response is to increase one's spiritual efforts: japa, homa, dAna and parAyaNa (especially of the Navagraha stotra), with higher AvRtti for the two grahas actually involved, particularly if the day also coincides with some other puNya kAla (e.g. a sAyana saGkramaNa).
+
+Per the Narada Samhita (as cited in Muhurta Chintamani), the nakshatra in which a graha-yuddha occurs should be avoided for auspicious functions (vivAha, upanayana etc.) for six months following the event. If this cannot be avoided, perform parihAra for candra-bala.
 ##### काञ्ची २४ जगद्गुरु-श्री-चित्सुखेन्द्र-सरस्वती-आराधना #१४९३
 
 Observed on Kr̥ṣṇa-Navamī tithi of Śrāvaṇaḥ (lunar) month (Aparāhṇaḥ/vyaapti). The event occurred in 3628 (Kali era).  
@@ -35876,7 +35944,13 @@ Bhadrapada Naga Panchami.
 
 Graha-yuddha (amshu-vimarda) between aṅgārakaḥ and budhaḥ in pūrvaphalgunī siṁhaḥ, center-to-center separation 0°38′31.24″.
 
-This is an amshu-vimarda (a collision of rays -- the discs themselves do not touch): center-to-center separation 0°38′31.24″, 0°38′27.03″ apart, disc-to-disc. aṅgārakaḥ at pūrvaphalgunī-1 siṁhaḥ (latitude 1°04′42.64″ N, Rju (direct), magnitude +1.66, elongation 1°09′03.94″ W). budhaḥ at pūrvaphalgunī-1 siṁhaḥ (latitude 1°43′13.88″ N, Rju (direct), magnitude -1.88, elongation 1°46′02.61″ W). Classical texts weigh both the northern position and the greater apparent brightness/nearness in deciding the victor (jayI) of a yuddha; here budhaḥ is towards the north (traditionally said to prevail), while by brightness/nearness (the larger apparent diameter) budhaḥ is taken as jayI over aṅgārakaḥ.
+This is an amshu-vimarda (a collision of rays -- the discs themselves do not touch): center-to-center separation 0°38′31.24″, 0°38′27.03″ apart, disc-to-disc. aṅgārakaḥ at pūrvaphalgunī-1 siṁhaḥ (latitude 1°04′42.64″ N, Rju (direct), magnitude +1.66, elongation 1°09′03.94″ W). budhaḥ at pūrvaphalgunī-1 siṁhaḥ (latitude 1°43′13.88″ N, Rju (direct), magnitude -1.88, elongation 1°46′02.61″ W). Classical texts weigh both the northern position and the greater apparent brightness/nearness in deciding the victor (jayI) of a yuddha; here budhaḥ is towards the north (traditionally said to prevail), while by brightness/nearness (the larger apparent diameter) budhaḥ is taken as jayI over aṅgārakaḥ. A graha-yuddha (also called amshu-vimarda, "collision of rays") occurs when two of the five tArA grahas -- budha, śukra, aṅgāraka, br̥haspati, śanaiśchara -- come within 1 aMsha (60 kalA) of each other in longitude, close enough that they may be difficult to tell apart in the sky. It is called yuddha proper only when their discs actually touch/overlap; otherwise, amshu-vimarda.
+
+The Surya Siddhanta itself cautions that this matter is described only to indicate the auspicious/inauspicious effects for people -- in reality the grahas remain far apart from one another and continue along their own paths. This is not to be received with fear, but as an advance, compassionate intimation from those who calculated these movements accurately, meant to help people take protective measures in time.
+
+Classical texts (e.g. Brihat Samhita ch. 17) weigh both which graha is to the north and which is more prominent (nearer/brighter, of larger apparent diameter) in declaring a victor (jayī) of the yuddha; the defeated (jita) graha's significations are said to suffer for a particular section of society -- this is never a universal ill effect. The traditional response is to increase one's spiritual efforts: japa, homa, dAna and parAyaNa (especially of the Navagraha stotra), with higher AvRtti for the two grahas actually involved, particularly if the day also coincides with some other puNya kAla (e.g. a sAyana saGkramaNa).
+
+Per the Narada Samhita (as cited in Muhurta Chintamani), the nakshatra in which a graha-yuddha occurs should be avoided for auspicious functions (vivAha, upanayana etc.) for six months following the event. If this cannot be avoided, perform parihAra for candra-bala.
 ##### तिरुच्चॆन्दूर् मुरुगऩ् आवणित् तिरुविऴा 11म् नाळ्
 
 
@@ -37494,7 +37568,13 @@ Anadhyayana on account of pūrṇimā. Several tithis in a month are nitya-anadh
 
 Graha-yuddha (amshu-vimarda) between budhaḥ and śukraḥ in uttaraphalgunī kanyā, center-to-center separation 0°17′18.93″.
 
-This is an amshu-vimarda (a collision of rays -- the discs themselves do not touch): center-to-center separation 0°17′18.93″, 0°17′11.60″ apart, disc-to-disc. budhaḥ at uttaraphalgunī-3 kanyā (latitude 1°01′41.49″ N, Rju (direct), magnitude -0.97, elongation 8°21′21.04″ E). śukraḥ at uttaraphalgunī-3 kanyā (latitude 1°19′00.43″ N, Rju (direct), magnitude -3.91, elongation 8°23′45.65″ E). Classical texts weigh both the northern position and the greater apparent brightness/nearness in deciding the victor (jayI) of a yuddha; here śukraḥ is towards the north (traditionally said to prevail), while by brightness/nearness (the larger apparent diameter) śukraḥ is taken as jayI over budhaḥ.
+This is an amshu-vimarda (a collision of rays -- the discs themselves do not touch): center-to-center separation 0°17′18.93″, 0°17′11.60″ apart, disc-to-disc. budhaḥ at uttaraphalgunī-3 kanyā (latitude 1°01′41.49″ N, Rju (direct), magnitude -0.97, elongation 8°21′21.04″ E). śukraḥ at uttaraphalgunī-3 kanyā (latitude 1°19′00.43″ N, Rju (direct), magnitude -3.91, elongation 8°23′45.65″ E). Classical texts weigh both the northern position and the greater apparent brightness/nearness in deciding the victor (jayI) of a yuddha; here śukraḥ is towards the north (traditionally said to prevail), while by brightness/nearness (the larger apparent diameter) śukraḥ is taken as jayI over budhaḥ. A graha-yuddha (also called amshu-vimarda, "collision of rays") occurs when two of the five tArA grahas -- budha, śukra, aṅgāraka, br̥haspati, śanaiśchara -- come within 1 aMsha (60 kalA) of each other in longitude, close enough that they may be difficult to tell apart in the sky. It is called yuddha proper only when their discs actually touch/overlap; otherwise, amshu-vimarda.
+
+The Surya Siddhanta itself cautions that this matter is described only to indicate the auspicious/inauspicious effects for people -- in reality the grahas remain far apart from one another and continue along their own paths. This is not to be received with fear, but as an advance, compassionate intimation from those who calculated these movements accurately, meant to help people take protective measures in time.
+
+Classical texts (e.g. Brihat Samhita ch. 17) weigh both which graha is to the north and which is more prominent (nearer/brighter, of larger apparent diameter) in declaring a victor (jayī) of the yuddha; the defeated (jita) graha's significations are said to suffer for a particular section of society -- this is never a universal ill effect. The traditional response is to increase one's spiritual efforts: japa, homa, dAna and parAyaNa (especially of the Navagraha stotra), with higher AvRtti for the two grahas actually involved, particularly if the day also coincides with some other puNya kAla (e.g. a sAyana saGkramaNa).
+
+Per the Narada Samhita (as cited in Muhurta Chintamani), the nakshatra in which a graha-yuddha occurs should be avoided for auspicious functions (vivAha, upanayana etc.) for six months following the event. If this cannot be avoided, perform parihAra for candra-bala.
 ##### काञ्ची ५९ जगद्गुरु-श्री-भगवन्नाम-बोधेन्द्र-सरस्वती-आराधना #३२८
 
 Observed on Paurṇamāsī tithi of Bhādrapadaḥ (lunar) month (Aparāhṇaḥ/vyaapti). The event occurred in 4793 (Kali era).  
@@ -38597,8 +38677,16 @@ Bharanī (nakṣatra) during Pitṛpakṣa is considered highly significant. By 
 
 ##### शुक्रः–उदयः (प्राक्)
 - →00:52
+
+
+
+śukraḥ rises out of combustion (udayaH), heading prāk (east), on 2019-Sep-19 00:52. At this moment śukraḥ is at hastaḥ-1 kanyā (latitude 1°13′40.81″ N, moving r̥ju (direct)), magnitude -3.90, elongation 9°45′09.15″ E of the Sun. Emergence from combustion restores a graha's full strength; this is generally considered an auspicious time to begin activities connected with śukraḥ's significations.
 ##### शुक्रस्य बाल्य-प्रारम्भः
 - 00:52→
+
+
+
+śukraḥ emerges from combustion into bAlya (infancy) on 2019-Sep-19 00:52. At this moment śukraḥ is at hastaḥ-1 kanyā (latitude 1°13′40.81″ N, moving r̥ju (direct)), magnitude -3.90, elongation 9°45′09.15″ E of the Sun. A graha in bAlya is likewise considered to give reduced results, for 5 days, before regaining its full strength.
 
 ### 2019-09-19
 
@@ -38901,6 +38989,10 @@ When the next day is anadhyayana, for whatever reason, one must not perform adhy
 
 ##### बुधः–उदयः (प्राक्)
 - →17:03
+
+
+
+budhaḥ rises out of combustion (udayaH), heading prāk (east), on 2019-Sep-21 17:03. At this moment budhaḥ is at hastaḥ-3 kanyā (latitude 0°10′04.91″ N, moving r̥ju (direct)), magnitude -0.54, elongation 13°48′45.98″ E of the Sun. Emergence from combustion restores a graha's full strength; this is generally considered an auspicious time to begin activities connected with budhaḥ's significations.
 ##### द्विपुष्कर-योगः
 - 11:19→20:20
 
@@ -39475,6 +39567,10 @@ For a wonderfully detailed exposition on the topic, see https://sites.google.com
 
 ##### शुक्रस्य बाल्य-समापनम्
 - 00:52→
+
+
+
+śukraḥ's bAlya ends on 2019-Sep-24 00:52, regaining full strength. At this moment śukraḥ is at hastaḥ-3 kanyā (latitude 1°07′00.79″ N, moving r̥ju (direct)), magnitude -3.90, elongation 11°03′24.25″ E of the Sun.
 
 ### 2019-09-24
 
@@ -43693,6 +43789,10 @@ ___________________
 - अङ्गारकः–उदयः (प्राक्), अनध्यायः, दिनक्षयः, पञ्च-पर्व-पूजा (अष्टमी), मङ्गल-व्रतम्, महालक्ष्मी-व्रतम्
 ##### अङ्गारकः–उदयः (प्राक्)
 - →03:08
+
+
+
+aṅgārakaḥ rises out of combustion (udayaH), heading prāk (east), on 2019-Oct-22 03:08. At this moment aṅgārakaḥ is at hastaḥ-3 kanyā (latitude 0°53′01.22″ N, moving r̥ju (direct)), magnitude +1.76, elongation 16°46′01.35″ W of the Sun. Emergence from combustion restores a graha's full strength; this is generally considered an auspicious time to begin activities connected with aṅgārakaḥ's significations.
 ##### अनध्यायः
 
 Observed on Kr̥ṣṇa-Aṣṭamī tithi of every (lunar) month (Sāṅgavaḥ/paraviddha). 
@@ -46578,6 +46678,10 @@ ___________________
 ##### बुधः–अस्तमयः (प्राक्)
 - 19:16→
 
+
+
+budhaḥ sets into combustion (astamayaH), heading prāk (east), on 2019-Nov-06 19:17. At this moment budhaḥ is at viśākhā-4 vr̥śchikaḥ (latitude 1°36′26.18″ S, moving vakra (retrograde)), magnitude +2.22, elongation 11°14′12.17″ E of the Sun. Combustion (mAudhyam) is generally considered to weaken a graha's ability to give full results in its significations; undertakings connected with budhaḥ are traditionally best avoided until it re-emerges.
+
 ### 2019-11-07
 
 #### कार्त्तिकः-08-10  ,कुम्भः-शतभिषक्🌛🌌  ,  तुला-विशाखा-07-21🌞🌌  ,  सहः-09-15🌞🪐  , गुरुः
@@ -48518,6 +48622,10 @@ Anadhyayana during the day/night, as it precedes saṅkramaṇa tonight. When sa
 
 ##### बुधः–उदयः (प्राक्)
 - →04:01
+
+
+
+budhaḥ rises out of combustion (udayaH), heading prāk (east), on 2019-Nov-17 04:01. At this moment budhaḥ is at svātī-4 tulā (latitude 1°37′35.88″ N, moving vakra (retrograde)), magnitude +1.75, elongation 11°21′40.82″ W of the Sun. Emergence from combustion restores a graha's full strength; this is generally considered an auspicious time to begin activities connected with budhaḥ's significations.
 ##### सिन्धु/ब्रह्मपुत्र-आद्य-पुष्कर-समापनम्
 
 
@@ -50662,6 +50770,10 @@ Sirappuli Nayanmar, a devout Brahmana from Tiruvakur in the Chola kingdom, was d
 ##### गुरोः वार्धक्य-प्रारम्भः
 - 04:57→
 
+
+
+guruḥ enters vArdhakya (old age) on 2019-Nov-30 04:57, 15 days before it sets into combustion (mAudhyam). At this moment guruḥ is at mūlā-2 dhanuḥ (latitude 0°08′25.78″ N, moving r̥ju (direct)), magnitude -1.85, elongation 21°56′18.47″ E of the Sun. A graha in vArdhakya is considered weakened, giving reduced results, though less so than in outright mAudhya.
+
 ### 2019-11-30
 
 #### मार्गशीर्षः-09-04  ,धनुः-पूर्वाषाढा🌛🌌  ,  वृश्चिकः-अनूराधा-08-14🌞🌌  ,  सहस्यः-10-08🌞🪐  , शनिः
@@ -52393,8 +52505,16 @@ ___________________
 - गुरुः–अस्तमयः (प्राक्), गुरोः वार्धक्य-समापनम्, त्रिपुष्कर-योगः, नारायणीयं-जयन्ती #४३४, परशुराम-जयन्ती (द्रविड-सम्प्रदायः)
 ##### गुरोः वार्धक्य-समापनम्
 - 04:57→
+
+
+
+guruḥ's vArdhakya ends on 2019-Dec-15 04:57, as it sets into combustion (mAudhyam). At this moment guruḥ is at mūlā-3 dhanuḥ (latitude 0°06′56.04″ N, moving r̥ju (direct)), magnitude -1.84, elongation 10°05′11.68″ E of the Sun.
 ##### गुरुः–अस्तमयः (प्राक्)
 - 04:57→
+
+
+
+guruḥ sets into combustion (astamayaH), heading prāk (east), on 2019-Dec-15 04:57. At this moment guruḥ is at mūlā-3 dhanuḥ (latitude 0°06′56.04″ N, moving r̥ju (direct)), magnitude -1.84, elongation 10°05′11.68″ E of the Sun. Combustion (mAudhyam) is generally considered to weaken a graha's ability to give full results in its significations; undertakings connected with guruḥ are traditionally best avoided until it re-emerges.
 ##### नारायणीयं-जयन्ती #४३४
 
 Observed on day 28 of Vr̥ścikaḥ (sidereal solar) month (Sūryōdayaḥ/puurvaviddha). The event occurred in 4687 (Kali era).  
@@ -52963,6 +53083,10 @@ ___________________
 The three days around the Ashtaka Shraaddha of  mārgaśīrṣa, pauṣa and māgha month are anadhyayana days, where one is not supposed to learn the Vedas.
 ##### बुधः–अस्तमयः (प्राक्)
 - 20:44→
+
+
+
+budhaḥ sets into combustion (astamayaH), heading prāk (east), on 2019-Dec-18 20:44. At this moment budhaḥ is at jyēṣṭhā-1 vr̥śchikaḥ (latitude 0°08′50.19″ N, moving r̥ju (direct)), magnitude -0.63, elongation 12°40′02.20″ W of the Sun. Combustion (mAudhyam) is generally considered to weaken a graha's ability to give full results in its significations; undertakings connected with budhaḥ are traditionally best avoided until it re-emerges.
 ##### कुचेल-दिनम्
 
 
@@ -54428,6 +54552,10 @@ When a tripādanakṣatra is conjoined with a bhadrā tithi i.e. dvitīyā, sapt
 
 ##### शनिः–अस्तमयः (प्राक्)
 - 23:31→
+
+
+
+śaniḥ sets into combustion (astamayaH), heading prāk (east), on 2019-Dec-28 23:31. At this moment śaniḥ is at uttarāṣāḍhā-1 dhanuḥ (latitude 0°03′20.77″ N, moving r̥ju (direct)), magnitude +0.60, elongation 14°19′09.81″ E of the Sun. Combustion (mAudhyam) is generally considered to weaken a graha's ability to give full results in its significations; undertakings connected with śaniḥ are traditionally best avoided until it re-emerges.
 
 ### 2019-12-29
 

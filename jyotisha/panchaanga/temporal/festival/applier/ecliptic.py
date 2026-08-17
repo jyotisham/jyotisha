@@ -361,6 +361,43 @@ class EclipticFestivalAssigner(FestivalAssigner):
   # assign_baalya_vardhakya, which uses the same padding for the same reason.
   MAUDHYA_SCAN_PAD_DAYS = 60
 
+  MOTION_EN = {'vakra': 'retrograde', 'Rju': 'direct'}
+  DIRECTION_EN = {'prAk': 'east', 'pratyak': 'west'}
+
+  def _maudhya_family_fields(self, graha, jd):
+    """Common substitution fields (graha's own position/motion/brightness relative to the Sun at
+    `jd`) shared by every mAudhya-family TOML template (graha-mauDhya-astamayaH/udayaH,
+    graha-vArdhakya-*, graha-bAlya-*) -- see template_description.render_template."""
+    details = self.get_graha_yuddha_details(graha, Graha.SUN, jd)
+    d = details[graha]
+    tz = self.panchaanga.city.get_timezone_obj()
+    return dict(
+        graha=GRAHA_NAMES[graha],
+        date=tz.julian_day_to_local_datetime(jd).strftime('%Y-%b-%d %H:%M'),
+        nakshatra=d['nakshatra'], pada=d['pada'], rashi=d['rashi'],
+        latitude=self.format_dms(d['latitude']), lat_dir=d['lat_dir'],
+        motion_sa=d['motion'], motion_en=self.MOTION_EN[d['motion']],
+        magnitude='%+.2f' % d['magnitude'],
+        elongation=self.format_dms(d['elongation']), elong_dir=d['elong_dir'],
+    )
+
+  def _render_maudhya_family_description(self, rule_id, graha, jd, **extra_fields):
+    """Look up `rule_id` (one of the graha-mauDhya-*/graha-vArdhakya-*/graha-bAlya-* TOML
+    templates) and render it with this occurrence's fields. Returns None (rather than a dict) if
+    the rule doesn't exist or renders empty, so the caller can leave FestivalInstance.description
+    unset and fall back to the ordinary (fest-id-based) lookup path instead of masking a missing
+    TOML file with a blank description."""
+    rule = self.rules_collection.name_to_rule.get(rule_id)
+    if rule is None:
+      return None
+    from jyotisha.panchaanga.temporal.festival import template_description
+    fields = self._maudhya_family_fields(graha, jd)
+    fields.update(extra_fields)
+    detailed = template_description.render_template(rule, **fields)
+    if not detailed:
+      return None
+    return {'blurb': '', 'detailed': detailed, 'image': '', 'references': '', 'url': '', 'shlokas': ''}
+
   def add_maudhya_events(self, graha: int, log_path=None):
     """
     Add astamayaH (setting into combustion)/udayaH (rising out of combustion) events for `graha`.
@@ -391,17 +428,23 @@ class EclipticFestivalAssigner(FestivalAssigner):
             event_label=f"mauDhyam ({GRAHA_NAMES[graha]})", graha1=graha, graha2=Graha.SUN, jd=mi.t_zero,
             details=details, include_winner=False))
         if not mi.start_clamped:
+          description = self._render_maudhya_family_description(
+              'graha-mauDhya-astamayaH', graha, mi.t_start,
+              direction_sa=mi.dir_set, direction_en=self.DIRECTION_EN.get(mi.dir_set, mi.dir_set))
           self.panchaanga.add_festival_instance(FestivalInstance(
               name=f"{GRAHA_NAMES[graha]}–astamayaH ({mi.dir_set})",
-              interval=Interval(jd_start=mi.t_start, jd_end=None)
+              interval=Interval(jd_start=mi.t_start, jd_end=None), description=description
           ), date=self._jd_to_display_date(mi.t_start))
         else:
           logging.warning(f"{GRAHA_NAMES[graha]} mauDhya astamayaH near jd={mi.t_zero} still start_clamped "
                            f"even with a {pad}-day scan pad; skipping.")
         if not mi.end_clamped:
+          description = self._render_maudhya_family_description(
+              'graha-mauDhya-udayaH', graha, mi.t_end,
+              direction_sa=mi.dir_rise, direction_en=self.DIRECTION_EN.get(mi.dir_rise, mi.dir_rise))
           self.panchaanga.add_festival_instance(FestivalInstance(
               name=f"{GRAHA_NAMES[graha]}–udayaH ({mi.dir_rise})",
-              interval=Interval(jd_start=None, jd_end=mi.t_end)
+              interval=Interval(jd_start=None, jd_end=mi.t_end), description=description
           ), date=self._jd_to_display_date(mi.t_end))
         else:
           logging.warning(f"{GRAHA_NAMES[graha]} mauDhya udayaH near jd={mi.t_zero} still end_clamped "
@@ -488,15 +531,24 @@ class EclipticFestivalAssigner(FestivalAssigner):
     genitive = GRAHA_GENITIVE_NAMES[graha]
     for mi in maudhya_intervals:
       if not mi.start_clamped:
-        self._add_point_festival(f"{genitive}~vArdhakya-prArambhaH", mi.t_start - days['vardhakya'])
-        self._add_point_festival(f"{genitive}~vArdhakya-samApanam", mi.t_start)
+        vardhakya_start_jd = mi.t_start - days['vardhakya']
+        self._add_point_festival(f"{genitive}~vArdhakya-prArambhaH", vardhakya_start_jd,
+            description=self._render_maudhya_family_description(
+                'graha-vArdhakya-prArambhaH', graha, vardhakya_start_jd, days=days['vardhakya']))
+        self._add_point_festival(f"{genitive}~vArdhakya-samApanam", mi.t_start,
+            description=self._render_maudhya_family_description('graha-vArdhakya-samApanam', graha, mi.t_start))
       if not mi.end_clamped:
-        self._add_point_festival(f"{genitive}~bAlya-prArambhaH", mi.t_end)
-        self._add_point_festival(f"{genitive}~bAlya-samApanam", mi.t_end + days['baalya'])
+        self._add_point_festival(f"{genitive}~bAlya-prArambhaH", mi.t_end,
+            description=self._render_maudhya_family_description(
+                'graha-bAlya-prArambhaH', graha, mi.t_end, days=days['baalya']))
+        baalya_end_jd = mi.t_end + days['baalya']
+        self._add_point_festival(f"{genitive}~bAlya-samApanam", baalya_end_jd,
+            description=self._render_maudhya_family_description('graha-bAlya-samApanam', graha, baalya_end_jd))
 
-  def _add_point_festival(self, name: str, jd: float):
+  def _add_point_festival(self, name: str, jd: float, description=None):
     date = self._jd_to_display_date(jd)
-    self.panchaanga.add_festival_instance(FestivalInstance(name=name, interval=Interval(jd_start=jd, jd_end=None)), date=date)
+    self.panchaanga.add_festival_instance(FestivalInstance(
+        name=name, interval=Interval(jd_start=jd, jd_end=None), description=description), date=date)
 
   def assign_chandra_darshanam(self, force_computation=False):
     """
