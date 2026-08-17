@@ -176,10 +176,11 @@ class Panchaanga(common.JsonObject):
     self.clear_padding_day_festivals()
     # Must run after clear_padding_day_festivals(): these events are
     # deliberately computed via look-ahead/look-behind beyond
-    # [jd_start, jd_end] (see EclipticFestivalAssigner.assign_baalya_vardhakya),
-    # so they would otherwise be wiped right back out as "untrustworthy"
-    # padding-day festivals.
+    # [jd_start, jd_end] (see EclipticFestivalAssigner.assign_baalya_vardhakya
+    # and .assign_maudhya), so they would otherwise be wiped right back out
+    # as "untrustworthy" padding-day festivals.
     ecliptic.EclipticFestivalAssigner(panchaanga=self).assign_baalya_vardhakya()
+    ecliptic.EclipticFestivalAssigner(panchaanga=self).assign_maudhya()
 
 
   def _sync_festivals_dict_and_daily_festivals(self, here_to_daily=False, daily_to_here=True):

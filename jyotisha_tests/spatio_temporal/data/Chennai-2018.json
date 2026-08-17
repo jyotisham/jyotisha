@@ -7786,6 +7786,14 @@
           "jsonClass": "FestivalInstance",
           "name": "tyAgarAja-ArAdhanA",
           "ordinal": 171
+        },
+        "zaniH–udayaH_(prAk)": {
+          "interval": {
+            "jd_end": 2458124.7233,
+            "jsonClass": "Interval"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "zaniH–udayaH_(prAk)"
         }
       },
       "graha_rise_jd": {
@@ -340975,6 +340983,14 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "dhanurmAsa-uSaHkAla-pUjA-ArambhaH"
+        },
+        "zaniH–astamayaH_(prAk)": {
+          "interval": {
+            "jd_start": 2458470.1899,
+            "jsonClass": "Interval"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "zaniH–astamayaH_(prAk)"
         }
       },
       "graha_rise_jd": {
@@ -360955,7 +360971,16 @@
           "name": "रात्रिमानम्"
         }
       },
-      "festival_id_to_instance": {},
+      "festival_id_to_instance": {
+        "budhaH–astamayaH_(prAk)": {
+          "interval": {
+            "jd_start": 2458490.9563,
+            "jsonClass": "Interval"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "budhaH–astamayaH_(prAk)"
+        }
+      },
       "graha_rise_jd": {
         "jupiter": 2458491.4437,
         "ketu": 2458490.5756,
@@ -370951,7 +370976,16 @@
           "name": "रात्रिमानम्"
         }
       },
-      "festival_id_to_instance": {},
+      "festival_id_to_instance": {
+        "zaniH–udayaH_(prAk)": {
+          "interval": {
+            "jd_end": 2458501.8017,
+            "jsonClass": "Interval"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "zaniH–udayaH_(prAk)"
+        }
+      },
       "graha_rise_jd": {
         "jupiter": 2458502.4203,
         "ketu": 2458502.5429,
@@ -384601,6 +384635,15 @@
     ],
     "budhaH–astamayaH_(prAk)": [
       {
+        "day": 8,
+        "hour": 9,
+        "jsonClass": "Date",
+        "minute": 38,
+        "month": 12,
+        "second": 51.9126,
+        "year": 2017
+      },
+      {
         "day": 23,
         "jsonClass": "Date",
         "month": 5,
@@ -384623,9 +384666,24 @@
         "jsonClass": "Date",
         "month": 11,
         "year": 2018
+      },
+      {
+        "day": 7,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2019
       }
     ],
     "budhaH–udayaH_(prAk)": [
+      {
+        "day": 17,
+        "hour": 23,
+        "jsonClass": "Date",
+        "minute": 23,
+        "month": 12,
+        "second": 51.2148,
+        "year": 2017
+      },
       {
         "day": 17,
         "jsonClass": "Date",
@@ -384649,6 +384707,15 @@
         "jsonClass": "Date",
         "month": 12,
         "year": 2018
+      },
+      {
+        "day": 22,
+        "hour": 5,
+        "jsonClass": "Date",
+        "minute": 55,
+        "month": 2,
+        "second": 59.7214,
+        "year": 2019
       }
     ],
     "budhavizAkhA-naktavrata-yOgaH": [
@@ -393963,6 +394030,37 @@
         "year": 2018
       }
     ],
+    "zaniH–astamayaH_(prAk)": [
+      {
+        "day": 6,
+        "hour": 17,
+        "jsonClass": "Date",
+        "minute": 44,
+        "month": 12,
+        "second": 2.5747,
+        "year": 2017
+      },
+      {
+        "day": 17,
+        "jsonClass": "Date",
+        "month": 12,
+        "year": 2018
+      }
+    ],
+    "zaniH–udayaH_(prAk)": [
+      {
+        "day": 6,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2018
+      },
+      {
+        "day": 18,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2019
+      }
+    ],
     "zanimUlA-naktavrata-yOgaH": [
       {
         "day": 10,
@@ -394512,6 +394610,15 @@
       }
     ],
     "zukraH–astamayaH_(prAk)": [
+      {
+        "day": 2,
+        "hour": 23,
+        "jsonClass": "Date",
+        "minute": 35,
+        "month": 12,
+        "second": 13.2242,
+        "year": 2017
+      },
       {
         "day": 21,
         "jsonClass": "Date",

@@ -342621,6 +342621,14 @@
           "jsonClass": "AdhyayanaFestivalInstance",
           "name": "anadhyAyaH~mArgazIrSa-aSTakA~1"
         },
+        "budhaH–astamayaH_(prAk)": {
+          "interval": {
+            "jd_start": 2458836.1349,
+            "jsonClass": "Interval"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "budhaH–astamayaH_(prAk)"
+        },
         "kucEla-dinam": {
           "interval": {
             "jd_end": 2458836.5408,
@@ -352369,6 +352377,14 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "tripuSkara-yOgaH~6"
+        },
+        "zaniH–astamayaH_(prAk)": {
+          "interval": {
+            "jd_start": 2458846.2511,
+            "jsonClass": "Interval"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "zaniH–astamayaH_(prAk)"
         }
       },
       "graha_rise_jd": {
@@ -354209,16 +354225,7 @@
           "name": "रात्रिमानम्"
         }
       },
-      "festival_id_to_instance": {
-        "guruH–mauDhyam~(uttaram~sthitaH)": {
-          "interval": {
-            "jd_end": 2458848.5,
-            "jsonClass": "Interval"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "guruH–mauDhyam~(uttaram~sthitaH)"
-        }
-      },
+      "festival_id_to_instance": {},
       "graha_rise_jd": {
         "jupiter": 2458848.5369,
         "ketu": 2458847.5455,
@@ -363318,6 +363325,14 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "gurOH~bAlya-prArambhaH"
+        },
+        "guruH–udayaH_(prAk)": {
+          "interval": {
+            "jd_end": 2458858.5207,
+            "jsonClass": "Interval"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "guruH–udayaH_(prAk)"
         }
       },
       "graha_rise_jd": {
@@ -385184,6 +385199,15 @@
     ],
     "budhaH–astamayaH_(prAk)": [
       {
+        "day": 22,
+        "hour": 18,
+        "jsonClass": "Date",
+        "minute": 33,
+        "month": 11,
+        "second": 9.6509,
+        "year": 2018
+      },
+      {
         "day": 7,
         "jsonClass": "Date",
         "month": 1,
@@ -385218,9 +385242,33 @@
         "jsonClass": "Date",
         "month": 11,
         "year": 2019
+      },
+      {
+        "day": 18,
+        "jsonClass": "Date",
+        "month": 12,
+        "year": 2019
+      },
+      {
+        "day": 16,
+        "hour": 17,
+        "jsonClass": "Date",
+        "minute": 12,
+        "month": 2,
+        "second": 49.5856,
+        "year": 2020
       }
     ],
     "budhaH–udayaH_(prAk)": [
+      {
+        "day": 2,
+        "hour": 12,
+        "jsonClass": "Date",
+        "minute": 55,
+        "month": 12,
+        "second": 24.0768,
+        "year": 2018
+      },
       {
         "day": 21,
         "jsonClass": "Date",
@@ -385256,6 +385304,15 @@
         "jsonClass": "Date",
         "month": 11,
         "year": 2019
+      },
+      {
+        "day": 1,
+        "hour": 17,
+        "jsonClass": "Date",
+        "minute": 42,
+        "month": 2,
+        "second": 27.2985,
+        "year": 2020
       }
     ],
     "budhavizAkhA-naktavrata-yOgaH": [
@@ -386795,18 +386852,36 @@
     ],
     "guruH–astamayaH_(prAk)": [
       {
+        "day": 13,
+        "hour": 15,
+        "jsonClass": "Date",
+        "minute": 31,
+        "month": 11,
+        "second": 53.9004,
+        "year": 2018
+      },
+      {
         "day": 14,
         "jsonClass": "Date",
         "month": 12,
         "year": 2019
       }
     ],
-    "guruH–mauDhyam~(uttaram~sthitaH)": [
+    "guruH–udayaH_(prAk)": [
       {
-        "day": 30,
+        "day": 9,
+        "hour": 0,
         "jsonClass": "Date",
+        "minute": 15,
         "month": 12,
-        "year": 2019
+        "second": 24.0236,
+        "year": 2018
+      },
+      {
+        "day": 9,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2020
       }
     ],
     "gurupuSya-yOgaH": [
@@ -394749,12 +394824,38 @@
         "year": 2019
       }
     ],
+    "zaniH–astamayaH_(prAk)": [
+      {
+        "day": 17,
+        "hour": 22,
+        "jsonClass": "Date",
+        "minute": 3,
+        "month": 12,
+        "second": 25.7974,
+        "year": 2018
+      },
+      {
+        "day": 28,
+        "jsonClass": "Date",
+        "month": 12,
+        "year": 2019
+      }
+    ],
     "zaniH–udayaH_(prAk)": [
       {
         "day": 18,
         "jsonClass": "Date",
         "month": 1,
         "year": 2019
+      },
+      {
+        "day": 30,
+        "hour": 23,
+        "jsonClass": "Date",
+        "minute": 16,
+        "month": 1,
+        "second": 39.2948,
+        "year": 2020
       }
     ],
     "zanimUlA-naktavrata-yOgaH": [

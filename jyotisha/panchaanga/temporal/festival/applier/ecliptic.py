@@ -76,8 +76,6 @@ class EclipticFestivalAssigner(FestivalAssigner):
     self.assign_tropical_sankranti_punyakaala()
     self.assign_tropical_sankranti()
     self.set_other_graha_transits()
-    for graha in (Graha.MERCURY, Graha.VENUS, Graha.MARS, Graha.JUPITER, Graha.SATURN):
-      self.add_maudhya_events(graha)
     self.add_graha_yuddhas()
     # Force computation, mirroring the old assign_chandra_darshanam_legacy()
     # call in TithiFestivalAssigner: assign_bodhaayana_amaavaasyaa() (which
@@ -358,58 +356,74 @@ class EclipticFestivalAssigner(FestivalAssigner):
     return intervals
 
 
+  # Comfortably more than any tArA graha's maudhya half-duration (elongation change is dominated by
+  # the Sun's ~1deg/day motion, and even Saturn's +-15deg window is under 30 days) -- see
+  # assign_baalya_vardhakya, which uses the same padding for the same reason.
+  MAUDHYA_SCAN_PAD_DAYS = 60
+
   def add_maudhya_events(self, graha: int, log_path=None):
+    """
+    Add astamayaH (setting into combustion)/udayaH (rising out of combustion) events for `graha`.
+
+    Deliberately NOT called from assign_all() (see assign_maudhya): like
+    add_baalya_vardhakya_events, this scans well beyond [self.panchaanga.jd_start,
+    self.panchaanga.jd_end] so that an astamayaH/udayaH just outside the requested range is
+    still pinned to its true date via _jd_to_display_date (add_festival_instance records it
+    under that date in festival_id_to_days regardless of whether a daily panchaanga exists for
+    it, so it still surfaces in summary/front-page tables), rather than being clamped onto the
+    last/first *computed* day -- which is misleading, since the event doesn't actually happen
+    that day. If even the padded scan can't bracket a genuine start/end (mi.start_clamped/
+    end_clamped still true), that boundary is silently skipped, exactly as
+    add_baalya_vardhakya_events does -- no festival is added for it at all, rather than a
+    guessed placeholder on an arbitrary day.
+    """
     log_path = self.add_graha_events_log_handler(log_path)
+    pad = self.MAUDHYA_SCAN_PAD_DAYS
     # use_latitude=True: apply the akSAMza (observer-latitude, oblique-ascension)
     # correction - see compute_conjunction_intervals docstring. This is the
     # empirically-validated convention, and applies uniformly to every graha,
     # Chandra included, not just the five star-planets.
-    maudhya_intervals = self.compute_maudhya_intervals(graha, self.panchaanga.jd_start, self.panchaanga.jd_end, use_latitude=True)
+    maudhya_intervals = self.compute_maudhya_intervals(
+        graha, self.panchaanga.jd_start - pad, self.panchaanga.jd_end + pad, use_latitude=True)
     for mi in maudhya_intervals:
         details = self.get_graha_yuddha_details(graha, Graha.SUN, mi.t_zero)
         graha_events_logger.info(self.format_graha_event_report(
             event_label=f"mauDhyam ({GRAHA_NAMES[graha]})", graha1=graha, graha2=Graha.SUN, jd=mi.t_zero,
             details=details, include_winner=False))
-        try:
-            fday = int(mi.t_start - self.daily_panchaangas[0].julian_day_start)
-            if mi.t_start < self.daily_panchaangas[fday].jd_sunrise:
-                fday -= 1
-            if mi.start_clamped:
-              # The graha was already combust when this panchaanga's period
-              # began -- the true astamayaH (setting into combustion) happened
-              # earlier, outside the computed range, so don't claim it as an
-              # event at this (arbitrary, boundary) instant. Note the ongoing
-              # state instead.
-              self.panchaanga.add_festival_instance(FestivalInstance(
-                  name=f"{GRAHA_NAMES[graha]}–mauDhyam~(pUrvam~ArabdhaH)",
-                  interval=Interval(jd_start=mi.t_start, jd_end=None)
-              ), date=self.daily_panchaangas[fday].date)
-            else:
-              self.panchaanga.add_festival_instance(FestivalInstance(
-                  name=f"{GRAHA_NAMES[graha]}–astamayaH ({mi.dir_set})",
-                  interval=Interval(jd_start=mi.t_start, jd_end=None)
-              ), date=self.daily_panchaangas[fday].date)
-        except ValueError:
-            logging.warning("Could not assign festival day for maudhya start event.")
-        try:
-          fday = int(mi.t_end - self.daily_panchaangas[0].julian_day_start)
-          if mi.t_end < self.daily_panchaangas[fday].jd_sunrise:
-            fday -= 1
-          if mi.end_clamped:
-            # Symmetric to start_clamped: the graha is still combust at the
-            # end of this panchaanga's period, with the true udayaH (rising
-            # out of combustion) beyond the computed range.
-            self.panchaanga.add_festival_instance(FestivalInstance(
-                name=f"{GRAHA_NAMES[graha]}–mauDhyam~(uttaram~sthitaH)",
-                interval=Interval(jd_start=None, jd_end=mi.t_end)
-            ), date=self.daily_panchaangas[fday].date)
-          else:
-            self.panchaanga.add_festival_instance(FestivalInstance(
-                name=f"{GRAHA_NAMES[graha]}–udayaH ({mi.dir_rise})",
-                interval=Interval(jd_start=None, jd_end=mi.t_end)
-            ), date=self.daily_panchaangas[fday].date)
-        except ValueError:
-          logging.warning("Could not assign festival day for maudhya end event.")
+        if not mi.start_clamped:
+          self.panchaanga.add_festival_instance(FestivalInstance(
+              name=f"{GRAHA_NAMES[graha]}–astamayaH ({mi.dir_set})",
+              interval=Interval(jd_start=mi.t_start, jd_end=None)
+          ), date=self._jd_to_display_date(mi.t_start))
+        else:
+          logging.warning(f"{GRAHA_NAMES[graha]} mauDhya astamayaH near jd={mi.t_zero} still start_clamped "
+                           f"even with a {pad}-day scan pad; skipping.")
+        if not mi.end_clamped:
+          self.panchaanga.add_festival_instance(FestivalInstance(
+              name=f"{GRAHA_NAMES[graha]}–udayaH ({mi.dir_rise})",
+              interval=Interval(jd_start=None, jd_end=mi.t_end)
+          ), date=self._jd_to_display_date(mi.t_end))
+        else:
+          logging.warning(f"{GRAHA_NAMES[graha]} mauDhya udayaH near jd={mi.t_zero} still end_clamped "
+                           f"even with a {pad}-day scan pad; skipping.")
+
+  def assign_maudhya(self):
+    """
+    Add mauDhya (combustion) astamayaH/udayaH events for every graha in TARA_GRAHAS (see
+    add_maudhya_events).
+
+    Deliberately NOT called from assign_all() (and hence not from add_maudhya_events itself) --
+    see the docstring on assign_baalya_vardhakya for why: these events are meant to be computed
+    via look-ahead/look-behind beyond the requested [jd_start, jd_end] range, but
+    Panchaanga.clear_padding_day_festivals() (run at the very end of update_festival_details(),
+    after assign_all()) wipes any festival landing on a padding day, on the premise that
+    padding-day festival assignments in general aren't trustworthy without further look-ahead.
+    That's exactly what add_maudhya_events's own wider scan already provides, so it must run
+    after clear_padding_day_festivals(), not as part of the normal assign_all() pass, or its
+    results would be wiped right back out. See Panchaanga.update_festival_details().
+    """
+    for graha in (Graha.MERCURY, Graha.VENUS, Graha.MARS, Graha.JUPITER, Graha.SATURN):
+      self.add_maudhya_events(graha)
 
   def assign_baalya_vardhakya(self):
     """
