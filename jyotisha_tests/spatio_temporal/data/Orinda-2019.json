@@ -164953,6 +164953,14 @@
       },
       "festival_id_to_instance": {
         "graha-yuddhaH~(★budhaH-aGgArakaH,~punarvasuH~mithunam)": {
+          "description": {
+            "blurb": "Graha-yuddha (amshu-vimarda) between `aGgArakaH` and `budhaH` in `punarvasuH` `mithunam`, center-to-center separation 0°13′29.04″.",
+            "detailed": "This is an amshu-vimarda (a collision of rays -- the discs themselves do not touch): center-to-center separation 0°13′29.04″, 0°13′23.51″ apart, disc-to-disc. `aGgArakaH` at `punarvasuH`-3 `mithunam` (latitude 1°10′32.30″ N, Rju (direct), magnitude +1.79, elongation 24°24′30.24″ E). `budhaH` at `punarvasuH`-3 `mithunam` (latitude 1°24′01.34″ N, Rju (direct), magnitude +0.23, elongation 24°25′10.35″ E). Classical texts weigh both the northern position and the greater apparent brightness/nearness in deciding the victor (jayI) of a yuddha; here `budhaH` is towards the north (traditionally said to prevail), while by brightness/nearness (the larger apparent diameter) `budhaH` is taken as jayI over `aGgArakaH`.",
+            "image": "",
+            "references": "",
+            "shlokas": "",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458654.9806,
             "jd_start": 2458651.7198,
@@ -229761,6 +229769,14 @@
           "name": "caNDikA-pUjA"
         },
         "graha-yuddhaH~(★zukraH-aGgArakaH,~maghA~siMhaH)": {
+          "description": {
+            "blurb": "Graha-yuddha (amshu-vimarda) between `aGgArakaH` and `zukraH` in `maghA` `siMhaH`, center-to-center separation 0°17′26.41″.",
+            "detailed": "This is an amshu-vimarda (a collision of rays -- the discs themselves do not touch): center-to-center separation 0°17′26.41″, 0°17′19.82″ apart, disc-to-disc. `aGgArakaH` at `maghA`-4 `siMhaH` (latitude 1°06′22.00″ N, Rju (direct), magnitude +1.69, elongation 3°04′59.45″ E). `zukraH` at `maghA`-4 `siMhaH` (latitude 1°23′48.40″ N, Rju (direct), magnitude -3.91, elongation 3°11′56.27″ E). Classical texts weigh both the northern position and the greater apparent brightness/nearness in deciding the victor (jayI) of a yuddha; here `zukraH` is towards the north (traditionally said to prevail), while by brightness/nearness (the larger apparent diameter) `zukraH` is taken as jayI over `aGgArakaH`.",
+            "image": "",
+            "references": "",
+            "shlokas": "",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458721.7926,
             "jd_start": 2458718.6155,
@@ -239674,6 +239690,14 @@
           "name": "bhAdrapdika-nAga-paJcamI"
         },
         "graha-yuddhaH~(★budhaH-aGgArakaH,~pUrvaphalgunI~siMhaH)": {
+          "description": {
+            "blurb": "Graha-yuddha (amshu-vimarda) between `aGgArakaH` and `budhaH` in `pUrvaphalgunI` `siMhaH`, center-to-center separation 0°38′32.43″.",
+            "detailed": "This is an amshu-vimarda (a collision of rays -- the discs themselves do not touch): center-to-center separation 0°38′32.43″, 0°38′28.22″ apart, disc-to-disc. `aGgArakaH` at `pUrvaphalgunI`-1 `siMhaH` (latitude 1°04′43.77″ N, Rju (direct), magnitude +1.66, elongation 1°09′04.72″ W). `budhaH` at `pUrvaphalgunI`-1 `siMhaH` (latitude 1°43′16.19″ N, Rju (direct), magnitude -1.88, elongation 1°46′03.70″ W). Classical texts weigh both the northern position and the greater apparent brightness/nearness in deciding the victor (jayI) of a yuddha; here `budhaH` is towards the north (traditionally said to prevail), while by brightness/nearness (the larger apparent diameter) `budhaH` is taken as jayI over `aGgArakaH`.",
+            "image": "",
+            "references": "",
+            "shlokas": "",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458730.7606,
             "jd_start": 2458729.5721,
@@ -249423,6 +249447,14 @@
           "name": "dikpAla-pUjA~1"
         },
         "graha-yuddhaH~(★zukraH-budhaH,~uttaraphalgunI~kanyA)": {
+          "description": {
+            "blurb": "Graha-yuddha (amshu-vimarda) between `budhaH` and `zukraH` in `uttaraphalgunI` `kanyA`, center-to-center separation 0°17′18.27″.",
+            "detailed": "This is an amshu-vimarda (a collision of rays -- the discs themselves do not touch): center-to-center separation 0°17′18.27″, 0°17′10.94″ apart, disc-to-disc. `budhaH` at `uttaraphalgunI`-3 `kanyA` (latitude 1°01′43.86″ N, Rju (direct), magnitude -0.97, elongation 8°21′15.08″ E). `zukraH` at `uttaraphalgunI`-3 `kanyA` (latitude 1°19′02.13″ N, Rju (direct), magnitude -3.91, elongation 8°23′39.61″ E). Classical texts weigh both the northern position and the greater apparent brightness/nearness in deciding the victor (jayI) of a yuddha; here `zukraH` is towards the north (traditionally said to prevail), while by brightness/nearness (the larger apparent diameter) `zukraH` is taken as jayI over `budhaH`.",
+            "image": "",
+            "references": "",
+            "shlokas": "",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458741.9604,
             "jd_start": 2458738.2443,

@@ -874,9 +874,17 @@ class EclipticFestivalAssigner(FestivalAssigner):
       lines.append(f"  jayI (victor): {GRAHA_NAMES.get(details['winner'], details['winner'])}")
     return "\n".join(lines) + "\n"
 
+  def _get_general_graha_yuddha_note(self, script):
+    rule = self.rules_collection.name_to_rule.get('graha-yuddha-sAmAnya-niyamAH')
+    if rule is None:
+      return ''
+    return rule.get_description_dict(script=script).get('detailed', '').strip()
+
   def add_graha_yuddhas(self, log_path=None):
     TARA_GRAHAS = (Graha.MERCURY, Graha.VENUS, Graha.MARS, Graha.JUPITER, Graha.SATURN)
     log_path = self.add_graha_events_log_handler(log_path)
+    from jyotisha.panchaanga.temporal.festival import graha_yuddha_description
+    general_note = self._get_general_graha_yuddha_note(sanscript.DEVANAGARI)
 
     for graha1 in TARA_GRAHAS:
       for graha2 in TARA_GRAHAS:
@@ -898,9 +906,12 @@ class EclipticFestivalAssigner(FestivalAssigner):
             # either side's nakshatra/rashi identifies where the yuddha peaks.
             peak_rashi = details[graha1]['rashi']
             peak_nakshatra = details[graha1]['nakshatra']
+            description = graha_yuddha_description.describe_graha_yuddha(
+                graha1=graha1, graha2=graha2, details=details, general_note=general_note)
             fest = FestivalInstance(
                 name=f"graha-yuddhaH~(★{GRAHA_NAMES[details['winner']]}-{GRAHA_NAMES[details['loser']]},~{peak_nakshatra}~{peak_rashi})",
-                interval=Interval(jd_start=t_start, jd_end=t_end)
+                interval=Interval(jd_start=t_start, jd_end=t_end),
+                description=description,
             )
             self.panchaanga.add_festival_instance(fest, date=self.daily_panchaangas[fday].date)
 
