@@ -94,16 +94,21 @@ class UpakarmaFestivalAssigner(FestivalAssigner):
         return decision.day_panchaanga.date
     return None
 
-  def _first_day_with_sunrise_tithi_in_masa(self, masa_index, tithi_index):
-    """ Returns the Date of the first day within lunar masa `masa_index` whose sunrise-tithi is
-    `tithi_index` (eg. zukla-paJcamI). Used for switch/fallback days where a paraviddha-style kaala touch
-    isn't specified.
+  def _first_paraviddha_tithi_in_masa(self, masa_index, tithi_index):
+    """ Returns the Date of the first occurrence, within lunar masa `masa_index`, of tithi
+    `tithi_index` (eg. zukla-paJcamI) prevailing at ghatikA 12 (start of madhyAhna) -- via the same
+    paraviddha/vyaapti decision machinery `_first_anga_occurrence_in_masa` uses for pUrNimA/
+    nakSatra candidates.
+
+    Deliberately NOT based on which tithi merely prevails at sunrise (as this used to be): a
+    short-duration tithi can prevail at sunrise yet end well before ghatikA 12, in which case the
+    *previous* day -- whose own ghatikA 12 the tithi actually still covers -- is the correct one,
+    not the sunrise day. Eg. for zrAvaNa 2026, paJcamI ends very early on Sep 16, so it is Sep 15
+    (whose ghatikA 12 paJcamI covers) that is correct, one day before what a sunrise-tithi check
+    would have picked.
     """
-    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
-      day_panchaanga = self.daily_panchaangas[d]
-      if day_panchaanga.lunar_date.month.index == masa_index and day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == tithi_index:
-        return day_panchaanga.date
-    return None
+    return self._first_anga_occurrence_in_masa(masa_index=masa_index, anga_type=AngaType.TITHI,
+                                                 anga_index=tithi_index, kaala='मध्याह्नः', priority='paraviddha')
 
   def _has_eclipse_flaw(self, date):
     """ True iff a solar/lunar eclipse assigned to `date` (by `EclipticFestivalAssigner`, which must have
@@ -188,7 +193,7 @@ class UpakarmaFestivalAssigner(FestivalAssigner):
     zukla-paJcamI of zrAvaNa; if even that can't be found, log and keep `date` as-is.
     """
     if date is not None and self._has_flaw(date, fest_id):
-      switched_date = self._first_day_with_sunrise_tithi_in_masa(MASA_SHRAVANA, TITHI_SHUKLA_PANCHAMI)
+      switched_date = self._first_paraviddha_tithi_in_masa(MASA_SHRAVANA, TITHI_SHUKLA_PANCHAMI)
       if switched_date is not None:
         return switched_date
       logging.warning('%s: primary date %s is flawed, but no zukla-paJcamI switch date was found; keeping primary.',
@@ -210,8 +215,8 @@ class UpakarmaFestivalAssigner(FestivalAssigner):
     dates = [
       self._first_anga_occurrence_in_masa(masa_index=MASA_SHRAVANA, anga_type=AngaType.NAKSHATRA,
                                            anga_index=NAKSHATRA_SHRAVANA, kaala='मैत्रः', priority='paraviddha'),
-      self._first_day_with_sunrise_tithi_in_masa(MASA_BHADRAPADA, TITHI_SHUKLA_PANCHAMI),
-      self._first_day_with_sunrise_tithi_in_masa(MASA_ASHADHA, TITHI_SHUKLA_PANCHAMI),
+      self._first_paraviddha_tithi_in_masa(MASA_BHADRAPADA, TITHI_SHUKLA_PANCHAMI),
+      self._first_paraviddha_tithi_in_masa(MASA_ASHADHA, TITHI_SHUKLA_PANCHAMI),
     ]
     self._assign_switch_chain_upakarma(
       fest_id, dates, chain_desc='zrAvaNa-zrAvaNa-nakSatra/bhAdrapada-zukla-paJcamI/ASADha-zukla-paJcamI')
