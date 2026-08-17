@@ -973,6 +973,20 @@ class EclipticFestivalAssigner(FestivalAssigner):
       return ''
     return rule.get_description_dict(script=script).get('detailed', '').strip()
 
+  def _render_eclipse_description(self, template_rule_id, blurb, fields):
+    """Render `fields` (from eclipse_description.solar_eclipse_fields/lunar_eclipse_fields) into
+    `template_rule_id` (sUrya-grahaNa-varNanam/candra-grahaNa-varNanam), and assemble the full
+    description dict -- mirroring _render_maudhya_family_description, except `blurb` is passed
+    in ready-made (see eclipse_description module docstring) rather than templated."""
+    from jyotisha.panchaanga.temporal.festival import eclipse_description, template_description
+    fields = dict(fields, general_note=self._get_general_eclipse_note(sanscript.DEVANAGARI))
+    rule = self.rules_collection.name_to_rule.get(template_rule_id)
+    detailed = template_description.render_template(rule, **fields).strip()
+    return {
+        'blurb': blurb, 'detailed': detailed, 'image': '',
+        'references': eclipse_description.REFERENCE_NOTE, 'url': '', 'shlokas': '',
+    }
+
   def _yaama_niyama_start(self, fday, jd_contact_start, n_yaamas):
     from jyotisha.panchaanga.temporal.festival import eclipse_description
     if fday - 1 < 0 or fday + 1 >= len(self.daily_panchaangas):
@@ -1026,12 +1040,12 @@ class EclipticFestivalAssigner(FestivalAssigner):
           solar_eclipse_str = '★cUDAmaNi-' + solar_eclipse_str
         eclipse_angas = NakshatraDivision(jd, ayanaamsha_id=self.ayanaamsha_id)
         niyama_start_jd = self._yaama_niyama_start(fday, jd_contact_start, eclipse_description.SOLAR_NIYAMA_YAAMAS_BEFORE)
-        description = eclipse_description.describe_solar_eclipse(
+        blurb, fields = eclipse_description.solar_eclipse_fields(
           grasta=grasta, suff=suff, is_cudamani=is_cudamani, attr=next_eclipse_sol[2], retflag=next_eclipse_sol[0],
           jd_contact_start=jd_contact_start, jd_contact_end=jd_contact_end,
           nakshatra_index=eclipse_angas.get_anga(AngaType.NAKSHATRA).index, rashi_index=eclipse_angas.get_anga(AngaType.RASHI).index,
-          niyama_start_jd=niyama_start_jd, general_note=self._get_general_eclipse_note(sanscript.DEVANAGARI),
-          tz=self.panchaanga.city.get_timezone_obj())
+          niyama_start_jd=niyama_start_jd, tz=self.panchaanga.city.get_timezone_obj())
+        description = self._render_eclipse_description('sUrya-grahaNa-varNanam', blurb, fields)
         names = eclipse_description.sanskrit_name(luminary_sa='सूर्य', grasta=grasta, suff=suff, is_cudamani=is_cudamani)
         fest = FestivalInstance(name=solar_eclipse_str, interval=Interval(jd_start=jd_eclipse_solar_start, jd_end=jd_eclipse_solar_end),
                                  description=description, names=names)
@@ -1109,13 +1123,13 @@ class EclipticFestivalAssigner(FestivalAssigner):
 
       eclipse_angas = NakshatraDivision(jd, ayanaamsha_id=self.ayanaamsha_id)
       niyama_start_jd = self._yaama_niyama_start(fday, jd_contact_start, eclipse_description.LUNAR_NIYAMA_YAAMAS_BEFORE)
-      description = eclipse_description.describe_lunar_eclipse(
+      blurb, fields = eclipse_description.lunar_eclipse_fields(
         grasta=grasta, suff=suff, is_cudamani=is_cudamani,
         attr=next_eclipse_lun[2], retflag=next_eclipse_lun[0],
         jd_contact_start=jd_contact_start, jd_contact_end=jd_contact_end,
         nakshatra_index=eclipse_angas.get_anga(AngaType.NAKSHATRA).index, rashi_index=eclipse_angas.get_anga(AngaType.RASHI).index,
-        niyama_start_jd=niyama_start_jd, general_note=self._get_general_eclipse_note(sanscript.DEVANAGARI),
-        tz=self.panchaanga.city.get_timezone_obj())
+        niyama_start_jd=niyama_start_jd, tz=self.panchaanga.city.get_timezone_obj())
+      description = self._render_eclipse_description('candra-grahaNa-varNanam', blurb, fields)
       names = eclipse_description.sanskrit_name(luminary_sa='चन्द्र', grasta=grasta, suff=suff, is_cudamani=is_cudamani)
       fest = FestivalInstance(name=lunar_eclipse_str, interval=Interval(jd_start=jd_eclipse_lunar_start, jd_end=jd_eclipse_lunar_end),
                                description=description, names=names)
