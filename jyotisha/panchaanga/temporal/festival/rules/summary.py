@@ -76,21 +76,29 @@ def get_description_str_with_shlokas(include_shlokas, rule, script):
   return description_string
 
 
-def get_english_description(description_string, rule):
-  if "en" not in rule.description:
-    return ""
-  description_string += rule.description["en"]
-  pieces = description_string.split('`')
+def transliterate_backticked_terms(text):
+  """Backtick-quoted spans (e.g. "on account of `manvAdi`") are transliterated to ISO
+  unconditionally -- this holds regardless of the description's own output script, for both
+  TOML-authored `en` text and any precomputed FestivalInstance.description text that follows
+  the same backtick convention (see FestivalInstance's description-builder modules)."""
+  pieces = text.split('`')
   if len(pieces) > 1:
     if len(pieces) % 2 == 1:
       # We much have matching backquotes, the contents of which can be neatly transliterated
       for i, piece in enumerate(pieces):
         if (i % 2) == 1:
           pieces[i] = custom_transliteration.tr(piece, sanscript.ISO, False)
-      description_string = ''.join(pieces)
+      text = ''.join(pieces)
     else:
-      logging.warning('Unmatched backquotes in description string: %s' % description_string)
-  return description_string
+      logging.warning('Unmatched backquotes in description string: %s' % text)
+  return text
+
+
+def get_english_description(description_string, rule):
+  if "en" not in rule.description:
+    return ""
+  description_string += rule.description["en"]
+  return transliterate_backticked_terms(description_string)
 
 
 def get_references_md(rule):

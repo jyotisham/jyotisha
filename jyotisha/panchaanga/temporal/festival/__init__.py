@@ -16,12 +16,24 @@ festival_id_to_json = {}
 
 
 class FestivalInstance(common.JsonObject):
-  def __init__(self, name, interval=None, ordinal=None, exclude=None):
+  def __init__(self, name, interval=None, ordinal=None, exclude=None, description=None, names=None):
     super(FestivalInstance, self).__init__()
     self.name = name
     self.interval = interval
     self.exclude = exclude
     self.ordinal = ordinal
+    # Optional pre-computed description dict (keys: blurb, detailed, image,
+    # references, url, shlokas), for festivals whose description depends on
+    # the specific occurrence (e.g. eclipses) rather than just the festival
+    # id, and is therefore computed by the applier at creation time instead
+    # of being looked up from a TOML rule by name. When set, this takes
+    # precedence over any TOML-based lookup.
+    self.description = description
+    # Optional pre-computed human names dict (e.g. {"sa": ["चन्द्र-ग्रहणम्~(केतुग्रस्त)"]}),
+    # for the same class of festival as `description` above -- without this,
+    # get_human_names() falls back to auto-transliterating the raw fest_id,
+    # which is accurate but loses any curated/idiomatic naming.
+    self.names = names
 
   def get_detailed_name_with_timings(self, timezone, reference_date=None):
     name = self.name
@@ -35,6 +47,9 @@ class FestivalInstance(common.JsonObject):
       return "%s (%s)" % (name, self.interval.to_hour_text(script=sanscript.ISO, tz=timezone, reference_date=reference_date))
 
   def get_human_names(self, fest_details_dict):
+    if self.names is not None:
+      import copy
+      return copy.deepcopy(self.names)
     from jyotisha.panchaanga.temporal.festival import rules
     fest_details = fest_details_dict.get(self.name, rules.HinduCalendarEvent(id=self.name))
     if fest_details.names is None:
@@ -133,10 +148,87 @@ class TransitionFestivalInstance(FestivalInstance):
       return custom_transliteration.tr("%s~(%s##\\To{}##%s)" % (name, self.status_1_hk, self.status_2_hk), script=scripts[0]) + "%s" % (self.interval.to_hour_tex(script=scripts[0], tz=timezone, reference_date=reference_date, time_format=time_format))
     else:
       return custom_transliteration.tr("%s~(%s##\\To{}##%s)" % (name, self.status_1_hk, self.status_2_hk), script=scripts[0])
-  
+
+
+class PushkaraFestivalInstance(FestivalInstance):
+  """One of the 4 roles (Adya/antya x ArambhaH/samApanam) of a river's 12-year Pushkara residency.
+
+  :param rashi_index: 1-indexed rashi (the *incoming* rashi for role='Adya', the *outgoing* one
+    for role='antya') -- both the river and its names are looked up from this alone.
+  """
+
+  def __init__(self, rashi_index, role, stage, interval, general_note='', shlokas='', references='', url='',
+               legend=''):
+    from jyotisha.panchaanga.temporal import names
+    from jyotisha.panchaanga.temporal.festival import pushkara_description
+    river_hk = names.NAMES['PUSHKARA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][rashi_index]
+    rashi_hk = names.NAMES['RASHI_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][rashi_index]
+    river_deva = names.NAMES['PUSHKARA_NAMES']['sa'][sanscript.DEVANAGARI][rashi_index]
+    rashi_deva = names.NAMES['RASHI_NAMES']['sa'][sanscript.DEVANAGARI][rashi_index]
+    name = '%s-%s-puSkara-%s' % (river_hk, role, stage)
+    description = pushkara_description.describe_pushkara(
+      role=role, stage=stage, rashi_sa=rashi_hk, river_sa=river_hk, general_note=general_note, shlokas=shlokas,
+      references=references, url=url, legend=legend)
+    role_sa = 'आद्य' if role == pushkara_description.ROLE_ADYA else 'अन्त्य'
+    stage_sa = 'आरम्भः' if stage == pushkara_description.STAGE_ARAMBHAH else 'समापनम्'
+    names_dict = {"sa": ["%s-%s-पुष्कर-%s" % (river_deva, role_sa, stage_sa)]}
+    super().__init__(name=name, interval=interval, description=description, names=names_dict)
+
+
+class EkadashiFestivalInstance(FestivalInstance):
+  """The regular sarva-/smArta-/vaiSNava- Ekadashi of a given paksha+month.
+
+  Named ekadashis added as bonus festivals alongside the regular one (vaikuNTha,
+  guruvAyupura, kaizika, raMgabharI, ASADhI-vArI) are not built via this class --
+  they keep going through the ordinary TOML lookup by their own exact fest_id.
+  """
+
+  def __init__(self, paksha, month_index, variant, interval, suffix=None, legend='', general_note='', shlokas='',
+               references='', url=''):
+    from jyotisha.panchaanga.temporal import names
+    from jyotisha.panchaanga.temporal.festival import ekadashi_description
+    ekad_base = names.get_ekaadashii_name(paksha, month_index)
+    month_sa = names.get_chandra_masa(month=month_index, script=sanscript.roman.HK_DRAVIDIAN, visarga=False)
+    name = '%s-%s%s' % (variant, ekad_base, (' %s' % suffix) if suffix else '')
+    description = ekadashi_description.describe_ekadashi(
+      ekad_base=ekad_base, paksha=paksha, month_sa=month_sa, legend=legend, general_note=general_note,
+      shlokas=shlokas, references=references, url=url)
+    super().__init__(name=name, interval=interval, description=description)
+
+
+class AdhyayanaFestivalInstance(FestivalInstance):
+  """An anadhyAya (no Vedic study) day whose description is one of a handful of shared
+  boilerplate notes, layered with an optional per-instance label (see adhyayana_description.py).
+
+  Unlike PushkaraFestivalInstance/EkadashiFestivalInstance, these are not constructed fresh
+  by a dedicated method -- they start out as plain FestivalInstances built by the generic
+  RuleLookupAssigner, and get upgraded to this class post-hoc once all festivals for the run
+  are assigned (see TithiFestivalAssigner.upgrade_anadhyayana_festival_instances). `base_instance`
+  supplies the name/interval/ordinal/exclude to carry over unchanged.
+  """
+
+  def __init__(self, base_instance, cluster, label, general_note='', shlokas='', blurb='', references='', url='',
+               legend=''):
+    from jyotisha.panchaanga.temporal.festival import adhyayana_description
+    if label is not None:
+      description = adhyayana_description.describe_labeled(
+        label=label, general_note=general_note, shlokas=shlokas, blurb=blurb, references=references, url=url,
+        legend=legend)
+    else:
+      description = adhyayana_description.describe_boilerplate(
+        general_note=general_note, shlokas=shlokas, blurb=blurb, references=references, url=url)
+    super().__init__(name=base_instance.name, interval=base_instance.interval, ordinal=base_instance.ordinal,
+                      exclude=base_instance.exclude, description=description, names=base_instance.names)
+
 
 def get_description(festival_instance, fest_details_dict, script, truncate=True, header_md="#####"):
   fest_id = festival_instance.name.replace('__', '_or_')
+  if getattr(festival_instance, 'description', None) is not None:
+    from jyotisha.panchaanga.temporal.festival.rules import summary
+    desc_dict = festival_instance.description
+    blurb = summary.transliterate_backticked_terms(desc_dict.get('blurb', ''))
+    detailed = summary.transliterate_backticked_terms(desc_dict.get('detailed', ''))
+    return "%s\n\n%s" % (blurb, detailed)
   desc = None
   if re.match('aGgArakI.*saGkaTahara-caturthI-vratam', fest_id):
     fest_id = fest_id.replace('aGgArakI~', '')
@@ -330,6 +422,19 @@ PATTERNS_TO_HANDLERS = {
 
 def _get_description_dict(festival_instance, fest_details_dict, script):
   fest_id = festival_instance.name.replace('__', '_or_')
+  if getattr(festival_instance, 'description', None) is not None:
+    # Return a copy, not the stored reference: the same FestivalInstance can be rendered into
+    # multiple scripts (e.g. multiple tex outputs sharing one computed Panchaanga), and both
+    # backtick terms and shlokas are stored in their raw/canonical form (HK-Dravidian roman,
+    # Devanagari respectively) precisely so each render can transliterate them correctly here
+    # rather than baking one script in at construction time.
+    from jyotisha.panchaanga.temporal.festival.rules import summary
+    desc = dict(festival_instance.description)
+    desc['blurb'] = summary.transliterate_backticked_terms(desc.get('blurb', ''))
+    desc['detailed'] = summary.transliterate_backticked_terms(desc.get('detailed', ''))
+    if desc.get('shlokas'):
+      desc['shlokas'] = sanscript.transliterate(desc['shlokas'], sanscript.DEVANAGARI, script)
+    return desc
   desc = {}
 
   for pattern, handler in PATTERNS_TO_HANDLERS.items():

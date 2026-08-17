@@ -10,7 +10,7 @@ from jyotisha.panchaanga.temporal import names
 from jyotisha.panchaanga.temporal import interval
 from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.body import Graha, oblique_ascension
-from jyotisha.panchaanga.temporal.festival import FestivalInstance, TransitionFestivalInstance
+from jyotisha.panchaanga.temporal.festival import FestivalInstance, TransitionFestivalInstance, PushkaraFestivalInstance
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
 from jyotisha.panchaanga.temporal.interval import Interval
 from jyotisha.panchaanga.temporal.zodiac import AngaType
@@ -807,9 +807,9 @@ class EclipticFestivalAssigner(FestivalAssigner):
 
   def get_graha_events_log_path(self) -> str:
     """Default path for the graha-events (maudhya, graha-yuddha, ...) log file."""
-    city_str = self.panchaanga.city.name.replace(' ', '_').replace('/', '_')
-    fname = f"{city_str}_{self.panchaanga.start_date.year}-{self.panchaanga.end_date.year}_graha_events.log"
-    return os.path.join(os.getcwd(), fname)
+    city_str = self.panchaanga.city.name.replace(' ', '').replace('/', '_')
+    fname = f"{city_str}_{self.panchaanga.year}-graha-events.log"
+    return os.path.expanduser(os.path.join("~/Documents/jyotisha", fname))
 
   def add_graha_events_log_handler(self, log_path: str = None) -> str:
     """
@@ -890,9 +890,26 @@ class EclipticFestivalAssigner(FestivalAssigner):
             )
             self.panchaanga.add_festival_instance(fest, date=self.daily_panchaangas[fday].date)
 
+  def _get_general_eclipse_note(self, script):
+    rule = self.rules_collection.name_to_rule.get('grahaNa-sAmAnya-niyamAH')
+    if rule is None:
+      return ''
+    return rule.get_description_dict(script=script).get('detailed', '').strip()
+
+  def _yaama_niyama_start(self, fday, jd_contact_start, n_yaamas):
+    from jyotisha.panchaanga.temporal.festival import eclipse_description
+    if fday - 1 < 0 or fday + 1 >= len(self.daily_panchaangas):
+      return None
+    prev_edf = self.daily_panchaangas[fday - 1].day_length_based_periods.eight_fold_division
+    edf = self.daily_panchaangas[fday].day_length_based_periods.eight_fold_division
+    yaama_intervals = prev_edf.ahar_yaama + prev_edf.raatri_yaama + edf.ahar_yaama + edf.raatri_yaama
+    return eclipse_description.yaama_aligned_start(yaama_intervals, jd_contact_start, n_yaamas)
+
   def compute_solar_eclipses(self):
     if 'sUrya-grahaNam' not in self.rules_collection.name_to_rule:
-      return 
+      return
+    from jyotisha.panchaanga.temporal.festival import eclipse_description
+    from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision
     jd = self.panchaanga.jd_start
     while 1:
       next_eclipse_sol = self.panchaanga.city.get_solar_eclipse_time(jd_start=jd)
@@ -906,6 +923,8 @@ class EclipticFestivalAssigner(FestivalAssigner):
       else:
         fday = int(jd_eclipse_solar_end - self.daily_panchaangas[0].julian_day_start)
         suff = 'a'
+        jd_contact_start = jd_eclipse_solar_start
+        jd_contact_end = jd_eclipse_solar_end
         if (jd_eclipse_solar_start < self.daily_panchaangas[fday].jd_sunrise):
           # Grastodaya
           suff = 'Odaya'
@@ -924,10 +943,21 @@ class EclipticFestivalAssigner(FestivalAssigner):
           grasta = 'rAhumukhagrast'
         else:
           grasta = 'rAhupucchagrast'
-        solar_eclipse_str = 'sUrya-grahaNaM~(' + grasta + suff + ')'
-        if self.daily_panchaangas[fday].date.get_weekday() == 0:
+        solar_eclipse_str = 'sUrya-grahaNam~(' + grasta + suff + ')'
+        is_cudamani = self.daily_panchaangas[fday].date.get_weekday() == 0
+        if is_cudamani:
           solar_eclipse_str = '★cUDAmaNi-' + solar_eclipse_str
-        fest = FestivalInstance(name=solar_eclipse_str, interval=Interval(jd_start=jd_eclipse_solar_start, jd_end=jd_eclipse_solar_end))
+        eclipse_angas = NakshatraDivision(jd, ayanaamsha_id=self.ayanaamsha_id)
+        niyama_start_jd = self._yaama_niyama_start(fday, jd_contact_start, eclipse_description.SOLAR_NIYAMA_YAAMAS_BEFORE)
+        description = eclipse_description.describe_solar_eclipse(
+          grasta=grasta, suff=suff, is_cudamani=is_cudamani, attr=next_eclipse_sol[2], retflag=next_eclipse_sol[0],
+          jd_contact_start=jd_contact_start, jd_contact_end=jd_contact_end,
+          nakshatra_index=eclipse_angas.get_anga(AngaType.NAKSHATRA).index, rashi_index=eclipse_angas.get_anga(AngaType.RASHI).index,
+          niyama_start_jd=niyama_start_jd, general_note=self._get_general_eclipse_note(sanscript.DEVANAGARI),
+          tz=self.panchaanga.city.get_timezone_obj())
+        names = eclipse_description.sanskrit_name(luminary_sa='सूर्य', grasta=grasta, suff=suff, is_cudamani=is_cudamani)
+        fest = FestivalInstance(name=solar_eclipse_str, interval=Interval(jd_start=jd_eclipse_solar_start, jd_end=jd_eclipse_solar_end),
+                                 description=description, names=names)
       self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[fday].date)
       jd = jd + MIN_DAYS_NEXT_ECLIPSE
 
@@ -935,14 +965,18 @@ class EclipticFestivalAssigner(FestivalAssigner):
     if '★cUDAmaNi-candra-grahaNam' not in self.rules_collection.name_to_rule:
       return
       # Set location
+    from jyotisha.panchaanga.temporal.festival import eclipse_description
+    from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision
     jd = self.panchaanga.jd_start
-    
+
     while 1:
       next_eclipse_lun = self.panchaanga.city.get_lunar_eclipse_time(jd)
       # logging.debug(next_eclipse_lun)
       jd = next_eclipse_lun[1][0]
       jd_eclipse_lunar_start = next_eclipse_lun[1][2]
       jd_eclipse_lunar_end = next_eclipse_lun[1][3]
+      jd_contact_start = next_eclipse_lun[1][6]  # penumbral begin (eclipse begin)
+      jd_contact_end = next_eclipse_lun[1][7]  # penumbral end (eclipse end)
 
       if jd > self.panchaanga.jd_end:
         break
@@ -972,7 +1006,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
       fday = int(jd_eclipse_lunar_start - self.daily_panchaangas[0].julian_day_start)
       if jd_eclipse_lunar_start < self.daily_panchaangas[fday].jd_sunrise:
         fday -= 1
-      
+
       # print '%%', jd, fday, self.date_str_to_panchaanga[fday].jd_sunrise,
       # self.date_str_to_panchaanga[fday-1].jd_sunrise, eclipse_lunar_start,
       # eclipse_lunar_end
@@ -983,20 +1017,81 @@ class EclipticFestivalAssigner(FestivalAssigner):
       else:
         grasta = 'rAhupucchagrast'
 
-      grasta += suff
-
-      lunar_eclipse_str = 'candra-grahaNam~(' + grasta + ')'
-      if self.daily_panchaangas[fday].date.get_weekday() == 1:
+      lunar_eclipse_str = 'candra-grahaNam~(' + grasta + suff + ')'
+      is_cudamani = self.daily_panchaangas[fday].date.get_weekday() == 1
+      if is_cudamani:
         lunar_eclipse_str = '★cUDAmaNi-' + lunar_eclipse_str
 
-      fest = FestivalInstance(name=lunar_eclipse_str, interval=Interval(jd_start=jd_eclipse_lunar_start, jd_end=jd_eclipse_lunar_end))
+      # Penumbral contact times (tret[6]/tret[7]) may be unset for a below-horizon
+      # partial phase; fall back to the (possibly moonrise/moonset-clipped) display
+      # interval so the food-restriction window isn't computed relative to jd=0.0.
+      if not jd_contact_start:
+        jd_contact_start = jd_eclipse_lunar_start
+      if not jd_contact_end:
+        jd_contact_end = jd_eclipse_lunar_end
+
+      eclipse_angas = NakshatraDivision(jd, ayanaamsha_id=self.ayanaamsha_id)
+      niyama_start_jd = self._yaama_niyama_start(fday, jd_contact_start, eclipse_description.LUNAR_NIYAMA_YAAMAS_BEFORE)
+      description = eclipse_description.describe_lunar_eclipse(
+        grasta=grasta, suff=suff, is_cudamani=is_cudamani,
+        attr=next_eclipse_lun[2], retflag=next_eclipse_lun[0],
+        jd_contact_start=jd_contact_start, jd_contact_end=jd_contact_end,
+        nakshatra_index=eclipse_angas.get_anga(AngaType.NAKSHATRA).index, rashi_index=eclipse_angas.get_anga(AngaType.RASHI).index,
+        niyama_start_jd=niyama_start_jd, general_note=self._get_general_eclipse_note(sanscript.DEVANAGARI),
+        tz=self.panchaanga.city.get_timezone_obj())
+      names = eclipse_description.sanskrit_name(luminary_sa='चन्द्र', grasta=grasta, suff=suff, is_cudamani=is_cudamani)
+      fest = FestivalInstance(name=lunar_eclipse_str, interval=Interval(jd_start=jd_eclipse_lunar_start, jd_end=jd_eclipse_lunar_end),
+                               description=description, names=names)
       logging.warning(f'Lunar eclipse: {jd_eclipse_lunar_start} → {jd_eclipse_lunar_end}')
       self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[fday].date)
       jd += MIN_DAYS_NEXT_ECLIPSE
 
   def set_jupiter_transits(self):
     if 'guru-saGkrAntiH' not in self.rules_collection.name_to_rule:
-      return 
+      return
+    from jyotisha.panchaanga.temporal.festival import pushkara_description
+    general_note_rule = self.rules_collection.name_to_rule.get('puSkara-sAmAnya-niyamAH')
+    if general_note_rule is not None:
+      general_note_dict = general_note_rule.get_description_dict(script=sanscript.DEVANAGARI)
+      pushkara_general_note = general_note_dict['detailed']
+      pushkara_shlokas = general_note_dict['shlokas']
+      # No individual river TOML file exists anymore (all 72 were collapsed into this one
+      # boilerplate) -- point the "edit this file" link at the boilerplate instead of leaving
+      # it blank.
+      pushkara_references = general_note_dict['references']
+      pushkara_url = general_note_dict['url']
+    else:
+      pushkara_general_note = ''
+      pushkara_shlokas = ''
+      pushkara_references = ''
+      pushkara_url = ''
+
+    def _get_river_legend_dict(rashi_index):
+      """A river's own `<river>-puSkara-viSeSaH` entry (e.g. notable temples/ghats where that
+      river's puSkaram is specially celebrated), if one exists -- same for all 4 (role x stage)
+      instances of that river, unlike the role/stage-specific closing sentence."""
+      river_hk = names.NAMES['PUSHKARA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][rashi_index]
+      river_legend_rule = self.rules_collection.name_to_rule.get('%s-puSkara-viSeSaH' % river_hk.replace('/', '__'))
+      if river_legend_rule is None:
+        return {}
+      return river_legend_rule.get_description_dict(script=sanscript.DEVANAGARI)
+
+    def _add_pushkara_instance(rashi_index, role, stage, date):
+      dp = self.panchaanga.date_str_to_panchaanga.get(date.get_date_str())
+      if dp is None:
+        return
+      river_dict = _get_river_legend_dict(rashi_index)
+      # Both the river's own `-puSkara-viSeSaH` file (if any -- an invitation to fill it in,
+      # same as Ekadashi/Anadhyayana's stubs) and the shared boilerplate contribute to this
+      # description -- show edit links for both.
+      url = ' '.join(dict.fromkeys(u for u in (river_dict.get('url', ''), pushkara_url) if u))
+      fest = PushkaraFestivalInstance(rashi_index=rashi_index, role=role, stage=stage,
+                                       interval=dp.get_interval(interval_id="full_day"),
+                                       general_note=pushkara_general_note, shlokas=pushkara_shlokas,
+                                       references=pushkara_references, url=url,
+                                       legend=river_dict.get('detailed', '').strip())
+      self.panchaanga.add_festival_instance(festival_instance=fest, date=date)
+
     jd_end = self.panchaanga.jd_start + self.panchaanga.duration + 13
     check_window = 400  # Max t between two Jupiter transits is ~396 (checked across 180y)
     # Let's check for transitions in a relatively large window
@@ -1010,8 +1105,8 @@ class EclipticFestivalAssigner(FestivalAssigner):
           fday = int(jd_transit - self.daily_panchaangas[0].julian_day_start)
           if jd_transit < self.daily_panchaangas[fday].jd_sunrise:
             fday -= 1
-          fest = TransitionFestivalInstance(name='guru-saGkrAntiH', 
-            status_1_hk=names.NAMES['RASHI_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][rashi1], 
+          fest = TransitionFestivalInstance(name='guru-saGkrAntiH',
+            status_1_hk=names.NAMES['RASHI_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][rashi1],
             status_2_hk=names.NAMES['RASHI_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][rashi2], interval
             =Interval(jd_start=jd_transit, jd_end=None))
           self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[fday].date)
@@ -1024,14 +1119,11 @@ class EclipticFestivalAssigner(FestivalAssigner):
               fday_pushkara = fday
             else:
               fday_pushkara = fday + 1
-            self.panchaanga.add_festival(
-              fest_id='%s-Adya-puSkara-ArambhaH' % names.NAMES['PUSHKARA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][rashi2], date=self.daily_panchaangas[fday_pushkara].date)
-            self.panchaanga.add_festival(
-              fest_id='%s-Adya-puSkara-samApanam' % names.NAMES['PUSHKARA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][rashi2], date=self.daily_panchaangas[fday_pushkara].date + 11)
-            self.panchaanga.add_festival(
-              fest_id='%s-antya-puSkara-samApanam' % names.NAMES['PUSHKARA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][rashi1], date=self.daily_panchaangas[fday_pushkara].date - 1)
-            self.panchaanga.add_festival(
-              fest_id='%s-antya-puSkara-ArambhaH' % names.NAMES['PUSHKARA_NAMES']['sa'][sanscript.roman.HK_DRAVIDIAN][rashi1], date=self.daily_panchaangas[fday_pushkara].date - 12)
+            pushkara_date = self.daily_panchaangas[fday_pushkara].date
+            _add_pushkara_instance(rashi_index=rashi2, role=pushkara_description.ROLE_ADYA, stage=pushkara_description.STAGE_ARAMBHAH, date=pushkara_date)
+            _add_pushkara_instance(rashi_index=rashi2, role=pushkara_description.ROLE_ADYA, stage=pushkara_description.STAGE_SAMAPANAM, date=pushkara_date + 11)
+            _add_pushkara_instance(rashi_index=rashi1, role=pushkara_description.ROLE_ANTYA, stage=pushkara_description.STAGE_SAMAPANAM, date=pushkara_date - 1)
+            _add_pushkara_instance(rashi_index=rashi1, role=pushkara_description.ROLE_ANTYA, stage=pushkara_description.STAGE_ARAMBHAH, date=pushkara_date - 12)
 
   def set_other_graha_transits(self):
     if 'guru-saGkrAntiH' not in self.rules_collection.name_to_rule:

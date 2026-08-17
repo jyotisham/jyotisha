@@ -9,7 +9,7 @@ from jyotisha.panchaanga import temporal
 from jyotisha.panchaanga.temporal import time, get_2_day_interval_boundary_angas
 from jyotisha.panchaanga.temporal import zodiac, tithi
 from jyotisha.panchaanga.temporal.body import Graha
-from jyotisha.panchaanga.temporal.festival import FestivalInstance
+from jyotisha.panchaanga.temporal.festival import FestivalInstance, EkadashiFestivalInstance, AdhyayanaFestivalInstance
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
 from jyotisha.panchaanga.temporal.interval import Interval
 from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, AngaType, Ayanamsha
@@ -134,7 +134,64 @@ class TithiFestivalAssigner(FestivalAssigner):
               self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='anadhyAyaH~pUrvarAtrau', interval=self.daily_panchaangas[d - 1].get_interval(interval_id="raatrimaana")), date=day_panchaanga.date - 1)
           else:
             self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='anadhyAyaH~pUrvarAtrau', interval=self.daily_panchaangas[d - 1].get_interval(interval_id="raatrimaana")), date=day_panchaanga.date - 1)
-      
+
+  def _get_anadhyayana_boilerplate_dict(self, cluster, script):
+    from jyotisha.panchaanga.temporal.festival import adhyayana_description
+    boilerplate_id = adhyayana_description.CLUSTER_BOILERPLATE_IDS[cluster]
+    rule = self.rules_collection.name_to_rule.get(boilerplate_id)
+    if rule is None:
+      return {}
+    return rule.get_description_dict(script=script)
+
+  def upgrade_anadhyayana_festival_instances(self):
+    """Reclassify already-built anadhyAya FestivalInstances (from the generic
+    RuleLookupAssigner) into AdhyayanaFestivalInstances where they belong to one of the
+    collapsible clusters -- see adhyayana_description.classify(). Must run after all other
+    anadhyAya assignment/cleanup (assign_relative_anadhyayana_days,
+    cleanup_anadhyayana_festivals, cleanup_festivals), since those can themselves add/remove
+    anadhyAya instances; this only relabels instances already settled by that point.
+    """
+    from jyotisha.panchaanga.temporal.festival import adhyayana_description
+    for day_panchaanga in self.daily_panchaangas:
+      for fest_id, instance in list(day_panchaanga.festival_id_to_instance.items()):
+        if 'anadhyAyaH' not in fest_id or isinstance(instance, AdhyayanaFestivalInstance):
+          continue
+        rule = self.rules_collection.name_to_rule.get(fest_id)
+        if rule is None:
+          continue
+        cluster, label = adhyayana_description.classify(rule)
+        if cluster is None:
+          continue
+        script = sanscript.DEVANAGARI
+        general_dict = self._get_anadhyayana_boilerplate_dict(cluster, script)
+        # rule.get_description_dict() computes 'blurb' from get_timing_summary(rule) purely off
+        # rule.timing (unaffected by [description] having been stripped from these files), and
+        # 'references'/'url' from rule.references_primary/rule.get_url() -- all still correct
+        # for this specific instance, so reuse them rather than losing them by only pulling
+        # 'shlokas' out of this dict as before.
+        own_dict = rule.get_description_dict(script=script)
+        # A per-instance rule that still carries its own shlokas (a handful have an extra
+        # verse beyond the cluster's shared one) keeps them; otherwise fall back to the
+        # cluster boilerplate's shlokas.
+        shlokas = own_dict.get('shlokas', '') or general_dict.get('shlokas', '')
+        # A handful of files still carry a genuine unique legend in their own (otherwise-
+        # stripped) [description] beyond the label's shared boilerplate -- e.g. anadhyAyaH~1/~16
+        # (both label='prathamA') keep the Hanuman/Sita legend from the Ramayana.
+        legend = own_dict.get('detailed', '').strip()
+        # references_primary lives only in the boilerplate for the fully-uniform clusters
+        # (utsarga/aSTakA/shakradhvaja/cAturmAsya), whose per-instance files had it stripped
+        # entirely -- fall back per-field, same reasoning as shlokas above.
+        references = own_dict.get('references', '') or general_dict.get('references', '')
+        # Both this instance's own file and the cluster boilerplate contribute to the
+        # description -- show edit links for both.
+        url = ' '.join(dict.fromkeys(u for u in (own_dict.get('url', ''), general_dict.get('url', '')) if u))
+        upgraded = AdhyayanaFestivalInstance(
+          base_instance=instance, cluster=cluster, label=label,
+          general_note=general_dict.get('detailed', '').strip(), shlokas=shlokas,
+          blurb=own_dict.get('blurb', ''), references=references, url=url,
+          legend=legend)
+        self.panchaanga.add_festival_instance(festival_instance=upgraded, date=day_panchaanga.date)
+
   def assign_chaturthi_vratam(self):
     if "vikaTa-mahAgaNapati-saGkaTahara-caturthI-vratam" not in self.rules_collection.name_to_rule:
       return
@@ -259,9 +316,36 @@ class TithiFestivalAssigner(FestivalAssigner):
             day_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == 8:
           self.panchaanga.add_festival(fest_id='jayantI~aSTamI', date=day_panchaanga.date)
 
+  def _get_ekadashi_rule_dict(self, rule_id, script):
+    rule = self.rules_collection.name_to_rule.get(rule_id)
+    if rule is None:
+      return None
+    return rule.get_description_dict(script=script)
+
+  def _add_ekadashi_instance(self, paksha, month_index, variant, date, suffix=None):
+    ekad_base = names.get_ekaadashii_name(paksha, month_index)
+    legend_dict = self._get_ekadashi_rule_dict(ekad_base, sanscript.DEVANAGARI) or {}
+    general_dict = self._get_ekadashi_rule_dict('EkAdazI-sAmAnya-niyamAH', sanscript.DEVANAGARI) or {}
+    # Fall back per-field, not per-dict: legend_dict is a real (non-None) dict whenever a
+    # per-name rule exists at all -- even a content-free stub, whose fields are all '' -- so
+    # `legend_dict or general_dict` would always pick legend_dict and silently drop the shared
+    # block's shlokas/references for every stubbed-but-not-yet-filled-in name.
+    shlokas = legend_dict.get('shlokas', '') or general_dict.get('shlokas', '')
+    references = legend_dict.get('references', '') or general_dict.get('references', '')
+    # Both the per-name file (if any -- even a content-free stub, as an invitation to fill it
+    # in) and the shared boilerplate contribute to this description -- show edit links for both.
+    url = ' '.join(dict.fromkeys(u for u in (legend_dict.get('url', ''), general_dict.get('url', '')) if u))
+    fest = EkadashiFestivalInstance(
+      paksha=paksha, month_index=month_index, variant=variant, suffix=suffix,
+      interval=self.panchaanga.date_str_to_panchaanga[date.get_date_str()].get_interval(interval_id="full_day"),
+      legend=legend_dict.get('detailed', '').strip(),
+      general_note=general_dict.get('detailed', '').strip(),
+      shlokas=shlokas, references=references, url=url)
+    self.panchaanga.add_festival_instance(festival_instance=fest, date=date)
+
   def assign_ekaadashii_vratam(self):
     if "ajA-EkAdazI" not in self.rules_collection.name_to_rule:
-      return 
+      return
     for d in range(self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       day_panchaanga = self.daily_panchaangas[d]
       # EKADASHI Vratam
@@ -306,30 +390,27 @@ class TithiFestivalAssigner(FestivalAssigner):
         elif yati_ekaadashii_fday is None:
           if smaarta_ekaadashii_fday == vaishnava_ekaadashii_fday:
             # It's sarva ekaadashii
-            self.panchaanga.add_festival(fest_id=
-              'sarva-' + names.get_ekaadashii_name(ekaadashii_paksha, day_panchaanga.lunar_date.month.index),
-              date=self.daily_panchaangas[smaarta_ekaadashii_fday].date)
+            self._add_ekadashi_instance(paksha=ekaadashii_paksha, month_index=day_panchaanga.lunar_date.month.index,
+                                        variant='sarva', date=self.daily_panchaangas[smaarta_ekaadashii_fday].date)
             if day_panchaanga.solar_sidereal_date_sunset.month == 9:
               if ekaadashii_paksha == 'shukla':
                 self.panchaanga.add_festival(fest_id='sarva-vaikuNTha-EkAdazI', date=self.daily_panchaangas[smaarta_ekaadashii_fday].date)
           else:
-            self.panchaanga.add_festival(fest_id=
-              'smArta-' + names.get_ekaadashii_name(ekaadashii_paksha, day_panchaanga.lunar_date.month.index), date=
-              self.daily_panchaangas[smaarta_ekaadashii_fday].date)
-            self.panchaanga.add_festival(
-              fest_id='vaiSNava-' + names.get_ekaadashii_name(ekaadashii_paksha, day_panchaanga.lunar_date.month.index), date=
-              self.daily_panchaangas[vaishnava_ekaadashii_fday].date)
+            self._add_ekadashi_instance(paksha=ekaadashii_paksha, month_index=day_panchaanga.lunar_date.month.index,
+                                        variant='smArta', date=self.daily_panchaangas[smaarta_ekaadashii_fday].date)
+            self._add_ekadashi_instance(paksha=ekaadashii_paksha, month_index=day_panchaanga.lunar_date.month.index,
+                                        variant='vaiSNava', date=self.daily_panchaangas[vaishnava_ekaadashii_fday].date)
             if day_panchaanga.solar_sidereal_date_sunset.month == 9:
               if ekaadashii_paksha == 'shukla':
                 self.panchaanga.add_festival(fest_id='smArta-vaikuNTha-EkAdazI', date=self.daily_panchaangas[smaarta_ekaadashii_fday].date)
                 self.panchaanga.add_festival(fest_id='vaiSNava-vaikuNTha-EkAdazI', date=self.daily_panchaangas[vaishnava_ekaadashii_fday].date)
         else:
-          self.panchaanga.add_festival(fest_id='smArta-' + names.get_ekaadashii_name(ekaadashii_paksha,
-                                                                                     day_panchaanga.lunar_date.month.index) + ' (gRhastha)', date=self.daily_panchaangas[smaarta_ekaadashii_fday].date)
-          self.panchaanga.add_festival(fest_id='smArta-' + names.get_ekaadashii_name(ekaadashii_paksha, self.daily_panchaangas[
-            d].lunar_date.month.index) + ' (sannyasta)', date=self.daily_panchaangas[yati_ekaadashii_fday].date)
-          self.panchaanga.add_festival(
-            fest_id='vaiSNava-' + names.get_ekaadashii_name(ekaadashii_paksha, day_panchaanga.lunar_date.month.index), date=self.daily_panchaangas[vaishnava_ekaadashii_fday].date)
+          self._add_ekadashi_instance(paksha=ekaadashii_paksha, month_index=day_panchaanga.lunar_date.month.index,
+                                      variant='smArta', suffix='(gRhastha)', date=self.daily_panchaangas[smaarta_ekaadashii_fday].date)
+          self._add_ekadashi_instance(paksha=ekaadashii_paksha, month_index=self.daily_panchaangas[d].lunar_date.month.index,
+                                      variant='smArta', suffix='(sannyasta)', date=self.daily_panchaangas[yati_ekaadashii_fday].date)
+          self._add_ekadashi_instance(paksha=ekaadashii_paksha, month_index=day_panchaanga.lunar_date.month.index,
+                                      variant='vaiSNava', date=self.daily_panchaangas[vaishnava_ekaadashii_fday].date)
           if day_panchaanga.solar_sidereal_date_sunset.month == 9:
             if ekaadashii_paksha == 'shukla':
               self.panchaanga.add_festival(fest_id='smArta-vaikuNTha-EkAdazI (gRhastha)', date=self.daily_panchaangas[smaarta_ekaadashii_fday].date)
