@@ -69,7 +69,7 @@ def _graha_position_text(graha, d):
   )
 
 
-def describe_graha_yuddha(graha1, graha2, details, general_note='', pair_note=None):
+def describe_graha_yuddha(graha1, graha2, details, general_note='', shlokas='', pair_note=None):
   """
   :param graha1, graha2: Graha constants for the pair (any order -- `details` itself, from
     get_graha_yuddha_details, is keyed by these same two values)
@@ -77,6 +77,8 @@ def describe_graha_yuddha(graha1, graha2, details, general_note='', pair_note=No
     moment (t_zero) of closest approach
   :param general_note: fixed do's/don'ts text (from the graha-yuddha-sAmAnya-niyamAH TOML rule)
     to append, or ''
+  :param shlokas: the graha-yuddha-sAmAnya-niyamAH rule's own shlokas block (already
+    transliterated to the target script by get_description_dict), or ''
   :param pair_note: sourced, pair-specific significations text to append (see PAIR_NOTES), or
     None to look it up automatically from PAIR_NOTES
   """
@@ -127,4 +129,4 @@ def describe_graha_yuddha(graha1, graha2, details, general_note='', pair_note=No
   if general_note:
     detailed.append(general_note)
 
-  return _assemble(blurb, ' '.join(detailed))
+  return _assemble(blurb, ' '.join(detailed), shlokas=shlokas)

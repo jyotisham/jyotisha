@@ -228,7 +228,14 @@ def get_description(festival_instance, fest_details_dict, script, truncate=True,
     desc_dict = festival_instance.description
     blurb = summary.transliterate_backticked_terms(desc_dict.get('blurb', ''))
     detailed = summary.transliterate_backticked_terms(desc_dict.get('detailed', ''))
-    return "%s\n\n%s" % (blurb, detailed)
+    md = "%s\n\n%s" % (blurb, detailed)
+    shlokas = desc_dict.get('shlokas', '')
+    if shlokas:
+      md += '\n\n' + shlokas
+    references = desc_dict.get('references', '')
+    if references:
+      md += '\n\n' + references
+    return md
   desc = None
   if re.match('aGgArakI.*saGkaTahara-caturthI-vratam', fest_id):
     fest_id = fest_id.replace('aGgArakI~', '')
