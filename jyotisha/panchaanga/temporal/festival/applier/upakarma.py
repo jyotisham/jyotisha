@@ -134,8 +134,15 @@ class UpakarmaFestivalAssigner(FestivalAssigner):
     if graha not in self._maudhya_intervals_cache:
       from jyotisha.panchaanga.temporal.festival.applier.ecliptic import EclipticFestivalAssigner
       ecliptic_assigner = EclipticFestivalAssigner(panchaanga=self.panchaanga)
+      # use_latitude=True: apply the akSAMza (observer-latitude, oblique-ascension) correction --
+      # see EclipticFestivalAssigner.compute_conjunction_intervals/add_maudhya_events, whose own
+      # docstrings establish this as the empirically-validated convention for rise/set-relative
+      # mAudhya/bAlya/vArdhakya boundaries, for every graha. Omitting it here (as this call
+      # previously did) silently used plain ecliptic-longitude boundaries instead, which can shift
+      # a bAlya/vArdhakya edge by several days at higher latitudes and flip an upakarma dosha
+      # check's verdict.
       self._maudhya_intervals_cache[graha] = ecliptic_assigner.compute_maudhya_intervals(
-        graha, self.panchaanga.jd_start - 30, self.panchaanga.jd_end + 30)
+        graha, self.panchaanga.jd_start - 30, self.panchaanga.jd_end + 30, use_latitude=True)
     return self._maudhya_intervals_cache[graha]
 
   def _has_maudhya_flaw(self, date, graha):
