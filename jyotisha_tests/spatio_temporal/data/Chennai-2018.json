@@ -312,6 +312,16 @@
           "base_url": "https://github.com/jyotisham/adyatithi/blob/master/time_focus/manvAdiH",
           "jsonClass": "RulesRepo",
           "name": "time_focus/manvAdiH"
+        },
+        {
+          "base_url": "https://github.com/jyotisham/adyatithi/blob/master/time_focus/grahaYuddha",
+          "jsonClass": "RulesRepo",
+          "name": "time_focus/grahaYuddha"
+        },
+        {
+          "base_url": "https://github.com/jyotisham/adyatithi/blob/master/time_focus/grahaMaudhya",
+          "jsonClass": "RulesRepo",
+          "name": "time_focus/grahaMaudhya"
         }
       ],
       "tropical_month_start": "mAdhava_at_equinox"
@@ -7768,6 +7778,14 @@
           "status_2_hk": "dhanuH"
         },
         "graha-yuddhaH~(★guruH-aGgArakaH,~vizAkhA~tulA)": {
+          "description": {
+            "blurb": "Graha-yuddha (amshu-vimarda) between `guruH` and `aGgArakaH` in `vizAkhA` `tulA`, center-to-center separation 0°12′03.93″.",
+            "detailed": "This is an amshu-vimarda (a collision of rays -- the discs themselves do not touch): center-to-center separation 0°12′03.93″, 0°11′45.07″ apart, disc-to-disc. `guruH` at `vizAkhA`-2 `tulA` (latitude 1°03′35.03″ N, Rju (direct), magnitude -1.83, elongation 58°44′01.06″ W). `aGgArakaH` at `vizAkhA`-2 `tulA` (latitude 0°51′31.10″ N, Rju (direct), magnitude +1.43, elongation 58°43′53.69″ W). Classical texts weigh both the northern position and the greater apparent brightness/nearness in deciding the victor (jayI) of a yuddha; here `guruH` is towards the north (traditionally said to prevail), while by brightness/nearness (the larger apparent diameter) `guruH` is taken as jayI over `aGgArakaH`. A graha-yuddha (also called amshu-vimarda, \"collision of rays\") occurs when two of the five tArA grahas -- budha, śukra, aṅgāraka, br̥haspati, śanaiśchara -- come within 1 aMsha (60 kalA) of each other in longitude, close enough that they may be difficult to tell apart in the sky. It is called yuddha proper only when their discs actually touch/overlap; otherwise, amshu-vimarda.\n\nThe Surya Siddhanta itself cautions that this matter is described only to indicate the auspicious/inauspicious effects for people -- in reality the grahas remain far apart from one another and continue along their own paths. This is not to be received with fear, but as an advance, compassionate intimation from those who calculated these movements accurately, meant to help people take protective measures in time.\n\nClassical texts (e.g. Brihat Samhita ch. 17) weigh both which graha is to the north and which is more prominent (nearer/brighter, of larger apparent diameter) in declaring a victor (jayī) of the yuddha; the defeated (jita) graha's significations are said to suffer for a particular section of society -- this is never a universal ill effect. The traditional response is to increase one's spiritual efforts: japa, homa, dAna and parAyaNa (especially of the Navagraha stotra), with higher AvRtti for the two grahas actually involved, particularly if the day also coincides with some other puNya kAla (e.g. a sAyana saGkramaNa).\n\nPer the Narada Samhita (as cited in Muhurta Chintamani), the nakshatra in which a graha-yuddha occurs should be avoided for auspicious functions (vivAha, upanayana etc.) for six months following the event. If this cannot be avoided, perform parihAra for candra-bala.",
+            "image": "",
+            "references": "",
+            "shlokas": "भावाभावाय लोकानां कल्पनेयं प्रदर्शिता।  \nस्वमार्गगाः प्रयान्त्येते दूरमन्योन्यमाश्रिताः॥  \n--सूर्यसिद्धान्ते  \n  \nषण्मासं ग्रहभिन्नभं त्यज शुभे यौद्धं तथोत्पातभम्।  \n--मुहूर्तचिन्तामणौ (नारदसंहितानुसारेण)  \n",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458127.6234,
             "jd_start": 2458123.3976,
@@ -7786,6 +7804,22 @@
           "jsonClass": "FestivalInstance",
           "name": "tyAgarAja-ArAdhanA",
           "ordinal": 171
+        },
+        "zaniH–udayaH_(prAk)": {
+          "description": {
+            "blurb": "",
+            "detailed": "`zaniH` rises out of combustion (udayaH), heading `prAk` (east), on 2018-Jan-06 10:51. At this moment `zaniH` is at `mUlA`-3 `dhanuH` (latitude 0°53′31.98″ N, moving `Rju` (direct)), magnitude +0.52, elongation 13°51′35.52″ W of the Sun. Emergence from combustion restores a graha's full strength; this is generally considered an auspicious time to begin activities connected with `zaniH`'s significations.",
+            "image": "",
+            "references": "",
+            "shlokas": "",
+            "url": ""
+          },
+          "interval": {
+            "jd_end": 2458124.7233,
+            "jsonClass": "Interval"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "zaniH–udayaH_(prAk)"
         }
       },
       "graha_rise_jd": {
@@ -14427,6 +14461,14 @@
           "name": "bhOgi"
         },
         "graha-yuddhaH~(★zaniH-budhaH,~mUlA~dhanuH)": {
+          "description": {
+            "blurb": "Graha-yuddha (amshu-vimarda) between `budhaH` and `zaniH` in `mUlA` `dhanuH`, center-to-center separation 0°38′44.58″.",
+            "detailed": "This is an amshu-vimarda (a collision of rays -- the discs themselves do not touch): center-to-center separation 0°38′44.58″, 0°38′34.50″ apart, disc-to-disc. `budhaH` at `mUlA`-3 `dhanuH` (latitude 0°14′29.55″ N, Rju (direct), magnitude -0.33, elongation 20°13′37.44″ W). `zaniH` at `mUlA`-3 `dhanuH` (latitude 0°53′14.13″ N, Rju (direct), magnitude +0.54, elongation 20°14′39.70″ W). Classical texts weigh both the northern position and the greater apparent brightness/nearness in deciding the victor (jayI) of a yuddha; here `zaniH` is towards the north (traditionally said to prevail), while by brightness/nearness (the larger apparent diameter) `zaniH` is taken as jayI over `budhaH`. A graha-yuddha (also called amshu-vimarda, \"collision of rays\") occurs when two of the five tArA grahas -- budha, śukra, aṅgāraka, br̥haspati, śanaiśchara -- come within 1 aMsha (60 kalA) of each other in longitude, close enough that they may be difficult to tell apart in the sky. It is called yuddha proper only when their discs actually touch/overlap; otherwise, amshu-vimarda.\n\nThe Surya Siddhanta itself cautions that this matter is described only to indicate the auspicious/inauspicious effects for people -- in reality the grahas remain far apart from one another and continue along their own paths. This is not to be received with fear, but as an advance, compassionate intimation from those who calculated these movements accurately, meant to help people take protective measures in time.\n\nClassical texts (e.g. Brihat Samhita ch. 17) weigh both which graha is to the north and which is more prominent (nearer/brighter, of larger apparent diameter) in declaring a victor (jayī) of the yuddha; the defeated (jita) graha's significations are said to suffer for a particular section of society -- this is never a universal ill effect. The traditional response is to increase one's spiritual efforts: japa, homa, dAna and parAyaNa (especially of the Navagraha stotra), with higher AvRtti for the two grahas actually involved, particularly if the day also coincides with some other puNya kAla (e.g. a sAyana saGkramaNa).\n\nPer the Narada Samhita (as cited in Muhurta Chintamani), the nakshatra in which a graha-yuddha occurs should be avoided for auspicious functions (vivAha, upanayana etc.) for six months following the event. If this cannot be avoided, perform parihAra for candra-bala.",
+            "image": "",
+            "references": "",
+            "shlokas": "भावाभावाय लोकानां कल्पनेयं प्रदर्शिता।  \nस्वमार्गगाः प्रयान्त्येते दूरमन्योन्यमाश्रिताः॥  \n--सूर्यसिद्धान्ते  \n  \nषण्मासं ग्रहभिन्नभं त्यज शुभे यौद्धं तथोत्पातभम्।  \n--मुहूर्तचिन्तामणौ (नारदसंहितानुसारेण)  \n",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458132.3443,
             "jd_start": 2458131.1292,
@@ -31933,7 +31975,7 @@
         "candra-grahaNam~(rAhumukhagrastOdaya)": {
           "description": {
             "blurb": "Total lunar eclipse (parimāṇa ≈12.0 of 12 aṅgulas), Moon at the Rahu node (mukha/ascending). ",
-            "detailed": "The eclipse is already in progress at moonrise (grastodaya). Umbral magnitude: 1.32 (parimāṇa ≈12.0 of the traditional 12 aṅgulas). Avoid food: 09:30►21:38 (from 3 yaamas before the yaama of first contact, until the eclipse's end). Those with janma nakshatra Puṣyaḥ/Āśrēṣā/Maghā (preceding/grahaNa/succeeding), or Jyēṣṭhā (anujanma) or Rēvatī (trijanma) get ashubha phala and should consider graha-shanti next day. By rashi: Karkaṭaḥ, Siṁhaḥ, Dhanuḥ, Mēṣaḥ get more ashubha phala, Vr̥ścikaḥ, Makaraḥ, Mīnaḥ, Mithunam somewhat ashubha, Kanyā, Tulā, Kumbhaḥ, Vr̥ṣabhaḥ shubha phala. General notes: Avoid touching anything other than what's needed for the anushthana (especially bed/mat/cloth) until the mokSha snAna after the eclipse ends -- this is grahaNa Ashaucham. Do not sleep or attend to natural impulses during the eclipse. Mantra japa and dAna during the puNya kAla are of immense benefit. Do not view the eclipse with naked eyes. Pregnant women should avoid exposure to the sun/moon's light during the respective eclipse.",
+            "detailed": "The eclipse is already in progress at moonrise (grastodaya). Umbral magnitude: 1.32 (parimāṇa ≈12.0 of the traditional 12 aṅgulas). Avoid food: 09:30►21:38 (from 3 yaamas before the yaama of first contact, until the eclipse's end). Those with janma nakshatra `puSyaH/AzrESA/maghA` (preceding/grahaNa/succeeding), or `jyESThA` (anujanma) or `rEvatI` (trijanma) get ashubha phala and should consider graha-shanti next day. By rashi: `karkaTaH, siMhaH, dhanuH, mESaH` get more ashubha phala, `vRzcikaH, makaraH, mInaH, mithunam` somewhat ashubha, `kanyA, tulA, kumbhaH, vRSabhaH` shubha phala. General notes: Avoid touching anything other than what's needed for the anushthana (especially bed/mat/cloth) until the mokSha snAna after the eclipse ends -- this is grahaNa Ashaucham. Do not sleep or attend to natural impulses during the eclipse. Mantra japa and dAna during the puNya kAla are of immense benefit. Do not view the eclipse with naked eyes. Pregnant women should avoid exposure to the sun/moon's light during the respective eclipse.",
             "image": "",
             "references": "- References\n  - Food-restriction timing and graha-shanti nakshatra/rashi lists follow this pancAnga's \"General notes for all grahanas\" instructions.\n",
             "shlokas": "",
@@ -54089,6 +54131,14 @@
           "name": "vaidhRti-zrAddham"
         },
         "zukraH–udayaH_(prAk)": {
+          "description": {
+            "blurb": "",
+            "detailed": "`zukraH` rises out of combustion (udayaH), heading `prAk` (east), on 2018-Feb-23 10:56. At this moment `zukraH` is at `pUrvaprOSThapadA`-1 `kumbhaH` (latitude 1°26′04.18″ S, moving `Rju` (direct)), magnitude -3.90, elongation 10°53′09.04″ E of the Sun. Emergence from combustion restores a graha's full strength; this is generally considered an auspicious time to begin activities connected with `zukraH`'s significations.",
+            "image": "",
+            "references": "",
+            "shlokas": "",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458172.7268,
             "jsonClass": "Interval"
@@ -54097,6 +54147,14 @@
           "name": "zukraH–udayaH_(prAk)"
         },
         "zukrasya~bAlya-prArambhaH": {
+          "description": {
+            "blurb": "",
+            "detailed": "`zukraH` emerges from combustion into bAlya (infancy) on 2018-Feb-23 10:56. At this moment `zukraH` is at `pUrvaprOSThapadA`-1 `kumbhaH` (latitude 1°26′04.18″ S, moving `Rju` (direct)), magnitude -3.90, elongation 10°53′09.04″ E of the Sun. A graha in bAlya is likewise considered to give reduced results, for 5 days, before regaining its full strength.",
+            "image": "",
+            "references": "",
+            "shlokas": "",
+            "url": ""
+          },
           "interval": {
             "jd_start": 2458172.7268,
             "jsonClass": "Interval"
@@ -58910,6 +58968,14 @@
           "name": "vEGkaTAcalE_plavOtsavaH~4"
         },
         "zukrasya~bAlya-samApanam": {
+          "description": {
+            "blurb": "",
+            "detailed": "`zukraH`'s bAlya ends on 2018-Feb-28 10:56, regaining full strength. At this moment `zukraH` is at `pUrvaprOSThapadA`-3 `kumbhaH` (latitude 1°22′49.95″ S, moving `Rju` (direct)), magnitude -3.90, elongation 12°05′03.75″ E of the Sun.",
+            "image": "",
+            "references": "",
+            "shlokas": "",
+            "url": ""
+          },
           "interval": {
             "jd_start": 2458177.7268,
             "jsonClass": "Interval"
@@ -139851,6 +139917,14 @@
       },
       "festival_id_to_instance": {
         "budhaH–astamayaH_(prAk)": {
+          "description": {
+            "blurb": "",
+            "detailed": "`budhaH` sets into combustion (astamayaH), heading `prAk` (east), on 2018-May-23 11:42. At this moment `budhaH` is at `apabharaNI`-3 `mESaH` (latitude 1°37′02.67″ S, moving `Rju` (direct)), magnitude -0.82, elongation 15°33′29.88″ W of the Sun. Combustion (mAudhyam) is generally considered to weaken a graha's ability to give full results in its significations; undertakings connected with `budhaH` are traditionally best avoided until it re-emerges.",
+            "image": "",
+            "references": "",
+            "shlokas": "",
+            "url": ""
+          },
           "interval": {
             "jd_start": 2458261.7586,
             "jsonClass": "Interval"
@@ -163441,6 +163515,14 @@
       },
       "festival_id_to_instance": {
         "budhaH–udayaH_(prAk)": {
+          "description": {
+            "blurb": "",
+            "detailed": "`budhaH` rises out of combustion (udayaH), heading `prAk` (east), on 2018-Jun-17 14:35. At this moment `budhaH` is at `ArdrA`-3 `mithunam` (latitude 1°55′16.88″ N, moving `Rju` (direct)), magnitude -1.05, elongation 13°17′17.59″ E of the Sun. Emergence from combustion restores a graha's full strength; this is generally considered an auspicious time to begin activities connected with `budhaH`'s significations.",
+            "image": "",
+            "references": "",
+            "shlokas": "",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458286.8786,
             "jsonClass": "Interval"
@@ -201996,7 +202078,7 @@
         "candra-grahaNam~(rAhupucchagrasta)": {
           "description": {
             "blurb": "Total lunar eclipse (parimāṇa ≈12.0 of 12 aṅgulas), Moon at the Rahu node (puccha/descending). ",
-            "detailed": "Umbral magnitude: 1.61 (parimāṇa ≈12.0 of the traditional 12 aṅgulas). Avoid food: 12:15►04:58 (from 3 yaamas before the yaama of first contact, until the eclipse's end). Those with janma nakshatra Uttarāṣāḍhā/Śravaṇaḥ/Śraviṣṭhā (preceding/grahaNa/succeeding), or Rōhiṇī (anujanma) or Hastaḥ (trijanma) get ashubha phala and should consider graha-shanti next day. By rashi: Makaraḥ, Kumbhaḥ, Mithunam, Tulā get more ashubha phala, Vr̥ṣabhaḥ, Karkaṭaḥ, Kanyā, Dhanuḥ somewhat ashubha, Mīnaḥ, Mēṣaḥ, Siṁhaḥ, Vr̥ścikaḥ shubha phala. General notes: Avoid touching anything other than what's needed for the anushthana (especially bed/mat/cloth) until the mokSha snAna after the eclipse ends -- this is grahaNa Ashaucham. Do not sleep or attend to natural impulses during the eclipse. Mantra japa and dAna during the puNya kAla are of immense benefit. Do not view the eclipse with naked eyes. Pregnant women should avoid exposure to the sun/moon's light during the respective eclipse.",
+            "detailed": "Umbral magnitude: 1.61 (parimāṇa ≈12.0 of the traditional 12 aṅgulas). Avoid food: 12:15►04:58 (from 3 yaamas before the yaama of first contact, until the eclipse's end). Those with janma nakshatra `uttarASADhA/zravaNaH/zraviSThA` (preceding/grahaNa/succeeding), or `rOhiNI` (anujanma) or `hastaH` (trijanma) get ashubha phala and should consider graha-shanti next day. By rashi: `makaraH, kumbhaH, mithunam, tulA` get more ashubha phala, `vRSabhaH, karkaTaH, kanyA, dhanuH` somewhat ashubha, `mInaH, mESaH, siMhaH, vRzcikaH` shubha phala. General notes: Avoid touching anything other than what's needed for the anushthana (especially bed/mat/cloth) until the mokSha snAna after the eclipse ends -- this is grahaNa Ashaucham. Do not sleep or attend to natural impulses during the eclipse. Mantra japa and dAna during the puNya kAla are of immense benefit. Do not view the eclipse with naked eyes. Pregnant women should avoid exposure to the sun/moon's light during the respective eclipse.",
             "image": "",
             "references": "- References\n  - Food-restriction timing and graha-shanti nakshatra/rashi lists follow this pancAnga's \"General notes for all grahanas\" instructions.\n",
             "shlokas": "",
@@ -207771,6 +207853,14 @@
       },
       "festival_id_to_instance": {
         "budhaH–astamayaH_(prAk)": {
+          "description": {
+            "blurb": "",
+            "detailed": "`budhaH` sets into combustion (astamayaH), heading `prAk` (east), on 2018-Aug-02 09:09. At this moment `budhaH` is at `AzrESA`-4 `karkaTaH` (latitude 4°40′37.74″ S, moving `vakra` (retrograde)), magnitude +3.11, elongation 12°31′56.67″ E of the Sun. Combustion (mAudhyam) is generally considered to weaken a graha's ability to give full results in its significations; undertakings connected with `budhaH` are traditionally best avoided until it re-emerges.",
+            "image": "",
+            "references": "",
+            "shlokas": "",
+            "url": ""
+          },
           "interval": {
             "jd_start": 2458332.6523,
             "jsonClass": "Interval"
@@ -221302,6 +221392,14 @@
           "name": "anadhyAyaH~divAsaGkramaNa~pUrvarAtrau"
         },
         "budhaH–udayaH_(prAk)": {
+          "description": {
+            "blurb": "",
+            "detailed": "`budhaH` rises out of combustion (udayaH), heading `prAk` (east), on 2018-Aug-16 08:03. At this moment `budhaH` is at `AzrESA`-1 `karkaTaH` (latitude 3°32′14.88″ S, moving `vakra` (retrograde)), magnitude +2.65, elongation 11°39′24.21″ W of the Sun. Emergence from combustion restores a graha's full strength; this is generally considered an auspicious time to begin activities connected with `budhaH`'s significations.",
+            "image": "",
+            "references": "",
+            "shlokas": "",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458346.6066,
             "jsonClass": "Interval"
@@ -240703,6 +240801,14 @@
       },
       "festival_id_to_instance": {
         "budhaH–astamayaH_(prAk)": {
+          "description": {
+            "blurb": "",
+            "detailed": "`budhaH` sets into combustion (astamayaH), heading `prAk` (east), on 2018-Sep-05 23:14. At this moment `budhaH` is at `maghA`-2 `siMhaH` (latitude 1°25′12.32″ N, moving `Rju` (direct)), magnitude -1.15, elongation 13°50′25.69″ W of the Sun. Combustion (mAudhyam) is generally considered to weaken a graha's ability to give full results in its significations; undertakings connected with `budhaH` are traditionally best avoided until it re-emerges.",
+            "image": "",
+            "references": "",
+            "shlokas": "",
+            "url": ""
+          },
           "interval": {
             "jd_start": 2458367.2396,
             "jsonClass": "Interval"
@@ -271027,6 +271133,14 @@
           "name": "zani-pradOSa-vratam"
         },
         "zukrasya~vArdhakya-prArambhaH": {
+          "description": {
+            "blurb": "",
+            "detailed": "`zukraH` enters vArdhakya (old age) on 2018-Oct-06 12:39, 15 days before it sets into combustion (mAudhyam). At this moment `zukraH` is at `svAtI`-4 `tulA` (latitude 7°14′10.36″ S, moving `vakra` (retrograde)), magnitude -4.73, elongation 28°42′26.90″ E of the Sun. A graha in vArdhakya is considered weakened, giving reduced results, though less so than in outright mAudhya.",
+            "image": "",
+            "references": "",
+            "shlokas": "",
+            "url": ""
+          },
           "interval": {
             "jd_start": 2458397.7982,
             "jsonClass": "Interval"
@@ -275001,6 +275115,14 @@
           "name": "anadhyAyaH~Azvayuk~2"
         },
         "budhaH–udayaH_(prAk)": {
+          "description": {
+            "blurb": "",
+            "detailed": "`budhaH` rises out of combustion (udayaH), heading `prAk` (east), on 2018-Oct-10 19:36. At this moment `budhaH` is at `svAtI`-1 `tulA` (latitude 0°32′09.49″ S, moving `Rju` (direct)), magnitude -0.49, elongation 13°39′43.10″ E of the Sun. Emergence from combustion restores a graha's full strength; this is generally considered an auspicious time to begin activities connected with `budhaH`'s significations.",
+            "image": "",
+            "references": "",
+            "shlokas": "",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458402.0877,
             "jsonClass": "Interval"
@@ -285733,6 +285855,14 @@
           "name": "zakradhvajapAtaH"
         },
         "zukraH–astamayaH_(prAk)": {
+          "description": {
+            "blurb": "",
+            "detailed": "`zukraH` sets into combustion (astamayaH), heading `prAk` (east), on 2018-Oct-21 12:39. At this moment `zukraH` is at `svAtI`-2 `tulA` (latitude 7°01′22.21″ S, moving `vakra` (retrograde)), magnitude -4.15, elongation 10°56′08.45″ E of the Sun. Combustion (mAudhyam) is generally considered to weaken a graha's ability to give full results in its significations; undertakings connected with `zukraH` are traditionally best avoided until it re-emerges.",
+            "image": "",
+            "references": "",
+            "shlokas": "",
+            "url": ""
+          },
           "interval": {
             "jd_start": 2458412.7982,
             "jsonClass": "Interval"
@@ -285741,6 +285871,14 @@
           "name": "zukraH–astamayaH_(prAk)"
         },
         "zukrasya~vArdhakya-samApanam": {
+          "description": {
+            "blurb": "",
+            "detailed": "`zukraH`'s vArdhakya ends on 2018-Oct-21 12:39, as it sets into combustion (mAudhyam). At this moment `zukraH` is at `svAtI`-2 `tulA` (latitude 7°01′22.21″ S, moving `vakra` (retrograde)), magnitude -4.15, elongation 10°56′08.45″ E of the Sun.",
+            "image": "",
+            "references": "",
+            "shlokas": "",
+            "url": ""
+          },
           "interval": {
             "jd_start": 2458412.7982,
             "jsonClass": "Interval"
@@ -293555,6 +293693,14 @@
           "name": "ghOTaka-paJcamI"
         },
         "gurOH~vArdhakya-prArambhaH": {
+          "description": {
+            "blurb": "",
+            "detailed": "`guruH` enters vArdhakya (old age) on 2018-Oct-29 15:31, 15 days before it sets into combustion (mAudhyam). At this moment `guruH` is at `anUrAdhA`-1 `vRzcikaH` (latitude 0°41′58.69″ N, moving `Rju` (direct)), magnitude -1.75, elongation 21°53′40.93″ E of the Sun. A graha in vArdhakya is considered weakened, giving reduced results, though less so than in outright mAudhya.",
+            "image": "",
+            "references": "",
+            "shlokas": "",
+            "url": ""
+          },
           "interval": {
             "jd_start": 2458420.918,
             "jsonClass": "Interval"
@@ -294509,6 +294655,14 @@
           "name": "tripuSkara-yOgaH~2"
         },
         "zukraH–udayaH_(prAk)": {
+          "description": {
+            "blurb": "",
+            "detailed": "`zukraH` rises out of combustion (udayaH), heading `prAk` (east), on 2018-Oct-31 04:07. At this moment `zukraH` is at `citrA`-4 `tulA` (latitude 5°22′37.11″ S, moving `vakra` (retrograde)), magnitude -4.26, elongation 8°46′31.54″ W of the Sun. Emergence from combustion restores a graha's full strength; this is generally considered an auspicious time to begin activities connected with `zukraH`'s significations.",
+            "image": "",
+            "references": "",
+            "shlokas": "",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458422.4429,
             "jsonClass": "Interval"
@@ -294517,6 +294671,14 @@
           "name": "zukraH–udayaH_(prAk)"
         },
         "zukrasya~bAlya-prArambhaH": {
+          "description": {
+            "blurb": "",
+            "detailed": "`zukraH` emerges from combustion into bAlya (infancy) on 2018-Oct-31 04:07. At this moment `zukraH` is at `citrA`-4 `tulA` (latitude 5°22′37.11″ S, moving `vakra` (retrograde)), magnitude -4.26, elongation 8°46′31.54″ W of the Sun. A graha in bAlya is likewise considered to give reduced results, for 5 days, before regaining its full strength.",
+            "image": "",
+            "references": "",
+            "shlokas": "",
+            "url": ""
+          },
           "interval": {
             "jd_start": 2458422.4429,
             "jsonClass": "Interval"
@@ -299323,6 +299485,14 @@
           "name": "vyAghra-dvAdazI"
         },
         "zukrasya~bAlya-samApanam": {
+          "description": {
+            "blurb": "",
+            "detailed": "`zukraH`'s bAlya ends on 2018-Nov-05 04:07, regaining full strength. At this moment `zukraH` is at `citrA`-4 `tulA` (latitude 4°11′04.94″ S, moving `vakra` (retrograde)), magnitude -4.28, elongation 15°07′10.89″ W of the Sun.",
+            "image": "",
+            "references": "",
+            "shlokas": "",
+            "url": ""
+          },
           "interval": {
             "jd_start": 2458427.4429,
             "jsonClass": "Interval"
@@ -308014,6 +308184,14 @@
       },
       "festival_id_to_instance": {
         "gurOH~vArdhakya-samApanam": {
+          "description": {
+            "blurb": "",
+            "detailed": "`guruH`'s vArdhakya ends on 2018-Nov-13 15:31, as it sets into combustion (mAudhyam). At this moment `guruH` is at `anUrAdhA`-2 `vRzcikaH` (latitude 0°40′29.90″ N, moving `Rju` (direct)), magnitude -1.74, elongation 10°07′58.04″ E of the Sun.",
+            "image": "",
+            "references": "",
+            "shlokas": "",
+            "url": ""
+          },
           "interval": {
             "jd_start": 2458435.918,
             "jsonClass": "Interval"
@@ -308022,6 +308200,14 @@
           "name": "gurOH~vArdhakya-samApanam"
         },
         "guruH–astamayaH_(prAk)": {
+          "description": {
+            "blurb": "",
+            "detailed": "`guruH` sets into combustion (astamayaH), heading `prAk` (east), on 2018-Nov-13 15:31. At this moment `guruH` is at `anUrAdhA`-2 `vRzcikaH` (latitude 0°40′29.90″ N, moving `Rju` (direct)), magnitude -1.74, elongation 10°07′58.04″ E of the Sun. Combustion (mAudhyam) is generally considered to weaken a graha's ability to give full results in its significations; undertakings connected with `guruH` are traditionally best avoided until it re-emerges.",
+            "image": "",
+            "references": "",
+            "shlokas": "",
+            "url": ""
+          },
           "interval": {
             "jd_start": 2458435.918,
             "jsonClass": "Interval"
@@ -316850,6 +317036,14 @@
           "name": "bharaNI~dIpam"
         },
         "budhaH–astamayaH_(prAk)": {
+          "description": {
+            "blurb": "",
+            "detailed": "`budhaH` sets into combustion (astamayaH), heading `prAk` (east), on 2018-Nov-22 18:33. At this moment `budhaH` is at `jyESThA`-1 `vRzcikaH` (latitude 0°42′23.76″ S, moving `vakra` (retrograde)), magnitude +2.16, elongation 10°49′33.37″ E of the Sun. Combustion (mAudhyam) is generally considered to weaken a graha's ability to give full results in its significations; undertakings connected with `budhaH` are traditionally best avoided until it re-emerges.",
+            "image": "",
+            "references": "",
+            "shlokas": "",
+            "url": ""
+          },
           "interval": {
             "jd_start": 2458445.0439,
             "jsonClass": "Interval"
@@ -321937,6 +322131,14 @@
       },
       "festival_id_to_instance": {
         "graha-yuddhaH~(★guruH-budhaH,~anUrAdhA~vRzcikaH)": {
+          "description": {
+            "blurb": "Graha-yuddha (amshu-vimarda) between `guruH` and `budhaH` in `anUrAdhA` `vRzcikaH`, center-to-center separation 0°26′03.93″.",
+            "detailed": "This is an amshu-vimarda (a collision of rays -- the discs themselves do not touch): center-to-center separation 0°26′03.93″, 0°25′43.79″ apart, disc-to-disc. `guruH` at `anUrAdhA`-3 `vRzcikaH` (latitude 0°39′22.51″ N, Rju (direct), magnitude -1.74, elongation 1°28′06.82″ W). `budhaH` at `anUrAdhA`-3 `vRzcikaH` (latitude 1°05′26.44″ N, vakra (retrograde), magnitude +6.04, elongation 1°42′26.50″ W). Classical texts weigh both the northern position and the greater apparent brightness/nearness in deciding the victor (jayI) of a yuddha; here `budhaH` is towards the north (traditionally said to prevail), while by brightness/nearness (the larger apparent diameter) `guruH` is taken as jayI over `budhaH`. A graha-yuddha (also called amshu-vimarda, \"collision of rays\") occurs when two of the five tArA grahas -- budha, śukra, aṅgāraka, br̥haspati, śanaiśchara -- come within 1 aMsha (60 kalA) of each other in longitude, close enough that they may be difficult to tell apart in the sky. It is called yuddha proper only when their discs actually touch/overlap; otherwise, amshu-vimarda.\n\nThe Surya Siddhanta itself cautions that this matter is described only to indicate the auspicious/inauspicious effects for people -- in reality the grahas remain far apart from one another and continue along their own paths. This is not to be received with fear, but as an advance, compassionate intimation from those who calculated these movements accurately, meant to help people take protective measures in time.\n\nClassical texts (e.g. Brihat Samhita ch. 17) weigh both which graha is to the north and which is more prominent (nearer/brighter, of larger apparent diameter) in declaring a victor (jayī) of the yuddha; the defeated (jita) graha's significations are said to suffer for a particular section of society -- this is never a universal ill effect. The traditional response is to increase one's spiritual efforts: japa, homa, dAna and parAyaNa (especially of the Navagraha stotra), with higher AvRtti for the two grahas actually involved, particularly if the day also coincides with some other puNya kAla (e.g. a sAyana saGkramaNa).\n\nPer the Narada Samhita (as cited in Muhurta Chintamani), the nakshatra in which a graha-yuddha occurs should be avoided for auspicious functions (vivAha, upanayana etc.) for six months following the event. If this cannot be avoided, perform parihAra for candra-bala.",
+            "image": "",
+            "references": "",
+            "shlokas": "भावाभावाय लोकानां कल्पनेयं प्रदर्शिता।  \nस्वमार्गगाः प्रयान्त्येते दूरमन्योन्यमाश्रिताः॥  \n--सूर्यसिद्धान्ते  \n  \nषण्मासं ग्रहभिन्नभं त्यज शुभे यौद्धं तथोत्पातभम्।  \n--मुहूर्तचिन्तामणौ (नारदसंहितानुसारेण)  \n",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458450.9444,
             "jd_start": 2458449.8249,
@@ -326682,6 +326884,14 @@
           "name": "An2Aya_nAyan2mAr_(14)_gurupUjai"
         },
         "budhaH–udayaH_(prAk)": {
+          "description": {
+            "blurb": "",
+            "detailed": "`budhaH` rises out of combustion (udayaH), heading `prAk` (east), on 2018-Dec-02 12:55. At this moment `budhaH` is at `anUrAdhA`-1 `vRzcikaH` (latitude 2°13′20.21″ N, moving `vakra` (retrograde)), magnitude +1.90, elongation 11°03′27.83″ W of the Sun. Emergence from combustion restores a graha's full strength; this is generally considered an auspicious time to begin activities connected with `budhaH`'s significations.",
+            "image": "",
+            "references": "",
+            "shlokas": "",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458454.8093,
             "jsonClass": "Interval"
@@ -332469,6 +332679,14 @@
           "name": "dhana-vratam"
         },
         "gurOH~bAlya-prArambhaH": {
+          "description": {
+            "blurb": "",
+            "detailed": "`guruH` emerges from combustion into bAlya (infancy) on 2018-Dec-09 00:15. At this moment `guruH` is at `anUrAdhA`-3 `vRzcikaH` (latitude 0°38′41.62″ N, moving `Rju` (direct)), magnitude -1.74, elongation 9°54′52.35″ W of the Sun. A graha in bAlya is likewise considered to give reduced results, for 15 days, before regaining its full strength.",
+            "image": "",
+            "references": "",
+            "shlokas": "",
+            "url": ""
+          },
           "interval": {
             "jd_start": 2458461.2815,
             "jsonClass": "Interval"
@@ -332477,6 +332695,14 @@
           "name": "gurOH~bAlya-prArambhaH"
         },
         "guruH–udayaH_(prAk)": {
+          "description": {
+            "blurb": "",
+            "detailed": "`guruH` rises out of combustion (udayaH), heading `prAk` (east), on 2018-Dec-09 00:15. At this moment `guruH` is at `anUrAdhA`-3 `vRzcikaH` (latitude 0°38′41.62″ N, moving `Rju` (direct)), magnitude -1.74, elongation 9°54′52.35″ W of the Sun. Emergence from combustion restores a graha's full strength; this is generally considered an auspicious time to begin activities connected with `guruH`'s significations.",
+            "image": "",
+            "references": "",
+            "shlokas": "",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458461.2815,
             "jsonClass": "Interval"
@@ -340975,6 +341201,22 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "dhanurmAsa-uSaHkAla-pUjA-ArambhaH"
+        },
+        "zaniH–astamayaH_(prAk)": {
+          "description": {
+            "blurb": "",
+            "detailed": "`zaniH` sets into combustion (astamayaH), heading `prAk` (east), on 2018-Dec-17 22:03. At this moment `zaniH` is at `pUrvASADhA`-1 `dhanuH` (latitude 0°30′04.07″ N, moving `Rju` (direct)), magnitude +0.55, elongation 14°01′32.77″ E of the Sun. Combustion (mAudhyam) is generally considered to weaken a graha's ability to give full results in its significations; undertakings connected with `zaniH` are traditionally best avoided until it re-emerges.",
+            "image": "",
+            "references": "",
+            "shlokas": "",
+            "url": ""
+          },
+          "interval": {
+            "jd_start": 2458470.1899,
+            "jsonClass": "Interval"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "zaniH–astamayaH_(prAk)"
         }
       },
       "graha_rise_jd": {
@@ -344837,6 +345079,14 @@
           "name": "anadhyAyaH~rAtrisaGkramaNa"
         },
         "graha-yuddhaH~(★guruH-budhaH,~anUrAdhA~vRzcikaH)": {
+          "description": {
+            "blurb": "Graha-yuddha (amshu-vimarda) between `guruH` and `budhaH` in `anUrAdhA` `vRzcikaH`, center-to-center separation 0°50′27.95″.",
+            "detailed": "This is an amshu-vimarda (a collision of rays -- the discs themselves do not touch): center-to-center separation 0°50′27.95″, 0°50′09.62″ apart, disc-to-disc. `guruH` at `anUrAdhA`-4 `vRzcikaH` (latitude 0°38′03.79″ N, Rju (direct), magnitude -1.76, elongation 20°13′51.71″ W). `budhaH` at `anUrAdhA`-4 `vRzcikaH` (latitude 1°28′31.74″ N, Rju (direct), magnitude -0.45, elongation 20°16′22.77″ W). Classical texts weigh both the northern position and the greater apparent brightness/nearness in deciding the victor (jayI) of a yuddha; here `budhaH` is towards the north (traditionally said to prevail), while by brightness/nearness (the larger apparent diameter) `guruH` is taken as jayI over `budhaH`. A graha-yuddha (also called amshu-vimarda, \"collision of rays\") occurs when two of the five tArA grahas -- budha, śukra, aṅgāraka, br̥haspati, śanaiśchara -- come within 1 aMsha (60 kalA) of each other in longitude, close enough that they may be difficult to tell apart in the sky. It is called yuddha proper only when their discs actually touch/overlap; otherwise, amshu-vimarda.\n\nThe Surya Siddhanta itself cautions that this matter is described only to indicate the auspicious/inauspicious effects for people -- in reality the grahas remain far apart from one another and continue along their own paths. This is not to be received with fear, but as an advance, compassionate intimation from those who calculated these movements accurately, meant to help people take protective measures in time.\n\nClassical texts (e.g. Brihat Samhita ch. 17) weigh both which graha is to the north and which is more prominent (nearer/brighter, of larger apparent diameter) in declaring a victor (jayī) of the yuddha; the defeated (jita) graha's significations are said to suffer for a particular section of society -- this is never a universal ill effect. The traditional response is to increase one's spiritual efforts: japa, homa, dAna and parAyaNa (especially of the Navagraha stotra), with higher AvRtti for the two grahas actually involved, particularly if the day also coincides with some other puNya kAla (e.g. a sAyana saGkramaNa).\n\nPer the Narada Samhita (as cited in Muhurta Chintamani), the nakshatra in which a graha-yuddha occurs should be avoided for auspicious functions (vivAha, upanayana etc.) for six months following the event. If this cannot be avoided, perform parihAra for candra-bala.",
+            "image": "",
+            "references": "",
+            "shlokas": "भावाभावाय लोकानां कल्पनेयं प्रदर्शिता।  \nस्वमार्गगाः प्रयान्त्येते दूरमन्योन्यमाश्रिताः॥  \n--सूर्यसिद्धान्ते  \n  \nषण्मासं ग्रहभिन्नभं त्यज शुभे यौद्धं तथोत्पातभम्।  \n--मुहूर्तचिन्तामणौ (नारदसंहितानुसारेण)  \n",
+            "url": ""
+          },
           "interval": {
             "jd_end": 2458474.8356,
             "jd_start": 2458473.8155,
@@ -346948,6 +347198,14 @@
           "name": "caDaiya_nAyan2mAr_(62)_gurupUjai"
         },
         "gurOH~bAlya-samApanam": {
+          "description": {
+            "blurb": "",
+            "detailed": "`guruH`'s bAlya ends on 2018-Dec-24 00:15, regaining full strength. At this moment `guruH` is at `anUrAdhA`-4 `vRzcikaH` (latitude 0°37′58.96″ N, moving `Rju` (direct)), magnitude -1.76, elongation 21°52′21.81″ W of the Sun.",
+            "image": "",
+            "references": "",
+            "shlokas": "",
+            "url": ""
+          },
           "interval": {
             "jd_start": 2458476.2815,
             "jsonClass": "Interval"
@@ -360955,7 +361213,24 @@
           "name": "रात्रिमानम्"
         }
       },
-      "festival_id_to_instance": {},
+      "festival_id_to_instance": {
+        "budhaH–astamayaH_(prAk)": {
+          "description": {
+            "blurb": "",
+            "detailed": "`budhaH` sets into combustion (astamayaH), heading `prAk` (east), on 2019-Jan-07 16:27. At this moment `budhaH` is at `mUlA`-3 `dhanuH` (latitude 0°38′29.76″ S, moving `Rju` (direct)), magnitude -0.53, elongation 13°23′05.68″ W of the Sun. Combustion (mAudhyam) is generally considered to weaken a graha's ability to give full results in its significations; undertakings connected with `budhaH` are traditionally best avoided until it re-emerges.",
+            "image": "",
+            "references": "",
+            "shlokas": "",
+            "url": ""
+          },
+          "interval": {
+            "jd_start": 2458490.9563,
+            "jsonClass": "Interval"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "budhaH–astamayaH_(prAk)"
+        }
+      },
       "graha_rise_jd": {
         "jupiter": 2458491.4437,
         "ketu": 2458490.5756,
@@ -370951,7 +371226,24 @@
           "name": "रात्रिमानम्"
         }
       },
-      "festival_id_to_instance": {},
+      "festival_id_to_instance": {
+        "zaniH–udayaH_(prAk)": {
+          "description": {
+            "blurb": "",
+            "detailed": "`zaniH` rises out of combustion (udayaH), heading `prAk` (east), on 2019-Jan-18 12:44. At this moment `zaniH` is at `pUrvASADhA`-2 `dhanuH` (latitude 0°27′51.20″ N, moving `Rju` (direct)), magnitude +0.56, elongation 14°29′17.57″ W of the Sun. Emergence from combustion restores a graha's full strength; this is generally considered an auspicious time to begin activities connected with `zaniH`'s significations.",
+            "image": "",
+            "references": "",
+            "shlokas": "",
+            "url": ""
+          },
+          "interval": {
+            "jd_end": 2458501.8017,
+            "jsonClass": "Interval"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "zaniH–udayaH_(prAk)"
+        }
+      },
       "graha_rise_jd": {
         "jupiter": 2458502.4203,
         "ketu": 2458502.5429,
@@ -384601,6 +384893,15 @@
     ],
     "budhaH–astamayaH_(prAk)": [
       {
+        "day": 8,
+        "hour": 9,
+        "jsonClass": "Date",
+        "minute": 38,
+        "month": 12,
+        "second": 51.9126,
+        "year": 2017
+      },
+      {
         "day": 23,
         "jsonClass": "Date",
         "month": 5,
@@ -384623,9 +384924,24 @@
         "jsonClass": "Date",
         "month": 11,
         "year": 2018
+      },
+      {
+        "day": 7,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2019
       }
     ],
     "budhaH–udayaH_(prAk)": [
+      {
+        "day": 17,
+        "hour": 23,
+        "jsonClass": "Date",
+        "minute": 23,
+        "month": 12,
+        "second": 51.2148,
+        "year": 2017
+      },
       {
         "day": 17,
         "jsonClass": "Date",
@@ -384649,6 +384965,15 @@
         "jsonClass": "Date",
         "month": 12,
         "year": 2018
+      },
+      {
+        "day": 22,
+        "hour": 5,
+        "jsonClass": "Date",
+        "minute": 55,
+        "month": 2,
+        "second": 59.7214,
+        "year": 2019
       }
     ],
     "budhavizAkhA-naktavrata-yOgaH": [
@@ -393963,6 +394288,37 @@
         "year": 2018
       }
     ],
+    "zaniH–astamayaH_(prAk)": [
+      {
+        "day": 6,
+        "hour": 17,
+        "jsonClass": "Date",
+        "minute": 44,
+        "month": 12,
+        "second": 2.5747,
+        "year": 2017
+      },
+      {
+        "day": 17,
+        "jsonClass": "Date",
+        "month": 12,
+        "year": 2018
+      }
+    ],
+    "zaniH–udayaH_(prAk)": [
+      {
+        "day": 6,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2018
+      },
+      {
+        "day": 18,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2019
+      }
+    ],
     "zanimUlA-naktavrata-yOgaH": [
       {
         "day": 10,
@@ -394512,6 +394868,15 @@
       }
     ],
     "zukraH–astamayaH_(prAk)": [
+      {
+        "day": 2,
+        "hour": 23,
+        "jsonClass": "Date",
+        "minute": 35,
+        "month": 12,
+        "second": 13.2242,
+        "year": 2017
+      },
       {
         "day": 21,
         "jsonClass": "Date",

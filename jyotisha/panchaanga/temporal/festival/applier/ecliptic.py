@@ -76,8 +76,6 @@ class EclipticFestivalAssigner(FestivalAssigner):
     self.assign_tropical_sankranti_punyakaala()
     self.assign_tropical_sankranti()
     self.set_other_graha_transits()
-    for graha in (Graha.MERCURY, Graha.VENUS, Graha.MARS, Graha.JUPITER, Graha.SATURN):
-      self.add_maudhya_events(graha)
     self.add_graha_yuddhas()
     # Force computation, mirroring the old assign_chandra_darshanam_legacy()
     # call in TithiFestivalAssigner: assign_bodhaayana_amaavaasyaa() (which
@@ -358,58 +356,117 @@ class EclipticFestivalAssigner(FestivalAssigner):
     return intervals
 
 
+  # Comfortably more than any tArA graha's maudhya half-duration (elongation change is dominated by
+  # the Sun's ~1deg/day motion, and even Saturn's +-15deg window is under 30 days) -- see
+  # assign_baalya_vardhakya, which uses the same padding for the same reason.
+  MAUDHYA_SCAN_PAD_DAYS = 60
+
+  MOTION_EN = {'vakra': 'retrograde', 'Rju': 'direct'}
+  DIRECTION_EN = {'prAk': 'east', 'pratyak': 'west'}
+
+  def _maudhya_family_fields(self, graha, jd):
+    """Common substitution fields (graha's own position/motion/brightness relative to the Sun at
+    `jd`) shared by every mAudhya-family TOML template (graha-mauDhya-astamayaH/udayaH,
+    graha-vArdhakya-*, graha-bAlya-*) -- see template_description.render_template."""
+    details = self.get_graha_yuddha_details(graha, Graha.SUN, jd)
+    d = details[graha]
+    tz = self.panchaanga.city.get_timezone_obj()
+    return dict(
+        graha=GRAHA_NAMES[graha],
+        date=tz.julian_day_to_local_datetime(jd).strftime('%Y-%b-%d %H:%M'),
+        nakshatra=d['nakshatra'], pada=d['pada'], rashi=d['rashi'],
+        latitude=self.format_dms(d['latitude']), lat_dir=d['lat_dir'],
+        motion_sa=d['motion'], motion_en=self.MOTION_EN[d['motion']],
+        magnitude='%+.2f' % d['magnitude'],
+        elongation=self.format_dms(d['elongation']), elong_dir=d['elong_dir'],
+    )
+
+  def _render_maudhya_family_description(self, rule_id, graha, jd, **extra_fields):
+    """Look up `rule_id` (one of the graha-mauDhya-*/graha-vArdhakya-*/graha-bAlya-* TOML
+    templates) and render it with this occurrence's fields. Returns None (rather than a dict) if
+    the rule doesn't exist or renders empty, so the caller can leave FestivalInstance.description
+    unset and fall back to the ordinary (fest-id-based) lookup path instead of masking a missing
+    TOML file with a blank description."""
+    rule = self.rules_collection.name_to_rule.get(rule_id)
+    if rule is None:
+      return None
+    from jyotisha.panchaanga.temporal.festival import template_description
+    fields = self._maudhya_family_fields(graha, jd)
+    fields.update(extra_fields)
+    detailed = template_description.render_template(rule, **fields)
+    if not detailed:
+      return None
+    return {'blurb': '', 'detailed': detailed, 'image': '', 'references': '', 'url': '', 'shlokas': ''}
+
   def add_maudhya_events(self, graha: int, log_path=None):
+    """
+    Add astamayaH (setting into combustion)/udayaH (rising out of combustion) events for `graha`.
+
+    Deliberately NOT called from assign_all() (see assign_maudhya): like
+    add_baalya_vardhakya_events, this scans well beyond [self.panchaanga.jd_start,
+    self.panchaanga.jd_end] so that an astamayaH/udayaH just outside the requested range is
+    still pinned to its true date via _jd_to_display_date (add_festival_instance records it
+    under that date in festival_id_to_days regardless of whether a daily panchaanga exists for
+    it, so it still surfaces in summary/front-page tables), rather than being clamped onto the
+    last/first *computed* day -- which is misleading, since the event doesn't actually happen
+    that day. If even the padded scan can't bracket a genuine start/end (mi.start_clamped/
+    end_clamped still true), that boundary is silently skipped, exactly as
+    add_baalya_vardhakya_events does -- no festival is added for it at all, rather than a
+    guessed placeholder on an arbitrary day.
+    """
     log_path = self.add_graha_events_log_handler(log_path)
+    pad = self.MAUDHYA_SCAN_PAD_DAYS
     # use_latitude=True: apply the akSAMza (observer-latitude, oblique-ascension)
     # correction - see compute_conjunction_intervals docstring. This is the
     # empirically-validated convention, and applies uniformly to every graha,
     # Chandra included, not just the five star-planets.
-    maudhya_intervals = self.compute_maudhya_intervals(graha, self.panchaanga.jd_start, self.panchaanga.jd_end, use_latitude=True)
+    maudhya_intervals = self.compute_maudhya_intervals(
+        graha, self.panchaanga.jd_start - pad, self.panchaanga.jd_end + pad, use_latitude=True)
     for mi in maudhya_intervals:
         details = self.get_graha_yuddha_details(graha, Graha.SUN, mi.t_zero)
         graha_events_logger.info(self.format_graha_event_report(
             event_label=f"mauDhyam ({GRAHA_NAMES[graha]})", graha1=graha, graha2=Graha.SUN, jd=mi.t_zero,
             details=details, include_winner=False))
-        try:
-            fday = int(mi.t_start - self.daily_panchaangas[0].julian_day_start)
-            if mi.t_start < self.daily_panchaangas[fday].jd_sunrise:
-                fday -= 1
-            if mi.start_clamped:
-              # The graha was already combust when this panchaanga's period
-              # began -- the true astamayaH (setting into combustion) happened
-              # earlier, outside the computed range, so don't claim it as an
-              # event at this (arbitrary, boundary) instant. Note the ongoing
-              # state instead.
-              self.panchaanga.add_festival_instance(FestivalInstance(
-                  name=f"{GRAHA_NAMES[graha]}–mauDhyam~(pUrvam~ArabdhaH)",
-                  interval=Interval(jd_start=mi.t_start, jd_end=None)
-              ), date=self.daily_panchaangas[fday].date)
-            else:
-              self.panchaanga.add_festival_instance(FestivalInstance(
-                  name=f"{GRAHA_NAMES[graha]}–astamayaH ({mi.dir_set})",
-                  interval=Interval(jd_start=mi.t_start, jd_end=None)
-              ), date=self.daily_panchaangas[fday].date)
-        except ValueError:
-            logging.warning("Could not assign festival day for maudhya start event.")
-        try:
-          fday = int(mi.t_end - self.daily_panchaangas[0].julian_day_start)
-          if mi.t_end < self.daily_panchaangas[fday].jd_sunrise:
-            fday -= 1
-          if mi.end_clamped:
-            # Symmetric to start_clamped: the graha is still combust at the
-            # end of this panchaanga's period, with the true udayaH (rising
-            # out of combustion) beyond the computed range.
-            self.panchaanga.add_festival_instance(FestivalInstance(
-                name=f"{GRAHA_NAMES[graha]}–mauDhyam~(uttaram~sthitaH)",
-                interval=Interval(jd_start=None, jd_end=mi.t_end)
-            ), date=self.daily_panchaangas[fday].date)
-          else:
-            self.panchaanga.add_festival_instance(FestivalInstance(
-                name=f"{GRAHA_NAMES[graha]}–udayaH ({mi.dir_rise})",
-                interval=Interval(jd_start=None, jd_end=mi.t_end)
-            ), date=self.daily_panchaangas[fday].date)
-        except ValueError:
-          logging.warning("Could not assign festival day for maudhya end event.")
+        if not mi.start_clamped:
+          description = self._render_maudhya_family_description(
+              'graha-mauDhya-astamayaH', graha, mi.t_start,
+              direction_sa=mi.dir_set, direction_en=self.DIRECTION_EN.get(mi.dir_set, mi.dir_set))
+          self.panchaanga.add_festival_instance(FestivalInstance(
+              name=f"{GRAHA_NAMES[graha]}–astamayaH ({mi.dir_set})",
+              interval=Interval(jd_start=mi.t_start, jd_end=None), description=description
+          ), date=self._jd_to_display_date(mi.t_start))
+        else:
+          logging.warning(f"{GRAHA_NAMES[graha]} mauDhya astamayaH near jd={mi.t_zero} still start_clamped "
+                           f"even with a {pad}-day scan pad; skipping.")
+        if not mi.end_clamped:
+          description = self._render_maudhya_family_description(
+              'graha-mauDhya-udayaH', graha, mi.t_end,
+              direction_sa=mi.dir_rise, direction_en=self.DIRECTION_EN.get(mi.dir_rise, mi.dir_rise))
+          self.panchaanga.add_festival_instance(FestivalInstance(
+              name=f"{GRAHA_NAMES[graha]}–udayaH ({mi.dir_rise})",
+              interval=Interval(jd_start=None, jd_end=mi.t_end), description=description
+          ), date=self._jd_to_display_date(mi.t_end))
+        else:
+          logging.warning(f"{GRAHA_NAMES[graha]} mauDhya udayaH near jd={mi.t_zero} still end_clamped "
+                           f"even with a {pad}-day scan pad; skipping.")
+
+  def assign_maudhya(self):
+    """
+    Add mauDhya (combustion) astamayaH/udayaH events for every graha in TARA_GRAHAS (see
+    add_maudhya_events).
+
+    Deliberately NOT called from assign_all() (and hence not from add_maudhya_events itself) --
+    see the docstring on assign_baalya_vardhakya for why: these events are meant to be computed
+    via look-ahead/look-behind beyond the requested [jd_start, jd_end] range, but
+    Panchaanga.clear_padding_day_festivals() (run at the very end of update_festival_details(),
+    after assign_all()) wipes any festival landing on a padding day, on the premise that
+    padding-day festival assignments in general aren't trustworthy without further look-ahead.
+    That's exactly what add_maudhya_events's own wider scan already provides, so it must run
+    after clear_padding_day_festivals(), not as part of the normal assign_all() pass, or its
+    results would be wiped right back out. See Panchaanga.update_festival_details().
+    """
+    for graha in (Graha.MERCURY, Graha.VENUS, Graha.MARS, Graha.JUPITER, Graha.SATURN):
+      self.add_maudhya_events(graha)
 
   def assign_baalya_vardhakya(self):
     """
@@ -474,15 +531,24 @@ class EclipticFestivalAssigner(FestivalAssigner):
     genitive = GRAHA_GENITIVE_NAMES[graha]
     for mi in maudhya_intervals:
       if not mi.start_clamped:
-        self._add_point_festival(f"{genitive}~vArdhakya-prArambhaH", mi.t_start - days['vardhakya'])
-        self._add_point_festival(f"{genitive}~vArdhakya-samApanam", mi.t_start)
+        vardhakya_start_jd = mi.t_start - days['vardhakya']
+        self._add_point_festival(f"{genitive}~vArdhakya-prArambhaH", vardhakya_start_jd,
+            description=self._render_maudhya_family_description(
+                'graha-vArdhakya-prArambhaH', graha, vardhakya_start_jd, days=days['vardhakya']))
+        self._add_point_festival(f"{genitive}~vArdhakya-samApanam", mi.t_start,
+            description=self._render_maudhya_family_description('graha-vArdhakya-samApanam', graha, mi.t_start))
       if not mi.end_clamped:
-        self._add_point_festival(f"{genitive}~bAlya-prArambhaH", mi.t_end)
-        self._add_point_festival(f"{genitive}~bAlya-samApanam", mi.t_end + days['baalya'])
+        self._add_point_festival(f"{genitive}~bAlya-prArambhaH", mi.t_end,
+            description=self._render_maudhya_family_description(
+                'graha-bAlya-prArambhaH', graha, mi.t_end, days=days['baalya']))
+        baalya_end_jd = mi.t_end + days['baalya']
+        self._add_point_festival(f"{genitive}~bAlya-samApanam", baalya_end_jd,
+            description=self._render_maudhya_family_description('graha-bAlya-samApanam', graha, baalya_end_jd))
 
-  def _add_point_festival(self, name: str, jd: float):
+  def _add_point_festival(self, name: str, jd: float, description=None):
     date = self._jd_to_display_date(jd)
-    self.panchaanga.add_festival_instance(FestivalInstance(name=name, interval=Interval(jd_start=jd, jd_end=None)), date=date)
+    self.panchaanga.add_festival_instance(FestivalInstance(
+        name=name, interval=Interval(jd_start=jd, jd_end=None), description=description), date=date)
 
   def assign_chandra_darshanam(self, force_computation=False):
     """
@@ -860,9 +926,21 @@ class EclipticFestivalAssigner(FestivalAssigner):
       lines.append(f"  jayI (victor): {GRAHA_NAMES.get(details['winner'], details['winner'])}")
     return "\n".join(lines) + "\n"
 
+  def _get_general_graha_yuddha_note(self, script):
+    """Returns (detailed, shlokas) from the graha-yuddha-sAmAnya-niyamAH rule, or ('', '') if
+    absent -- mirrors set_jupiter_transits' own inline fetch of puSkara-sAmAnya-niyamAH's
+    description dict, which also pulls both detailed and shlokas rather than just detailed."""
+    rule = self.rules_collection.name_to_rule.get('graha-yuddha-sAmAnya-niyamAH')
+    if rule is None:
+      return '', ''
+    general_note_dict = rule.get_description_dict(script=script)
+    return general_note_dict.get('detailed', '').strip(), general_note_dict.get('shlokas', '')
+
   def add_graha_yuddhas(self, log_path=None):
     TARA_GRAHAS = (Graha.MERCURY, Graha.VENUS, Graha.MARS, Graha.JUPITER, Graha.SATURN)
     log_path = self.add_graha_events_log_handler(log_path)
+    from jyotisha.panchaanga.temporal.festival import graha_yuddha_description
+    general_note, general_shlokas = self._get_general_graha_yuddha_note(sanscript.DEVANAGARI)
 
     for graha1 in TARA_GRAHAS:
       for graha2 in TARA_GRAHAS:
@@ -884,9 +962,12 @@ class EclipticFestivalAssigner(FestivalAssigner):
             # either side's nakshatra/rashi identifies where the yuddha peaks.
             peak_rashi = details[graha1]['rashi']
             peak_nakshatra = details[graha1]['nakshatra']
+            description = graha_yuddha_description.describe_graha_yuddha(
+                graha1=graha1, graha2=graha2, details=details, general_note=general_note, shlokas=general_shlokas)
             fest = FestivalInstance(
                 name=f"graha-yuddhaH~(★{GRAHA_NAMES[details['winner']]}-{GRAHA_NAMES[details['loser']]},~{peak_nakshatra}~{peak_rashi})",
-                interval=Interval(jd_start=t_start, jd_end=t_end)
+                interval=Interval(jd_start=t_start, jd_end=t_end),
+                description=description,
             )
             self.panchaanga.add_festival_instance(fest, date=self.daily_panchaangas[fday].date)
 
@@ -895,6 +976,20 @@ class EclipticFestivalAssigner(FestivalAssigner):
     if rule is None:
       return ''
     return rule.get_description_dict(script=script).get('detailed', '').strip()
+
+  def _render_eclipse_description(self, template_rule_id, blurb, fields):
+    """Render `fields` (from eclipse_description.solar_eclipse_fields/lunar_eclipse_fields) into
+    `template_rule_id` (sUrya-grahaNa-varNanam/candra-grahaNa-varNanam), and assemble the full
+    description dict -- mirroring _render_maudhya_family_description, except `blurb` is passed
+    in ready-made (see eclipse_description module docstring) rather than templated."""
+    from jyotisha.panchaanga.temporal.festival import eclipse_description, template_description
+    fields = dict(fields, general_note=self._get_general_eclipse_note(sanscript.DEVANAGARI))
+    rule = self.rules_collection.name_to_rule.get(template_rule_id)
+    detailed = template_description.render_template(rule, **fields).strip()
+    return {
+        'blurb': blurb, 'detailed': detailed, 'image': '',
+        'references': eclipse_description.REFERENCE_NOTE, 'url': '', 'shlokas': '',
+    }
 
   def _yaama_niyama_start(self, fday, jd_contact_start, n_yaamas):
     from jyotisha.panchaanga.temporal.festival import eclipse_description
@@ -949,12 +1044,12 @@ class EclipticFestivalAssigner(FestivalAssigner):
           solar_eclipse_str = '★cUDAmaNi-' + solar_eclipse_str
         eclipse_angas = NakshatraDivision(jd, ayanaamsha_id=self.ayanaamsha_id)
         niyama_start_jd = self._yaama_niyama_start(fday, jd_contact_start, eclipse_description.SOLAR_NIYAMA_YAAMAS_BEFORE)
-        description = eclipse_description.describe_solar_eclipse(
+        blurb, fields = eclipse_description.solar_eclipse_fields(
           grasta=grasta, suff=suff, is_cudamani=is_cudamani, attr=next_eclipse_sol[2], retflag=next_eclipse_sol[0],
           jd_contact_start=jd_contact_start, jd_contact_end=jd_contact_end,
           nakshatra_index=eclipse_angas.get_anga(AngaType.NAKSHATRA).index, rashi_index=eclipse_angas.get_anga(AngaType.RASHI).index,
-          niyama_start_jd=niyama_start_jd, general_note=self._get_general_eclipse_note(sanscript.DEVANAGARI),
-          tz=self.panchaanga.city.get_timezone_obj())
+          niyama_start_jd=niyama_start_jd, tz=self.panchaanga.city.get_timezone_obj())
+        description = self._render_eclipse_description('sUrya-grahaNa-varNanam', blurb, fields)
         names = eclipse_description.sanskrit_name(luminary_sa='सूर्य', grasta=grasta, suff=suff, is_cudamani=is_cudamani)
         fest = FestivalInstance(name=solar_eclipse_str, interval=Interval(jd_start=jd_eclipse_solar_start, jd_end=jd_eclipse_solar_end),
                                  description=description, names=names)
@@ -1032,13 +1127,13 @@ class EclipticFestivalAssigner(FestivalAssigner):
 
       eclipse_angas = NakshatraDivision(jd, ayanaamsha_id=self.ayanaamsha_id)
       niyama_start_jd = self._yaama_niyama_start(fday, jd_contact_start, eclipse_description.LUNAR_NIYAMA_YAAMAS_BEFORE)
-      description = eclipse_description.describe_lunar_eclipse(
+      blurb, fields = eclipse_description.lunar_eclipse_fields(
         grasta=grasta, suff=suff, is_cudamani=is_cudamani,
         attr=next_eclipse_lun[2], retflag=next_eclipse_lun[0],
         jd_contact_start=jd_contact_start, jd_contact_end=jd_contact_end,
         nakshatra_index=eclipse_angas.get_anga(AngaType.NAKSHATRA).index, rashi_index=eclipse_angas.get_anga(AngaType.RASHI).index,
-        niyama_start_jd=niyama_start_jd, general_note=self._get_general_eclipse_note(sanscript.DEVANAGARI),
-        tz=self.panchaanga.city.get_timezone_obj())
+        niyama_start_jd=niyama_start_jd, tz=self.panchaanga.city.get_timezone_obj())
+      description = self._render_eclipse_description('candra-grahaNa-varNanam', blurb, fields)
       names = eclipse_description.sanskrit_name(luminary_sa='चन्द्र', grasta=grasta, suff=suff, is_cudamani=is_cudamani)
       fest = FestivalInstance(name=lunar_eclipse_str, interval=Interval(jd_start=jd_eclipse_lunar_start, jd_end=jd_eclipse_lunar_end),
                                description=description, names=names)

@@ -228,7 +228,14 @@ def get_description(festival_instance, fest_details_dict, script, truncate=True,
     desc_dict = festival_instance.description
     blurb = summary.transliterate_backticked_terms(desc_dict.get('blurb', ''))
     detailed = summary.transliterate_backticked_terms(desc_dict.get('detailed', ''))
-    return "%s\n\n%s" % (blurb, detailed)
+    md = "%s\n\n%s" % (blurb, detailed)
+    shlokas = desc_dict.get('shlokas', '')
+    if shlokas:
+      md += '\n\n' + shlokas
+    references = desc_dict.get('references', '')
+    if references:
+      md += '\n\n' + references
+    return md
   desc = None
   if re.match('aGgArakI.*saGkaTahara-caturthI-vratam', fest_id):
     fest_id = fest_id.replace('aGgArakI~', '')
@@ -465,11 +472,20 @@ def _texify_description_dict(desc, fest_id):
     logging.warning('No description found for %s' % fest_id)
     return '{}{}{}{}{} %%EMPTY DESCRIPTION!'
   else:
+    # '%' starts a comment in TeX -- any literal '%' in free-text fields (eg.
+    # "43% of the solar diameter is covered", from eclipse_description.py)
+    # must be escaped, or everything after it on that line is silently
+    # dropped from the compiled output. Escape before the other
+    # replacements below, since none of those introduce a '%' themselves.
+    desc['blurb'] = desc['blurb'].replace('%', '\\%')
+    desc['detailed'] = desc['detailed'].replace('%', '\\%')
+    desc['shlokas'] = desc['shlokas'].replace('%', '\\%')
+    desc['references'] = desc['references'].replace('%', '\\%')
     desc['detailed'] = desc['detailed'].replace('&', '\\&').replace('\n', '\\\\').replace('\\\\\\\\', '\\\\').replace('## ', '')
     desc['detailed'] = desc['detailed'][:1].capitalize() + desc['detailed'][1:]
     desc['shlokas'] = desc['shlokas'].strip('\n').replace('\n', '\\\\').replace('\\\\\\\\', '\\\\').replace('\\\\  \\\\', '\\\\\\smallskip ').replace('[','{}%\n[')
     desc['references'] = desc['references'].replace('- References\n  ', '')
-    return '{%s}\n{%s}\n{%s}\n{%s}\n{%s}\n{%s}' % (desc['blurb'].replace('_', '\\_').replace('##~##','~'), 
+    return '{%s}\n{%s}\n{%s}\n{%s}\n{%s}\n{%s}' % (desc['blurb'].replace('_', '\\_').replace('##~##','~'),
                                      desc['detailed'].replace('_', '\\_'),
                                      desc['image'], desc['shlokas'],
                                      desc['references'].replace('_', '\\_'),

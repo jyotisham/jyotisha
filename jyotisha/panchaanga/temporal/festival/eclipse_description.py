@@ -4,9 +4,15 @@ Eclipse festival ids are combinatorial (node x grastOdaya/grastAstamana/plain
 x cUDAmaNi), and every individual occurrence differs in magnitude and timing.
 Rather than maintaining a static TOML description file per combination (which
 also forces every eclipse of a given "type" to share one canned description),
-this module builds the description directly from the astronomical
-circumstances of each occurrence, computed by ecliptic.py at the time the
-festival instance is created.
+this module computes the astronomical circumstances of each occurrence
+(computed by ecliptic.py at the time the festival instance is created) into a
+plain dict of substitution fields. The actual wording is a Python
+str.format()-style template living in a TOML rule (sUrya-grahaNa-varNanam /
+candra-grahaNa-varNanam -- see template_description.render_template), editable
+without touching code; only the short, purely-factual `blurb` is still
+composed directly here, since (like ekadashi/pushkara's blurb) it has no
+get_timing_summary()-equivalent and isn't the kind of text that benefits from
+editorial rewording.
 
 Food-restriction (bhojana-niyama) timing and the graha-shanti nakshatra/rashi
 rules below follow this panchaanga's own "General notes for all grahanas"
@@ -132,53 +138,45 @@ def _lunar_eclipse_type(retflag):
   return 'eclipse'
 
 
-def _suffix_note(suff, rise_or_set_word):
+def _suffix_clause(suff, rise_or_set_word):
+  """A ready-made, already-punctuated sentence (or '' if `suff` is plain) -- a template
+  {placeholder} can't itself express "include this sentence only if grastOdaya/grastAstamana",
+  so the conditional lives here instead."""
   if suff == 'Odaya':
-    return "already in progress at %s (grastodaya)" % rise_or_set_word[0]
+    return "The eclipse is already in progress at %s (grastodaya). " % rise_or_set_word[0]
   if suff == 'Astamana':
-    return "still in progress at %s (grastAstamana)" % rise_or_set_word[1]
-  return None
+    return "The eclipse is still in progress at %s (grastAstamana). " % rise_or_set_word[1]
+  return ''
 
 
-def _shanti_nakshatra_names(nakshatra_index, script):
-  names_dict = AngaType.NAKSHATRA.names_dict[script]
-  names = [names_dict[((nakshatra_index - 1 + o) % 27) + 1] for o in SHANTI_NAKSHATRA_OFFSETS]
-  return names  # [preceding, grahaNa, succeeding, anujanma (10th), trijanma (19th)]
-
-
-def _rashi_phala_names(rashi_index, script):
-  names_dict = AngaType.RASHI.names_dict[script]
-  return {
-    category: [names_dict[((rashi_index - 1 + (pos - 1)) % 12) + 1] for pos in positions]
+def _shanti_fields(nakshatra_index, rashi_index):
+  """Substitution fields for the graha-shanti nakshatra/rashi clause (see
+  SHANTI_NAKSHATRA_OFFSETS/RASHI_PHALA_POSITIONS). Names are raw HK-Dravidian roman --
+  backtick-wrapped in the template and transliterated to the final output script downstream
+  (the same deferred-transliteration convention every other backtick-quoted term follows), not
+  resolved to a specific script here."""
+  nak_names_dict = AngaType.NAKSHATRA.names_dict[sanscript.roman.HK_DRAVIDIAN]
+  nak_names = [nak_names_dict[((nakshatra_index - 1 + o) % 27) + 1] for o in SHANTI_NAKSHATRA_OFFSETS]
+  rashi_names_dict = AngaType.RASHI.names_dict[sanscript.roman.HK_DRAVIDIAN]
+  rashi_phala = {
+    category: [rashi_names_dict[((rashi_index - 1 + (pos - 1)) % 12) + 1] for pos in positions]
     for category, positions in RASHI_PHALA_POSITIONS.items()
   }
+  return dict(
+    shanti_nakshatra='/'.join(nak_names[0:3]),
+    anujanma_nakshatra=nak_names[3],
+    trijanma_nakshatra=nak_names[4],
+    rashi_more_ashubha=', '.join(rashi_phala['more_ashubha']),
+    rashi_ashubha=', '.join(rashi_phala['ashubha']),
+    rashi_shubha=', '.join(rashi_phala['shubha']),
+  )
 
 
-def _shanti_note(nakshatra_index, rashi_index, script):
-  nak_names = _shanti_nakshatra_names(nakshatra_index, script)
-  rashi_phala = _rashi_phala_names(rashi_index, script)
-  return (
-    "Those with janma nakshatra %s (preceding/grahaNa/succeeding), or %s (anujanma) or %s (trijanma) "
-    "get ashubha phala and should consider graha-shanti next day. "
-    "By rashi: %s get more ashubha phala, %s somewhat ashubha, %s shubha phala." % (
-      '/'.join(nak_names[0:3]), nak_names[3], nak_names[4],
-      ', '.join(rashi_phala['more_ashubha']), ', '.join(rashi_phala['ashubha']), ', '.join(rashi_phala['shubha'])))
-
-
-def _assemble(blurb, detailed_parts):
-  return {
-    'blurb': blurb,
-    'detailed': ' '.join(detailed_parts),
-    'image': '',
-    'references': REFERENCE_NOTE,
-    'url': '',
-    'shlokas': '',
-  }
-
-
-def describe_solar_eclipse(grasta, suff, is_cudamani, attr, retflag, jd_contact_start, jd_contact_end, nakshatra_index,
-                            rashi_index, tz, niyama_start_jd=None, general_note='', script=sanscript.ISO):
+def solar_eclipse_fields(grasta, suff, is_cudamani, attr, retflag, jd_contact_start, jd_contact_end, nakshatra_index,
+                          rashi_index, tz, niyama_start_jd=None, script=sanscript.ISO):
   """
+  Substitution fields for the sUrya-grahaNa-varNanam TOML template, plus a ready-made `blurb`.
+
   :param grasta: 'rAhumukhagrast' or 'rAhupucchagrast'
   :param suff: 'a' (plain), 'Odaya' (grastodaya) or 'Astamana' (grastAstamana)
   :param attr: the 20-tuple returned by swe.sol_eclipse_when_loc as its 3rd element
@@ -190,7 +188,7 @@ def describe_solar_eclipse(grasta, suff, is_cudamani, attr, retflag, jd_contact_
   :param tz: a Timezone instance, for rendering the food-restriction window
   :param niyama_start_jd: start of food restriction, yaama-aligned (see yaama_aligned_start);
     falls back to a flat SOLAR_NIYAMA_HOURS_BEFORE_FALLBACK offset from jd_contact_start if None
-  :param general_note: fixed do's/don'ts text (from a TOML rule) to append, or ''
+  :return: (blurb, fields)
   """
   node_en = NODE_NAMES[grasta]['en']
   ecl_type = _solar_eclipse_type(retflag)
@@ -200,30 +198,27 @@ def describe_solar_eclipse(grasta, suff, is_cudamani, attr, retflag, jd_contact_
   blurb = "%s solar eclipse (parimāṇa ≈%.1f of 12 aṅgulas), Sun at the %s. " % (
     ecl_type.capitalize(), parimana_angula, node_en)
 
-  detailed = []
-  note = _suffix_note(suff, ('sunrise', 'sunset'))
-  if note is not None:
-    detailed.append("The eclipse is %s." % note)
-  detailed.append(
-    "Magnitude: %.0f%% of the solar diameter is covered (parimāṇa ≈%.1f of the traditional 12 aṅgulas)." % (
-      magnitude * 100, parimana_angula))
   if niyama_start_jd is None:
     niyama_start_jd = jd_contact_start - SOLAR_NIYAMA_HOURS_BEFORE_FALLBACK / 24.0
   niyama_text = Interval(jd_start=niyama_start_jd, jd_end=jd_contact_end, name='bhojana-niyama').to_hour_text(tz=tz, script=script)
-  detailed.append("Avoid food: %s (from %d yaamas before the yaama of first contact, until the eclipse's end)." % (
-    niyama_text, SOLAR_NIYAMA_YAAMAS_BEFORE))
-  detailed.append(_shanti_note(nakshatra_index, rashi_index, script))
-  if is_cudamani:
-    detailed.append("Falling on a Sunday, this is an especially auspicious `cUDAmaNi` (crest-jewel) eclipse.")
-  if general_note:
-    detailed.append(general_note)
 
-  return _assemble(blurb, detailed)
+  fields = dict(
+    suffix_clause=_suffix_clause(suff, ('sunrise', 'sunset')),
+    magnitude_pct='%.0f' % (magnitude * 100),
+    parimana_angula='%.1f' % parimana_angula,
+    niyama_text=niyama_text,
+    niyama_yaamas=SOLAR_NIYAMA_YAAMAS_BEFORE,
+    cudamani_clause="Falling on a Sunday, this is an especially auspicious `cUDAmaNi` (crest-jewel) eclipse. " if is_cudamani else '',
+  )
+  fields.update(_shanti_fields(nakshatra_index, rashi_index))
+  return blurb, fields
 
 
-def describe_lunar_eclipse(grasta, suff, is_cudamani, attr, retflag, jd_contact_start, jd_contact_end, nakshatra_index,
-                            rashi_index, tz, niyama_start_jd=None, general_note='', script=sanscript.ISO):
+def lunar_eclipse_fields(grasta, suff, is_cudamani, attr, retflag, jd_contact_start, jd_contact_end, nakshatra_index,
+                          rashi_index, tz, niyama_start_jd=None, script=sanscript.ISO):
   """
+  Substitution fields for the candra-grahaNa-varNanam TOML template, plus a ready-made `blurb`.
+
   :param attr: the 20-tuple returned by swe.lun_eclipse_when_loc as its 3rd element
   :param retflag: the int retflag returned by swe.lun_eclipse_when_loc
   :param jd_contact_start: penumbral-begin JD (unclipped by moonrise/moonset)
@@ -232,7 +227,7 @@ def describe_lunar_eclipse(grasta, suff, is_cudamani, attr, retflag, jd_contact_
   :param rashi_index: 1-indexed rashi of the eclipsed Moon
   :param niyama_start_jd: start of food restriction, yaama-aligned; falls back to a flat
     LUNAR_NIYAMA_HOURS_BEFORE_FALLBACK offset from jd_contact_start if None
-  :param general_note: fixed do's/don'ts text (from a TOML rule) to append, or ''
+  :return: (blurb, fields)
   """
   node_en = NODE_NAMES[grasta]['en']
   ecl_type = _lunar_eclipse_type(retflag)
@@ -242,21 +237,17 @@ def describe_lunar_eclipse(grasta, suff, is_cudamani, attr, retflag, jd_contact_
   blurb = "%s lunar eclipse (parimāṇa ≈%.1f of 12 aṅgulas), Moon at the %s. " % (
     ecl_type.capitalize(), parimana_angula, node_en)
 
-  detailed = []
-  note = _suffix_note(suff, ('moonrise', 'moonset'))
-  if note is not None:
-    detailed.append("The eclipse is %s." % note)
-  detailed.append(
-    "Umbral magnitude: %.2f (parimāṇa ≈%.1f of the traditional 12 aṅgulas)." % (magnitude, parimana_angula))
   if niyama_start_jd is None:
     niyama_start_jd = jd_contact_start - LUNAR_NIYAMA_HOURS_BEFORE_FALLBACK / 24.0
   niyama_text = Interval(jd_start=niyama_start_jd, jd_end=jd_contact_end, name='bhojana-niyama').to_hour_text(tz=tz, script=script)
-  detailed.append("Avoid food: %s (from %d yaamas before the yaama of first contact, until the eclipse's end)." % (
-    niyama_text, LUNAR_NIYAMA_YAAMAS_BEFORE))
-  detailed.append(_shanti_note(nakshatra_index, rashi_index, script))
-  if is_cudamani:
-    detailed.append("Falling on a Monday, this is an especially auspicious `cUDAmaNi` (crest-jewel) eclipse.")
-  if general_note:
-    detailed.append(general_note)
 
-  return _assemble(blurb, detailed)
+  fields = dict(
+    suffix_clause=_suffix_clause(suff, ('moonrise', 'moonset')),
+    magnitude='%.2f' % magnitude,
+    parimana_angula='%.1f' % parimana_angula,
+    niyama_text=niyama_text,
+    niyama_yaamas=LUNAR_NIYAMA_YAAMAS_BEFORE,
+    cudamani_clause="Falling on a Monday, this is an especially auspicious `cUDAmaNi` (crest-jewel) eclipse. " if is_cudamani else '',
+  )
+  fields.update(_shanti_fields(nakshatra_index, rashi_index))
+  return blurb, fields
