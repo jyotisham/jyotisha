@@ -27,7 +27,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@master
         with:
-          ref: master
+          # No explicit `ref` -- defaults to the pushed branch on `push` (still master, since
+          # that's the only branch this workflow's `push` trigger fires on) and to the PR merge
+          # ref on `pull_request` (so PR runs actually test the PR's own diff instead of master).
           submodules: false
           # Setting true above seems to lead to submodule updation problems.
           fetch-depth: 1
