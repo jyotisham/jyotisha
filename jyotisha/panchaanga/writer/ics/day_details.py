@@ -24,7 +24,7 @@ def writeDailyICS(panchaanga, script=sanscript.DEVANAGARI):
   return ics_calendar
 
 
-def get_day_summary_event(d, panchaanga, script):
+def get_day_summary_event(d, panchaanga, script, dtstamp=None):
   daily_panchaanga = panchaanga.daily_panchaangas_sorted()[d]
   event = Event()
   (title, details) = day_summary(d=d, panchaanga=panchaanga, script=script, subsection_md="##")
@@ -32,7 +32,7 @@ def get_day_summary_event(d, panchaanga, script):
   event.add('description', details)
   tz = daily_panchaanga.city.get_timezone_obj()
   dt_start = tz.julian_day_to_local_datetime(jd=daily_panchaanga.jd_sunrise)
-  event.add('dtstamp', datetime.now())
+  event.add('dtstamp', dtstamp if dtstamp is not None else datetime.now())
   # logging.debug(daily_panchaanga.date)
   event.add('dtstart', dt_start)
   event.add('dtend', tz.julian_day_to_local_datetime(jd=daily_panchaanga.jd_next_sunrise))

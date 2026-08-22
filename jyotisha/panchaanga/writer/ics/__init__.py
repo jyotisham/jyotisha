@@ -30,12 +30,19 @@ logging.basicConfig(
 CODE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 
 
-def compute_calendar(panchaanga, languages=None, scripts=None, set_sequence=True, festivals_only=False):
-
+def compute_calendar(panchaanga, languages=None, scripts=None, set_sequence=True, festivals_only=False, dtstamp=None):
+  """
+  :param dtstamp: the DTSTAMP (RFC 5545: "the instant the calendar information was created")
+    stamped on every event. Defaults to datetime.now() at call time when not given -- the correct
+    behavior for real calendar generation. Pass a fixed datetime for reproducible output (e.g. in
+    tests comparing against a golden .ics file byte-for-byte, instead of skipping DTSTAMP lines).
+  """
   if scripts is None:
     scripts = [sanscript.DEVANAGARI]
   if languages is None:
     languages = ["sa"]
+  if dtstamp is None:
+    dtstamp = datetime.now()
   ics_calendar = Calendar()
 
   set_calendar_metadata(ics_calendar, panchaanga=panchaanga, set_sequence=set_sequence)
@@ -45,9 +52,9 @@ def compute_calendar(panchaanga, languages=None, scripts=None, set_sequence=True
     if daily_panchaanga.date < panchaanga.start_date or daily_panchaanga.date > panchaanga.end_date:
       continue
     if not festivals_only:
-      event = get_day_summary_event(d=day_index, panchaanga=panchaanga, script=scripts[0])
+      event = get_day_summary_event(d=day_index, panchaanga=panchaanga, script=scripts[0], dtstamp=dtstamp)
       ics_calendar.add_component(event)
-    add_festival_events(day_index=day_index, ics_calendar=ics_calendar, panchaanga=panchaanga, scripts=scripts, languages=languages)
+    add_festival_events(day_index=day_index, ics_calendar=ics_calendar, panchaanga=panchaanga, scripts=scripts, languages=languages, dtstamp=dtstamp)
 
   return ics_calendar
 

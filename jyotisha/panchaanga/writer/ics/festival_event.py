@@ -74,7 +74,7 @@ def get_full_festival_instance(festival_instance, daily_panchaangas, day_index):
     return full_festival_instance
 
 
-def festival_instance_to_event(festival_instance, languages, scripts, panchaanga, all_day=False):
+def festival_instance_to_event(festival_instance, languages, scripts, panchaanga, all_day=False, dtstamp=None):
   rules_collection = rules.RulesCollection.get_cached(
     repos_tuple=tuple(panchaanga.computation_system.festival_options.repos), julian_handling=panchaanga.computation_system.festival_options.julian_handling)
   fest_details_dict = rules_collection.name_to_rule
@@ -85,7 +85,7 @@ def festival_instance_to_event(festival_instance, languages, scripts, panchaanga
   event.add('summary', fest_name)
   desc = get_description(festival_instance=festival_instance, script=scripts[0], fest_details_dict=fest_details_dict, header_md="##")
   event.add('description', desc.strip().replace('\n', '<br/>'))
-  event.add('dtstamp', datetime.now())
+  event.add('dtstamp', dtstamp if dtstamp is not None else datetime.now())
 
   if all_day or not festival_instance._show_interval():
     t1 = panchaanga.city.get_timezone_obj().julian_day_to_local_datetime(jd=festival_instance.interval.jd_start)
@@ -121,7 +121,7 @@ def set_interval(daily_panchaanga, festival_instance):
     festival_instance.interval.jd_end = daily_panchaanga.julian_day_start + 1
 
 
-def add_festival_events(day_index, ics_calendar, panchaanga, languages, scripts):
+def add_festival_events(day_index, ics_calendar, panchaanga, languages, scripts, dtstamp=None):
   daily_panchaanga = panchaanga.daily_panchaangas_sorted()[day_index]
   for festival_instance_in in sorted(daily_panchaanga.festival_id_to_instance.values()):
     festival_instance = deepcopy(festival_instance_in)
@@ -131,7 +131,7 @@ def add_festival_events(day_index, ics_calendar, panchaanga, languages, scripts)
       all_day = True
     elif default_if_none(festival_instance.interval.get_jd_length(), 0) > 0.75:
       all_day = True
-      
+
 
     set_interval(daily_panchaanga, festival_instance)
     if fest_id.find('samApanam') != -1:
@@ -140,9 +140,9 @@ def add_festival_events(day_index, ics_calendar, panchaanga, languages, scripts)
                                                           daily_panchaangas=panchaanga.daily_panchaangas_sorted(), day_index=day_index)
       if full_festival_instance is not None:
         event = festival_instance_to_event(festival_instance=full_festival_instance, languages=languages, scripts=scripts,
-                                           panchaanga=panchaanga, all_day=True)
+                                           panchaanga=panchaanga, all_day=True, dtstamp=dtstamp)
         ics_calendar.add_component(event)
 
     event = festival_instance_to_event(festival_instance=festival_instance, languages=languages, scripts=scripts, panchaanga=panchaanga,
-                                       all_day=all_day)
+                                       all_day=all_day, dtstamp=dtstamp)
     ics_calendar.add_component(event)
