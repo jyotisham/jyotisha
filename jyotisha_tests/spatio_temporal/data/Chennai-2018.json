@@ -314,14 +314,14 @@
           "name": "time_focus/manvAdiH"
         },
         {
-          "base_url": "https://github.com/jyotisham/adyatithi/blob/master/time_focus/grahaYuddha",
+          "base_url": "https://github.com/jyotisham/adyatithi/blob/master/time_focus/graha-maudhya",
           "jsonClass": "RulesRepo",
-          "name": "time_focus/grahaYuddha"
+          "name": "time_focus/graha-maudhya"
         },
         {
-          "base_url": "https://github.com/jyotisham/adyatithi/blob/master/time_focus/grahaMaudhya",
+          "base_url": "https://github.com/jyotisham/adyatithi/blob/master/time_focus/graha-yuddha",
           "jsonClass": "RulesRepo",
-          "name": "time_focus/grahaMaudhya"
+          "name": "time_focus/graha-yuddha"
         }
       ],
       "tropical_month_start": "mAdhava_at_equinox"
