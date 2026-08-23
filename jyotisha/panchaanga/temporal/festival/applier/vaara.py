@@ -14,11 +14,7 @@ from sanskrit_data.schema import common
 class VaraFestivalAssigner(FestivalAssigner):
   def assign_all(self):
     self.assign_bhriguvara_subrahmanya_vratam()
-    self.assign_masa_vara_yoga_kaarttika()
-    self.assign_masa_vara_yoga_fests_tn()
     self.assign_nakshatra_vara_yoga_vratam()
-    self.assign_tithi_vara_yoga_mangala_angaaraka()
-    self.assign_tithi_vara_yoga_kRSNAGgAraka()
     self.assign_vara_yoga_yoga_vratam()
     self.assign_tithi_vara_yoga_budhaaShTamii()
     self.assign_vishesha_mahashivaratri()
@@ -44,56 +40,6 @@ class VaraFestivalAssigner(FestivalAssigner):
           else:
             self.panchaanga.add_festival(fest_id=festival_name, date=day_panchaanga.date)
 
-
-  def assign_masa_vara_yoga_kaarttika(self):
-    festival_name = 'kArttika~sOmavAsaraH'
-    if festival_name not in self.rules_collection.name_to_rule:
-      return
-    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
-
-      # KRTTIKA SOMAVASARA
-      if self.daily_panchaangas[d].lunar_date.month.index == 8 and self.daily_panchaangas[d].date.get_weekday() == 1:
-        self.panchaanga.add_festival(fest_id='kArttika~sOmavAsaraH', date=self.daily_panchaangas[d].date)
-
-  def assign_masa_vara_yoga_fests_tn(self):
-    festival_name = 'AvaNi~JAyir2r2ukkizhamai'
-    if festival_name not in self.rules_collection.name_to_rule:
-      return
-    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
-      # SOLAR MONTH-WEEKDAY FESTIVALS
-      for (mwd_fest_m, mwd_fest_wd, mwd_fest_name) in ((5, 0, 'AvaNi~JAyir2r2ukkizhamai'),
-                                                       (6, 6, 'puraTTAci~can2ikkizhamai'),
-                                                       (8, 0, 'kArttigai~JAyir2r2ukkizhamai'),
-                                                       (4, 5, 'ADi~veLLikkizhamai'),
-                                                       (10, 5, 'tai~veLLikkizhamai'),
-                                                       (11, 2, 'mAci~cevvAy')):
-        if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == mwd_fest_m and self.daily_panchaangas[d].date.get_weekday() == mwd_fest_wd:
-          self.panchaanga.add_festival(fest_id=mwd_fest_name, date=self.daily_panchaangas[d].date)
-
-  def assign_tithi_vara_yoga_mangala_angaaraka(self):
-    if 'aGgArakI~caturthI' not in self.rules_collection.name_to_rule:
-      return
-    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
-      # MANGALA-CHATURTHI
-      tithi_sunset = self.daily_panchaangas[d].sunrise_day_angas.get_anga_at_jd(jd=self.daily_panchaangas[d].jd_sunset, anga_type=AngaType.TITHI) % 15
-      if self.daily_panchaangas[d].date.get_weekday() == 2 and (self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise.index % 15 == 4 or tithi_sunset == 4):
-        festival_name = 'aGgArakI~caturthI'
-        if self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise.index == 4 or tithi_sunset == 4:
-          festival_name = 'sukhA' + '~' + festival_name
-        self.panchaanga.add_festival(fest_id=festival_name, date=self.daily_panchaangas[d].date)
-
-  def assign_tithi_vara_yoga_kRSNAGgAraka(self):
-    if 'kRSNAGgAraka-caturdazI-puNyakAlaH_or_yamatarpaNam' not in self.rules_collection.name_to_rule:
-      return
-    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
-      # KRISHNA ANGARAKA CHATURDASHI
-      tithi_sunrise = self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise.index
-      tithi_purvaahna_end = self.daily_panchaangas[d].sunrise_day_angas.get_anga_at_jd(jd=self.daily_panchaangas[d].day_length_based_periods.puurvaahna.jd_end, anga_type=AngaType.TITHI).index
-      if self.daily_panchaangas[d].date.get_weekday() == 2 and (tithi_sunrise == 29 or tithi_purvaahna_end == 29):
-        # Double-check rule. When should the vyApti be? Since Smriti Muktaphalam says सदैव वा, we can at least stretch to the end of purvAahna.
-        self.panchaanga.add_festival(fest_id='kRSNAGgAraka-caturdazI-puNyakAlaH or yamatarpaNam', date=self.daily_panchaangas[d].date)
-        if self.daily_panchaangas[d].lunar_date.month.index == 1:
-          self.panchaanga.add_festival(fest_id='pizAcamOcanam', date=self.daily_panchaangas[d].date)
 
   def assign_vishesha_mahashivaratri(self):
     if 'mahAzivarAtriH' not in self.rules_collection.name_to_rule:

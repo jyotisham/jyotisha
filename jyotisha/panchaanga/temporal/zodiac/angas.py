@@ -19,6 +19,7 @@ class AngaType(common.JsonObject):
   RASHI = None
   YOGA = None
   KARANA = None
+  VARA = None
   TROPICAL_MONTH = None
   SOLAR_NAKSH = None
   SOLAR_NAKSH_PADA = None
@@ -87,6 +88,13 @@ AngaType.RASHI = AngaType(name='RASHI', name_hk="rAziH", num_angas=12, body_weig
 AngaType.YOGA = AngaType(name='YOGA', name_hk="yOgaH", num_angas=27, body_weights={Graha.MOON: 1, Graha.SUN: 1}, mean_period_days=29.541)
 AngaType.YOGA_PADA = AngaType(name='YOGA_PADA', name_hk="yOga-pAdaH", num_angas=108, body_weights={Graha.MOON: 1, Graha.SUN: 1}, mean_period_days=29.541)
 AngaType.KARANA = AngaType(name='KARANA', name_hk="karaNam", num_angas=60, body_weights={Graha.MOON: 1, Graha.SUN: -1}, mean_period_days=29.4)
+# VARA (weekday) is not ecliptic-derived (no body_weights): it's a civil-calendar property, resolved from
+# daily_panchaanga.date.get_weekday() rather than by AngaSpanFinder's brentq-based longitude search (see
+# FestivalAssigner._find_vara_span). Index is 1=Sunday...7=Saturday (weekday()+1) rather than the 0-indexed
+# convention VARA_NAMES itself uses, so as to satisfy Anga's "index starts at 1" invariant (its __add__/__sub__
+# modular arithmetic assumes a 1..num_angas range); the names_dict below is shifted accordingly.
+AngaType.VARA = AngaType(name='VARA', name_hk="vAraH", num_angas=7, mean_period_days=7,
+                          names_dict={script: [None] + list(values) for script, values in names.NAMES['VARA_NAMES']['sa'].items()})
 AngaType.TROPICAL_MONTH = AngaType(name='TROPICAL_MONTH', name_hk="Artava-mAsaH", num_angas=12, body_weights={Graha.MOON: 0, Graha.SUN: 1}, mean_period_days=365.242)
 AngaType.SOLAR_NAKSH = AngaType(name='SOLAR_NAKSH', name_hk="saura-nakSatram", num_angas=27, body_weights={Graha.MOON: 0, Graha.SUN: 1}, mean_period_days=365.242)
 AngaType.SOLAR_NAKSH_PADA = AngaType(name='SOLAR_NAKSH_PADA', name_hk="saura-nakSatra-pAdaH", num_angas=108, body_weights={Graha.MOON: 0, Graha.SUN: 1}, mean_period_days=365.242)

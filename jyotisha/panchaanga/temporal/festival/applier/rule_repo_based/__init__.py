@@ -5,7 +5,46 @@ from timebudget import timebudget
 from jyotisha.panchaanga.temporal import Anga, AngaType, get_2_day_interval_boundary_angas
 from jyotisha.panchaanga.temporal.festival import priority_decision
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
-from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
+from jyotisha.panchaanga.temporal.festival.rules import RulesRepo, resolve_vaara_index
+
+
+# TOML-facing anga_type names for `intersection_groups`, mapped to the AngaType singletons. Kept distinct from
+# AngaType.from_name()'s (upper-cased AngaType.name) lookup since a couple of internal names are abbreviated
+# (eg. AngaType.SOLAR_NAKSH) in ways that would be needlessly cryptic to require rule authors to know.
+_INTERSECTION_ANGA_TYPES = {
+  "tithi": AngaType.TITHI,
+  "tithi_pada": AngaType.TITHI_PADA,
+  "nakshatra": AngaType.NAKSHATRA,
+  "nakshatra_pada": AngaType.NAKSHATRA_PADA,
+  "rashi": AngaType.RASHI,
+  "yoga": AngaType.YOGA,
+  "yoga_pada": AngaType.YOGA_PADA,
+  "karana": AngaType.KARANA,
+  "vaara": AngaType.VARA,
+  "solar_nakshatra": AngaType.SOLAR_NAKSH,
+  "solar_nakshatra_pada": AngaType.SOLAR_NAKSH_PADA,
+}
+
+
+def _resolve_anga_number(anga_type_str, anga_number):
+  """anga_number for anga_type="vaara" may be a name (or list of names) instead of an index; everything else
+  passes through unchanged."""
+  if anga_type_str != "vaara":
+    return anga_number
+  if isinstance(anga_number, (list, tuple)):
+    return [resolve_vaara_index(v) for v in anga_number]
+  return resolve_vaara_index(anga_number)
+
+
+def _month_matches(daily_panchaanga, month_type, month_number):
+  """month_number may be None (no filter), a single month, or a list of months (any-of)."""
+  if month_number is None:
+    return True
+  months = month_number if isinstance(month_number, (list, tuple)) else [month_number]
+  if 0 in months:
+    return True
+  day_month = daily_panchaanga.get_date(month_type=month_type).month
+  return day_month in months
 
 
 class RuleLookupAssigner(FestivalAssigner):
@@ -108,6 +147,79 @@ class RuleLookupAssigner(FestivalAssigner):
       self.apply_month_anga_events(day_panchaanga=dp, month_type=RulesRepo.LUNAR_MONTH_DIR, anga_type=AngaType.TITHI)
       self.apply_month_anga_events(day_panchaanga=dp, month_type=RulesRepo.LUNAR_MONTH_DIR, anga_type=AngaType.NAKSHATRA)
       self.apply_month_anga_events(day_panchaanga=dp, month_type=RulesRepo.LUNAR_MONTH_DIR, anga_type=AngaType.YOGA)
+    self.apply_anga_intersection_events()
+    self.apply_vaara_conditioned_events()
+
+  @timebudget
+  def apply_vaara_conditioned_events(self):
+    """ Apply festivals declared via `[timing] vaara = ...` -- a plain weekday filter, for festivals that recur
+    on every day matching (month, weekday, and optionally a single anga touching that day), with no
+    disambiguation and no anga-span search: the trivial "month/anga + weekday" shape (eg. kArttika~sOmavAsaraH:
+    lunar month 8, every Monday), as opposed to the genuine multi-anga conjunctions
+    apply_anga_intersection_events() searches for. See that method and apply_month_anga_events() above for the
+    other two (heavier) mechanisms.
+    """
+    for fest_id, fest_rule in self.rules_collection.name_to_rule.items():
+      if fest_rule.timing is None or fest_rule.timing.vaara is None:
+        continue
+      vaara_index = fest_rule.timing.get_vaara_index()
+      target_anga = None
+      if fest_rule.timing.anga_type is not None:
+        target_anga = Anga.get_cached(index=fest_rule.timing.anga_number, anga_type_id=_INTERSECTION_ANGA_TYPES[fest_rule.timing.anga_type].name)
+      touch_window = fest_rule.timing.window
+      if touch_window is not None and touch_window not in ("sunrise_to_sunset", "sunrise_to_purvaahna"):
+        raise ValueError("Unsupported window %r for vaara-conditioned rule %s (expected sunrise_to_sunset or sunrise_to_purvaahna)" % (touch_window, fest_id))
+      for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
+        daily_panchaanga = self.daily_panchaangas[d]
+        if daily_panchaanga.date.get_weekday() + 1 != vaara_index:
+          continue
+        if not _month_matches(daily_panchaanga, fest_rule.timing.month_type, fest_rule.timing.month_number):
+          continue
+        if target_anga is not None:
+          # Bounded to daytime (dinamaana, sunrise..sunset, or the narrower purvaahna half of it), never the
+          # full sunrise..next_sunrise night-inclusive span: every hand-written festival of this shape checks
+          # "anga at sunrise OR anga at {sunset,purvaahna_end}" (a vrata observed during daylight, sometimes
+          # only its first half), so an anga that only appears later shouldn't count -- matching
+          # find_anga_span's whole-day span would count it and diverge from the original.
+          touch_interval = daily_panchaanga.day_length_based_periods.puurvaahna if touch_window == "sunrise_to_purvaahna" else daily_panchaanga.day_length_based_periods.dinamaana
+          daytime_spans = daily_panchaanga.sunrise_day_angas.get_anga_spans_in_interval(anga_type=target_anga.get_type(), interval=touch_interval)
+          if not any(span.anga == target_anga for span in daytime_spans):
+            continue
+        self.panchaanga.add_festival(fest_id=fest_id, date=daily_panchaanga.date)
+
+  @timebudget
+  def apply_anga_intersection_events(self):
+    """ Apply festivals declared via `[timing] intersection_groups = [[...]]` -- multi-anga conjunctions (tithi
+    AND nakshatra AND vaara ..., possibly VARA among them), the TOML-driven counterpart of the hand-written
+    intersect_list calls to FestivalAssigner._assign_anga_intersection still used in solar.py/vaara.py. See
+    apply_month_anga_events()/apply_month_day_events() above for the single-anga counterparts of this method.
+    """
+    for fest_id, fest_rule in self.rules_collection.name_to_rule.items():
+      if fest_rule.timing is None or fest_rule.timing.intersection_groups is None:
+        continue
+      groups = [
+        [(_INTERSECTION_ANGA_TYPES[item['anga_type']], _resolve_anga_number(item['anga_type'], item['anga_number'])) for item in group['angas']]
+        for group in fest_rule.timing.intersection_groups
+      ]
+      window = fest_rule.timing.get_window()
+      if window == "full_period":
+        for group in groups:
+          self._assign_anga_intersection(fest_id, group, jd_start=self.panchaanga.jd_start, jd_end=self.panchaanga.jd_end, show_debug_info=False)
+      else:
+        for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
+          daily_panchaanga = self.daily_panchaangas[d]
+          if not _month_matches(daily_panchaanga, fest_rule.timing.month_type, fest_rule.timing.month_number):
+            continue
+          if window == "sunrise_to_sunset":
+            jd_start, jd_end = daily_panchaanga.jd_sunrise, daily_panchaanga.jd_sunset
+          elif window == "sunrise_to_next_sunrise":
+            jd_start, jd_end = daily_panchaanga.jd_sunrise, daily_panchaanga.jd_next_sunrise
+          elif window == "padded_1_day":
+            jd_start, jd_end = daily_panchaanga.jd_sunrise - 1, daily_panchaanga.jd_sunset + 2
+          else:
+            raise ValueError("Unknown window %s for %s" % (window, fest_id))
+          for group in groups:
+            self._assign_anga_intersection(fest_id, group, jd_start=jd_start, jd_end=jd_end, show_debug_info=False)
 
   def apply_month_day_events(self, day_panchaanga, month_type):
     """Apply events set to take place on a given (ordinal) day of a given month. Eg. Jan 1 as per Julian calendar, Aug 15 as per Gregorian calendar, 1st day of sidereal solar month 6. See calls from apply_festival_from_rules_repos().
@@ -131,6 +243,9 @@ class RuleLookupAssigner(FestivalAssigner):
           days = [30, 31]
     fest_dict = rule_set.get_possibly_relevant_fests(month=date.month, angas=days, month_type=month_type, anga_type_id=rules.RulesRepo.DAY_DIR)
     for fest_id, fest in fest_dict.items():
+      if fest.timing.vaara is not None:
+        # See the matching guard in apply_month_anga_events: owned by apply_vaara_conditioned_events instead.
+        continue
       if month_type in [RulesRepo.GREGORIAN_MONTH_DIR, RulesRepo.JULIAN_MONTH_DIR]:
         self.panchaanga.add_festival(date=day_panchaanga.date, fest_id=fest_id, interval_id="julian_day")
       else:
@@ -231,6 +346,13 @@ class RuleLookupAssigner(FestivalAssigner):
     ###########################
     # Iterate over relevant festivals
     for fest_id, fest_rule in fest_dict.items():
+      if fest_rule.timing.vaara is not None:
+        # Owned by apply_vaara_conditioned_events instead: a rule can end up indexed into this (month_type,
+        # anga_type, month, anga) tree bucket incidentally (via get_storage_file_name's path routing) even
+        # though it also has `vaara` set and is meant to be weekday-gated -- this engine has no concept of
+        # `vaara` at all, so it must not process such rules (it would otherwise assign them on every matching
+        # day regardless of weekday, double-processing them alongside the correct, weekday-gated assignment).
+        continue
       kaala = fest_rule.timing.get_kaala()
       priority = fest_rule.timing.get_priority()
       adhika_maasa_handling = fest_rule.timing.get_adhika_maasa_handling()
