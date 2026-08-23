@@ -140,6 +140,10 @@ def get_timing_summary(rule):
     elif rule.timing.anga_type == 'day':
       angam = 'Observed on ' + angam
       angam += 'day %d' % rule.timing.anga_number
+    if rule.timing.vaara is not None:
+      angam += ' falling on %s' % AngaType.VARA.names_dict[sanscript.ISO][rule.timing.get_vaara_index()]
+  elif rule.timing is not None and rule.timing.vaara is not None:
+    angam = 'Observed on ' + AngaType.VARA.names_dict[sanscript.ISO][rule.timing.get_vaara_index()]
   else: # No timing or anga_type
     if rule.description is None:
       logging.warning("No anga_type in %s or description even!!", rule.id)

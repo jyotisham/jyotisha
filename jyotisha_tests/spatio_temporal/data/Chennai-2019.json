@@ -322,6 +322,16 @@
           "base_url": "https://github.com/jyotisham/adyatithi/blob/master/time_focus/graha-yuddha",
           "jsonClass": "RulesRepo",
           "name": "time_focus/graha-yuddha"
+        },
+        {
+          "base_url": "https://github.com/jyotisham/adyatithi/blob/master/time_focus/yoga_intersections",
+          "jsonClass": "RulesRepo",
+          "name": "time_focus/yoga_intersections"
+        },
+        {
+          "base_url": "https://github.com/jyotisham/adyatithi/blob/master/time_focus/vaara_conditioned",
+          "jsonClass": "RulesRepo",
+          "name": "time_focus/vaara_conditioned"
         }
       ],
       "tropical_month_start": "mAdhava_at_equinox"
@@ -253459,6 +253469,16 @@
         }
       },
       "festival_id_to_instance": {
+        "aGgArakI~caturthI": {
+          "interval": {
+            "jd_end": 2458744.5218,
+            "jd_start": 2458743.5218,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "aGgArakI~caturthI"
+        },
         "aGgArakI~vighnarAja-mahAgaNapati-saGkaTahara-caturthI-vratam": {
           "interval": {
             "jd_end": 2458744.5218,
@@ -253530,16 +253550,6 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "saGkramaNa-dina-aparAhNa-puNyakAlaH"
-        },
-        "sukhA~aGgArakI~caturthI": {
-          "interval": {
-            "jd_end": 2458744.5218,
-            "jd_start": 2458743.5218,
-            "jsonClass": "Interval",
-            "name": "full_day"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "sukhA~aGgArakI~caturthI"
         },
         "vizvakarma~jayantI": {
           "interval": {
@@ -382649,6 +382659,12 @@
         "jsonClass": "Date",
         "month": 4,
         "year": 2019
+      },
+      {
+        "day": 17,
+        "jsonClass": "Date",
+        "month": 9,
+        "year": 2019
       }
     ],
     "aGgArakI~vighnarAja-mahAgaNapati-saGkaTahara-caturthI-vratam": [
@@ -393053,12 +393069,6 @@
         "day": 9,
         "jsonClass": "Date",
         "month": 4,
-        "year": 2019
-      },
-      {
-        "day": 17,
-        "jsonClass": "Date",
-        "month": 9,
         "year": 2019
       },
       {

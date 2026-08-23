@@ -69,7 +69,9 @@ def test_anga_intersection_or_list_and_vara():
 def test_apply_anga_intersection_events_from_toml():
   """End-to-end: a TOML rule using `intersection_groups` (the real gajacchAyA-yOgaH conditions, under a test id)
   should, via apply_anga_intersection_events, assign the festival on exactly the same days as calling
-  _assign_anga_intersection directly with the same two intersect_lists (what assign_gajachhaya_yoga does)."""
+  _assign_anga_intersection directly with the same two intersect_lists (and, since gajacchAyA-yOgaH's own TOML
+  entry now uses this same mechanism -- see intersection_conversion_test.py -- should also match its real
+  output)."""
   collection = _rules_collection()
   test_id = 'test~gajacchAyA-yOgaH'
   assert test_id not in collection.name_to_rule

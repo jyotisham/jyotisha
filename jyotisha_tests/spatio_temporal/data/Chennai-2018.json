@@ -322,6 +322,16 @@
           "base_url": "https://github.com/jyotisham/adyatithi/blob/master/time_focus/graha-yuddha",
           "jsonClass": "RulesRepo",
           "name": "time_focus/graha-yuddha"
+        },
+        {
+          "base_url": "https://github.com/jyotisham/adyatithi/blob/master/time_focus/yoga_intersections",
+          "jsonClass": "RulesRepo",
+          "name": "time_focus/yoga_intersections"
+        },
+        {
+          "base_url": "https://github.com/jyotisham/adyatithi/blob/master/time_focus/vaara_conditioned",
+          "jsonClass": "RulesRepo",
+          "name": "time_focus/vaara_conditioned"
         }
       ],
       "tropical_month_start": "mAdhava_at_equinox"
@@ -92087,6 +92097,16 @@
         }
       },
       "festival_id_to_instance": {
+        "aGgArakI~caturthI": {
+          "interval": {
+            "jd_end": 2458212.5256,
+            "jd_start": 2458211.526,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "aGgArakI~caturthI"
+        },
         "aGgArakI~vikaTa-mahAgaNapati-saGkaTahara-caturthI-vratam": {
           "interval": {
             "jd_end": 2458212.5256,
@@ -92096,16 +92116,6 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "aGgArakI~vikaTa-mahAgaNapati-saGkaTahara-caturthI-vratam"
-        },
-        "sukhA~aGgArakI~caturthI": {
-          "interval": {
-            "jd_end": 2458212.5256,
-            "jd_start": 2458211.526,
-            "jsonClass": "Interval",
-            "name": "full_day"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "sukhA~aGgArakI~caturthI"
         }
       },
       "graha_rise_jd": {
@@ -205998,6 +206008,16 @@
         }
       },
       "festival_id_to_instance": {
+        "aGgArakI~caturthI": {
+          "interval": {
+            "jd_end": 2458331.5194,
+            "jd_start": 2458330.5192,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "aGgArakI~caturthI"
+        },
         "aGgArakI~gajAnana-mahAgaNapati-saGkaTahara-caturthI-vratam": {
           "interval": {
             "jd_end": 2458331.5194,
@@ -206007,16 +206027,6 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "aGgArakI~gajAnana-mahAgaNapati-saGkaTahara-caturthI-vratam"
-        },
-        "sukhA~aGgArakI~caturthI": {
-          "interval": {
-            "jd_end": 2458331.5194,
-            "jd_start": 2458330.5192,
-            "jsonClass": "Interval",
-            "name": "full_day"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "sukhA~aGgArakI~caturthI"
         }
       },
       "graha_rise_jd": {
@@ -349150,7 +349160,7 @@
           "jsonClass": "FestivalInstance",
           "name": "aGgArakI~Akhuratha-mahAgaNapati-saGkaTahara-caturthI-vratam"
         },
-        "sukhA~aGgArakI~caturthI": {
+        "aGgArakI~caturthI": {
           "interval": {
             "jd_end": 2458478.5433,
             "jd_start": 2458477.5429,
@@ -349158,7 +349168,7 @@
             "name": "full_day"
           },
           "jsonClass": "FestivalInstance",
-          "name": "sukhA~aGgArakI~caturthI"
+          "name": "aGgArakI~caturthI"
         },
         "vaidhRti-zrAddham": {
           "interval": {
@@ -382143,6 +382153,26 @@
         "year": 2018
       }
     ],
+    "aGgArakI~caturthI": [
+      {
+        "day": 3,
+        "jsonClass": "Date",
+        "month": 4,
+        "year": 2018
+      },
+      {
+        "day": 31,
+        "jsonClass": "Date",
+        "month": 7,
+        "year": 2018
+      },
+      {
+        "day": 25,
+        "jsonClass": "Date",
+        "month": 12,
+        "year": 2018
+      }
+    ],
     "aGgArakI~gajAnana-mahAgaNapati-saGkaTahara-caturthI-vratam": [
       {
         "day": 31,
@@ -392256,18 +392286,6 @@
         "year": 2018
       },
       {
-        "day": 3,
-        "jsonClass": "Date",
-        "month": 4,
-        "year": 2018
-      },
-      {
-        "day": 31,
-        "jsonClass": "Date",
-        "month": 7,
-        "year": 2018
-      },
-      {
         "day": 14,
         "jsonClass": "Date",
         "month": 8,
@@ -392275,12 +392293,6 @@
       },
       {
         "day": 11,
-        "jsonClass": "Date",
-        "month": 12,
-        "year": 2018
-      },
-      {
-        "day": 25,
         "jsonClass": "Date",
         "month": 12,
         "year": 2018
