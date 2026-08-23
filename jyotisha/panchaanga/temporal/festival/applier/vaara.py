@@ -15,7 +15,6 @@ class VaraFestivalAssigner(FestivalAssigner):
   def assign_all(self):
     self.assign_bhriguvara_subrahmanya_vratam()
     self.assign_nakshatra_vara_yoga_vratam()
-    self.assign_tithi_vara_yoga_mangala_angaaraka()
     self.assign_tithi_vara_yoga_kRSNAGgAraka()
     self.assign_vara_yoga_yoga_vratam()
     self.assign_tithi_vara_yoga_budhaaShTamii()
@@ -42,18 +41,6 @@ class VaraFestivalAssigner(FestivalAssigner):
           else:
             self.panchaanga.add_festival(fest_id=festival_name, date=day_panchaanga.date)
 
-
-  def assign_tithi_vara_yoga_mangala_angaaraka(self):
-    if 'aGgArakI~caturthI' not in self.rules_collection.name_to_rule:
-      return
-    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
-      # MANGALA-CHATURTHI
-      tithi_sunset = self.daily_panchaangas[d].sunrise_day_angas.get_anga_at_jd(jd=self.daily_panchaangas[d].jd_sunset, anga_type=AngaType.TITHI) % 15
-      if self.daily_panchaangas[d].date.get_weekday() == 2 and (self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise.index % 15 == 4 or tithi_sunset == 4):
-        festival_name = 'aGgArakI~caturthI'
-        if self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise.index == 4 or tithi_sunset == 4:
-          festival_name = 'sukhA' + '~' + festival_name
-        self.panchaanga.add_festival(fest_id=festival_name, date=self.daily_panchaangas[d].date)
 
   def assign_tithi_vara_yoga_kRSNAGgAraka(self):
     if 'kRSNAGgAraka-caturdazI-puNyakAlaH_or_yamatarpaNam' not in self.rules_collection.name_to_rule:

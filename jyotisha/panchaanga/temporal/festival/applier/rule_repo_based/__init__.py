@@ -6,6 +6,7 @@ from jyotisha.panchaanga.temporal import Anga, AngaType, get_2_day_interval_boun
 from jyotisha.panchaanga.temporal.festival import priority_decision
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
 from jyotisha.panchaanga.temporal.festival.rules import RulesRepo, resolve_vaara_index
+from jyotisha.panchaanga.temporal.interval import Interval
 
 
 # TOML-facing anga_type names for `intersection_groups`, mapped to the AngaType singletons. Kept distinct from
@@ -172,8 +173,15 @@ class RuleLookupAssigner(FestivalAssigner):
           continue
         if not _month_matches(daily_panchaanga, fest_rule.timing.month_type, fest_rule.timing.month_number):
           continue
-        if target_anga is not None and daily_panchaanga.sunrise_day_angas.find_anga_span(target_anga) is None:
-          continue
+        if target_anga is not None:
+          # Bounded to daytime (sunrise..sunset), not the full sunrise..next_sunrise night-inclusive span:
+          # every hand-written festival of this shape checks "anga at sunrise OR anga at sunset" (a vrata
+          # observed during daylight), so an anga that only appears after sunset (during the night) shouldn't
+          # count -- matching find_anga_span's whole-day span would count it and diverge from the original.
+          daytime_spans = daily_panchaanga.sunrise_day_angas.get_anga_spans_in_interval(
+            anga_type=target_anga.get_type(), interval=Interval(jd_start=daily_panchaanga.jd_sunrise, jd_end=daily_panchaanga.jd_sunset))
+          if not any(span.anga == target_anga for span in daytime_spans):
+            continue
         self.panchaanga.add_festival(fest_id=fest_id, date=daily_panchaanga.date)
 
   @timebudget

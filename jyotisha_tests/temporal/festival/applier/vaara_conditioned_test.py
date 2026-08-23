@@ -2,6 +2,7 @@ from jyotisha.panchaanga.spatio_temporal import City, periodical
 from jyotisha.panchaanga.temporal import ComputationSystem
 from jyotisha.panchaanga.temporal.festival.rules import resolve_vaara_index
 from jyotisha.panchaanga.temporal.time import Date
+from jyotisha.panchaanga.temporal.zodiac import AngaType
 
 chennai = City.get_city_from_db('Chennai')
 
@@ -60,3 +61,35 @@ def test_masa_vara_yoga_fests_tn():
     assert len(new_days) > 4, fest_id
     assert new_days == old_days, fest_id
     assert all(d.get_weekday() == weekday for d in new_days), fest_id
+
+
+def test_angaaraki_caturthi():
+  """aGgArakI~caturthI / sukhA~aGgArakI~caturthI: tithi 19 (krishna) / tithi 4 (shukla) touching the day, on a
+  Tuesday. The original Python (VaraFestivalAssigner.assign_tithi_vara_yoga_mangala_angaaraka, now retired) had
+  a latent bug: its "is it shukla" name check reused a variable already reduced mod 15, so a krishna-caturthi
+  (tithi 19) touching sunset specifically (19 % 15 == 4) was misnamed sukhA~ (documented as shukla-paksha only).
+  This conversion fixes that by matching on the true tithi index (4 vs 19) via two separate TOML rules, so it is
+  compared against a *corrected* reference computation, not the original buggy one -- with 2015-09-01 and
+  2016-04-26 (both real krishna-caturthi-on-Tuesday dates the old code mislabeled) checked explicitly."""
+  computation_system = ComputationSystem.DEFAULT
+  panchaanga = periodical.Panchaanga(city=chennai, start_date=Date(2015, 1, 1), end_date=Date(2020, 12, 31),
+                                      computation_system=computation_system)
+  daily_panchaangas = panchaanga.daily_panchaangas_sorted()
+
+  expected = {'aGgArakI~caturthI': set(), 'sukhA~aGgArakI~caturthI': set()}
+  for d in range(panchaanga.duration_prior_padding, panchaanga.duration + panchaanga.duration_prior_padding):
+    dp = daily_panchaangas[d]
+    if dp.date.get_weekday() != 2:
+      continue
+    tithi_sunrise = dp.sunrise_day_angas.tithi_at_sunrise.index
+    tithi_sunset = dp.sunrise_day_angas.get_anga_at_jd(jd=dp.jd_sunset, anga_type=AngaType.TITHI).index
+    if tithi_sunrise % 15 == 4 or tithi_sunset % 15 == 4:
+      name = 'sukhA~aGgArakI~caturthI' if (tithi_sunrise == 4 or tithi_sunset == 4) else 'aGgArakI~caturthI'
+      expected[name].add(dp.date)
+
+  for fest_id in expected:
+    assert set(panchaanga.festival_id_to_days.get(fest_id, set())) == expected[fest_id], fest_id
+
+  plain_days = set(panchaanga.festival_id_to_days.get('aGgArakI~caturthI', set()))
+  assert Date(2015, 9, 1) in plain_days  # tithi 18->19 at sunset -- old code mislabeled this sukhA~
+  assert Date(2016, 4, 26) in plain_days  # tithi 19 all day -- likewise mislabeled
