@@ -321,6 +321,16 @@
           "base_url": "https://github.com/jyotisham/adyatithi/blob/master/time_focus/graha-yuddha",
           "jsonClass": "RulesRepo",
           "name": "time_focus/graha-yuddha"
+        },
+        {
+          "base_url": "https://github.com/jyotisham/adyatithi/blob/master/time_focus/yoga_intersections",
+          "jsonClass": "RulesRepo",
+          "name": "time_focus/yoga_intersections"
+        },
+        {
+          "base_url": "https://github.com/jyotisham/adyatithi/blob/master/time_focus/vaara_conditioned",
+          "jsonClass": "RulesRepo",
+          "name": "time_focus/vaara_conditioned"
         }
       ],
       "tropical_month_start": "mAdhava_at_equinox"
@@ -138018,6 +138028,16 @@
           "jsonClass": "FestivalInstance",
           "name": "aGgArakI~Ekadanta-mahAgaNapati-saGkaTahara-caturthI-vratam"
         },
+        "aGgArakI~caturthI": {
+          "interval": {
+            "jd_end": 2458626.0404,
+            "jd_start": 2458625.0409,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "aGgArakI~caturthI"
+        },
         "anadhyAyaH~rAtrisaGkramaNa~parAhNE": {
           "interval": {
             "jd_end": 2458625.6335,
@@ -138087,16 +138107,6 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "sAyana-saGkramaNa-dina-pUrvAhNa-puNyakAlaH"
-        },
-        "sukhA~aGgArakI~caturthI": {
-          "interval": {
-            "jd_end": 2458626.0404,
-            "jd_start": 2458625.0409,
-            "jsonClass": "Interval",
-            "name": "full_day"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "sukhA~aGgArakI~caturthI"
         },
         "tiruJAn2asambandhamUrtti_nAyan2mAr_(28)_gurupUjai": {
           "interval": {
@@ -253491,6 +253501,16 @@
         }
       },
       "festival_id_to_instance": {
+        "aGgArakI~caturthI": {
+          "interval": {
+            "jd_end": 2458745.0814,
+            "jd_start": 2458744.0808,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "aGgArakI~caturthI"
+        },
         "aGgArakI~vighnarAja-mahAgaNapati-saGkaTahara-caturthI-vratam": {
           "interval": {
             "jd_end": 2458745.0814,
@@ -253554,16 +253574,6 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "dikpAla-pUjA~2"
-        },
-        "sukhA~aGgArakI~caturthI": {
-          "interval": {
-            "jd_end": 2458745.0814,
-            "jd_start": 2458744.0808,
-            "jsonClass": "Interval",
-            "name": "full_day"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "sukhA~aGgArakI~caturthI"
         },
         "vizvakarma~jayantI": {
           "interval": {
@@ -382655,6 +382665,20 @@
         "year": 2019
       }
     ],
+    "aGgArakI~caturthI": [
+      {
+        "day": 21,
+        "jsonClass": "Date",
+        "month": 5,
+        "year": 2019
+      },
+      {
+        "day": 17,
+        "jsonClass": "Date",
+        "month": 9,
+        "year": 2019
+      }
+    ],
     "aGgArakI~vighnarAja-mahAgaNapati-saGkaTahara-caturthI-vratam": [
       {
         "day": 17,
@@ -392981,18 +393005,6 @@
         "day": 7,
         "jsonClass": "Date",
         "month": 5,
-        "year": 2019
-      },
-      {
-        "day": 21,
-        "jsonClass": "Date",
-        "month": 5,
-        "year": 2019
-      },
-      {
-        "day": 17,
-        "jsonClass": "Date",
-        "month": 9,
         "year": 2019
       },
       {

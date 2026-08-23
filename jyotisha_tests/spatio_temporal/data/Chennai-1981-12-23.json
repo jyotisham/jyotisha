@@ -343,6 +343,16 @@
           "base_url": "https://github.com/jyotisham/adyatithi/blob/master/time_focus/graha-yuddha",
           "jsonClass": "RulesRepo",
           "name": "time_focus/graha-yuddha"
+        },
+        {
+          "base_url": "https://github.com/jyotisham/adyatithi/blob/master/time_focus/yoga_intersections",
+          "jsonClass": "RulesRepo",
+          "name": "time_focus/yoga_intersections"
+        },
+        {
+          "base_url": "https://github.com/jyotisham/adyatithi/blob/master/time_focus/vaara_conditioned",
+          "jsonClass": "RulesRepo",
+          "name": "time_focus/vaara_conditioned"
         }
       ],
       "tropical_month_start": "mAdhava_at_equinox"

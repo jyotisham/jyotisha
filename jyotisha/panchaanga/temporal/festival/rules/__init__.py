@@ -282,11 +282,17 @@ class HinduCalendarEvent(common.JsonObject):
       )
     elif self.timing.intersection_groups is not None:
       # Intersection (multi-anga conjunction) rules aren't keyed by a single (month_type, anga_type, month,
-      # anga) slot, so they don't fit the tree-indexed path below; store them flatly by id instead.
-      path = "yoga_intersections/%(id)s.toml" % dict(id=self.id)
-    elif self.timing.vaara is not None and self.timing.anga_type is None:
-      # A plain month+weekday rule (no single anga) likewise doesn't fit the anga_type/anga_number-indexed path.
-      path = "vaara_conditioned/%(id)s.toml" % dict(id=self.id)
+      # anga) slot, so they don't fit the tree-indexed path below; store them flatly by id instead. They live in
+      # their own dedicated repo (time_focus/yoga_intersections), whose base_dir already supplies that category
+      # path, so only the bare filename is appended here.
+      path = "%(id)s.toml" % dict(id=self.id)
+    elif self.timing.vaara is not None:
+      # A vaara-conditioned rule is driven by apply_vaara_conditioned_events regardless of whether it also sets
+      # anga_type/month_number (eg. pizAcamOcanam does), so it's stored here uniformly rather than falling into
+      # the anga_type/anga_number-indexed path below, which is specific to apply_month_anga_events. It lives in
+      # its own dedicated repo (time_focus/vaara_conditioned), whose base_dir already supplies that category
+      # path, so only the bare filename is appended here.
+      path = "%(id)s.toml" % dict(id=self.id)
     elif self.timing is None or self.timing.month_number is None:
       path = "description_only/%(id)s.toml" % dict(
         id=self.id
