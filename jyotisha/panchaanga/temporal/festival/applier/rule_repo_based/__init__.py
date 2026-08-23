@@ -8,6 +8,35 @@ from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
 from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
 
 
+# TOML-facing anga_type names for `intersection_groups`, mapped to the AngaType singletons. Kept distinct from
+# AngaType.from_name()'s (upper-cased AngaType.name) lookup since a couple of internal names are abbreviated
+# (eg. AngaType.SOLAR_NAKSH) in ways that would be needlessly cryptic to require rule authors to know.
+_INTERSECTION_ANGA_TYPES = {
+  "tithi": AngaType.TITHI,
+  "tithi_pada": AngaType.TITHI_PADA,
+  "nakshatra": AngaType.NAKSHATRA,
+  "nakshatra_pada": AngaType.NAKSHATRA_PADA,
+  "rashi": AngaType.RASHI,
+  "yoga": AngaType.YOGA,
+  "yoga_pada": AngaType.YOGA_PADA,
+  "karana": AngaType.KARANA,
+  "vara": AngaType.VARA,
+  "solar_nakshatra": AngaType.SOLAR_NAKSH,
+  "solar_nakshatra_pada": AngaType.SOLAR_NAKSH_PADA,
+}
+
+
+def _month_matches(daily_panchaanga, month_type, month_number):
+  """month_number may be None (no filter), a single month, or a list of months (any-of)."""
+  if month_number is None:
+    return True
+  months = month_number if isinstance(month_number, (list, tuple)) else [month_number]
+  if 0 in months:
+    return True
+  day_month = daily_panchaanga.get_date(month_type=month_type).month
+  return day_month in months
+
+
 class RuleLookupAssigner(FestivalAssigner):
   def assign_varalakshmi_vratam(self):
     """ varalakSmI-vratam is set directly off zrAvaNa-pUrNimA (tithi 15 of nija zrAvaNa mAsa, decided at
@@ -108,6 +137,41 @@ class RuleLookupAssigner(FestivalAssigner):
       self.apply_month_anga_events(day_panchaanga=dp, month_type=RulesRepo.LUNAR_MONTH_DIR, anga_type=AngaType.TITHI)
       self.apply_month_anga_events(day_panchaanga=dp, month_type=RulesRepo.LUNAR_MONTH_DIR, anga_type=AngaType.NAKSHATRA)
       self.apply_month_anga_events(day_panchaanga=dp, month_type=RulesRepo.LUNAR_MONTH_DIR, anga_type=AngaType.YOGA)
+    self.apply_anga_intersection_events()
+
+  @timebudget
+  def apply_anga_intersection_events(self):
+    """ Apply festivals declared via `[timing] intersection_groups = [[...]]` -- multi-anga conjunctions (tithi
+    AND nakshatra AND vara ..., possibly VARA among them), the TOML-driven counterpart of the hand-written
+    intersect_list calls to FestivalAssigner._assign_anga_intersection still used in solar.py/vaara.py. See
+    apply_month_anga_events()/apply_month_day_events() above for the single-anga counterparts of this method.
+    """
+    for fest_id, fest_rule in self.rules_collection.name_to_rule.items():
+      if fest_rule.timing is None or fest_rule.timing.intersection_groups is None:
+        continue
+      groups = [
+        [(_INTERSECTION_ANGA_TYPES[item['anga_type']], item['anga_number']) for item in group['angas']]
+        for group in fest_rule.timing.intersection_groups
+      ]
+      window = fest_rule.timing.get_window()
+      if window == "full_period":
+        for group in groups:
+          self._assign_anga_intersection(fest_id, group, jd_start=self.panchaanga.jd_start, jd_end=self.panchaanga.jd_end, show_debug_info=False)
+      else:
+        for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
+          daily_panchaanga = self.daily_panchaangas[d]
+          if not _month_matches(daily_panchaanga, fest_rule.timing.month_type, fest_rule.timing.month_number):
+            continue
+          if window == "sunrise_to_sunset":
+            jd_start, jd_end = daily_panchaanga.jd_sunrise, daily_panchaanga.jd_sunset
+          elif window == "sunrise_to_next_sunrise":
+            jd_start, jd_end = daily_panchaanga.jd_sunrise, daily_panchaanga.jd_next_sunrise
+          elif window == "padded_1_day":
+            jd_start, jd_end = daily_panchaanga.jd_sunrise - 1, daily_panchaanga.jd_sunset + 2
+          else:
+            raise ValueError("Unknown window %s for %s" % (window, fest_id))
+          for group in groups:
+            self._assign_anga_intersection(fest_id, group, jd_start=jd_start, jd_end=jd_end, show_debug_info=False)
 
   def apply_month_day_events(self, day_panchaanga, month_type):
     """Apply events set to take place on a given (ordinal) day of a given month. Eg. Jan 1 as per Julian calendar, Aug 15 as per Gregorian calendar, 1st day of sidereal solar month 6. See calls from apply_festival_from_rules_repos().

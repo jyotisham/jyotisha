@@ -94,6 +94,35 @@ class HinduCalendarEventTiming(common.JsonObject):
         "type": "integer",
         "description": "A festival may be 8 days before some other event xyz. The 8 is stored here.",
       },
+      "intersection_groups": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "angas": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "anga_type": {
+                    "type": "string",
+                    "description": "An AngaType name (eg. \"tithi\", \"nakshatra\", \"yoga\", \"karana\", \"vara\", \"solar_nakshatra\", \"nakshatra_pada\"), lower-cased.",
+                  },
+                  "anga_number": {
+                    "description": "Either a single anga index, or a list of indices (any-of / OR semantics).",
+                  },
+                },
+              },
+            },
+          },
+        },
+        "description": "A multi-anga conjunction (traditionally called a yoga): each entry's `angas` list is a group of angas that must ALL simultaneously hold (AND, within `window`); the festival is assigned wherever ANY one group is satisfied (OR across groups) -- most rules only need a single group. Mutually exclusive with anga_type/anga_number above.",
+      },
+      "window": {
+        "type": "string",
+        "enum": ["full_period", "sunrise_to_sunset", "sunrise_to_next_sunrise", "padded_1_day"],
+        "description": "Only used together with `intersection_groups`. Bounds to search for the conjunction within: the whole computed period, a single day's sunrise-to-sunset/sunrise-to-next-sunrise, or a day padded by 1 day on each side (for conjunctions that may straddle a day boundary). Defaults to full_period.",
+      },
     }
   }))
 
@@ -118,6 +147,9 @@ class HinduCalendarEventTiming(common.JsonObject):
 
   def get_priority(self):
     return "puurvaviddha" if self.priority is None else self.priority
+
+  def get_window(self):
+    return "full_period" if self.window is None else self.window
 
   def get_adhika_maasa_handling(self):
     if self.month_type == RulesRepo.LUNAR_MONTH_DIR:
@@ -206,6 +238,10 @@ class HinduCalendarEvent(common.JsonObject):
         offset=self.timing.offset,
         id=self.id
       )
+    elif self.timing.intersection_groups is not None:
+      # Intersection (multi-anga conjunction) rules aren't keyed by a single (month_type, anga_type, month,
+      # anga) slot, so they don't fit the tree-indexed path below; store them flatly by id instead.
+      path = "yoga_intersections/%(id)s.toml" % dict(id=self.id)
     elif self.timing is None or self.timing.month_number is None:
       path = "description_only/%(id)s.toml" % dict(
         id=self.id

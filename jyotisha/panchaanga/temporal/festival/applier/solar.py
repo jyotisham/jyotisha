@@ -334,59 +334,6 @@ class SolarFestivalAssigner(FestivalAssigner):
 
           return
 
-  def _assign_yoga(self, yoga_name, intersect_list, jd_start=None, jd_end=None, show_debug_info=True):
-    if jd_start is None:
-      jd_start = self.panchaanga.jd_start
-    if jd_end is None:
-      jd_end = self.panchaanga.jd_end
-    jd_start_in = jd_start
-    jd_end_in = jd_end
-    anga_list = []
-    yoga_happens = True
-    for anga_type, target_anga_id in intersect_list:
-      finder = zodiac.AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=anga_type)
-      anga = finder.find(jd1 = jd_start, jd2=jd_end, target_anga_id=target_anga_id)
-      if anga is None:
-        if show_debug_info:
-          msg = ' + '.join(['%s %d' % (intersect_list[i][0], intersect_list[i][1]) for i in range(len(intersect_list))])
-          logging.debug('No %s involving %s in span %s!' % (yoga_name, msg, Interval(jd_start=jd_start_in, jd_end=jd_end_in)))
-        yoga_happens = False
-        break
-      else:
-        if anga.jd_start is None:
-          anga.jd_start = jd_start
-        if anga.jd_end is None:
-          anga.jd_end = jd_end
-
-      if anga.jd_start is not None:
-        jd_start = anga.jd_start
-      if anga.jd_end is not None:
-        jd_end = anga.jd_end
-      anga_list.append(anga)
-
-    if yoga_happens:
-      jd_start, jd_end = max([x.jd_start for x in anga_list]), min([x.jd_end for x in anga_list])
-      if jd_start > jd_end or jd_start > self.panchaanga.jd_end:
-        if show_debug_info:
-          msg = ' + '.join(['%s %d' % (intersect_list[i][0], intersect_list[i][1]) for i in range(len(intersect_list))])
-          logging.debug('No %s involving %s in span %s!' % (msg, yoga_name, Interval(jd_start=jd_start_in, jd_end=jd_end_in)))
-      elif (jd_end - jd_start) < 1/1800:  # Less than 1 Kalā
-        if show_debug_info:
-          msg = ' + '.join(['%s %d' % (intersect_list[i][0], intersect_list[i][1]) for i in range(len(intersect_list))])
-          logging.debug('Not assigning %s involving %s in span %s due to extremely short duration (%s seconds)!' % (msg, yoga_name, Interval(jd_start=jd_start_in, jd_end=jd_end_in), (jd_end - jd_start) * 24 * 60 * 60))
-      else:
-        fday = int(floor(jd_start) - floor(self.daily_panchaangas[0].julian_day_start))
-        if jd_start < self.daily_panchaangas[fday].jd_sunrise:
-          fday -= 1
-        jd_midnight_local = self.daily_panchaangas[fday + 1].julian_day_start
-        if jd_start > jd_midnight_local and jd_end > self.daily_panchaangas[fday + 1].jd_sunrise:
-          fday += 1
-        if show_debug_info:
-          logging.debug(f'Adding {yoga_name} from {Interval(jd_start=jd_start, jd_end=jd_end)} on {self.daily_panchaangas[fday].date}')
-        self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=yoga_name, interval=Interval(jd_start=jd_start, jd_end=jd_end)), date=self.daily_panchaangas[fday].date)
-
-    return yoga_happens
-
   def assign_month_day_mesha_sankraanti(self):
     if 'sauramAna-saMvatsarArambhaH' not in self.rules_collection.name_to_rule:
       return 
@@ -450,9 +397,9 @@ class SolarFestivalAssigner(FestivalAssigner):
   def assign_gajachhaya_yoga(self):
     if 'gajacchAyA-yOgaH' not in self.rules_collection.name_to_rule:
       return 
-    self._assign_yoga('gajacchAyA-yOgaH', [(zodiac.AngaType.SOLAR_NAKSH, 13), (zodiac.AngaType.NAKSHATRA, 10), (zodiac.AngaType.TITHI, 28)],
+    self._assign_anga_intersection('gajacchAyA-yOgaH', [(zodiac.AngaType.SOLAR_NAKSH, 13), (zodiac.AngaType.NAKSHATRA, 10), (zodiac.AngaType.TITHI, 28)],
                       jd_start=self.panchaanga.jd_start, jd_end=self.panchaanga.jd_end)
-    self._assign_yoga('gajacchAyA-yOgaH', [(zodiac.AngaType.SOLAR_NAKSH, 13), (zodiac.AngaType.NAKSHATRA, 13), (zodiac.AngaType.TITHI, 30)],
+    self._assign_anga_intersection('gajacchAyA-yOgaH', [(zodiac.AngaType.SOLAR_NAKSH, 13), (zodiac.AngaType.NAKSHATRA, 13), (zodiac.AngaType.TITHI, 30)],
                       jd_start=self.panchaanga.jd_start, jd_end=self.panchaanga.jd_end)
 
   def assign_pushkara_yoga(self):
@@ -480,10 +427,10 @@ class SolarFestivalAssigner(FestivalAssigner):
       wday = daily_panchaanga.date.get_weekday()
       if p_tithi is not None and wday in PUSHKARA_WDAY:
         if tp_nakshatra is not None:
-          self._assign_yoga('tripuSkara-yOgaH~%d' % wday, [(zodiac.AngaType.NAKSHATRA, tp_nakshatra), (zodiac.AngaType.TITHI, p_tithi)],
+          self._assign_anga_intersection('tripuSkara-yOgaH~%d' % wday, [(zodiac.AngaType.NAKSHATRA, tp_nakshatra), (zodiac.AngaType.TITHI, p_tithi)],
             jd_start=daily_panchaanga.jd_sunrise, jd_end=daily_panchaanga.jd_next_sunrise, show_debug_info=False)
         if dp_nakshatra is not None:
-          self._assign_yoga('dvipuSkara-yOgaH~%d' % wday, [(zodiac.AngaType.NAKSHATRA, dp_nakshatra), (zodiac.AngaType.TITHI, p_tithi)],
+          self._assign_anga_intersection('dvipuSkara-yOgaH~%d' % wday, [(zodiac.AngaType.NAKSHATRA, dp_nakshatra), (zodiac.AngaType.TITHI, p_tithi)],
             jd_start=daily_panchaanga.jd_sunrise, jd_end=daily_panchaanga.jd_next_sunrise, show_debug_info=False)
 
   def assign_ayushmad_bava_saumya_yoga(self):
@@ -495,7 +442,7 @@ class SolarFestivalAssigner(FestivalAssigner):
       # AYUSHMAN BAVA SAUMYA
       if self.daily_panchaangas[d].date.get_weekday() == 3:
         for karana_ID in BAVA_KARANA:
-          self._assign_yoga('AyuSmad-bava-saumya-saMyOgaH', [(zodiac.AngaType.YOGA, AYUSHMAD_YOGA), (zodiac.AngaType.KARANA, karana_ID)],
+          self._assign_anga_intersection('AyuSmad-bava-saumya-saMyOgaH', [(zodiac.AngaType.YOGA, AYUSHMAD_YOGA), (zodiac.AngaType.KARANA, karana_ID)],
                             jd_start=self.daily_panchaangas[d].jd_sunrise, jd_end=self.daily_panchaangas[d].jd_sunset, show_debug_info=False)
 
 
@@ -517,7 +464,7 @@ class SolarFestivalAssigner(FestivalAssigner):
           karana_ID = sunrise_zodiac.get_anga(zodiac.AngaType.KARANA).index
         elif sunset_zodiac.get_anga(zodiac.AngaType.KARANA).index in VISHTI:
           karana_ID = sunset_zodiac.get_anga(zodiac.AngaType.KARANA).index
-        self._assign_yoga('padmaka-yOga-puNyakAlaH', [(zodiac.AngaType.KARANA, karana_ID), (zodiac.AngaType.YOGA, 17)],
+        self._assign_anga_intersection('padmaka-yOga-puNyakAlaH', [(zodiac.AngaType.KARANA, karana_ID), (zodiac.AngaType.YOGA, 17)],
                           jd_start=daily_panchaanga.jd_sunrise, jd_end=daily_panchaanga.jd_sunset)
         # self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='padmaka-yOga-puNyakAlaH', interval=Interval(jd_start=None, jd_end=None)), date=daily_panchaanga.date)
 
@@ -526,7 +473,7 @@ class SolarFestivalAssigner(FestivalAssigner):
             sunset_zodiac.get_anga(zodiac.AngaType.TITHI).index % 30 == 7):
         self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='padmaka-yOgaH-2', interval=Interval(jd_start=None, jd_end=None)), date=daily_panchaanga.date)
 
-    self._assign_yoga('padmaka-yOgaH-3', [(zodiac.AngaType.SOLAR_NAKSH, 16), (zodiac.AngaType.NAKSHATRA, 3)],
+    self._assign_anga_intersection('padmaka-yOgaH-3', [(zodiac.AngaType.SOLAR_NAKSH, 16), (zodiac.AngaType.NAKSHATRA, 3)],
                       jd_start=self.panchaanga.jd_start, jd_end=self.panchaanga.jd_end)
 
   def assign_mahodaya_ardhodaya(self):
@@ -555,7 +502,7 @@ class SolarFestivalAssigner(FestivalAssigner):
       return
     for d, daily_panchaanga in enumerate(self.daily_panchaangas):
       if daily_panchaanga.lunar_date.month.index == 8 and daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index in (11, 12):
-        self._assign_yoga('cAturmAsya-vrata-pAraNa-niSiddha-yOgaH', [(zodiac.AngaType.NAKSHATRA_PADA, 108), (zodiac.AngaType.TITHI, 12)],
+        self._assign_anga_intersection('cAturmAsya-vrata-pAraNa-niSiddha-yOgaH', [(zodiac.AngaType.NAKSHATRA_PADA, 108), (zodiac.AngaType.TITHI, 12)],
                       jd_start=daily_panchaanga.jd_sunrise, jd_end=daily_panchaanga.jd_sunset)
   
   def assign_anadhyayana_dvadashi_yoga(self):
@@ -565,7 +512,7 @@ class SolarFestivalAssigner(FestivalAssigner):
         if daily_panchaanga.lunar_date.month.index in [4, 6, 8]:
           if daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == 12 or self.daily_panchaangas[d + 1].sunrise_day_angas.tithi_at_sunrise.index == 12:
             for _nakshatra in [17, 22, 27]:
-              self._assign_yoga('anadhyAyaH~dvAdazI-yOgaH', [(zodiac.AngaType.NAKSHATRA, _nakshatra), (zodiac.AngaType.TITHI, 12)], jd_start=daily_panchaanga.jd_sunrise - 1, jd_end=daily_panchaanga.jd_sunset + 2, show_debug_info=False)
+              self._assign_anga_intersection('anadhyAyaH~dvAdazI-yOgaH', [(zodiac.AngaType.NAKSHATRA, _nakshatra), (zodiac.AngaType.TITHI, 12)], jd_start=daily_panchaanga.jd_sunrise - 1, jd_end=daily_panchaanga.jd_sunset + 2, show_debug_info=False)
 
   def assign_vaarunii_trayodashi(self):
     if 'vAruNI~trayOdazI' not in self.rules_collection.name_to_rule:
@@ -577,10 +524,10 @@ class SolarFestivalAssigner(FestivalAssigner):
       # VARUNI TRAYODASHI
       if day_panchaanga.lunar_date.month.index == 12 and (tithi_sunrise == 28 or tithi_sunset == 28):
         if day_panchaanga.date.get_weekday() == 6:
-          if not self._assign_yoga('mahAmahAvAruNI~trayOdazI', [(zodiac.AngaType.NAKSHATRA, 24), (zodiac.AngaType.TITHI, 28), (zodiac.AngaType.YOGA, 23)], jd_start = day_panchaanga.jd_sunrise, jd_end = day_panchaanga.jd_next_sunrise):
-            self._assign_yoga('mahAvAruNI~trayOdazI', [(zodiac.AngaType.NAKSHATRA, 24), (zodiac.AngaType.TITHI, 28)], jd_start = day_panchaanga.jd_sunrise, jd_end = day_panchaanga.jd_next_sunrise)
+          if not self._assign_anga_intersection('mahAmahAvAruNI~trayOdazI', [(zodiac.AngaType.NAKSHATRA, 24), (zodiac.AngaType.TITHI, 28), (zodiac.AngaType.YOGA, 23)], jd_start = day_panchaanga.jd_sunrise, jd_end = day_panchaanga.jd_next_sunrise):
+            self._assign_anga_intersection('mahAvAruNI~trayOdazI', [(zodiac.AngaType.NAKSHATRA, 24), (zodiac.AngaType.TITHI, 28)], jd_start = day_panchaanga.jd_sunrise, jd_end = day_panchaanga.jd_next_sunrise)
         else:
-            self._assign_yoga('vAruNI~trayOdazI', [(zodiac.AngaType.NAKSHATRA, 24), (zodiac.AngaType.TITHI, 28)], jd_start = day_panchaanga.jd_sunrise, jd_end = day_panchaanga.jd_next_sunrise)
+            self._assign_anga_intersection('vAruNI~trayOdazI', [(zodiac.AngaType.NAKSHATRA, 24), (zodiac.AngaType.TITHI, 28)], jd_start = day_panchaanga.jd_sunrise, jd_end = day_panchaanga.jd_next_sunrise)
 
   def assign_mahamagha_utsava(self):
     if 'mahAmaghOtsavaH' not in self.rules_collection.name_to_rule:

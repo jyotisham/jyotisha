@@ -2,11 +2,15 @@ import copy
 import logging
 import os
 import sys
+from math import floor
+from numbers import Number
 
-from jyotisha.panchaanga.temporal import PeriodicPanchaangaApplier, era
+from jyotisha.panchaanga.temporal import PeriodicPanchaangaApplier, era, zodiac
 from jyotisha.panchaanga.temporal import festival
-from jyotisha.panchaanga.temporal.festival import rules
+from jyotisha.panchaanga.temporal.festival import rules, FestivalInstance
 from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
+from jyotisha.panchaanga.temporal.interval import Interval, AngaSpan
+from jyotisha.panchaanga.temporal.zodiac.angas import AngaType, Anga
 from sanskrit_data.schema import common
 from timebudget import timebudget
 
@@ -20,6 +24,100 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
     self.festival_options = panchaanga.computation_system.festival_options
     self.rules_collection = rules.RulesCollection.get_cached(
       repos_tuple=tuple(panchaanga.computation_system.festival_options.repos), julian_handling=self.festival_options.julian_handling)
+
+  def _find_vara_span(self, jd1, jd2, target_anga_id):
+    """ Resolves an AngaType.VARA span the same way every other per-day anga span is bounded elsewhere in this
+    codebase (sunrise to next sunrise), rather than via AngaSpanFinder's brentq-based ecliptic longitude search
+    (wrong tool for a step function like weekday, and liable to drift from the timezone-correct
+    daily_panchaanga.date.get_weekday() used everywhere else). Scans self.daily_panchaangas (already computed for
+    this run) for the day whose weekday matches target_anga_id, so results are byte-identical to date.get_weekday().
+    """
+    if isinstance(target_anga_id, Number):
+      target_anga = Anga.get_cached(index=target_anga_id, anga_type_id=AngaType.VARA.name)
+    else:
+      target_anga = target_anga_id
+    for daily_panchaanga in self.daily_panchaangas:
+      if daily_panchaanga.jd_next_sunrise is None or daily_panchaanga.jd_next_sunrise <= jd1:
+        continue
+      if daily_panchaanga.jd_sunrise is None or daily_panchaanga.jd_sunrise >= jd2:
+        break
+      if daily_panchaanga.date.get_weekday() + 1 == target_anga.index:
+        return AngaSpan(jd_start=daily_panchaanga.jd_sunrise, jd_end=daily_panchaanga.jd_next_sunrise, anga=target_anga)
+    return None
+
+  def _assign_anga_intersection(self, yoga_name, intersect_list, jd_start=None, jd_end=None, show_debug_info=True):
+    """ Assign a festival wherever every (anga_type, target_anga_id) pair in intersect_list simultaneously holds
+    within [jd_start, jd_end]. target_anga_id may be a single index or a list of indices (any-of / OR semantics
+    for that anga -- eg. karana in {2, 9, 16, ...}); list-valued entries are expanded by trying each candidate
+    value independently (so multiple list-valued angas in the same call are tried combinatorially).
+
+    anga_type may be AngaType.VARA (weekday), resolved via _find_vara_span rather than ecliptic search.
+    """
+    if jd_start is None:
+      jd_start = self.panchaanga.jd_start
+    if jd_end is None:
+      jd_end = self.panchaanga.jd_end
+
+    for i, (anga_type, target_anga_id) in enumerate(intersect_list):
+      if isinstance(target_anga_id, (list, tuple)):
+        any_happened = False
+        for candidate in target_anga_id:
+          expanded = list(intersect_list)
+          expanded[i] = (anga_type, candidate)
+          any_happened = self._assign_anga_intersection(
+            yoga_name, expanded, jd_start=jd_start, jd_end=jd_end, show_debug_info=show_debug_info) or any_happened
+        return any_happened
+
+    jd_start_in = jd_start
+    jd_end_in = jd_end
+    anga_list = []
+    yoga_happens = True
+    for anga_type, target_anga_id in intersect_list:
+      if anga_type == AngaType.VARA:
+        anga = self._find_vara_span(jd1=jd_start, jd2=jd_end, target_anga_id=target_anga_id)
+      else:
+        finder = zodiac.AngaSpanFinder.get_cached(ayanaamsha_id=self.ayanaamsha_id, anga_type=anga_type)
+        anga = finder.find(jd1=jd_start, jd2=jd_end, target_anga_id=target_anga_id)
+      if anga is None:
+        if show_debug_info:
+          msg = ' + '.join(['%s %s' % (intersect_list[i][0], intersect_list[i][1]) for i in range(len(intersect_list))])
+          logging.debug('No %s involving %s in span %s!' % (yoga_name, msg, Interval(jd_start=jd_start_in, jd_end=jd_end_in)))
+        yoga_happens = False
+        break
+      else:
+        if anga.jd_start is None:
+          anga.jd_start = jd_start
+        if anga.jd_end is None:
+          anga.jd_end = jd_end
+
+      if anga.jd_start is not None:
+        jd_start = anga.jd_start
+      if anga.jd_end is not None:
+        jd_end = anga.jd_end
+      anga_list.append(anga)
+
+    if yoga_happens:
+      jd_start, jd_end = max([x.jd_start for x in anga_list]), min([x.jd_end for x in anga_list])
+      if jd_start > jd_end or jd_start > self.panchaanga.jd_end:
+        if show_debug_info:
+          msg = ' + '.join(['%s %s' % (intersect_list[i][0], intersect_list[i][1]) for i in range(len(intersect_list))])
+          logging.debug('No %s involving %s in span %s!' % (msg, yoga_name, Interval(jd_start=jd_start_in, jd_end=jd_end_in)))
+      elif (jd_end - jd_start) < 1/1800:  # Less than 1 Kalā
+        if show_debug_info:
+          msg = ' + '.join(['%s %s' % (intersect_list[i][0], intersect_list[i][1]) for i in range(len(intersect_list))])
+          logging.debug('Not assigning %s involving %s in span %s due to extremely short duration (%s seconds)!' % (msg, yoga_name, Interval(jd_start=jd_start_in, jd_end=jd_end_in), (jd_end - jd_start) * 24 * 60 * 60))
+      else:
+        fday = int(floor(jd_start) - floor(self.daily_panchaangas[0].julian_day_start))
+        if jd_start < self.daily_panchaangas[fday].jd_sunrise:
+          fday -= 1
+        jd_midnight_local = self.daily_panchaangas[fday + 1].julian_day_start
+        if jd_start > jd_midnight_local and jd_end > self.daily_panchaangas[fday + 1].jd_sunrise:
+          fday += 1
+        if show_debug_info:
+          logging.debug(f'Adding {yoga_name} from {Interval(jd_start=jd_start, jd_end=jd_end)} on {self.daily_panchaangas[fday].date}')
+        self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=yoga_name, interval=Interval(jd_start=jd_start, jd_end=jd_end)), date=self.daily_panchaangas[fday].date)
+
+    return yoga_happens
 
   @timebudget
   def assign_festival_numbers(self):
