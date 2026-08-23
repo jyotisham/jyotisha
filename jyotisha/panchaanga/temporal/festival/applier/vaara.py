@@ -14,7 +14,6 @@ from sanskrit_data.schema import common
 class VaraFestivalAssigner(FestivalAssigner):
   def assign_all(self):
     self.assign_bhriguvara_subrahmanya_vratam()
-    self.assign_masa_vara_yoga_fests_tn()
     self.assign_nakshatra_vara_yoga_vratam()
     self.assign_tithi_vara_yoga_mangala_angaaraka()
     self.assign_tithi_vara_yoga_kRSNAGgAraka()
@@ -43,21 +42,6 @@ class VaraFestivalAssigner(FestivalAssigner):
           else:
             self.panchaanga.add_festival(fest_id=festival_name, date=day_panchaanga.date)
 
-
-  def assign_masa_vara_yoga_fests_tn(self):
-    festival_name = 'AvaNi~JAyir2r2ukkizhamai'
-    if festival_name not in self.rules_collection.name_to_rule:
-      return
-    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
-      # SOLAR MONTH-WEEKDAY FESTIVALS
-      for (mwd_fest_m, mwd_fest_wd, mwd_fest_name) in ((5, 0, 'AvaNi~JAyir2r2ukkizhamai'),
-                                                       (6, 6, 'puraTTAci~can2ikkizhamai'),
-                                                       (8, 0, 'kArttigai~JAyir2r2ukkizhamai'),
-                                                       (4, 5, 'ADi~veLLikkizhamai'),
-                                                       (10, 5, 'tai~veLLikkizhamai'),
-                                                       (11, 2, 'mAci~cevvAy')):
-        if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == mwd_fest_m and self.daily_panchaangas[d].date.get_weekday() == mwd_fest_wd:
-          self.panchaanga.add_festival(fest_id=mwd_fest_name, date=self.daily_panchaangas[d].date)
 
   def assign_tithi_vara_yoga_mangala_angaaraka(self):
     if 'aGgArakI~caturthI' not in self.rules_collection.name_to_rule:
