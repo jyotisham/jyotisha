@@ -32,6 +32,42 @@ def transliterate_quoted_text(text, script):
   return transliterated_text
 
 
+# Plain-spelling aliases that HK-Dravidian transliteration (see _build_vaara_name_to_index) doesn't produce
+# directly -- eg. its "maGgalaH"/"zukraH"/"zaniH"/"bhRguH" lower/strip to "maggala"/"zukra"/"zani"/"bhrgu",
+# not the common spellings below -- so these are added on top rather than derived.
+_VAARA_COMMON_SPELLING_ALIASES = {"mangala": 3, "shukra": 6, "shani": 7, "bhrigu": 6}
+
+
+def _build_vaara_name_to_index():
+  """Accepted names for AngaType.VARA's 1=Sunday..7=Saturday index (so a TOML rule can write eg.
+  `vaara = "budha"` instead of a bare number), built from the same VARA_NAMES/VARA_NAMES_ALT data
+  AngaType.VARA's own names_dict is built from (see zodiac/angas.py), so the accepted spellings stay in sync
+  with what the codebase already considers each weekday's name(s) to be -- plus a few common plain-English
+  spellings (_VAARA_COMMON_SPELLING_ALIASES) that the HK-Dravidian-derived forms don't cover."""
+  primary = names.NAMES['VARA_NAMES']['sa']['hk_dravidian']
+  alt = names.NAMES['VARA_NAMES_ALT']['sa']['hk_dravidian']
+  name_to_index = {}
+  for index_0based, (p, a) in enumerate(zip(primary, alt)):
+    for name in (p, a):
+      name_to_index[name.rstrip('H').lower()] = index_0based + 1
+  name_to_index.update(_VAARA_COMMON_SPELLING_ALIASES)
+  return name_to_index
+
+
+VAARA_NAME_TO_INDEX = _build_vaara_name_to_index()
+
+
+def resolve_vaara_index(value):
+  """Resolve a `vaara` (or an intersection_groups `anga_number` for anga_type="vaara") value -- either an int
+  (1=Sunday..7=Saturday) or one of VAARA_NAME_TO_INDEX's names (case-insensitive) -- to that integer index."""
+  if value is None or isinstance(value, int):
+    return value
+  key = value.strip().lower()
+  if key not in VAARA_NAME_TO_INDEX:
+    raise ValueError("Unrecognized vaara name %r (expected an int 1-7, or one of %s)" % (value, sorted(VAARA_NAME_TO_INDEX)))
+  return VAARA_NAME_TO_INDEX[key]
+
+
 def clean_id(id):
   id = id.replace('/','__').strip('{}')
   id = regex.sub(" +", "_", id)
@@ -106,10 +142,10 @@ class HinduCalendarEventTiming(common.JsonObject):
                 "properties": {
                   "anga_type": {
                     "type": "string",
-                    "description": "An AngaType name (eg. \"tithi\", \"nakshatra\", \"yoga\", \"karana\", \"vara\", \"solar_nakshatra\", \"nakshatra_pada\"), lower-cased.",
+                    "description": "An AngaType name (eg. \"tithi\", \"nakshatra\", \"yoga\", \"karana\", \"vaara\", \"solar_nakshatra\", \"nakshatra_pada\"), lower-cased.",
                   },
                   "anga_number": {
-                    "description": "Either a single anga index, or a list of indices (any-of / OR semantics).",
+                    "description": "Either a single anga index, or a list of indices (any-of / OR semantics). For anga_type=\"vaara\", a name (eg. \"budha\") is also accepted instead of an index -- see VAARA_NAME_TO_INDEX.",
                   },
                 },
               },
@@ -123,9 +159,8 @@ class HinduCalendarEventTiming(common.JsonObject):
         "enum": ["full_period", "sunrise_to_sunset", "sunrise_to_next_sunrise", "padded_1_day"],
         "description": "Only used together with `intersection_groups`. Bounds to search for the conjunction within: the whole computed period, a single day's sunrise-to-sunset/sunrise-to-next-sunrise, or a day padded by 1 day on each side (for conjunctions that may straddle a day boundary). Defaults to full_period.",
       },
-      "vara": {
-        "type": "integer",
-        "description": "A weekday filter (1=Sunday...7=Saturday, matching AngaType.VARA's index convention): the festival recurs on every day within `month_type`/`month_number` (and, if `anga_type`/`anga_number` are also set, touching that single anga) whose weekday matches. Unlike `intersection_groups`, this is a plain per-day predicate over already-known daily facts -- no search. Mutually exclusive with `intersection_groups`.",
+      "vaara": {
+        "description": "A weekday filter: either an int (1=Sunday...7=Saturday, matching AngaType.VARA's index convention) or a name (eg. \"budha\", \"saumya\" -- see VAARA_NAME_TO_INDEX for all accepted names/aliases). The festival recurs on every day within `month_type`/`month_number` (and, if `anga_type`/`anga_number` are also set, touching that single anga) whose weekday matches. Unlike `intersection_groups`, this is a plain per-day predicate over already-known daily facts -- no search. Mutually exclusive with `intersection_groups`.",
       },
     }
   }))
@@ -154,6 +189,9 @@ class HinduCalendarEventTiming(common.JsonObject):
 
   def get_window(self):
     return "full_period" if self.window is None else self.window
+
+  def get_vaara_index(self):
+    return resolve_vaara_index(self.vaara)
 
   def get_adhika_maasa_handling(self):
     if self.month_type == RulesRepo.LUNAR_MONTH_DIR:
@@ -246,9 +284,9 @@ class HinduCalendarEvent(common.JsonObject):
       # Intersection (multi-anga conjunction) rules aren't keyed by a single (month_type, anga_type, month,
       # anga) slot, so they don't fit the tree-indexed path below; store them flatly by id instead.
       path = "yoga_intersections/%(id)s.toml" % dict(id=self.id)
-    elif self.timing.vara is not None and self.timing.anga_type is None:
+    elif self.timing.vaara is not None and self.timing.anga_type is None:
       # A plain month+weekday rule (no single anga) likewise doesn't fit the anga_type/anga_number-indexed path.
-      path = "vara_conditioned/%(id)s.toml" % dict(id=self.id)
+      path = "vaara_conditioned/%(id)s.toml" % dict(id=self.id)
     elif self.timing is None or self.timing.month_number is None:
       path = "description_only/%(id)s.toml" % dict(
         id=self.id

@@ -5,7 +5,7 @@ from timebudget import timebudget
 from jyotisha.panchaanga.temporal import Anga, AngaType, get_2_day_interval_boundary_angas
 from jyotisha.panchaanga.temporal.festival import priority_decision
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
-from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
+from jyotisha.panchaanga.temporal.festival.rules import RulesRepo, resolve_vaara_index
 
 
 # TOML-facing anga_type names for `intersection_groups`, mapped to the AngaType singletons. Kept distinct from
@@ -20,10 +20,20 @@ _INTERSECTION_ANGA_TYPES = {
   "yoga": AngaType.YOGA,
   "yoga_pada": AngaType.YOGA_PADA,
   "karana": AngaType.KARANA,
-  "vara": AngaType.VARA,
+  "vaara": AngaType.VARA,
   "solar_nakshatra": AngaType.SOLAR_NAKSH,
   "solar_nakshatra_pada": AngaType.SOLAR_NAKSH_PADA,
 }
+
+
+def _resolve_anga_number(anga_type_str, anga_number):
+  """anga_number for anga_type="vaara" may be a name (or list of names) instead of an index; everything else
+  passes through unchanged."""
+  if anga_type_str != "vaara":
+    return anga_number
+  if isinstance(anga_number, (list, tuple)):
+    return [resolve_vaara_index(v) for v in anga_number]
+  return resolve_vaara_index(anga_number)
 
 
 def _month_matches(daily_panchaanga, month_type, month_number):
@@ -138,25 +148,27 @@ class RuleLookupAssigner(FestivalAssigner):
       self.apply_month_anga_events(day_panchaanga=dp, month_type=RulesRepo.LUNAR_MONTH_DIR, anga_type=AngaType.NAKSHATRA)
       self.apply_month_anga_events(day_panchaanga=dp, month_type=RulesRepo.LUNAR_MONTH_DIR, anga_type=AngaType.YOGA)
     self.apply_anga_intersection_events()
-    self.apply_vara_conditioned_events()
+    self.apply_vaara_conditioned_events()
 
   @timebudget
-  def apply_vara_conditioned_events(self):
-    """ Apply festivals declared via `[timing] vara = N` -- a plain weekday filter, for festivals that recur on
-    every day matching (month, weekday, and optionally a single anga touching that day), with no disambiguation
-    and no anga-span search: the trivial "month/anga + weekday" shape (eg. kArttika~sOmavAsaraH: lunar month 8,
-    every Monday), as opposed to the genuine multi-anga conjunctions apply_anga_intersection_events() searches
-    for. See that method and apply_month_anga_events() above for the other two (heavier) mechanisms.
+  def apply_vaara_conditioned_events(self):
+    """ Apply festivals declared via `[timing] vaara = ...` -- a plain weekday filter, for festivals that recur
+    on every day matching (month, weekday, and optionally a single anga touching that day), with no
+    disambiguation and no anga-span search: the trivial "month/anga + weekday" shape (eg. kArttika~sOmavAsaraH:
+    lunar month 8, every Monday), as opposed to the genuine multi-anga conjunctions
+    apply_anga_intersection_events() searches for. See that method and apply_month_anga_events() above for the
+    other two (heavier) mechanisms.
     """
     for fest_id, fest_rule in self.rules_collection.name_to_rule.items():
-      if fest_rule.timing is None or fest_rule.timing.vara is None:
+      if fest_rule.timing is None or fest_rule.timing.vaara is None:
         continue
+      vaara_index = fest_rule.timing.get_vaara_index()
       target_anga = None
       if fest_rule.timing.anga_type is not None:
         target_anga = Anga.get_cached(index=fest_rule.timing.anga_number, anga_type_id=_INTERSECTION_ANGA_TYPES[fest_rule.timing.anga_type].name)
       for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
         daily_panchaanga = self.daily_panchaangas[d]
-        if daily_panchaanga.date.get_weekday() + 1 != fest_rule.timing.vara:
+        if daily_panchaanga.date.get_weekday() + 1 != vaara_index:
           continue
         if not _month_matches(daily_panchaanga, fest_rule.timing.month_type, fest_rule.timing.month_number):
           continue
@@ -167,7 +179,7 @@ class RuleLookupAssigner(FestivalAssigner):
   @timebudget
   def apply_anga_intersection_events(self):
     """ Apply festivals declared via `[timing] intersection_groups = [[...]]` -- multi-anga conjunctions (tithi
-    AND nakshatra AND vara ..., possibly VARA among them), the TOML-driven counterpart of the hand-written
+    AND nakshatra AND vaara ..., possibly VARA among them), the TOML-driven counterpart of the hand-written
     intersect_list calls to FestivalAssigner._assign_anga_intersection still used in solar.py/vaara.py. See
     apply_month_anga_events()/apply_month_day_events() above for the single-anga counterparts of this method.
     """
@@ -175,7 +187,7 @@ class RuleLookupAssigner(FestivalAssigner):
       if fest_rule.timing is None or fest_rule.timing.intersection_groups is None:
         continue
       groups = [
-        [(_INTERSECTION_ANGA_TYPES[item['anga_type']], item['anga_number']) for item in group['angas']]
+        [(_INTERSECTION_ANGA_TYPES[item['anga_type']], _resolve_anga_number(item['anga_type'], item['anga_number'])) for item in group['angas']]
         for group in fest_rule.timing.intersection_groups
       ]
       window = fest_rule.timing.get_window()
