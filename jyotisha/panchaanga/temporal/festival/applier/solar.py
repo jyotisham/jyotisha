@@ -26,7 +26,6 @@ logging.basicConfig(
 
 class SolarFestivalAssigner(FestivalAssigner):
   def assign_all(self):
-    self.assign_gajachhaya_yoga()
     self.assign_pushkara_yoga()
     self.assign_sidereal_sankranti_punyakaala()
     self.assign_mahodaya_ardhodaya()
@@ -49,7 +48,9 @@ class SolarFestivalAssigner(FestivalAssigner):
     self.assign_mahamagha_utsava()
 
   def assign_pitr_dina(self):
-    self.assign_gajachhaya_yoga()
+    # gajacchAyA-yOgaH is now TOML-driven (intersection_groups), computed automatically by
+    # RuleLookupAssigner.apply_anga_intersection_events() as part of the main pipeline -- not by this
+    # (currently uncalled) selective assigner.
     self.assign_sidereal_sankranti_punyakaala()
     self.assign_mahodaya_ardhodaya()
     self.assign_vishesha_vyatipata()
@@ -394,13 +395,6 @@ class SolarFestivalAssigner(FestivalAssigner):
         self.panchaanga.delete_festival_date(fest_id='vyatIpAta-zrAddham', date=date)
         self.panchaanga.add_festival(fest_id='mahAvyatIpAta-zrAddham', date=date)
 
-  def assign_gajachhaya_yoga(self):
-    if 'gajacchAyA-yOgaH' not in self.rules_collection.name_to_rule:
-      return 
-    self._assign_anga_intersection('gajacchAyA-yOgaH', [(zodiac.AngaType.SOLAR_NAKSH, 13), (zodiac.AngaType.NAKSHATRA, 10), (zodiac.AngaType.TITHI, 28)],
-                      jd_start=self.panchaanga.jd_start, jd_end=self.panchaanga.jd_end)
-    self._assign_anga_intersection('gajacchAyA-yOgaH', [(zodiac.AngaType.SOLAR_NAKSH, 13), (zodiac.AngaType.NAKSHATRA, 13), (zodiac.AngaType.TITHI, 30)],
-                      jd_start=self.panchaanga.jd_start, jd_end=self.panchaanga.jd_end)
 
   def assign_pushkara_yoga(self):
     if 'tripuSkara-yOgaH~0' not in self.rules_collection.name_to_rule:
