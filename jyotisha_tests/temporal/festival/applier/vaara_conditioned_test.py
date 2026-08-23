@@ -93,3 +93,38 @@ def test_angaaraki_caturthi():
   plain_days = set(panchaanga.festival_id_to_days.get('aGgArakI~caturthI', set()))
   assert Date(2015, 9, 1) in plain_days  # tithi 18->19 at sunset -- old code mislabeled this sukhA~
   assert Date(2016, 4, 26) in plain_days  # tithi 19 all day -- likewise mislabeled
+
+
+def test_krsnaangaaraka_caturdashi_and_pizaacamocanam():
+  """kRSNAGgAraka-caturdazI-puNyakAlaH_or_yamatarpaNam (tithi 29, vaara=mangala) / pizAcamOcanam (same, but only
+  in lunar month 1). Two things distinguish this from aGgArakI~caturthI:
+
+  1. Its "does the anga touch" window is sunrise..purvaahna_end (first half of daytime), not the full
+     sunrise..sunset dinamaana -- so it exercises the window="sunrise_to_purvaahna" option.
+  2. pizAcamOcanam sets anga_type/anga_number/month_type/month_number *and* vaara together, which surfaced a
+     real bug: apply_month_anga_events (the pre-existing single-anga engine, which knows nothing about `vaara`)
+     was independently picking up and assigning any such rule via its own tree-indexed lookup, double-processing
+     it alongside the correct, weekday-gated assignment from apply_vaara_conditioned_events -- assigning it on
+     every matching-tithi day regardless of weekday. apply_month_anga_events/apply_month_day_events now skip any
+     rule with `vaara` set, since it's owned by apply_vaara_conditioned_events instead."""
+  computation_system = ComputationSystem.DEFAULT
+  panchaanga = periodical.Panchaanga(city=chennai, start_date=Date(2015, 1, 1), end_date=Date(2020, 12, 31),
+                                      computation_system=computation_system)
+  daily_panchaangas = panchaanga.daily_panchaangas_sorted()
+
+  expected = {'kRSNAGgAraka-caturdazI-puNyakAlaH_or_yamatarpaNam': set(), 'pizAcamOcanam': set()}
+  for d in range(panchaanga.duration_prior_padding, panchaanga.duration + panchaanga.duration_prior_padding):
+    dp = daily_panchaangas[d]
+    if dp.date.get_weekday() != 2:
+      continue
+    tithi_sunrise = dp.sunrise_day_angas.tithi_at_sunrise.index
+    tithi_purvaahna_end = dp.sunrise_day_angas.get_anga_at_jd(jd=dp.day_length_based_periods.puurvaahna.jd_end, anga_type=AngaType.TITHI).index
+    if tithi_sunrise == 29 or tithi_purvaahna_end == 29:
+      expected['kRSNAGgAraka-caturdazI-puNyakAlaH_or_yamatarpaNam'].add(dp.date)
+      if dp.lunar_date.month.index == 1:
+        expected['pizAcamOcanam'].add(dp.date)
+
+  for fest_id in expected:
+    assert len(expected[fest_id]) > 0, fest_id
+    assert set(panchaanga.festival_id_to_days.get(fest_id, set())) == expected[fest_id], fest_id
+    assert all(d.get_weekday() == 2 for d in panchaanga.festival_id_to_days[fest_id]), fest_id

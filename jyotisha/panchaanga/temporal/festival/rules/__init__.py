@@ -156,8 +156,8 @@ class HinduCalendarEventTiming(common.JsonObject):
       },
       "window": {
         "type": "string",
-        "enum": ["full_period", "sunrise_to_sunset", "sunrise_to_next_sunrise", "padded_1_day"],
-        "description": "Only used together with `intersection_groups`. Bounds to search for the conjunction within: the whole computed period, a single day's sunrise-to-sunset/sunrise-to-next-sunrise, or a day padded by 1 day on each side (for conjunctions that may straddle a day boundary). Defaults to full_period.",
+        "enum": ["full_period", "sunrise_to_sunset", "sunrise_to_next_sunrise", "sunrise_to_purvaahna", "padded_1_day"],
+        "description": "With `intersection_groups`: bounds to search the conjunction within (full_period/sunrise_to_sunset/sunrise_to_next_sunrise/padded_1_day; defaults to full_period). With `vaara` + `anga_type`/`anga_number`: bounds the \"does the anga touch today\" check (sunrise_to_sunset [dinamaana] or sunrise_to_purvaahna; defaults to sunrise_to_sunset).",
       },
       "vaara": {
         "description": "A weekday filter: either an int (1=Sunday...7=Saturday, matching AngaType.VARA's index convention) or a name (eg. \"budha\", \"saumya\" -- see VAARA_NAME_TO_INDEX for all accepted names/aliases). The festival recurs on every day within `month_type`/`month_number` (and, if `anga_type`/`anga_number` are also set, touching that single anga) whose weekday matches. Unlike `intersection_groups`, this is a plain per-day predicate over already-known daily facts -- no search. Mutually exclusive with `intersection_groups`.",

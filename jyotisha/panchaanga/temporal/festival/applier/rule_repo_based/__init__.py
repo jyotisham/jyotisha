@@ -166,6 +166,9 @@ class RuleLookupAssigner(FestivalAssigner):
       target_anga = None
       if fest_rule.timing.anga_type is not None:
         target_anga = Anga.get_cached(index=fest_rule.timing.anga_number, anga_type_id=_INTERSECTION_ANGA_TYPES[fest_rule.timing.anga_type].name)
+      touch_window = fest_rule.timing.window
+      if touch_window is not None and touch_window not in ("sunrise_to_sunset", "sunrise_to_purvaahna"):
+        raise ValueError("Unsupported window %r for vaara-conditioned rule %s (expected sunrise_to_sunset or sunrise_to_purvaahna)" % (touch_window, fest_id))
       for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
         daily_panchaanga = self.daily_panchaangas[d]
         if daily_panchaanga.date.get_weekday() + 1 != vaara_index:
@@ -173,12 +176,13 @@ class RuleLookupAssigner(FestivalAssigner):
         if not _month_matches(daily_panchaanga, fest_rule.timing.month_type, fest_rule.timing.month_number):
           continue
         if target_anga is not None:
-          # Bounded to dinamaana (sunrise..sunset), not the full sunrise..next_sunrise night-inclusive span:
-          # every hand-written festival of this shape checks "anga at sunrise OR anga at sunset" (a vrata
-          # observed during daylight), so an anga that only appears after sunset (during the night) shouldn't
-          # count -- matching find_anga_span's whole-day span would count it and diverge from the original.
-          daytime_spans = daily_panchaanga.sunrise_day_angas.get_anga_spans_in_interval(
-            anga_type=target_anga.get_type(), interval=daily_panchaanga.day_length_based_periods.dinamaana)
+          # Bounded to daytime (dinamaana, sunrise..sunset, or the narrower purvaahna half of it), never the
+          # full sunrise..next_sunrise night-inclusive span: every hand-written festival of this shape checks
+          # "anga at sunrise OR anga at {sunset,purvaahna_end}" (a vrata observed during daylight, sometimes
+          # only its first half), so an anga that only appears later shouldn't count -- matching
+          # find_anga_span's whole-day span would count it and diverge from the original.
+          touch_interval = daily_panchaanga.day_length_based_periods.puurvaahna if touch_window == "sunrise_to_purvaahna" else daily_panchaanga.day_length_based_periods.dinamaana
+          daytime_spans = daily_panchaanga.sunrise_day_angas.get_anga_spans_in_interval(anga_type=target_anga.get_type(), interval=touch_interval)
           if not any(span.anga == target_anga for span in daytime_spans):
             continue
         self.panchaanga.add_festival(fest_id=fest_id, date=daily_panchaanga.date)
@@ -239,6 +243,9 @@ class RuleLookupAssigner(FestivalAssigner):
           days = [30, 31]
     fest_dict = rule_set.get_possibly_relevant_fests(month=date.month, angas=days, month_type=month_type, anga_type_id=rules.RulesRepo.DAY_DIR)
     for fest_id, fest in fest_dict.items():
+      if fest.timing.vaara is not None:
+        # See the matching guard in apply_month_anga_events: owned by apply_vaara_conditioned_events instead.
+        continue
       if month_type in [RulesRepo.GREGORIAN_MONTH_DIR, RulesRepo.JULIAN_MONTH_DIR]:
         self.panchaanga.add_festival(date=day_panchaanga.date, fest_id=fest_id, interval_id="julian_day")
       else:
@@ -339,6 +346,13 @@ class RuleLookupAssigner(FestivalAssigner):
     ###########################
     # Iterate over relevant festivals
     for fest_id, fest_rule in fest_dict.items():
+      if fest_rule.timing.vaara is not None:
+        # Owned by apply_vaara_conditioned_events instead: a rule can end up indexed into this (month_type,
+        # anga_type, month, anga) tree bucket incidentally (via get_storage_file_name's path routing) even
+        # though it also has `vaara` set and is meant to be weekday-gated -- this engine has no concept of
+        # `vaara` at all, so it must not process such rules (it would otherwise assign them on every matching
+        # day regardless of weekday, double-processing them alongside the correct, weekday-gated assignment).
+        continue
       kaala = fest_rule.timing.get_kaala()
       priority = fest_rule.timing.get_priority()
       adhika_maasa_handling = fest_rule.timing.get_adhika_maasa_handling()
