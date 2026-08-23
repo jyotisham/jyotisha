@@ -14,7 +14,6 @@ from sanskrit_data.schema import common
 class VaraFestivalAssigner(FestivalAssigner):
   def assign_all(self):
     self.assign_bhriguvara_subrahmanya_vratam()
-    self.assign_masa_vara_yoga_kaarttika()
     self.assign_masa_vara_yoga_fests_tn()
     self.assign_nakshatra_vara_yoga_vratam()
     self.assign_tithi_vara_yoga_mangala_angaaraka()
@@ -44,16 +43,6 @@ class VaraFestivalAssigner(FestivalAssigner):
           else:
             self.panchaanga.add_festival(fest_id=festival_name, date=day_panchaanga.date)
 
-
-  def assign_masa_vara_yoga_kaarttika(self):
-    festival_name = 'kArttika~sOmavAsaraH'
-    if festival_name not in self.rules_collection.name_to_rule:
-      return
-    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
-
-      # KRTTIKA SOMAVASARA
-      if self.daily_panchaangas[d].lunar_date.month.index == 8 and self.daily_panchaangas[d].date.get_weekday() == 1:
-        self.panchaanga.add_festival(fest_id='kArttika~sOmavAsaraH', date=self.daily_panchaangas[d].date)
 
   def assign_masa_vara_yoga_fests_tn(self):
     festival_name = 'AvaNi~JAyir2r2ukkizhamai'

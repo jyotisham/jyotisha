@@ -138,6 +138,31 @@ class RuleLookupAssigner(FestivalAssigner):
       self.apply_month_anga_events(day_panchaanga=dp, month_type=RulesRepo.LUNAR_MONTH_DIR, anga_type=AngaType.NAKSHATRA)
       self.apply_month_anga_events(day_panchaanga=dp, month_type=RulesRepo.LUNAR_MONTH_DIR, anga_type=AngaType.YOGA)
     self.apply_anga_intersection_events()
+    self.apply_vara_conditioned_events()
+
+  @timebudget
+  def apply_vara_conditioned_events(self):
+    """ Apply festivals declared via `[timing] vara = N` -- a plain weekday filter, for festivals that recur on
+    every day matching (month, weekday, and optionally a single anga touching that day), with no disambiguation
+    and no anga-span search: the trivial "month/anga + weekday" shape (eg. kArttika~sOmavAsaraH: lunar month 8,
+    every Monday), as opposed to the genuine multi-anga conjunctions apply_anga_intersection_events() searches
+    for. See that method and apply_month_anga_events() above for the other two (heavier) mechanisms.
+    """
+    for fest_id, fest_rule in self.rules_collection.name_to_rule.items():
+      if fest_rule.timing is None or fest_rule.timing.vara is None:
+        continue
+      target_anga = None
+      if fest_rule.timing.anga_type is not None:
+        target_anga = Anga.get_cached(index=fest_rule.timing.anga_number, anga_type_id=_INTERSECTION_ANGA_TYPES[fest_rule.timing.anga_type].name)
+      for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
+        daily_panchaanga = self.daily_panchaangas[d]
+        if daily_panchaanga.date.get_weekday() + 1 != fest_rule.timing.vara:
+          continue
+        if not _month_matches(daily_panchaanga, fest_rule.timing.month_type, fest_rule.timing.month_number):
+          continue
+        if target_anga is not None and daily_panchaanga.sunrise_day_angas.find_anga_span(target_anga) is None:
+          continue
+        self.panchaanga.add_festival(fest_id=fest_id, date=daily_panchaanga.date)
 
   @timebudget
   def apply_anga_intersection_events(self):

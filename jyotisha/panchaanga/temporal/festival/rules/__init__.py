@@ -123,6 +123,10 @@ class HinduCalendarEventTiming(common.JsonObject):
         "enum": ["full_period", "sunrise_to_sunset", "sunrise_to_next_sunrise", "padded_1_day"],
         "description": "Only used together with `intersection_groups`. Bounds to search for the conjunction within: the whole computed period, a single day's sunrise-to-sunset/sunrise-to-next-sunrise, or a day padded by 1 day on each side (for conjunctions that may straddle a day boundary). Defaults to full_period.",
       },
+      "vara": {
+        "type": "integer",
+        "description": "A weekday filter (1=Sunday...7=Saturday, matching AngaType.VARA's index convention): the festival recurs on every day within `month_type`/`month_number` (and, if `anga_type`/`anga_number` are also set, touching that single anga) whose weekday matches. Unlike `intersection_groups`, this is a plain per-day predicate over already-known daily facts -- no search. Mutually exclusive with `intersection_groups`.",
+      },
     }
   }))
 
@@ -242,6 +246,9 @@ class HinduCalendarEvent(common.JsonObject):
       # Intersection (multi-anga conjunction) rules aren't keyed by a single (month_type, anga_type, month,
       # anga) slot, so they don't fit the tree-indexed path below; store them flatly by id instead.
       path = "yoga_intersections/%(id)s.toml" % dict(id=self.id)
+    elif self.timing.vara is not None and self.timing.anga_type is None:
+      # A plain month+weekday rule (no single anga) likewise doesn't fit the anga_type/anga_number-indexed path.
+      path = "vara_conditioned/%(id)s.toml" % dict(id=self.id)
     elif self.timing is None or self.timing.month_number is None:
       path = "description_only/%(id)s.toml" % dict(
         id=self.id
