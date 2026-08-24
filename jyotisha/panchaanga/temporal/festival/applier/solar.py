@@ -26,7 +26,6 @@ logging.basicConfig(
 
 class SolarFestivalAssigner(FestivalAssigner):
   def assign_all(self):
-    self.assign_pushkara_yoga()
     self.assign_sidereal_sankranti_punyakaala()
     self.assign_mahodaya_ardhodaya()
     self.assign_month_day_kaaradaiyan()
@@ -393,37 +392,6 @@ class SolarFestivalAssigner(FestivalAssigner):
         self.panchaanga.delete_festival_date(fest_id='vyatIpAta-zrAddham', date=date)
         self.panchaanga.add_festival(fest_id='mahAvyatIpAta-zrAddham', date=date)
 
-
-  def assign_pushkara_yoga(self):
-    if 'tripuSkara-yOgaH~0' not in self.rules_collection.name_to_rule:
-      return
-
-    PUSHKARA_TITHI = [2, 7, 12, 17, 22, 27]
-    TRI_PUSHKARA_NAKSHATRA = [3, 7, 12, 16, 21, 25]
-    DVI_PUSHKARA_NAKSHATRA = [5, 14, 23]
-    PUSHKARA_WDAY = [0, 2, 6]
-    for d, daily_panchaanga in enumerate(self.daily_panchaangas):
-      dp_nakshatra = tp_nakshatra = p_tithi = None
-      for nakshatra_span in daily_panchaanga.sunrise_day_angas.nakshatras_with_ends:
-        nakshatra_ID = nakshatra_span.anga.index
-        if nakshatra_ID in TRI_PUSHKARA_NAKSHATRA:
-          tp_nakshatra = nakshatra_ID
-        elif nakshatra_ID in DVI_PUSHKARA_NAKSHATRA:
-          dp_nakshatra = nakshatra_ID
-      
-      for tithi_span in daily_panchaanga.sunrise_day_angas.tithis_with_ends:
-        tithi_ID = tithi_span.anga.index
-        if tithi_ID in PUSHKARA_TITHI:
-          p_tithi = tithi_ID
-      
-      wday = daily_panchaanga.date.get_weekday()
-      if p_tithi is not None and wday in PUSHKARA_WDAY:
-        if tp_nakshatra is not None:
-          self._assign_anga_intersection('tripuSkara-yOgaH~%d' % wday, [(zodiac.AngaType.NAKSHATRA, tp_nakshatra), (zodiac.AngaType.TITHI, p_tithi)],
-            jd_start=daily_panchaanga.jd_sunrise, jd_end=daily_panchaanga.jd_next_sunrise, show_debug_info=False)
-        if dp_nakshatra is not None:
-          self._assign_anga_intersection('dvipuSkara-yOgaH~%d' % wday, [(zodiac.AngaType.NAKSHATRA, dp_nakshatra), (zodiac.AngaType.TITHI, p_tithi)],
-            jd_start=daily_panchaanga.jd_sunrise, jd_end=daily_panchaanga.jd_next_sunrise, show_debug_info=False)
 
   def assign_padmaka_yoga(self):
     if 'padmaka-yOga-puNyakAlaH' not in self.rules_collection.name_to_rule:
