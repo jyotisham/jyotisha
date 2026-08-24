@@ -32,6 +32,32 @@ def test_gajacchaayaa_yoga():
   assert new_days == direct_days
 
 
+def test_ayushmad_bava_saumya_yoga():
+  """AyuSmad-bava-saumya-saMyOgaH: every Wednesday (VARA), YOGA=3 (AyuSmAn) & KARANA in BAVA_KARANA
+  (list(range(2,52,7)) -- the repeating bava karana slot across the lunar month), searched sunrise-to-sunset on
+  each such day -- previously a day-loop in SolarFestivalAssigner.assign_ayushmad_bava_saumya_yoga making one
+  _assign_anga_intersection call per (day, karana value) pair. Verified against a direct reproduction of that
+  same day-loop (8 separate per-karana calls per Wednesday, not a single OR-list call) over a 21-year range, to
+  establish the exact original semantics before converting to a TOML `intersection_groups` OR-list."""
+  computation_system = ComputationSystem.DEFAULT
+  panchaanga = periodical.Panchaanga(city=chennai, start_date=Date(2010, 1, 1), end_date=Date(2030, 12, 31),
+                                      computation_system=computation_system)
+  new_days = set(panchaanga.festival_id_to_days.get('AyuSmad-bava-saumya-saMyOgaH', set()))
+
+  assigner = SolarFestivalAssigner(panchaanga)
+  BAVA_KARANA = list(range(2, 52, 7))
+  for daily_panchaanga in assigner.daily_panchaangas:
+    if daily_panchaanga.date.get_weekday() == 3:
+      for karana_ID in BAVA_KARANA:
+        assigner._assign_anga_intersection(
+          'test~ayushmad-direct', [(AngaType.YOGA, 3), (AngaType.KARANA, karana_ID)],
+          jd_start=daily_panchaanga.jd_sunrise, jd_end=daily_panchaanga.jd_sunset, show_debug_info=False)
+  direct_days = set(panchaanga.festival_id_to_days.get('test~ayushmad-direct', set()))
+
+  assert len(direct_days) > 0
+  assert new_days == direct_days
+
+
 def test_padmaka_yoga_3():
   """padmaka-yOgaH-3: SOLAR_NAKSH=16 (vizAkhA) & NAKSHATRA=3 (kRttikA), over the whole computed period, no vaara
   or other gate -- the simplest possible `intersection_groups` conversion (a single unconditional whole-period
