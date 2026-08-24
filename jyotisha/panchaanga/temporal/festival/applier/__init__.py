@@ -51,6 +51,14 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
     for that anga -- eg. karana in {2, 9, 16, ...}); list-valued entries are expanded by trying each candidate
     value independently (so multiple list-valued angas in the same call are tried combinatorially).
 
+    Angas are processed in order, each one searched within the window left by the previous ones (a sequential
+    narrowing search), so ORDER MATTERS when the window is narrower than a full day: unlike AngaSpanFinder-based
+    angas, AngaType.VARA's span (via _find_vara_span) is always the *whole* civil day [sunrise, next_sunrise],
+    not clipped to the query window -- if VARA comes first against eg. a sunrise_to_sunset window, its wide span
+    becomes the narrowed window handed to the remaining angas, silently widening their search into the night.
+    Put VARA *last* in intersect_list when combining it with anything narrower than sunrise_to_next_sunrise, so
+    the other angas narrow to daytime first and VARA only confirms the weekday without re-widening the window.
+
     anga_type may be AngaType.VARA (weekday), resolved via _find_vara_span rather than ecliptic search.
     """
     if jd_start is None:
