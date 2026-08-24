@@ -466,9 +466,6 @@ class SolarFestivalAssigner(FestivalAssigner):
             sunset_zodiac.get_anga(zodiac.AngaType.TITHI).index % 30 == 7):
         self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name='padmaka-yOgaH-2', interval=Interval(jd_start=None, jd_end=None)), date=daily_panchaanga.date)
 
-    self._assign_anga_intersection('padmaka-yOgaH-3', [(zodiac.AngaType.SOLAR_NAKSH, 16), (zodiac.AngaType.NAKSHATRA, 3)],
-                      jd_start=self.panchaanga.jd_start, jd_end=self.panchaanga.jd_end)
-
   def assign_mahodaya_ardhodaya(self):
     for d, daily_panchaanga in enumerate(self.daily_panchaangas):
 
