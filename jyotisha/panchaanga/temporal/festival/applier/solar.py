@@ -29,7 +29,6 @@ class SolarFestivalAssigner(FestivalAssigner):
     self.assign_sidereal_sankranti_punyakaala()
     self.assign_mahodaya_ardhodaya()
     self.assign_month_day_kaaradaiyan()
-    self.assign_month_day_tulA_kAvErI_snAna_ArambhaH()
     self.assign_month_day_kuchela()
     self.assign_month_day_ushah_kaala_festival_period('dhanurmAsa', 'solar_sidereal')
     self.assign_month_day_ushah_kaala_festival_period('sahOmAsa', 'tropical')
@@ -304,22 +303,6 @@ class SolarFestivalAssigner(FestivalAssigner):
           self.panchaanga.add_festival(fest_id=end_fest_id, date=daily_panchaanga.date)
         else:
           self.panchaanga.add_festival(fest_id=end_fest_id, date=self.daily_panchaangas[d + 1].date)
-
-  def assign_month_day_tulA_kAvErI_snAna_ArambhaH(self):
-    if 'tulA-kAvErI-snAna-ArambhaH' not in self.rules_collection.name_to_rule:
-      return
-    for d, daily_panchaanga in enumerate(self.daily_panchaangas):
-      if daily_panchaanga.solar_sidereal_date_sunset.month_transition is not None:
-        if daily_panchaanga.solar_sidereal_date_sunset.month == 7 or (daily_panchaanga.solar_sidereal_date_sunset.month == 6 and daily_panchaanga.solar_sidereal_date_sunset.day > 28):
-          tula_sankramana_jd = daily_panchaanga.solar_sidereal_date_sunset.month_transition
-          fday = d
-
-          if tula_sankramana_jd < self.daily_panchaangas[fday].day_length_based_periods.fifteen_fold_division.braahma.jd_start:
-            self.panchaanga.add_festival(fest_id='tulA-kAvErI-snAna-ArambhaH', date=self.daily_panchaangas[fday].date)
-          else:
-            self.panchaanga.add_festival(fest_id='tulA-kAvErI-snAna-ArambhaH', date=self.daily_panchaangas[fday + 1].date)
-
-          return
 
   def assign_month_day_mesha_sankraanti(self):
     if 'sauramAna-saMvatsarArambhaH' not in self.rules_collection.name_to_rule:

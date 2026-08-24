@@ -53207,12 +53207,13 @@ DTSTART;VALUE=DATE:20191018
 DTEND;VALUE=DATE:20191019
 DTSTAMP:20200101T000000Z
 UID:tulā-kāvērī-snāna-ārambhaḥ_2019-10-18T06:03:07.200004+05:30
-DESCRIPTION:Perform snānam in Kaveri during this month.<br/><br/>ṣaṭ
- ṣaṣṭikōṭitīrthāni dvisaptabhuvanēṣu ca।  <br/>kēśavasyā
- ''jñayā yānti tulāmāsē marudvr̥dham॥<br/><br/><br/><br/>## Detail
- s<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/mas
- ter/devatA/nadI/description_only/tulA-kAvErI-snAna-ArambhaH.toml)<br/>- Ta
- gs:
+DESCRIPTION:Observed on day 1 of Tulā (sidereal solar) month (Braahma/puu
+ rvaviddha). <br/><br/>Perform snānam in Kaveri during this month.<br/><br
+ />ṣaṭṣaṣṭikōṭitīrthāni dvisaptabhuvanēṣu ca।  <br/>kē
+ śavasyā''jñayā yānti tulāmāsē marudvr̥dham॥<br/><br/><br/><br/>
+ ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/devatA/nadI/sidereal_solar_month/day/07/01/tulA-kAvErI-snAna-
+ ArambhaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
