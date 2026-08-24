@@ -26,6 +26,16 @@ _INTERSECTION_ANGA_TYPES = {
 }
 
 
+# month_type -> the DailyPanchaanga attribute holding that month system's {month, day, month_transition} date,
+# for apply_month_transition_events(). Not a plain f"{month_type}_date_sunset" concatenation: RulesRepo's
+# schema-facing month_type strings (eg. "sidereal_solar_month") don't all match their backing attribute names
+# (eg. solar_sidereal_date_sunset).
+_MONTH_TRANSITION_DATE_ATTR = {
+  RulesRepo.SIDEREAL_SOLAR_MONTH_DIR: 'solar_sidereal_date_sunset',
+  RulesRepo.TROPICAL_MONTH_DIR: 'tropical_date_sunset',
+}
+
+
 def _resolve_anga_number(anga_type_str, anga_number):
   """anga_number for anga_type="vaara" may be a name (or list of names) instead of an index; everything else
   passes through unchanged."""
@@ -149,6 +159,7 @@ class RuleLookupAssigner(FestivalAssigner):
       self.apply_month_anga_events(day_panchaanga=dp, month_type=RulesRepo.LUNAR_MONTH_DIR, anga_type=AngaType.YOGA)
     self.apply_anga_intersection_events()
     self.apply_vaara_conditioned_events()
+    self.apply_month_transition_events()
 
   @timebudget
   def apply_vaara_conditioned_events(self):
@@ -221,6 +232,35 @@ class RuleLookupAssigner(FestivalAssigner):
           for group in groups:
             self._assign_anga_intersection(fest_id, group, jd_start=jd_start, jd_end=jd_end, show_debug_info=False)
 
+  @timebudget
+  def apply_month_transition_events(self):
+    """ Apply day-of-month events (anga_type="day") that also set `kaala`: the civil day is decided by
+    comparing the MONTH's own transition jd (not an anga's) against that kaala's threshold jd -- transition
+    before the kaala keeps the event on this day, transition at/after it shifts to the next day. Distinct from
+    apply_month_day_events (no disambiguation at all: the ordinal day is used as-is) and apply_month_anga_events
+    (built for fast-oscillating angas like tithi/nakshatra/yoga via decide_puurvaviddha, not month-scale solar
+    transitions -- get_2_day_interval_boundary_angas is documented as "useful only for tithi, nakShatra or
+    yoga"). Previously several bespoke day-loops in SolarFestivalAssigner (eg. assign_month_day_muDavan_muzhukku,
+    assign_month_day_tulA_kAvErI_snAna_ArambhaH), each hand-comparing a month_transition jd against sunrise, a
+    named kaala's start, or a custom offset.
+    """
+    for fest_id, fest_rule in self.rules_collection.name_to_rule.items():
+      if fest_rule.timing is None or fest_rule.timing.anga_type != RulesRepo.DAY_DIR or fest_rule.timing.kaala is None:
+        continue
+      month_type = fest_rule.timing.month_type
+      date_attr = _MONTH_TRANSITION_DATE_ATTR[month_type]
+      target_day = fest_rule.timing.anga_number
+      target_month = fest_rule.timing.month_number
+      for d, daily_panchaanga in enumerate(self.daily_panchaangas[:-1]):
+        month_date = getattr(daily_panchaanga, date_attr)
+        if month_date.month == target_month and month_date.day == target_day:
+          kaala_interval = daily_panchaanga.get_interval(interval_id=fest_rule.timing.kaala)
+          transition = month_date.month_transition
+          if transition is None or transition < kaala_interval.jd_start:
+            self.panchaanga.add_festival(fest_id=fest_id, date=daily_panchaanga.date)
+          else:
+            self.panchaanga.add_festival(fest_id=fest_id, date=self.daily_panchaangas[d + 1].date)
+
   def apply_month_day_events(self, day_panchaanga, month_type):
     """Apply events set to take place on a given (ordinal) day of a given month. Eg. Jan 1 as per Julian calendar, Aug 15 as per Gregorian calendar, 1st day of sidereal solar month 6. See calls from apply_festival_from_rules_repos().
     
@@ -245,6 +285,11 @@ class RuleLookupAssigner(FestivalAssigner):
     for fest_id, fest in fest_dict.items():
       if fest.timing.vaara is not None:
         # See the matching guard in apply_month_anga_events: owned by apply_vaara_conditioned_events instead.
+        continue
+      if fest.timing.kaala is not None:
+        # A day-of-month rule with a kaala set needs the month_transition-vs-kaala day disambiguation --
+        # owned by apply_month_transition_events instead, to avoid also assigning it here on the plain
+        # ordinal day with no disambiguation.
         continue
       if month_type in [RulesRepo.GREGORIAN_MONTH_DIR, RulesRepo.JULIAN_MONTH_DIR]:
         self.panchaanga.add_festival(date=day_panchaanga.date, fest_id=fest_id, interval_id="julian_day")
