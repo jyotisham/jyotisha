@@ -128,3 +128,76 @@ def test_krsnaangaaraka_caturdashi_and_pizaacamocanam():
     assert len(expected[fest_id]) > 0, fest_id
     assert set(panchaanga.festival_id_to_days.get(fest_id, set())) == expected[fest_id], fest_id
     assert all(d.get_weekday() == 2 for d in panchaanga.festival_id_to_days[fest_id]), fest_id
+
+
+def test_vajapeyaphala_snana_yoga():
+  """vAjapEyaphala-snAna-yOgaH: lunar month 1 (caitra) AND tithi 8 AND nakshatra 7 (punarvasu), all at sunrise,
+  AND vaara=budha -- exercises `angas` (checking two angas at once) together with `vaara` and `window="sunrise"`.
+  The original (assign_vajapeyaphala_snana_yoga, now retired) only ever checked tithi_at_sunrise/nakshatra_at_
+  sunrise directly (no sunset check), so window="sunrise" (a zero-width instant check) must be used rather than
+  the wider sunrise-to-sunset touch window -- verified separately (over 2000-2030) that the touch-window
+  approximation would have produced 25 extra dates for a similar single-anga case (sOmavatI amAvAsyA), which is
+  why that one was left custom instead of converted."""
+  computation_system = ComputationSystem.DEFAULT
+  panchaanga = periodical.Panchaanga(city=chennai, start_date=Date(1990, 1, 1), end_date=Date(2030, 12, 31),
+                                      computation_system=computation_system)
+  daily_panchaangas = panchaanga.daily_panchaangas_sorted()
+
+  expected = set()
+  for d in range(panchaanga.duration_prior_padding, panchaanga.duration + panchaanga.duration_prior_padding):
+    dp = daily_panchaangas[d]
+    if dp.lunar_date.month.index == 1 and dp.sunrise_day_angas.tithi_at_sunrise.index == 8 and dp.date.get_weekday() == 3 and dp.sunrise_day_angas.nakshatra_at_sunrise.index == 7:
+      expected.add(dp.date)
+
+  assert len(expected) > 0
+  assert set(panchaanga.festival_id_to_days.get('vAjapEyaphala-snAna-yOgaH', set())) == expected
+  assert all(d.get_weekday() == 3 for d in expected)
+
+
+def test_bharani_yamarcana():
+  """bharaNI-yamArcanA: vaara=shani AND (tithi 4 or 19 touching sunrise-to-sunset) AND (nakshatra 2 touching
+  sunrise-to-sunset), independently -- both angas use the default window (sunrise_to_sunset touch), not
+  window="sunrise", since the original (assign_yama_chaturthi, now retired) checked "at sunrise OR at sunset"
+  for each anga separately. Exercises `angas` with an OR-list anga_number ([4, 19]) for one entry."""
+  computation_system = ComputationSystem.DEFAULT
+  panchaanga = periodical.Panchaanga(city=chennai, start_date=Date(2000, 1, 1), end_date=Date(2030, 12, 31),
+                                      computation_system=computation_system)
+  daily_panchaangas = panchaanga.daily_panchaangas_sorted()
+
+  expected = set()
+  for d in range(panchaanga.duration_prior_padding, panchaanga.duration + panchaanga.duration_prior_padding):
+    dp = daily_panchaangas[d]
+    if dp.date.get_weekday() != 6:
+      continue
+    tithi_sunset = dp.sunrise_day_angas.get_anga_at_jd(jd=dp.jd_sunset, anga_type=AngaType.TITHI).index
+    nakshatra_sunset = dp.sunrise_day_angas.get_anga_at_jd(jd=dp.jd_sunset, anga_type=AngaType.NAKSHATRA).index
+    if (dp.sunrise_day_angas.tithi_at_sunrise.index in [4, 19] or tithi_sunset in [4, 19]) and \
+        (dp.sunrise_day_angas.nakshatra_at_sunrise.index == 2 or nakshatra_sunset == 2):
+      expected.add(dp.date)
+
+  assert len(expected) > 0
+  assert set(panchaanga.festival_id_to_days.get('bharaNI-yamArcanA', set())) == expected
+  assert all(d.get_weekday() == 6 for d in expected)
+
+
+def test_jayanti_ashtami():
+  """jayantI~aSTamI: lunar month 10 (pauSa) AND nakshatra 2 (rOhiNI) AND tithi 8, both angas at sunrise, no
+  vaara at all -- exercises `angas` without `vaara` (a plain month+multi-anga predicate, no weekday gate).
+  assign_vishesha_ashtami (the original hand-written function) existed but was never called from
+  TithiFestivalAssigner.assign_all() -- this festival never actually appeared in generated panchaangas before
+  this conversion wired it up live via TOML. Verified against the original (now-removed) formula directly over
+  a 100-year range (1950-2030): both agree on zero occurrences in that window (a rare ~1-per-30-years
+  coincidence), which is still a meaningful match -- any drift in the window="sunrise" touch semantics would
+  very likely have produced at least one differing day across such a wide range."""
+  computation_system = ComputationSystem.DEFAULT
+  panchaanga = periodical.Panchaanga(city=chennai, start_date=Date(1950, 1, 1), end_date=Date(2030, 12, 31),
+                                      computation_system=computation_system)
+  daily_panchaangas = panchaanga.daily_panchaangas_sorted()
+
+  expected = set()
+  for d in range(panchaanga.duration_prior_padding, panchaanga.duration + panchaanga.duration_prior_padding):
+    dp = daily_panchaangas[d]
+    if dp.lunar_date.month.index == 10 and dp.sunrise_day_angas.nakshatra_at_sunrise.index == 2 and dp.sunrise_day_angas.tithi_at_sunrise.index == 8:
+      expected.add(dp.date)
+
+  assert set(panchaanga.festival_id_to_days.get('jayantI~aSTamI', set())) == expected

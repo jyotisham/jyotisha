@@ -6,6 +6,7 @@ from jyotisha.panchaanga.temporal import Anga, AngaType, get_2_day_interval_boun
 from jyotisha.panchaanga.temporal.festival import priority_decision
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
 from jyotisha.panchaanga.temporal.festival.rules import RulesRepo, resolve_vaara_index
+from jyotisha.panchaanga.temporal.interval import Interval
 
 
 # TOML-facing anga_type names for `intersection_groups`, mapped to the AngaType singletons. Kept distinct from
@@ -163,38 +164,69 @@ class RuleLookupAssigner(FestivalAssigner):
 
   @timebudget
   def apply_vaara_conditioned_events(self):
-    """ Apply festivals declared via `[timing] vaara = ...` -- a plain weekday filter, for festivals that recur
-    on every day matching (month, weekday, and optionally a single anga touching that day), with no
-    disambiguation and no anga-span search: the trivial "month/anga + weekday" shape (eg. kArttika~sOmavAsaraH:
-    lunar month 8, every Monday), as opposed to the genuine multi-anga conjunctions
+    """ Apply festivals declared via `[timing] vaara = ...` and/or `angas = [...]` -- a plain per-day predicate
+    over already-known daily facts (month, optionally weekday, optionally one or more angas touching that day),
+    with no disambiguation and no anga-span search: the trivial "month/anga [+ weekday]" shape (eg.
+    kArttika~sOmavAsaraH: lunar month 8, every Monday), as opposed to the genuine multi-anga conjunctions
     apply_anga_intersection_events() searches for. See that method and apply_month_anga_events() above for the
     other two (heavier) mechanisms.
+
+    `vaara` is optional here (unlike a bare `anga_type`/`anga_number` rule with no `angas`, which apply_month_
+    anga_events already owns and disambiguates via puurvaviddha/paraviddha -- this method would double-process
+    it if it also fired without a vaara gate): a rule only reaches this method if it sets `vaara`, `angas`, or
+    both. `angas` (a list of {anga_type, anga_number}, same shape as one intersection_groups entry) checks
+    several angas at once, ALL of which must touch `window` -- eg. vAjapEyaphala-snAna-yOgaH (tithi AND
+    nakshatra, both at sunrise, plus vaara) and jayantI~aSTamI (nakshatra AND tithi, both at sunrise, no vaara
+    at all). `anga_type`/`anga_number` (singular) remain supported as shorthand for a single-anga `angas` list
+    of one. `window="sunrise"` checks the anga(s) at the sunrise instant only (a zero-width interval, via the
+    same get_anga_spans_in_interval used elsewhere for a single jd -- see DailyPanchaanga.get_anga_at_jd), as
+    opposed to "touches somewhere in the window" -- needed since not every festival of this shape checks both
+    sunrise and sunset/purvaahna_end; some (eg. sOmavatI amAvAsyA, jayantI~aSTamI) only ever checked the anga
+    at sunrise in the original hand-written code, and touching the wider dinamaana window would pick up extra
+    days where the anga only appears later in the day.
     """
     for fest_id, fest_rule in self.rules_collection.name_to_rule.items():
-      if fest_rule.timing is None or fest_rule.timing.vaara is None:
+      if fest_rule.timing is None or (fest_rule.timing.vaara is None and fest_rule.timing.angas is None):
         continue
-      vaara_index = fest_rule.timing.get_vaara_index()
-      target_anga = None
-      if fest_rule.timing.anga_type is not None:
-        target_anga = Anga.get_cached(index=fest_rule.timing.anga_number, anga_type_id=_INTERSECTION_ANGA_TYPES[fest_rule.timing.anga_type].name)
+      vaara_index = fest_rule.timing.get_vaara_index() if fest_rule.timing.vaara is not None else None
+      # Each entry in target_anga_groups is an OR-list of Angas (eg. tithi in [4, 19]); ALL entries must have at
+      # least one of their Angas touch `window` (AND across entries) -- same OR-within/AND-across shape as
+      # intersection_groups.
+      target_anga_groups = []
+      if fest_rule.timing.angas is not None:
+        for a in fest_rule.timing.angas:
+          anga_type = _INTERSECTION_ANGA_TYPES[a['anga_type']]
+          numbers = _resolve_anga_number(a['anga_type'], a['anga_number'])
+          numbers = numbers if isinstance(numbers, (list, tuple)) else [numbers]
+          target_anga_groups.append([Anga.get_cached(index=n, anga_type_id=anga_type.name) for n in numbers])
+      elif fest_rule.timing.anga_type is not None:
+        target_anga_groups = [[Anga.get_cached(index=fest_rule.timing.anga_number, anga_type_id=_INTERSECTION_ANGA_TYPES[fest_rule.timing.anga_type].name)]]
       touch_window = fest_rule.timing.window
-      if touch_window is not None and touch_window not in ("sunrise_to_sunset", "sunrise_to_purvaahna"):
-        raise ValueError("Unsupported window %r for vaara-conditioned rule %s (expected sunrise_to_sunset or sunrise_to_purvaahna)" % (touch_window, fest_id))
+      if touch_window is not None and touch_window not in ("sunrise", "sunrise_to_sunset", "sunrise_to_purvaahna"):
+        raise ValueError("Unsupported window %r for vaara-conditioned rule %s (expected sunrise, sunrise_to_sunset or sunrise_to_purvaahna)" % (touch_window, fest_id))
       for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
         daily_panchaanga = self.daily_panchaangas[d]
-        if daily_panchaanga.date.get_weekday() + 1 != vaara_index:
+        if vaara_index is not None and daily_panchaanga.date.get_weekday() + 1 != vaara_index:
           continue
         if not _month_matches(daily_panchaanga, fest_rule.timing.month_type, fest_rule.timing.month_number):
           continue
-        if target_anga is not None:
+        if target_anga_groups:
           # Bounded to daytime (dinamaana, sunrise..sunset, or the narrower purvaahna half of it), never the
           # full sunrise..next_sunrise night-inclusive span: every hand-written festival of this shape checks
           # "anga at sunrise OR anga at {sunset,purvaahna_end}" (a vrata observed during daylight, sometimes
           # only its first half), so an anga that only appears later shouldn't count -- matching
-          # find_anga_span's whole-day span would count it and diverge from the original.
-          touch_interval = daily_panchaanga.day_length_based_periods.puurvaahna if touch_window == "sunrise_to_purvaahna" else daily_panchaanga.day_length_based_periods.dinamaana
-          daytime_spans = daily_panchaanga.sunrise_day_angas.get_anga_spans_in_interval(anga_type=target_anga.get_type(), interval=touch_interval)
-          if not any(span.anga == target_anga for span in daytime_spans):
+          # find_anga_span's whole-day span would count it and diverge from the original. `window="sunrise"`
+          # narrows this further, to just the sunrise instant.
+          if touch_window == "sunrise":
+            touch_interval = Interval(jd_start=daily_panchaanga.jd_sunrise, jd_end=daily_panchaanga.jd_sunrise)
+          elif touch_window == "sunrise_to_purvaahna":
+            touch_interval = daily_panchaanga.day_length_based_periods.puurvaahna
+          else:
+            touch_interval = daily_panchaanga.day_length_based_periods.dinamaana
+          if not all(
+              any(span.anga == target_anga for target_anga in anga_group
+                  for span in daily_panchaanga.sunrise_day_angas.get_anga_spans_in_interval(anga_type=target_anga.get_type(), interval=touch_interval))
+              for anga_group in target_anga_groups):
             continue
         self.panchaanga.add_festival(fest_id=fest_id, date=daily_panchaanga.date)
 
