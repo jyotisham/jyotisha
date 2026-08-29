@@ -156,11 +156,11 @@ class HinduCalendarEventTiming(common.JsonObject):
       },
       "window": {
         "type": "string",
-        "enum": ["full_period", "sunrise", "sunrise_to_sunset", "sunrise_to_next_sunrise", "sunrise_to_purvaahna", "padded_1_day"],
-        "description": "With `intersection_groups`: bounds to search the conjunction within (full_period/sunrise_to_sunset/sunrise_to_next_sunrise/padded_1_day; defaults to full_period). With `vaara` + `anga_type`/`anga_number`/`angas`: bounds the \"does the anga touch today\" check -- sunrise (the sunrise instant only), sunrise_to_sunset [dinamaana], or sunrise_to_purvaahna; defaults to sunrise_to_sunset.",
+        "enum": ["full_period", "sunrise_to_sunset", "sunrise_to_next_sunrise", "sunrise_to_purvaahna", "padded_1_day"],
+        "description": "With `intersection_groups`: bounds to search the conjunction within (full_period/sunrise_to_sunset/sunrise_to_next_sunrise/padded_1_day; defaults to full_period).",
       },
       "vaara": {
-        "description": "A weekday filter: either an int (1=Sunday...7=Saturday, matching AngaType.VARA's index convention) or a name (eg. \"budha\", \"saumya\" -- see VAARA_NAME_TO_INDEX for all accepted names/aliases). The festival recurs on every day within `month_type`/`month_number` (and, if `anga_type`/`anga_number` or `angas` are also set, touching that anga / all of those angas) whose weekday matches. Unlike `intersection_groups`, this is a plain per-day predicate over already-known daily facts -- no search. Mutually exclusive with `intersection_groups`.",
+        "description": "A weekday filter: either an int (1=Sunday...7=Saturday, matching AngaType.VARA's index convention) or a name (eg. \"budha\", \"saumya\" -- see VAARA_NAME_TO_INDEX for all accepted names/aliases). The festival recurs on every day within `month_type`/`month_number` (and, if `anga_type`/`anga_number` or `angas` are also set, touching that anga / all of those angas, per `kaala`) whose weekday matches. Unlike `intersection_groups`, this is a plain per-day predicate over already-known daily facts -- no search. Mutually exclusive with `intersection_groups`.",
       },
       "angas": {
         "type": "array",
@@ -176,7 +176,7 @@ class HinduCalendarEventTiming(common.JsonObject):
             },
           },
         },
-        "description": "For `vaara`-conditioned rules that need more than one anga checked at once (all must touch `window` -- AND semantics), eg. vAjapEyaphala-snAna-yOgaH (tithi AND nakshatra, both at sunrise). Shorthand for a single anga: use `anga_type`/`anga_number` instead. Mutually exclusive with `anga_type`/`anga_number` and with `intersection_groups`.",
+        "description": "For `vaara`-conditioned rules that need more than one anga checked at once (all must touch the `kaala` interval -- AND semantics), eg. vAjapEyaphala-snAna-yOgaH (tithi AND nakshatra, both at sunrise). Shorthand for a single anga: use `anga_type`/`anga_number` instead. Mutually exclusive with `anga_type`/`anga_number` and with `intersection_groups`.",
       },
     }
   }))
