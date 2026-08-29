@@ -6,7 +6,6 @@ from jyotisha.panchaanga.temporal import Anga, AngaType, get_2_day_interval_boun
 from jyotisha.panchaanga.temporal.festival import priority_decision
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
 from jyotisha.panchaanga.temporal.festival.rules import RulesRepo, resolve_vaara_index
-from jyotisha.panchaanga.temporal.interval import Interval
 
 
 # TOML-facing anga_type names for `intersection_groups`, mapped to the AngaType singletons. Kept distinct from
@@ -175,23 +174,27 @@ class RuleLookupAssigner(FestivalAssigner):
     anga_events already owns and disambiguates via puurvaviddha/paraviddha -- this method would double-process
     it if it also fired without a vaara gate): a rule only reaches this method if it sets `vaara`, `angas`, or
     both. `angas` (a list of {anga_type, anga_number}, same shape as one intersection_groups entry) checks
-    several angas at once, ALL of which must touch `window` -- eg. vAjapEyaphala-snAna-yOgaH (tithi AND
-    nakshatra, both at sunrise, plus vaara) and jayantI~aSTamI (nakshatra AND tithi, both at sunrise, no vaara
-    at all). `anga_type`/`anga_number` (singular) remain supported as shorthand for a single-anga `angas` list
-    of one. `window="sunrise"` checks the anga(s) at the sunrise instant only (a zero-width interval, via the
-    same get_anga_spans_in_interval used elsewhere for a single jd -- see DailyPanchaanga.get_anga_at_jd), as
-    opposed to "touches somewhere in the window" -- needed since not every festival of this shape checks both
-    sunrise and sunset/purvaahna_end; some (eg. sOmavatI amAvAsyA, jayantI~aSTamI) only ever checked the anga
-    at sunrise in the original hand-written code, and touching the wider dinamaana window would pick up extra
-    days where the anga only appears later in the day.
+    several angas at once, ALL of which must touch the `kaala` interval -- eg. vAjapEyaphala-snAna-yOgaH (tithi
+    AND nakshatra, both at sunrise, plus vaara) and jayantI~aSTamI (nakshatra AND tithi, both at sunrise, no
+    vaara at all). `anga_type`/`anga_number` (singular) remain supported as shorthand for a single-anga `angas`
+    list of one.
+
+    `kaala` (a named interval string, same field/lookup used by apply_month_anga_events et al. via
+    DailyPanchaanga.get_interval -- "sunrise" resolves to a zero-width instant, "braahma"/"madhyaahna"/etc. to
+    a named division) bounds the "does the anga touch" check; unset defaults to "dinamaana" (sunrise..sunset,
+    matching every hand-written festival of this shape whose original code checked "anga at sunrise OR anga at
+    sunset" -- a wider touch than a single instant, but never the full sunrise..next_sunrise night-inclusive
+    span). An explicit `kaala="sunrise"` narrows this to the sunrise instant only, for festivals whose original
+    code only ever checked sunrise, never sunset (eg. sOmavatI amAvAsyA, jayantI~aSTamI) -- touching the wider
+    dinamaana default would pick up extra days where the anga only appears later in the day.
     """
     for fest_id, fest_rule in self.rules_collection.name_to_rule.items():
       if fest_rule.timing is None or (fest_rule.timing.vaara is None and fest_rule.timing.angas is None):
         continue
       vaara_index = fest_rule.timing.get_vaara_index() if fest_rule.timing.vaara is not None else None
       # Each entry in target_anga_groups is an OR-list of Angas (eg. tithi in [4, 19]); ALL entries must have at
-      # least one of their Angas touch `window` (AND across entries) -- same OR-within/AND-across shape as
-      # intersection_groups.
+      # least one of their Angas touch the kaala interval (AND across entries) -- same OR-within/AND-across
+      # shape as intersection_groups.
       target_anga_groups = []
       if fest_rule.timing.angas is not None:
         for a in fest_rule.timing.angas:
@@ -201,9 +204,7 @@ class RuleLookupAssigner(FestivalAssigner):
           target_anga_groups.append([Anga.get_cached(index=n, anga_type_id=anga_type.name) for n in numbers])
       elif fest_rule.timing.anga_type is not None:
         target_anga_groups = [[Anga.get_cached(index=fest_rule.timing.anga_number, anga_type_id=_INTERSECTION_ANGA_TYPES[fest_rule.timing.anga_type].name)]]
-      touch_window = fest_rule.timing.window
-      if touch_window is not None and touch_window not in ("sunrise", "sunrise_to_sunset", "sunrise_to_purvaahna"):
-        raise ValueError("Unsupported window %r for vaara-conditioned rule %s (expected sunrise, sunrise_to_sunset or sunrise_to_purvaahna)" % (touch_window, fest_id))
+      kaala = fest_rule.timing.kaala if fest_rule.timing.kaala is not None else "dinamaana"
       for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
         daily_panchaanga = self.daily_panchaangas[d]
         if vaara_index is not None and daily_panchaanga.date.get_weekday() + 1 != vaara_index:
@@ -211,18 +212,7 @@ class RuleLookupAssigner(FestivalAssigner):
         if not _month_matches(daily_panchaanga, fest_rule.timing.month_type, fest_rule.timing.month_number):
           continue
         if target_anga_groups:
-          # Bounded to daytime (dinamaana, sunrise..sunset, or the narrower purvaahna half of it), never the
-          # full sunrise..next_sunrise night-inclusive span: every hand-written festival of this shape checks
-          # "anga at sunrise OR anga at {sunset,purvaahna_end}" (a vrata observed during daylight, sometimes
-          # only its first half), so an anga that only appears later shouldn't count -- matching
-          # find_anga_span's whole-day span would count it and diverge from the original. `window="sunrise"`
-          # narrows this further, to just the sunrise instant.
-          if touch_window == "sunrise":
-            touch_interval = Interval(jd_start=daily_panchaanga.jd_sunrise, jd_end=daily_panchaanga.jd_sunrise)
-          elif touch_window == "sunrise_to_purvaahna":
-            touch_interval = daily_panchaanga.day_length_based_periods.puurvaahna
-          else:
-            touch_interval = daily_panchaanga.day_length_based_periods.dinamaana
+          touch_interval = daily_panchaanga.get_interval(interval_id=kaala)
           if not all(
               any(span.anga == target_anga for target_anga in anga_group
                   for span in daily_panchaanga.sunrise_day_angas.get_anga_spans_in_interval(anga_type=target_anga.get_type(), interval=touch_interval))
