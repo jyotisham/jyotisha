@@ -14,6 +14,15 @@ on:
         default: 'warning'
         description: 'Dummy field'
 
+# When multiple pushes to the same ref land close together (eg. two merges within a few minutes), only the
+# latest commit's build/deploy matters -- cancel any still-running older run on the same ref rather than letting
+# it race an in-progress deploy for the newer one. This is what previously caused intermittent `Deploy html`
+# failures ("cannot lock ref 'refs/heads/gh-pages'"): two runs' git push --force landing on gh-pages/
+# generated-output at nearly the same time.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
     name: Build and test
