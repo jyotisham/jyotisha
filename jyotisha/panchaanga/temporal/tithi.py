@@ -1,4 +1,3 @@
-
 import logging
 import sys
 
@@ -83,6 +82,15 @@ class ShraaddhaTithiAssigner(PeriodicPanchaangaApplier):
           m = 13
         if m == 2 and (start_time - self.panchaanga.jd_start) > 200:
           m = 14
+        if m not in lunar_tithi_days:
+          # The assignment loop runs one day past lunar_month_list's own
+          # construction window (duration+3 vs duration+2 above), as a
+          # look-ahead for a new month starting on that last day. If an
+          # adhika masa happens to start exactly there, its (fractional)
+          # month index was never registered in lunar_month_list. No paksha
+          # can be completed from a single trailing day anyway, so it's
+          # safe to just drop this entry rather than crash.
+          continue
         if t.anga.index == 1:
           # Check if it has to be assigned to current month or next
           if dp.sunrise_day_angas.get_angas_with_ends(AngaType.TITHI)[0].anga.index == 30:
