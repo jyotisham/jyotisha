@@ -47,7 +47,9 @@ jobs:
           set -o xtrace
           git submodule update  --init --recursive
           git submodule update --remote --merge --recursive hugo-source/content/output
-          git submodule update --remote --merge --recursive hugo-source/themes/sanskrit-documentation-theme-hugo
+          # Theme is pinned (not floated to upstream HEAD): an untested upstream commit
+          # there previously broke the hugo build here (nil partialCached variant),
+          # unrelated to any change in this repo. Bump the pin deliberately instead.
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v1
         with:
@@ -90,7 +92,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: "0.83.1"
+          hugo-version: "0.165.0"
       - name: Build hugo site pages
         id: hugo_build
         run: |
