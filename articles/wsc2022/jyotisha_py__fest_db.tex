@@ -1,0 +1,50 @@
+% Template - https://sanskrit.uohyd.ac.in/18WSC/Style_files/CS_and_DH.tex
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\documentclass[11pt]{article}
+\usepackage{scl}
+\usepackage{times}
+\usepackage{url}
+\usepackage{latexsym}
+\usepackage{lineno}
+
+\usepackage{fontspec, xunicode, xltxtra}
+\newfontfamily\skt[Script=Devanagari]{Sanskrit 2003}
+\setmonofont{Sanskrit 2003}
+
+
+\title{Jyotiṣa python library and event repositories}
+
+\author{Karthik Raman \\
+  IIT, Chennai \\
+  {\tt kraman@iitm·ac·in} \\\And
+  Vishvas Vasuki \\
+  Dyugaṅgā, Beṅgaḷūru \\
+  {\tt https://sanskrit.github.io/groups/dyuganga/}
+\\}
+
+\date{}
+
+\begin{document}
+\maketitle
+%\linenumbers
+\begin{abstract}
+In this paper, we introduce a python library to facilitate Jyotiṣa computations, as well as associated but independent festival and event repositories. This library may be used to compute highly customized Hindu calendars, and has been successfully used to determine dates of historical events.
+\end{abstract}
+
+\section{Introduction}
+Jyotisha \cite{jyotisha_py} is an open source python package to do panchāṅga (traditional vedic astronomical / astrological) calculations, and produce calendars in various formats. It is backed by big events databases, stored in the open source ``adyatithi" repository \cite{adyatithi}. These events databases may be used with other Jyotiṣa libraries as well.
+
+\section{Basic computations}
+
+\section{Calendar generation}
+
+\section{Event databases}
+
+
+
+% include your own bib file like this:
+\bibliographystyle{acl}
+\bibliography{jyotisha_py__fest_db}
+\end{document}
