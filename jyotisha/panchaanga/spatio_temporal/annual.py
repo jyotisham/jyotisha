@@ -19,8 +19,20 @@ set_constants()
 
 
 def load_panchaanga(fname, fallback_fn):
+  try:
+    panchaanga = Panchaanga.read_from_file(filename=fname, name_to_json_class_index_extra={"Panchangam": periodical.Panchaanga})
+  except Exception:
+    # A cache file written by a different jyotisha version can reference a
+    # jsonClass (e.g. a since-added/renamed FestivalInstance subclass) that
+    # isn't in this process's json_class_index, which raises a bare KeyError
+    # deep inside sanskrit_data's deserialization -- well before the version
+    # field below is ever inspected. Any such failure means the cache is
+    # incompatible with the running code, so fall back exactly as the
+    # explicit-version-mismatch case below does.
+    logging.warning("Precomputed Panchanga at %s could not be deserialized (likely written by an incompatible jyotisha version); recomputing." % fname)
+    logging.debug(traceback.format_exc())
+    return fallback_fn()
   logging.info('Loaded pre-computed panchaanga from %s.' % fname)
-  panchaanga = Panchaanga.read_from_file(filename=fname, name_to_json_class_index_extra={"Panchangam": periodical.Panchaanga})
   if getattr(panchaanga, 'version', None) is None or panchaanga.version != periodical.Panchaanga.LATEST_VERSION:
     logging.warning("Precomputed Panchanga obsolete.")
     return fallback_fn()

@@ -64,6 +64,19 @@ def test_panchaanga_orinda_19(caplog):
   panchaanga_json_comparer(city=city, year=2019)
 
 
+def test_load_panchaanga_recomputes_on_deserialization_failure(tmp_path):
+  # Simulates a cache file written by a different jyotisha version: its
+  # jsonClass ("NoSuchFestivalInstance") isn't registered in this process's
+  # json_class_index, so deserialization raises a bare KeyError. This used
+  # to propagate and crash the caller; it should instead be treated like an
+  # obsolete-version cache and trigger fallback_fn (recompute).
+  fname = os.path.join(tmp_path, "poisoned.json")
+  with open(fname, 'w') as f:
+    f.write('{"jsonClass": "NoSuchFestivalInstance"}')
+  sentinel = object()
+  assert annual.load_panchaanga(fname=fname, fallback_fn=lambda: sentinel) is sentinel
+
+
 def test_adhika_maasa_computations_2009():
   panchaanga = no_fest_chennai_panchaanga(year=2009)
   expected_lunar_months_2009 = [7] + [8] * 29 + [9] * 30 + [10] * 15
