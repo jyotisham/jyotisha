@@ -9,7 +9,7 @@
     <meta name="MobileOptimized" content="320">
 
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.165.0">
+    <meta name="generator" content="Hugo 0.143.0">
     
     
       <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
@@ -19,27 +19,27 @@
     <link href="/jyotisha/software/for_users/" rel="feed" type="application/rss+xml" title="ज्योतिषम् py" />
 
     <meta property="og:url" content="https://jyotisham.github.io/jyotisha/software/for_users/">
-	<meta property="og:site_name" content="ज्योतिषम् py">
-	<meta property="og:title" content="For users">
-	<meta property="og:description" content="For detailed examples and help, please see individual module files - especially test files in this package.
+  <meta property="og:site_name" content="ज्योतिषम् py">
+  <meta property="og:title" content="For users">
+  <meta property="og:description" content="For detailed examples and help, please see individual module files - especially test files in this package.
 Installation or upgrade: Install the pyswisseph library specially as described in the contribution section. Install the jyotisha package (Prefer this to get the latest code:)sudo pip install git&#43;https://github.com/jyotisham/jyotisha/@master -U sudo pip install jyotisha -U Web. Usage Simple invocation The simplest way to invoke the code and generate calendars in a variety of forms (icalendar/ ics, tex [which can then be converted to pdf], markdown [which can then be presented as html]) is to use python invocations of the type seen in: tests such as those in jyotisha_tests/spatio_temporal/writer Calendar generation projects such as those under this folder - jyotisha/panchaanga/writer/generation_project Command line usage - can be invoked via some shell scripts at karthik’s panchaanga repo. But these often go out of date - so you might need to debug them. See this issue. Sample code to output panchaanga # Produce a panchaanga from jyotisha.panchaanga.spatio_temporal import City, annual, periodical from jyotisha.panchaanga.temporal import ComputationSystem from jyotisha.panchaanga.temporal.time import Date city = City(&#39;Chennai&#39;, &#34;13:05:24&#34;, &#34;80:16:12&#34;, &#34;Asia/Calcutta&#34;) panchaanga = annual.get_panchaanga_for_civil_year(city=city, year=2021, computation_system=ComputationSystem.TEST, allow_precomputed=False) ## Markdown from jyotisha.panchaanga.writer import md from doc_curation.md.file import MdFile md_file = MdFile(file_path=&#34;/some/path.md&#34;) md_file.dump_to_file(metadata={&#34;title&#34;: str(2019)}, content=md.make_md(panchaanga=panchaanga), dry_run=False) ## Tex from jyotisha.panchaanga.writer.tex.daily_tex_writer import emit from indic_transliteration import sanscript emit(panchaanga, output_stream=open(&#34;/some/path.tex&#34;, &#39;w&#39;), languages=[&#34;sa&#34;, &#34;ta&#34;], scripts=[sanscript.DEVANAGARI, sanscript.TAMIL]) ## ICS from jyotisha.panchaanga.writer import ics ics_calendar = ics.compute_calendar(panchaanga) ics.write_to_file(ics_calendar, &#34;/some/path.ics&#34;) Note that there are several “ComputationalSystem” options.
 Please see jyotisha/panchaanga/temporal/init.py .
 Particularly, lunar month assignment can be sidereal (luni-solar) or tropical, pUrNImAnta or amAnta.
 One can also select the festival cateogries to enable or disable; pick a different “ayanAMsha” (for setting naxatra boundaries).">
-	<meta property="og:locale" content="en_us">
-	<meta property="og:type" content="article">
-		<meta property="article:section" content="software">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="software">
 
-	<meta itemprop="name" content="For users">
-	<meta itemprop="description" content="For detailed examples and help, please see individual module files - especially test files in this package.
+  <meta itemprop="name" content="For users">
+  <meta itemprop="description" content="For detailed examples and help, please see individual module files - especially test files in this package.
 Installation or upgrade: Install the pyswisseph library specially as described in the contribution section. Install the jyotisha package (Prefer this to get the latest code:)sudo pip install git&#43;https://github.com/jyotisham/jyotisha/@master -U sudo pip install jyotisha -U Web. Usage Simple invocation The simplest way to invoke the code and generate calendars in a variety of forms (icalendar/ ics, tex [which can then be converted to pdf], markdown [which can then be presented as html]) is to use python invocations of the type seen in: tests such as those in jyotisha_tests/spatio_temporal/writer Calendar generation projects such as those under this folder - jyotisha/panchaanga/writer/generation_project Command line usage - can be invoked via some shell scripts at karthik’s panchaanga repo. But these often go out of date - so you might need to debug them. See this issue. Sample code to output panchaanga # Produce a panchaanga from jyotisha.panchaanga.spatio_temporal import City, annual, periodical from jyotisha.panchaanga.temporal import ComputationSystem from jyotisha.panchaanga.temporal.time import Date city = City(&#39;Chennai&#39;, &#34;13:05:24&#34;, &#34;80:16:12&#34;, &#34;Asia/Calcutta&#34;) panchaanga = annual.get_panchaanga_for_civil_year(city=city, year=2021, computation_system=ComputationSystem.TEST, allow_precomputed=False) ## Markdown from jyotisha.panchaanga.writer import md from doc_curation.md.file import MdFile md_file = MdFile(file_path=&#34;/some/path.md&#34;) md_file.dump_to_file(metadata={&#34;title&#34;: str(2019)}, content=md.make_md(panchaanga=panchaanga), dry_run=False) ## Tex from jyotisha.panchaanga.writer.tex.daily_tex_writer import emit from indic_transliteration import sanscript emit(panchaanga, output_stream=open(&#34;/some/path.tex&#34;, &#39;w&#39;), languages=[&#34;sa&#34;, &#34;ta&#34;], scripts=[sanscript.DEVANAGARI, sanscript.TAMIL]) ## ICS from jyotisha.panchaanga.writer import ics ics_calendar = ics.compute_calendar(panchaanga) ics.write_to_file(ics_calendar, &#34;/some/path.ics&#34;) Note that there are several “ComputationalSystem” options.
 Please see jyotisha/panchaanga/temporal/init.py .
 Particularly, lunar month assignment can be sidereal (luni-solar) or tropical, pUrNImAnta or amAnta.
 One can also select the festival cateogries to enable or disable; pick a different “ayanAMsha” (for setting naxatra boundaries).">
-	<meta itemprop="wordCount" content="360">
-	<meta name="twitter:card" content="summary">
-	<meta name="twitter:title" content="For users">
-	<meta name="twitter:description" content="For detailed examples and help, please see individual module files - especially test files in this package.
+  <meta itemprop="wordCount" content="360">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="For users">
+  <meta name="twitter:description" content="For detailed examples and help, please see individual module files - especially test files in this package.
 Installation or upgrade: Install the pyswisseph library specially as described in the contribution section. Install the jyotisha package (Prefer this to get the latest code:)sudo pip install git&#43;https://github.com/jyotisham/jyotisha/@master -U sudo pip install jyotisha -U Web. Usage Simple invocation The simplest way to invoke the code and generate calendars in a variety of forms (icalendar/ ics, tex [which can then be converted to pdf], markdown [which can then be presented as html]) is to use python invocations of the type seen in: tests such as those in jyotisha_tests/spatio_temporal/writer Calendar generation projects such as those under this folder - jyotisha/panchaanga/writer/generation_project Command line usage - can be invoked via some shell scripts at karthik’s panchaanga repo. But these often go out of date - so you might need to debug them. See this issue. Sample code to output panchaanga # Produce a panchaanga from jyotisha.panchaanga.spatio_temporal import City, annual, periodical from jyotisha.panchaanga.temporal import ComputationSystem from jyotisha.panchaanga.temporal.time import Date city = City(&#39;Chennai&#39;, &#34;13:05:24&#34;, &#34;80:16:12&#34;, &#34;Asia/Calcutta&#34;) panchaanga = annual.get_panchaanga_for_civil_year(city=city, year=2021, computation_system=ComputationSystem.TEST, allow_precomputed=False) ## Markdown from jyotisha.panchaanga.writer import md from doc_curation.md.file import MdFile md_file = MdFile(file_path=&#34;/some/path.md&#34;) md_file.dump_to_file(metadata={&#34;title&#34;: str(2019)}, content=md.make_md(panchaanga=panchaanga), dry_run=False) ## Tex from jyotisha.panchaanga.writer.tex.daily_tex_writer import emit from indic_transliteration import sanscript emit(panchaanga, output_stream=open(&#34;/some/path.tex&#34;, &#39;w&#39;), languages=[&#34;sa&#34;, &#34;ta&#34;], scripts=[sanscript.DEVANAGARI, sanscript.TAMIL]) ## ICS from jyotisha.panchaanga.writer import ics ics_calendar = ics.compute_calendar(panchaanga) ics.write_to_file(ics_calendar, &#34;/some/path.ics&#34;) Note that there are several “ComputationalSystem” options.
 Please see jyotisha/panchaanga/temporal/init.py .
 Particularly, lunar month assignment can be sidereal (luni-solar) or tropical, pUrNImAnta or amAnta.
@@ -73,6 +73,9 @@ One can also select the festival cateogries to enable or disable; pick a differe
 
 
     <script src="/jyotisha/webpack_dist/uiLib-bundle.js"></script>
+
+
+
 
 
 
@@ -371,7 +374,7 @@ One can also select the festival cateogries to enable or disable; pick a differe
 <li>Command line usage - can be invoked via some shell scripts at <a href="https://github.com/karthikraman/panchangam">karthik&rsquo;s panchaanga repo</a>. But these often go out of date - so you might need to debug them. See <a href="https://github.com/jyotisham/jyotisha/issues/10">this issue</a>.</li>
 </ul>
 <h4 id="sample-code-to-output-panchaanga">Sample code to output panchaanga</h4>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Produce a panchaanga</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Produce a panchaanga</span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> jyotisha.panchaanga.spatio_temporal <span style="color:#f92672">import</span> City, annual, periodical
 </span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> jyotisha.panchaanga.temporal <span style="color:#f92672">import</span> ComputationSystem
 </span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> jyotisha.panchaanga.temporal.time <span style="color:#f92672">import</span> Date
@@ -483,7 +486,7 @@ One can also select the festival cateogries to enable or disable; pick a differe
     <a class="btn btn-secondary" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
     <div class="btn small border">
       
-      <a href="https://github.com/jyotisham/jyotisha/actions"><img src=""> Built </a> on 2026 Sep 13 16:14:24 UTC. (<a href="http://google.com/search?q=16%3a14%3a24%20UTC to IST">IST</a>)
+      <a href="https://github.com/jyotisham/jyotisha/actions"><img src=""> Built </a> on 2026 Sep 15 13:34:49 UTC. (<a href="http://google.com/search?q=13%3a34%3a49%20UTC to IST">IST</a>)
     </div>
   </div>
 </footer>
