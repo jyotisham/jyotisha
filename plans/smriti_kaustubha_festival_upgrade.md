@@ -161,6 +161,8 @@ The current `HinduCalendarEventTiming` already supports `intersection_groups` (t
 
 ## 4. Consolidated FIX list (existing entries whose timing/data disagree with SK)
 
+> **Deferred (decision, 2026-09-29):** these timing changes stay as notes for now. Other traditions (e.g. Smṛti-muktāphala, which many current entries follow) decide several of them differently, so SK alone is not a reason to change computed dates. Revisit per festival, recording which tradition each entry follows.
+
 | id (month/tithi) | Current | SK says (page) | Action |
 |---|---|---|---|
 | `madana-trayOdazI` (01/13) | madhyāhna, no priority | kandarpa-vrata trayodaśī must be **pūrvaviddhā** (p.104, Dīpikā) | set `priority = "puurvaviddha"` |
