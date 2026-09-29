@@ -1,7 +1,7 @@
 # Plan: upgrading adyatithi festival data from the Smṛti-Kaustubha (संवत्सरदीधितिः)
 
 Status: **PLAN ONLY (nothing implemented yet)**. Source text: OCR of *Smṛti-Kaustubha* of Anantadeva (Nirṇaya-Sāgara, Bombay 1931, ed. W. L. Pansikar),
-file `SmritiKaustubham.txt` (620 OCR pages, `### NNN.json` markers).
+file [`source/ocr/smriti-kaustubha-1931.ocr.txt`](https://github.com/stotrasamhita/smriti-kaustubham/blob/master/source/ocr/smriti-kaustubha-1931.ocr.txt) in `stotrasamhita/smriti-kaustubham` (620 OCR pages, `### NNN.json` markers). Working notes: [`smriti_kaustubha_notes.md`](smriti_kaustubha_notes.md).
 
 Targets:
 - **Data**: `jyotisham/adyatithi` TOML files (shlokas, references, timing fixes, new festival files).
@@ -77,7 +77,7 @@ Suggested order: §3 infrastructure → §4 FIX list → month-wise ADD-SH (chea
 | `पू.`, `प्र.`, `०` abbreviations | expand from context | pūjā lists |
 | `मे`/`मॅ` for `मेष` etc. | context | p.540 (saṅkrānti-dāna) |
 
-### 2.3 Page-specific corrections (samples; full list in the working notes – carry into each TOML edit)
+### 2.3 Page-specific corrections (samples; full list in [the working notes](smriti_kaustubha_notes.md) – carry into each TOML edit)
 - p.85 जगब्रह्मा→जगद्ब्रह्मा; समयं→समग्रं; p.86 सा-त्पात→सोत्पात; p.88 प्रजशिवान्→प्रजज्ञिवान्, यहिनादाक्कल्प→यद्दिनात्कल्प;
   p.90 द्रुतं→व्रतं, भक्षयेन→भक्षयेन्न, मधोवीं→मधोर्देवीं.
 - p.92 गणपतेदमन→गणपतेर्दमन; haya-pūjā gandharva list: "प्रत्यु[युक्तश्च" [?], "ापिकाभिश्च"→"पूपिकाभिश्च" [?].
@@ -207,7 +207,7 @@ The current `HinduCalendarEventTiming` already supports `intersection_groups` (t
 ## 5. Month-by-month catalogue
 
 Format of each row: **id / proposed id** — status — timing — key shloka(s) (corrected) — book page — complexity.
-Only the *first* or most characteristic verse is quoted in the table; the working notes have the fuller text.
+Only the *first* or most characteristic verse is quoted in the table; [the working notes](smriti_kaustubha_notes.md) have the fuller text.
 
 ### 5.1 Chaitra (चैत्रकृत्यम्, pp.85–108)
 
