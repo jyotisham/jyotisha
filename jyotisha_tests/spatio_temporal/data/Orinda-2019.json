@@ -6750,6 +6750,16 @@
         }
       },
       "festival_id_to_instance": {
+        "amAvAsyA~mahAbhAratE": {
+          "interval": {
+            "jd_end": 2458490.1455,
+            "jd_start": 2458489.1455,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "amAvAsyA~mahAbhAratE"
+        },
         "anadhyAyaH~30": {
           "description": {
             "blurb": "Observed on Amāvāsyā tithi of every (lunar) month (Sāṅgavaḥ/paraviddha). ",
@@ -6867,16 +6877,6 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "piNDa-pitR-yajJaH"
-        },
-        "sarva-amAvAsyA~mahAbhAratE": {
-          "interval": {
-            "jd_end": 2458490.1455,
-            "jd_start": 2458489.1455,
-            "jsonClass": "Interval",
-            "name": "full_day"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "sarva-amAvAsyA~mahAbhAratE"
         },
         "sarva-mArgazIrSa-amAvAsyA": {
           "interval": {
@@ -35339,16 +35339,6 @@
           "jsonClass": "AdhyayanaFestivalInstance",
           "name": "anadhyAyaH~30"
         },
-        "bOdhAyana-kAtyAyana-amAvAsyA": {
-          "interval": {
-            "jd_end": 2458519.1353,
-            "jd_start": 2458518.1359,
-            "jsonClass": "Interval",
-            "name": "full_day"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "bOdhAyana-kAtyAyana-amAvAsyA"
-        },
         "caturdazI~mahAbhAratE": {
           "interval": {
             "jd_end": 2458518.2657,
@@ -35367,16 +35357,6 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "kRSNa-caturdazI~mahAbhAratE"
-        },
-        "mauni_(pauSa__makara)_amAvAsyA": {
-          "interval": {
-            "jd_end": 2458519.1353,
-            "jd_start": 2458518.1359,
-            "jsonClass": "Interval",
-            "name": "full_day"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "mauni_(pauSa__makara)_amAvAsyA"
         },
         "pancha-parva-1": {
           "interval": {
@@ -35397,6 +35377,16 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "pauSa-yama-tarpaNam"
+        },
+        "sarva-mauni_(pauSa__makara)_amAvAsyA": {
+          "interval": {
+            "jd_end": 2458519.1353,
+            "jd_start": 2458518.1359,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "sarva-mauni_(pauSa__makara)_amAvAsyA"
         },
         "uttarASADhA~mahAbhAratE": {
           "interval": {
@@ -65022,6 +65012,16 @@
         }
       },
       "festival_id_to_instance": {
+        "amAvAsyA~mahAbhAratE": {
+          "interval": {
+            "jd_end": 2458549.1095,
+            "jd_start": 2458548.1105,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "amAvAsyA~mahAbhAratE"
+        },
         "anadhyAyaH~30": {
           "description": {
             "blurb": "Observed on Amāvāsyā tithi of every (lunar) month (Sāṅgavaḥ/paraviddha). ",
@@ -65138,16 +65138,6 @@
           "jsonClass": "FestivalInstance",
           "name": "purandaradAsa-ArAdhanA",
           "ordinal": 455
-        },
-        "sarva-amAvAsyA~mahAbhAratE": {
-          "interval": {
-            "jd_end": 2458549.1095,
-            "jd_start": 2458548.1105,
-            "jsonClass": "Interval",
-            "name": "full_day"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "sarva-amAvAsyA~mahAbhAratE"
         },
         "sarva-mAgha-amAvAsyA_(alabhyam–mAgha-zatabhiSak,_puSkalA)": {
           "interval": {
@@ -94554,6 +94544,16 @@
         }
       },
       "festival_id_to_instance": {
+        "amAvAsyA~mahAbhAratE": {
+          "interval": {
+            "jd_end": 2458579.0781,
+            "jd_start": 2458578.0791,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "amAvAsyA~mahAbhAratE"
+        },
         "anadhyAyaH~30": {
           "description": {
             "blurb": "Observed on Amāvāsyā tithi of every (lunar) month (Sāṅgavaḥ/paraviddha). ",
@@ -94668,16 +94668,6 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "piNDa-pitR-yajJaH"
-        },
-        "sarva-amAvAsyA~mahAbhAratE": {
-          "interval": {
-            "jd_end": 2458579.0781,
-            "jd_start": 2458578.0791,
-            "jsonClass": "Interval",
-            "name": "full_day"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "sarva-amAvAsyA~mahAbhAratE"
         },
         "sarva-phAlguna-amAvAsyA_(alabhyam–puSkalA)": {
           "interval": {
@@ -123219,26 +123209,6 @@
           "jsonClass": "FestivalInstance",
           "name": "azvinI~mahAbhAratE"
         },
-        "bOdhAyana-kAtyAyana-amAvAsyA": {
-          "interval": {
-            "jd_end": 2458608.0515,
-            "jd_start": 2458607.0522,
-            "jsonClass": "Interval",
-            "name": "full_day"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "bOdhAyana-kAtyAyana-amAvAsyA"
-        },
-        "caitra-amAvAsyA": {
-          "interval": {
-            "jd_end": 2458608.0515,
-            "jd_start": 2458607.0522,
-            "jsonClass": "Interval",
-            "name": "full_day"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "caitra-amAvAsyA"
-        },
         "caturdazI~mahAbhAratE": {
           "interval": {
             "jd_end": 2458607.4403,
@@ -123288,6 +123258,16 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "pancha-parva-1"
+        },
+        "sarva-caitra-amAvAsyA": {
+          "interval": {
+            "jd_end": 2458608.0515,
+            "jd_start": 2458607.0522,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "sarva-caitra-amAvAsyA"
         }
       },
       "graha_rise_jd": {
@@ -152925,6 +152905,16 @@
         }
       },
       "festival_id_to_instance": {
+        "amAvAsyA~mahAbhAratE": {
+          "interval": {
+            "jd_end": 2458638.0364,
+            "jd_start": 2458637.0367,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "amAvAsyA~mahAbhAratE"
+        },
         "anadhyAyaH~30": {
           "description": {
             "blurb": "Observed on Amāvāsyā tithi of every (lunar) month (Sāṅgavaḥ/paraviddha). ",
@@ -153000,16 +152990,6 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "piNDa-pitR-yajJaH"
-        },
-        "sarva-amAvAsyA~mahAbhAratE": {
-          "interval": {
-            "jd_end": 2458638.0364,
-            "jd_start": 2458637.0367,
-            "jsonClass": "Interval",
-            "name": "full_day"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "sarva-amAvAsyA~mahAbhAratE"
         },
         "sarva-vaizAkha-amAvAsyA": {
           "interval": {
@@ -181490,16 +181470,6 @@
           "jsonClass": "AdhyayanaFestivalInstance",
           "name": "anadhyAyaH~29"
         },
-        "bOdhAyana-kAtyAyana-jyESTha-amAvAsyA": {
-          "interval": {
-            "jd_end": 2458667.0386,
-            "jd_start": 2458666.0383,
-            "jsonClass": "Interval",
-            "name": "full_day"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "bOdhAyana-kAtyAyana-jyESTha-amAvAsyA"
-        },
         "caturdazI~mahAbhAratE": {
           "interval": {
             "jd_end": 2458666.4,
@@ -181518,16 +181488,6 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "cidambarE_svarNa-sUryaprabha_vAhanam"
-        },
-        "jyaiSTha-amAvAsyA_(alabhyam–puSkalA)": {
-          "interval": {
-            "jd_end": 2458667.0386,
-            "jd_start": 2458666.0383,
-            "jsonClass": "Interval",
-            "name": "full_day"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "jyaiSTha-amAvAsyA_(alabhyam–puSkalA)"
         },
         "kRSNa-caturdazI~mahAbhAratE": {
           "interval": {
@@ -181576,6 +181536,16 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "sOmamRgazIrSa-yOgaH"
+        },
+        "sarva-jyaiSTha-amAvAsyA_(alabhyam–puSkalA)": {
+          "interval": {
+            "jd_end": 2458667.0386,
+            "jd_start": 2458666.0383,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "sarva-jyaiSTha-amAvAsyA_(alabhyam–puSkalA)"
         }
       },
       "graha_rise_jd": {
@@ -210317,7 +210287,7 @@
           "jsonClass": "AdhyayanaFestivalInstance",
           "name": "anadhyAyaH~29"
         },
-        "bOdhAyana-kAtyAyana-amAvAsyA": {
+        "bOdhAyana-kAtyAyana-ASADha_(karkaTa)_amAvAsyA": {
           "interval": {
             "jd_end": 2458696.0526,
             "jd_start": 2458695.052,
@@ -210325,7 +210295,7 @@
             "name": "full_day"
           },
           "jsonClass": "FestivalInstance",
-          "name": "bOdhAyana-kAtyAyana-amAvAsyA"
+          "name": "bOdhAyana-kAtyAyana-ASADha_(karkaTa)_amAvAsyA"
         },
         "caturdazI~mahAbhAratE": {
           "interval": {
@@ -269479,16 +269449,6 @@
         }
       },
       "festival_id_to_instance": {
-        "(bhAdrapada)_mahAlaya_amAvAsyA": {
-          "interval": {
-            "jd_end": 2458755.0874,
-            "jd_start": 2458754.0868,
-            "jsonClass": "Interval",
-            "name": "full_day"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "(bhAdrapada)_mahAlaya_amAvAsyA"
-        },
         "anadhyAyaH~29": {
           "description": {
             "blurb": "Observed on Kr̥ṣṇa-Caturdaśī tithi of every (lunar) month (Sāṅgavaḥ/paraviddha). ",
@@ -269506,16 +269466,6 @@
           },
           "jsonClass": "AdhyayanaFestivalInstance",
           "name": "anadhyAyaH~29"
-        },
-        "bOdhAyana-kAtyAyana-amAvAsyA": {
-          "interval": {
-            "jd_end": 2458755.0874,
-            "jd_start": 2458754.0868,
-            "jsonClass": "Interval",
-            "name": "full_day"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "bOdhAyana-kAtyAyana-amAvAsyA"
         },
         "caturdazI~mahAbhAratE": {
           "interval": {
@@ -269585,6 +269535,16 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "pancha-parva-1"
+        },
+        "sarva-(bhAdrapada)_mahAlaya_amAvAsyA": {
+          "interval": {
+            "jd_end": 2458755.0874,
+            "jd_start": 2458754.0868,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "sarva-(bhAdrapada)_mahAlaya_amAvAsyA"
         },
         "zRGgErI_34_jagadguru_zrI~candrazEkhara_bhAratI_ArAdhanA": {
           "interval": {
@@ -298502,7 +298462,7 @@
           "jsonClass": "AdhyayanaFestivalInstance",
           "name": "anadhyAyaH~29"
         },
-        "bOdhAyana-kAtyAyana-amAvAsyA": {
+        "bOdhAyana-kAtyAyana-Azvayuja-amAvAsyA": {
           "interval": {
             "jd_end": 2458784.1065,
             "jd_start": 2458783.1058,
@@ -298510,7 +298470,7 @@
             "name": "full_day"
           },
           "jsonClass": "FestivalInstance",
-          "name": "bOdhAyana-kAtyAyana-amAvAsyA"
+          "name": "bOdhAyana-kAtyAyana-Azvayuja-amAvAsyA"
         },
         "caturdazI~mahAbhAratE": {
           "interval": {
@@ -328590,16 +328550,6 @@
           "jsonClass": "AdhyayanaFestivalInstance",
           "name": "anadhyAyaH~30"
         },
-        "bOdhAyana-kAtyAyana-amAvAsyA": {
-          "interval": {
-            "jd_end": 2458814.1286,
-            "jd_start": 2458813.1279,
-            "jsonClass": "Interval",
-            "name": "full_day"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "bOdhAyana-kAtyAyana-amAvAsyA"
-        },
         "caturdazI~mahAbhAratE": {
           "interval": {
             "jd_end": 2458813.2157,
@@ -328617,16 +328567,6 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "dhruva-carita-kathanam~tithiSu"
-        },
-        "kArttika-amAvAsyA_(alabhyam–vizAkhA,_puSkalA)": {
-          "interval": {
-            "jd_end": 2458814.1286,
-            "jd_start": 2458813.1279,
-            "jsonClass": "Interval",
-            "name": "full_day"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "kArttika-amAvAsyA_(alabhyam–vizAkhA,_puSkalA)"
         },
         "kArttika~sOmavAsaraH": {
           "interval": {
@@ -328676,6 +328616,16 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "parva-niyamAH~mahAbhAratE"
+        },
+        "sarva-kArttika-amAvAsyA_(alabhyam–vizAkhA,_puSkalA)": {
+          "interval": {
+            "jd_end": 2458814.1286,
+            "jd_start": 2458813.1279,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "sarva-kArttika-amAvAsyA_(alabhyam–vizAkhA,_puSkalA)"
         },
         "tiruvizalUr_gaGgAkarSaNa-mahOtsava-samApanam": {
           "interval": {
@@ -358140,6 +358090,16 @@
         }
       },
       "festival_id_to_instance": {
+        "amAvAsyA~mahAbhAratE": {
+          "interval": {
+            "jd_end": 2458844.1442,
+            "jd_start": 2458843.144,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "amAvAsyA~mahAbhAratE"
+        },
         "anadhyAyaH~30": {
           "description": {
             "blurb": "Observed on Amāvāsyā tithi of every (lunar) month (Sāṅgavaḥ/paraviddha). ",
@@ -358267,16 +358227,6 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "piNDa-pitR-yajJaH"
-        },
-        "sarva-amAvAsyA~mahAbhAratE": {
-          "interval": {
-            "jd_end": 2458844.1442,
-            "jd_start": 2458843.144,
-            "jsonClass": "Interval",
-            "name": "full_day"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "sarva-amAvAsyA~mahAbhAratE"
         },
         "sarva-mArgazIrSa-amAvAsyA": {
           "interval": {
@@ -390795,14 +390745,6 @@
     "year": 2019
   },
   "festival_id_to_days": {
-    "(bhAdrapada)_mahAlaya_amAvAsyA": [
-      {
-        "day": 27,
-        "jsonClass": "Date",
-        "month": 9,
-        "year": 2019
-      }
-    ],
     "(yama)-dIpa-trayOdazI": [
       {
         "day": 25,
@@ -392081,15 +392023,39 @@
     ],
     "amAvAsyA~mahAbhAratE": [
       {
+        "day": 5,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2019
+      },
+      {
         "day": 4,
         "jsonClass": "Date",
         "month": 2,
         "year": 2019
       },
       {
+        "day": 5,
+        "jsonClass": "Date",
+        "month": 3,
+        "year": 2019
+      },
+      {
+        "day": 4,
+        "jsonClass": "Date",
+        "month": 4,
+        "year": 2019
+      },
+      {
         "day": 4,
         "jsonClass": "Date",
         "month": 5,
+        "year": 2019
+      },
+      {
+        "day": 2,
+        "jsonClass": "Date",
+        "month": 6,
         "year": 2019
       },
       {
@@ -392120,6 +392086,12 @@
         "day": 26,
         "jsonClass": "Date",
         "month": 11,
+        "year": 2019
+      },
+      {
+        "day": 25,
+        "jsonClass": "Date",
+        "month": 12,
         "year": 2019
       }
     ],
@@ -394301,41 +394273,19 @@
         "year": 2019
       }
     ],
-    "bOdhAyana-kAtyAyana-amAvAsyA": [
-      {
-        "day": 3,
-        "jsonClass": "Date",
-        "month": 2,
-        "year": 2019
-      },
-      {
-        "day": 3,
-        "jsonClass": "Date",
-        "month": 5,
-        "year": 2019
-      },
+    "bOdhAyana-kAtyAyana-ASADha_(karkaTa)_amAvAsyA": [
       {
         "day": 30,
         "jsonClass": "Date",
         "month": 7,
         "year": 2019
-      },
-      {
-        "day": 27,
-        "jsonClass": "Date",
-        "month": 9,
-        "year": 2019
-      },
+      }
+    ],
+    "bOdhAyana-kAtyAyana-Azvayuja-amAvAsyA": [
       {
         "day": 26,
         "jsonClass": "Date",
         "month": 10,
-        "year": 2019
-      },
-      {
-        "day": 25,
-        "jsonClass": "Date",
-        "month": 11,
         "year": 2019
       }
     ],
@@ -394362,14 +394312,6 @@
         "day": 27,
         "jsonClass": "Date",
         "month": 10,
-        "year": 2019
-      }
-    ],
-    "bOdhAyana-kAtyAyana-jyESTha-amAvAsyA": [
-      {
-        "day": 1,
-        "jsonClass": "Date",
-        "month": 7,
         "year": 2019
       }
     ],
@@ -395358,14 +395300,6 @@
         "day": 20,
         "jsonClass": "Date",
         "month": 3,
-        "year": 2019
-      }
-    ],
-    "caitra-amAvAsyA": [
-      {
-        "day": 3,
-        "jsonClass": "Date",
-        "month": 5,
         "year": 2019
       }
     ],
@@ -398316,14 +398250,6 @@
         "year": 2019
       }
     ],
-    "jyaiSTha-amAvAsyA_(alabhyam–puSkalA)": [
-      {
-        "day": 1,
-        "jsonClass": "Date",
-        "month": 7,
-        "year": 2019
-      }
-    ],
     "jyaiShTha-mAsa-ArambhaH": [
       {
         "day": 3,
@@ -399083,14 +399009,6 @@
         "day": 15,
         "jsonClass": "Date",
         "month": 12,
-        "year": 2019
-      }
-    ],
-    "kArttika-amAvAsyA_(alabhyam–vizAkhA,_puSkalA)": [
-      {
-        "day": 25,
-        "jsonClass": "Date",
-        "month": 11,
         "year": 2019
       }
     ],
@@ -401449,14 +401367,6 @@
         "day": 1,
         "jsonClass": "Date",
         "month": 5,
-        "year": 2019
-      }
-    ],
-    "mauni_(pauSa__makara)_amAvAsyA": [
-      {
-        "day": 3,
-        "jsonClass": "Date",
-        "month": 2,
         "year": 2019
       }
     ],
@@ -405386,6 +405296,14 @@
         "year": 2019
       }
     ],
+    "sarva-(bhAdrapada)_mahAlaya_amAvAsyA": [
+      {
+        "day": 27,
+        "jsonClass": "Date",
+        "month": 9,
+        "year": 2019
+      }
+    ],
     "sarva-SaTtilA-EkAdazI": [
       {
         "day": 30,
@@ -405399,38 +405317,6 @@
         "day": 26,
         "jsonClass": "Date",
         "month": 8,
-        "year": 2019
-      }
-    ],
-    "sarva-amAvAsyA~mahAbhAratE": [
-      {
-        "day": 5,
-        "jsonClass": "Date",
-        "month": 1,
-        "year": 2019
-      },
-      {
-        "day": 5,
-        "jsonClass": "Date",
-        "month": 3,
-        "year": 2019
-      },
-      {
-        "day": 4,
-        "jsonClass": "Date",
-        "month": 4,
-        "year": 2019
-      },
-      {
-        "day": 2,
-        "jsonClass": "Date",
-        "month": 6,
-        "year": 2019
-      },
-      {
-        "day": 25,
-        "jsonClass": "Date",
-        "month": 12,
         "year": 2019
       }
     ],
@@ -405450,6 +405336,14 @@
         "year": 2019
       }
     ],
+    "sarva-caitra-amAvAsyA": [
+      {
+        "day": 3,
+        "jsonClass": "Date",
+        "month": 5,
+        "year": 2019
+      }
+    ],
     "sarva-indirA-EkAdazI": [
       {
         "day": 24,
@@ -405458,11 +405352,27 @@
         "year": 2019
       }
     ],
+    "sarva-jyaiSTha-amAvAsyA_(alabhyam–puSkalA)": [
+      {
+        "day": 1,
+        "jsonClass": "Date",
+        "month": 7,
+        "year": 2019
+      }
+    ],
     "sarva-kAmadA-EkAdazI": [
       {
         "day": 15,
         "jsonClass": "Date",
         "month": 4,
+        "year": 2019
+      }
+    ],
+    "sarva-kArttika-amAvAsyA_(alabhyam–vizAkhA,_puSkalA)": [
+      {
+        "day": 25,
+        "jsonClass": "Date",
+        "month": 11,
         "year": 2019
       }
     ],
@@ -405501,6 +405411,14 @@
         "day": 7,
         "jsonClass": "Date",
         "month": 12,
+        "year": 2019
+      }
+    ],
+    "sarva-mauni_(pauSa__makara)_amAvAsyA": [
+      {
+        "day": 3,
+        "jsonClass": "Date",
+        "month": 2,
         "year": 2019
       }
     ],
