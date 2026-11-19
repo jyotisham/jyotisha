@@ -1,8 +1,10 @@
 import copy
+import datetime
 import logging
 import os
 
 from sanskrit_data import collection_helper, testing
+from sanskrit_data.schema.common import JsonObject
 from timebudget import timebudget
 
 from jyotisha.panchaanga.spatio_temporal import City, annual
@@ -39,7 +41,39 @@ def panchaanga_json_comparer(city, year):
   # must be converted to sorted lists first, else tiny cross-environment float noise in slow-moving
   # festivals (e.g. vArdhakya-prArambhaH) spuriously fails the comparison.
   panchaanga.festival_id_to_days = collection_helper.sets_to_lists(panchaanga.festival_id_to_days)
+  if os.path.exists(expected_content_path):
+    _match_festival_times(actual=panchaanga, expected=JsonObject.read_from_file(filename=expected_content_path))
   testing.json_compare(actual_object=panchaanga, expected_content_path=expected_content_path)
+
+
+# Festival times found by a numerical search (eg. a planet's combustion, vArdhakya-prArambhaH) carry
+# float noise across platforms of around 1e-4 s. json_compare rounds to 4 places and then demands
+# equality, so noise straddling a rounding boundary fails it (13.22414 vs 13.22421 s). Times within
+# this many seconds of the expected ones are taken as equal.
+FESTIVAL_TIME_TOLERANCE_SECONDS = 0.01
+
+
+def _as_datetime(date):
+  return datetime.datetime(date.year, date.month, date.day, date.hour or 0, date.minute or 0) + \
+    datetime.timedelta(seconds=date.second or 0)
+
+
+def _match_festival_times(actual, expected):
+  """Where an actual festival time is within the tolerance of the expected one, copy the expected
+  time over, so that json_compare passes for it; anything further off is left for json_compare to
+  report."""
+  expected_days = getattr(expected, "festival_id_to_days", None) or {}
+  for fest_id, days in actual.festival_id_to_days.items():
+    expected_list = expected_days.get(fest_id)
+    if isinstance(expected_list, set):
+      expected_list = sorted(expected_list)
+    if not isinstance(days, list) or not isinstance(expected_list, list) or len(days) != len(expected_list):
+      continue
+    for day, expected_day in zip(days, expected_list):
+      if (day.hour is None) != (getattr(expected_day, "hour", None) is None):
+        continue
+      if abs((_as_datetime(day) - _as_datetime(expected_day)).total_seconds()) <= FESTIVAL_TIME_TOLERANCE_SECONDS:
+        day.hour, day.minute, day.second = expected_day.hour, expected_day.minute, expected_day.second
 
 
 # def test_panchaanga_chennai_2020(caplog):
