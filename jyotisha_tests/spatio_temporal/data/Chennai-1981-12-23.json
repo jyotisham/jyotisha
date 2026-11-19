@@ -353,6 +353,21 @@
           "base_url": "https://github.com/jyotisham/adyatithi/blob/master/time_focus/vaara_conditioned",
           "jsonClass": "RulesRepo",
           "name": "time_focus/vaara_conditioned"
+        },
+        {
+          "base_url": "https://github.com/jyotisham/adyatithi/blob/master/itihAsa/vAlmIki-rAmAyaNam",
+          "jsonClass": "RulesRepo",
+          "name": "itihAsa/vAlmIki-rAmAyaNam"
+        },
+        {
+          "base_url": "https://github.com/jyotisham/adyatithi/blob/master/purANa/vyAsa-bhAgavatam",
+          "jsonClass": "RulesRepo",
+          "name": "purANa/vyAsa-bhAgavatam"
+        },
+        {
+          "base_url": "https://github.com/jyotisham/adyatithi/blob/master/itihAsa/mahAbhAratam",
+          "jsonClass": "RulesRepo",
+          "name": "itihAsa/mahAbhAratam"
         }
       ],
       "tropical_month_start": "mAdhava_at_equinox"
