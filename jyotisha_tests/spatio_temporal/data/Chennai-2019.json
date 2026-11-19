@@ -18103,16 +18103,6 @@
           },
           "jsonClass": "EkadashiFestivalInstance",
           "name": "sarva-pauSa-putradA-EkAdazI"
-        },
-        "tai_kiruttikai": {
-          "interval": {
-            "jd_end": 2458501.5481,
-            "jd_start": 2458500.548,
-            "jsonClass": "Interval",
-            "name": "full_day"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "tai_kiruttikai"
         }
       },
       "graha_rise_jd": {
@@ -44245,6 +44235,16 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "saGkramaNa-dina-pUrvAhNa-puNyakAlaH"
+        },
+        "tai_kiruttikai": {
+          "interval": {
+            "jd_end": 2458528.5456,
+            "jd_start": 2458527.5458,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "tai_kiruttikai"
         },
         "tiruccendUr_murugan2_mAcit_tiruvizhA_##6##m_nAL—veLLit_tEr_bhavan2i": {
           "interval": {
@@ -74981,16 +74981,6 @@
           "jsonClass": "FestivalInstance",
           "name": "kapAlI_tEr"
         },
-        "mun2aiyaDuvAr_nAyan2mAr_(52)_gurupUjai": {
-          "interval": {
-            "jd_end": 2458560.5335,
-            "jd_start": 2458559.534,
-            "jsonClass": "Interval",
-            "name": "full_day"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "mun2aiyaDuvAr_nAyan2mAr_(52)_gurupUjai"
-        },
         "raMgabharI_EkAdazI": {
           "interval": {
             "jd_end": 2458560.5335,
@@ -101125,6 +101115,16 @@
           "jsonClass": "FestivalInstance",
           "name": "kAJcI_43_jagadguru_zrI~AnandaghanEndra_sarasvatI_ArAdhanA",
           "ordinal": 1006
+        },
+        "mun2aiyaDuvAr_nAyan2mAr_(52)_gurupUjai": {
+          "interval": {
+            "jd_end": 2458587.5214,
+            "jd_start": 2458586.5218,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "mun2aiyaDuvAr_nAyan2mAr_(52)_gurupUjai"
         },
         "zrIrAmanavamI": {
           "interval": {
@@ -135107,16 +135107,6 @@
           "name": "kAJcI_kAmakOTi-maTha-pratiSThApana~jayantI",
           "ordinal": 2501
         },
-        "nammAzhvAr_tirunakSattiram": {
-          "interval": {
-            "jd_end": 2458622.5113,
-            "jd_start": 2458621.5115,
-            "jsonClass": "Interval",
-            "name": "full_day"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "nammAzhvAr_tirunakSattiram"
-        },
         "pArvaNa-vratam_15": {
           "interval": {
             "jd_end": 2458622.5113,
@@ -161998,6 +161988,16 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "mithuna-ravi-saGkramaNa-SaDazIti-puNyakAlaH"
+        },
+        "nammAzhvAr_tirunakSattiram": {
+          "interval": {
+            "jd_end": 2458650.5114,
+            "jd_start": 2458649.5113,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "nammAzhvAr_tirunakSattiram"
         },
         "ravi-saGkramaNa-puNyakAlaH": {
           "interval": {
@@ -389916,9 +389916,9 @@
     ],
     "mun2aiyaDuvAr_nAyan2mAr_(52)_gurupUjai": [
       {
-        "day": 17,
+        "day": 13,
         "jsonClass": "Date",
-        "month": 3,
+        "month": 4,
         "year": 2019
       }
     ],
@@ -390068,9 +390068,9 @@
     ],
     "nammAzhvAr_tirunakSattiram": [
       {
-        "day": 18,
+        "day": 15,
         "jsonClass": "Date",
-        "month": 5,
+        "month": 6,
         "year": 2019
       }
     ],
@@ -393128,9 +393128,9 @@
     ],
     "tai_kiruttikai": [
       {
-        "day": 17,
+        "day": 13,
         "jsonClass": "Date",
-        "month": 1,
+        "month": 2,
         "year": 2019
       }
     ],

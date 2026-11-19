@@ -256404,16 +256404,6 @@
           "jsonClass": "FestivalInstance",
           "name": "anadhyAyaH~pUrvarAtrau"
         },
-        "tirunALaippOvAr_nAyan2mAr_(18)_gurupUjai": {
-          "interval": {
-            "jd_end": 2458748.0832,
-            "jd_start": 2458747.0826,
-            "jsonClass": "Interval",
-            "name": "full_day"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "tirunALaippOvAr_nAyan2mAr_(18)_gurupUjai"
-        },
         "zRGgErI_35_jagadguru_zrI~abhinava_vidyAtIrtha_mahAsvAmI_ArAdhanA": {
           "interval": {
             "jd_end": 2458748.0832,
@@ -282814,6 +282804,16 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "saGkramaNa-dina-pUrvAhNa-puNyakAlaH"
+        },
+        "tirunALaippOvAr_nAyan2mAr_(18)_gurupUjai": {
+          "interval": {
+            "jd_end": 2458775.1002,
+            "jd_start": 2458774.0995,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "tirunALaippOvAr_nAyan2mAr_(18)_gurupUjai"
         },
         "tulA-saGkramaNa-puNyakAlaH": {
           "interval": {
@@ -393402,9 +393402,9 @@
     ],
     "tirunALaippOvAr_nAyan2mAr_(18)_gurupUjai": [
       {
-        "day": 20,
+        "day": 17,
         "jsonClass": "Date",
-        "month": 9,
+        "month": 10,
         "year": 2019
       }
     ],

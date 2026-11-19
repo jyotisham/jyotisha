@@ -2646,34 +2646,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:makara-śravaṇa-kārttikōtsavaḥ
-DTSTART;VALUE=DATE:20190117
-DTEND;VALUE=DATE:20190118
-DTSTAMP:20200101T000000Z
-UID:makara-śravaṇa-kārttikōtsavaḥ_2019-01-17T06:39:07.199996+05:30
-DESCRIPTION:Observed on Kr̥ttikā nakshatra of Makaraḥ (sidereal solar)
-  month (Sūryōdayaḥ/puurvaviddha). <br/><br/>सूर्ये मक
- रराशौ श्रवणनक्षत्रे सति चन
- ्द्रमसि कृत्तिकासु च कार्त
- ्तिकेयपूजा। एतादृशे दिने ऽ
- ग्निवायू कार्त्तिकेयस्य ६ 
- ज्वालाः द्युगङ्गातीरे श्रव
- णसरः प्रति (तत्रैव शरवणे) नि
- न्यतुः। तत्र जाताः ६ बालाः क
- ृत्तिकाभिर् वर्धिताः।<br/><br/>## 
- Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/bl
- ob/master/devatA/kaumAra/sidereal_solar_month/nakshatra/10/03/tai_kiruttik
- ai.toml)<br/>- Tags: TamilnaduTempleFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reminder: makara-śravaṇa-kārttikōtsavaḥ
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Pauṣaḥ-10-12  \,Vr̥ṣabhaḥ-Rōhiṇī🌛🌌  \,  Makara
  ḥ-Uttarāṣāḍhā-10-04🌞🌌  \,  Tapaḥ-11-28🌞🪐  \, Śukra
  ḥ
@@ -7377,6 +7349,34 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Reminder: saṅkramaṇa-dina-pūrvāhṇa-puṇyakālaḥ
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:makara-śravaṇa-kārttikōtsavaḥ
+DTSTART;VALUE=DATE:20190213
+DTEND;VALUE=DATE:20190214
+DTSTAMP:20200101T000000Z
+UID:makara-śravaṇa-kārttikōtsavaḥ_2019-02-13T06:35:57.119997+05:30
+DESCRIPTION:Observed on Kr̥ttikā nakshatra of Makaraḥ (sidereal solar)
+  month (Sūryōdayaḥ/puurvaviddha). <br/><br/>सूर्ये मक
+ रराशौ श्रवणनक्षत्रे सति चन
+ ्द्रमसि कृत्तिकासु च कार्त
+ ्तिकेयपूजा। एतादृशे दिने ऽ
+ ग्निवायू कार्त्तिकेयस्य ६ 
+ ज्वालाः द्युगङ्गातीरे श्रव
+ णसरः प्रति (तत्रैव शरवणे) नि
+ न्यतुः। तत्र जाताः ६ बालाः क
+ ृत्तिकाभिर् वर्धिताः।<br/><br/>## 
+ Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/bl
+ ob/master/devatA/kaumAra/sidereal_solar_month/nakshatra/10/03/tai_kiruttik
+ ai.toml)<br/>- Tags: TamilnaduTempleFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder: makara-śravaṇa-kārttikōtsavaḥ
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
@@ -12688,30 +12688,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Munaiyaḍuvār Nāyanmār (52) Gurupūjai
-DTSTART;VALUE=DATE:20190317
-DTEND;VALUE=DATE:20190318
-DTSTAMP:20200101T000000Z
-UID:MunaiyaḍuvārNāyanmār(52)Gurupūjai_2019-03-17T06:18:57.599999+05:
- 30
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
- ra/12/08/mun2aiyaDuvAr_nAyan2mAr_%2852%29_gurupUjai.toml)<br/>- Tags: Naya
- nmarGurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Na
- yanmar Saints by Swami Sivananda\, published by The Divine Life Society<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
- mahApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/12/08/mun2aiyaDuvAr_nA
- yan2mAr_%2852%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reminder: Munaiyaḍuvār Nāyanmār (52) Gurupūjai
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:raṁgabharī ēkādaśī
 DTSTART;VALUE=DATE:20190317
 DTEND;VALUE=DATE:20190318
@@ -17718,6 +17694,30 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Reminder: kāñcī 43 jagadguru-śrī-ānandaghanēndra-sarasv
  atī-ārādhanā #1006
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Munaiyaḍuvār Nāyanmār (52) Gurupūjai
+DTSTART;VALUE=DATE:20190413
+DTEND;VALUE=DATE:20190414
+DTSTAMP:20200101T000000Z
+UID:MunaiyaḍuvārNāyanmār(52)Gurupūjai_2019-04-13T06:01:23.520019+05:
+ 30
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/nAyanmAr/sidereal_solar_month/nakshat
+ ra/12/08/mun2aiyaDuvAr_nAyan2mAr_%2852%29_gurupUjai.toml)<br/>- Tags: Naya
+ nmarGurupujai<br/><br/><br/><br/>## Details<br/>- References<br/>  - 63 Na
+ yanmar Saints by Swami Sivananda\, published by The Divine Life Society<br
+ />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
+ mahApuruSha/nAyanmAr/sidereal_solar_month/nakshatra/12/08/mun2aiyaDuvAr_nA
+ yan2mAr_%2852%29_gurupUjai.toml)<br/>- Tags: NayanmarGurupujai
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Munaiyaḍuvār Nāyanmār (52) Gurupūjai
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
@@ -24266,26 +24266,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Nammāḻvār Tirunakṣattiram
-DTSTART;VALUE=DATE:20190518
-DTEND;VALUE=DATE:20190519
-DTSTAMP:20200101T000000Z
-UID:NammāḻvārTirunakṣattiram_2019-05-18T05:46:33.600002+05:30
-DESCRIPTION:Observed on Viśākhā nakshatra of Vr̥ṣabhaḥ (sidereal s
- olar) month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [
- Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahAp
- uruSha/ALvAr/sidereal_solar_month/nakshatra/02/16/nammAzhvAr_tirunakSattir
- am.toml)<br/>- Tags: MahapurushaEvents AzhwarJayanti
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reminder: Nammāḻvār Tirunakṣattiram
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:pārvaṇavratam pūrṇimāyām
 DTSTART;VALUE=DATE:20190518
 DTEND;VALUE=DATE:20190519
@@ -28989,6 +28969,26 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Reminder: mithuna-ravi-saṅkramaṇa-ṣaḍaśīti-puṇyak
  ālaḥ
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Nammāḻvār Tirunakṣattiram
+DTSTART;VALUE=DATE:20190615
+DTEND;VALUE=DATE:20190616
+DTSTAMP:20200101T000000Z
+UID:NammāḻvārTirunakṣattiram_2019-06-15T05:46:16.319991+05:30
+DESCRIPTION:Observed on Viśākhā nakshatra of Vr̥ṣabhaḥ (sidereal s
+ olar) month (Prātaḥ/paraviddha). <br/><br/><br/><br/>## Details<br/>- [
+ Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahAp
+ uruSha/ALvAr/sidereal_solar_month/nakshatra/02/16/nammAzhvAr_tirunakSattir
+ am.toml)<br/>- Tags: MahapurushaEvents AzhwarJayanti
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Nammāḻvār Tirunakṣattiram
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
