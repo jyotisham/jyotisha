@@ -57,6 +57,36 @@ def _month_matches(daily_panchaanga, month_type, month_number):
   return day_month in months
 
 
+def _transits_after_sunrise(daily_panchaanga, month_type):
+  """The jd of the sankranti if this day's month (sidereal or tropical solar, judged at sunset) began
+  between this sunrise and sunset, else None."""
+  if month_type not in _MONTH_TRANSITION_DATE_ATTR:
+    return None
+  date = daily_panchaanga.get_date(month_type=month_type)
+  if date.day != 1 or date.month_transition is None or date.month_transition <= daily_panchaanga.jd_sunrise:
+    return None
+  return date.month_transition
+
+
+def _month_at_kaala(daily_panchaanga, month_type, kaala):
+  """The day's month for a rule judged at `kaala`. jyotisha dates a solar month by sunset, but a rule
+  that looks at an anga in some kaala belongs to the month current at that kaala's start: on a day
+  the Sun changes sign after that, the anga then standing belongs to the month that is ending.
+  Eg. Chennai 2026-12-16: dhanus sankranti at 09:58, after saangava begins (08:42), so the
+  shatabhishak standing then is vRshcika's."""
+  month = daily_panchaanga.get_date(month_type=month_type).month
+  transit_jd = _transits_after_sunrise(daily_panchaanga, month_type)
+  if transit_jd is None or kaala is None:
+    return month
+  try:
+    kaala_start = daily_panchaanga.get_interval(kaala).jd_start
+  except Exception:
+    return month
+  if kaala_start is not None and transit_jd > kaala_start:
+    return (month - 2) % 12 + 1
+  return month
+
+
 class RuleLookupAssigner(FestivalAssigner):
   def assign_varalakshmi_vratam(self):
     """ varalakSmI-vratam is set directly off zrAvaNa-pUrNimA (tithi 15 of nija zrAvaNa mAsa, decided at
@@ -344,6 +374,13 @@ class RuleLookupAssigner(FestivalAssigner):
     anga_spans = self.panchaanga.get_interval_anga_spans(date=panchaangas[1].date, anga_type=anga_type, interval_id="full_day")
     month = panchaangas[1].get_date(month_type=month_type).month
     fest_dict.update(rule_set.get_possibly_relevant_fests(month=month, angas=[span.anga for span in anga_spans], month_type=month_type, anga_type_id=anga_type_id))
+    if _transits_after_sunrise(panchaangas[1], month_type) is not None:
+      # The month changed during the day: a rule judged at an earlier kaala belongs to the month that
+      # is ending (see _month_at_kaala), so its rules are candidates too.
+      previous_month = (month - 2) % 12 + 1
+      for p in panchaangas:
+        anga_spans = self.panchaanga.get_interval_anga_spans(date=p.date, anga_type=anga_type, interval_id="full_day")
+        fest_dict.update(rule_set.get_possibly_relevant_fests(month=previous_month, angas=[span.anga for span in anga_spans], month_type=month_type, anga_type_id=anga_type_id))
     # Note: The successive days may be in different months! Hence the two calls above.
     return fest_dict
 
@@ -377,7 +414,8 @@ class RuleLookupAssigner(FestivalAssigner):
     if month_type == RulesRepo.LUNAR_MONTH_DIR:
       month_match = self._check_lunar_month_match(fday_date=fday_date, fest_rule=fest_rule)
     else:
-      month_match = fday_date.month == fest_rule.timing.month_number or fest_rule.timing.month_number == 0
+      fday_month = _month_at_kaala(p_fday, month_type, fest_rule.timing.get_kaala())
+      month_match = fday_month == fest_rule.timing.month_number or fest_rule.timing.month_number == 0
 
 
     if not month_match:
@@ -459,7 +497,11 @@ class RuleLookupAssigner(FestivalAssigner):
             # Regarding the fest_rule.timing.month_number != 0 below:
             # This is required so as to avoid omissions as in the following case: sthAlIpAka_1 (which occurs every lunar month on tithi 1 at pUrvaviddha pUrvAhNa) occurs within the same "sunrise lunar month" but on different "pUrvAhNa lunar months" on 2019-07-03 and 2019-08-01.
             # Plus, a gap of not much more than 1 month is desirable for monthly festivals even otherwise - https://github.com/jyotisham/jyotisha/issues/54#issuecomment-735355325 .
-            if fest_rule.timing.month_number != 0 and p_fday.date - previous_fest_day <= 32 and p_previous_fday.get_date(month_type=month_type).month == month:
+            if month_type == RulesRepo.LUNAR_MONTH_DIR:
+              same_month = p_previous_fday.get_date(month_type=month_type).month == month
+            else:
+              same_month = _month_at_kaala(p_previous_fday, month_type, kaala) == _month_at_kaala(p_fday, month_type, kaala)
+            if fest_rule.timing.month_number != 0 and p_fday.date - previous_fest_day <= 32 and same_month:
               self.panchaanga.delete_festival_date(fest_id=fest_id, date=previous_fest_day)
           # TODO : Set intervals for preceeding_arunodaya differently?
 
