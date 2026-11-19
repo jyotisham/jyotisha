@@ -19,6 +19,14 @@ from scipy.optimize import brentq
 from sanskrit_data.schema import common
 from indic_transliteration import sanscript
 
+
+def _is_month_amaavaasyaa(fest_id):
+  """Whether a festival is the month's amAvAsyA itself (eg. zrAvaNa-amAvAsyA), as the bOdhAyana
+  and sarva amAvAsyA assignment needs. Not an observance on that day from some text, whose id
+  names the text after a '~' (eg. amAvAsyA~mahAbhAratE, jyESTha-amAvAsyA~mahAbhAratE): those are
+  neither renamed to sarva-... nor taken as the month's amAvAsyA."""
+  return 'amAvAsyA' in fest_id and '~' not in fest_id
+
 class TithiFestivalAssigner(FestivalAssigner):
   def assign_all(self):
     self.assign_solar_sidereal_amaavaasyaa()
@@ -743,7 +751,7 @@ class TithiFestivalAssigner(FestivalAssigner):
       if 'darsheShTiH' in self.panchaanga.daily_panchaanga_for_date(cdd).festival_id_to_instance.keys():
         self.panchaanga.add_festival(fest_id='bOdhAyana-kAtyAyana-iSTiH', date=self.panchaanga.daily_panchaanga_for_date(cdd - 1).date)
 
-      ama_fest = [val for key, val in self.panchaanga.daily_panchaanga_for_date(cdd - 1).festival_id_to_instance.items() if 'amAvAsyA' in key]
+      ama_fest = [val for key, val in self.panchaanga.daily_panchaanga_for_date(cdd - 1).festival_id_to_instance.items() if _is_month_amaavaasyaa(key)]
       if ama_fest:
         # We have amAvAsyA preceding chandra darshanam. Therefore, the previous day must be assigned as bOdhAayana
         bodhaayana_fest = re.sub('amAvAsyA.*', 'amAvAsyA', 'bOdhAyana-kAtyAyana-' + ama_fest[0].name)
@@ -754,7 +762,7 @@ class TithiFestivalAssigner(FestivalAssigner):
           logging.warning('Not adding separate bOdhAyana-kAtyAyana-iSTiH on %s as it coincides with darsheShTiH!' % (self.panchaanga.daily_panchaanga_for_date(cdd-1).date.get_date_str()))
       else:
         for key, val in dict(self.panchaanga.daily_panchaanga_for_date(cdd - 2).festival_id_to_instance).items():
-          if 'amAvAsyA' in key:
+          if _is_month_amaavaasyaa(key):
             fest_id = key
             self.panchaanga.delete_festival_date(fest_id=fest_id, date=self.panchaanga.daily_panchaanga_for_date(cdd - 2).date)
             self.panchaanga.add_festival(fest_id='sarva-' + fest_id, date=self.panchaanga.daily_panchaanga_for_date(cdd - 2).date)
