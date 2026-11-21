@@ -54,8 +54,8 @@ PaloAlto		37:23:59	-122:08:34	America/Los_Angeles
 Robbinsville		40.222877	-74.6630863	America/New_York
 Cary		35.7703553	-78.9703931	America/New_York
 Paris		48:51:36	2:20:24	Europe/Paris
-Prague		50:04:48	14:25:48	Europe/Bratislava
-Tampa		27:58:15	-82:27:53	US/Eastern
+Prague		50:04:48	14:25:48	Europe/Prague
+Tampa		27:58:15	-82:27:53	America/New_York
 Zurich		47:22:48	8:32:24	Europe/Zurich
 Abohar		30.12	74.29	Asia/Calcutta
 Abu		24.59	72.71	Asia/Calcutta
@@ -526,11 +526,11 @@ Yavatmal		20.4	78.13	Asia/Calcutta
 Yellandu		17.6	80.33	Asia/Calcutta
 Yercaud		11.7747917	78.1921956	Asia/Calcutta
 Warrawee		-33.7292287	151.1249595	Australia/NSW
-Sammamish		47.6059848	-122.0282373	US/Pacific
+Sammamish		47.6059848	-122.0282373	America/Los_Angeles
 Seattle		47.6062095	-122.3320708	America/Los_Angeles
-Nashville		36.1866405	-86.7852455	US/Central
+Nashville		36.1866405	-86.7852455	America/Chicago
 Mauritius		-20.2191771	57.2851023	Indian/Mauritius
-McKinney		33.236594	-96.684378	US/Central
+McKinney		33.236594	-96.684378	America/Chicago
 Singapore		1.3930236	103.7412441	Asia/Singapore
 SanFrancisco		37.2323916	-122.2673119	America/Los_Angeles
 Sunnyvale		37.3957342	-122.023868	America/Los_Angeles
@@ -561,7 +561,7 @@ Kimberley		-28.7323	24.7622	Africa/Johannesburg
 Karachi		25.1932024	67.1554619	Asia/Karachi
 Bangkok		13.7245995	100.6331108	Asia/Bangkok
 KualaLumpur		3.1385026	101.6044172	Asia/Kuala_Lumpur
-Nashua		42.752961	-71.496875	US/Eastern
+Nashua		42.752961	-71.496875	America/New_York
 Perur		10.9665347	76.90935	Asia/Calcutta
 Chattogram (Chittagong)		22.34	91.83	Asia/Dhaka
 Dhaka		23.76	90.39	Asia/Dhaka
@@ -581,7 +581,6 @@ Peshawar		34.02	71.57	Asia/Kabul
 Takshashila		33.74	72.78	Asia/Kabul
 Lahore	lavapura	31.58	74.33	Asia/Karachi
 Multan	mUlasthAna	30.2	71.47	Asia/Karachi
-Karachi		24.86	67.01	Asia/Karachi
 Larkana		27.56	68.21	Asia/Karachi
 Sukkur		27.71	68.86	Asia/Karachi
 Gwadar		25.13	62.32	Asia/Karachi
@@ -590,7 +589,7 @@ Hinglaj Mata		25.16	64.3	Asia/Karachi
 Raleigh		35.8395263	-78.7274517	America/New_York
 Aylesbury		51.7484485	-0.642153	Europe/London
 Loveland		39.2689476	-84.263826	America/New_York
-SantaClara		37.3541	-121.9552	US/Pacific
+SantaClara		37.3541	-121.9552	America/Los_Angeles
 Columbia		38.96	-92.31	America/Chicago
 Achankovil	accan~kOvil	9.0914	77.1252	Asia/Calcutta
 Houston		29.7604	-95.3698	America/Chicago
