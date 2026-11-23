@@ -65720,26 +65720,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Tiruvaṇṇāmalai Dīpam
-DTSTART;VALUE=DATE:20191209
-DTEND;VALUE=DATE:20191210
-DTSTAMP:20200101T000000Z
-UID:TiruvaṇṇāmalaiDīpam_2019-12-09T06:23:16.800001+05:30
-DESCRIPTION:Observed on Kr̥ttikā nakshatra of Vr̥ścikaḥ (sidereal so
- lar) month (Rātrimānam/puurvaviddha). <br/><br/><br/><br/>## Details<br/
- >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/t
- amil/sidereal_solar_month/nakshatra/08/03/tiruvaNNAmalai~dIpam.toml)<br/>-
-  Tags: CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reminder: Tiruvaṇṇāmalai Dīpam
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Mārgaśīrṣaḥ-09-13  \,Mēṣaḥ-Kr̥ttikā🌛🌌  \,  Vr
  ̥ścikaḥ-Jyēṣṭhā-08-24🌞🌌  \,  Sahasyaḥ-10-18🌞🪐  \, 
  Maṅgalaḥ
@@ -65882,6 +65862,26 @@ X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Reminder: Tirumaṅgaiyāḻvār Tirunakṣattiram
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tiruvaṇṇāmalai Dīpam
+DTSTART;VALUE=DATE:20191210
+DTEND;VALUE=DATE:20191211
+DTSTAMP:20200101T000000Z
+UID:TiruvaṇṇāmalaiDīpam_2019-12-10T06:23:51.359982+05:30
+DESCRIPTION:Observed on Kr̥ttikā nakshatra of Vr̥ścikaḥ (sidereal so
+ lar) month (Pūrvarātriḥ##~##(Trēdhā)/puurvaviddha). <br/><br/><br/><
+ br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyat
+ ithi/blob/master/tamil/sidereal_solar_month/nakshatra/08/03/tiruvaNNAmalai
+ ~dIpam.toml)<br/>- Tags: CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Tiruvaṇṇāmalai Dīpam
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
@@ -66130,10 +66130,10 @@ DTEND;VALUE=DATE:20191212
 DTSTAMP:20200101T000000Z
 UID:SarvālayaDīpam_2019-12-11T06:24:25.920004+05:30
 DESCRIPTION:Observed on Paurṇamāsī tithi of Vr̥ścikaḥ (sidereal so
- lar) month (Rātrimānam/puurvaviddha). <br/><br/><br/><br/>## Details<br/
- >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/t
- amil/sidereal_solar_month/tithi/08/15/sarvAlaya~dIpam.toml)<br/>- Tags: Co
- mmonFestivals
+ lar) month (Pūrvarātriḥ##~##(Trēdhā)/puurvaviddha). <br/><br/><br/><
+ br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyat
+ ithi/blob/master/tamil/sidereal_solar_month/tithi/08/15/sarvAlaya~dIpam.to
+ ml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE

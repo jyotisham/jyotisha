@@ -334899,16 +334899,6 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "sOma-pradOSa-vratam"
-        },
-        "tiruvaNNAmalai~dIpam": {
-          "interval": {
-            "jd_end": 2458827.5374,
-            "jd_start": 2458826.537,
-            "jsonClass": "Interval",
-            "name": "full_day"
-          },
-          "jsonClass": "FestivalInstance",
-          "name": "tiruvaNNAmalai~dIpam"
         }
       },
       "graha_rise_jd": {
@@ -335855,6 +335845,16 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "tirumaGgaiyAzhvAr_tirunakSattiram"
+        },
+        "tiruvaNNAmalai~dIpam": {
+          "interval": {
+            "jd_end": 2458828.5378,
+            "jd_start": 2458827.5374,
+            "jsonClass": "Interval",
+            "name": "full_day"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "tiruvaNNAmalai~dIpam"
         }
       },
       "graha_rise_jd": {
@@ -394847,7 +394847,7 @@
     ],
     "tiruvaNNAmalai~dIpam": [
       {
-        "day": 9,
+        "day": 10,
         "jsonClass": "Date",
         "month": 12,
         "year": 2019
