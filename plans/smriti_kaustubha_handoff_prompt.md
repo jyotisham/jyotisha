@@ -74,7 +74,7 @@ Large months (Śrāvaṇa, Bhādrapada, Āśvina, Kārtika, Māgha) may be split
 
 1. Read the plan's section for the month and the month's `content/` files.
 2. List the adyatithi entries for that month (and any entries the plan names), and draft the additions under
-   the rules above. Keep a JSON list of items: `{id, file, existing_shlokas, proposed_shlokas, ref, refkey, note}`.
+   the rules above, as a JSON list of items in the format of `plans/sk_review_page/build_page.py` (`doc, key, id, file, existing, after, ref, refkey, note`).
    Notes should flag overlaps, `[?]` readings, and timing disagreements.
 3. **Build the review page from the committed template** — don't design a new one. In `jyotisham/jyotisha`
    (same branch), `plans/sk_review_page/` has `template.html` (the exact page used for Vaiśākha),
