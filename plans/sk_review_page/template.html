@@ -1,0 +1,220 @@
+<title>Smṛti-Kaustubha Edit Review</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Tiro+Devanagari+Sanskrit&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column; a sticky tally bar; one row per edit, decision chips on the right */
+:root{
+  --bg:#f6f7f9; --panel:#ffffff; --fg:#1b2230; --muted:#5d6779; --line:#dde2ea;
+  --accent:#0f6b6b; --accent-soft:#e3f1f0;
+  --ok:#1f7a3a; --ok-soft:#e5f4ea; --no:#a8322d; --no-soft:#f8e7e5; --add:#e9f5ec; --del:#fbecea;
+  --ui:"Inter",system-ui,sans-serif; --deva:"Tiro Devanagari Sanskrit","Noto Serif Devanagari",serif; --mono:"JetBrains Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#12161d; --panel:#1a2029; --fg:#e6e9ef; --muted:#9aa3b2; --line:#2c3440;
+  --accent:#5cc2bf; --accent-soft:#163233; --ok:#6fd08b; --ok-soft:#173222; --no:#f08a84; --no-soft:#3a1f1e; --add:#16301f; --del:#3a1f1e; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#12161d; --panel:#1a2029; --fg:#e6e9ef; --muted:#9aa3b2; --line:#2c3440;
+  --accent:#5cc2bf; --accent-soft:#163233; --ok:#6fd08b; --ok-soft:#173222; --no:#f08a84; --no-soft:#3a1f1e; --add:#16301f; --del:#3a1f1e; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--ui);font-size:15px;line-height:1.5}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--panel)}
+.wrap{max-width:960px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:24px 64px}
+h1{font-size:1.6rem;margin:0 0 4px;text-wrap:balance;letter-spacing:-.01em}
+h2{font-size:1.15rem;margin:0;text-wrap:balance}
+.lead{color:var(--muted);max-width:68ch;margin:0}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--panel);border-bottom:1px solid var(--line);margin:20px calc(-1*max(16px,env(safe-area-inset-left,0px))) 0;padding:10px max(16px,env(safe-area-inset-left,0px));display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;font-variant-numeric:tabular-nums}
+.tally{display:flex;gap:14px;flex-wrap:wrap;font-size:.9rem}
+.tally b{font-weight:600}
+.t-ok{color:var(--ok)} .t-no{color:var(--no)} .t-pend{color:var(--muted)}
+.save{margin-left:auto;font-size:.82rem;color:var(--muted)}
+section{margin-top:32px;display:grid;gap:12px}
+.sechead{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:baseline;justify-content:space-between}
+.sechead p{margin:4px 0 0;color:var(--muted);font-size:.9rem;max-width:68ch}
+.row{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px 16px;display:grid;gap:10px;border-left:4px solid var(--line)}
+.row[data-status="approved"]{border-left-color:var(--ok)}
+.row[data-status="rejected"]{border-left-color:var(--no);opacity:.8}
+.top{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:flex-start;justify-content:space-between}
+.meta{min-width:0}
+.id{font-family:var(--mono);font-size:.9rem;font-weight:500;word-break:break-all}
+.file{font-family:var(--mono);font-size:.75rem;color:var(--muted);word-break:break-all}
+.note{font-size:.88rem;margin:2px 0 0}
+.chips{display:flex;gap:6px;flex-shrink:0}
+button{font:inherit;font-size:.85rem;border:1px solid var(--line);background:var(--panel);color:var(--fg);border-radius:6px;padding:5px 12px;cursor:pointer}
+button:hover{border-color:var(--accent)}
+button:focus-visible,textarea:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+button.on.ap{background:var(--ok-soft);border-color:var(--ok);color:var(--ok);font-weight:600}
+button.on.rj{background:var(--no-soft);border-color:var(--no);color:var(--no);font-weight:600}
+button.primary{background:var(--accent);border-color:var(--accent);color:var(--panel);font-weight:600}
+.diff{font-family:var(--mono);font-size:.8rem;border-radius:6px;overflow-x:auto;border:1px solid var(--line)}
+.diff div{padding:4px 10px;white-space:pre}
+.diff .m{background:var(--del)} .diff .p{background:var(--add)}
+.diff .m::before{content:"− ";color:var(--no)} .diff .p::before{content:"+ ";color:var(--ok)}
+label{font-size:.78rem;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;font-weight:600}
+textarea,input[type=text]{width:100%;box-sizing:border-box;background:var(--bg);color:var(--fg);border:1px solid var(--line);border-radius:6px;padding:8px 10px}
+textarea.deva{font-family:var(--deva);font-size:1.05rem;line-height:1.75;resize:vertical}
+input.mono,textarea.mono{font-family:var(--mono);font-size:.8rem}
+details{font-size:.9rem}
+details summary{cursor:pointer;color:var(--muted)}
+details pre{font-family:var(--deva);font-size:1rem;line-height:1.7;white-space:pre-wrap;background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:8px 10px;margin:8px 0 0}
+.field{display:grid;gap:4px}
+.edited{font-size:.75rem;color:var(--accent);font-weight:600}
+.offline{background:var(--no-soft);color:var(--no);border-radius:6px;padding:8px 12px;font-size:.88rem}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+  <h1>__MONTH__ edits for adyatithi</h1>
+  <p class="lead">Verses from the __MONTH__-kṛtya (printed pp.__PAGES__) for existing <code>jyotisham/adyatithi</code> entries, taken from the cleaned text in <code>stotrasamhita/smriti-kaustubham</code> with its <code>[?]</code> marks kept. No new festivals and no timing changes. Approve or reject each edit and fix any text in place; decisions save as you go. Tell Claude when you're done and the approved edits go out as one PR.</p>
+  <div class="bar" role="status">
+    <div class="tally"><span class="t-ok"><b id="c-ok">0</b> approved</span><span class="t-no"><b id="c-no">0</b> rejected</span><span class="t-pend"><b id="c-pend">0</b> to review</span></div>
+    <span class="save" id="save">Connecting…</span>
+  </div>
+  <div id="offline" class="offline" hidden>Decisions can't be saved in this view (signed out or storage unavailable). You can still read the edits.</div>
+
+  <section id="sec-refs">
+    <div class="sechead">
+      <div><h2>1 · Citation clean-up <span class="file" id="n-refs"></span></h2>
+      <p>One spelling, “Smriti Kaustubham p.NNN”, plus two wrong pages and three missing pages. Page numbers were checked against the printed running heads. Edit the “after” line to change what gets written.</p></div>
+      <button id="all-refs" class="primary" type="button">Approve all citations</button>
+    </div>
+    <div id="refs" style="display:grid;gap:12px"></div>
+  </section>
+
+  <section id="sec-sh">
+    <div class="sechead">
+      <div><h2>__MONTH__ shlokas <span class="file" id="n-sh"></span></h2>
+      <p>Verses appended to each entry's <code>shlokas</code> field, with a Smriti Kaustubham page reference, ending with <span style="font-family:var(--deva)">---स्मृतिकौस्तुभे</span>. Existing verses stay as they are. Notes flag overlaps with verses already there and the two entries whose timing SK disputes.</p></div>
+    </div>
+    <div id="sh" style="display:grid;gap:12px"></div>
+  </section>
+</div>
+
+<script>
+const DATA = __DATA__;
+const all = [...DATA.refs, ...DATA.shlokas];
+const state = {}; // doc -> {status, after, ref}
+let db = null, col = null;
+
+const $ = (t, cls, txt) => { const e = document.createElement(t); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; };
+
+function chips(it, row) {
+  const box = $('div', 'chips');
+  const ap = $('button', 'ap', 'Approve'), rj = $('button', 'rj', 'Reject');
+  ap.type = rj.type = 'button';
+  ap.id = 'ap-' + it.doc; rj.id = 'rj-' + it.doc;
+  ap.onclick = () => setStatus(it, state[it.doc]?.status === 'approved' ? 'pending' : 'approved');
+  rj.onclick = () => setStatus(it, state[it.doc]?.status === 'rejected' ? 'pending' : 'rejected');
+  box.append(ap, rj);
+  row._ap = ap; row._rj = rj;
+  return box;
+}
+
+function head(it, row) {
+  const top = $('div', 'top'), meta = $('div', 'meta');
+  meta.append($('div', 'id', it.id), $('div', 'file', it.file), $('p', 'note', it.note));
+  top.append(meta, chips(it, row));
+  return top;
+}
+
+const rows = {};
+function renderRefs() {
+  if (!DATA.refs.length) { document.getElementById('sec-refs').hidden = true; return; }
+  const host = document.getElementById('refs');
+  document.getElementById('n-refs').textContent = DATA.refs.length + ' files';
+  for (const it of DATA.refs) {
+    const row = $('div', 'row'); row.dataset.status = 'pending';
+    row.append(head(it, row));
+    if (it.before) { const d = $('div', 'diff'); d.append($('div', 'm', it.before)); row.append(d); }
+    const f = $('div', 'field'); const lb = $('label', null, 'After'); lb.htmlFor = 'af-' + it.doc;
+    const inp = $('input', 'mono'); inp.type = 'text'; inp.id = 'af-' + it.doc; inp.value = it.after;
+    inp.addEventListener('change', () => saveText(it, {after: inp.value}));
+    const ed = $('span', 'edited', ''); f.append(lb, inp, ed);
+    row.append(f); row._inp = inp; row._ed = ed;
+    rows[it.doc] = row; host.append(row);
+  }
+}
+
+function renderSh() {
+  const host = document.getElementById('sh');
+  document.getElementById('n-sh').textContent = DATA.shlokas.length + ' entries';
+  for (const it of DATA.shlokas) {
+    const row = $('div', 'row'); row.dataset.status = 'pending';
+    row.append(head(it, row));
+    if (it.existing) { const d = $('details'); d.append($('summary', null, 'Existing shlokas (unchanged)'), $('pre', null, it.existing)); row.append(d); }
+    else row.append($('div', 'file', 'No shlokas today.'));
+    if (it.after) {
+      const f = $('div', 'field'); const lb = $('label', null, 'Shlokas to add'); lb.htmlFor = 'tx-' + it.doc;
+      const ta = $('textarea', 'deva'); ta.id = 'tx-' + it.doc; ta.value = it.after; ta.rows = Math.min(24, it.after.split('\n').length + 1);
+      ta.addEventListener('change', () => saveText(it, {after: ta.value}));
+      f.append(lb, ta); row.append(f); row._inp = ta;
+    } else { row.append($('div', 'file', 'No shloka change.')); row._inp = document.createElement('textarea'); }
+    if (it.ref) {
+      const f2 = $('div', 'field'); const l2 = $('label', null, (it.replace_ref ? 'Reference, replacing ' + it.replace_ref : 'Reference to add') + ' (' + it.refkey + ')'); l2.htmlFor = 'rf-' + it.doc;
+      const ri = $('input', 'mono'); ri.type = 'text'; ri.id = 'rf-' + it.doc; ri.value = it.ref;
+      ri.addEventListener('change', () => saveText(it, {ref: ri.value}));
+      f2.append(l2, ri); row.append(f2); row._ref = ri;
+    }
+    const ed = $('span', 'edited', ''); row.append(ed); row._ed = ed;
+    rows[it.doc] = row; host.append(row);
+  }
+}
+
+function paint(it) {
+  const row = rows[it.doc], s = state[it.doc] || {};
+  const st = s.status || 'pending';
+  row.dataset.status = st;
+  row._ap.classList.toggle('on', st === 'approved'); row._rj.classList.toggle('on', st === 'rejected');
+  row._ap.setAttribute('aria-pressed', st === 'approved'); row._rj.setAttribute('aria-pressed', st === 'rejected');
+  if (s.after != null && document.activeElement !== row._inp) row._inp.value = s.after;
+  if (row._ref && s.ref != null && document.activeElement !== row._ref) row._ref.value = s.ref;
+  const changed = (s.after != null && s.after !== it.after) || (row._ref && s.ref != null && s.ref !== it.ref);
+  row._ed.textContent = changed ? 'Edited by you' : '';
+}
+
+function tally() {
+  let ok = 0, no = 0;
+  for (const it of all) { const s = state[it.doc]?.status; if (s === 'approved') ok++; else if (s === 'rejected') no++; }
+  document.getElementById('c-ok').textContent = ok;
+  document.getElementById('c-no').textContent = no;
+  document.getElementById('c-pend').textContent = all.length - ok - no;
+}
+
+const saveEl = document.getElementById('save');
+async function write(it, patch) {
+  state[it.doc] = {...(state[it.doc] || {}), ...patch};
+  paint(it); tally();
+  if (!col) return;
+  saveEl.textContent = 'Saving…';
+  try {
+    await col.doc(it.doc).set({key: it.key, status: 'pending', ...state[it.doc], updatedAt: Date.now()});
+    saveEl.textContent = 'All changes saved';
+  } catch (e) {
+    saveEl.textContent = (e && e.code === 'permission_denied') ? 'You can view but not save decisions' : 'Couldn’t save — try again';
+  }
+}
+const setStatus = (it, status) => write(it, {status});
+const saveText = (it, patch) => write(it, patch);
+
+document.getElementById('all-refs').onclick = async () => {
+  for (const it of DATA.refs) if (state[it.doc]?.status !== 'rejected') await setStatus(it, 'approved');
+};
+
+renderRefs(); renderSh(); for (const it of all) paint(it); tally();
+
+(async () => {
+  const timer = setTimeout(() => { if (!col) { saveEl.textContent = 'Not connected'; document.getElementById('offline').hidden = false; } }, 10000);
+  db = window.claude ? await window.claude.use('db') : null;
+  if (!db) { clearTimeout(timer); saveEl.textContent = 'Not connected'; document.getElementById('offline').hidden = false; return; }
+  col = db.collection('__COLLECTION__');
+  col.onSnapshot(snap => {
+    clearTimeout(timer);
+    for (const d of snap.docs) {
+      const v = d.data(); if (!v) continue;
+      const it = all.find(x => x.doc === d.id); if (!it) continue;
+      state[d.id] = {status: v.status, after: v.after, ref: v.ref};
+      paint(it);
+    }
+    tally();
+    if (!snap.metadata.hasPendingWrites) saveEl.textContent = snap.empty ? 'Decisions save as you click' : 'All changes saved';
+  }, () => { clearTimeout(timer); saveEl.textContent = 'Couldn’t load saved decisions'; });
+})();
+</script>

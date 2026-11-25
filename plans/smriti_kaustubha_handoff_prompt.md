@@ -76,16 +76,21 @@ Large months (Śrāvaṇa, Bhādrapada, Āśvina, Kārtika, Māgha) may be split
 2. List the adyatithi entries for that month (and any entries the plan names), and draft the additions under
    the rules above. Keep a JSON list of items: `{id, file, existing_shlokas, proposed_shlokas, ref, refkey, note}`.
    Notes should flag overlaps, `[?]` readings, and timing disagreements.
-3. **Build a review page** for the owner: a claude.ai Artifact (HTML) with one card per entry that shows
-   the existing shlokas (collapsed), the proposed shlokas in an editable textarea, the reference in an
-   editable field, and Approve / Reject buttons. Use the Artifact `db` capability to save each decision
-   (`{status, after, ref}`) to a collection such as `decisions-<month>`, so you can read them back with the
-   `ArtifactData` tool. Publish it, give the owner the link, and summarise the batch in a short table in chat.
-   Do not push anything yet.
-4. When the owner says they are done, read the decisions. Apply only `approved` items, using the owner's edited
-   text or reference where they changed it. Show what they edited.
-5. In `jyotisham/adyatithi`: branch `claude/smriti-kaustubha-<month>-shlokas` from the latest `master`, apply,
-   check that every file parses, commit and push. Commit message: a summary line, a short bullet list of entries,
+3. **Build the review page from the committed template** — don't design a new one. In `jyotisham/jyotisha`
+   (same branch), `plans/sk_review_page/` has `template.html` (the exact page used for Vaiśākha),
+   `build_page.py` (its docstring gives the item fields; `example_items.json` shows two real items) and
+   `apply_decisions.py`. Write your items to a JSON file, then run
+   `python3 plans/sk_review_page/build_page.py items.json "Jyeṣṭha" "117–137" decisions-jyestha review.html`
+   and publish `review.html` as an Artifact with `capabilities: {"db": {}}` (one artifact for all months is fine:
+   republish the same file path each month with a new collection name). Read the decisions back with the
+   `ArtifactData` tool (`action: "list"`, `out_dir` set). Give the owner the link and a short summary table in
+   chat. Do not push anything yet.
+4. When the owner says they are done, save the decisions with `ArtifactData` `list` + `out_dir`, then run
+   `python3 plans/sk_review_page/apply_decisions.py items.json <out_dir> /path/to/adyatithi` on a fresh branch
+   (step 5). It applies only approved items, uses the owner's edited text, prints what they changed, and checks
+   every file still parses. Tell the owner what they edited.
+5. In `jyotisham/adyatithi`: branch `claude/smriti-kaustubha-<month>-shlokas` from the latest `master`
+   (apply here, per step 4), commit and push. Commit message: a summary line, a short bullet list of entries,
    "Timing is unchanged. Reviewed and approved entry by entry.", and the attribution lines your session asks for.
 6. Open a PR titled `Add <Month> shlokas from Smriti Kaustubham`, with a table of entry / added / pages and
    notes for `[?]` readings and timing disagreements. No PR template exists in the repo.
