@@ -219,7 +219,7 @@ class RuleLookupAssigner(FestivalAssigner):
     dinamaana default would pick up extra days where the anga only appears later in the day.
     """
     for fest_id, fest_rule in self.rules_collection.name_to_rule.items():
-      if fest_rule.timing is None or (fest_rule.timing.vaara is None and fest_rule.timing.angas is None):
+      if fest_rule.timing is None or fest_rule.timing.nirnaya is not None or (fest_rule.timing.vaara is None and fest_rule.timing.angas is None):
         continue
       vaara_index = fest_rule.timing.get_vaara_index() if fest_rule.timing.vaara is not None else None
       # Each entry in target_anga_groups is an OR-list of Angas (eg. tithi in [4, 19]); ALL entries must have at
@@ -258,7 +258,7 @@ class RuleLookupAssigner(FestivalAssigner):
     apply_month_anga_events()/apply_month_day_events() above for the single-anga counterparts of this method.
     """
     for fest_id, fest_rule in self.rules_collection.name_to_rule.items():
-      if fest_rule.timing is None or fest_rule.timing.intersection_groups is None:
+      if fest_rule.timing is None or fest_rule.timing.nirnaya is not None or fest_rule.timing.intersection_groups is None:
         continue
       groups = [
         [(_INTERSECTION_ANGA_TYPES[item['anga_type']], _resolve_anga_number(item['anga_type'], item['anga_number'])) for item in group['angas']]
@@ -297,7 +297,7 @@ class RuleLookupAssigner(FestivalAssigner):
     named kaala's start, or a custom offset.
     """
     for fest_id, fest_rule in self.rules_collection.name_to_rule.items():
-      if fest_rule.timing is None or fest_rule.timing.anga_type != RulesRepo.DAY_DIR or fest_rule.timing.kaala is None:
+      if fest_rule.timing is None or fest_rule.timing.nirnaya is not None or fest_rule.timing.anga_type != RulesRepo.DAY_DIR or fest_rule.timing.kaala is None:
         continue
       month_type = fest_rule.timing.month_type
       date_attr = _MONTH_TRANSITION_DATE_ATTR[month_type]
