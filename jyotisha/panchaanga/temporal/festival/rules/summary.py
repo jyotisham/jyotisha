@@ -160,6 +160,9 @@ def get_timing_summary(rule):
     else:
       kaala_str = ""
     blurb += "%s. " % kaala_str
+    if rule.timing.nirnaya is not None:
+      blurb = "Primary day: %sThe day is decided by the `%s` nirNaya, which may move it (see below). " % (
+        blurb.replace("Observed on ", ""), rule.timing.nirnaya)
     # logging.debug(blurb)
   if rule.timing.year_start is not None:
     blurb += "The event occurred in %s (%s era).  \n" % (rule.timing.year_start, rule.timing.year_start_era.capitalize())

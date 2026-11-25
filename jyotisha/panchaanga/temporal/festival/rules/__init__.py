@@ -162,6 +162,14 @@ class HinduCalendarEventTiming(common.JsonObject):
       "vaara": {
         "description": "A weekday filter: either an int (1=Sunday...7=Saturday, matching AngaType.VARA's index convention) or a name (eg. \"budha\", \"saumya\" -- see VAARA_NAME_TO_INDEX for all accepted names/aliases). The festival recurs on every day within `month_type`/`month_number` (and, if `anga_type`/`anga_number` or `angas` are also set, touching that anga / all of those angas, per `kaala`) whose weekday matches. Unlike `intersection_groups`, this is a plain per-day predicate over already-known daily facts -- no search. Mutually exclusive with `intersection_groups`.",
       },
+      "nirnaya": {
+        "type": "string",
+        "description": "Name of a decision procedure (nirNaya) in jyotisha.panchaanga.temporal.festival.nirnaya that decides this festival's date(s) instead of the generic rule engine -- for festivals whose day needs fall-backs or conditions no other timing field can express (eg. \"upaakarma\"). The other timing fields (month/anga/kaala/priority) then describe the primary candidate, as read by that procedure; `nirnaya_options` holds its own parameters. Such a rule is stored under `nirnaya/` in its repo, and no generic engine sees it. Mutually exclusive with anchor_festival_id/offset, intersection_groups, vaara and angas.",
+      },
+      "nirnaya_options": {
+        "type": "object",
+        "description": "Parameters for the `nirnaya` procedure; see that procedure's docstring.",
+      },
       "angas": {
         "type": "array",
         "items": {
@@ -290,7 +298,11 @@ class HinduCalendarEvent(common.JsonObject):
     )
 
   def get_storage_file_name(self, base_dir, undo_conversions):
-    if self.timing.anchor_festival_id is not None:
+    if self.timing is not None and self.timing.nirnaya is not None:
+      # Decided by a named procedure (see festival.nirnaya), not by the generic engines, which find their rules
+      # through the timing-keyed paths below -- so storing it here keeps it out of all of them.
+      path = "nirnaya/%(id)s.toml" % dict(id=self.id)
+    elif self.timing.anchor_festival_id is not None:
       path = "relative_event/%(anchor_festival_id)s/offset__%(offset)02d/%(id)s.toml" % dict(
         anchor_festival_id=self.timing.anchor_festival_id.replace('/','__'),
         offset=self.timing.offset,

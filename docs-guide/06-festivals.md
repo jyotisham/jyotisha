@@ -97,6 +97,41 @@ Other path shapes exist for other cases (see the data README for the full list):
 - Festivals without a simple timing rule (described in prose, timing handled specially
   in code): `[repo]/description_only/[festival_id].toml` — e.g.
   `tamil/description_only/viSukkan2i.toml`.
+- Festivals whose day is decided by a named procedure (a *nirṇaya*, see below):
+  `[repo]/nirnaya/[festival_id].toml` — e.g. `gRhya/general/nirnaya/yajurvEda-upAkarma.toml`.
+
+### Festivals decided by a named procedure (`nirnaya`)
+
+Some festivals need a decision the timing fields can't express: fall-back days, flaw (doṣa)
+checks, "first occurrence in the month", and so on. Such an entry names a procedure in
+`jyotisha/panchaanga/temporal/festival/nirnaya/`, keeps its primary day in the ordinary
+timing fields, and puts the procedure's own parameters in `[timing.nirnaya_options]`:
+
+```toml
+[timing]
+month_type = "lunar_month"
+month_number = 5
+anga_type = "tithi"
+anga_number = 15
+kaala = "मध्याह्नः"
+priority = "paraviddha"
+nirnaya = "upaakarma"
+jsonClass = "HinduCalendarEventTiming"
+
+[timing.nirnaya_options]
+maudhya_graha = "zukra"
+on_flaw = "chain"
+fallbacks = [ { month_number = 6 }, { month_number = 4 },]
+```
+
+Because such a rule is stored under `nirnaya/` rather than at its timing-keyed path, none of
+the generic engines sees it; `NirnayaFestivalAssigner` (run where the hand-coded upākarma
+applier used to run, after eclipses and before the tithi appliers and relative festivals)
+calls the procedure and adds the date(s) it returns. Entries without `nirnaya` are unaffected.
+Each procedure's module docstring documents its options; the registry is
+`nirnaya.get_procedures()`. This is for *deciders* (one festival, one decision). *Generators*
+that derive a family of ids from one computation (ekādaśī variants, mahādvādaśīs, anadhyayana
+days, …) stay in their appliers.
 
 You don't need to hand-craft these paths: `jyotisha/panchaanga/temporal/festival/rules/migrator.py`
 recomputes the canonical path for a rule and moves the file there for you.

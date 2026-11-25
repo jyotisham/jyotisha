@@ -6735,10 +6735,10 @@ UID:vasanta-pañcamī/śrī-pañcamī/madana-pañcamī_2019-02-09T06:37:14
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/11/05/vasanta-
  zrI-paJcamI.toml)<br/>- Tags: SpecialPuja LessCommonFestivals<br/><br/><br
- /><br/>## Details<br/>- References<br/>  - Smriti Kaustubham 479\, Purusha
- rtha Chintamani<br/>- [Edit config file](https://github.com/jyotisham/adya
- tithi/blob/master/devatA/vaiShNava/lunar_month/tithi/11/05/vasanta-zrI-paJ
- camI.toml)<br/>- Tags: SpecialPuja LessCommonFestivals
+ /><br/>## Details<br/>- References<br/>  - Smriti Kaustubham p.479<br/>  -
+  Purushartha Chintamani<br/>- [Edit config file](https://github.com/jyotis
+ ham/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/11/05/vasanta
+ -zrI-paJcamI.toml)<br/>- Tags: SpecialPuja LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8464,10 +8464,10 @@ UID:varāha-kalpādiḥ_2019-02-17T06:34:30.719983+05:30
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/kalpAdiH/lunar_month/tithi/11/13/varAh
  a-kalpAdiH.toml)<br/>- Tags: KalpadiDays LessCommonFestivals<br/><br/><br/
- ><br/>## Details<br/>- References<br/>  - Smriti Kaustubham p.87--88<br/>-
-  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/tim
- e_focus/kalpAdiH/lunar_month/tithi/11/13/varAha-kalpAdiH.toml)<br/>- Tags:
-  KalpadiDays LessCommonFestivals
+ ><br/>## Details<br/>- References<br/>  - Smriti Kaustubham p.87-88<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time
+ _focus/kalpAdiH/lunar_month/tithi/11/13/varAha-kalpAdiH.toml)<br/>- Tags: 
+ KalpadiDays LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11331,9 +11331,10 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tithi/11/30/kaliyu
  gAdiH.toml)<br/>- Tags: YugadiDays LessCommonFestivals<br/><br/><br/><br/>
  ## Details<br/>- References<br/>  - Vaidyanātha-Dīkṣitīyam<br/>  - Pu
- rushartha Chintamani p. 507<br/>- [Edit config file](https://github.com/jy
- otisham/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tithi/11/30/k
- aliyugAdiH.toml)<br/>- Tags: YugadiDays LessCommonFestivals
+ rushartha Chintamani p. 507<br/>  - Smriti Kaustubham p.110-112<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/time_foc
+ us/yugAdiH/lunar_month/tithi/11/30/kaliyugAdiH.toml)<br/>- Tags: YugadiDay
+ s LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14918,10 +14919,10 @@ UID:brahma-kalpādiḥ_2019-03-23T06:14:55.680007+05:30
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/kalpAdiH/lunar_month/tithi/12/18/brahm
  a-kalpAdiH.toml)<br/>- Tags: KalpadiDays LessCommonFestivals<br/><br/><br/
- ><br/>## Details<br/>- References<br/>  - Smriti Kaustubham p.87--88<br/>-
-  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/tim
- e_focus/kalpAdiH/lunar_month/tithi/12/18/brahma-kalpAdiH.toml)<br/>- Tags:
-  KalpadiDays LessCommonFestivals
+ ><br/>## Details<br/>- References<br/>  - Smriti Kaustubham p.87-88<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time
+ _focus/kalpAdiH/lunar_month/tithi/12/18/brahma-kalpAdiH.toml)<br/>- Tags: 
+ KalpadiDays LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17192,11 +17193,13 @@ DTEND;VALUE=DATE:20190407
 DTSTAMP:20200101T000000Z
 UID:yugādiḥ/cāndramāna-saṁvatsarārambhaḥ_2019-04-06T06:05:42.719
  981+05:30
-DESCRIPTION:Observed on Śukla-Prathamā tithi of Caitraḥ (lunar) month 
- (Sūryōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit 
- config file](https://github.com/jyotisham/adyatithi/blob/master/time_focus
- /yugAdiH/lunar_month/tithi/01/01/yugAdiH.toml)<br/>- Tags: YugadiDays Comm
- onFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tithi/01/01/yugAdi
+ H.toml)<br/>- Tags: YugadiDays CommonFestivals<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Kaustubham p.85-86<br/>- [Edit config f
+ ile](https://github.com/jyotisham/adyatithi/blob/master/time_focus/yugAdiH
+ /lunar_month/tithi/01/01/yugAdiH.toml)<br/>- Tags: YugadiDays CommonFestiv
+ als
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17215,10 +17218,10 @@ UID:śvētavarāha-kalpādiḥ_2019-04-06T06:05:42.719981+05:30
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/kalpAdiH/lunar_month/tithi/01/01/zvEta
  varAha-kalpAdiH.toml)<br/>- Tags: KalpadiDays LessCommonFestivals<br/><br/
- ><br/><br/>## Details<br/>- References<br/>  - Smriti Kaustubham p.87--88<
- br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/maste
- r/time_focus/kalpAdiH/lunar_month/tithi/01/01/zvEtavarAha-kalpAdiH.toml)<b
- r/>- Tags: KalpadiDays LessCommonFestivals
+ ><br/><br/>## Details<br/>- References<br/>  - Smriti Kaustubham p.87-88<b
+ r/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master
+ /time_focus/kalpAdiH/lunar_month/tithi/01/01/zvEtavarAha-kalpAdiH.toml)<br
+ />- Tags: KalpadiDays LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17786,9 +17789,9 @@ UID:haya-pūjā_2019-04-10T06:03:15.839989+05:30
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/devatA/misc-fauna/lunar_month/tithi/01/05/haya-pU
  jA.toml)<br/>- Tags: LessCommonFestivals<br/><br/><br/><br/>## Details<br/
- >- References<br/>  - Smriti Kaustubham p.92--93<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/blob/master/devatA/misc-fauna/lunar
- _month/tithi/01/05/haya-pUjA.toml)<br/>- Tags: LessCommonFestivals
+ >- References<br/>  - Smriti Kaustubham p.92-93<br/>- [Edit config file](h
+ ttps://github.com/jyotisham/adyatithi/blob/master/devatA/misc-fauna/lunar_
+ month/tithi/01/05/haya-pUjA.toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17807,10 +17810,10 @@ UID:kūrma-kalpādiḥ_2019-04-10T06:03:15.839989+05:30
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/kalpAdiH/lunar_month/tithi/01/05/kUrma
  -kalpAdiH.toml)<br/>- Tags: KalpadiDays LessCommonFestivals<br/><br/><br/>
- <br/>## Details<br/>- References<br/>  - Smriti Kaustubham p.87--88<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time
- _focus/kalpAdiH/lunar_month/tithi/01/05/kUrma-kalpAdiH.toml)<br/>- Tags: K
- alpadiDays LessCommonFestivals
+ <br/>## Details<br/>- References<br/>  - Smriti Kaustubham p.87-88<br/>- [
+ Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_
+ focus/kalpAdiH/lunar_month/tithi/01/05/kUrma-kalpAdiH.toml)<br/>- Tags: Ka
+ lpadiDays LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18279,16 +18282,12 @@ DTSTART;VALUE=DATE:20190413
 DTEND;VALUE=DATE:20190414
 DTSTAMP:20200101T000000Z
 UID:bhavānyutpattiḥ_2019-04-13T06:01:23.520019+05:30
-DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Caitraḥ (lunar) mont
- h (Sūryōdayaḥ/puurvaviddha). <br/><br/>nirṇayasindhau---  <br/>tatra
-  navamīyutā grāhyā।  <br/>brahmavaivartē---  <br/>aṣṭamī navam
- īyuktā navamī cāṣṭamīyutā।  <br/>  <br/>kāśīkhaṇḍē--- 
-  <br/>bhavānīṁ yastu paśyēta śuklāṣṭamyāṁ madhau naraḥ।
-   <br/>na jātu śōkaṁ labhatē sadānandamayō bhavēt॥<br/><br/><br
- /><br/>## Details<br/>- References<br/>  - Nirnaya Sindhu (Chaitra\; page 
- not recorded)<br/>- [Edit config file](https://github.com/jyotisham/adyati
- thi/blob/master/general/lunar_month/tithi/01/08/bhavAnyutpattiH.toml)<br/>
- - Tags: CommonFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/01/08/bhavAnyutpattiH.t
+ oml)<br/>- Tags: CommonFestivals<br/><br/><br/><br/>## Details<br/>- Refer
+ ences<br/>  - Nirnaya Sindhu (Chaitra\; page not recorded)<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/general/lunar
+ _month/tithi/01/08/bhavAnyutpattiH.toml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19302,16 +19301,13 @@ DTSTART;VALUE=DATE:20190416
 DTEND;VALUE=DATE:20190417
 DTSTAMP:20200101T000000Z
 UID:viṣṇu-damanakōtsavaḥ_2019-04-16T05:59:31.200009+05:30
-DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Caitraḥ (lunar) month
-  (Madhyāhnaḥ/puurvaviddha). <br/><br/>Perform pūjā to viṣṇus usin
- g damanaka (dhavana) flowers.<br/><br/>caitrē māsi tathā viṣṇōḥ 
- kāryō damanakōtsavaḥ।  <br/>vaiṣṇavairviṣṇubhaktyā ca jana
- tānandavardhanaḥ॥  <br/>dēvānandasamudbhūtā divyā damanamañjar
- ī।  <br/>nivēdyā viṣṇavē bhaktyā sarvapuṇyaphalēpsubhiḥ॥
- <br/><br/><br/><br/>## Details<br/>- References<br/>  - Smriti Kaustubham 
- p.101<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob
- /master/devatA/vaiShNava/lunar_month/tithi/01/12/viSNu-damanakOtsavaH.toml
- )<br/>- Tags: LessCommonFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/01/12/viSNu-da
+ manakOtsavaH.toml)<br/>- Tags: LessCommonFestivals<br/><br/><br/><br/>## D
+ etails<br/>- References<br/>  - Smriti Kaustubham p.101-103<br/>- [Edit co
+ nfig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiSh
+ Nava/lunar_month/tithi/01/12/viSNu-damanakOtsavaH.toml)<br/>- Tags: LessCo
+ mmonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19677,16 +19673,13 @@ DTSTART;VALUE=DATE:20190418
 DTEND;VALUE=DATE:20190419
 DTSTAMP:20200101T000000Z
 UID:nr̥siṁha-dōlōtsavaḥ_2019-04-18T05:58:22.080005+05:30
-DESCRIPTION:Observed on Śukla-Caturdaśī tithi of Caitraḥ (lunar) mont
- h (Sūryōdayaḥ/puurvaviddha). <br/><br/>Perform dōlōtsavaḥ for nr̥
- siṁha.<br/><br/>madhau śuklacaturdaśyāṁ nr̥siṁhaṁ jagataḥ pr
- abhum।  <br/>rājōpacāraiḥ sampūjya māsamāndōlayētkalau॥  <br
- />dakṣiṇābhimukhaṁ dēvaṁ dōlamānaṁ surēśvaram।  <br/>sam
- pūjitaṁ sakr̥dr̥ṣṭvā sarvapāpaiḥ pramucyatē॥<br/><br/><br/
- ><br/>## Details<br/>- References<br/>  - Smriti Kaustubham p.90<br/>- [Ed
- it config file](https://github.com/jyotisham/adyatithi/blob/master/devatA/
- vaiShNava/lunar_month/tithi/01/14/nRsiMha-dOlOtsavaH.toml)<br/>- Tags: Les
- sCommonFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/01/14/nRsiMha-
+ dOlOtsavaH.toml)<br/>- Tags: LessCommonFestivals<br/><br/><br/><br/>## Det
+ ails<br/>- References<br/>  - Smriti Kaustubham p.104-105<br/>- [Edit conf
+ ig file](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNa
+ va/lunar_month/tithi/01/14/nRsiMha-dOlOtsavaH.toml)<br/>- Tags: LessCommon
+ Festivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19953,10 +19946,15 @@ DTEND;VALUE=DATE:20190420
 DTSTAMP:20200101T000000Z
 UID:caitra-pūrṇimā_2019-04-19T05:57:56.160009+05:30
 DESCRIPTION:Observed on Paurṇamāsī tithi of Caitraḥ (lunar) month (S
- ūryōdayaḥ/puurvaviddha). <br/><br/>Daanam of Varaha Puran<br/><br/>## 
- Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/bl
- ob/master/general/lunar_month/tithi/01/15/caitra-pUrNimA.toml)<br/>- Tags:
-  PurnimaDays CommonFestivals
+ ūryōdayaḥ/puurvaviddha). <br/><br/>Daanam of Varaha Puran<br/><br/>vi
+ ṣṇusmr̥tau---  <br/>caitrī citrāyutā cētsyāttasyāṁ citravastr
+ apradānēna saubhāgyamāpnōti।  <br/>  <br/>vāyupurāṇē---  <br/>
+ saṁvatsarakr̥tārcāyāḥ sāphalyāyākhilān surān।  <br/>damanē
+ nārcayēccaitryāṁ viśēṣēṇa sadāśivam॥  <br/>---smr̥tikaust
+ ubhē<br/><br/><br/><br/>## Details<br/>- References<br/>  - Smriti Kaustu
+ bham p.106<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /blob/master/general/lunar_month/tithi/01/15/caitra-pUrNimA.toml)<br/>- Ta
+ gs: PurnimaDays CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22307,11 +22305,13 @@ DTSTART;VALUE=DATE:20190504
 DTEND;VALUE=DATE:20190505
 DTSTAMP:20200101T000000Z
 UID:vahni-vratam_2019-05-04T05:50:44.160019+05:30
-DESCRIPTION:Observed on Amāvāsyā tithi of Caitraḥ (lunar) month (Sūr
- yōdayaḥ/puurvaviddha). <br/><br/><br/><br/>## Details<br/>- [Edit confi
- g file](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_m
- onth/tithi/01/30/vahni-vratam.toml)<br/>- Tags: SpecialVratam LessCommonFe
- stivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/general/lunar_month/tithi/01/30/vahni-vratam.toml
+ )<br/>- Tags: SpecialVratam LessCommonFestivals<br/><br/><br/><br/>## Deta
+ ils<br/>- References<br/>  - Smriti Kaustubham p.108<br/>- [Edit config fi
+ le](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month
+ /tithi/01/30/vahni-vratam.toml)<br/>- Tags: SpecialVratam LessCommonFestiv
+ als
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22843,10 +22843,10 @@ UID:akṣaya-tr̥tīyā_2019-05-07T05:49:35.040016+05:30
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/general/lunar_month/tithi/02/03/akSaya-tRtIyA.tom
  l)<br/>- Tags: CommonFestivals<br/><br/><br/><br/>## Details<br/>- Referen
- ces<br/>  - Smriti Kaustubha p.109-110<br/>  - Bhavishya Puranam\, Uttara 
- Parva\, Adhyaya 172.18-21<br/>- [Edit config file](https://github.com/jyot
- isham/adyatithi/blob/master/general/lunar_month/tithi/02/03/akSaya-tRtIyA.
- toml)<br/>- Tags: CommonFestivals
+ ces<br/>  - Smriti Kaustubham p.109-112<br/>  - Bhavishya Puranam\, Uttara
+  Parva\, Adhyaya 172.18-21<br/>- [Edit config file](https://github.com/jyo
+ tisham/adyatithi/blob/master/general/lunar_month/tithi/02/03/akSaya-tRtIyA
+ .toml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22960,9 +22960,10 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tithi/02/03/kRtayu
  gAdiH.toml)<br/>- Tags: YugadiDays LessCommonFestivals<br/><br/><br/><br/>
  ## Details<br/>- References<br/>  - Vaidyanātha-Dīkṣitīyam<br/>  - Pu
- rushartha Chintamani p. 507<br/>- [Edit config file](https://github.com/jy
- otisham/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tithi/02/03/k
- RtayugAdiH.toml)<br/>- Tags: YugadiDays LessCommonFestivals
+ rushartha Chintamani p. 507<br/>  - Smriti Kaustubham p.110-112<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/blob/master/time_foc
+ us/yugAdiH/lunar_month/tithi/02/03/kRtayugAdiH.toml)<br/>- Tags: YugadiDay
+ s LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23007,9 +23008,10 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/devatA/vaiShNava/lunar_month/tithi/02/03/parazurA
  ma~jayantI~1.toml)<br/>- Tags: Dashavataram MajorFestivals<br/><br/><br/><
  br/>## Details<br/>- References<br/>  - Vrata Raja p. 112<br/>  - Lakshmi 
- Narayana Samhita<br/>- [Edit config file](https://github.com/jyotisham/ady
- atithi/blob/master/devatA/vaiShNava/lunar_month/tithi/02/03/parazurAma~jay
- antI~1.toml)<br/>- Tags: Dashavataram MajorFestivals
+ Narayana Samhita<br/>  - Smriti Kaustubham p.112<br/>- [Edit config file](
+ https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/lunar_
+ month/tithi/02/03/parazurAma~jayantI~1.toml)<br/>- Tags: Dashavataram Majo
+ rFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23642,9 +23644,9 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/devatA/nadI/lunar_month/tithi/02/07/gaGgA-saptamI
  .toml)<br/>- Tags: PuranaEvents SpecialPuja CommonFestivals<br/><br/><br/>
  <br/>## Details<br/>- References<br/>  - Naradiya Puranam\, Adhyaya 116<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/
- devatA/nadI/lunar_month/tithi/02/07/gaGgA-saptamI.toml)<br/>- Tags: Purana
- Events SpecialPuja CommonFestivals
+ />  - Smriti Kaustubham p.112<br/>- [Edit config file](https://github.com/
+ jyotisham/adyatithi/blob/master/devatA/nadI/lunar_month/tithi/02/07/gaGgA-
+ saptamI.toml)<br/>- Tags: PuranaEvents SpecialPuja CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24648,9 +24650,10 @@ DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Vaiśākhaḥ (lunar) m
  onth (Sūryōdayaḥ/puurvaviddha). <br/><br/>vaiśākhamāsi dvādaśyā
  ṁ pūjayēnmadhusūdanam।  <br/>agniṣṭōmamavāpnōti sōmalōka
  ṁ ca gacchati॥ (mahābhāratē dānadharmē)<br/><br/><br/><br/>## Det
- ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/
- master/devatA/vaiShNava/lunar_month/tithi/02/12/madhusUdana-pUjA.toml)<br/
- >- Tags: SpecialVratam LessCommonFestivals
+ ails<br/>- References<br/>  - Smriti Kaustubham p.114<br/>- [Edit config f
+ ile](https://github.com/jyotisham/adyatithi/blob/master/devatA/vaiShNava/l
+ unar_month/tithi/02/12/madhusUdana-pUjA.toml)<br/>- Tags: SpecialVratam Le
+ ssCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25889,10 +25892,10 @@ UID:pārthiva-kalpādiḥ_2019-05-21T05:45:59.039980+05:30
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/kalpAdiH/lunar_month/tithi/02/18/pArth
  iva-kalpAdiH.toml)<br/>- Tags: KalpadiDays LessCommonFestivals<br/><br/><b
- r/><br/>## Details<br/>- References<br/>  - Smriti Kaustubham p.87--88<br/
- >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/t
- ime_focus/kalpAdiH/lunar_month/tithi/02/18/pArthiva-kalpAdiH.toml)<br/>- T
- ags: KalpadiDays LessCommonFestivals
+ r/><br/>## Details<br/>- References<br/>  - Smriti Kaustubham p.87-88<br/>
+ - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/ti
+ me_focus/kalpAdiH/lunar_month/tithi/02/18/pArthiva-kalpAdiH.toml)<br/>- Ta
+ gs: KalpadiDays LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -28401,10 +28404,10 @@ UID:rambhā-tr̥tīyā_2019-06-06T05:45:15.840013+05:30
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/general/lunar_month/tithi/03/03/rambhA~tRtIyA.tom
  l)<br/>- Tags: SpecialVratam LessCommonFestivals<br/><br/><br/><br/>## Det
- ails<br/>- References<br/>  - Smriti Kaustubha p.118<br/>- [Edit config fi
- le](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month
- /tithi/03/03/rambhA~tRtIyA.toml)<br/>- Tags: SpecialVratam LessCommonFesti
- vals
+ ails<br/>- References<br/>  - Smriti Kaustubham p.118<br/>- [Edit config f
+ ile](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_mont
+ h/tithi/03/03/rambhA~tRtIyA.toml)<br/>- Tags: SpecialVratam LessCommonFest
+ ivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -35029,7 +35032,7 @@ DESCRIPTION:The Shukla-paksha Ekadashi of āṣāḍha month is known as
  श्वरसंवादे एकादश्युत्पत्त
  ि-मुरवधो नाम चत्वारिंशोऽध्
  यायः॥४०॥  <br/><br/><br/>- References<br/>  - Smriti Kaust
- ubham p.138-9
+ ubham p.138-139
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -39410,11 +39413,10 @@ DTEND;VALUE=DATE:20190806
 DTSTAMP:20200101T000000Z
 UID:śukla-yajurvēda-upākarma_2019-08-05T05:58:39.360016+05:30
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/gRhya/general/description_only/zukla-yajurvEda-up
- Akarma.toml)<br/>- Tags: CommonFestivals<br/><br/><br/><br/>## Details<br/
- >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/g
- Rhya/general/description_only/zukla-yajurvEda-upAkarma.toml)<br/>- Tags: C
- ommonFestivals
+ am/adyatithi/blob/master/gRhya/general/nirnaya/zukla-yajurvEda-upAkarma.to
+ ml)<br/>- Tags: CommonFestivals<br/><br/><br/><br/>## Details<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/gene
+ ral/nirnaya/zukla-yajurvEda-upAkarma.toml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -40922,13 +40924,11 @@ DTSTART;VALUE=DATE:20190815
 DTEND;VALUE=DATE:20190816
 DTSTAMP:20200101T000000Z
 UID:r̥gvēda-upākarma_2019-08-15T06:00:05.759990+05:30
-DESCRIPTION:Date is computed in code (ūpakarmaFestivalāssigner.assign_ri
- gveda_upakarma\, in jyotisha) rather than by this file: the first occurren
- ce of zravaNa-nakSatra in zrAvaNa-mAsa\, switching to zukla-paJcamI of zrA
- vaNa if that day has an eclipse (before relative ghatikA 45)\, saGkramaNa\
- , or guru-mAudhya flaw.<br/><br/>## Details<br/>- [Edit config file](https
- ://github.com/jyotisham/adyatithi/blob/master/gRhya/general/description_on
- ly/RgvEda-upAkarma.toml)<br/>- Tags: CommonFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/gRhya/general/nirnaya/RgvEda-upAkarma.toml)<br/>-
+  Tags: CommonFestivals<br/><br/><br/><br/>## Details<br/>- [Edit config fi
+ le](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/nirna
+ ya/RgvEda-upAkarma.toml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -41026,11 +41026,10 @@ DTEND;VALUE=DATE:20190816
 DTSTAMP:20200101T000000Z
 UID:bōdhāyana-yajurvēda-upākarma_2019-08-15T06:00:05.759990+05:30
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/general/description_only/bOdhAyana-yajurvEda-upAk
- arma.toml)<br/>- Tags: CommonFestivals<br/><br/><br/><br/>## Details<br/>-
-  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gen
- eral/description_only/bOdhAyana-yajurvEda-upAkarma.toml)<br/>- Tags: Commo
- nFestivals
+ am/adyatithi/blob/master/general/nirnaya/bOdhAyana-yajurvEda-upAkarma.toml
+ )<br/>- Tags: CommonFestivals<br/><br/><br/><br/>## Details<br/>- [Edit co
+ nfig file](https://github.com/jyotisham/adyatithi/blob/master/general/nirn
+ aya/bOdhAyana-yajurvEda-upAkarma.toml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -41375,11 +41374,10 @@ DTEND;VALUE=DATE:20190816
 DTSTAMP:20200101T000000Z
 UID:yajurvēda-upākarma_2019-08-15T06:00:05.759990+05:30
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/gRhya/general/description_only/yajurvEda-upAkarma
- .toml)<br/>- Tags: CommonFestivals<br/><br/><br/><br/>## Details<br/>- [Ed
- it config file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/g
- eneral/description_only/yajurvEda-upAkarma.toml)<br/>- Tags: CommonFestiva
- ls
+ am/adyatithi/blob/master/gRhya/general/nirnaya/yajurvEda-upAkarma.toml)<br
+ />- Tags: CommonFestivals<br/><br/><br/><br/>## Details<br/>- [Edit config
+  file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general/ni
+ rnaya/yajurvEda-upAkarma.toml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -45179,12 +45177,11 @@ DTEND;VALUE=DATE:20190902
 DTSTAMP:20200101T000000Z
 UID:sāmavēda-upākarma_2019-09-01T06:01:14.879993+05:30
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/gRhya/general/description_only/sAmavEda-upAkarma.
- toml)<br/>- Tags: CommonFestivals<br/><br/><br/><br/>## Details<br/>- Refe
- rences<br/>  - Śrīmad Vālmīki-Rāmāyaṇa (Gita Press) 4.28.54<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/gRhy
- a/general/description_only/sAmavEda-upAkarma.toml)<br/>- Tags: CommonFesti
- vals
+ am/adyatithi/blob/master/gRhya/general/nirnaya/sAmavEda-upAkarma.toml)<br/
+ >- Tags: CommonFestivals<br/><br/><br/><br/>## Details<br/>- References<br
+ />  - Śrīmad Vālmīki-Rāmāyaṇa (Gita Press) 4.28.54<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/blob/master/gRhya/general
+ /nirnaya/sAmavEda-upAkarma.toml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -46781,9 +46778,10 @@ UID:kaṭadānōtsavaḥ_2019-09-09T06:01:23.520019+05:30
 DESCRIPTION:Observed on Śukla-Ēkādaśī tithi of Bhādrapadaḥ (lunar)
   month (Sūryōdayaḥ/puurvaviddha). <br/><br/>As per Smruti-Kaustubham\,
   one must perform daanam of mat (kaṭam) to a dharmic Vipra.<br/><br/>## 
- Details<br/>- References<br/>  - Smriti Kaustubham<br/>- [Edit config file
- ](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_month/t
- ithi/06/11/kaTadAnOtsavaH.toml)<br/>- Tags: DanamDays LessCommonFestivals
+ Details<br/>- References<br/>  - Smriti Kaustubham p.240<br/>- [Edit confi
+ g file](https://github.com/jyotisham/adyatithi/blob/master/general/lunar_m
+ onth/tithi/06/11/kaTadAnOtsavaH.toml)<br/>- Tags: DanamDays LessCommonFest
+ ivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -49319,10 +49317,10 @@ UID:kapila-ṣaṣṭhī_2019-09-20T06:01:23.520019+05:30
 DESCRIPTION:Observed on Kr̥ṣṇa-Ṣaṣṭhī tithi of Bhādrapadaḥ 
  (lunar) month (Sūryōdayaḥ/puurvaviddha). <br/><br/>prabhākara namastu
  bhyaṁ saṁsārānmāṁ samuddhara।  <br/>bhuktimuktipradō yasmāt t
- asmācchāntiṁ prayaccha mē॥<br/><br/><br/><br/>## Details<br/>- [Edi
- t config file](https://github.com/jyotisham/adyatithi/blob/master/general/
- lunar_month/tithi/06/21/kapila-SaSThI.toml)<br/>- Tags: SpecialPuja LessCo
- mmonFestivals
+ asmācchāntiṁ prayaccha mē॥<br/><br/><br/><br/>## Details<br/>- Refe
+ rences<br/>  - Smriti Kaustubham p.287<br/>- [Edit config file](https://gi
+ thub.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/06/21/k
+ apila-SaSThI.toml)<br/>- Tags: SpecialPuja LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -50533,9 +50531,10 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tithi/06/28/dvApar
  ayugAdiH.toml)<br/>- Tags: YugadiDays LessCommonFestivals<br/><br/><br/><b
  r/>## Details<br/>- References<br/>  - Vaidyanātha-Dīkṣitīyam<br/>  -
-  Purushartha Chintamani p. 507<br/>- [Edit config file](https://github.com
- /jyotisham/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tithi/06/2
- 8/dvAparayugAdiH.toml)<br/>- Tags: YugadiDays LessCommonFestivals
+  Purushartha Chintamani p. 507<br/>  - Smriti Kaustubham p.110-112<br/>- [
+ Edit config file](https://github.com/jyotisham/adyatithi/blob/master/time_
+ focus/yugAdiH/lunar_month/tithi/06/28/dvAparayugAdiH.toml)<br/>- Tags: Yug
+ adiDays LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -56633,7 +56632,7 @@ UID:prēta-caturdaśī_2019-10-27T06:04:50.879989+05:30
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/devatA/pitR/lunar_month/tithi/07/29/prEta-caturda
  zI.toml)<br/>- Tags: LessCommonFestivals<br/><br/><br/><br/>## Details<br/
- >- References<br/>  - Vrata Chudamani<br/>  - Smriti Kaustubha p. 371<br/>
+ >- References<br/>  - Vrata Chudamani<br/>  - Smriti Kaustubham p.371<br/>
  - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/de
  vatA/pitR/lunar_month/tithi/07/29/prEta-caturdazI.toml)<br/>- Tags: LessCo
  mmonFestivals
@@ -58460,9 +58459,10 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tithi/08/09/trEtAy
  ugAdiH.toml)<br/>- Tags: YugadiDays LessCommonFestivals<br/><br/><br/><br/
  >## Details<br/>- References<br/>  - Vaidyanātha-Dīkṣitīyam<br/>  - P
- urushartha Chintamani p. 507<br/>- [Edit config file](https://github.com/j
- yotisham/adyatithi/blob/master/time_focus/yugAdiH/lunar_month/tithi/08/09/
- trEtAyugAdiH.toml)<br/>- Tags: YugadiDays LessCommonFestivals
+ urushartha Chintamani p. 507<br/>  - Smriti Kaustubham p.110-112<br/>- [Ed
+ it config file](https://github.com/jyotisham/adyatithi/blob/master/time_fo
+ cus/yugAdiH/lunar_month/tithi/08/09/trEtAyugAdiH.toml)<br/>- Tags: YugadiD
+ ays LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -61695,10 +61695,10 @@ UID:sāvitrī-kalpādiḥ_2019-11-19T06:12:54.720012+05:30
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/kalpAdiH/lunar_month/tithi/08/22/sAvit
  rI-kalpAdiH.toml)<br/>- Tags: KalpadiDays LessCommonFestivals<br/><br/><br
- /><br/>## Details<br/>- References<br/>  - Smriti Kaustubham p.87--88<br/>
- - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/ti
- me_focus/kalpAdiH/lunar_month/tithi/08/22/sAvitrI-kalpAdiH.toml)<br/>- Tag
- s: KalpadiDays LessCommonFestivals
+ /><br/>## Details<br/>- References<br/>  - Smriti Kaustubham p.87-88<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/tim
+ e_focus/kalpAdiH/lunar_month/tithi/08/22/sAvitrI-kalpAdiH.toml)<br/>- Tags
+ : KalpadiDays LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -65086,10 +65086,10 @@ UID:pralaya-kalpādiḥ_2019-12-05T06:21:07.200020+05:30
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/blob/master/time_focus/kalpAdiH/lunar_month/tithi/09/09/prala
  ya-kalpAdiH.toml)<br/>- Tags: KalpadiDays LessCommonFestivals<br/><br/><br
- /><br/>## Details<br/>- References<br/>  - Smriti Kaustubham p.87--88<br/>
- - [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/ti
- me_focus/kalpAdiH/lunar_month/tithi/09/09/pralaya-kalpAdiH.toml)<br/>- Tag
- s: KalpadiDays LessCommonFestivals
+ /><br/>## Details<br/>- References<br/>  - Smriti Kaustubham p.87-88<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/tim
+ e_focus/kalpAdiH/lunar_month/tithi/09/09/pralaya-kalpAdiH.toml)<br/>- Tags
+ : KalpadiDays LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -66023,9 +66023,9 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Mārgaśīrṣaḥ (lunar)
  सहितचूर्णितलवणदानम्। तत्र
  ापि चन्द्रोदयव्यापिन्येव ग
  ्राह्या।<br/><br/>## Details<br/>- References<br/>  - Smri
- ti Kaustubha p.306<br/>- [Edit config file](https://github.com/jyotisham/a
- dyatithi/blob/master/general/lunar_month/tithi/09/15/mArgazIrSa-pUrNimA.to
- ml)<br/>- Tags: PurnimaDays LessCommonFestivals
+ ti Kaustubham p.430<br/>- [Edit config file](https://github.com/jyotisham/
+ adyatithi/blob/master/general/lunar_month/tithi/09/15/mArgazIrSa-pUrNimA.t
+ oml)<br/>- Tags: PurnimaDays LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
