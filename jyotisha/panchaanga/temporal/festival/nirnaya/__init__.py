@@ -38,22 +38,48 @@ from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
 
 class NirnayaResult(object):
   """ One decided festival occurrence: `fest_id` (the rule's own id, or a qualified companion of it such as
-  `<id>~zAntipUrvakam`) on `date`, optionally restricted to `interval_id` (a named interval of that day, as accepted
-  by DailyPanchaanga.get_interval; defaults to the full day, as for every other festival). """
+  `<id>~zAntipUrvakam`) on `date`. Optionally, `interval` (an Interval) is the time on that day the procedure chose
+  (eg. a bhadrA-free muhUrta), shown with the festival; else `interval_id` names an interval of that day, as accepted
+  by DailyPanchaanga.get_interval (default: the full day, as for every other festival). """
 
-  def __init__(self, fest_id, date, interval_id="full_day"):
+  def __init__(self, fest_id, date, interval_id="full_day", interval=None):
     self.fest_id = fest_id
     self.date = date
     self.interval_id = interval_id
+    self.interval = interval
+
+
+def find_tithi_spans(assigner, month_number, tithi_index):
+  """ Each occurrence of `tithi_index` in (nija) lunar month `month_number` that begins on a day of the panchaanga
+  proper (not its padding): [(d, jd_start, jd_end)], where d indexes assigner.daily_panchaangas and is the civil day
+  (sunrise to next sunrise) in which the tithi begins. The days after d are always available (the panchaanga is padded
+  after its end), so a procedure may look at d + 1 and d + 2. """
+  from jyotisha.panchaanga.temporal.zodiac import AngaSpanFinder, Ayanamsha
+  from jyotisha.panchaanga.temporal.zodiac.angas import AngaType
+  finder = AngaSpanFinder.get_cached(ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0, anga_type=AngaType.TITHI)
+  panchaanga = assigner.panchaanga
+  spans = []
+  for d in range(panchaanga.duration_prior_padding, panchaanga.duration + panchaanga.duration_prior_padding):
+    day = assigner.daily_panchaangas[d]
+    for span in finder.get_all_angas_in_period(jd1=day.jd_sunrise, jd2=day.jd_next_sunrise):
+      if span.anga.index != tithi_index or span.jd_start is None or not (day.jd_sunrise <= span.jd_start < day.jd_next_sunrise):
+        continue
+      if day.lunar_date.month.index != month_number:
+        continue
+      full_span = finder.find(jd1=span.jd_start - 0.1, jd2=span.jd_start + 3, target_anga_id=tithi_index)
+      spans.append((d, span.jd_start, full_span.jd_end))
+  return spans
 
 
 def get_procedures():
   """ Procedure name (the TOML `nirnaya` value) -> its module. Each module defines `decide(assigner, rule)` and
   `COMPANION_SUFFIXES`: suffixes of qualified ids (`<id><suffix>`) it may emit besides the rule's own id.
   Imported lazily, since procedure modules import applier helpers. """
-  from jyotisha.panchaanga.temporal.festival.nirnaya import upaakarma
+  from jyotisha.panchaanga.temporal.festival.nirnaya import upaakarma, holikaa, rakshaabandhana
   return {
     "upaakarma": upaakarma,
+    "holikaa": holikaa,
+    "rakshaabandhana": rakshaabandhana,
   }
 
 
@@ -80,7 +106,8 @@ class NirnayaFestivalAssigner(FestivalAssigner):
       for suffix in [''] + list(procedure.COMPANION_SUFFIXES):
         self.panchaanga.delete_festival(fest_id=rule.id + suffix)
       for result in procedure.decide(self, rule):
-        self.panchaanga.add_festival(fest_id=result.fest_id, date=result.date, interval_id=result.interval_id)
+        self.panchaanga.add_festival(fest_id=result.fest_id, date=result.date, interval_id=result.interval_id,
+                                     interval=result.interval)
 
 
 # Essential for depickling to work.

@@ -211,7 +211,9 @@ class Panchaanga(common.JsonObject):
     for date in self.festival_id_to_days.pop(fest_id, []):
       self.date_str_to_panchaanga[date.get_date_str()].festival_id_to_instance.pop(fest_id, None)
 
-  def add_festival(self, fest_id, date, interval_id="full_day"):
+  def add_festival(self, fest_id, date, interval_id="full_day", interval=None):
+    """ `interval`, if given, is used as is (eg. a muhUrta chosen by a nirNaya procedure) instead of looking up
+    `interval_id` on that day. """
     if date.get_date_str() not in self.date_str_to_panchaanga:
       return
     excluded_id_pattern = self.computation_system.festival_options.get_fest_id_pattern_excluded()
@@ -219,7 +221,8 @@ class Panchaanga(common.JsonObject):
       return 
 
 
-    interval = self.date_str_to_panchaanga[date.get_date_str()].get_interval(interval_id=interval_id)
+    if interval is None:
+      interval = self.date_str_to_panchaanga[date.get_date_str()].get_interval(interval_id=interval_id)
     self.add_festival_instance(date=date, festival_instance=FestivalInstance(name=fest_id, interval=interval))
 
   def add_festival_instance(self, festival_instance, date):
