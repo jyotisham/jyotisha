@@ -129,7 +129,20 @@ the generic engines sees it; `NirnayaFestivalAssigner` (run where the hand-coded
 applier used to run, after eclipses and before the tithi appliers and relative festivals)
 calls the procedure and adds the date(s) it returns. Entries without `nirnaya` are unaffected.
 Each procedure's module docstring documents its options; the registry is
-`nirnaya.get_procedures()`. This is for *deciders* (one festival, one decision). *Generators*
+`nirnaya.get_procedures()`. Procedures so far:
+
+- `upaakarma`: first occurrence in the month, with flaw (doṣa) checks and fall-back days.
+- `holikaa`: the Śāstrārtha-samanvaya-sabhā 2024 rule (#20, as amended; adyatithi
+  `references/samanvaya-sabha-2024.md`), with the Smṛti-kaustubha verses it rests on (pp.516–518) in the
+  module docstring: pūrṇimā in both days' pradoṣa or in neither → the second day; only in the first
+  day's → the first, avoiding the bhadrā-mukha; a moon rising eclipsed on the chosen day with no
+  pūrṇimā in its pradoṣa → the day before.
+- `rakshaabandhana`: the pūrṇimā at sunrise (optionally lasting at least N ghaṭī after it), at the
+  first time that day outside bhadrā (Smṛti-kaustubha p.167).
+
+The last two record the chosen time on the festival instance. They share
+`nirnaya/bhadraa.py`, which finds bhadrā (viṣṭi karaṇa) spans and their parts (mukha … puccha,
+placed as the Smṛti-kaustubha describes on pp.564–565). This is for *deciders* (one festival, one decision). *Generators*
 that derive a family of ids from one computation (ekādaśī variants, mahādvādaśīs, anadhyayana
 days, …) stay in their appliers.
 
