@@ -6,9 +6,9 @@ Where each expected value comes from is stated with it; none is taken from the c
   Times are compared within a few minutes: jyotisha's ephemeris and sunrise convention differ slightly from Drik's.
 - SABHA: the rule of the samanvaya-sabhA 2024 (adyatithi references/samanvaya-sabha-2024.md, #7) applied by hand to
   Drik's published tithi times.
-- SK (hand-worked): the Smriti Kaustubha hOlikA chain (p.517-518) worked by hand from the tithi, sunrise/sunset and
-  bhadrA times of that year, as listed in each case. Those inputs come from jyotisha's existing (unchanged) tithi and
-  sunrise computations, and the bhadrA times from the helper tested against DRIK above.
+- SABHA-HOLIKA (hand-worked): the samanvaya-sabhA's hOlikA rule (#20, as amended) applied by hand to the tithi and
+  pradoSa times of that year in Mumbai, as listed in each case. Those inputs come from jyotisha's existing (unchanged)
+  tithi and sunrise computations, and the bhadrA times from the helper tested against DRIK above.
 """
 
 import functools
@@ -145,57 +145,58 @@ def test_rakshaabandhana_2025_drik(min_ghatikas):
   _close(result.interval.jd_end, _jd(2025, 8, 9, 13, 24), 3)
 
 
-# --- hOlikA --------------------------------------------------------------------------------------------------------
+# --- hOlikA (pradoSa = the first eighth of the night) ----------------------------------------------------------------
 
-def _holikaa(year, options=None):
+def _holikaa(year):
   assigner = _assigner('Mumbai', '%d-02-10' % year, '%d-04-05' % year)
-  [result] = holikaa.decide(assigner, _rule(12, 'holikaa', kaala='प्रदोषः', options=options))
+  [result] = holikaa.decide(assigner, _rule(12, 'holikaa', kaala='प्रदोषः'))
   return result
 
 
-def test_holikaa_1954_second_day_by_pratipat_rule():
-  # SK step 3a (hand-worked, Mumbai). pUrNimA 18 Mar 16:05 - 19 Mar 18:12: not in 19 Mar's pradoSa (from 18:45);
-  # 18 Mar's pradoSa (18:45-20:15) is all bhadrA (16:05 - 05:07). On 19 Mar the pUrNimA lasts 11.4 h after sunrise
-  # (06:47) >= 3 1/2 yAma of a 12.0 h day (10.5 h), and pratipat lasts 13.7 h after 20 Mar's sunrise > 11.4 h:
-  # increasing. So 19 Mar, in its pradoSa.
-  result = _holikaa(1954)
-  assert result.date.get_date_str() == '1954-03-19'
+def test_holikaa_only_first_day_avoids_mukha():
+  # SABHA-HOLIKA #20.3, 2024: pUrNimA 24 Mar 09:55 - 25 Mar 12:30, so only 24 Mar's pradoSa (18:47-20:16) has it. The
+  # bhadrA-mukha of that pUrNimA starts 19:54 (DRIK, New Delhi: 07:53 PM; the same instant in Mumbai): 18:47-19:54.
+  result = _holikaa(2024)
+  assert result.date.get_date_str() == '2024-03-24'
+  assert result.interval.name == 'bhadrA-mukha-rahita'
+  _close(result.interval.jd_start, _jd(2024, 3, 24, 18, 47), 3)
+  _close(result.interval.jd_end, _jd(2024, 3, 24, 19, 53), 4)
+
+
+def test_holikaa_1954_first_day_since_the_sabha_struck_the_pratipat_rule():
+  # SABHA-HOLIKA #20.3, 1954 (a year the sabhA cites for the struck sArdhayAmatraya rule): pUrNimA 18 Mar 16:05 -
+  # 19 Mar 18:12, before 19 Mar's pradoSa (from 18:45); so only 18 Mar's -> 18 Mar.
+  assert _holikaa(1954).date.get_date_str() == '1954-03-18'
+
+
+def test_holikaa_pradosha_all_mukha():
+  # SABHA-HOLIKA #20.3, 1966: pUrNimA 6 Mar 11:07 - 7 Mar 07:15; only 6 Mar's pradoSa (18:42-20:14) has it, and all of
+  # it is mukha (viSTi 11:07-21:11, 604 min; its mukha starts 3/4 in, at 18:40, and lasts a sixth, to 20:21): from the
+  # end of the mukha.
+  result = _holikaa(1966)
+  assert result.date.get_date_str() == '1966-03-06'
+  assert result.interval.name == 'bhadrA-mukha-anta'
+  assert result.interval.jd_start < result.interval.jd_end
+
+
+def test_holikaa_neither_day_takes_the_second():
+  # SABHA-HOLIKA #20.2, 1956: pUrNimA 25 Mar 20:18 - 26 Mar 18:41, after 25 Mar's pradoSa (ends 20:16) and before 26
+  # Mar's (from 18:47): neither -> 26 Mar (no eclipse at that moonrise).
+  assert _holikaa(1956).date.get_date_str() == '1956-03-26'
+
+
+def test_holikaa_only_second_day():
+  # Main rule (pradoSa-vyApinI), 2017: pUrNimA 11 Mar 20:23 - 12 Mar 20:23, so only 12 Mar's pradoSa (18:44-20:15).
+  result = _holikaa(2017)
+  assert result.date.get_date_str() == '2017-03-12'
   assert result.interval.name == 'प्रदोषः'
 
 
-def test_holikaa_1975_first_day_puccha():
-  # SK steps 3a-3c (hand-worked, Mumbai). pUrNimA 26 Mar 19:45 - 27 Mar 16:06: 26 Mar's pradoSa (18:47-20:16) has it
-  # only in bhadrA (19:45 - 27 Mar 05:54); on 27 Mar it lasts 9.4 h after sunrise < 3 1/2 yAma (10.6 h), so not 3a.
-  # bhadrA ends at 05:54, after the cut-off 2 ghaTikA (48 min) before the 06:41 sunrise, so not 3b; hence the puccha.
-  result = _holikaa(1975)
-  assert result.date.get_date_str() == '1975-03-26'
-  assert result.interval.name == 'bhadrA-puccha'
-
-
-@pytest.mark.parametrize("vardhamaana, expected_date, expected_name", [
-  # SK hand-worked, Mumbai 1964: pUrNimA 26 Feb 19:09 - 27 Feb 18:09, so only 26 Feb's pradoSa has it, in bhadrA
-  # (19:09 - 27 Feb 06:36). On 27 Feb it lasts 11.1 h after sunrise >= 3 1/2 yAma (10.2 h). Pratipat (27 Feb 18:09 -
-  # 28 Feb 17:36) lasts 10.6 h after 28 Feb's sunrise, less than the pUrNimA's 11.1 h, but its whole length (23.45 h)
-  # exceeds the pUrNimA's (22.99 h): the two readings of "प्रतिपद्वर्धमाना" disagree.
-  ('after_sunrise', '1964-02-26', 'bhadrA-puccha'),  # bhadrA ends after the cut-off (06:15): so the puccha
-  ('duration', '1964-02-27', 'प्रदोषः'),
-])
-def test_holikaa_1964_vardhamaana_readings(vardhamaana, expected_date, expected_name):
-  result = _holikaa(1964, options={'vardhamaana': vardhamaana})
-  assert result.date.get_date_str() == expected_date
-  assert result.interval.name == expected_name
-
-
-def test_holikaa_2026_after_bhadraa_ends():
-  # SK step 3b (hand-worked, Mumbai). pUrNimA 2 Mar 17:56 - 3 Mar 17:07: only 2 Mar's pradoSa, all bhadrA (17:56 -
-  # 3 Mar 05:28); on 3 Mar 10.2 h after sunrise < 3 1/2 yAma (10.3 h); bhadrA ends at 05:28, before the cut-off 2 ghaTikA
-  # before the 3 Mar sunrise (06:58 - 48 min): from 05:28.
-  result = _holikaa(2026)
-  assert result.date.get_date_str() == '2026-03-02'
-  assert result.interval.name == 'bhadrA-anta'
-  _close(result.interval.jd_start, _jd(2026, 3, 3, 5, 28), 3)
-
-
-def test_holikaa_rejects_bad_options():
-  with pytest.raises(ValueError):
-    holikaa.decide(_assigner('Mumbai', '2026-02-10', '2026-04-05'), _rule(12, 'holikaa', kaala='प्रदोषः', options={'yaama': 'ghaTikA'}))
+def test_holikaa_both_days_with_grastodaya_eclipse_keeps_second():
+  # SABHA-HOLIKA #20.1 and #20.4, 1961: pUrNimA 1 Mar 17:00 - 2 Mar 19:04, in both days' pradoSa -> 2 Mar; the moon
+  # rises eclipsed on 2 Mar (the lunar eclipse of 2 Mar 1961), but the pUrNimA is in that pradoSa, so it stands.
+  from jyotisha.panchaanga.temporal.festival.nirnaya import find_tithi_spans
+  assigner = _assigner('Mumbai', '1961-02-10', '1961-04-05')
+  [(d, _, _)] = find_tithi_spans(assigner, 12, 15)
+  assert holikaa.has_grastodaya_lunar_eclipse(assigner.panchaanga.city, assigner.daily_panchaangas[d + 1])
+  assert _holikaa(1961).date.get_date_str() == '1961-03-02'

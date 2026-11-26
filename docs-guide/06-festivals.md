@@ -132,9 +132,11 @@ Each procedure's module docstring documents its options; the registry is
 `nirnaya.get_procedures()`. Procedures so far:
 
 - `upaakarma`: first occurrence in the month, with flaw (doṣa) checks and fall-back days.
-- `holikaa`: the Smṛti-kaustubha's bhadrā-aware chain (pp.517–518): pradoṣa free of bhadrā, else the
-  second day, else (if pūrṇimā lasts 3½ yāma on the second day and pratipat is increasing) the second
-  day's pradoṣa, else after bhadrā ends, else in its puccha, else in bhadrā.
+- `holikaa`: the Śāstrārtha-samanvaya-sabhā 2024 rule (#20, as amended; adyatithi
+  `references/samanvaya-sabha-2024.md`), with the Smṛti-kaustubha verses it rests on (pp.516–518) in the
+  module docstring: pūrṇimā in both days' pradoṣa or in neither → the second day; only in the first
+  day's → the first, avoiding the bhadrā-mukha; a moon rising eclipsed on the chosen day with no
+  pūrṇimā in its pradoṣa → the day before.
 - `rakshaabandhana`: the pūrṇimā at sunrise (optionally lasting at least N ghaṭī after it), at the
   first time that day outside bhadrā (Smṛti-kaustubha p.167).
 
